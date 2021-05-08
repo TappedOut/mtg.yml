@@ -17,20 +17,16 @@ formats:
 - Arena
 - Block Constructed
 - Canadian Highlander
-- Casual
 - Commander / EDH
-- Custom
 - Duel Commander
 - Gladiator
 - Highlander
 - Historic
 - Legacy
 - Leviathan
-- Limited
 - Modern
 - Oathbreaker
 - Pioneer
-- Tiny Leaders
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -40,7 +36,7 @@ keywords:
 - Trample
 mana_cost: 2RR
 mana_cost_converted: 4
-mana_produced: R
+mana_produced: R, RR, RRR,
 name: Neheb, Dreadhorde Champion
 power_toughness: 5/4
 printings:
@@ -52,10 +48,17 @@ printings:
     rarity: rare
     release_date: 2019-05-03
     set_number: 140
-rules: "Trample \r\n\r\nWhenever Neheb, Dreadhorde Champion deals combat damage to\
-  \ a player or planeswalker, you may discard any number of cards. If you do, draw\
-  \ that many cards and gain that much R. Until end of turn, you don't lose this mana\
-  \ as steps and phases end."
+- '000':
+    cannonical: false
+    name: Promo Set
+    number: 140
+    rarity: rare
+    release_date: 1990-04-15
+    set_number: 140
+rules: "Trample \r\n\r\nWhenever this deals combat damage to a player or planeswalker,\
+  \ you may discard any number of cards. If you do, draw that many cards and gain\
+  \ that much [[symbol:R]]. Until end of turn, you don't lose this mana as steps and\
+  \ phases end."
 slug: neheb-dreadhorde-champion
 subtype: Zombie Minotaur Warrior
 subtype_tokens:

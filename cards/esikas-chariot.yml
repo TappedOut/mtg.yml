@@ -22,22 +22,18 @@ formats:
 - Block Constructed
 - Brawl
 - Canadian Highlander
-- Casual
 - Commander / EDH
-- Custom
 - Duel Commander
 - Gladiator
 - Highlander
 - Historic
 - Legacy
 - Leviathan
-- Limited
 - Modern
 - Oathbreaker
 - Pioneer
 - Pre-release
 - Standard
-- Tiny Leaders
 - Unformat
 - Vintage
 has_activated_abilities: true
@@ -66,18 +62,19 @@ rules: "When Esika's Chariot enters the battlefield, create two 2/2 green Cat cr
   \ you control with total power 4 or greater: This becomes an artifact creature until\
   \ end of turn.)*"
 slug: esikas-chariot
-standard_season: Standard
 subtype: Vehicle
 subtype_tokens:
 - Vehicle
 tags: card-color-green card-color-green-cost-4 card-type-artifact card-type-legendary
 tokens:
 - colors: G
+  name: 2/2 G Token Creature Cat
   power_toughness: 2/2
   rules: ''
   subtype: Cat
   type: Token Creature
 - colors: null
+  name: Token Creature Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
   subtype: Copy Clone
