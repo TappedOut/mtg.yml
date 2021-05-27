@@ -1,6 +1,6 @@
 activated_abilities:
-- 'R: Destroy target artifact you control.'
-- 'W: Zabaz, the Glimmerwasp gains flying until end of turn.'
+- ': Destroy target artifact you control.'
+- ': This gains flying until end of turn.'
 activation_costs:
 - R
 - W
@@ -23,6 +23,7 @@ is_permanent: true
 keywords:
 - Flying
 - Modular
+- Counters
 mana_cost: '1'
 mana_cost_converted: 1
 name: Zabaz, the Glimmerwasp
@@ -34,10 +35,14 @@ printings:
     rarity: rare
     release_date: 2021-06-18
     set_number: 243
-rules: "Modular 1\r\n\r\nIf a modular triggered ability would one or mor +1/+1 counters\
-  \ on a creature you control, that many plus one +1/+1 counters are put on it instead.\r\
-  \n\r\nR: Destroy target artifact you control.\r\n\r\nW: Zabaz, the Glimmerwasp gains\
-  \ flying until end of turn."
+    variations:
+    - identifier: '474'
+rules: "Modular 1 *(This creature enters the battlefield with a +1/+1 counter on it.\
+  \ When it is put into the graveyard from the battlefield, you may put its +1/+1\
+  \ counters on target artifact creature.)*\r\n\r\nIf a modular triggered ability\
+  \ would put one or more +1/+1 counters on a creature you control, that many plus\
+  \ one +1/+1 counters are put on it instead.\r\n\r\n[[symbol:R]]: Destroy target\
+  \ artifact you control.\r\n\r\n[[symbol:W]]: This gains flying until end of turn."
 slug: zabaz-the-glimmerwasp
 subtype: Insect
 subtype_tokens:
