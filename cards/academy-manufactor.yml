@@ -24,6 +24,8 @@ printings:
     rarity: rare
     release_date: 2021-06-18
     set_number: 219
+    variations:
+    - identifier: '469'
 rules: If you would create a Clue, Food, or Treasure token, instead create one of
   each.
 slug: academy-manufactor
@@ -31,5 +33,24 @@ subtype: Assembly-Worker
 subtype_tokens:
 - Assembly-Worker
 tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact card-type-creature
+tokens:
+- colors: C
+  name: C Token Artifact Treasure
+  power_toughness: null
+  rules: '[[symbol:T]], Sacrifice this artifact: Gain one mana of any colour.'
+  subtype: Treasure
+  type: Token Artifact
+- colors: C
+  name: C Token Artifact Clue
+  power_toughness: null
+  rules: '[[symbol:2]], Sacrifice this artifact: Draw a card.'
+  subtype: Clue
+  type: Token Artifact
+- colors: C
+  name: C Token Artifact Food
+  power_toughness: null
+  rules: '[[symbol:2]], [[symbol:T]], Sacrifice this artifact: You gain 3 life.'
+  subtype: Food
+  type: Token Artifact
 type: Artifact Creature
 url: http://tappedout.net/mtg-card/academy-manufactor/
