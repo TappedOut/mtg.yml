@@ -21,7 +21,10 @@ keywords:
 - Haste
 - Indestructible
 - Trample
+- Attach
+- Exile
 - Living weapon
+- Tokens
 mana_cost: '7'
 mana_cost_converted: 7
 name: Kaldra Compleat
@@ -32,13 +35,24 @@ printings:
     rarity: mythic_rare
     release_date: 2021-06-18
     set_number: 227
-rules: "Living Weapon\r\n\r\nIndestructible\r\n\r\nEquipped creature gets +5/+5 and\
-  \ has first strike, trample, indestructible, haste and \"Whenever this creature\
-  \ deals combat damage to a creature, exile that creature.\"\r\n\r\nEquip [[symbol:7]]"
+    variations:
+    - identifier: '379'
+rules: "Living Weapon *(When this enters the battlefield, create an 0/0 black Phyrexian\
+  \ Germ creature token, then attach this to it.)*\r\n\r\nIndestructible\r\n\r\nEquipped\
+  \ creature gets +5/+5 and has first strike, trample, indestructible, haste and \"\
+  Whenever this creature deals combat damage to a creature, exile that creature.\"\
+  \r\n\r\nEquip [[symbol:7]]"
 slug: kaldra-compleat
 subtype: Equipment
 subtype_tokens:
 - Equipment
 tags: card-color-colorless card-color-colorless-cost-7 card-type-artifact card-type-legendary
+tokens:
+- colors: B
+  name: 0/0 B Token Creature Germ
+  power_toughness: 0/0
+  rules: ''
+  subtype: Germ
+  type: Token Creature
 type: Legendary Artifact
 url: http://tappedout.net/mtg-card/kaldra-compleat/
