@@ -16,9 +16,13 @@ has_activated_abilities: false
 is_limitless: false
 is_permanent: true
 keywords:
+- Sacrifice
 - Landfall
+- Tokens
+- Investigate
 mana_cost: 2G
 mana_cost_converted: 3
+mana_produced: W, U, B, R, G
 name: Tireless Provisioner
 power_toughness: 3/2
 printings:
@@ -28,14 +32,17 @@ printings:
     rarity: uncommon
     release_date: 2021-06-18
     set_number: 180
-rules: Landfall - Whenever a land enters the battlefield under your control, create
-  a Food token or a Treasure token.
+rules: '*Landfall* &mdash; Whenever a land enters the battlefield under your control,
+  create a Food token or a Treasure token. *(Food is an artifact with "[[symbol:2]],
+  [[symbol:T]], Sacrifice this artifact: You gain 3 life." <br>Treasure is an artifact
+  with "[[symbol:T]], Sacrifice this artifact: Gain one mana of any colour.")*'
 slug: tireless-provisioner
 subtype: Elf Scout
 subtype_tokens:
 - Elf
 - Scout
-tags: card-color-green card-color-green-cost-3 card-type-creature
+tags: card-color-green card-color-green-cost-3 card-mana-black card-mana-blue card-mana-green
+  card-mana-red card-mana-white card-type-creature
 tokens:
 - colors: C
   name: C Token Artifact Treasure
