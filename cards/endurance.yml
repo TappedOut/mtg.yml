@@ -1,24 +1,25 @@
 canadian_hl_score: 0
 cannonical_set: MH2
+cannonical_type: Creature
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
-- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-- Zirda, the Dawnwaker
 effective_cost:
 - G
 flat_cost: 3
 formats: []
 has_activated_abilities: false
 is_limitless: false
-is_permanent: false
+is_permanent: true
 keywords:
 - Flash
 - Reach
+- Exile
+- Sacrifice
 - Evoke
 mana_cost: 1GG
 mana_cost_converted: 3
@@ -31,9 +32,13 @@ printings:
     rarity: mythic_rare
     release_date: 2021-06-18
     set_number: 157
-rules: "Flash\r\n\r\nReach\r\n\r\nWhen Endurance enters the battlefield, up to one\
-  \ target player puts all the cards from their graveyard on the bottom of their library\
-  \ in a random order.\r\n\r\nEvoke\u2014Exile a green card from your hand."
+    variations:
+    - identifier: '317'
+rules: "Flash\r\n\r\nReach\r\n\r\nWhen this enters the battlefield, up to one target\
+  \ player puts all the cards from their graveyard on the bottom of their library\
+  \ in a random order.\r\n\r\nEvoke\u2014Exile a green card from your hand. *(You\
+  \ may cast this for its evoke cost instead of paying its mana cost. If you do, this\
+  \ is sacrificed when this enters the battlefield.)*"
 slug: endurance
 subtype: Elemental Incarnation
 subtype_tokens:
