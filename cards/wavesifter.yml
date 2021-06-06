@@ -21,6 +21,12 @@ formats:
 has_activated_abilities: false
 is_limitless: false
 is_permanent: true
+keywords:
+- Flying
+- Sacrifice
+- Evoke
+- Tokens
+- Investigate
 mana_cost: 3UG
 mana_cost_converted: 5
 name: Wavesifter
@@ -32,12 +38,21 @@ printings:
     rarity: common
     release_date: 2021-06-18
     set_number: 217
-rules: "Flying\r\nWhen Wavesifter enters the battlefield, Investigate twice.\r\nEvoke\
-  \ UG"
+rules: "Flying\r\n\r\nWhen this enters the battlefield, investigate twice. *(To investigate,\
+  \ create a colourless Clue artifact token with \"[[symbol:2]], Sacrifice this artifact:\
+  \ Draw a card.\")*\r\n\r\nEvoke [[symbol:G]][[symbol:U]] *(You may cast this spell\
+  \ for the evoke cost. If you do, this is sacrificed when this enters the battlefield.)*"
 slug: wavesifter
 subtype: Elemental
 subtype_tokens:
 - Elemental
 tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-green card-type-creature
+tokens:
+- colors: C
+  name: C Token Artifact Clue
+  power_toughness: null
+  rules: '[[symbol:2]], Sacrifice this artifact: Draw a card.'
+  subtype: Clue
+  type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/wavesifter/
