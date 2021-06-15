@@ -26,6 +26,7 @@ formats:
 - Historic
 - Legacy
 - Leviathan
+- Limited
 - Modern
 - Oathbreaker
 - Pauper
@@ -59,5 +60,13 @@ rules: "Create a 1/1 black and green Pest creature token with \"When this creatu
   \ or discard a card to draw a card.)*"
 slug: hunt-for-specimens
 tags: card-color-black card-color-black-cost-2 card-type-sorcery
+tokens:
+- colors: BG
+  name: Pest 1/1 BG
+  power_toughness: 1/1
+  rules: When this dies *(is put into the graveyard from the battlefield, tokens are
+    put into the graveyard before they cease to exist.)*, you gain 1 life.
+  subtype: Pest
+  type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/hunt-for-specimens/
