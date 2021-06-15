@@ -19,6 +19,7 @@ formats:
 - Highlander
 - Legacy
 - Leviathan
+- Limited
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
@@ -70,23 +71,27 @@ subtype_tokens:
 tags: card-color-blue card-color-blue-cost-4 card-type-creature
 tokens:
 - colors: U
-  name: 6/6 U Token Creature Whale
-  power_toughness: 6/6
-  rules: When this creature dies, create a 9/9 blue Kraken creature token.
-  subtype: Whale
+  name: Fish 3/3 U
+  power_toughness: 3/3
+  rules: When this creature dies *(is put into the graveyard from the battlefield,
+    tokens are put into the graveyard before ceasing to exist)*, create a 6/6 blue
+    Whale creature token with "When this creature dies, create a 9/9 blue Kraken creature
+    token."
+  subtype: Fish
   type: Token Creature
 - colors: U
-  name: 9/9 U Token Creature Kraken
+  name: Kraken 9/9 U
   power_toughness: 9/9
   rules: ''
   subtype: Kraken
   type: Token Creature
 - colors: U
-  name: 3/3 U Token Creature Fish
-  power_toughness: 3/3
-  rules: When this creature dies, put a 6/6 blue Whale creature token onto the battlefield
-    with "When this creature dies, put a 9/9 blue Kraken creature token onto the battlefield."
-  subtype: Fish
+  name: Whale 6/6 U
+  power_toughness: 6/6
+  rules: When this creature dies *(is put into the graveyard from the battlefield,
+    tokens are put into the graveyard before they cease to exist)*, create a 9/9 blue
+    Kraken creature token.
+  subtype: Whale
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/reef-worm/
