@@ -1,6 +1,6 @@
 activated_abilities:
 - ': Gain .'
-- ': Gain  or . Talisman of Conviction deals 1 damage to you.'
+- ': Gain  or . This deals 1 damage to you.'
 activation_costs:
 - C
 - R
@@ -27,6 +27,7 @@ formats:
 - Highlander
 - Legacy
 - Leviathan
+- Limited
 - Modern
 - Oathbreaker
 - Tiny Leaders
@@ -37,9 +38,18 @@ is_limitless: false
 is_permanent: true
 mana_cost: '2'
 mana_cost_converted: 2
-mana_produced: R, W
+mana_produced: R, W, C
 name: Talisman of Conviction
 printings:
+- H1R:
+    cannonical: false
+    foil: foil
+    foil_only: true
+    name: Modern Horizons Timeshifted Reprints
+    number: 33
+    rarity: uncommon
+    release_date: 2021-06-18
+    set_number: 33
 - MH1:
     mtgo_foil_id: 72833
     mtgo_id: 72832
@@ -49,12 +59,12 @@ printings:
     release_date: 2019-06-14
     set_number: 230
 rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:T]]: Gain [[symbol:R]] or\
-  \ [[symbol:W]]. Talisman of Conviction deals 1 damage to you."
+  \ [[symbol:W]]. This deals 1 damage to you."
 slug: talisman-of-conviction
 synonyms:
 - RW Talisman
 - WR Talisman
-tags: card-color-colorless card-color-colorless-cost-2 card-mana-red card-mana-white
-  card-type-artifact
+tags: card-color-colorless card-color-colorless-cost-2 card-mana-colorless-sym card-mana-red
+  card-mana-white card-type-artifact
 type: Artifact
 url: http://tappedout.net/mtg-card/talisman-of-conviction/
