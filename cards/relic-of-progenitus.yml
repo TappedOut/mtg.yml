@@ -1,7 +1,6 @@
 activated_abilities:
-- ': Target player removes a card in his or her graveyard from the game.'
-- ', Remove Relic of Progenitus from the game: Remove all graveyards from the game.
-  Draw a card.'
+- ': Target player exiles a card from their graveyard.'
+- ', Exile this: Exile all graveyard. Draw a card.'
 canadian_hl_score: 0
 cannonical_set: EMA
 cannonical_type: Artifact
@@ -17,11 +16,14 @@ companions:
 flat_cost: 1
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -35,11 +37,18 @@ formats:
 has_activated_abilities: true
 is_limitless: false
 is_permanent: true
+keywords:
+- Exile
 mana_cost: '1'
 mana_cost_converted: 1
 name: Relic of Progenitus
 power_toughness: '0'
 printings:
+- ARENA:
+    cannonical: false
+    name: Arena Cards
+    rarity: common
+    release_date: 2019-09-26
 - EMA:
     mtgo_foil_id: 60604
     mtgo_id: 60603
@@ -81,9 +90,8 @@ printings:
     release_date: 2008-10-03
     wizards_id: 174824
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=174824
-rules: "[[T]]: Target player removes a card in his or her graveyard from the game.\r\
-  \n\r\n[[1]], Remove Relic of Progenitus from the game: Remove all graveyards from\
-  \ the game. Draw a card."
+rules: "[[symbol:T]]: Target player exiles a card from their graveyard.\r\n\r\n[[symbol:1]],\
+  \ Exile this: Exile all graveyard. Draw a card."
 slug: relic-of-progenitus
 tags: card-color-colorless card-color-colorless-cost-1 card-type-artifact
 type: Artifact
