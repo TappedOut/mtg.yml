@@ -1,7 +1,6 @@
 activated_abilities:
-- 'BBB: Draw seven cards.'
-- B:Return all cards exile with Asmodeus the Archfiend to their owner's hand you lose
-  that much life.
+- ': Draw seven cards.'
+- ': Return all cards exile with this to their owner''s hand you lose that much life.'
 activation_costs:
 - B
 canadian_hl_score: 0
@@ -21,6 +20,8 @@ formats: []
 has_activated_abilities: true
 is_limitless: false
 is_permanent: true
+keywords:
+- Exile
 mana_cost: 4bb
 mana_cost_converted: 6
 name: Asmodeus the Archfiend
@@ -34,9 +35,12 @@ printings:
     rarity: rare
     release_date: 2021-07-23
     set_number: 88
-rules: "Binding Contract -- If you would draw a card, exile the top card of your library\
-  \ face down instead.\r\n\r\nBBB: Draw seven cards.\r\n\r\nB:Return all cards exile\
-  \ with Asmodeus the Archfiend to their owner's hand you lose that much life."
+    variations:
+    - identifier: '373'
+rules: "*Binding Contract* &mdash; If you would draw a card, exile the top card of\
+  \ your library face down instead.\r\n\r\n[[symbol:B]][[symbol:B]][[symbol:B]]: Draw\
+  \ seven cards.\r\n\r\n[[symbol:B]]: Return all cards exile with this to their owner's\
+  \ hand you lose that much life."
 slug: asmodeus-the-archfiend
 subtype: Devil
 subtype_tokens:
