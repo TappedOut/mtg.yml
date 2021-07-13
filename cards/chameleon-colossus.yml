@@ -1,5 +1,5 @@
 activated_abilities:
-- ': Chameleon Colossus gets +X/+X until end of turn, where X is its power.'
+- ': This gets +X/+X until end of turn, where X is this creature''s power.'
 activation_costs:
 - G
 canadian_hl_score: 0
@@ -41,7 +41,17 @@ mana_cost_converted: 4
 name: Chameleon Colossus
 power_toughness: 4/4
 printings:
+- AFC:
+    border_color: B
+    frame: m15
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 153
+    rarity: rare
+    release_date: 2021-07-24
+    set_number: 153
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 178
     rarity: rare
@@ -50,9 +60,11 @@ printings:
     wizards_id: 405171
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405171
 - V13:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: modern
     mtgo_foil_id: 50028
     mtgo_id: 50027
     name: 'From the Vault: Twenty'
@@ -63,12 +75,16 @@ printings:
     wizards_id: 373321
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373321
 - ARC:
+    border_color: B
+    frame: modern
     name: Archenemy
     rarity: rare
     release_date: 2010-06-18
     wizards_id: 220451
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220451
 - MOR:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 29201
     mtgo_id: 29200
     name: Morningtide
@@ -77,8 +93,12 @@ printings:
     wizards_id: 153450
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=153450
 rules: "Changeling *(This card is every creature type at all times.) *\r\n\r\nProtection\
-  \ from black\r\n\r\n[[symbol:2]][[symbol:G]][[symbol:G]]: Chameleon Colossus gets\
-  \ +X/+X until end of turn, where X is its power."
+  \ from black *(This creature can't be blocked, targeted, dealt damage, enchanted\
+  \ or equipped by anything white.)* -> Protection *((Remember the acronym <b>debt</b>.)\
+  \ This can't be <b>d</b>amaged, <b>e</b>nchanted, <b>e</b>quipped, <b>b</b>locked\
+  \ or <b>t</b>argeted by anything black. Anything black attached to this immediately\
+  \ falls off.)*\r\n\r\n[[symbol:2]][[symbol:G]][[symbol:G]]: This gets +X/+X until\
+  \ end of turn, where X is this creature's power."
 slug: chameleon-colossus
 subtype: Shapeshifter
 subtype_tokens:
