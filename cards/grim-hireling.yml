@@ -38,6 +38,8 @@ printings:
     rarity: rare
     release_date: 2021-07-24
     set_number: 25
+    variations:
+    - identifier: '294'
 rules: "Whenever one or more creature you control deal combat damage to a player,\
   \ create two Treasure tokens. *(They're artifacts with \"[[symbol:T]], Sacrifice\
   \ this: Gain one mana of any colour.\")*\r\n\r\n[[symbol:B]], Sacrifice X Treasures:\
@@ -51,11 +53,15 @@ subtype_tokens:
 tags: card-color-black card-color-black-cost-4 card-mana-black card-mana-blue card-mana-green
   card-mana-red card-mana-white card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: AFC
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/grim-hireling/
