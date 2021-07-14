@@ -21,11 +21,11 @@ keywords:
 - Haste
 mana_cost: 5RG
 mana_cost_converted: 7
+mana_produced: WWWW, UUUU, BBBB, RRRR, GGGG
 name: Klauth, Unrivaled Ancient
 power_toughness: 4/4
 printings:
 - AFC:
-    booster_exclude: true
     border_color: B
     frame: m15
     name: 'Adventures in the Forgotten Realms: Commander'
@@ -33,15 +33,18 @@ printings:
     rarity: mythic_rare
     release_date: 2021-07-24
     set_number: 50
-rules: "Flying, Haste\r\n\r\nWhenever Klauth, Unrivaled Ancient Attacks, add X mana\
-  \ in any combination of colors, where X is the total power of attacking creatures.\
-  \ Spend this mana only to cast spells. Until end of turn, you don't lose this mana\
-  \ as steps and phases end."
+    variations:
+    - identifier: '320'
+rules: "Flying, Haste\r\n\r\nWhenever this Attacks, gain X mana in any combination\
+  \ of colours, where X is the total power of attacking creatures. Spend this mana\
+  \ only to cast spells. Until end of turn, you don't lose this mana as steps and\
+  \ phases end."
 slug: klauth-unrivaled-ancient
 subtype: Dragon
 subtype_tokens:
 - Dragon
-tags: card-color-gold card-color-gold-cost-7 card-color-green card-color-red card-type-creature
+tags: card-color-gold card-color-gold-cost-7 card-color-green card-color-red card-mana-black
+  card-mana-blue card-mana-green card-mana-red card-mana-white card-type-creature
   card-type-legendary
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/klauth-unrivaled-ancient/
