@@ -1,7 +1,9 @@
 activated_abilities:
-- "T: Add \u25CA to your mana pool. "
-- 'T, Sacrifice Orazca Relic: You gain 3 life and draw a card.  Activate this ability
-  only if you have the city''s blessing.'
+- ': Gain .'
+- ', Sacrifice this: You gain 3 life and draw a card.  Activate this ability only
+  if you have the city''s blessing.'
+activation_costs:
+- C
 canadian_hl_score: 0
 cannonical_set: RIX
 cannonical_type: Artifact
@@ -39,12 +41,23 @@ formats:
 has_activated_abilities: true
 is_limitless: false
 is_permanent: true
+keywords:
+- Sacrifice
+- Ascend
 mana_cost: '3'
 mana_cost_converted: 3
 mana_produced: C
 name: Orazca Relic
 printings:
+- AFC:
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 213
+    rarity: common
+    release_date: 2021-07-24
+    set_number: 213
 - RIX:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66830
     mtgo_id: 66829
     name: Rivals of Ixalan
@@ -54,18 +67,21 @@ printings:
     set_number: 181
     wizards_id: 439845
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439845
-rules: "Ascend (If you control ten or more permanents, you get the city's blessing\
-  \ for the rest of the game.)\r\n\r\nT: Add \u25CA to your mana pool. \r\n\r\nT,\
-  \ Sacrifice Orazca Relic: You gain 3 life and draw a card.  Activate this ability\
-  \ only if you have the city's blessing."
+rules: "Ascend *(If you control ten or more permanents, you get the city's blessing\
+  \ for the rest of the game.)*\r\n\r\n[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:T]],\
+  \ Sacrifice this: You gain 3 life and draw a card.  Activate this ability only if\
+  \ you have the city's blessing."
 slug: orazca-relic
 tags: card-color-colorless card-color-colorless-cost-3 card-mana-colorless-sym card-type-artifact
 tokens:
-- colors: C
-  name: C Emblem City's Blessing
+- cannonical_type: Unknown
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: City's Blessing
   power_toughness: null
   rules: ''
-  subtype: City's Blessing
+  tla: RIX
   type: Emblem
 type: Artifact
 url: http://tappedout.net/mtg-card/orazca-relic/
