@@ -18,6 +18,7 @@ is_permanent: true
 keywords:
 - Flash
 - Exile
+- Sacrifice
 - Tokens
 mana_cost: 3U
 mana_cost_converted: 4
@@ -25,18 +26,17 @@ name: Phantom Steed
 power_toughness: 4/3
 printings:
 - AFC:
-    border_color: B
-    frame: m15
     name: 'Adventures in the Forgotten Realms: Commander'
     number: 18
     rarity: rare
     release_date: 2021-07-24
     set_number: 18
-rules: "Flash\r\n\r\nWhen Phantom Steed enters the battlefield, exile another target\
-  \ creature you control until Phantom Steed leaves the battlefield.\r\n\r\nWhenever\
-  \ Phantom Steed attacks, create a tapped and attacking token that's a copy of the\
-  \ exiled creature, except it's an Illusion in addition to its other types. Sacrifice\
-  \ that token at end of combat."
+    variations:
+    - identifier: '287'
+rules: "Flash\r\n\r\nWhen this enters the battlefield, exile another target creature\
+  \ you control until this leaves the battlefield.\r\n\r\nWhenever this attacks, create\
+  \ a tapped and attacking token that's a copy of the exiled creature, except it's\
+  \ an Illusion in addition to its other types. Sacrifice that token at end of combat."
 slug: phantom-steed
 subtype: Illusion Horse
 subtype_tokens:
@@ -44,10 +44,14 @@ subtype_tokens:
 - Horse
 tags: card-color-blue card-color-blue-cost-4 card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
+  tla: AFC
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/phantom-steed/
