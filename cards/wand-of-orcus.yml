@@ -1,3 +1,7 @@
+activated_abilities:
+- 'Equip  *(: Attach to target creature you control. Equip only as a sorcery. This
+  card enters the battlefield unattached and stays on the battlefield if the creature
+  this card is attached to leaves the battlefield.)*'
 canadian_hl_score: 0
 cannonical_set: AFC
 cannonical_type: Artifact
@@ -20,33 +24,41 @@ is_permanent: true
 keywords:
 - Deathtouch
 - Equip
+- Attach
+- Tokens
 mana_cost: 2B
 mana_cost_converted: 3
 name: Wand of Orcus
 printings:
 - AFC:
-    border_color: B
-    frame: m15
     name: 'Adventures in the Forgotten Realms: Commander'
-    number: 26
+    number: 28
     rarity: rare
     release_date: 2021-07-24
-    set_number: 26
+    set_number: 28
+    variations:
+    - identifier: '297'
 rules: "Whenever equipped creature attacks or blocks, it and Zombies you control gain\
   \ deathtouch until end of turn.\r\n\r\nWhenever equipped creature deals combat damage\
   \ to a player, create that many 2/2 black Zombie creature tokens.\r\n\r\nEquip [[symbol:\
-  \ 3]]"
+  \ 3]] *([[symbol:3]]: Attach to target creature you control. Equip only as a sorcery.\
+  \ This card enters the battlefield unattached and stays on the battlefield if the\
+  \ creature this card is attached to leaves the battlefield.)*"
 slug: wand-of-orcus
 subtype: Equipment
 subtype_tokens:
 - Equipment
 tags: card-color-black card-color-black-cost-3 card-type-artifact card-type-legendary
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: AFC
   type: Token Creature
 type: Legendary Artifact
 url: http://tappedout.net/mtg-card/wand-of-orcus/
