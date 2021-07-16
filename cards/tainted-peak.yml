@@ -1,7 +1,10 @@
 activated_abilities:
-- 'Tap: Add (1) to your mana pool.'
-- 'Tap: Add (Black) or (Red) to your mana pool. Play this ability only if you control
-  a Swamp.'
+- ': Gain .'
+- ': Gain  or . Activate this ability only if you control a Swamp.'
+activation_costs:
+- B
+- C
+- R
 canadian_hl_score: 0
 cannonical_set: TOR
 cannonical_type: Land
@@ -35,10 +38,18 @@ is_land: true
 is_limitless: false
 is_permanent: true
 mana_cost_converted: 0
-mana_produced: b/r
+mana_produced: B, R, C
 name: Tainted Peak
 printings:
+- AFC:
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 266
+    rarity: uncommon
+    release_date: 2021-07-24
+    set_number: 266
 - TOR:
+    border_color: B
+    frame: original
     mtgo_foil_id: 17326
     mtgo_id: 17325
     name: Torment
@@ -46,10 +57,10 @@ printings:
     release_date: 2002-02-08
     wizards_id: 31759
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=31759
-rules: "Tap: Add (1) to your mana pool.\r\n\r\n \r\n\r\nTap: Add (Black) or (Red)\
-  \ to your mana pool. Play this ability only if you control a Swamp."
+rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:T]]: Gain [[symbol:B]] or\
+  \ [[symbol:R]]. Activate this ability only if you control a Swamp."
 slug: tainted-peak
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-red
-  card-type-land
+tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-colorless-sym
+  card-mana-red card-type-land
 type: Land
 url: http://tappedout.net/mtg-card/tainted-peak/
