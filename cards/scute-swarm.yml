@@ -53,6 +53,8 @@ printings:
     variations:
     - identifier: '308'
     - identifier: PromoPack
+    wizards_id: 491851
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=491851
 rules: "*Landfall* \u2014 Whenever a land enters the battlefield under your control,\
   \ create a 1/1 green Insect creature token. If you control six or more lands, create\
   \ a token that\u2019s a copy of this instead."
@@ -62,11 +64,24 @@ subtype_tokens:
 - Insect
 tags: card-color-green card-color-green-cost-3 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Insect 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Insect
+  tla: ZNR
+  type: Token Creature
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Copy Clone
+  power_toughness: null
+  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
+  tla: ZNR
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/scute-swarm/
