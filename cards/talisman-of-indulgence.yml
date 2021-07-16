@@ -1,7 +1,10 @@
 activated_abilities:
-- 'Tap: Add (1) to your mana pool.'
-- 'Tap: Add (Black) or (Red) to your mana pool. Talisman of Indulgence deals 1 damage
-  to you.'
+- ': Gain .'
+- ': Gain  or . This deals 1 damage to you.'
+activation_costs:
+- B
+- C
+- R
 canadian_hl_score: 0
 cannonical_set: E01
 cannonical_type: Artifact
@@ -35,10 +38,18 @@ is_limitless: false
 is_permanent: true
 mana_cost: '2'
 mana_cost_converted: 2
-mana_produced: b/r
+mana_produced: B, R, C
 name: Talisman of Indulgence
 printings:
+- AFC:
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 219
+    rarity: uncommon
+    release_date: 2021-07-24
+    set_number: 219
 - E01:
+    border_color: B
+    frame: m15
     name: 'Archenemy: Nicol Bolas'
     number: 91
     rarity: uncommon
@@ -47,6 +58,8 @@ printings:
     wizards_id: 430630
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430630
 - MRD:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 19682
     mtgo_id: 19681
     name: Mirrodin
@@ -54,13 +67,13 @@ printings:
     release_date: 2003-10-02
     wizards_id: 39599
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=39599
-rules: "Tap: Add (1) to your mana pool.\r\n\r\nTap: Add (Black) or (Red) to your mana\
-  \ pool. Talisman of Indulgence deals 1 damage to you."
+rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:T]]: Gain [[symbol:B]] or\
+  \ [[symbol:R]]. This deals 1 damage to you."
 slug: talisman-of-indulgence
 synonyms:
 - BR Talisman
 - RB Talisman
-tags: card-color-colorless card-color-colorless-cost-2 card-mana-black card-mana-red
-  card-type-artifact
+tags: card-color-colorless card-color-colorless-cost-2 card-mana-black card-mana-colorless-sym
+  card-mana-red card-type-artifact
 type: Artifact
 url: http://tappedout.net/mtg-card/talisman-of-indulgence/
