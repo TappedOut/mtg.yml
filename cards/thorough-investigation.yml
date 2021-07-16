@@ -21,6 +21,8 @@ has_activated_abilities: true
 is_limitless: false
 is_permanent: true
 keywords:
+- Sacrifice
+- Tokens
 - Investigate
 - Venture Into the Dungeon
 mana_cost: 2W
@@ -28,17 +30,23 @@ mana_cost_converted: 3
 name: Thorough Investigation
 printings:
 - AFC:
-    border_color: B
-    frame: m15
     name: 'Adventures in the Forgotten Realms: Commander'
     number: 12
     rarity: rare
     release_date: 2021-07-24
     set_number: 12
+    variations:
+    - identifier: '281'
 rules: "Whenever you attack, investigate. *(Create a colorless Clue artifact token\
   \ with \u201C[[symbol: 2]], Sacrifice this artifact: Draw a card.\u201D)*\r\n\r\n\
-  Whenever you sacrifice a Clue, venture into the dungeon. *(Enter the first room\
-  \ or advance to the next room.)*"
+  Whenever you sacrifice a Clue, venture into the dungeon. *(If you aren't venturing\
+  \ through a dungeon, choose one of the dungeon cards you own from outside the game,\
+  \ put it into the command zone and put a venture counter on the first room of that\
+  \ dungeon. All effects of that room trigger. When you venture into the dungeon while\
+  \ you have a dungeon in the command zone, advance to the next room downward of your\
+  \ choice and triggering all effects of that room. When you have resolved the effects\
+  \ of the last room of the dungeon, remove that dungeon from the game. You can only\
+  \ venture through one dungeon at a time.)*"
 slug: thorough-investigation
 tags: card-color-white card-color-white-cost-3 card-type-enchantment
 tokens:
@@ -52,5 +60,32 @@ tokens:
   subtype: Clue
   tla: AFC
   type: Token Artifact
+- cannonical_type: Unknown
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: 'Dungeon: Dungeon of the Mad Mage'
+  power_toughness: null
+  rules: ''
+  tla: AFC
+  type: Dungeon
+- cannonical_type: Unknown
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: 'Dungeon: Lost Mine of Phandelver'
+  power_toughness: null
+  rules: ''
+  tla: AFC
+  type: Dungeon
+- cannonical_type: Unknown
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: 'Dungeon: Tomb of Annihilation'
+  power_toughness: null
+  rules: ''
+  tla: AFC
+  type: Dungeon
 type: Enchantment
 url: http://tappedout.net/mtg-card/thorough-investigation/
