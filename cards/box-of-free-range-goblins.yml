@@ -25,6 +25,8 @@ mana_cost_converted: 6
 name: Box of Free-Range Goblins
 printings:
 - UN3:
+    border_color: S
+    frame: m15
     name: Unstable
     number: 77
     rarity: common
@@ -37,17 +39,25 @@ rules: Roll a six-sided die. Create a number of 1/1 red Goblin creature tokens e
 slug: box-of-free-range-goblins
 tags: card-color-red card-color-red-cost-6 card-type-sorcery
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R w/ Haste
   power_toughness: 1/1
   rules: Haste
   subtype: Goblin
+  tla: UN3
   type: Token Creature
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: UN3
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/box-of-free-range-goblins/

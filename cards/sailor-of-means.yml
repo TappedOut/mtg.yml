@@ -45,23 +45,31 @@ name: Sailor of Means
 power_toughness: 1/4
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 88
     rarity: common
     release_date: 2020-11-20
     set_number: 88
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 172
     rarity: common
     release_date: 2020-07-17
     set_number: 172
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - RIX:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66552
     mtgo_id: 66551
     name: Rivals of Ixalan
@@ -72,6 +80,8 @@ printings:
     wizards_id: 439706
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439706
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65159
     mtgo_id: 65158
     name: Ixalan
@@ -91,11 +101,15 @@ subtype_tokens:
 tags: card-color-blue card-color-blue-cost-3 card-mana-black card-mana-blue card-mana-green
   card-mana-red card-mana-white card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: CMR
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/sailor-of-means/

@@ -50,6 +50,8 @@ mana_cost_converted: 2
 name: Fungal Plots
 printings:
 - DOM:
+    border_color: B
+    frame: m15
     name: Dominaria
     number: 160
     rarity: uncommon
@@ -63,11 +65,15 @@ rules: "[[symbol:1]][[symbol:G]], Exile a creature card from your graveyard: Cre
 slug: fungal-plots
 tags: card-color-green card-color-green-cost-2 card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: DOM
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/fungal-plots/

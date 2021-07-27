@@ -38,6 +38,8 @@ mana_cost_converted: 4
 name: Search the Premises
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 29
     rarity: rare
@@ -51,11 +53,15 @@ rules: 'Whenever a creature attacks you or a planeswalker you control, investiga
 slug: search-the-premises
 tags: card-color-white card-color-white-cost-4 card-type-enchantment
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Clue
   power_toughness: null
   rules: '[[symbol:2]], Sacrifice this: Draw a card.'
   subtype: Clue
+  tla: MH2
   type: Token Artifact
 type: Enchantment
 url: http://tappedout.net/mtg-card/search-the-premises/

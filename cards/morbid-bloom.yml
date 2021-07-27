@@ -39,6 +39,8 @@ mana_cost_converted: 6
 name: Morbid Bloom
 printings:
 - ARB:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 32343
     mtgo_id: 32342
     name: Alara Reborn
@@ -52,11 +54,15 @@ rules: "Exile target creature card from a graveyard, then put X 1/1 green Saprol
 slug: morbid-bloom
 tags: card-color-black card-color-gold card-color-gold-cost-6 card-color-green card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: ARB
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/morbid-bloom/

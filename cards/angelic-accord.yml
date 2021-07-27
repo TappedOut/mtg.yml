@@ -35,6 +35,8 @@ mana_cost_converted: 4
 name: Angelic Accord
 printings:
 - IMA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65894
     mtgo_id: 65893
     name: Iconic Masters
@@ -45,6 +47,8 @@ printings:
     wizards_id: 438573
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438573
 - M14:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 49404
     mtgo_id: 49403
     name: Magic 2014
@@ -57,11 +61,15 @@ rules: At the beginning of each end step, if you gained 4 or more life this turn
 slug: angelic-accord
 tags: card-color-white card-color-white-cost-4 card-type-enchantment
 tokens:
-- colors: W
-  name: 4/4 W Token Creature Angel
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Angel 4/4 W
   power_toughness: 4/4
   rules: Flying
   subtype: Angel
+  tla: IMA
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/angelic-accord/

@@ -39,6 +39,8 @@ mana_cost_converted: 3
 name: Sound the Call
 printings:
 - CSP:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 24586
     mtgo_id: 24585
     name: Coldsnap
@@ -51,11 +53,15 @@ rules: Put a 1/1 green Wolf creature token into play with "This creature gets +1
 slug: sound-the-call
 tags: card-color-green card-color-green-cost-3 card-type-sorcery
 tokens:
-- colors: G
-  name: 1/1 G Token Creature Wolf
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Wolf 1/1 G for Sound the Call
   power_toughness: 1/1
   rules: This creature gets +1/+1 for each card named Sound the Call in each graveyard.
   subtype: Wolf
+  tla: CSP
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/sound-the-call/

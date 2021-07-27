@@ -49,6 +49,8 @@ name: Feasting Troll King
 power_toughness: 7/6
 printings:
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78439
     mtgo_id: 78438
     name: Throne of Eldraine
@@ -72,11 +74,15 @@ subtype_tokens:
 - Noble
 tags: card-color-green card-color-green-cost-6 card-type-creature
 tokens:
-- colors: C
-  name: C Token Artifact Food
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Food
   power_toughness: null
   rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
   subtype: Food
+  tla: ELD
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/feasting-troll-king/

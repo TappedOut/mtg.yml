@@ -32,12 +32,18 @@ formats:
 has_activated_abilities: false
 is_limitless: false
 is_permanent: true
+keywords:
+- Sacrifice
+- Tokens
 mana_cost: 3B
 mana_cost_converted: 4
+mana_produced: W, U. B. R. G
 name: Pitiless Plunderer
 power_toughness: 1/4
 printings:
 - RIX:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66616
     mtgo_id: 66615
     name: Rivals of Ixalan
@@ -47,21 +53,27 @@ printings:
     set_number: 81
     wizards_id: 439738
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439738
-rules: 'Whenever another creature you control dies, create a colorless Treasure artifact
-  token with "[[T]], Sacrifice this artifact: Add one mana of any color to your mana
-  pool."'
+rules: 'Whenever another creature you control dies *(is put into the graveyard from
+  the battlefield, tokens are put into the graveyard before they cease to exist)*,
+  create a colorless Treasure artifact token with "[[symbol:T]], Sacrifice this artifact:
+  Gain one mana of any colour."'
 slug: pitiless-plunderer
 subtype: Human Pirate
 subtype_tokens:
 - Human
 - Pirate
-tags: card-color-black card-color-black-cost-4 card-type-creature
+tags: card-color-black card-color-black-cost-4 card-mana-black card-mana-blue card-mana-green
+  card-mana-red card-mana-white card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: RIX
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/pitiless-plunderer/

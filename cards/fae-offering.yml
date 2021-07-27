@@ -37,6 +37,8 @@ mana_cost_converted: 3
 name: Fae Offering
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 158
     rarity: uncommon
@@ -48,23 +50,35 @@ rules: At the beginning of each end step, if you've cast both a creature spell a
 slug: fae-offering
 tags: card-color-green card-color-green-cost-3 card-type-enchantment
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Clue
   power_toughness: null
   rules: '[[symbol:2]], Sacrifice this: Draw a card.'
   subtype: Clue
+  tla: MH2
   type: Token Artifact
-- colors: C
-  name: C Token Artifact Food
-  power_toughness: null
-  rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
-  subtype: Food
-  type: Token Artifact
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: MH2
+  type: Token Artifact
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Food
+  power_toughness: null
+  rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
+  subtype: Food
+  tla: MH2
   type: Token Artifact
 type: Enchantment
 url: http://tappedout.net/mtg-card/fae-offering/

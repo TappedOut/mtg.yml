@@ -45,6 +45,8 @@ name: Floodhound
 power_toughness: 1/2
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 42
     rarity: common
@@ -61,11 +63,15 @@ subtype_tokens:
 - Dog
 tags: card-color-blue card-color-blue-cost-1 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Clue
   power_toughness: null
   rules: '[[symbol:2]], Sacrifice this: Draw a card.'
   subtype: Clue
+  tla: MH2
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/floodhound/

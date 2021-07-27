@@ -36,6 +36,8 @@ mana_cost_converted: 7
 name: Necrotic Hex
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 137
     rarity: rare
@@ -48,11 +50,15 @@ rules: Each player sacrifices six creatures. You create six tapped 2/2 black Zom
 slug: necrotic-hex
 tags: card-color-black card-color-black-cost-7 card-type-sorcery
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: CMR
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/necrotic-hex/

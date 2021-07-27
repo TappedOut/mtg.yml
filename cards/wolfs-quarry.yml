@@ -51,6 +51,8 @@ mana_cost_converted: 6
 name: Wolf's Quarry
 printings:
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78513
     mtgo_id: 78512
     name: Throne of Eldraine
@@ -65,19 +67,27 @@ rules: "Create three 1/1 green Boar creature tokens with \u201CWhen this creatur
 slug: wolfs-quarry
 tags: card-color-green card-color-green-cost-6 card-type-sorcery
 tokens:
-- colors: G
-  name: 1/1 G Token Creature Boar
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: null
   power_toughness: 1/1
   rules: 'When this creature is put into the graveyard from the battlefield, create
     a food token. *(It''s a token with "[[symbol:2]], [[symbol:T]], Sacrifice this
     artifact: You gain 3 life.")*'
   subtype: Boar
+  tla: ELD
   type: Token Creature
-- colors: C
-  name: C Token Artifact Food
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Food
   power_toughness: null
   rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
   subtype: Food
+  tla: ELD
   type: Token Artifact
 type: Sorcery
 url: http://tappedout.net/mtg-card/wolfs-quarry/

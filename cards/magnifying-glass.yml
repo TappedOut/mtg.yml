@@ -47,12 +47,16 @@ mana_produced: C
 name: Magnifying Glass
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 269
     rarity: common
     release_date: 2020-08-07
     set_number: 269
 - C18:
+    border_color: B
+    frame: m15
     name: Commander 2018
     number: 208
     rarity: uncommon
@@ -61,6 +65,8 @@ printings:
     wizards_id: 451163
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451163
 - SOI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60139
     mtgo_id: 60138
     name: Shadows over Innistrad
@@ -76,11 +82,15 @@ rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:4]], [[symbol:T]]: Inve
 slug: magnifying-glass
 tags: card-color-colorless card-color-colorless-cost-3 card-mana-colorless-sym card-type-artifact
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Clue
   power_toughness: null
   rules: '[[symbol:2]], Sacrifice this: Draw a card.'
   subtype: Clue
+  tla: 2XM
   type: Token Artifact
 type: Artifact
 url: http://tappedout.net/mtg-card/magnifying-glass/

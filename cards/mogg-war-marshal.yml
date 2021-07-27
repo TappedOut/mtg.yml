@@ -1,7 +1,7 @@
 activation_costs:
 - R
 canadian_hl_score: 0
-cannonical_set: TSR
+cannonical_set: EMA
 cannonical_type: Creature
 companions:
 - Gyruda, Doom of Depths
@@ -43,17 +43,24 @@ name: Mogg War Marshal
 power_toughness: 1/1
 printings:
 - TSR:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Time Spiral Remastered
     number: 176
     rarity: common
     release_date: 2021-03-19
     set_number: 176
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - EMA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60942
     mtgo_id: 60941
     name: Eternal Masters
@@ -64,7 +71,9 @@ printings:
     wizards_id: 413681
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413681
 - DD3:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Duel Decks Anthology
     number: 45
     rarity: common
@@ -73,6 +82,8 @@ printings:
     wizards_id: 393973
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393973
 - MMA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 49059
     mtgo_id: 49058
     name: Modern Masters
@@ -81,6 +92,8 @@ printings:
     wizards_id: 370547
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370547
 - EVG:
+    border_color: B
+    frame: modern
     mtgo_id: 28939
     name: 'Duel Decks: Elves vs. Goblins'
     number: 45
@@ -90,6 +103,8 @@ printings:
     wizards_id: 157924
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=157924
 - TSP:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 25758
     mtgo_id: 25757
     name: Time Spiral
@@ -109,11 +124,15 @@ subtype_tokens:
 - Warrior
 tags: card-color-red card-color-red-cost-2 card-type-creature
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: EMA
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/mogg-war-marshal/

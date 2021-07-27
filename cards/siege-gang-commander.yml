@@ -46,7 +46,9 @@ name: Siege-Gang Commander
 power_toughness: 2/2
 printings:
 - GNT:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Magic Game Night
     number: 42
     rarity: rare
@@ -55,6 +57,8 @@ printings:
     wizards_id: 456562
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456562
 - DOM:
+    border_color: B
+    frame: m15
     name: Dominaria
     number: 143
     rarity: rare
@@ -65,6 +69,8 @@ printings:
     wizards_id: 443031
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443031
 - EMA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60594
     mtgo_id: 60593
     name: Eternal Masters
@@ -75,7 +81,9 @@ printings:
     wizards_id: 413689
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413689
 - DD3:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Duel Decks Anthology
     number: 32
     rarity: rare
@@ -84,6 +92,8 @@ printings:
     wizards_id: 393982
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393982
 - M10:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 33028
     mtgo_id: 33027
     name: 2010 Core Set
@@ -94,8 +104,10 @@ printings:
     wizards_id: 193751
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=193751
 - EVG:
+    border_color: B
     foil: foil
     foil_only: true
+    frame: modern
     mtgo_foil_id: 28857
     mtgo_id: 28856
     name: 'Duel Decks: Elves vs. Goblins'
@@ -106,6 +118,8 @@ printings:
     wizards_id: 157926
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=157926
 - 10E:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 27551
     mtgo_id: 27550
     name: Tenth Edition
@@ -116,6 +130,8 @@ printings:
     wizards_id: 130539
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=130539
 - SCG:
+    border_color: B
+    frame: original
     mtgo_foil_id: 18821
     mtgo_id: 18820
     name: Scourge
@@ -134,11 +150,15 @@ subtype_tokens:
 - Goblin
 tags: card-color-red card-color-red-cost-5 card-type-creature
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: DOM
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/siege-gang-commander/

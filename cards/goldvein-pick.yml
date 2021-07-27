@@ -49,6 +49,8 @@ mana_produced: W, U, B, R, G
 name: Goldvein Pick
 printings:
 - KHM:
+    border_color: B
+    frame: m15
     name: Kaldheim
     number: 239
     rarity: common
@@ -64,11 +66,15 @@ subtype_tokens:
 tags: card-color-colorless card-color-colorless-cost-2 card-mana-black card-mana-blue
   card-mana-green card-mana-red card-mana-white card-type-artifact
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: KHM
   type: Token Artifact
 type: Artifact
 url: http://tappedout.net/mtg-card/goldvein-pick/

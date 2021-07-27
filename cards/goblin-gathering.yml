@@ -45,6 +45,8 @@ mana_cost_converted: 3
 name: Goblin Gathering
 printings:
 - RNA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71209
     mtgo_id: 71208
     name: Ravnica Allegiance
@@ -57,11 +59,15 @@ rules: Create a number of 1/1 red Goblin creature tokens equal to two plus the n
 slug: goblin-gathering
 tags: card-color-red card-color-red-cost-3 card-type-sorcery
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: RNA
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/goblin-gathering/

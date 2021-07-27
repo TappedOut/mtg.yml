@@ -44,13 +44,17 @@ power_toughness: 5/5
 printings:
 - CM1:
     booster_exclude: true
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology
     number: 171
     rarity: rare
     release_date: 2017-06-09
     set_number: 171
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54698
     mtgo_id: 54697
     name: Commander 2014
@@ -59,6 +63,8 @@ printings:
     wizards_id: 389755
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389755
 - LRW:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 28714
     mtgo_id: 28713
     name: Lorwyn
@@ -67,7 +73,9 @@ printings:
     wizards_id: 140194
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=140194
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 34
     rarity: rare
@@ -84,11 +92,15 @@ subtype_tokens:
 - Warrior
 tags: card-color-green card-color-green-cost-4 card-type-creature
 tokens:
-- colors: G
-  name: 2/2 G Token Creature Wolf
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Wolf 2/2 G
   power_toughness: 2/2
   rules: ''
   subtype: Wolf
+  tla: C14
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/wrens-run-packmaster/

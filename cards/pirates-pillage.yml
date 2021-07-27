@@ -40,6 +40,8 @@ mana_cost_converted: 4
 name: Pirate's Pillage
 printings:
 - RIX:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66672
     mtgo_id: 66671
     name: Rivals of Ixalan
@@ -55,11 +57,15 @@ rules: "As an additional cost to cast Pirate's Pillage, discard a card.\r\n\r\nD
 slug: pirates-pillage
 tags: card-color-red card-color-red-cost-4 card-type-sorcery
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: RIX
   type: Token Artifact
 type: Sorcery
 url: http://tappedout.net/mtg-card/pirates-pillage/

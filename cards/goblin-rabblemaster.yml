@@ -39,13 +39,17 @@ name: Goblin Rabblemaster
 power_toughness: 2/2
 printings:
 - SLD:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Secret Lair
     number: 215
     rarity: rare
     release_date: 2019-12-09
     set_number: 215
 - DDT:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Merfolk vs. Goblins'
     number: 46
     rarity: rare
@@ -54,6 +58,8 @@ printings:
     wizards_id: 438486
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438486
 - M15:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 53501
     mtgo_id: 53500
     name: Magic 2015
@@ -64,7 +70,9 @@ printings:
     wizards_id: 383258
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383258
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 145
     rarity: rare
@@ -81,11 +89,15 @@ subtype_tokens:
 - Warrior
 tags: card-color-red card-color-red-cost-3 card-type-creature
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: DDT
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/goblin-rabblemaster/

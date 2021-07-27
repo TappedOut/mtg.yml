@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: MYS1
+cannonical_set: GK1
 cannonical_type: Instant
 companions:
 - Kaheera, the Orphanguard
@@ -41,10 +41,15 @@ mana_cost_converted: 5
 name: Scatter the Seeds
 printings:
 - MYS1:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - GK1:
+    border_color: B
+    frame: m15
     name: 'Guilds of Ravnica: Guild Kit'
     number: 106
     rarity: common
@@ -53,6 +58,8 @@ printings:
     wizards_id: 456364
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456364
 - MM2:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 57433
     mtgo_id: 57432
     name: Modern Masters 2015 Edition
@@ -61,6 +68,8 @@ printings:
     wizards_id: 397665
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397665
 - RAV:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 23197
     mtgo_id: 23196
     name: 'Ravnica: City of Guilds'
@@ -74,11 +83,15 @@ rules: "Convoke *(Your creatures can help cast this spell. Each creature you tap
 slug: scatter-the-seeds
 tags: card-color-green card-color-green-cost-5 card-type-instant
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: GK1
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/scatter-the-seeds/

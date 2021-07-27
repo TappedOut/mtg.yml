@@ -48,12 +48,16 @@ mana_produced: W, U, B, R, G
 name: Heartless Pillage
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 96
     rarity: common
     release_date: 2020-08-07
     set_number: 96
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65235
     mtgo_id: 65234
     name: Ixalan
@@ -70,11 +74,15 @@ slug: heartless-pillage
 tags: card-color-black card-color-black-cost-3 card-mana-black card-mana-blue card-mana-green
   card-mana-red card-mana-white card-type-sorcery
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: 2XM
   type: Token Artifact
 type: Sorcery
 url: http://tappedout.net/mtg-card/heartless-pillage/

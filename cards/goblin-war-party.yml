@@ -44,7 +44,8 @@ mana_cost_converted: 4
 name: Goblin War Party
 printings:
 - MH1:
-    cannonical: false
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72635
     mtgo_id: 72634
     name: Modern Horizons
@@ -58,11 +59,15 @@ rules: "Choose one &mdash;\r\n\r\n- Create three 1/1 red Goblin creature tokens.
 slug: goblin-war-party
 tags: card-color-red card-color-red-cost-4 card-type-sorcery
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: MH1
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/goblin-war-party/

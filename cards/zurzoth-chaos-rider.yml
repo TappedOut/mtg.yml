@@ -42,12 +42,16 @@ name: Zurzoth, Chaos Rider
 power_toughness: 2/3
 printings:
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 27
     rarity: rare
     release_date: 2020-07-17
     set_number: 27
 - M21:
+    border_color: B
+    frame: m15
     name: Core Set 2021
     rarity: rare
     release_date: 2020-07-03
@@ -62,12 +66,17 @@ subtype_tokens:
 - Devil
 tags: card-color-red card-color-red-cost-3 card-type-creature card-type-legendary
 tokens:
-- colors: R
-  name: 1/1 R Token Creature Devil
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Devil 1/1 R
   power_toughness: 1/1
-  rules: When this creature dies, it deals 1 damage to target creature, player or
-    planeswalker.
+  rules: When this creature dies *(is put into the graveyard from the battlefield,
+    tokens are put into the graveyard before ceasing to exist)*, it deals 1 damage
+    to target creature, player or planeswalker.
   subtype: Devil
+  tla: JMP
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/zurzoth-chaos-rider/

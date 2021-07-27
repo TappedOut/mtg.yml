@@ -38,6 +38,8 @@ mana_cost_converted: 6
 name: Necromancer's Covenant
 printings:
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 229
     rarity: rare
@@ -46,6 +48,8 @@ printings:
     wizards_id: 405317
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405317
 - ARB:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 32417
     mtgo_id: 32416
     name: Alara Reborn
@@ -60,11 +64,15 @@ rules: "When Necromancer's Covenant enters the battlefield, exile all creature c
 slug: necromancers-covenant
 tags: card-color-black card-color-gold card-color-gold-cost-6 card-color-white card-type-enchantment
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: C15
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/necromancers-covenant/

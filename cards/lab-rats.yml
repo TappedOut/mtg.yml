@@ -38,7 +38,9 @@ mana_cost_converted: 1
 name: Lab Rats
 printings:
 - TPR:
+    border_color: B
     cannonical: false
+    frame: m15
     mtgo_foil_id: 56811
     mtgo_id: 56810
     name: Tempest Remastered
@@ -49,6 +51,8 @@ printings:
     wizards_id: 397640
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397640
 - STH:
+    border_color: B
+    frame: original
     mtgo_foil_id: 10300
     mtgo_id: 10299
     name: Stronghold
@@ -62,11 +66,15 @@ rules: "Buyback [[4]] *(You may pay an additional [[4]] as you play this spell. 
 slug: lab-rats
 tags: card-color-black card-color-black-cost-1 card-type-sorcery
 tokens:
-- colors: B
-  name: 1/1 B Token Creature Rat
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Rat 1/1 B
   power_toughness: 1/1
   rules: ''
   subtype: Rat
+  tla: STH
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/lab-rats/

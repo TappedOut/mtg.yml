@@ -39,6 +39,8 @@ mana_cost_converted: 5
 name: Survey the Wreckage
 printings:
 - RTR:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 46344
     mtgo_id: 46343
     name: Return to Ravnica
@@ -50,11 +52,15 @@ rules: Destroy target land. Put a 1/1 red Goblin creature token onto the battlef
 slug: survey-the-wreckage
 tags: card-color-red card-color-red-cost-5 card-type-sorcery
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: RTR
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/survey-the-wreckage/

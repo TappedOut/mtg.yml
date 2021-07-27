@@ -38,17 +38,23 @@ power_toughness: 3/3
 printings:
 - CMR:
     booster_exclude: true
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 531
     rarity: mythic_rare
     release_date: 2020-11-20
     set_number: 531
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: mythic_rare
     release_date: 2020-03-14
 - CN2:
+    border_color: B
+    frame: m15
     name: 'Conspiracy: Take the Crown'
     number: 78
     rarity: mythic_rare
@@ -67,18 +73,25 @@ subtype_tokens:
 tags: card-color-black card-color-gold card-color-gold-cost-4 card-color-red card-color-white
   card-type-creature card-type-legendary
 tokens:
-- colors: B
-  name: 1/1 B Token Creature Assassin
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: null
   power_toughness: 1/1
   rules: Deathtouch, haste
   subtype: Assassin
+  tla: CMR
   type: Token Creature
-- colors: C
-  name: C Emblem Monarch
+- cannonical_type: Unknown
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Monarch Emblem
   power_toughness: null
   rules: "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
     \ deals combat damage to you, its controller becomes the monarch."
-  subtype: Monarch
+  tla: CMR
   type: Emblem
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/queen-marchesa/

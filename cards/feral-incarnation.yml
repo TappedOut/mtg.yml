@@ -39,6 +39,8 @@ mana_cost_converted: 9
 name: Feral Incarnation
 printings:
 - M15:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 53489
     mtgo_id: 53488
     name: Magic 2015
@@ -54,11 +56,15 @@ rules: "Convoke (Your creatures can help cast this spell. Each creature you tap 
 slug: feral-incarnation
 tags: card-color-green card-color-green-cost-9 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Beast 3/3 G
   power_toughness: 3/3
   rules: ''
   subtype: Beast
+  tla: M15
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/feral-incarnation/

@@ -54,6 +54,8 @@ mana_produced: W, U, B, R, G
 name: Magma Opus
 printings:
 - STX:
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 203
     rarity: mythic_rare
@@ -68,17 +70,25 @@ slug: magma-opus
 tags: card-color-blue card-color-gold card-color-gold-cost-8 card-color-red card-mana-black
   card-mana-blue card-mana-green card-mana-red card-mana-white card-type-instant
 tokens:
-- colors: UR
+- cannonical_type: Creature
+  colors: UR
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Elemental 4/4 UR
   power_toughness: 4/4
   rules: ''
   subtype: Elemental
+  tla: STX
   type: Token Creature
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: STX
   type: Token Artifact
 type: Instant
 url: http://tappedout.net/mtg-card/magma-opus/

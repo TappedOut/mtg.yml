@@ -51,6 +51,8 @@ mana_cost_converted: 7
 name: Creative Outburst
 printings:
 - STX:
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 171
     rarity: uncommon
@@ -63,11 +65,15 @@ rules: "This deals 5 damage to target creature, player or planeswalker. Look at 
 slug: creative-outburst
 tags: card-color-blue card-color-gold card-color-gold-cost-7 card-color-red card-type-instant
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: STX
   type: Token Artifact
 type: Instant
 url: http://tappedout.net/mtg-card/creative-outburst/

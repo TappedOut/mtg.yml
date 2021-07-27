@@ -43,7 +43,9 @@ name: Skeletonize
 power_toughness: '0'
 printings:
 - A25:
+    border_color: B
     cannonical: false
+    frame: m15
     mtgo_foil_id: 67213
     mtgo_id: 67212
     name: Masters 25
@@ -54,6 +56,8 @@ printings:
     wizards_id: 442138
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442138
 - ALA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 31138
     mtgo_id: 31137
     name: Shards of Alara
@@ -69,11 +73,15 @@ synonyms:
 - Skeletonise
 tags: card-color-red card-color-red-cost-5 card-type-instant
 tokens:
-- colors: B
-  name: 1/1 B Token Creature Skeleton
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Skeleton 1/1 B w/ Regenerate
   power_toughness: 1/1
   rules: '[[symbol:B]]: Regenerate this creature.'
   subtype: Skeleton
+  tla: ALA
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/skeletonize/

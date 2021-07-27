@@ -42,6 +42,8 @@ mana_cost_converted: 2
 name: Servo Exhibition
 printings:
 - KLD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61892
     mtgo_id: 61891
     name: Kaladesh
@@ -52,14 +54,18 @@ printings:
     wizards_id: 417600
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417600
 - FNM:
+    border_color: B
     cannonical: false
+    frame: original
     name: FNM Promos
     number: 4
     rarity: rare
     release_date: 1990-11-05
     set_number: 4
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: rare
@@ -71,11 +77,15 @@ rules: Create two 1/1 colorless Servo artifact creature tokens.
 slug: servo-exhibition
 tags: card-color-white card-color-white-cost-2 card-type-sorcery
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Servo 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Servo
+  tla: KLD
   type: Token Artifact Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/servo-exhibition/

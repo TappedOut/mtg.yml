@@ -44,12 +44,16 @@ mana_produced: WWW, UUU, BBB, RRR, GGG
 name: Brass's Bounty
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 160
     rarity: rare
     release_date: 2021-04-23
     set_number: 160
 - RIX:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66642
     mtgo_id: 66641
     name: Rivals of Ixalan
@@ -60,7 +64,9 @@ printings:
     wizards_id: 439751
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439751
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: rare
@@ -72,11 +78,15 @@ slug: brasss-bounty
 tags: card-color-red card-color-red-cost-7 card-mana-black card-mana-blue card-mana-green
   card-mana-red card-mana-white card-type-sorcery
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: C21
   type: Token Artifact
 type: Sorcery
 url: http://tappedout.net/mtg-card/brasss-bounty/

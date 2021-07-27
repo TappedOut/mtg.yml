@@ -48,6 +48,8 @@ mana_cost_converted: 3
 name: Prismari Command
 printings:
 - STX:
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 214
     rarity: rare
@@ -62,11 +64,15 @@ rules: "Choose two, choose each mode only once &mdash;\r\n\r\n- This deals 2 dam
 slug: prismari-command
 tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-red card-type-instant
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: STX
   type: Token Artifact
 type: Instant
 url: http://tappedout.net/mtg-card/prismari-command/

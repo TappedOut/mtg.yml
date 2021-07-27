@@ -47,11 +47,15 @@ mana_cost_converted: 5
 name: Liliana, Death's Majesty
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: mythic_rare
     release_date: 2020-03-14
 - AKH:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63797
     mtgo_id: 63796
     name: Amonkhet
@@ -63,9 +67,11 @@ printings:
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426799
 - S17:
     booster_exclude: true
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: original
     name: SDCC Promo 2017
     number: 97
     rarity: mythic_rare
@@ -74,7 +80,9 @@ printings:
     wizards_id: 11111111
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=11111111
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: mythic_rare
@@ -93,11 +101,15 @@ subtype_tokens:
 - Liliana
 tags: card-color-black card-color-black-cost-5 card-type-planeswalker
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: AKH
   type: Token Creature
 type: Planeswalker
 url: http://tappedout.net/mtg-card/liliana-deaths-majesty/

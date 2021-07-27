@@ -33,6 +33,8 @@ mana_cost_converted: 3
 name: Greener Pastures
 printings:
 - USG:
+    border_color: B
+    frame: original
     mtgo_foil_id: 12112
     mtgo_id: 12111
     name: Urza's Saga
@@ -45,11 +47,15 @@ rules: At the beginning of each player's upkeep, if that player controls more la
 slug: greener-pastures
 tags: card-color-green card-color-green-cost-3 card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: USG
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/greener-pastures/

@@ -49,6 +49,8 @@ mana_cost_converted: 4
 name: Tezzeret the Schemer
 printings:
 - AER:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 62558
     mtgo_id: 62557
     name: Aether Revolt
@@ -71,18 +73,16 @@ subtype_tokens:
 tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-4 card-type-planeswalker
 tokens:
 - colors: C
-  name: C Token Artifact Etherium Cell
-  power_toughness: ''
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour to your
-    mana pool.'
-  subtype: Etherium Cell
-  type: Token Artifact
-- colors: C
-  name: C Emblem Tezzeret
+  name: null
   power_toughness: null
   rules: At the beginning of combat on your turn, target artifact you control becomes
     an artifact creature with base power and toughness 5/5.
   subtype: Tezzeret
   type: Emblem
+- colors: C
+  name: Etherium Cell
+  power_toughness: null
+  rules: '[[symbol:T]], Sacrifice this artifact: Gain one mana of any colour.'
+  type: Token Artifact
 type: Planeswalker
 url: http://tappedout.net/mtg-card/tezzeret-the-schemer/

@@ -42,12 +42,16 @@ power_toughness: 2/4
 printings:
 - CMR:
     booster_exclude: true
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 399
     rarity: rare
     release_date: 2020-11-20
     set_number: 399
 - MMA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 48967
     mtgo_id: 48966
     name: Modern Masters
@@ -56,6 +60,8 @@ printings:
     wizards_id: 370385
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370385
 - CHK:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 21122
     mtgo_id: 21121
     name: Champions of Kamigawa
@@ -72,11 +78,15 @@ subtype_tokens:
 - Wizard
 tags: card-color-blue card-color-blue-cost-5 card-type-creature card-type-legendary
 tokens:
-- colors: U
-  name: 1/1 U Token Creature Illusion
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Illusion 1/1 U w/ Flying
   power_toughness: 1/1
   rules: Flying
   subtype: Illusion
+  tla: CMR
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/meloku-the-clouded-mirror/

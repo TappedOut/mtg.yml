@@ -35,6 +35,8 @@ name: Thopter Assembly
 power_toughness: 5/5
 printings:
 - C18:
+    border_color: B
+    frame: m15
     name: Commander 2018
     number: 226
     rarity: rare
@@ -43,6 +45,8 @@ printings:
     wizards_id: 451181
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451181
 - DDU:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Elves vs. Inventors'
     number: 63
     rarity: rare
@@ -51,6 +55,8 @@ printings:
     wizards_id: 442799
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442799
 - MBS:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 39502
     mtgo_id: 39501
     name: Mirrodin Besieged
@@ -59,12 +65,16 @@ printings:
     wizards_id: 214039
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=214039
 - MBM:
+    border_color: B
     cannonical: false
+    frame: modern
     name: 'Mirrodin Besieged: Mirran'
     rarity: rare
     release_date: 2011-02-03
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 13
     rarity: rare
@@ -79,11 +89,15 @@ subtype_tokens:
 - Thopter
 tags: card-color-colorless card-color-colorless-cost-6 card-type-artifact card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Thopter 1/1 C
   power_toughness: 1/1
   rules: Flying
   subtype: Thopter
+  tla: C18
   type: Token Artifact Creature
 type: Artifact Creature
 url: http://tappedout.net/mtg-card/thopter-assembly/

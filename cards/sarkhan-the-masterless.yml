@@ -45,15 +45,19 @@ mana_cost_converted: 5
 name: Sarkhan the Masterless
 printings:
 - SLD:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: Secret Lair
     number: 514
     rarity: rare
     release_date: 2019-12-09
     set_number: 514
 - WAR:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71893
     mtgo_id: 71892
     name: War of the Spark
@@ -72,11 +76,15 @@ subtype_tokens:
 - Sarkhan
 tags: card-color-red card-color-red-cost-5 card-type-legendary card-type-planeswalker
 tokens:
-- colors: R
-  name: 4/4 R Token Creature Dragon
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Dragon 4/4 R
   power_toughness: 4/4
   rules: Flying
   subtype: Dragon
+  tla: WAR
   type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/sarkhan-the-masterless/

@@ -53,12 +53,16 @@ mana_produced: G
 name: Gingerbread Cabin
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 290
     rarity: common
     release_date: 2021-04-23
     set_number: 290
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78637
     mtgo_id: 78636
     name: Throne of Eldraine
@@ -77,11 +81,15 @@ subtype_tokens:
 - Forest
 tags: card-color-colorless card-color-colorless-cost-0 card-mana-green card-type-land
 tokens:
-- colors: C
-  name: C Token Artifact Food
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Food
   power_toughness: null
   rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
   subtype: Food
+  tla: C21
   type: Token Artifact
 type: Land
 url: http://tappedout.net/mtg-card/gingerbread-cabin/

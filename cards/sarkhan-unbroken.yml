@@ -48,15 +48,19 @@ mana_produced: W, U, B, R, G
 name: Sarkhan Unbroken
 printings:
 - WARMED:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: 'War of the Spark: Mythic Edition'
     number: 8
     rarity: mythic_rare
     release_date: 2019-05-02
     set_number: 8
 - DTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 56193
     mtgo_id: 56192
     name: Dragons of Tarkir
@@ -77,11 +81,15 @@ subtype_tokens:
 tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-green card-color-red
   card-mana-black card-mana-blue card-mana-green card-mana-red card-mana-white card-type-planeswalker
 tokens:
-- colors: R
-  name: 4/4 R Token Creature Dragon
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Dragon 4/4 R
   power_toughness: 4/4
   rules: Flying
   subtype: Dragon
+  tla: DTK
   type: Token Creature
 type: Planeswalker
 url: http://tappedout.net/mtg-card/sarkhan-unbroken/

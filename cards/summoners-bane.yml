@@ -39,6 +39,8 @@ mana_cost_converted: 4
 name: Summoner's Bane
 printings:
 - DDM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 52388
     mtgo_id: 52387
     name: 'Duel Decks: Jace vs. Vraska'
@@ -49,6 +51,8 @@ printings:
     wizards_id: 380266
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=380266
 - ZEN:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 34639
     mtgo_id: 34638
     name: Zendikar
@@ -61,11 +65,15 @@ rules: "Counter target creature spell. Put a 2/2 blue Illusion creature token on
 slug: summoners-bane
 tags: card-color-blue card-color-blue-cost-4 card-type-instant
 tokens:
-- colors: U
-  name: 2/2 U Token Creature Illusion
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Illusion 2/2 U
   power_toughness: 2/2
   rules: ''
   subtype: Illusion
+  tla: DDM
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/summoners-bane/

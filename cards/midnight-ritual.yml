@@ -37,6 +37,8 @@ mana_cost_converted: 3
 name: Midnight Ritual
 printings:
 - 10E:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 27319
     mtgo_id: 27318
     name: Tenth Edition
@@ -45,6 +47,8 @@ printings:
     wizards_id: 135272
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=135272
 - MMQ:
+    border_color: B
+    frame: original
     mtgo_foil_id: 13198
     mtgo_id: 13197
     name: Mercadian Masques
@@ -57,11 +61,15 @@ rules: Remove X target creature cards in your graveyard from the game. For each 
 slug: midnight-ritual
 tags: card-color-black card-color-black-cost-3 card-type-sorcery
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: 10E
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/midnight-ritual/

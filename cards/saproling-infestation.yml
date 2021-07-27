@@ -35,6 +35,8 @@ mana_cost_converted: 2
 name: Saproling Infestation
 printings:
 - INV:
+    border_color: B
+    frame: original
     mtgo_foil_id: 14802
     mtgo_id: 14801
     name: Invasion
@@ -47,11 +49,15 @@ rules: Whenever a player pays a kicker cost, you put a 1/1 green Saproling creat
 slug: saproling-infestation
 tags: card-color-green card-color-green-cost-2 card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: INV
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/saproling-infestation/

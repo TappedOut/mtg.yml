@@ -46,6 +46,8 @@ mana_cost_converted: 5
 name: Spell Swindle
 printings:
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65179
     mtgo_id: 65178
     name: Ixalan
@@ -63,11 +65,15 @@ rules: 'Counter target spell. Create X colorless Treasure artifact tokens, where
 slug: spell-swindle
 tags: card-color-blue card-color-blue-cost-5 card-type-instant
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: XLN
   type: Token Artifact
 type: Instant
 url: http://tappedout.net/mtg-card/spell-swindle/

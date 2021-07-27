@@ -39,6 +39,8 @@ name: Silverfur Partisan
 power_toughness: 2/2
 printings:
 - SOI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60041
     mtgo_id: 60040
     name: Shadows over Innistrad
@@ -50,7 +52,9 @@ printings:
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409991
 - '000':
     booster_exclude: true
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 228
     rarity: rare
@@ -65,11 +69,15 @@ subtype_tokens:
 - Warrior
 tags: card-color-green card-color-green-cost-3 card-type-creature
 tokens:
-- colors: G
-  name: 2/2 G Token Creature Wolf
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Wolf 2/2 G
   power_toughness: 2/2
   rules: ''
   subtype: Wolf
+  tla: SOI
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/silverfur-partisan/

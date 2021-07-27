@@ -23,7 +23,9 @@ mana_cost_converted: 4
 name: Thopter Pie Network
 printings:
 - PSG:
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo set for Gatherer
     number: 1
     rarity: mythic_rare
@@ -38,11 +40,15 @@ rules: "At the beginning of your upkeep, if you are eating, create a 1/1 colorle
 slug: thopter-pie-network
 tags: card-color-blue card-color-blue-cost-4 card-type-enchantment
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Thopter 1/1 C
   power_toughness: 1/1
   rules: Flying
   subtype: Thopter
+  tla: PSG
   type: Token Artifact Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/thopter-pie-network/

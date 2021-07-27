@@ -42,6 +42,8 @@ mana_cost_converted: 4
 name: Pirate's Prize
 printings:
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65149
     mtgo_id: 65148
     name: Ixalan
@@ -56,11 +58,15 @@ rules: 'Draw two cards. Create a colorless Treasure artifact token with "Tap, Sa
 slug: pirates-prize
 tags: card-color-blue card-color-blue-cost-4 card-type-sorcery
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: XLN
   type: Token Artifact
 type: Sorcery
 url: http://tappedout.net/mtg-card/pirates-prize/

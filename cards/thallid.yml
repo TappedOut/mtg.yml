@@ -41,6 +41,8 @@ name: Thallid
 power_toughness: 1/1
 printings:
 - MMA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 48879
     mtgo_id: 48878
     name: Modern Masters
@@ -49,6 +51,9 @@ printings:
     wizards_id: 370352
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370352
 - ME2:
+    border_color: B
+    cannonical: false
+    frame: modern
     mtgo_foil_id: 30371
     mtgo_id: 30370
     name: Masters Edition II
@@ -57,6 +62,8 @@ printings:
     wizards_id: 184711
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=184711
 - TSB:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 26046
     mtgo_id: 26045
     name: Time Spiral "Timeshifted"
@@ -65,6 +72,8 @@ printings:
     wizards_id: 108825
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=108825
 - FEM:
+    border_color: B
+    frame: original
     name: Fallen Empires
     rarity: common
     release_date: 1994-11-01
@@ -79,11 +88,15 @@ subtype_tokens:
 - Fungus
 tags: card-color-green card-color-green-cost-1 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: MMA
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/thallid/

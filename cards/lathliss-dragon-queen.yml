@@ -45,13 +45,17 @@ name: Lathliss, Dragon Queen
 power_toughness: 6/6
 printings:
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 340
     rarity: rare
     release_date: 2020-07-17
     set_number: 340
 - GN2:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Game Night 2019
     number: 41
     rarity: rare
@@ -60,6 +64,8 @@ printings:
     wizards_id: 476107
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476107
 - M19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 68460
     mtgo_id: 68459
     name: Core Set 2019
@@ -70,7 +76,9 @@ printings:
     wizards_id: 447285
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447285
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: rare
@@ -85,11 +93,15 @@ subtype_tokens:
 - Dragon
 tags: card-color-red card-color-red-cost-6 card-type-creature card-type-legendary
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Dragon 5/5 R
   power_toughness: 5/5
   rules: Flying
   subtype: Dragon
+  tla: JMP
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/lathliss-dragon-queen/

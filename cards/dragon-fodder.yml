@@ -44,17 +44,24 @@ mana_cost_converted: 2
 name: Dragon Fodder
 printings:
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 309
     rarity: common
     release_date: 2020-07-17
     set_number: 309
 - MYS1:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - GNT:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Magic Game Night
     number: 39
     rarity: common
@@ -63,6 +70,8 @@ printings:
     wizards_id: 456559
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456559
 - MM3:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63142
     mtgo_id: 63141
     name: Modern Masters 2017 Edition
@@ -73,6 +82,8 @@ printings:
     wizards_id: 425918
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425918
 - ORI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 57623
     mtgo_id: 57622
     name: Magic Origins
@@ -83,6 +94,8 @@ printings:
     wizards_id: 398647
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398647
 - DTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 56127
     mtgo_id: 56126
     name: Dragons of Tarkir
@@ -93,6 +106,8 @@ printings:
     wizards_id: 394540
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394540
 - DDG:
+    border_color: B
+    frame: modern
     mtgo_id: 40154
     name: 'Duel Decks: Knights vs. Dragons'
     rarity: common
@@ -100,12 +115,16 @@ printings:
     wizards_id: 243468
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=243468
 - ARC:
+    border_color: B
+    frame: modern
     name: Archenemy
     rarity: common
     release_date: 2010-06-18
     wizards_id: 220456
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220456
 - ALA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 31004
     mtgo_id: 31003
     name: Shards of Alara
@@ -114,7 +133,9 @@ printings:
     wizards_id: 174936
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=174936
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 135
     rarity: common
@@ -124,11 +145,15 @@ rules: Create two 1/1 red Goblin creature tokens.
 slug: dragon-fodder
 tags: card-color-red card-color-red-cost-2 card-type-sorcery
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: JMP
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/dragon-fodder/

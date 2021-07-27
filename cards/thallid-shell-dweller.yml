@@ -2,7 +2,7 @@ activated_abilities:
 - 'Remove three spore counters from Thallid Shell-Dweller: Create a 1/1 green Saproling
   creature token.'
 canadian_hl_score: 0
-cannonical_set: TSR
+cannonical_set: MMA
 cannonical_type: Creature
 companions:
 - Gyruda, Doom of Depths
@@ -45,12 +45,17 @@ name: Thallid Shell-Dweller
 power_toughness: 0/5
 printings:
 - TSR:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Time Spiral Remastered
     number: 237
     rarity: common
     release_date: 2021-03-19
     set_number: 237
 - MMA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 48923
     mtgo_id: 48922
     name: Modern Masters
@@ -59,6 +64,8 @@ printings:
     wizards_id: 370486
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370486
 - TSP:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 25346
     mtgo_id: 25345
     name: Time Spiral
@@ -75,11 +82,15 @@ subtype_tokens:
 - Fungus
 tags: card-color-green card-color-green-cost-2 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: MMA
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/thallid-shell-dweller/

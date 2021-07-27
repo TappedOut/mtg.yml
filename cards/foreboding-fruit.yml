@@ -50,6 +50,8 @@ mana_cost_converted: 3
 name: Foreboding Fruit
 printings:
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78289
     mtgo_id: 78288
     name: Throne of Eldraine
@@ -66,11 +68,15 @@ rules: "Target player draws two cards and loses 2 life.\r\n\r\n*Adamant* &mdash;
 slug: foreboding-fruit
 tags: card-color-black card-color-black-cost-3 card-type-sorcery
 tokens:
-- colors: C
-  name: C Token Artifact Food
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Food
   power_toughness: null
   rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
   subtype: Food
+  tla: ELD
   type: Token Artifact
 type: Sorcery
 url: http://tappedout.net/mtg-card/foreboding-fruit/

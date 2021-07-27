@@ -34,6 +34,8 @@ mana_cost_converted: 4
 name: Saproling Symbiosis
 printings:
 - INV:
+    border_color: B
+    frame: original
     mtgo_foil_id: 14976
     mtgo_id: 14975
     name: Invasion
@@ -47,11 +49,15 @@ rules: "You may play Saproling Symbiosis any time you could play an instant if y
 slug: saproling-symbiosis
 tags: card-color-green card-color-green-cost-4 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: INV
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/saproling-symbiosis/

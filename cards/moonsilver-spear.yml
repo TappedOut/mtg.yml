@@ -37,6 +37,8 @@ mana_cost_converted: 4
 name: Moonsilver Spear
 printings:
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55004
     mtgo_id: 55003
     name: Commander 2014
@@ -45,6 +47,8 @@ printings:
     wizards_id: 389598
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389598
 - AVR:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 44288
     mtgo_id: 44287
     name: 'Avacyn Restored '
@@ -53,7 +57,9 @@ printings:
     wizards_id: 240065
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=240065
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     rarity: rare
     release_date: 1990-04-15
@@ -65,11 +71,15 @@ subtype_tokens:
 - Equipment
 tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
 tokens:
-- colors: W
-  name: 4/4 W Token Creature Angel
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Angel 4/4 W
   power_toughness: 4/4
   rules: Flying
   subtype: Angel
+  tla: C14
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/moonsilver-spear/

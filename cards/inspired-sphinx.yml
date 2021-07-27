@@ -38,6 +38,8 @@ name: Inspired Sphinx
 power_toughness: 5/5
 printings:
 - KHC:
+    border_color: B
+    frame: m15
     name: 'Kaldheim: Commander'
     number: 40
     rarity: mythic_rare
@@ -46,7 +48,9 @@ printings:
     wizards_id: 508330
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508330
 - GNT:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Magic Game Night
     number: 22
     rarity: mythic_rare
@@ -63,11 +67,15 @@ subtype_tokens:
 - Sphinx
 tags: card-color-blue card-color-blue-cost-7 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Thopter 1/1 C
   power_toughness: 1/1
   rules: Flying
   subtype: Thopter
+  tla: KHC
   type: Token Artifact Creature
 type: Creature
 url: http://tappedout.net/mtg-card/inspired-sphinx/

@@ -3,7 +3,7 @@ activated_abilities:
   creature token.'
 - 'Sacrifice a Saproling: Target creature gets -1/-1 until end of turn.'
 canadian_hl_score: 0
-cannonical_set: TSR
+cannonical_set: TSP
 cannonical_type: Creature
 companions:
 - Gyruda, Doom of Depths
@@ -45,12 +45,17 @@ name: Deathspore Thallid
 power_toughness: 1/1
 printings:
 - TSR:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Time Spiral Remastered
     number: 109
     rarity: common
     release_date: 2021-03-19
     set_number: 109
 - TSP:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 25766
     mtgo_id: 25765
     name: Time Spiral
@@ -69,11 +74,15 @@ subtype_tokens:
 - Fungus
 tags: card-color-black card-color-black-cost-2 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: TSP
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/deathspore-thallid/

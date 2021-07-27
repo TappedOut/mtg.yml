@@ -45,6 +45,8 @@ mana_cost_converted: 2
 name: Stolen by the Fae
 printings:
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78245
     mtgo_id: 78244
     name: Throne of Eldraine
@@ -62,11 +64,15 @@ rules: Return target creature with converted mana cost X to its owner's hand. Yo
 slug: stolen-by-the-fae
 tags: card-color-blue card-color-blue-cost-2 card-type-sorcery
 tokens:
-- colors: U
-  name: 1/1 U Token Creature Faerie
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Faerie 1/1 U
   power_toughness: 1/1
   rules: Flying
   subtype: Faerie
+  tla: ELD
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/stolen-by-the-fae/

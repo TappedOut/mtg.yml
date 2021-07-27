@@ -49,6 +49,8 @@ name: Impulsive Pilferer
 power_toughness: 1/1
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 185
     rarity: common
@@ -68,17 +70,24 @@ subtype_tokens:
 tags: card-color-red card-color-red-cost-1 card-mana-black card-mana-blue card-mana-green
   card-mana-red card-mana-white card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: CMR
   type: Token Creature
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: CMR
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/impulsive-pilferer/

@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: PCA
+cannonical_set: MM2
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
@@ -37,11 +37,16 @@ name: Tukatongue Thallid
 power_toughness: 1/1
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - PCA:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Planechase Anthology
     number: 79
     rarity: common
@@ -50,6 +55,8 @@ printings:
     wizards_id: 423504
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423504
 - MM2:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 57127
     mtgo_id: 57126
     name: Modern Masters 2015 Edition
@@ -58,6 +65,8 @@ printings:
     wizards_id: 397749
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397749
 - PC2:
+    border_color: B
+    frame: modern
     mtgo_id: 44844
     name: Planechase 2012 Edition
     rarity: common
@@ -65,6 +74,8 @@ printings:
     wizards_id: 271143
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=271143
 - CON:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 31870
     mtgo_id: 31869
     name: Conflux
@@ -80,11 +91,15 @@ subtype_tokens:
 - Fungus
 tags: card-color-green card-color-green-cost-1 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: MM2
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/tukatongue-thallid/

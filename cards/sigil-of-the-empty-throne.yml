@@ -40,17 +40,23 @@ mana_cost_converted: 5
 name: Sigil of the Empty Throne
 printings:
 - TSR:
+    border_color: B
+    frame: m15
     name: Time Spiral Remastered
     number: 301
     rarity: basic_land
     release_date: 2021-03-19
     set_number: 301
 - ARENA:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Arena Cards
     rarity: rare
     release_date: 2019-09-26
 - C18:
+    border_color: B
+    frame: m15
     name: Commander 2018
     number: 74
     rarity: rare
@@ -59,7 +65,9 @@ printings:
     wizards_id: 451029
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451029
 - PCA:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Planechase Anthology
     number: 11
     rarity: rare
@@ -68,6 +76,8 @@ printings:
     wizards_id: 423436
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423436
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 80
     rarity: rare
@@ -76,6 +86,8 @@ printings:
     wizards_id: 405377
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405377
 - ORI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 57639
     mtgo_id: 57638
     name: Magic Origins
@@ -86,6 +98,8 @@ printings:
     wizards_id: 398524
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398524
 - PC2:
+    border_color: B
+    frame: modern
     mtgo_id: 44842
     name: Planechase 2012 Edition
     rarity: rare
@@ -93,6 +107,8 @@ printings:
     wizards_id: 275258
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=275258
 - CON:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 31798
     mtgo_id: 31797
     name: Conflux
@@ -105,11 +121,15 @@ rules: Whenever you cast an enchantment spell, create a 4/4 white Angel creature
 slug: sigil-of-the-empty-throne
 tags: card-color-white card-color-white-cost-5 card-type-enchantment
 tokens:
-- colors: W
-  name: 4/4 W Token Creature Angel
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Angel 4/4 W
   power_toughness: 4/4
   rules: Flying
   subtype: Angel
+  tla: TSR
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/sigil-of-the-empty-throne/

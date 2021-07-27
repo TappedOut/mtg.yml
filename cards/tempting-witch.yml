@@ -50,12 +50,16 @@ name: Tempting Witch
 power_toughness: 1/3
 printings:
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 283
     rarity: uncommon
     release_date: 2020-07-17
     set_number: 283
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78339
     mtgo_id: 78338
     name: Throne of Eldraine
@@ -74,11 +78,15 @@ subtype_tokens:
 - Warlock
 tags: card-color-black card-color-black-cost-3 card-type-creature
 tokens:
-- colors: C
-  name: C Token Artifact Food
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Food
   power_toughness: null
   rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
   subtype: Food
+  tla: JMP
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/tempting-witch/

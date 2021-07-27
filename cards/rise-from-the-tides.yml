@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: SOI
+cannonical_set: UMA
 cannonical_type: Sorcery
 companions:
 - Gyruda, Doom of Depths
@@ -39,7 +39,9 @@ mana_cost_converted: 6
 name: Rise from the Tides
 printings:
 - GN2:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Game Night 2019
     number: 23
     rarity: uncommon
@@ -48,7 +50,8 @@ printings:
     wizards_id: 476089
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476089
 - UMA:
-    cannonical: false
+    border_color: B
+    frame: m15
     mtgo_foil_id: 70208
     mtgo_id: 70207
     name: Ultimate Masters
@@ -57,6 +60,8 @@ printings:
     release_date: 2018-12-07
     set_number: 67
 - SOI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 59825
     mtgo_id: 59824
     name: Shadows over Innistrad
@@ -67,7 +72,9 @@ printings:
     wizards_id: 409826
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409826
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 10
     rarity: rare
@@ -78,11 +85,15 @@ rules: Create a tapped 2/2 black Zombie creature token for each instant and sorc
 slug: rise-from-the-tides
 tags: card-color-blue card-color-blue-cost-6 card-type-sorcery
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: UMA
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/rise-from-the-tides/

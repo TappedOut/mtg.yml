@@ -43,13 +43,17 @@ mana_cost_converted: 3
 name: Liliana, the Last Hope
 printings:
 - GRNMED:
+    border_color: B
     cannonical: false
+    frame: m15
     name: 'Guilds of Ravnica: Mythic Edition'
     number: 2
     rarity: mythic_rare
     release_date: 2018-10-04
     set_number: 2
 - EMN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61153
     mtgo_id: 61152
     name: Eldritch Moon
@@ -60,7 +64,9 @@ printings:
     wizards_id: 414388
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414388
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 3
     rarity: mythic_rare
@@ -80,18 +86,26 @@ synonyms:
 - Last Hope
 tags: card-color-black card-color-black-cost-3 card-type-planeswalker
 tokens:
-- colors: C
-  name: C Emblem Liliana
+- cannonical_type: Unknown
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: null
   power_toughness: null
   rules: At the beginning of your end step, create X 2/2 black Zombie creature tokens,
     where X is two plus the number of zombies you control.
   subtype: Liliana
+  tla: EMN
   type: Emblem
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: EMN
   type: Token Creature
 type: Planeswalker
 url: http://tappedout.net/mtg-card/liliana-the-last-hope/

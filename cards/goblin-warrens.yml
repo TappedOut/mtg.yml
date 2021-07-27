@@ -40,7 +40,9 @@ mana_cost_converted: 3
 name: Goblin Warrens
 printings:
 - ME4:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_foil_id: 38843
     mtgo_id: 38842
     name: Masters Edition IV
@@ -51,24 +53,32 @@ printings:
     wizards_id: 202479
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=202479
 - 6ED:
+    border_color: W
+    frame: original
     name: Classic Sixth Edition
     rarity: rare
     release_date: 1999-04-28
     wizards_id: 15421
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=15421
 - ATH:
+    border_color: B
+    frame: original
     name: Anthologies
     number: 3
     rarity: rare
     release_date: 1998-11-01
     set_number: 3
 - 5ED:
+    border_color: W
+    frame: original
     name: Fifth Edition
     rarity: rare
     release_date: 1997-03-24
     wizards_id: 4059
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=4059
 - FEM:
+    border_color: B
+    frame: original
     name: Fallen Empires
     rarity: rare
     release_date: 1994-11-01
@@ -79,11 +89,15 @@ rules: '[[2]][[R]], Sacrifice two Goblins: Put three 1/1 red Goblin creature tok
 slug: goblin-warrens
 tags: card-color-red card-color-red-cost-3 card-type-enchantment
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: 6ED
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/goblin-warrens/

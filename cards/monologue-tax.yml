@@ -35,6 +35,8 @@ mana_cost_converted: 3
 name: Monologue Tax
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 19
     rarity: rare
@@ -47,11 +49,15 @@ rules: Whenever an opponent casts their second spell each turn, you create a Tre
 slug: monologue-tax
 tags: card-color-white card-color-white-cost-3 card-type-enchantment
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: C21
   type: Token Artifact
 type: Enchantment
 url: http://tappedout.net/mtg-card/monologue-tax/

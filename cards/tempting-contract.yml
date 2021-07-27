@@ -31,6 +31,8 @@ mana_cost_converted: 4
 name: Tempting Contract
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 78
     rarity: rare
@@ -43,11 +45,15 @@ rules: At the beginning of your upkeep, each opponent may create a Treasure toke
 slug: tempting-contract
 tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: C21
   type: Token Artifact
 type: Artifact
 url: http://tappedout.net/mtg-card/tempting-contract/

@@ -38,6 +38,8 @@ mana_cost_converted: 3
 name: Golgari Germination
 printings:
 - MM3:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63528
     mtgo_id: 63527
     name: Modern Masters 2017 Edition
@@ -48,6 +50,8 @@ printings:
     wizards_id: 425992
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425992
 - DDJ:
+    border_color: B
+    frame: modern
     mtgo_id: 46170
     name: 'Duel Decks: Izzet vs. Golgari '
     number: 70
@@ -57,6 +61,8 @@ printings:
     wizards_id: 292948
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=292948
 - RAV:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 23461
     mtgo_id: 23460
     name: 'Ravnica: City of Guilds'
@@ -69,11 +75,15 @@ rules: Whenever a nontoken creature you control dies, create a 1/1 green Saproli
 slug: golgari-germination
 tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-green card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: MM3
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/golgari-germination/

@@ -39,6 +39,8 @@ mana_cost_converted: 5
 name: Open the Graves
 printings:
 - M19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 68386
     mtgo_id: 68385
     name: Core Set 2019
@@ -55,11 +57,15 @@ rules: Whenever a nontoken creature you control is put into the graveyard from t
 slug: open-the-graves
 tags: card-color-black card-color-black-cost-5 card-type-enchantment
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: M19
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/open-the-graves/

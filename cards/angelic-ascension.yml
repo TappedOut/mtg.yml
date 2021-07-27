@@ -47,6 +47,8 @@ mana_cost_converted: 2
 name: Angelic Ascension
 printings:
 - M21:
+    border_color: B
+    frame: m15
     name: Core Set 2021
     number: 3
     rarity: uncommon
@@ -57,11 +59,15 @@ rules: Exile target creature or planeswalker. Its controller creates a 4/4 white
 slug: angelic-ascension
 tags: card-color-white card-color-white-cost-2 card-type-instant
 tokens:
-- colors: W
-  name: 4/4 W Token Creature Angel
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Angel 4/4 W
   power_toughness: 4/4
   rules: Flying
   subtype: Angel
+  tla: M21
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/angelic-ascension/

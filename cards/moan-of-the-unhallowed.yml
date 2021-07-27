@@ -1,7 +1,7 @@
 activation_costs:
 - B
 canadian_hl_score: 0
-cannonical_set: DDQ
+cannonical_set: UMA
 cannonical_type: Sorcery
 companions:
 - Gyruda, Doom of Depths
@@ -43,7 +43,8 @@ mana_cost_converted: 4
 name: Moan of the Unhallowed
 printings:
 - UMA:
-    cannonical: false
+    border_color: B
+    frame: m15
     mtgo_foil_id: 70288
     mtgo_id: 70287
     name: Ultimate Masters
@@ -52,6 +53,8 @@ printings:
     release_date: 2018-12-07
     set_number: 107
 - DDQ:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Blessed vs. Cursed'
     number: 62
     rarity: uncommon
@@ -60,6 +63,8 @@ printings:
     wizards_id: 409638
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409638
 - ISD:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 42491
     mtgo_id: 42490
     name: Innistrad
@@ -73,11 +78,15 @@ rules: "Create two 2/2 Zombie creature tokens.\r\n\r\nFlashback [[symbol:5]][[sy
 slug: moan-of-the-unhallowed
 tags: card-color-black card-color-black-cost-4 card-type-sorcery
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: UMA
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/moan-of-the-unhallowed/

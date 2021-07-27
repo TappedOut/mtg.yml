@@ -40,6 +40,8 @@ name: Toggo, Goblin Weaponsmith
 power_toughness: 2/2
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 204
     rarity: uncommon
@@ -59,13 +61,17 @@ subtype_tokens:
 - Artificer
 tags: card-color-red card-color-red-cost-3 card-type-creature card-type-legendary
 tokens:
-- colors: C
-  name: C Token Artifact Equipment
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Rock
   power_toughness: null
   rules: "Equipped creature has \"[[symbol:1]], [[symbol:T]], Sacrifice Rock: This\
     \ creature deals 2 damage to target creature, player or planeswalker.\"\r\n\r\n\
     Equip [[symbol:1]]"
   subtype: Equipment
+  tla: CMR
   type: Token Artifact
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/toggo-goblin-weaponsmith/

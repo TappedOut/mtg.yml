@@ -38,6 +38,8 @@ name: Wily Goblin
 power_toughness: 1/1
 printings:
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65367
     mtgo_id: 65366
     name: Ixalan
@@ -57,11 +59,15 @@ subtype_tokens:
 - Pirate
 tags: card-color-red card-color-red-cost-2 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: XLN
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/wily-goblin/

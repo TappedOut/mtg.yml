@@ -49,9 +49,11 @@ mana_cost_converted: 4
 name: Garruk Relentless
 printings:
 - V17:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: 'From the Vault: Transform'
     number: 9
     rarity: mythic_rare
@@ -60,6 +62,8 @@ printings:
     wizards_id: 439330
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439330
 - ISD:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 42745
     mtgo_id: 42744
     name: Innistrad
@@ -78,11 +82,15 @@ subtype_tokens:
 tags: card-color-black card-color-black-cost-4 card-color-green card-color-green-cost-4
   card-type-legendary card-type-planeswalker
 tokens:
-- colors: G
-  name: 2/2 G Token Creature Wolf
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Wolf 2/2 G
   power_toughness: 2/2
   rules: ''
   subtype: Wolf
+  tla: ISD
   type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/garruk-relentless/

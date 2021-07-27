@@ -36,6 +36,8 @@ mana_cost_converted: 4
 name: Fungal Sprouting
 printings:
 - M13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 45685
     mtgo_id: 45684
     name: Magic 2013
@@ -48,11 +50,15 @@ rules: Put X 1/1 green Saproling creature tokens onto the battlefield, where X i
 slug: fungal-sprouting
 tags: card-color-green card-color-green-cost-4 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: M13
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/fungal-sprouting/

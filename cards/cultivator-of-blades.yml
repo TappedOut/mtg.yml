@@ -41,6 +41,8 @@ name: Cultivator of Blades
 power_toughness: 1/1
 printings:
 - KHC:
+    border_color: B
+    frame: m15
     name: 'Kaldheim: Commander'
     number: 55
     rarity: rare
@@ -49,6 +51,8 @@ printings:
     wizards_id: 508345
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508345
 - KLD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 62024
     mtgo_id: 62023
     name: Kaladesh
@@ -59,7 +63,9 @@ printings:
     wizards_id: 417724
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417724
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     rarity: rare
     release_date: 1990-04-15
@@ -74,11 +80,15 @@ subtype_tokens:
 - Artificer
 tags: card-color-green card-color-green-cost-5 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Servo 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Servo
+  tla: KHC
   type: Token Artifact Creature
 type: Creature
 url: http://tappedout.net/mtg-card/cultivator-of-blades/

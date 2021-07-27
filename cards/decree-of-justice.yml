@@ -41,18 +41,24 @@ mana_cost_converted: 4
 name: Decree of Justice
 printings:
 - C20:
+    border_color: B
+    frame: m15
     name: Commander 2020
     number: 85
     rarity: rare
     release_date: 2020-05-15
     set_number: 85
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: rare
     release_date: 2020-03-14
 - A25:
+    border_color: B
     cannonical: false
+    frame: m15
     mtgo_foil_id: 66937
     mtgo_id: 66936
     name: Masters 25
@@ -63,6 +69,8 @@ printings:
     wizards_id: 442000
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442000
 - DDO:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Elspeth vs. Kiora'
     number: 7
     rarity: rare
@@ -71,6 +79,8 @@ printings:
     wizards_id: 394359
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394359
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55072
     mtgo_id: 55071
     name: Commander 2014
@@ -81,7 +91,9 @@ printings:
     wizards_id: 389480
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389480
 - VMA:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_foil_id: 53148
     mtgo_id: 53147
     name: Vintage Masters
@@ -92,6 +104,8 @@ printings:
     wizards_id: 382911
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382911
 - SCG:
+    border_color: B
+    frame: original
     mtgo_foil_id: 18855
     mtgo_id: 18854
     name: Scourge
@@ -100,7 +114,9 @@ printings:
     wizards_id: 45141
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=45141
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 5
     rarity: rare
@@ -113,17 +129,25 @@ rules: "Create X 4/4 white Angel creature tokens with flying.\r\n\r\nCycling [[s
 slug: decree-of-justice
 tags: card-color-white card-color-white-cost-4 card-type-sorcery
 tokens:
-- colors: W
-  name: 4/4 W Token Creature Angel
-  power_toughness: 4/4
-  rules: Flying
-  subtype: Angel
-  type: Token Creature
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W
   power_toughness: 1/1
   rules: ''
   subtype: Soldier
+  tla: C20
+  type: Token Creature
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Angel 4/4 W
+  power_toughness: 4/4
+  rules: Flying
+  subtype: Angel
+  tla: C20
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/decree-of-justice/

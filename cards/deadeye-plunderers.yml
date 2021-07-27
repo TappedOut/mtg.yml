@@ -1,5 +1,5 @@
 activated_abilities:
-- '2UB: Create a colorless Treasure artifact token with '
+- ': Create a colorless Treasure artifact token with '
 activation_costs:
 - B
 - U
@@ -39,12 +39,17 @@ formats:
 has_activated_abilities: true
 is_limitless: false
 is_permanent: true
+keywords:
+- Sacrifice
+- Tokens
 mana_cost: 3UB
 mana_cost_converted: 5
 name: Deadeye Plunderers
 power_toughness: 3/3
 printings:
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65461
     mtgo_id: 65460
     name: Ixalan
@@ -54,9 +59,9 @@ printings:
     set_number: 220
     wizards_id: 435376
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435376
-rules: "Deadeye Plunderers gets +1/+1 for each artifact you control.\r\n\r\n2UB: Create\
-  \ a colorless Treasure artifact token with \"T, Sacrifice this artifact: Add one\
-  \ mana of any color to your mana pool.\""
+rules: "This gets +1/+1 for each artifact you control.\r\n\r\n[[symbol:2]][[symbol:U]][[symbol:B]]:\
+  \ Create a colorless Treasure artifact token with \"[[symbol:T]], Sacrifice this\
+  \ artifact: Gain one mana of any colour.\""
 slug: deadeye-plunderers
 subtype: Human Pirate
 subtype_tokens:
@@ -64,11 +69,15 @@ subtype_tokens:
 - Pirate
 tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-5 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: XLN
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/deadeye-plunderers/

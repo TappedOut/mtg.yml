@@ -47,6 +47,8 @@ mana_cost_converted: 1
 name: Witch's Oven
 printings:
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78621
     mtgo_id: 78620
     name: Throne of Eldraine
@@ -61,11 +63,15 @@ rules: '[[symbol:T]], Sacrifice a creature: Create a Food token. If the sacrific
 slug: witchs-oven
 tags: card-color-colorless card-color-colorless-cost-1 card-type-artifact
 tokens:
-- colors: C
-  name: C Token Artifact Food
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Food
   power_toughness: null
   rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
   subtype: Food
+  tla: ELD
   type: Token Artifact
 type: Artifact
 url: http://tappedout.net/mtg-card/witchs-oven/

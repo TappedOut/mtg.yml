@@ -44,12 +44,16 @@ name: Brazen Freebooter
 power_toughness: 3/3
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 164
     rarity: common
     release_date: 2020-11-20
     set_number: 164
 - RIX:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66644
     mtgo_id: 66643
     name: Rivals of Ixalan
@@ -70,11 +74,15 @@ subtype_tokens:
 tags: card-color-red card-color-red-cost-4 card-mana-black card-mana-blue card-mana-green
   card-mana-red card-mana-white card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: CMR
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/brazen-freebooter/

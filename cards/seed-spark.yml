@@ -1,3 +1,5 @@
+activation_costs:
+- G
 canadian_hl_score: 0
 cannonical_set: RAV
 cannonical_type: Instant
@@ -13,6 +15,7 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - W
+- G
 flat_cost: 4
 formats:
 - 1v1 Commander
@@ -32,29 +35,38 @@ has_activated_abilities: false
 is_limitless: false
 is_permanent: false
 keywords:
-- Enchant
+- Tokens
 mana_cost: 3W
 mana_cost_converted: 4
 name: Seed Spark
 printings:
 - RAV:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 23351
     mtgo_id: 23350
     name: 'Ravnica: City of Guilds'
+    number: 30
     rarity: uncommon
     release_date: 2005-10-07
+    set_number: 30
     wizards_id: 88984
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=88984
-rules: Destroy target artifact or enchantment. If (Green) was spent to play Seed Spark,
-  put two 1/1 green Saproling creature tokens into play.
+rules: Destroy target artifact or enchantment. If [[symbol:G]] was spent to cast this
+  spell, create two 1/1 green Saproling creature tokens.
 slug: seed-spark
-tags: card-color-white card-color-white-cost-4 card-type-instant
+tags: card-color-green card-color-green-cost-4 card-color-white card-color-white-cost-4
+  card-type-instant
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: RAV
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/seed-spark/

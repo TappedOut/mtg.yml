@@ -31,12 +31,17 @@ formats:
 has_activated_abilities: false
 is_limitless: false
 is_permanent: true
+keywords:
+- Flying
+- Tokens
 mana_cost: 3UU
 mana_cost_converted: 5
 name: Experimental Aviator
 power_toughness: 0/3
 printings:
 - KLD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61912
     mtgo_id: 61911
     name: Kaladesh
@@ -46,8 +51,8 @@ printings:
     set_number: 46
     wizards_id: 417619
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417619
-rules: "Flying \r\n  \r\nWhen Experimental Aviator enters the battlefield, create\
-  \ two 1/1 colorless Thopter artifact creature tokens with flying."
+rules: "Flying \r\n  \r\nWhen this enters the battlefield, create two 1/1 colourless\
+  \ Thopter artifact creature tokens with flying."
 slug: experimental-aviator
 subtype: Human Artificer
 subtype_tokens:
@@ -55,11 +60,15 @@ subtype_tokens:
 - Artificer
 tags: card-color-blue card-color-blue-cost-5 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Thopter 1/1 C
   power_toughness: 1/1
   rules: Flying
   subtype: Thopter
+  tla: KLD
   type: Token Artifact Creature
 type: Creature
 url: http://tappedout.net/mtg-card/experimental-aviator/

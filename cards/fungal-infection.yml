@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: MYS1
+cannonical_set: DOM
 cannonical_type: Instant
 companions:
 - Jegantha, the Wellspring
@@ -44,10 +44,15 @@ mana_cost_converted: 1
 name: Fungal Infection
 printings:
 - MYS1:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - DOM:
+    border_color: B
+    frame: m15
     name: Dominaria
     number: 94
     rarity: common
@@ -60,11 +65,15 @@ rules: Target creature gets -1/-1 until end of turn. Create a 1/1 Green Saprolin
 slug: fungal-infection
 tags: card-color-black card-color-black-cost-1 card-type-instant
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: DOM
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/fungal-infection/

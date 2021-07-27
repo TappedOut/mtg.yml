@@ -43,6 +43,8 @@ mana_cost_converted: 3
 name: Sword of Body and Mind
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 295
     rarity: mythic_rare
@@ -51,14 +53,18 @@ printings:
     variations:
     - identifier: '363'
 - ARENA:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Arena Cards
     rarity: mythic_rare
     release_date: 2019-09-26
 - MPS:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: 'Masterpiece Series: Kaladesh Inventions'
     number: 50
     rarity: mythic_rare
@@ -67,6 +73,8 @@ printings:
     wizards_id: 425821
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425821
 - SOM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 38280
     mtgo_id: 38279
     name: Scars of Mirrodin
@@ -75,9 +83,11 @@ printings:
     wizards_id: 209280
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=209280
 - V10:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: modern
     mtgo_foil_id: 37650
     name: 'From the Vault: Relics'
     rarity: mythic_rare
@@ -104,11 +114,15 @@ synonyms:
 - Sword of G and U
 tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
 tokens:
-- colors: G
-  name: 2/2 G Token Creature Wolf
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Wolf 2/2 G
   power_toughness: 2/2
   rules: ''
   subtype: Wolf
+  tla: 2XM
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/sword-of-body-and-mind/

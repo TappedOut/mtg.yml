@@ -34,6 +34,8 @@ mana_cost_converted: 4
 name: Spontaneous Generation
 printings:
 - MMQ:
+    border_color: B
+    frame: original
     mtgo_foil_id: 13526
     mtgo_id: 13525
     name: Mercadian Masques
@@ -45,11 +47,15 @@ rules: Put a 1/1 green Saproling creature token into play for each card in your 
 slug: spontaneous-generation
 tags: card-color-green card-color-green-cost-4 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: MMQ
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/spontaneous-generation/

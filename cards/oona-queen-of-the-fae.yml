@@ -46,6 +46,8 @@ name: Oona, Queen of the Fae
 power_toughness: 5/5
 printings:
 - ZNC:
+    border_color: B
+    frame: m15
     name: 'Zendikar Rising: Commander'
     number: 98
     rarity: rare
@@ -54,15 +56,19 @@ printings:
     wizards_id: 496036
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=496036
 - SLD:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: Secret Lair
     number: 54
     rarity: mythic_rare
     release_date: 2019-12-09
     set_number: 54
 - MMA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 48765
     mtgo_id: 48764
     name: Modern Masters
@@ -71,9 +77,11 @@ printings:
     wizards_id: 370429
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370429
 - V11:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: modern
     mtgo_foil_id: 42234
     mtgo_id: 42233
     name: 'From the Vault: Legends'
@@ -84,6 +92,8 @@ printings:
     wizards_id: 244668
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=244668
 - SHM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 29598
     mtgo_id: 29597
     name: Shadowmoor
@@ -102,11 +112,15 @@ subtype_tokens:
 tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-6 card-type-creature
   card-type-legendary
 tokens:
-- colors: UB
-  name: 1/1 UB Token Creature Faerie Rogue
+- cannonical_type: Creature
+  colors: UB
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Faerie Rogue 1/1 UB
   power_toughness: 1/1
   rules: Flying
   subtype: Faerie Rogue
+  tla: ZNC
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/oona-queen-of-the-fae/

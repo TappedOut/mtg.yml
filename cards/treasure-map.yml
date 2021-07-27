@@ -50,6 +50,8 @@ mana_cost_converted: 2
 name: Treasure Map
 printings:
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65529
     mtgo_id: 65528
     name: Ixalan
@@ -60,7 +62,9 @@ printings:
     wizards_id: 435410
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435410
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: rare
@@ -73,11 +77,15 @@ rules: '[[[symbol:1]], [[symbol:T]]: Scry 1. Put a landmark counter on Treasure 
 slug: treasure-map
 tags: card-color-colorless card-color-colorless-cost-2 card-type-artifact
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: XLN
   type: Token Artifact
 type: Artifact
 url: http://tappedout.net/mtg-card/treasure-map/

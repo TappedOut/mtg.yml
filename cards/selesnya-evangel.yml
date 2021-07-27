@@ -45,6 +45,8 @@ name: Selesnya Evangel
 power_toughness: 1/2
 printings:
 - GK1:
+    border_color: B
+    frame: m15
     name: 'Guilds of Ravnica: Guild Kit'
     number: 118
     rarity: common
@@ -53,6 +55,8 @@ printings:
     wizards_id: 456376
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456376
 - CMD:
+    border_color: B
+    frame: modern
     mtgo_id: 40729
     name: 'MTG: Commander'
     rarity: common
@@ -60,6 +64,8 @@ printings:
     wizards_id: 247385
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247385
 - RAV:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 23203
     mtgo_id: 23202
     name: 'Ravnica: City of Guilds'
@@ -76,11 +82,15 @@ subtype_tokens:
 - Shaman
 tags: card-color-gold card-color-gold-cost-2 card-color-green card-color-white card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: GK1
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/selesnya-evangel/

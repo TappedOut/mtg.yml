@@ -44,6 +44,8 @@ mana_cost_converted: 2
 name: Necromancer's Stockpile
 printings:
 - M15:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 53609
     mtgo_id: 53608
     name: Magic 2015
@@ -58,11 +60,15 @@ rules: '1B, Discard a creature card: Draw a card. If the discarded card was a Zo
 slug: necromancers-stockpile
 tags: card-color-black card-color-black-cost-2 card-type-enchantment
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: M15
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/necromancers-stockpile/

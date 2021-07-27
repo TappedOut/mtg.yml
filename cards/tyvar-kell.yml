@@ -54,6 +54,8 @@ mana_produced: B
 name: Tyvar Kell
 printings:
 - KHM:
+    border_color: B
+    frame: m15
     name: Kaldheim
     number: 198
     rarity: mythic_rare
@@ -74,18 +76,26 @@ subtype_tokens:
 tags: card-color-green card-color-green-cost-4 card-mana-black card-type-legendary
   card-type-planeswalker
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Elf Warrior 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Elf Warrior
+  tla: KHM
   type: Token Creature
-- colors: C
-  name: Tyvar Kell Emblem
+- cannonical_type: Unknown
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Emblem Tyvar Kell
   power_toughness: null
   rules: Whenever you cast an Elf Spell, it gains haste until end of turn and you
     draw two cards.
   subtype: Tyvar
+  tla: KHM
   type: Emblem
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/tyvar-kell/

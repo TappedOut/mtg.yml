@@ -41,8 +41,10 @@ name: Gyome, Master Chef
 power_toughness: 5/3
 printings:
 - C21:
+    border_color: B
     foil: foil
     foil_only: true
+    frame: m15
     name: Commander 2021
     number: 5
     rarity: mythic_rare
@@ -62,11 +64,15 @@ subtype_tokens:
 tags: card-color-black card-color-gold card-color-gold-cost-4 card-color-green card-type-creature
   card-type-legendary
 tokens:
-- colors: C
-  name: C Token Artifact Food
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Food
   power_toughness: null
   rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
   subtype: Food
+  tla: C21
   type: Token Artifact
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/gyome-master-chef/

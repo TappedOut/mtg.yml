@@ -41,6 +41,8 @@ name: Bygone Bishop
 power_toughness: 2/3
 printings:
 - SOI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60213
     mtgo_id: 60212
     name: Shadows over Innistrad
@@ -60,11 +62,15 @@ subtype_tokens:
 - Cleric
 tags: card-color-white card-color-white-cost-3 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Clue
   power_toughness: null
   rules: '[[symbol:2]], Sacrifice this: Draw a card.'
   subtype: Clue
+  tla: SOI
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/bygone-bishop/

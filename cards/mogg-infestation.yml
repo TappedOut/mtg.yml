@@ -33,7 +33,9 @@ mana_cost_converted: 5
 name: Mogg Infestation
 printings:
 - TPR:
+    border_color: B
     cannonical: false
+    frame: m15
     mtgo_foil_id: 56763
     mtgo_id: 56762
     name: Tempest Remastered
@@ -44,6 +46,8 @@ printings:
     wizards_id: 397418
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397418
 - STH:
+    border_color: B
+    frame: original
     mtgo_foil_id: 10180
     mtgo_id: 10179
     name: Stronghold
@@ -57,11 +61,15 @@ rules: Destroy all creatures target player controls. For each creature put into 
 slug: mogg-infestation
 tags: card-color-red card-color-red-cost-5 card-type-sorcery
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: STH
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/mogg-infestation/
