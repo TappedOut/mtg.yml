@@ -17,7 +17,27 @@ companions:
 effective_cost:
 - R
 flat_cost: 4
-formats: []
+formats:
+- 1v1 Commander
+- Arena
+- Block Constructed
+- Brawl
+- Canadian Highlander
+- Commander / EDH
+- Duel Commander
+- Gladiator
+- Highlander
+- Historic
+- Legacy
+- Leviathan
+- Limited
+- Modern
+- Oathbreaker
+- Pioneer
+- Pre-release
+- Standard
+- Unformat
+- Vintage
 has_activated_abilities: true
 is_limitless: false
 is_permanent: true
@@ -53,12 +73,28 @@ subtype_tokens:
 - Zariel
 tags: card-color-red card-color-red-cost-4 card-type-legendary card-type-planeswalker
 tokens:
-- colors: R
-  name: null
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Devil 1/1 R
   power_toughness: 1/1
-  rules: When this creature dies, it deals 1 damage to target creature, player or
-    planeswalker.
+  rules: When this creature dies *(is put into the graveyard from the battlefield,
+    tokens are put into the graveyard before ceasing to exist)*, it deals 1 damage
+    to target creature, player or planeswalker.
   subtype: Devil
+  tla: AFR
   type: Token Creature
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Emblem Zariel, Archduke of Avernus
+  power_toughness: null
+  rules: At the end of the first combat phase on your turn, untap target creature
+    you control. After this phase, there is an additional combat phase.
+  subtype: Zariel
+  tla: AFR
+  type: Emblem
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/zariel-archduke-of-avernus/
