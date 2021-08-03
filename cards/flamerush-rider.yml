@@ -42,6 +42,8 @@ name: Flamerush Rider
 power_toughness: 3/3
 printings:
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77401
     mtgo_id: 77400
     name: Commander 2019
@@ -50,6 +52,8 @@ printings:
     release_date: 2019-08-23
     set_number: 143
 - FRF:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55613
     mtgo_id: 55612
     name: Fate Reforged
@@ -59,11 +63,20 @@ printings:
     set_number: 99
     wizards_id: 391833
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=391833
-rules: "Whenever Flamerush Rider attacks, create a token that's tapped and attacking\
-  \ that is a copy of another target attacking creature. Exile the token at end of\
-  \ combat.\r\n\r\nDash [[symbol:2]][[symbol:R]][[symbol:R]] *(You may cast this spell\
-  \ for its dash cost. If you do, it gains haste, and it's returned from the battlefield\
-  \ to its owner's hand at the beginning of the next end step.)*"
+- '000':
+    border_color: B
+    cannonical: false
+    frame: m15
+    name: Promo Set
+    number: 1
+    rarity: rare
+    release_date: 1990-04-15
+    set_number: 1
+rules: "Whenever this attacks, create a token that's tapped and attacking that is\
+  \ a copy of another target attacking creature. Exile the token at end of combat.\r\
+  \n\r\nDash [[symbol:2]][[symbol:R]][[symbol:R]] *(You may cast this spell for its\
+  \ dash cost. If you do, this gains haste, and is returned from the battlefield to\
+  \ this creature's owner's hand at the beginning of the next end step.)*"
 slug: flamerush-rider
 subtype: Human Warrior
 subtype_tokens:
@@ -71,11 +84,14 @@ subtype_tokens:
 - Warrior
 tags: card-color-red card-color-red-cost-5 card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: C19
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/flamerush-rider/
