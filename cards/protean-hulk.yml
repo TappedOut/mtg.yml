@@ -1,5 +1,5 @@
-canadian_hl_score: 3
-cannonical_set: DIS
+canadian_hl_score: 2
+cannonical_set: GK2
 cannonical_type: Creature
 companions:
 - Kaheera, the Orphanguard
@@ -33,7 +33,8 @@ name: Protean Hulk
 power_toughness: 6/6
 printings:
 - GK2:
-    cannonical: false
+    border_color: B
+    frame: m15
     name: 'Ravnica Allegiance: Guild Kits'
     number: 83
     rarity: rare
@@ -42,7 +43,9 @@ printings:
     wizards_id: 460295
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460295
 - A25:
+    border_color: B
     cannonical: false
+    frame: m15
     mtgo_foil_id: 67285
     mtgo_id: 67284
     name: Masters 25
@@ -53,16 +56,20 @@ printings:
     wizards_id: 442174
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442174
 - DIS:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 24306
     mtgo_id: 24305
     name: Dissension
+    number: 90
     rarity: rare
     release_date: 2006-05-05
+    set_number: 90
     wizards_id: 107598
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=107598
-rules: When Protean Hulk is put into the graveyard from the battlefield, search your
-  library for any number of creature cards with total converted mana cost 6 or less
-  and put them onto the battlefield. Then shuffle your library.
+rules: When this dies *(is put into the graveyard from the battlefield)*, search your
+  library for any number of creature cards with total converted mana cost / mana value
+  6 or less and put them onto the battlefield, then shuffle your library.
 slug: protean-hulk
 subtype: Beast
 subtype_tokens:
