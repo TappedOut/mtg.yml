@@ -6,15 +6,16 @@ canadian_hl_score: 0
 cannonical_set: AFR
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
-- Jegantha, the Wellspring
 - Kaheera, the Orphanguard
-- Lurrus of the Dream-Den
+- Keruga, the Macrosage
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+effective_cost:
+- B
+flat_cost: 5
 formats:
 - 1v1 Commander
 - Arena
@@ -34,7 +35,6 @@ formats:
 - Pioneer
 - Pre-release
 - Standard
-- Tiny Leaders
 - Unformat
 - Vintage
 has_activated_abilities: true
@@ -45,7 +45,8 @@ keywords:
 - Sacrifice
 - Tokens
 - Menace
-mana_cost_converted: 0
+mana_cost: 3BB
+mana_cost_converted: 5
 name: Lolth, Spider Queen
 printings:
 - AFR:
@@ -58,6 +59,8 @@ printings:
     set_number: 112
     variations:
     - identifier: '284'
+    wizards_id: 527399
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=527399
 rules: "Whenever a creature you control dies *(is put into the graveyard from the\
   \ battlefield)*, put a loyalty counter on this.\r\n\r\n[[symbol:loyalty-zero]]:\
   \ You draw a card and you lose 1 life.\r\n\r\n[[symbol:loyalty-minus3]]: Create\
@@ -70,7 +73,7 @@ slug: lolth-spider-queen
 subtype: Lolth
 subtype_tokens:
 - Lolth
-tags: card-color-colorless card-color-colorless-cost-0 card-type-legendary card-type-planeswalker
+tags: card-color-black card-color-black-cost-5 card-type-legendary card-type-planeswalker
 tokens:
 - cannonical_type: Emblem
   colors: C
