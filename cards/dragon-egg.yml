@@ -47,6 +47,8 @@ name: Dragon Egg
 power_toughness: 0/2
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 173
     rarity: common
@@ -55,12 +57,16 @@ printings:
     wizards_id: 497693
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497693
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - GN2:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Game Night 2019
     number: 39
     rarity: uncommon
@@ -69,6 +75,8 @@ printings:
     wizards_id: 476105
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476105
 - M19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 68438
     mtgo_id: 68437
     name: Core Set 2019
@@ -79,6 +87,8 @@ printings:
     wizards_id: 447274
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447274
 - IMA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66128
     mtgo_id: 66127
     name: Iconic Masters
@@ -89,6 +99,8 @@ printings:
     wizards_id: 438690
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438690
 - EMA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60798
     mtgo_id: 60797
     name: Eternal Masters
@@ -99,6 +111,8 @@ printings:
     wizards_id: 413668
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413668
 - M14:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 49412
     mtgo_id: 49411
     name: Magic 2014
@@ -108,8 +122,8 @@ printings:
     set_number: 137
     wizards_id: 370660
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370660
-rules: "Defender *(This creature can't attack.)*\r\n\r\nWhen Dragon Egg is put into\
-  \ the graveyard from the battlefield, create a 2/2 red Dragon creature token with\
+rules: "Defender *(This creature can't attack.)*\r\n\r\nWhen this dies *(is put into\
+  \ the graveyard from the battlefield)*, create a 2/2 red Dragon creature token with\
   \ flying. It has \"[[symbol:R]] This creature gets +1/+0 until end of turn.\""
 slug: dragon-egg
 subtype: Dragon Egg
@@ -118,11 +132,15 @@ subtype_tokens:
 - Egg
 tags: card-color-red card-color-red-cost-3 card-type-creature
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 R Token Creature Dragon
   power_toughness: 2/2
   rules: "Flying\r\n\r\n[[symbol:R]]: This creature gets +1/+0 until end of turn."
   subtype: Dragon
+  tla: CMR
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/dragon-egg/

@@ -39,6 +39,8 @@ name: Diregraf Colossus
 power_toughness: 2/2
 printings:
 - SOI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60035
     mtgo_id: 60034
     name: Shadows over Innistrad
@@ -48,9 +50,9 @@ printings:
     set_number: 107
     wizards_id: 409854
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409854
-rules: "Diregraf Colossus enters the battlefield with a +1/+1 counter on it for each\
-  \ Zombie card in your graveyard.\r\n\r\nWhenever you cast a Zombie spell, put a\
-  \ 2/2 black Zombie creature token onto the battlefield tapped."
+rules: "This enters the battlefield with a +1/+1 counter on it for each Zombie card\
+  \ in your graveyard.\r\n\r\nWhenever you cast a Zombie spell, create a 2/2 black\
+  \ Zombie creature token."
 slug: diregraf-colossus
 subtype: Zombie Giant
 subtype_tokens:
@@ -58,11 +60,15 @@ subtype_tokens:
 - Giant
 tags: card-color-black card-color-black-cost-3 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: SOI
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/diregraf-colossus/

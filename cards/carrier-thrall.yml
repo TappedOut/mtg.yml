@@ -1,3 +1,5 @@
+activation_costs:
+- C
 canadian_hl_score: 0
 cannonical_set: DDR
 cannonical_type: Creature
@@ -35,10 +37,13 @@ keywords:
 - Tokens
 mana_cost: 1B
 mana_cost_converted: 2
+mana_produced: C
 name: Carrier Thrall
 power_toughness: 2/1
 printings:
 - DDR:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Nissa vs. Ob Nixilis'
     number: 42
     rarity: uncommon
@@ -47,6 +52,8 @@ printings:
     wizards_id: 417465
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417465
 - BFZ:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 58566
     mtgo_id: 58565
     name: Battle for Zendikar
@@ -56,19 +63,24 @@ printings:
     set_number: 106
     wizards_id: 401838
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401838
-rules: 'When Carrier Thrall dies, create a 1/1 colorless Eldrazi Scion creature token.
-  It has "Sacrifice this creature: Add [[symbol:1]] to your mana pool."'
+rules: 'When this dies *(is put into the graveyard from the battlefield)*, create
+  a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Gain
+  [[symbol:C]]."'
 slug: carrier-thrall
 subtype: Vampire
 subtype_tokens:
 - Vampire
-tags: card-color-black card-color-black-cost-2 card-type-creature
+tags: card-color-black card-color-black-cost-2 card-mana-colorless-sym card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 C Token Creature Eldrazi Scion
   power_toughness: 1/1
   rules: 'Sacrifice this creature: Gain [[symbol:C]].'
   subtype: Eldrazi Scion
+  tla: DDR
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/carrier-thrall/

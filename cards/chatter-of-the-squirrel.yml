@@ -42,24 +42,32 @@ mana_cost_converted: 1
 name: Chatter of the Squirrel
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 157
     rarity: common
     release_date: 2020-08-07
     set_number: 157
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - SLD:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Secret Lair
     number: 195
     rarity: rare
     release_date: 2019-12-09
     set_number: 195
 - ODY:
+    border_color: B
+    frame: original
     mtgo_foil_id: 16608
     mtgo_id: 16607
     name: Odyssey
@@ -68,16 +76,20 @@ printings:
     wizards_id: 31444
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=31444
 rules: "Create a 1/1 green Squirrel creature token.\r\n\r\nFlashback [[symbol:1][[symbol:G]]\
-  \ *(You may cast this card from your graveyard for its flashback cost. Then exile\
-  \ it.)*"
+  \ *(You may cast this card from your graveyard for the flashback cost, then exile\
+  \ this.)*"
 slug: chatter-of-the-squirrel
 tags: card-color-green card-color-green-cost-1 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Squirrel 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Squirrel
+  tla: 2XM
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/chatter-of-the-squirrel/

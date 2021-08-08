@@ -14,11 +14,14 @@ effective_cost:
 flat_cost: 1
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -37,7 +40,16 @@ mana_cost: XXB
 mana_cost_converted: 1
 name: Dark Salvation
 printings:
+- J21:
+    border_color: B
+    cannonical: false
+    frame: m15
+    name: 'Jumpstart: Historic Horizons'
+    rarity: rare
+    release_date: 2021-08-12
 - EMN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61175
     mtgo_id: 61174
     name: Eldritch Moon
@@ -47,17 +59,21 @@ printings:
     set_number: 67
     wizards_id: 414382
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414382
-rules: Target player puts X 2/2 black Zombie creature tokens onto the battlefield,
+rules: Target player creates X 2/2 black Zombie creature tokens onto the battlefield,
   then up to one target creature gets -1/-1 until end of turn for each Zombie that
   player controls.
 slug: dark-salvation
 tags: card-color-black card-color-black-cost-1 card-type-sorcery
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: EMN
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/dark-salvation/
