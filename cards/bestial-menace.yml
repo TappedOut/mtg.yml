@@ -15,11 +15,14 @@ effective_cost:
 flat_cost: 5
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -30,16 +33,29 @@ formats:
 has_activated_abilities: false
 is_limitless: false
 is_permanent: false
+keywords:
+- Tokens
 mana_cost: 3GG
 mana_cost_converted: 5
 name: Bestial Menace
 printings:
-- MYS1:
+- J21:
+    border_color: B
     cannonical: false
+    frame: m15
+    name: 'Jumpstart: Historic Horizons'
+    rarity: uncommon
+    release_date: 2021-08-12
+- MYS1:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
 - MM2:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 57163
     mtgo_id: 57162
     name: Modern Masters 2015 Edition
@@ -48,6 +64,8 @@ printings:
     wizards_id: 397840
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397840
 - CMD:
+    border_color: B
+    frame: modern
     mtgo_id: 40584
     name: 'MTG: Commander'
     rarity: uncommon
@@ -55,6 +73,8 @@ printings:
     wizards_id: 247535
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247535
 - WWK:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 35536
     mtgo_id: 35535
     name: Worldwake
@@ -62,28 +82,40 @@ printings:
     release_date: 2010-02-05
     wizards_id: 197843
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=197843
-rules: Put a 1/1 green Snake creature token, a 2/2 green Wolf creature token, and
-  a 3/3 green Elephant creature token onto the battlefield.
+rules: Create a 1/1 green Snake creature token, a 2/2 green Wolf creature token, and
+  a 3/3 green Elephant creature token.
 slug: bestial-menace
 tags: card-color-green card-color-green-cost-5 card-type-sorcery
 tokens:
-- colors: G
-  name: 1/1 G Token Creature Snake
-  power_toughness: 1/1
-  rules: ''
-  subtype: Snake
-  type: Token Creature
-- colors: G
-  name: 2/2 G Token Creature Wolf
-  power_toughness: 2/2
-  rules: ''
-  subtype: Wolf
-  type: Token Creature
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 G Token Creature Elephant
   power_toughness: 3/3
   rules: ''
   subtype: Elephant
+  tla: MM2
+  type: Token Creature
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: 1/1 G Token Creature Snake
+  power_toughness: 1/1
+  rules: ''
+  subtype: Snake
+  tla: MM2
+  type: Token Creature
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Wolf 2/2 G
+  power_toughness: 2/2
+  rules: ''
+  subtype: Wolf
+  tla: MM2
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/bestial-menace/

@@ -38,12 +38,16 @@ name: Blade Splicer
 power_toughness: 1/1
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 9
     rarity: rare
     release_date: 2020-08-07
     set_number: 9
 - MM3:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63266
     mtgo_id: 63265
     name: Modern Masters 2017 Edition
@@ -54,6 +58,8 @@ printings:
     wizards_id: 425828
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425828
 - NPH:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 39997
     mtgo_id: 39996
     name: New Phyrexia
@@ -63,8 +69,8 @@ printings:
     set_number: 4
     wizards_id: 233068
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=233068
-rules: "When Blade Splicer enters the battlefield, create a 3/3 colorless Golem artifact\
-  \ creature token.\r\n\r\nGolem creatures you control have first strike."
+rules: "When this enters the battlefield, create a 3/3 colorless Golem artifact creature\
+  \ token.\r\n\r\nGolem creatures you control have first strike."
 slug: blade-splicer
 subtype: Human Artificer
 subtype_tokens:
@@ -72,11 +78,15 @@ subtype_tokens:
 - Artificer
 tags: card-color-white card-color-white-cost-3 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Golem 3/3 C
   power_toughness: 3/3
   rules: ''
   subtype: Golem
+  tla: 2XM
   type: Token Artifact Creature
 type: Creature
 url: http://tappedout.net/mtg-card/blade-splicer/
