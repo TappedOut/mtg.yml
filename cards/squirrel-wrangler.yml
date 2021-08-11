@@ -18,10 +18,13 @@ effective_cost:
 flat_cost: 4
 formats:
 - 1v1 Commander
+- Arena
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -39,19 +42,32 @@ mana_cost_converted: 4
 name: Squirrel Wrangler
 power_toughness: 2/2
 printings:
-- MYS1:
+- J21:
+    border_color: B
     cannonical: false
+    frame: m15
+    name: 'Jumpstart: Historic Horizons'
+    rarity: rare
+    release_date: 2021-08-12
+- MYS1:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: rare
     release_date: 2020-03-14
 - SLD:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Secret Lair
     number: 198
     rarity: rare
     release_date: 2019-12-09
     set_number: 198
 - PCY:
+    border_color: B
+    frame: original
     mtgo_foil_id: 14200
     mtgo_id: 14199
     name: Prophecy
@@ -69,11 +85,15 @@ subtype_tokens:
 - Druid
 tags: card-color-green card-color-green-cost-4 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Squirrel 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Squirrel
+  tla: PCY
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/squirrel-wrangler/
