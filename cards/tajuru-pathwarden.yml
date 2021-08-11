@@ -13,11 +13,14 @@ effective_cost:
 flat_cost: 5
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -39,12 +42,23 @@ mana_cost_converted: 5
 name: Tajuru Pathwarden
 power_toughness: 5/4
 printings:
-- MYS1:
+- J21:
+    border_color: B
     cannonical: false
+    frame: m15
+    name: 'Jumpstart: Historic Horizons'
+    rarity: common
+    release_date: 2021-08-12
+- MYS1:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - OGW:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 59338
     mtgo_id: 59337
     name: Oath of the Gatewatch
@@ -54,7 +68,9 @@ printings:
     set_number: 145
     wizards_id: 407655
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407655
-rules: Vigilance, trample
+rules: Vigilance, trample *(This creature can deal excess combat damage to the player
+  or planeswalker this is attacking if lethal combat damage would be dealt to all
+  blocking creatures.)*
 slug: tajuru-pathwarden
 subtype: Elf Warrior Ally
 subtype_tokens:

@@ -1,5 +1,5 @@
 activated_abilities:
-- ', , Discard a card: Put a 1/1 white Human Soldier creature token onto the battlefield.'
+- ', , Discard a card: Create a 1/1 white Human Soldier creature token.'
 activation_costs:
 - W
 canadian_hl_score: 0
@@ -18,11 +18,14 @@ effective_cost:
 flat_cost: 1
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -44,12 +47,23 @@ mana_cost_converted: 1
 name: Thraben Standard Bearer
 power_toughness: 1/1
 printings:
-- MYS1:
+- J21:
+    border_color: B
     cannonical: false
+    frame: m15
+    name: 'Jumpstart: Historic Horizons'
+    rarity: common
+    release_date: 2021-08-12
+- MYS1:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - EMN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61313
     mtgo_id: 61312
     name: Eldritch Moon
@@ -59,8 +73,8 @@ printings:
     set_number: 48
     wizards_id: 414340
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414340
-rules: '[[1]][[W]], [[T]], Discard a card: Put a 1/1 white Human Soldier creature
-  token onto the battlefield.'
+rules: '[[symbol:1]][[symbol:W]], [[symbol:T]], Discard a card: Create a 1/1 white
+  Human Soldier creature token.'
 slug: thraben-standard-bearer
 subtype: Human Soldier
 subtype_tokens:
@@ -68,11 +82,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-1 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Human Soldier
   power_toughness: 1/1
   rules: ''
   subtype: Human Soldier
+  tla: EMN
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/thraben-standard-bearer/

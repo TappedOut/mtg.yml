@@ -14,11 +14,14 @@ effective_cost:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -39,13 +42,24 @@ mana_cost: 2G
 mana_cost_converted: 3
 name: Ulvenwald Mysteries
 printings:
+- J21:
+    border_color: B
+    cannonical: false
+    frame: m15
+    name: 'Jumpstart: Historic Horizons'
+    rarity: uncommon
+    release_date: 2021-08-12
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 184
     rarity: uncommon
     release_date: 2020-08-07
     set_number: 184
 - SOI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60267
     mtgo_id: 60266
     name: Shadows over Innistrad
@@ -62,17 +76,25 @@ rules: "Whenever a nontoken creature you control dies *(is put into the graveyar
 slug: ulvenwald-mysteries
 tags: card-color-green card-color-green-cost-3 card-type-enchantment
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Human Soldier
   power_toughness: 1/1
   rules: ''
   subtype: Human Soldier
+  tla: 2XM
   type: Token Creature
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Clue
   power_toughness: null
   rules: '[[symbol:2]], Sacrifice this: Draw a card.'
   subtype: Clue
+  tla: 2XM
   type: Token Artifact
 type: Enchantment
 url: http://tappedout.net/mtg-card/ulvenwald-mysteries/
