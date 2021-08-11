@@ -15,11 +15,14 @@ effective_cost:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -40,8 +43,17 @@ mana_cost: 1RR
 mana_cost_converted: 3
 name: Hordeling Outburst
 printings:
-- A25:
+- J21:
+    border_color: B
     cannonical: false
+    frame: m15
+    name: 'Jumpstart: Historic Horizons'
+    rarity: common
+    release_date: 2021-08-12
+- A25:
+    border_color: B
+    cannonical: false
+    frame: m15
     mtgo_foil_id: 67183
     mtgo_id: 67182
     name: Masters 25
@@ -52,6 +64,8 @@ printings:
     wizards_id: 442123
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442123
 - DDT:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Merfolk vs. Goblins'
     number: 51
     rarity: uncommon
@@ -60,6 +74,8 @@ printings:
     wizards_id: 438491
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438491
 - KTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54363
     mtgo_id: 54362
     name: Khans of Tarkir
@@ -70,7 +86,9 @@ printings:
     wizards_id: 386560
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386560
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 3
     rarity: uncommon
@@ -82,11 +100,15 @@ synonyms:
 - Hordelling Outburst
 tags: card-color-red card-color-red-cost-3 card-type-sorcery
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: DDT
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/hordeling-outburst/

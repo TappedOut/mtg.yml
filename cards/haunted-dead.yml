@@ -1,6 +1,5 @@
 activated_abilities:
-- ', Discard two cards: Return Haunted Dead from your graveyard to the battlefield
-  tapped.'
+- ', Discard two cards: Return this from your graveyard to the battlefield tapped.'
 activation_costs:
 - B
 canadian_hl_score: 0
@@ -19,11 +18,14 @@ effective_cost:
 flat_cost: 4
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -36,13 +38,23 @@ has_activated_abilities: true
 is_limitless: false
 is_permanent: true
 keywords:
+- Flying
 - Tokens
 mana_cost: 3B
 mana_cost_converted: 4
 name: Haunted Dead
 power_toughness: 2/2
 printings:
+- J21:
+    border_color: B
+    cannonical: false
+    frame: m15
+    name: 'Jumpstart: Historic Horizons'
+    rarity: uncommon
+    release_date: 2021-08-12
 - EMN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61151
     mtgo_id: 61150
     name: Eldritch Moon
@@ -52,20 +64,24 @@ printings:
     set_number: 92
     wizards_id: 414387
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414387
-rules: "When Haunted Dead enters the battlefield, put a 1/1 white Spirit creature\
-  \ token with flying onto the battlefield.\r\n\r\n[[1]][[B]], Discard two cards:\
-  \ Return Haunted Dead from your graveyard to the battlefield tapped."
+rules: "When this enters the battlefield, create a 1/1 white Spirit creature token\
+  \ with flying.\r\n\r\n[[symbol:1]][[symbol:B]], Discard two cards: Return this from\
+  \ your graveyard to the battlefield tapped."
 slug: haunted-dead
 subtype: Zombie
 subtype_tokens:
 - Zombie
 tags: card-color-black card-color-black-cost-4 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: EMN
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/haunted-dead/

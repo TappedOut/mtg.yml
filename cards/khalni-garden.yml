@@ -19,11 +19,14 @@ companions:
 flat_cost: 0
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -44,7 +47,16 @@ mana_cost_converted: 0
 mana_produced: G
 name: Khalni Garden
 printings:
+- J21:
+    border_color: B
+    cannonical: false
+    frame: m15
+    name: 'Jumpstart: Historic Horizons'
+    rarity: common
+    release_date: 2021-08-12
 - C18:
+    border_color: B
+    frame: m15
     name: Commander 2018
     number: 262
     rarity: common
@@ -53,7 +65,9 @@ printings:
     wizards_id: 451217
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451217
 - PCA:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Planechase Anthology
     number: 122
     rarity: common
@@ -62,6 +76,8 @@ printings:
     wizards_id: 423547
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423547
 - DDR:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Nissa vs. Ob Nixilis'
     number: 24
     rarity: common
@@ -70,6 +86,8 @@ printings:
     wizards_id: 417451
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417451
 - C13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51029
     mtgo_id: 51028
     name: Commander 2013
@@ -78,6 +96,8 @@ printings:
     wizards_id: 376390
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376390
 - PC2:
+    border_color: B
+    frame: modern
     mtgo_id: 44870
     name: Planechase 2012 Edition
     rarity: common
@@ -85,12 +105,16 @@ printings:
     wizards_id: 271227
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=271227
 - ARC:
+    border_color: B
+    frame: modern
     name: Archenemy
     rarity: common
     release_date: 2010-06-18
     wizards_id: 220535
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220535
 - WWK:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 35514
     mtgo_id: 35513
     name: Worldwake
@@ -100,18 +124,21 @@ printings:
     set_number: 138
     wizards_id: 197789
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=197789
-rules: "Khalni Garden enters the battlefield tapped.\r\n\r\nWhen Khalni Garden enters\
-  \ the battlefield, create a 0/1 green Plant creature token.\r\n\r\n[[symbol:T]]:\
-  \ Gain [[symbol:G]]."
+rules: "This enters the battlefield tapped.\r\n\r\nWhen this enters the battlefield,\
+  \ create a 0/1 green Plant creature token.\r\n\r\n[[symbol:T]]: Gain [[symbol:G]]."
 slug: khalni-garden
 tags: card-color-colorless card-color-colorless-cost-0 card-mana-green-slow card-type-land
 tap_land: true
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 G Token Creature Plant
   power_toughness: 0/1
   rules: ''
   subtype: Plant
+  tla: C18
   type: Token Creature
 type: Land
 url: http://tappedout.net/mtg-card/khalni-garden/
