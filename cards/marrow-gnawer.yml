@@ -16,11 +16,14 @@ effective_cost:
 flat_cost: 5
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -40,23 +43,36 @@ mana_cost_converted: 5
 name: Marrow-Gnawer
 power_toughness: 2/3
 printings:
+- J21:
+    border_color: B
+    cannonical: false
+    frame: m15
+    name: 'Jumpstart: Historic Horizons'
+    rarity: rare
+    release_date: 2021-08-12
 - MYSTOR:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: 'Mystery Booster: Store Edition'
     rarity: rare
     release_date: 2020-03-13
 - SLD:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: Secret Lair
     number: 34
     rarity: rare
     release_date: 2019-12-09
     set_number: 34
 - CHK:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 20978
     mtgo_id: 20977
     name: Champions of Kamigawa
@@ -73,11 +89,15 @@ subtype_tokens:
 - Rogue
 tags: card-color-black card-color-black-cost-5 card-type-creature card-type-legendary
 tokens:
-- colors: B
-  name: 1/1 B Token Creature Rat
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Rat 1/1 B
   power_toughness: 1/1
   rules: ''
   subtype: Rat
+  tla: CHK
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/marrow-gnawer/
