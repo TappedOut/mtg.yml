@@ -13,11 +13,14 @@ effective_cost:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -38,7 +41,16 @@ mana_cost_converted: 3
 name: Roc Egg
 power_toughness: 0/3
 printings:
+- J21:
+    border_color: B
+    cannonical: false
+    frame: m15
+    name: 'Jumpstart: Historic Horizons'
+    rarity: uncommon
+    release_date: 2021-08-12
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77261
     mtgo_id: 77260
     name: Commander 2019
@@ -49,6 +61,8 @@ printings:
     wizards_id: 470619
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470619
 - M12:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 41320
     mtgo_id: 41319
     name: 2012 Core Set
@@ -57,6 +71,8 @@ printings:
     wizards_id: 238570
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=238570
 - M11:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 37449
     mtgo_id: 37448
     name: 2011 Core Set
@@ -64,9 +80,9 @@ printings:
     release_date: 2010-07-16
     wizards_id: 205055
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=205055
-rules: "Defender *(This creature can't attack.)*\r\n\r\nWhen Roc Egg dies *(is put\
-  \ into a graveyard from the battlefield)*, create a 3/3 white Bird creature token\
-  \ with flying."
+rules: "Defender *(This creature can't attack.)*\r\n\r\nWhen this dies *(is put into\
+  \ a graveyard from the battlefield)*, create a 3/3 white Bird creature token with\
+  \ flying."
 slug: roc-egg
 subtype: Bird Egg
 subtype_tokens:
@@ -74,11 +90,15 @@ subtype_tokens:
 - Egg
 tags: card-color-white card-color-white-cost-3 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 W Token Creature Bird
   power_toughness: 3/3
   rules: Flying
   subtype: Bird
+  tla: C19
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/roc-egg/

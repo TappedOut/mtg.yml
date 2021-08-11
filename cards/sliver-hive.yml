@@ -1,9 +1,10 @@
 activated_abilities:
-- ': Add  to your mana pool.'
-- ': Add one mana of any color to your mana pool. Spend this mana only to cast a Sliver
-  spell.'
-- ', : Put a 1/1 colorless Sliver creature token onto the battlefield. Activate this
-  ability only if you control a Sliver.'
+- ': Gain .'
+- ': Gain one mana of any colour. Spend this mana only to cast a Sliver spell.'
+- ', : Create a 1/1 colorless Sliver creature token. Activate this ability only if
+  you control a Sliver.'
+activation_costs:
+- C
 canadian_hl_score: 0
 cannonical_set: M15
 cannonical_type: Land
@@ -21,11 +22,14 @@ companions:
 flat_cost: 0
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -42,10 +46,19 @@ is_permanent: true
 keywords:
 - Tokens
 mana_cost_converted: 0
-mana_produced: WUBRG
+mana_produced: W, U, B, R, G
 name: Sliver Hive
 printings:
+- J21:
+    border_color: B
+    cannonical: false
+    frame: m15
+    name: 'Jumpstart: Historic Horizons'
+    rarity: rare
+    release_date: 2021-08-12
 - M15:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 53623
     mtgo_id: 53622
     name: Magic 2015
@@ -55,19 +68,23 @@ printings:
     set_number: 247
     wizards_id: 383384
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383384
-rules: "[[symbol:T]]: Add [[symbol:1]] to your mana pool.\r\n\r\n[[symbol:T]]: Add\
-  \ one mana of any color to your mana pool. Spend this mana only to cast a Sliver\
-  \ spell.\r\n\r\n[[symbol:5]], [[symbol:T]]: Put a 1/1 colorless Sliver creature\
-  \ token onto the battlefield. Activate this ability only if you control a Sliver."
+rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:T]]: Gain one mana of any\
+  \ colour. Spend this mana only to cast a Sliver spell.\r\n\r\n[[symbol:5]], [[symbol:T]]:\
+  \ Create a 1/1 colorless Sliver creature token. Activate this ability only if you\
+  \ control a Sliver."
 slug: sliver-hive
 tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-blue
   card-mana-green card-mana-red card-mana-white card-type-land
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Sliver 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Sliver
+  tla: M15
   type: Token Creature
 type: Land
 url: http://tappedout.net/mtg-card/sliver-hive/
