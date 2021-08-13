@@ -26,6 +26,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: true
@@ -38,6 +39,8 @@ mana_cost_converted: 4
 name: Echo Chamber
 printings:
 - TMP:
+    border_color: B
+    frame: original
     mtgo_foil_id: 9736
     mtgo_id: 9735
     name: Tempest
@@ -52,11 +55,14 @@ rules: '(4), Tap: An opponent chooses target creature he or she controls. Put a 
 slug: echo-chamber
 tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: TMP
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/echo-chamber/

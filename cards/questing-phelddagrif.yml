@@ -35,6 +35,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: true
@@ -49,11 +50,15 @@ name: Questing Phelddagrif
 power_toughness: 4/4
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: rare
     release_date: 2020-03-14
 - PLS:
+    border_color: B
+    frame: original
     mtgo_foil_id: 15322
     mtgo_id: 15321
     name: Planeshift
@@ -62,7 +67,9 @@ printings:
     wizards_id: 27634
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=27634
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     rarity: rare
     release_date: 1990-04-15
@@ -78,11 +85,15 @@ subtype_tokens:
 tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-green card-color-white
   card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 G Creature Hippo
   power_toughness: 1/1
   rules: ''
   subtype: Hippo
+  tla: PLS
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/questing-phelddagrif/

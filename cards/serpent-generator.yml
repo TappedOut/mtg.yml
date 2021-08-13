@@ -27,6 +27,7 @@ formats:
 - Oldschool 93/94
 - Pauper
 - Pauper EDH
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: true
@@ -37,7 +38,9 @@ mana_cost_converted: 6
 name: Serpent Generator
 printings:
 - MED:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_foil_id: 27932
     mtgo_id: 27931
     name: Masters Edition
@@ -46,18 +49,24 @@ printings:
     wizards_id: 159826
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=159826
 - 5ED:
+    border_color: W
+    frame: original
     name: Fifth Edition
     rarity: rare
     release_date: 1997-03-24
     wizards_id: 3809
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3809
 - CHR:
+    border_color: W
+    frame: original
     name: Chronicles
     rarity: rare
     release_date: 1995-06-01
     wizards_id: 2792
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=2792
 - LEG:
+    border_color: B
+    frame: original
     name: Legends
     rarity: rare
     release_date: 1994-06-01
@@ -69,12 +78,16 @@ rules: '(4), Tap: Put a 1/1 Snake artifact creature token into play. This creatu
 slug: serpent-generator
 tags: card-color-colorless card-color-colorless-cost-6 card-type-artifact
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 C Token Artifact Creature Snake
   power_toughness: 1/1
   rules: Whenever this creature deals damage to a player, that player gets a poison
     counter.
   subtype: Snake
+  tla: 5ED
   type: Token Artifact Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/serpent-generator/

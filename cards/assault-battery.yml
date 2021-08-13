@@ -27,6 +27,7 @@ formats:
 - Limited
 - Modern
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -39,6 +40,8 @@ mana_cost_converted: 5
 name: Assault / Battery
 printings:
 - TSB:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 26206
     mtgo_id: 26205
     name: Time Spiral "Timeshifted"
@@ -47,6 +50,8 @@ printings:
     wizards_id: 109704
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=109704
 - INV:
+    border_color: B
+    frame: original
     mtgo_foil_id: 15030
     mtgo_id: 15029
     name: Invasion
@@ -67,11 +72,15 @@ synonyms:
 - Battery/Assault
 tags: card-color-gold card-color-gold-cost-5 card-color-green card-color-red card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 G Token Creature Elephant
   power_toughness: 3/3
   rules: ''
   subtype: Elephant
+  tla: TSB
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/assault-battery/
