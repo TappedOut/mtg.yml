@@ -21,6 +21,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -32,9 +33,11 @@ name: Brood Sliver
 power_toughness: 3/3
 printings:
 - PDS:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: modern
     name: 'Premium Deck Series: Slivers'
     number: 22
     rarity: rare
@@ -43,6 +46,8 @@ printings:
     wizards_id: 208039
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=208039
 - LGN:
+    border_color: B
+    frame: original
     mtgo_foil_id: 18384
     mtgo_id: 18383
     name: Legions
@@ -58,11 +63,15 @@ subtype_tokens:
 - Sliver
 tags: card-color-green card-color-green-cost-5 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Sliver 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Sliver
+  tla: LGN
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/brood-sliver/
