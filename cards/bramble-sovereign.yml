@@ -34,6 +34,8 @@ name: Bramble Sovereign
 power_toughness: 4/4
 printings:
 - BBD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 68859
     mtgo_id: 68858
     name: Battlebond
@@ -41,8 +43,8 @@ printings:
     rarity: mythic_rare
     release_date: 2018-06-08
     set_number: 65
-    wizards_id: 0
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=0
+    wizards_id: 446033
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446033
 rules: Whenever another nontoken creature enters the battlefield, you may pay [[symbol:1]][[symbol:G]].
   If you do, that creature's controller creates a token that's a copy of that creature.
 slug: bramble-sovereign
@@ -51,11 +53,14 @@ subtype_tokens:
 - Dryad
 tags: card-color-green card-color-green-cost-4 card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: BBD
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/bramble-sovereign/
