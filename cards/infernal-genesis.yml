@@ -21,6 +21,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -31,6 +32,8 @@ mana_cost_converted: 6
 name: Infernal Genesis
 printings:
 - PCY:
+    border_color: B
+    frame: original
     mtgo_foil_id: 14230
     mtgo_id: 14229
     name: Prophecy
@@ -44,11 +47,15 @@ rules: At the beginning of each player's upkeep, that player puts the top card o
 slug: infernal-genesis
 tags: card-color-black card-color-black-cost-6 card-type-enchantment
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 B Creature Minion
   power_toughness: 1/1
   rules: ''
   subtype: Minion
+  tla: PCY
   type: Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/infernal-genesis/

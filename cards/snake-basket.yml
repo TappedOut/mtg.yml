@@ -24,6 +24,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: true
@@ -36,12 +37,16 @@ mana_cost_converted: 4
 name: Snake Basket
 printings:
 - 6ED:
+    border_color: W
+    frame: original
     name: Classic Sixth Edition
     rarity: rare
     release_date: 1999-04-28
     wizards_id: 15409
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=15409
 - VIS:
+    border_color: B
+    frame: original
     mtgo_foil_id: 7720
     mtgo_id: 7719
     name: Visions
@@ -54,11 +59,15 @@ rules: '(X), Sacrifice Snake Basket: Put X 1/1 green Snake creature tokens into 
 slug: snake-basket
 tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 G Token Creature Snake
   power_toughness: 1/1
   rules: ''
   subtype: Snake
+  tla: 6ED
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/snake-basket/

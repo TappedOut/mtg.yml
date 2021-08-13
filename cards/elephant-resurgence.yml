@@ -23,6 +23,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -34,6 +35,8 @@ mana_cost_converted: 2
 name: Elephant Resurgence
 printings:
 - PCY:
+    border_color: B
+    frame: original
     mtgo_foil_id: 14028
     mtgo_id: 14027
     name: Prophecy
@@ -47,12 +50,16 @@ rules: Each player puts a green Elephant creature token into play. Those creatur
 slug: elephant-resurgence
 tags: card-color-green card-color-green-cost-2 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* G Token Creature Elephant'
   power_toughness: '*/*'
   rules: This creature's power and toughness are each equal to the number of creature
     cards in its controller's graveyard.
   subtype: Elephant
+  tla: PCY
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/elephant-resurgence/

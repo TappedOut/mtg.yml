@@ -23,6 +23,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -36,6 +37,8 @@ mana_cost_converted: 5
 name: Parallel Evolution
 printings:
 - TOR:
+    border_color: B
+    frame: original
     mtgo_foil_id: 17064
     mtgo_id: 17063
     name: Torment
@@ -50,11 +53,14 @@ rules: "For each creature token in play, its controller puts a token into play t
 slug: parallel-evolution
 tags: card-color-green card-color-green-cost-5 card-type-sorcery
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: TOR
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/parallel-evolution/
