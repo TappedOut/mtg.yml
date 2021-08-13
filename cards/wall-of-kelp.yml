@@ -2,7 +2,7 @@ activated_abilities:
 - '(Blue)(Blue), Tap: Put a 0/1 blue Plant Wall creature token with defender named
   Kelp into play.'
 canadian_hl_score: 0
-cannonical_set: ME2
+cannonical_set: HML
 cannonical_type: Creature
 companions:
 - Gyruda, Doom of Depths
@@ -26,6 +26,7 @@ formats:
 - Oathbreaker
 - Pauper
 - Pauper EDH
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -40,6 +41,9 @@ name: Wall of Kelp
 power_toughness: 0/3
 printings:
 - ME2:
+    border_color: B
+    cannonical: false
+    frame: modern
     mtgo_foil_id: 30643
     mtgo_id: 30642
     name: Masters Edition II
@@ -48,6 +52,8 @@ printings:
     wizards_id: 184598
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=184598
 - HML:
+    border_color: B
+    frame: original
     name: Homelands
     rarity: rare
     release_date: 1995-10-01
@@ -62,11 +68,15 @@ subtype_tokens:
 - Wall
 tags: card-color-blue card-color-blue-cost-2 card-type-creature
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 U Creature Plant Wall
   power_toughness: 0/1
   rules: Defender
   subtype: Plant Wall
+  tla: HML
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/wall-of-kelp/

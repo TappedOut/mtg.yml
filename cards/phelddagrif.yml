@@ -33,6 +33,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: true
@@ -47,7 +48,9 @@ name: Phelddagrif
 power_toughness: 4/4
 printings:
 - MED:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_foil_id: 28122
     mtgo_id: 28121
     name: Masters Edition
@@ -56,6 +59,8 @@ printings:
     wizards_id: 159097
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=159097
 - ALL:
+    border_color: B
+    frame: original
     name: Alliances
     rarity: rare
     release_date: 1996-06-10
@@ -72,11 +77,15 @@ subtype_tokens:
 tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-green card-color-white
   card-type-creature card-type-legendary
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 G Creature Hippo
   power_toughness: 1/1
   rules: ''
   subtype: Hippo
+  tla: ALL
   type: Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/phelddagrif/
