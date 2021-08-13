@@ -27,6 +27,7 @@ formats:
 - Oathbreaker
 - Pauper
 - Pauper EDH
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: true
@@ -41,6 +42,8 @@ name: Giant Caterpillar
 power_toughness: 3/3
 printings:
 - MMQ:
+    border_color: B
+    frame: original
     mtgo_foil_id: 13608
     mtgo_id: 13607
     name: Mercadian Masques
@@ -49,6 +52,8 @@ printings:
     wizards_id: 20847
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=20847
 - VIS:
+    border_color: B
+    frame: original
     mtgo_foil_id: 7566
     mtgo_id: 7565
     name: Visions
@@ -64,11 +69,15 @@ subtype_tokens:
 - Insect
 tags: card-color-green card-color-green-cost-4 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Insect 1/1 G w/ Flying
   power_toughness: 1/1
   rules: Flying
   subtype: Insect
+  tla: MMQ
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/giant-caterpillar/

@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: CNS
+cannonical_set: MH1
 cannonical_type: Enchantment
 companions:
 - Kaheera, the Orphanguard
@@ -13,16 +13,20 @@ effective_cost:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
 - Modern
 - Oathbreaker
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -38,7 +42,8 @@ mana_cost_converted: 3
 name: Squirrel Nest
 printings:
 - MH1:
-    cannonical: false
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72737
     mtgo_id: 72736
     name: Modern Horizons
@@ -47,6 +52,8 @@ printings:
     release_date: 2019-06-14
     set_number: 182
 - CNS:
+    border_color: B
+    frame: modern
     name: Conspiracy
     number: 180
     rarity: uncommon
@@ -55,6 +62,8 @@ printings:
     wizards_id: 382374
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382374
 - ODY:
+    border_color: B
+    frame: original
     mtgo_foil_id: 16516
     mtgo_id: 16515
     name: Odyssey
@@ -70,11 +79,15 @@ subtype_tokens:
 - Aura
 tags: card-color-green card-color-green-cost-3 card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Squirrel 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Squirrel
+  tla: MH1
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/squirrel-nest/

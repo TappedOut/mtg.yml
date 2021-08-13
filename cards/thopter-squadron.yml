@@ -26,6 +26,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: true
@@ -40,7 +41,9 @@ name: Thopter Squadron
 power_toughness: 0/0
 printings:
 - TPR:
+    border_color: B
     cannonical: false
+    frame: m15
     mtgo_foil_id: 56927
     mtgo_id: 56926
     name: Tempest Remastered
@@ -51,7 +54,9 @@ printings:
     wizards_id: 397624
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397624
 - VMA:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_foil_id: 52730
     mtgo_id: 52729
     name: Vintage Masters
@@ -62,6 +67,8 @@ printings:
     wizards_id: 383129
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383129
 - EXO:
+    border_color: B
+    frame: original
     mtgo_foil_id: 10628
     mtgo_id: 10627
     name: Exodus
@@ -81,11 +88,15 @@ subtype_tokens:
 - Thopter
 tags: card-color-colorless card-color-colorless-cost-5 card-type-artifact card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Thopter 1/1 C
   power_toughness: 1/1
   rules: Flying
   subtype: Thopter
+  tla: EXO
   type: Token Artifact Creature
 type: Artifact Creature
 url: http://tappedout.net/mtg-card/thopter-squadron/

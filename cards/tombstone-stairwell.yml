@@ -21,6 +21,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -35,6 +36,8 @@ mana_cost_converted: 4
 name: Tombstone Stairwell
 printings:
 - MIR:
+    border_color: B
+    frame: original
     mtgo_foil_id: 7382
     mtgo_id: 7381
     name: Mirage
@@ -50,11 +53,15 @@ rules: "Cumulative upkeep (1)(Black) \r\n\r\nAt the beginning of each upkeep, if
 slug: tombstone-stairwell
 tags: card-color-black card-color-black-cost-4 card-type-enchantment card-type-world
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B w/ Haste
   power_toughness: 2/2
   rules: Haste
   subtype: Zombie
+  tla: MIR
   type: Token Creature
 type: World Enchantment
 url: http://tappedout.net/mtg-card/tombstone-stairwell/

@@ -4,7 +4,7 @@ activated_abilities:
 activation_costs:
 - R
 canadian_hl_score: 0
-cannonical_set: CTD
+cannonical_set: ALL
 cannonical_type: Creature
 companions:
 - Gyruda, Doom of Depths
@@ -28,6 +28,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: true
@@ -44,11 +45,16 @@ name: Balduvian Dead
 power_toughness: 2/3
 printings:
 - CTD:
+    border_color: B
+    cannonical: false
+    frame: modern
     name: Coldsnap Theme Deck
     rarity: uncommon
     release_date: 2013-01-21
 - ME2:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_foil_id: 30647
     mtgo_id: 30646
     name: Masters Edition II
@@ -57,6 +63,8 @@ printings:
     wizards_id: 184735
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=184735
 - ALL:
+    border_color: B
+    frame: original
     mtgo_id: 24483
     name: Alliances
     rarity: uncommon
@@ -73,11 +81,15 @@ subtype_tokens:
 tags: card-color-black card-color-black-cost-4 card-color-red card-color-red-cost-4
   card-type-creature
 tokens:
-- colors: B,R
+- cannonical_type: Creature
+  colors: B,R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/1 B,R Creature Graveborn
   power_toughness: 3/1
   rules: Haste
   subtype: Graveborn
+  tla: ALL
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/balduvian-dead/

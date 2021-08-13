@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Put a 1/1 colorless Sliver creature token onto the battlefield.'
 canadian_hl_score: 0
-cannonical_set: STH
+cannonical_set: CMA
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
@@ -28,6 +28,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: true
@@ -39,7 +40,9 @@ name: Sliver Queen
 power_toughness: 7/7
 printings:
 - TPR:
+    border_color: B
     cannonical: false
+    frame: m15
     mtgo_foil_id: 56843
     mtgo_id: 56842
     name: Tempest Remastered
@@ -50,13 +53,16 @@ printings:
     wizards_id: 397585
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397585
 - CMA:
-    cannonical: false
+    border_color: B
     foil: foil
     foil_only: true
+    frame: modern
     name: Commander's Arsenal
     rarity: rare
     release_date: 2012-11-02
 - STH:
+    border_color: B
+    frame: original
     mtgo_foil_id: 10380
     mtgo_id: 10379
     name: Stronghold
@@ -65,7 +71,9 @@ printings:
     wizards_id: 5233
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=5233
 - MOP:
+    border_color: B
     cannonical: false
+    frame: original
     name: Magic Online Promo Cards
     rarity: rare
     release_date: 1990-01-09
@@ -81,11 +89,15 @@ subtype_tokens:
 tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-5 card-color-green
   card-color-red card-color-white card-type-creature card-type-legendary
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Sliver 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Sliver
+  tla: CMA
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/sliver-queen/
