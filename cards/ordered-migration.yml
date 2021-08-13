@@ -25,6 +25,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -37,6 +38,8 @@ mana_cost_converted: 5
 name: Ordered Migration
 printings:
 - INV:
+    border_color: B
+    frame: original
     mtgo_foil_id: 14338
     mtgo_id: 14337
     name: Invasion
@@ -49,11 +52,15 @@ rules: "Domain \u2014 Put a 1/1 blue Bird creature token with flying into play f
 slug: ordered-migration
 tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-white card-type-sorcery
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Bird 1/1 U
   power_toughness: 1/1
   rules: Flying
   subtype: Bird
+  tla: INV
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/ordered-migration/
