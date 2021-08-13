@@ -23,6 +23,7 @@ formats:
 - Oathbreaker
 - Pauper
 - Pauper EDH
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -37,6 +38,8 @@ name: Fallen Cleric
 power_toughness: 4/2
 printings:
 - ONS:
+    border_color: B
+    frame: original
     mtgo_foil_id: 17888
     mtgo_id: 17887
     name: Onslaught
@@ -53,12 +56,15 @@ subtype_tokens:
 - Cleric
 tags: card-color-black card-color-black-cost-5 card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: ONS
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/fallen-cleric/
