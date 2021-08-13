@@ -21,6 +21,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -35,6 +36,8 @@ name: Warbreak Trumpeter
 power_toughness: 1/1
 printings:
 - LGN:
+    border_color: B
+    frame: original
     mtgo_foil_id: 18614
     mtgo_id: 18613
     name: Legions
@@ -51,18 +54,25 @@ subtype_tokens:
 - Goblin
 tags: card-color-red card-color-red-cost-1 card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: LGN
   type: Creature
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: LGN
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/warbreak-trumpeter/
