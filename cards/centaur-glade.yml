@@ -24,6 +24,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: true
@@ -34,11 +35,15 @@ mana_cost_converted: 5
 name: Centaur Glade
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
 - ONS:
+    border_color: B
+    frame: original
     mtgo_foil_id: 18204
     mtgo_id: 18203
     name: Onslaught
@@ -50,11 +55,15 @@ rules: '(2)(Green)(Green): Put a 3/3 green Centaur creature token into play.'
 slug: centaur-glade
 tags: card-color-green card-color-green-cost-5 card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 G Token Creature Centaur
   power_toughness: 3/3
   rules: ''
   subtype: Centaur
+  tla: ONS
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/centaur-glade/
