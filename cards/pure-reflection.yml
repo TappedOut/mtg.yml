@@ -22,6 +22,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -33,6 +34,8 @@ mana_cost_converted: 3
 name: Pure Reflection
 printings:
 - INV:
+    border_color: B
+    frame: original
     mtgo_foil_id: 14672
     mtgo_id: 14671
     name: Invasion
@@ -46,11 +49,15 @@ rules: Whenever a player plays a creature spell, destroy all Reflections. Then t
 slug: pure-reflection
 tags: card-color-white card-color-white-cost-3 card-type-enchantment
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: X/X W Creature Reflection
   power_toughness: X/X
   rules: ''
   subtype: Reflection
+  tla: INV
   type: Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/pure-reflection/
