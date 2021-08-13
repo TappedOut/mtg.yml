@@ -22,6 +22,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -36,6 +37,8 @@ name: Silent Specter
 power_toughness: 4/4
 printings:
 - ONS:
+    border_color: B
+    frame: original
     mtgo_foil_id: 17980
     mtgo_id: 17979
     name: Onslaught
@@ -44,7 +47,9 @@ printings:
     wizards_id: 41280
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=41280
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     rarity: rare
     release_date: 1990-04-15
@@ -58,12 +63,15 @@ subtype_tokens:
 - Specter
 tags: card-color-black card-color-black-cost-6 card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: ONS
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/silent-specter/
