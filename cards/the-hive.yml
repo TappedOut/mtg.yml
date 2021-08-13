@@ -27,6 +27,7 @@ formats:
 - Modern
 - Oathbreaker
 - Oldschool 93/94
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: true
@@ -40,6 +41,8 @@ mana_cost_converted: 5
 name: The Hive
 printings:
 - 10E:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 27209
     mtgo_id: 27208
     name: Tenth Edition
@@ -48,70 +51,92 @@ printings:
     wizards_id: 135253
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=135253
 - 6ED:
+    border_color: W
+    frame: original
     name: Classic Sixth Edition
     rarity: rare
     release_date: 1999-04-28
     wizards_id: 11530
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=11530
 - 5ED:
+    border_color: W
+    frame: original
     name: Fifth Edition
     rarity: rare
     release_date: 1997-03-24
     wizards_id: 3814
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3814
 - 4ED:
+    border_color: W
+    frame: original
     name: Fourth Edition
     rarity: rare
     release_date: 1995-04-01
     wizards_id: 2074
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=2074
 - 4EDFBB:
+    border_color: B
     cannonical: false
+    frame: original
     name: 4th Edition Foreign Black Border
     rarity: rare
     release_date: 1995-04-01
     wizards_id: 2074
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=2074
 - 3ED:
+    border_color: W
+    frame: original
     name: Revised Edition
     rarity: rare
     release_date: 1994-04-01
     wizards_id: 1138
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=1138
 - 3EDFBB:
+    border_color: B
     cannonical: false
+    frame: original
     name: Revised Foreign Black Border
     rarity: rare
     release_date: 1994-04-01
     wizards_id: 1138
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=1138
 - 2ED:
+    border_color: W
+    frame: original
     name: Unlimited Edition
     rarity: rare
     release_date: 1993-12-01
     wizards_id: 640
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=640
 - CED:
+    border_color: B
     cannonical: false
+    frame: original
     name: Collector's Edition
     number: 274
     rarity: rare
     release_date: 1993-12-01
     set_number: 274
 - CEI:
+    border_color: B
     cannonical: false
+    frame: original
     name: International Collector's Edition
     number: 274
     rarity: rare
     release_date: 1993-12-01
     set_number: 274
 - LEB:
+    border_color: B
+    frame: original
     name: Limited Edition Beta
     rarity: rare
     release_date: 1993-10-01
     wizards_id: 338
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=338
 - LEA:
+    border_color: B
+    frame: original
     name: Limited Edition Alpha
     rarity: rare
     release_date: 1993-08-05
@@ -123,11 +148,15 @@ rules: '[[5]], [[T]]: Put a 1/1 colorless Insect artifact creature token with fl
 slug: the-hive
 tags: card-color-colorless card-color-colorless-cost-5 card-type-artifact
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Insect 1/1 C w/ Flying
   power_toughness: 1/1
   rules: Flying
   subtype: Insect
+  tla: 10E
   type: Token Artifact Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/the-hive/
