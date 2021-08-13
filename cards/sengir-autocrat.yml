@@ -23,6 +23,7 @@ formats:
 - Limited
 - Modern
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -37,6 +38,8 @@ name: Sengir Autocrat
 power_toughness: 2/2
 printings:
 - EMA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60936
     mtgo_id: 60935
     name: Eternal Masters
@@ -47,6 +50,8 @@ printings:
     wizards_id: 413647
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413647
 - TSB:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 26064
     mtgo_id: 26063
     name: Time Spiral "Timeshifted"
@@ -55,18 +60,24 @@ printings:
     wizards_id: 106638
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=106638
 - 6ED:
+    border_color: W
+    frame: original
     name: Classic Sixth Edition
     rarity: rare
     release_date: 1999-04-28
     wizards_id: 11489
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=11489
 - 5ED:
+    border_color: W
+    frame: original
     name: Fifth Edition
     rarity: rare
     release_date: 1997-03-24
     wizards_id: 3876
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3876
 - HML:
+    border_color: B
+    frame: original
     name: Homelands
     rarity: uncommon
     release_date: 1995-10-01
@@ -81,11 +92,15 @@ subtype_tokens:
 - Human
 tags: card-color-black card-color-black-cost-4 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 B Token Creature Serf
   power_toughness: 0/1
   rules: ''
   subtype: Serf
+  tla: EMA
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/sengir-autocrat/

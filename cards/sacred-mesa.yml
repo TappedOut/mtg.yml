@@ -29,6 +29,7 @@ formats:
 - Limited
 - Modern
 - Oathbreaker
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -44,6 +45,8 @@ mana_cost_converted: 3
 name: Sacred Mesa
 printings:
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55238
     mtgo_id: 55237
     name: Commander 2014
@@ -54,6 +57,8 @@ printings:
     wizards_id: 389661
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389661
 - TSB:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 26076
     mtgo_id: 26075
     name: Time Spiral "Timeshifted"
@@ -62,12 +67,16 @@ printings:
     wizards_id: 106625
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=106625
 - ATH:
+    border_color: B
+    frame: original
     name: Anthologies
     number: 47
     rarity: rare
     release_date: 1998-11-01
     set_number: 47
 - MIR:
+    border_color: B
+    frame: original
     mtgo_foil_id: 7266
     mtgo_id: 7265
     name: Mirage
@@ -81,11 +90,15 @@ rules: "At the beginning of your upkeep, sacrifice Sacred Mesa unless you sacrif
 slug: sacred-mesa
 tags: card-color-white card-color-white-cost-3 card-type-enchantment
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Pegasus 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Pegasus
+  tla: C14
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/sacred-mesa/

@@ -24,6 +24,7 @@ formats:
 - Limited
 - Modern
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -38,6 +39,8 @@ name: Soul Collector
 power_toughness: 3/4
 printings:
 - TSB:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 26198
     mtgo_id: 26197
     name: Time Spiral "Timeshifted"
@@ -46,6 +49,8 @@ printings:
     wizards_id: 106644
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=106644
 - SCG:
+    border_color: B
+    frame: original
     mtgo_foil_id: 18729
     mtgo_id: 18728
     name: Scourge
@@ -54,7 +59,9 @@ printings:
     wizards_id: 43615
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=43615
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     rarity: rare
     release_date: 1990-04-15
@@ -68,12 +75,15 @@ subtype_tokens:
 - Vampire
 tags: card-color-black card-color-black-cost-5 card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: TSB
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/soul-collector/
