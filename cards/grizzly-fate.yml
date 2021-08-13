@@ -25,6 +25,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -38,7 +39,9 @@ mana_cost_converted: 5
 name: Grizzly Fate
 printings:
 - VMA:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_foil_id: 53006
     mtgo_id: 53005
     name: Vintage Masters
@@ -47,6 +50,8 @@ printings:
     wizards_id: 382970
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382970
 - JUD:
+    border_color: B
+    frame: original
     mtgo_foil_id: 17595
     mtgo_id: 17594
     name: Judgment
@@ -62,11 +67,15 @@ rules: "Put two 2/2 green Bear creature tokens onto the battlefield.\r\n\r\nThre
 slug: grizzly-fate
 tags: card-color-green card-color-green-cost-5 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Bear 2/2 G
   power_toughness: 2/2
   rules: ''
   subtype: Bear
+  tla: JUD
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/grizzly-fate/

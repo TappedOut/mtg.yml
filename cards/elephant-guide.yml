@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: MYS1
+cannonical_set: EMA
 cannonical_type: Enchantment
 companions:
 - Jegantha, the Wellspring
@@ -24,6 +24,7 @@ formats:
 - Oathbreaker
 - Pauper
 - Pauper EDH
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -39,10 +40,15 @@ mana_cost_converted: 3
 name: Elephant Guide
 printings:
 - MYS1:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - EMA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60676
     mtgo_id: 60675
     name: Eternal Masters
@@ -53,7 +59,9 @@ printings:
     wizards_id: 413705
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413705
 - DD3:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Duel Decks Anthology
     number: 18
     rarity: uncommon
@@ -62,7 +70,9 @@ printings:
     wizards_id: 393886
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393886
 - VMA:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_foil_id: 52916
     mtgo_id: 52915
     name: Vintage Masters
@@ -73,6 +83,8 @@ printings:
     wizards_id: 382921
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382921
 - CNS:
+    border_color: B
+    frame: modern
     name: Conspiracy
     number: 162
     rarity: uncommon
@@ -81,6 +93,8 @@ printings:
     wizards_id: 382258
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382258
 - DDD:
+    border_color: B
+    frame: modern
     mtgo_id: 34966
     name: 'Duel Decks: Garruk vs. Liliana'
     number: 18
@@ -90,6 +104,8 @@ printings:
     wizards_id: 201832
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=201832
 - JUD:
+    border_color: B
+    frame: original
     mtgo_foil_id: 17599
     mtgo_id: 17598
     name: Judgment
@@ -106,11 +122,15 @@ subtype_tokens:
 - Aura
 tags: card-color-green card-color-green-cost-3 card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 G Token Creature Elephant
   power_toughness: 3/3
   rules: ''
   subtype: Elephant
+  tla: EMA
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/elephant-guide/

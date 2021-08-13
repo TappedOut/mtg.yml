@@ -22,6 +22,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -38,6 +39,8 @@ mana_cost_converted: 2
 name: Firecat Blitz
 printings:
 - JUD:
+    border_color: B
+    frame: original
     mtgo_foil_id: 17535
     mtgo_id: 17534
     name: Judgment
@@ -52,11 +55,15 @@ rules: "Put X 1/1 red Elemental Cat creature tokens with haste into play. Remove
 slug: firecat-blitz
 tags: card-color-red card-color-red-cost-2 card-type-sorcery
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 R Token Creature Elemental Cat
   power_toughness: 1/1
   rules: Haste
   subtype: Elemental Cat
+  tla: JUD
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/firecat-blitz/

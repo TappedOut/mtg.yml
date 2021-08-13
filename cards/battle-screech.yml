@@ -15,11 +15,14 @@ effective_cost:
 flat_cost: 4
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -27,6 +30,7 @@ formats:
 - Oathbreaker
 - Pauper
 - Pauper EDH
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -43,6 +47,8 @@ mana_cost_converted: 4
 name: Battle Screech
 printings:
 - MH1:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72381
     mtgo_id: 72380
     name: Modern Horizons
@@ -51,7 +57,9 @@ printings:
     release_date: 2019-06-14
     set_number: 4
 - VMA:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_foil_id: 52996
     mtgo_id: 52995
     name: Vintage Masters
@@ -62,6 +70,8 @@ printings:
     wizards_id: 382859
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382859
 - JUD:
+    border_color: B
+    frame: original
     mtgo_foil_id: 17413
     mtgo_id: 17412
     name: Judgment
@@ -75,11 +85,15 @@ rules: "Create two 1/1 white Bird creature tokens with flying.\r\n\r\nFlashback&
 slug: battle-screech
 tags: card-color-white card-color-white-cost-4 card-type-sorcery
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Bird 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Bird
+  tla: MH1
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/battle-screech/

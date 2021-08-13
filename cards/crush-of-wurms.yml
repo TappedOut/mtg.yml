@@ -25,6 +25,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -38,6 +39,8 @@ mana_cost_converted: 9
 name: Crush of Wurms
 printings:
 - JUD:
+    border_color: B
+    frame: original
     mtgo_foil_id: 17613
     mtgo_id: 17612
     name: Judgment
@@ -51,11 +54,15 @@ rules: "Put three 6/6 green Wurm creature tokens into play.\r\n\r\nFlashback [[9
 slug: crush-of-wurms
 tags: card-color-green card-color-green-cost-9 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Wurm 6/6 G
   power_toughness: 6/6
   rules: ''
   subtype: Wurm
+  tla: JUD
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/crush-of-wurms/

@@ -25,6 +25,7 @@ formats:
 - Oathbreaker
 - Pauper
 - Pauper EDH
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -38,6 +39,8 @@ mana_cost_converted: 1
 name: Funeral Pyre
 printings:
 - JUD:
+    border_color: B
+    frame: original
     mtgo_foil_id: 17399
     mtgo_id: 17398
     name: Judgment
@@ -50,11 +53,15 @@ rules: Remove target card in a graveyard from the game. Its owner puts a 1/1 whi
 slug: funeral-pyre
 tags: card-color-white card-color-white-cost-1 card-type-instant
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: JUD
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/funeral-pyre/
