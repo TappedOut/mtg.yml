@@ -23,6 +23,7 @@ formats:
 - Oathbreaker
 - Pauper
 - Pauper EDH
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -35,6 +36,8 @@ mana_cost_converted: 4
 name: Field of Souls
 printings:
 - EMA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60564
     mtgo_id: 60563
     name: Eternal Masters
@@ -45,7 +48,9 @@ printings:
     wizards_id: 413553
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413553
 - TPR:
+    border_color: B
     cannonical: false
+    frame: m15
     mtgo_foil_id: 56657
     mtgo_id: 56656
     name: Tempest Remastered
@@ -56,6 +61,8 @@ printings:
     wizards_id: 397645
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397645
 - DDK:
+    border_color: B
+    frame: modern
     mtgo_id: 48027
     name: 'Duel Decks: Sorin vs. Tibalt'
     number: 30
@@ -65,6 +72,8 @@ printings:
     wizards_id: 368510
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=368510
 - TMP:
+    border_color: B
+    frame: original
     mtgo_foil_id: 9930
     mtgo_id: 9929
     name: Tempest
@@ -77,11 +86,15 @@ rules: Whenever a nontoken creature is put into your graveyard from the battlefi
 slug: field-of-souls
 tags: card-color-white card-color-white-cost-4 card-type-enchantment
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: EMA
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/field-of-souls/

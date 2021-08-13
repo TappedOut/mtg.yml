@@ -28,6 +28,7 @@ formats:
 - Limited
 - Modern
 - Oathbreaker
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -43,6 +44,8 @@ mana_cost_converted: 3
 name: Call of the Herd
 printings:
 - DDS:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Mind vs. Might'
     number: 44
     rarity: rare
@@ -51,6 +54,8 @@ printings:
     wizards_id: 426616
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426616
 - MM3:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63048
     mtgo_id: 63047
     name: Modern Masters 2017 Edition
@@ -61,6 +66,8 @@ printings:
     wizards_id: 425946
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425946
 - TSB:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 26172
     mtgo_id: 26171
     name: Time Spiral "Timeshifted"
@@ -69,6 +76,8 @@ printings:
     wizards_id: 109672
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=109672
 - ODY:
+    border_color: B
+    frame: original
     mtgo_foil_id: 16606
     mtgo_id: 16605
     name: Odyssey
@@ -77,7 +86,9 @@ printings:
     wizards_id: 29786
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=29786
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 2
     rarity: rare
@@ -89,11 +100,15 @@ rules: "Create a 3/3 green Elephant creature token.\r\n\r\nFlashback [[symbol:3]
 slug: call-of-the-herd
 tags: card-color-green card-color-green-cost-3 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 G Token Creature Elephant
   power_toughness: 3/3
   rules: ''
   subtype: Elephant
+  tla: DDS
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/call-of-the-herd/

@@ -24,6 +24,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -37,19 +38,25 @@ mana_cost_converted: 2
 name: Artifact Mutation
 printings:
 - C20:
+    border_color: B
+    frame: m15
     name: Commander 2020
     number: 203
     rarity: rare
     release_date: 2020-05-15
     set_number: 203
 - SLD:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Secret Lair
     number: 269
     rarity: rare
     release_date: 2019-12-09
     set_number: 269
 - C16:
+    border_color: B
+    frame: m15
     name: Commander 2016
     number: 179
     rarity: rare
@@ -58,6 +65,8 @@ printings:
     wizards_id: 420796
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420796
 - INV:
+    border_color: B
+    frame: original
     mtgo_foil_id: 14578
     mtgo_id: 14577
     name: Invasion
@@ -72,11 +81,15 @@ synonyms:
 - Artefact Mutation
 tags: card-color-gold card-color-gold-cost-2 card-color-green card-color-red card-type-instant
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: C20
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/artifact-mutation/
