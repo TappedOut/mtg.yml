@@ -24,6 +24,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: true
@@ -36,6 +37,8 @@ mana_cost_converted: 4
 name: Diamond Kaleidoscope
 printings:
 - VIS:
+    border_color: B
+    frame: original
     mtgo_foil_id: 7522
     mtgo_id: 7521
     name: Visions
@@ -48,11 +51,15 @@ rules: "(3), Tap: Put a 0/1 Prism artifact creature token into play.\r\n\r\nSacr
 slug: diamond-kaleidoscope
 tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 C Artifact Creature Prism
   power_toughness: 0/1
   rules: ''
   subtype: Prism
+  tla: VIS
   type: Artifact Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/diamond-kaleidoscope/

@@ -28,6 +28,7 @@ formats:
 - Oathbreaker
 - Pauper
 - Pauper EDH
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -41,6 +42,8 @@ mana_cost_converted: 4
 name: Acorn Harvest
 printings:
 - TOR:
+    border_color: B
+    frame: original
     mtgo_foil_id: 17296
     mtgo_id: 17295
     name: Torment
@@ -56,11 +59,15 @@ rules: "Put two 1/1 green Squirrel creature tokens onto the battlefield.\r\n\r\n
 slug: acorn-harvest
 tags: card-color-green card-color-green-cost-4 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Squirrel 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Squirrel
+  tla: TOR
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/acorn-harvest/
