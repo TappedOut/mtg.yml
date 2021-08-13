@@ -26,6 +26,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: true
@@ -37,7 +38,9 @@ name: Spike Breeder
 power_toughness: 0/0
 printings:
 - TPR:
+    border_color: B
     cannonical: false
+    frame: m15
     mtgo_foil_id: 56851
     mtgo_id: 56850
     name: Tempest Remastered
@@ -48,6 +51,8 @@ printings:
     wizards_id: 397406
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397406
 - STH:
+    border_color: B
+    frame: original
     mtgo_foil_id: 10388
     mtgo_id: 10387
     name: Stronghold
@@ -65,11 +70,15 @@ subtype_tokens:
 - Spike
 tags: card-color-green card-color-green-cost-4 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 G Creature Spike
   power_toughness: 1/1
   rules: ''
   subtype: Spike
+  tla: STH
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/spike-breeder/

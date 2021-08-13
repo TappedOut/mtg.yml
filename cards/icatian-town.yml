@@ -26,6 +26,7 @@ formats:
 - Oathbreaker
 - Pauper
 - Pauper EDH
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -36,7 +37,9 @@ mana_cost_converted: 6
 name: Icatian Town
 printings:
 - MED:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_foil_id: 28004
     mtgo_id: 28003
     name: Masters Edition
@@ -45,18 +48,24 @@ printings:
     wizards_id: 159843
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=159843
 - 6ED:
+    border_color: W
+    frame: original
     name: Classic Sixth Edition
     rarity: rare
     release_date: 1999-04-28
     wizards_id: 11336
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=11336
 - 5ED:
+    border_color: W
+    frame: original
     name: Fifth Edition
     rarity: rare
     release_date: 1997-03-24
     wizards_id: 4135
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=4135
 - FEM:
+    border_color: B
+    frame: original
     name: Fallen Empires
     rarity: rare
     release_date: 1994-11-01
@@ -66,11 +75,15 @@ rules: Put four 1/1 white Citizen creature tokens into play.
 slug: icatian-town
 tags: card-color-white card-color-white-cost-6 card-type-sorcery
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Citizen
   power_toughness: 1/1
   rules: ''
   subtype: Citizen
+  tla: 6ED
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/icatian-town/

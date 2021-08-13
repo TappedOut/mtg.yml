@@ -26,6 +26,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: true
@@ -36,6 +37,8 @@ mana_cost_converted: 4
 name: Security Detail
 printings:
 - MMQ:
+    border_color: B
+    frame: original
     mtgo_foil_id: 13400
     mtgo_id: 13399
     name: Mercadian Masques
@@ -48,11 +51,15 @@ rules: '(White)(White): Put a 1/1 white Soldier creature token into play. Play t
 slug: security-detail
 tags: card-color-white card-color-white-cost-4 card-type-enchantment
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W
   power_toughness: 1/1
   rules: ''
   subtype: Soldier
+  tla: MMQ
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/security-detail/

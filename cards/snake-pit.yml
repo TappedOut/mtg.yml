@@ -22,6 +22,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -32,6 +33,8 @@ mana_cost_converted: 4
 name: Snake Pit
 printings:
 - MMQ:
+    border_color: B
+    frame: original
     mtgo_foil_id: 13148
     mtgo_id: 13147
     name: Mercadian Masques
@@ -44,11 +47,15 @@ rules: Whenever an opponent plays a blue or black spell, you may put a 1/1 green
 slug: snake-pit
 tags: card-color-green card-color-green-cost-4 card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 G Token Creature Snake
   power_toughness: 1/1
   rules: ''
   subtype: Snake
+  tla: MMQ
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/snake-pit/

@@ -28,6 +28,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -38,7 +39,9 @@ mana_cost_converted: 5
 name: Last Stand
 printings:
 - PCA:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Planechase Anthology
     number: 100
     rarity: rare
@@ -47,6 +50,8 @@ printings:
     wizards_id: 423525
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423525
 - PC2:
+    border_color: B
+    frame: modern
     mtgo_id: 44940
     name: Planechase 2012 Edition
     rarity: rare
@@ -54,6 +59,8 @@ printings:
     wizards_id: 271164
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=271164
 - APC:
+    border_color: B
+    frame: original
     mtgo_foil_id: 16079
     mtgo_id: 16078
     name: Apocalypse
@@ -70,11 +77,15 @@ slug: last-stand
 tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-5 card-color-green
   card-color-red card-color-white card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: PC2
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/last-stand/

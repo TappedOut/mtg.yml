@@ -25,6 +25,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -38,6 +39,8 @@ mana_cost_converted: 2
 name: Drudge Spell
 printings:
 - HML:
+    border_color: B
+    frame: original
     name: Homelands
     rarity: uncommon
     release_date: 1995-10-01
@@ -50,11 +53,15 @@ rules: "(Black), Remove two creature cards in your graveyard from the game: Put 
 slug: drudge-spell
 tags: card-color-black card-color-black-cost-2 card-type-enchantment
 tokens:
-- colors: B
-  name: 1/1 B Token Creature Skeleton
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Skeleton 1/1 B w/ Regenerate
   power_toughness: 1/1
   rules: '[[symbol:B]]: Regenerate this creature.'
   subtype: Skeleton
+  tla: HML
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/drudge-spell/
