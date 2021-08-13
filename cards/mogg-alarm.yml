@@ -23,6 +23,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -36,6 +37,8 @@ mana_cost_converted: 3
 name: Mogg Alarm
 printings:
 - NMS:
+    border_color: B
+    frame: original
     mtgo_foil_id: 13842
     mtgo_id: 13841
     name: Nemesis
@@ -48,11 +51,15 @@ rules: "You may sacrifice two Mountains rather than pay Mogg Alarm's mana cost.\
 slug: mogg-alarm
 tags: card-color-red card-color-red-cost-3 card-type-sorcery
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: NMS
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/mogg-alarm/

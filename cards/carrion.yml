@@ -23,6 +23,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -36,6 +37,8 @@ mana_cost_converted: 3
 name: Carrion
 printings:
 - MIR:
+    border_color: B
+    frame: original
     mtgo_foil_id: 6844
     mtgo_id: 6843
     name: Mirage
@@ -49,11 +52,15 @@ rules: "As an additional cost to play Carrion, sacrifice a creature.\r\n\r\nPut 
 slug: carrion
 tags: card-color-black card-color-black-cost-3 card-type-instant
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 B Token Creature Insect
   power_toughness: 0/1
   rules: ''
   subtype: Insect
+  tla: MIR
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/carrion/
