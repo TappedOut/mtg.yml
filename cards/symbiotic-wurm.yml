@@ -20,6 +20,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -31,7 +32,9 @@ name: Symbiotic Wurm
 power_toughness: 7/7
 printings:
 - VMA:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_foil_id: 53048
     mtgo_id: 53047
     name: Vintage Masters
@@ -40,6 +43,8 @@ printings:
     wizards_id: 383121
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383121
 - CMD:
+    border_color: B
+    frame: modern
     mtgo_id: 40679
     name: 'MTG: Commander'
     rarity: rare
@@ -47,6 +52,8 @@ printings:
     wizards_id: 247354
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247354
 - ONS:
+    border_color: B
+    frame: original
     mtgo_foil_id: 18186
     mtgo_id: 18185
     name: Onslaught
@@ -62,11 +69,15 @@ subtype_tokens:
 - Wurm
 tags: card-color-green card-color-green-cost-8 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Insect 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Insect
+  tla: CMD
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/symbiotic-wurm/
