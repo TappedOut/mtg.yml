@@ -23,6 +23,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -38,7 +39,9 @@ mana_cost_converted: 2
 name: Pegasus Stampede
 printings:
 - TPR:
+    border_color: B
     cannonical: false
+    frame: m15
     mtgo_foil_id: 56887
     mtgo_id: 56886
     name: Tempest Remastered
@@ -49,12 +52,16 @@ printings:
     wizards_id: 397430
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397430
 - ATH:
+    border_color: B
+    frame: original
     name: Anthologies
     number: 60
     rarity: uncommon
     release_date: 1998-11-01
     set_number: 60
 - EXO:
+    border_color: B
+    frame: original
     mtgo_foil_id: 10498
     mtgo_id: 10497
     name: Exodus
@@ -68,11 +75,15 @@ rules: "Buyback-Sacrifice a land. *(You may sacrifice a land in addition to any 
 slug: pegasus-stampede
 tags: card-color-white card-color-white-cost-2 card-type-sorcery
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Pegasus 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Pegasus
+  tla: ATH
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/pegasus-stampede/

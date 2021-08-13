@@ -29,6 +29,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -43,16 +44,22 @@ mana_cost_converted: 7
 name: Roar of the Wurm
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
 - ARENA:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Arena Cards
     rarity: uncommon
     release_date: 2019-09-26
 - DDS:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Mind vs. Might'
     number: 49
     rarity: uncommon
@@ -61,6 +68,8 @@ printings:
     wizards_id: 426621
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426621
 - EMA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60686
     mtgo_id: 60685
     name: Eternal Masters
@@ -71,7 +80,9 @@ printings:
     wizards_id: 413724
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413724
 - VMA:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_foil_id: 52924
     mtgo_id: 52923
     name: Vintage Masters
@@ -80,6 +91,8 @@ printings:
     wizards_id: 383072
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383072
 - ODY:
+    border_color: B
+    frame: original
     mtgo_foil_id: 16570
     mtgo_id: 16569
     name: Odyssey
@@ -88,7 +101,9 @@ printings:
     wizards_id: 29881
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=29881
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 11
     rarity: rare
@@ -100,11 +115,15 @@ rules: "Create a 6/6 green Wurm creature token.\r\n\r\nFlashback [[symbol:3]][[s
 slug: roar-of-the-wurm
 tags: card-color-green card-color-green-cost-7 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Wurm 6/6 G
   power_toughness: 6/6
   rules: ''
   subtype: Wurm
+  tla: DDS
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/roar-of-the-wurm/
