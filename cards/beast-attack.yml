@@ -25,6 +25,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -39,6 +40,8 @@ mana_cost_converted: 5
 name: Beast Attack
 printings:
 - DDS:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Mind vs. Might'
     number: 43
     rarity: uncommon
@@ -47,7 +50,9 @@ printings:
     wizards_id: 426615
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426615
 - DD3:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Duel Decks Anthology
     number: 23
     rarity: uncommon
@@ -56,6 +61,8 @@ printings:
     wizards_id: 393881
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393881
 - DDD:
+    border_color: B
+    frame: modern
     mtgo_id: 34960
     name: 'Duel Decks: Garruk vs. Liliana'
     rarity: uncommon
@@ -63,6 +70,8 @@ printings:
     wizards_id: 201824
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=201824
 - ODY:
+    border_color: B
+    frame: original
     mtgo_foil_id: 16572
     mtgo_id: 16571
     name: Odyssey
@@ -76,11 +85,15 @@ rules: "Create a 4/4 green Beast creature token.\r\n\r\nFlashback [[symbol:2]][[
 slug: beast-attack
 tags: card-color-green card-color-green-cost-5 card-type-instant
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Beast 4/4 G
   power_toughness: 4/4
   rules: ''
   subtype: Beast
+  tla: DDS
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/beast-attack/

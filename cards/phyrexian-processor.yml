@@ -24,6 +24,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: true
@@ -36,9 +37,11 @@ mana_cost_converted: 4
 name: Phyrexian Processor
 printings:
 - V16:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     mtgo_foil_id: 62116
     mtgo_id: 62115
     name: 'From the Vault: Lore'
@@ -49,6 +52,8 @@ printings:
     wizards_id: 416754
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416754
 - DDE:
+    border_color: B
+    frame: modern
     mtgo_id: 35481
     name: 'Duel Decks: Phyrexia vs. The Coalition'
     rarity: rare
@@ -56,6 +61,8 @@ printings:
     wizards_id: 207888
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=207888
 - USG:
+    border_color: B
+    frame: original
     mtgo_foil_id: 12346
     mtgo_id: 12345
     name: Urza's Saga
@@ -69,11 +76,15 @@ rules: "As Phyrexian Processor enters the battlefield, pay any amount of life.\r
 slug: phyrexian-processor
 tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: X/X B Creature Minion
   power_toughness: X/X
   rules: ''
   subtype: Minion
+  tla: DDE
   type: Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/phyrexian-processor/
