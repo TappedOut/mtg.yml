@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: CTD
+cannonical_set: ALL
 cannonical_type: Creature
 companions:
 - Gyruda, Doom of Depths
@@ -21,6 +21,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -32,10 +33,16 @@ name: Kjeldoran Home Guard
 power_toughness: 1/6
 printings:
 - CTD:
+    border_color: B
+    cannonical: false
+    frame: modern
     name: Coldsnap Theme Deck
     rarity: uncommon
     release_date: 2013-01-21
 - ME2:
+    border_color: B
+    cannonical: false
+    frame: modern
     mtgo_foil_id: 30683
     mtgo_id: 30682
     name: Masters Edition II
@@ -44,6 +51,8 @@ printings:
     wizards_id: 184554
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=184554
 - ALL:
+    border_color: B
+    frame: original
     mtgo_id: 24499
     name: Alliances
     rarity: uncommon
@@ -60,11 +69,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 W Creature Deserter
   power_toughness: 0/1
   rules: ''
   subtype: Deserter
+  tla: ALL
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/kjeldoran-home-guard/

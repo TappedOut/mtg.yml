@@ -25,6 +25,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -37,7 +38,9 @@ mana_cost_converted: 5
 name: Aether Mutation
 printings:
 - VMA:
+    border_color: B
     cannonical: false
+    frame: modern
     name: Vintage Masters
     number: 241
     rarity: uncommon
@@ -46,6 +49,8 @@ printings:
     wizards_id: 382837
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382837
 - APC:
+    border_color: B
+    frame: original
     mtgo_foil_id: 16253
     mtgo_id: 16252
     name: Apocalypse
@@ -58,11 +63,15 @@ rules: Return target creature to its owner's hand. Create X 1/1 green Saproling 
 slug: aether-mutation
 tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-green card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: APC
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/aether-mutation/

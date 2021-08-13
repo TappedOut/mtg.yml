@@ -27,6 +27,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -41,6 +42,8 @@ mana_cost_converted: 3
 name: Goblin Trenches
 printings:
 - EMA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60960
     mtgo_id: 60959
     name: Eternal Masters
@@ -51,7 +54,9 @@ printings:
     wizards_id: 413745
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413745
 - VMA:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_foil_id: 52904
     mtgo_id: 52903
     name: Vintage Masters
@@ -62,6 +67,8 @@ printings:
     wizards_id: 382965
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382965
 - APC:
+    border_color: B
+    frame: original
     mtgo_foil_id: 16055
     mtgo_id: 16054
     name: Apocalypse
@@ -74,11 +81,15 @@ rules: '[[symbol:2]], Sacrifice a land: Put two 1/1 red and white Goblin Soldier
 slug: goblin-trenches
 tags: card-color-gold card-color-gold-cost-3 card-color-red card-color-white card-type-enchantment
 tokens:
-- colors: RW
+- cannonical_type: Creature
+  colors: RW
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 RW Token Creature Goblin Soldier
   power_toughness: 1/1
   rules: ''
   subtype: Goblin Soldier
+  tla: EMA
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/goblin-trenches/

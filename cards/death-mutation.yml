@@ -25,6 +25,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -37,6 +38,8 @@ mana_cost_converted: 8
 name: Death Mutation
 printings:
 - CMD:
+    border_color: B
+    frame: modern
     mtgo_id: 40613
     name: 'MTG: Commander'
     rarity: uncommon
@@ -44,6 +47,8 @@ printings:
     wizards_id: 247158
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247158
 - APC:
+    border_color: B
+    frame: original
     mtgo_foil_id: 16251
     mtgo_id: 16250
     name: Apocalypse
@@ -56,11 +61,15 @@ rules: Destroy target nonblack creature. It can't be regenerated. Put X 1/1 gree
 slug: death-mutation
 tags: card-color-black card-color-gold card-color-gold-cost-8 card-color-green card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: CMD
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/death-mutation/

@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: ME2
+cannonical_set: ALL
 cannonical_type: Instant
 companions:
 - Gyruda, Doom of Depths
@@ -25,6 +25,7 @@ formats:
 - Oathbreaker
 - Pauper
 - Pauper EDH
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -38,6 +39,9 @@ mana_cost_converted: 2
 name: Errand of Duty
 printings:
 - ME2:
+    border_color: B
+    cannonical: false
+    frame: modern
     mtgo_foil_id: 30665
     mtgo_id: 30664
     name: Masters Edition II
@@ -46,6 +50,8 @@ printings:
     wizards_id: 184730
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=184730
 - ALL:
+    border_color: B
+    frame: original
     name: Alliances
     rarity: common
     release_date: 1996-06-10
@@ -55,7 +61,10 @@ rules: Put a 1/1 white Knight creature token with banding into play.
 slug: errand-of-duty
 tags: card-color-white card-color-white-cost-2 card-type-instant
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Knight
   power_toughness: 1/1
   rules: Banding *(Any creatures with banding, and up to one without, can attack in
@@ -64,6 +73,7 @@ tokens:
     damage, not its controller, among any of the creatures it's being blocked by or
     is blocking.)*
   subtype: Knight
+  tla: ALL
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/errand-of-duty/

@@ -24,6 +24,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: true
@@ -37,6 +38,8 @@ mana_cost_converted: 4
 name: Hornet Cannon
 printings:
 - DDE:
+    border_color: B
+    frame: modern
     mtgo_id: 35377
     name: 'Duel Decks: Phyrexia vs. The Coalition'
     rarity: uncommon
@@ -44,6 +47,8 @@ printings:
     wizards_id: 209146
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=209146
 - STH:
+    border_color: B
+    frame: original
     mtgo_foil_id: 10292
     mtgo_id: 10291
     name: Stronghold
@@ -56,11 +61,15 @@ rules: '(3), Tap: Put a 1/1 Insect artifact creature token with flying and haste
 slug: hornet-cannon
 tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Insect 1/1 C w/ Flying, Haste
   power_toughness: 1/1
   rules: Flying, haste
   subtype: Insect
+  tla: DDE
   type: Token Artifact Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/hornet-cannon/

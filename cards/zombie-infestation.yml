@@ -30,6 +30,7 @@ formats:
 - Limited
 - Modern
 - Oathbreaker
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -43,12 +44,16 @@ mana_cost_converted: 2
 name: Zombie Infestation
 printings:
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 288
     rarity: uncommon
     release_date: 2020-07-17
     set_number: 288
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77379
     mtgo_id: 77378
     name: Commander 2019
@@ -57,9 +62,11 @@ printings:
     release_date: 2019-08-23
     set_number: 132
 - GRV:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: modern
     name: 'Premium Deck Series: Graveborn'
     number: 19
     rarity: uncommon
@@ -68,6 +75,8 @@ printings:
     wizards_id: 270454
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=270454
 - M12:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 41346
     mtgo_id: 41345
     name: 2012 Core Set
@@ -76,6 +85,8 @@ printings:
     wizards_id: 241860
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=241860
 - ARC:
+    border_color: B
+    frame: modern
     name: Archenemy
     number: 28
     rarity: uncommon
@@ -84,6 +95,8 @@ printings:
     wizards_id: 220579
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220579
 - ODY:
+    border_color: B
+    frame: original
     mtgo_foil_id: 16744
     mtgo_id: 16743
     name: Odyssey
@@ -95,11 +108,15 @@ rules: 'Discard two cards: Create a 2/2 black Zombie creature token.'
 slug: zombie-infestation
 tags: card-color-black card-color-black-cost-2 card-type-enchantment
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: JMP
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/zombie-infestation/

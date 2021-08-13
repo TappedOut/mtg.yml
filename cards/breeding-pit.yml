@@ -1,7 +1,7 @@
 activation_costs:
 - B
 canadian_hl_score: 0
-cannonical_set: MYS1
+cannonical_set: DDC
 cannonical_type: Enchantment
 companions:
 - Gyruda, Doom of Depths
@@ -24,6 +24,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -36,11 +37,16 @@ mana_cost_converted: 4
 name: Breeding Pit
 printings:
 - MYS1:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
 - DD3:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Duel Decks Anthology
     number: 53
     rarity: uncommon
@@ -49,6 +55,8 @@ printings:
     wizards_id: 394014
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394014
 - DDC:
+    border_color: B
+    frame: modern
     mtgo_id: 32041
     name: 'Duel Decks: Divine vs. Demonic'
     rarity: uncommon
@@ -56,7 +64,9 @@ printings:
     wizards_id: 197024
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=197024
 - MED:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_foil_id: 27982
     mtgo_id: 27981
     name: Masters Edition
@@ -65,12 +75,16 @@ printings:
     wizards_id: 159166
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=159166
 - 5ED:
+    border_color: W
+    frame: original
     name: Fifth Edition
     rarity: uncommon
     release_date: 1997-03-24
     wizards_id: 3831
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3831
 - FEM:
+    border_color: B
+    frame: original
     name: Fallen Empires
     rarity: uncommon
     release_date: 1994-11-01
@@ -81,11 +95,15 @@ rules: "At the beginning of your upkeep, sacrifice Breeding Pit unless you pay [
 slug: breeding-pit
 tags: card-color-black card-color-black-cost-4 card-type-enchantment
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 B Token Creature Thrull
   power_toughness: 0/1
   rules: ''
   subtype: Thrull
+  tla: DDC
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/breeding-pit/
