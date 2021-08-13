@@ -20,6 +20,7 @@ formats:
 - Limited
 - Oathbreaker
 - Oldschool 93/94
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -34,7 +35,9 @@ name: Tetravus
 power_toughness: 1/1
 printings:
 - ME4:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_foil_id: 38763
     mtgo_id: 38762
     name: Masters Edition IV
@@ -45,19 +48,23 @@ printings:
     wizards_id: 202590
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=202590
 - 4ED:
+    border_color: W
+    frame: original
     name: Fourth Edition
     rarity: rare
     release_date: 1995-04-01
     wizards_id: 2073
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=2073
 - 4EDFBB:
+    border_color: B
     cannonical: false
+    frame: original
     name: 4th Edition Foreign Black Border
     rarity: rare
     release_date: 1995-04-01
-    wizards_id: 2073
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=2073
 - ATQ:
+    border_color: B
+    frame: original
     name: Antiquities
     rarity: rare
     release_date: 1994-03-01
@@ -75,11 +82,15 @@ subtype_tokens:
 - Construct
 tags: card-color-colorless card-color-colorless-cost-6 card-type-artifact card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 C Artifact Creature Tetravite
   power_toughness: 1/1
   rules: "Flying\r\n\r\nThis creature can't be enchanted."
   subtype: Tetravite
+  tla: 4ED
   type: Artifact Creature
 type: Artifact Creature
 url: http://tappedout.net/mtg-card/tetravus/
