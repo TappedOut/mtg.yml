@@ -26,6 +26,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: true
@@ -38,6 +39,8 @@ mana_cost_converted: 4
 name: Tooth and Claw
 printings:
 - EMA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60946
     mtgo_id: 60945
     name: Eternal Masters
@@ -48,6 +51,8 @@ printings:
     wizards_id: 413693
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413693
 - C13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 50829
     mtgo_id: 50828
     name: Commander 2013
@@ -56,6 +61,8 @@ printings:
     wizards_id: 376556
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376556
 - TMP:
+    border_color: B
+    frame: original
     mtgo_foil_id: 9868
     mtgo_id: 9867
     name: Tempest
@@ -68,11 +75,15 @@ rules: 'Sacrifice two creatures: Put a 3/1 red Beast creature token named Carniv
 slug: tooth-and-claw
 tags: card-color-red card-color-red-cost-4 card-type-enchantment
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/1 R Token Creature Beast
   power_toughness: 3/1
   rules: ''
   subtype: Beast
+  tla: EMA
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/tooth-and-claw/

@@ -22,6 +22,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -33,7 +34,9 @@ mana_cost_converted: 1
 name: Sarcomancy
 printings:
 - TPR:
+    border_color: B
     cannonical: false
+    frame: m15
     mtgo_foil_id: 56603
     mtgo_id: 56602
     name: Tempest Remastered
@@ -44,7 +47,9 @@ printings:
     wizards_id: 397586
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397586
 - VMA:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_foil_id: 52672
     mtgo_id: 52671
     name: Vintage Masters
@@ -55,6 +60,8 @@ printings:
     wizards_id: 383078
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383078
 - TMP:
+    border_color: B
+    frame: original
     mtgo_foil_id: 9788
     mtgo_id: 9787
     name: Tempest
@@ -68,11 +75,15 @@ rules: "When Sarcomancy enters the battlefield, put a 2/2 black Zombie creature 
 slug: sarcomancy
 tags: card-color-black card-color-black-cost-1 card-type-enchantment
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: TMP
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/sarcomancy/

@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: C20
+cannonical_set: MH2
 cannonical_type: Instant
 companions:
 - Kaheera, the Orphanguard
@@ -15,16 +15,20 @@ effective_cost:
 flat_cost: 7
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
 - Modern
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -38,18 +42,24 @@ mana_cost_converted: 7
 name: Hunting Pack
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 284
     rarity: uncommon
     release_date: 2021-06-18
     set_number: 284
 - C20:
+    border_color: B
+    frame: m15
     name: Commander 2020
     number: 179
     rarity: uncommon
     release_date: 2020-05-15
     set_number: 179
 - IMA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66216
     mtgo_id: 66215
     name: Iconic Masters
@@ -58,6 +68,8 @@ printings:
     wizards_id: 438734
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438734
 - CMD:
+    border_color: B
+    frame: modern
     mtgo_id: 40696
     name: 'MTG: Commander'
     rarity: uncommon
@@ -65,6 +77,8 @@ printings:
     wizards_id: 247405
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247405
 - SCG:
+    border_color: B
+    frame: original
     mtgo_foil_id: 18875
     mtgo_id: 18874
     name: Scourge
@@ -77,11 +91,15 @@ rules: "Create a 4/4 green Beast creature token.\r\n\r\nStorm *(When you cast th
 slug: hunting-pack
 tags: card-color-green card-color-green-cost-7 card-type-instant
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Beast 4/4 G
   power_toughness: 4/4
   rules: ''
   subtype: Beast
+  tla: MH2
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/hunting-pack/

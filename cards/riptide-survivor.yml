@@ -21,6 +21,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -35,6 +36,8 @@ name: Riptide Survivor
 power_toughness: 2/1
 printings:
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55058
     mtgo_id: 55057
     name: Commander 2014
@@ -43,6 +46,8 @@ printings:
     wizards_id: 389657
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389657
 - SCG:
+    border_color: B
+    frame: original
     mtgo_foil_id: 18709
     mtgo_id: 18708
     name: Scourge
@@ -60,12 +65,15 @@ subtype_tokens:
 - Wizard
 tags: card-color-blue card-color-blue-cost-3 card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: C14
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/riptide-survivor/
