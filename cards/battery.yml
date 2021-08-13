@@ -23,6 +23,7 @@ formats:
 - Limited
 - Modern
 - Oathbreaker
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -33,18 +34,24 @@ mana_cost_converted: 0
 name: Battery
 printings:
 - HOP:
+    border_color: B
+    frame: modern
     name: Planechase
     rarity: uncommon
     release_date: 2009-09-04
     wizards_id: 205409
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=205409
 - TSB:
+    border_color: B
+    frame: modern
     name: Time Spiral "Timeshifted"
     rarity: rare
     release_date: 2006-10-06
     wizards_id: 109704
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=109704
 - INV:
+    border_color: B
+    frame: original
     name: Invasion
     rarity: uncommon
     release_date: 2000-10-02
@@ -54,11 +61,15 @@ rules: Put a 3/3 green Elephant creature token into play.
 slug: battery
 tags: card-color-colorless card-color-colorless-cost-0 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 G Token Creature Elephant
   power_toughness: 3/3
   rules: ''
   subtype: Elephant
+  tla: HOP
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/battery/

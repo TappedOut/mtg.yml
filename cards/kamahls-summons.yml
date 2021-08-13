@@ -24,6 +24,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -34,6 +35,8 @@ mana_cost_converted: 4
 name: Kamahl's Summons
 printings:
 - ONS:
+    border_color: B
+    frame: original
     mtgo_foil_id: 18208
     mtgo_id: 18207
     name: Onslaught
@@ -47,11 +50,15 @@ rules: Each player may reveal any number of creature cards from his or her hand.
 slug: kamahls-summons
 tags: card-color-green card-color-green-cost-4 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Bear 2/2 G
   power_toughness: 2/2
   rules: ''
   subtype: Bear
+  tla: ONS
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/kamahls-summons/
