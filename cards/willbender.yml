@@ -25,6 +25,7 @@ formats:
 - Limited
 - Modern
 - Oathbreaker
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -40,6 +41,8 @@ power_toughness: 1/2
 printings:
 - C19:
     booster_exclude: true
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77319
     mtgo_id: 77318
     name: Commander 2019
@@ -50,7 +53,9 @@ printings:
     wizards_id: 470648
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470648
 - A25:
+    border_color: B
     cannonical: false
+    frame: m15
     mtgo_foil_id: 67071
     mtgo_id: 67070
     name: Masters 25
@@ -61,7 +66,9 @@ printings:
     wizards_id: 442067
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442067
 - DD3:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Duel Decks Anthology
     number: 6
     rarity: uncommon
@@ -70,6 +77,8 @@ printings:
     wizards_id: 393877
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393877
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55050
     mtgo_id: 55049
     name: Commander 2014
@@ -78,6 +87,8 @@ printings:
     wizards_id: 389748
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389748
 - DDN:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Speed vs. Cunning'
     number: 47
     rarity: rare
@@ -86,6 +97,8 @@ printings:
     wizards_id: 386379
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386379
 - DD2:
+    border_color: B
+    frame: modern
     mtgo_id: 31594
     name: 'Duel Decks: Jace vs. Chandra'
     rarity: uncommon
@@ -93,6 +106,8 @@ printings:
     wizards_id: 189252
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=189252
 - TSB:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 26188
     mtgo_id: 26187
     name: Time Spiral "Timeshifted"
@@ -101,6 +116,8 @@ printings:
     wizards_id: 108861
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=108861
 - LGN:
+    border_color: B
+    frame: original
     mtgo_foil_id: 18408
     mtgo_id: 18407
     name: Legions
@@ -109,7 +126,9 @@ printings:
     wizards_id: 42054
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=42054
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: rare
@@ -126,12 +145,15 @@ subtype_tokens:
 - Wizard
 tags: card-color-blue card-color-blue-cost-2 card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: C19
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/willbender/
