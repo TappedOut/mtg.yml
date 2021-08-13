@@ -26,6 +26,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: true
@@ -41,7 +42,9 @@ mana_cost_converted: 5
 name: Saproling Burst
 printings:
 - VMA:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_foil_id: 52842
     mtgo_id: 52841
     name: Vintage Masters
@@ -50,6 +53,8 @@ printings:
     wizards_id: 383077
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383077
 - NMS:
+    border_color: B
+    frame: original
     mtgo_foil_id: 13826
     mtgo_id: 13825
     name: Nemesis
@@ -67,12 +72,16 @@ rules: "Fading 7 *(This enchantment enters the battlefield with seven fade count
 slug: saproling-burst
 tags: card-color-green card-color-green-cost-5 card-type-enchantment
 tokens:
-- colors: G
-  name: '*/* G Token Creature Saproling'
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Saproling */* G
   power_toughness: '*/*'
   rules: This creature's power and toughness are each equal to the number of fade
     counters on Saproling Burst.
   subtype: Saproling
+  tla: NMS
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/saproling-burst/

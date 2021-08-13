@@ -26,6 +26,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -37,6 +38,8 @@ mana_cost_converted: 2
 name: Saproling Cluster
 printings:
 - NMS:
+    border_color: B
+    frame: original
     mtgo_foil_id: 13820
     mtgo_id: 13819
     name: Nemesis
@@ -49,11 +52,15 @@ rules: '(1), Discard a card: Put a 1/1 green Saproling creature token into play.
 slug: saproling-cluster
 tags: card-color-green card-color-green-cost-2 card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: NMS
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/saproling-cluster/

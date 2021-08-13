@@ -26,6 +26,7 @@ formats:
 - Oathbreaker
 - Pauper
 - Pauper EDH
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -41,6 +42,8 @@ mana_cost_converted: 3
 name: Afterlife
 printings:
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54754
     mtgo_id: 54753
     name: Commander 2014
@@ -51,7 +54,9 @@ printings:
     wizards_id: 389426
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389426
 - VMA:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_foil_id: 52834
     mtgo_id: 52833
     name: Vintage Masters
@@ -62,6 +67,8 @@ printings:
     wizards_id: 382838
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382838
 - CMD:
+    border_color: B
+    frame: modern
     mtgo_id: 40549
     name: 'MTG: Commander'
     rarity: uncommon
@@ -69,6 +76,8 @@ printings:
     wizards_id: 247330
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247330
 - MMQ:
+    border_color: B
+    frame: original
     mtgo_foil_id: 13570
     mtgo_id: 13569
     name: Mercadian Masques
@@ -77,6 +86,8 @@ printings:
     wizards_id: 19549
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=19549
 - MIR:
+    border_color: B
+    frame: original
     mtgo_foil_id: 6768
     mtgo_id: 6767
     name: Mirage
@@ -89,11 +100,15 @@ rules: Destroy target creature. It can't be regenerated. Its controller puts a 1
 slug: afterlife
 tags: card-color-white card-color-white-cost-3 card-type-instant
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: C14
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/afterlife/
