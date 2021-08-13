@@ -23,6 +23,7 @@ formats:
 - Limited
 - Oathbreaker
 - Oldschool 93/94
+- Premodern
 - Unformat
 - Vintage
 has_activated_abilities: false
@@ -37,7 +38,9 @@ name: Stangg
 power_toughness: 3/4
 printings:
 - A25:
+    border_color: B
     cannonical: false
+    frame: m15
     mtgo_foil_id: 67351
     mtgo_id: 67350
     name: Masters 25
@@ -48,7 +51,9 @@ printings:
     wizards_id: 442207
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442207
 - ME3:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_foil_id: 33601
     mtgo_id: 33600
     name: Masters Edition III
@@ -59,12 +64,16 @@ printings:
     wizards_id: 201231
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=201231
 - CHR:
+    border_color: W
+    frame: original
     name: Chronicles
     rarity: rare
     release_date: 1995-06-01
     wizards_id: 2881
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=2881
 - LEG:
+    border_color: B
+    frame: original
     name: Legends
     rarity: rare
     release_date: 1994-06-01
@@ -82,11 +91,15 @@ subtype_tokens:
 tags: card-color-gold card-color-gold-cost-6 card-color-green card-color-red card-type-creature
   card-type-legendary
 tokens:
-- colors: RG
-  name: 3/4 RG Token Legendary Creature Human Warrior
+- cannonical_type: Creature
+  colors: RG
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Stangg Twin
   power_toughness: 3/4
   rules: ''
   subtype: Human Warrior
+  tla: CHR
   type: Token Legendary Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/stangg/
