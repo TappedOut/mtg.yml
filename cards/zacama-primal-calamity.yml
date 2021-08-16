@@ -1,7 +1,7 @@
 activated_abilities:
-- '2R: Zacama Deals 3 Damage to target creature.'
-- '2G: Destroy target artifact or enchantment.'
-- '2W: You gain 3 life.'
+- ': This deals 3 damage to target creature.'
+- ': Destroy target artifact or enchantment.'
+- ': You gain 3 life.'
 activation_costs:
 - G
 - R
@@ -48,12 +48,15 @@ keywords:
 - Reach
 - Trample
 - Vigilance
+- Tap/Untap
 mana_cost: 6RGW
 mana_cost_converted: 9
 name: Zacama, Primal Calamity
 power_toughness: 9/9
 printings:
 - RIX:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66812
     mtgo_id: 66811
     name: Rivals of Ixalan
@@ -65,10 +68,19 @@ printings:
     - identifier: PromoPack
     wizards_id: 439836
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439836
-rules: "Vigilance, reach, trample\r\n\r\nWhen Zacama, Primal Calamity enters the battlefield,\
-  \ if you cast it, untap all lands you control.\r\n\r\n2R: Zacama Deals 3 Damage\
-  \ to target creature.\r\n\r\n2G: Destroy target artifact or enchantment.\r\n\r\n\
-  2W: You gain 3 life."
+- '000':
+    border_color: B
+    cannonical: false
+    frame: m15
+    name: Promo Set
+    number: 1
+    rarity: mythic_rare
+    release_date: 1990-04-15
+    set_number: 1
+rules: "Vigilance, reach, trample\r\n\r\nWhen this enters the battlefield, if you\
+  \ cast this, untap all lands you control.\r\n\r\n[[symbol:2]][[symbol:R]]: This\
+  \ deals 3 damage to target creature.\r\n\r\n[[symbol:2]][[symbol:G]]: Destroy target\
+  \ artifact or enchantment.\r\n\r\n[[symbol:2]][[symbol:W]]: You gain 3 life."
 slug: zacama-primal-calamity
 subtype: Dinosaur
 subtype_tokens:
