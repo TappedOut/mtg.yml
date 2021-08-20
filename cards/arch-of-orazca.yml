@@ -4,7 +4,7 @@ activated_abilities:
 activation_costs:
 - C
 canadian_hl_score: 0
-cannonical_set: TSR
+cannonical_set: RIX
 cannonical_type: Land
 companions:
 - Gyruda, Doom of Depths
@@ -33,6 +33,8 @@ formats:
 - Limited
 - Modern
 - Oathbreaker
+- Pauper
+- Pauper EDH
 - Pioneer
 - Tiny Leaders
 - Unformat
@@ -48,19 +50,26 @@ mana_produced: C
 name: Arch of Orazca
 printings:
 - TSR:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Time Spiral Remastered
     number: 404
-    rarity: basic_land
+    rarity: special
     release_date: 2021-03-19
     set_number: 404
     wizards_id: 512370
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512370
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: basic_land
     release_date: 2020-03-14
 - RIX:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66838
     mtgo_id: 66837
     name: Rivals of Ixalan
@@ -78,11 +87,14 @@ rules: "Ascend *(If you control ten or more permanents, you get the city's bless
 slug: arch-of-orazca
 tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
 tokens:
-- colors: C
-  name: C Emblem City's Blessing
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: City's Blessing
   power_toughness: null
   rules: ''
-  subtype: City's Blessing
+  tla: RIX
   type: Emblem
 type: Land
 url: http://tappedout.net/mtg-card/arch-of-orazca/
