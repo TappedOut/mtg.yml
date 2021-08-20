@@ -31,8 +31,6 @@ formats:
 - Limited
 - Modern
 - Oathbreaker
-- Pauper
-- Pauper EDH
 - Pioneer
 - Unformat
 - Vintage
@@ -42,6 +40,7 @@ is_permanent: true
 keywords:
 - Double strike
 - Indestructible
+- Vigilance
 - Tokens
 mana_cost: 3W
 mana_cost_converted: 4
@@ -49,6 +48,8 @@ name: Oketra the True
 power_toughness: 3/6
 printings:
 - AKH:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63645
     mtgo_id: 63644
     name: Amonkhet
@@ -61,28 +62,36 @@ printings:
     wizards_id: 426723
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426723
 - AKHMPS:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: 'Masterpiece Series: Amonkhet Invocations'
-    rarity: common
+    number: 5
+    rarity: special
     release_date: 2017-04-28
+    set_number: 5
     wizards_id: 429864
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=429864
-rules: "Double strike, indestructible \r\n\r\nOketra the True cannot attack or block\
-  \ unless you control at least three other creatures. \r\n\r\n[[symbol:3]][[symbol:W]]:\
-  \ Create a 1/1 white Warrior creature token with vigilance."
+rules: "Double strike, indestructible \r\n\r\nThis cannot attack or block unless you\
+  \ control at least three other creatures. \r\n\r\n[[symbol:3]][[symbol:W]]: Create\
+  \ a 1/1 white Warrior creature token with vigilance."
 slug: oketra-the-true
 subtype: God
 subtype_tokens:
 - God
 tags: card-color-white card-color-white-cost-4 card-type-creature card-type-legendary
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Warrior
   power_toughness: 1/1
   rules: Vigilance
   subtype: Warrior
+  tla: AKH
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/oketra-the-true/

@@ -50,12 +50,18 @@ name: The Scarab God
 power_toughness: 5/5
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 216
     rarity: mythic_rare
     release_date: 2020-08-07
     set_number: 216
+    wizards_id: 489889
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489889
 - HOU:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 64775
     mtgo_id: 64774
     name: Hour of Devastation
@@ -66,12 +72,14 @@ printings:
     wizards_id: 430834
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430834
 - AKHMPS:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: 'Masterpiece Series: Amonkhet Invocations'
     number: 53
-    rarity: mythic_rare
+    rarity: special
     release_date: 2017-04-28
     set_number: 53
     wizards_id: 430688
@@ -79,8 +87,8 @@ printings:
 rules: "At the beginning of your upkeep, each opponent loses X life and you scry X,\
   \ where X is the number of Zombies you control.\r\n\r\n[[symbol:2]][[symbol:U]][[symbol:B]]:\
   \ Exile target creature card from a graveyard. Create a token that's a copy of it,\
-  \ except it's a 4/4 black Zombie.\r\n\r\nWhen The Scarab God dies *(is put into\
-  \ the graveyard from the battlefield)*, return it to its owner's hand at the beginning\
+  \ except it's a 4/4 black Zombie.\r\n\r\nWhen this dies *(is put into the graveyard\
+  \ from the battlefield)*, return this to this creature's owner's hand at the beginning\
   \ of the next end step."
 slug: the-scarab-god
 subtype: God
@@ -89,11 +97,14 @@ subtype_tokens:
 tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-5 card-type-creature
   card-type-legendary
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: 2XM
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/the-scarab-god/
