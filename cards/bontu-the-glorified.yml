@@ -32,8 +32,6 @@ formats:
 - Limited
 - Modern
 - Oathbreaker
-- Pauper
-- Pauper EDH
 - Pioneer
 - Tiny Leaders
 - Unformat
@@ -43,6 +41,8 @@ is_limitless: false
 is_permanent: true
 keywords:
 - Indestructible
+- Sacrifice
+- Scry
 - Menace
 mana_cost: 2B
 mana_cost_converted: 3
@@ -50,6 +50,8 @@ name: Bontu the Glorified
 power_toughness: 4/6
 printings:
 - AKH:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63767
     mtgo_id: 63766
     name: Amonkhet
@@ -60,18 +62,22 @@ printings:
     wizards_id: 426784
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426784
 - AKHMPS:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: 'Masterpiece Series: Amonkhet Invocations'
-    rarity: common
+    number: 20
+    rarity: special
     release_date: 2017-04-28
+    set_number: 20
     wizards_id: 429879
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=429879
-rules: "Menace, indestructible\r\n\r\nBontu the Glorified can't attack or block unless\
-  \ a creature died under your control this turn.\r\n\r\n[[symbol:1]][[symbol:B]],\
-  \ Sacrifice another creature: Scry 1. Each opponent loses 1 life and you gain 1\
-  \ life."
+rules: "Menace, indestructible\r\n\r\nThis can't attack or block unless a creature\
+  \ died under your control this turn *(was put into the graveyard from the battlefield)*.\r\
+  \n\r\n[[symbol:1]][[symbol:B]], Sacrifice another creature: Scry 1. Each opponent\
+  \ loses 1 life and you gain 1 life."
 slug: bontu-the-glorified
 subtype: God
 subtype_tokens:
