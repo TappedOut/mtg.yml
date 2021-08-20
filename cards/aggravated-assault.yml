@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Untap all creatures you control. After this main phase, there is an additional
-  combat phase followed by an additional main phase. Play this ability only any time
-  you could play a sorcery.'
+  combat phase followed by an additional main phase. Activate this ability only at
+  any time you could cast a sorcery.'
 activation_costs:
 - R
 canadian_hl_score: 0
@@ -29,8 +29,6 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
-- Pauper
-- Pauper EDH
 - Pioneer
 - Premodern
 - Tiny Leaders
@@ -39,6 +37,8 @@ formats:
 has_activated_abilities: true
 is_limitless: false
 is_permanent: true
+keywords:
+- Tap/Untap
 mana_cost: 2R
 mana_cost_converted: 3
 name: Aggravated Assault
@@ -58,8 +58,10 @@ printings:
     foil_only: true
     frame: m15
     name: 'Masterpiece Series: Amonkhet Invocations'
-    rarity: common
+    number: 25
+    rarity: special
     release_date: 2017-04-28
+    set_number: 25
     wizards_id: 429884
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=429884
 - ONS:
@@ -68,13 +70,15 @@ printings:
     mtgo_foil_id: 18102
     mtgo_id: 18101
     name: Onslaught
+    number: 185
     rarity: rare
     release_date: 2002-10-07
+    set_number: 185
     wizards_id: 40195
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=40195
-rules: '[[3]][[R]][[R]]: Untap all creatures you control. After this main phase, there
-  is an additional combat phase followed by an additional main phase. Play this ability
-  only any time you could play a sorcery.'
+rules: '[[symbol:3]][[symbol:R]][[symbol:R]]: Untap all creatures you control. After
+  this main phase, there is an additional combat phase followed by an additional main
+  phase. Activate this ability only at any time you could cast a sorcery.'
 slug: aggravated-assault
 tags: card-color-red card-color-red-cost-3 card-type-enchantment
 type: Enchantment
