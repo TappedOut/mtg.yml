@@ -49,6 +49,8 @@ name: Koma, Cosmos Serpent
 power_toughness: 6/6
 printings:
 - KHM:
+    border_color: B
+    frame: m15
     name: Kaldheim
     number: 221
     rarity: mythic_rare
@@ -57,6 +59,8 @@ printings:
     variations:
     - identifier: '326'
     - identifier: PromoPack
+    wizards_id: 503837
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503837
 rules: "This spell can't be countered.\r\n\r\nAt the beginning of each upkeep, create\
   \ a 3/3 blue Serpent creature token named Koma's Coil.\r\n\r\nSacrifice another\
   \ Serpent: Choose one &mdash;\r\n\r\n- Tap target permanent. Its activated abilities\
@@ -69,11 +73,15 @@ subtype_tokens:
 tags: card-color-blue card-color-gold card-color-gold-cost-7 card-color-green card-type-creature
   card-type-legendary
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Koma's Coil 3/3 U
   power_toughness: 3/3
   rules: ''
   subtype: Serpent
+  tla: KHM
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/koma-cosmos-serpent/

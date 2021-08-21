@@ -45,6 +45,8 @@ name: Goldspan Dragon
 power_toughness: 4/4
 printings:
 - KHM:
+    border_color: B
+    frame: m15
     name: Kaldheim
     number: 139
     rarity: mythic_rare
@@ -53,6 +55,8 @@ printings:
     variations:
     - identifier: '358'
     - identifier: PromoPack
+    wizards_id: 503751
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503751
 rules: "Flying, haste\r\n\r\nWhenever Goldspan Dragon attacks or becomes the target\
   \ of a spell, create a treasure token.\r\n\r\nTreasures you control have \"[[symbol:T]],\
   \ Sacrifice this artifact: Gain two mana of any one colour.\""
@@ -62,11 +66,15 @@ subtype_tokens:
 - Dragon
 tags: card-color-red card-color-red-cost-5 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: KHM
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/goldspan-dragon/

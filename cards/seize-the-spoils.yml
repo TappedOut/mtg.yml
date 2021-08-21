@@ -50,11 +50,15 @@ mana_produced: W, U, B, R, G
 name: Seize the Spoils
 printings:
 - KHM:
+    border_color: B
+    frame: m15
     name: Kaldheim
     number: 149
     rarity: common
     release_date: 2021-02-05
     set_number: 149
+    wizards_id: 503761
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503761
 rules: "As an additional cost to cast this spell, discard a card.\r\n\r\nDraw two\
   \ cards and create a Treasure token. *(It's an artifact with \"[[symbol:T]], Sacrifice\
   \ this artifact: Gain one mana of any colour.\")*"
@@ -62,11 +66,15 @@ slug: seize-the-spoils
 tags: card-color-red card-color-red-cost-3 card-mana-black card-mana-blue card-mana-green
   card-mana-red card-mana-white card-type-sorcery
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: KHM
   type: Token Artifact
 type: Sorcery
 url: http://tappedout.net/mtg-card/seize-the-spoils/

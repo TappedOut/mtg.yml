@@ -54,6 +54,8 @@ mana_cost_converted: 3
 name: Niko Aris
 printings:
 - KHM:
+    border_color: B
+    frame: m15
     name: Kaldheim
     number: 225
     rarity: mythic_rare
@@ -62,6 +64,8 @@ printings:
     variations:
     - identifier: '289'
     - identifier: PromoPack
+    wizards_id: 503841
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503841
 rules: "When Niko Aris enters the battlefield, create X Shard tokens. *(They're enchantment\
   \ with \"[[symbol:2]], Sacrifice this: Scry 1 and draw a card.\")*\r\n\r\n[[symbol:loyalty-plus1]]:\
   \ Up to one target creature you control can't be blocked this turn. Whenever that\
@@ -75,11 +79,15 @@ subtype_tokens:
 tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-white card-type-legendary
   card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Enchantment
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Shard
   power_toughness: null
   rules: '[[symbol:2]], Sacrifice this: Scry 1, then draw a card.'
   subtype: Shard
+  tla: KHM
   type: Token Enchantment
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/niko-aris/

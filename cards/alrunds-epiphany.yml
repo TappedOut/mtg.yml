@@ -49,6 +49,8 @@ mana_cost_converted: 7
 name: Alrund's Epiphany
 printings:
 - KHM:
+    border_color: B
+    frame: m15
     name: Kaldheim
     number: 41
     rarity: mythic_rare
@@ -66,11 +68,15 @@ rules: "Create two 1/1 blue Bird creature tokens with flying. Take an extra turn
 slug: alrunds-epiphany
 tags: card-color-blue card-color-blue-cost-7 card-type-sorcery
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Bird 1/1 U
   power_toughness: 1/1
   rules: Flying
   subtype: Bird
+  tla: KHM
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/alrunds-epiphany/
