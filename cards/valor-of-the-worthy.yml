@@ -49,11 +49,15 @@ mana_cost_converted: 1
 name: Valor of the Worthy
 printings:
 - KHM:
+    border_color: B
+    frame: m15
     name: Kaldheim
     number: 37
     rarity: common
     release_date: 2021-02-05
     set_number: 37
+    wizards_id: 503643
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503643
 rules: "Enchant creature\r\n\r\nEnchanted creature gets +1/+1.\r\n\r\nWhen enchanted\
   \ creature leaves the battlefield, create a 1/1 white Spirit creature token with\
   \ flying."
@@ -63,11 +67,15 @@ subtype_tokens:
 - Aura
 tags: card-color-white card-color-white-cost-1 card-type-enchantment
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: KHM
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/valor-of-the-worthy/
