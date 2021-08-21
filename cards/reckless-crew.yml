@@ -45,6 +45,8 @@ mana_cost_converted: 4
 name: Reckless Crew
 printings:
 - KHM:
+    border_color: B
+    frame: m15
     name: Kaldheim
     number: 146
     rarity: rare
@@ -53,17 +55,23 @@ printings:
     variations:
     - identifier: '359'
     - identifier: PromoPack
+    wizards_id: 503758
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503758
 rules: Create X 2/1 red Dwarf Berserker creature tokens, where X is the number of
   Vehicles you control plus the number of Equipment you control. For each of those
   tokens, you may attach an Equipment you control to it.
 slug: reckless-crew
 tags: card-color-red card-color-red-cost-4 card-type-sorcery
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Dwarf Berserker 2/1 R
   power_toughness: 2/1
   rules: ''
   subtype: Dwarf Berserker
+  tla: KHM
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/reckless-crew/

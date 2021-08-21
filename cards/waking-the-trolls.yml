@@ -52,6 +52,8 @@ mana_cost_converted: 6
 name: Waking the Trolls
 printings:
 - KHM:
+    border_color: B
+    frame: m15
     name: Kaldheim
     number: 234
     rarity: rare
@@ -59,6 +61,8 @@ printings:
     set_number: 234
     variations:
     - identifier: PromoPack
+    wizards_id: 503850
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503850
 rules: "*(As this Saga enters and after your draw step, add a lore counter. Sacrifice\
   \ after III.)*\r\n\r\n[[symbol:saga-1]]: Destroy target land.\r\n\r\n[[symbol:saga-2]]:\
   \ Put target land card from a graveyard onto the battlefield under your control.\r\
@@ -71,11 +75,15 @@ subtype_tokens:
 - Saga
 tags: card-color-gold card-color-gold-cost-6 card-color-green card-color-red card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Troll Warrior 4/4 G
   power_toughness: 4/4
   rules: Trample
   subtype: Troll Warrior
+  tla: KHM
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/waking-the-trolls/

@@ -46,6 +46,8 @@ mana_cost_converted: 4
 name: Maskwood Nexus
 printings:
 - KHM:
+    border_color: B
+    frame: m15
     name: Kaldheim
     number: 240
     rarity: rare
@@ -54,6 +56,8 @@ printings:
     variations:
     - identifier: '369'
     - identifier: PromoPack
+    wizards_id: 503856
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503856
 rules: "Creatures you control are every creature type. The same is true for creature\
   \ spells you control and creature cards you own that aren't on the battlefield.\r\
   \n\r\n[[symbol:3]], [[symbol:T]]: Create a 2/2 blue Shapeshifter creature token\
@@ -61,11 +65,15 @@ rules: "Creatures you control are every creature type. The same is true for crea
 slug: maskwood-nexus
 tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Shapeshifter 2/2 U
   power_toughness: 2/2
   rules: Changeling *(This token is every creature type.)*
   subtype: Shapeshifter
+  tla: KHM
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/maskwood-nexus/

@@ -49,6 +49,8 @@ mana_cost_converted: 4
 name: Esika's Chariot
 printings:
 - KHM:
+    border_color: B
+    frame: m15
     name: Kaldheim
     number: 169
     rarity: rare
@@ -57,6 +59,8 @@ printings:
     variations:
     - identifier: '315'
     - identifier: PromoPack
+    wizards_id: 503783
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503783
 rules: "When Esika's Chariot enters the battlefield, create two 2/2 green Cat creature\
   \ tokens.\r\n\r\nWhenever Esikia's Chariot attacks, create a token that's a copy\
   \ of target token you control.\r\n\r\nCrew 4 *(Tap any number of untapped creatures\
@@ -68,17 +72,24 @@ subtype_tokens:
 - Vehicle
 tags: card-color-green card-color-green-cost-4 card-type-artifact card-type-legendary
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 G Token Creature Cat
   power_toughness: 2/2
   rules: ''
   subtype: Cat
+  tla: KHM
   type: Token Creature
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: KHM
   type: Token Creature
 type: Legendary Artifact
 url: http://tappedout.net/mtg-card/esikas-chariot/

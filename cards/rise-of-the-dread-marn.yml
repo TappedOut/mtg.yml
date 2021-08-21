@@ -50,6 +50,8 @@ mana_cost_converted: 3
 name: Rise of the Dread Marn
 printings:
 - KHM:
+    border_color: B
+    frame: m15
     name: Kaldheim
     number: 107
     rarity: rare
@@ -58,6 +60,8 @@ printings:
     variations:
     - identifier: '354'
     - identifier: PromoPack
+    wizards_id: 503716
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503716
 rules: "Create X 2/2 black Zombie Berserker creature tokens, where X is the number\
   \ of nontoken creatures that died this turn *(was put into the graveyard from the\
   \ battlefield)*.\r\n\r\nForetell [[symbol:B]] *(During your turn, you may pay [[symbol:2]]\
@@ -66,11 +70,15 @@ rules: "Create X 2/2 black Zombie Berserker creature tokens, where X is the numb
 slug: rise-of-the-dread-marn
 tags: card-color-black card-color-black-cost-3 card-type-instant
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie Berserker 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie Berserker
+  tla: KHM
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/rise-of-the-dread-marn/
