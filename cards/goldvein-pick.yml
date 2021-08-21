@@ -49,11 +49,15 @@ mana_produced: W, U, B, R, G
 name: Goldvein Pick
 printings:
 - KHM:
+    border_color: B
+    frame: m15
     name: Kaldheim
     number: 239
     rarity: common
     release_date: 2021-02-05
     set_number: 239
+    wizards_id: 503855
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503855
 rules: "Equipped creature gets +1/+1.\r\n\r\nWhenever equipped creature deals combat\
   \ damage to a player, create a Treasure token. *(It's an artifact with \"[[symbol:T]],\
   \ Sacrifice this artifact: Gain one mana of any colour.\")*"
@@ -64,11 +68,15 @@ subtype_tokens:
 tags: card-color-colorless card-color-colorless-cost-2 card-mana-black card-mana-blue
   card-mana-green card-mana-red card-mana-white card-type-artifact
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: KHM
   type: Token Artifact
 type: Artifact
 url: http://tappedout.net/mtg-card/goldvein-pick/
