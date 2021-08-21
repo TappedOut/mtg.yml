@@ -53,6 +53,8 @@ mana_cost_converted: 3
 name: The Raven's Warning
 printings:
 - KHM:
+    border_color: B
+    frame: m15
     name: Kaldheim
     number: 227
     rarity: rare
@@ -60,6 +62,8 @@ printings:
     set_number: 227
     variations:
     - identifier: PromoPack
+    wizards_id: 503843
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503843
 rules: "*(As this Saga enters the battlefield and after your draw step, put a lore\
   \ counter on this and activate and/or enable the ability of the saga tied to the\
   \ required number of lore counters. Sacrifice this after you put a third lore counter\
@@ -74,11 +78,15 @@ subtype_tokens:
 - Saga
 tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-white card-type-enchantment
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Bird 1/1 U
   power_toughness: 1/1
   rules: Flying
   subtype: Bird
+  tla: KHM
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/the-ravens-warning/

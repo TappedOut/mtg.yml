@@ -56,6 +56,8 @@ mana_produced: R, RR, RRR
 name: The Bloodsky Massacre
 printings:
 - KHM:
+    border_color: B
+    frame: m15
     name: Kaldheim
     number: 207
     rarity: rare
@@ -63,6 +65,8 @@ printings:
     set_number: 207
     variations:
     - identifier: PromoPack
+    wizards_id: 503823
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503823
 rules: "*(As this Saga enters the battlefield and after your draw step, put a lore\
   \ counter on this and activate and/or enable the ability of the saga tied to the\
   \ required number of lorecounters. Sacrifice this after you put a third lore counter\
@@ -78,11 +82,15 @@ subtype_tokens:
 tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-red card-mana-red
   card-type-enchantment
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Demon Berserker 2/3 R
   power_toughness: 2/3
   rules: Menace *(This can't be blocked except by two or more creatures.)*
   subtype: Demon Berserker
+  tla: KHM
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/the-bloodsky-massacre/

@@ -55,6 +55,8 @@ name: Svella, Ice Shaper
 power_toughness: 2/4
 printings:
 - KHM:
+    border_color: B
+    frame: m15
     name: Kaldheim
     number: 230
     rarity: uncommon
@@ -62,6 +64,8 @@ printings:
     set_number: 230
     variations:
     - identifier: '331'
+    wizards_id: 503846
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503846
 rules: "[[symbol:3]], [[symbol:T]]: Create a colorless snow artifact token named Icy\
   \ Manalith with \"[[symbol:T]]: Gain one mana of any color.\"\r\n\r\n[[symbol:6]][[symbol:R]][[symbol:G]],\
   \ [[symbol:T]]: Look at the top four cards of your library. You may cast a spell\
@@ -76,10 +80,14 @@ tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-red car
   card-mana-blue card-mana-green card-mana-red card-mana-white card-type-creature
   card-type-legendary card-type-snow
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Icy Manalith
   power_toughness: null
   rules: '[[symbol:T]]: Gain one mana of any colour.'
+  tla: KHM
   type: Token Snow Artifact
 type: Legendary Snow Creature
 url: http://tappedout.net/mtg-card/svella-ice-shaper/

@@ -45,6 +45,8 @@ name: Orvar, the All-Form
 power_toughness: 3/3
 printings:
 - KHM:
+    border_color: B
+    frame: m15
     name: Kaldheim
     number: 70
     rarity: mythic_rare
@@ -53,6 +55,8 @@ printings:
     variations:
     - identifier: '305'
     - identifier: PromoPack
+    wizards_id: 503678
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503678
 rules: "Changeling *(This card is every creature type.)*\r\n\r\nWhenever you cast\
   \ an instant or sorcery spell, if it targets one or more other permanents you control,\
   \ create a token that's a copy of one of those permanents.\r\n\r\nWhen a spell or\
@@ -64,11 +68,14 @@ subtype_tokens:
 - Shapeshifter
 tags: card-color-blue card-color-blue-cost-4 card-type-creature card-type-legendary
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: KHM
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/orvar-the-all-form/
