@@ -1,7 +1,7 @@
 activation_costs:
 - B
 canadian_hl_score: 0
-cannonical_set: TSR
+cannonical_set: MM3
 cannonical_type: Sorcery
 companions:
 - Jegantha, the Wellspring
@@ -45,17 +45,26 @@ mana_cost_converted: 3
 name: Lingering Souls
 printings:
 - TSR:
+    border_color: B
+    cannonical: false
+    frame: original
     name: Time Spiral Remastered
     number: 296
-    rarity: basic_land
+    rarity: special
     release_date: 2021-03-19
     set_number: 296
+    wizards_id: 512262
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512262
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
 - MM3:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63358
     mtgo_id: 63357
     name: Modern Masters 2017 Edition
@@ -66,7 +75,9 @@ printings:
     wizards_id: 425837
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425837
 - MD1:
+    border_color: B
     cannonical: false
+    frame: modern
     name: Modern Event Deck
     number: 11
     rarity: uncommon
@@ -75,6 +86,8 @@ printings:
     wizards_id: 382191
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382191
 - DDK:
+    border_color: B
+    frame: modern
     mtgo_id: 48145
     name: 'Duel Decks: Sorin vs. Tibalt'
     number: 24
@@ -84,6 +97,8 @@ printings:
     wizards_id: 368485
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=368485
 - DKA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 43360
     mtgo_id: 43359
     name: Dark Ascension
@@ -92,7 +107,9 @@ printings:
     wizards_id: 262695
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=262695
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 9
     rarity: uncommon
@@ -105,11 +122,15 @@ slug: lingering-souls
 tags: card-color-black card-color-black-cost-3 card-color-white card-color-white-cost-3
   card-type-sorcery
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: MM3
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/lingering-souls/
