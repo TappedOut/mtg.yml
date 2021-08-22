@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: TSR
+cannonical_set: CN2
 cannonical_type: Creature
 companions:
 - Gyruda, Doom of Depths
@@ -32,17 +32,26 @@ name: Palace Jailer
 power_toughness: 2/2
 printings:
 - TSR:
+    border_color: B
+    cannonical: false
+    frame: original
     name: Time Spiral Remastered
     number: 298
-    rarity: basic_land
+    rarity: special
     release_date: 2021-03-19
     set_number: 298
+    wizards_id: 512264
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512264
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
 - CN2:
+    border_color: B
+    frame: m15
     name: 'Conspiracy: Take the Crown'
     number: 18
     rarity: uncommon
@@ -50,10 +59,9 @@ printings:
     set_number: 18
     wizards_id: 416775
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416775
-rules: "When Palace Jailer enters the battlefield, you become the monarch.\r\n\r\n\
-  When Palace Jailer enters the battlefield, exile target creature an opponent controls\
-  \ until an opponent becomes the monarch. *(That creature returns under its owner's\
-  \ control.)*"
+rules: "When this enters the battlefield, you become the monarch.\r\n\r\nWhen this\
+  \ enters the battlefield, exile target creature an opponent controls until an opponent\
+  \ becomes the monarch. *(That creature returns under its owner's control.)*"
 slug: palace-jailer
 subtype: Human Soldier
 subtype_tokens:
@@ -61,12 +69,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: C
-  name: C Emblem Monarch
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Monarch Emblem
   power_toughness: null
   rules: "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
     \ deals combat damage to you, its controller becomes the monarch."
-  subtype: Monarch
+  tla: CN2
   type: Emblem
 type: Creature
 url: http://tappedout.net/mtg-card/palace-jailer/
