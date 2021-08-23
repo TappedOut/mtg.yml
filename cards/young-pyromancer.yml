@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: TSR
+cannonical_set: JMP
 cannonical_type: Creature
 companions:
 - Gyruda, Doom of Depths
@@ -41,31 +41,45 @@ name: Young Pyromancer
 power_toughness: 2/1
 printings:
 - TSR:
+    border_color: B
+    cannonical: false
+    frame: original
     name: Time Spiral Remastered
     number: 353
-    rarity: basic_land
+    rarity: special
     release_date: 2021-03-19
     set_number: 353
+    wizards_id: 512319
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512319
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 372
     rarity: uncommon
     release_date: 2020-07-17
     set_number: 372
+    wizards_id: 489562
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489562
 - SS3:
+    border_color: B
     cannonical: false
+    frame: m15
     name: 'Signature Spellbook: Chandra'
     number: 8
     rarity: rare
     release_date: 2020-06-26
     set_number: 8
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
 - UMA:
-    cannonical: false
+    border_color: B
+    frame: m15
     mtgo_foil_id: 70384
     mtgo_id: 70383
     name: Ultimate Masters
@@ -74,6 +88,8 @@ printings:
     release_date: 2018-12-07
     set_number: 155
 - DDS:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Mind vs. Might'
     number: 20
     rarity: uncommon
@@ -82,6 +98,8 @@ printings:
     wizards_id: 426592
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426592
 - EMA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60800
     mtgo_id: 60799
     name: Eternal Masters
@@ -92,6 +110,8 @@ printings:
     wizards_id: 413697
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413697
 - M14:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 49414
     mtgo_id: 49413
     name: Magic 2014
@@ -107,11 +127,15 @@ subtype_tokens:
 - Shaman
 tags: card-color-red card-color-red-cost-2 card-type-creature
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 R Token Creature Elemental
   power_toughness: 1/1
   rules: ''
   subtype: Elemental
+  tla: JMP
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/young-pyromancer/

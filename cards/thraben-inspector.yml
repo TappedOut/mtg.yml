@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: TSR
+cannonical_set: 2XM
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
@@ -45,28 +45,43 @@ name: Thraben Inspector
 power_toughness: 1/2
 printings:
 - TSR:
+    border_color: B
+    cannonical: false
+    frame: original
     name: Time Spiral Remastered
     number: 305
-    rarity: basic_land
+    rarity: special
     release_date: 2021-03-19
     set_number: 305
+    wizards_id: 512271
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512271
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 35
     rarity: common
     release_date: 2020-08-07
     set_number: 35
+    wizards_id: 489708
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489708
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - ARENA:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Arena Cards
     rarity: common
     release_date: 2019-09-26
 - SOI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60241
     mtgo_id: 60240
     name: Shadows over Innistrad
@@ -76,8 +91,8 @@ printings:
     set_number: 44
     wizards_id: 409784
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409784
-rules: 'When Thraben Inspector enters the battlefield, investigate. *(Create a colourless
-  Clue artifact token with "[[symbol:2]], Sacrifice this artifact: Draw a card.")*'
+rules: 'When this enters the battlefield, investigate. *(Create a colourless Clue
+  artifact token with "[[symbol:2]], Sacrifice this artifact: Draw a card.")*'
 slug: thraben-inspector
 subtype: Human Soldier
 subtype_tokens:
@@ -85,11 +100,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-1 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Clue
   power_toughness: null
   rules: '[[symbol:2]], Sacrifice this: Draw a card.'
   subtype: Clue
+  tla: 2XM
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/thraben-inspector/
