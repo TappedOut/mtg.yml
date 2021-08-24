@@ -16,11 +16,14 @@ effective_cost:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -39,9 +42,11 @@ mana_cost_converted: 3
 name: Generous Gift
 printings:
 - H1R:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: Modern Horizons Timeshifted Reprints
     number: 2
     rarity: uncommon
@@ -49,6 +54,8 @@ printings:
     set_number: 2
 - CMR:
     booster_exclude: true
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 375
     rarity: uncommon
@@ -56,7 +63,20 @@ printings:
     set_number: 375
     variations:
     - identifier: '620'
+    wizards_id: 500855
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=500855
+- SLD:
+    border_color: B
+    cannonical: false
+    frame: m15
+    name: Secret Lair
+    number: 369
+    rarity: rare
+    release_date: 2019-12-09
+    set_number: 369
 - MH1:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72395
     mtgo_id: 72394
     name: Modern Horizons
@@ -69,11 +89,15 @@ rules: Destroy target permanent. It's controller creates a 3/3 green Elephant cr
 slug: generous-gift
 tags: card-color-white card-color-white-cost-3 card-type-instant
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 G Token Creature Elephant
   power_toughness: 3/3
   rules: ''
   subtype: Elephant
+  tla: CMR
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/generous-gift/
