@@ -45,8 +45,10 @@ mana_cost_converted: 4
 name: Sorin, Lord of Innistrad
 printings:
 - DDK:
+    border_color: B
     foil: foil
     foil_only: true
+    frame: modern
     mtgo_foil_id: 48156
     name: 'Duel Decks: Sorin vs. Tibalt'
     number: 1
@@ -56,6 +58,8 @@ printings:
     wizards_id: 368535
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=368535
 - DKA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 43170
     mtgo_id: 43169
     name: Dark Ascension
@@ -76,17 +80,25 @@ subtype_tokens:
 - Sorin
 tags: card-color-black card-color-gold card-color-gold-cost-4 card-color-white card-type-planeswalker
 tokens:
-- colors: B
-  name: 1/1 B Token Creature Vampire
-  power_toughness: 1/1
-  rules: Lifelink
-  subtype: Vampire
-  type: Token Creature
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Sorin
   power_toughness: null
   rules: Creatures you control get +1/+0 until end of turn.
   subtype: Sorin
+  tla: DDK
   type: Emblem
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Vampire 1/1 B w/ Lifelink
+  power_toughness: 1/1
+  rules: Lifelink
+  subtype: Vampire
+  tla: DDK
+  type: Token Creature
 type: Planeswalker
 url: http://tappedout.net/mtg-card/sorin-lord-of-innistrad/
