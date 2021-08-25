@@ -15,11 +15,14 @@ effective_cost:
 flat_cost: 1
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -31,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Buyback
@@ -41,24 +44,31 @@ mana_cost_converted: 1
 name: Recruit the Worthy
 printings:
 - MH1:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72417
     mtgo_id: 72416
     name: Modern Horizons
     number: 22
     rarity: common
     release_date: 2019-06-14
-    set_number: 22
+    wizards_id: 463971
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=463971
 rules: "Buyback [[symbol:3]] *(You may pay an additional [[symbol:3]] as you cast\
   \ this spell. If you do, put this card into your hand as it resolves.)*\r\n\r\n\
   Create a 1/1 white Soldier creature token."
 slug: recruit-the-worthy
 tags: card-color-white card-color-white-cost-1 card-type-instant
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W
   power_toughness: 1/1
   rules: ''
   subtype: Soldier
+  tla: MH1
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/recruit-the-worthy/

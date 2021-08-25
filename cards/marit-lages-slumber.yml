@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -44,29 +44,38 @@ mana_cost_converted: 2
 name: Marit Lage's Slumber
 printings:
 - ARENA:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Arena Cards
     rarity: rare
     release_date: 2019-09-26
 - MH1:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72485
     mtgo_id: 72484
     name: Modern Horizons
     number: 56
     rarity: rare
     release_date: 2019-06-14
-    set_number: 56
+    wizards_id: 464005
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464005
 rules: Whenever Marit Lage's Slumber or another snow permanent enters the battlefield
   under your control, scry 1.
 slug: marit-lages-slumber
 tags: card-color-blue card-color-blue-cost-2 card-type-enchantment card-type-legendary
   card-type-snow
 tokens:
-- colors: B
-  name: 20/20 B Token Legendary Creature Avatar
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Marit Lage
   power_toughness: 20/20
   rules: Flying, indestructible
   subtype: Avatar
+  tla: MH1
   type: Token Legendary Creature
 type: Legendary Snow Enchantment
 url: http://tappedout.net/mtg-card/marit-lages-slumber/

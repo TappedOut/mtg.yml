@@ -21,11 +21,14 @@ effective_cost:
 flat_cost: 4
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -34,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Reach
@@ -46,13 +49,16 @@ name: Rotwidow Pack
 power_toughness: 2/4
 printings:
 - MH1:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72797
     mtgo_id: 72796
     name: Modern Horizons
     number: 212
     rarity: uncommon
     release_date: 2019-06-14
-    set_number: 212
+    wizards_id: 464161
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464161
 rules: "Reach\r\n\r\n[[symbol:3]][[symbol:B]][[symbol:G]], Exile a creature card from\
   \ your graveyard: Create a 1/2 green Spider creature token with reach, then each\
   \ opponent loses 1 life for each Spider you control."
@@ -62,11 +68,15 @@ subtype_tokens:
 - Spider
 tags: card-color-black card-color-gold card-color-gold-cost-4 card-color-green card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/2 G Token Creature Spider
   power_toughness: 1/2
   rules: Reach
   subtype: Spider
+  tla: MH1
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/rotwidow-pack/

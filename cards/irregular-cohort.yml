@@ -13,11 +13,14 @@ effective_cost:
 flat_cost: 4
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -28,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Changeling
@@ -39,13 +42,16 @@ name: Irregular Cohort
 power_toughness: 2/2
 printings:
 - MH1:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72403
     mtgo_id: 72402
     name: Modern Horizons
     number: 15
     rarity: common
     release_date: 2019-06-14
-    set_number: 15
+    wizards_id: 463964
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=463964
 rules: "Changeling *(This card is every creature type.)*\r\n\r\nWhen Irregular Cohort\
   \ enters the battlefield, create a 2/2 colourless Shapeshifter creature token with\
   \ changeling."
@@ -55,11 +61,15 @@ subtype_tokens:
 - Shapeshifter
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 C Token Creature Shapeshifter
   power_toughness: 2/2
   rules: Changeling *(This card is every creature type.)*
   subtype: Shapeshifter
+  tla: MH1
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/irregular-cohort/

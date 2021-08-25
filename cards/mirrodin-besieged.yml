@@ -14,11 +14,14 @@ effective_cost:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -28,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -37,13 +40,16 @@ mana_cost_converted: 3
 name: Mirrodin Besieged
 printings:
 - MH1:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72487
     mtgo_id: 72486
     name: Modern Horizons
     number: 57
     rarity: rare
     release_date: 2019-06-14
-    set_number: 57
+    wizards_id: 464006
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464006
 rules: "As Mirrodin Besieged enters the battlefield, choose Mirran or Phyrexian. \r\
   \n\r\n-  Mirran - Whenever you cast an artifact spell, create a 1/1 colorless Myr\
   \ artifact creature token. \r\n-  Phyrexian - At the beginning of your end step,\
@@ -52,11 +58,15 @@ rules: "As Mirrodin Besieged enters the battlefield, choose Mirran or Phyrexian.
 slug: mirrodin-besieged
 tags: card-color-blue card-color-blue-cost-3 card-type-enchantment
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Myr 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Myr
+  tla: MH1
   type: Token Artifact Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/mirrodin-besieged/

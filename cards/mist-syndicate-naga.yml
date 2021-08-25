@@ -19,11 +19,14 @@ effective_cost:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -33,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Ninjutsu
@@ -44,13 +47,16 @@ name: Mist-Syndicate Naga
 power_toughness: 3/1
 printings:
 - MH1:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72489
     mtgo_id: 72488
     name: Modern Horizons
     number: 58
     rarity: rare
     release_date: 2019-06-14
-    set_number: 58
+    wizards_id: 464007
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464007
 rules: "Ninjutsu [[symbol:2]][[symbol:U]] *([[symbol:2]][[symbol:U]], Return an unblocked\
   \ attacker you control to hand: Put this card onto the battlefield from your hand\
   \ tapped and attacking.)*\r\n\r\nWhenever Mist-Syndicate Naga deals combat damage\
@@ -62,11 +68,14 @@ subtype_tokens:
 - Ninja
 tags: card-color-blue card-color-blue-cost-3 card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: MH1
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/mist-syndicate-naga/

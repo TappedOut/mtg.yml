@@ -15,11 +15,14 @@ companions:
 flat_cost: 0
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -29,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Trample
@@ -41,13 +44,16 @@ mana_cost_converted: 0
 name: Crashing Footfalls
 printings:
 - MH1:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72693
     mtgo_id: 72692
     name: Modern Horizons
     number: 160
     rarity: rare
     release_date: 2019-06-14
-    set_number: 160
+    wizards_id: 464109
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464109
 rules: "Suspend 4&mdash;[[symbol:G]] *(Rather than cast this card from your hand,\
   \ pay [[symbol:G]] and exile it with four time counters on it. At the beginning\
   \ of your upkeep, remove a time counter. When the last is removed, cast it without\
@@ -56,11 +62,15 @@ rules: "Suspend 4&mdash;[[symbol:G]] *(Rather than cast this card from your hand
 slug: crashing-footfalls
 tags: card-color-colorless card-color-colorless-cost-0 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 4/4 G Token Creature Rhino
   power_toughness: 4/4
   rules: Trample
   subtype: Rhino
+  tla: MH1
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/crashing-footfalls/
