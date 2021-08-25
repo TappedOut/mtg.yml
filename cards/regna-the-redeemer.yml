@@ -23,7 +23,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -35,13 +35,14 @@ name: Regna, the Redeemer
 power_toughness: 4/4
 printings:
 - BBD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 68735
     mtgo_id: 68734
     name: Battlebond
     number: 3
     rarity: rare
     release_date: 2018-06-08
-    set_number: 3
     wizards_id: 445971
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=445971
 rules: "Partner with Krav, the Unredeemed *(When this creature enters the battlefield,\
@@ -54,11 +55,15 @@ subtype_tokens:
 - Angel
 tags: card-color-white card-color-white-cost-6 card-type-creature card-type-legendary
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Warrior
   power_toughness: 1/1
   rules: ''
   subtype: Warrior
+  tla: BBD
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/regna-the-redeemer/

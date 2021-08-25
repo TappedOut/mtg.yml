@@ -31,7 +31,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Trample
@@ -41,13 +41,16 @@ mana_cost_converted: 5
 name: Jiang Yanggu
 printings:
 - GS1:
+    border_color: B
     foil: foil
     foil_only: true
+    frame: m15
     name: 'Global Series: Jiang Yanggu & Mu Yanling'
     number: 22
     rarity: mythic_rare
     release_date: 2018-06-22
-    set_number: 22
+    wizards_id: 447070
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447070
 rules: "[[symbol:loyalty-plus1]]: Target creature gets +2/+2 until end of turn.\r\n\
   \r\n[[symbol:loyalty-minus1]]: If you don't control a creature named Mowu, create\
   \ a legendary 3/3 green Hound creature token named Mowu.\r\n\r\n[[symbol:loyalty-minus5]]:\
@@ -59,11 +62,15 @@ subtype_tokens:
 - Yanggu
 tags: card-color-green card-color-green-cost-5 card-type-legendary card-type-planeswalker
 tokens:
-- colors: G
-  name: 3/3 G Token Legendary Creature Dog
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Mowu
   power_toughness: 3/3
   rules: ''
   subtype: Dog
+  tla: GS1
   type: Token Legendary Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/jiang-yanggu/

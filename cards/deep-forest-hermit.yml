@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: H1R
+cannonical_set: MH1
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
@@ -12,11 +12,14 @@ effective_cost:
 flat_cost: 5
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -25,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -38,23 +41,26 @@ name: Deep Forest Hermit
 power_toughness: 1/1
 printings:
 - H1R:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: Modern Horizons Timeshifted Reprints
     number: 20
     rarity: rare
     release_date: 2021-06-18
-    set_number: 20
 - MH1:
-    cannonical: false
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72695
     mtgo_id: 72694
     name: Modern Horizons
     number: 161
     rarity: rare
     release_date: 2019-06-14
-    set_number: 161
+    wizards_id: 464110
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464110
 rules: "Vanishing 3 *(This creature enters the battlefield with three time counters\
   \ on it. At the beginning of your upkeep, remove a time counter from it. When the\
   \ last is removed, sacrifice it.)*\r\n\r\nWhen this enters the battlefield, create\
@@ -66,11 +72,15 @@ subtype_tokens:
 - Druid
 tags: card-color-green card-color-green-cost-5 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Squirrel 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Squirrel
+  tla: MH1
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/deep-forest-hermit/

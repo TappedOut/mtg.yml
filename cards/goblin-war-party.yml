@@ -18,11 +18,14 @@ effective_cost:
 flat_cost: 4
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -33,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Haste
@@ -44,25 +47,31 @@ mana_cost_converted: 4
 name: Goblin War Party
 printings:
 - MH1:
-    cannonical: false
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72635
     mtgo_id: 72634
     name: Modern Horizons
     number: 131
     rarity: common
     release_date: 2019-06-14
-    set_number: 131
+    wizards_id: 464080
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464080
 rules: "Choose one &mdash;\r\n\r\n- Create three 1/1 red Goblin creature tokens.\r\
   \n- Creatures you control get +1/+1 and gain haste until end of turn.\r\n\r\nEntwine\
   \ [[symbol:2]][[symbol:R]] *(Choose both if you pay the entwine cost.)*"
 slug: goblin-war-party
 tags: card-color-red card-color-red-cost-4 card-type-sorcery
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: MH1
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/goblin-war-party/

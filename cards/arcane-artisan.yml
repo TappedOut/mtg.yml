@@ -30,7 +30,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -41,21 +41,23 @@ name: Arcane Artisan
 power_toughness: 0/3
 printings:
 - KHC:
+    border_color: B
+    frame: m15
     name: 'Kaldheim: Commander'
     number: 36
     rarity: mythic_rare
     release_date: 2021-02-05
-    set_number: 36
-    wizards_id: 508308
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508308
+    wizards_id: 508326
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508326
 - BBD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 68795
     mtgo_id: 68794
     name: Battlebond
     number: 33
     rarity: mythic_rare
     release_date: 2018-06-08
-    set_number: 33
 rules: "[[symbol:2]][[symbol:U]], [[symbol:T]]: Target player draws a card, then exiles\
   \ a card from their hand. If a creature card is exiled this way, that player creates\
   \ a token that's a copy of that card.\r\n\r\nWhen Arcane Artisan leaves the battlefield,\
@@ -67,11 +69,14 @@ subtype_tokens:
 - Wizard
 tags: card-color-blue card-color-blue-cost-3 card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: KHC
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/arcane-artisan/

@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Proliferate
@@ -42,24 +42,31 @@ mana_cost_converted: 7
 name: Planewide Celebration
 printings:
 - WAR:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71951
     mtgo_id: 71950
     name: War of the Spark
     number: 172
     rarity: rare
     release_date: 2019-05-03
-    set_number: 172
+    wizards_id: 461099
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461099
 rules: "Choose four. You may choose the same mode more than once.\r\n\r\n- Create\
   \ a 2/2 Citizen creature token that's all colours.\r\n- Return target permanent\
   \ card from your graveyard to your hand.\r\n- Proliferate.\r\n- You gain 4 life."
 slug: planewide-celebration
 tags: card-color-green card-color-green-cost-7 card-type-sorcery
 tokens:
-- colors: WUBRG
+- cannonical_type: Creature
+  colors: WUBRG
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 WUBRG Token Creature Citizen
   power_toughness: 2/2
   rules: This creature is all colours.
   subtype: Citizen
+  tla: WAR
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/planewide-celebration/

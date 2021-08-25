@@ -30,7 +30,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Partner
@@ -39,24 +39,26 @@ mana_cost_converted: 6
 name: Will Kenrith
 printings:
 - BBD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 69239
     mtgo_id: 69238
     name: Battlebond
     number: 1
     rarity: mythic_rare
     release_date: 2018-06-08
-    set_number: 1
     variations:
     - identifier: '255'
     wizards_id: 445969
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=445969
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 255
     rarity: mythic_rare
     release_date: 1990-04-15
-    set_number: 255
 rules: "[[symbol:loyalty-plus2]]: Until your next turn, up to two target creatures\
   \ each have base power and toughness and lose all abilities. \r\n\r\n[[symbol:loyalty-minus2]]:\
   \ Target player draws two cards. Until your next turn, instant, sorcery, and planeswalker\
@@ -70,12 +72,16 @@ subtype_tokens:
 - Will
 tags: card-color-blue card-color-blue-cost-6 card-type-legendary card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Will
   power_toughness: null
   rules: Whenever you cast an instant or sorcery spell, copy it. You may choose new
     targets for the copy.
   subtype: Will
+  tla: BBD
   type: Emblem
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/will-kenrith/
