@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -44,13 +44,14 @@ mana_cost_converted: 2
 name: Necromancer's Stockpile
 printings:
 - M15:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 53609
     mtgo_id: 53608
     name: Magic 2015
     number: 108
     rarity: rare
     release_date: 2014-07-18
-    set_number: 108
     wizards_id: 383323
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383323
 rules: '1B, Discard a creature card: Draw a card. If the discarded card was a Zombie
@@ -58,11 +59,15 @@ rules: '1B, Discard a creature card: Draw a card. If the discarded card was a Zo
 slug: necromancers-stockpile
 tags: card-color-black card-color-black-cost-2 card-type-enchantment
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: M15
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/necromancers-stockpile/

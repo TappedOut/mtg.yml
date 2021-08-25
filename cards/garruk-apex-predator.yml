@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Deathtouch
@@ -46,31 +46,34 @@ mana_cost_converted: 7
 name: Garruk, Apex Predator
 printings:
 - WARMED:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: 'War of the Spark: Mythic Edition'
     number: 5
     rarity: mythic_rare
     release_date: 2019-05-02
-    set_number: 5
 - M15:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 53565
     mtgo_id: 53564
     name: Magic 2015
     number: 210
     rarity: mythic_rare
     release_date: 2014-07-18
-    set_number: 210
     wizards_id: 383251
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383251
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 210
     rarity: mythic_rare
     release_date: 1990-04-15
-    set_number: 210
 rules: "[[symbol:loyalty-plus1]]: Destroy another target planeswalker. \r\n\r\n[[symbol:loyalty-plus1]]:\
   \ Create a 3/3 black Beast creature token with deathtouch.\r\n\r\n[[symbol:loyalty-minus3]]:\
   \ Destroy target creature. You gain life equal to its toughness. \r\n\r\n[[symbol:loyalty-minus8]]:\
@@ -82,18 +85,26 @@ subtype_tokens:
 - Garruk
 tags: card-color-black card-color-gold card-color-gold-cost-7 card-color-green card-type-planeswalker
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 B Token Creature Beast
   power_toughness: 3/3
   rules: Deathtouch
   subtype: Beast
+  tla: M15
   type: Token Creature
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Garruk
   power_toughness: null
   rules: Whenever a creature attacks you, it gets +5/+5 and gains trample until end
     of turn.
   subtype: Garruk
+  tla: M15
   type: Emblem
 type: Planeswalker
 url: http://tappedout.net/mtg-card/garruk-apex-predator/

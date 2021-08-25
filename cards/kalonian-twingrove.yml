@@ -27,7 +27,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 5G
 mana_cost_converted: 6
@@ -35,13 +35,14 @@ name: Kalonian Twingrove
 power_toughness: '*/*'
 printings:
 - M15:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 53661
     mtgo_id: 53660
     name: Magic 2015
     number: 183
     rarity: rare
     release_date: 2014-07-18
-    set_number: 183
     wizards_id: 383290
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383290
 rules: "Kalonian Twingrove's power and toughness are each equal to the number of Forests\
@@ -55,12 +56,16 @@ subtype_tokens:
 - Warrior
 tags: card-color-green card-color-green-cost-6 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* G Token Creature Treefolk Warrior'
   power_toughness: '*/*'
   rules: This creature's power and toughness are each equal to the number of forest's
     you control.
   subtype: Treefolk Warrior
+  tla: M15
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/kalonian-twingrove/

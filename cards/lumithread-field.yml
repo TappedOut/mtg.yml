@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Morph
@@ -41,16 +41,21 @@ mana_cost_converted: 2
 name: Lumithread Field
 printings:
 - MYSTOR:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: 'Mystery Booster: Store Edition'
     rarity: rare
     release_date: 2020-03-13
 - FUT:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 26643
     mtgo_id: 26642
     name: Future Sight
+    number: 25
     rarity: common
     release_date: 2007-05-04
     wizards_id: 126186
@@ -61,12 +66,15 @@ rules: "Creatures you control get +0/+1.\r\n\r\nMorph {{1,W}} (You may cast this
 slug: lumithread-field
 tags: card-color-white card-color-white-cost-2 card-type-enchantment
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: FUT
   type: Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/lumithread-field/

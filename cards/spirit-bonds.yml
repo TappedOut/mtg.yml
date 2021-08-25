@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -47,13 +47,14 @@ mana_cost_converted: 2
 name: Spirit Bonds
 printings:
 - M15:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 53523
     mtgo_id: 53522
     name: Magic 2015
     number: 37
     rarity: rare
     release_date: 2014-07-18
-    set_number: 37
     wizards_id: 383395
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383395
 rules: "Whenever a nontoken creature enters the battlefield under your control, you\
@@ -64,11 +65,15 @@ rules: "Whenever a nontoken creature enters the battlefield under your control, 
 slug: spirit-bonds
 tags: card-color-white card-color-white-cost-2 card-type-enchantment
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: M15
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/spirit-bonds/

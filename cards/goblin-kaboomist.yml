@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -40,13 +40,14 @@ name: Goblin Kaboomist
 power_toughness: 1/2
 printings:
 - M15:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 53527
     mtgo_id: 53526
     name: Magic 2015
     number: 144
     rarity: rare
     release_date: 2014-07-18
-    set_number: 144
     wizards_id: 383257
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383257
 rules: 'At the beginning of your upkeep, put a colorless artifact token named Land
@@ -60,11 +61,15 @@ subtype_tokens:
 - Warrior
 tags: card-color-red card-color-red-cost-2 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Land Mine
   power_toughness: null
   rules: '[[symbol:R]], Sacrifice this: This deals 2 damage to target attacking creature
     without flying.'
+  tla: M15
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/goblin-kaboomist/

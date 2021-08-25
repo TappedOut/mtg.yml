@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Deathtouch
@@ -40,24 +40,30 @@ name: Hornet Nest
 power_toughness: 0/2
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 192
     rarity: rare
     release_date: 2021-04-23
-    set_number: 192
+    wizards_id: 519227
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519227
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: rare
     release_date: 2020-03-14
 - M15:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 53699
     mtgo_id: 53698
     name: Magic 2015
     number: 177
     rarity: rare
     release_date: 2014-07-18
-    set_number: 177
     wizards_id: 383267
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383267
 rules: "Defender *(This creature can't attack.)*\r\n\r\nWhenever Hornet Nest is dealt\
@@ -70,11 +76,15 @@ subtype_tokens:
 - Insect
 tags: card-color-green card-color-green-cost-3 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Insect 1/1 G w/ Flying, Deathtouch
   power_toughness: 1/1
   rules: Flying, deathtouch
   subtype: Insect
+  tla: C21
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/hornet-nest/

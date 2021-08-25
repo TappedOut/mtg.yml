@@ -4,7 +4,7 @@ activated_abilities:
 activation_costs:
 - G
 canadian_hl_score: 0
-cannonical_set: TSR
+cannonical_set: FUT
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -44,12 +44,18 @@ name: Llanowar Mentor
 power_toughness: 1/1
 printings:
 - TSR:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Time Spiral Remastered
     number: 216
     rarity: uncommon
     release_date: 2021-03-19
-    set_number: 216
+    wizards_id: 509581
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509581
 - FUT:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 26635
     mtgo_id: 26634
     name: Future Sight
@@ -66,11 +72,15 @@ subtype_tokens:
 - Spellshaper
 tags: card-color-green card-color-green-cost-1 card-mana-green card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Llanowar Elves 1/1 G
   power_toughness: 1/1
   rules: '[[symbol:T]]: Gain [[symbol:G]].'
   subtype: Elf Druid
+  tla: FUT
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/llanowar-mentor/

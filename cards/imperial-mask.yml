@@ -27,16 +27,19 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 4W
 mana_cost_converted: 5
 name: Imperial Mask
 printings:
 - FUT:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 26931
     mtgo_id: 26930
     name: Future Sight
+    number: 23
     rarity: rare
     release_date: 2007-05-04
     wizards_id: 136201
@@ -47,11 +50,14 @@ rules: "When Imperial Mask enters the battlefield, if it's not a token, each of 
 slug: imperial-mask
 tags: card-color-white card-color-white-cost-5 card-type-enchantment
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: FUT
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/imperial-mask/
