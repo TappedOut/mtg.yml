@@ -41,7 +41,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Sacrifice
@@ -51,11 +51,14 @@ mana_cost_converted: 7
 name: Creative Outburst
 printings:
 - STX:
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 171
     rarity: uncommon
     release_date: 2021-04-23
-    set_number: 171
+    wizards_id: 513663
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=513663
 rules: "This deals 5 damage to target creature, player or planeswalker. Look at the\
   \ top five cards of your library. Put one of them into your hand and the rest on\
   \ the bottom of your library in a random order.\r\n\r\n[[symbol:UR]][[symbol:UR]],\
@@ -63,11 +66,15 @@ rules: "This deals 5 damage to target creature, player or planeswalker. Look at 
 slug: creative-outburst
 tags: card-color-blue card-color-gold card-color-gold-cost-7 card-color-red card-type-instant
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: STX
   type: Token Artifact
 type: Instant
 url: http://tappedout.net/mtg-card/creative-outburst/

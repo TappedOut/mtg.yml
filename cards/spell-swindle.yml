@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Counterspell
@@ -46,13 +46,14 @@ mana_cost_converted: 5
 name: Spell Swindle
 printings:
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65179
     mtgo_id: 65178
     name: Ixalan
     number: 82
     rarity: rare
     release_date: 2017-09-29
-    set_number: 82
     variations:
     - identifier: PromoPack
     wizards_id: 435235
@@ -63,11 +64,15 @@ rules: 'Counter target spell. Create X colorless Treasure artifact tokens, where
 slug: spell-swindle
 tags: card-color-blue card-color-blue-cost-5 card-type-instant
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: XLN
   type: Token Artifact
 type: Instant
 url: http://tappedout.net/mtg-card/spell-swindle/

@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Enchant
@@ -46,13 +46,16 @@ mana_cost_converted: 4
 name: Commanding Presence
 printings:
 - THB:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 79139
     mtgo_id: 79138
     name: Theros Beyond Death
     number: 7
     rarity: uncommon
     release_date: 2020-01-24
-    set_number: 7
+    wizards_id: 476258
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476258
 rules: "Enchant creature\r\n\r\nEnchanted creature gets +2/+2 and has first strike\
   \ and \"Whenever this creature deals combat damage to a player, create a 1/1 white\
   \ Human Soldier creature token.\""
@@ -62,11 +65,15 @@ subtype_tokens:
 - Aura
 tags: card-color-white card-color-white-cost-4 card-type-enchantment
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Human Soldier
   power_toughness: 1/1
   rules: ''
   subtype: Human Soldier
+  tla: THB
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/commanding-presence/

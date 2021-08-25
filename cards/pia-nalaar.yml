@@ -37,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -49,19 +49,23 @@ name: Pia Nalaar
 power_toughness: 2/2
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 177
     rarity: rare
     release_date: 2021-04-23
-    set_number: 177
+    wizards_id: 519212
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519212
 - KLD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61720
     mtgo_id: 61719
     name: Kaladesh
     number: 124
     rarity: rare
     release_date: 2016-09-30
-    set_number: 124
     wizards_id: 417697
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417697
 rules: "When Pia Nalaar enters the battlefield, create a 1/1 colorless Thopter artifact\
@@ -78,11 +82,15 @@ synonyms:
 - Pia
 tags: card-color-red card-color-red-cost-3 card-type-creature card-type-legendary
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Thopter 1/1 C
   power_toughness: 1/1
   rules: Flying
   subtype: Thopter
+  tla: C21
   type: Token Artifact Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/pia-nalaar/

@@ -28,7 +28,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: '{3}{G}{G}'
 mana_cost_converted: 5
@@ -36,7 +36,10 @@ name: Splitting Slime
 power_toughness: 3/3
 printings:
 - CN2:
+    border_color: B
+    frame: m15
     name: 'Conspiracy: Take the Crown'
+    number: 72
     rarity: rare
     release_date: 2016-08-26
     wizards_id: 416829
@@ -52,11 +55,14 @@ subtype_tokens:
 - Ooze
 tags: card-color-green card-color-green-cost-5 card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: CN2
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/splitting-slime/

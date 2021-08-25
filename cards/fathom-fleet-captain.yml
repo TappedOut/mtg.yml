@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Menace
@@ -41,13 +41,14 @@ name: Fathom Fleet Captain
 power_toughness: 2/1
 printings:
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65229
     mtgo_id: 65228
     name: Ixalan
     number: 106
     rarity: rare
     release_date: 2017-09-29
-    set_number: 106
     variations:
     - identifier: PromoPack
     wizards_id: 435260
@@ -62,11 +63,15 @@ subtype_tokens:
 - Pirate
 tags: card-color-black card-color-black-cost-2 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 B Token Creature Pirate
   power_toughness: 2/2
   rules: Menace *(This creature can't be blocked except by two or more creatures,)*
   subtype: Pirate
+  tla: XLN
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/fathom-fleet-captain/

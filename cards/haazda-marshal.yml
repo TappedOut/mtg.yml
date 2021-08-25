@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Lifelink
@@ -43,13 +43,16 @@ name: Haazda Marshal
 power_toughness: 1/1
 printings:
 - GRN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 69400
     mtgo_id: 69399
     name: Guilds of Ravnica
     number: 13
     rarity: uncommon
     release_date: 2018-10-05
-    set_number: 13
+    wizards_id: 452763
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=452763
 rules: Whenever Haazda Marshal and at least two other creatures attack, create a 1/1
   white Soldier creature token with lifelink.
 slug: haazda-marshal
@@ -59,11 +62,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-1 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W w/ Lifelink
   power_toughness: 1/1
   rules: Lifelink
   subtype: Soldier
+  tla: GRN
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/haazda-marshal/

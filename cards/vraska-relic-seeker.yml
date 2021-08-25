@@ -38,20 +38,21 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 4BG
 mana_cost_converted: 6
 name: Vraska, Relic Seeker
 printings:
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65485
     mtgo_id: 65484
     name: Ixalan
     number: 232
     rarity: mythic_rare
     release_date: 2017-09-29
-    set_number: 232
     variations:
     - identifier: Animated
     - identifier: PromoPack
@@ -67,17 +68,25 @@ subtype_tokens:
 - Vraska
 tags: card-color-black card-color-gold card-color-gold-cost-6 card-color-green card-type-planeswalker
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 B Token Creature Pirate
   power_toughness: 2/2
   rules: Menace *(This creature can't be blocked except by two or more creatures,)*
   subtype: Pirate
+  tla: XLN
   type: Token Creature
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: XLN
   type: Token Artifact
 type: Planeswalker
 url: http://tappedout.net/mtg-card/vraska-relic-seeker/

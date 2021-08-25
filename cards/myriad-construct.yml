@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -44,14 +44,17 @@ name: Myriad Construct
 power_toughness: 4/4
 printings:
 - ZNR:
+    border_color: B
+    frame: m15
     name: Zendikar Rising
     number: 246
     rarity: rare
     release_date: 2020-09-25
-    set_number: 246
     variations:
     - identifier: '376'
     - identifier: PromoPack
+    wizards_id: 491897
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=491897
 rules: "Kicker [[symbol:3]] *(You may pay an additional [[symbol:3]] as you cast this\
   \ spell.)*\r\n\r\nIf Myriad Construct was kicked, it enters the battlefield with\
   \ a +1/+1 counter on it for each nonbasic land your opponents control.\r\n\r\nWhen\
@@ -63,11 +66,15 @@ subtype_tokens:
 - Construct
 tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 C Token Creature Construct
   power_toughness: 1/1
   rules: ''
   subtype: Construct
+  tla: ZNR
   type: Token Creature
 type: Artifact Creature
 url: http://tappedout.net/mtg-card/myriad-construct/

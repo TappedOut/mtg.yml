@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Sacrifice
@@ -40,9 +40,12 @@ mana_cost_converted: 1
 name: Kuldotha Rebirth
 printings:
 - SOM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 38044
     mtgo_id: 38043
     name: Scars of Mirrodin
+    number: 96
     rarity: common
     release_date: 2010-10-01
     wizards_id: 194239
@@ -52,11 +55,15 @@ rules: "As an additional cost to cast Kuldotha Rebirth, sacrifice an artifact.\r
 slug: kuldotha-rebirth
 tags: card-color-red card-color-red-cost-1 card-type-sorcery
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: SOM
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/kuldotha-rebirth/

@@ -31,25 +31,28 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 4B
 mana_cost_converted: 5
 name: Revel in Riches
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: rare
     release_date: 2020-03-14
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65251
     mtgo_id: 65250
     name: Ixalan
     number: 117
     rarity: rare
     release_date: 2017-09-29
-    set_number: 117
     variations:
     - identifier: PromoPack
     wizards_id: 435271
@@ -61,11 +64,15 @@ rules: "Whenever a creature an opponent controls dies, create a colorless Treasu
 slug: revel-in-riches
 tags: card-color-black card-color-black-cost-5 card-type-enchantment
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: XLN
   type: Token Artifact
 type: Enchantment
 url: http://tappedout.net/mtg-card/revel-in-riches/

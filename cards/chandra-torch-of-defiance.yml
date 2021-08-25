@@ -39,7 +39,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -50,43 +50,48 @@ mana_produced: RR
 name: Chandra, Torch of Defiance
 printings:
 - SS3:
+    border_color: B
     cannonical: false
+    frame: m15
     name: 'Signature Spellbook: Chandra'
     number: 1
     rarity: mythic_rare
     release_date: 2020-06-26
-    set_number: 1
 - KLD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61574
     mtgo_id: 61573
     name: Kaladesh
     number: 110
     rarity: mythic_rare
     release_date: 2016-09-30
-    set_number: 110
     wizards_id: 417683
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417683
 - S17:
     booster_exclude: true
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: original
     name: SDCC Promo 2017
     number: 110
     rarity: common
     release_date: 1990-07-20
-    set_number: 110
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: mythic_rare
     release_date: 1990-04-15
-    set_number: 1
     variations:
     - identifier: '2'
 - S18:
     booster_exclude: true
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
@@ -94,7 +99,6 @@ printings:
     number: 110
     rarity: mythic_rare
     release_date: null
-    set_number: 110
 promo_sets:
 - S17
 - S18
@@ -112,12 +116,16 @@ synonyms:
 - Chandra, Torch of Defience
 tags: card-color-red card-color-red-cost-4 card-mana-red card-type-legendary card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Chandra
   power_toughness: null
   rules: Whenever you cast a spell, this emblem deals 5 damage to target creature
     or player.
   subtype: Chandra
+  tla: KLD
   type: Emblem
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/chandra-torch-of-defiance/

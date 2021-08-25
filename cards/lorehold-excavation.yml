@@ -40,7 +40,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -51,11 +51,14 @@ mana_cost_converted: 2
 name: Lorehold Excavation
 printings:
 - STX:
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 200
     rarity: uncommon
     release_date: 2021-04-23
-    set_number: 200
+    wizards_id: 513692
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=513692
 rules: "At the beginning of your end step, mill a card. If a land card was milled\
   \ this way, you gain 1 life. Otherwise, Lorehold Excavation deals 1 damage to each\
   \ opponent. *(To mill a card, put the top card of your library into your graveyard.)*\r\
@@ -64,11 +67,15 @@ rules: "At the beginning of your end step, mill a card. If a land card was mille
 slug: lorehold-excavation
 tags: card-color-gold card-color-gold-cost-2 card-color-red card-color-white card-type-enchantment
 tokens:
-- colors: RW
+- cannonical_type: Creature
+  colors: RW
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 3/2 RW
   power_toughness: 3/2
   rules: ''
   subtype: Spirit
+  tla: STX
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/lorehold-excavation/

@@ -40,7 +40,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -52,25 +52,27 @@ mana_cost_converted: 4
 name: Elspeth, Sun's Nemesis
 printings:
 - THB:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 79153
     mtgo_id: 79152
     name: Theros Beyond Death
     number: 14
     rarity: mythic_rare
     release_date: 2020-01-24
-    set_number: 14
     variations:
     - identifier: '255'
     - identifier: PromoPack
     wizards_id: 476265
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476265
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: mythic_rare
     release_date: 1990-04-15
-    set_number: 1
 rules: "[[symbol:loyalty-minus1]]: Up to two target creatures you control each get\
   \ +2/+1 until end of turn.\r\n\r\n[[symbol:loyalty-minus2]]: Create two 1/1 white\
   \ Human Soldier creature tokens.\r\n\r\n[[symbol:loyalty-minus3]]: You gain 5 life.\r\
@@ -83,11 +85,15 @@ subtype_tokens:
 - Elspeth
 tags: card-color-white card-color-white-cost-4 card-type-legendary card-type-planeswalker
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Human Soldier
   power_toughness: 1/1
   rules: ''
   subtype: Human Soldier
+  tla: THB
   type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/elspeth-suns-nemesis/

@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -46,24 +46,26 @@ mana_cost_converted: 5
 name: Nissa, Vital Force
 printings:
 - KLD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61590
     mtgo_id: 61589
     name: Kaladesh
     number: 163
     rarity: mythic_rare
     release_date: 2016-09-30
-    set_number: 163
     variations:
     - identifier: PromoPack
     wizards_id: 417736
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417736
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: mythic_rare
     release_date: 1990-04-15
-    set_number: 1
 rules: "[[symbol:loyalty-plus1]]: Untap target land you control. Until your next turn,\
   \ it becomes a 5/5 Elemental creature with haste. It's still a land. \r\n\r\n[[symbol:loyalty-minus3]]:\
   \ Return target permanent card from your graveyard to your hand. \r\n\r\n[[symbol:loyalty-minus6]]:\
@@ -75,12 +77,16 @@ subtype_tokens:
 - Nissa
 tags: card-color-green card-color-green-cost-5 card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Nissa
   power_toughness: null
   rules: Whenever a land enters the battlefield under your control, you may draw a
     card.
   subtype: Nissa
+  tla: KLD
   type: Emblem
 type: Planeswalker
 url: http://tappedout.net/mtg-card/nissa-vital-force/

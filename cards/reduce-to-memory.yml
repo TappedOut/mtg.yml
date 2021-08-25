@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Exile
@@ -46,11 +46,14 @@ mana_cost_converted: 3
 name: Reduce to Memory
 printings:
 - STX:
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 25
     rarity: uncommon
     release_date: 2021-04-23
-    set_number: 25
+    wizards_id: 513502
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=513502
 rules: Exile target nonland permanent. Its controller creates a 3/2 red and white
   Spirit creature token.
 slug: reduce-to-memory
@@ -59,11 +62,15 @@ subtype_tokens:
 - Lesson
 tags: card-color-white card-color-white-cost-3 card-type-sorcery
 tokens:
-- colors: RW
+- cannonical_type: Creature
+  colors: RW
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 3/2 RW
   power_toughness: 3/2
   rules: ''
   subtype: Spirit
+  tla: STX
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/reduce-to-memory/

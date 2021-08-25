@@ -32,44 +32,50 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 3BB
 mana_cost_converted: 5
 name: Ob Nixilis Reignited
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 149
     rarity: mythic_rare
     release_date: 2021-04-23
-    set_number: 149
+    wizards_id: 519184
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519184
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77363
     mtgo_id: 77362
     name: Commander 2019
     number: 124
     rarity: mythic_rare
     release_date: 2019-08-23
-    set_number: 124
 - DDR:
+    border_color: B
     foil: foil
     foil_only: true
+    frame: m15
     name: 'Duel Decks: Nissa vs. Ob Nixilis'
     number: 36
     rarity: mythic_rare
     release_date: 2016-09-02
-    set_number: 36
     wizards_id: 417459
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417459
 - BFZ:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 58400
     mtgo_id: 58399
     name: Battle for Zendikar
     number: 119
     rarity: mythic_rare
     release_date: 2015-10-02
-    set_number: 119
     variations:
     - identifier: PromoPack
     wizards_id: 401971
@@ -83,11 +89,15 @@ subtype_tokens:
 - Nixilis
 tags: card-color-black card-color-black-cost-5 card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Nixilis
   power_toughness: null
   rules: Whenever a player draws a card, you lose 2 life.
   subtype: Nixilis
+  tla: C21
   type: Emblem
 type: Planeswalker
 url: http://tappedout.net/mtg-card/ob-nixilis-reignited/

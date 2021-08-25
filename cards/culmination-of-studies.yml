@@ -37,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Exile
@@ -49,13 +49,16 @@ mana_produced: W, U, B, R, G
 name: Culmination of Studies
 printings:
 - STX:
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 173
     rarity: rare
     release_date: 2021-04-23
-    set_number: 173
     variations:
     - identifier: '338'
+    wizards_id: 513665
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=513665
 rules: Exile the top X cards of your library. For each land card exiled this way,
   create a Treasure token. For each blue card exiled this way, draw a card. For each
   red card exiled this way, this deals 1 damage to each opponent.
@@ -63,11 +66,15 @@ slug: culmination-of-studies
 tags: card-color-blue card-color-gold card-color-gold-cost-2 card-color-red card-mana-black
   card-mana-blue card-mana-green card-mana-red card-mana-white card-type-sorcery
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: STX
   type: Token Artifact
 type: Sorcery
 url: http://tappedout.net/mtg-card/culmination-of-studies/

@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -40,22 +40,28 @@ name: Voice of Resurgence
 power_toughness: 2/2
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 227
     rarity: rare
     release_date: 2020-08-07
-    set_number: 227
+    wizards_id: 489900
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489900
 - MM3:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63440
     mtgo_id: 63439
     name: Modern Masters 2017 Edition
     number: 200
     rarity: mythic_rare
     release_date: 2017-03-17
-    set_number: 200
     wizards_id: 426025
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426025
 - DGM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 48303
     mtgo_id: 48302
     name: Dragon's Maze
@@ -73,12 +79,16 @@ subtype_tokens:
 - Elemental
 tags: card-color-gold card-color-gold-cost-2 card-color-green card-color-white card-type-creature
 tokens:
-- colors: GW
+- cannonical_type: Creature
+  colors: GW
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* GW Token Creature Elemental'
   power_toughness: '*/*'
   rules: This creature's power and toughness are each equal to the amount of creatures
     you control.
   subtype: Elemental
+  tla: 2XM
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/voice-of-resurgence/

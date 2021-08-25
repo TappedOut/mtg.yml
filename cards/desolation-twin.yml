@@ -25,7 +25,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -35,32 +35,39 @@ name: Desolation Twin
 power_toughness: 10/10
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 82
     rarity: rare
     release_date: 2021-04-23
-    set_number: 82
+    wizards_id: 519117
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519117
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: rare
     release_date: 2020-03-14
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77231
     mtgo_id: 77230
     name: Commander 2019
     number: 60
     rarity: rare
     release_date: 2019-08-23
-    set_number: 60
 - BFZ:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 58752
     mtgo_id: 58751
     name: Battle for Zendikar
     number: 6
     rarity: rare
     release_date: 2015-10-02
-    set_number: 6
     wizards_id: 401857
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401857
 rules: When you cast this spell, create a 10/10 colorless Eldrazi creature token.
@@ -70,11 +77,15 @@ subtype_tokens:
 - Eldrazi
 tags: card-color-colorless card-color-colorless-cost-10 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Eldrazi 10/10 C
   power_toughness: 10/10
   rules: ''
   subtype: Eldrazi
+  tla: C21
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/desolation-twin/

@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Scry
@@ -46,13 +46,16 @@ mana_cost_converted: 1
 name: Multiple Choice
 printings:
 - STX:
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 48
     rarity: rare
     release_date: 2021-04-23
-    set_number: 48
     variations:
     - identifier: '298'
+    wizards_id: 513525
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=513525
 rules: "If X is 1, scry 1 then draw a card.\r\n\r\nIf X is 2, you may choose a player.\
   \ They return a creature they control to its owner's hand.\r\n\r\nIf X is 3, create\
   \ a 4/4 blue and red Elemental creature token.\r\n\r\nIf X is 4 or more, do all\
@@ -60,11 +63,15 @@ rules: "If X is 1, scry 1 then draw a card.\r\n\r\nIf X is 2, you may choose a p
 slug: multiple-choice
 tags: card-color-blue card-color-blue-cost-1 card-type-sorcery
 tokens:
-- colors: UR
+- cannonical_type: Creature
+  colors: UR
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Elemental 4/4 UR
   power_toughness: 4/4
   rules: ''
   subtype: Elemental
+  tla: STX
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/multiple-choice/

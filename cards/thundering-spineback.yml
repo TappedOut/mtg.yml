@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Trample
@@ -46,28 +46,33 @@ name: Thundering Spineback
 power_toughness: 5/5
 printings:
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 437
     rarity: uncommon
     release_date: 2020-07-17
-    set_number: 437
+    wizards_id: 489420
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489420
 - GN2:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Game Night 2019
     number: 53
     rarity: uncommon
     release_date: 2019-11-15
-    set_number: 53
     wizards_id: 476119
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476119
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65441
     mtgo_id: 65440
     name: Ixalan
     number: 210
     rarity: uncommon
     release_date: 2017-09-29
-    set_number: 210
     wizards_id: 435366
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435366
 rules: "Other Dinosaurs you control get +1/+1.\r\n\r\n[[symbol:5]][[symbol:G]]: Create\
@@ -78,12 +83,16 @@ subtype_tokens:
 - Dinosaur
 tags: card-color-green card-color-green-cost-7 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 G Token Creature Dinosaur
   power_toughness: 3/3
   rules: Trample (This creature can deal excess combat damage to defending player
     or planeswalker while attacking.)
   subtype: Dinosaur
+  tla: JMP
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/thundering-spineback/

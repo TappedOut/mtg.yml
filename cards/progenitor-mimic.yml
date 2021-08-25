@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -38,36 +38,41 @@ name: Progenitor Mimic
 power_toughness: 0/0
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 212
     rarity: rare
     release_date: 2020-08-07
-    set_number: 212
+    wizards_id: 489885
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489885
 - GK2:
-    cannonical: false
+    border_color: B
+    frame: m15
     name: 'Ravnica Allegiance: Guild Kits'
     number: 123
     rarity: mythic_rare
     release_date: 2019-02-15
-    set_number: 123
     wizards_id: 460782
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460782
 - C16:
+    border_color: B
+    frame: m15
     name: Commander 2016
     number: 216
     rarity: mythic_rare
     release_date: 2016-11-11
-    set_number: 216
     wizards_id: 420833
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420833
 - DGM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 48209
     mtgo_id: 48208
     name: Dragon's Maze
     number: 92
     rarity: mythic_rare
     release_date: 2013-05-03
-    set_number: 92
     wizards_id: 369001
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=369001
 rules: You may have Progenitor Mimic enter the battlefield as a copy of any creature
@@ -79,11 +84,14 @@ subtype_tokens:
 - Shapeshifter
 tags: card-color-blue card-color-gold card-color-gold-cost-6 card-color-green card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: 2XM
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/progenitor-mimic/

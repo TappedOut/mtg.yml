@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Fight
@@ -47,13 +47,14 @@ mana_cost_converted: 4
 name: Kiora, Master of the Depths
 printings:
 - BFZ:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 58492
     mtgo_id: 58491
     name: Battle for Zendikar
     number: 213
     rarity: mythic_rare
     release_date: 2015-10-02
-    set_number: 213
     wizards_id: 401931
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401931
 rules: "[[symbol:loyalty-plus1]]: Untap up to one target creature and up to one target\
@@ -69,18 +70,26 @@ subtype_tokens:
 - Kiora
 tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-green card-type-planeswalker
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 8/8 U Token Creature Octopus
   power_toughness: 8/8
   rules: ''
   subtype: Octopus
+  tla: BFZ
   type: Token Creature
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Kiora
   power_toughness: null
   rules: Whenever a creature enters the battlefield under your control, you may have
     it fight target creature.
   subtype: Kiora
+  tla: BFZ
   type: Emblem
 type: Planeswalker
 url: http://tappedout.net/mtg-card/kiora-master-of-the-depths/

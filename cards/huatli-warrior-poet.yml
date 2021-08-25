@@ -38,20 +38,21 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 3RW
 mana_cost_converted: 5
 name: Huatli, Warrior Poet
 printings:
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65469
     mtgo_id: 65468
     name: Ixalan
     number: 224
     rarity: mythic_rare
     release_date: 2017-09-29
-    set_number: 224
     wizards_id: 435380
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435380
 rules: "+2: You gain life equal to the greatest power among creatures you control.\r\
@@ -65,12 +66,16 @@ subtype_tokens:
 tags: card-color-gold card-color-gold-cost-5 card-color-red card-color-white card-type-legendary
   card-type-planeswalker
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 G Token Creature Dinosaur
   power_toughness: 3/3
   rules: Trample (This creature can deal excess combat damage to defending player
     or planeswalker while attacking.)
   subtype: Dinosaur
+  tla: XLN
   type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/huatli-warrior-poet/

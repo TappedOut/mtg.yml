@@ -37,7 +37,7 @@ formats:
 - Vintage
 has_activated_abilities: true
 is_front: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -50,22 +50,24 @@ mana_cost_converted: 2
 name: Treasure Map
 printings:
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65529
     mtgo_id: 65528
     name: Ixalan
     number: 250
     rarity: rare
     release_date: 2017-09-29
-    set_number: 250
     wizards_id: 435410
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435410
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: rare
     release_date: 1990-04-15
-    set_number: 1
 rules: '[[[symbol:1]], [[symbol:T]]: Scry 1. Put a landmark counter on Treasure Map.
   Then if there are three or more landmark counters on it, remove those counters,
   transform Treasure Map, and create three colorless Treasure artifact tokens with
@@ -73,11 +75,15 @@ rules: '[[[symbol:1]], [[symbol:T]]: Scry 1. Put a landmark counter on Treasure 
 slug: treasure-map
 tags: card-color-colorless card-color-colorless-cost-2 card-type-artifact
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: XLN
   type: Token Artifact
 type: Artifact
 url: http://tappedout.net/mtg-card/treasure-map/

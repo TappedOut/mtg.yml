@@ -32,16 +32,19 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: '3'
 mana_cost_converted: 3
 name: Golem Foundry
 printings:
 - SOM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 38068
     mtgo_id: 38067
     name: Scars of Mirrodin
+    number: 160
     rarity: common
     release_date: 2010-10-01
     wizards_id: 194314
@@ -52,11 +55,15 @@ rules: "Whenever you cast an artifact spell, you may put a charge counter on Gol
 slug: golem-foundry
 tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Golem 3/3 C
   power_toughness: 3/3
   rules: ''
   subtype: Golem
+  tla: SOM
   type: Token Artifact Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/golem-foundry/

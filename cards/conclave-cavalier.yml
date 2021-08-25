@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Vigilance
@@ -41,13 +41,16 @@ name: Conclave Cavalier
 power_toughness: 4/4
 printings:
 - GRN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 69696
     mtgo_id: 69695
     name: Guilds of Ravnica
     number: 161
     rarity: uncommon
     release_date: 2018-10-05
-    set_number: 161
+    wizards_id: 452911
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=452911
 rules: "Vigilance\r\n\r\nWhen Conclave Cavalier is put into the graveyard from the\
   \ battlefield, create two 2/2 green and white Elf Knight creature tokens with vigilance."
 slug: conclave-cavalier
@@ -57,11 +60,15 @@ subtype_tokens:
 - Knight
 tags: card-color-gold card-color-gold-cost-4 card-color-green card-color-white card-type-creature
 tokens:
-- colors: GW
+- cannonical_type: Creature
+  colors: GW
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 GW Token Creature Elf Knight
   power_toughness: 2/2
   rules: Vigilance
   subtype: Elf Knight
+  tla: GRN
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/conclave-cavalier/

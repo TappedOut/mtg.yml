@@ -39,7 +39,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -48,11 +48,14 @@ mana_cost_converted: 3
 name: Spirit Summoning
 printings:
 - STX:
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 236
     rarity: common
     release_date: 2021-04-23
-    set_number: 236
+    wizards_id: 513728
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=513728
 rules: Create a 3/2 red and white Spirit creature token.
 slug: spirit-summoning
 subtype: Lesson
@@ -60,11 +63,15 @@ subtype_tokens:
 - Lesson
 tags: card-color-gold card-color-gold-cost-3 card-color-red card-color-white card-type-sorcery
 tokens:
-- colors: RW
+- cannonical_type: Creature
+  colors: RW
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 3/2 RW
   power_toughness: 3/2
   rules: ''
   subtype: Spirit
+  tla: STX
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/spirit-summoning/

@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -44,30 +44,37 @@ name: Prosperous Pirates
 power_toughness: 3/4
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 85
     rarity: common
     release_date: 2020-11-20
-    set_number: 85
+    wizards_id: 497605
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497605
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 165
     rarity: common
     release_date: 2020-07-17
-    set_number: 165
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65151
     mtgo_id: 65150
     name: Ixalan
     number: 69
     rarity: common
     release_date: 2017-09-29
-    set_number: 69
     wizards_id: 435221
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435221
 rules: 'When Prosperous Pirates enters the battlefield, create two Treasure tokens.
@@ -81,11 +88,15 @@ subtype_tokens:
 tags: card-color-blue card-color-blue-cost-5 card-mana-black card-mana-blue card-mana-green
   card-mana-red card-mana-white card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: CMR
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/prosperous-pirates/

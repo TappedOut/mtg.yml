@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Vigilance
@@ -46,13 +46,16 @@ mana_cost_converted: 3
 name: Sprouting Renewal
 printings:
 - GRN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 69664
     mtgo_id: 69663
     name: Guilds of Ravnica
     number: 145
     rarity: uncommon
     release_date: 2018-10-05
-    set_number: 145
+    wizards_id: 452895
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=452895
 rules: "Convoke *(Your creatures can help cast this spell. Each creature you tap while\
   \ casting this spell pays for [[symbol:1]] or one mana of that creature's colour.)*\r\
   \n\r\nChoose one &mdash;\r\n\r\n- Create a 2/2 green and white Elf Knight creature\
@@ -60,11 +63,15 @@ rules: "Convoke *(Your creatures can help cast this spell. Each creature you tap
 slug: sprouting-renewal
 tags: card-color-green card-color-green-cost-3 card-type-sorcery
 tokens:
-- colors: GW
+- cannonical_type: Creature
+  colors: GW
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 GW Token Creature Elf Knight
   power_toughness: 2/2
   rules: Vigilance
   subtype: Elf Knight
+  tla: GRN
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/sprouting-renewal/

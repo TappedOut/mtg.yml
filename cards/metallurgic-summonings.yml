@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -46,19 +46,23 @@ mana_cost_converted: 5
 name: Metallurgic Summonings
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 122
     rarity: mythic_rare
     release_date: 2021-04-23
-    set_number: 122
+    wizards_id: 519157
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519157
 - KLD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61920
     mtgo_id: 61919
     name: Kaladesh
     number: 56
     rarity: mythic_rare
     release_date: 2016-09-30
-    set_number: 56
     wizards_id: 417629
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417629
 rules: "Whenever you cast an instant or sorcery spell, create an X/X colorless Construct\
@@ -69,11 +73,15 @@ rules: "Whenever you cast an instant or sorcery spell, create an X/X colorless C
 slug: metallurgic-summonings
 tags: card-color-blue card-color-blue-cost-5 card-type-enchantment
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Construct */* C
   power_toughness: '*/*'
   rules: ''
   subtype: Construct
+  tla: C21
   type: Token Artifact Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/metallurgic-summonings/

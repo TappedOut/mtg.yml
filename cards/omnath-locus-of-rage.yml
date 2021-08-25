@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Landfall
@@ -39,21 +39,23 @@ name: Omnath, Locus of Rage
 power_toughness: 5/5
 printings:
 - ZNC:
+    border_color: B
+    frame: m15
     name: 'Zendikar Rising: Commander'
     number: 97
     rarity: mythic_rare
     release_date: 2020-09-25
-    set_number: 97
     wizards_id: 496035
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=496035
 - BFZ:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 58780
     mtgo_id: 58779
     name: Battle for Zendikar
     number: 217
     rarity: mythic_rare
     release_date: 2015-10-02
-    set_number: 217
     wizards_id: 401973
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401973
 rules: "*Landfall* &mdash; Whenever a land enters the battlefield under your control,\
@@ -67,11 +69,15 @@ subtype_tokens:
 tags: card-color-gold card-color-gold-cost-7 card-color-green card-color-red card-type-creature
   card-type-legendary
 tokens:
-- colors: RG
+- cannonical_type: Creature
+  colors: RG
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 5/5 RG Token Creature Elemental
   power_toughness: 5/5
   rules: ''
   subtype: Elemental
+  tla: ZNC
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/omnath-locus-of-rage/

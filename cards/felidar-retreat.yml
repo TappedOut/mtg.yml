@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Vigilance
@@ -46,14 +46,17 @@ mana_cost_converted: 4
 name: Felidar Retreat
 printings:
 - ZNR:
+    border_color: B
+    frame: m15
     name: Zendikar Rising
     number: 16
     rarity: rare
     release_date: 2020-09-25
-    set_number: 16
     variations:
     - identifier: '292'
     - identifier: PromoPack
+    wizards_id: 491638
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=491638
 rules: "*Landfall* &mdash; Whenever a land enters the battlefield under your control,\
   \ choose one &mdash;\r\n\r\n- Create a 2/2 white Cat Beast creature token.\r\n-\
   \ Put a +1/+1 counter on each creature you control. Those creatures gain vigilance\
@@ -61,11 +64,15 @@ rules: "*Landfall* &mdash; Whenever a land enters the battlefield under your con
 slug: felidar-retreat
 tags: card-color-white card-color-white-cost-4 card-type-enchantment
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 W Token Creature Cat Beast
   power_toughness: 2/2
   rules: ''
   subtype: Cat Beast
+  tla: ZNR
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/felidar-retreat/
