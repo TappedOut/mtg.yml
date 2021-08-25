@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Populate
@@ -42,9 +42,12 @@ mana_cost_converted: 6
 name: Coursers' Accord
 printings:
 - RTR:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 46638
     mtgo_id: 46637
     name: Return to Ravnica
+    number: 154
     rarity: common
     release_date: 2012-10-05
     wizards_id: 253639
@@ -54,11 +57,15 @@ rules: Put a 3/3 green Centaur creature token onto the battlefield, then populat
 slug: coursers-accord
 tags: card-color-gold card-color-gold-cost-6 card-color-green card-color-white card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 G Token Creature Centaur
   power_toughness: 3/3
   rules: ''
   subtype: Centaur
+  tla: RTR
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/coursers-accord/

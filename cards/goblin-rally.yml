@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -41,38 +41,47 @@ mana_cost_converted: 5
 name: Goblin Rally
 printings:
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 329
     rarity: uncommon
     release_date: 2020-07-17
-    set_number: 329
+    wizards_id: 489519
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489519
 - GK1:
+    border_color: B
+    frame: m15
     name: 'Guilds of Ravnica: Guild Kit'
     number: 30
     rarity: uncommon
     release_date: 2018-11-02
-    set_number: 30
     wizards_id: 456220
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456220
 - RTR:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 46692
     mtgo_id: 46691
     name: Return to Ravnica
     number: 95
     rarity: uncommon
     release_date: 2012-10-05
-    set_number: 95
     wizards_id: 270788
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=270788
 rules: Create four 1/1 red Goblin creature tokens.
 slug: goblin-rally
 tags: card-color-red card-color-red-cost-5 card-type-sorcery
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: JMP
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/goblin-rally/

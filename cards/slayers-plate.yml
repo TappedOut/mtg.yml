@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Equip
@@ -40,13 +40,14 @@ mana_cost_converted: 3
 name: Slayer's Plate
 printings:
 - SOI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60109
     mtgo_id: 60108
     name: Shadows over Innistrad
     number: 264
     rarity: rare
     release_date: 2016-04-08
-    set_number: 264
     wizards_id: 410031
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=410031
 rules: "Equipped creature gets +4/+2.\r\n\r\nWhenever equipped creature dies, if it\
@@ -58,11 +59,15 @@ subtype_tokens:
 - Equipment
 tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: SOI
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/slayers-plate/

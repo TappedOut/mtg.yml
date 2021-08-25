@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Exile
@@ -39,13 +39,14 @@ mana_cost_converted: 4
 name: Ritual of the Returned
 printings:
 - JOU:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 52051
     mtgo_id: 52050
     name: Journey into Nyx
     number: 80
     rarity: uncommon
     release_date: 2014-05-02
-    set_number: 80
     wizards_id: 380487
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=380487
 rules: 'Exile target creature card from your graveyard. Put a black Zombie creature
@@ -54,11 +55,15 @@ rules: 'Exile target creature card from your graveyard. Put a black Zombie creat
 slug: ritual-of-the-returned
 tags: card-color-black card-color-black-cost-4 card-type-instant
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* B Token Creature Zombie'
   power_toughness: '*/*'
   rules: ''
   subtype: Zombie
+  tla: JOU
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/ritual-of-the-returned/

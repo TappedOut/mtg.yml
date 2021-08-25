@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: MYS1
+cannonical_set: SOI
 cannonical_type: Sorcery
 companions:
 - Jegantha, the Wellspring
@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Investigate
@@ -42,17 +42,21 @@ mana_cost_converted: 3
 name: Root Out
 printings:
 - MYS1:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - SOI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60377
     mtgo_id: 60376
     name: Shadows over Innistrad
     number: 224
     rarity: common
     release_date: 2016-04-08
-    set_number: 224
     wizards_id: 409986
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409986
 rules: "Destroy target artifact or enchantment.\r\n\r\nInvestigate. *(Put a colourless\
@@ -61,11 +65,15 @@ rules: "Destroy target artifact or enchantment.\r\n\r\nInvestigate. *(Put a colo
 slug: root-out
 tags: card-color-green card-color-green-cost-3 card-type-sorcery
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Clue
   power_toughness: null
   rules: '[[symbol:2]], Sacrifice this: Draw a card.'
   subtype: Clue
+  tla: SOI
   type: Token Artifact
 type: Sorcery
 url: http://tappedout.net/mtg-card/root-out/

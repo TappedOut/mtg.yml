@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Flying
@@ -45,13 +45,14 @@ mana_cost_converted: 3
 name: Hour of Need
 printings:
 - JOU:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 52123
     mtgo_id: 52122
     name: Journey into Nyx
     number: 40
     rarity: uncommon
     release_date: 2014-05-02
-    set_number: 40
     wizards_id: 380435
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=380435
 rules: "*Strive* &mdash; Hour of Need costs [[symbol:1]][[symbol:U]] more to cast\
@@ -61,11 +62,15 @@ rules: "*Strive* &mdash; Hour of Need costs [[symbol:1]][[symbol:U]] more to cas
 slug: hour-of-need
 tags: card-color-blue card-color-blue-cost-3 card-type-instant
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 4/4 U Token Creature Sphinx
   power_toughness: 4/4
   rules: Flying
   subtype: Sphinx
+  tla: JOU
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/hour-of-need/

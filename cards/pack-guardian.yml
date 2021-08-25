@@ -26,7 +26,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flash
@@ -37,13 +37,14 @@ name: Pack Guardian
 power_toughness: 4/3
 printings:
 - SOI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 59849
     mtgo_id: 59848
     name: Shadows over Innistrad
     number: 221
     rarity: uncommon
     release_date: 2016-04-08
-    set_number: 221
     wizards_id: 409983
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409983
 rules: "Flash *(You may cast this spell at any time you could cast an instant.)*\r\
@@ -56,11 +57,15 @@ subtype_tokens:
 - Spirit
 tags: card-color-green card-color-green-cost-4 card-type-creature
 tokens:
-- colors: G
-  name: 2/2 G Token Creature Wolf
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Wolf 2/2 G
   power_toughness: 2/2
   rules: ''
   subtype: Wolf
+  tla: SOI
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/pack-guardian/

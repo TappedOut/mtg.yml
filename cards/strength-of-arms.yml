@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -41,19 +41,23 @@ mana_cost_converted: 1
 name: Strength of Arms
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 33
     rarity: common
     release_date: 2020-08-07
-    set_number: 33
+    wizards_id: 489706
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489706
 - SOI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60345
     mtgo_id: 60344
     name: Shadows over Innistrad
     number: 40
     rarity: common
     release_date: 2016-04-08
-    set_number: 40
     wizards_id: 409780
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409780
 rules: Target creature gets +2/+2 until end of turn. If you control an Equipment,
@@ -61,11 +65,15 @@ rules: Target creature gets +2/+2 until end of turn. If you control an Equipment
 slug: strength-of-arms
 tags: card-color-white card-color-white-cost-1 card-type-instant
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Human Soldier
   power_toughness: 1/1
   rules: ''
   subtype: Human Soldier
+  tla: 2XM
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/strength-of-arms/
