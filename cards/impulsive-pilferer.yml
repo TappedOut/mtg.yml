@@ -33,7 +33,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -49,11 +49,14 @@ name: Impulsive Pilferer
 power_toughness: 1/1
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 185
     rarity: common
     release_date: 2020-11-20
-    set_number: 185
+    wizards_id: 497705
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497705
 rules: "When this dies *(is put into the graveyard from the battlefield)*, create\
   \ a Treasure token. *(It's an artifact with \"[[symbol:T]], Sacrifice this artifact:\
   \ Gain one mana of any colour.\")*\r\n\r\nEncore [[symbol:3]][[symbol:R]] *([[symbol:3]][[symbol:R]],\
@@ -68,17 +71,24 @@ subtype_tokens:
 tags: card-color-red card-color-red-cost-1 card-mana-black card-mana-blue card-mana-green
   card-mana-red card-mana-white card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: CMR
   type: Token Creature
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: CMR
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/impulsive-pilferer/

@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -41,13 +41,16 @@ mana_cost_converted: 6
 name: Mirror March
 printings:
 - RNA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71217
     mtgo_id: 71216
     name: Ravnica Allegiance
     number: 108
     rarity: rare
     release_date: 2019-01-25
-    set_number: 108
+    wizards_id: 457252
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=457252
 rules: Whenever a nontoken creature enters the battlefield under your control, flip
   a coin until you lose a flip. For each flip you won, create a token that's a copy
   of that creature. Those tokens gain haste. Exile them at the beginning of the next
@@ -55,11 +58,14 @@ rules: Whenever a nontoken creature enters the battlefield under your control, f
 slug: mirror-march
 tags: card-color-red card-color-red-cost-6 card-type-enchantment
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: RNA
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/mirror-march/

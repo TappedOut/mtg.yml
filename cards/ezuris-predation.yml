@@ -25,7 +25,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Fight
@@ -35,17 +35,21 @@ mana_cost_converted: 8
 name: Ezuri's Predation
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 188
     rarity: rare
     release_date: 2021-04-23
-    set_number: 188
+    wizards_id: 519223
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519223
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 36
     rarity: rare
     release_date: 2015-11-13
-    set_number: 36
     wizards_id: 405222
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405222
 rules: For each creature your opponents control, create a 4/4 green beast creature
@@ -53,11 +57,15 @@ rules: For each creature your opponents control, create a 4/4 green beast creatu
 slug: ezuris-predation
 tags: card-color-green card-color-green-cost-8 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Beast 4/4 G
   power_toughness: 4/4
   rules: ''
   subtype: Beast
+  tla: C21
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/ezuris-predation/

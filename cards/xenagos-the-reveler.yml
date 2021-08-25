@@ -39,20 +39,21 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 2RG
 mana_cost_converted: 4
 name: Xenagos, the Reveler
 printings:
 - THS:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 50317
     mtgo_id: 50316
     name: Theros
     number: 209
     rarity: mythic_rare
     release_date: 2013-09-27
-    set_number: 209
     wizards_id: 373502
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373502
 rules: "[[symbol:loyalty-plus1]]: Add X mana in any combination of [[R]] and/or [[G]]\
@@ -63,11 +64,15 @@ rules: "[[symbol:loyalty-plus1]]: Add X mana in any combination of [[R]] and/or 
 slug: xenagos-the-reveler
 tags: card-color-gold card-color-gold-cost-4 card-color-green card-color-red card-type-planeswalker
 tokens:
-- colors: GR
+- cannonical_type: Creature
+  colors: GR
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 GR Token Creature Satyr
   power_toughness: 2/2
   rules: Haste
   subtype: Satyr
+  tla: THS
   type: Token Creature
 type: Planeswalker
 url: http://tappedout.net/mtg-card/xenagos-the-reveler/

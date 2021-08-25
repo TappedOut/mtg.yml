@@ -23,7 +23,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -35,20 +35,22 @@ mana_cost_converted: 5
 name: Rite of the Raging Storm
 printings:
 - CM2:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology 2018
     number: 115
     rarity: uncommon
     release_date: 2018-06-08
-    set_number: 115
     wizards_id: 446851
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446851
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 30
     rarity: uncommon
     release_date: 2015-11-13
-    set_number: 30
     wizards_id: 405361
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405361
 rules: "Creatures named Lightning Rager can't attack you or planeswalkers you control.\r\
@@ -58,12 +60,16 @@ rules: "Creatures named Lightning Rager can't attack you or planeswalkers you co
 slug: rite-of-the-raging-storm
 tags: card-color-red card-color-red-cost-5 card-type-enchantment
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 5/1 R Token Creature Elemental
   power_toughness: 5/1
   rules: "Trample, haste\r\n\r\nAt the beginning of the next end step, sacrifice this\
     \ creature."
   subtype: Elemental
+  tla: C15
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/rite-of-the-raging-storm/

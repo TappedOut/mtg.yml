@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Menace
@@ -43,13 +43,14 @@ name: Maulfist Squad
 power_toughness: 3/1
 printings:
 - KLD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61680
     mtgo_id: 61679
     name: Kaladesh
     number: 91
     rarity: common
     release_date: 2016-09-30
-    set_number: 91
     wizards_id: 417664
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417664
 rules: "Menace\r\n\r\nFabricate 1 (When this creature enters the battlefield, put\
@@ -61,11 +62,15 @@ subtype_tokens:
 - Artificer
 tags: card-color-black card-color-black-cost-4 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Servo 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Servo
+  tla: KLD
   type: Token Artifact Creature
 type: Creature
 url: http://tappedout.net/mtg-card/maulfist-squad/

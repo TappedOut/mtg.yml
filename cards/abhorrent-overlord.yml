@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -39,22 +39,24 @@ name: Abhorrent Overlord
 power_toughness: 6/6
 printings:
 - THS:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 50401
     mtgo_id: 50400
     name: Theros
     number: 75
     rarity: rare
     release_date: 2013-09-27
-    set_number: 75
     wizards_id: 373661
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373661
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 70
     rarity: rare
     release_date: 1990-04-15
-    set_number: 70
 rules: "Flying \r\n\r\nWhen Abhorrent Overlord enters the battlefield, put a number\
   \ of 1/1 black Harpy creature tokens with flying onto the battlefield equal to your\
   \ devotion to black. *(Each [[symbol:B]] in the mana costs of permanents you control\
@@ -66,11 +68,15 @@ subtype_tokens:
 - Demon
 tags: card-color-black card-color-black-cost-7 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 B Token Creature Harpy
   power_toughness: 1/1
   rules: Flying
   subtype: Harpy
+  tla: THS
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/abhorrent-overlord/

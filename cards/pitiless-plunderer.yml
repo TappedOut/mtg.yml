@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -50,7 +50,6 @@ printings:
     number: 81
     rarity: uncommon
     release_date: 2018-01-19
-    set_number: 81
     wizards_id: 439738
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439738
 rules: 'Whenever another creature you control dies *(is put into the graveyard from
@@ -65,11 +64,15 @@ subtype_tokens:
 tags: card-color-black card-color-black-cost-4 card-mana-black card-mana-blue card-mana-green
   card-mana-red card-mana-white card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: RIX
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/pitiless-plunderer/

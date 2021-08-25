@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -44,13 +44,14 @@ name: Nightmare Shepherd
 power_toughness: 4/4
 printings:
 - THB:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 79341
     mtgo_id: 79340
     name: Theros Beyond Death
     number: 108
     rarity: rare
     release_date: 2020-01-24
-    set_number: 108
     variations:
     - identifier: '315'
     - identifier: PromoPack
@@ -66,11 +67,14 @@ subtype_tokens:
 - Demon
 tags: card-color-black card-color-black-cost-4 card-type-creature card-type-enchantment
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: THB
   type: Token Creature
 type: Enchantment Creature
 url: http://tappedout.net/mtg-card/nightmare-shepherd/

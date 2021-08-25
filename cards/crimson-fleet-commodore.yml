@@ -25,7 +25,7 @@ formats:
 - Pauper EDH
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Trample
@@ -35,11 +35,14 @@ name: Crimson Fleet Commodore
 power_toughness: 5/2
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 171
     rarity: common
     release_date: 2020-11-20
-    set_number: 171
+    wizards_id: 497691
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497691
 rules: "Trample\r\n\r\nWhenever Crimson Fleet Commodore enters the battlefield, you\
   \ become the monarch."
 slug: crimson-fleet-commodore
@@ -48,12 +51,15 @@ subtype_tokens:
 - Ogre
 tags: card-color-red card-color-red-cost-4 card-type-creature
 tokens:
-- colors: C
-  name: C Emblem Monarch
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Monarch Emblem
   power_toughness: null
   rules: "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
     \ deals combat damage to you, its controller becomes the monarch."
-  subtype: Monarch
+  tla: CMR
   type: Emblem
 type: Creature
 url: http://tappedout.net/mtg-card/crimson-fleet-commodore/

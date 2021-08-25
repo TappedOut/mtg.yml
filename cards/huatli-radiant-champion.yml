@@ -38,20 +38,21 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 2GW
 mana_cost_converted: 4
 name: Huatli, Radiant Champion
 printings:
 - RIX:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66774
     mtgo_id: 66773
     name: Rivals of Ixalan
     number: 159
     rarity: mythic_rare
     release_date: 2018-01-19
-    set_number: 159
     wizards_id: 439817
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439817
 rules: "[+1]: Put a loyalty counter on Huatli, Radiant Champion for each creature\
@@ -65,12 +66,16 @@ subtype_tokens:
 - Huatli
 tags: card-color-gold card-color-gold-cost-4 card-color-green card-color-white card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Huatli
   power_toughness: null
   rules: Whenever a creature enters the battlefield under your control, you may draw
     a card.
   subtype: Huatli
+  tla: RIX
   type: Emblem
 type: Planeswalker
 url: http://tappedout.net/mtg-card/huatli-radiant-champion/

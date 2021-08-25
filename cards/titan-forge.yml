@@ -31,22 +31,27 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: '3'
 mana_cost_converted: 3
 name: Titan Forge
 printings:
 - MBS:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 39328
     mtgo_id: 39327
     name: Mirrodin Besieged
+    number: 141
     rarity: rare
     release_date: 2011-02-04
     wizards_id: 213730
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=213730
 - MBM:
+    border_color: B
     cannonical: false
+    frame: modern
     name: 'Mirrodin Besieged: Mirran'
     rarity: rare
     release_date: 2011-02-03
@@ -56,11 +61,15 @@ rules: "[[3]], [[T]]: Put a charge counter on Titan Forge.\r\n\r\n[[T]], Remove 
 slug: titan-forge
 tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 9/9 C Artifact Creature Golem
   power_toughness: 9/9
   rules: ''
   subtype: Golem
+  tla: MBS
   type: Artifact Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/titan-forge/

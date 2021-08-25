@@ -24,7 +24,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -35,11 +35,12 @@ name: Ezuri, Claw of Progress
 power_toughness: 3/3
 printings:
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 44
     rarity: mythic_rare
     release_date: 2015-11-13
-    set_number: 44
     wizards_id: 405221
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405221
 rules: "Whenever a creature with power 2 or less enters the battlefield under your\
@@ -54,11 +55,14 @@ subtype_tokens:
 tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-green card-type-creature
   card-type-legendary
 tokens:
-- colors: null
-  name: Emblem Experience
+- cannonical_type: Emblem
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Experience Token
   power_toughness: null
   rules: '*(Place your experience counters here.)*'
-  subtype: Experience
+  tla: C15
   type: Emblem
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/ezuri-claw-of-progress/

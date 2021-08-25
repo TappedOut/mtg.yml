@@ -39,7 +39,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Kicker
@@ -48,13 +48,16 @@ mana_cost_converted: 3
 name: Ingenious Mastery
 printings:
 - STX:
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 44
     rarity: rare
     release_date: 2021-04-23
-    set_number: 44
     variations:
     - identifier: '297'
+    wizards_id: 513521
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=513521
 rules: "You may pay [[symbol:2]][[symbol:U]] rather than pay this spell's mana cost.\r\
   \n\r\nIf they [[symbol:2]][[symbol:U]] cost was paid, you draw three cards, then\
   \ an opponent creates two Treasure tokens and they scry 2. If that cost wasn't paid,\
@@ -62,11 +65,15 @@ rules: "You may pay [[symbol:2]][[symbol:U]] rather than pay this spell's mana c
 slug: ingenious-mastery
 tags: card-color-blue card-color-blue-cost-3 card-type-sorcery
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: STX
   type: Token Artifact
 type: Sorcery
 url: http://tappedout.net/mtg-card/ingenious-mastery/

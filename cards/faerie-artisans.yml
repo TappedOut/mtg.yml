@@ -23,7 +23,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -35,11 +35,12 @@ name: Faerie Artisans
 power_toughness: 2/2
 printings:
 - C16:
+    border_color: B
+    frame: m15
     name: Commander 2016
     number: 8
     rarity: rare
     release_date: 2016-11-11
-    set_number: 8
     wizards_id: 420625
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420625
 rules: Whenever a nontoken creature enters the battlefield under an opponent's control,
@@ -52,11 +53,14 @@ subtype_tokens:
 - Artificer
 tags: card-color-blue card-color-blue-cost-4 card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: C16
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/faerie-artisans/

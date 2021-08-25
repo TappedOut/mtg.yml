@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -45,17 +45,20 @@ mana_cost_converted: 2
 name: Luminarch Ascension
 printings:
 - A25:
+    border_color: B
     cannonical: false
+    frame: m15
     mtgo_foil_id: 66961
     mtgo_id: 66960
     name: Masters 25
     number: 23
     rarity: rare
     release_date: 2018-03-16
-    set_number: 23
     wizards_id: 442012
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442012
 - ZEN:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 34817
     mtgo_id: 34816
     name: Zendikar
@@ -71,11 +74,15 @@ rules: "At the beginning of each opponent's end step, if you didn't lose life th
 slug: luminarch-ascension
 tags: card-color-white card-color-white-cost-2 card-type-enchantment
 tokens:
-- colors: W
-  name: 4/4 W Token Creature Angel
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Angel 4/4 W
   power_toughness: 4/4
   rules: Flying
   subtype: Angel
+  tla: ZEN
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/luminarch-ascension/

@@ -22,7 +22,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -34,18 +34,20 @@ name: Banshee of the Dread Choir
 power_toughness: 4/4
 printings:
 - CM1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology
     number: 47
     rarity: common
     release_date: 2017-06-09
-    set_number: 47
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 16
     rarity: uncommon
     release_date: 2015-11-13
-    set_number: 16
     wizards_id: 405136
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405136
 rules: "Myriad *(Whenever this creature attacks, for each opponent other than defending\
@@ -59,11 +61,14 @@ subtype_tokens:
 - Spirit
 tags: card-color-black card-color-black-cost-5 card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: C15
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/banshee-of-the-dread-choir/

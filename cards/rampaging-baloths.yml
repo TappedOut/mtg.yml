@@ -26,7 +26,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Trample
@@ -38,43 +38,52 @@ name: Rampaging Baloths
 power_toughness: 6/6
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 203
     rarity: rare
     release_date: 2021-04-23
-    set_number: 203
+    wizards_id: 519238
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519238
 - CMR:
     booster_exclude: true
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 431
     rarity: rare
     release_date: 2020-11-20
-    set_number: 431
 - ZNC:
+    border_color: B
+    frame: m15
     name: 'Zendikar Rising: Commander'
     number: 77
     rarity: rare
     release_date: 2020-09-25
-    set_number: 77
     wizards_id: 496015
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=496015
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77467
     mtgo_id: 77466
     name: Commander 2019
     number: 176
     rarity: rare
     release_date: 2019-08-23
-    set_number: 176
 - C18:
+    border_color: B
+    frame: m15
     name: Commander 2018
     number: 158
     rarity: rare
     release_date: 2018-08-10
-    set_number: 158
     wizards_id: 451113
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451113
 - IMA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66248
     mtgo_id: 66247
     name: Iconic Masters
@@ -83,22 +92,26 @@ printings:
     wizards_id: 438750
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438750
 - E01:
+    border_color: B
+    frame: m15
     name: 'Archenemy: Nicol Bolas'
     number: 71
     rarity: mythic_rare
     release_date: 2017-06-16
-    set_number: 71
     wizards_id: 430610
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430610
 - CM1:
     booster_exclude: true
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology
     number: 71
     rarity: mythic_rare
     release_date: 2017-06-09
-    set_number: 71
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54788
     mtgo_id: 54787
     name: Commander 2014
@@ -107,16 +120,19 @@ printings:
     wizards_id: 389647
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389647
 - C13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51045
     mtgo_id: 51044
     name: Commander 2013
     number: 164
     rarity: mythic_rare
     release_date: 2013-11-01
-    set_number: 164
     wizards_id: 376467
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376467
 - ZEN:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 34675
     mtgo_id: 34674
     name: Zendikar
@@ -125,12 +141,13 @@ printings:
     wizards_id: 192222
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=192222
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 42
     rarity: mythic_rare
     release_date: 1990-04-15
-    set_number: 42
 rules: "Trample\r\n\r\n*Landfall* &mdash; Whenever a land enters the battlefield under\
   \ your control, you may create a 4/4 green Beast creature token."
 slug: rampaging-baloths
@@ -139,11 +156,15 @@ subtype_tokens:
 - Beast
 tags: card-color-green card-color-green-cost-6 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Beast 4/4 G
   power_toughness: 4/4
   rules: ''
   subtype: Beast
+  tla: C21
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/rampaging-baloths/

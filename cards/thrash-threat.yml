@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -42,11 +42,12 @@ mana_cost_converted: 6
 name: Thrash / Threat
 printings:
 - RNA:
+    border_color: B
+    frame: m15
     name: Ravnica Allegiance
     number: 229
     rarity: rare
     release_date: 2019-01-25
-    set_number: 229
     wizards_id: 457373
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=457373
 rules: "<h4>Thrash</h4>\r\n\r\nTarget creature you control deals damage equal to its\
@@ -65,11 +66,15 @@ synonyms:
 - Threat and Thrash
 tags: card-color-gold card-color-gold-cost-6 card-color-green card-color-red card-type-instant
 tokens:
-- colors: RG
+- cannonical_type: Creature
+  colors: RG
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 4/4 RG Token Creature Beast
   power_toughness: 4/4
   rules: Trample
   subtype: Beast
+  tla: RNA
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/thrash-threat/

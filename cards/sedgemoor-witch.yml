@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counterspell
@@ -48,13 +48,16 @@ name: Sedgemoor Witch
 power_toughness: 3/2
 printings:
 - STX:
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 86
     rarity: rare
     release_date: 2021-04-23
-    set_number: 86
     variations:
     - identifier: '306'
+    wizards_id: 513563
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=513563
 rules: "Menace\r\n\r\nWard&mdash;Pay 3 life. *(Whenever this creature becomes the\
   \ target of a spell or ability an opponent controls, counter it unless that player\
   \ pays 3 life.)*\r\n\r\n*Magecraft* &mdash; Whenever you cast or copy an instant\
@@ -68,12 +71,16 @@ subtype_tokens:
 - Warlock
 tags: card-color-black card-color-black-cost-3 card-type-creature
 tokens:
-- colors: BG
+- cannonical_type: Creature
+  colors: BG
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Pest 1/1 BG
   power_toughness: 1/1
   rules: When this dies *(is put into the graveyard from the battlefield, tokens are
     put into the graveyard before they cease to exist.)*, you gain 1 life.
   subtype: Pest
+  tla: STX
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/sedgemoor-witch/

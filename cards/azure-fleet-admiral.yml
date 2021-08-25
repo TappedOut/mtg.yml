@@ -25,7 +25,7 @@ formats:
 - Pauper EDH
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 3U
 mana_cost_converted: 4
@@ -33,11 +33,14 @@ name: Azure Fleet Admiral
 power_toughness: 3/3
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 58
     rarity: common
     release_date: 2020-11-20
-    set_number: 58
+    wizards_id: 497578
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497578
 rules: "When Azure Fleet Admiral enters the battlefield, you become the monarch.\r\
   \n\r\nAzure Fleet Admiral can't be blocked by creatures controlled by players that\
   \ have the monarch emblem."
@@ -48,12 +51,15 @@ subtype_tokens:
 - Pirate
 tags: card-color-blue card-color-blue-cost-4 card-type-creature
 tokens:
-- colors: C
-  name: C Emblem Monarch
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Monarch Emblem
   power_toughness: null
   rules: "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
     \ deals combat damage to you, its controller becomes the monarch."
-  subtype: Monarch
+  tla: CMR
   type: Emblem
 type: Creature
 url: http://tappedout.net/mtg-card/azure-fleet-admiral/

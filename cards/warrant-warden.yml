@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Flying
@@ -44,11 +44,12 @@ mana_cost_converted: 7
 name: Warrant / Warden
 printings:
 - RNA:
+    border_color: B
+    frame: m15
     name: Ravnica Allegiance
     number: 230
     rarity: rare
     release_date: 2019-01-25
-    set_number: 230
 rules: "<h4>Warrant</h4>\r\n\r\nPut target attacking or blocking creature on top of\
   \ its owner's library.\r\n\r\n-----\r\n\r\n<h3>Sorcery</h3>\r\n\r\n<h4>Warden</h4>\r\
   \n\r\nCreate a 4/4 white and blue Sphinx creature token with flying and vigilance."
@@ -65,11 +66,15 @@ synonyms:
 - Warden to Warrant
 tags: card-color-blue card-color-gold card-color-gold-cost-7 card-color-white card-type-instant
 tokens:
-- colors: WU
+- cannonical_type: Creature
+  colors: WU
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 4/4 WU Token Creature Sphinx
   power_toughness: 4/4
   rules: Flying, vigilance
   subtype: Sphinx
+  tla: RNA
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/warrant-warden/

@@ -22,7 +22,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -35,20 +35,22 @@ name: Warchief Giant
 power_toughness: 5/3
 printings:
 - CM2:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology 2018
     number: 127
     rarity: uncommon
     release_date: 2018-06-08
-    set_number: 127
     wizards_id: 446863
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446863
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 31
     rarity: uncommon
     release_date: 2015-11-13
-    set_number: 31
     wizards_id: 405448
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405448
 rules: "Haste\r\n\r\nMyriad *(Whenever this creature attacks, for each opponent other\
@@ -62,11 +64,14 @@ subtype_tokens:
 - Warrior
 tags: card-color-red card-color-red-cost-5 card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: C15
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/warchief-giant/

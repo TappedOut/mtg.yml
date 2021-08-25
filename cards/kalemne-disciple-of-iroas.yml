@@ -24,7 +24,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Double strike
@@ -37,20 +37,22 @@ name: Kalemne, Disciple of Iroas
 power_toughness: 3/3
 printings:
 - CM2:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology 2018
     number: 7
     rarity: mythic_rare
     release_date: 2018-06-08
-    set_number: 7
     wizards_id: 446743
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446743
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 45
     rarity: mythic_rare
     release_date: 2015-11-13
-    set_number: 45
     wizards_id: 405274
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405274
 rules: "Whenever you cast a creature spell with converted mana cost 5 or greater,\
@@ -64,11 +66,14 @@ subtype_tokens:
 tags: card-color-gold card-color-gold-cost-4 card-color-red card-color-white card-type-creature
   card-type-legendary
 tokens:
-- colors: null
-  name: Emblem Experience
+- cannonical_type: Emblem
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Experience Token
   power_toughness: null
   rules: '*(Place your experience counters here.)*'
-  subtype: Experience
+  tla: C15
   type: Emblem
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/kalemne-disciple-of-iroas/

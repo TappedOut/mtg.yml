@@ -23,7 +23,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Equip
@@ -35,19 +35,21 @@ mana_cost_converted: 5
 name: Scytheclaw
 printings:
 - ZNC:
+    border_color: B
+    frame: m15
     name: 'Zendikar Rising: Commander'
     number: 118
     rarity: rare
     release_date: 2020-09-25
-    set_number: 118
     wizards_id: 496056
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=496056
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 53
     rarity: rare
     release_date: 2015-11-13
-    set_number: 53
     wizards_id: 405368
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405368
 rules: "Living weapon *(When this Equipment enters the battlefield, create a 0/0 black\
@@ -60,11 +62,15 @@ subtype_tokens:
 - Equipment
 tags: card-color-colorless card-color-colorless-cost-5 card-type-artifact
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Phyrexian Germ 0/0 B
   power_toughness: 0/0
   rules: ''
   subtype: Phyrexian Germ
+  tla: ZNC
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/scytheclaw/

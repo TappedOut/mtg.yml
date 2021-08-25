@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Haste
@@ -40,9 +40,12 @@ mana_cost_converted: 4
 name: Elemental Appeal
 printings:
 - ZEN:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 34673
     mtgo_id: 34672
     name: Zendikar
+    number: 123
     rarity: rare
     release_date: 2009-10-02
     wizards_id: 192221
@@ -54,11 +57,15 @@ rules: "Kicker {{5}} (You may pay an additional {{5}} as you cast this spell.)\r
 slug: elemental-appeal
 tags: card-color-red card-color-red-cost-4 card-type-sorcery
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 7/1 R Token Creature Elemental
   power_toughness: 7/1
   rules: Trample, haste
   subtype: Elemental
+  tla: ZEN
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/elemental-appeal/

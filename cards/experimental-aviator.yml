@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -48,7 +48,6 @@ printings:
     number: 46
     rarity: uncommon
     release_date: 2016-09-30
-    set_number: 46
     wizards_id: 417619
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417619
 rules: "Flying \r\n  \r\nWhen this enters the battlefield, create two 1/1 colourless\
@@ -60,11 +59,15 @@ subtype_tokens:
 - Artificer
 tags: card-color-blue card-color-blue-cost-5 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Thopter 1/1 C
   power_toughness: 1/1
   rules: Flying
   subtype: Thopter
+  tla: KLD
   type: Token Artifact Creature
 type: Creature
 url: http://tappedout.net/mtg-card/experimental-aviator/

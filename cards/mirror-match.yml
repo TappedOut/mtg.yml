@@ -25,7 +25,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Exile
@@ -35,11 +35,12 @@ mana_cost_converted: 6
 name: Mirror Match
 printings:
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 13
     rarity: uncommon
     release_date: 2015-11-13
-    set_number: 13
     wizards_id: 405301
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405301
 rules: "Cast Mirror Match only during the declare blockers step.\r\n\r\nFor each creature\
@@ -49,11 +50,14 @@ rules: "Cast Mirror Match only during the declare blockers step.\r\n\r\nFor each
 slug: mirror-match
 tags: card-color-blue card-color-blue-cost-6 card-type-instant
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: C15
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/mirror-match/

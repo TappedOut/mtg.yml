@@ -25,7 +25,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Vigilance
@@ -36,11 +36,12 @@ mana_cost_converted: 5
 name: Righteous Confluence
 printings:
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 7
     rarity: rare
     release_date: 2015-11-13
-    set_number: 7
     wizards_id: 405358
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405358
 rules: "Choose three. You may choose the same mode more than once.\r\n\r\n- Put a\
@@ -49,11 +50,15 @@ rules: "Choose three. You may choose the same mode more than once.\r\n\r\n- Put 
 slug: righteous-confluence
 tags: card-color-white card-color-white-cost-5 card-type-sorcery
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Knight 2/2 W w/ Vigilance
   power_toughness: 2/2
   rules: Vigilance
   subtype: Knight
+  tla: C15
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/righteous-confluence/

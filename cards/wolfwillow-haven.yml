@@ -41,7 +41,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Enchant
@@ -54,15 +54,18 @@ name: Wolfwillow Haven
 printings:
 - THB:
     booster_exclude: true
+    border_color: B
+    frame: m15
     mtgo_foil_id: 79535
     mtgo_id: 79534
     name: Theros Beyond Death
     number: 205
     rarity: uncommon
     release_date: 2020-01-24
-    set_number: 205
     variations:
     - identifier: '357'
+    wizards_id: 476456
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476456
 rules: "Enchant land\r\n\r\nWhenever enchanted land is tapped for mana, its controller\
   \ gains an additional [[symbol:G]].\r\n\r\n[[symbol:4]][[symbol:G]], Sacrifice Wolfwillow\
   \ Haven: Create a 2/2 green Wolf creature token. Activate this ability only during\
@@ -73,11 +76,15 @@ subtype_tokens:
 - Aura
 tags: card-color-green card-color-green-cost-2 card-type-enchantment
 tokens:
-- colors: G
-  name: 2/2 G Token Creature Wolf
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Wolf 2/2 G
   power_toughness: 2/2
   rules: ''
   subtype: Wolf
+  tla: THB
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/wolfwillow-haven/

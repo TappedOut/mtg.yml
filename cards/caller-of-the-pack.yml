@@ -23,7 +23,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Hexproof
@@ -36,18 +36,20 @@ name: Caller of the Pack
 power_toughness: 8/6
 printings:
 - CM1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology
     number: 94
     rarity: common
     release_date: 2017-06-09
-    set_number: 94
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 34
     rarity: uncommon
     release_date: 2015-11-13
-    set_number: 34
     wizards_id: 405166
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405166
 rules: "Trample\r\n\r\nMyriad *(Whenever this creature attacks, for each opponent\
@@ -60,11 +62,14 @@ subtype_tokens:
 - Beast
 tags: card-color-green card-color-green-cost-7 card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: C15
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/caller-of-the-pack/

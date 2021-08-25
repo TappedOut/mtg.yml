@@ -23,7 +23,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -35,11 +35,12 @@ name: Broodbirth Viper
 power_toughness: 3/3
 printings:
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 10
     rarity: uncommon
     release_date: 2015-11-13
-    set_number: 10
     wizards_id: 405160
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405160
 rules: "Myriad *(Whenever this creature attacks, for each opponent other than defending\
@@ -53,11 +54,14 @@ subtype_tokens:
 - Snake
 tags: card-color-blue card-color-blue-cost-5 card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: C15
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/broodbirth-viper/

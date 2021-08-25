@@ -39,7 +39,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -50,13 +50,14 @@ mana_cost_converted: 6
 name: Ethereal Absolution
 printings:
 - RNA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71341
     mtgo_id: 71340
     name: Ravnica Allegiance
     number: 170
     rarity: rare
     release_date: 2019-01-25
-    set_number: 170
     wizards_id: 457314
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=457314
 rules: "Creatures you control get +1/+1.\r\n\r\nCreatures your opponents control get-1/-1.\r\
@@ -66,11 +67,15 @@ rules: "Creatures you control get +1/+1.\r\n\r\nCreatures your opponents control
 slug: ethereal-absolution
 tags: card-color-black card-color-gold card-color-gold-cost-6 card-color-white card-type-enchantment
 tokens:
-- colors: WB
+- cannonical_type: Creature
+  colors: WB
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 WB
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: RNA
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/ethereal-absolution/

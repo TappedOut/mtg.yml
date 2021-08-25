@@ -22,7 +22,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -32,18 +32,22 @@ name: Earl of Squirrel
 power_toughness: 4/4
 printings:
 - UN3:
+    border_color: S
+    frame: m15
     name: Unstable
+    number: 108
     rarity: rare
     release_date: 2017-12-08
     wizards_id: 439497
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439497
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: rare
     release_date: 1990-04-15
-    set_number: 1
 rules: "Squirrellink *(Damage dealt by this creature also causes you to create that\
   \ many 1/1 green Squirrel creature tokens.)*\r\n\r\nCreature tokens you control\
   \ are Squirrels in addition to their other creature types.\r\n\r\nOther Squirrels\
@@ -55,11 +59,15 @@ subtype_tokens:
 - Advisor
 tags: card-color-green card-color-green-cost-6 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Squirrel 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Squirrel
+  tla: UN3
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/earl-of-squirrel/

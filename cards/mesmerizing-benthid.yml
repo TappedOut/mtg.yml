@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Hexproof
@@ -40,15 +40,18 @@ name: Mesmerizing Benthid
 power_toughness: 4/5
 printings:
 - RNA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71087
     mtgo_id: 71086
     name: Ravnica Allegiance
     number: 43
     rarity: mythic_rare
     release_date: 2019-01-25
-    set_number: 43
     variations:
     - identifier: Animated
+    wizards_id: 457187
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=457187
 rules: "When Mesmerizing Benthid enters the battlefield, create two 0/2 blue Illusion\
   \ creature tokens with \"Whenever this creature blocks a creature, that creature\
   \ doesn't untap during its controller's next untap step.\"\r\n\r\nMesmerizing Benthid\
@@ -59,12 +62,16 @@ subtype_tokens:
 - Octopus
 tags: card-color-blue card-color-blue-cost-5 card-type-creature
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/2 U Token Creature Illusion
   power_toughness: 0/2
   rules: Whenever this creature blocks a creature, that creature doesn't untap during
     its controller's next untap step.
   subtype: Illusion
+  tla: RNA
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/mesmerizing-benthid/

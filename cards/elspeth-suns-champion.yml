@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -43,23 +43,25 @@ mana_cost_converted: 6
 name: Elspeth, Sun's Champion
 printings:
 - DDO:
+    border_color: B
     foil: foil
     foil_only: true
+    frame: m15
     name: 'Duel Decks: Elspeth vs. Kiora'
     number: 1
     rarity: mythic_rare
     release_date: 2015-02-27
-    set_number: 1
     wizards_id: 394361
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394361
 - THS:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 50305
     mtgo_id: 50304
     name: Theros
     number: 9
     rarity: mythic_rare
     release_date: 2013-09-27
-    set_number: 9
     wizards_id: 373649
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373649
 rules: "[[symbol:loyalty-plus1]]: Create three 1/1 white Soldier creature tokens.\r\
@@ -72,17 +74,25 @@ subtype_tokens:
 - Elspeth
 tags: card-color-white card-color-white-cost-6 card-type-legendary card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Elspeth
   power_toughness: null
   rules: Creatures you control get +2/+2 and have flying.
   subtype: Elspeth
+  tla: DDO
   type: Emblem
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W
   power_toughness: 1/1
   rules: ''
   subtype: Soldier
+  tla: DDO
   type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/elspeth-suns-champion/

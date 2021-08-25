@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Lifelink
@@ -41,13 +41,14 @@ name: Elenda, the Dusk Rose
 power_toughness: 1/1
 printings:
 - RIX:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66768
     mtgo_id: 66767
     name: Rivals of Ixalan
     number: 157
     rarity: mythic_rare
     release_date: 2018-01-19
-    set_number: 157
     wizards_id: 439814
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439814
 rules: "Lifelink \r\n\r\nWhenever another creature dies, put a +1/+1 counter on Elenda,\
@@ -61,12 +62,16 @@ subtype_tokens:
 tags: card-color-black card-color-gold card-color-gold-cost-4 card-color-white card-type-creature
   card-type-legendary
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Vampire
   power_toughness: 1/1
   rules: Lifelink *(Damage dealt by this creature also causes you to gain that much
     life.)*
   subtype: Vampire
+  tla: RIX
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/elenda-the-dusk-rose/

@@ -25,7 +25,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -35,20 +35,22 @@ name: Dread Summons
 printings:
 - CM1:
     booster_exclude: true
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology
     number: 56
     rarity: common
     release_date: 2017-06-09
-    set_number: 56
     wizards_id: 430275
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430275
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 20
     rarity: rare
     release_date: 2015-11-13
-    set_number: 20
     wizards_id: 405205
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405205
 rules: Each player puts the top X cards of his or her library into his or her graveyard.
@@ -57,11 +59,15 @@ rules: Each player puts the top X cards of his or her library into his or her gr
 slug: dread-summons
 tags: card-color-black card-color-black-cost-2 card-type-sorcery
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: C15
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/dread-summons/

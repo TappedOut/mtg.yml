@@ -42,7 +42,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -54,20 +54,24 @@ mana_cost_converted: 4
 name: Domri, Chaos Bringer
 printings:
 - RNAMED:
+    border_color: B
     cannonical: false
+    frame: m15
     name: 'Ravnica Allegiance: Mythic Edition'
     number: 74
     rarity: mythic_rare
     release_date: 2019-01-26
-    set_number: 74
 - RNA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71333
     mtgo_id: 71332
     name: Ravnica Allegiance
     number: 166
     rarity: mythic_rare
     release_date: 2019-01-25
-    set_number: 166
+    wizards_id: 457310
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=457310
 rules: "[[symbol:loyalty-plus1]]: Gain [[symbol:R]] or [[symbol:G]]. If that mana\
   \ is spent on a creature spell, it gains riot.\r\n\r\n[[symbol:loyalty-minus3]]:\
   \ Look at the top four cards of your library. You may reveal up to two creature\
@@ -82,18 +86,26 @@ subtype_tokens:
 tags: card-color-gold card-color-gold-cost-4 card-color-green card-color-red card-type-legendary
   card-type-planeswalker
 tokens:
-- colors: RG
+- cannonical_type: Creature
+  colors: RG
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 4/4 RG Token Creature Beast
   power_toughness: 4/4
   rules: Trample
   subtype: Beast
+  tla: RNA
   type: Token Creature
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Domri
   power_toughness: null
   rules: At the beginning of each end step, create a 4/4 red and green Beast creature
     token with trample.
   subtype: Domri
+  tla: RNA
   type: Emblem
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/domri-chaos-bringer/

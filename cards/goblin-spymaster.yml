@@ -24,7 +24,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - First strike
@@ -35,11 +35,12 @@ name: Goblin Spymaster
 power_toughness: 2/1
 printings:
 - C16:
+    border_color: B
+    frame: m15
     name: Commander 2016
     number: 19
     rarity: rare
     release_date: 2016-11-11
-    set_number: 19
     wizards_id: 420636
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420636
 rules: "First Strike\r\n\r\nAt the beginning of each opponent's end step, that player\
@@ -52,11 +53,15 @@ subtype_tokens:
 - Rogue
 tags: card-color-red card-color-red-cost-3 card-type-creature
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R w/ Creatures Attack Each Combat
   power_toughness: 1/1
   rules: Creatures you control attack each combat if able.
   subtype: Goblin
+  tla: C16
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/goblin-spymaster/
