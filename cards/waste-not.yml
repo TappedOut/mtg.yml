@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -44,26 +44,30 @@ mana_produced: B
 name: Waste Not
 printings:
 - ARENA:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Arena Cards
     rarity: rare
     release_date: 2019-09-26
 - C16:
+    border_color: B
+    frame: m15
     name: Commander 2016
     number: 117
     rarity: rare
     release_date: 2016-11-11
-    set_number: 117
     wizards_id: 420734
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420734
 - M15:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 53495
     mtgo_id: 53494
     name: Magic 2015
     number: 122
     rarity: rare
     release_date: 2014-07-18
-    set_number: 122
     wizards_id: 383436
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383436
 rules: "Whenever an opponent discards a creature card, create a 2/2 black Zombie creature\
@@ -73,11 +77,15 @@ rules: "Whenever an opponent discards a creature card, create a 2/2 black Zombie
 slug: waste-not
 tags: card-color-black card-color-black-cost-2 card-mana-black card-type-enchantment
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: C16
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/waste-not/

@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: MMA
+cannonical_set: UMA
 cannonical_type: Enchantment
 companions:
 - Kaheera, the Orphanguard
@@ -36,7 +36,8 @@ mana_cost_converted: 3
 name: Bridge from Below
 printings:
 - UMA:
-    cannonical: false
+    border_color: B
+    frame: m15
     mtgo_foil_id: 70248
     mtgo_id: 70247
     name: Ultimate Masters
@@ -44,7 +45,11 @@ printings:
     rarity: rare
     release_date: 2018-12-07
     set_number: 87
+    wizards_id: 456683
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456683
 - MMA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 48875
     mtgo_id: 48874
     name: Modern Masters
@@ -55,6 +60,8 @@ printings:
     wizards_id: 370353
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370353
 - FUT:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 26935
     mtgo_id: 26934
     name: Future Sight
@@ -69,11 +76,15 @@ rules: "Whenever a nontoken creature is put into your graveyard from the battlef
 slug: bridge-from-below
 tags: card-color-black card-color-black-cost-3 card-type-enchantment
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: UMA
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/bridge-from-below/
