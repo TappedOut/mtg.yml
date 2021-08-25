@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -46,11 +46,12 @@ name: Galazeth Prismari
 power_toughness: 3/4
 printings:
 - STX:
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 189
     rarity: mythic_rare
     release_date: 2021-04-23
-    set_number: 189
     variations:
     - identifier: '281'
     wizards_id: 513681
@@ -66,11 +67,15 @@ subtype_tokens:
 tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-red card-type-creature
   card-type-legendary
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: STX
   type: Token Artifact
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/galazeth-prismari/

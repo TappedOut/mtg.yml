@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Landfall
@@ -42,19 +42,23 @@ mana_cost_converted: 6
 name: Primeval Bounty
 printings:
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 421
     rarity: mythic_rare
     release_date: 2020-07-17
-    set_number: 421
+    wizards_id: 489404
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489404
 - M14:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 49474
     mtgo_id: 49473
     name: Magic 2014
     number: 190
     rarity: mythic_rare
     release_date: 2013-07-19
-    set_number: 190
     wizards_id: 370656
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370656
 rules: "Whenever you cast a creature spell, create a 3/3 green Beast creature token.\r\
@@ -64,11 +68,15 @@ rules: "Whenever you cast a creature spell, create a 3/3 green Beast creature to
 slug: primeval-bounty
 tags: card-color-green card-color-green-cost-6 card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Beast 3/3 G
   power_toughness: 3/3
   rules: ''
   subtype: Beast
+  tla: JMP
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/primeval-bounty/

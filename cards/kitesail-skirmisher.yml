@@ -32,7 +32,7 @@ formats:
 - Pauper EDH
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -48,11 +48,14 @@ name: Kitesail Skirmisher
 power_toughness: 3/1
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 77
     rarity: common
     release_date: 2020-11-20
-    set_number: 77
+    wizards_id: 497597
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497597
 rules: "Flying\r\n\r\nWhenever this attacks, another target creature attacking the\
   \ same player or planeswalker gains flying until end of turn.\r\n\r\nEncore [[symbol:4]][[symbol:U]]\
   \ *([[symbol:4]][[symbol:U]], Exile this card from your graveyard: For each opponent,\
@@ -66,11 +69,14 @@ subtype_tokens:
 - Pirate
 tags: card-color-blue card-color-blue-cost-4 card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: CMR
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/kitesail-skirmisher/

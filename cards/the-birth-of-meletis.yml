@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Defender
@@ -45,13 +45,16 @@ mana_cost_converted: 2
 name: The Birth of Meletis
 printings:
 - THB:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 79135
     mtgo_id: 79134
     name: Theros Beyond Death
     number: 5
     rarity: uncommon
     release_date: 2020-01-24
-    set_number: 5
+    wizards_id: 476256
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476256
 rules: "[[symbol:saga-1]] &mdash; Search your library for a basic Plains card, reveal\
   \ it, put it into your hand, then shuffle your library.\r\n\r\n[[symbol:saga-2]]\
   \ &mdash; Create a 0/4 colourless Wall artifact creature token with defender.\r\n\
@@ -62,11 +65,15 @@ subtype_tokens:
 - Saga
 tags: card-color-white card-color-white-cost-2 card-type-enchantment
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/4 C Token Creature Wall
   power_toughness: 0/4
   rules: Defender
   subtype: Wall
+  tla: THB
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/the-birth-of-meletis/

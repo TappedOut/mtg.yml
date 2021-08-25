@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -45,13 +45,14 @@ name: Whirler Virtuoso
 power_toughness: 2/3
 printings:
 - KLD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61774
     mtgo_id: 61773
     name: Kaladesh
     number: 190
     rarity: uncommon
     release_date: 2016-09-30
-    set_number: 190
     wizards_id: 417763
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417763
 rules: "When Whirler Virtuoso enters the battlefield, you get [[symbol:energy]][[symbol:energy]][[symbol:energy]]\
@@ -64,11 +65,15 @@ subtype_tokens:
 - Artificer
 tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-red card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Thopter 1/1 C
   power_toughness: 1/1
   rules: Flying
   subtype: Thopter
+  tla: KLD
   type: Token Artifact Creature
 type: Creature
 url: http://tappedout.net/mtg-card/whirler-virtuoso/

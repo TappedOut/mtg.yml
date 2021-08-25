@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Lifelink
@@ -46,22 +46,29 @@ mana_cost_converted: 3
 name: Sworn Companions
 printings:
 - GRN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 69428
     mtgo_id: 69427
     name: Guilds of Ravnica
     number: 27
     rarity: common
     release_date: 2018-10-05
-    set_number: 27
+    wizards_id: 452777
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=452777
 rules: Create two 1/1 white Soldier creature tokens with lifelink.
 slug: sworn-companions
 tags: card-color-white card-color-white-cost-3 card-type-sorcery
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W w/ Lifelink
   power_toughness: 1/1
   rules: Lifelink
   subtype: Soldier
+  tla: GRN
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/sworn-companions/

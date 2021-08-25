@@ -37,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Haste
@@ -48,11 +48,12 @@ mana_cost_converted: 8
 name: Awaken the Blood Avatar
 printings:
 - STX:
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 149
     rarity: mythic_rare
     release_date: 2021-04-23
-    set_number: 149
     variations:
     - identifier: '323'
 rules: "As an additional cost to cast this spell, you may sacrifice any number of\
@@ -63,11 +64,15 @@ rules: "As an additional cost to cast this spell, you may sacrifice any number o
 slug: awaken-the-blood-avatar
 tags: card-color-black card-color-gold card-color-gold-cost-8 card-color-red card-type-sorcery
 tokens:
-- colors: BR
+- cannonical_type: Creature
+  colors: BR
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Avatar 3/6 BR
   power_toughness: 3/6
   rules: "Haste\r\n\r\nWhenever this attacks, this deals 3 damage to each opponent."
   subtype: Avatar
+  tla: STX
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/awaken-the-blood-avatar/

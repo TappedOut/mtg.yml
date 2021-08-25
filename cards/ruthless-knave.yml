@@ -37,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -47,13 +47,14 @@ name: Ruthless Knave
 power_toughness: 3/2
 printings:
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65255
     mtgo_id: 65254
     name: Ixalan
     number: 119
     rarity: uncommon
     release_date: 2017-09-29
-    set_number: 119
     wizards_id: 435273
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435273
 rules: "[[symbol:2]][[symbol:B]], Sacrifice a creature: Create two colorless Treasure\
@@ -65,11 +66,15 @@ subtype_tokens:
 - Orc
 tags: card-color-black card-color-black-cost-3 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: XLN
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/ruthless-knave/

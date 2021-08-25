@@ -1,7 +1,7 @@
 activation_costs:
 - C
 canadian_hl_score: 0
-cannonical_set: PCA
+cannonical_set: HOP
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -28,20 +28,24 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 mana_cost_converted: 0
 name: Goldmeadow
 printings:
 - PCA:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Planechase Anthology
     number: 30
     rarity: common
     release_date: 2016-11-25
-    set_number: 30
     wizards_id: 423611
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423611
 - HOP:
+    border_color: B
+    frame: modern
     name: Planechase
     rarity: common
     release_date: 2009-09-04
@@ -56,11 +60,15 @@ subtype_tokens:
 - Lorwyn
 tags: card-color-colorless card-color-colorless-cost-0 card-type-plane
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 W Token Creature Goat
   power_toughness: 0/1
   rules: ''
   subtype: Goat
+  tla: HOP
   type: Token Creature
 type: Plane
 url: http://tappedout.net/mtg-card/goldmeadow/

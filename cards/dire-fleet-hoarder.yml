@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -45,19 +45,23 @@ name: Dire Fleet Hoarder
 power_toughness: 2/1
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 84
     rarity: common
     release_date: 2020-08-07
-    set_number: 84
+    wizards_id: 489757
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489757
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65221
     mtgo_id: 65220
     name: Ixalan
     number: 102
     rarity: common
     release_date: 2017-09-29
-    set_number: 102
     wizards_id: 435256
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435256
 rules: 'When Dire Fleet Hoarder dies *(is put into the graveyard from the battlefield)*,
@@ -73,11 +77,15 @@ synonyms:
 tags: card-color-black card-color-black-cost-2 card-mana-black card-mana-blue card-mana-green
   card-mana-red card-mana-white card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: 2XM
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/dire-fleet-hoarder/

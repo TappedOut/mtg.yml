@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -46,14 +46,17 @@ name: Verazol, the Split Current
 power_toughness: 0/0
 printings:
 - ZNR:
+    border_color: B
+    frame: m15
     name: Zendikar Rising
     number: 239
     rarity: rare
     release_date: 2020-09-25
-    set_number: 239
     variations:
     - identifier: '370'
     - identifier: PromoPack
+    wizards_id: 491890
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=491890
 rules: "Verazol, the Split Current enters the battlefield with a +1/+1 counter on\
   \ it for each mana spent to cast it.\r\n\r\nWhenever you cast a kicked spell, you\
   \ may remove two +1/+1 counters from Verazol. If you do, copy that spell. You may\
@@ -65,11 +68,14 @@ subtype_tokens:
 tags: card-color-blue card-color-gold card-color-gold-cost-2 card-color-green card-type-creature
   card-type-legendary
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: ZNR
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/verazol-the-split-current/

@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Sacrifice
@@ -45,13 +45,14 @@ mana_produced: C
 name: Adverse Conditions
 printings:
 - BFZ:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 58356
     mtgo_id: 58355
     name: Battle for Zendikar
     number: 54
     rarity: uncommon
     release_date: 2015-10-02
-    set_number: 54
     wizards_id: 401803
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401803
 rules: "Devoid *(This card has no color.)*\r\n\r\nTap up to two target creatures.\
@@ -61,11 +62,15 @@ rules: "Devoid *(This card has no color.)*\r\n\r\nTap up to two target creatures
 slug: adverse-conditions
 tags: card-color-blue card-color-blue-cost-4 card-mana-colorless-sym card-type-instant
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 C Token Creature Eldrazi Scion
   power_toughness: 1/1
   rules: 'Sacrifice this creature: Gain [[symbol:C]].'
   subtype: Eldrazi Scion
+  tla: BFZ
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/adverse-conditions/

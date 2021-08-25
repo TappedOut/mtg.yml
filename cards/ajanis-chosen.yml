@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Attach
@@ -41,35 +41,41 @@ name: Ajani's Chosen
 power_toughness: 3/3
 printings:
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 82
     rarity: rare
     release_date: 2020-07-17
-    set_number: 82
+    wizards_id: 489566
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489566
 - C18:
+    border_color: B
+    frame: m15
     name: Commander 2018
     number: 61
     rarity: rare
     release_date: 2018-08-10
-    set_number: 61
     wizards_id: 451016
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451016
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 57
     rarity: rare
     release_date: 2015-11-13
-    set_number: 57
     wizards_id: 405121
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405121
 - M14:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 49540
     mtgo_id: 49539
     name: Magic 2014
     number: 2
     rarity: rare
     release_date: 2013-07-19
-    set_number: 2
     wizards_id: 370750
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370750
 rules: Whenever an enchantment enters the battlefield under your control, create a
@@ -82,11 +88,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 W Token Creature Cat
   power_toughness: 2/2
   rules: ''
   subtype: Cat
+  tla: JMP
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/ajanis-chosen/

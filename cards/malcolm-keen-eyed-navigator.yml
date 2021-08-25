@@ -24,7 +24,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -38,13 +38,16 @@ name: Malcolm, Keen-Eyed Navigator
 power_toughness: 2/2
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 79
     rarity: uncommon
     release_date: 2020-11-20
-    set_number: 79
     variations:
     - identifier: '560'
+    wizards_id: 497599
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497599
 rules: "Flying\r\n\r\nWhenever one or more Pirates you control deal damage to your\
   \ opponents, you create a Treasure token for each opponent dealt damage. *(It's\
   \ an artifact with \"[[symbol:T]], sacrifice this artifact: Gain one mana of any\
@@ -59,11 +62,15 @@ synonyms:
 tags: card-color-blue card-color-blue-cost-3 card-mana-black card-mana-blue card-mana-green
   card-mana-red card-mana-white card-type-creature card-type-legendary
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: CMR
   type: Token Artifact
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/malcolm-keen-eyed-navigator/

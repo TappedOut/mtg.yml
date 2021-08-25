@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -44,13 +44,14 @@ mana_cost_converted: 1
 name: Animation Module
 printings:
 - KLD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 62056
     mtgo_id: 62055
     name: Kaladesh
     number: 194
     rarity: rare
     release_date: 2016-09-30
-    set_number: 194
     wizards_id: 417767
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417767
 rules: "Whenever one or more +1/+1 counters are placed on a permanent you control,\
@@ -60,11 +61,15 @@ rules: "Whenever one or more +1/+1 counters are placed on a permanent you contro
 slug: animation-module
 tags: card-color-colorless card-color-colorless-cost-1 card-type-artifact
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Servo 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Servo
+  tla: KLD
   type: Token Artifact Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/animation-module/

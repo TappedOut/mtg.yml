@@ -25,7 +25,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 2RWB
 mana_cost_converted: 5
@@ -33,12 +33,13 @@ name: Negan, The Cold-Blooded
 power_toughness: 4/3
 printings:
 - SLD:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Secret Lair
     number: 147
     rarity: mythic_rare
     release_date: 2019-12-09
-    set_number: 147
     wizards_id: 497509
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497509
 rules: "When Negan enters the battlefield, you ant target opponent each secretly choose\
@@ -53,11 +54,15 @@ subtype_tokens:
 tags: card-color-black card-color-gold card-color-gold-cost-5 card-color-red card-color-white
   card-type-creature card-type-legendary
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: SLD
   type: Token Artifact
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/negan-the-cold-blooded/

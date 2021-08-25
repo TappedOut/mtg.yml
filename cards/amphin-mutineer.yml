@@ -30,7 +30,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -45,13 +45,16 @@ name: Amphin Mutineer
 power_toughness: 3/3
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 55
     rarity: rare
     release_date: 2020-11-20
-    set_number: 55
     variations:
     - identifier: '629'
+    wizards_id: 497575
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497575
 rules: "When Amphin Mutineer enters the battlefield, exile up to one target non-Salamander\
   \ creature. That creature's controller creates a 4/3 ble Salamander Warrior creature\
   \ token.\r\n\r\nEncore [[symbol:4]][[symbol:U]][[symbol:U]] *([[symbol:4]][[symbol:U]][[symbol:U]].\
@@ -65,11 +68,14 @@ subtype_tokens:
 - Pirate
 tags: card-color-blue card-color-blue-cost-4 card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: CMR
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/amphin-mutineer/

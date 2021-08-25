@@ -25,7 +25,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -34,11 +34,12 @@ mana_cost_converted: 9
 name: Profane Transfusion
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 145
     rarity: mythic_rare
     release_date: 2020-11-20
-    set_number: 145
     variations:
     - identifier: '653'
     wizards_id: 497665
@@ -48,11 +49,15 @@ rules: Two target players exchange life totals. You create an X/X colorless Horr
 slug: profane-transfusion
 tags: card-color-black card-color-black-cost-9 card-type-sorcery
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* C Token Artifact Creature Horror'
   power_toughness: '*/*'
   rules: ''
   subtype: Horror
+  tla: CMR
   type: Token Artifact Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/profane-transfusion/

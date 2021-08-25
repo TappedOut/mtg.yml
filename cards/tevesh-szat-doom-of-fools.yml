@@ -31,7 +31,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -43,13 +43,16 @@ mana_cost_converted: 5
 name: Tevesh Szat, Doom of Fools
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 153
     rarity: mythic_rare
     release_date: 2020-11-20
-    set_number: 153
     variations:
     - identifier: '512'
+    wizards_id: 497673
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497673
 rules: "[[symbol:loyalty-plus2]]: Create two 0/1 black Thrull creature tokens.\r\n\
   \r\n[[symbol:loyalty-plus1]]: You may sacrifice another creature or planeswalker.\
   \ If you do, draw two cards, then draw another card if the sacrificed permanent\
@@ -63,11 +66,15 @@ subtype_tokens:
 - Szat
 tags: card-color-black card-color-black-cost-5 card-type-legendary card-type-planeswalker
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 B Token Creature Thrull
   power_toughness: 0/1
   rules: ''
   subtype: Thrull
+  tla: CMR
   type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/tevesh-szat-doom-of-fools/

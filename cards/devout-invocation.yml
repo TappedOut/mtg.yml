@@ -30,20 +30,21 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 mana_cost: 6W
 mana_cost_converted: 7
 name: Devout Invocation
 printings:
 - M14:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 49418
     mtgo_id: 49417
     name: Magic 2014
     number: 16
     rarity: mythic_rare
     release_date: 2013-07-19
-    set_number: 16
     wizards_id: 370726
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370726
 rules: Tap any number of untapped creatures you control. Put a 4/4 white Angel creature
@@ -51,11 +52,15 @@ rules: Tap any number of untapped creatures you control. Put a 4/4 white Angel c
 slug: devout-invocation
 tags: card-color-white card-color-white-cost-7 card-type-sorcery
 tokens:
-- colors: W
-  name: 4/4 W Token Creature Angel
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Angel 4/4 W
   power_toughness: 4/4
   rules: Flying
   subtype: Angel
+  tla: M14
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/devout-invocation/

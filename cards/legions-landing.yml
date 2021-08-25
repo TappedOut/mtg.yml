@@ -34,7 +34,7 @@ formats:
 - Vintage
 has_activated_abilities: false
 is_front: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Lifelink
@@ -45,36 +45,42 @@ mana_cost_converted: 1
 name: Legion's Landing
 printings:
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65055
     mtgo_id: 65054
     name: Ixalan
     number: 22
     rarity: rare
     release_date: 2017-09-29
-    set_number: 22
     variations:
     - identifier: Animated
     wizards_id: 435173
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435173
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: rare
     release_date: 1990-04-15
-    set_number: 1
 rules: "When Legion's Landing enters the battlefield, create a 1/1 white Vampire creature\
   \ token with lifelink. \r\n\r\nWhen you attack with three or more creatures, transform\
   \ Legion's Landing."
 slug: legions-landing
 tags: card-color-white card-color-white-cost-1 card-type-enchantment card-type-legendary
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Vampire
   power_toughness: 1/1
   rules: Lifelink *(Damage dealt by this creature also causes you to gain that much
     life.)*
   subtype: Vampire
+  tla: XLN
   type: Token Creature
 type: Legendary Enchantment
 url: http://tappedout.net/mtg-card/legions-landing/

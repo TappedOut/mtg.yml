@@ -38,7 +38,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tap/Untap
@@ -47,13 +47,14 @@ mana_cost_converted: 4
 name: Dovin Baan
 printings:
 - KLD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61576
     mtgo_id: 61575
     name: Kaladesh
     number: 179
     rarity: mythic_rare
     release_date: 2016-09-30
-    set_number: 179
     wizards_id: 417752
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417752
 rules: "[[loyalty-plus1]]: Until your next turn, up to one target creature gets -3/-0\
@@ -66,11 +67,15 @@ subtype_tokens:
 - Dovin
 tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-white card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Dovin
   power_toughness: null
   rules: Your opponents can't untap more than two permanents during their untap steps.
   subtype: Dovin
+  tla: KLD
   type: Emblem
 type: Planeswalker
 url: http://tappedout.net/mtg-card/dovin-baan/

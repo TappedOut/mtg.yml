@@ -26,7 +26,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Equip
@@ -38,13 +38,16 @@ mana_cost_converted: 2
 name: Seraphic Greatsword
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 45
     rarity: mythic_rare
     release_date: 2020-11-20
-    set_number: 45
     variations:
     - identifier: '624'
+    wizards_id: 497565
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497565
 rules: "Equipped creature gets +2/+2.\r\n\r\nWhenever equipped creature attacks the\
   \ player with the most life of tied for most life, create a 4/4 white Angel creature\
   \ token with flying that's tapped and attacking that player.\r\n\r\nEquip [[symbol:4]]"
@@ -54,11 +57,15 @@ subtype_tokens:
 - Equipment
 tags: card-color-white card-color-white-cost-2 card-type-artifact
 tokens:
-- colors: W
-  name: 4/4 W Token Creature Angel
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Angel 4/4 W
   power_toughness: 4/4
   rules: Flying
   subtype: Angel
+  tla: CMR
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/seraphic-greatsword/

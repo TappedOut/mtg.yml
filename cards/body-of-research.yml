@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Counters
@@ -46,23 +46,30 @@ mana_cost_converted: 6
 name: Body of Research
 printings:
 - STX:
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 168
     rarity: mythic_rare
     release_date: 2021-04-23
-    set_number: 168
     variations:
     - identifier: '336'
+    wizards_id: 513660
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=513660
 rules: Create a 0/0 green and blue Fractal creature token. Put X +1/+1 counters on
   it, where X is the number of cards in your library.
 slug: body-of-research
 tags: card-color-blue card-color-gold card-color-gold-cost-6 card-color-green card-type-sorcery
 tokens:
-- colors: GU
+- cannonical_type: Creature
+  colors: GU
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Fractal 0/0 GU
   power_toughness: 0/0
   rules: ''
   subtype: Fractal
+  tla: STX
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/body-of-research/

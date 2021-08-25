@@ -37,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Lifelink
@@ -47,13 +47,14 @@ mana_cost_converted: 2
 name: Dawn of Hope
 printings:
 - GRN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 69390
     mtgo_id: 69389
     name: Guilds of Ravnica
     number: 8
     rarity: rare
     release_date: 2018-10-05
-    set_number: 8
     variations:
     - identifier: Animated
     - identifier: PromoPack
@@ -64,11 +65,15 @@ rules: "Whenever you gain life, you may pay [[symbol:2]]. If you do, draw a card
 slug: dawn-of-hope
 tags: card-color-white card-color-white-cost-2 card-type-enchantment
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W w/ Lifelink
   power_toughness: 1/1
   rules: Lifelink
   subtype: Soldier
+  tla: GRN
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/dawn-of-hope/

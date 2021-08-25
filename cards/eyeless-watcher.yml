@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -41,13 +41,14 @@ name: Eyeless Watcher
 power_toughness: 1/1
 printings:
 - BFZ:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 58456
     mtgo_id: 58455
     name: Battle for Zendikar
     number: 166
     rarity: common
     release_date: 2015-10-02
-    set_number: 166
     wizards_id: 401875
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401875
 rules: "Devoid *(This card has no color.)*\r\n\r\nWhen Eyeless Watcher enters the\
@@ -60,11 +61,15 @@ subtype_tokens:
 - Drone
 tags: card-color-green card-color-green-cost-4 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 C Token Creature Eldrazi Scion
   power_toughness: 1/1
   rules: 'Sacrifice this creature: Gain [[symbol:C]].'
   subtype: Eldrazi Scion
+  tla: BFZ
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/eyeless-watcher/

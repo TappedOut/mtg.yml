@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Equip
@@ -56,7 +56,6 @@ printings:
     number: 244
     rarity: common
     release_date: 2017-09-29
-    set_number: 244
     wizards_id: 435403
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435403
 rules: "Equipped creature gets +1/+0.\r\n\r\nWhenever equipped creature deals combat\
@@ -70,11 +69,15 @@ subtype_tokens:
 tags: card-color-colorless card-color-colorless-cost-1 card-mana-black card-mana-blue
   card-mana-green card-mana-red card-mana-white card-type-artifact
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: XLN
   type: Token Artifact
 type: Artifact
 url: http://tappedout.net/mtg-card/prying-blade/

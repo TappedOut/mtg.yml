@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 2//W
 mana_cost_converted: 3
@@ -44,13 +44,14 @@ name: Master Trinketeer
 power_toughness: 3/2
 printings:
 - KLD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61876
     mtgo_id: 61875
     name: Kaladesh
     number: 21
     rarity: rare
     release_date: 2016-09-30
-    set_number: 21
     wizards_id: 417594
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417594
 rules: "Servos and Thopters you control get +1/+1.\r\n\r\n[[symbol:3]][[symbol:W]]:\
@@ -62,11 +63,15 @@ subtype_tokens:
 - Artificer
 tags: card-color-white card-color-white-cost-3 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Servo 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Servo
+  tla: KLD
   type: Token Artifact Creature
 type: Creature
 url: http://tappedout.net/mtg-card/master-trinketeer/

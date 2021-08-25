@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Devotion
@@ -46,13 +46,14 @@ name: Reverent Hoplite
 power_toughness: 1/2
 printings:
 - THB:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 79191
     mtgo_id: 79190
     name: Theros Beyond Death
     number: 33
     rarity: uncommon
     release_date: 2020-01-24
-    set_number: 33
     wizards_id: 476284
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476284
 rules: When Reverent Hoplite enters the battlefield, create a number of 1/1 white
@@ -65,11 +66,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-5 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Human Soldier
   power_toughness: 1/1
   rules: ''
   subtype: Human Soldier
+  tla: THB
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/reverent-hoplite/

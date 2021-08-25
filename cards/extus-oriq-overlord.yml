@@ -36,7 +36,7 @@ formats:
 - Vintage
 has_activated_abilities: false
 is_front: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Double strike
@@ -47,11 +47,12 @@ name: Extus, Oriq Overlord
 power_toughness: 2/4
 printings:
 - STX:
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 149
     rarity: mythic_rare
     release_date: 2021-04-23
-    set_number: 149
     variations:
     - identifier: '323'
 rules: "Double strike\r\n\r\n*Magecraft* &mdash; Whenever you cast or copy an instant\
@@ -67,11 +68,15 @@ synonyms:
 tags: card-color-black card-color-gold card-color-gold-cost-4 card-color-red card-color-white
   card-type-creature card-type-legendary
 tokens:
-- colors: BR
+- cannonical_type: Creature
+  colors: BR
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Avatar 3/6 BR
   power_toughness: 3/6
   rules: "Haste\r\n\r\nWhenever this attacks, this deals 3 damage to each opponent."
   subtype: Avatar
+  tla: STX
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/extus-oriq-overlord/

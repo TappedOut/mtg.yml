@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -43,13 +43,14 @@ name: Akoum Stonewaker
 power_toughness: 2/1
 printings:
 - BFZ:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 58410
     mtgo_id: 58409
     name: Battle for Zendikar
     number: 140
     rarity: uncommon
     release_date: 2015-10-02
-    set_number: 140
     wizards_id: 401806
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401806
 rules: '*Landfall* &mdash; Whenever a land enters the battlefield under your control,
@@ -63,11 +64,15 @@ subtype_tokens:
 - Shaman
 tags: card-color-red card-color-red-cost-2 card-type-creature
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/1 R Token Creature Elemental
   power_toughness: 3/1
   rules: Trample, haste
   subtype: Elemental
+  tla: BFZ
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/akoum-stonewaker/

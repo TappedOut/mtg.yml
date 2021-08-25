@@ -31,20 +31,21 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 3R
 mana_cost_converted: 4
 name: Trove of Temptation
 printings:
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65359
     mtgo_id: 65358
     name: Ixalan
     number: 171
     rarity: uncommon
     release_date: 2017-09-29
-    set_number: 171
     wizards_id: 435325
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435325
 rules: "Each opponent must attack you or a planeswalker you control with at least\
@@ -54,11 +55,15 @@ rules: "Each opponent must attack you or a planeswalker you control with at leas
 slug: trove-of-temptation
 tags: card-color-red card-color-red-cost-4 card-type-enchantment
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: XLN
   type: Token Artifact
 type: Enchantment
 url: http://tappedout.net/mtg-card/trove-of-temptation/

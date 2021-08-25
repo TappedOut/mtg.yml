@@ -44,7 +44,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Sacrifice
@@ -55,11 +55,14 @@ mana_produced: W, U, B, R, G
 name: Elemental Masterpiece
 printings:
 - STX:
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 182
     rarity: common
     release_date: 2021-04-23
-    set_number: 182
+    wizards_id: 513674
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=513674
 rules: "Create two 4/4 blue and red Elemental creature tokens.\r\n\r\n[[symbol:UR]][[symbol:UR]],\
   \ Discard this: Create a Treasure token. *(It's an artifact with \"[[symbol:T]],\
   \ Sacrifice this artifact: Gain one mana of any colour.\")*"
@@ -67,17 +70,25 @@ slug: elemental-masterpiece
 tags: card-color-blue card-color-gold card-color-gold-cost-7 card-color-red card-mana-black
   card-mana-blue card-mana-green card-mana-red card-mana-white card-type-sorcery
 tokens:
-- colors: UR
+- cannonical_type: Creature
+  colors: UR
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Elemental 4/4 UR
   power_toughness: 4/4
   rules: ''
   subtype: Elemental
+  tla: STX
   type: Token Creature
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: STX
   type: Token Artifact
 type: Sorcery
 url: http://tappedout.net/mtg-card/elemental-masterpiece/

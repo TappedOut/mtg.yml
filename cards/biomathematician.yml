@@ -37,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -48,11 +48,14 @@ name: Biomathematician
 power_toughness: 2/2
 printings:
 - STX:
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 164
     rarity: common
     release_date: 2021-04-23
-    set_number: 164
+    wizards_id: 513656
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=513656
 rules: When this enters the battlefield, create a 0/0 green and blue Fractal creature
   token. Put a +1/+1 counter on each Fractal you control.
 slug: biomathematician
@@ -62,11 +65,15 @@ subtype_tokens:
 - Wizard
 tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-green card-type-creature
 tokens:
-- colors: GU
+- cannonical_type: Creature
+  colors: GU
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Fractal 0/0 GU
   power_toughness: 0/0
   rules: ''
   subtype: Fractal
+  tla: STX
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/biomathematician/

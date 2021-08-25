@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 2G
 mana_cost_converted: 3
@@ -42,13 +42,14 @@ name: Architect of the Untamed
 power_toughness: 2/3
 printings:
 - KLD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 62016
     mtgo_id: 62015
     name: Kaladesh
     number: 143
     rarity: rare
     release_date: 2016-09-30
-    set_number: 143
     wizards_id: 417716
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417716
 rules: "Whenever a land enters the battlefield under your control, you get [[symbol:energy]]\
@@ -61,11 +62,15 @@ subtype_tokens:
 - Artificer
 tags: card-color-green card-color-green-cost-3 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 6/6 C Token Artifact Creatures Beast
   power_toughness: 6/6
   rules: ''
   subtype: Beast
+  tla: KLD
   type: Token Artifact Creature
 type: Creature
 url: http://tappedout.net/mtg-card/architect-of-the-untamed/

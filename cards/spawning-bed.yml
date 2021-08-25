@@ -37,7 +37,7 @@ formats:
 - Vintage
 has_activated_abilities: true
 is_land: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -47,13 +47,14 @@ mana_produced: C
 name: Spawning Bed
 printings:
 - BFZ:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 58728
     mtgo_id: 58727
     name: Battle for Zendikar
     number: 248
     rarity: uncommon
     release_date: 2015-10-02
-    set_number: 248
     wizards_id: 402046
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=402046
 rules: "[[symbol:T]]: Add [[symbol:C]] to your mana pool.\r\n\r\n[[symbol:6]], [[symbol:T]],\
@@ -62,11 +63,15 @@ rules: "[[symbol:T]]: Add [[symbol:C]] to your mana pool.\r\n\r\n[[symbol:6]], [
 slug: spawning-bed
 tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 C Token Creature Eldrazi Scion
   power_toughness: 1/1
   rules: 'Sacrifice this creature: Gain [[symbol:C]].'
   subtype: Eldrazi Scion
+  tla: BFZ
   type: Token Creature
 type: Land
 url: http://tappedout.net/mtg-card/spawning-bed/
