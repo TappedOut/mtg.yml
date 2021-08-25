@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Enchant
@@ -47,32 +47,39 @@ mana_cost_converted: 3
 name: Presence of Gond
 printings:
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 420
     rarity: common
     release_date: 2020-07-17
-    set_number: 420
+    wizards_id: 489403
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489403
 - A25:
+    border_color: B
     cannonical: false
+    frame: m15
     mtgo_foil_id: 67283
     mtgo_id: 67282
     name: Masters 25
     number: 184
     rarity: common
     release_date: 2018-03-16
-    set_number: 184
     wizards_id: 442173
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442173
 - CM1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology
     number: 135
     rarity: common
     release_date: 2017-06-09
-    set_number: 135
     wizards_id: 430354
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430354
 - C13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 50909
     mtgo_id: 50908
     name: Commander 2013
@@ -81,6 +88,8 @@ printings:
     wizards_id: 376455
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376455
 - SHM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 29840
     mtgo_id: 29839
     name: Shadowmoor
@@ -96,11 +105,15 @@ subtype_tokens:
 - Aura
 tags: card-color-green card-color-green-cost-3 card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Elf Warrior 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Elf Warrior
+  tla: JMP
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/presence-of-gond/

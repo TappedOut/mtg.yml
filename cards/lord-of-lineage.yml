@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -38,20 +38,23 @@ power_toughness: 5/5
 printings:
 - V17:
     booster_exclude: true
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     mtgo_foil_id: 66408
     mtgo_id: 66407
     name: 'From the Vault: Transform'
     number: 4
     rarity: mythic_rare
     release_date: 2017-11-24
-    set_number: 4
     wizards_id: 439321
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439321
 - ISD:
     booster_exclude: true
+    border_color: B
+    frame: modern
     name: Innistrad
     rarity: rare
     release_date: 2011-09-30
@@ -65,11 +68,15 @@ subtype_tokens:
 - Vampire
 tags: card-color-colorless card-color-colorless-cost-0 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 B Token Creature Vampire
   power_toughness: 2/2
   rules: Flying
   subtype: Vampire
+  tla: ISD
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/lord-of-lineage/

@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Flying
@@ -37,16 +37,19 @@ mana_cost_converted: 6
 name: Spectral Procession
 printings:
 - MM2:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 57349
     mtgo_id: 57348
     name: Modern Masters 2015 Edition
     number: 33
     rarity: uncommon
     release_date: 2015-05-22
-    set_number: 33
     wizards_id: 397841
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397841
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54732
     mtgo_id: 54731
     name: Commander 2014
@@ -55,24 +58,28 @@ printings:
     wizards_id: 389685
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389685
 - MD1:
+    border_color: B
     cannonical: false
+    frame: modern
     name: Modern Event Deck
     number: 12
     rarity: uncommon
     release_date: 2014-05-30
-    set_number: 12
     wizards_id: 382198
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382198
 - DDK:
+    border_color: B
+    frame: modern
     mtgo_id: 48165
     name: 'Duel Decks: Sorin vs. Tibalt'
     number: 26
     rarity: uncommon
     release_date: 2013-05-15
-    set_number: 26
     wizards_id: 368515
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=368515
 - SHM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 29606
     mtgo_id: 29605
     name: Shadowmoor
@@ -84,11 +91,15 @@ rules: Put three 1/1 white Spirit creature tokens with flying into play.
 slug: spectral-procession
 tags: card-color-white card-color-white-cost-6 card-type-sorcery
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: MM2
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/spectral-procession/

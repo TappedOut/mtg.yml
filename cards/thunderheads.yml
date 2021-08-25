@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Defender
@@ -45,23 +45,27 @@ mana_cost_converted: 3
 name: Thunderheads
 printings:
 - GK1:
+    border_color: B
+    frame: m15
     name: 'Guilds of Ravnica: Guild Kit'
     number: 27
     rarity: uncommon
     release_date: 2018-11-02
-    set_number: 27
     wizards_id: 456217
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456217
 - DDJ:
+    border_color: B
+    frame: modern
     mtgo_id: 46218
     name: 'Duel Decks: Izzet vs. Golgari '
     number: 23
     rarity: uncommon
     release_date: 2012-09-07
-    set_number: 23
     wizards_id: 338397
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=338397
 - GPT:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 23770
     mtgo_id: 23769
     name: Guildpact
@@ -75,11 +79,15 @@ rules: "Replicate [[symbol:2]][[symbol:U]] *(When you cast this spell, copy it f
 slug: thunderheads
 tags: card-color-blue card-color-blue-cost-3 card-type-instant
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 U Token Creature Weird
   power_toughness: 3/3
   rules: Defender, flying
   subtype: Weird
+  tla: GK1
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/thunderheads/

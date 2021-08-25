@@ -37,7 +37,7 @@ formats:
 - Vintage
 has_activated_abilities: true
 is_land: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -47,9 +47,12 @@ mana_produced: '1'
 name: Moorland Haunt
 printings:
 - ISD:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 42569
     mtgo_id: 42568
     name: Innistrad
+    number: 244
     rarity: rare
     release_date: 2011-09-30
     wizards_id: 233239
@@ -59,11 +62,15 @@ rules: "{T}: Add 1 to your mana pool.\r\n\r\n{W}{U}, {T}, Exile a creature from 
 slug: moorland-haunt
 tags: card-color-colorless card-color-colorless-cost-0 card-type-land
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: ISD
   type: Token Creature
 type: Land
 url: http://tappedout.net/mtg-card/moorland-haunt/

@@ -25,7 +25,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -36,13 +36,14 @@ name: Witness of the Ages
 power_toughness: 4/4
 printings:
 - KTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54155
     mtgo_id: 54154
     name: Khans of Tarkir
     number: 228
     rarity: uncommon
     release_date: 2014-09-26
-    set_number: 228
     wizards_id: 386728
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386728
 rules: Morph {5} *(You may cast this card face down as a 2/2 creature for {3}. Turn
@@ -53,12 +54,15 @@ subtype_tokens:
 - Golem
 tags: card-color-colorless card-color-colorless-cost-6 card-type-artifact card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: KTK
   type: Creature
 type: Artifact Creature
 url: http://tappedout.net/mtg-card/witness-of-the-ages/

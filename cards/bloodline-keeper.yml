@@ -34,7 +34,7 @@ formats:
 - Vintage
 has_activated_abilities: true
 is_front: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -45,17 +45,20 @@ name: Bloodline Keeper
 power_toughness: 3/3
 printings:
 - V17:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: 'From the Vault: Transform'
     number: 4
     rarity: mythic_rare
     release_date: 2017-11-24
-    set_number: 4
     wizards_id: 439320
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439320
 - ISD:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 42467
     mtgo_id: 42466
     name: Innistrad
@@ -72,11 +75,15 @@ subtype_tokens:
 - Vampire
 tags: card-color-black card-color-black-cost-4 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 B Token Creature Vampire
   power_toughness: 2/2
   rules: Flying
   subtype: Vampire
+  tla: ISD
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/bloodline-keeper/

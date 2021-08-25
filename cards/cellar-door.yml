@@ -31,16 +31,19 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: '2'
 mana_cost_converted: 2
 name: Cellar Door
 printings:
 - ISD:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 42313
     mtgo_id: 42312
     name: Innistrad
+    number: 218
     rarity: uncommon
     release_date: 2011-09-30
     wizards_id: 220390
@@ -51,11 +54,15 @@ rules: '{3}, {T}: Target player puts the bottom card of his or her library into 
 slug: cellar-door
 tags: card-color-colorless card-color-colorless-cost-2 card-type-artifact
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: ISD
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/cellar-door/

@@ -3,7 +3,7 @@ activated_abilities:
 activation_costs:
 - G
 canadian_hl_score: 0
-cannonical_set: GPT
+cannonical_set: GK2
 cannonical_type: Enchantment
 companions:
 - Gyruda, Doom of Depths
@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Enchant
@@ -43,18 +43,21 @@ mana_cost_converted: 6
 name: Wurmweaver Coil
 printings:
 - GK2:
-    cannonical: false
+    border_color: B
+    frame: m15
     name: 'Ravnica Allegiance: Guild Kits'
     number: 86
     rarity: rare
     release_date: 2019-02-15
-    set_number: 86
     wizards_id: 460298
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460298
 - GPT:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 23862
     mtgo_id: 23861
     name: Guildpact
+    number: 99
     rarity: rare
     release_date: 2006-02-03
     wizards_id: 97230
@@ -67,11 +70,15 @@ subtype_tokens:
 - Aura
 tags: card-color-green card-color-green-cost-6 card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Wurm 6/6 G
   power_toughness: 6/6
   rules: ''
   subtype: Wurm
+  tla: GK2
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/wurmweaver-coil/

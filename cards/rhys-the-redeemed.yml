@@ -39,7 +39,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -49,22 +49,31 @@ name: Rhys the Redeemed
 power_toughness: 1/1
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 213
     rarity: rare
     release_date: 2020-08-07
-    set_number: 213
+    wizards_id: 489886
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489886
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: rare
     release_date: 2020-03-14
 - ARENA:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Arena Cards
     rarity: rare
     release_date: 2019-09-26
 - SHM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 29536
     mtgo_id: 29535
     name: Shadowmoor
@@ -83,17 +92,25 @@ subtype_tokens:
 tags: card-color-gold card-color-gold-cost-1 card-color-green card-color-white card-type-creature
   card-type-legendary
 tokens:
-- colors: GW
+- cannonical_type: Creature
+  colors: GW
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 GW Token Creature Elf
   power_toughness: 1/1
   rules: ''
   subtype: Elf
+  tla: 2XM
   type: Token Creature
-- colors: GW
+- cannonical_type: Creature
+  colors: GW
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 GW Token Creature Elf Warrior
   power_toughness: 1/1
   rules: ''
   subtype: Elf Warrior
+  tla: 2XM
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/rhys-the-redeemed/

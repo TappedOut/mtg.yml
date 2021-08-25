@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -38,13 +38,14 @@ mana_cost_converted: 3
 name: Goblinslide
 printings:
 - KTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54369
     mtgo_id: 54368
     name: Khans of Tarkir
     number: 109
     rarity: uncommon
     release_date: 2014-09-26
-    set_number: 109
     wizards_id: 386547
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386547
 rules: Whenever you cast a noncreature spell, you may pay {1} Mana. If you do, put
@@ -52,11 +53,15 @@ rules: Whenever you cast a noncreature spell, you may pay {1} Mana. If you do, p
 slug: goblinslide
 tags: card-color-red card-color-red-cost-3 card-type-enchantment
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R w/ Haste
   power_toughness: 1/1
   rules: Haste
   subtype: Goblin
+  tla: KTK
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/goblinslide/

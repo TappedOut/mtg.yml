@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: TSR
+cannonical_set: 2XM
 cannonical_type: Instant
 companions:
 - Jegantha, the Wellspring
@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -38,28 +38,36 @@ mana_cost_converted: 1
 name: Pongify
 printings:
 - TSR:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Time Spiral Remastered
     number: 79
     rarity: uncommon
     release_date: 2021-03-19
-    set_number: 79
+    wizards_id: 509444
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509444
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 62
     rarity: uncommon
     release_date: 2020-08-07
-    set_number: 62
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54644
     mtgo_id: 54643
     name: Commander 2014
     number: 120
     rarity: uncommon
     release_date: 2014-11-21
-    set_number: 120
     wizards_id: 389638
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389638
 - PLC:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 26454
     mtgo_id: 26453
     name: Planar Chaos
@@ -72,11 +80,15 @@ rules: Destroy target creature. It can't be regenerated. That creature's control
 slug: pongify
 tags: card-color-blue card-color-blue-cost-1 card-type-instant
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Ape 3/3 G
   power_toughness: 3/3
   rules: ''
   subtype: Ape
+  tla: 2XM
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/pongify/

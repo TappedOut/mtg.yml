@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Flashback
@@ -41,26 +41,30 @@ mana_cost_converted: 3
 name: Cackling Counterpart
 printings:
 - MM3:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63298
     mtgo_id: 63297
     name: Modern Masters 2017 Edition
     number: 32
     rarity: rare
     release_date: 2017-03-17
-    set_number: 32
     wizards_id: 425857
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425857
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54974
     mtgo_id: 54973
     name: Commander 2014
     number: 100
     rarity: rare
     release_date: 2014-11-21
-    set_number: 100
     wizards_id: 389456
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389456
 - ISD:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 42709
     mtgo_id: 42708
     name: Innistrad
@@ -74,11 +78,14 @@ rules: "Put a token onto the battlefield that's a copy of target creature you co
 slug: cackling-counterpart
 tags: card-color-blue card-color-blue-cost-3 card-type-instant
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: MM3
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/cackling-counterpart/
