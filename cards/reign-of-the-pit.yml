@@ -35,7 +35,9 @@ mana_cost_converted: 6
 name: Reign of the Pit
 printings:
 - VMA:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_foil_id: 53190
     mtgo_id: 53189
     name: Vintage Masters
@@ -46,6 +48,8 @@ printings:
     wizards_id: 383065
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383065
 - CNS:
+    border_color: B
+    frame: modern
     name: Conspiracy
     number: 29
     rarity: rare
@@ -59,11 +63,15 @@ rules: Each player sacrifices a creature. Put an X/X black Demon creature token 
 slug: reign-of-the-pit
 tags: card-color-black card-color-black-cost-6 card-type-sorcery
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Demon */* B
   power_toughness: '*/*'
   rules: Flying
   subtype: Demon
+  tla: CNS
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/reign-of-the-pit/

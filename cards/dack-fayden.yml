@@ -38,13 +38,17 @@ mana_cost_converted: 3
 name: Dack Fayden
 printings:
 - RNAMED:
+    border_color: B
     cannonical: false
+    frame: m15
     name: 'Ravnica Allegiance: Mythic Edition'
     number: 69
     rarity: mythic_rare
     release_date: 2019-01-26
     set_number: 69
 - EMA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60732
     mtgo_id: 60731
     name: Eternal Masters
@@ -55,7 +59,9 @@ printings:
     wizards_id: 413741
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413741
 - VMA:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_foil_id: 52986
     mtgo_id: 52985
     name: Vintage Masters
@@ -66,6 +72,8 @@ printings:
     wizards_id: 382903
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382903
 - CNS:
+    border_color: B
+    frame: modern
     name: Conspiracy
     number: 42
     rarity: mythic_rare
@@ -84,12 +92,16 @@ subtype_tokens:
 tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-red card-type-legendary
   card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Dack
   power_toughness: null
   rules: Whenever you cast a spell that targets one or more permanents, gain control
     of those permanents.
   subtype: Dack
+  tla: EMA
   type: Emblem
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/dack-fayden/

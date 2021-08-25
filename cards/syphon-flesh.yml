@@ -36,7 +36,9 @@ mana_cost_converted: 5
 name: Syphon Flesh
 printings:
 - CM2:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology 2018
     number: 79
     rarity: uncommon
@@ -46,13 +48,17 @@ printings:
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446815
 - CM1:
     booster_exclude: true
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology
     number: 69
     rarity: uncommon
     release_date: 2017-06-09
     set_number: 69
 - CMD:
+    border_color: B
+    frame: modern
     mtgo_id: 40607
     name: 'MTG: Commander'
     rarity: uncommon
@@ -64,11 +70,15 @@ rules: Each other player sacrifices a creature. You create a 2/2 black Zombie cr
 slug: syphon-flesh
 tags: card-color-black card-color-black-cost-5 card-type-sorcery
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: CMD
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/syphon-flesh/
