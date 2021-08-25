@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: MYS1
+cannonical_set: GK1
 cannonical_type: Enchantment
 companions:
 - Gyruda, Doom of Depths
@@ -40,10 +40,15 @@ mana_cost_converted: 6
 name: Pollenbright Wings
 printings:
 - MYS1:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
 - GK1:
+    border_color: B
+    frame: m15
     name: 'Guilds of Ravnica: Guild Kit'
     number: 115
     rarity: uncommon
@@ -52,7 +57,9 @@ printings:
     wizards_id: 456373
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456373
 - PCA:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Planechase Anthology
     number: 103
     rarity: uncommon
@@ -61,6 +68,8 @@ printings:
     wizards_id: 423528
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423528
 - PC2:
+    border_color: B
+    frame: modern
     mtgo_id: 45154
     name: Planechase 2012 Edition
     rarity: uncommon
@@ -68,6 +77,8 @@ printings:
     wizards_id: 271211
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=271211
 - RAV:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 23395
     mtgo_id: 23394
     name: 'Ravnica: City of Guilds'
@@ -84,11 +95,15 @@ subtype_tokens:
 - Aura
 tags: card-color-gold card-color-gold-cost-6 card-color-green card-color-white card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: GK1
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/pollenbright-wings/

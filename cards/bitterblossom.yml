@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: MM2
+cannonical_set: UMA
 cannonical_type: Enchantment
 companions:
 - Gyruda, Doom of Depths
@@ -38,7 +38,9 @@ mana_cost_converted: 2
 name: Bitterblossom
 printings:
 - SLD:
+    border_color: B
     cannonical: false
+    frame: m15
     mtgo_foil_id: 79073
     mtgo_id: 79072
     name: Secret Lair
@@ -47,7 +49,8 @@ printings:
     release_date: 2019-12-09
     set_number: 12
 - UMA:
-    cannonical: false
+    border_color: B
+    frame: m15
     mtgo_foil_id: 70244
     mtgo_id: 70243
     name: Ultimate Masters
@@ -55,10 +58,14 @@ printings:
     rarity: mythic_rare
     release_date: 2018-12-07
     set_number: 85
+    wizards_id: 456681
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456681
 - UMAP:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: Ultimate Masters Promo
     number: 7
     rarity: mythic_rare
@@ -67,6 +74,8 @@ printings:
     wizards_id: 457111
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=457111
 - MM2:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 57055
     mtgo_id: 57054
     name: Modern Masters 2015 Edition
@@ -77,6 +86,8 @@ printings:
     wizards_id: 397701
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397701
 - MOR:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 29039
     mtgo_id: 29038
     name: Morningtide
@@ -87,7 +98,9 @@ printings:
     wizards_id: 152648
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=152648
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 4
     rarity: mythic_rare
@@ -103,11 +116,15 @@ subtype_tokens:
 - Faerie
 tags: card-color-black card-color-black-cost-2 card-type-enchantment card-type-tribal
 tokens:
-- colors: B
-  name: 1/1 B Token Creature Faerie Rogue
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Faerie Rogue 1/1 B
   power_toughness: 1/1
   rules: Flying
   subtype: Faerie Rogue
+  tla: UMA
   type: Token Creature
 type: Tribal Enchantment
 url: http://tappedout.net/mtg-card/bitterblossom/

@@ -45,13 +45,17 @@ name: Hunting Triad
 printings:
 - CM1:
     booster_exclude: true
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology
     number: 116
     rarity: uncommon
     release_date: 2017-06-09
     set_number: 116
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54724
     mtgo_id: 54723
     name: Commander 2014
@@ -62,6 +66,8 @@ printings:
     wizards_id: 389550
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389550
 - MOR:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 29137
     mtgo_id: 29136
     name: Morningtide
@@ -78,11 +84,15 @@ subtype_tokens:
 - Elf
 tags: card-color-green card-color-green-cost-4 card-type-sorcery card-type-tribal
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Elf Warrior 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Elf Warrior
+  tla: C14
   type: Token Creature
 type: Tribal Sorcery
 url: http://tappedout.net/mtg-card/hunting-triad/
