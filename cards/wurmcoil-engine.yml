@@ -24,7 +24,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Deathtouch
@@ -36,34 +36,41 @@ name: Wurmcoil Engine
 power_toughness: 6/6
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 308
     rarity: mythic_rare
     release_date: 2020-08-07
-    set_number: 308
     variations:
     - identifier: '368'
+    wizards_id: 489981
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489981
 - CM2:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology 2018
     number: 231
     rarity: mythic_rare
     release_date: 2018-06-08
-    set_number: 231
     wizards_id: 446967
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446967
 - MPS:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: 'Masterpiece Series: Kaladesh Inventions'
     number: 54
     rarity: mythic_rare
     release_date: 2016-09-30
-    set_number: 54
     wizards_id: 425825
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425825
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54882
     mtgo_id: 54881
     name: Commander 2014
@@ -72,6 +79,8 @@ printings:
     wizards_id: 389756
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389756
 - SOM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 38186
     mtgo_id: 38185
     name: Scars of Mirrodin
@@ -80,12 +89,13 @@ printings:
     wizards_id: 207875
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=207875
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 223
     rarity: mythic_rare
     release_date: 1990-04-15
-    set_number: 223
 rules: "Deathtouch, lifelink\r\n\r\nWhen Wurmcoil Engine dies *(is put into a graveyard\
   \ from the battlefield)*, create a 3/3 colorless Wurm artifact creature token with\
   \ deathtouch and a 3/3 colorless Wurm artifact creature token with lifelink."
@@ -95,17 +105,25 @@ subtype_tokens:
 - Wurm
 tags: card-color-colorless card-color-colorless-cost-6 card-type-artifact card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Wurm 3/3 C w/ Deathtouch
   power_toughness: 3/3
   rules: Deathtouch
   subtype: Wurm
+  tla: 2XM
   type: Token Artifact Creature
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Wurm 3/3 C w/ Lifelink
   power_toughness: 3/3
   rules: Lifelink
   subtype: Wurm
+  tla: 2XM
   type: Token Artifact Creature
 type: Artifact Creature
 url: http://tappedout.net/mtg-card/wurmcoil-engine/

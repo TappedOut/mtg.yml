@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -46,25 +46,27 @@ name: Venser, the Sojourner
 power_toughness: '3'
 printings:
 - DDI:
+    border_color: B
     foil: foil
     foil_only: true
+    frame: modern
     mtgo_foil_id: 43755
     mtgo_id: 43754
     name: 'Duel Decks: Venser vs. Koth'
     number: 1
     rarity: mythic_rare
     release_date: 2012-03-30
-    set_number: 1
     wizards_id: 266078
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=266078
 - SOM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 38336
     mtgo_id: 38335
     name: Scars of Mirrodin
     number: 135
     rarity: mythic_rare
     release_date: 2010-10-01
-    set_number: 135
     wizards_id: 212240
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=212240
 rules: "[[loyalty-plus2]]: Exile target permanent you own. Return it to the battlefield\
@@ -77,11 +79,15 @@ subtype_tokens:
 - Venser
 tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-white card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Venser
   power_toughness: null
   rules: Whenever you cast a spell, exile target permanent.
   subtype: Venser
+  tla: DDI
   type: Emblem
 type: Planeswalker
 url: http://tappedout.net/mtg-card/venser-the-sojourner/

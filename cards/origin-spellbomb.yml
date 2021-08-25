@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -46,13 +46,14 @@ mana_cost_converted: 1
 name: Origin Spellbomb
 printings:
 - SOM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 38330
     mtgo_id: 38329
     name: Scars of Mirrodin
     number: 189
     rarity: common
     release_date: 2010-10-01
-    set_number: 189
     wizards_id: 210239
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=210239
 rules: "[[symbol:1]], [[symbol:T]],  Sacrifice Origin Spellbomb: Put a 1/1 colorless\
@@ -62,11 +63,15 @@ rules: "[[symbol:1]], [[symbol:T]],  Sacrifice Origin Spellbomb: Put a 1/1 color
 slug: origin-spellbomb
 tags: card-color-white card-color-white-cost-1 card-type-artifact
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Myr 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Myr
+  tla: SOM
   type: Token Artifact Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/origin-spellbomb/
