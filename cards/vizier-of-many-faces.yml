@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Embalm
@@ -42,13 +42,14 @@ name: Vizier of Many Faces
 power_toughness: 0/0
 printings:
 - AKH:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63751
     mtgo_id: 63750
     name: Amonkhet
     number: 74
     rarity: rare
     release_date: 2017-04-28
-    set_number: 74
     wizards_id: 426776
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426776
 rules: "You may have Vizier of Many Faces enter the battlefield as a copy of any creature\
@@ -61,13 +62,17 @@ subtype_tokens:
 - Shapeshifter
 tags: card-color-blue card-color-blue-cost-4 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/0 W Token Creature Zombie Shapeshifter Cleric
   power_toughness: 0/0
   rules: You may have Vizier of Many Faces enter the battlefield as a copy of any
     creature on the battlefield except it has no mana cost, it's white, and it's a
     Zombie in addition to its other types.
   subtype: Zombie Shapeshifter Cleric
+  tla: AKH
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/vizier-of-many-faces/

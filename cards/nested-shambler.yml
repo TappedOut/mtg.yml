@@ -13,11 +13,14 @@ effective_cost:
 flat_cost: 1
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -29,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -39,13 +42,16 @@ name: Nested Shambler
 power_toughness: 1/1
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 95
     rarity: common
     release_date: 2021-06-18
-    set_number: 95
     variations:
     - identifier: '399'
+    wizards_id: 522171
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522171
 rules: When this dies *(is put into the graveyard from the battlefield)*, create X
   tapped 1/1 green Squirrel creature tokens, where X is this creature's power.
 slug: nested-shambler
@@ -54,11 +60,15 @@ subtype_tokens:
 - Zombie
 tags: card-color-black card-color-black-cost-1 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Squirrel 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Squirrel
+  tla: MH2
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/nested-shambler/

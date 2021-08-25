@@ -26,7 +26,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -37,13 +37,14 @@ name: Ornitharch
 power_toughness: 3/3
 printings:
 - BNG:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51762
     mtgo_id: 51761
     name: Born of the Gods
     number: 23
     rarity: uncommon
     release_date: 2014-02-07
-    set_number: 23
     wizards_id: 378395
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=378395
 rules: "Flying\r\n\r\nTribute 2\r\n\r\nWhen Ornitharch enters the battlefield, if\
@@ -55,11 +56,15 @@ subtype_tokens:
 - Archon
 tags: card-color-white card-color-white-cost-5 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Bird 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Bird
+  tla: BNG
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/ornitharch/

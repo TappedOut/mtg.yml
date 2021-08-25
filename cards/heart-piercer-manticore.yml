@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -49,21 +49,25 @@ name: Heart-Piercer Manticore
 power_toughness: 4/3
 printings:
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77407
     mtgo_id: 77406
     name: Commander 2019
     number: 146
     rarity: rare
     release_date: 2019-08-23
-    set_number: 146
+    wizards_id: 470692
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470692
 - AKH:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63879
     mtgo_id: 63878
     name: Amonkhet
     number: 138
     rarity: rare
     release_date: 2017-04-28
-    set_number: 138
     wizards_id: 426840
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426840
 rules: "When Heart-Piercer Manticore enters the battlefield, you may sacrifice another\
@@ -78,13 +82,17 @@ subtype_tokens:
 - Manticore
 tags: card-color-red card-color-red-cost-4 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 4/3 W Token Creature Zombie Manticore
   power_toughness: 4/3
   rules: When Heart-Piercer Manticore enters the battlefield, you may sacrifice another
     creature. When you do, Heart-Piercer Manticore deals damage equal to that creature's
     power to target creature, player or planeswalker.
   subtype: Zombie Manticore
+  tla: C19
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/heart-piercer-manticore/

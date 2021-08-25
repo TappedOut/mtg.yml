@@ -42,7 +42,7 @@ formats:
 has_activated_abilities: true
 is_front: true
 is_land: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tap/Untap
@@ -53,13 +53,14 @@ mana_produced: C
 name: Westvale Abbey
 printings:
 - SOI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 59811
     mtgo_id: 59810
     name: Shadows over Innistrad
     number: 281
     rarity: rare
     release_date: 2016-04-08
-    set_number: 281
     wizards_id: 410049
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=410049
 rules: "[[symbol:T]]: Add [[symbol:C]] to your mana pool.\r\n\r\n[[symbol:5]], [[symbol:T]],\
@@ -69,11 +70,15 @@ rules: "[[symbol:T]]: Add [[symbol:C]] to your mana pool.\r\n\r\n[[symbol:5]], [
 slug: westvale-abbey
 tags: card-mana-colorless-sym card-type-land
 tokens:
-- colors: BW
+- cannonical_type: Creature
+  colors: BW
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 BW Token Creature Human Cleric
   power_toughness: 1/1
   rules: ''
   subtype: Human Cleric
+  tla: SOI
   type: Token Creature
 type: Land
 url: http://tappedout.net/mtg-card/westvale-abbey/

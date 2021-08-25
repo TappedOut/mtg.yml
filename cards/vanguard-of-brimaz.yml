@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Vigilance
@@ -39,13 +39,14 @@ name: Vanguard of Brimaz
 power_toughness: 2/2
 printings:
 - BNG:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51756
     mtgo_id: 51755
     name: Born of the Gods
     number: 29
     rarity: uncommon
     release_date: 2014-02-07
-    set_number: 29
     wizards_id: 378401
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=378401
 rules: "Vigilance\r\n\r\nHeroic -- Whenever you cast a spell that targets Vanguard\
@@ -58,11 +59,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-2 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Cat Soldier
   power_toughness: 1/1
   rules: Vigilance
   subtype: Cat Soldier
+  tla: BNG
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/vanguard-of-brimaz/

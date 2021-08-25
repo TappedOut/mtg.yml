@@ -38,7 +38,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -49,18 +49,21 @@ name: Labyrinth Guardian
 power_toughness: 2/3
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
 - AKH:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63723
     mtgo_id: 63722
     name: Amonkhet
     number: 60
     rarity: uncommon
     release_date: 2017-04-28
-    set_number: 60
     wizards_id: 426762
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426762
 rules: "When Labyrinth Guardian becomes the target of a spell, sacrifice it.\r\n\r\
@@ -74,11 +77,15 @@ subtype_tokens:
 - Warrior
 tags: card-color-blue card-color-blue-cost-2 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/3 W Token Creature Zombie Illusion Warrior
   power_toughness: 2/3
   rules: When Labyrinth Guardian becomes the target of a spell, sacrifice it.
   subtype: Zombie Illusion Warrior
+  tla: AKH
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/labyrinth-guardian/

@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Enchant
@@ -42,13 +42,14 @@ mana_cost_converted: 3
 name: Invocation of Saint Traft
 printings:
 - SOI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60129
     mtgo_id: 60128
     name: Shadows over Innistrad
     number: 246
     rarity: rare
     release_date: 2016-04-08
-    set_number: 246
     wizards_id: 410011
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=410011
 rules: "Enchant creature\r\n\r\nEnchanted creature has \"Whenever this creature attacks,\
@@ -60,11 +61,15 @@ subtype_tokens:
 - Aura
 tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-white card-type-enchantment
 tokens:
-- colors: W
-  name: 4/4 W Token Creature Angel
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Angel 4/4 W
   power_toughness: 4/4
   rules: Flying
   subtype: Angel
+  tla: SOI
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/invocation-of-saint-traft/

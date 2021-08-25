@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -41,13 +41,14 @@ power_toughness: 9/7
 printings:
 - SOI:
     booster_exclude: true
+    border_color: B
+    frame: m15
     mtgo_foil_id: 59949
     mtgo_id: 59948
     name: Shadows over Innistrad
     number: 281
     rarity: rare
     release_date: 2016-04-08
-    set_number: 281
     wizards_id: 410050
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=410050
 rules: Flying, lifelink, indestructible, haste
@@ -57,11 +58,15 @@ subtype_tokens:
 - Demon
 tags: card-type-creature card-type-legendary
 tokens:
-- colors: BW
+- cannonical_type: Creature
+  colors: BW
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 BW Token Creature Human Cleric
   power_toughness: 1/1
   rules: ''
   subtype: Human Cleric
+  tla: SOI
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/ormendahl-profane-prince/

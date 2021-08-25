@@ -31,16 +31,19 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 mana_cost: 3W
 mana_cost_converted: 4
 name: Join the Ranks
 printings:
 - WWK:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 35568
     mtgo_id: 35567
     name: Worldwake
+    number: 9
     rarity: common
     release_date: 2010-02-05
     wizards_id: 194706
@@ -49,11 +52,15 @@ rules: Put two 1/1 white Soldier Ally creature tokens onto the battlefield.
 slug: join-the-ranks
 tags: card-color-white card-color-white-cost-4 card-type-instant
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Soldier Ally
   power_toughness: 1/1
   rules: ''
   subtype: Soldier Ally
+  tla: WWK
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/join-the-ranks/

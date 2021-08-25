@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -41,13 +41,14 @@ power_toughness: 3/2
 printings:
 - SOI:
     booster_exclude: true
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60189
     mtgo_id: 60188
     name: Shadows over Innistrad
     number: 54
     rarity: uncommon
     release_date: 2016-04-08
-    set_number: 54
     wizards_id: 409797
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409797
 rules: "Prowess *(Whenever you cast a noncreature spell, this creature gets +1/+1\
@@ -61,11 +62,15 @@ subtype_tokens:
 - Wizard
 tags: card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Clue
   power_toughness: null
   rules: '[[symbol:2]], Sacrifice this: Draw a card.'
   subtype: Clue
+  tla: SOI
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/bearer-of-overwhelming-truths/

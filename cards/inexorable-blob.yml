@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -39,13 +39,14 @@ name: Inexorable Blob
 power_toughness: 3/3
 printings:
 - SOI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60135
     mtgo_id: 60134
     name: Shadows over Innistrad
     number: 212
     rarity: rare
     release_date: 2016-04-08
-    set_number: 212
     wizards_id: 409973
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409973
 rules: '*Delirium* &mdash; Whenever Inexorable Blob attacks, if there are four or
@@ -57,11 +58,15 @@ subtype_tokens:
 - Ooze
 tags: card-color-green card-color-green-cost-3 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 G Token Creature Ooze
   power_toughness: 3/3
   rules: ''
   subtype: Ooze
+  tla: SOI
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/inexorable-blob/

@@ -15,11 +15,14 @@ effective_cost:
 flat_cost: 7
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -30,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -43,11 +46,12 @@ name: Soul of Migration
 power_toughness: 2/4
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 35
     rarity: common
     release_date: 2021-06-18
-    set_number: 35
 rules: "Flying\r\n\r\nWhen this enters the battlefield, create two 1/1 white Bird\
   \ creature tokens with flying.\r\n\r\nEvoke [[symbol:3]][[symbol:W]] *(You may cast\
   \ this spell for the evoke cost. If you do this is sacrificed when this enters the\
@@ -60,11 +64,15 @@ synonyms:
 - Soul Migration
 tags: card-color-white card-color-white-cost-7 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Bird 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Bird
+  tla: MH2
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/soul-of-migration/

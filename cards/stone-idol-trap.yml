@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Trample
@@ -39,9 +39,12 @@ mana_cost_converted: 6
 name: Stone Idol Trap
 printings:
 - WWK:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 35708
     mtgo_id: 35707
     name: Worldwake
+    number: 93
     rarity: rare
     release_date: 2010-02-05
     wizards_id: 191552
@@ -55,11 +58,15 @@ subtype_tokens:
 - Trap
 tags: card-color-red card-color-red-cost-6 card-type-instant
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 6/12 C Token Artifact Creature Construct
   power_toughness: 6/12
   rules: Trample
   subtype: Construct
+  tla: WWK
   type: Token Artifact Creature
 type: Instant
 url: http://tappedout.net/mtg-card/stone-idol-trap/

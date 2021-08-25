@@ -37,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -49,13 +49,14 @@ name: Oketra's Attendant
 power_toughness: 3/3
 printings:
 - AKH:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63647
     mtgo_id: 63646
     name: Amonkhet
     number: 22
     rarity: uncommon
     release_date: 2017-04-28
-    set_number: 22
     wizards_id: 426724
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426724
 rules: "Flying\r\n\r\nCycling 2 (2, Discard this card: Draw a card.)\r\n\r\nEmbalm\
@@ -69,11 +70,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-5 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 W Token Creature Zombie Bird Soldier
   power_toughness: 3/3
   rules: Flying
   subtype: Zombie Bird Soldier
+  tla: AKH
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/oketras-attendant/

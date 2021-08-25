@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -45,35 +45,38 @@ mana_cost_converted: 5
 name: Vraska the Unseen
 printings:
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77537
     mtgo_id: 77536
     name: Commander 2019
     number: 207
     rarity: mythic_rare
     release_date: 2019-08-23
-    set_number: 207
     wizards_id: 470753
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470753
 - DDM:
+    border_color: B
     foil: foil
     foil_only: true
+    frame: modern
     mtgo_foil_id: 52504
     mtgo_id: 52503
     name: 'Duel Decks: Jace vs. Vraska'
     number: 42
     rarity: mythic_rare
     release_date: 2014-03-14
-    set_number: 42
     wizards_id: 380214
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=380214
 - RTR:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 46568
     mtgo_id: 46567
     name: Return to Ravnica
     number: 208
     rarity: mythic_rare
     release_date: 2012-10-05
-    set_number: 208
     wizards_id: 290538
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=290538
 rules: "[[loyalty-plus1]]: Until your next turn, whenever a creature deals combat\
@@ -84,12 +87,16 @@ rules: "[[loyalty-plus1]]: Until your next turn, whenever a creature deals comba
 slug: vraska-the-unseen
 tags: card-color-black card-color-gold card-color-gold-cost-5 card-color-green card-type-planeswalker
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 B Token Creature Assassin
   power_toughness: 1/1
   rules: When this creature deals combat damage to a player, that player loses the
     game.
   subtype: Assassin
+  tla: C19
   type: Token Creature
 type: Planeswalker
 url: http://tappedout.net/mtg-card/vraska-the-unseen/

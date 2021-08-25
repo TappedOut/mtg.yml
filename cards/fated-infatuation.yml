@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Scry
@@ -39,13 +39,14 @@ mana_cost_converted: 3
 name: Fated Infatuation
 printings:
 - BNG:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51800
     mtgo_id: 51799
     name: Born of the Gods
     number: 39
     rarity: rare
     release_date: 2014-02-07
-    set_number: 39
     wizards_id: 378411
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=378411
 rules: Put a token onto the battlefield that's a copy of target creature you control.
@@ -54,11 +55,14 @@ rules: Put a token onto the battlefield that's a copy of target creature you con
 slug: fated-infatuation
 tags: card-color-blue card-color-blue-cost-3 card-type-instant
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: BNG
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/fated-infatuation/

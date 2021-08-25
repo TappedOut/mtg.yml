@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -38,13 +38,14 @@ power_toughness: '*/*'
 printings:
 - SOI:
     booster_exclude: true
+    border_color: B
+    frame: m15
     mtgo_foil_id: 59807
     mtgo_id: 59806
     name: Shadows over Innistrad
     number: 21
     rarity: rare
     release_date: 2016-04-08
-    set_number: 21
     wizards_id: 409760
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409760
 rules: "Westvale Cult Leader's power and toughness are each equal to the number of\
@@ -57,11 +58,15 @@ subtype_tokens:
 - Cleric
 tags: card-type-creature
 tokens:
-- colors: BW
+- cannonical_type: Creature
+  colors: BW
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 BW Token Creature Human Cleric
   power_toughness: 1/1
   rules: ''
   subtype: Human Cleric
+  tla: SOI
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/westvale-cult-leader/

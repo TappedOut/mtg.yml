@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -44,13 +44,14 @@ name: Sigarda, Heron's Grace
 power_toughness: 4/5
 printings:
 - SOI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 59981
     mtgo_id: 59980
     name: Shadows over Innistrad
     number: 250
     rarity: mythic_rare
     release_date: 2016-04-08
-    set_number: 250
     wizards_id: 410015
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=410015
 rules: "Flying\r\n\r\nYou and Humans you control have hexproof.\r\n\r\n[[symbol:2]],\
@@ -62,11 +63,15 @@ subtype_tokens:
 tags: card-color-gold card-color-gold-cost-5 card-color-green card-color-white card-type-creature
   card-type-legendary
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Human Soldier
   power_toughness: 1/1
   rules: ''
   subtype: Human Soldier
+  tla: SOI
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/sigarda-herons-grace/
