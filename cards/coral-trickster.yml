@@ -1,7 +1,7 @@
 activation_costs:
 - U
 canadian_hl_score: 0
-cannonical_set: TSR
+cannonical_set: DDN
 cannonical_type: Creature
 companions:
 - Gyruda, Doom of Depths
@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tap/Untap
@@ -42,25 +42,34 @@ name: Coral Trickster
 power_toughness: 2/1
 printings:
 - TSR:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Time Spiral Remastered
     number: 58
     rarity: common
     release_date: 2021-03-19
-    set_number: 58
+    wizards_id: 509423
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509423
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - DDN:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Speed vs. Cunning'
     number: 44
     rarity: common
     release_date: 2014-09-05
-    set_number: 44
     wizards_id: 386307
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386307
 - TSP:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 25566
     mtgo_id: 25565
     name: Time Spiral
@@ -78,12 +87,15 @@ subtype_tokens:
 - Rogue
 tags: card-color-blue card-color-blue-cost-2 card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: DDN
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/coral-trickster/

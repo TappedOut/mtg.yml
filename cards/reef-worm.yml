@@ -23,7 +23,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -33,31 +33,36 @@ name: Reef Worm
 power_toughness: 0/1
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 127
     rarity: rare
     release_date: 2021-04-23
-    set_number: 127
+    wizards_id: 519162
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519162
 - A25:
+    border_color: B
     cannonical: false
+    frame: m15
     mtgo_foil_id: 67055
     mtgo_id: 67054
     name: Masters 25
     number: 70
     rarity: rare
     release_date: 2018-03-16
-    set_number: 70
     wizards_id: 442059
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442059
 - C14:
     booster_exclude: true
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55160
     mtgo_id: 55159
     name: Commander 2014
     number: 16
     rarity: rare
     release_date: 2014-11-21
-    set_number: 16
     wizards_id: 389652
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389652
 rules: When this dies *(is put into the graveyard from the battlefield, tokens are
@@ -70,7 +75,10 @@ subtype_tokens:
 - Worm
 tags: card-color-blue card-color-blue-cost-4 card-type-creature
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Fish 3/3 U
   power_toughness: 3/3
   rules: When this creature dies *(is put into the graveyard from the battlefield,
@@ -78,20 +86,29 @@ tokens:
     Whale creature token with "When this creature dies, create a 9/9 blue Kraken creature
     token."
   subtype: Fish
+  tla: C21
   type: Token Creature
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Kraken 9/9 U
   power_toughness: 9/9
   rules: ''
   subtype: Kraken
+  tla: C21
   type: Token Creature
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Whale 6/6 U
   power_toughness: 6/6
   rules: When this creature dies *(is put into the graveyard from the battlefield,
     tokens are put into the graveyard before they cease to exist)*, create a 9/9 blue
     Kraken creature token.
   subtype: Whale
+  tla: C21
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/reef-worm/

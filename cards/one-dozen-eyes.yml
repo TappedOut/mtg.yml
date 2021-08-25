@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Entwine
@@ -38,14 +38,19 @@ mana_cost_converted: 6
 name: One Dozen Eyes
 printings:
 - C13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51315
     mtgo_id: 51314
     name: Commander 2013
+    number: 159
     rarity: uncommon
     release_date: 2013-11-01
     wizards_id: 376437
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376437
 - MRD:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 20130
     mtgo_id: 20129
     name: Mirrodin
@@ -59,17 +64,25 @@ rules: "Choose one - Put a 5/5 green Beast creature token into play; or put five
 slug: one-dozen-eyes
 tags: card-color-green card-color-green-cost-6 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 5/5 G Token Creature Beast
   power_toughness: 5/5
   rules: ''
   subtype: Beast
+  tla: C13
   type: Token Creature
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Insect 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Insect
+  tla: C13
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/one-dozen-eyes/

@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: MYS1
+cannonical_set: KTK
 cannonical_type: Creature
 companions:
 - Gyruda, Doom of Depths
@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Morph
@@ -40,28 +40,33 @@ name: Dragon's Eye Savants
 power_toughness: 0/6
 printings:
 - MYS1:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
 - A25:
+    border_color: B
     cannonical: false
+    frame: m15
     mtgo_foil_id: 67023
     mtgo_id: 67022
     name: Masters 25
     number: 54
     rarity: common
     release_date: 2018-03-16
-    set_number: 54
     wizards_id: 442043
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442043
 - KTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54303
     mtgo_id: 54302
     name: Khans of Tarkir
     number: 38
     rarity: uncommon
     release_date: 2014-09-26
-    set_number: 38
     wizards_id: 386524
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386524
 rules: "Morph&mdash;Reveal a blue card in your hand. *(You may cast this card face\
@@ -75,12 +80,15 @@ subtype_tokens:
 - Wizard
 tags: card-color-blue card-color-blue-cost-2 card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: KTK
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/dragons-eye-savants/

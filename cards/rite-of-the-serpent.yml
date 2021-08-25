@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Counters
@@ -41,18 +41,21 @@ mana_cost_converted: 6
 name: Rite of the Serpent
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - KTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54009
     mtgo_id: 54008
     name: Khans of Tarkir
     number: 86
     rarity: common
     release_date: 2014-09-26
-    set_number: 86
     wizards_id: 386637
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386637
 rules: Destroy target creature. If that creature had a +1/+1 counter on it, put a
@@ -60,11 +63,15 @@ rules: Destroy target creature. If that creature had a +1/+1 counter on it, put 
 slug: rite-of-the-serpent
 tags: card-color-black card-color-black-cost-6 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 G Token Creature Snake
   power_toughness: 1/1
   rules: ''
   subtype: Snake
+  tla: KTK
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/rite-of-the-serpent/

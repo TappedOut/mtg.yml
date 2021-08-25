@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -39,9 +39,12 @@ mana_cost_converted: 6
 name: Myr Incubator
 printings:
 - MRD:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 20080
     mtgo_id: 20079
     name: Mirrodin
+    number: 212
     rarity: rare
     release_date: 2003-10-02
     wizards_id: 47450
@@ -52,11 +55,15 @@ rules: '(6), Tap, Sacrifice Myr Incubator: Search your library for any number of
 slug: myr-incubator
 tags: card-color-colorless card-color-colorless-cost-6 card-type-artifact
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Myr 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Myr
+  tla: MRD
   type: Token Artifact Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/myr-incubator/

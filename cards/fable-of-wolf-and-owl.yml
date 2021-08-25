@@ -27,7 +27,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -37,9 +37,12 @@ name: Fable of Wolf and Owl
 power_toughness: '0'
 printings:
 - EVE:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 30051
     mtgo_id: 30050
     name: Eventide
+    number: 150
     rarity: rare
     release_date: 2008-07-25
     wizards_id: 152087
@@ -50,17 +53,25 @@ rules: "Whenever you play a green spell, you may put a 2/2 green Wolf creature t
 slug: fable-of-wolf-and-owl
 tags: card-color-blue card-color-gold card-color-gold-cost-6 card-color-green card-type-enchantment
 tokens:
-- colors: G
-  name: 2/2 G Token Creature Wolf
-  power_toughness: 2/2
-  rules: ''
-  subtype: Wolf
-  type: Token Creature
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Bird 1/1 U
   power_toughness: 1/1
   rules: Flying
   subtype: Bird
+  tla: EVE
+  type: Token Creature
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Wolf 2/2 G
+  power_toughness: 2/2
+  rules: ''
+  subtype: Wolf
+  tla: EVE
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/fable-of-wolf-and-owl/

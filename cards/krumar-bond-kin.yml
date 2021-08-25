@@ -1,7 +1,7 @@
 activation_costs:
 - B
 canadian_hl_score: 0
-cannonical_set: MYS1
+cannonical_set: KTK
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Morph
@@ -40,17 +40,21 @@ name: Krumar Bond-Kin
 power_toughness: 5/3
 printings:
 - MYS1:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - KTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 53997
     mtgo_id: 53996
     name: Khans of Tarkir
     number: 77
     rarity: common
     release_date: 2014-09-26
-    set_number: 77
     wizards_id: 386585
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386585
 rules: Morph [[symbol:4]][[symbol:B]] *(You may cast this card face down as a 2/2
@@ -62,12 +66,15 @@ subtype_tokens:
 - Warrior
 tags: card-color-black card-color-black-cost-5 card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: KTK
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/krumar-bond-kin/

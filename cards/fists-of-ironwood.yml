@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Enchant
@@ -42,16 +42,19 @@ mana_cost_converted: 2
 name: Fists of Ironwood
 printings:
 - MM3:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63060
     mtgo_id: 63059
     name: Modern Masters 2017 Edition
     number: 126
     rarity: common
     release_date: 2017-03-17
-    set_number: 126
     wizards_id: 425951
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425951
 - CMD:
+    border_color: B
+    frame: modern
     mtgo_id: 40721
     name: 'MTG: Commander'
     rarity: common
@@ -59,6 +62,8 @@ printings:
     wizards_id: 247378
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247378
 - RAV:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 23047
     mtgo_id: 23046
     name: 'Ravnica: City of Guilds'
@@ -74,11 +79,15 @@ subtype_tokens:
 - Aura
 tags: card-color-green card-color-green-cost-2 card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: MM3
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/fists-of-ironwood/

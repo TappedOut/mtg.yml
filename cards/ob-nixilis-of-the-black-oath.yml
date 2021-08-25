@@ -31,7 +31,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -42,13 +42,14 @@ mana_cost_converted: 5
 name: Ob Nixilis of the Black Oath
 printings:
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55212
     mtgo_id: 55211
     name: Commander 2014
     number: 27
     rarity: mythic_rare
     release_date: 2014-11-21
-    set_number: 27
     wizards_id: 389618
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389618
 rules: "[[symbol:loyalty-plus2]]: Each opponent loses 1 life. You gain life equal\
@@ -63,18 +64,26 @@ subtype_tokens:
 - Nixilis
 tags: card-color-black card-color-black-cost-5 card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Nixilis
   power_toughness: null
   rules: '[[symbol:1]][[symbol:B]], Sacrifice a creature: You gain X life and draw
     X cards, where X is the sacrificed creature''s power.'
   subtype: Nixilis
+  tla: C14
   type: Emblem
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 5/5 B Token Creature Demon
   power_toughness: 5/5
   rules: Flying
   subtype: Demon
+  tla: C14
   type: Token Creature
 type: Planeswalker
 url: http://tappedout.net/mtg-card/ob-nixilis-of-the-black-oath/

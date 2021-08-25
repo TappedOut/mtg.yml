@@ -27,16 +27,19 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 4G
 mana_cost_converted: 5
 name: Gutter Grime
 printings:
 - ISD:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 42609
     mtgo_id: 42608
     name: Innistrad
+    number: 186
     rarity: rare
     release_date: 2011-09-30
     wizards_id: 234849
@@ -47,11 +50,15 @@ rules: Whenever a nontoken creature you control dies, put a slime counter on Gut
 slug: gutter-grime
 tags: card-color-green card-color-green-cost-5 card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* G Token Creature Ooze'
   power_toughness: '*/*'
   rules: ''
   subtype: Ooze
+  tla: ISD
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/gutter-grime/
