@@ -41,14 +41,20 @@ mana_cost_converted: 4
 name: Ajani Goldmane
 printings:
 - M11:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 37139
     mtgo_id: 37138
     name: 2011 Core Set
+    number: 1
     rarity: mythic_rare
     release_date: 2010-07-16
+    set_number: 1
     wizards_id: 205957
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=205957
 - M10:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 32674
     mtgo_id: 32673
     name: 2010 Core Set
@@ -57,6 +63,8 @@ printings:
     wizards_id: 191239
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=191239
 - LRW:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 28480
     mtgo_id: 28479
     name: Lorwyn
@@ -65,7 +73,9 @@ printings:
     wizards_id: 140233
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=140233
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 5
     rarity: mythic_rare
@@ -82,11 +92,15 @@ subtype_tokens:
 - Ajani
 tags: card-color-white card-color-white-cost-4 card-type-planeswalker
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* W Creature Avatar'
   power_toughness: '*/*'
   rules: This creature's power and toughness are each equal to your life total.
   subtype: Avatar
+  tla: M11
   type: Creature
 type: Planeswalker
 url: http://tappedout.net/mtg-card/ajani-goldmane/

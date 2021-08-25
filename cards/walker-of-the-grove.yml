@@ -1,7 +1,7 @@
 activation_costs:
 - G
 canadian_hl_score: 0
-cannonical_set: DDR
+cannonical_set: UMA
 cannonical_type: Creature
 companions:
 - Gyruda, Doom of Depths
@@ -42,7 +42,8 @@ name: Walker of the Grove
 power_toughness: 7/7
 printings:
 - UMA:
-    cannonical: false
+    border_color: B
+    frame: m15
     mtgo_foil_id: 70456
     mtgo_id: 70455
     name: Ultimate Masters
@@ -50,7 +51,11 @@ printings:
     rarity: common
     release_date: 2018-12-07
     set_number: 191
+    wizards_id: 456787
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456787
 - DDR:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Nissa vs. Ob Nixilis'
     number: 24
     rarity: uncommon
@@ -59,6 +64,8 @@ printings:
     wizards_id: 417447
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417447
 - C13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 50897
     mtgo_id: 50896
     name: Commander 2013
@@ -69,6 +76,8 @@ printings:
     wizards_id: 376578
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376578
 - MMA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 48739
     mtgo_id: 48738
     name: Modern Masters
@@ -77,6 +86,8 @@ printings:
     wizards_id: 370519
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370519
 - MOR:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 28975
     mtgo_id: 28974
     name: Morningtide
@@ -93,11 +104,15 @@ subtype_tokens:
 - Elemental
 tags: card-color-green card-color-green-cost-8 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 4/4 G Token Creature Elemental
   power_toughness: 4/4
   rules: ''
   subtype: Elemental
+  tla: UMA
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/walker-of-the-grove/
