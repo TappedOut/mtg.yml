@@ -39,7 +39,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -50,11 +50,12 @@ mana_cost_converted: 2
 name: Fungal Plots
 printings:
 - DOM:
+    border_color: B
+    frame: m15
     name: Dominaria
     number: 160
     rarity: uncommon
     release_date: 2018-04-22
-    set_number: 160
     wizards_id: 443048
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443048
 rules: "[[symbol:1]][[symbol:G]], Exile a creature card from your graveyard: Create\
@@ -63,11 +64,15 @@ rules: "[[symbol:1]][[symbol:G]], Exile a creature card from your graveyard: Cre
 slug: fungal-plots
 tags: card-color-green card-color-green-cost-2 card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: DOM
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/fungal-plots/

@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -43,11 +43,12 @@ mana_cost_converted: 4
 name: Rite of Belzenlok
 printings:
 - DOM:
+    border_color: B
+    frame: m15
     name: Dominaria
     number: 102
     rarity: rare
     release_date: 2018-04-22
-    set_number: 102
     wizards_id: 442990
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442990
 rules: "*(As this Saga enters and after your draw step, add a lore counter. Sacrifice\
@@ -61,24 +62,36 @@ subtype_tokens:
 - Saga
 tags: card-color-black card-color-black-cost-4 card-type-enchantment
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 B Token Creature Cleric
   power_toughness: 0/1
   rules: ''
   subtype: Cleric
+  tla: DOM
   type: Token Creature
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 B Token Creature Cleric
   power_toughness: 0/1
   rules: ''
   subtype: Cleric
+  tla: DOM
   type: Token Creature
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 6/6 B Token Creature Demon
   power_toughness: 6/6
   rules: "Flying, trample\r\n\r\nAt the beginning of your upkeep, sacrifice another\
     \ creature. If you can't, this creature deals 6 damage to you."
   subtype: Demon
+  tla: DOM
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/rite-of-belzenlok/

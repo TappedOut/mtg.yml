@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -46,17 +46,21 @@ name: Deathbloom Thallid
 power_toughness: 3/2
 printings:
 - M21:
+    border_color: B
+    frame: m15
     name: Core Set 2021
     number: 94
     rarity: common
     release_date: 2020-07-03
-    set_number: 94
+    wizards_id: 485417
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485417
 - DOM:
+    border_color: B
+    frame: m15
     name: Dominaria
     number: 84
     rarity: common
     release_date: 2018-04-22
-    set_number: 84
     variations:
     - identifier: Animated
     wizards_id: 442972
@@ -68,11 +72,15 @@ subtype_tokens:
 - Fungus
 tags: card-color-black card-color-black-cost-3 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: M21
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/deathbloom-thallid/

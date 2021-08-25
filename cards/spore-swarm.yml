@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -42,22 +42,27 @@ mana_cost_converted: 4
 name: Spore Swarm
 printings:
 - DOM:
+    border_color: B
+    frame: m15
     name: Dominaria
     number: 180
     rarity: uncommon
     release_date: 2018-04-22
-    set_number: 180
     wizards_id: 443068
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443068
 rules: Create 3 1/1 green Saproling creature tokens.
 slug: spore-swarm
 tags: card-color-green card-color-green-cost-4 card-type-instant
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: DOM
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/spore-swarm/
