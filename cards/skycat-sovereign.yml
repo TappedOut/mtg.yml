@@ -42,7 +42,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -53,13 +53,14 @@ name: Skycat Sovereign
 power_toughness: 1/1
 printings:
 - IKO:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 80424
     mtgo_id: 80423
     name: 'Ikoria: Lair of Behemoths'
     number: 207
     rarity: rare
     release_date: 2020-04-15
-    set_number: 207
     variations:
     - identifier: '344'
     - identifier: PromoPack
@@ -75,11 +76,15 @@ subtype_tokens:
 - Cat
 tags: card-color-blue card-color-gold card-color-gold-cost-2 card-color-white card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Cat Bird
   power_toughness: 1/1
   rules: Flying
   subtype: Cat Bird
+  tla: IKO
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/skycat-sovereign/

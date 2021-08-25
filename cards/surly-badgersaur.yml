@@ -28,7 +28,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Fight
@@ -42,11 +42,14 @@ name: Surly Badgersaur
 power_toughness: 3/3
 printings:
 - C20:
+    border_color: B
+    frame: m15
     name: Commander 2020
     number: 57
     rarity: rare
     release_date: 2020-05-15
-    set_number: 57
+    wizards_id: 484904
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=484904
 rules: "Whenever you discard a creature card, put a +1/+1 counter on Surly Badgersaur.\r\
   \n\r\nWhenever you discard a land card, create a Treasure token. *(It's an artifact\
   \ with \"[[symbol:T]], Sacrifice this artifact: Gain one mana of any colour.)*\r\
@@ -60,11 +63,15 @@ subtype_tokens:
 tags: card-color-red card-color-red-cost-4 card-mana-black card-mana-blue card-mana-green
   card-mana-red card-mana-white card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: C20
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/surly-badgersaur/

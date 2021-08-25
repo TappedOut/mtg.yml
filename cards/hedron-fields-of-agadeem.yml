@@ -25,7 +25,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Sacrifice
@@ -35,6 +35,8 @@ mana_cost_converted: 0
 name: Hedron Fields of Agadeem
 printings:
 - PC2:
+    border_color: B
+    frame: modern
     mtgo_id: 44950
     name: Planechase 2012 Edition
     rarity: common
@@ -50,12 +52,16 @@ subtype_tokens:
 - Zendikar
 tags: card-color-colorless card-color-colorless-cost-0 card-type-plane
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 7/7 C Token Creature Eldrazi
   power_toughness: 7/7
   rules: Annihilator 1  *(Whenever this creature attacks, defending player sacrifices
     a creature.)*
   subtype: Eldrazi
+  tla: PC2
   type: Token Creature
 type: Plane
 url: http://tappedout.net/mtg-card/hedron-fields-of-agadeem/

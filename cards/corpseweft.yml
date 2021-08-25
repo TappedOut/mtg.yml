@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -46,13 +46,14 @@ mana_cost_converted: 3
 name: Corpseweft
 printings:
 - DTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 56369
     mtgo_id: 56368
     name: Dragons of Tarkir
     number: 92
     rarity: rare
     release_date: 2015-03-27
-    set_number: 92
     wizards_id: 394524
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394524
 rules: '[[symbol:1]][[symbol:B]], Exile one or more creature cards from your graveyard:
@@ -61,11 +62,15 @@ rules: '[[symbol:1]][[symbol:B]], Exile one or more creature cards from your gra
 slug: corpseweft
 tags: card-color-black card-color-black-cost-3 card-type-enchantment
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* B Token Creature Zombie Horror'
   power_toughness: '*/*'
   rules: ''
   subtype: Zombie Horror
+  tla: DTK
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/corpseweft/

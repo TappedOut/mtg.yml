@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -39,21 +39,26 @@ name: Sprouting Thrinax
 power_toughness: 3/3
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
 - MM3:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63136
     mtgo_id: 63135
     name: Modern Masters 2017 Edition
     number: 189
     rarity: uncommon
     release_date: 2017-03-17
-    set_number: 189
     wizards_id: 426014
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426014
 - C13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 50935
     mtgo_id: 50934
     name: Commander 2013
@@ -62,6 +67,8 @@ printings:
     wizards_id: 376519
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376519
 - ALA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 30930
     mtgo_id: 30929
     name: Shards of Alara
@@ -70,12 +77,13 @@ printings:
     wizards_id: 174863
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=174863
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 21
     rarity: rare
     release_date: 1990-04-15
-    set_number: 21
 rules: When Sprouting Thrinax dies, create three 1/1 green Saproling creature tokens.
 slug: sprouting-thrinax
 subtype: Lizard
@@ -84,11 +92,15 @@ subtype_tokens:
 tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-green card-color-red
   card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: MM3
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/sprouting-thrinax/

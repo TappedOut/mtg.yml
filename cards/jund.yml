@@ -27,7 +27,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Devour
@@ -35,6 +35,8 @@ mana_cost_converted: 0
 name: Jund
 printings:
 - PC2:
+    border_color: B
+    frame: modern
     mtgo_id: 44944
     name: Planechase 2012 Edition
     rarity: common
@@ -50,11 +52,15 @@ subtype_tokens:
 - Alara
 tags: card-color-colorless card-color-colorless-cost-0 card-type-plane
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: PC2
   type: Token Creature
 type: Plane
 url: http://tappedout.net/mtg-card/jund/

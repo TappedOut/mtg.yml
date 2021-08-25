@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -39,9 +39,12 @@ mana_cost_converted: 3
 name: Gallows at Willow Hill
 printings:
 - AVR:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 43814
     mtgo_id: 43813
     name: 'Avacyn Restored '
+    number: 215
     rarity: rare
     release_date: 2012-05-04
     wizards_id: 262674
@@ -51,11 +54,15 @@ rules: '3, {T}, Tap three untapped Humans you control: Destroy target creature. 
 slug: gallows-at-willow-hill
 tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: AVR
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/gallows-at-willow-hill/

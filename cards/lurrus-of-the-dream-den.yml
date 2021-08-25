@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Lifelink
@@ -45,11 +45,12 @@ name: Lurrus of the Dream-Den
 power_toughness: 3/2
 printings:
 - IKO:
+    border_color: B
+    frame: m15
     name: 'Ikoria: Lair of Behemoths'
     number: 226
     rarity: rare
     release_date: 2020-04-15
-    set_number: 226
     variations:
     - identifier: '355'
     - identifier: PromoPack
@@ -72,12 +73,15 @@ subtype_tokens:
 tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-white card-type-creature
   card-type-legendary
 tokens:
-- colors: null
-  name: Emblem Companion
+- cannonical_type: Emblem
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Companion Zone
   power_toughness: null
   rules: As each game begins, you can place on card with companion here if  your starting
     deck meets its condition. You may cast it once from here.
-  subtype: Companion
+  tla: IKO
   type: Emblem
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/lurrus-of-the-dream-den/
