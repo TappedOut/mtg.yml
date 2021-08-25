@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Infect
@@ -41,9 +41,12 @@ mana_cost_converted: 4
 name: Trigon of Infestation
 printings:
 - SOM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 38042
     mtgo_id: 38041
     name: Scars of Mirrodin
+    number: 214
     rarity: uncommon
     release_date: 2010-10-01
     wizards_id: 194232
@@ -55,12 +58,16 @@ rules: "Trigon of Infestation enters the battlefield with three charge counters 
 slug: trigon-of-infestation
 tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Insect 1/1 G w/ Infect
   power_toughness: 1/1
   rules: Infect *(This creature deals damage to creatures in the form of -1/-1 counters
     and to players in the form of poison counters.)*
   subtype: Insect
+  tla: SOM
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/trigon-of-infestation/

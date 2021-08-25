@@ -24,7 +24,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tap/Untap
@@ -35,51 +35,61 @@ name: Myr Battlesphere
 power_toughness: 4/7
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 253
     rarity: rare
     release_date: 2021-04-23
-    set_number: 253
+    wizards_id: 519288
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519288
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 276
     rarity: rare
     release_date: 2020-08-07
-    set_number: 276
 - C18:
+    border_color: B
+    frame: m15
     name: Commander 2018
     number: 212
     rarity: rare
     release_date: 2018-08-10
-    set_number: 212
     wizards_id: 451167
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451167
 - CM2:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology 2018
     number: 202
     rarity: rare
     release_date: 2018-06-08
-    set_number: 202
     wizards_id: 446938
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446938
 - DDU:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Elves vs. Inventors'
     number: 57
     rarity: rare
     release_date: 2018-04-06
-    set_number: 57
     wizards_id: 442793
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442793
 - C16:
+    border_color: B
+    frame: m15
     name: Commander 2016
     number: 263
     rarity: rare
     release_date: 2016-11-11
-    set_number: 263
     wizards_id: 420880
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420880
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54886
     mtgo_id: 54885
     name: Commander 2014
@@ -88,6 +98,8 @@ printings:
     wizards_id: 389608
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389608
 - C13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51105
     mtgo_id: 51104
     name: Commander 2013
@@ -96,6 +108,8 @@ printings:
     wizards_id: 376421
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376421
 - SOM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 38308
     mtgo_id: 38307
     name: Scars of Mirrodin
@@ -114,11 +128,15 @@ subtype_tokens:
 - Construct
 tags: card-color-colorless card-color-colorless-cost-7 card-type-artifact card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Myr 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Myr
+  tla: C21
   type: Token Artifact Creature
 type: Artifact Creature
 url: http://tappedout.net/mtg-card/myr-battlesphere/

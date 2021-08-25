@@ -27,7 +27,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -37,22 +37,28 @@ name: Myrsmith
 power_toughness: 2/1
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 23
     rarity: uncommon
     release_date: 2020-08-07
-    set_number: 23
+    wizards_id: 489696
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489696
 - MM2:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 57269
     mtgo_id: 57268
     name: Modern Masters 2015 Edition
     number: 28
     rarity: uncommon
     release_date: 2015-05-22
-    set_number: 28
     wizards_id: 397779
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397779
 - SOM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 38304
     mtgo_id: 38303
     name: Scars of Mirrodin
@@ -69,11 +75,15 @@ subtype_tokens:
 - Artificer
 tags: card-color-white card-color-white-cost-2 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Myr 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Myr
+  tla: 2XM
   type: Token Artifact Creature
 type: Creature
 url: http://tappedout.net/mtg-card/myrsmith/

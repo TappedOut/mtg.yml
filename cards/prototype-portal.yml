@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -40,14 +40,17 @@ mana_cost_converted: 4
 name: Prototype Portal
 printings:
 - C18:
+    border_color: B
+    frame: m15
     name: Commander 2018
     number: 216
     rarity: rare
     release_date: 2018-08-10
-    set_number: 216
     wizards_id: 451171
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451171
 - SOM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 38238
     mtgo_id: 38237
     name: Scars of Mirrodin
@@ -61,11 +64,14 @@ rules: "*Imprint* &mdash; When Prototype Portal enters the battlefield, you may 
 slug: prototype-portal
 tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: C18
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/prototype-portal/
