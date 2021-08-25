@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -46,13 +46,14 @@ mana_cost_converted: 4
 name: Outlaws' Merriment
 printings:
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78541
     mtgo_id: 78540
     name: Throne of Eldraine
     number: 198
     rarity: mythic_rare
     release_date: 2019-10-04
-    set_number: 198
     variations:
     - identifier: '382'
     - identifier: PromoPack
@@ -66,24 +67,36 @@ rules: "At the beginning of your upkeep, choose on at random. Create a red and w
 slug: outlaws-merriment
 tags: card-color-gold card-color-gold-cost-4 card-color-red card-color-white card-type-enchantment
 tokens:
-- colors: RW
+- cannonical_type: Creature
+  colors: RW
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/1 RW Token Creature Human Cleric
   power_toughness: 2/1
   rules: Lifelink, haste
   subtype: Human Cleric
+  tla: ELD
   type: Token Creature
-- colors: RW
+- cannonical_type: Creature
+  colors: RW
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/2 RW Token Creature Human Rogue
   power_toughness: 1/2
   rules: "Haste\r\n\r\nWhen this creature enters the battlefield, it deals 1 damage\
     \ to target creature, player or planeswalker."
   subtype: Human Rogue
+  tla: ELD
   type: Token Creature
-- colors: RW
+- cannonical_type: Creature
+  colors: RW
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/1 RW Token Creature Human Warrior
   power_toughness: 3/1
   rules: Trample, haste
   subtype: Human Warrior
+  tla: ELD
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/outlaws-merriment/

@@ -44,7 +44,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -56,13 +56,14 @@ name: Oakhame Ranger
 power_toughness: 2/2
 printings:
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78569
     mtgo_id: 78568
     name: Throne of Eldraine
     number: 212
     rarity: uncommon
     release_date: 2019-10-04
-    set_number: 212
     variations:
     - identifier: '302'
 rules: "[[symbol:T]]: Creatures you control get +1/+1 until end of turn.\r\n\r\n<br>\r\
@@ -92,11 +93,15 @@ synonyms:
 - Bring Back / Oakhame Ranger
 tags: card-color-gold card-color-gold-cost-8 card-color-green card-color-white card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Human
   power_toughness: 1/1
   rules: ''
   subtype: Human
+  tla: ELD
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/oakhame-ranger/
