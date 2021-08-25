@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: GPT
+cannonical_set: GK2
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
@@ -25,7 +25,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -37,18 +37,21 @@ name: Belfry Spirit
 power_toughness: 1/1
 printings:
 - GK2:
-    cannonical: false
+    border_color: B
+    frame: m15
     name: 'Ravnica Allegiance: Guild Kits'
     number: 29
     rarity: uncommon
     release_date: 2019-02-15
-    set_number: 29
     wizards_id: 460455
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460455
 - GPT:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 23788
     mtgo_id: 23787
     name: Guildpact
+    number: 2
     rarity: uncommon
     release_date: 2006-02-03
     wizards_id: 96962
@@ -63,11 +66,15 @@ subtype_tokens:
 - Spirit
 tags: card-color-white card-color-white-cost-5 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 B Token Creature Bat
   power_toughness: 1/1
   rules: Flying
   subtype: Bat
+  tla: GK2
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/belfry-spirit/

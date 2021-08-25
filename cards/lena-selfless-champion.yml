@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Indestructible
@@ -45,19 +45,23 @@ name: Lena, Selfless Champion
 power_toughness: 3/3
 printings:
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 117
     rarity: rare
     release_date: 2020-07-17
-    set_number: 117
+    wizards_id: 489601
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489601
 - M19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 68204
     mtgo_id: 68203
     name: Core Set 2019
     number: 21
     rarity: rare
     release_date: 2018-07-13
-    set_number: 21
     wizards_id: 447157
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447157
 rules: "When Lena, Selfless Champion enters the battlefield, create a 1/1 white Soldier\
@@ -71,11 +75,15 @@ subtype_tokens:
 - Knight
 tags: card-color-white card-color-white-cost-6 card-type-creature card-type-legendary
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W
   power_toughness: 1/1
   rules: ''
   subtype: Soldier
+  tla: JMP
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/lena-selfless-champion/

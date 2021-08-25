@@ -40,7 +40,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -52,13 +52,14 @@ name: Proven Combatant
 power_toughness: 1/1
 printings:
 - HOU:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 64569
     mtgo_id: 64568
     name: Hour of Devastation
     number: 42
     rarity: common
     release_date: 2017-07-14
-    set_number: 42
     wizards_id: 430731
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430731
 rules: 'Eternalize [[symbol:4]][[symbol:U]][[symbol:U]] *([[symbol:4]][[symbol:U]][[symbol:U]],
@@ -73,11 +74,15 @@ synonyms:
 - Proven Combattant
 tags: card-color-blue card-color-blue-cost-1 card-type-creature
 tokens:
-- colors: B
-  name: 4/4 B Token Creature Zombie Human Warrior
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Proven Combatant 4/4 B
   power_toughness: 4/4
   rules: ''
   subtype: Zombie Human Warrior
+  tla: HOU
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/proven-combatant/

@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -46,18 +46,23 @@ name: Bartered Cow
 power_toughness: 3/3
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78101
     mtgo_id: 78100
     name: Throne of Eldraine
     number: 6
     rarity: common
     release_date: 2019-10-04
-    set_number: 6
+    wizards_id: 472968
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=472968
 rules: 'When Bartered Cow is put into the graveyard from the battlefield or is discarded,
   create a Food token. *(It''s an artifact with "[[symbol:2]], [[symbol:T]]. Sacrifice
   this artifact: You gain 3 life.")*'
@@ -67,11 +72,15 @@ subtype_tokens:
 - Ox
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: C
-  name: C Token Artifact Food
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Food
   power_toughness: null
   rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
   subtype: Food
+  tla: ELD
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/bartered-cow/

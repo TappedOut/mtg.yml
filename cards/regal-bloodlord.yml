@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -42,13 +42,14 @@ name: Regal Bloodlord
 power_toughness: 2/4
 printings:
 - M19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 68608
     mtgo_id: 68607
     name: Core Set 2019
     number: 222
     rarity: uncommon
     release_date: 2018-07-13
-    set_number: 222
     wizards_id: 447359
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447359
 rules: "Flying\r\n\r\nAt the beginning of each end step, if you gained life this turn,\
@@ -60,11 +61,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-black card-color-gold card-color-gold-cost-5 card-color-white card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 B Token Creature Bat
   power_toughness: 1/1
   rules: Flying
   subtype: Bat
+  tla: M19
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/regal-bloodlord/

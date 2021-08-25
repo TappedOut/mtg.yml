@@ -39,7 +39,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -48,22 +48,26 @@ mana_cost_converted: 5
 name: Ral, Izzet Viceroy
 printings:
 - GRN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 69764
     mtgo_id: 69763
     name: Guilds of Ravnica
     number: 195
     rarity: mythic_rare
     release_date: 2018-10-05
-    set_number: 195
     variations:
     - identifier: Animated
+    wizards_id: 452945
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=452945
 - GRNMED:
+    border_color: B
     cannonical: false
+    frame: m15
     name: 'Guilds of Ravnica: Mythic Edition'
     number: 5
     rarity: common
     release_date: 2018-10-04
-    set_number: 5
 rules: "[[symbol:loyalty-plus1]]: Look at the top two cards of your library. Put one\
   \ of them into your hand and the other into your graveyard.\r\n\r\n[[symbol:loyalty-minus3]]:\
   \ Ral, Izzet Viceroy deals damage to target creature equal to the total number of\
@@ -76,12 +80,16 @@ subtype_tokens:
 - Ral
 tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-red card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Ral
   power_toughness: null
   rules: Whenever you cast an instant or sorcery spell, this emblem deals 4 damage
     to target creature, player or planeswalker and you draw two cards.
   subtype: Ral
+  tla: GRN
   type: Emblem
 type: Planeswalker
 url: http://tappedout.net/mtg-card/ral-izzet-viceroy/

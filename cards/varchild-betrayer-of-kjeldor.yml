@@ -26,7 +26,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -36,11 +36,12 @@ name: Varchild, Betrayer of Kjeldor
 power_toughness: 3/3
 printings:
 - C18:
+    border_color: B
+    frame: m15
     name: Commander 2018
     number: 28
     rarity: rare
     release_date: 2018-08-10
-    set_number: 28
     wizards_id: 450629
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=450629
 rules: "Whenever Varchild deals combat damage to a player, that player creates that\
@@ -54,11 +55,15 @@ subtype_tokens:
 - Knight
 tags: card-color-red card-color-red-cost-3 card-type-creature card-type-legendary
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 R Token Creature Survivor
   power_toughness: 1/1
   rules: ''
   subtype: Survivor
+  tla: C18
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/varchild-betrayer-of-kjeldor/

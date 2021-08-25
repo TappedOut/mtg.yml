@@ -25,18 +25,19 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 mana_cost: 4RR
 mana_cost_converted: 6
 name: Kindred Charge
 printings:
 - C17:
+    border_color: B
+    frame: m15
     name: Commander 2017
     number: 27
     rarity: rare
     release_date: 2017-08-25
-    set_number: 27
     wizards_id: 433268
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433268
 rules: Choose a creature type. For each creature you control of the chosen type, create
@@ -45,11 +46,14 @@ rules: Choose a creature type. For each creature you control of the chosen type,
 slug: kindred-charge
 tags: card-color-red card-color-red-cost-6 card-type-sorcery
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: C17
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/kindred-charge/

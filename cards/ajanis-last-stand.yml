@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -40,13 +40,14 @@ mana_cost_converted: 4
 name: Ajani's Last Stand
 printings:
 - M19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 68170
     mtgo_id: 68169
     name: Core Set 2019
     number: 4
     rarity: rare
     release_date: 2018-07-13
-    set_number: 4
     wizards_id: 447140
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447140
 rules: "Whenever a creature or planeswalker you control dies, you may sacrifice Ajani's\
@@ -56,11 +57,15 @@ rules: "Whenever a creature or planeswalker you control dies, you may sacrifice 
 slug: ajanis-last-stand
 tags: card-color-white card-color-white-cost-4 card-type-enchantment
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 4/4 W Token Creature Avatar
   power_toughness: 4/4
   rules: Flying
   subtype: Avatar
+  tla: M19
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/ajanis-last-stand/

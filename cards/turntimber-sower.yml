@@ -30,7 +30,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -41,11 +41,12 @@ name: Turntimber Sower
 power_toughness: 3/3
 printings:
 - C18:
+    border_color: B
+    frame: m15
     name: Commander 2018
     number: 35
     rarity: rare
     release_date: 2018-08-10
-    set_number: 35
     wizards_id: 450636
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=450636
 rules: "Whenever one or more land cards are put into your graveyard from anywhere,\
@@ -58,11 +59,15 @@ subtype_tokens:
 - Druid
 tags: card-color-green card-color-green-cost-3 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 G Token Creature Plant
   power_toughness: 0/1
   rules: ''
   subtype: Plant
+  tla: C18
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/turntimber-sower/

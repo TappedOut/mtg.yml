@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Landfall
@@ -46,14 +46,17 @@ name: Phylath, World Sculptor
 power_toughness: 5/5
 printings:
 - ZNR:
+    border_color: B
+    frame: m15
     name: Zendikar Rising
     number: 234
     rarity: rare
     release_date: 2020-09-25
-    set_number: 234
     variations:
     - identifier: '313'
     - identifier: PromoPack
+    wizards_id: 491885
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=491885
 rules: "When Phylath, World Sculptor enters the battlefield, create a 0/1 green Plant\
   \ creature token for each basic land you control.\r\n\r\n*Landfall* &mdash; Whenever\
   \ a land enters the battlefield under your control, put four +1/+1 counters on target\
@@ -65,11 +68,15 @@ subtype_tokens:
 tags: card-color-gold card-color-gold-cost-6 card-color-green card-color-red card-type-creature
   card-type-legendary
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 G Token Creature Plant
   power_toughness: 0/1
   rules: ''
   subtype: Plant
+  tla: ZNR
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/phylath-world-sculptor/

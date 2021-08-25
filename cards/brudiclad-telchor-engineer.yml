@@ -24,7 +24,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -35,19 +35,23 @@ name: Brudiclad, Telchor Engineer
 power_toughness: 4/4
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 193
     rarity: rare
     release_date: 2020-08-07
-    set_number: 193
+    wizards_id: 489866
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489866
 - C18:
+    border_color: B
     foil: foil
     foil_only: true
+    frame: m15
     name: Commander 2018
     number: 39
     rarity: mythic_rare
     release_date: 2018-08-10
-    set_number: 39
     wizards_id: 450640
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=450640
 rules: "Creature tokens you control have haste.\r\n\r\nAt the beginning of combat\
@@ -61,11 +65,15 @@ subtype_tokens:
 tags: card-color-blue card-color-gold card-color-gold-cost-6 card-color-red card-type-artifact
   card-type-creature card-type-legendary
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/1 U Token Artifact Creature Myr
   power_toughness: 2/1
   rules: ''
   subtype: Myr
+  tla: 2XM
   type: Token Artifact Creature
 type: Legendary Artifact Creature
 url: http://tappedout.net/mtg-card/brudiclad-telchor-engineer/

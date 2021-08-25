@@ -28,7 +28,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -42,13 +42,14 @@ name: Inalla, Archmage Ritualist
 power_toughness: 4/5
 printings:
 - C17:
+    border_color: B
     foil: foil
     foil_only: true
+    frame: m15
     name: Commander 2017
     number: 38
     rarity: mythic_rare
     release_date: 2017-08-25
-    set_number: 38
     wizards_id: 433279
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433279
 rules: "*Eminence* &mdash; Whenever another nontoken Wizard enters the battlefield\
@@ -65,11 +66,14 @@ subtype_tokens:
 tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-5 card-color-red
   card-type-creature card-type-legendary
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: C17
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/inalla-archmage-ritualist/

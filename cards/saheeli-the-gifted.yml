@@ -31,7 +31,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -43,13 +43,14 @@ mana_cost_converted: 4
 name: Saheeli, the Gifted
 printings:
 - C18:
+    border_color: B
     foil: foil
     foil_only: true
+    frame: m15
     name: Commander 2018
     number: 44
     rarity: mythic_rare
     release_date: 2018-08-10
-    set_number: 44
     wizards_id: 450645
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=450645
 rules: "[[symbol:loyalty-plus1]]: Create a 1/1 colorless Servo artifact creature token.\r\
@@ -65,17 +66,24 @@ subtype_tokens:
 tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-red card-type-legendary
   card-type-planeswalker
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: C18
   type: Token Creature
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Servo 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Servo
+  tla: C18
   type: Token Artifact Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/saheeli-the-gifted/

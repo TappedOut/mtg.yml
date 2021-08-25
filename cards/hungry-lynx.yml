@@ -25,7 +25,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 1G
 mana_cost_converted: 2
@@ -33,11 +33,12 @@ name: Hungry Lynx
 power_toughness: 2/2
 printings:
 - C17:
+    border_color: B
+    frame: m15
     name: Commander 2017
     number: 31
     rarity: rare
     release_date: 2017-08-25
-    set_number: 31
     wizards_id: 433272
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433272
 rules: "Cats you control have protection from Rats. _(They can't be blocked, targeted,\
@@ -50,11 +51,15 @@ subtype_tokens:
 - Cat
 tags: card-color-green card-color-green-cost-2 card-type-creature
 tokens:
-- colors: B
-  name: 1/1 B Token Creature Rat
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Rat 1/1 B w/ Deathtouch
   power_toughness: 1/1
   rules: Deathtouch
   subtype: Rat
+  tla: C17
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/hungry-lynx/

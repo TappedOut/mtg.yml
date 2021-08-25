@@ -39,7 +39,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Vigilance
@@ -52,18 +52,21 @@ name: Steadfast Sentinel
 power_toughness: 2/3
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - HOU:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 64533
     mtgo_id: 64532
     name: Hour of Devastation
     number: 24
     rarity: common
     release_date: 2017-07-14
-    set_number: 24
     wizards_id: 430713
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430713
 rules: "Vigilance  \r\n\r\nEternalize [[symbol:4]][[symbol:W]][[symbol:W]] *([[symbol:4]][[symbol:W]][[symbol:W]],\
@@ -76,11 +79,15 @@ subtype_tokens:
 - Cleric
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 4/4 B Token Creature Zombie Human Cleric
   power_toughness: 4/4
   rules: Vigilance
   subtype: Zombie Human Cleric
+  tla: HOU
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/steadfast-sentinel/

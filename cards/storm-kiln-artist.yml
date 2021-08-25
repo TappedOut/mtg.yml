@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -45,11 +45,14 @@ name: Storm-Kiln Artist
 power_toughness: 2/2
 printings:
 - STX:
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 115
     rarity: uncommon
     release_date: 2021-04-23
-    set_number: 115
+    wizards_id: 513592
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=513592
 rules: "Storm-Kiln Artist gets +1/+0 for each artifact you control\r\n\r\nMagecraft\u2014\
   Whenever you cast or copy an instant or sorcery spell, create a treasure token"
 slug: storm-kiln-artist
@@ -59,11 +62,15 @@ subtype_tokens:
 - Shaman
 tags: card-color-red card-color-red-cost-4 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: STX
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/storm-kiln-artist/
