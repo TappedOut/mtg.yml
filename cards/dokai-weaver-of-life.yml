@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flip
@@ -47,14 +47,17 @@ power_toughness: 3/3
 printings:
 - C18:
     booster_exclude: true
+    border_color: B
+    frame: m15
     name: Commander 2018
     number: 134
     rarity: rare
     release_date: 2018-08-10
-    set_number: 134
     wizards_id: 451089999
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451089999
 - CHK:
+    border_color: B
+    frame: modern
     name: Champions of Kamigawa
     rarity: rare
     release_date: 2004-10-01
@@ -70,11 +73,15 @@ subtype_tokens:
 - Monk
 tags: card-color-green card-color-green-cost-2 card-type-creature card-type-legendary
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* G Token Creature Elemental'
   power_toughness: '*/*'
   rules: ''
   subtype: Elemental
+  tla: C18
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/dokai-weaver-of-life/

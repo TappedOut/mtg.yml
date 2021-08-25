@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Vigilance
@@ -46,11 +46,14 @@ name: Valorous Steed
 power_toughness: 3/3
 printings:
 - M21:
+    border_color: B
+    frame: m15
     name: Core Set 2021
     number: 42
     rarity: common
     release_date: 2020-07-03
-    set_number: 42
+    wizards_id: 485365
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485365
 rules: "Vigilance *(Attacking doesn't cause this creature to tap.)*\r\n\r\nWhen Valorous\
   \ Steed enters the battlefield, create a 2/2 white Knight creature token with vigilance."
 slug: valorous-steed
@@ -59,11 +62,15 @@ subtype_tokens:
 - Unicorn
 tags: card-color-white card-color-white-cost-5 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Knight 2/2 W w/ Vigilance
   power_toughness: 2/2
   rules: Vigilance
   subtype: Knight
+  tla: M21
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/valorous-steed/

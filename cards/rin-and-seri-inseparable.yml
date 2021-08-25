@@ -45,7 +45,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -55,11 +55,14 @@ name: Rin and Seri, Inseparable
 power_toughness: 4/4
 printings:
 - M21:
+    border_color: B
+    frame: m15
     name: Core Set 2021
     number: 278
     rarity: mythic_rare
     release_date: 2020-07-03
-    set_number: 278
+    wizards_id: 489663
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489663
 rules: "Whenever you cast a Dog spell, create a 1/1 green Cat creature token.\r\n\r\
   \nWhenever you cast a Cat spell, create a 1/1 white Dog creature token.\r\n\r\n\
   [[symbol:R]][[symbol:G]][[symbol:W]], [[symbol:T]]: Rin and Seri, Inseparable deals\
@@ -87,17 +90,25 @@ synonyms:
 tags: card-color-gold card-color-gold-cost-4 card-color-green card-color-red card-color-white
   card-type-creature card-type-legendary
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 G Token Creature Cat
   power_toughness: 1/1
   rules: ''
   subtype: Cat
+  tla: M21
   type: Token Creature
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Dog
   power_toughness: 1/1
   rules: ''
   subtype: Dog
+  tla: M21
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/rin-and-seri-inseparable/

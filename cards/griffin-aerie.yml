@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -45,21 +45,28 @@ mana_cost_converted: 2
 name: Griffin Aerie
 printings:
 - M21:
+    border_color: B
+    frame: m15
     name: Core Set 2021
     number: 22
     rarity: uncommon
     release_date: 2020-07-03
-    set_number: 22
+    wizards_id: 485345
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485345
 rules: At the beginning of your end step, if you gained 3 or more life this turn,
   create a 2/2 white Griffin creature token with flying.
 slug: griffin-aerie
 tags: card-color-white card-color-white-cost-2 card-type-enchantment
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 W Token Creature Griffin
   power_toughness: 2/2
   rules: Flying
   subtype: Griffin
+  tla: M21
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/griffin-aerie/

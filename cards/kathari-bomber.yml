@@ -38,7 +38,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -52,24 +52,28 @@ name: Kathari Bomber
 power_toughness: 2/2
 printings:
 - MM3:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63178
     mtgo_id: 63177
     name: Modern Masters 2017 Edition
     number: 172
     rarity: common
     release_date: 2017-03-17
-    set_number: 172
     wizards_id: 425997
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425997
 - DDN:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Speed vs. Cunning'
     number: 11
     rarity: common
     release_date: 2014-09-05
-    set_number: 11
     wizards_id: 386337
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386337
 - ARB:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 32331
     mtgo_id: 32330
     name: Alara Reborn
@@ -89,11 +93,15 @@ subtype_tokens:
 - Shaman
 tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-red card-type-creature
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: MM3
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/kathari-bomber/

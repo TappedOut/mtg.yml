@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -43,11 +43,14 @@ name: Falconer Adept
 power_toughness: 2/3
 printings:
 - M21:
+    border_color: B
+    frame: m15
     name: Core Set 2021
     number: 18
     rarity: uncommon
     release_date: 2020-07-03
-    set_number: 18
+    wizards_id: 485341
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485341
 rules: Whenever Falconer Adept attacks, create a 1/1 white Bird creature token with
   flying that's tapped and attacking.
 slug: falconer-adept
@@ -57,11 +60,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Bird 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Bird
+  tla: M21
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/falconer-adept/
