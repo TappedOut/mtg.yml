@@ -1,7 +1,7 @@
 activated_abilities:
 - 'Sacrifice three white creatures: Exile target creature.'
 canadian_hl_score: 0
-cannonical_set: GPT
+cannonical_set: GK2
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -43,22 +43,23 @@ name: Teysa, Orzhov Scion
 power_toughness: 2/3
 printings:
 - GK2:
-    cannonical: false
+    border_color: B
+    frame: m15
     name: 'Ravnica Allegiance: Guild Kits'
     number: 26
     rarity: rare
     release_date: 2019-02-15
-    set_number: 26
     wizards_id: 460454
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460454
 - GPT:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 23936
     mtgo_id: 23935
     name: Guildpact
     number: 134
     rarity: rare
     release_date: 2006-02-03
-    set_number: 134
     wizards_id: 83546
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=83546
 rules: "Sacrifice three white creatures: Exile target creature.\r\n\r\nWhenever another\
@@ -72,11 +73,15 @@ subtype_tokens:
 tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-white card-type-creature
   card-type-legendary
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: GK2
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/teysa-orzhov-scion/

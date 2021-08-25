@@ -26,16 +26,19 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 2BB
 mana_cost_converted: 4
 name: Endless Ranks of the Dead
 printings:
 - ISD:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 42591
     mtgo_id: 42590
     name: Innistrad
+    number: 99
     rarity: rare
     release_date: 2011-09-30
     wizards_id: 234430
@@ -45,11 +48,15 @@ rules: 'At the beginning of your upkeep, put X 2/2 black Zombie creature tokens 
 slug: endless-ranks-of-the-dead
 tags: card-color-black card-color-black-cost-4 card-type-enchantment
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: ISD
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/endless-ranks-of-the-dead/

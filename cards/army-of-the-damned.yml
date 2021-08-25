@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Exile
@@ -41,32 +41,37 @@ mana_cost_converted: 8
 name: Army of the Damned
 printings:
 - C18:
+    border_color: B
+    frame: m15
     name: Commander 2018
     number: 113
     rarity: mythic_rare
     release_date: 2018-08-10
-    set_number: 113
     wizards_id: 451068
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451068
 - C16:
+    border_color: B
+    frame: m15
     name: Commander 2016
     number: 105
     rarity: mythic_rare
     release_date: 2016-11-11
-    set_number: 105
     wizards_id: 420722
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420722
 - C13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51157
     mtgo_id: 51156
     name: Commander 2013
     number: 69
     rarity: mythic_rare
     release_date: 2013-11-01
-    set_number: 69
     wizards_id: 376250
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376250
 - ISD:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 42521
     mtgo_id: 42520
     name: Innistrad
@@ -80,11 +85,15 @@ rules: "Create thirteen tapped 2/2 black Zombie creature tokens.\r\n\r\nFlashbac
 slug: army-of-the-damned
 tags: card-color-black card-color-black-cost-8 card-type-sorcery
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: C18
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/army-of-the-damned/

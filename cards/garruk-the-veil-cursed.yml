@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Deathtouch
@@ -46,25 +46,27 @@ name: Garruk, the Veil-Cursed
 printings:
 - V17:
     booster_exclude: true
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     mtgo_foil_id: 66428
     mtgo_id: 66427
     name: 'From the Vault: Transform'
     number: 9
     rarity: mythic_rare
     release_date: 2017-11-24
-    set_number: 9
     wizards_id: 439331
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439331
 - ISD:
     booster_exclude: true
+    border_color: B
+    frame: modern
     name: Innistrad
     number: 181
     rarity: mythic_rare
     release_date: 2011-09-30
-    set_number: 181
     wizards_id: 245251
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=245251
 rules: "[[symbol:loyalty-plus1]] : Create a 1/1 black Wolf creature token with deathtouch.\r\
@@ -78,11 +80,15 @@ subtype_tokens:
 - Garruk
 tags: card-color-colorless card-color-colorless-cost-0 card-type-legendary card-type-planeswalker
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 B Token Creature Wolf
   power_toughness: 1/1
   rules: Deathtouch
   subtype: Wolf
+  tla: ISD
   type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/garruk-the-veil-cursed/

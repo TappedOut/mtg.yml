@@ -4,7 +4,7 @@ activated_abilities:
 activation_costs:
 - B
 canadian_hl_score: 0
-cannonical_set: C17
+cannonical_set: GK2
 cannonical_type: Creature
 companions:
 - Gyruda, Doom of Depths
@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -44,32 +44,36 @@ name: Skeletal Vampire
 power_toughness: 3/3
 printings:
 - GK2:
-    cannonical: false
+    border_color: B
+    frame: m15
     name: 'Ravnica Allegiance: Guild Kits'
     number: 34
     rarity: rare
     release_date: 2019-02-15
-    set_number: 34
     wizards_id: 460460
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460460
 - C17:
+    border_color: B
+    frame: m15
     name: Commander 2017
     number: 126
     rarity: rare
     release_date: 2017-08-25
-    set_number: 126
     wizards_id: 433058
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433058
 - DD3:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Duel Decks Anthology
     number: 46
     rarity: rare
     release_date: 2014-12-05
-    set_number: 46
     wizards_id: 393922
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393922
 - MMA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 49013
     mtgo_id: 49012
     name: Modern Masters
@@ -78,6 +82,8 @@ printings:
     wizards_id: 370363
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370363
 - DDD:
+    border_color: B
+    frame: modern
     mtgo_id: 34996
     name: 'Duel Decks: Garruk vs. Liliana'
     rarity: rare
@@ -85,6 +91,8 @@ printings:
     wizards_id: 201809
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=201809
 - GPT:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 23716
     mtgo_id: 23715
     name: Guildpact
@@ -103,11 +111,15 @@ subtype_tokens:
 - Skeleton
 tags: card-color-black card-color-black-cost-6 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 B Token Creature Bat
   power_toughness: 1/1
   rules: Flying
   subtype: Bat
+  tla: GK2
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/skeletal-vampire/

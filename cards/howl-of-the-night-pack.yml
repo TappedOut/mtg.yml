@@ -30,31 +30,35 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 mana_cost: 6G
 mana_cost_converted: 7
 name: Howl of the Night Pack
 printings:
 - M14:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 49146
     mtgo_id: 49145
     name: Magic 2014
     number: 178
     rarity: uncommon
     release_date: 2013-07-19
-    set_number: 178
     wizards_id: 370718
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370718
 - DPA:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_id: 34111
     name: Duels of the Planeswalkers
     number: 69
     rarity: uncommon
     release_date: 2010-06-04
-    set_number: 69
 - M10:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 32700
     mtgo_id: 32699
     name: 2010 Core Set
@@ -63,6 +67,8 @@ printings:
     wizards_id: 189908
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=189908
 - SHM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 29676
     mtgo_id: 29675
     name: Shadowmoor
@@ -75,11 +81,15 @@ rules: "Put a 2/2 green Wolf creature token onto the battlefield for each Forest
 slug: howl-of-the-night-pack
 tags: card-color-green card-color-green-cost-7 card-type-sorcery
 tokens:
-- colors: G
-  name: 2/2 G Token Creature Wolf
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Wolf 2/2 G
   power_toughness: 2/2
   rules: ''
   subtype: Wolf
+  tla: M14
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/howl-of-the-night-pack/

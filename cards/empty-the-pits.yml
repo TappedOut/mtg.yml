@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Exile
@@ -39,13 +39,14 @@ mana_cost_converted: 4
 name: Empty the Pits
 printings:
 - KTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54347
     mtgo_id: 54346
     name: Khans of Tarkir
     number: 72
     rarity: mythic_rare
     release_date: 2014-09-26
-    set_number: 72
     wizards_id: 386531
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386531
 rules: "Delve *(Each card you exile from your graveyard while casting the spell pays\
@@ -54,11 +55,15 @@ rules: "Delve *(Each card you exile from your graveyard while casting the spell 
 slug: empty-the-pits
 tags: card-color-black card-color-black-cost-4 card-type-instant
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: KTK
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/empty-the-pits/

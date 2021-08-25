@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Flying
@@ -38,9 +38,12 @@ mana_cost_converted: 4
 name: Seize the Soul
 printings:
 - GPT:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 23698
     mtgo_id: 23697
     name: Guildpact
+    number: 61
     rarity: rare
     release_date: 2006-02-03
     wizards_id: 96888
@@ -52,11 +55,15 @@ rules: "Destroy target nonwhite nonblack creature. Put a 1/1 white Spirit creatu
 slug: seize-the-soul
 tags: card-color-black card-color-black-cost-4 card-type-instant
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: GPT
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/seize-the-soul/

@@ -25,7 +25,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Transform
@@ -35,6 +35,8 @@ power_toughness: 3/3
 printings:
 - ISD:
     booster_exclude: true
+    border_color: B
+    frame: modern
     name: Innistrad
     rarity: rare
     release_date: 2011-09-30
@@ -42,7 +44,9 @@ printings:
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=222183
 - '000':
     booster_exclude: true
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     rarity: rare
     release_date: 1990-04-15
@@ -56,11 +60,15 @@ subtype_tokens:
 - Werewolf
 tags: card-color-colorless card-color-colorless-cost-0 card-type-creature
 tokens:
-- colors: G
-  name: 2/2 G Token Creature Wolf
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Wolf 2/2 G
   power_toughness: 2/2
   rules: ''
   subtype: Wolf
+  tla: ISD
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/howlpack-alpha/

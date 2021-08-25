@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -42,19 +42,23 @@ mana_cost_converted: 3
 name: Abzan Ascendancy
 printings:
 - C20:
+    border_color: B
+    frame: m15
     name: Commander 2020
     number: 198
     rarity: rare
     release_date: 2020-05-15
-    set_number: 198
+    wizards_id: 482826
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482826
 - KTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54427
     mtgo_id: 54426
     name: Khans of Tarkir
     number: 160
     rarity: rare
     release_date: 2014-09-26
-    set_number: 160
     wizards_id: 386464
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386464
 rules: "When Abzan Ascendancy enters the battlefield, put a +1/+1 counter on each\
@@ -66,11 +70,15 @@ synonyms:
 tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-green card-color-white
   card-type-enchantment
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: C20
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/abzan-ascendancy/

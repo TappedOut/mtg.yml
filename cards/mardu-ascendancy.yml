@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -44,13 +44,14 @@ mana_cost_converted: 3
 name: Mardu Ascendancy
 printings:
 - KTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54431
     mtgo_id: 54430
     name: Khans of Tarkir
     number: 185
     rarity: rare
     release_date: 2014-09-26
-    set_number: 185
     wizards_id: 386590
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386590
 rules: "Whenever a nontoken creature you control attacks, put a 1/1 red goblin creature\
@@ -62,11 +63,15 @@ synonyms:
 tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-red card-color-white
   card-type-enchantment
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: KTK
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/mardu-ascendancy/

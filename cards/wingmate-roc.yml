@@ -26,7 +26,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -38,21 +38,25 @@ name: Wingmate Roc
 power_toughness: 3/4
 printings:
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77271
     mtgo_id: 77270
     name: Commander 2019
     number: 78
     rarity: mythic_rare
     release_date: 2019-08-23
-    set_number: 78
+    wizards_id: 470624
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470624
 - KTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54289
     mtgo_id: 54288
     name: Khans of Tarkir
     number: 31
     rarity: mythic_rare
     release_date: 2014-09-26
-    set_number: 31
     wizards_id: 386726
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386726
 rules: "Flying\r\n\r\n*Raid* &mdash; When Wingmate Roc enters the battlefield, if\
@@ -65,11 +69,15 @@ subtype_tokens:
 - Bird
 tags: card-color-white card-color-white-cost-5 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/4 W Token Creature Bird
   power_toughness: 3/4
   rules: Flying
   subtype: Bird
+  tla: C19
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/wingmate-roc/

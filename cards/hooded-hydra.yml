@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Morph
@@ -42,21 +42,25 @@ power_toughness: 0/0
 printings:
 - C19:
     booster_exclude: true
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77459
     mtgo_id: 77458
     name: Commander 2019
     number: 172
     rarity: mythic_rare
     release_date: 2019-08-23
-    set_number: 172
+    wizards_id: 470718
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470718
 - KTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54411
     mtgo_id: 54410
     name: Khans of Tarkir
     number: 136
     rarity: mythic_rare
     release_date: 2014-09-26
-    set_number: 136
     wizards_id: 386557
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386557
 rules: "Hooded Hydra enters the battlefield with X +1/+1 counters on it.\r\n\r\nWhen\
@@ -72,18 +76,25 @@ subtype_tokens:
 - Hydra
 tags: card-color-green card-color-green-cost-2 card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
-  type: Creature
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 G Token Creature Snake
   power_toughness: 1/1
   rules: ''
   subtype: Snake
+  tla: C19
   type: Token Creature
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
+  power_toughness: 2/2
+  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+    \ with morph can be turned face up at any time for its morph cost.*"
+  tla: C19
+  type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/hooded-hydra/
