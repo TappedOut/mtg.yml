@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -41,13 +41,14 @@ mana_cost_converted: 3
 name: Nest of Scarabs
 printings:
 - AKH:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63805
     mtgo_id: 63804
     name: Amonkhet
     number: 101
     rarity: uncommon
     release_date: 2017-04-28
-    set_number: 101
     wizards_id: 426803
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426803
 rules: Whenever you put one or more -1/-1 counters on a creature, create that many
@@ -55,11 +56,15 @@ rules: Whenever you put one or more -1/-1 counters on a creature, create that ma
 slug: nest-of-scarabs
 tags: card-color-black card-color-black-cost-3 card-type-enchantment
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 B Token Creature Insect
   power_toughness: 1/1
   rules: ''
   subtype: Insect
+  tla: AKH
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/nest-of-scarabs/

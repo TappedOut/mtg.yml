@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Scry
@@ -39,33 +39,39 @@ mana_cost_converted: 5
 name: Fated Intervention
 printings:
 - BNG:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51856
     mtgo_id: 51855
     name: Born of the Gods
     number: 121
     rarity: rare
     release_date: 2014-02-07
-    set_number: 121
     wizards_id: 378493
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=378493
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 2
     rarity: rare
     release_date: 1990-04-15
-    set_number: 2
 rules: Put two 3/3 green Centaur enchantment creature tokens onto the battlefield.
   If it's your turn, scry 2. *(Look at the top two cards of your library, then put
   any number of them on the bottom of your library and the rest on top in any order.)*
 slug: fated-intervention
 tags: card-color-green card-color-green-cost-5 card-type-instant
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 G Token Enchantment Creature Centaur
   power_toughness: 3/3
   rules: ''
   subtype: Centaur
+  tla: BNG
   type: Token Enchantment Creature
 type: Instant
 url: http://tappedout.net/mtg-card/fated-intervention/

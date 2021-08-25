@@ -26,20 +26,21 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 mana_cost: 3U
 mana_cost_converted: 4
 name: Tempt with Reflections
 printings:
 - C13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51331
     mtgo_id: 51330
     name: Commander 2013
     number: 60
     rarity: rare
     release_date: 2013-11-01
-    set_number: 60
     wizards_id: 376545
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376545
 rules: "Tempting offer \u2014 Choose target creature you control. Put a token onto\
@@ -49,11 +50,14 @@ rules: "Tempting offer \u2014 Choose target creature you control. Put a token on
 slug: tempt-with-reflections
 tags: card-color-blue card-color-blue-cost-4 card-type-sorcery
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: C13
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/tempt-with-reflections/

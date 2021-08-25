@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tap/Untap
@@ -41,13 +41,14 @@ name: God-Favored General
 power_toughness: 1/1
 printings:
 - BNG:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51660
     mtgo_id: 51659
     name: Born of the Gods
     number: 14
     rarity: uncommon
     release_date: 2014-02-07
-    set_number: 14
     wizards_id: 378386
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=378386
 rules: '*Inspired* - Whenever God-Favored General becomes untapped, you may pay {2}{W}.
@@ -61,11 +62,15 @@ synonyms:
 - God-Favoured General
 tags: card-color-white card-color-white-cost-2 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Enchantment Creature Soldier
   power_toughness: 1/1
   rules: ''
   subtype: Soldier
+  tla: BNG
   type: Token Enchantment Creature
 type: Creature
 url: http://tappedout.net/mtg-card/god-favored-general/

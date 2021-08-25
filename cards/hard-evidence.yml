@@ -15,11 +15,14 @@ effective_cost:
 flat_cost: 1
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -31,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Sacrifice
@@ -42,28 +45,39 @@ mana_cost_converted: 1
 name: Hard Evidence
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 46
     rarity: common
     release_date: 2021-06-18
-    set_number: 46
+    wizards_id: 522122
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522122
 rules: "Create an 0/3 blue Crab creature token.\r\n\r\nInvestigate. *(Create a colourless\
   \ Clue artifact token with \"[[symbol:2]], Sacrifice this artifact: Draw a card.\"\
   )*"
 slug: hard-evidence
 tags: card-color-blue card-color-blue-cost-1 card-type-sorcery
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Crab
   power_toughness: 0/3
   rules: ''
   subtype: Crab
+  tla: MH2
   type: Token Creature
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Clue
   power_toughness: null
   rules: '[[symbol:2]], Sacrifice this: Draw a card.'
   subtype: Clue
+  tla: MH2
   type: Token Artifact
 type: Sorcery
 url: http://tappedout.net/mtg-card/hard-evidence/

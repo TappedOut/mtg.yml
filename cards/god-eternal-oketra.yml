@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Double strike
@@ -41,22 +41,24 @@ name: God-Eternal Oketra
 power_toughness: 3/6
 printings:
 - WAR:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71639
     mtgo_id: 71638
     name: War of the Spark
     number: 16
     rarity: mythic_rare
     release_date: 2019-05-03
-    set_number: 16
     wizards_id: 460943
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460943
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: mythic_rare
     release_date: 1990-04-15
-    set_number: 1
 rules: "Double strike\r\n\r\nWhenever you cast a creature spell, create a 4/4 black\
   \ Zombie Warrior creature token with vigilance.\r\n\r\nWhen God-Eternal Oketra is\
   \ put into the graveyard or exile from the battlefield, you may put it into its\
@@ -68,11 +70,15 @@ subtype_tokens:
 - God
 tags: card-color-white card-color-white-cost-5 card-type-creature card-type-legendary
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 4/4 B Token Creature Zombie Warrior
   power_toughness: 4/4
   rules: Vigilance
   subtype: Zombie Warrior
+  tla: WAR
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/god-eternal-oketra/

@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -39,14 +39,17 @@ mana_cost_converted: 6
 name: Cobra Trap
 printings:
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 180
     rarity: uncommon
     release_date: 2015-11-13
-    set_number: 180
     wizards_id: 405175
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405175
 - CMD:
+    border_color: B
+    frame: modern
     mtgo_id: 40579
     name: 'MTG: Commander'
     rarity: uncommon
@@ -54,6 +57,8 @@ printings:
     wizards_id: 247545
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247545
 - ZEN:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 34807
     mtgo_id: 34806
     name: Zendikar
@@ -71,11 +76,15 @@ subtype_tokens:
 - Trap
 tags: card-color-green card-color-green-cost-6 card-type-instant
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 G Token Creature Snake
   power_toughness: 1/1
   rules: ''
   subtype: Snake
+  tla: C15
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/cobra-trap/

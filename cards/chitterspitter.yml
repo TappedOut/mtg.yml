@@ -19,11 +19,14 @@ effective_cost:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -33,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -44,13 +47,16 @@ mana_cost_converted: 3
 name: Chitterspitter
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 153
     rarity: rare
     release_date: 2021-06-18
-    set_number: 153
     variations:
     - identifier: '460'
+    wizards_id: 522229
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522229
 rules: "At the beginning of your upkeep, you may sacrifice a token. If you do, put\
   \ an acorn counter on this.\r\n\r\nSquirrels you control get +1/+1 for each acorn\
   \ counter on this.\r\n\r\n[[symbol:G]], [[symbol:T]]: Create a 1/1 green Squirrel\
@@ -58,11 +64,15 @@ rules: "At the beginning of your upkeep, you may sacrifice a token. If you do, p
 slug: chitterspitter
 tags: card-color-green card-color-green-cost-3 card-type-artifact
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Squirrel 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Squirrel
+  tla: MH2
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/chitterspitter/

@@ -13,11 +13,14 @@ effective_cost:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -29,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -40,11 +43,14 @@ name: Etherium Spinner
 power_toughness: 2/1
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 40
     rarity: common
     release_date: 2021-06-18
-    set_number: 40
+    wizards_id: 522116
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522116
 rules: Whenever you cast a spell with converted mana cost/mana value 4 or greater,
   create a 1/1 colourless Thopter artifact creature token with flying.
 slug: etherium-spinner
@@ -54,11 +60,15 @@ subtype_tokens:
 - Wizard
 tags: card-color-blue card-color-blue-cost-3 card-type-artifact card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Thopter 1/1 C
   power_toughness: 1/1
   rules: Flying
   subtype: Thopter
+  tla: MH2
   type: Token Artifact Creature
 type: Artifact Creature
 url: http://tappedout.net/mtg-card/etherium-spinner/

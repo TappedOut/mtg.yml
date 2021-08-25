@@ -14,11 +14,14 @@ effective_cost:
 flat_cost: 4
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -27,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -38,24 +41,31 @@ mana_cost_converted: 4
 name: Search the Premises
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 29
     rarity: rare
     release_date: 2021-06-18
-    set_number: 29
     variations:
     - identifier: '332'
+    wizards_id: 522105
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522105
 rules: 'Whenever a creature attacks you or a planeswalker you control, investigate.
   *(Create a colourless Clue artifact token with "[[symbol:2]], Sacrifice this artifact:
   Draw a card.")*'
 slug: search-the-premises
 tags: card-color-white card-color-white-cost-4 card-type-enchantment
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Clue
   power_toughness: null
   rules: '[[symbol:2]], Sacrifice this: Draw a card.'
   subtype: Clue
+  tla: MH2
   type: Token Artifact
 type: Enchantment
 url: http://tappedout.net/mtg-card/search-the-premises/

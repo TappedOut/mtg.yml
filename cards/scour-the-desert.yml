@@ -15,11 +15,14 @@ effective_cost:
 flat_cost: 5
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -28,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Flying
@@ -39,21 +42,28 @@ mana_cost_converted: 5
 name: Scour the Desert
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 28
     rarity: uncommon
     release_date: 2021-06-18
-    set_number: 28
+    wizards_id: 522104
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522104
 rules: Exile target creature card from your graveyard. Create X 1/1 white Bird creature
   tokens with flying, where X is the exiled card's toughness.
 slug: scour-the-desert
 tags: card-color-white card-color-white-cost-5 card-type-sorcery
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Bird 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Bird
+  tla: MH2
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/scour-the-desert/

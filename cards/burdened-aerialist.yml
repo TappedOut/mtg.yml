@@ -13,11 +13,14 @@ effective_cost:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -29,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -42,11 +45,14 @@ name: Burdened Aerialist
 power_toughness: 3/1
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 38
     rarity: common
     release_date: 2021-06-18
-    set_number: 38
+    wizards_id: 522114
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522114
 rules: "When this enters the battlefield, create a Treasure token. *(It's an artifact\
   \ with \"[[symbol:T]], Sacrifice this artifact: Gain one mana of any colour.\")*\r\
   \n\r\nWhenever you sacrifice a token, this gains flying until end of turn."
@@ -58,11 +64,15 @@ subtype_tokens:
 tags: card-color-blue card-color-blue-cost-3 card-mana-black card-mana-blue card-mana-green
   card-mana-red card-mana-white card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: MH2
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/burdened-aerialist/

@@ -32,20 +32,21 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 2G
 mana_cost_converted: 3
 name: Trial of Strength
 printings:
 - AKH:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63985
     mtgo_id: 63984
     name: Amonkhet
     number: 191
     rarity: uncommon
     release_date: 2017-04-28
-    set_number: 191
     wizards_id: 426893
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426893
 rules: "When Trial of Strength enters the battlefield, create a 4/2 green Beast creature\
@@ -54,11 +55,15 @@ rules: "When Trial of Strength enters the battlefield, create a 4/2 green Beast 
 slug: trial-of-strength
 tags: card-color-green card-color-green-cost-3 card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 4/2 G Token Creature Beast
   power_toughness: 4/2
   rules: ''
   subtype: Beast
+  tla: AKH
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/trial-of-strength/

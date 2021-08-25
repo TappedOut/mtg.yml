@@ -35,30 +35,32 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 2GU
 mana_cost_converted: 4
 name: Kiora, the Crashing Wave
 printings:
 - DDO:
+    border_color: B
     foil: foil
     foil_only: true
+    frame: m15
     name: 'Duel Decks: Elspeth vs. Kiora'
     number: 34
     rarity: mythic_rare
     release_date: 2015-02-27
-    set_number: 34
     wizards_id: 394380
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394380
 - BNG:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51552
     mtgo_id: 51551
     name: Born of the Gods
     number: 149
     rarity: mythic_rare
     release_date: 2014-02-07
-    set_number: 149
     wizards_id: 378521
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=378521
 rules: "[[symbol:loyalty-plus1]]: Until your next turn, prevent all damage that would\
@@ -72,18 +74,26 @@ subtype_tokens:
 - Kiora
 tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-green card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Kiora
   power_toughness: null
   rules: At the beginning of your end step, put a 9/9 blue kraken creature token onto
     the battlefield.
   subtype: Kiora
+  tla: DDO
   type: Emblem
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Kraken 9/9 U
   power_toughness: 9/9
   rules: ''
   subtype: Kraken
+  tla: DDO
   type: Token Creature
 type: Planeswalker
 url: http://tappedout.net/mtg-card/kiora-the-crashing-wave/

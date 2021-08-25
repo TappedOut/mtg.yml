@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 5G
 mana_cost_converted: 6
@@ -37,13 +37,14 @@ name: Pheres-Band Raiders
 power_toughness: 5/5
 printings:
 - BNG:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51704
     mtgo_id: 51703
     name: Born of the Gods
     number: 133
     rarity: uncommon
     release_date: 2014-02-07
-    set_number: 133
     wizards_id: 378505
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=378505
 rules: "Inspired \u2014 Whenever Pheres-Band Raiders becomes untapped, you may pay\
@@ -55,11 +56,15 @@ subtype_tokens:
 - Warrior
 tags: card-color-green card-color-green-cost-6 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 G Token Enchantment Creature Centaur
   power_toughness: 3/3
   rules: ''
   subtype: Centaur
+  tla: BNG
   type: Token Enchantment Creature
 type: Creature
 url: http://tappedout.net/mtg-card/pheres-band-raiders/

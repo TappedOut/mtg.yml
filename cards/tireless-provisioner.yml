@@ -13,11 +13,14 @@ effective_cost:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -27,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -41,11 +44,14 @@ name: Tireless Provisioner
 power_toughness: 3/2
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 180
     rarity: uncommon
     release_date: 2021-06-18
-    set_number: 180
+    wizards_id: 522256
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522256
 rules: '*Landfall* &mdash; Whenever a land enters the battlefield under your control,
   create a Food token or a Treasure token. *(Food is an artifact with "[[symbol:2]],
   [[symbol:T]], Sacrifice this artifact: You gain 3 life." <br>Treasure is an artifact
@@ -58,17 +64,25 @@ subtype_tokens:
 tags: card-color-green card-color-green-cost-3 card-mana-black card-mana-blue card-mana-green
   card-mana-red card-mana-white card-type-creature
 tokens:
-- colors: C
-  name: C Token Artifact Food
-  power_toughness: null
-  rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
-  subtype: Food
-  type: Token Artifact
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: MH2
+  type: Token Artifact
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Food
+  power_toughness: null
+  rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
+  subtype: Food
+  tla: MH2
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/tireless-provisioner/

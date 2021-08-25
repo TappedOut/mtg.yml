@@ -12,11 +12,14 @@ effective_cost:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -26,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -37,11 +40,12 @@ name: Magus of the Bridge
 power_toughness: 4/4
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 92
     rarity: rare
     release_date: 2021-06-18
-    set_number: 92
     variations:
     - identifier: '344'
     wizards_id: 522168
@@ -56,11 +60,15 @@ subtype_tokens:
 - Wizard
 tags: card-color-black card-color-black-cost-3 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: MH2
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/magus-of-the-bridge/

@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - First strike
@@ -43,18 +43,21 @@ mana_cost_converted: 1
 name: Cartouche of Solidarity
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - AKH:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63617
     mtgo_id: 63616
     name: Amonkhet
     number: 7
     rarity: common
     release_date: 2017-04-28
-    set_number: 7
     wizards_id: 426709
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426709
 rules: "Enchant creature you control\r\n\r\nWhen Cartouche of Solidarity enters the\
@@ -66,11 +69,15 @@ subtype_tokens:
 - Aura
 tags: card-color-white card-color-white-cost-1 card-type-enchantment
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Warrior
   power_toughness: 1/1
   rules: Vigilance
   subtype: Warrior
+  tla: AKH
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/cartouche-of-solidarity/

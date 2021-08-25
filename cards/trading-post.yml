@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -43,28 +43,34 @@ mana_cost_converted: 4
 name: Trading Post
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: rare
     release_date: 2020-03-14
 - CM2:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology 2018
     number: 225
     rarity: rare
     release_date: 2018-06-08
-    set_number: 225
     wizards_id: 446961
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446961
 - C16:
+    border_color: B
+    frame: m15
     name: Commander 2016
     number: 278
     rarity: rare
     release_date: 2016-11-11
-    set_number: 278
     wizards_id: 420895
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420895
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55032
     mtgo_id: 55031
     name: Commander 2014
@@ -73,16 +79,19 @@ printings:
     wizards_id: 389725
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389725
 - M14:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 49340
     mtgo_id: 49339
     name: Magic 2014
     number: 225
     rarity: rare
     release_date: 2013-07-19
-    set_number: 225
     wizards_id: 370646
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370646
 - M13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 45697
     mtgo_id: 45696
     name: Magic 2013
@@ -98,11 +107,15 @@ rules: "[[symbol:1]], [[symbol:T]], Discard a card: You gain 4 life.\r\n\r\n[[sy
 slug: trading-post
 tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 W Token Creature Goat
   power_toughness: 0/1
   rules: ''
   subtype: Goat
+  tla: C16
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/trading-post/

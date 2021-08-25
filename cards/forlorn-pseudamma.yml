@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Intimidate
@@ -39,13 +39,14 @@ name: Forlorn Pseudamma
 power_toughness: 2/1
 printings:
 - BNG:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51676
     mtgo_id: 51675
     name: Born of the Gods
     number: 71
     rarity: uncommon
     release_date: 2014-02-07
-    set_number: 71
     wizards_id: 378443
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=378443
 rules: "Inspired \u2014 Whenever Forlorn Pseudamma becomes untapped, you may pay 2{B}.\
@@ -56,11 +57,15 @@ subtype_tokens:
 - Zombie
 tags: card-color-black card-color-black-cost-4 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 B Token Enchantment Creature Zombie
   power_toughness: 1/1
   rules: ''
   subtype: Zombie
+  tla: BNG
   type: Token Enchantment Creature
 type: Creature
 url: http://tappedout.net/mtg-card/forlorn-pseudamma/

@@ -17,11 +17,14 @@ effective_cost:
 flat_cost: 1
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -31,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Exile
@@ -44,11 +47,14 @@ mana_produced: W, U, B, R, G
 name: Strike it Rich
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 143
     rarity: uncommon
     release_date: 2021-06-18
-    set_number: 143
+    wizards_id: 522219
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522219
 rules: "Create a Treasure token. *(It's an artifact with \"[[symbol:T]], Sacrifice\
   \ this: Gain one mana of any colour.\")*\r\n\r\nFlashback [[symbol:2]][[symbol:R]]\
   \ *(You may cast this card from your graveyard for its flashback cost. Then exile\
@@ -57,11 +63,15 @@ slug: strike-it-rich
 tags: card-color-red card-color-red-cost-1 card-mana-black card-mana-blue card-mana-green
   card-mana-red card-mana-white card-type-sorcery
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: MH2
   type: Token Artifact
 type: Sorcery
 url: http://tappedout.net/mtg-card/strike-it-rich/

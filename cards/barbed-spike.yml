@@ -15,11 +15,14 @@ effective_cost:
 flat_cost: 2
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -29,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Equip
@@ -41,11 +44,14 @@ mana_cost_converted: 2
 name: Barbed Spike
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 5
     rarity: uncommon
     release_date: 2021-06-18
-    set_number: 5
+    wizards_id: 522081
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522081
 rules: "When this enters the battlefield, create a 1/1 colourless Thopter artifact\
   \ creature token with flying, then attach this to it.\r\n\r\nEquipped creature gets\
   \ +1/+0. Equip [[symbol:2]]."
@@ -55,11 +61,15 @@ subtype_tokens:
 - Equipment
 tags: card-color-white card-color-white-cost-2 card-type-artifact
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Thopter 1/1 C
   power_toughness: 1/1
   rules: Flying
   subtype: Thopter
+  tla: MH2
   type: Token Artifact Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/barbed-spike/

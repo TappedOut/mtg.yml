@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Lifelink
@@ -41,24 +41,26 @@ name: Regal Caracal
 power_toughness: 3/3
 printings:
 - SLD:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     mtgo_foil_id: 79091
     mtgo_id: 79090
     name: Secret Lair
     number: 23
     rarity: rare
     release_date: 2019-12-09
-    set_number: 23
 - AKH:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63651
     mtgo_id: 63650
     name: Amonkhet
     number: 24
     rarity: rare
     release_date: 2017-04-28
-    set_number: 24
     wizards_id: 426726
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426726
 rules: "Other Cats you control get +1/+1 and have lifelink. \r\n\r\nWhen Regal Caracal\
@@ -69,11 +71,15 @@ subtype_tokens:
 - Cat
 tags: card-color-white card-color-white-cost-5 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Cat
   power_toughness: 1/1
   rules: Lifelink
   subtype: Cat
+  tla: AKH
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/regal-caracal/

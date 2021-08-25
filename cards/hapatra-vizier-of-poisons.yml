@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Deathtouch
@@ -44,13 +44,14 @@ name: Hapatra, Vizier of Poisons
 power_toughness: 2/2
 printings:
 - AKH:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 64001
     mtgo_id: 64000
     name: Amonkhet
     number: 199
     rarity: rare
     release_date: 2017-04-28
-    set_number: 199
     wizards_id: 426901
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426901
 rules: "Whenever Hapatra, Vizier of Poisons deals combat damage to a player, you may\
@@ -64,17 +65,25 @@ subtype_tokens:
 tags: card-color-black card-color-gold card-color-gold-cost-2 card-color-green card-type-creature
   card-type-legendary
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 G Token Creature Snake
   power_toughness: 1/1
   rules: Deathtouch
   subtype: Snake
+  tla: AKH
   type: Token Creature
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 G Token Creature Snake
   power_toughness: 1/1
   rules: ''
   subtype: Snake
+  tla: AKH
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/hapatra-vizier-of-poisons/

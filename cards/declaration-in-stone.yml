@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Exile
@@ -45,18 +45,21 @@ mana_cost_converted: 2
 name: Declaration in Stone
 printings:
 - ARENA:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Arena Cards
     rarity: rare
     release_date: 2019-09-26
 - SOI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 59879
     mtgo_id: 59878
     name: Shadows over Innistrad
     number: 12
     rarity: rare
     release_date: 2016-04-08
-    set_number: 12
     wizards_id: 409750
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409750
 rules: Exile target creature and all other creatures its controller controls with
@@ -65,11 +68,15 @@ rules: Exile target creature and all other creatures its controller controls wit
 slug: declaration-in-stone
 tags: card-color-white card-color-white-cost-2 card-type-sorcery
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Clue
   power_toughness: null
   rules: '[[symbol:2]], Sacrifice this: Draw a card.'
   subtype: Clue
+  tla: SOI
   type: Token Artifact
 type: Sorcery
 url: http://tappedout.net/mtg-card/declaration-in-stone/

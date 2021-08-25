@@ -38,7 +38,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Indestructible
@@ -48,32 +48,35 @@ mana_cost_converted: 3
 name: Gideon of the Trials
 printings:
 - AKH:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63631
     mtgo_id: 63630
     name: Amonkhet
     number: 14
     rarity: mythic_rare
     release_date: 2017-04-28
-    set_number: 14
     wizards_id: 426716
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426716
 - S17:
     booster_exclude: true
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: original
     name: SDCC Promo 2017
     number: 14
     rarity: common
     release_date: 1990-07-20
-    set_number: 14
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: mythic_rare
     release_date: 1990-04-15
-    set_number: 1
     variations:
     - identifier: '2'
 promo_sets:
@@ -91,12 +94,16 @@ subtype_tokens:
 - Gideon
 tags: card-color-white card-color-white-cost-3 card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Gideon
   power_toughness: null
   rules: As long as you control a Gideon planeswalker, you can't lose the game and
     your opponents can't win the game.
   subtype: Gideon
+  tla: AKH
   type: Emblem
 type: Planeswalker
 url: http://tappedout.net/mtg-card/gideon-of-the-trials/

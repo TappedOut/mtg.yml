@@ -39,7 +39,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Intimidate
@@ -51,37 +51,43 @@ name: Korozda Guildmage
 power_toughness: 2/2
 printings:
 - GK1:
+    border_color: B
+    frame: m15
     name: 'Guilds of Ravnica: Guild Kit'
     number: 66
     rarity: uncommon
     release_date: 2018-11-02
-    set_number: 66
     wizards_id: 456070
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456070
 - CM1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology
     number: 181
     rarity: uncommon
     release_date: 2017-06-09
-    set_number: 181
 - C16:
+    border_color: B
+    frame: m15
     name: Commander 2016
     number: 208
     rarity: uncommon
     release_date: 2016-11-11
-    set_number: 208
     wizards_id: 420825
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420825
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 224
     rarity: uncommon
     release_date: 2015-11-13
-    set_number: 224
     wizards_id: 405282
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405282
 - RTR:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 46446
     mtgo_id: 46445
     name: Return to Ravnica
@@ -90,12 +96,13 @@ printings:
     wizards_id: 270364
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=270364
 - DDJ:
+    border_color: B
+    frame: modern
     mtgo_id: 46131
     name: 'Duel Decks: Izzet vs. Golgari '
     number: 52
     rarity: uncommon
     release_date: 2012-09-07
-    set_number: 52
     wizards_id: 338415
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=338415
 rules: "[[symbol:1]][[symbol:B]][[symbol:G]]: Target creature gets +1/+1 and gains\
@@ -110,11 +117,15 @@ subtype_tokens:
 - Shaman
 tags: card-color-black card-color-gold card-color-gold-cost-2 card-color-green card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: GK1
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/korozda-guildmage/

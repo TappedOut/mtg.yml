@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 3U
 mana_cost_converted: 4
@@ -37,13 +37,14 @@ name: Aerie Worshippers
 power_toughness: 2/4
 printings:
 - BNG:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51670
     mtgo_id: 51669
     name: Born of the Gods
     number: 30
     rarity: uncommon
     release_date: 2014-02-07
-    set_number: 30
     wizards_id: 378402
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=378402
 rules: "Inspired \u2014 Whenever Aerie Worshipers becomes untapped, you may pay 2{U}.\
@@ -56,11 +57,15 @@ subtype_tokens:
 - Cleric
 tags: card-color-blue card-color-blue-cost-4 card-type-creature
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 U Token Enchantment Creature Bird
   power_toughness: 2/2
   rules: Flying
   subtype: Bird
+  tla: BNG
   type: Token Enchantment Creature
 type: Creature
 url: http://tappedout.net/mtg-card/aerie-worshippers/

@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Counters
@@ -43,13 +43,14 @@ mana_cost_converted: 6
 name: Commence the Endgame
 printings:
 - WAR:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71697
     mtgo_id: 71696
     name: War of the Spark
     number: 45
     rarity: rare
     release_date: 2019-05-03
-    set_number: 45
     variations:
     - identifier: PromoPack
     wizards_id: 460972
@@ -60,11 +61,15 @@ rules: "This spell can't be countered.\r\n\r\nDraw two cards, then amass X, wher
 slug: commence-the-endgame
 tags: card-color-blue card-color-blue-cost-6 card-type-instant
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie Army 0/0 B
   power_toughness: 0/0
   rules: ''
   subtype: Zombie Army
+  tla: WAR
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/commence-the-endgame/

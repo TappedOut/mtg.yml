@@ -16,11 +16,14 @@ effective_cost:
 flat_cost: 2
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -32,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -49,7 +52,6 @@ printings:
     number: 144
     rarity: common
     release_date: 2021-06-18
-    set_number: 144
     wizards_id: 522220
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522220
 rules: "Whenever you win a coin flip, create two Treasure tokens. *(They're artifacts\
@@ -62,11 +64,15 @@ subtype_tokens:
 - Rogue
 tags: card-color-red card-color-red-cost-2 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: MH2
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/tavern-scoundrel/

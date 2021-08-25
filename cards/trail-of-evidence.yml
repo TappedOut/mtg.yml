@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -40,18 +40,21 @@ mana_cost_converted: 3
 name: Trail of Evidence
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
 - SOI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60287
     mtgo_id: 60286
     name: Shadows over Innistrad
     number: 93
     rarity: uncommon
     release_date: 2016-04-08
-    set_number: 93
     wizards_id: 409838
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409838
 rules: 'Whenever you cast an instant of sorcery spell, investigate. *(Put a colorless
@@ -60,11 +63,15 @@ rules: 'Whenever you cast an instant of sorcery spell, investigate. *(Put a colo
 slug: trail-of-evidence
 tags: card-color-blue card-color-blue-cost-3 card-type-enchantment
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Clue
   power_toughness: null
   rules: '[[symbol:2]], Sacrifice this: Draw a card.'
   subtype: Clue
+  tla: SOI
   type: Token Artifact
 type: Enchantment
 url: http://tappedout.net/mtg-card/trail-of-evidence/

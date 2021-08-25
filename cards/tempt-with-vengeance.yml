@@ -26,7 +26,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Haste
@@ -35,13 +35,14 @@ mana_cost_converted: 1
 name: Tempt with Vengeance
 printings:
 - C13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51369
     mtgo_id: 51368
     name: Commander 2013
     number: 125
     rarity: rare
     release_date: 2013-11-01
-    set_number: 125
     wizards_id: 376546
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376546
 rules: "Tempting offer \u2014 Put X 1/1 red Elemental creature tokens with haste onto\
@@ -54,11 +55,15 @@ synonyms:
 - Tempt with Vengence
 tags: card-color-red card-color-red-cost-1 card-type-sorcery
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 R Token Creature Elemental
   power_toughness: 1/1
   rules: Haste
   subtype: Elemental
+  tla: C13
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/tempt-with-vengeance/
