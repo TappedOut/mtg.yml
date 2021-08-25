@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -44,14 +44,19 @@ mana_cost_converted: 4
 name: Sarkhan Vol
 printings:
 - MMA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 48807
     mtgo_id: 48806
     name: Modern Masters
+    number: 183
     rarity: mythic_rare
     release_date: 2013-06-07
     wizards_id: 370566
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370566
 - ALA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 31054
     mtgo_id: 31053
     name: Shards of Alara
@@ -70,11 +75,15 @@ subtype_tokens:
 - Sarkhan
 tags: card-color-gold card-color-gold-cost-4 card-color-green card-color-red card-type-planeswalker
 tokens:
-- colors: R
-  name: 4/4 R Token Creature Dragon
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Dragon 4/4 R
   power_toughness: 4/4
   rules: Flying
   subtype: Dragon
+  tla: MMA
   type: Token Creature
 type: Planeswalker
 url: http://tappedout.net/mtg-card/sarkhan-vol/

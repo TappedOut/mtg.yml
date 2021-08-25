@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Rebound
@@ -45,13 +45,14 @@ mana_cost_converted: 4
 name: Narset Transcendent
 printings:
 - DTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 56077
     mtgo_id: 56076
     name: Dragons of Tarkir
     number: 225
     rarity: mythic_rare
     release_date: 2015-03-27
-    set_number: 225
     wizards_id: 394633
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394633
 rules: "[[symbol:loyalty-plus1]]: Look at the top card of your library. If it's a\
@@ -65,11 +66,15 @@ subtype_tokens:
 - Narset
 tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-white card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Narset
   power_toughness: null
   rules: Your opponents can't cast noncreature spells.
   subtype: Narset
+  tla: DTK
   type: Emblem
 type: Planeswalker
 url: http://tappedout.net/mtg-card/narset-transcendent/

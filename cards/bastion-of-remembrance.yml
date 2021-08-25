@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -44,13 +44,14 @@ mana_cost_converted: 3
 name: Bastion of Remembrance
 printings:
 - IKO:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 80156
     mtgo_id: 80155
     name: 'Ikoria: Lair of Behemoths'
     number: 73
     rarity: uncommon
     release_date: 2020-04-15
-    set_number: 73
     wizards_id: 479593
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479593
 rules: "When Bastion of Remembrance enters the battlefield, create a 1/1 white Human\
@@ -64,11 +65,15 @@ synonyms:
 - Bastion of Rememberence
 tags: card-color-black card-color-black-cost-3 card-type-enchantment
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Human Soldier
   power_toughness: 1/1
   rules: ''
   subtype: Human Soldier
+  tla: IKO
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/bastion-of-remembrance/

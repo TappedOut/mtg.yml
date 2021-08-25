@@ -4,7 +4,7 @@ activated_abilities:
 activation_costs:
 - C
 canadian_hl_score: 0
-cannonical_set: TSR
+cannonical_set: C13
 cannonical_type: Land
 companions:
 - Gyruda, Doom of Depths
@@ -35,7 +35,7 @@ formats:
 - Vintage
 has_activated_abilities: true
 is_land: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -44,12 +44,18 @@ mana_produced: C
 name: Urza's Factory
 printings:
 - TSR:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Time Spiral Remastered
     number: 288
     rarity: uncommon
     release_date: 2021-03-19
-    set_number: 288
+    wizards_id: 509653
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509653
 - C13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51521
     mtgo_id: 51520
     name: Commander 2013
@@ -58,6 +64,8 @@ printings:
     wizards_id: 376564
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376564
 - TSP:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 25724
     mtgo_id: 25723
     name: Time Spiral
@@ -66,12 +74,13 @@ printings:
     wizards_id: 116384
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=116384
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 5
     rarity: uncommon
     release_date: 1990-04-15
-    set_number: 5
 rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:7]], [[symbol:T]]: Create\
   \ a 2/2 colourless Assembly-Worker artifact creature token."
 slug: urzas-factory
@@ -80,11 +89,15 @@ subtype_tokens:
 - Urza's
 tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Assembly-Worker 2/2 C
   power_toughness: 2/2
   rules: ''
   subtype: Assembly-Worker
+  tla: C13
   type: Token Artifact Creature
 type: Land
 url: http://tappedout.net/mtg-card/urzas-factory/

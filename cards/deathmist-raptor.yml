@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Deathtouch
@@ -43,21 +43,25 @@ name: Deathmist Raptor
 power_toughness: 3/3
 printings:
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77435
     mtgo_id: 77434
     name: Commander 2019
     number: 160
     rarity: mythic_rare
     release_date: 2019-08-23
-    set_number: 160
+    wizards_id: 470706
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470706
 - DTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 56427
     mtgo_id: 56426
     name: Dragons of Tarkir
     number: 180
     rarity: mythic_rare
     release_date: 2015-03-27
-    set_number: 180
     wizards_id: 394533
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394533
 rules: "Deathtouch\r\n\r\nWhenever a permanent you control is turned face up, you\
@@ -72,12 +76,15 @@ subtype_tokens:
 - Beast
 tags: card-color-green card-color-green-cost-3 card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: C19
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/deathmist-raptor/

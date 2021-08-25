@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Enchant
@@ -41,13 +41,14 @@ mana_cost_converted: 2
 name: Mirror Mockery
 printings:
 - DTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 56365
     mtgo_id: 56364
     name: Dragons of Tarkir
     number: 62
     rarity: rare
     release_date: 2015-03-27
-    set_number: 62
     wizards_id: 394625
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394625
 rules: "Enchant creature\r\n\r\nWhenever enchanted creature attacks, you may put a\
@@ -59,11 +60,14 @@ subtype_tokens:
 - Aura
 tags: card-color-blue card-color-blue-cost-2 card-type-enchantment
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: DTK
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/mirror-mockery/

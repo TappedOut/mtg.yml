@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -38,21 +38,23 @@ mana_cost_converted: 9
 name: Clone Legion
 printings:
 - C17:
+    border_color: B
+    frame: m15
     name: Commander 2017
     number: 84
     rarity: mythic_rare
     release_date: 2017-08-25
-    set_number: 84
     wizards_id: 433016
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433016
 - DTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55925
     mtgo_id: 55924
     name: Dragons of Tarkir
     number: 48
     rarity: mythic_rare
     release_date: 2015-03-27
-    set_number: 48
     wizards_id: 394517
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394517
 rules: For each creature target player controls, put a token onto the battlefield
@@ -60,11 +62,14 @@ rules: For each creature target player controls, put a token onto the battlefiel
 slug: clone-legion
 tags: card-color-blue card-color-blue-cost-9 card-type-sorcery
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: C17
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/clone-legion/

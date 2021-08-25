@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Regenerate
@@ -46,13 +46,14 @@ name: Marang River Skeleton
 power_toughness: 1/1
 printings:
 - DTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 56133
     mtgo_id: 56132
     name: Dragons of Tarkir
     number: 108
     rarity: uncommon
     release_date: 2015-03-27
-    set_number: 108
     wizards_id: 394621
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394621
 rules: "[[symbol:B]]: Regenerate Marang River Skeleton.\r\n\r\nMegamorph [[symbol:3]][[symbol:B]]\
@@ -64,12 +65,15 @@ subtype_tokens:
 - Skeleton
 tags: card-color-black card-color-black-cost-2 card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: DTK
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/marang-river-skeleton/

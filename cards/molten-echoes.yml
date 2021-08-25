@@ -23,7 +23,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -34,11 +34,14 @@ mana_cost_converted: 4
 name: Molten Echoes
 printings:
 - C20:
+    border_color: B
+    frame: m15
     name: Commander 2020
     number: 54
     rarity: rare
     release_date: 2020-05-15
-    set_number: 54
+    wizards_id: 484901
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=484901
 rules: "As Molten Echoes enters the battlefield, choose a creature type.\r\n\r\nWhenever\
   \ a nontoken creature of the chosen type enters the battlefield under your control,\
   \ create a token that's a copy of that creature. That token gains haste. Exile it\
@@ -46,11 +49,14 @@ rules: "As Molten Echoes enters the battlefield, choose a creature type.\r\n\r\n
 slug: molten-echoes
 tags: card-color-red card-color-red-cost-4 card-type-enchantment
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: C20
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/molten-echoes/

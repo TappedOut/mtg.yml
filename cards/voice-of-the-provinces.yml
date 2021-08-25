@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -41,25 +41,33 @@ name: Voice of the Provinces
 power_toughness: 3/3
 printings:
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 137
     rarity: common
     release_date: 2020-07-17
-    set_number: 137
+    wizards_id: 489621
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489621
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - DDQ:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Blessed vs. Cursed'
     number: 23
     rarity: common
     release_date: 2016-02-26
-    set_number: 23
     wizards_id: 409599
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409599
 - AVR:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 44100
     mtgo_id: 44099
     name: 'Avacyn Restored '
@@ -75,11 +83,15 @@ subtype_tokens:
 - Angel
 tags: card-color-white card-color-white-cost-6 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Human
   power_toughness: 1/1
   rules: ''
   subtype: Human
+  tla: JMP
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/voice-of-the-provinces/

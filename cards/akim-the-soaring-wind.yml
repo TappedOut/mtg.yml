@@ -33,7 +33,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Double strike
@@ -45,11 +45,14 @@ name: Akim, the Soaring Wind
 power_toughness: 3/4
 printings:
 - C20:
+    border_color: B
+    frame: m15
     name: Commander 2020
     number: 6
     rarity: mythic_rare
     release_date: 2020-05-15
-    set_number: 6
+    wizards_id: 484713
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=484713
 rules: "Flying\r\n\r\nWhenever you create one or more tokens for the first time each\
   \ turn, create a 1/1 white Bird creature token with flying.\r\n\r\n[[symbol:3]][[symbol:U]][[symbol:R]][[symbol:W]]:\
   \ Creature tokens you control gain double strike until end of turn."
@@ -61,11 +64,15 @@ subtype_tokens:
 tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-red card-color-white
   card-type-creature card-type-legendary
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Bird 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Bird
+  tla: C20
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/akim-the-soaring-wind/

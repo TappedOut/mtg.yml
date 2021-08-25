@@ -26,7 +26,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -35,9 +35,12 @@ mana_cost_converted: 3
 name: Lightning Coils
 printings:
 - MRD:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 20028
     mtgo_id: 20027
     name: Mirrodin
+    number: 198
     rarity: rare
     release_date: 2003-10-02
     wizards_id: 46109
@@ -52,11 +55,15 @@ synonyms:
 - Lighting Coils
 tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/1 R Token Creature Elemental
   power_toughness: 3/1
   rules: Haste
   subtype: Elemental
+  tla: MRD
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/lightning-coils/

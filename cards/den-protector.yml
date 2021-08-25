@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Morph
@@ -42,29 +42,34 @@ name: Den Protector
 power_toughness: 2/1
 printings:
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77437
     mtgo_id: 77436
     name: Commander 2019
     number: 161
     rarity: rare
     release_date: 2019-08-23
-    set_number: 161
+    wizards_id: 470707
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470707
 - C16:
+    border_color: B
+    frame: m15
     name: Commander 2016
     number: 147
     rarity: rare
     release_date: 2016-11-11
-    set_number: 147
     wizards_id: 420764
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420764
 - DTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 56067
     mtgo_id: 56066
     name: Dragons of Tarkir
     number: 181
     rarity: rare
     release_date: 2015-03-27
-    set_number: 181
     wizards_id: 394535
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394535
 rules: "Creatures with power less than Den Protector's power can't block it.\r\n\r\
@@ -79,12 +84,15 @@ subtype_tokens:
 - Warrior
 tags: card-color-green card-color-green-cost-2 card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: C19
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/den-protector/

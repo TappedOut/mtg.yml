@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Buyback
@@ -38,9 +38,12 @@ mana_cost_converted: 1
 name: Wurmcalling
 printings:
 - TSP:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 25710
     mtgo_id: 25709
     name: Time Spiral
+    number: 234
     rarity: rare
     release_date: 2006-10-06
     wizards_id: 114917
@@ -51,11 +54,15 @@ rules: "Buyback (2)(Green) (You may pay an additional (2)(Green) as you play thi
 slug: wurmcalling
 tags: card-color-green card-color-green-cost-1 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* G Token Creature Wurm'
   power_toughness: '*/*'
   rules: ''
   subtype: Wurm
+  tla: TSP
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/wurmcalling/

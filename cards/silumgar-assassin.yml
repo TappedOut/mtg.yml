@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Morph
@@ -43,21 +43,25 @@ power_toughness: 2/1
 printings:
 - C19:
     booster_exclude: true
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77371
     mtgo_id: 77370
     name: Commander 2019
     number: 128
     rarity: rare
     release_date: 2019-08-23
-    set_number: 128
+    wizards_id: 470674
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470674
 - DTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55967
     mtgo_id: 55966
     name: Dragons of Tarkir
     number: 121
     rarity: rare
     release_date: 2015-03-27
-    set_number: 121
     wizards_id: 394700
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394700
 rules: "Creatures with power greater than Silumgar Assassin's power can't block it.\r\
@@ -72,12 +76,15 @@ subtype_tokens:
 - Assassin
 tags: card-color-black card-color-black-cost-2 card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: C19
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/silumgar-assassin/
