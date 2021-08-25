@@ -41,12 +41,18 @@ mana_cost_converted: 3
 name: Heat Shimmer
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 130
     rarity: rare
     release_date: 2020-08-07
     set_number: 130
+    wizards_id: 489803
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489803
 - LRW:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 28290
     mtgo_id: 28289
     name: Lorwyn
@@ -59,11 +65,14 @@ rules: Create a token that's a copy of target creature except it has haste and "
 slug: heat-shimmer
 tags: card-color-red card-color-red-cost-3 card-type-sorcery
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: 2XM
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/heat-shimmer/
