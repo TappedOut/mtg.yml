@@ -27,7 +27,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Enchant
@@ -38,11 +38,12 @@ mana_cost_converted: 3
 name: Fall from Favor
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 68
     rarity: common
     release_date: 2020-11-20
-    set_number: 68
     variations:
     - identifier: null
     wizards_id: 497588
@@ -56,12 +57,15 @@ subtype_tokens:
 - Aura
 tags: card-color-blue card-color-blue-cost-3 card-type-enchantment
 tokens:
-- colors: C
-  name: C Emblem Monarch
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Monarch Emblem
   power_toughness: null
   rules: "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
     \ deals combat damage to you, its controller becomes the monarch."
-  subtype: Monarch
+  tla: CMR
   type: Emblem
 type: Enchantment
 url: http://tappedout.net/mtg-card/fall-from-favor/

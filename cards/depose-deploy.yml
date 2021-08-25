@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Flying
@@ -45,11 +45,12 @@ mana_cost_converted: 6
 name: Depose / Deploy
 printings:
 - RNA:
+    border_color: B
+    frame: m15
     name: Ravnica Allegiance
     number: 225
     rarity: uncommon
     release_date: 2019-01-25
-    set_number: 225
 rules: "<h4></h4>\r\n\r\nTap target creature.\r\n\r\nDraw a card.\r\n\r\n-----\r\n\
   \r\n<h4></h4>\r\n\r\nCreate two 1/1 colourless thopter artifact creature tokens\
   \ with flying, then you gain 1 life for each creature you control."
@@ -66,11 +67,15 @@ synonyms:
 - Depose to Deploy
 tags: card-color-blue card-color-gold card-color-gold-cost-6 card-color-white card-type-instant
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Thopter 1/1 C
   power_toughness: 1/1
   rules: Flying
   subtype: Thopter
+  tla: RNA
   type: Token Artifact Creature
 type: Instant
 url: http://tappedout.net/mtg-card/depose-deploy/

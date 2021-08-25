@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -42,23 +42,30 @@ mana_cost_converted: 4
 name: Rampage of the Clans
 printings:
 - RNA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71269
     mtgo_id: 71268
     name: Ravnica Allegiance
     number: 134
     rarity: rare
     release_date: 2019-01-25
-    set_number: 134
+    wizards_id: 457278
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=457278
 rules: Destroy all artifacts and enchantments. For each permanent destroyed this way,
   its controller creates a 3/3 green Centaur creature token.
 slug: rampage-of-the-clans
 tags: card-color-green card-color-green-cost-4 card-type-instant
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 G Token Creature Centaur
   power_toughness: 3/3
   rules: ''
   subtype: Centaur
+  tla: RNA
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/rampage-of-the-clans/

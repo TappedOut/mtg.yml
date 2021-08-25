@@ -22,7 +22,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -32,13 +32,16 @@ name: Biowaste Blob
 power_toughness: 0/0
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 219
     rarity: rare
     release_date: 2020-11-20
-    set_number: 219
     variations:
     - identifier: '675'
+    wizards_id: 497739
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497739
 rules: "Oozes you control get +1/+1.\r\n\r\nAt the beginning of your upkeep, if you\
   \ control a commander, create a token that's a copy of Biowaste Blob."
 slug: biowaste-blob
@@ -47,11 +50,14 @@ subtype_tokens:
 - Ooze
 tags: card-color-green card-color-green-cost-4 card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: CMR
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/biowaste-blob/

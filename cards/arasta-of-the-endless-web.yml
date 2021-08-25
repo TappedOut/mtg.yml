@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Reach
@@ -43,13 +43,14 @@ name: Arasta of the Endless Web
 power_toughness: 3/5
 printings:
 - THB:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 79455
     mtgo_id: 79454
     name: Theros Beyond Death
     number: 165
     rarity: rare
     release_date: 2020-01-24
-    set_number: 165
     variations:
     - identifier: '325'
     - identifier: '352'
@@ -65,11 +66,15 @@ subtype_tokens:
 tags: card-color-green card-color-green-cost-4 card-type-creature card-type-enchantment
   card-type-legendary
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/2 G Token Creature Spider
   power_toughness: 1/2
   rules: Reach
   subtype: Spider
+  tla: THB
   type: Token Creature
 type: Legendary Enchantment Creature
 url: http://tappedout.net/mtg-card/arasta-of-the-endless-web/

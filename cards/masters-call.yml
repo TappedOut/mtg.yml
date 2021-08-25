@@ -32,41 +32,51 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 mana_cost: 2W
 mana_cost_converted: 3
 name: Master's Call
 printings:
 - MBS:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 39572
     mtgo_id: 39571
     name: Mirrodin Besieged
+    number: 13
     rarity: common
     release_date: 2011-02-04
     wizards_id: 221554
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=221554
 - MBM:
+    border_color: B
     cannonical: false
+    frame: modern
     name: 'Mirrodin Besieged: Mirran'
     rarity: common
     release_date: 2011-02-03
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 64
     rarity: common
     release_date: 1990-04-15
-    set_number: 64
 rules: Put two 1/1 colorless Myr artifact creature tokens onto the battlefield.
 slug: masters-call
 tags: card-color-white card-color-white-cost-3 card-type-instant
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Myr 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Myr
+  tla: MBS
   type: Token Artifact Creature
 type: Instant
 url: http://tappedout.net/mtg-card/masters-call/

@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Sacrifice
@@ -48,19 +48,23 @@ mana_produced: W, U, B, R, G
 name: Heartless Pillage
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 96
     rarity: common
     release_date: 2020-08-07
-    set_number: 96
+    wizards_id: 489769
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489769
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65235
     mtgo_id: 65234
     name: Ixalan
     number: 109
     rarity: uncommon
     release_date: 2017-09-29
-    set_number: 109
     wizards_id: 435263
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435263
 rules: "Target opponent discards two cards.\r\n\r\n*Raid* &mdash; If you attacked\
@@ -70,11 +74,15 @@ slug: heartless-pillage
 tags: card-color-black card-color-black-cost-3 card-mana-black card-mana-blue card-mana-green
   card-mana-red card-mana-white card-type-sorcery
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: 2XM
   type: Token Artifact
 type: Sorcery
 url: http://tappedout.net/mtg-card/heartless-pillage/

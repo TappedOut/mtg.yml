@@ -29,7 +29,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Deathtouch
@@ -45,13 +45,16 @@ name: Elvish Dreadlord
 power_toughness: 3/3
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 121
     rarity: rare
     release_date: 2020-11-20
-    set_number: 121
     variations:
     - identifier: '647'
+    wizards_id: 497641
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497641
 rules: "Deathtouch\r\n\r\nWhen Elvish Dreadlord dies *(is put into the graveyard from\
   \ the battlefield)*, non-Elf creatures get -3/-3 until end of turn.\r\n\r\nEncore\
   \ [[symbol:5]][[symbol:B]][[symbol:B]] *([[symbol:5]][[symbol:B]][[symbol:B]], Exile\
@@ -65,11 +68,14 @@ subtype_tokens:
 - Elf
 tags: card-color-black card-color-black-cost-5 card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: CMR
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/elvish-dreadlord/

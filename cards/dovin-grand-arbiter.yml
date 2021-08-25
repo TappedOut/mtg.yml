@@ -41,7 +41,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -52,13 +52,14 @@ mana_cost_converted: 3
 name: Dovin, Grand Arbiter
 printings:
 - RNA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71335
     mtgo_id: 71334
     name: Ravnica Allegiance
     number: 167
     rarity: mythic_rare
     release_date: 2019-01-25
-    set_number: 167
     wizards_id: 457311
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=457311
 rules: "[[symbol:loyalty-plus1]]: Until end of turn, whenever a creature you control\
@@ -74,11 +75,15 @@ subtype_tokens:
 tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-white card-type-legendary
   card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Thopter 1/1 C
   power_toughness: 1/1
   rules: Flying
   subtype: Thopter
+  tla: RNA
   type: Token Artifact Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/dovin-grand-arbiter/

@@ -17,17 +17,20 @@ effective_cost:
 flat_cost: 7
 formats:
 - 1v1 Commander
+- Arena
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -38,20 +41,22 @@ name: Inspired Sphinx
 power_toughness: 5/5
 printings:
 - KHC:
+    border_color: B
+    frame: m15
     name: 'Kaldheim: Commander'
     number: 40
     rarity: mythic_rare
     release_date: 2021-02-05
-    set_number: 40
     wizards_id: 508330
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508330
 - GNT:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Magic Game Night
     number: 22
     rarity: mythic_rare
     release_date: 2018-11-16
-    set_number: 22
     wizards_id: 456522
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456522
 rules: "Flying\r\n\r\nWhen Inspired Sphinx enters the battlefield, draw cards equal\
@@ -63,11 +68,15 @@ subtype_tokens:
 - Sphinx
 tags: card-color-blue card-color-blue-cost-7 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Thopter 1/1 C
   power_toughness: 1/1
   rules: Flying
   subtype: Thopter
+  tla: KHC
   type: Token Artifact Creature
 type: Creature
 url: http://tappedout.net/mtg-card/inspired-sphinx/

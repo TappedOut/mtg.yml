@@ -39,7 +39,7 @@ formats:
 - Vintage
 has_activated_abilities: true
 is_land: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Lifelink
@@ -51,21 +51,23 @@ name: Adanto, the First Fort
 printings:
 - XLN:
     booster_exclude: true
+    border_color: B
+    frame: m15
     name: Ixalan
     number: 22
     rarity: rare
     release_date: 2017-09-29
-    set_number: 22
     wizards_id: 435174
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435174
 - '000':
     booster_exclude: true
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: rare
     release_date: 1990-04-15
-    set_number: 1
 rules: "*(Transforms from Legion's Landing.)*\r\n\r\n[[symbol:T]]: Gain [[symbol:W]].\r\
   \n\r\n[[symbol:2]][[symbol:W]], [[symbol:T]]: Create a 1/1 white Vampire creature\
   \ token with lifelink."
@@ -73,12 +75,16 @@ slug: adanto-the-first-fort
 tags: card-color-colorless card-color-colorless-cost-0 card-mana-white card-type-land
   card-type-legendary
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Vampire
   power_toughness: 1/1
   rules: Lifelink *(Damage dealt by this creature also causes you to gain that much
     life.)*
   subtype: Vampire
+  tla: XLN
   type: Token Creature
 type: Legendary Land
 url: http://tappedout.net/mtg-card/adanto-the-first-fort/

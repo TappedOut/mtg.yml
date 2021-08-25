@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Equip
@@ -41,26 +41,34 @@ mana_cost_converted: 1
 name: Flayer Husk
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 256
     rarity: common
     release_date: 2020-08-07
-    set_number: 256
+    wizards_id: 489929
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489929
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - PCA:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Planechase Anthology
     number: 110
     rarity: common
     release_date: 2016-11-25
-    set_number: 110
     wizards_id: 423535
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423535
 - MM2:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 57297
     mtgo_id: 57296
     name: Modern Masters 2015 Edition
@@ -69,6 +77,8 @@ printings:
     wizards_id: 397826
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397826
 - PC2:
+    border_color: B
+    frame: modern
     mtgo_id: 44970
     name: Planechase 2012 Edition
     rarity: common
@@ -76,6 +86,8 @@ printings:
     wizards_id: 271145
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=271145
 - MBS:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 39584
     mtgo_id: 39583
     name: Mirrodin Besieged
@@ -84,7 +96,9 @@ printings:
     wizards_id: 221560
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=221560
 - MBP:
+    border_color: B
     cannonical: false
+    frame: modern
     name: 'Mirrodin Besieged: Phyrexia'
     rarity: common
     release_date: 2011-02-03
@@ -97,11 +111,15 @@ subtype_tokens:
 - Equipment
 tags: card-color-colorless card-color-colorless-cost-1 card-type-artifact
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Phyrexian Germ 0/0 B
   power_toughness: 0/0
   rules: ''
   subtype: Phyrexian Germ
+  tla: 2XM
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/flayer-husk/

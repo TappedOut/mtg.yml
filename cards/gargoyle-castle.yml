@@ -36,7 +36,7 @@ formats:
 - Vintage
 has_activated_abilities: true
 is_land: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -47,30 +47,38 @@ mana_produced: C
 name: Gargoyle Castle
 printings:
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77613
     mtgo_id: 77612
     name: Commander 2019
     number: 245
     rarity: rare
     release_date: 2019-08-23
-    set_number: 245
+    wizards_id: 470791
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470791
 - CM1:
     booster_exclude: true
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology
     rarity: rare
     release_date: 2017-06-09
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54768
     mtgo_id: 54767
     name: Commander 2014
     number: 297
     rarity: rare
     release_date: 2014-11-21
-    set_number: 297
     wizards_id: 389532
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389532
 - M10:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 32968
     mtgo_id: 32967
     name: 2010 Core Set
@@ -84,11 +92,15 @@ rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:5]], [[symbol:T]], Sacr
 slug: gargoyle-castle
 tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/4 C Token Artifact Creature Gargoyle
   power_toughness: 3/4
   rules: Flying
   subtype: Gargoyle
+  tla: C19
   type: Token Artifact Creature
 type: Land
 url: http://tappedout.net/mtg-card/gargoyle-castle/

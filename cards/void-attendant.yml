@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -47,13 +47,14 @@ name: Void Attendant
 power_toughness: 2/3
 printings:
 - BFZ:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 58496
     mtgo_id: 58495
     name: Battle for Zendikar
     number: 169
     rarity: uncommon
     release_date: 2015-10-02
-    set_number: 169
     wizards_id: 402092
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=402092
 rules: "Devoid *(This card has no color.)*\r\n\r\n[[symbol:1]][[symbol:G]], Put a\
@@ -67,11 +68,15 @@ subtype_tokens:
 - Processor
 tags: card-color-green card-color-green-cost-3 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 C Token Creature Eldrazi Scion
   power_toughness: 1/1
   rules: 'Sacrifice this creature: Gain [[symbol:C]].'
   subtype: Eldrazi Scion
+  tla: BFZ
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/void-attendant/

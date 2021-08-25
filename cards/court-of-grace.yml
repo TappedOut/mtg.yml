@@ -23,7 +23,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -33,37 +33,51 @@ mana_cost_converted: 4
 name: Court of Grace
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 16
     rarity: rare
     release_date: 2020-11-20
-    set_number: 16
     variations:
     - identifier: '619'
+    wizards_id: 497536
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497536
 rules: "When Court of Grace enters the battlefield, you become the monarch.\r\n\r\n\
   At the beginning of your upkeep, create a 1/1 white Spirit creature token with flying.\
   \ If you're the monarch, create a 4/4 white Angel token creature with flying instead."
 slug: court-of-grace
 tags: card-color-white card-color-white-cost-4 card-type-enchantment
 tokens:
-- colors: W
-  name: 4/4 W Token Creature Angel
-  power_toughness: 4/4
-  rules: Flying
-  subtype: Angel
-  type: Token Creature
-- colors: C
-  name: C Emblem Monarch
-  power_toughness: null
-  rules: "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
-    \ deals combat damage to you, its controller becomes the monarch."
-  subtype: Monarch
-  type: Emblem
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: CMR
   type: Token Creature
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Angel 4/4 W
+  power_toughness: 4/4
+  rules: Flying
+  subtype: Angel
+  tla: CMR
+  type: Token Creature
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Monarch Emblem
+  power_toughness: null
+  rules: "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
+    \ deals combat damage to you, its controller becomes the monarch."
+  tla: CMR
+  type: Emblem
 type: Enchantment
 url: http://tappedout.net/mtg-card/court-of-grace/

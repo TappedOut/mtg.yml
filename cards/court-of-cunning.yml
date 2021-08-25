@@ -24,7 +24,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Mill
@@ -33,13 +33,16 @@ mana_cost_converted: 3
 name: Court of Cunning
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 63
     rarity: rare
     release_date: 2020-11-20
-    set_number: 63
     variations:
     - identifier: '633'
+    wizards_id: 497583
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497583
 rules: "When Court of Cunning enters the battlefield, you become the monarch.\r\n\r\
   \nAt the beginning of your upkeep, any number of target players each mill two cards.\
   \ If you're the monarch, each of those players mills ten cards instead. *(To mill\
@@ -47,12 +50,15 @@ rules: "When Court of Cunning enters the battlefield, you become the monarch.\r\
 slug: court-of-cunning
 tags: card-color-blue card-color-blue-cost-3 card-type-enchantment
 tokens:
-- colors: C
-  name: C Emblem Monarch
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Monarch Emblem
   power_toughness: null
   rules: "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
     \ deals combat damage to you, its controller becomes the monarch."
-  subtype: Monarch
+  tla: CMR
   type: Emblem
 type: Enchantment
 url: http://tappedout.net/mtg-card/court-of-cunning/

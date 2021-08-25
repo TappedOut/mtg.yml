@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -46,13 +46,16 @@ name: Discordant Piper
 power_toughness: 2/1
 printings:
 - THB:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 79301
     mtgo_id: 79300
     name: Theros Beyond Death
     number: 88
     rarity: common
     release_date: 2020-01-24
-    set_number: 88
+    wizards_id: 476339
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476339
 rules: When Discordant Piper dies *(is put into the graveyard from the battlefield)*,
   create a 0/1 white Goat creature token.
 slug: discordant-piper
@@ -62,11 +65,15 @@ subtype_tokens:
 - Satyr
 tags: card-color-black card-color-black-cost-2 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 W Token Creature Goat
   power_toughness: 0/1
   rules: ''
   subtype: Goat
+  tla: THB
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/discordant-piper/

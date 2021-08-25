@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Enchant
@@ -45,13 +45,14 @@ mana_cost_converted: 4
 name: Mantle of the Wolf
 printings:
 - THB:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 79481
     mtgo_id: 79480
     name: Theros Beyond Death
     number: 178
     rarity: rare
     release_date: 2020-01-24
-    set_number: 178
     variations:
     - identifier: '327'
     - identifier: PromoPack
@@ -66,11 +67,15 @@ subtype_tokens:
 - Aura
 tags: card-color-green card-color-green-cost-4 card-type-enchantment
 tokens:
-- colors: G
-  name: 2/2 G Token Creature Wolf
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Wolf 2/2 G
   power_toughness: 2/2
   rules: ''
   subtype: Wolf
+  tla: THB
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/mantle-of-the-wolf/

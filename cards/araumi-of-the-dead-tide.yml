@@ -33,7 +33,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -48,13 +48,16 @@ name: Araumi of the Dead Tide
 power_toughness: 1/4
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 267
     rarity: uncommon
     release_date: 2020-11-20
-    set_number: 267
     variations:
     - identifier: '587'
+    wizards_id: 497787
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497787
 rules: '[[symbol:T]], Exile cards from your graveyard equal to the number of opponents
   you have: Target creature in your graveyard gains encore until end of turn. The
   encore cost is equal to the mana cost. *(Exile the creature card and pay its mana
@@ -68,11 +71,14 @@ subtype_tokens:
 - Wizard
 tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-3 card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: CMR
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/araumi-of-the-dead-tide/

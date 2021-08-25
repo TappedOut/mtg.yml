@@ -33,29 +33,31 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 4GG
 mana_cost_converted: 6
 name: Garruk, Caller of Beasts
 printings:
 - M14:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 49374
     mtgo_id: 49373
     name: Magic 2014
     number: 172
     rarity: mythic_rare
     release_date: 2013-07-19
-    set_number: 172
     wizards_id: 370687
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370687
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 172
     rarity: mythic_rare
     release_date: 1990-04-15
-    set_number: 172
 rules: "[[symbol:loyalty-plus1]]: Reveal the top five cards of your library. Put all\
   \ creature cards revealed this way into your hand and the rest on the bottom of\
   \ your library in any order.\r\n\r\n[[symbol:loyalty-minus3]]: You may put a green\
@@ -68,12 +70,16 @@ subtype_tokens:
 - Garruk
 tags: card-color-green card-color-green-cost-6 card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Garruk
   power_toughness: null
   rules: Whenever you cast a creature spell, you may search your library for a creature
     card, put it onto the battlefield, then shuffle your library.
   subtype: Garruk
+  tla: M14
   type: Emblem
 type: Planeswalker
 url: http://tappedout.net/mtg-card/garruk-caller-of-beasts/

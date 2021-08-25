@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Fabricate
@@ -39,13 +39,14 @@ name: Visionary Augmenter
 power_toughness: 2/1
 printings:
 - KLD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61618
     mtgo_id: 61617
     name: Kaladesh
     number: 34
     rarity: uncommon
     release_date: 2016-09-30
-    set_number: 34
     wizards_id: 417607
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417607
 rules: Fabricate 2 _(When this creature enters the battlefield, put two +1/+1 counters
@@ -57,11 +58,15 @@ subtype_tokens:
 - Artificer
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Servo 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Servo
+  tla: KLD
   type: Token Artifact Creature
 type: Creature
 url: http://tappedout.net/mtg-card/visionary-augmenter/

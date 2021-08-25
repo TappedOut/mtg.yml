@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Devotion
@@ -46,15 +46,18 @@ name: Anax, Hardened in the Forge
 power_toughness: '*/3'
 printings:
 - THB:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 79375
     mtgo_id: 79374
     name: Theros Beyond Death
     number: 125
     rarity: uncommon
     release_date: 2020-01-24
-    set_number: 125
     variations:
     - identifier: '264'
+    wizards_id: 476376
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476376
 rules: "Anax's power is equal to your devotion to red. *(Each [[symbol:R]] in the\
   \ mana costs of permanents you control counts toward your devotion to red.)*\r\n\
   \r\nWhenever Anax or another nontoken creature you control dies *(is put into the\
@@ -68,11 +71,15 @@ subtype_tokens:
 tags: card-color-red card-color-red-cost-3 card-type-creature card-type-enchantment
   card-type-legendary
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 R Token Creature Satyr
   power_toughness: 1/1
   rules: This creature can't block.
   subtype: Satyr
+  tla: THB
   type: Token Creature
 type: Legendary Enchantment Creature
 url: http://tappedout.net/mtg-card/anax-hardened-in-the-forge/

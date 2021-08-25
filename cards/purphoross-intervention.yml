@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Haste
@@ -48,13 +48,14 @@ mana_cost_converted: 1
 name: Purphoros's Intervention
 printings:
 - THB:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 79427
     mtgo_id: 79426
     name: Theros Beyond Death
     number: 151
     rarity: rare
     release_date: 2020-01-24
-    set_number: 151
     variations:
     - identifier: '320'
     - identifier: PromoPack
@@ -66,11 +67,15 @@ rules: "Choose one &mdash;\r\n\r\n- Create an X/1 red Elemental creature token w
 slug: purphoross-intervention
 tags: card-color-red card-color-red-cost-1 card-type-sorcery
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/1 R Token Creature Elemental'
   power_toughness: '*/1'
   rules: Trample, haste
   subtype: Elemental
+  tla: THB
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/purphoross-intervention/

@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Flying
@@ -37,6 +37,8 @@ mana_cost_converted: 0
 name: Shiv
 printings:
 - HOP:
+    border_color: B
+    frame: modern
     name: Planechase
     rarity: common
     release_date: 2009-09-04
@@ -51,11 +53,15 @@ subtype_tokens:
 - Dominaria
 tags: card-color-colorless card-color-colorless-cost-0 card-type-plane
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Dragon 5/5 R
   power_toughness: 5/5
   rules: Flying
   subtype: Dragon
+  tla: HOP
   type: Token Creature
 type: Plane
 url: http://tappedout.net/mtg-card/shiv/

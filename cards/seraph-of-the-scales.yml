@@ -37,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Deathtouch
@@ -51,13 +51,14 @@ name: Seraph of the Scales
 power_toughness: 4/3
 printings:
 - RNA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71411
     mtgo_id: 71410
     name: Ravnica Allegiance
     number: 205
     rarity: mythic_rare
     release_date: 2019-01-25
-    set_number: 205
     variations:
     - identifier: Animated
     - identifier: PromoPack
@@ -73,11 +74,15 @@ subtype_tokens:
 - Angel
 tags: card-color-black card-color-gold card-color-gold-cost-4 card-color-white card-type-creature
 tokens:
-- colors: WB
+- cannonical_type: Creature
+  colors: WB
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 WB
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: RNA
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/seraph-of-the-scales/

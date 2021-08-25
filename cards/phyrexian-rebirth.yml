@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -37,30 +37,37 @@ mana_cost_converted: 6
 name: Phyrexian Rebirth
 printings:
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77251
     mtgo_id: 77250
     name: Commander 2019
     number: 68
     rarity: rare
     release_date: 2019-08-23
-    set_number: 68
+    wizards_id: 470614
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470614
 - C18:
+    border_color: B
+    frame: m15
     name: Commander 2018
     number: 70
     rarity: rare
     release_date: 2018-08-10
-    set_number: 70
     wizards_id: 451025
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451025
 - C16:
+    border_color: B
+    frame: m15
     name: Commander 2016
     number: 73
     rarity: rare
     release_date: 2016-11-11
-    set_number: 73
     wizards_id: 420690
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420690
 - MBS:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 39516
     mtgo_id: 39515
     name: Mirrodin Besieged
@@ -69,7 +76,9 @@ printings:
     wizards_id: 214048
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=214048
 - MBP:
+    border_color: B
     cannonical: false
+    frame: modern
     name: 'Mirrodin Besieged: Phyrexia'
     rarity: rare
     release_date: 2011-02-03
@@ -78,11 +87,15 @@ rules: Destroy all creatures, then create an X/X colourless Horror artifact crea
 slug: phyrexian-rebirth
 tags: card-color-white card-color-white-cost-6 card-type-sorcery
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* C Token Artifact Creature Horror'
   power_toughness: '*/*'
   rules: ''
   subtype: Horror
+  tla: C19
   type: Token Artifact Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/phyrexian-rebirth/

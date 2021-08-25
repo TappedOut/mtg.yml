@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Indestructible
@@ -45,22 +45,24 @@ name: Heliod, God of the Sun
 power_toughness: 5/6
 printings:
 - SLD:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: Secret Lair
     number: 68
     rarity: mythic_rare
     release_date: 2019-12-09
-    set_number: 68
 - THS:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 50303
     mtgo_id: 50302
     name: Theros
     number: 17
     rarity: mythic_rare
     release_date: 2013-09-27
-    set_number: 17
     wizards_id: 373524
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373524
 rules: "Indestructible\r\n\r\nAs long as your devotion to white is less than five,\
@@ -75,11 +77,15 @@ subtype_tokens:
 tags: card-color-white card-color-white-cost-4 card-type-creature card-type-enchantment
   card-type-legendary
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/1 W Token Enchantment Creature Cleric
   power_toughness: 2/1
   rules: ''
   subtype: Cleric
+  tla: THS
   type: Token Enchantment Creature
 type: Legendary Enchantment Creature
 url: http://tappedout.net/mtg-card/heliod-god-of-the-sun/

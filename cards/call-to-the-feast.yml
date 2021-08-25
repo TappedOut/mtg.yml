@@ -34,20 +34,21 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 mana_cost: 2WB
 mana_cost_converted: 4
 name: Call to the Feast
 printings:
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65459
     mtgo_id: 65458
     name: Ixalan
     number: 219
     rarity: uncommon
     release_date: 2017-09-29
-    set_number: 219
     variations:
     - identifier: Animated
     wizards_id: 435375
@@ -56,12 +57,16 @@ rules: Create three 1/1 white Vampire creature tokens with lifelink.
 slug: call-to-the-feast
 tags: card-color-black card-color-gold card-color-gold-cost-4 card-color-white card-type-sorcery
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Vampire
   power_toughness: 1/1
   rules: Lifelink *(Damage dealt by this creature also causes you to gain that much
     life.)*
   subtype: Vampire
+  tla: XLN
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/call-to-the-feast/

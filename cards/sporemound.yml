@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Landfall
@@ -43,33 +43,39 @@ power_toughness: 3/3
 printings:
 - CMR:
     booster_exclude: true
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 437
     rarity: common
     release_date: 2020-11-20
-    set_number: 437
+    wizards_id: 500917
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=500917
 - ZNC:
+    border_color: B
+    frame: m15
     name: 'Zendikar Rising: Commander'
     number: 82
     rarity: common
     release_date: 2020-09-25
-    set_number: 82
     wizards_id: 496020
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=496020
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 433
     rarity: common
     release_date: 2020-07-17
-    set_number: 433
 - M14:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 49508
     mtgo_id: 49507
     name: Magic 2014
     number: 196
     rarity: common
     release_date: 2013-07-19
-    set_number: 196
     wizards_id: 370605
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370605
 rules: '*Landfall* &mdash; Whenever a land enters the battlefield under your control,
@@ -80,11 +86,15 @@ subtype_tokens:
 - Fungus
 tags: card-color-green card-color-green-cost-5 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: CMR
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/sporemound/

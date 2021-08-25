@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 3W
 mana_cost_converted: 4
@@ -40,18 +40,21 @@ name: Paladin of the Bloodstained
 power_toughness: 3/2
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65063
     mtgo_id: 65062
     name: Ixalan
     number: 25
     rarity: common
     release_date: 2017-09-29
-    set_number: 25
     wizards_id: 435177
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435177
 rules: When Paladin of the Bloodstained enters the battlefield, create a 1/1 white
@@ -63,12 +66,16 @@ subtype_tokens:
 - Knight
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Vampire
   power_toughness: 1/1
   rules: Lifelink *(Damage dealt by this creature also causes you to gain that much
     life.)*
   subtype: Vampire
+  tla: XLN
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/paladin-of-the-bloodstained/

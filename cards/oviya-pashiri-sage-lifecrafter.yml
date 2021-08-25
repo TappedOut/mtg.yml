@@ -38,7 +38,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -48,13 +48,14 @@ name: Oviya Pashiri, Sage Lifecrafter
 power_toughness: 1/2
 printings:
 - KLD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 62022
     mtgo_id: 62021
     name: Kaladesh
     number: 165
     rarity: rare
     release_date: 2016-09-30
-    set_number: 165
     wizards_id: 417738
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417738
 rules: "[[2]][[G]], [[symbol:T]]: Create a 1/1 colorless Servo artifact creature token.\r\
@@ -67,17 +68,25 @@ subtype_tokens:
 - Artificer
 tags: card-color-green card-color-green-cost-1 card-type-creature card-type-legendary
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Construct */* C
   power_toughness: '*/*'
   rules: ''
   subtype: Construct
+  tla: KLD
   type: Token Artifact Creature
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Servo 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Servo
+  tla: KLD
   type: Token Artifact Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/oviya-pashiri-sage-lifecrafter/

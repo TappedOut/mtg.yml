@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Exile
@@ -44,18 +44,19 @@ mana_cost_converted: 4
 name: Incubation / Incongruity
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 219
     rarity: uncommon
     release_date: 2021-04-23
-    set_number: 219
 - RNA:
-    cannonical: false
+    border_color: B
+    frame: m15
     name: Ravnica Allegiance
     number: 226
     rarity: uncommon
     release_date: 2019-01-25
-    set_number: 226
 rules: "<h4>Incubation</h4>\r\n\r\nLook at the top five cards of your library. You\
   \ may reveal a creature card from among them and put it into your hand. Put the\
   \ rest on the bottom of your library in a random order.\r\n\r\n-----\r\n\r\n<h3>Instant</h3>\r\
@@ -74,11 +75,15 @@ synonyms:
 - Incongruity and Incubation
 tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-green card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Frog Lizard 3/3 G
   power_toughness: 3/3
   rules: ''
   subtype: Frog Lizard
+  tla: C21
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/incubation-incongruity/

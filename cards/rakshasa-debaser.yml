@@ -26,7 +26,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -41,13 +41,16 @@ name: Rakshasa Debaser
 power_toughness: 6/6
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 146
     rarity: rare
     release_date: 2020-11-20
-    set_number: 146
     variations:
     - identifier: '654'
+    wizards_id: 497666
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497666
 rules: "Whenever Rakshasa Debaser attacks, put target creature card from defending\
   \ player's graveyard onto the battlefield under your control.\r\n\r\nEncore [[symbol:6]][[symbol:B]][[symbol:B]]\
   \ *([[symbol:6]][[symbol:B]][[symbol:B]], Exile this card from your graveyard, create\
@@ -60,11 +63,14 @@ subtype_tokens:
 - Demon
 tags: card-color-black card-color-black-cost-6 card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: CMR
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/rakshasa-debaser/

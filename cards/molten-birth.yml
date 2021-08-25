@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: M14
+cannonical_set: UMA
 cannonical_type: Sorcery
 companions:
 - Kaheera, the Orphanguard
@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -41,22 +41,25 @@ mana_cost_converted: 3
 name: Molten Birth
 printings:
 - UMA:
-    cannonical: false
+    border_color: B
+    frame: m15
     mtgo_foil_id: 70354
     mtgo_id: 70353
     name: Ultimate Masters
     number: 140
     rarity: common
     release_date: 2018-12-07
-    set_number: 140
+    wizards_id: 456736
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456736
 - M14:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 49436
     mtgo_id: 49435
     name: Magic 2014
     number: 147
     rarity: uncommon
     release_date: 2013-07-19
-    set_number: 147
     wizards_id: 370604
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370604
 rules: Create two 1/1 red Elemental creature tokens. Then flip a coin. If you win
@@ -64,11 +67,15 @@ rules: Create two 1/1 red Elemental creature tokens. Then flip a coin. If you wi
 slug: molten-birth
 tags: card-color-red card-color-red-cost-3 card-type-sorcery
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 R Token Creature Elemental
   power_toughness: 1/1
   rules: ''
   subtype: Elemental
+  tla: UMA
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/molten-birth/

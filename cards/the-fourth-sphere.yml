@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Sacrifice
@@ -36,6 +36,8 @@ mana_cost_converted: 0
 name: The Fourth Sphere
 printings:
 - HOP:
+    border_color: B
+    frame: modern
     name: Planechase
     rarity: common
     release_date: 2009-09-04
@@ -49,11 +51,15 @@ subtype_tokens:
 - Phyrexia
 tags: card-color-colorless card-color-colorless-cost-0 card-type-plane
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: HOP
   type: Token Creature
 type: Plane
 url: http://tappedout.net/mtg-card/the-fourth-sphere/

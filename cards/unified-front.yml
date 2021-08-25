@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Domain
@@ -41,13 +41,14 @@ mana_cost_converted: 4
 name: Unified Front
 printings:
 - BFZ:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 58724
     mtgo_id: 58723
     name: Battle for Zendikar
     number: 53
     rarity: uncommon
     release_date: 2015-10-02
-    set_number: 53
     wizards_id: 402084
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=402084
 rules: '*Converge* &mdash; Put a 1/1 white Kor Ally creature token onto the battlefield
@@ -55,11 +56,15 @@ rules: '*Converge* &mdash; Put a 1/1 white Kor Ally creature token onto the batt
 slug: unified-front
 tags: card-color-white card-color-white-cost-4 card-type-sorcery
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Kor Ally
   power_toughness: 1/1
   rules: ''
   subtype: Kor Ally
+  tla: BFZ
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/unified-front/

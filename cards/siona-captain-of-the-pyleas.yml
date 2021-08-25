@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -45,13 +45,16 @@ name: Siona, Captain of the Pyleas
 power_toughness: 2/2
 printings:
 - THB:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 79577
     mtgo_id: 79576
     name: Theros Beyond Death
     number: 226
     rarity: uncommon
     release_date: 2020-01-24
-    set_number: 226
+    wizards_id: 476477
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476477
 rules: "When Siona, Captain of the Pyleas enters the battlefield, look at the top\
   \ seven cards of your library. You may reveal an Aura card from among them and put\
   \ it into your hand. Put the rest on the bottom of your library in a random order.\r\
@@ -65,11 +68,15 @@ subtype_tokens:
 tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-white card-type-creature
   card-type-legendary
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Human Soldier
   power_toughness: 1/1
   rules: ''
   subtype: Human Soldier
+  tla: THB
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/siona-captain-of-the-pyleas/

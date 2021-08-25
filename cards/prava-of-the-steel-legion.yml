@@ -30,7 +30,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -41,13 +41,16 @@ name: Prava of the Steel Legion
 power_toughness: 1/4
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 38
     rarity: uncommon
     release_date: 2020-11-20
-    set_number: 38
     variations:
     - identifier: '552'
+    wizards_id: 497558
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497558
 rules: "As long as it's your turn, creature tokens you control get +1/+4.\r\n\r\n\
   [[symbol:3]][[symbol:W]]: Create a 1/1 white Soldier creature token.\r\n\r\nPartner\
   \ *(You can have two commanders if both have partner.)*"
@@ -58,11 +61,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-3 card-type-creature card-type-legendary
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W
   power_toughness: 1/1
   rules: ''
   subtype: Soldier
+  tla: CMR
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/prava-of-the-steel-legion/

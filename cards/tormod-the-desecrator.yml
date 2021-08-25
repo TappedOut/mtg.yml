@@ -23,7 +23,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -34,13 +34,16 @@ name: Tormod, the Desecrator
 power_toughness: 4/2
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 155
     rarity: uncommon
     release_date: 2020-11-20
-    set_number: 155
     variations:
     - identifier: '569'
+    wizards_id: 497675
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497675
 rules: "Whenever one or more cards leave your graveyard, create a tapped 2/2 black\
   \ Zombie creature token.\r\n\r\nPartner *(You can have two commanders if both have\
   \ partner.)*"
@@ -51,11 +54,15 @@ subtype_tokens:
 - Wizard
 tags: card-color-black card-color-black-cost-4 card-type-creature card-type-legendary
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: CMR
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/tormod-the-desecrator/

@@ -25,7 +25,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -35,13 +35,16 @@ name: Gor Muldrak, Amphinologist
 power_toughness: 3/2
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 277
     rarity: rare
     release_date: 2020-11-20
-    set_number: 277
     variations:
     - identifier: '597'
+    wizards_id: 497797
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497797
 rules: "You and permanents you control have protection from Salamanders.\r\n\r\nAt\
   \ the beginning of your end step, each player who controls the fewest creatures\
   \ creates a 4/3 blue Salamander Warrior creature token."
@@ -53,11 +56,15 @@ subtype_tokens:
 tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-green card-type-creature
   card-type-legendary
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 4/3 U Token Creature Salamander Warrior
   power_toughness: 4/3
   rules: ''
   subtype: Salamander Warrior
+  tla: CMR
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/gor-muldrak-amphinologist/

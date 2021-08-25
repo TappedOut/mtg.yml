@@ -26,7 +26,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -36,13 +36,16 @@ name: Jared Carthalion, True Heir
 power_toughness: 3/3
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 281
     rarity: rare
     release_date: 2020-11-20
-    set_number: 281
     variations:
     - identifier: '601'
+    wizards_id: 497801
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497801
 rules: "When Jared Carthalion, True Heir enters the battlefield, target opponent becomes\
   \ the monarch. You can't become the monarch this turn.\r\n\r\nIf damage would be\
   \ dealt to Jared Carthalion while you're the monarch, prevent that damage and put\
@@ -55,12 +58,15 @@ subtype_tokens:
 tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-red card-color-white
   card-type-creature card-type-legendary
 tokens:
-- colors: C
-  name: C Emblem Monarch
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Monarch Emblem
   power_toughness: null
   rules: "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
     \ deals combat damage to you, its controller becomes the monarch."
-  subtype: Monarch
+  tla: CMR
   type: Emblem
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/jared-carthalion-true-heir/

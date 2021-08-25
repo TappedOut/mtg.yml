@@ -39,7 +39,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -54,13 +54,14 @@ name: Woe Strider
 power_toughness: 3/2
 printings:
 - THB:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 79371
     mtgo_id: 79370
     name: Theros Beyond Death
     number: 123
     rarity: rare
     release_date: 2020-01-24
-    set_number: 123
     variations:
     - identifier: '317'
     - identifier: PromoPack
@@ -77,11 +78,15 @@ subtype_tokens:
 - Horror
 tags: card-color-black card-color-black-cost-3 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 W Token Creature Goat
   power_toughness: 0/1
   rules: ''
   subtype: Goat
+  tla: THB
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/woe-strider/

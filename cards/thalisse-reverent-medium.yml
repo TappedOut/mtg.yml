@@ -24,7 +24,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -35,13 +35,16 @@ name: Thalisse, Reverent Medium
 power_toughness: 3/4
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 291
     rarity: uncommon
     release_date: 2020-11-20
-    set_number: 291
     variations:
     - identifier: '611'
+    wizards_id: 497811
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497811
 rules: At the beginning of each end step, create X 1/1 white Spirit creature tokens
   with flying, where X is the number of tokens you created this turn.
 slug: thalisse-reverent-medium
@@ -52,11 +55,15 @@ subtype_tokens:
 tags: card-color-black card-color-gold card-color-gold-cost-5 card-color-white card-type-creature
   card-type-legendary
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: CMR
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/thalisse-reverent-medium/
