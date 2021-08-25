@@ -32,7 +32,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -44,15 +44,19 @@ power_toughness: 0/0
 printings:
 - CMR:
     booster_exclude: true
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 527
     rarity: mythic_rare
     release_date: 2020-11-20
-    set_number: 527
 - C13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51393
     mtgo_id: 51392
     name: Commander 2013
+    number: 198
     rarity: mythic_rare
     release_date: 2013-11-01
     wizards_id: 376404
@@ -70,11 +74,15 @@ subtype_tokens:
 tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-red card-color-white
   card-type-creature card-type-legendary
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* G Token Creature Elemental'
   power_toughness: '*/*'
   rules: ''
   subtype: Elemental
+  tla: CMR
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/marath-will-of-the-wild/

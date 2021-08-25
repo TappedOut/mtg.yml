@@ -26,7 +26,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -37,16 +37,19 @@ name: Wing Splicer
 power_toughness: 1/1
 printings:
 - MM3:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63256
     mtgo_id: 63255
     name: Modern Masters 2017 Edition
     number: 57
     rarity: uncommon
     release_date: 2017-03-17
-    set_number: 57
     wizards_id: 425882
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425882
 - NPH:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 39949
     mtgo_id: 39948
     name: New Phyrexia
@@ -63,11 +66,15 @@ subtype_tokens:
 - Artificer
 tags: card-color-blue card-color-blue-cost-4 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Golem 3/3 C
   power_toughness: 3/3
   rules: ''
   subtype: Golem
+  tla: MM3
   type: Token Artifact Creature
 type: Creature
 url: http://tappedout.net/mtg-card/wing-splicer/

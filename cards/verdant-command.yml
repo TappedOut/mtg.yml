@@ -15,11 +15,14 @@ effective_cost:
 flat_cost: 2
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -29,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Counterspell
@@ -40,24 +43,31 @@ mana_cost_converted: 2
 name: Verdant Command
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 182
     rarity: rare
     release_date: 2021-06-18
-    set_number: 182
     variations:
     - identifier: '359'
+    wizards_id: 522258
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522258
 rules: "Choose two &mdash;\r\n\r\n- Target player creates two tapped 1/1 green Squirrel\
   \ creature tokens.\r\n- Counter target loyalty ability of a planeswalker.\r\n- Exile\
   \ target card from a graveyard.\r\n- Target player gains 3 life."
 slug: verdant-command
 tags: card-color-green card-color-green-cost-2 card-type-instant
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Squirrel 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Squirrel
+  tla: MH2
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/verdant-command/

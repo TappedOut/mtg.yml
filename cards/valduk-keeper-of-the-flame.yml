@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -44,12 +44,12 @@ name: Valduk, Keeper of the Flame
 power_toughness: 3/2
 printings:
 - DOM:
-    cannonical: false
+    border_color: B
+    frame: m15
     name: Dominaria
     number: 148
     rarity: uncommon
     release_date: 2018-04-22
-    set_number: 148
     wizards_id: 443036
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443036
 rules: At the beginning of combat on your turn, for each Aura and Equipment attached
@@ -62,11 +62,15 @@ subtype_tokens:
 - Shaman
 tags: card-color-red card-color-red-cost-3 card-type-creature card-type-legendary
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/1 R Token Creature Elemental
   power_toughness: 3/1
   rules: Trample, haste
   subtype: Elemental
+  tla: DOM
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/valduk-keeper-of-the-flame/

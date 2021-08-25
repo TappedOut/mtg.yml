@@ -14,11 +14,14 @@ effective_cost:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -28,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Hexproof
@@ -39,11 +42,12 @@ name: General Ferrous Rokiric
 power_toughness: 3/1
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 198
     rarity: rare
     release_date: 2021-06-18
-    set_number: 198
     variations:
     - identifier: '366'
     wizards_id: 522274
@@ -58,11 +62,15 @@ subtype_tokens:
 tags: card-color-gold card-color-gold-cost-3 card-color-red card-color-white card-type-creature
   card-type-legendary
 tokens:
-- colors: RW
+- cannonical_type: Creature
+  colors: RW
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Golem 4/4 RW
   power_toughness: 4/4
   rules: ''
   subtype: Golem
+  tla: MH2
   type: Token Artifact Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/general-ferrous-rokiric/

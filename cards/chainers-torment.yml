@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -42,11 +42,12 @@ mana_cost_converted: 4
 name: Chainer's Torment
 printings:
 - DOM:
+    border_color: B
+    frame: m15
     name: Dominaria
     number: 82
     rarity: uncommon
     release_date: 2018-04-22
-    set_number: 82
     wizards_id: 442970
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442970
 rules: "_(As this saga enters and after your draw step, add a lore counter. Sacrifice\
@@ -60,11 +61,15 @@ subtype_tokens:
 - Saga
 tags: card-color-black card-color-black-cost-4 card-type-enchantment
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* B Token Creature Nightmare Horror'
   power_toughness: '*/*'
   rules: ''
   subtype: Nightmare Horror
+  tla: DOM
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/chainers-torment/

@@ -4,7 +4,7 @@ activated_abilities:
 - ': Put a card you own with a silver counter on it from exile into your hand.'
 - ': Create a 0/0 colorless Construct artifact creature token with '
 canadian_hl_score: 0
-cannonical_set: RNAMED
+cannonical_set: DOM
 cannonical_type: Planeswalker
 companions:
 - Gyruda, Doom of Depths
@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -46,19 +46,20 @@ mana_cost_converted: 4
 name: Karn, Scion of Urza
 printings:
 - RNAMED:
+    border_color: B
     cannonical: false
+    frame: m15
     name: 'Ravnica Allegiance: Mythic Edition'
     number: 1
     rarity: mythic_rare
     release_date: 2019-01-26
-    set_number: 1
 - DOM:
-    cannonical: false
+    border_color: B
+    frame: m15
     name: Dominaria
     number: 1
     rarity: mythic_rare
     release_date: 2018-04-22
-    set_number: 1
     variations:
     - identifier: PromoPack
     wizards_id: 442889
@@ -75,11 +76,15 @@ subtype_tokens:
 - Karn
 tags: card-color-colorless card-color-colorless-cost-4 card-type-legendary card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Construct 0/0 C
   power_toughness: 0/0
   rules: This creature gets +1/+1 for each artifact you control.
   subtype: Construct
+  tla: DOM
   type: Token Artifact Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/karn-scion-of-urza/

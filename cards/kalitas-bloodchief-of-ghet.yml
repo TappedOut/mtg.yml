@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 5BB
 mana_cost_converted: 7
@@ -40,9 +40,12 @@ name: Kalitas, Bloodchief of Ghet
 power_toughness: 5/5
 printings:
 - ZEN:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 34529
     mtgo_id: 34528
     name: Zendikar
+    number: 99
     rarity: mythic_rare
     release_date: 2009-10-02
     wizards_id: 185704
@@ -58,11 +61,15 @@ subtype_tokens:
 - Warrior
 tags: card-color-black card-color-black-cost-7 card-type-creature card-type-legendary
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* B Token Creature Vampire'
   power_toughness: '*/*'
   rules: ''
   subtype: Vampire
+  tla: ZEN
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/kalitas-bloodchief-of-ghet/

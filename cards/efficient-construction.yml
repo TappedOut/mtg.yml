@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -41,13 +41,14 @@ mana_cost_converted: 4
 name: Efficient Construction
 printings:
 - AER:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 62644
     mtgo_id: 62643
     name: Aether Revolt
     number: 33
     rarity: uncommon
     release_date: 2017-01-20
-    set_number: 33
     wizards_id: 423700
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423700
 rules: Whenever you cast an artifact spell, create a 1/1 colourless thopter artifact
@@ -57,11 +58,15 @@ synonyms:
 - Efficeint Construction
 tags: card-color-blue card-color-blue-cost-4 card-type-enchantment
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Thopter 1/1 C
   power_toughness: 1/1
   rules: Flying
   subtype: Thopter
+  tla: AER
   type: Token Artifact Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/efficient-construction/

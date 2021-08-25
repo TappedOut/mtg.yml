@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -44,19 +44,23 @@ name: Null Caller
 power_toughness: 2/4
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 140
     rarity: uncommon
     release_date: 2020-11-20
-    set_number: 140
+    wizards_id: 497660
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497660
 - OGW:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 59444
     mtgo_id: 59443
     name: Oath of the Gatewatch
     number: 88
     rarity: uncommon
     release_date: 2016-01-22
-    set_number: 88
     wizards_id: 407598
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407598
 rules: '[[symbol:3]][[symbol:B]], Exile a creature card from your graveyard: Create
@@ -68,11 +72,15 @@ subtype_tokens:
 - Shaman
 tags: card-color-black card-color-black-cost-4 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: CMR
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/null-caller/

@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: MYS1
+cannonical_set: AER
 cannonical_type: Instant
 companions:
 - Jegantha, the Wellspring
@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Indestructible
@@ -46,17 +46,21 @@ mana_cost_converted: 3
 name: Renegade's Getaway
 printings:
 - MYS1:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - AER:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 62674
     mtgo_id: 62673
     name: Aether Revolt
     number: 69
     rarity: common
     release_date: 2017-01-20
-    set_number: 69
     wizards_id: 423736
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423736
 rules: Target permanent gains indestructible until end of turn. Create a 1/1 colorless
@@ -65,11 +69,15 @@ rules: Target permanent gains indestructible until end of turn. Create a 1/1 col
 slug: renegades-getaway
 tags: card-color-black card-color-black-cost-3 card-type-instant
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Servo 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Servo
+  tla: AER
   type: Token Artifact Creature
 type: Instant
 url: http://tappedout.net/mtg-card/renegades-getaway/

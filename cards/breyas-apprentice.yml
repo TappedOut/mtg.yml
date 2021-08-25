@@ -16,11 +16,14 @@ effective_cost:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -30,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -43,13 +46,16 @@ name: Breya's Apprentice
 power_toughness: 2/3
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 117
     rarity: rare
     release_date: 2021-06-18
-    set_number: 117
     variations:
     - identifier: '455'
+    wizards_id: 522193
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522193
 rules: "When this enters the battlefield, create a 1/1 colourless Thopter artifact\
   \ creature token with flying.\r\n\r\n[[symbol:T]], Sacrifice an artifact: Choose\
   \ one &mdash;\r\n\r\n- Exile the top card of your library. Until the end of your\
@@ -62,11 +68,15 @@ subtype_tokens:
 - Artificer
 tags: card-color-red card-color-red-cost-3 card-type-artifact card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Thopter 1/1 C
   power_toughness: 1/1
   rules: Flying
   subtype: Thopter
+  tla: MH2
   type: Token Artifact Creature
 type: Artifact Creature
 url: http://tappedout.net/mtg-card/breyas-apprentice/

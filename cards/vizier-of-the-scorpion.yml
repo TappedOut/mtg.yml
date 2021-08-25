@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Deathtouch
@@ -44,13 +44,16 @@ name: Vizier of the Scorpion
 power_toughness: 1/1
 printings:
 - WAR:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71829
     mtgo_id: 71828
     name: War of the Spark
     number: 111
     rarity: uncommon
     release_date: 2019-05-03
-    set_number: 111
+    wizards_id: 461038
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461038
 rules: When Vizier of the Scorpion enters the battlefield, amass 1. *(Put a +1/+1
   counter on an Army you control. If you don't control, create a 0/0 black Zombie
   Army creature token first.)*
@@ -61,11 +64,15 @@ subtype_tokens:
 - Wizard
 tags: card-color-black card-color-black-cost-3 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie Army 0/0 B
   power_toughness: 0/0
   rules: ''
   subtype: Zombie Army
+  tla: WAR
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/vizier-of-the-scorpion/

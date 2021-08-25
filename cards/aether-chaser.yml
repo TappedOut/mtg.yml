@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - First strike
@@ -45,13 +45,14 @@ name: Aether Chaser
 power_toughness: 2/1
 printings:
 - AER:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 62716
     mtgo_id: 62715
     name: Aether Revolt
     number: 76
     rarity: common
     release_date: 2017-01-20
-    set_number: 76
     wizards_id: 423743
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423743
 rules: "First strike\r\n\r\nWhen Aether Chaser enters the battlefield, you get [[symbol:energy]][[symbol:energy]]\
@@ -64,11 +65,15 @@ subtype_tokens:
 - Artificer
 tags: card-color-red card-color-red-cost-2 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Servo 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Servo
+  tla: AER
   type: Token Artifact Creature
 type: Creature
 url: http://tappedout.net/mtg-card/aether-chaser/

@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Equip
@@ -39,13 +39,14 @@ mana_cost_converted: 2
 name: Captain's Claws
 printings:
 - OGW:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 59592
     mtgo_id: 59591
     name: Oath of the Gatewatch
     number: 162
     rarity: rare
     release_date: 2016-01-22
-    set_number: 162
     wizards_id: 407672
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407672
 rules: "Equipped creature gets +1/+0.\r\n\r\nWhenever equipped creature attacks, put\
@@ -57,11 +58,15 @@ subtype_tokens:
 - Equipment
 tags: card-color-colorless card-color-colorless-cost-2 card-type-artifact
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Kor Ally
   power_toughness: 1/1
   rules: ''
   subtype: Kor Ally
+  tla: OGW
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/captains-claws/

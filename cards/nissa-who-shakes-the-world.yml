@@ -38,7 +38,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -52,33 +52,36 @@ mana_produced: G
 name: Nissa, Who Shakes the World
 printings:
 - SLD:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: Secret Lair
     number: 518
     rarity: rare
     release_date: 2019-12-09
-    set_number: 518
 - WAR:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71945
     mtgo_id: 71944
     name: War of the Spark
     number: 169
     rarity: rare
     release_date: 2019-05-03
-    set_number: 169
     variations:
     - identifier: PromoPack
     wizards_id: 461096
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461096
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: rare
     release_date: 1990-04-15
-    set_number: 1
 rules: "Whenever you tap a Forest for mana, gain an additional [[symbol:G]].\r\n\r\
   \n[[symbol:loyalty-plus1]]: Put three +1/+1 counters on up to one target noncreature\
   \ land you control. Untap it. It becomes a 0/0 Elemental creature with vigilance\
@@ -92,11 +95,15 @@ subtype_tokens:
 tags: card-color-green card-color-green-cost-5 card-mana-green card-type-legendary
   card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Nissa
   power_toughness: null
   rules: Lands you control have indestructible
   subtype: Nissa
+  tla: WAR
   type: Emblem
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/nissa-who-shakes-the-world/

@@ -15,11 +15,14 @@ effective_cost:
 flat_cost: 1
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -29,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -44,11 +47,12 @@ name: Ragavan, Nimble Pilferer
 power_toughness: 2/1
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 138
     rarity: mythic_rare
     release_date: 2021-06-18
-    set_number: 138
     variations:
     - identifier: '315'
     wizards_id: 522214
@@ -66,11 +70,15 @@ subtype_tokens:
 tags: card-color-red card-color-red-cost-1 card-mana-black card-mana-blue card-mana-green
   card-mana-red card-mana-white card-type-creature card-type-legendary
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: MH2
   type: Token Artifact
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/ragavan-nimble-pilferer/

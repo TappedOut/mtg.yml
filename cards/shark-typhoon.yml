@@ -39,7 +39,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -51,13 +51,14 @@ mana_cost_converted: 6
 name: Shark Typhoon
 printings:
 - IKO:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 80144
     mtgo_id: 80143
     name: 'Ikoria: Lair of Behemoths'
     number: 67
     rarity: rare
     release_date: 2020-04-15
-    set_number: 67
     variations:
     - identifier: '319'
     - identifier: PromoPack
@@ -69,11 +70,15 @@ rules: "Whenever you cast a noncreature spell, create an X/X blue Shark creature
 slug: shark-typhoon
 tags: card-color-blue card-color-blue-cost-6 card-type-enchantment
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* U Token Creature Shark'
   power_toughness: '*/*'
   rules: Flying
   subtype: Shark
+  tla: IKO
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/shark-typhoon/

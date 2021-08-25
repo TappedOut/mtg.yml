@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -44,22 +44,26 @@ mana_cost_converted: 4
 name: Kasmina, Enigmatic Mentor
 printings:
 - SLD:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: Secret Lair
     number: 507
     rarity: uncommon
     release_date: 2019-12-09
-    set_number: 507
 - WAR:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71719
     mtgo_id: 71718
     name: War of the Spark
     number: 56
     rarity: uncommon
     release_date: 2019-05-03
-    set_number: 56
+    wizards_id: 460983
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460983
 rules: "Spells your opponents cast that target a creature or planeswalker you control\
   \ cost [[symbol:2]] more to cast.\r\n\r\n[[symbol:loyalty-minus2]]: Create a 2/2\
   \ blue Wizard creature token.  Draw a card, then discard a card."
@@ -69,11 +73,15 @@ subtype_tokens:
 - Kasmina
 tags: card-color-blue card-color-blue-cost-4 card-type-legendary card-type-planeswalker
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 U Token Creature Wizard
   power_toughness: 2/2
   rules: ''
   subtype: Wizard
+  tla: WAR
   type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/kasmina-enigmatic-mentor/

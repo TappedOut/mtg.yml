@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Enchant
@@ -42,13 +42,14 @@ mana_cost_converted: 4
 name: Gremlin Infestation
 printings:
 - AER:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 62744
     mtgo_id: 62743
     name: Aether Revolt
     number: 83
     rarity: uncommon
     release_date: 2017-01-20
-    set_number: 83
     wizards_id: 423750
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423750
 rules: "Enchant artifact\r\n\r\nAt the beginning of your end step, Gremlin Infestation\
@@ -60,11 +61,15 @@ subtype_tokens:
 - Aura
 tags: card-color-red card-color-red-cost-4 card-type-enchantment
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 R Token Creature Gremlin
   power_toughness: 2/2
   rules: ''
   subtype: Gremlin
+  tla: AER
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/gremlin-infestation/

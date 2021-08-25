@@ -14,11 +14,14 @@ effective_cost:
 flat_cost: 2
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -28,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Flying
@@ -40,21 +43,28 @@ mana_cost_converted: 2
 name: Sweep the Skies
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 70
     rarity: uncommon
     release_date: 2021-06-18
-    set_number: 70
+    wizards_id: 522146
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522146
 rules: '*Converge* &mdash; Create a 1/1 colourless Thopter artifact creature token
   with flying for each colour of mana spent to cast this spell.'
 slug: sweep-the-skies
 tags: card-color-blue card-color-blue-cost-2 card-type-sorcery
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Thopter 1/1 C
   power_toughness: 1/1
   rules: Flying
   subtype: Thopter
+  tla: MH2
   type: Token Artifact Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/sweep-the-skies/

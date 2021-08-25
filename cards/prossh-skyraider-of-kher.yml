@@ -28,7 +28,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -41,32 +41,35 @@ power_toughness: 5/5
 printings:
 - CMR:
     booster_exclude: true
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 530
     rarity: mythic_rare
     release_date: 2020-11-20
-    set_number: 530
     variations:
     - identifier: null
 - A25:
+    border_color: B
     cannonical: false
+    frame: m15
     mtgo_foil_id: 67343
     mtgo_id: 67342
     name: Masters 25
     number: 214
     rarity: mythic_rare
     release_date: 2018-03-16
-    set_number: 214
     wizards_id: 442203
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442203
 - C13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51371
     mtgo_id: 51370
     name: Commander 2013
     number: 204
     rarity: mythic_rare
     release_date: 2013-11-01
-    set_number: 204
     wizards_id: 376461
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376461
 rules: "When you cast this spell, create X 0/1 red Kobold creature tokens named Kobolds\
@@ -79,11 +82,15 @@ subtype_tokens:
 tags: card-color-black card-color-gold card-color-gold-cost-6 card-color-green card-color-red
   card-type-creature card-type-legendary
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Kobold 0/1 R
   power_toughness: 0/1
   rules: ''
   subtype: Kobold
+  tla: CMR
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/prossh-skyraider-of-kher/

@@ -11,11 +11,14 @@ companions:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -25,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -35,13 +38,16 @@ name: Academy Manufactor
 power_toughness: 1/3
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 219
     rarity: rare
     release_date: 2021-06-18
-    set_number: 219
     variations:
     - identifier: '469'
+    wizards_id: 522295
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522295
 rules: If you would create a Clue, Food, or Treasure token, instead create one of
   each.
 slug: academy-manufactor
@@ -50,23 +56,35 @@ subtype_tokens:
 - Assembly-Worker
 tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Clue
   power_toughness: null
   rules: '[[symbol:2]], Sacrifice this: Draw a card.'
   subtype: Clue
+  tla: MH2
   type: Token Artifact
-- colors: C
-  name: C Token Artifact Food
-  power_toughness: null
-  rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
-  subtype: Food
-  type: Token Artifact
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: MH2
+  type: Token Artifact
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Food
+  power_toughness: null
+  rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
+  subtype: Food
+  tla: MH2
   type: Token Artifact
 type: Artifact Creature
 url: http://tappedout.net/mtg-card/academy-manufactor/

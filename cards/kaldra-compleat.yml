@@ -13,11 +13,14 @@ companions:
 flat_cost: 7
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -26,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Equip
@@ -43,13 +46,16 @@ mana_cost_converted: 7
 name: Kaldra Compleat
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 227
     rarity: mythic_rare
     release_date: 2021-06-18
-    set_number: 227
     variations:
     - identifier: '379'
+    wizards_id: 522303
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522303
 rules: "Living Weapon *(When this enters the battlefield, create an 0/0 black Phyrexian\
   \ Germ creature token, then attach this to it.)*\r\n\r\nIndestructible\r\n\r\nEquipped\
   \ creature gets +5/+5 and has first strike, trample, indestructible, haste and \"\
@@ -61,11 +67,15 @@ subtype_tokens:
 - Equipment
 tags: card-color-colorless card-color-colorless-cost-7 card-type-artifact card-type-legendary
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Phyrexian Germ 0/0 B
   power_toughness: 0/0
   rules: ''
   subtype: Phyrexian Germ
+  tla: MH2
   type: Token Creature
 type: Legendary Artifact
 url: http://tappedout.net/mtg-card/kaldra-compleat/

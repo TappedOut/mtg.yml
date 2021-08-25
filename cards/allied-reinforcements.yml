@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -39,24 +39,29 @@ mana_cost_converted: 4
 name: Allied Reinforcements
 printings:
 - OGW:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 59492
     mtgo_id: 59491
     name: Oath of the Gatewatch
     number: 15
     rarity: uncommon
     release_date: 2016-01-22
-    set_number: 15
     wizards_id: 407525
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407525
 rules: Put two 2/2 white Knight Ally creature tokens onto the battlefield.
 slug: allied-reinforcements
 tags: card-color-white card-color-white-cost-4 card-type-sorcery
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 W Token Creature Knight Ally
   power_toughness: 2/2
   rules: ''
   subtype: Knight Ally
+  tla: OGW
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/allied-reinforcements/

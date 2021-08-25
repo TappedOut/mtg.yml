@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Kicker
@@ -45,16 +45,19 @@ mana_cost_converted: 2
 name: Saproling Migration
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - DOM:
+    border_color: B
+    frame: m15
     name: Dominaria
     number: 178
     rarity: common
     release_date: 2018-04-22
-    set_number: 178
     wizards_id: 443066
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443066
 rules: "Kicker [[symbol:4]] *(You may pay an additional [[symbol:4]] as you cast this\
@@ -63,11 +66,15 @@ rules: "Kicker [[symbol:4]] *(You may pay an additional [[symbol:4]] as you cast
 slug: saproling-migration
 tags: card-color-green card-color-green-cost-2 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: DOM
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/saproling-migration/

@@ -37,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Cycling
@@ -47,13 +47,16 @@ name: Valiant Rescuer
 power_toughness: 3/1
 printings:
 - IKO:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 80082
     mtgo_id: 80081
     name: 'Ikoria: Lair of Behemoths'
     number: 36
     rarity: uncommon
     release_date: 2020-04-15
-    set_number: 36
+    wizards_id: 479556
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479556
 rules: "Whenever you cycle another card for the first time each turn, create a 1/1\
   \ white Human Soldier creature token.\r\n\r\nCycling [[symbol:2]] *([[symbol:2]],\
   \ Discard this card: Draw a card.)*"
@@ -64,11 +67,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-2 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Human Soldier
   power_toughness: 1/1
   rules: ''
   subtype: Human Soldier
+  tla: IKO
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/valiant-rescuer/

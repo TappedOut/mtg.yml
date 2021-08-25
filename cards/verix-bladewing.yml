@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -41,12 +41,12 @@ name: Verix Bladewing
 power_toughness: 4/4
 printings:
 - DOM:
-    cannonical: false
+    border_color: B
+    frame: m15
     name: Dominaria
     number: 149
     rarity: mythic_rare
     release_date: 2018-04-22
-    set_number: 149
     wizards_id: 443037
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443037
 rules: "Kicker [[3]] *(You may pay an additional [[3]] as you cast this spell.)*\r\
@@ -58,11 +58,15 @@ subtype_tokens:
 - Dragon
 tags: card-color-red card-color-red-cost-4 card-type-creature card-type-legendary
 tokens:
-- colors: R
-  name: 4/4 R Token Legendary Creature Dragon
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Karox Bladewing
   power_toughness: 4/4
   rules: Flying
   subtype: Dragon
+  tla: DOM
   type: Token Legendary Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/verix-bladewing/

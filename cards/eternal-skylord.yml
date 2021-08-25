@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -43,13 +43,14 @@ name: Eternal Skylord
 power_toughness: 3/3
 printings:
 - WAR:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71705
     mtgo_id: 71704
     name: War of the Spark
     number: 49
     rarity: uncommon
     release_date: 2019-05-03
-    set_number: 49
     wizards_id: 460976
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460976
 rules: "When Eternal Skylord enters the battlefield, amass 2. *(Put two +1/+1 counters\
@@ -62,11 +63,15 @@ subtype_tokens:
 - Wizard
 tags: card-color-blue card-color-blue-cost-5 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie Army 0/0 B
   power_toughness: 0/0
   rules: ''
   subtype: Zombie Army
+  tla: WAR
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/eternal-skylord/

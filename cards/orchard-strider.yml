@@ -20,11 +20,14 @@ effective_cost:
 flat_cost: 6
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -35,7 +38,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -48,11 +51,14 @@ name: Orchard Strider
 power_toughness: 6/4
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 169
     rarity: common
     release_date: 2021-06-18
-    set_number: 169
+    wizards_id: 522245
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522245
 rules: "When this enters the battlefield, create two Food tokens. *(They're artifacts\
   \ with [[symbol:2]], [[symbol:T]], Sacrifice this artifact: You gain 3 life.\")*\r\
   \n\r\nBasic landcycling [[symbol:1]][[symbol:G]] *([[symbol:1]][[symbol:G]], Discard\
@@ -64,11 +70,15 @@ subtype_tokens:
 - Treefolk
 tags: card-color-green card-color-green-cost-6 card-type-creature
 tokens:
-- colors: C
-  name: C Token Artifact Food
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Food
   power_toughness: null
   rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
   subtype: Food
+  tla: MH2
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/orchard-strider/

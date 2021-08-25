@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Deathtouch
@@ -45,13 +45,14 @@ name: Aether Poisoner
 power_toughness: 1/1
 printings:
 - AER:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 62664
     mtgo_id: 62663
     name: Aether Revolt
     number: 51
     rarity: common
     release_date: 2017-01-20
-    set_number: 51
     wizards_id: 423718
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423718
 rules: "Deathtouch *(Any amount of damage this deals to a creature is enough to destroy\
@@ -66,11 +67,15 @@ subtype_tokens:
 - Artificer
 tags: card-color-black card-color-black-cost-2 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Servo 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Servo
+  tla: AER
   type: Token Artifact Creature
 type: Creature
 url: http://tappedout.net/mtg-card/aether-poisoner/

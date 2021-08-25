@@ -25,7 +25,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Enchant
@@ -34,13 +34,14 @@ mana_cost_converted: 3
 name: Curse of Shallow Graves
 printings:
 - C13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51413
     mtgo_id: 51412
     name: Commander 2013
     number: 71
     rarity: uncommon
     release_date: 2013-11-01
-    set_number: 71
     wizards_id: 376294
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376294
 rules: "Enchant player \r\n\r\nWhenever a player attacks enchanted player with one\
@@ -53,11 +54,15 @@ subtype_tokens:
 - Curse
 tags: card-color-black card-color-black-cost-3 card-type-enchantment
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: C13
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/curse-of-shallow-graves/
