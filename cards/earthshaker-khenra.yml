@@ -38,7 +38,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -51,13 +51,14 @@ name: Earthshaker Khenra
 power_toughness: 2/1
 printings:
 - HOU:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 64665
     mtgo_id: 64664
     name: Hour of Devastation
     number: 90
     rarity: rare
     release_date: 2017-07-14
-    set_number: 90
     wizards_id: 430779
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430779
 rules: "Haste\r\n\r\nWhen Earthsaker Khenra enters the battlefield, target creature\
@@ -73,13 +74,17 @@ subtype_tokens:
 - Warrior
 tags: card-color-red card-color-red-cost-2 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 4/4 B Token Creature Zombie Jackal Warrior
   power_toughness: 4/4
   rules: "Haste\r\n\r\nWhen Earthshaker Khenra enters the battlefield, target creature\
     \ with power less than or equal to Earthshaker Khenra's power can't block this\
     \ turn."
   subtype: Zombie Jackal Warrior
+  tla: HOU
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/earthshaker-khenra/

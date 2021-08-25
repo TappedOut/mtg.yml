@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Exile
@@ -43,13 +43,14 @@ mana_cost_converted: 3
 name: Hour of Eternity
 printings:
 - HOU:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 64557
     mtgo_id: 64556
     name: Hour of Devastation
     number: 36
     rarity: rare
     release_date: 2017-07-14
-    set_number: 36
     wizards_id: 430725
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430725
 rules: Exile X target creature cards from your graveyard. For each card exiled this
@@ -57,11 +58,14 @@ rules: Exile X target creature cards from your graveyard. For each card exiled t
 slug: hour-of-eternity
 tags: card-color-blue card-color-blue-cost-3 card-type-sorcery
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: HOU
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/hour-of-eternity/

@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -40,13 +40,14 @@ name: Druid of Horns
 power_toughness: 2/3
 printings:
 - M19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 68514
     mtgo_id: 68513
     name: Core Set 2019
     number: 176
     rarity: uncommon
     release_date: 2018-07-13
-    set_number: 176
     wizards_id: 447312
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447312
 rules: Whenever you cast an Aura spell that targets Druid of Horns, create a 3/3 green
@@ -58,11 +59,15 @@ subtype_tokens:
 - Druid
 tags: card-color-green card-color-green-cost-4 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Beast 3/3 G
   power_toughness: 3/3
   rules: ''
   subtype: Beast
+  tla: M19
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/druid-of-horns/

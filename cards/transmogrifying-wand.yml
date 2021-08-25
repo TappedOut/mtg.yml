@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -45,13 +45,14 @@ mana_cost_converted: 3
 name: Transmogrifying Wand
 printings:
 - M19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 68658
     mtgo_id: 68657
     name: Core Set 2019
     number: 247
     rarity: rare
     release_date: 2018-07-13
-    set_number: 247
     wizards_id: 447384
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447384
 rules: "Transmogrifying Wand enters the battlefield with three charge counters on\
@@ -61,11 +62,15 @@ rules: "Transmogrifying Wand enters the battlefield with three charge counters o
 slug: transmogrifying-wand
 tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/4 W Token Creature Ox
   power_toughness: 2/4
   rules: ''
   subtype: Ox
+  tla: M19
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/transmogrifying-wand/

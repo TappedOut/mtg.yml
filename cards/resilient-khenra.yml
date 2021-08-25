@@ -38,7 +38,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -50,13 +50,14 @@ name: Resilient Khenra
 power_toughness: 2/2
 printings:
 - HOU:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 64747
     mtgo_id: 64746
     name: Hour of Devastation
     number: 131
     rarity: rare
     release_date: 2017-07-14
-    set_number: 131
     wizards_id: 430820
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430820
 rules: "When Resilient Khenra enters the battlefield, you may have target creature\
@@ -70,12 +71,16 @@ subtype_tokens:
 - Wizard
 tags: card-color-green card-color-green-cost-2 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 4/4 B Token Creature Zombie Jackal Wizard
   power_toughness: 4/4
   rules: When Resilient Khenra enters the battlefield, you may have target creature
     get +X/+X until end of turn, where X is Resilient Khenra's power.
   subtype: Zombie Jackal Wizard
+  tla: HOU
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/resilient-khenra/

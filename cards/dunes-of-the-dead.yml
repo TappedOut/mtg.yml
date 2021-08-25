@@ -38,20 +38,21 @@ formats:
 - Vintage
 has_activated_abilities: true
 is_land: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost_converted: 0
 mana_produced: C
 name: Dunes of the Dead
 printings:
 - HOU:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 64875
     mtgo_id: 64874
     name: Hour of Devastation
     number: 175
     rarity: uncommon
     release_date: 2017-07-14
-    set_number: 175
     wizards_id: 430864
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430864
 rules: "[[T]]: Add [[C]] to your mana pool.\r\n\r\nWhen Dunes of the Dead is put into\
@@ -62,11 +63,15 @@ subtype_tokens:
 - Desert
 tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: HOU
   type: Token Creature
 type: Land
 url: http://tappedout.net/mtg-card/dunes-of-the-dead/

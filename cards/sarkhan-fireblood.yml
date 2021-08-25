@@ -37,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -49,13 +49,14 @@ mana_produced: W,U,B,R,G
 name: Sarkhan, Fireblood
 printings:
 - M19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 68470
     mtgo_id: 68469
     name: Core Set 2019
     number: 154
     rarity: mythic_rare
     release_date: 2018-07-13
-    set_number: 154
     wizards_id: 447290
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447290
 rules: "[[symbol:loyalty-plus1]]: You may discard a card. If you do, draw a card.\r\
@@ -69,11 +70,15 @@ subtype_tokens:
 tags: card-color-red card-color-red-cost-3 card-mana-black card-mana-blue card-mana-green
   card-mana-red card-mana-white card-type-planeswalker
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Dragon 5/5 R
   power_toughness: 5/5
   rules: Flying
   subtype: Dragon
+  tla: M19
   type: Token Creature
 type: Planeswalker
 url: http://tappedout.net/mtg-card/sarkhan-fireblood/

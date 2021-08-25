@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -46,13 +46,14 @@ name: Thorn Lieutenant
 power_toughness: 2/3
 printings:
 - M19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 68568
     mtgo_id: 68567
     name: Core Set 2019
     number: 203
     rarity: rare
     release_date: 2018-07-13
-    set_number: 203
     variations:
     - identifier: PromoPack
     wizards_id: 447339
@@ -67,11 +68,15 @@ subtype_tokens:
 - Warrior
 tags: card-color-green card-color-green-cost-2 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Elf Warrior 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Elf Warrior
+  tla: M19
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/thorn-lieutenant/

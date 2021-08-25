@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -44,13 +44,14 @@ mana_cost_converted: 5
 name: Tezzeret, Artifice Master
 printings:
 - M19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 68320
     mtgo_id: 68319
     name: Core Set 2019
     number: 79
     rarity: mythic_rare
     release_date: 2018-07-13
-    set_number: 79
     wizards_id: 447215
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447215
 rules: "[[symbol:loyalty-plus1]]: Create a 1/1 colorless thopter artifact creature\
@@ -64,18 +65,26 @@ subtype_tokens:
 - Tezzeret
 tags: card-color-blue card-color-blue-cost-5 card-type-legendary card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Tezzeret
   power_toughness: null
   rules: At the beginning of your end step, search your library for a permanent card,
     put it onto the battlefield, then shuffle your library.
   subtype: Tezzeret
+  tla: M19
   type: Emblem
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Thopter 1/1 C
   power_toughness: 1/1
   rules: Flying
   subtype: Thopter
+  tla: M19
   type: Token Artifact Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/tezzeret-artifice-master/

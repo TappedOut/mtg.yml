@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -48,13 +48,14 @@ name: Sai, Master Thopterist
 power_toughness: 1/4
 printings:
 - M19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 68300
     mtgo_id: 68299
     name: Core Set 2019
     number: 69
     rarity: rare
     release_date: 2018-07-13
-    set_number: 69
     variations:
     - identifier: PromoPack
     wizards_id: 447205
@@ -69,11 +70,15 @@ subtype_tokens:
 - Artificer
 tags: card-color-blue card-color-blue-cost-3 card-type-creature card-type-legendary
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Thopter 1/1 C
   power_toughness: 1/1
   rules: Flying
   subtype: Thopter
+  tla: M19
   type: Token Artifact Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/sai-master-thopterist/

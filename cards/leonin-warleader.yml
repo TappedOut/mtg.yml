@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Lifelink
@@ -41,24 +41,26 @@ name: Leonin Warleader
 power_toughness: 4/4
 printings:
 - SLD:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     mtgo_foil_id: 79089
     mtgo_id: 79088
     name: Secret Lair
     number: 22
     rarity: rare
     release_date: 2019-12-09
-    set_number: 22
 - M19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 68208
     mtgo_id: 68207
     name: Core Set 2019
     number: 23
     rarity: rare
     release_date: 2018-07-13
-    set_number: 23
     variations:
     - identifier: Animated
     - identifier: PromoPack
@@ -73,17 +75,25 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Cat
   power_toughness: 1/1
   rules: Lifelink
   subtype: Cat
+  tla: M19
   type: Token Creature
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Cat Soldier
   power_toughness: 1/1
   rules: Vigilance
   subtype: Cat Soldier
+  tla: M19
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/leonin-warleader/

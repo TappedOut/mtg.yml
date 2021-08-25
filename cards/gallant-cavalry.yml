@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Vigilance
@@ -43,13 +43,14 @@ name: Gallant Cavalry
 power_toughness: 2/2
 printings:
 - M19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 68186
     mtgo_id: 68185
     name: Core Set 2019
     number: 12
     rarity: common
     release_date: 2018-07-13
-    set_number: 12
     wizards_id: 447148
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447148
 rules: "Vigilance *(Attacking doesn't cause this creature to tap.)*\r\n\r\nWhen Gallant\
@@ -62,11 +63,15 @@ subtype_tokens:
 - Knight
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Knight 2/2 W w/ Vigilance
   power_toughness: 2/2
   rules: Vigilance
   subtype: Knight
+  tla: M19
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/gallant-cavalry/

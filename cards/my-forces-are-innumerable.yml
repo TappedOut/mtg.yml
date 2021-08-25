@@ -24,7 +24,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Sacrifice
@@ -33,11 +33,12 @@ mana_cost_converted: 0
 name: My Forces Are Innumerable
 printings:
 - E01:
+    border_color: B
+    frame: m15
     name: 'Archenemy: Nicol Bolas'
     number: 11
     rarity: common
     release_date: 2017-06-16
-    set_number: 11
     wizards_id: 430656
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430656
 rules: "*(An ongoing scheme remains face up until it's abandoned.)*\r\n\r\nAt the\
@@ -47,11 +48,15 @@ rules: "*(An ongoing scheme remains face up until it's abandoned.)*\r\n\r\nAt th
 slug: my-forces-are-innumerable
 tags: card-color-colorless card-color-colorless-cost-0 card-type-ongoing card-type-scheme
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 B Token Creature Horror
   power_toughness: 3/3
   rules: ''
   subtype: Horror
+  tla: E01
   type: Token Creature
 type: Ongoing Scheme
 url: http://tappedout.net/mtg-card/my-forces-are-innumerable/

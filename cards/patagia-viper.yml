@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -41,14 +41,17 @@ name: Patagia Viper
 power_toughness: 2/1
 printings:
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 197
     rarity: uncommon
     release_date: 2015-11-13
-    set_number: 197
     wizards_id: 405335
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405335
 - DIS:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 24284
     mtgo_id: 24283
     name: Dissension
@@ -66,11 +69,15 @@ subtype_tokens:
 tags: card-color-blue card-color-blue-cost-4 card-color-green card-color-green-cost-4
   card-type-creature
 tokens:
-- colors: GU
+- cannonical_type: Creature
+  colors: GU
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 GU Token Creature Snake
   power_toughness: 1/1
   rules: ''
   subtype: Snake
+  tla: C15
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/patagia-viper/
