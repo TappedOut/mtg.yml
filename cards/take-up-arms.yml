@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -39,32 +39,40 @@ mana_cost_converted: 5
 name: Take Up Arms
 printings:
 - BBD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 68951
     mtgo_id: 68950
     name: Battlebond
     number: 111
     rarity: uncommon
     release_date: 2018-06-08
-    set_number: 111
+    wizards_id: 446079
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446079
 - KTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54281
     mtgo_id: 54280
     name: Khans of Tarkir
     number: 26
     rarity: uncommon
     release_date: 2014-09-26
-    set_number: 26
     wizards_id: 386691
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386691
 rules: Create three 1/1 white Warrior creature tokens.
 slug: take-up-arms
 tags: card-color-white card-color-white-cost-5 card-type-instant
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Warrior
   power_toughness: 1/1
   rules: ''
   subtype: Warrior
+  tla: BBD
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/take-up-arms/

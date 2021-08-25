@@ -26,7 +26,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tap/Untap
@@ -38,22 +38,28 @@ name: Wort, the Raidmother
 power_toughness: 3/3
 printings:
 - C20:
+    border_color: B
+    frame: m15
     name: Commander 2020
     number: 234
     rarity: rare
     release_date: 2020-05-15
-    set_number: 234
+    wizards_id: 482862
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482862
 - MM3:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63114
     mtgo_id: 63113
     name: Modern Masters 2017 Edition
     number: 214
     rarity: rare
     release_date: 2017-03-17
-    set_number: 214
     wizards_id: 426039
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426039
 - SHM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 29530
     mtgo_id: 29529
     name: Shadowmoor
@@ -74,11 +80,15 @@ subtype_tokens:
 tags: card-color-gold card-color-gold-cost-6 card-color-green card-color-red card-type-creature
   card-type-legendary
 tokens:
-- colors: RG
+- cannonical_type: Creature
+  colors: RG
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 RG Token Creature Goblin Warrior
   power_toughness: 1/1
   rules: ''
   subtype: Goblin Warrior
+  tla: C20
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/wort-the-raidmother/

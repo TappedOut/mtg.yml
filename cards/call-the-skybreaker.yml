@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Flying
@@ -40,30 +40,37 @@ mana_cost_converted: 7
 name: Call the Skybreaker
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 211
     rarity: rare
     release_date: 2021-04-23
-    set_number: 211
+    wizards_id: 519246
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519246
 - EMA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60602
     mtgo_id: 60601
     name: Eternal Masters
     number: 214
     rarity: rare
     release_date: 2016-06-10
-    set_number: 214
     wizards_id: 413756
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413756
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 240
     rarity: rare
     release_date: 2015-11-13
-    set_number: 240
     wizards_id: 405164
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405164
 - CMD:
+    border_color: B
+    frame: modern
     mtgo_id: 40526
     name: 'MTG: Commander'
     rarity: rare
@@ -71,6 +78,8 @@ printings:
     wizards_id: 247202
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247202
 - EVE:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 30191
     mtgo_id: 30190
     name: Eventide
@@ -84,11 +93,15 @@ rules: "Create a 5/5 blue and red Elemental creature token with flying.\r\n\r\nR
 slug: call-the-skybreaker
 tags: card-color-blue card-color-gold card-color-gold-cost-7 card-color-red card-type-sorcery
 tokens:
-- colors: UR
+- cannonical_type: Creature
+  colors: UR
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 5/5 UR Token Creature Elemental
   power_toughness: 5/5
   rules: Flying
   subtype: Elemental
+  tla: C21
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/call-the-skybreaker/

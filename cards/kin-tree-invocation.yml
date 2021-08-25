@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: MYS1
+cannonical_set: KTK
 cannonical_type: Sorcery
 companions:
 - Gyruda, Doom of Depths
@@ -31,24 +31,28 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 mana_cost: BG
 mana_cost_converted: 2
 name: Kin-Tree Invocation
 printings:
 - MYS1:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
 - KTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54421
     mtgo_id: 54420
     name: Khans of Tarkir
     number: 183
     rarity: uncommon
     release_date: 2014-09-26
-    set_number: 183
     wizards_id: 386583
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386583
 rules: Put an X/X black and green Spirit Warrior creature token onto the battlefield,
@@ -56,11 +60,15 @@ rules: Put an X/X black and green Spirit Warrior creature token onto the battlef
 slug: kin-tree-invocation
 tags: card-color-black card-color-gold card-color-gold-cost-2 card-color-green card-type-sorcery
 tokens:
-- colors: BG
+- cannonical_type: Creature
+  colors: BG
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* BG Token Creature Spirit Warrior'
   power_toughness: '*/*'
   rules: ''
   subtype: Spirit Warrior
+  tla: KTK
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/kin-tree-invocation/

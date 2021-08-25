@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -41,9 +41,12 @@ mana_cost_converted: 6
 name: Back from the Brink
 printings:
 - ISD:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 42793
     mtgo_id: 42792
     name: Innistrad
+    number: 44
     rarity: rare
     release_date: 2011-09-30
     wizards_id: 249663
@@ -54,11 +57,14 @@ rules: 'Exile a creature card from your graveyard and pay its mana cost: Put a t
 slug: back-from-the-brink
 tags: card-color-blue card-color-blue-cost-6 card-type-enchantment
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: ISD
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/back-from-the-brink/

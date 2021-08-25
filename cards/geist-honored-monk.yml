@@ -25,7 +25,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -37,22 +37,28 @@ name: Geist-Honored Monk
 power_toughness: '*/*'
 printings:
 - KHC:
+    border_color: B
+    frame: m15
     name: 'Kaldheim: Commander'
     number: 25
     rarity: rare
     release_date: 2021-02-05
-    set_number: 25
+    wizards_id: 508315
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508315
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54968
     mtgo_id: 54967
     name: Commander 2014
     number: 72
     rarity: rare
     release_date: 2014-11-21
-    set_number: 72
     wizards_id: 389533
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389533
 - ISD:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 42559
     mtgo_id: 42558
     name: Innistrad
@@ -72,11 +78,15 @@ synonyms:
 - Geist-Honoured Monk
 tags: card-color-white card-color-white-cost-5 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: KHC
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/geist-honored-monk/

@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Flying
@@ -39,14 +39,19 @@ mana_cost_converted: 3
 name: Midnight Haunting
 printings:
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54960
     mtgo_id: 54959
     name: Commander 2014
+    number: 80
     rarity: uncommon
     release_date: 2014-11-21
     wizards_id: 389595
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389595
 - ISD:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 42355
     mtgo_id: 42354
     name: Innistrad
@@ -58,11 +63,15 @@ rules: Put two 1/1 white Spirit creature tokens with flying onto the battlefield
 slug: midnight-haunting
 tags: card-color-white card-color-white-cost-3 card-type-instant
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: C14
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/midnight-haunting/

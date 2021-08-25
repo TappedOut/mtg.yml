@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: GTC
+cannonical_set: UMA
 cannonical_type: Instant
 companions:
 - Jegantha, the Wellspring
@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Flying
@@ -44,15 +44,19 @@ mana_cost_converted: 1
 name: Beckon Apparition
 printings:
 - UMA:
-    cannonical: false
+    border_color: B
+    frame: m15
     mtgo_foil_id: 70496
     mtgo_id: 70495
     name: Ultimate Masters
     number: 211
     rarity: common
     release_date: 2018-12-07
-    set_number: 211
+    wizards_id: 456807
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456807
 - GTC:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 47870
     mtgo_id: 47869
     name: Gatecrash
@@ -61,6 +65,8 @@ printings:
     wizards_id: 366461
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=366461
 - EVE:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 30209
     mtgo_id: 30208
     name: Eventide
@@ -73,11 +79,15 @@ rules: Exile target card in a graveyard. Create a 1/1 white and black Spirit cre
 slug: beckon-apparition
 tags: card-color-black card-color-gold card-color-gold-cost-1 card-color-white card-type-instant
 tokens:
-- colors: WB
+- cannonical_type: Creature
+  colors: WB
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 WB
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: UMA
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/beckon-apparition/

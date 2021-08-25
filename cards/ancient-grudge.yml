@@ -1,7 +1,7 @@
 activation_costs:
 - G
 canadian_hl_score: 0
-cannonical_set: TSR
+cannonical_set: MM3
 cannonical_type: Instant
 companions:
 - Gyruda, Doom of Depths
@@ -18,11 +18,14 @@ effective_cost:
 flat_cost: 2
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -34,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Exile
@@ -43,50 +46,63 @@ mana_cost: 1R
 mana_cost_converted: 2
 name: Ancient Grudge
 printings:
-- SLD:
-    cannonical: false
-    name: Secret Lair
-    number: 98
-    rarity: rare
-    release_date: 2022-12-09
-    set_number: 98
-- ARENA:
-    cannonical: false
-    name: Arena Cards
-    rarity: common
-    release_date: 2022-09-26
 - TSR:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Time Spiral Remastered
     number: 151
     rarity: common
     release_date: 2021-03-19
-    set_number: 151
+    wizards_id: 509516
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509516
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
+- SLD:
+    border_color: B
+    cannonical: false
+    frame: m15
+    name: Secret Lair
+    number: 98
+    rarity: rare
+    release_date: 2019-12-09
+- ARENA:
+    border_color: B
+    cannonical: false
+    frame: m15
+    name: Arena Cards
+    rarity: common
+    release_date: 2019-09-26
 - MM3:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63286
     mtgo_id: 63285
     name: Modern Masters 2017 Edition
     number: 88
     rarity: uncommon
     release_date: 2017-03-17
-    set_number: 88
     wizards_id: 425913
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425913
 - ISD:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 42619
     mtgo_id: 42618
     name: Innistrad
     number: 127
     rarity: common
     release_date: 2011-09-30
-    set_number: 127
     wizards_id: 235600
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=235600
 - TSP:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 25540
     mtgo_id: 25539
     name: Time Spiral
@@ -95,12 +111,13 @@ printings:
     wizards_id: 109751
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=109751
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 5
     rarity: common
     release_date: 1990-04-15
-    set_number: 5
 rules: "Destroy target artifact.\r\n\r\nFlashback [[symbol:G]] *(You may cast this\
   \ card from your graveyard for its flashback cost. Then exile it.)*"
 slug: ancient-grudge
