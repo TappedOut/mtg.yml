@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Exile
@@ -41,29 +41,34 @@ name: Ghastly Conscription
 printings:
 - C19:
     booster_exclude: true
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77345
     mtgo_id: 77344
     name: Commander 2019
     number: 115
     rarity: mythic_rare
     release_date: 2019-08-23
-    set_number: 115
+    wizards_id: 470661
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470661
 - C16:
+    border_color: B
+    frame: m15
     name: Commander 2016
     number: 111
     rarity: mythic_rare
     release_date: 2016-11-11
-    set_number: 111
     wizards_id: 420728
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420728
 - FRF:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55371
     mtgo_id: 55370
     name: Fate Reforged
     number: 70
     rarity: mythic_rare
     release_date: 2015-01-23
-    set_number: 70
     wizards_id: 391843
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=391843
 rules: Exile all creature cards from target player's graveyard in a face-down pile,
@@ -73,13 +78,16 @@ rules: Exile all creature cards from target player's graveyard in a face-down pi
 slug: ghastly-conscription
 tags: card-color-black card-color-black-cost-7 card-type-sorcery
 tokens:
-- colors: C
-  name: 2/2 C Creature Manifest
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Manifest 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down manifested creature with this reminder card.\r\
     \n\r\nA manifested creature card can be turned face up at any time for its mana\
     \ cost. A face-down card can also be turned face up for its morph cost."
-  subtype: Manifest
+  tla: C19
   type: Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/ghastly-conscription/

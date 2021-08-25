@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -38,21 +38,26 @@ mana_cost_converted: 3
 name: Goblin Assault
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
 - MM3:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63144
     mtgo_id: 63143
     name: Modern Masters 2017 Edition
     number: 95
     rarity: uncommon
     release_date: 2017-03-17
-    set_number: 95
     wizards_id: 425920
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425920
 - ALA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 31008
     mtgo_id: 31007
     name: Shards of Alara
@@ -65,11 +70,15 @@ rules: "At the beginning of your upkeep, create a 1/1 red Goblin creature token 
 slug: goblin-assault
 tags: card-color-red card-color-red-cost-3 card-type-enchantment
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R w/ Haste
   power_toughness: 1/1
   rules: Haste
   subtype: Goblin
+  tla: MM3
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/goblin-assault/

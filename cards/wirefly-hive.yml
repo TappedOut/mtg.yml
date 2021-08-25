@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -41,9 +41,12 @@ mana_cost_converted: 3
 name: Wirefly Hive
 printings:
 - DST:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 20570
     mtgo_id: 20569
     name: Darksteel
+    number: 161
     rarity: uncommon
     release_date: 2004-02-06
     wizards_id: 49026
@@ -54,11 +57,15 @@ rules: '(3), Tap: Flip a coin. If you win the flip, put a 2/2 Insect artifact cr
 slug: wirefly-hive
 tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Insect 1/1 C w/ Flying
   power_toughness: 1/1
   rules: Flying
   subtype: Insect
+  tla: DST
   type: Token Artifact Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/wirefly-hive/

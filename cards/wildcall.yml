@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Counters
@@ -39,17 +39,20 @@ mana_cost_converted: 2
 name: Wildcall
 printings:
 - FRF:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55409
     mtgo_id: 55408
     name: Fate Reforged
     number: 146
     rarity: rare
     release_date: 2015-01-23
-    set_number: 146
     wizards_id: 391960
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=391960
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     rarity: rare
     release_date: 1990-04-15
@@ -59,13 +62,16 @@ rules: Manifest the top card of your library, then put X +1/+1 counters on it. *
 slug: wildcall
 tags: card-color-green card-color-green-cost-2 card-type-sorcery
 tokens:
-- colors: C
-  name: 2/2 C Creature Manifest
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Manifest 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down manifested creature with this reminder card.\r\
     \n\r\nA manifested creature card can be turned face up at any time for its mana\
     \ cost. A face-down card can also be turned face up for its morph cost."
-  subtype: Manifest
+  tla: FRF
   type: Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/wildcall/

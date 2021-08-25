@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -42,52 +42,57 @@ mana_cost_converted: 4
 name: Elspeth, Knight-Errant
 printings:
 - GRNMED:
+    border_color: B
     cannonical: false
+    frame: m15
     name: 'Guilds of Ravnica: Mythic Edition'
     number: 1
     rarity: mythic_rare
     release_date: 2018-10-04
-    set_number: 1
     wizards_id: 456589
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456589
 - MD1:
+    border_color: B
     cannonical: false
+    frame: modern
     name: Modern Event Deck
     number: 13
     rarity: mythic_rare
     release_date: 2014-05-30
-    set_number: 13
     wizards_id: 382184
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382184
 - MMA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 48799
     mtgo_id: 48798
     name: Modern Masters
     number: 13
     rarity: mythic_rare
     release_date: 2013-06-07
-    set_number: 13
     wizards_id: 370551
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370551
 - DDF:
+    border_color: B
     foil: foil
     foil_only: true
+    frame: modern
     mtgo_foil_id: 37782
     name: 'Duel Decks: Elspeth vs. Tezzeret'
     number: 1
     rarity: mythic_rare
     release_date: 2010-09-03
-    set_number: 1
     wizards_id: 217825
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=217825
 - ALA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 30928
     mtgo_id: 30927
     name: Shards of Alara
     number: 9
     rarity: mythic_rare
     release_date: 2008-10-03
-    set_number: 9
     wizards_id: 174859
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=174859
 rules: "[[symbol:loyalty-plus1]]: Create a 1/1 white Soldier creature token.\r\n\r\
@@ -100,17 +105,25 @@ subtype_tokens:
 - Elspeth
 tags: card-color-white card-color-white-cost-4 card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Elspeth
   power_toughness: null
   rules: Artifacts, creatures, enchantments and lands you control have indestructible.
   subtype: Elspeth
+  tla: MMA
   type: Emblem
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W
   power_toughness: 1/1
   rules: ''
   subtype: Soldier
+  tla: MMA
   type: Token Creature
 type: Planeswalker
 url: http://tappedout.net/mtg-card/elspeth-knight-errant/

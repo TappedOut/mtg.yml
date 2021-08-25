@@ -27,7 +27,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Reach
@@ -45,7 +45,6 @@ printings:
     number: 223
     rarity: common
     release_date: 2021-03-19
-    set_number: 223
     wizards_id: 509588
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509588
 - MYS1:
@@ -64,17 +63,16 @@ printings:
     number: 131
     rarity: common
     release_date: 2017-03-17
-    set_number: 131
     wizards_id: 425956
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425956
 - PCA:
     border_color: B
+    cannonical: false
     frame: m15
     name: Planechase Anthology
     number: 73
     rarity: common
     release_date: 2016-11-25
-    set_number: 73
     wizards_id: 423498
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423498
 - MMA:
@@ -86,7 +84,6 @@ printings:
     number: 157
     rarity: common
     release_date: 2013-06-07
-    set_number: 157
     wizards_id: 370516
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370516
 - PC2:
@@ -126,11 +123,15 @@ subtype_tokens:
 - Spider
 tags: card-color-green card-color-green-cost-4 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spider 2/4 B
   power_toughness: 2/4
   rules: Reach
   subtype: Spider
+  tla: MM3
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/penumbra-spider/

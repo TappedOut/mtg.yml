@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Regenerate
@@ -43,9 +43,12 @@ name: Savage Thallid
 power_toughness: 5/2
 printings:
 - TSP:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 25378
     mtgo_id: 25377
     name: Time Spiral
+    number: 213
     rarity: common
     release_date: 2006-10-06
     wizards_id: 106643
@@ -59,11 +62,15 @@ subtype_tokens:
 - Fungus
 tags: card-color-green card-color-green-cost-5 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: TSP
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/savage-thallid/

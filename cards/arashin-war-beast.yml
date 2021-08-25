@@ -27,7 +27,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Manifest
@@ -37,17 +37,20 @@ name: Arashin War Beast
 power_toughness: 6/6
 printings:
 - FRF:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55401
     mtgo_id: 55400
     name: Fate Reforged
     number: 123
     rarity: uncommon
     release_date: 2015-01-23
-    set_number: 123
     wizards_id: 391792
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=391792
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     rarity: uncommon
     release_date: 1990-04-15
@@ -61,13 +64,16 @@ subtype_tokens:
 - Beast
 tags: card-color-green card-color-green-cost-7 card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Manifest
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Manifest 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down manifested creature with this reminder card.\r\
     \n\r\nA manifested creature card can be turned face up at any time for its mana\
     \ cost. A face-down card can also be turned face up for its morph cost."
-  subtype: Manifest
+  tla: FRF
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/arashin-war-beast/
