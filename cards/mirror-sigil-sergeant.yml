@@ -26,7 +26,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Trample
@@ -36,9 +36,12 @@ name: Mirror-Sigil Sergeant
 power_toughness: 4/4
 printings:
 - CON:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 31694
     mtgo_id: 31693
     name: Conflux
+    number: 12
     rarity: mythic_rare
     release_date: 2009-02-06
     wizards_id: 158598
@@ -53,11 +56,14 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-6 card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: CON
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/mirror-sigil-sergeant/

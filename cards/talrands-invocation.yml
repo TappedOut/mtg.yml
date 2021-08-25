@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Flying
@@ -41,12 +41,17 @@ mana_cost_converted: 4
 name: Talrand's Invocation
 printings:
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 182
     rarity: uncommon
     release_date: 2020-07-17
-    set_number: 182
+    wizards_id: 489339
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489339
 - M13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 45547
     mtgo_id: 45546
     name: Magic 2013
@@ -58,11 +63,15 @@ rules: Create two 2/2 blue Drake creatures with flying.
 slug: talrands-invocation
 tags: card-color-blue card-color-blue-cost-4 card-type-sorcery
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Drake 2/2 U
   power_toughness: 2/2
   rules: Flying
   subtype: Drake
+  tla: JMP
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/talrands-invocation/

@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -41,32 +41,42 @@ name: Krenko, Mob Boss
 power_toughness: 3/3
 printings:
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 339
     rarity: rare
     release_date: 2020-07-17
-    set_number: 339
+    wizards_id: 489529
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489529
 - MYS1:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: rare
     release_date: 2020-03-14
 - DDT:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Merfolk vs. Goblins'
     number: 52
     rarity: rare
     release_date: 2017-11-10
-    set_number: 52
     wizards_id: 438492
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438492
 - DDN:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Speed vs. Cunning'
     number: 15
     rarity: rare
     release_date: 2014-09-05
-    set_number: 15
     wizards_id: 386339
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386339
 - M13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 45579
     mtgo_id: 45578
     name: Magic 2013
@@ -83,11 +93,15 @@ subtype_tokens:
 - Warrior
 tags: card-color-red card-color-red-cost-4 card-type-creature card-type-legendary
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: JMP
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/krenko-mob-boss/

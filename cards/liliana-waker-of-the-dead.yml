@@ -39,7 +39,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -49,11 +49,12 @@ mana_cost_converted: 4
 name: Liliana, Waker of the Dead
 printings:
 - M21:
+    border_color: B
+    frame: m15
     name: Core Set 2021
     number: 108
     rarity: mythic_rare
     release_date: 2020-07-03
-    set_number: 108
     variations:
     - identifier: '282'
     - identifier: '297'
@@ -71,12 +72,16 @@ subtype_tokens:
 - Liliana
 tags: card-color-black card-color-black-cost-4 card-type-legendary card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Liliana
   power_toughness: null
   rules: At the beginning of combat on your turn, put target creature card from a
     graveyard onto the battlefield under your control. It gains haste.
   subtype: Liliana
+  tla: M21
   type: Emblem
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/liliana-waker-of-the-dead/

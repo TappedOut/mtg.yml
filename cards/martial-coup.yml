@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -38,20 +38,26 @@ name: Martial Coup
 printings:
 - CMR:
     booster_exclude: true
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 378
     rarity: rare
     release_date: 2020-11-20
-    set_number: 378
+    wizards_id: 500858
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=500858
 - C18:
+    border_color: B
+    frame: m15
     name: Commander 2018
     number: 69
     rarity: rare
     release_date: 2018-08-10
-    set_number: 69
     wizards_id: 451024
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451024
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54748
     mtgo_id: 54747
     name: Commander 2014
@@ -60,18 +66,21 @@ printings:
     wizards_id: 389590
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389590
 - V14:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     mtgo_foil_id: 53924
     name: 'From the Vault: Annihilation'
     number: 9
     rarity: rare
     release_date: 2014-08-22
-    set_number: 9
     wizards_id: 386292
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386292
 - CON:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 31732
     mtgo_id: 31731
     name: Conflux
@@ -84,11 +93,15 @@ rules: Create X 1/1 white Soldier creature tokens. If X is 5 or more, destroy al
 slug: martial-coup
 tags: card-color-white card-color-white-cost-2 card-type-sorcery
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W
   power_toughness: 1/1
   rules: ''
   subtype: Soldier
+  tla: CMR
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/martial-coup/

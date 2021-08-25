@@ -37,7 +37,7 @@ formats:
 - Vintage
 has_activated_abilities: true
 is_land: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -46,9 +46,12 @@ mana_cost_converted: 0
 name: Hellion Crucible
 printings:
 - M13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 45701
     mtgo_id: 45700
     name: Magic 2013
+    number: 226
     rarity: rare
     release_date: 2012-07-13
     wizards_id: 253729
@@ -59,11 +62,15 @@ rules: "{T}: Add 1 to your mana pool.\r\n1{R}, {T}: Put a pressure counter on He
 slug: hellion-crucible
 tags: card-color-colorless card-color-colorless-cost-0 card-type-land
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 4/4 R Token Creature Hellion
   power_toughness: 4/4
   rules: ''
   subtype: Hellion
+  tla: M13
   type: Token Creature
 type: Land
 url: http://tappedout.net/mtg-card/hellion-crucible/

@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Raid
@@ -47,13 +47,14 @@ name: Nightsquad Commando
 power_toughness: 2/3
 printings:
 - IKO:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 80206
     mtgo_id: 80205
     name: 'Ikoria: Lair of Behemoths'
     number: 98
     rarity: common
     release_date: 2020-04-15
-    set_number: 98
     wizards_id: 479618
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479618
 rules: When this enters the battlefield, if you attacked this turn, create a 1/1 white
@@ -65,11 +66,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-black card-color-black-cost-3 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Human Soldier
   power_toughness: 1/1
   rules: ''
   subtype: Human Soldier
+  tla: IKO
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/nightsquad-commando/
