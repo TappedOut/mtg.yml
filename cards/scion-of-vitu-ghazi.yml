@@ -27,7 +27,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Populate
@@ -37,13 +37,14 @@ name: Scion of Vitu-Ghazi
 power_toughness: 4/4
 printings:
 - DGM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 48289
     mtgo_id: 48288
     name: Dragon's Maze
     number: 7
     rarity: rare
     release_date: 2013-05-03
-    set_number: 7
     wizards_id: 369092
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=369092
 rules: When Scion of Vitu-Ghazi enters the battlefield, if you cast it from your hand,
@@ -55,11 +56,15 @@ subtype_tokens:
 - Elemental
 tags: card-color-white card-color-white-cost-5 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Bird 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Bird
+  tla: DGM
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/scion-of-vitu-ghazi/
