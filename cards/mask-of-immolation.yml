@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Equip
@@ -47,13 +47,16 @@ mana_cost_converted: 2
 name: Mask of Immolation
 printings:
 - M20:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 73202
     mtgo_id: 73201
     name: Core Set 2020
     number: 151
     rarity: uncommon
     release_date: 2019-07-12
-    set_number: 151
+    wizards_id: 466905
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=466905
 rules: "When Mask of Immolation enters the battlefield, create a 1/1 red Elemental\
   \ creature token, then attach Mask of Immolation to it.\r\n\r\nEquipped creature\
   \ has \"Sacrifice this creature: It deals 1 damage to target creature, player or\
@@ -65,11 +68,15 @@ subtype_tokens:
 - Equipment
 tags: card-color-red card-color-red-cost-2 card-type-artifact
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 R Token Creature Elemental
   power_toughness: 1/1
   rules: ''
   subtype: Elemental
+  tla: M20
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/mask-of-immolation/

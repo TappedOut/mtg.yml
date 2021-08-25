@@ -28,7 +28,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Defender
@@ -39,15 +39,18 @@ name: Atla Palani, Nest Tender
 power_toughness: 2/3
 printings:
 - C19:
+    border_color: B
     foil: foil
     foil_only: true
+    frame: m15
     mtgo_foil_id: 77131
     mtgo_id: 77130
     name: Commander 2019
     number: 38
     rarity: mythic_rare
     release_date: 2019-08-23
-    set_number: 38
+    wizards_id: 470584
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470584
 rules: "[[symbol:2]], [[symbol:T]]: Create a 0/1 green Egg creature token with defender.\r\
   \n\r\nWhenever an Egg you control is put into a graveyard from the battlefield,\
   \ reveal cards from the top of your library until you reveal a creature card. Put\
@@ -61,11 +64,15 @@ subtype_tokens:
 tags: card-color-gold card-color-gold-cost-4 card-color-green card-color-red card-color-white
   card-type-creature card-type-legendary
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 G Token Creature Egg
   power_toughness: 0/1
   rules: Defender
   subtype: Egg
+  tla: C19
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/atla-palani-nest-tender/

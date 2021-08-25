@@ -25,7 +25,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Trample
@@ -37,15 +37,18 @@ name: Ghired, Conclave Exile
 power_toughness: 2/5
 printings:
 - C19:
+    border_color: B
     foil: foil
     foil_only: true
+    frame: m15
     mtgo_foil_id: 77139
     mtgo_id: 77138
     name: Commander 2019
     number: 42
     rarity: mythic_rare
     release_date: 2019-08-23
-    set_number: 42
+    wizards_id: 470588
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470588
 rules: "When Ghired, Conclave Exile enters the battlefield, create a 4/4 green Rhino\
   \ creature token with trample.\r\n\r\nWhenever Ghired attacks, populate. The token\
   \ enters the battlefield tapped and attacking. *(To populate, create a token that's\
@@ -58,11 +61,15 @@ subtype_tokens:
 tags: card-color-gold card-color-gold-cost-5 card-color-green card-color-red card-color-white
   card-type-creature card-type-legendary
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 4/4 G Token Creature Rhino
   power_toughness: 4/4
   rules: Trample
   subtype: Rhino
+  tla: C19
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/ghired-conclave-exile/

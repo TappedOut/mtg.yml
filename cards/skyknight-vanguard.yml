@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -43,13 +43,14 @@ name: Skyknight Vanguard
 power_toughness: 1/2
 printings:
 - M20:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 73336
     mtgo_id: 73335
     name: Core Set 2020
     number: 218
     rarity: uncommon
     release_date: 2019-07-12
-    set_number: 218
     wizards_id: 466972
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=466972
 rules: "Flying\r\nWhenever Skyknight Vanguard attacks, create a 1/1 white Soldier\
@@ -61,11 +62,15 @@ subtype_tokens:
 - Knight
 tags: card-color-gold card-color-gold-cost-2 card-color-red card-color-white card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W
   power_toughness: 1/1
   rules: ''
   subtype: Soldier
+  tla: M20
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/skyknight-vanguard/

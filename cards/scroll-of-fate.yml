@@ -28,7 +28,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Manifest
@@ -37,26 +37,32 @@ mana_cost_converted: 3
 name: Scroll of Fate
 printings:
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77171
     mtgo_id: 77170
     name: Commander 2019
     number: 58
     rarity: rare
     release_date: 2019-08-23
-    set_number: 58
+    wizards_id: 470604
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470604
 rules: '[[symbol:T]]: Manifest a card from your hand. *(Put that card onto the battlefield
   face down as a 2/2 creature. Turn it face up at any time for its mana cost if it''s
   a creature card.)*'
 slug: scroll-of-fate
 tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
 tokens:
-- colors: C
-  name: 2/2 C Creature Manifest
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Manifest 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down manifested creature with this reminder card.\r\
     \n\r\nA manifested creature card can be turned face up at any time for its mana\
     \ cost. A face-down card can also be turned face up for its morph cost."
-  subtype: Manifest
+  tla: C19
   type: Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/scroll-of-fate/

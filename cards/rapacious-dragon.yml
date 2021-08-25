@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -49,25 +49,30 @@ name: Rapacious Dragon
 power_toughness: 3/3
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 140
     rarity: common
     release_date: 2020-08-07
-    set_number: 140
+    wizards_id: 489813
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489813
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 358
     rarity: uncommon
     release_date: 2020-07-17
-    set_number: 358
 - M20:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 73206
     mtgo_id: 73205
     name: Core Set 2020
     number: 153
     rarity: uncommon
     release_date: 2019-07-12
-    set_number: 153
 rules: "Flying\r\n\r\nWhen Rapacious Dragon enters the battlefield, create two Treasure\
   \ tokens. *(They're artifacts with \"[[symbol:T]], Sacrifice this artifact: Gain\
   \ one mana of any colour.)*"
@@ -78,11 +83,15 @@ subtype_tokens:
 tags: card-color-red card-color-red-cost-5 card-mana-black card-mana-blue card-mana-green
   card-mana-red card-mana-white card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: 2XM
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/rapacious-dragon/

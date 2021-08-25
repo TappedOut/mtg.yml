@@ -25,7 +25,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Trample
@@ -37,13 +37,16 @@ name: Grismold, the Dreadsower
 power_toughness: 3/3
 printings:
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77143
     mtgo_id: 77142
     name: Commander 2019
     number: 44
     rarity: rare
     release_date: 2019-08-23
-    set_number: 44
+    wizards_id: 470590
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470590
 rules: "Trample\r\n\r\nAt the beginning of your end step, each player creates a 1/1\
   \ green Plant creature token.\r\n\r\nWhenever a creature token dies, put a +1/+1\
   \ counter on Grismold, the Dreadsower."
@@ -55,11 +58,15 @@ subtype_tokens:
 tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-green card-type-creature
   card-type-legendary
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 G Token Creature Plant
   power_toughness: 1/1
   rules: ''
   subtype: Plant
+  tla: C19
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/grismold-the-dreadsower/

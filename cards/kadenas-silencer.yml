@@ -26,7 +26,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counterspell
@@ -39,13 +39,16 @@ name: Kadena's Silencer
 power_toughness: 2/1
 printings:
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77071
     mtgo_id: 77070
     name: Commander 2019
     number: 8
     rarity: rare
     release_date: 2019-08-23
-    set_number: 8
+    wizards_id: 470554
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470554
 rules: "When Kadena's Silencer is turned face up, counter all abilities your opponents\
   \ control.\r\n\r\nMegamorph [[symbol:1]][[symbol:U]] *(You may cast this card face\
   \ down as a 2/2 creature for [[symbol:3]]. Turn it face up at any time for its megamorph\
@@ -57,12 +60,15 @@ subtype_tokens:
 - Wizard
 tags: card-color-blue card-color-blue-cost-2 card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: C19
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/kadenas-silencer/

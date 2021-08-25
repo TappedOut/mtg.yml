@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Reach
@@ -40,13 +40,16 @@ name: Howling Giant
 power_toughness: 5/5
 printings:
 - M20:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 73254
     mtgo_id: 73253
     name: Core Set 2020
     number: 177
     rarity: uncommon
     release_date: 2019-07-12
-    set_number: 177
+    wizards_id: 466931
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=466931
 rules: "Reach *(This creature can block creatures with flying.)*\r\n\r\nWhen Howling\
   \ Giant enters the battlefield, create two 2/2 green Wolf creature tokens."
 slug: howling-giant
@@ -56,11 +59,15 @@ subtype_tokens:
 - Druid
 tags: card-color-green card-color-green-cost-7 card-type-creature
 tokens:
-- colors: G
-  name: 2/2 G Token Creature Wolf
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Wolf 2/2 G
   power_toughness: 2/2
   rules: ''
   subtype: Wolf
+  tla: M20
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/howling-giant/

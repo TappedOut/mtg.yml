@@ -22,7 +22,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Manifest
@@ -32,13 +32,16 @@ name: Thieving Amalgam
 power_toughness: 6/7
 printings:
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77097
     mtgo_id: 77096
     name: Commander 2019
     number: 21
     rarity: rare
     release_date: 2019-08-23
-    set_number: 21
+    wizards_id: 470567
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470567
 rules: "At the beginning of each opponent's upkeep, you manifest the top card of that\
   \ player's library. *(Put it onto the battlefield face down as a 2/2 creature. Turn\
   \ it face up at any time for its mana cost if it's a creature card.)*\r\n\r\nWhenever\
@@ -51,13 +54,16 @@ subtype_tokens:
 - Snake
 tags: card-color-black card-color-black-cost-7 card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Manifest
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Manifest 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down manifested creature with this reminder card.\r\
     \n\r\nA manifested creature card can be turned face up at any time for its mana\
     \ cost. A face-down card can also be turned face up for its morph cost."
-  subtype: Manifest
+  tla: C19
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/thieving-amalgam/
