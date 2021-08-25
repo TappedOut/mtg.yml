@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Retrace
@@ -39,36 +39,44 @@ mana_cost_converted: 6
 name: Spitting Image
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 229
     rarity: rare
     release_date: 2021-04-23
-    set_number: 229
+    wizards_id: 519264
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519264
 - CMR:
     booster_exclude: true
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 453
     rarity: rare
     release_date: 2020-11-20
-    set_number: 453
 - CM2:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology 2018
     number: 166
     rarity: rare
     release_date: 2018-06-08
-    set_number: 166
     wizards_id: 446902
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446902
 - C16:
+    border_color: B
+    frame: m15
     name: Commander 2016
     number: 236
     rarity: rare
     release_date: 2016-11-11
-    set_number: 236
     wizards_id: 420853
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420853
 - EVE:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 30147
     mtgo_id: 30146
     name: Eventide
@@ -82,11 +90,14 @@ rules: "Create a token that's a copy of target creature.\r\n\r\nRetrace *(You ma
 slug: spitting-image
 tags: card-color-blue card-color-gold card-color-gold-cost-6 card-color-green card-type-sorcery
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: C21
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/spitting-image/

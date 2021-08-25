@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 1W
 mana_cost_converted: 2
@@ -38,9 +38,12 @@ name: Patrol Signaler
 power_toughness: 1/1
 printings:
 - EVE:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 30171
     mtgo_id: 30170
     name: Eventide
+    number: 12
     rarity: uncommon
     release_date: 2008-07-25
     wizards_id: 157210
@@ -53,11 +56,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-2 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Kithkin Soldier 1/1 W
   power_toughness: 1/1
   rules: ''
   subtype: Kithkin Soldier
+  tla: EVE
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/patrol-signaler/

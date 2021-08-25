@@ -32,7 +32,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -41,41 +41,49 @@ mana_cost_converted: 4
 name: Daretti, Scrap Savant
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 164
     rarity: mythic_rare
     release_date: 2021-04-23
-    set_number: 164
+    wizards_id: 519199
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519199
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: mythic_rare
     release_date: 2020-03-14
 - CM2:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology 2018
     number: 4
     rarity: mythic_rare
     release_date: 2018-06-08
-    set_number: 4
     wizards_id: 446740
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446740
 - C16:
+    border_color: B
+    frame: m15
     name: Commander 2016
     number: 123
     rarity: mythic_rare
     release_date: 2016-11-11
-    set_number: 123
     wizards_id: 420740
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420740
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55116
     mtgo_id: 55115
     name: Commander 2014
     number: 33
     rarity: mythic_rare
     release_date: 2014-11-21
-    set_number: 33
     wizards_id: 389478
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389478
 rules: "[[symbol:loyalty-plus2]]: Discard up to two cards, then draw that many cards.\r\
@@ -90,12 +98,16 @@ subtype_tokens:
 - Daretti
 tags: card-color-red card-color-red-cost-4 card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Daretti
   power_toughness: null
   rules: Whenever an artifact is put into your graveyard from the battlefield, return
     that card to the battlefield at the beginning of the next end step.
   subtype: Daretti
+  tla: C21
   type: Emblem
 type: Planeswalker
 url: http://tappedout.net/mtg-card/daretti-scrap-savant/

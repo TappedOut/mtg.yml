@@ -25,7 +25,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -34,13 +34,14 @@ mana_cost_converted: 7
 name: Deploy to the Front
 printings:
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55206
     mtgo_id: 55205
     name: Commander 2014
     number: 6
     rarity: rare
     release_date: 2014-11-21
-    set_number: 6
     wizards_id: 389483
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389483
 rules: Put X 1/1 white Soldier creature tokens onto the battlefield, where X is the
@@ -48,11 +49,15 @@ rules: Put X 1/1 white Soldier creature tokens onto the battlefield, where X is 
 slug: deploy-to-the-front
 tags: card-color-white card-color-white-cost-7 card-type-sorcery
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W
   power_toughness: 1/1
   rules: ''
   subtype: Soldier
+  tla: C14
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/deploy-to-the-front/

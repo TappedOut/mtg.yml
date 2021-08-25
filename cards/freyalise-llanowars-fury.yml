@@ -30,7 +30,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -41,28 +41,31 @@ mana_produced: G
 name: Freyalise, Llanowar's Fury
 printings:
 - CC1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: 'Commander Collection: Green'
     number: 1
     rarity: mythic_rare
     release_date: 2020-12-04
-    set_number: 1
 - CM1:
     booster_exclude: true
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology
     number: 111
     rarity: mythic_rare
     release_date: 2017-06-09
-    set_number: 111
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55204
     mtgo_id: 55203
     name: Commander 2014
     number: 43
     rarity: mythic_rare
     release_date: 2014-11-21
-    set_number: 43
     wizards_id: 389530
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389530
 rules: "[[symbol:loyalty-plus2]]: Create a 1/1 green Elf Druid creature token with\
@@ -76,11 +79,15 @@ subtype_tokens:
 - Freyalise
 tags: card-color-green card-color-green-cost-5 card-mana-green card-type-planeswalker
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 G Token Creature Elf Druid
   power_toughness: 1/1
   rules: '[[symbol:T]]: Gain [[symbol:G]].'
   subtype: Elf Druid
+  tla: C14
   type: Token Creature
 type: Planeswalker
 url: http://tappedout.net/mtg-card/freyalise-llanowars-fury/

@@ -26,7 +26,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -37,16 +37,19 @@ name: Endrek Sahr, Master Breeder
 power_toughness: 2/2
 printings:
 - MM2:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 57501
     mtgo_id: 57500
     name: Modern Masters 2015 Edition
     number: 82
     rarity: rare
     release_date: 2015-05-22
-    set_number: 82
     wizards_id: 397748
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397748
 - C13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51517
     mtgo_id: 51516
     name: Commander 2013
@@ -55,6 +58,8 @@ printings:
     wizards_id: 376321
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376321
 - TSP:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 25636
     mtgo_id: 25635
     name: Time Spiral
@@ -72,11 +77,15 @@ subtype_tokens:
 - Wizard
 tags: card-color-black card-color-black-cost-5 card-type-creature card-type-legendary
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 B Token Creature Thrull
   power_toughness: 1/1
   rules: ''
   subtype: Thrull
+  tla: MM2
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/endrek-sahr-master-breeder/

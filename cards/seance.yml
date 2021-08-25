@@ -26,7 +26,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -36,23 +36,25 @@ mana_cost_converted: 4
 name: Seance
 printings:
 - MM3:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63312
     mtgo_id: 63311
     name: Modern Masters 2017 Edition
     number: 22
     rarity: rare
     release_date: 2017-03-17
-    set_number: 22
     wizards_id: 425847
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425847
 - DKA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 43284
     mtgo_id: 43283
     name: Dark Ascension
     number: 20
     rarity: rare
     release_date: 2012-02-03
-    set_number: 20
     wizards_id: 249422
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=249422
 rules: At the beginning of each upkeep, you may exile target creature card from your
@@ -61,11 +63,14 @@ rules: At the beginning of each upkeep, you may exile target creature card from 
 slug: seance
 tags: card-color-white card-color-white-cost-4 card-type-enchantment
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: MM3
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/seance/

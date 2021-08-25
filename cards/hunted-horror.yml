@@ -26,7 +26,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Protection
@@ -37,9 +37,12 @@ name: Hunted Horror
 power_toughness: 7/7
 printings:
 - RAV:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 23385
     mtgo_id: 23384
     name: 'Ravnica: City of Guilds'
+    number: 90
     rarity: rare
     release_date: 2005-10-07
     wizards_id: 89005
@@ -53,11 +56,15 @@ subtype_tokens:
 - Horror
 tags: card-color-black card-color-black-cost-2 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 G Token Creature Centaur
   power_toughness: 3/3
   rules: Protection from black
   subtype: Centaur
+  tla: RAV
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/hunted-horror/

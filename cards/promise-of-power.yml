@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Flying
@@ -39,15 +39,18 @@ mana_cost_converted: 5
 name: Promise of Power
 printings:
 - DD3:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Duel Decks Anthology
     number: 54
     rarity: rare
     release_date: 2014-12-05
-    set_number: 54
     wizards_id: 394045
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394045
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55086
     mtgo_id: 55085
     name: Commander 2014
@@ -56,6 +59,8 @@ printings:
     wizards_id: 389646
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389646
 - DDC:
+    border_color: B
+    frame: modern
     mtgo_id: 32083
     name: 'Duel Decks: Divine vs. Demonic'
     rarity: rare
@@ -63,6 +68,8 @@ printings:
     wizards_id: 197026
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=197026
 - MRD:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 19860
     mtgo_id: 19859
     name: Mirrodin
@@ -77,11 +84,15 @@ rules: "Choose one - You draw five cards and you lose 5 life; or put a black Dem
 slug: promise-of-power
 tags: card-color-black card-color-black-cost-5 card-type-sorcery
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Demon */* B
   power_toughness: '*/*'
   rules: Flying
   subtype: Demon
+  tla: C14
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/promise-of-power/

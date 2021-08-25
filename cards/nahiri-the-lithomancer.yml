@@ -30,7 +30,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Double strike
@@ -52,7 +52,6 @@ printings:
     number: 10
     rarity: mythic_rare
     release_date: 2014-11-21
-    set_number: 10
     wizards_id: 389612
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389612
 rules: "[[symbol:loyalty-plus2]]: Create a 1/1 white Kor Soldier creature token. You\
@@ -68,18 +67,26 @@ subtype_tokens:
 - Nahiri
 tags: card-color-white card-color-white-cost-5 card-type-planeswalker
 tokens:
-- colors: W
-  name: null
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: 1/1 W Token Creature Kor Soldier
   power_toughness: 1/1
   rules: ''
   subtype: Kor Soldier
+  tla: C14
   type: Token Creature
-- colors: C
-  name: null
-  power_toughness: ''
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Stoneforged Blade
+  power_toughness: null
   rules: "Indestructible\r\n\r\nEquipped creature gets +5/+5 and has double strike.\r\
     \n\r\nEquip [[symbol:0]]"
   subtype: Equipment
+  tla: C14
   type: Token Artifact
 type: Planeswalker
 url: http://tappedout.net/mtg-card/nahiri-the-lithomancer/

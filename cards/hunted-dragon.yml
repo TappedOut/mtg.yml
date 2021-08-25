@@ -25,7 +25,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - First strike
@@ -38,23 +38,27 @@ name: Hunted Dragon
 power_toughness: 6/6
 printings:
 - CM2:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology 2018
     number: 106
     rarity: rare
     release_date: 2018-06-08
-    set_number: 106
     wizards_id: 446842
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446842
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 159
     rarity: rare
     release_date: 2015-11-13
-    set_number: 159
     wizards_id: 405259
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405259
 - RAV:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 23481
     mtgo_id: 23480
     name: 'Ravnica: City of Guilds'
@@ -70,11 +74,15 @@ subtype_tokens:
 - Dragon
 tags: card-color-red card-color-red-cost-5 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Knight 2/2 W w/ First Strike
   power_toughness: 2/2
   rules: First strike
   subtype: Knight
+  tla: C15
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/hunted-dragon/

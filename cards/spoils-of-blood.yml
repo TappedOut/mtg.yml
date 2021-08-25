@@ -26,16 +26,19 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 mana_cost: '{B}'
 mana_cost_converted: 1
 name: Spoils of Blood
 printings:
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55154
     mtgo_id: 55153
     name: Commander 2014
+    number: 30
     rarity: rare
     release_date: 2014-11-21
     wizards_id: 389691
@@ -45,11 +48,15 @@ rules: Put an X/X black Horror creature token onto the battlefield, where X is t
 slug: spoils-of-blood
 tags: card-color-black card-color-black-cost-1 card-type-instant
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* B Token Creature Horror'
   power_toughness: '*/*'
   rules: ''
   subtype: Horror
+  tla: C14
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/spoils-of-blood/

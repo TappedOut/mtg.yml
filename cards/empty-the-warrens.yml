@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: TSR
+cannonical_set: DDS
 cannonical_type: Sorcery
 companions:
 - Gyruda, Doom of Depths
@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Storm
@@ -41,30 +41,38 @@ mana_cost_converted: 4
 name: Empty the Warrens
 printings:
 - TSR:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Time Spiral Remastered
     number: 162
     rarity: common
     release_date: 2021-03-19
-    set_number: 162
+    wizards_id: 509527
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509527
 - DDS:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Mind vs. Might'
     number: 15
     rarity: common
     release_date: 2017-03-31
-    set_number: 15
     wizards_id: 426587
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426587
 - MMA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 48885
     mtgo_id: 48884
     name: Modern Masters
     number: 112
     rarity: common
     release_date: 2013-06-07
-    set_number: 112
     wizards_id: 370480
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370480
 - TSP:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 25536
     mtgo_id: 25535
     name: Time Spiral
@@ -77,11 +85,15 @@ rules: "Create two 1/1 red Goblin creature tokens.\r\n\r\nStorm _(When you cast 
 slug: empty-the-warrens
 tags: card-color-red card-color-red-cost-4 card-type-sorcery
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: DDS
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/empty-the-warrens/

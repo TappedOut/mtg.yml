@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: TSR
+cannonical_set: DDL
 cannonical_type: Enchantment
 companions:
 - Jegantha, the Wellspring
@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Enchant
@@ -39,21 +39,26 @@ mana_cost_converted: 3
 name: Griffin Guide
 printings:
 - TSR:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Time Spiral Remastered
     number: 18
     rarity: uncommon
     release_date: 2021-03-19
-    set_number: 18
 - DDL:
+    border_color: B
+    frame: modern
     mtgo_id: 49987
     name: 'Duel Decks: Heroes vs. Monsters'
     number: 28
     rarity: uncommon
     release_date: 2013-09-06
-    set_number: 28
     wizards_id: 373337
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373337
 - DDH:
+    border_color: B
+    frame: modern
     mtgo_id: 42215
     name: 'Duel Decks: Ajani vs. Nicol Bolas'
     rarity: uncommon
@@ -61,6 +66,8 @@ printings:
     wizards_id: 249372
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=249372
 - DDG:
+    border_color: B
+    frame: modern
     mtgo_id: 40456
     name: 'Duel Decks: Knights vs. Dragons'
     rarity: uncommon
@@ -68,6 +75,8 @@ printings:
     wizards_id: 243450
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=243450
 - TSP:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 25568
     mtgo_id: 25567
     name: Time Spiral
@@ -84,11 +93,15 @@ subtype_tokens:
 - Aura
 tags: card-color-white card-color-white-cost-3 card-type-enchantment
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 W Token Creature Griffin
   power_toughness: 2/2
   rules: Flying
   subtype: Griffin
+  tla: DDL
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/griffin-guide/

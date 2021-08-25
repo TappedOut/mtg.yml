@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -44,79 +44,93 @@ mana_cost_converted: 2
 name: Raise the Alarm
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 41
     rarity: common
     release_date: 2020-11-20
-    set_number: 41
+    wizards_id: 497561
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497561
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 129
     rarity: common
     release_date: 2020-07-17
-    set_number: 129
 - M20:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72968
     mtgo_id: 72967
     name: Core Set 2020
     number: 34
     rarity: common
     release_date: 2019-07-12
-    set_number: 34
 - CN2:
+    border_color: B
+    frame: m15
     name: 'Conspiracy: Take the Crown'
     rarity: common
     release_date: 2016-08-26
     wizards_id: 416853
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416853
 - EMA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60846
     mtgo_id: 60845
     name: Eternal Masters
     number: 24
     rarity: common
     release_date: 2016-06-10
-    set_number: 24
     wizards_id: 413566
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413566
 - MM2:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 57375
     mtgo_id: 57374
     name: Modern Masters 2015 Edition
     number: 31
     rarity: common
     release_date: 2015-05-22
-    set_number: 31
     wizards_id: 397666
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397666
 - DDO:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Elspeth vs. Kiora'
     number: 23
     rarity: common
     release_date: 2015-02-27
-    set_number: 23
     wizards_id: 394402
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394402
 - M15:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 53739
     mtgo_id: 53738
     name: Magic 2015
     number: 26
     rarity: common
     release_date: 2014-07-18
-    set_number: 26
     wizards_id: 383356
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383356
 - MD1:
+    border_color: B
     cannonical: false
+    frame: modern
     name: Modern Event Deck
     number: 8
     rarity: common
     release_date: 2014-05-30
-    set_number: 8
     wizards_id: 382194
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382194
 - DDF:
+    border_color: B
+    frame: modern
     mtgo_id: 37712
     name: 'Duel Decks: Elspeth vs. Tezzeret'
     rarity: common
@@ -124,6 +138,8 @@ printings:
     wizards_id: 222728
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=222728
 - MRD:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 19864
     mtgo_id: 19863
     name: Mirrodin
@@ -135,11 +151,15 @@ rules: Create two 1/1 white Soldier creature tokens.
 slug: raise-the-alarm
 tags: card-color-white card-color-white-cost-2 card-type-instant
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W
   power_toughness: 1/1
   rules: ''
   subtype: Soldier
+  tla: CMR
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/raise-the-alarm/

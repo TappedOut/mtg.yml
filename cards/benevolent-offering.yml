@@ -26,7 +26,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Flying
@@ -36,13 +36,14 @@ mana_cost_converted: 4
 name: Benevolent Offering
 printings:
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55192
     mtgo_id: 55191
     name: Commander 2014
     number: 3
     rarity: rare
     release_date: 2014-11-21
-    set_number: 3
     wizards_id: 389440
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389440
 rules: "Choose an opponent. You and that player each put three 1/1 white Spirit creature\
@@ -52,11 +53,15 @@ rules: "Choose an opponent. You and that player each put three 1/1 white Spirit 
 slug: benevolent-offering
 tags: card-color-white card-color-white-cost-4 card-type-instant
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: C14
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/benevolent-offering/

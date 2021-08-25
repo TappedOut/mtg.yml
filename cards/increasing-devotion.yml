@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Exile
@@ -41,35 +41,41 @@ mana_cost_converted: 5
 name: Increasing Devotion
 printings:
 - C20:
+    border_color: B
+    frame: m15
     name: Commander 2020
     number: 91
     rarity: rare
     release_date: 2020-05-15
-    set_number: 91
+    wizards_id: 482719
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482719
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77247
     mtgo_id: 77246
     name: Commander 2019
     number: 66
     rarity: rare
     release_date: 2019-08-23
-    set_number: 66
 - DDQ:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Blessed vs. Cursed'
     number: 14
     rarity: rare
     release_date: 2016-02-26
-    set_number: 14
     wizards_id: 409590
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409590
 - DKA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 43454
     mtgo_id: 43453
     name: Dark Ascension
     number: 11
     rarity: rare
     release_date: 2012-02-03
-    set_number: 11
     wizards_id: 262870
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=262870
 rules: "Create five 1/1 white Human creature tokens. If Increasing Devotion was cast\
@@ -79,11 +85,15 @@ rules: "Create five 1/1 white Human creature tokens. If Increasing Devotion was 
 slug: increasing-devotion
 tags: card-color-white card-color-white-cost-5 card-type-sorcery
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Human
   power_toughness: 1/1
   rules: ''
   subtype: Human
+  tla: C20
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/increasing-devotion/

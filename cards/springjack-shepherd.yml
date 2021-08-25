@@ -26,7 +26,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Chroma
@@ -36,16 +36,21 @@ name: Springjack Shepherd
 power_toughness: 1/2
 printings:
 - MYSTOR:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: 'Mystery Booster: Store Edition'
     rarity: rare
     release_date: 2020-03-13
 - EVE:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 30065
     mtgo_id: 30064
     name: Eventide
+    number: 15
     rarity: uncommon
     release_date: 2008-07-25
     wizards_id: 153032
@@ -60,11 +65,15 @@ subtype_tokens:
 - Wizard
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 W Token Creature Goat
   power_toughness: 0/1
   rules: ''
   subtype: Goat
+  tla: EVE
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/springjack-shepherd/

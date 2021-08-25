@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -42,15 +42,18 @@ name: Pentavus
 power_toughness: 0/0
 printings:
 - CM2:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology 2018
     number: 209
     rarity: rare
     release_date: 2018-06-08
-    set_number: 209
     wizards_id: 446945
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446945
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55094
     mtgo_id: 55093
     name: Commander 2014
@@ -59,6 +62,8 @@ printings:
     wizards_id: 389627
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389627
 - M12:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 41586
     mtgo_id: 41585
     name: 2012 Core Set
@@ -67,6 +72,8 @@ printings:
     wizards_id: 244251
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=244251
 - DDF:
+    border_color: B
+    frame: modern
     mtgo_id: 37723
     name: 'Duel Decks: Elspeth vs. Tezzeret'
     rarity: rare
@@ -74,12 +81,16 @@ printings:
     wizards_id: 227151
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=227151
 - HOP:
+    border_color: B
+    frame: modern
     name: Planechase
     rarity: rare
     release_date: 2009-09-04
     wizards_id: 205298
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=205298
 - MRD:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 20054
     mtgo_id: 20053
     name: Mirrodin
@@ -97,11 +108,15 @@ subtype_tokens:
 - Construct
 tags: card-color-colorless card-color-colorless-cost-7 card-type-artifact card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 C Token Artifact Creature Pentavite
   power_toughness: 1/1
   rules: Flying
   subtype: Pentavite
+  tla: C14
   type: Token Artifact Creature
 type: Artifact Creature
 url: http://tappedout.net/mtg-card/pentavus/

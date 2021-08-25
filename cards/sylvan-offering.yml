@@ -26,7 +26,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 mana_cost: '{X}{G}'
 mana_cost_converted: 1
@@ -34,13 +34,16 @@ name: Sylvan Offering
 printings:
 - CM1:
     booster_exclude: true
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology
     number: 150
     rarity: rare
     release_date: 2017-06-09
-    set_number: 150
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55152
     mtgo_id: 55151
     name: Commander 2014
@@ -54,17 +57,25 @@ rules: "Choose an opponent. You and that player each put an X/X green Treefolk c
 slug: sylvan-offering
 tags: card-color-green card-color-green-cost-1 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* G Token Creature Treefolk'
   power_toughness: '*/*'
   rules: ''
   subtype: Treefolk
+  tla: C14
   type: Token Creature
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Elf Warrior 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Elf Warrior
+  tla: C14
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/sylvan-offering/
