@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -45,22 +45,24 @@ name: Sanctifier of Souls
 power_toughness: 2/3
 printings:
 - EMN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61303
     mtgo_id: 61302
     name: Eldritch Moon
     number: 39
     rarity: rare
     release_date: 2016-07-22
-    set_number: 39
     wizards_id: 414331
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414331
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: rare
     release_date: 1990-04-15
-    set_number: 1
 rules: "Whenever another creature enters the battlefield under your control, Sanctifier\
   \ of Souls gets +1/+1 until end of turn.\r\n\r\n[[symbol:2]][[symbol:W]], Exile\
   \ a creature card from your graveyard: Create a 1/1 white Spirit creature token\
@@ -72,11 +74,15 @@ subtype_tokens:
 - Cleric
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: EMN
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/sanctifier-of-souls/

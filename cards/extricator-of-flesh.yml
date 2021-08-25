@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Vigilance
@@ -40,13 +40,14 @@ power_toughness: 3/5
 printings:
 - EMN:
     booster_exclude: true
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61287
     mtgo_id: 61286
     name: Eldritch Moon
     number: 23
     rarity: uncommon
     release_date: 2016-07-22
-    set_number: 23
     wizards_id: 414314
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414314
 rules: "Eldrazi you control have vigilance.\r\n\r\n[[symbol:2]], [[symbol:T]], Sacrifice\
@@ -58,11 +59,15 @@ subtype_tokens:
 - Horror
 tags: card-color-colorless card-color-colorless-cost-0 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/2 C Token Creature Eldrazi Horror
   power_toughness: 3/2
   rules: ''
   subtype: Eldrazi Horror
+  tla: EMN
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/extricator-of-flesh/
