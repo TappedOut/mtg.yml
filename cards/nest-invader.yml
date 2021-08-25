@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -39,30 +39,36 @@ name: Nest Invader
 power_toughness: 2/2
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - PCA:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Planechase Anthology
     number: 69
     rarity: common
     release_date: 2016-11-25
-    set_number: 69
     wizards_id: 423494
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423494
 - MM2:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 57181
     mtgo_id: 57180
     name: Modern Masters 2015 Edition
     number: 151
     rarity: common
     release_date: 2015-05-22
-    set_number: 151
     wizards_id: 397901
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397901
 - PC2:
+    border_color: B
+    frame: modern
     mtgo_id: 44902
     name: Planechase 2012 Edition
     rarity: common
@@ -70,6 +76,8 @@ printings:
     wizards_id: 275261
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=275261
 - ROE:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 36355
     mtgo_id: 36354
     name: Rise of the Eldrazi
@@ -87,11 +95,15 @@ subtype_tokens:
 - Drone
 tags: card-color-green card-color-green-cost-2 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 C Token Creature Eldrazi Spawn
   power_toughness: 0/1
   rules: 'Sacrifice this creature: Add [[symbol:1]] to your mana pool.'
   subtype: Eldrazi Spawn
+  tla: MM2
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/nest-invader/

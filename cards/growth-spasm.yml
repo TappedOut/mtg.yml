@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Sacrifice
@@ -41,9 +41,12 @@ mana_cost_converted: 3
 name: Growth Spasm
 printings:
 - ROE:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 36501
     mtgo_id: 36500
     name: Rise of the Eldrazi
+    number: 186
     rarity: common
     release_date: 2010-04-23
     wizards_id: 193526
@@ -54,11 +57,15 @@ rules: 'Search your library for a basic land card, put it onto the battlefield t
 slug: growth-spasm
 tags: card-color-green card-color-green-cost-3 card-type-sorcery
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 C Token Creature Eldrazi Spawn
   power_toughness: 0/1
   rules: 'Sacrifice this creature: Add [[symbol:1]] to your mana pool.'
   subtype: Eldrazi Spawn
+  tla: ROE
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/growth-spasm/

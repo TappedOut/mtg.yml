@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Sacrifice
@@ -40,9 +40,12 @@ mana_cost_converted: 2
 name: Brood Birthing
 printings:
 - ROE:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 36631
     mtgo_id: 36630
     name: Rise of the Eldrazi
+    number: 138
     rarity: common
     release_date: 2010-04-23
     wizards_id: 193633
@@ -53,11 +56,15 @@ rules: 'If you control an Eldrazi Spawn, put three 0/1 colorless Eldrazi Spawn c
 slug: brood-birthing
 tags: card-color-red card-color-red-cost-2 card-type-sorcery
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 C Token Creature Eldrazi Spawn
   power_toughness: 0/1
   rules: 'Sacrifice this creature: Add [[symbol:1]] to your mana pool.'
   subtype: Eldrazi Spawn
+  tla: ROE
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/brood-birthing/

@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Trample
@@ -40,24 +40,28 @@ mana_cost_converted: 4
 name: Advent of the Wurm
 printings:
 - GK1:
+    border_color: B
+    frame: m15
     name: 'Guilds of Ravnica: Guild Kit'
     number: 107
     rarity: rare
     release_date: 2018-11-02
-    set_number: 107
     wizards_id: 456365
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456365
 - MM3:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63450
     mtgo_id: 63449
     name: Modern Masters 2017 Edition
     number: 147
     rarity: rare
     release_date: 2017-03-17
-    set_number: 147
     wizards_id: 425972
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425972
 - DGM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 48341
     mtgo_id: 48340
     name: Dragon's Maze
@@ -69,11 +73,15 @@ rules: Create a 5/5 green Wurm creature token with trample.
 slug: advent-of-the-wurm
 tags: card-color-gold card-color-gold-cost-4 card-color-green card-color-white card-type-instant
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Wurm 5/5 G w/ Trample
   power_toughness: 5/5
   rules: Trample
   subtype: Wurm
+  tla: GK1
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/advent-of-the-wurm/

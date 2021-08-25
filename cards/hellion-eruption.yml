@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: PCA
+cannonical_set: DDP
 cannonical_type: Sorcery
 companions:
 - Gyruda, Doom of Depths
@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Sacrifice
@@ -39,23 +39,27 @@ mana_cost_converted: 6
 name: Hellion Eruption
 printings:
 - PCA:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Planechase Anthology
     number: 45
     rarity: rare
     release_date: 2016-11-25
-    set_number: 45
     wizards_id: 423470
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423470
 - DDP:
-    cannonical: false
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Zendikar vs. Eldrazi'
     number: 61
     rarity: rare
     release_date: 2015-08-28
-    set_number: 61
     wizards_id: 401703
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401703
 - PC2:
+    border_color: B
+    frame: modern
     mtgo_id: 44926
     name: Planechase 2012 Edition
     rarity: rare
@@ -63,6 +67,8 @@ printings:
     wizards_id: 271158
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=271158
 - ROE:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 36773
     mtgo_id: 36772
     name: Rise of the Eldrazi
@@ -75,11 +81,15 @@ rules: Sacrifice all creatures you control, then put that many 4/4 red Hellion c
 slug: hellion-eruption
 tags: card-color-red card-color-red-cost-6 card-type-sorcery
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 4/4 R Token Creature Hellion
   power_toughness: 4/4
   rules: ''
   subtype: Hellion
+  tla: DDP
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/hellion-eruption/

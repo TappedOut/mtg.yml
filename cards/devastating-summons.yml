@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Sacrifice
@@ -38,9 +38,12 @@ mana_cost_converted: 1
 name: Devastating Summons
 printings:
 - ROE:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 36689
     mtgo_id: 36688
     name: Rise of the Eldrazi
+    number: 140
     rarity: rare
     release_date: 2010-04-23
     wizards_id: 194927
@@ -50,11 +53,15 @@ rules: "As an additional cost to cast Devastating Summons, sacrifice X lands.\r\
 slug: devastating-summons
 tags: card-color-red card-color-red-cost-1 card-type-sorcery
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* R Token Creature Elemental'
   power_toughness: '*/*'
   rules: ''
   subtype: Elemental
+  tla: ROE
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/devastating-summons/
