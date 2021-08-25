@@ -41,6 +41,8 @@ name: Cloudgoat Ranger
 power_toughness: 3/3
 printings:
 - KHC:
+    border_color: B
+    frame: m15
     name: 'Kaldheim: Commander'
     number: 21
     rarity: uncommon
@@ -49,6 +51,8 @@ printings:
     wizards_id: 508311
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508311
 - MMA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 48691
     mtgo_id: 48690
     name: Modern Masters
@@ -57,6 +61,8 @@ printings:
     wizards_id: 370553
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370553
 - LRW:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 28350
     mtgo_id: 28349
     name: Lorwyn
@@ -74,11 +80,15 @@ subtype_tokens:
 - Warrior
 tags: card-color-white card-color-white-cost-5 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Kithkin Soldier 1/1 W
   power_toughness: 1/1
   rules: ''
   subtype: Kithkin Soldier
+  tla: KHC
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/cloudgoat-ranger/

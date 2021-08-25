@@ -38,6 +38,8 @@ mana_cost_converted: 4
 name: Elvish Promenade
 printings:
 - KHC:
+    border_color: B
+    frame: m15
     name: 'Kaldheim: Commander'
     number: 59
     rarity: uncommon
@@ -46,7 +48,9 @@ printings:
     wizards_id: 508349
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508349
 - DD3:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Duel Decks Anthology
     number: 20
     rarity: uncommon
@@ -55,7 +59,9 @@ printings:
     wizards_id: 393948
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393948
 - DPA:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_id: 41678
     name: Duels of the Planeswalkers
     number: 62
@@ -63,6 +69,8 @@ printings:
     release_date: 2010-06-04
     set_number: 62
 - EVG:
+    border_color: B
+    frame: modern
     mtgo_id: 28840
     name: 'Duel Decks: Elves vs. Goblins'
     number: 20
@@ -72,6 +80,8 @@ printings:
     wizards_id: 159030
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=159030
 - LRW:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 28366
     mtgo_id: 28365
     name: Lorwyn
@@ -86,11 +96,15 @@ subtype_tokens:
 - Elf
 tags: card-color-green card-color-green-cost-4 card-type-sorcery card-type-tribal
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Elf Warrior 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Elf Warrior
+  tla: KHC
   type: Token Creature
 type: Tribal Sorcery
 url: http://tappedout.net/mtg-card/elvish-promenade/
