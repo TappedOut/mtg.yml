@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -48,13 +48,16 @@ name: Knight of the Last Breath
 power_toughness: 4/4
 printings:
 - RNA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71377
     mtgo_id: 71376
     name: Ravnica Allegiance
     number: 188
     rarity: uncommon
     release_date: 2019-01-25
-    set_number: 188
+    wizards_id: 457332
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=457332
 rules: "[[symbol:3]], Sacrifice another nontoken creature: Create a 1/1 white and\
   \ black Spirit creature token with flying.\r\n\r\nAfterlife 3 *(When this creature\
   \ dies, create three 1/1 white and black Spirit creature tokens with flying.)*"
@@ -65,11 +68,15 @@ subtype_tokens:
 - Knight
 tags: card-color-black card-color-gold card-color-gold-cost-7 card-color-white card-type-creature
 tokens:
-- colors: WB
+- cannonical_type: Creature
+  colors: WB
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 WB
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: RNA
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/knight-of-the-last-breath/

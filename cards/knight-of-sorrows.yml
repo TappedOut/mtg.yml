@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -44,18 +44,23 @@ name: Knight of Sorrows
 power_toughness: 3/3
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - RNA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71029
     mtgo_id: 71028
     name: Ravnica Allegiance
     number: 14
     rarity: common
     release_date: 2019-01-25
-    set_number: 14
+    wizards_id: 457158
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=457158
 rules: "Knight of Sorrows can block an additional creature each combat.\r\n\r\nAfterlife\
   \ 1 *(When this creature dies, create a 1/1 white black Spirit creature token with\
   \ flying.)*"
@@ -66,11 +71,15 @@ subtype_tokens:
 - Knight
 tags: card-color-white card-color-white-cost-5 card-type-creature
 tokens:
-- colors: WB
+- cannonical_type: Creature
+  colors: WB
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 WB
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: RNA
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/knight-of-sorrows/

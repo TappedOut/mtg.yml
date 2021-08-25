@@ -27,7 +27,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Exile
@@ -38,24 +38,31 @@ mana_cost_converted: 5
 name: Oversimplify
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 72
     rarity: rare
     release_date: 2021-04-23
-    set_number: 72
     variations:
     - identifier: '399'
+    wizards_id: 518468
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518468
 rules: Exile all creatures. Each player creates a 0/0 green and blue Fractal creature
   token and puts a number of +1/+1 counters on it equal to the total power of creatures
   they controlled that were exiled this way.
 slug: oversimplify
 tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-green card-type-sorcery
 tokens:
-- colors: GU
+- cannonical_type: Creature
+  colors: GU
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Fractal 0/0 GU
   power_toughness: 0/0
   rules: ''
   subtype: Fractal
+  tla: C21
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/oversimplify/

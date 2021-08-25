@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -40,13 +40,14 @@ name: Rekindling Phoenix
 power_toughness: 4/3
 printings:
 - RIX:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66676
     mtgo_id: 66675
     name: Rivals of Ixalan
     number: 111
     rarity: mythic_rare
     release_date: 2018-01-19
-    set_number: 111
     variations:
     - identifier: PromoPack
     wizards_id: 439768
@@ -63,13 +64,17 @@ synonyms:
 - Rekindling Pheonix
 tags: card-color-red card-color-red-cost-4 card-type-creature
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 R Token Creature Elemental
   power_toughness: 0/1
   rules: At the beginning of your upkeep, sacrifice this creature and return target
     card named Rekindling Phoenix from your graveyard to the battlefield. It gains
     haste until end of turn.
   subtype: Elemental
+  tla: RIX
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/rekindling-phoenix/

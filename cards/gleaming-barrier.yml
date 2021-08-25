@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Defender
@@ -44,19 +44,23 @@ name: Gleaming Barrier
 power_toughness: 0/4
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 257
     rarity: common
     release_date: 2020-08-07
-    set_number: 257
+    wizards_id: 489930
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489930
 - RIX:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66822
     mtgo_id: 66821
     name: Rivals of Ixalan
     number: 178
     rarity: common
     release_date: 2018-01-19
-    set_number: 178
     wizards_id: 439841
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439841
 rules: "Defender \r\n\r\nWhen Gleaming Barrier dies *(is put into the graveyard from\
@@ -69,11 +73,15 @@ subtype_tokens:
 tags: card-color-colorless card-color-colorless-cost-2 card-mana-black card-mana-blue
   card-mana-green card-mana-red card-mana-white card-type-artifact card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: 2XM
   type: Token Artifact
 type: Artifact Creature
 url: http://tappedout.net/mtg-card/gleaming-barrier/

@@ -28,7 +28,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -38,13 +38,16 @@ mana_cost_converted: 2
 name: Geometric Nexus
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 77
     rarity: rare
     release_date: 2021-04-23
-    set_number: 77
     variations:
     - identifier: '404'
+    wizards_id: 518473
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518473
 rules: "Whenever a player casts an instant or sorcery spell, put a number of charge\
   \ counters on this equal to that spell's converted mana cost/mana value.\r\n\r\n\
   [[symbol:6]], [[symbol:T]], Remove all charge counters from this: Create a 0/0 green\
@@ -53,11 +56,15 @@ rules: "Whenever a player casts an instant or sorcery spell, put a number of cha
 slug: geometric-nexus
 tags: card-color-colorless card-color-colorless-cost-2 card-type-artifact
 tokens:
-- colors: GU
+- cannonical_type: Creature
+  colors: GU
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Fractal 0/0 GU
   power_toughness: 0/0
   rules: ''
   subtype: Fractal
+  tla: C21
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/geometric-nexus/

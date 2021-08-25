@@ -23,7 +23,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -33,13 +33,16 @@ name: Spawning Kraken
 power_toughness: 6/6
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 33
     rarity: rare
     release_date: 2021-04-23
-    set_number: 33
     variations:
     - identifier: '360'
+    wizards_id: 518429
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518429
 rules: Whenever a Kraken, Leviathan, Octopus or Serpent you control deals combat damage
   to a player, create a 9/9 blue Kraken creature token.
 slug: spawning-kraken
@@ -48,11 +51,15 @@ subtype_tokens:
 - Kraken
 tags: card-color-blue card-color-blue-cost-6 card-type-creature
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Kraken 9/9 U
   power_toughness: 9/9
   rules: ''
   subtype: Kraken
+  tla: C21
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/spawning-kraken/

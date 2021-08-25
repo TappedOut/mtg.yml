@@ -25,7 +25,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -34,13 +34,16 @@ mana_cost_converted: 1
 name: Pest Infestation
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 65
     rarity: rare
     release_date: 2021-04-23
-    set_number: 65
     variations:
     - identifier: '392'
+    wizards_id: 518461
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518461
 rules: Destroy up to X target artifacts and/or enchantments. Create twice X 1/1 black
   and green pest creature tokens with "When this creature dies *(is put into the graveyard
   from the battlefield, tokens are put into the graveyard before they cease to exist)*,
@@ -48,12 +51,16 @@ rules: Destroy up to X target artifacts and/or enchantments. Create twice X 1/1 
 slug: pest-infestation
 tags: card-color-green card-color-green-cost-1 card-type-sorcery
 tokens:
-- colors: BG
+- cannonical_type: Creature
+  colors: BG
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Pest 1/1 BG
   power_toughness: 1/1
   rules: When this dies *(is put into the graveyard from the battlefield, tokens are
     put into the graveyard before they cease to exist.)*, you gain 1 life.
   subtype: Pest
+  tla: C21
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/pest-infestation/

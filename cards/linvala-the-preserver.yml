@@ -26,7 +26,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -37,13 +37,14 @@ name: Linvala, the Preserver
 power_toughness: 5/5
 printings:
 - OGW:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 59476
     mtgo_id: 59475
     name: Oath of the Gatewatch
     number: 25
     rarity: mythic_rare
     release_date: 2016-01-22
-    set_number: 25
     wizards_id: 407535
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407535
 rules: "Flying\r\n\r\nWhen Linvala, the Preserver enters the battlefield, if an opponent\
@@ -56,11 +57,15 @@ subtype_tokens:
 - Angel
 tags: card-color-white card-color-white-cost-6 card-type-creature card-type-legendary
 tokens:
-- colors: W
-  name: 3/3 W Token Creature Angel
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Angel 3/3 W
   power_toughness: 3/3
-  rules: ''
+  rules: Flying
   subtype: Angel
+  tla: OGW
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/linvala-the-preserver/

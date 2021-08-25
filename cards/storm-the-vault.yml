@@ -34,20 +34,21 @@ formats:
 - Vintage
 has_activated_abilities: false
 is_front: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 2RU
 mana_cost_converted: 4
 name: Storm the Vault
 printings:
 - RIX:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66808
     mtgo_id: 66807
     name: Rivals of Ixalan
     number: 173
     rarity: rare
     release_date: 2018-01-19
-    set_number: 173
     wizards_id: 439834
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439834
 rules: "Whenever one or more creatures you control deal combat damage to a player,\
@@ -61,11 +62,15 @@ synonyms:
 tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-red card-type-enchantment
   card-type-legendary
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: RIX
   type: Token Artifact
 type: Legendary Enchantment
 url: http://tappedout.net/mtg-card/storm-the-vault/

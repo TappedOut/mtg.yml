@@ -27,7 +27,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Attach
@@ -37,20 +37,22 @@ mana_cost_converted: 3
 name: Grip of Phyresis
 printings:
 - CM2:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology 2018
     number: 43
     rarity: uncommon
     release_date: 2018-06-08
-    set_number: 43
     wizards_id: 446779
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446779
 - C16:
+    border_color: B
+    frame: m15
     name: Commander 2016
     number: 9
     rarity: uncommon
     release_date: 2016-11-11
-    set_number: 9
     wizards_id: 420626
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420626
 rules: Gain control of target Equipment, then create a 0/0 black Germ creature token
@@ -58,11 +60,15 @@ rules: Gain control of target Equipment, then create a 0/0 black Germ creature t
 slug: grip-of-phyresis
 tags: card-color-blue card-color-blue-cost-3 card-type-instant
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Phyrexian Germ 0/0 B
   power_toughness: 0/0
   rules: ''
   subtype: Phyrexian Germ
+  tla: C16
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/grip-of-phyresis/

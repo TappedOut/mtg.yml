@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -43,27 +43,35 @@ mana_cost_converted: 1
 name: Quest for the Gravelord
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
 - BBD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 69041
     mtgo_id: 69040
     name: Battlebond
     number: 156
     rarity: uncommon
     release_date: 2018-06-08
-    set_number: 156
+    wizards_id: 446124
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446124
 - DDR:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Nissa vs. Ob Nixilis'
     number: 58
     rarity: uncommon
     release_date: 2016-09-02
-    set_number: 58
     wizards_id: 417481
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417481
 - ZEN:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 34481
     mtgo_id: 34480
     name: Zendikar
@@ -78,11 +86,15 @@ rules: "Whenever a creature is put into the graveyard from the battlefield, you 
 slug: quest-for-the-gravelord
 tags: card-color-black card-color-black-cost-1 card-type-enchantment
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 5/5 B Token Creature Zombie Giant
   power_toughness: 5/5
   rules: ''
   subtype: Zombie Giant
+  tla: BBD
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/quest-for-the-gravelord/

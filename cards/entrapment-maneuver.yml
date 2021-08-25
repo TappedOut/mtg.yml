@@ -26,7 +26,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Sacrifice
@@ -36,11 +36,12 @@ mana_cost_converted: 4
 name: Entrapment Maneuver
 printings:
 - C16:
+    border_color: B
+    frame: m15
     name: Commander 2016
     number: 2
     rarity: rare
     release_date: 2016-11-11
-    set_number: 2
     wizards_id: 420619
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420619
 rules: Target player sacrifices an attacking creature. You create X 1/1 white Soldier
@@ -52,11 +53,15 @@ synonyms:
 - Entrapment Manoeuvre
 tags: card-color-white card-color-white-cost-4 card-type-instant
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W
   power_toughness: 1/1
   rules: ''
   subtype: Soldier
+  tla: C16
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/entrapment-maneuver/

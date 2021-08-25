@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -39,13 +39,14 @@ mana_cost_converted: 4
 name: Mechanized Production
 printings:
 - AER:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 62560
     mtgo_id: 62559
     name: Aether Revolt
     number: 38
     rarity: mythic_rare
     release_date: 2017-01-20
-    set_number: 38
     wizards_id: 423705
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423705
 rules: "Enchant artifact you control \r\n\r\nAt the beginning of your upkeep, create\
@@ -59,11 +60,14 @@ synonyms:
 - Mechanised Production
 tags: card-color-blue card-color-blue-cost-4 card-type-enchantment
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: AER
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/mechanized-production/

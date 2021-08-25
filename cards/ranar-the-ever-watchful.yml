@@ -24,7 +24,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -37,11 +37,14 @@ name: Ranar the Ever-Watchful
 power_toughness: 2/3
 printings:
 - KHC:
+    border_color: B
+    frame: m15
     name: 'Kaldheim: Commander'
     number: 2
     rarity: mythic_rare
     release_date: 2021-02-05
-    set_number: 2
+    wizards_id: 508148
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508148
 rules: "Flying, vigilance\r\n\r\nThe first card you foretell each turn costs [[symbol:0]]\
   \ to foretell.\r\n\r\nWhenever you exile one or more cards from your hand/or permanents\
   \ from the battlefield, create a 1/1 white Spirit creature token with flying."
@@ -53,11 +56,15 @@ subtype_tokens:
 tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-white card-type-creature
   card-type-legendary
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: KHC
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/ranar-the-ever-watchful/

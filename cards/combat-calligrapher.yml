@@ -23,7 +23,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -34,13 +34,16 @@ name: Combat Calligrapher
 power_toughness: 3/3
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 14
     rarity: rare
     release_date: 2021-04-23
-    set_number: 14
     variations:
     - identifier: '341'
+    wizards_id: 518410
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518410
 rules: "Flying\r\n\r\nInklings can't attack you or planeswalkers you control.\r\n\r\
   \nWhenever a player attacks one of your opponents, that attacking player creates\
   \ a tapped 2/1 white and black Inkling creature token with flying that's attacking\
@@ -52,11 +55,15 @@ subtype_tokens:
 - Cleric
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: WB
+- cannonical_type: Creature
+  colors: WB
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Inkling 2/1 WB
   power_toughness: 2/1
   rules: Flying
   subtype: Inkling
+  tla: C21
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/combat-calligrapher/

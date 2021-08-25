@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -40,34 +40,43 @@ name: Myr Sire
 power_toughness: 1/1
 printings:
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 475
     rarity: common
     release_date: 2020-07-17
-    set_number: 475
+    wizards_id: 489458
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489458
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - CM2:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology 2018
     number: 204
     rarity: common
     release_date: 2018-06-08
-    set_number: 204
     wizards_id: 446940
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446940
 - DDU:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Elves vs. Inventors'
     number: 58
     rarity: common
     release_date: 2018-04-06
-    set_number: 58
     wizards_id: 442794
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442794
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54906
     mtgo_id: 54905
     name: Commander 2014
@@ -76,6 +85,8 @@ printings:
     wizards_id: 389610
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389610
 - MBS:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 39334
     mtgo_id: 39333
     name: Mirrodin Besieged
@@ -84,7 +95,9 @@ printings:
     wizards_id: 213734
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=213734
 - MBP:
+    border_color: B
     cannonical: false
+    frame: modern
     name: 'Mirrodin Besieged: Phyrexia'
     rarity: common
     release_date: 2011-02-03
@@ -96,11 +109,15 @@ subtype_tokens:
 - Myr
 tags: card-color-colorless card-color-colorless-cost-2 card-type-artifact card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Myr 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Myr
+  tla: JMP
   type: Token Artifact Creature
 type: Artifact Creature
 url: http://tappedout.net/mtg-card/myr-sire/

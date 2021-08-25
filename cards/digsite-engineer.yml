@@ -24,7 +24,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -34,13 +34,16 @@ name: Digsite Engineer
 power_toughness: 3/3
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 15
     rarity: rare
     release_date: 2021-04-23
-    set_number: 15
     variations:
     - identifier: '342'
+    wizards_id: 518411
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518411
 rules: Whenever you cast an artifact spell, you may pay [[symbol:2]]. If you do, create
   a 0/0 colourless Construct artifact creature token with "This creature gets +1/+1
   for each artifact you control."
@@ -51,11 +54,15 @@ subtype_tokens:
 - Artificer
 tags: card-color-white card-color-white-cost-3 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Construct 0/0 C
   power_toughness: 0/0
   rules: This creature gets +1/+1 for each artifact you control.
   subtype: Construct
+  tla: C21
   type: Token Artifact Creature
 type: Creature
 url: http://tappedout.net/mtg-card/digsite-engineer/

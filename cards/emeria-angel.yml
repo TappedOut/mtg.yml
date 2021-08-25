@@ -25,7 +25,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -37,40 +37,44 @@ name: Emeria Angel
 power_toughness: 3/3
 printings:
 - ZNC:
+    border_color: B
+    frame: m15
     name: 'Zendikar Rising: Commander'
     number: 15
     rarity: rare
     release_date: 2020-09-25
-    set_number: 15
     wizards_id: 495953
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=495953
 - IMA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65920
     mtgo_id: 65919
     name: Iconic Masters
     number: 20
     rarity: rare
     release_date: 2017-11-17
-    set_number: 20
     wizards_id: 438586
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438586
 - ZEN:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 34603
     mtgo_id: 34602
     name: Zendikar
     number: 11
     rarity: rare
     release_date: 2009-10-02
-    set_number: 11
     wizards_id: 190399
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=190399
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 35
     rarity: rare
     release_date: 1990-04-15
-    set_number: 35
 rules: "Flying\r\n\r\n*Landfall* \u2014 Whenever a land enters the battlefield under\
   \ your control, you may create a 1/1 white Bird creature token with flying."
 slug: emeria-angel
@@ -79,11 +83,15 @@ subtype_tokens:
 - Angel
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Bird 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Bird
+  tla: ZNC
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/emeria-angel/

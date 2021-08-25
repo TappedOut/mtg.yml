@@ -26,7 +26,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Sacrifice
@@ -38,13 +38,16 @@ mana_produced: WW, UU, BB, RR, GG
 name: Excavation Technique
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 16
     rarity: rare
     release_date: 2021-04-23
-    set_number: 16
     variations:
     - identifier: '343'
+    wizards_id: 518412
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518412
 rules: "Demonstrate *(When you cast this spell, you may copy it. If you do, choose\
   \ an opponent to aslp copy it. Players may choose new targets for their copies.)*\r\
   \n\r\nDestroy target nonland permanent. its controller creates two Treasure tokens."
@@ -52,11 +55,15 @@ slug: excavation-technique
 tags: card-color-white card-color-white-cost-4 card-mana-black card-mana-blue card-mana-green
   card-mana-red card-mana-white card-type-sorcery
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: C21
   type: Token Artifact
 type: Sorcery
 url: http://tappedout.net/mtg-card/excavation-technique/

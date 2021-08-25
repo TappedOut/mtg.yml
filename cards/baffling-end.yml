@@ -32,20 +32,21 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 1W
 mana_cost_converted: 2
 name: Baffling End
 printings:
 - RIX:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66456
     mtgo_id: 66455
     name: Rivals of Ixalan
     number: 1
     rarity: uncommon
     release_date: 2018-01-19
-    set_number: 1
     variations:
     - identifier: Animated
     wizards_id: 439658
@@ -57,12 +58,16 @@ rules: "When Baffling End enters the battlefield, exile target creature an oppon
 slug: baffling-end
 tags: card-color-white card-color-white-cost-2 card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 G Token Creature Dinosaur
   power_toughness: 3/3
   rules: Trample (This creature can deal excess combat damage to defending player
     or planeswalker while attacking.)
   subtype: Dinosaur
+  tla: RIX
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/baffling-end/

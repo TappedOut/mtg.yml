@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Counterspell
@@ -45,13 +45,14 @@ mana_cost_converted: 2
 name: Warping Wail
 printings:
 - OGW:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 59608
     mtgo_id: 59607
     name: Oath of the Gatewatch
     number: 12
     rarity: uncommon
     release_date: 2016-01-22
-    set_number: 12
     wizards_id: 407522
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407522
 rules: "*([[symbol:C]] represents colourless mana.)\r\n\r\nChoose one &mdash;\r\n\r\
@@ -61,11 +62,15 @@ rules: "*([[symbol:C]] represents colourless mana.)\r\n\r\nChoose one &mdash;\r\
 slug: warping-wail
 tags: card-color-colorless card-color-colorless-cost-2 card-color-colorless-sym card-type-instant
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 C Token Creature Eldrazi Scion
   power_toughness: 1/1
   rules: 'Sacrifice this creature: Gain [[symbol:C]].'
   subtype: Eldrazi Scion
+  tla: OGW
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/warping-wail/

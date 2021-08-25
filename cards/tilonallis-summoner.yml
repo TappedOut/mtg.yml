@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 1R
 mana_cost_converted: 2
@@ -41,13 +41,14 @@ name: Tilonalli's Summoner
 power_toughness: 1/1
 printings:
 - RIX:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66696
     mtgo_id: 66695
     name: Rivals of Ixalan
     number: 121
     rarity: rare
     release_date: 2018-01-19
-    set_number: 121
     variations:
     - identifier: PromoPack
     wizards_id: 439778
@@ -62,17 +63,24 @@ subtype_tokens:
 - Shaman
 tags: card-color-red card-color-red-cost-2 card-type-creature
 tokens:
-- colors: C
-  name: C Emblem City's Blessing
-  power_toughness: null
-  rules: ''
-  subtype: City's Blessing
-  type: Emblem
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 R Token Creature Elemental
   power_toughness: 1/1
   rules: ''
   subtype: Elemental
+  tla: RIX
   type: Token Creature
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: City's Blessing
+  power_toughness: null
+  rules: ''
+  tla: RIX
+  type: Emblem
 type: Creature
 url: http://tappedout.net/mtg-card/tilonallis-summoner/

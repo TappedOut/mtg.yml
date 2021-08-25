@@ -26,7 +26,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -36,24 +36,30 @@ mana_cost_converted: 5
 name: Replication Technique
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 31
     rarity: rare
     release_date: 2021-04-23
-    set_number: 31
     variations:
     - identifier: '358'
+    wizards_id: 518427
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518427
 rules: "Demonstrate *(When you cast this spell, you may copy it. If you do, choose\
   \ an opponent to also copy it. Players may choose new targets for their copies.)*\r\
   \n\r\nCreate a token that's a copy of target permanent you control."
 slug: replication-technique
 tags: card-color-blue card-color-blue-cost-5 card-type-sorcery
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: C21
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/replication-technique/

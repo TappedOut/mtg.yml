@@ -25,7 +25,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -34,14 +34,17 @@ mana_cost_converted: 5
 name: Mirrorworks
 printings:
 - C18:
+    border_color: B
+    frame: m15
     name: Commander 2018
     number: 211
     rarity: rare
     release_date: 2018-08-10
-    set_number: 211
     wizards_id: 451166
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451166
 - MBS:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 39546
     mtgo_id: 39545
     name: Mirrodin Besieged
@@ -50,7 +53,9 @@ printings:
     wizards_id: 214068
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=214068
 - MBP:
+    border_color: B
     cannonical: false
+    frame: modern
     name: 'Mirrodin Besieged: Phyrexia'
     rarity: rare
     release_date: 2011-02-03
@@ -59,11 +64,14 @@ rules: Whenever another nontoken artifact enters the battlefield under your cont
 slug: mirrorworks
 tags: card-color-colorless card-color-colorless-cost-5 card-type-artifact
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: C18
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/mirrorworks/

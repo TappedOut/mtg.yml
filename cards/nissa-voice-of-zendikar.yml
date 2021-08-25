@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -43,39 +43,44 @@ mana_cost_converted: 3
 name: Nissa, Voice of Zendikar
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: mythic_rare
     release_date: 2020-03-14
 - DDR:
+    border_color: B
     foil: foil
     foil_only: true
+    frame: m15
     name: 'Duel Decks: Nissa vs. Ob Nixilis'
     number: 1
     rarity: mythic_rare
     release_date: 2016-09-02
-    set_number: 1
     wizards_id: 417424
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417424
 - OGW:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 59336
     mtgo_id: 59335
     name: Oath of the Gatewatch
     number: 138
     rarity: mythic_rare
     release_date: 2016-01-22
-    set_number: 138
     variations:
     - identifier: PromoPack
     wizards_id: 407648
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407648
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 138
     rarity: mythic_rare
     release_date: 1990-04-15
-    set_number: 138
 rules: "[[symbol:loyalty-plus1]]: Create a 0/1 green Plant creature token.\r\n\r\n\
   [[symbol:loyalty-minus2]]: Put a +1/+1 counter on each creature you control.\r\n\
   \r\n[[symbol:loyalty-minus7]]: You gain X life and draw X cards, where X is the\
@@ -86,11 +91,15 @@ subtype_tokens:
 - Nissa
 tags: card-color-green card-color-green-cost-3 card-type-planeswalker
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 G Token Creature Plant
   power_toughness: 0/1
   rules: ''
   subtype: Plant
+  tla: DDR
   type: Token Creature
 type: Planeswalker
 url: http://tappedout.net/mtg-card/nissa-voice-of-zendikar/

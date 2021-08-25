@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Hexproof
@@ -42,13 +42,14 @@ name: Slippery Scoundrel
 power_toughness: 2/2
 printings:
 - RIX:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66564
     mtgo_id: 66563
     name: Rivals of Ixalan
     number: 55
     rarity: common
     release_date: 2018-01-19
-    set_number: 55
     wizards_id: 439712
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439712
 rules: "Ascend (If you control ten or more permanents, you get the city's blessing\
@@ -61,11 +62,14 @@ subtype_tokens:
 - Pirate
 tags: card-color-blue card-color-blue-cost-3 card-type-creature
 tokens:
-- colors: C
-  name: C Emblem City's Blessing
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: City's Blessing
   power_toughness: null
   rules: ''
-  subtype: City's Blessing
+  tla: RIX
   type: Emblem
 type: Creature
 url: http://tappedout.net/mtg-card/slippery-scoundrel/

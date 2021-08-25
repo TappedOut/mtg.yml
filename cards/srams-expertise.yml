@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -41,13 +41,14 @@ mana_cost_converted: 4
 name: Sram's Expertise
 printings:
 - AER:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 62610
     mtgo_id: 62609
     name: Aether Revolt
     number: 24
     rarity: rare
     release_date: 2017-01-20
-    set_number: 24
     wizards_id: 423691
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423691
 rules: "Create three 1/1 colorless Servo artifact creature tokens. \r\n\r\nYou may\
@@ -56,11 +57,15 @@ rules: "Create three 1/1 colorless Servo artifact creature tokens. \r\n\r\nYou m
 slug: srams-expertise
 tags: card-color-white card-color-white-cost-4 card-type-sorcery
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Servo 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Servo
+  tla: AER
   type: Token Artifact Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/srams-expertise/

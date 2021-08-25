@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Counterspell
@@ -43,11 +43,12 @@ mana_cost_converted: 5
 name: Repudiate / Replicate
 printings:
 - RNA:
+    border_color: B
+    frame: m15
     name: Ravnica Allegiance
     number: 227
     rarity: rare
     release_date: 2019-01-25
-    set_number: 227
 rules: "<h4>Repudiate</h4>\r\n\r\nCounter target activated or triggered ability. *(Mana\
   \ abilities can't be targeted.)*\r\n\r\n-----\r\n\r\n<h3>Sorcery</h3>\r\n\r\n<h4>Replicate</h4>\r\
   \n\r\nCreate a token that's a copy of target creature you control."
@@ -64,11 +65,14 @@ synonyms:
 - Replicate and Repudiate
 tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-green card-type-instant
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: RNA
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/repudiate-replicate/

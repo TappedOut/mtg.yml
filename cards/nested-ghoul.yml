@@ -25,7 +25,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 3BB
 mana_cost_converted: 5
@@ -33,15 +33,20 @@ name: Nested Ghoul
 power_toughness: 4/2
 printings:
 - MBS:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 39472
     mtgo_id: 39471
     name: Mirrodin Besieged
+    number: 48
     rarity: uncommon
     release_date: 2011-02-04
     wizards_id: 213816
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=213816
 - MBP:
+    border_color: B
     cannonical: false
+    frame: modern
     name: 'Mirrodin Besieged: Phyrexia'
     rarity: uncommon
     release_date: 2011-02-03
@@ -54,11 +59,15 @@ subtype_tokens:
 - Warrior
 tags: card-color-black card-color-black-cost-5 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: MBS
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/nested-ghoul/

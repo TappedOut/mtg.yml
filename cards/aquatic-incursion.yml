@@ -36,20 +36,21 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 3U
 mana_cost_converted: 4
 name: Aquatic Incursion
 printings:
 - RIX:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66518
     mtgo_id: 66517
     name: Rivals of Ixalan
     number: 32
     rarity: uncommon
     release_date: 2018-01-19
-    set_number: 32
     wizards_id: 439689
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439689
 rules: "When Aquatic Incursion enters the battlefield, create two 1/1 blue Merfolk\
@@ -59,12 +60,16 @@ rules: "When Aquatic Incursion enters the battlefield, create two 1/1 blue Merfo
 slug: aquatic-incursion
 tags: card-color-blue card-color-blue-cost-4 card-type-enchantment
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 U Token Creature Merfolk
   power_toughness: 1/1
   rules: Hexproof *(This creature can't be the target of spells or abilities your
     opponents control.)*
   subtype: Merfolk
+  tla: RIX
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/aquatic-incursion/

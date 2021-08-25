@@ -26,7 +26,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Equip
@@ -38,13 +38,16 @@ mana_cost_converted: 3
 name: Fractal Harness
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 61
     rarity: rare
     release_date: 2021-04-23
-    set_number: 61
     variations:
     - identifier: '388'
+    wizards_id: 518457
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518457
 rules: "When this enters the battlefield, create a 0/0 green and blue Fractal creature\
   \ token. Put X +1/+1 counters on it and attach this to it.\r\n\r\nWhenever equipped\
   \ creature attacks, double the number of +1/+1 counters on it.\r\n\r\nEquip [[symbol:2]]"
@@ -54,11 +57,15 @@ subtype_tokens:
 - Equipment
 tags: card-color-green card-color-green-cost-3 card-type-artifact
 tokens:
-- colors: GU
+- cannonical_type: Creature
+  colors: GU
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Fractal 0/0 GU
   power_toughness: 0/0
   rules: ''
   subtype: Fractal
+  tla: C21
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/fractal-harness/

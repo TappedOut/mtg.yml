@@ -33,7 +33,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -46,13 +46,16 @@ name: Fain, the Broker
 power_toughness: 3/3
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 40
     rarity: rare
     release_date: 2021-04-23
-    set_number: 40
     variations:
     - identifier: '367'
+    wizards_id: 518436
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518436
 rules: "[[symbol:T]], Sacrifice a creature: Put two +1/+1 counters on target creature.\r\
   \n\r\n[[symbol:T]], Remove a counter from a creature you control: Create a Treasure\
   \ token.\r\n\r\n[[symbol:T]], Sacrifice an artifact: Create a 2/1 white and black\
@@ -65,17 +68,25 @@ subtype_tokens:
 - Warlock
 tags: card-color-black card-color-black-cost-3 card-type-creature card-type-legendary
 tokens:
-- colors: WB
+- cannonical_type: Creature
+  colors: WB
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Inkling 2/1 WB
   power_toughness: 2/1
   rules: Flying
   subtype: Inkling
+  tla: C21
   type: Token Creature
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: C21
   type: Token Artifact
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/fain-the-broker/

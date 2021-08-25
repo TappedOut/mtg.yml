@@ -30,7 +30,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Flying
@@ -42,38 +42,45 @@ mana_cost_converted: 5
 name: Migratory Route
 printings:
 - KHC:
+    border_color: B
+    frame: m15
     name: 'Kaldheim: Commander'
     number: 87
     rarity: uncommon
     release_date: 2021-02-05
-    set_number: 87
     wizards_id: 508377
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508377
 - C20:
+    border_color: B
+    frame: m15
     name: Commander 2020
     number: 222
     rarity: uncommon
     release_date: 2020-05-15
-    set_number: 222
 - MYS1:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
 - CM2:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology 2018
     number: 161
     rarity: uncommon
     release_date: 2018-06-08
-    set_number: 161
     wizards_id: 446897
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446897
 - C16:
+    border_color: B
+    frame: m15
     name: Commander 2016
     number: 38
     rarity: uncommon
     release_date: 2016-11-11
-    set_number: 38
     wizards_id: 420655
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420655
 rules: "Create four 1/1 white Bird creature tokens with flying. \r\n\r\nBasic landcycling\
@@ -82,11 +89,15 @@ rules: "Create four 1/1 white Bird creature tokens with flying. \r\n\r\nBasic la
 slug: migratory-route
 tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-white card-type-sorcery
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Bird 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Bird
+  tla: KHC
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/migratory-route/

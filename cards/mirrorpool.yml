@@ -39,7 +39,7 @@ formats:
 - Vintage
 has_activated_abilities: true
 is_land: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -49,13 +49,14 @@ mana_produced: C
 name: Mirrorpool
 printings:
 - OGW:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 59312
     mtgo_id: 59311
     name: Oath of the Gatewatch
     number: 174
     rarity: mythic_rare
     release_date: 2016-01-22
-    set_number: 174
     wizards_id: 407684
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407684
 rules: "Mirrorpool enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Add [[symbol:C]]\
@@ -66,11 +67,14 @@ rules: "Mirrorpool enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Add [[sym
 slug: mirrorpool
 tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: OGW
   type: Token Creature
 type: Land
 url: http://tappedout.net/mtg-card/mirrorpool/

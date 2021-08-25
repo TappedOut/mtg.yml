@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -39,13 +39,14 @@ mana_cost_converted: 3
 name: Oath of Gideon
 printings:
 - OGW:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 59268
     mtgo_id: 59267
     name: Oath of the Gatewatch
     number: 30
     rarity: rare
     release_date: 2016-01-22
-    set_number: 30
     wizards_id: 407540
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407540
 rules: "When Oath of Gideon enters the battlefield, put two 1/1 white Kor Ally creature\
@@ -54,11 +55,15 @@ rules: "When Oath of Gideon enters the battlefield, put two 1/1 white Kor Ally c
 slug: oath-of-gideon
 tags: card-color-white card-color-white-cost-3 card-type-enchantment card-type-legendary
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Kor Ally
   power_toughness: 1/1
   rules: ''
   subtype: Kor Ally
+  tla: OGW
   type: Token Creature
 type: Legendary Enchantment
 url: http://tappedout.net/mtg-card/oath-of-gideon/

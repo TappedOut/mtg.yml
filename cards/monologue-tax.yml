@@ -25,7 +25,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -35,23 +35,30 @@ mana_cost_converted: 3
 name: Monologue Tax
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 19
     rarity: rare
     release_date: 2021-04-23
-    set_number: 19
     variations:
     - identifier: '346'
+    wizards_id: 518415
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518415
 rules: Whenever an opponent casts their second spell each turn, you create a Treasure
   token.
 slug: monologue-tax
 tags: card-color-white card-color-white-cost-3 card-type-enchantment
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: C21
   type: Token Artifact
 type: Enchantment
 url: http://tappedout.net/mtg-card/monologue-tax/

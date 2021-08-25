@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -42,18 +42,21 @@ name: Overgrown Armasaur
 power_toughness: 4/4
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - RIX:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66736
     mtgo_id: 66735
     name: Rivals of Ixalan
     number: 141
     rarity: common
     release_date: 2018-01-19
-    set_number: 141
     wizards_id: 439798
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439798
 rules: Enrage -- Whenever Overgrown Armasaur is dealt damage, create a 1/1 green Saproling
@@ -64,11 +67,15 @@ subtype_tokens:
 - Dinosaur
 tags: card-color-green card-color-green-cost-5 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: RIX
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/overgrown-armasaur/

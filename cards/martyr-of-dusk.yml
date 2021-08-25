@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Lifelink
@@ -43,13 +43,14 @@ name: Martyr of Dusk
 power_toughness: 2/1
 printings:
 - RIX:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66482
     mtgo_id: 66481
     name: Rivals of Ixalan
     number: 14
     rarity: common
     release_date: 2018-01-19
-    set_number: 14
     wizards_id: 439671
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439671
 rules: When Martyr of Dusk dies, create a 1/1 white Vampire creature token with lifelink.
@@ -60,12 +61,16 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-2 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Vampire
   power_toughness: 1/1
   rules: Lifelink *(Damage dealt by this creature also causes you to gain that much
     life.)*
   subtype: Vampire
+  tla: RIX
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/martyr-of-dusk/

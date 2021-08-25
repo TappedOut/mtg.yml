@@ -38,7 +38,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -49,13 +49,14 @@ mana_cost_converted: 4
 name: Tezzeret the Schemer
 printings:
 - AER:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 62558
     mtgo_id: 62557
     name: Aether Revolt
     number: 137
     rarity: mythic_rare
     release_date: 2017-01-20
-    set_number: 137
     wizards_id: 423804
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423804
 rules: "[[symbol:loyalty-plus1]]: Create a colorless artifact token named Etherium\
@@ -70,19 +71,25 @@ subtype_tokens:
 - Tezzeret
 tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-4 card-type-planeswalker
 tokens:
-- colors: C
-  name: C Token Artifact Etherium Cell
-  power_toughness: ''
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour to your
-    mana pool.'
-  subtype: Etherium Cell
-  type: Token Artifact
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Tezzeret
   power_toughness: null
   rules: At the beginning of combat on your turn, target artifact you control becomes
     an artifact creature with base power and toughness 5/5.
   subtype: Tezzeret
+  tla: AER
   type: Emblem
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Etherium Cell
+  power_toughness: null
+  rules: '[[symbol:T]], Sacrifice this artifact: Gain one mana of any colour.'
+  tla: AER
+  type: Token Artifact
 type: Planeswalker
 url: http://tappedout.net/mtg-card/tezzeret-the-schemer/

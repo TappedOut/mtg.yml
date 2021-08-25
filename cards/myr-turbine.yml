@@ -30,22 +30,27 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: '5'
 mana_cost_converted: 5
 name: Myr Turbine
 printings:
 - MBS:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 39370
     mtgo_id: 39369
     name: Mirrodin Besieged
+    number: 117
     rarity: rare
     release_date: 2011-02-04
     wizards_id: 213757
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=213757
 - MBM:
+    border_color: B
     cannonical: false
+    frame: modern
     name: 'Mirrodin Besieged: Mirran'
     rarity: rare
     release_date: 2011-02-03
@@ -55,11 +60,15 @@ rules: "{T}: Put a 1/1 colorless Myr artifact creature token onto the battlefiel
 slug: myr-turbine
 tags: card-color-colorless card-color-colorless-cost-5 card-type-artifact
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Myr 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Myr
+  tla: MBS
   type: Token Artifact Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/myr-turbine/

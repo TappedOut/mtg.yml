@@ -40,20 +40,21 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 3GG
 mana_cost_converted: 5
 name: Vivien, Monsters' Advocate
 printings:
 - IKO:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 80360
     mtgo_id: 80359
     name: 'Ikoria: Lair of Behemoths'
     number: 175
     rarity: mythic_rare
     release_date: 2020-04-15
-    set_number: 175
     variations:
     - identifier: '277'
     - identifier: PromoPack
@@ -72,11 +73,15 @@ subtype_tokens:
 - Vivien
 tags: card-color-green card-color-green-cost-5 card-type-legendary card-type-planeswalker
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Beast 3/3 G
   power_toughness: 3/3
   rules: ''
   subtype: Beast
+  tla: IKO
   type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/vivien-monsters-advocate/

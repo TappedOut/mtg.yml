@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -45,13 +45,14 @@ mana_cost_converted: 3
 name: Hammer of Purphoros
 printings:
 - THS:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 50411
     mtgo_id: 50410
     name: Theros
     number: 124
     rarity: rare
     release_date: 2013-09-27
-    set_number: 124
     wizards_id: 373587
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373587
 rules: "Creatures you control have haste. \r\n\r\n[[symbol:2]][[symbol:R]], [[symbol:T]]\
@@ -61,11 +62,15 @@ slug: hammer-of-purphoros
 tags: card-color-red card-color-red-cost-3 card-type-artifact card-type-enchantment
   card-type-legendary
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 C Token Enchantment Artifact Creature Golem
   power_toughness: 3/3
   rules: ''
   subtype: Golem
+  tla: THS
   type: Token Enchantment Artifact Creature
 type: Legendary Enchantment Artifact
 url: http://tappedout.net/mtg-card/hammer-of-purphoros/

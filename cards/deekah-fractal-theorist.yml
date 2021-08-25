@@ -28,7 +28,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Unblockable
@@ -41,13 +41,16 @@ name: Deekah, Fractal Theorist
 power_toughness: 3/3
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 26
     rarity: rare
     release_date: 2021-04-23
-    set_number: 26
     variations:
     - identifier: '353'
+    wizards_id: 518422
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518422
 rules: "*Magecraft* \u2014 Whenever you cast or copy an instant or sorcery spell,\
   \ create a 0/0 green and blue Fractal creature token. Put X +1/+1 counters on it,\
   \ where X is that spell's converted mana cost/mana value.\r\n\r\n[[symbol:3]][[symbol:U]]:\
@@ -59,11 +62,15 @@ subtype_tokens:
 - Wizard
 tags: card-color-blue card-color-blue-cost-5 card-type-creature card-type-legendary
 tokens:
-- colors: GU
+- cannonical_type: Creature
+  colors: GU
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Fractal 0/0 GU
   power_toughness: 0/0
   rules: ''
   subtype: Fractal
+  tla: C21
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/deekah-fractal-theorist/
