@@ -42,7 +42,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Indestructible
@@ -53,11 +53,12 @@ mana_cost_converted: 3
 name: Basri Ket
 printings:
 - M21:
+    border_color: B
+    frame: m15
     name: Core Set 2021
     number: 7
     rarity: mythic_rare
     release_date: 2020-07-03
-    set_number: 7
     variations:
     - identifier: '280'
     - identifier: '286'
@@ -65,12 +66,13 @@ printings:
     wizards_id: 485330
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485330
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: mythic_rare
     release_date: 1990-04-15
-    set_number: 1
 rules: "[[symbol:loyalty-plus1]]: Put a +1/+1 counter on up to one target creature.\
   \ It gains indestructible until end of turn.\r\n\r\n[[symbol:loyalty-minus2]]: Whenever\
   \ one or more nontoken creatures attack this turn, create that many 1/1 white Soldier\
@@ -83,18 +85,26 @@ subtype_tokens:
 - Basri
 tags: card-color-white card-color-white-cost-3 card-type-legendary card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Basri
   power_toughness: null
   rules: At the beginning of combat on your turn, create a 1/1 white Soldier creature
     token, then put a +1/+1 counter on each creature you control.
   subtype: Basri
+  tla: M21
   type: Emblem
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W
   power_toughness: 1/1
   rules: ''
   subtype: Soldier
+  tla: M21
   type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/basri-ket/

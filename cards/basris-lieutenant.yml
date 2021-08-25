@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Protection
@@ -46,11 +46,12 @@ name: Basri's Lieutenant
 power_toughness: 3/4
 printings:
 - M21:
+    border_color: B
+    frame: m15
     name: Core Set 2021
     number: 9
     rarity: rare
     release_date: 2020-07-03
-    set_number: 9
     variations:
     - identifier: '288'
     - identifier: PromoPack
@@ -71,11 +72,15 @@ subtype_tokens:
 - Knight
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Knight 2/2 W w/ Vigilance
   power_toughness: 2/2
   rules: Vigilance
   subtype: Knight
+  tla: M21
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/basris-lieutenant/

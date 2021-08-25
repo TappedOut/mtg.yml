@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Reach
@@ -46,11 +46,12 @@ name: Elder Gargaroth
 power_toughness: 6/6
 printings:
 - M21:
+    border_color: B
+    frame: m15
     name: Core Set 2021
     number: 179
     rarity: mythic_rare
     release_date: 2020-07-03
-    set_number: 179
     variations:
     - identifier: '373'
     - identifier: PromoPack
@@ -65,11 +66,15 @@ subtype_tokens:
 - Beast
 tags: card-color-green card-color-green-cost-5 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Beast 3/3 G
   power_toughness: 3/3
   rules: ''
   subtype: Beast
+  tla: M21
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/elder-gargaroth/

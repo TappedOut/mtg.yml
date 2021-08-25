@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Domain
@@ -38,9 +38,12 @@ mana_cost_converted: 4
 name: Spore Burst
 printings:
 - CON:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 31896
     mtgo_id: 31895
     name: Conflux
+    number: 93
     rarity: uncommon
     release_date: 2009-02-06
     wizards_id: 185829
@@ -50,11 +53,15 @@ rules: "Domain \x97 Put a 1/1 green Saproling creature token onto the battlefiel
 slug: spore-burst
 tags: card-color-green card-color-green-cost-4 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: CON
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/spore-burst/

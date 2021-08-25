@@ -25,7 +25,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 4WW
 mana_cost_converted: 6
@@ -33,17 +33,20 @@ name: Darien, King of Kjeldor
 power_toughness: 3/3
 printings:
 - A25:
+    border_color: B
     cannonical: false
+    frame: m15
     mtgo_foil_id: 66933
     mtgo_id: 66932
     name: Masters 25
     number: 9
     rarity: rare
     release_date: 2018-03-16
-    set_number: 9
     wizards_id: 441998
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=441998
 - CSP:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 24780
     mtgo_id: 24779
     name: Coldsnap
@@ -60,11 +63,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-6 card-type-creature card-type-legendary
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W
   power_toughness: 1/1
   rules: ''
   subtype: Soldier
+  tla: CSP
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/darien-king-of-kjeldor/

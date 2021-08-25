@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -42,11 +42,12 @@ name: Pursued Whale
 power_toughness: 8/8
 printings:
 - M21:
+    border_color: B
+    frame: m15
     name: Core Set 2021
     number: 60
     rarity: rare
     release_date: 2020-07-03
-    set_number: 60
     variations:
     - identifier: '351'
     - identifier: PromoPack
@@ -62,12 +63,16 @@ subtype_tokens:
 - Whale
 tags: card-color-blue card-color-blue-cost-7 card-type-creature
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 R Token Creature Pirate
   power_toughness: 1/1
   rules: "This creature can't block.\r\n\r\nCreatures you control attack each combat\
     \ if able."
   subtype: Pirate
+  tla: M21
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/pursued-whale/

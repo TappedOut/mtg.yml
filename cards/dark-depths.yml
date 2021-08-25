@@ -31,7 +31,7 @@ formats:
 - Vintage
 has_activated_abilities: true
 is_land: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -43,43 +43,50 @@ mana_cost_converted: 0
 name: Dark Depths
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 314
     rarity: mythic_rare
     release_date: 2020-08-07
-    set_number: 314
+    wizards_id: 489987
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489987
 - UMA:
-    cannonical: false
+    border_color: B
+    frame: m15
     mtgo_foil_id: 70560
     mtgo_id: 70559
     name: Ultimate Masters
     number: 241
     rarity: mythic_rare
     release_date: 2018-12-07
-    set_number: 241
 - UMAP:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: Ultimate Masters Promo
     number: 35
     rarity: mythic_rare
     release_date: 2018-12-06
-    set_number: 35
 - V16:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     mtgo_foil_id: 62106
     mtgo_id: 62105
     name: 'From the Vault: Lore'
     number: 4
     rarity: mythic_rare
     release_date: 2016-08-19
-    set_number: 4
     wizards_id: 416746
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416746
 - CSP:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 24584
     mtgo_id: 24583
     name: Coldsnap
@@ -97,11 +104,15 @@ slug: dark-depths
 tags: card-color-colorless card-color-colorless-cost-0 card-type-land card-type-legendary
   card-type-snow
 tokens:
-- colors: B
-  name: 20/20 B Token Legendary Creature Avatar
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Marit Lage
   power_toughness: 20/20
   rules: Flying, indestructible
   subtype: Avatar
+  tla: 2XM
   type: Token Legendary Creature
 type: Legendary Snow Land
 url: http://tappedout.net/mtg-card/dark-depths/
