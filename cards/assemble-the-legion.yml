@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -40,18 +40,21 @@ mana_cost_converted: 5
 name: Assemble the Legion
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: rare
     release_date: 2020-03-14
 - GTC:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 47800
     mtgo_id: 47799
     name: Gatecrash
     number: 142
     rarity: rare
     release_date: 2013-02-01
-    set_number: 142
     wizards_id: 366470
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=366470
 rules: At the beginning of your upkeep, put a muster counter on Assemble the Legion.
@@ -60,11 +63,15 @@ rules: At the beginning of your upkeep, put a muster counter on Assemble the Leg
 slug: assemble-the-legion
 tags: card-color-gold card-color-gold-cost-5 card-color-red card-color-white card-type-enchantment
 tokens:
-- colors: RW
+- cannonical_type: Creature
+  colors: RW
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 RW Token Creature Soldier
   power_toughness: 1/1
   rules: Haste
   subtype: Soldier
+  tla: GTC
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/assemble-the-legion/

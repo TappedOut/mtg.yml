@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Counterspell
@@ -39,16 +39,19 @@ mana_cost_converted: 5
 name: Mystic Genesis
 printings:
 - MM3:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63424
     mtgo_id: 63423
     name: Modern Masters 2017 Edition
     number: 174
     rarity: uncommon
     release_date: 2017-03-17
-    set_number: 174
     wizards_id: 425999
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425999
 - GTC:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 47732
     mtgo_id: 47731
     name: Gatecrash
@@ -61,11 +64,15 @@ rules: Counter target spell. Create an X/X green Ooze creature token, where X is
 slug: mystic-genesis
 tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-green card-type-instant
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* G Token Creature Ooze'
   power_toughness: '*/*'
   rules: ''
   subtype: Ooze
+  tla: MM3
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/mystic-genesis/

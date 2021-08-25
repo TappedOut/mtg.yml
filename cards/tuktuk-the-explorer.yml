@@ -27,7 +27,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -38,21 +38,27 @@ name: Tuktuk the Explorer
 power_toughness: 1/1
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 149
     rarity: rare
     release_date: 2020-08-07
-    set_number: 149
+    wizards_id: 489822
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489822
 - CM2:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology 2018
     number: 124
     rarity: rare
     release_date: 2018-06-08
-    set_number: 124
     wizards_id: 446860
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446860
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54850
     mtgo_id: 54849
     name: Commander 2014
@@ -61,6 +67,8 @@ printings:
     wizards_id: 389729
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389729
 - ROE:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 36705
     mtgo_id: 36704
     name: Rise of the Eldrazi
@@ -77,11 +85,15 @@ subtype_tokens:
 - Goblin
 tags: card-color-red card-color-red-cost-3 card-type-creature card-type-legendary
 tokens:
-- colors: C
-  name: 5/5 C Token Legendary Artifact Creature Goblin Golem
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Tuktuk the Returned
   power_toughness: 5/5
   rules: Tuktuk the Returned is Legendary.
   subtype: Goblin Golem
+  tla: 2XM
   type: Token Legendary Artifact Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/tuktuk-the-explorer/

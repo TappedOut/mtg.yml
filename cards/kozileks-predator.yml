@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -42,26 +42,35 @@ name: Kozilek's Predator
 power_toughness: 3/3
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 173
     rarity: common
     release_date: 2020-08-07
-    set_number: 173
+    wizards_id: 489846
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489846
 - MYS1:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - MM2:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 57213
     mtgo_id: 57212
     name: Modern Masters 2015 Edition
     number: 147
     rarity: common
     release_date: 2015-05-22
-    set_number: 147
     wizards_id: 397716
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397716
 - ROE:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 36767
     mtgo_id: 36766
     name: Rise of the Eldrazi
@@ -79,11 +88,15 @@ subtype_tokens:
 - Drone
 tags: card-color-green card-color-green-cost-4 card-mana-colorless-sym card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 C Token Creature Eldrazi Spawn
   power_toughness: 0/1
   rules: 'Sacrifice this creature: Add [[symbol:1]] to your mana pool.'
   subtype: Eldrazi Spawn
+  tla: 2XM
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/kozileks-predator/

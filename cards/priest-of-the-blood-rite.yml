@@ -26,7 +26,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -37,21 +37,23 @@ name: Priest of the Blood Rite
 power_toughness: 2/2
 printings:
 - DDR:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Nissa vs. Ob Nixilis'
     number: 57
     rarity: rare
     release_date: 2016-09-02
-    set_number: 57
     wizards_id: 417480
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417480
 - ORI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 57951
     mtgo_id: 57950
     name: Magic Origins
     number: 112
     rarity: rare
     release_date: 2015-06-17
-    set_number: 112
     wizards_id: 398639
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398639
 rules: "When Priest of the Blood Rite enters the battlefield, create a 5/5 black Demon\
@@ -64,11 +66,15 @@ subtype_tokens:
 - Cleric
 tags: card-color-black card-color-black-cost-5 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 5/5 B Token Creature Demon
   power_toughness: 5/5
   rules: Flying
   subtype: Demon
+  tla: DDR
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/priest-of-the-blood-rite/

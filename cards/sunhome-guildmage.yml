@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -46,24 +46,28 @@ name: Sunhome Guildmage
 power_toughness: 2/2
 printings:
 - GK1:
+    border_color: B
+    frame: m15
     name: 'Guilds of Ravnica: Guild Kit'
     number: 95
     rarity: uncommon
     release_date: 2018-11-02
-    set_number: 95
     wizards_id: 455772
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=455772
 - MM3:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63372
     mtgo_id: 63371
     name: Modern Masters 2017 Edition
     number: 191
     rarity: uncommon
     release_date: 2017-03-17
-    set_number: 191
     wizards_id: 426016
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426016
 - GTC:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 47460
     mtgo_id: 47459
     name: Gatecrash
@@ -81,11 +85,15 @@ subtype_tokens:
 - Wizard
 tags: card-color-gold card-color-gold-cost-2 card-color-red card-color-white card-type-creature
 tokens:
-- colors: RW
+- cannonical_type: Creature
+  colors: RW
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 RW Token Creature Soldier
   power_toughness: 1/1
   rules: Haste
   subtype: Soldier
+  tla: GK1
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/sunhome-guildmage/

@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Exile
@@ -40,22 +40,26 @@ mana_cost_converted: 6
 name: Stolen Identity
 printings:
 - ZNC:
+    border_color: B
+    frame: m15
     name: 'Zendikar Rising: Commander'
     number: 37
     rarity: rare
     release_date: 2020-09-25
-    set_number: 37
     wizards_id: 495975
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=495975
 - GK1:
+    border_color: B
+    frame: m15
     name: 'Guilds of Ravnica: Guild Kit'
     number: 2
     rarity: rare
     release_date: 2018-11-02
-    set_number: 2
     wizards_id: 455905
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=455905
 - GTC:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 47780
     mtgo_id: 47779
     name: Gatecrash
@@ -70,11 +74,14 @@ rules: "Create a token that's a copy of target artifact or creature.\r\n\r\nCiph
 slug: stolen-identity
 tags: card-color-blue card-color-blue-cost-6 card-type-sorcery
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: ZNC
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/stolen-identity/

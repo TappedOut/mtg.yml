@@ -35,16 +35,19 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 3G
 mana_cost_converted: 4
 name: Ooze Flux
 printings:
 - GTC:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 47736
     mtgo_id: 47735
     name: Gatecrash
+    number: 128
     rarity: rare
     release_date: 2013-02-01
     wizards_id: 366375
@@ -55,11 +58,15 @@ rules: '1G, Remove one or more +1/+1 counters from among creatures you control: 
 slug: ooze-flux
 tags: card-color-green card-color-green-cost-4 card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* G Token Creature Ooze'
   power_toughness: '*/*'
   rules: ''
   subtype: Ooze
+  tla: GTC
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/ooze-flux/

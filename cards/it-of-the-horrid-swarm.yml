@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Emerge
@@ -41,13 +41,14 @@ name: It of the Horrid Swarm
 power_toughness: 4/4
 printings:
 - EMN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61439
     mtgo_id: 61438
     name: Eldritch Moon
     number: 8
     rarity: common
     release_date: 2016-07-22
-    set_number: 8
     wizards_id: 414297
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414297
 rules: "Emerge [[6]][[G]] (You may cast this spell by sacrificing a creature and paying\
@@ -61,11 +62,15 @@ subtype_tokens:
 - Insect
 tags: card-color-green card-color-green-cost-8 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Insect 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Insect
+  tla: EMN
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/it-of-the-horrid-swarm/

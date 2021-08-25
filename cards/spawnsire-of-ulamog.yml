@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -40,9 +40,12 @@ name: Spawnsire of Ulamog
 power_toughness: 7/11
 printings:
 - ROE:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 36511
     mtgo_id: 36510
     name: Rise of the Eldrazi
+    number: 11
     rarity: rare
     release_date: 2010-04-23
     wizards_id: 193535
@@ -58,11 +61,15 @@ subtype_tokens:
 - Eldrazi
 tags: card-color-colorless card-color-colorless-cost-10 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 C Token Creature Eldrazi Spawn
   power_toughness: 0/1
   rules: 'Sacrifice this creature: Add [[symbol:1]] to your mana pool.'
   subtype: Eldrazi Spawn
+  tla: ROE
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/spawnsire-of-ulamog/

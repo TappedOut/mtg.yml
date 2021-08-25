@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -40,33 +40,36 @@ name: Hangarback Walker
 power_toughness: 0/0
 printings:
 - MPS:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: 'Masterpiece Series: Kaladesh Inventions'
     number: 13
     rarity: mythic_rare
     release_date: 2016-09-30
-    set_number: 13
     wizards_id: 420600
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420600
 - ORI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 58129
     mtgo_id: 58128
     name: Magic Origins
     number: 229
     rarity: rare
     release_date: 2015-06-17
-    set_number: 229
     wizards_id: 398572
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398572
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: uncommon
     release_date: 1990-04-15
-    set_number: 1
 rules: "Hangarback Walker enters the battlefield with X +1/+1 counters on it. \r\n\
   \r\nWhen Hangarback Walker dies, create a 1/1 colorless Thopter artifact creature\
   \ token with flying for each +1/+1 counter on Hangarback Walker. \r\n\r\n[[symbol:1]],\
@@ -79,11 +82,15 @@ synonyms:
 - Mechagodzilla, Battle Fortress
 tags: card-color-colorless card-color-colorless-cost-0 card-type-artifact card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Thopter 1/1 C
   power_toughness: 1/1
   rules: Flying
   subtype: Thopter
+  tla: ORI
   type: Token Artifact Creature
 type: Artifact Creature
 url: http://tappedout.net/mtg-card/hangarback-walker/

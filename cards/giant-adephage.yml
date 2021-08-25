@@ -26,7 +26,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Trample
@@ -37,14 +37,19 @@ name: Giant Adephage
 power_toughness: 7/7
 printings:
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77453
     mtgo_id: 77452
     name: Commander 2019
     number: 169
     rarity: mythic_rare
     release_date: 2019-08-23
-    set_number: 169
+    wizards_id: 470715
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470715
 - GTC:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 47932
     mtgo_id: 47931
     name: Gatecrash
@@ -60,11 +65,14 @@ subtype_tokens:
 - Insect
 tags: card-color-green card-color-green-cost-7 card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: C19
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/giant-adephage/

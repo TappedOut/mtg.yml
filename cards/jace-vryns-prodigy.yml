@@ -35,7 +35,7 @@ formats:
 - Vintage
 has_activated_abilities: true
 is_front: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -47,33 +47,36 @@ power_toughness: 0/2
 printings:
 - V17:
     booster_exclude: true
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: 'From the Vault: Transform'
     number: 12
     rarity: common
     release_date: 2017-11-24
-    set_number: 12
     wizards_id: 439335
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439335
 - ORI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 57881
     mtgo_id: 57880
     name: Magic Origins
     number: 60
     rarity: mythic_rare
     release_date: 2015-06-17
-    set_number: 60
     wizards_id: 398434
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398434
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: mythic_rare
     release_date: 1990-04-15
-    set_number: 1
 rules: '[[symbol:T]]: Draw a card, then discard a card. If there are five or more
   cards in your graveyard, exile Jace, Vryn''s Prodigy, then return him to the battlefield
   transformed under his owner''s control.'
@@ -87,12 +90,16 @@ synonyms:
 - Literal Actual Baby Jace
 tags: card-color-blue card-color-blue-cost-2 card-type-creature card-type-legendary
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Jace
   power_toughness: null
   rules: Whenever you cast a spell, target opponent puts the top five cards of his
     or her library into his or her graveyard.
   subtype: Jace
+  tla: ORI
   type: Emblem
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/jace-vryns-prodigy/

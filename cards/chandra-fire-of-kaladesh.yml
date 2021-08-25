@@ -29,7 +29,7 @@ formats:
 - Vintage
 has_activated_abilities: false
 is_front: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -41,33 +41,36 @@ name: Chandra, Fire of Kaladesh
 power_toughness: 2/2
 printings:
 - V17:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: 'From the Vault: Transform'
     number: 6
     rarity: mythic_rare
     release_date: 2017-11-24
-    set_number: 6
     wizards_id: 439324
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439324
 - ORI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 57995
     mtgo_id: 57994
     name: Magic Origins
     number: 135
     rarity: mythic_rare
     release_date: 2015-06-17
-    set_number: 135
     wizards_id: 398422
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398422
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: mythic_rare
     release_date: 1990-04-15
-    set_number: 1
 rules: "Whenever you cast a red spell, untap Chandra, Fire of Kaladesh.\r\n\r\n[[symbol:T]]\
   \ Chandra, Fire of Kaladesh deals 1 damage to target player. If Chandra has dealt\
   \ 3 or more damage this turn, exile her, then return her to the battlefield transformed\
@@ -81,11 +84,15 @@ synonyms:
 - Baby Chandra
 tags: card-color-red card-color-red-cost-3 card-type-creature card-type-legendary
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Chandra
   power_toughness: null
   rules: At the beginning of your upkeep, this emblem deals 3 damage to you.
   subtype: Chandra
+  tla: ORI
   type: Emblem
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/chandra-fire-of-kaladesh/

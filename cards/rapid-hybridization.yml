@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -39,29 +39,35 @@ mana_cost_converted: 1
 name: Rapid Hybridization
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 126
     rarity: uncommon
     release_date: 2021-04-23
-    set_number: 126
+    wizards_id: 519161
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519161
 - GK2:
-    cannonical: false
+    border_color: B
+    frame: m15
     name: 'Ravnica Allegiance: Guild Kits'
     number: 109
     rarity: uncommon
     release_date: 2019-02-15
-    set_number: 109
     wizards_id: 460768
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460768
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 102
     rarity: uncommon
     release_date: 2015-11-13
-    set_number: 102
     wizards_id: 405354
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405354
 - GTC:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 47810
     mtgo_id: 47809
     name: Gatecrash
@@ -74,11 +80,15 @@ rules: Destroy target creature. It can't be regenerated. That creature's control
 slug: rapid-hybridization
 tags: card-color-blue card-color-blue-cost-1 card-type-instant
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Frog Lizard 3/3 G
   power_toughness: 3/3
   rules: ''
   subtype: Frog Lizard
+  tla: C21
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/rapid-hybridization/

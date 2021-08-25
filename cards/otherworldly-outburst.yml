@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -41,13 +41,14 @@ mana_cost_converted: 1
 name: Otherworldly Outburst
 printings:
 - EMN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61417
     mtgo_id: 61416
     name: Eldritch Moon
     number: 138
     rarity: common
     release_date: 2016-07-22
-    set_number: 138
     wizards_id: 414437
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414437
 rules: Target creature gets +1/+0 until end of turn. When that creature dies this
@@ -57,11 +58,15 @@ synonyms:
 - Otherwordly Outburst
 tags: card-color-red card-color-red-cost-1 card-type-instant
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/2 C Token Creature Eldrazi Horror
   power_toughness: 3/2
   rules: ''
   subtype: Eldrazi Horror
+  tla: EMN
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/otherworldly-outburst/

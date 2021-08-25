@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -41,18 +41,21 @@ name: Desperate Sentry
 power_toughness: 1/2
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - EMN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61505
     mtgo_id: 61504
     name: Eldritch Moon
     number: 21
     rarity: common
     release_date: 2016-07-22
-    set_number: 21
     wizards_id: 414311
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414311
 rules: "When Desperate Sentry dies, put a 3/2 colorless Eldrazi Horror creature token\
@@ -65,11 +68,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-3 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/2 C Token Creature Eldrazi Horror
   power_toughness: 3/2
   rules: ''
   subtype: Eldrazi Horror
+  tla: EMN
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/desperate-sentry/
