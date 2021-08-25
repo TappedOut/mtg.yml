@@ -37,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tap/Untap
@@ -48,18 +48,21 @@ name: Cryptbreaker
 power_toughness: 1/1
 printings:
 - ARENA:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Arena Cards
     rarity: rare
     release_date: 2019-09-26
 - EMN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61373
     mtgo_id: 61372
     name: Eldritch Moon
     number: 86
     rarity: rare
     release_date: 2016-07-22
-    set_number: 86
     wizards_id: 414381
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414381
 rules: "[[symbol:1]][[symbol:B]], [[symbol:T]], Discard a card: Create a 2/2 black\
@@ -71,11 +74,15 @@ subtype_tokens:
 - Zombie
 tags: card-color-black card-color-black-cost-1 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: EMN
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/cryptbreaker/

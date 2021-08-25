@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -44,35 +44,38 @@ name: Liliana, Defiant Necromancer
 printings:
 - V17:
     booster_exclude: true
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     mtgo_foil_id: 66446
     mtgo_id: 66445
     name: 'From the Vault: Transform'
     number: 14
     rarity: mythic_rare
     release_date: 2017-11-24
-    set_number: 14
     wizards_id: 439340
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439340
 - ORI:
     booster_exclude: true
+    border_color: B
+    frame: m15
     name: Magic Origins
     number: 106
     rarity: mythic_rare
     release_date: 2015-06-17
-    set_number: 106
     wizards_id: 398442
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398442
 - '000':
     booster_exclude: true
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: mythic_rare
     release_date: 1990-04-15
-    set_number: 1
 rules: "[[symbol:loyalty-plus2]]: Each player discards a card.\r\n\r\n[[symbol:loyalty-minusX]]:\
   \ Return target nonlegendary creature card with converted mana cost X from your\
   \ graveyard to the battlefield.\r\n\r\n[[symbol:loyalty-minus8]]: You get an emblem\
@@ -84,12 +87,16 @@ subtype_tokens:
 - Liliana
 tags: card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Liliana
   power_toughness: null
   rules: Whenever a creature dies, return it to the battlefield under your control
     at the beginning of the next end step.
   subtype: Liliana
+  tla: ORI
   type: Emblem
 type: Planeswalker
 url: http://tappedout.net/mtg-card/liliana-defiant-necromancer/

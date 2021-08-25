@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -39,13 +39,14 @@ mana_cost_converted: 3
 name: Oath of Liliana
 printings:
 - EMN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61181
     mtgo_id: 61180
     name: Eldritch Moon
     number: 93
     rarity: rare
     release_date: 2016-07-22
-    set_number: 93
     wizards_id: 414395
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414395
 rules: "When Oath of Liliana enters the battlefield, each opponent sacrifices a creature.\
@@ -54,11 +55,15 @@ rules: "When Oath of Liliana enters the battlefield, each opponent sacrifices a 
 slug: oath-of-liliana
 tags: card-color-black card-color-black-cost-3 card-type-enchantment card-type-legendary
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: EMN
   type: Token Creature
 type: Legendary Enchantment
 url: http://tappedout.net/mtg-card/oath-of-liliana/

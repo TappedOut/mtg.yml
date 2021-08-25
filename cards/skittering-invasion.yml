@@ -27,7 +27,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Sacrifice
@@ -36,9 +36,12 @@ mana_cost_converted: 7
 name: Skittering Invasion
 printings:
 - ROE:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 36609
     mtgo_id: 36608
     name: Rise of the Eldrazi
+    number: 10
     rarity: uncommon
     release_date: 2010-04-23
     wizards_id: 193614
@@ -51,11 +54,15 @@ subtype_tokens:
 - Eldrazi
 tags: card-color-colorless card-color-colorless-cost-7 card-type-sorcery card-type-tribal
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 C Token Creature Eldrazi Spawn
   power_toughness: 0/1
   rules: 'Sacrifice this creature: Add [[symbol:1]] to your mana pool.'
   subtype: Eldrazi Spawn
+  tla: ROE
   type: Token Creature
 type: Tribal Sorcery
 url: http://tappedout.net/mtg-card/skittering-invasion/

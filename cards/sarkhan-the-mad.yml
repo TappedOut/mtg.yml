@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -45,16 +45,21 @@ mana_cost_converted: 5
 name: Sarkhan the Mad
 printings:
 - MYSTOR:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: 'Mystery Booster: Store Edition'
     rarity: rare
     release_date: 2020-03-13
 - ROE:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 36339
     mtgo_id: 36338
     name: Rise of the Eldrazi
+    number: 214
     rarity: mythic_rare
     release_date: 2010-04-23
     wizards_id: 193659
@@ -71,11 +76,15 @@ subtype_tokens:
 - Sarkhan
 tags: card-color-black card-color-gold card-color-gold-cost-5 card-color-red card-type-planeswalker
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Dragon 5/5 R
   power_toughness: 5/5
   rules: Flying
   subtype: Dragon
+  tla: ROE
   type: Token Creature
 type: Planeswalker
 url: http://tappedout.net/mtg-card/sarkhan-the-mad/

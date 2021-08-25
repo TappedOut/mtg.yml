@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Reach
@@ -45,13 +45,14 @@ name: Ishkanah, Grafwidow
 power_toughness: 3/5
 printings:
 - EMN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61259
     mtgo_id: 61258
     name: Eldritch Moon
     number: 162
     rarity: mythic_rare
     release_date: 2016-07-22
-    set_number: 162
     wizards_id: 414463
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414463
 rules: "Reach \r\n\r\nDelirium - When Ishkanah, Grafwidow enters the battlefield,\
@@ -65,11 +66,15 @@ subtype_tokens:
 tags: card-color-black card-color-black-cost-5 card-color-green card-color-green-cost-5
   card-type-creature card-type-legendary
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/2 G Token Creature Spider
   power_toughness: 1/2
   rules: Reach
   subtype: Spider
+  tla: EMN
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/ishkanah-grafwidow/

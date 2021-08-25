@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: MYS1
+cannonical_set: GK1
 cannonical_type: Sorcery
 companions:
 - Gyruda, Doom of Depths
@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Flying
@@ -43,21 +43,28 @@ mana_cost_converted: 4
 name: Call of the Nightwing
 printings:
 - MYS1:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
 - GK1:
+    border_color: B
+    frame: m15
     name: 'Guilds of Ravnica: Guild Kit'
     number: 83
     rarity: uncommon
     release_date: 2018-11-02
-    set_number: 83
     wizards_id: 455911
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=455911
 - GTC:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 47908
     mtgo_id: 47907
     name: Gatecrash
+    number: 149
     rarity: uncommon
     release_date: 2013-02-01
     wizards_id: 366308
@@ -69,11 +76,15 @@ rules: "Create a 1/1 blue and black Horror creature token with flying.\r\n\r\nCi
 slug: call-of-the-nightwing
 tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-4 card-type-sorcery
 tokens:
-- colors: UB
+- cannonical_type: Creature
+  colors: UB
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 UB Token Creature Horror
   power_toughness: 1/1
   rules: Flying
   subtype: Horror
+  tla: GK1
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/call-of-the-nightwing/

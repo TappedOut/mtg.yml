@@ -37,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tap/Untap
@@ -47,20 +47,22 @@ mana_cost_converted: 4
 name: Tamiyo, Field Researcher
 printings:
 - SLD:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Secret Lair
     number: 89
     rarity: mythic_rare
     release_date: 2019-12-09
-    set_number: 89
 - EMN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61263
     mtgo_id: 61262
     name: Eldritch Moon
     number: 190
     rarity: mythic_rare
     release_date: 2016-07-22
-    set_number: 190
     wizards_id: 414495
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414495
 rules: "[[symbol:loyalty-plus1]]: Choose up to two target creatures. Until your next\
@@ -76,11 +78,15 @@ subtype_tokens:
 tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-green card-color-white
   card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Tamiyo
   power_toughness: null
   rules: You may cast nonland cards from your hand without paying their mana costs.
   subtype: Tamiyo
+  tla: EMN
   type: Emblem
 type: Planeswalker
 url: http://tappedout.net/mtg-card/tamiyo-field-researcher/

@@ -29,7 +29,7 @@ formats:
 - Vintage
 has_activated_abilities: false
 is_front: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Lifelink
@@ -42,33 +42,36 @@ name: Liliana, Heretical Healer
 power_toughness: 2/3
 printings:
 - V17:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: 'From the Vault: Transform'
     number: 14
     rarity: mythic_rare
     release_date: 2017-11-24
-    set_number: 14
     wizards_id: 439339
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439339
 - ORI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 57941
     mtgo_id: 57940
     name: Magic Origins
     number: 106
     rarity: mythic_rare
     release_date: 2015-06-17
-    set_number: 106
     wizards_id: 398441
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398441
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: mythic_rare
     release_date: 1990-04-15
-    set_number: 1
 rules: "Lifelink\r\n\r\nWhenever another nontoken creature you control dies *(is put\
   \ into the graveyard from the battlefield)*, exile Liliana, Heretical Healer, then\
   \ return her to the battlefield transformed under her owner's control. If you do,\
@@ -82,18 +85,26 @@ synonyms:
 - Baby Lili
 tags: card-color-black card-color-black-cost-3 card-type-creature card-type-legendary
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Liliana
   power_toughness: null
   rules: Whenever a creature dies, return it to the battlefield under your control
     at the beginning of the next end step.
   subtype: Liliana
+  tla: ORI
   type: Emblem
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: ORI
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/liliana-heretical-healer/

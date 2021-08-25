@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: ROE
+cannonical_set: DDP
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -39,20 +39,24 @@ name: Emrakul's Hatcher
 power_toughness: 3/3
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - DDP:
-    cannonical: false
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Zendikar vs. Eldrazi'
     number: 59
     rarity: common
     release_date: 2015-08-28
-    set_number: 59
     wizards_id: 401701
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401701
 - ROE:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 36445
     mtgo_id: 36444
     name: Rise of the Eldrazi
@@ -70,11 +74,15 @@ subtype_tokens:
 - Drone
 tags: card-color-red card-color-red-cost-5 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 C Token Creature Eldrazi Spawn
   power_toughness: 0/1
   rules: 'Sacrifice this creature: Add [[symbol:1]] to your mana pool.'
   subtype: Eldrazi Spawn
+  tla: DDP
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/emrakuls-hatcher/

@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -39,23 +39,26 @@ name: Pawn of Ulamog
 power_toughness: 2/2
 printings:
 - C17:
+    border_color: B
+    frame: m15
     name: Commander 2017
     number: 120
     rarity: uncommon
     release_date: 2017-08-25
-    set_number: 120
     wizards_id: 433052
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433052
 - DDP:
-    cannonical: false
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Zendikar vs. Eldrazi'
     number: 55
     rarity: uncommon
     release_date: 2015-08-28
-    set_number: 55
     wizards_id: 401697
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401697
 - ROE:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 36663
     mtgo_id: 36662
     name: Rise of the Eldrazi
@@ -74,11 +77,15 @@ subtype_tokens:
 - Shaman
 tags: card-color-black card-color-black-cost-3 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 C Token Creature Eldrazi Spawn
   power_toughness: 0/1
   rules: 'Sacrifice this creature: Add [[symbol:1]] to your mana pool.'
   subtype: Eldrazi Spawn
+  tla: C17
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/pawn-of-ulamog/

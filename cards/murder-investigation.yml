@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -38,16 +38,19 @@ mana_cost_converted: 2
 name: Murder Investigation
 printings:
 - ORI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 57741
     mtgo_id: 57740
     name: Magic Origins
     number: 27
     rarity: uncommon
     release_date: 2015-06-17
-    set_number: 27
     wizards_id: 398641
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398641
 - GTC:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 47828
     mtgo_id: 47827
     name: Gatecrash
@@ -63,11 +66,15 @@ subtype_tokens:
 - Aura
 tags: card-color-white card-color-white-cost-2 card-type-enchantment
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W
   power_toughness: 1/1
   rules: ''
   subtype: Soldier
+  tla: ORI
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/murder-investigation/

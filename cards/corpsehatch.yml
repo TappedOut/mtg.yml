@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: MYS1
+cannonical_set: DDP
 cannonical_type: Sorcery
 companions:
 - Kaheera, the Orphanguard
@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Sacrifice
@@ -38,19 +38,24 @@ mana_cost_converted: 5
 name: Corpsehatch
 printings:
 - MYS1:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
 - DDP:
-    cannonical: false
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Zendikar vs. Eldrazi'
     number: 50
     rarity: uncommon
     release_date: 2015-08-28
-    set_number: 50
     wizards_id: 401692
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401692
 - ROE:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 36621
     mtgo_id: 36620
     name: Rise of the Eldrazi
@@ -64,11 +69,15 @@ rules: 'Destroy target nonblack creature. Put two 0/1 colorless Eldrazi Spawn cr
 slug: corpsehatch
 tags: card-color-black card-color-black-cost-5 card-type-sorcery
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 C Token Creature Eldrazi Spawn
   power_toughness: 0/1
   rules: 'Sacrifice this creature: Add [[symbol:1]] to your mana pool.'
   subtype: Eldrazi Spawn
+  tla: DDP
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/corpsehatch/

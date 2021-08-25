@@ -25,7 +25,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Enchant
@@ -37,16 +37,19 @@ mana_cost_converted: 4
 name: Splinter Twin
 printings:
 - MM2:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 57187
     mtgo_id: 57186
     name: Modern Masters 2015 Edition
     number: 129
     rarity: rare
     release_date: 2015-05-22
-    set_number: 129
     wizards_id: 397816
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397816
 - ROE:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 36427
     mtgo_id: 36426
     name: Rise of the Eldrazi
@@ -65,11 +68,14 @@ synonyms:
 - Twin
 tags: card-color-red card-color-red-cost-4 card-type-enchantment
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: MM2
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/splinter-twin/

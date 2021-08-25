@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Level up
@@ -46,18 +46,25 @@ name: Kazandu Tuskcaller
 power_toughness: 1/1
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 196
     rarity: rare
     release_date: 2021-04-23
-    set_number: 196
+    wizards_id: 519231
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519231
 - CM1:
     booster_exclude: true
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology
     rarity: rare
     release_date: 2017-06-09
 - C13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51069
     mtgo_id: 51068
     name: Commander 2013
@@ -66,6 +73,8 @@ printings:
     wizards_id: 376389
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376389
 - ROE:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 36605
     mtgo_id: 36604
     name: Rise of the Eldrazi
@@ -84,11 +93,15 @@ subtype_tokens:
 - Shaman
 tags: card-color-green card-color-green-cost-2 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 G Token Creature Elephant
   power_toughness: 3/3
   rules: ''
   subtype: Elephant
+  tla: C21
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/kazandu-tuskcaller/

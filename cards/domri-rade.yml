@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Double strike
@@ -50,32 +50,35 @@ mana_cost_converted: 3
 name: Domri Rade
 printings:
 - SLD:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Secret Lair
     number: 88
     rarity: mythic_rare
     release_date: 2019-12-09
-    set_number: 88
     wizards_id: 485312
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485312
 - MM3:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63430
     mtgo_id: 63429
     name: Modern Masters 2017 Edition
     number: 161
     rarity: mythic_rare
     release_date: 2017-03-17
-    set_number: 161
     wizards_id: 425986
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425986
 - GTC:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 47852
     mtgo_id: 47851
     name: Gatecrash
     number: 156
     rarity: mythic_rare
     release_date: 2013-02-01
-    set_number: 156
     wizards_id: 366367
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=366367
 rules: "[[symbol:loyalty-plus1]]: Look at the top card of your library. If it's a\
@@ -89,11 +92,15 @@ subtype_tokens:
 - Domri
 tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-red card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Domri
   power_toughness: null
   rules: Creatures you control have double strike, trample, hexproof and haste.
   subtype: Domri
+  tla: MM3
   type: Emblem
 type: Planeswalker
 url: http://tappedout.net/mtg-card/domri-rade/

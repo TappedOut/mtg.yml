@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -45,13 +45,14 @@ mana_cost_converted: 3
 name: Soul Separator
 printings:
 - EMN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 61491
     mtgo_id: 61490
     name: Eldritch Moon
     number: 199
     rarity: rare
     release_date: 2016-07-22
-    set_number: 199
     wizards_id: 414506
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414506
 rules: '[[symbol:5]], [[symbol:T]], Sacrifice this: Exile target creature card from
@@ -64,11 +65,14 @@ synonyms:
 - Soul Seperator
 tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: EMN
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/soul-separator/

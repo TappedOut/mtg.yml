@@ -28,7 +28,7 @@ formats:
 - Vintage
 has_activated_abilities: false
 is_front: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -39,11 +39,12 @@ name: Docent of Perfection
 power_toughness: 5/4
 printings:
 - EMN:
+    border_color: B
+    frame: m15
     name: Eldritch Moon
     number: 56
     rarity: rare
     release_date: 2016-07-22
-    set_number: 56
     wizards_id: 414349
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414349
 rules: "Flying  \r\n  \r\nWhenever you cast and instant or sorcery spell, put a 1/1\
@@ -56,11 +57,15 @@ subtype_tokens:
 - Horror
 tags: card-color-blue card-color-blue-cost-5 card-type-creature
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 U Token Creature Human Wizard
   power_toughness: 1/1
   rules: ''
   subtype: Human Wizard
+  tla: EMN
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/docent-of-perfection/
