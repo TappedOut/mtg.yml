@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -38,13 +38,14 @@ mana_cost_converted: 3
 name: Crawling Sensation
 printings:
 - SOI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60173
     mtgo_id: 60172
     name: Shadows over Innistrad
     number: 199
     rarity: uncommon
     release_date: 2016-04-08
-    set_number: 199
     wizards_id: 409957
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409957
 rules: "At the beginning of your upkeep, you may put the top two cards of your library\
@@ -54,11 +55,15 @@ rules: "At the beginning of your upkeep, you may put the top two cards of your l
 slug: crawling-sensation
 tags: card-color-green card-color-green-cost-3 card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Insect 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Insect
+  tla: SOI
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/crawling-sensation/

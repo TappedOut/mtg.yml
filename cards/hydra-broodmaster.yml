@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Monstrosity
@@ -44,28 +44,33 @@ name: Hydra Broodmaster
 power_toughness: 7/7
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 194
     rarity: rare
     release_date: 2021-04-23
-    set_number: 194
+    wizards_id: 519229
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519229
 - JOU:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 52171
     mtgo_id: 52170
     name: Journey into Nyx
     number: 126
     rarity: rare
     release_date: 2014-05-02
-    set_number: 126
     wizards_id: 380438
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=380438
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 4
     rarity: rare
     release_date: 1990-04-15
-    set_number: 4
 rules: "[[symbol:X]][[symbol:X]][[symbol:G]]: Monstrosity X.\_*(If this creature isn't\
   \ monstrous, put X +1/+1 counters on it and it becomes monstrous.)*\r\n\r\nWhen\
   \ Hydra Broodmaster becomes monstrous, create X X/X green Hydra creature tokens."
@@ -75,11 +80,15 @@ subtype_tokens:
 - Hydra
 tags: card-color-green card-color-green-cost-6 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Hydra */* G
   power_toughness: '*/*'
   rules: ''
   subtype: Hydra
+  tla: C21
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/hydra-broodmaster/

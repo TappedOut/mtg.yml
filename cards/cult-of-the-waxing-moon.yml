@@ -27,7 +27,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Transform
@@ -38,13 +38,14 @@ name: Cult of the Waxing Moon
 power_toughness: 5/4
 printings:
 - SOI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 59809
     mtgo_id: 59808
     name: Shadows over Innistrad
     number: 201
     rarity: uncommon
     release_date: 2016-04-08
-    set_number: 201
     wizards_id: 409959
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409959
 rules: Whenever a permanent you control transforms into a non-Human creature, put
@@ -56,11 +57,15 @@ subtype_tokens:
 - Shaman
 tags: card-color-green card-color-green-cost-5 card-type-creature
 tokens:
-- colors: G
-  name: 2/2 G Token Creature Wolf
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Wolf 2/2 G
   power_toughness: 2/2
   rules: ''
   subtype: Wolf
+  tla: SOI
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/cult-of-the-waxing-moon/

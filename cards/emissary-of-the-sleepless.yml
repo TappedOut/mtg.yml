@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -40,13 +40,14 @@ name: Emissary of the Sleepless
 power_toughness: 2/4
 printings:
 - SOI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60373
     mtgo_id: 60372
     name: Shadows over Innistrad
     number: 17
     rarity: common
     release_date: 2016-04-08
-    set_number: 17
     wizards_id: 409755
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409755
 rules: "Flying\r\n\r\nWhen Emissary of the Sleepless enters the battlefield, if a\
@@ -58,11 +59,15 @@ subtype_tokens:
 - Spirit
 tags: card-color-white card-color-white-cost-5 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: SOI
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/emissary-of-the-sleepless/

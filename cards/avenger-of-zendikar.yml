@@ -26,7 +26,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Landfall
@@ -38,54 +38,63 @@ name: Avenger of Zendikar
 power_toughness: 5/5
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 422
     rarity: mythic_rare
     release_date: 2020-11-20
-    set_number: 422
+    wizards_id: 500902
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=500902
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 152
     rarity: mythic_rare
     release_date: 2020-08-07
-    set_number: 152
 - SLD:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Secret Lair
     number: 158
     rarity: mythic_rare
     release_date: 2019-12-09
-    set_number: 158
 - C18:
+    border_color: B
+    frame: m15
     name: Commander 2018
     number: 129
     rarity: mythic_rare
     release_date: 2018-08-10
-    set_number: 129
     wizards_id: 451084
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451084
 - DDP:
-    cannonical: false
+    border_color: B
     foil: foil
     foil_only: true
+    frame: m15
     name: 'Duel Decks: Zendikar vs. Eldrazi'
     number: 1
     rarity: mythic_rare
     release_date: 2015-08-28
-    set_number: 1
     wizards_id: 401643
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401643
 - C13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51055
     mtgo_id: 51054
     name: Commander 2013
     number: 135
     rarity: mythic_rare
     release_date: 2013-11-01
-    set_number: 135
     wizards_id: 376253
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376253
 - WWK:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 35716
     mtgo_id: 35715
     name: Worldwake
@@ -103,11 +112,15 @@ subtype_tokens:
 - Elemental
 tags: card-color-green card-color-green-cost-7 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/1 G Token Creature Plant
   power_toughness: 0/1
   rules: ''
   subtype: Plant
+  tla: CMR
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/avenger-of-zendikar/

@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Vigilance
@@ -38,9 +38,12 @@ mana_cost_converted: 3
 name: Security Blockade
 printings:
 - RTR:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 46660
     mtgo_id: 46659
     name: Return to Ravnica
+    number: 20
     rarity: uncommon
     release_date: 2012-10-05
     wizards_id: 270790
@@ -54,11 +57,15 @@ subtype_tokens:
 - Aura
 tags: card-color-white card-color-white-cost-3 card-type-enchantment
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Knight 2/2 W w/ Vigilance
   power_toughness: 2/2
   rules: Vigilance
   subtype: Knight
+  tla: RTR
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/security-blockade/

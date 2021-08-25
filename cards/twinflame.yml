@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Haste
@@ -43,13 +43,14 @@ mana_cost_converted: 2
 name: Twinflame
 printings:
 - JOU:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 52241
     mtgo_id: 52240
     name: Journey into Nyx
     number: 115
     rarity: rare
     release_date: 2014-05-02
-    set_number: 115
     wizards_id: 380523
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=380523
 rules: "Strive\_- Twinflame costs 2R more to cast for each target beyond the first.\_\
@@ -59,11 +60,14 @@ rules: "Strive\_- Twinflame costs 2R more to cast for each target beyond the fir
 slug: twinflame
 tags: card-color-red card-color-red-cost-2 card-type-sorcery
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: JOU
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/twinflame/

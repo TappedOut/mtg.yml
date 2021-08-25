@@ -26,7 +26,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 2BB
 mana_cost_converted: 4
@@ -34,13 +34,14 @@ name: King Macar, the Gold-Cursed
 power_toughness: 2/3
 printings:
 - JOU:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 52115
     mtgo_id: 52114
     name: Journey into Nyx
     number: 74
     rarity: rare
     release_date: 2014-05-02
-    set_number: 74
     wizards_id: 380443
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=380443
 rules: "Inspired\_- Whenever King Macar, the Gold-Cursed becomes untapped, you may\
@@ -53,11 +54,14 @@ subtype_tokens:
 - Human
 tags: card-color-black card-color-black-cost-4 card-type-creature card-type-legendary
 tokens:
-- colors: C
-  name: C Token Artifact Gold
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Gold
   power_toughness: null
   rules: 'Sacrifice this artifact: Gain one mana of any colour.'
-  subtype: Gold
+  tla: JOU
   type: Token Artifact
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/king-macar-the-gold-cursed/

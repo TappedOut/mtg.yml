@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -38,13 +38,14 @@ mana_cost_converted: 6
 name: Devils' Playground
 printings:
 - SOI:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 59819
     mtgo_id: 59818
     name: Shadows over Innistrad
     number: 151
     rarity: rare
     release_date: 2016-04-08
-    set_number: 151
     wizards_id: 409903
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409903
 rules: Put four 1/1 red Devil creature tokens onto the battlefield. They have "When
@@ -52,12 +53,17 @@ rules: Put four 1/1 red Devil creature tokens onto the battlefield. They have "W
 slug: devils-playground
 tags: card-color-red card-color-red-cost-6 card-type-sorcery
 tokens:
-- colors: R
-  name: 1/1 R Token Creature Devil
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Devil 1/1 R
   power_toughness: 1/1
-  rules: When this creature dies, it deals 1 damage to target creature, player or
-    planeswalker.
+  rules: When this creature dies *(is put into the graveyard from the battlefield,
+    tokens are put into the graveyard before ceasing to exist)*, it deals 1 damage
+    to target creature, player or planeswalker.
   subtype: Devil
+  tla: SOI
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/devils-playground/

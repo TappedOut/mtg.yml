@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Deathtouch
@@ -50,22 +50,24 @@ name: Pharika, God of Affliction
 power_toughness: 5/5
 printings:
 - SLD:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: Secret Lair
     number: 82
     rarity: mythic_rare
     release_date: 2019-12-09
-    set_number: 82
 - JOU:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 52117
     mtgo_id: 52116
     name: Journey into Nyx
     number: 134
     rarity: mythic_rare
     release_date: 2014-05-02
-    set_number: 134
     wizards_id: 380469
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=380469
 rules: "Indestructible\_\r\n\r\nAs long as your devotion to black and green is less\
@@ -79,11 +81,15 @@ subtype_tokens:
 tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-green card-type-creature
   card-type-enchantment card-type-legendary
 tokens:
-- colors: BG
+- cannonical_type: Creature
+  colors: BG
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 BG Token Enchantment Creature Snake
   power_toughness: 1/1
   rules: Deathtouch
   subtype: Snake
+  tla: JOU
   type: Token Enchantment Creature
 type: Legendary Enchantment Creature
 url: http://tappedout.net/mtg-card/pharika-god-of-affliction/

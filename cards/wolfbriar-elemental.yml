@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Kicker
@@ -40,21 +40,26 @@ power_toughness: 4/4
 printings:
 - CM1:
     booster_exclude: true
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology
     rarity: rare
     release_date: 2017-06-09
 - MM2:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 57171
     mtgo_id: 57170
     name: Modern Masters 2015 Edition
     number: 169
     rarity: rare
     release_date: 2015-05-22
-    set_number: 169
     wizards_id: 397878
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397878
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54830
     mtgo_id: 54829
     name: Commander 2014
@@ -63,12 +68,16 @@ printings:
     wizards_id: 389750
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389750
 - CNS:
+    border_color: B
+    frame: modern
     name: Conspiracy
     rarity: rare
     release_date: 2014-06-06
     wizards_id: 382408
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382408
 - WWK:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 35756
     mtgo_id: 35755
     name: Worldwake
@@ -86,11 +95,15 @@ subtype_tokens:
 - Elemental
 tags: card-color-green card-color-green-cost-4 card-type-creature
 tokens:
-- colors: G
-  name: 2/2 G Token Creature Wolf
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Wolf 2/2 G
   power_toughness: 2/2
   rules: ''
   subtype: Wolf
+  tla: MM2
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/wolfbriar-elemental/

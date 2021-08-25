@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -40,13 +40,14 @@ name: Seller of Songbirds
 power_toughness: 1/2
 printings:
 - RTR:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 46290
     mtgo_id: 46289
     name: Return to Ravnica
     number: 22
     rarity: common
     release_date: 2012-10-05
-    set_number: 22
     wizards_id: 253656
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=253656
 rules: When Seller of Songbirds enters the battlefield, create a 1/1 white Bird creature
@@ -57,11 +58,15 @@ subtype_tokens:
 - Human
 tags: card-color-white card-color-white-cost-3 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Bird 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Bird
+  tla: RTR
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/seller-of-songbirds/
