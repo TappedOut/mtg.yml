@@ -27,7 +27,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -41,13 +41,16 @@ name: Thalia's Geistcaller
 power_toughness: 3/1
 printings:
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77069
     mtgo_id: 77068
     name: Commander 2019
     number: 7
     rarity: rare
     release_date: 2019-08-23
-    set_number: 7
+    wizards_id: 470553
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470553
 rules: "Lifelink\r\n\r\nWhenever you cast a spell from your graveyard, create a 1/1\
   \ white Spirit creature token with flying.\r\n\r\nSacrifice a Spirit: Thalia's Geistcaller\
   \ gains indestructible until end of turn."
@@ -58,11 +61,15 @@ subtype_tokens:
 - Cleric
 tags: card-color-white card-color-white-cost-3 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: C19
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/thalias-geistcaller/

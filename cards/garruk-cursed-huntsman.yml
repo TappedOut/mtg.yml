@@ -40,7 +40,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Trample
@@ -50,13 +50,14 @@ mana_cost_converted: 6
 name: Garruk, Cursed Huntsman
 printings:
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78527
     mtgo_id: 78526
     name: Throne of Eldraine
     number: 191
     rarity: mythic_rare
     release_date: 2019-10-04
-    set_number: 191
     variations:
     - identifier: '270'
     - identifier: PromoPack
@@ -74,18 +75,26 @@ subtype_tokens:
 tags: card-color-black card-color-gold card-color-gold-cost-6 card-color-green card-type-legendary
   card-type-planeswalker
 tokens:
-- colors: BG
+- cannonical_type: Creature
+  colors: BG
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 BG Token Creature Wolf
   power_toughness: 2/2
   rules: When this creature is put into the graveyard from the battlefield, put a
     loyalty counter on each Garruk you control.
   subtype: Wolf
+  tla: ELD
   type: Token Creature
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Garruk
   power_toughness: null
   rules: Creatures you control get +3/+3 amd have trample.
   subtype: Garruk
+  tla: ELD
   type: Emblem
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/garruk-cursed-huntsman/

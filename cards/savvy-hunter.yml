@@ -38,7 +38,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -49,13 +49,16 @@ name: Savvy Hunter
 power_toughness: 3/3
 printings:
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78545
     mtgo_id: 78544
     name: Throne of Eldraine
     number: 200
     rarity: uncommon
     release_date: 2019-10-04
-    set_number: 200
+    wizards_id: 473162
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=473162
 rules: "Whenever Savvy Hunter attacks or blocks, create a Food token. *(It's an artifact\
   \ with \"[[symbol:2]], [[symbol:T]], Sacrifice this artifact: You gain 3 life.\"\
   )*\r\n\r\nSacrifice two Foods: Draw a card."
@@ -66,11 +69,15 @@ subtype_tokens:
 - Warrior
 tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-green card-type-creature
 tokens:
-- colors: C
-  name: C Token Artifact Food
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Food
   power_toughness: null
   rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
   subtype: Food
+  tla: ELD
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/savvy-hunter/

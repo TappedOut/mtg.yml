@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -46,13 +46,16 @@ power_toughness: '*/*'
 printings:
 - ELD:
     booster_exclude: true
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78691
     mtgo_id: 78690
     name: Throne of Eldraine
     number: 315
     rarity: rare
     release_date: 2019-10-04
-    set_number: 315
+    wizards_id: 476033
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476033
 rules: "Flying, vigilance\r\n\r\nSilverwing Squadron's power and toughness are each\
   \ equal to the number of creatures you control.\r\n\r\nWhenever Silverwing Squadron\
   \ attacks, create a number of 2/2 white Knight creature tokens with vigilance equal\
@@ -64,11 +67,15 @@ subtype_tokens:
 - Knight
 tags: card-color-white card-color-white-cost-6 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Knight 2/2 W w/ Vigilance
   power_toughness: 2/2
   rules: Vigilance
   subtype: Knight
+  tla: ELD
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/silverwing-squadron/

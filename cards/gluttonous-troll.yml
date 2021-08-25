@@ -42,7 +42,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Trample
@@ -54,20 +54,24 @@ name: Gluttonous Troll
 power_toughness: 3/3
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 218
     rarity: rare
     release_date: 2021-04-23
-    set_number: 218
+    wizards_id: 519253
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519253
 - ELD:
     booster_exclude: true
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78715
     mtgo_id: 78714
     name: Throne of Eldraine
     number: 327
     rarity: rare
     release_date: 2019-10-04
-    set_number: 327
 rules: "Trample\r\n\r\nWhen this enters the battlefield, create a number if Food tokens\
   \ equal to the number of opponents you have. *(Foot tokens artifacts with \"[[symbol:2]],\
   \ [[symbol:T]], Sacrifice this artifact: You gain 3 life.)*\r\n\r\n[[symbol:1][[symbol:G]].\
@@ -78,11 +82,15 @@ subtype_tokens:
 - Troll
 tags: card-color-black card-color-gold card-color-gold-cost-4 card-color-green card-type-creature
 tokens:
-- colors: C
-  name: C Token Artifact Food
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Food
   power_toughness: null
   rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
   subtype: Food
+  tla: C21
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/gluttonous-troll/

@@ -37,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Vigilance
@@ -48,13 +48,16 @@ name: Banish into Fable
 printings:
 - ELD:
     booster_exclude: true
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78711
     mtgo_id: 78710
     name: Throne of Eldraine
     number: 325
     rarity: rare
     release_date: 2019-10-04
-    set_number: 325
+    wizards_id: 476043
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476043
 rules: "When you cast this spell from your hand, copy it if you control an artifact,\
   \ then copy it if you control an enchantment. You may choose new targets for the\
   \ copies.\r\n\r\nReturn target nonland permanent to its owner's hand. You create\
@@ -62,11 +65,15 @@ rules: "When you cast this spell from your hand, copy it if you control an artif
 slug: banish-into-fable
 tags: card-color-blue card-color-gold card-color-gold-cost-6 card-color-white card-type-instant
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Knight 2/2 W w/ Vigilance
   power_toughness: 2/2
   rules: Vigilance
   subtype: Knight
+  tla: ELD
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/banish-into-fable/

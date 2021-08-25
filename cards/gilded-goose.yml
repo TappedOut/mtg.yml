@@ -40,7 +40,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -53,20 +53,22 @@ name: Gilded Goose
 power_toughness: 0/2
 printings:
 - SLD:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Secret Lair
     number: 93
     rarity: rare
     release_date: 2019-12-09
-    set_number: 93
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78459
     mtgo_id: 78458
     name: Throne of Eldraine
     number: 160
     rarity: rare
     release_date: 2019-10-04
-    set_number: 160
     variations:
     - identifier: '369'
     - identifier: PromoPack
@@ -84,11 +86,15 @@ synonyms:
 tags: card-color-green card-color-green-cost-1 card-mana-black card-mana-blue card-mana-green
   card-mana-red card-mana-white card-type-creature
 tokens:
-- colors: C
-  name: C Token Artifact Food
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Food
   power_toughness: null
   rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
   subtype: Food
+  tla: ELD
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/gilded-goose/

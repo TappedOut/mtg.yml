@@ -38,7 +38,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Vigilance
@@ -48,13 +48,14 @@ mana_cost_converted: 6
 name: The Circle of Loyalty
 printings:
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78107
     mtgo_id: 78106
     name: Throne of Eldraine
     number: 9
     rarity: mythic_rare
     release_date: 2019-10-04
-    set_number: 9
     variations:
     - identifier: '336'
     - identifier: PromoPack
@@ -67,11 +68,15 @@ rules: "This spell costs [[symbol:1]] less to cast for each Knight you control.\
 slug: the-circle-of-loyalty
 tags: card-color-white card-color-white-cost-6 card-type-artifact card-type-legendary
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Knight 2/2 W w/ Vigilance
   power_toughness: 2/2
   rules: Vigilance
   subtype: Knight
+  tla: ELD
   type: Token Creature
 type: Legendary Artifact
 url: http://tappedout.net/mtg-card/the-circle-of-loyalty/

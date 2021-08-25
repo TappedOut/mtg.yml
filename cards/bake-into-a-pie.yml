@@ -37,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Sacrifice
@@ -47,29 +47,37 @@ mana_cost_converted: 4
 name: Bake into a Pie
 printings:
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 201
     rarity: common
     release_date: 2020-07-17
-    set_number: 201
+    wizards_id: 489207
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489207
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78265
     mtgo_id: 78264
     name: Throne of Eldraine
     number: 76
     rarity: common
     release_date: 2019-10-04
-    set_number: 76
 rules: 'Destroy target creature. Create a Food token. *(It''s an artifact with "[[symbol:2]],
   [[symbol:T]], Sacrifice this artifact: You gain 3 life.")*'
 slug: bake-into-a-pie
 tags: card-color-black card-color-black-cost-4 card-type-instant
 tokens:
-- colors: C
-  name: C Token Artifact Food
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Food
   power_toughness: null
   rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
   subtype: Food
+  tla: JMP
   type: Token Artifact
 type: Instant
 url: http://tappedout.net/mtg-card/bake-into-a-pie/

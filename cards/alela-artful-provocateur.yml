@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Deathtouch
@@ -49,13 +49,16 @@ power_toughness: 2/3
 printings:
 - ELD:
     booster_exclude: true
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78709
     mtgo_id: 78708
     name: Throne of Eldraine
     number: 324
     rarity: mythic_rare
     release_date: 2019-10-04
-    set_number: 324
+    wizards_id: 476042
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476042
 rules: "Flying, deathtouch, lifelink\r\n\r\nOther creatures you control with flying\
   \ get +1/+0.\r\n\r\nWhenever you cast an artifact or enchantment spell, create a\
   \ 1/1 blue Faerie creature token with flying."
@@ -67,11 +70,15 @@ subtype_tokens:
 tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-4 card-color-white
   card-type-creature card-type-legendary
 tokens:
-- colors: U
-  name: 1/1 U Token Creature Faerie
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Faerie 1/1 U
   power_toughness: 1/1
   rules: Flying
   subtype: Faerie
+  tla: ELD
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/alela-artful-provocateur/

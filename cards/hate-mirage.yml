@@ -26,7 +26,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Haste
@@ -37,24 +37,30 @@ mana_cost_converted: 4
 name: Hate Mirage
 printings:
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77107
     mtgo_id: 77106
     name: Commander 2019
     number: 26
     rarity: uncommon
     release_date: 2019-08-23
-    set_number: 26
+    wizards_id: 470572
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470572
 rules: Choose up to two target creatures you don't control. For each of those creatures
   create a token that is a copy of those creatures. Those tokens gain haste. Exile
   them at the beginning of the next end step.
 slug: hate-mirage
 tags: card-color-red card-color-red-cost-4 card-type-sorcery
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: C19
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/hate-mirage/

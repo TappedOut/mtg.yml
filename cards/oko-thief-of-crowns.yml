@@ -37,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -47,13 +47,14 @@ mana_cost_converted: 3
 name: Oko, Thief of Crowns
 printings:
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78539
     mtgo_id: 78538
     name: Throne of Eldraine
     number: 197
     rarity: mythic_rare
     release_date: 2019-10-04
-    set_number: 197
     variations:
     - identifier: '271'
     - identifier: PromoPack
@@ -73,11 +74,15 @@ synonyms:
 tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-green card-type-legendary
   card-type-planeswalker
 tokens:
-- colors: C
-  name: C Token Artifact Food
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Food
   power_toughness: null
   rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
   subtype: Food
+  tla: ELD
   type: Token Artifact
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/oko-thief-of-crowns/
