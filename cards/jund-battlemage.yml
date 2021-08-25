@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 2R
 mana_cost_converted: 3
@@ -39,9 +39,12 @@ name: Jund Battlemage
 power_toughness: 2/2
 printings:
 - ALA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 31122
     mtgo_id: 31121
     name: Shards of Alara
+    number: 106
     rarity: uncommon
     release_date: 2008-10-03
     wizards_id: 175050
@@ -55,11 +58,15 @@ subtype_tokens:
 - Shaman
 tags: card-color-red card-color-red-cost-3 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: ALA
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/jund-battlemage/

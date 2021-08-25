@@ -25,7 +25,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -36,9 +36,12 @@ name: Minion Reflector
 power_toughness: '0'
 printings:
 - ALA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 30876
     mtgo_id: 30875
     name: Shards of Alara
+    number: 211
     rarity: rare
     release_date: 2008-10-03
     wizards_id: 174796
@@ -49,11 +52,14 @@ rules: Whenever a nontoken creature enters the battlefield under your control, y
 slug: minion-reflector
 tags: card-color-colorless card-color-colorless-cost-5 card-type-artifact
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: ALA
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/minion-reflector/

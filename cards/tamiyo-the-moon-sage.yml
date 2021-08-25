@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tap/Untap
@@ -40,16 +40,20 @@ mana_cost_converted: 5
 name: Tamiyo, the Moon Sage
 printings:
 - RNAMED:
+    border_color: B
     cannonical: false
+    frame: m15
     name: 'Ravnica Allegiance: Mythic Edition'
     number: 2
     rarity: mythic_rare
     release_date: 2019-01-26
-    set_number: 2
 - AVR:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 43980
     mtgo_id: 43979
     name: 'Avacyn Restored '
+    number: 79
     rarity: mythic_rare
     release_date: 2012-05-04
     wizards_id: 240070
@@ -65,12 +69,16 @@ subtype_tokens:
 - Tamiyo
 tags: card-color-blue card-color-blue-cost-5 card-type-legendary card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Tamiyo
   power_toughness: ''
   rules: "You have no maximum hand size.\r\n\r\nWhenever a card is put into your graveyard\
     \ from anywhere, you many return it to your hand."
   subtype: Tamiyo
+  tla: AVR
   type: Emblem
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/tamiyo-the-moon-sage/

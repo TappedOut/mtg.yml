@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -43,14 +43,17 @@ mana_cost_converted: 2
 name: Necrogenesis
 printings:
 - C16:
+    border_color: B
+    frame: m15
     name: Commander 2016
     number: 215
     rarity: uncommon
     release_date: 2016-11-11
-    set_number: 215
     wizards_id: 420832
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420832
 - MM2:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 57095
     mtgo_id: 57094
     name: Modern Masters 2015 Edition
@@ -59,6 +62,8 @@ printings:
     wizards_id: 397745
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397745
 - CMD:
+    border_color: B
+    frame: modern
     mtgo_id: 40533
     name: 'MTG: Commander'
     rarity: uncommon
@@ -66,6 +71,8 @@ printings:
     wizards_id: 247155
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247155
 - ALA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 31090
     mtgo_id: 31089
     name: Shards of Alara
@@ -78,11 +85,15 @@ rules: '[[symbol:2]]: Exile target creature card from a graveyard. Create a 1/1 
 slug: necrogenesis
 tags: card-color-black card-color-gold card-color-gold-cost-2 card-color-green card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: C16
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/necrogenesis/

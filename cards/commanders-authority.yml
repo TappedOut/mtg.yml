@@ -27,7 +27,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Enchant
@@ -36,9 +36,12 @@ mana_cost_converted: 5
 name: Commander's Authority
 printings:
 - AVR:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 44266
     mtgo_id: 44265
     name: 'Avacyn Restored '
+    number: 13
     rarity: uncommon
     release_date: 2012-05-04
     wizards_id: 278252
@@ -51,11 +54,15 @@ subtype_tokens:
 - Aura
 tags: card-color-white card-color-white-cost-5 card-type-enchantment
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Human
   power_toughness: 1/1
   rules: ''
   subtype: Human
+  tla: AVR
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/commanders-authority/

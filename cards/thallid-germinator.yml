@@ -3,7 +3,7 @@ activated_abilities:
   creature token.'
 - 'Sacrifice a Saproling: Target creature gets +1/+1 until end of turn.'
 canadian_hl_score: 0
-cannonical_set: TSR
+cannonical_set: MMA
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -46,12 +46,18 @@ name: Thallid Germinator
 power_toughness: 2/2
 printings:
 - TSR:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Time Spiral Remastered
     number: 236
     rarity: common
     release_date: 2021-03-19
-    set_number: 236
+    wizards_id: 509601
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509601
 - MMA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 48857
     mtgo_id: 48856
     name: Modern Masters
@@ -60,6 +66,8 @@ printings:
     wizards_id: 370500
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370500
 - TSP:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 25720
     mtgo_id: 25719
     name: Time Spiral
@@ -77,11 +85,15 @@ subtype_tokens:
 - Fungus
 tags: card-color-green card-color-green-cost-3 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: MMA
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/thallid-germinator/
