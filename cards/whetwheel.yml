@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Morph
@@ -38,9 +38,12 @@ mana_cost_converted: 4
 name: Whetwheel
 printings:
 - FUT:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 26843
     mtgo_id: 26842
     name: Future Sight
+    number: 168
     rarity: rare
     release_date: 2007-05-04
     wizards_id: 136141
@@ -51,12 +54,15 @@ rules: "(X)(X), Tap: Target player puts the top X cards of his or her library in
 slug: whetwheel
 tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: FUT
   type: Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/whetwheel/

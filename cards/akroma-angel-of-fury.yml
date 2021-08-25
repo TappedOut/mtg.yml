@@ -3,7 +3,7 @@ activated_abilities:
 activation_costs:
 - R
 canadian_hl_score: 0
-cannonical_set: TSR
+cannonical_set: CMD
 cannonical_type: Creature
 companions:
 - Gyruda, Doom of Depths
@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -43,42 +43,51 @@ name: Akroma, Angel of Fury
 power_toughness: 6/6
 printings:
 - TSR:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Time Spiral Remastered
     number: 150
     rarity: mythic_rare
     release_date: 2021-03-19
-    set_number: 150
+    wizards_id: 509515
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509515
 - A25:
+    border_color: B
     cannonical: false
+    frame: m15
     mtgo_foil_id: 67153
     mtgo_id: 67152
     name: Masters 25
     number: 119
     rarity: mythic_rare
     release_date: 2018-03-16
-    set_number: 119
     wizards_id: 442108
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442108
 - CM1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology
     number: 75
     rarity: rare
     release_date: 2017-06-09
-    set_number: 75
 - V15:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     mtgo_foil_id: 58920
     name: 'From the Vault: Angels'
     number: 1
     rarity: mythic_rare
     release_date: 2015-08-21
-    set_number: 1
     wizards_id: 401628
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401628
 - CMD:
+    border_color: B
+    frame: modern
     mtgo_id: 40462
     name: 'MTG: Commander'
     rarity: rare
@@ -86,6 +95,8 @@ printings:
     wizards_id: 247358
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247358
 - PLC:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 26286
     mtgo_id: 26285
     name: Planar Chaos
@@ -107,12 +118,15 @@ subtype_tokens:
 - Angel
 tags: card-color-red card-color-red-cost-8 card-type-creature card-type-legendary
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: CMD
   type: Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/akroma-angel-of-fury/

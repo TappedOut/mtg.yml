@@ -30,16 +30,19 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: '4'
 mana_cost_converted: 4
 name: Throne of Empires
 printings:
 - M12:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 41430
     mtgo_id: 41429
     name: 2012 Core Set
+    number: 221
     rarity: rare
     release_date: 2011-07-15
     wizards_id: 220232
@@ -50,11 +53,15 @@ rules: '1, Tap: Put a 1/1 white Soldier creature token onto the battlefield. Put
 slug: throne-of-empires
 tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W
   power_toughness: 1/1
   rules: ''
   subtype: Soldier
+  tla: M12
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/throne-of-empires/

@@ -29,7 +29,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tap/Untap
@@ -38,18 +38,21 @@ mana_cost_converted: 6
 name: Teferi, Temporal Archmage
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: mythic_rare
     release_date: 2020-03-14
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55210
     mtgo_id: 55209
     name: Commander 2014
     number: 19
     rarity: mythic_rare
     release_date: 2014-11-21
-    set_number: 19
     wizards_id: 389712
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389712
 rules: "[[symbol:loyalty-plus1]]: Look at the top two cards of your library. Put one\
@@ -64,12 +67,16 @@ subtype_tokens:
 - Teferi
 tags: card-color-blue card-color-blue-cost-6 card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Teferi
   power_toughness: null
   rules: You may activate loyalty abilities of planeswalkers you control on any player's
     turn at any time you could cast an instant.
   subtype: Teferi
+  tla: C14
   type: Emblem
 type: Planeswalker
 url: http://tappedout.net/mtg-card/teferi-temporal-archmage/

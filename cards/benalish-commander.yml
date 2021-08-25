@@ -1,7 +1,7 @@
 activation_costs:
 - W
 canadian_hl_score: 0
-cannonical_set: TSR
+cannonical_set: PLC
 cannonical_type: Creature
 companions:
 - Gyruda, Doom of Depths
@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -40,12 +40,18 @@ mana_cost_converted: 4
 name: Benalish Commander
 printings:
 - TSR:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Time Spiral Remastered
     number: 8
     rarity: rare
     release_date: 2021-03-19
-    set_number: 8
+    wizards_id: 509373
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509373
 - PLC:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 26272
     mtgo_id: 26271
     name: Planar Chaos
@@ -67,11 +73,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W
   power_toughness: 1/1
   rules: ''
   subtype: Soldier
+  tla: PLC
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/benalish-commander/

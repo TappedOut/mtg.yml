@@ -34,7 +34,7 @@ formats:
 - Vintage
 has_activated_abilities: true
 is_land: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Morph
@@ -43,31 +43,37 @@ mana_produced: C
 name: Zoetic Cavern
 printings:
 - A25:
+    border_color: B
     cannonical: false
+    frame: m15
     mtgo_foil_id: 67413
     mtgo_id: 67412
     name: Masters 25
     number: 249
     rarity: uncommon
     release_date: 2018-03-16
-    set_number: 249
     wizards_id: 442238
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442238
 - CM1:
     booster_exclude: true
+    border_color: B
     cannonical: false
+    frame: m15
     name: Commander Anthology
     rarity: uncommon
     release_date: 2017-06-09
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 322
     rarity: uncommon
     release_date: 2015-11-13
-    set_number: 322
     wizards_id: 405458
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405458
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54666
     mtgo_id: 54665
     name: Commander 2014
@@ -76,6 +82,8 @@ printings:
     wizards_id: 389758
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389758
 - CMD:
+    border_color: B
+    frame: modern
     mtgo_id: 40473
     name: 'MTG: Commander'
     rarity: uncommon
@@ -83,6 +91,8 @@ printings:
     wizards_id: 247274
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247274
 - FUT:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 26779
     mtgo_id: 26778
     name: Future Sight
@@ -91,24 +101,28 @@ printings:
     wizards_id: 132215
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=132215
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 8
     rarity: uncommon
     release_date: 1990-04-15
-    set_number: 8
 rules: "[[T]]: Add [[C]] to your mana pool.\r\n\r\nMorph [[2]] *(You may cast this\
   \ card face down as a 2/2 creature for [[3]]. Turn it face up at any time for its\
   \ morph cost.)*"
 slug: zoetic-cavern
 tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: C15
   type: Creature
 type: Land
 url: http://tappedout.net/mtg-card/zoetic-cavern/

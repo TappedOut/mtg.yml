@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Outlast
@@ -44,13 +44,14 @@ name: Herald of Anafenza
 power_toughness: 1/2
 printings:
 - KTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54283
     mtgo_id: 54282
     name: Khans of Tarkir
     number: 12
     rarity: rare
     release_date: 2014-09-26
-    set_number: 12
     wizards_id: 386553
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386553
 rules: "Outlast {2}{W} *({2}{W}, {T}: Put a +1/+1 counter on this creature. Outlast\
@@ -63,11 +64,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-1 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Warrior
   power_toughness: 1/1
   rules: ''
   subtype: Warrior
+  tla: KTK
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/herald-of-anafenza/

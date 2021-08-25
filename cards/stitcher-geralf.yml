@@ -30,7 +30,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -40,13 +40,14 @@ name: Stitcher Geralf
 power_toughness: 3/4
 printings:
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55112
     mtgo_id: 55111
     name: Commander 2014
     number: 17
     rarity: mythic_rare
     release_date: 2014-11-21
-    set_number: 17
     wizards_id: 389694
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389694
 rules: '{2}{U}, {T}: Each player puts the top three cards of his or her library into
@@ -60,11 +61,15 @@ subtype_tokens:
 - Wizard
 tags: card-color-blue card-color-blue-cost-5 card-type-creature card-type-legendary
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* U Token Creature Zombie'
   power_toughness: '*/*'
   rules: ''
   subtype: Zombie
+  tla: C14
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/stitcher-geralf/

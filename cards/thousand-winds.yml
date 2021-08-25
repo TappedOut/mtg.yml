@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -41,29 +41,34 @@ power_toughness: 5/6
 printings:
 - C19:
     booster_exclude: true
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77315
     mtgo_id: 77314
     name: Commander 2019
     number: 100
     rarity: rare
     release_date: 2019-08-23
-    set_number: 100
+    wizards_id: 470646
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470646
 - KTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54313
     mtgo_id: 54312
     name: Khans of Tarkir
     number: 58
     rarity: rare
     release_date: 2014-09-26
-    set_number: 58
     wizards_id: 386697
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386697
 - DDN:
+    border_color: B
+    frame: m15
     name: 'Duel Decks: Speed vs. Cunning'
     number: 58
     rarity: rare
     release_date: 2014-09-05
-    set_number: 58
     wizards_id: 386376
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386376
 rules: "Flying\r\n\r\nMorph [[symbol:5][[symbol:U]][[symbol:U]] *(You can cast this\
@@ -76,12 +81,15 @@ subtype_tokens:
 - Elemental
 tags: card-color-blue card-color-blue-cost-6 card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: C19
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/thousand-winds/

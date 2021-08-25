@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: TSR
+cannonical_set: MMA
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
@@ -27,7 +27,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -38,12 +38,18 @@ name: Sporoloth Ancient
 power_toughness: 4/4
 printings:
 - TSR:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Time Spiral Remastered
     number: 232
     rarity: common
     release_date: 2021-03-19
-    set_number: 232
+    wizards_id: 509597
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509597
 - MMA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 48635
     mtgo_id: 48634
     name: Modern Masters
@@ -52,6 +58,8 @@ printings:
     wizards_id: 370503
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370503
 - FUT:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 26673
     mtgo_id: 26672
     name: Future Sight
@@ -70,11 +78,15 @@ synonyms:
 - Sporoloth Anceint
 tags: card-color-green card-color-green-cost-5 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: MMA
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/sporoloth-ancient/

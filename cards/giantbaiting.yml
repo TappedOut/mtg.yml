@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Haste
@@ -45,21 +45,26 @@ mana_cost_converted: 3
 name: Giantbaiting
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - MM3:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63122
     mtgo_id: 63121
     name: Modern Masters 2017 Edition
     number: 208
     rarity: common
     release_date: 2017-03-17
-    set_number: 208
     wizards_id: 426033
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426033
 - SHM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 29794
     mtgo_id: 29793
     name: Shadowmoor
@@ -73,11 +78,15 @@ rules: "Create a 4/4 red and green Giant Warrior creature token with haste. Exil
 slug: giantbaiting
 tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-red card-type-sorcery
 tokens:
-- colors: RG
+- cannonical_type: Creature
+  colors: RG
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 4/4 RG Token Creature Giant Warrior
   power_toughness: 4/4
   rules: Haste
   subtype: Giant Warrior
+  tla: MM3
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/giantbaiting/

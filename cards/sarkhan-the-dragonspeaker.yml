@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -45,13 +45,14 @@ mana_cost_converted: 5
 name: Sarkhan, the Dragonspeaker
 printings:
 - KTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54247
     mtgo_id: 54246
     name: Khans of Tarkir
     number: 119
     rarity: mythic_rare
     release_date: 2014-09-26
-    set_number: 119
     wizards_id: 386650
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386650
 rules: "[[symbol:loyalty-plus1]]: Until end of turn, Sarkhan, the Dragonspeaker becomes\
@@ -66,12 +67,16 @@ subtype_tokens:
 - Sarkhan
 tags: card-color-red card-color-red-cost-5 card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Sarkhan
   power_toughness: null
   rules: "At the beginning of your draw step, draw two additional cards.\r\n\r\nAt\
     \ the beginning of your end step, discard your hand."
   subtype: Sarkhan
+  tla: KTK
   type: Emblem
 type: Planeswalker
 url: http://tappedout.net/mtg-card/sarkhan-the-dragonspeaker/

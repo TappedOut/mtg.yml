@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 1G
 mana_cost_converted: 2
@@ -40,16 +40,19 @@ name: Jade Mage
 power_toughness: 2/1
 printings:
 - C13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51131
     mtgo_id: 51130
     name: Commander 2013
     number: 151
     rarity: uncommon
     release_date: 2013-11-01
-    set_number: 151
     wizards_id: 376380
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376380
 - DDH:
+    border_color: B
+    frame: modern
     mtgo_id: 42170
     name: 'Duel Decks: Ajani vs. Nicol Bolas'
     rarity: uncommon
@@ -57,6 +60,8 @@ printings:
     wizards_id: 249397
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=249397
 - M12:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 41456
     mtgo_id: 41455
     name: 2012 Core Set
@@ -72,11 +77,15 @@ subtype_tokens:
 - Shaman
 tags: card-color-green card-color-green-cost-2 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: C13
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/jade-mage/
