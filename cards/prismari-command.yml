@@ -38,7 +38,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Sacrifice
@@ -48,13 +48,16 @@ mana_cost_converted: 3
 name: Prismari Command
 printings:
 - STX:
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 214
     rarity: rare
     release_date: 2021-04-23
-    set_number: 214
     variations:
     - identifier: '348'
+    wizards_id: 513706
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=513706
 rules: "Choose two, choose each mode only once &mdash;\r\n\r\n- This deals 2 damage\
   \ to target creature, player or planeswalker.\r\n- Target player draws two cards,\
   \ then discards two cards.\r\n- Target player creatures a Treasure token.\r\n- Destroy\
@@ -62,11 +65,15 @@ rules: "Choose two, choose each mode only once &mdash;\r\n\r\n- This deals 2 dam
 slug: prismari-command
 tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-red card-type-instant
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: STX
   type: Token Artifact
 type: Instant
 url: http://tappedout.net/mtg-card/prismari-command/

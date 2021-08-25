@@ -22,7 +22,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -32,11 +32,12 @@ name: Wolverine Riders
 power_toughness: 4/4
 printings:
 - KHC:
+    border_color: B
+    frame: m15
     name: 'Kaldheim: Commander'
     number: 14
     rarity: rare
     release_date: 2021-02-05
-    set_number: 14
     wizards_id: 508160
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508160
 rules: "At the beginning of each upkeep, create a 1/1 green Elf Warrior creature token.\r\
@@ -49,11 +50,15 @@ subtype_tokens:
 - Warrior
 tags: card-color-green card-color-green-cost-6 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Elf Warrior 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Elf Warrior
+  tla: KHC
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/wolverine-riders/
