@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -48,23 +48,27 @@ name: Izoni, Thousand-Eyed
 power_toughness: 2/3
 printings:
 - GK1:
+    border_color: B
+    frame: m15
     name: 'Guilds of Ravnica: Guild Kit'
     number: 50
     rarity: rare
     release_date: 2018-11-02
-    set_number: 50
     wizards_id: 456054
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456054
 - GRN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 69734
     mtgo_id: 69733
     name: Guilds of Ravnica
     number: 180
     rarity: rare
     release_date: 2018-10-05
-    set_number: 180
     variations:
     - identifier: Animated
+    wizards_id: 452930
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=452930
 rules: "*Undergrowth* &mdash; When Izoni, Thousand-Eyed enters the battlefield, create\
   \ a 1/1 black and green Insect token for each creature card in your graveyard.\r\
   \n\r\n[[symbol:B]][[symbol:G]], Sacrifice another creature: You gain 1 life and\
@@ -77,11 +81,15 @@ subtype_tokens:
 tags: card-color-black card-color-gold card-color-gold-cost-6 card-color-green card-type-creature
   card-type-legendary
 tokens:
-- colors: BG
+- cannonical_type: Creature
+  colors: BG
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Insect 1/1 BG
   power_toughness: 1/1
   rules: ''
   subtype: Insect
+  tla: GK1
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/izoni-thousand-eyed/

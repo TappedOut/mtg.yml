@@ -37,7 +37,7 @@ formats:
 - Vintage
 has_activated_abilities: false
 is_front: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Lifelink
@@ -50,11 +50,12 @@ name: Valentin, Dean of the Vein
 power_toughness: 1/1
 printings:
 - STX:
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 161
     rarity: rare
     release_date: 2021-04-23
-    set_number: 161
     variations:
     - identifier: '333'
 rules: "Menace, Lifelink\r\n\r\nIf a nontoken creature an opponent controls would\
@@ -72,12 +73,16 @@ synonyms:
 tags: card-color-black card-color-black-cost-1 card-color-green card-color-green-cost-1
   card-type-creature card-type-legendary
 tokens:
-- colors: BG
+- cannonical_type: Creature
+  colors: BG
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Pest 1/1 BG
   power_toughness: 1/1
   rules: When this dies *(is put into the graveyard from the battlefield, tokens are
     put into the graveyard before they cease to exist.)*, you gain 1 life.
   subtype: Pest
+  tla: STX
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/valentin-dean-of-the-vein/

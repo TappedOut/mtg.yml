@@ -39,21 +39,24 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: '4'
 mana_cost_converted: 4
 name: Lithoform Engine
 printings:
 - ZNR:
+    border_color: B
+    frame: m15
     name: Zendikar Rising
     number: 245
     rarity: mythic_rare
     release_date: 2020-09-25
-    set_number: 245
     variations:
     - identifier: '375'
     - identifier: PromoPack
+    wizards_id: 491896
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=491896
 rules: "[[symbol:2]], [[symbol:T]]: Copy target activated or triggered ability you\
   \ control. You may choose new targets for the copy.\r\n\r\n[[symbol:3]], [[symbol:T]]:\
   \ Copy target instant or sorcery spell you control. You may choose new targets for\
@@ -62,11 +65,14 @@ rules: "[[symbol:2]], [[symbol:T]]: Copy target activated or triggered ability y
 slug: lithoform-engine
 tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact card-type-legendary
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: ZNR
   type: Token Creature
 type: Legendary Artifact
 url: http://tappedout.net/mtg-card/lithoform-engine/

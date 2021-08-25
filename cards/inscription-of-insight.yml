@@ -38,7 +38,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Kicker
@@ -49,14 +49,17 @@ mana_cost_converted: 4
 name: Inscription of Insight
 printings:
 - ZNR:
+    border_color: B
+    frame: m15
     name: Zendikar Rising
     number: 61
     rarity: rare
     release_date: 2020-09-25
-    set_number: 61
     variations:
     - identifier: '329'
     - identifier: PromoPack
+    wizards_id: 491690
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=491690
 rules: "Kicker [[symbol:2]][[symbol:U]][[symbol:U]] *(You may pay an additional [[symbol:2]][[symbol:U]][[symbol:U]]\
   \ as you cast this spell.)*\r\n\r\nChoose one. If this spell was kicked, instead\
   \ choose any number of the following, once.\r\n\r\n- Return up to two target creatures\
@@ -65,11 +68,15 @@ rules: "Kicker [[symbol:2]][[symbol:U]][[symbol:U]] *(You may pay an additional 
 slug: inscription-of-insight
 tags: card-color-blue card-color-blue-cost-4 card-type-sorcery
 tokens:
-- colors: U
-  name: '*/* U Token Creature Illusion'
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Illusion */* U
   power_toughness: '*/*'
   rules: ''
   subtype: Illusion
+  tla: ZNR
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/inscription-of-insight/

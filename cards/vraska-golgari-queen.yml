@@ -37,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -47,39 +47,43 @@ mana_cost_converted: 4
 name: Vraska, Golgari Queen
 printings:
 - SLD:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Secret Lair
     number: 90
     rarity: mythic_rare
     release_date: 2019-12-09
-    set_number: 90
 - GRN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 69800
     mtgo_id: 69799
     name: Guilds of Ravnica
     number: 213
     rarity: mythic_rare
     release_date: 2018-10-05
-    set_number: 213
     variations:
     - identifier: Animated
     - identifier: PromoPack
-    wizards_id: 456596
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456596
+    wizards_id: 452963
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=452963
 - GRNMED:
+    border_color: B
     cannonical: false
+    frame: m15
     name: 'Guilds of Ravnica: Mythic Edition'
     number: 8
     rarity: mythic_rare
     release_date: 2018-10-04
-    set_number: 8
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: mythic_rare
     release_date: 1990-04-15
-    set_number: 1
 rules: "[[symbol:loyalty-plus2]]: You may sacrifice another permanent. If you do,\
   \ you gain 1 life and draw a card.\r\n\r\n[[symbol:loyalty-minus3]]: Destroy target\
   \ nonland permanent with converted mana cost 3 or less.\r\n\r\n[[symbol:loyalty-minus9]]:\
@@ -91,12 +95,16 @@ subtype_tokens:
 - Vraska
 tags: card-color-black card-color-gold card-color-gold-cost-4 card-color-green card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Vraska
   power_toughness: null
   rules: Whenever a creature you control deals combat damage to a player, that player
     loses the game.
   subtype: Vraska
+  tla: GRN
   type: Emblem
 type: Planeswalker
 url: http://tappedout.net/mtg-card/vraska-golgari-queen/

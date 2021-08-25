@@ -22,7 +22,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 3BB
 mana_cost_converted: 5
@@ -30,11 +30,12 @@ name: Custodi Lich
 power_toughness: 4/2
 printings:
 - CN2:
+    border_color: B
+    frame: m15
     name: 'Conspiracy: Take the Crown'
     number: 41
     rarity: rare
     release_date: 2016-08-26
-    set_number: 41
     wizards_id: 416798
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416798
 rules: "When Custodi Lich enters the battlefield, you become the monarch. \r\n\r\n\
@@ -46,12 +47,15 @@ subtype_tokens:
 - Cleric
 tags: card-color-black card-color-black-cost-5 card-type-creature
 tokens:
-- colors: C
-  name: C Emblem Monarch
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Monarch Emblem
   power_toughness: null
   rules: "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
     \ deals combat damage to you, its controller becomes the monarch."
-  subtype: Monarch
+  tla: CN2
   type: Emblem
 type: Creature
 url: http://tappedout.net/mtg-card/custodi-lich/

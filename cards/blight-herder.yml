@@ -25,7 +25,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -36,22 +36,24 @@ name: Blight Herder
 power_toughness: 4/5
 printings:
 - BFZ:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 58306
     mtgo_id: 58305
     name: Battle for Zendikar
     number: 2
     rarity: rare
     release_date: 2015-10-02
-    set_number: 2
     wizards_id: 401819
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401819
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 2
     rarity: rare
     release_date: 1990-04-15
-    set_number: 2
 rules: 'When you cast Blight Herder, you may put two cards your opponents own from
   exile into their owners'' graveyards. If you do, put three 1/1 colorless Eldrazi
   Scion creature tokens onto the battlefield. They have "Sacrifice this creature:
@@ -63,11 +65,15 @@ subtype_tokens:
 - Processor
 tags: card-color-colorless card-color-colorless-cost-5 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 C Token Creature Eldrazi Scion
   power_toughness: 1/1
   rules: 'Sacrifice this creature: Gain [[symbol:C]].'
   subtype: Eldrazi Scion
+  tla: BFZ
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/blight-herder/

@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 2W
 mana_cost_converted: 3
@@ -42,13 +42,14 @@ name: Mavren Fein, Dusk Apostle
 power_toughness: 2/2
 printings:
 - XLN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 65061
     mtgo_id: 65060
     name: Ixalan
     number: 24
     rarity: rare
     release_date: 2017-09-29
-    set_number: 24
     variations:
     - identifier: PromoPack
     wizards_id: 435176
@@ -64,12 +65,16 @@ subtype_tokens:
 - Ally
 tags: card-color-white card-color-white-cost-3 card-type-creature card-type-legendary
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Vampire
   power_toughness: 1/1
   rules: Lifelink *(Damage dealt by this creature also causes you to gain that much
     life.)*
   subtype: Vampire
+  tla: XLN
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/mavren-fein-dusk-apostle/

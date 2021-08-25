@@ -27,7 +27,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: false
 is_permanent: true
 mana_cost: 3G
 mana_cost_converted: 4
@@ -35,11 +35,12 @@ name: Caller of the Untamed
 power_toughness: 2/4
 printings:
 - CN2:
+    border_color: B
+    frame: m15
     name: 'Conspiracy: Take the Crown'
     number: 62
     rarity: rare
     release_date: 2016-08-26
-    set_number: 62
     wizards_id: 416819
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416819
 rules: "Before you shuffle your deck to start the game, you may reveal this card from\
@@ -53,11 +54,14 @@ subtype_tokens:
 - Shaman
 tags: card-color-green card-color-green-cost-4 card-type-creature
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: CN2
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/caller-of-the-untamed/

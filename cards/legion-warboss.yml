@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -44,15 +44,18 @@ name: Legion Warboss
 power_toughness: 2/2
 printings:
 - GRN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 69592
     mtgo_id: 69591
     name: Guilds of Ravnica
     number: 109
     rarity: rare
     release_date: 2018-10-05
-    set_number: 109
     variations:
     - identifier: Animated
+    wizards_id: 452859
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=452859
 rules: "Mentor *(Whenever this creature attacks, put a +1/+1 counter on target attacking\
   \ creature with lesser power.)*\r\n\r\nAt the beginning of combat on your turn,\
   \ create a 1/1 red Goblin creature token. That token gains haste until end of turn\
@@ -64,11 +67,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-red card-color-red-cost-3 card-type-creature
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: GRN
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/legion-warboss/

@@ -20,17 +20,18 @@ formats:
 - Oathbreaker
 - Tiny Leaders
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 mana_cost_converted: 0
 name: Hold the Perimeter
 printings:
 - CN2:
+    border_color: B
+    frame: m15
     name: 'Conspiracy: Take the Crown'
     number: 6
     rarity: rare
     release_date: 2016-08-26
-    set_number: 6
     wizards_id: 416763
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416763
 rules: "(Start the game with this conspiracy face up in the command zone.)\r\n\r\n\
@@ -43,17 +44,25 @@ synonyms:
 - Hold the Perimetre
 tags: card-color-colorless card-color-colorless-cost-0 card-type-conspiracy
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/2 W Token Creature Soldier
   power_toughness: 1/2
   rules: Defender
   subtype: Soldier
+  tla: CN2
   type: Token Creature
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R w/ Can't Block
   power_toughness: 1/1
   rules: This can't block.
   subtype: Goblin
+  tla: CN2
   type: Token Creature
 type: Conspiracy
 url: http://tappedout.net/mtg-card/hold-the-perimeter/

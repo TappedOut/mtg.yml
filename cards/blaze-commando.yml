@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 3RW
 mana_cost_converted: 5
@@ -36,13 +36,14 @@ name: Blaze Commando
 power_toughness: 5/3
 printings:
 - DGM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 48441
     mtgo_id: 48440
     name: Dragon's Maze
     number: 56
     rarity: uncommon
     release_date: 2013-05-03
-    set_number: 56
     wizards_id: 369047
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=369047
 rules: Whenever an instant or sorcery spell you control deals damage, put two 1/1
@@ -54,11 +55,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-gold card-color-gold-cost-5 card-color-red card-color-white card-type-creature
 tokens:
-- colors: RW
+- cannonical_type: Creature
+  colors: RW
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 RW Token Creature Soldier
   power_toughness: 1/1
   rules: Haste
   subtype: Soldier
+  tla: DGM
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/blaze-commando/

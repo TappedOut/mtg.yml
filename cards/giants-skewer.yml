@@ -40,7 +40,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Equip
@@ -52,13 +52,16 @@ mana_cost_converted: 2
 name: Giant's Skewer
 printings:
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78297
     mtgo_id: 78296
     name: Throne of Eldraine
     number: 91
     rarity: common
     release_date: 2019-10-04
-    set_number: 91
+    wizards_id: 473053
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=473053
 rules: "Equipped creature gets +2/+1.\r\n\r\nWhenever equipped creature deals combat\
   \ damage to a creature, create a Food token. *(It's an artifact with \"[[symbol:2]],\
   \ [[symbol:T]], Sacrifice this artifact: You gain 3 life.\")*\r\n\r\nEquip [[symbol:3]]\
@@ -69,11 +72,15 @@ subtype_tokens:
 - Equipment
 tags: card-color-black card-color-black-cost-2 card-type-artifact
 tokens:
-- colors: C
-  name: C Token Artifact Food
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Food
   power_toughness: null
   rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
   subtype: Food
+  tla: ELD
   type: Token Artifact
 type: Artifact
 url: http://tappedout.net/mtg-card/giants-skewer/

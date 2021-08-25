@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -41,27 +41,32 @@ name: Teysa, Envoy of Ghosts
 power_toughness: 4/4
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 230
     rarity: rare
     release_date: 2021-04-23
-    set_number: 230
+    wizards_id: 519265
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519265
 - C15:
+    border_color: B
+    frame: m15
     name: Commander 2015
     number: 234
     rarity: rare
     release_date: 2015-11-13
-    set_number: 234
     wizards_id: 405417
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405417
 - DGM:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 48267
     mtgo_id: 48266
     name: Dragon's Maze
     number: 108
     rarity: rare
     release_date: 2013-05-03
-    set_number: 108
     wizards_id: 369011
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=369011
 rules: "Vigilance, protection from creatures *((Remember the acronym <b>debt</b>.)\
@@ -77,11 +82,15 @@ subtype_tokens:
 tags: card-color-black card-color-gold card-color-gold-cost-7 card-color-white card-type-creature
   card-type-legendary
 tokens:
-- colors: WB
+- cannonical_type: Creature
+  colors: WB
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 WB
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: C21
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/teysa-envoy-of-ghosts/

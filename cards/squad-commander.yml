@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Indestructible
@@ -45,14 +45,17 @@ name: Squad Commander
 power_toughness: 3/3
 printings:
 - ZNR:
+    border_color: B
+    frame: m15
     name: Zendikar Rising
     number: 41
     rarity: rare
     release_date: 2020-09-25
-    set_number: 41
     variations:
     - identifier: '323'
     - identifier: PromoPack
+    wizards_id: 491668
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=491668
 rules: "When Squad Commander enters the battlefield, create a 1/1 white Kor Warrior\
   \ creature token for each creature in your party. *(Your party consists of up to\
   \ four creatures, one Cleric, Rogue, Warrior and Wizard, each.)\r\n\r\nAt the beginning\
@@ -65,11 +68,15 @@ subtype_tokens:
 - Warrior
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Kor Warrior
   power_toughness: 1/1
   rules: ''
   subtype: Kor Warrior
+  tla: ZNR
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/squad-commander/

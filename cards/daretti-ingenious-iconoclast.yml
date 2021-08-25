@@ -32,7 +32,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Defender
@@ -43,18 +43,20 @@ mana_cost_converted: 3
 name: Daretti, Ingenious Iconoclast
 printings:
 - GRNMED:
+    border_color: B
     cannonical: false
+    frame: m15
     name: 'Guilds of Ravnica: Mythic Edition'
     number: 3
     rarity: mythic_rare
     release_date: 2018-10-04
-    set_number: 3
 - CN2:
+    border_color: B
+    frame: m15
     name: 'Conspiracy: Take the Crown'
     number: 74
     rarity: mythic_rare
     release_date: 2016-08-26
-    set_number: 74
     wizards_id: 416831
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416831
 rules: "[[symbol:loyalty-plus1]]: Create a 1/1 colorless Construct artifact creature\
@@ -68,11 +70,15 @@ subtype_tokens:
 - Daretti
 tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-red card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 C Token Artifact Creature Construct
   power_toughness: 1/1
   rules: Defender
   subtype: Construct
+  tla: CN2
   type: Token Artifact Creature
 type: Planeswalker
 url: http://tappedout.net/mtg-card/daretti-ingenious-iconoclast/

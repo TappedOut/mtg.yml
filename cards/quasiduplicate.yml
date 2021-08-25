@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -43,13 +43,14 @@ mana_cost_converted: 3
 name: Quasiduplicate
 printings:
 - GRN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 69476
     mtgo_id: 69475
     name: Guilds of Ravnica
     number: 51
     rarity: rare
     release_date: 2018-10-05
-    set_number: 51
     variations:
     - identifier: PromoPack
     wizards_id: 452801
@@ -60,11 +61,14 @@ rules: "Create a token that's a copy of target creature you control.\r\n\r\nJump
 slug: quasiduplicate
 tags: card-color-blue card-color-blue-cost-3 card-type-sorcery
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: GRN
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/quasiduplicate/

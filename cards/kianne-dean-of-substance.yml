@@ -46,7 +46,7 @@ formats:
 - Vintage
 has_activated_abilities: true
 is_front: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -58,11 +58,12 @@ name: Kianne, Dean of Substance
 power_toughness: 2/2
 printings:
 - STX:
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 152
     rarity: rare
     release_date: 2021-04-23
-    set_number: 152
     variations:
     - identifier: '326'
 rules: "[[symbol:T]]: Exile the top card of your library. If it's a land card, put\
@@ -80,11 +81,15 @@ synonyms:
 tags: card-color-blue card-color-blue-cost-3 card-color-green card-color-green-cost-3
   card-type-creature card-type-legendary
 tokens:
-- colors: GU
+- cannonical_type: Creature
+  colors: GU
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Fractal 0/0 GU
   power_toughness: 0/0
   rules: ''
   subtype: Fractal
+  tla: STX
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/kianne-dean-of-substance/

@@ -24,7 +24,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -35,15 +35,18 @@ name: Zaffai, Thunder Conductor
 power_toughness: 1/4
 printings:
 - C21:
+    border_color: B
     foil: foil
     foil_only: true
+    frame: m15
     name: Commander 2021
     number: 4
     rarity: mythic_rare
     release_date: 2021-04-23
-    set_number: 4
     variations:
     - identifier: '331'
+    wizards_id: 518310
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518310
 rules: '*Magecraft* &mdash; Whenever you cast or copy an instant or sorcery spell,
   scry 1. If that spell''s converted mana cost/mana value is 5 or greater, create
   a 4/4 blue and red Elemental creature token. If that spell''s converted mana cost/mana
@@ -59,11 +62,15 @@ synonyms:
 tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-red card-type-creature
   card-type-legendary
 tokens:
-- colors: UR
+- cannonical_type: Creature
+  colors: UR
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Elemental 4/4 UR
   power_toughness: 4/4
   rules: ''
   subtype: Elemental
+  tla: C21
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/zaffai-thunder-conductor/

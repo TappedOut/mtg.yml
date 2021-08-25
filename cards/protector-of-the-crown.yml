@@ -23,7 +23,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 5W
 mana_cost_converted: 6
@@ -31,11 +31,12 @@ name: Protector of the Crown
 power_toughness: 2/5
 printings:
 - CN2:
+    border_color: B
+    frame: m15
     name: 'Conspiracy: Take the Crown'
     number: 21
     rarity: rare
     release_date: 2016-08-26
-    set_number: 21
     wizards_id: 416778
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416778
 rules: "When Protector of the Crown enters the battlefield, you become the monarch.\r\
@@ -47,12 +48,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-6 card-type-creature
 tokens:
-- colors: C
-  name: C Emblem Monarch
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Monarch Emblem
   power_toughness: null
   rules: "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
     \ deals combat damage to you, its controller becomes the monarch."
-  subtype: Monarch
+  tla: CN2
   type: Emblem
 type: Creature
 url: http://tappedout.net/mtg-card/protector-of-the-crown/

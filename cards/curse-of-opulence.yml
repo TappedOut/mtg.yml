@@ -25,23 +25,26 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: R
 mana_cost_converted: 1
 name: Curse of Opulence
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
 - C17:
+    border_color: B
+    frame: m15
     name: Commander 2017
     number: 24
     rarity: uncommon
     release_date: 2017-08-25
-    set_number: 24
     wizards_id: 433265
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433265
 rules: "Enchant player\r\n\r\nWhenever enchanted player is attacked, create a colorless\
@@ -54,11 +57,14 @@ subtype_tokens:
 - Curse
 tags: card-color-red card-color-red-cost-1 card-type-enchantment
 tokens:
-- colors: C
-  name: C Token Artifact Gold
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Gold
   power_toughness: null
   rules: 'Sacrifice this artifact: Gain one mana of any colour.'
-  subtype: Gold
+  tla: C17
   type: Token Artifact
 type: Enchantment
 url: http://tappedout.net/mtg-card/curse-of-opulence/

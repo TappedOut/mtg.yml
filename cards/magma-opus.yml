@@ -42,7 +42,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Sacrifice
@@ -54,13 +54,16 @@ mana_produced: W, U, B, R, G
 name: Magma Opus
 printings:
 - STX:
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 203
     rarity: mythic_rare
     release_date: 2021-04-23
-    set_number: 203
     variations:
     - identifier: '346'
+    wizards_id: 513695
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=513695
 rules: "Magma Opus deals 4 damage divided among any number of targets. Tap two target\
   \ permanents. Create a 4/4 blue and red Elemental creature token. Draw two cards.\r\
   \n\r\n[[symbol:UR]][[symbol:UR]], Discard Magma Opus: Create a Treasure token."
@@ -68,17 +71,25 @@ slug: magma-opus
 tags: card-color-blue card-color-gold card-color-gold-cost-8 card-color-red card-mana-black
   card-mana-blue card-mana-green card-mana-red card-mana-white card-type-instant
 tokens:
-- colors: UR
+- cannonical_type: Creature
+  colors: UR
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Elemental 4/4 UR
   power_toughness: 4/4
   rules: ''
   subtype: Elemental
+  tla: STX
   type: Token Creature
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: STX
   type: Token Artifact
 type: Instant
 url: http://tappedout.net/mtg-card/magma-opus/

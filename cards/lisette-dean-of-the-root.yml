@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Trample
@@ -44,11 +44,12 @@ power_toughness: 4/4
 printings:
 - STX:
     booster_exclude: true
+    border_color: B
+    frame: m15
     name: Strixhaven
     number: 161
     rarity: rare
     release_date: 2021-04-23
-    set_number: 161
     variations:
     - identifier: '333'
 rules: Whenever you gain life, you may pay [[symbol:1]]. If you do, put a +1/+1 counter
@@ -60,12 +61,16 @@ subtype_tokens:
 - Druid
 tags: card-color-green card-color-green-cost-4 card-type-creature card-type-legendary
 tokens:
-- colors: BG
+- cannonical_type: Creature
+  colors: BG
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Pest 1/1 BG
   power_toughness: 1/1
   rules: When this dies *(is put into the graveyard from the battlefield, tokens are
     put into the graveyard before they cease to exist.)*, you gain 1 life.
   subtype: Pest
+  tla: STX
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/lisette-dean-of-the-root/

@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -43,13 +43,16 @@ name: Mad Ratter
 power_toughness: 1/2
 printings:
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78387
     mtgo_id: 78386
     name: Throne of Eldraine
     number: 130
     rarity: uncommon
     release_date: 2019-10-04
-    set_number: 130
+    wizards_id: 473092
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=473092
 rules: Whenever you draw your second card each turn, create two 1/1 black Rat creature
   tokens.
 slug: mad-ratter
@@ -58,11 +61,15 @@ subtype_tokens:
 - Goblin
 tags: card-color-red card-color-red-cost-4 card-type-creature
 tokens:
-- colors: B
-  name: 1/1 B Token Creature Rat
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Rat 1/1 B
   power_toughness: 1/1
   rules: ''
   subtype: Rat
+  tla: ELD
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/mad-ratter/

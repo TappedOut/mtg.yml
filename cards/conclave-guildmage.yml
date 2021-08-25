@@ -39,7 +39,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Trample
@@ -51,13 +51,16 @@ name: Conclave Guildmage
 power_toughness: 2/2
 printings:
 - GRN:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 69698
     mtgo_id: 69697
     name: Guilds of Ravnica
     number: 162
     rarity: uncommon
     release_date: 2018-10-05
-    set_number: 162
+    wizards_id: 452912
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=452912
 rules: "[[symbol:G]], [[symbol:T]]: Creatures you control gain trample until end of\
   \ turn.\r\n\r\n[[symbol:5]][[symbol:W]], [[symbol:T]]: Create a 2/2 green and white\
   \ Elf Knight creature token with vigilance."
@@ -68,11 +71,15 @@ subtype_tokens:
 - Cleric
 tags: card-color-gold card-color-gold-cost-2 card-color-green card-color-white card-type-creature
 tokens:
-- colors: GW
+- cannonical_type: Creature
+  colors: GW
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 GW Token Creature Elf Knight
   power_toughness: 2/2
   rules: Vigilance
   subtype: Elf Knight
+  tla: GRN
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/conclave-guildmage/

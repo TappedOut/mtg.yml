@@ -44,7 +44,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Vigilance
@@ -57,18 +57,21 @@ name: Lonesome Unicorn
 power_toughness: 3/3
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78135
     mtgo_id: 78134
     name: Throne of Eldraine
     number: 21
     rarity: common
     release_date: 2019-10-04
-    set_number: 21
     variations:
     - identifier: '276'
 rules: "Vigilance\r\n\r\n<br>\r\n\r\n*(You may cast Lonesome Unicorn from exile if\
@@ -96,11 +99,15 @@ synonyms:
 - Rider in Need/Lonesome Unicorn
 tags: card-color-white card-color-white-cost-5 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Knight 2/2 W w/ Vigilance
   power_toughness: 2/2
   rules: Vigilance
   subtype: Knight
+  tla: ELD
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/lonesome-unicorn/

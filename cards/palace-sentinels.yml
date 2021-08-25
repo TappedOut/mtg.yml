@@ -25,7 +25,7 @@ formats:
 - Pauper EDH
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 3W
 mana_cost_converted: 4
@@ -33,22 +33,28 @@ name: Palace Sentinels
 power_toughness: 2/4
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 36
     rarity: common
     release_date: 2020-11-20
-    set_number: 36
+    wizards_id: 497556
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497556
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - CN2:
+    border_color: B
+    frame: m15
     name: 'Conspiracy: Take the Crown'
     number: 19
     rarity: common
     release_date: 2016-08-26
-    set_number: 19
     wizards_id: 416776
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416776
 rules: When Palace Sentinels enters the battlefield, you become the monarch.
@@ -59,12 +65,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: C
-  name: C Emblem Monarch
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Monarch Emblem
   power_toughness: null
   rules: "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
     \ deals combat damage to you, its controller becomes the monarch."
-  subtype: Monarch
+  tla: CMR
   type: Emblem
 type: Creature
 url: http://tappedout.net/mtg-card/palace-sentinels/

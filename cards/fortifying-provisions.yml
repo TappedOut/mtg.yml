@@ -37,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -47,24 +47,31 @@ mana_cost_converted: 3
 name: Fortifying Provisions
 printings:
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78117
     mtgo_id: 78116
     name: Throne of Eldraine
     number: 13
     rarity: common
     release_date: 2019-10-04
-    set_number: 13
+    wizards_id: 472975
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=472975
 rules: "Creatures you control get +0/+1.\r\n\r\nWhen Fortifying Provisions enters\
   \ the battlefield, create a Food token. *(It's an artifact with \"[[symbol:2]],\
   \ [[symbol:T]], Sacrifice this artifact: You gain 3 life.\")*"
 slug: fortifying-provisions
 tags: card-color-white card-color-white-cost-3 card-type-enchantment
 tokens:
-- colors: C
-  name: C Token Artifact Food
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Food
   power_toughness: null
   rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
   subtype: Food
+  tla: ELD
   type: Token Artifact
 type: Enchantment
 url: http://tappedout.net/mtg-card/fortifying-provisions/

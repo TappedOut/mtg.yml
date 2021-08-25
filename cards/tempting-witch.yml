@@ -39,7 +39,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -50,19 +50,23 @@ name: Tempting Witch
 power_toughness: 1/3
 printings:
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 283
     rarity: uncommon
     release_date: 2020-07-17
-    set_number: 283
+    wizards_id: 489289
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489289
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78339
     mtgo_id: 78338
     name: Throne of Eldraine
     number: 108
     rarity: common
     release_date: 2019-10-04
-    set_number: 108
 rules: "When Tempting Witch enters the battlefield, create a Food token. *(It's an\
   \ artifact with \"[[symbol:2]], [[symbol:T]], Sacrifice this artifact: You gain\
   \ 3 life.\")*\r\n\r\n[[symbol:2]], [[symbol:T]], Sacrifice a Food: Target player\
@@ -74,11 +78,15 @@ subtype_tokens:
 - Warlock
 tags: card-color-black card-color-black-cost-3 card-type-creature
 tokens:
-- colors: C
-  name: C Token Artifact Food
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Food
   power_toughness: null
   rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
   subtype: Food
+  tla: JMP
   type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/tempting-witch/

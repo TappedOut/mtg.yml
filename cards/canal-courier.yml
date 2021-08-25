@@ -25,7 +25,7 @@ formats:
 - Pauper EDH
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: false
 is_permanent: true
 mana_cost: 5U
 mana_cost_converted: 6
@@ -33,11 +33,12 @@ name: Canal Courier
 power_toughness: 3/5
 printings:
 - CN2:
+    border_color: B
+    frame: m15
     name: 'Conspiracy: Take the Crown'
     number: 28
     rarity: common
     release_date: 2016-08-26
-    set_number: 28
     wizards_id: 416785
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416785
 rules: "When Canal Courier enters the battlefield, you become the monarch.\r\n\r\n\
@@ -50,12 +51,15 @@ subtype_tokens:
 - Rogue
 tags: card-color-blue card-color-blue-cost-6 card-type-creature
 tokens:
-- colors: C
-  name: C Emblem Monarch
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Monarch Emblem
   power_toughness: null
   rules: "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
     \ deals combat damage to you, its controller becomes the monarch."
-  subtype: Monarch
+  tla: CN2
   type: Emblem
 type: Creature
 url: http://tappedout.net/mtg-card/canal-courier/

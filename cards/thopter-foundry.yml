@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -45,35 +45,44 @@ mana_cost_converted: 2
 name: Thopter Foundry
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 222
     rarity: uncommon
     release_date: 2020-08-07
-    set_number: 222
+    wizards_id: 489895
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489895
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
 - C16:
+    border_color: B
+    frame: m15
     name: Commander 2016
     number: 237
     rarity: uncommon
     release_date: 2016-11-11
-    set_number: 237
     wizards_id: 420854
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420854
 - C13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51011
     mtgo_id: 51010
     name: Commander 2013
     number: 234
     rarity: uncommon
     release_date: 2013-11-01
-    set_number: 234
     wizards_id: 376549
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376549
 - ARB:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 32421
     mtgo_id: 32420
     name: Alara Reborn
@@ -87,11 +96,15 @@ slug: thopter-foundry
 tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-2 card-color-white
   card-type-artifact
 tokens:
-- colors: U
-  name: 1/1 U Token Artifact Creature Thopter
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Thopter 1/1 U
   power_toughness: 1/1
   rules: Flying
   subtype: Thopter
+  tla: 2XM
   type: Token Artifact Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/thopter-foundry/

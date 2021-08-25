@@ -43,7 +43,7 @@ formats:
 - Vintage
 has_activated_abilities: true
 is_land: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -52,13 +52,16 @@ mana_produced: R
 name: Dwarven Mine
 printings:
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78633
     mtgo_id: 78632
     name: Throne of Eldraine
     number: 243
     rarity: common
     release_date: 2019-10-04
-    set_number: 243
+    wizards_id: 473205
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=473205
 rules: "*([[symbol:T]]: Gain [[symbol:R]].)*\r\n\r\nDwarven Mine enters the battlefield\
   \ tapped unless you control three or more other Mountains.\r\n\r\nWhen Dwarven Mine\
   \ enters the battlefield untapped, create a 1/1 red Dwarf creature token."
@@ -68,11 +71,15 @@ subtype_tokens:
 - Mountain
 tags: card-color-colorless card-color-colorless-cost-0 card-mana-red card-type-land
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 R Token Creature Dwarf
   power_toughness: 1/1
   rules: ''
   subtype: Dwarf
+  tla: ELD
   type: Token Creature
 type: Land
 url: http://tappedout.net/mtg-card/dwarven-mine/

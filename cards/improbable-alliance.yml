@@ -42,7 +42,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -52,15 +52,18 @@ mana_cost_converted: 2
 name: Improbable Alliance
 printings:
 - ELD:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 78531
     mtgo_id: 78530
     name: Throne of Eldraine
     number: 193
     rarity: uncommon
     release_date: 2019-10-04
-    set_number: 193
     variations:
     - identifier: '396'
+    wizards_id: 473155
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=473155
 rules: "Whenever you draw your second card each turn, create a 1/1 blue Faerie creature\
   \ token with flying.\r\n\r\n[[symbol:4][[symbol:U]][[symbol:R]]: Draw a card, then\
   \ discard a card."
@@ -69,11 +72,15 @@ synonyms:
 - Improbable Allience
 tags: card-color-blue card-color-gold card-color-gold-cost-2 card-color-red card-type-enchantment
 tokens:
-- colors: U
-  name: 1/1 U Token Creature Faerie
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Faerie 1/1 U
   power_toughness: 1/1
   rules: Flying
   subtype: Faerie
+  tla: ELD
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/improbable-alliance/
