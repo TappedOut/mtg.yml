@@ -25,7 +25,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Deathtouch
@@ -36,28 +36,34 @@ name: Grave Titan
 power_toughness: 6/6
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: mythic_rare
     release_date: 2020-03-14
 - SLD:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Secret Lair
     number: 223
     rarity: mythic_rare
     release_date: 2019-12-09
-    set_number: 223
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54864
     mtgo_id: 54863
     name: Commander 2014
     number: 145
     rarity: mythic_rare
     release_date: 2014-11-21
-    set_number: 145
     wizards_id: 389540
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389540
 - M12:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 41296
     mtgo_id: 41295
     name: 2012 Core Set
@@ -66,6 +72,8 @@ printings:
     wizards_id: 241830
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=241830
 - M11:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 37375
     mtgo_id: 37374
     name: 2011 Core Set
@@ -74,12 +82,13 @@ printings:
     wizards_id: 205012
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=205012
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 35
     rarity: mythic_rare
     release_date: 1990-04-15
-    set_number: 35
 rules: "Deathtouch\r\n\r\nWhenever Grave Titan enters the battlefield or attacks,\
   \ put two 2/2 black Zombie creature tokens onto the battlefield."
 slug: grave-titan
@@ -91,11 +100,15 @@ synonyms:
 - Gravy T
 tags: card-color-black card-color-black-cost-6 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: C14
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/grave-titan/

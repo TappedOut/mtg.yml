@@ -26,7 +26,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 4G
 mana_cost_converted: 5
@@ -34,15 +34,18 @@ name: Mitotic Slime
 power_toughness: 4/4
 printings:
 - PCA:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Planechase Anthology
     number: 67
     rarity: rare
     release_date: 2016-11-25
-    set_number: 67
     wizards_id: 423492
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423492
 - PC2:
+    border_color: B
+    frame: modern
     mtgo_id: 44934
     name: Planechase 2012 Edition
     rarity: rare
@@ -50,6 +53,8 @@ printings:
     wizards_id: 271195
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=271195
 - M11:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 37411
     mtgo_id: 37410
     name: 2011 Core Set
@@ -58,12 +63,13 @@ printings:
     wizards_id: 205032
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=205032
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 53
     rarity: rare
     release_date: 1990-04-15
-    set_number: 53
 rules: When Mitotic Slime is put into a graveyard from the battlefield, put two 2/2
   green Ooze creature tokens onto the battlefield. They have "When this creature is
   put into a graveyard, put two 1/1 green Ooze creature tokens onto the battlefield."
@@ -73,18 +79,26 @@ subtype_tokens:
 - Ooze
 tags: card-color-green card-color-green-cost-5 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 G Token Creature Ooze
   power_toughness: 1/1
   rules: ''
   subtype: Ooze
+  tla: PC2
   type: Token Creature
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 G Token Creature Ooze
   power_toughness: 2/2
   rules: When this creature is put into a graveyard, put two 1/1 green Ooze creature
     tokens onto the battlefield.
   subtype: Ooze
+  tla: PC2
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/mitotic-slime/
