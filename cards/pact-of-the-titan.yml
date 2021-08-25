@@ -1,7 +1,7 @@
 activation_costs:
 - R
 canadian_hl_score: 0
-cannonical_set: TSR
+cannonical_set: FUT
 cannonical_type: Instant
 companions:
 - Gyruda, Doom of Depths
@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -39,19 +39,24 @@ mana_cost_converted: 0
 name: Pact of the Titan
 printings:
 - TSR:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Time Spiral Remastered
     number: 179
     rarity: rare
     release_date: 2021-03-19
-    set_number: 179
+    wizards_id: 509544
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509544
 - FUT:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 26919
     mtgo_id: 26918
     name: Future Sight
     number: 103
     rarity: rare
     release_date: 2007-05-04
-    set_number: 103
     wizards_id: 130638
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=130638
 rules: "Create a 4/4 red Giant creature token.\r\n\r\nAt the beginning of your next\
@@ -59,11 +64,15 @@ rules: "Create a 4/4 red Giant creature token.\r\n\r\nAt the beginning of your n
 slug: pact-of-the-titan
 tags: card-type-instant
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Giant 4/4 R
   power_toughness: 4/4
   rules: ''
   subtype: Giant
+  tla: FUT
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/pact-of-the-titan/

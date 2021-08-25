@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -37,19 +37,23 @@ mana_cost_converted: 4
 name: First Response
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 22
     rarity: uncommon
     release_date: 2020-11-20
-    set_number: 22
+    wizards_id: 497542
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497542
 - M15:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 53727
     mtgo_id: 53726
     name: Magic 2015
     number: 12
     rarity: uncommon
     release_date: 2014-07-18
-    set_number: 12
     wizards_id: 383239
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383239
 rules: At the beginning of each upkeep, if you lost life last turn, create a 1/1 white
@@ -57,11 +61,15 @@ rules: At the beginning of each upkeep, if you lost life last turn, create a 1/1
 slug: first-response
 tags: card-color-white card-color-white-cost-4 card-type-enchantment
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W
   power_toughness: 1/1
   rules: ''
   subtype: Soldier
+  tla: CMR
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/first-response/

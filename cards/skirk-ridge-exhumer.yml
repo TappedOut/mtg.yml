@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 1B
 mana_cost_converted: 2
@@ -39,9 +39,12 @@ name: Skirk Ridge Exhumer
 power_toughness: 1/1
 printings:
 - FUT:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 26667
     mtgo_id: 26666
     name: Future Sight
+    number: 77
     rarity: uncommon
     release_date: 2007-05-04
     wizards_id: 130314
@@ -56,12 +59,16 @@ subtype_tokens:
 - Spellshaper
 tags: card-color-black card-color-black-cost-2 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 B Token Creature Zombie Goblin
   power_toughness: 1/1
   rules: When Festering Goblin is put into a graveyard from the battlefield, target
     creature gets -1/-1 until end of turn.
   subtype: Zombie Goblin
+  tla: FUT
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/skirk-ridge-exhumer/

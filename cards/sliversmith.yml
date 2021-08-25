@@ -2,7 +2,7 @@ activated_abilities:
 - ', , Discard a card: Create a 1/1 Sliver artifact creature token named Metallic
   Sliver.'
 canadian_hl_score: 0
-cannonical_set: TSR
+cannonical_set: FUT
 cannonical_type: Creature
 companions:
 - Gyruda, Doom of Depths
@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -39,12 +39,18 @@ name: Sliversmith
 power_toughness: 1/1
 printings:
 - TSR:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Time Spiral Remastered
     number: 273
     rarity: uncommon
     release_date: 2021-03-19
-    set_number: 273
+    wizards_id: 509638
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509638
 - FUT:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 26679
     mtgo_id: 26678
     name: Future Sight
@@ -60,11 +66,15 @@ subtype_tokens:
 - Spellshaper
 tags: card-color-colorless card-color-colorless-cost-2 card-type-artifact card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Metallic Sliver 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Sliver
+  tla: FUT
   type: Token Artifact Creature
 type: Artifact Creature
 url: http://tappedout.net/mtg-card/sliversmith/

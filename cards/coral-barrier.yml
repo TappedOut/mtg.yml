@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Defender
@@ -41,13 +41,14 @@ name: Coral Barrier
 power_toughness: 1/3
 printings:
 - M15:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 53521
     mtgo_id: 53520
     name: Magic 2015
     number: 49
     rarity: common
     release_date: 2014-07-18
-    set_number: 49
     wizards_id: 383216
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383216
 rules: "Defender *(This creature can't attack.)*\r\n\r\nWhen Coral Barrier enters\
@@ -59,11 +60,15 @@ subtype_tokens:
 - Wall
 tags: card-color-blue card-color-blue-cost-3 card-type-creature
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 U Token Creature Squid
   power_toughness: 1/1
   rules: Islandwalk
   subtype: Squid
+  tla: M15
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/coral-barrier/
