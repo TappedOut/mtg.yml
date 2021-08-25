@@ -18,11 +18,14 @@ effective_cost:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -32,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -43,14 +46,16 @@ name: Seasoned Pyromancer
 power_toughness: 2/2
 printings:
 - MH1:
-    cannonical: false
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72663
     mtgo_id: 72662
     name: Modern Horizons
     number: 145
     rarity: mythic_rare
     release_date: 2019-06-14
-    set_number: 145
+    wizards_id: 464094
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464094
 rules: "When Seasoned Pyromancer enters the battlefield, discard two cards, the draw\
   \ two cards. For each nonland card discarded this way, create a 1/1 red Elemental\
   \ creature token.\r\n\r\n[[symbol:3]][[symbol:R]][[symbol:R]], Exile Seasoned Pyromancer\
@@ -62,11 +67,15 @@ subtype_tokens:
 - Shaman
 tags: card-color-red card-color-red-cost-3 card-type-creature
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 R Token Creature Elemental
   power_toughness: 1/1
   rules: ''
   subtype: Elemental
+  tla: MH1
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/seasoned-pyromancer/

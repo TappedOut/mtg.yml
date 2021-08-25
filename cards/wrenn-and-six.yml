@@ -20,11 +20,14 @@ effective_cost:
 flat_cost: 2
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Leviathan
 - Limited
 - Modern
@@ -33,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Retrace
@@ -43,13 +46,14 @@ mana_cost_converted: 2
 name: Wrenn and Six
 printings:
 - MH1:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72807
     mtgo_id: 72806
     name: Modern Horizons
     number: 217
     rarity: mythic_rare
     release_date: 2019-06-14
-    set_number: 217
     wizards_id: 464166
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464166
 rules: "[[symbol:loyalty-plus1]]: Return up to one target land card from your graveyard\
@@ -69,13 +73,17 @@ synonyms:
 tags: card-color-gold card-color-gold-cost-2 card-color-green card-color-red card-type-legendary
   card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Wrenn
   power_toughness: null
   rules: Instants and sorcery cards in your graveyard have retrace. *(You may cast
     instant and sorcery cards from your graveyard by discarding a land card in addition
     to paying their other costs.)*
   subtype: Wrenn
+  tla: MH1
   type: Emblem
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/wrenn-and-six/

@@ -15,11 +15,14 @@ effective_cost:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -29,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Exile
@@ -39,24 +42,31 @@ mana_cost_converted: 3
 name: Force of Rage
 printings:
 - MH1:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72621
     mtgo_id: 72620
     name: Modern Horizons
     number: 124
     rarity: rare
     release_date: 2019-06-14
-    set_number: 124
+    wizards_id: 464073
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464073
 rules: "If it's not your turn, you may exile a red card from your hand rather than\
   \ pay this spell's mana cost.\r\n\r\nCreate two 3/1 red Elemental creature tokens\
   \ with trample and haste. Sacrifice those tokens at the beginning of your next upkeep."
 slug: force-of-rage
 tags: card-color-red card-color-red-cost-3 card-type-instant
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/1 R Token Creature Elemental
   power_toughness: 3/1
   rules: Trample, haste
   subtype: Elemental
+  tla: MH1
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/force-of-rage/

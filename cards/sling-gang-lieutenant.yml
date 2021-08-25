@@ -16,11 +16,14 @@ effective_cost:
 flat_cost: 4
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -29,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -40,13 +43,16 @@ name: Sling-Gang Lieutenant
 power_toughness: 1/1
 printings:
 - MH1:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72589
     mtgo_id: 72588
     name: Modern Horizons
     number: 108
     rarity: uncommon
     release_date: 2019-06-14
-    set_number: 108
+    wizards_id: 464057
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464057
 rules: "When Sling-Gang Lieutenant enters the battlefield, create two 1/1 red Goblin\
   \ creature tokens.\r\n\r\nSacrifice a Goblin: Target player loses 1 life and you\
   \ gain 1 life."
@@ -56,11 +62,15 @@ subtype_tokens:
 - Goblin
 tags: card-color-black card-color-black-cost-4 card-type-creature
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: MH1
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/sling-gang-lieutenant/
