@@ -14,11 +14,14 @@ effective_cost:
 flat_cost: 1
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -28,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -37,11 +40,14 @@ mana_cost_converted: 1
 name: Squirrel Sanctuary
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 174
     rarity: uncommon
     release_date: 2021-06-18
-    set_number: 174
+    wizards_id: 522250
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522250
 rules: "When this enters the battlefield, create a 1/1 green Squirrel creature token.\r\
   \n\r\nWhenever a nontoken creature you control dies *(is put into the graveyard\
   \ from the battlefield)*, you may pay [[symbol:1]]. If you do, return this to its\
@@ -49,11 +55,15 @@ rules: "When this enters the battlefield, create a 1/1 green Squirrel creature t
 slug: squirrel-sanctuary
 tags: card-color-green card-color-green-cost-1 card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Squirrel 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Squirrel
+  tla: MH2
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/squirrel-sanctuary/

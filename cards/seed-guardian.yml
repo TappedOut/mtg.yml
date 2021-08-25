@@ -27,7 +27,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Reach
@@ -38,13 +38,14 @@ name: Seed Guardian
 power_toughness: 3/4
 printings:
 - OGW:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 59582
     mtgo_id: 59581
     name: Oath of the Gatewatch
     number: 143
     rarity: uncommon
     release_date: 2016-01-22
-    set_number: 143
     wizards_id: 407653
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407653
 rules: "Reach\r\n\r\nWhen Seed Guardian dies, put an X/X green Elemental creature\
@@ -55,11 +56,15 @@ subtype_tokens:
 - Elemental
 tags: card-color-green card-color-green-cost-4 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: '*/* G Token Creature Elemental'
   power_toughness: '*/*'
   rules: ''
   subtype: Elemental
+  tla: OGW
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/seed-guardian/

@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Equip
@@ -41,12 +41,12 @@ mana_cost_converted: 4
 name: Helm of the Host
 printings:
 - DOM:
-    cannonical: false
+    border_color: B
+    frame: m15
     name: Dominaria
     number: 217
     rarity: rare
     release_date: 2018-04-22
-    set_number: 217
     variations:
     - identifier: PromoPack
     wizards_id: 443105
@@ -60,11 +60,14 @@ subtype_tokens:
 - Equipment
 tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact card-type-legendary
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: DOM
   type: Token Creature
 type: Legendary Artifact
 url: http://tappedout.net/mtg-card/helm-of-the-host/

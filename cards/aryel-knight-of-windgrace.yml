@@ -39,7 +39,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Vigilance
@@ -51,12 +51,12 @@ name: Aryel, Knight of Windgrace
 power_toughness: 4/4
 printings:
 - DOM:
-    cannonical: false
+    border_color: B
+    frame: m15
     name: Dominaria
     number: 192
     rarity: rare
     release_date: 2018-04-22
-    set_number: 192
     wizards_id: 443080
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443080
 rules: "Vigilance\r\n\r\n[[symbol:2]][[symbol:W]], [[symbol:T]]: Create a 2/2 white\
@@ -70,11 +70,15 @@ subtype_tokens:
 tags: card-color-black card-color-gold card-color-gold-cost-4 card-color-white card-type-creature
   card-type-legendary
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Knight 2/2 W w/ Vigilance
   power_toughness: 2/2
   rules: Vigilance
   subtype: Knight
+  tla: DOM
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/aryel-knight-of-windgrace/

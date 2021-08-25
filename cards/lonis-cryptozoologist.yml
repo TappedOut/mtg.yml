@@ -20,11 +20,14 @@ effective_cost:
 flat_cost: 2
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -34,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -46,13 +49,16 @@ name: Lonis, Cryptozoologist
 power_toughness: 1/2
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 204
     rarity: rare
     release_date: 2021-06-18
-    set_number: 204
     variations:
     - identifier: '370'
+    wizards_id: 522280
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522280
 rules: "Whenever another nontoken creature enters the battlefield under your control,\
   \ investigate. *(Create a colourless artifact Clue token with \"[[symbol:2]], Sacrifice\
   \ this: Draw a card.\")*\r\n\r\n[[symbol:T]], Sacrifice X Clues: Target opponent\
@@ -69,11 +75,15 @@ subtype_tokens:
 tags: card-color-blue card-color-gold card-color-gold-cost-2 card-color-green card-type-creature
   card-type-legendary
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Clue
   power_toughness: null
   rules: '[[symbol:2]], Sacrifice this: Draw a card.'
   subtype: Clue
+  tla: MH2
   type: Token Artifact
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/lonis-cryptozoologist/

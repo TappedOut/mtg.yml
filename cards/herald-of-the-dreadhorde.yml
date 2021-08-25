@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -44,13 +44,16 @@ name: Herald of the Dreadhorde
 power_toughness: 3/2
 printings:
 - WAR:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71793
     mtgo_id: 71792
     name: War of the Spark
     number: 93
     rarity: common
     release_date: 2019-05-03
-    set_number: 93
+    wizards_id: 461020
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461020
 rules: When Herald of the Dreadhorde dies, amass 2. *(Put two +1/+1 counters on an
   Army you control. If you don't control one, create a 0/0 black Zombie Army creature
   token first.)*
@@ -61,11 +64,15 @@ subtype_tokens:
 - Warrior
 tags: card-color-black card-color-black-cost-4 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie Army 0/0 B
   power_toughness: 0/0
   rules: ''
   subtype: Zombie Army
+  tla: WAR
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/herald-of-the-dreadhorde/

@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -40,30 +40,37 @@ name: Master Splicer
 power_toughness: 1/1
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 22
     rarity: uncommon
     release_date: 2020-08-07
-    set_number: 22
+    wizards_id: 489695
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489695
 - M20:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72958
     mtgo_id: 72957
     name: Core Set 2020
     number: 29
     rarity: uncommon
     release_date: 2019-07-12
-    set_number: 29
 - MM3:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63262
     mtgo_id: 63261
     name: Modern Masters 2017 Edition
     number: 15
     rarity: uncommon
     release_date: 2017-03-17
-    set_number: 15
     wizards_id: 425840
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425840
 - NPH:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 39985
     mtgo_id: 39984
     name: New Phyrexia
@@ -80,11 +87,15 @@ subtype_tokens:
 - Artificer
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Golem 3/3 C
   power_toughness: 3/3
   rules: ''
   subtype: Golem
+  tla: 2XM
   type: Token Artifact Creature
 type: Creature
 url: http://tappedout.net/mtg-card/master-splicer/

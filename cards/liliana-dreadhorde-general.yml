@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -47,33 +47,36 @@ mana_cost_converted: 6
 name: Liliana, Dreadhorde General
 printings:
 - SLD:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: Secret Lair
     number: 510
     rarity: mythic_rare
     release_date: 2019-12-09
-    set_number: 510
 - WAR:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71801
     mtgo_id: 71800
     name: War of the Spark
     number: 97
     rarity: mythic_rare
     release_date: 2019-05-03
-    set_number: 97
     variations:
     - identifier: PromoPack
     wizards_id: 461024
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461024
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: mythic_rare
     release_date: 1990-04-15
-    set_number: 1
 rules: "Whenever a creature you control dies *(is put into the graveyard from the\
   \ battlefield)*, draw a card.\r\n\r\n[[symbol:loyalty-plus1]]: Create a 2/2 black\
   \ Zombie creature token.\r\n\r\n[[symbol:loyalty-minus4]]: Each player sacrifices\
@@ -85,11 +88,15 @@ subtype_tokens:
 - Liliana
 tags: card-color-black card-color-black-cost-6 card-type-legendary card-type-planeswalker
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: WAR
   type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/liliana-dreadhorde-general/

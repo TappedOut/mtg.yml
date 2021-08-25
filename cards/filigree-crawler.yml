@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -41,13 +41,14 @@ name: Filigree Crawler
 power_toughness: 2/2
 printings:
 - AER:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 62848
     mtgo_id: 62847
     name: Aether Revolt
     number: 150
     rarity: common
     release_date: 2017-01-20
-    set_number: 150
     wizards_id: 423817
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423817
 rules: When Filigree Crawler dies, create a 1/1 colourless Thopter artifact creature
@@ -58,11 +59,15 @@ subtype_tokens:
 - Insect
 tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Thopter 1/1 C
   power_toughness: 1/1
   rules: Flying
   subtype: Thopter
+  tla: AER
   type: Token Artifact Creature
 type: Artifact Creature
 url: http://tappedout.net/mtg-card/filigree-crawler/

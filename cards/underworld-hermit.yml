@@ -14,11 +14,14 @@ effective_cost:
 flat_cost: 6
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -27,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Devotion
@@ -38,13 +41,16 @@ name: Underworld Hermit
 power_toughness: 3/3
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 105
     rarity: uncommon
     release_date: 2021-06-18
-    set_number: 105
     variations:
     - identifier: '347'
+    wizards_id: 522181
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522181
 rules: When this enters the battlefield, create a number of 1/1 green Squirrel creature
   tokens equal to your devotion to black. *(Each [[symbol:B]] in the mana costs of
   permanents you control counts toward your devotion to black.)*
@@ -55,11 +61,15 @@ subtype_tokens:
 - Peasant
 tags: card-color-black card-color-black-cost-6 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Squirrel 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Squirrel
+  tla: MH2
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/underworld-hermit/

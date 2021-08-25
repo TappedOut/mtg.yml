@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Defender
@@ -47,22 +47,26 @@ mana_cost_converted: 3
 name: Teyo, the Shieldmage
 printings:
 - SLD:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: Secret Lair
     number: 504
     rarity: uncommon
     release_date: 2019-12-09
-    set_number: 504
 - WAR:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71671
     mtgo_id: 71670
     name: War of the Spark
     number: 32
     rarity: uncommon
     release_date: 2019-05-03
-    set_number: 32
+    wizards_id: 460959
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460959
 rules: "You have hexproof. *(You can't be the target of spells or abilities your opponents\
   \ control.)*\r\n\r\n[[symbol:loyalty-minus2]]: Create a 0/3 white Wall create token\
   \ with defender."
@@ -72,11 +76,15 @@ subtype_tokens:
 - Teyo
 tags: card-color-white card-color-white-cost-3 card-type-legendary card-type-planeswalker
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 0/3 W Token Creature Wall
   power_toughness: 0/3
   rules: Defender
   subtype: Wall
+  tla: WAR
   type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/teyo-the-shieldmage/

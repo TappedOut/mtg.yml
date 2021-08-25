@@ -22,7 +22,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -31,23 +31,30 @@ mana_cost_converted: 4
 name: Tempting Contract
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 78
     rarity: rare
     release_date: 2021-04-23
-    set_number: 78
     variations:
     - identifier: '405'
+    wizards_id: 518474
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518474
 rules: At the beginning of your upkeep, each opponent may create a Treasure token.
   For each opponent who does, you create a Treasure token.
 slug: tempting-contract
 tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
 tokens:
-- colors: C
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Treasure
   power_toughness: null
   rules: '[[symbol:T]], Sacrifice this: Gain one mana of any colour.'
   subtype: Treasure
+  tla: C21
   type: Token Artifact
 type: Artifact
 url: http://tappedout.net/mtg-card/tempting-contract/

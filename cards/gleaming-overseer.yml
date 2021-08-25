@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Hexproof
@@ -46,13 +46,16 @@ name: Gleaming Overseer
 power_toughness: 1/4
 printings:
 - WAR:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72003
     mtgo_id: 72002
     name: War of the Spark
     number: 198
     rarity: uncommon
     release_date: 2019-05-03
-    set_number: 198
+    wizards_id: 461125
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461125
 rules: "When Gleaming Overseer enters the battlefield, amass 1. (Put a +1/+1 counter\
   \ on an Army you control. If you don't control one, create a 0/0 black Zombie Army\
   \ creature token first.) \r\n\r\nZombie tokens you control have hexproof and menace."
@@ -63,11 +66,15 @@ subtype_tokens:
 - Wizard
 tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-3 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie Army 0/0 B
   power_toughness: 0/0
   rules: ''
   subtype: Zombie Army
+  tla: WAR
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/gleaming-overseer/

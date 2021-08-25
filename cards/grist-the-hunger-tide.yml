@@ -21,11 +21,14 @@ effective_cost:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -35,7 +38,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -46,14 +49,17 @@ mana_cost_converted: 3
 name: Grist, the Hunger Tide
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 202
     rarity: mythic_rare
     release_date: 2021-06-18
-    set_number: 202
     variations:
     - identifier: '306'
     - identifier: '368'
+    wizards_id: 522278
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522278
 rules: "As long as this isn't on the battlefield, it's a 1/1 insect creature in addition\
   \ to its other types.\r\n\r\n[[symbol:loyalty-plus1]]: Create a 1/1 black and green\
   \ insect creature token, then mill a card. If an Insect card was milled this way,\
@@ -68,11 +74,15 @@ subtype_tokens:
 tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-green card-type-legendary
   card-type-planeswalker
 tokens:
-- colors: BG
+- cannonical_type: Creature
+  colors: BG
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Insect 1/1 BG
   power_toughness: 1/1
   rules: ''
   subtype: Insect
+  tla: MH2
   type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/grist-the-hunger-tide/

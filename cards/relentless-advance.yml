@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Counters
@@ -46,23 +46,30 @@ mana_cost_converted: 4
 name: Relentless Advance
 printings:
 - WAR:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71735
     mtgo_id: 71734
     name: War of the Spark
     number: 64
     rarity: common
     release_date: 2019-05-03
-    set_number: 64
+    wizards_id: 460991
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460991
 rules: Amass 3. *(Put three +1/+1 counters on an Army you control. If you don't control
   one, create a 0/0 black Zombie Army creature token first.)*
 slug: relentless-advance
 tags: card-color-blue card-color-blue-cost-4 card-type-sorcery
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie Army 0/0 B
   power_toughness: 0/0
   rules: ''
   subtype: Zombie Army
+  tla: WAR
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/relentless-advance/

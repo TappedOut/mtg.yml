@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Counters
@@ -44,13 +44,14 @@ mana_cost_converted: 4
 name: Widespread Brutality
 printings:
 - WAR:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72059
     mtgo_id: 72058
     name: War of the Spark
     number: 226
     rarity: rare
     release_date: 2019-05-03
-    set_number: 226
     variations:
     - identifier: PromoPack
     wizards_id: 461153
@@ -61,11 +62,15 @@ rules: Amass 2, then the Army you amassed deals damage equal to it power to each
 slug: widespread-brutality
 tags: card-color-black card-color-gold card-color-gold-cost-4 card-color-red card-type-sorcery
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie Army 0/0 B
   power_toughness: 0/0
   rules: ''
   subtype: Zombie Army
+  tla: WAR
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/widespread-brutality/

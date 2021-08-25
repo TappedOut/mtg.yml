@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Trample
@@ -39,20 +39,24 @@ name: Maul Splicer
 power_toughness: 1/1
 printings:
 - NPH:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 39953
     mtgo_id: 39952
     name: New Phyrexia
+    number: 114
     rarity: common
     release_date: 2011-05-13
     wizards_id: 233040
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=233040
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: rare
     release_date: 1990-04-15
-    set_number: 1
 rules: "When this enters the battlefield, create two 3/3 colorless Golem artifact\
   \ creature tokens.\r\n\r\nGolem creatures you control have trample."
 slug: maul-splicer
@@ -62,11 +66,15 @@ subtype_tokens:
 - Artificer
 tags: card-color-green card-color-green-cost-7 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Golem 3/3 C
   power_toughness: 3/3
   rules: ''
   subtype: Golem
+  tla: NPH
   type: Token Artifact Creature
 type: Creature
 url: http://tappedout.net/mtg-card/maul-splicer/

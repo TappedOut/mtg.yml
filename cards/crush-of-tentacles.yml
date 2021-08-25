@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -41,13 +41,14 @@ mana_cost_converted: 6
 name: Crush of Tentacles
 printings:
 - OGW:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 59514
     mtgo_id: 59513
     name: Oath of the Gatewatch
     number: 53
     rarity: mythic_rare
     release_date: 2016-01-22
-    set_number: 53
     wizards_id: 407563
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407563
 rules: "Surge [[symbol:3]][[symbol:U]][[symbol:U]] *(You may cast this spell for its\
@@ -57,11 +58,15 @@ rules: "Surge [[symbol:3]][[symbol:U]][[symbol:U]] *(You may cast this spell for
 slug: crush-of-tentacles
 tags: card-color-blue card-color-blue-cost-6 card-type-sorcery
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 8/8 U Token Creature Octopus
   power_toughness: 8/8
   rules: ''
   subtype: Octopus
+  tla: OGW
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/crush-of-tentacles/

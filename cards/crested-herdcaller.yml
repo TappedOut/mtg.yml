@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Trample
@@ -41,22 +41,24 @@ name: Crested Herdcaller
 power_toughness: 3/3
 printings:
 - GN2:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Game Night 2019
     number: 46
     rarity: uncommon
     release_date: 2019-11-15
-    set_number: 46
     wizards_id: 476112
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476112
 - RIX:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66706
     mtgo_id: 66705
     name: Rivals of Ixalan
     number: 126
     rarity: uncommon
     release_date: 2018-01-19
-    set_number: 126
     wizards_id: 439783
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439783
 rules: "Trample\r\n\r\nWhen Crested Herdcaller enters the battlefield, create a 3/3\
@@ -67,12 +69,16 @@ subtype_tokens:
 - Dinosaur
 tags: card-color-green card-color-green-cost-5 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 G Token Creature Dinosaur
   power_toughness: 3/3
   rules: Trample (This creature can deal excess combat damage to defending player
     or planeswalker while attacking.)
   subtype: Dinosaur
+  tla: RIX
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/crested-herdcaller/

@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Counters
@@ -46,24 +46,31 @@ mana_cost_converted: 3
 name: Invade the City
 printings:
 - WAR:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72009
     mtgo_id: 72008
     name: War of the Spark
     number: 201
     rarity: uncommon
     release_date: 2019-05-03
-    set_number: 201
+    wizards_id: 461128
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461128
 rules: Amass X, where X is the number of instand and sorcery cards in your graveyard.
   *(Put X +1/+1 on an Army you control. If you don't control one, create a 0/0 black
   Zombie Army creature token first.)*
 slug: invade-the-city
 tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-red card-type-sorcery
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie Army 0/0 B
   power_toughness: 0/0
   rules: ''
   subtype: Zombie Army
+  tla: WAR
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/invade-the-city/

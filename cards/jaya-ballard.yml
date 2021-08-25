@@ -37,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -47,25 +47,29 @@ mana_produced: RRR
 name: Jaya Ballard
 printings:
 - C21:
+    border_color: B
+    frame: m15
     name: Commander 2021
     number: 175
     rarity: mythic_rare
     release_date: 2021-04-23
-    set_number: 175
+    wizards_id: 519210
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519210
 - RNAMED:
+    border_color: B
     cannonical: false
+    frame: m15
     name: 'Ravnica Allegiance: Mythic Edition'
     number: 4
     rarity: mythic_rare
     release_date: 2019-01-26
-    set_number: 4
 - DOM:
-    cannonical: false
+    border_color: B
+    frame: m15
     name: Dominaria
     number: 132
     rarity: mythic_rare
     release_date: 2018-04-22
-    set_number: 132
     wizards_id: 443020
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443020
 rules: "[[symbol:loyalty-plus1]]: Gain [[symbol:R]][[symbol:R]][[symbol:R]]. Spend\
@@ -79,12 +83,16 @@ subtype_tokens:
 - Jaya
 tags: card-color-red card-color-red-cost-5 card-mana-red card-type-legendary card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Jaya
   power_toughness: null
   rules: You may cast instant and sorcery cards from your graveyard. If a card cast
     this way would be put into your graveyard, exile it instead.
   subtype: Jaya
+  tla: C21
   type: Emblem
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/jaya-ballard/

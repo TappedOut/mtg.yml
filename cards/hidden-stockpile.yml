@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -48,24 +48,30 @@ mana_cost_converted: 2
 name: Hidden Stockpile
 printings:
 - 2XM:
+    border_color: B
+    frame: m15
     name: Double Masters
     number: 201
     rarity: uncommon
     release_date: 2020-08-07
-    set_number: 201
+    wizards_id: 489874
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489874
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
 - AER:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 62820
     mtgo_id: 62819
     name: Aether Revolt
     number: 129
     rarity: uncommon
     release_date: 2017-01-20
-    set_number: 129
     wizards_id: 423796
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423796
 rules: "*Revolt* &mdash; At the beginning of your end step, if a permanent you controlled\
@@ -74,11 +80,15 @@ rules: "*Revolt* &mdash; At the beginning of your end step, if a permanent you c
 slug: hidden-stockpile
 tags: card-color-black card-color-gold card-color-gold-cost-2 card-color-white card-type-enchantment
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Servo 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Servo
+  tla: 2XM
   type: Token Artifact Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/hidden-stockpile/

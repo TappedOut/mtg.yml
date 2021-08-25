@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Deathtouch
@@ -45,22 +45,26 @@ mana_cost_converted: 4
 name: Vraska, Swarm's Eminence
 printings:
 - SLD:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: Secret Lair
     number: 536
     rarity: uncommon
     release_date: 2019-12-09
-    set_number: 536
 - WAR:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72079
     mtgo_id: 72078
     name: War of the Spark
     number: 236
     rarity: uncommon
     release_date: 2019-05-03
-    set_number: 236
+    wizards_id: 461163
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461163
 rules: "Whenever a creature you control with deathtouch deals damage to a player,\
   \ put a +1/+1 counter on that creature.\r\n\r\n[[symbol:loyalty-minus2]]: Create\
   \ a 1/1 black Assassin creature token with deathtouch and \"Whenever this creature\
@@ -72,12 +76,16 @@ subtype_tokens:
 tags: card-color-black card-color-gold card-color-gold-cost-4 card-color-green card-type-legendary
   card-type-planeswalker
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 B Token Creature Assassin
   power_toughness: 1/1
   rules: "Deathtouch\r\n\r\nWhenever this creature deals damage to a planeswalker,\
     \ destroy that planeswalker."
   subtype: Assassin
+  tla: WAR
   type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/vraska-swarms-eminence/

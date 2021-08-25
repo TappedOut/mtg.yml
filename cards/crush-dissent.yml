@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: MYS1
+cannonical_set: WAR
 cannonical_type: Instant
 companions:
 - Gyruda, Doom of Depths
@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Counterspell
@@ -47,28 +47,38 @@ mana_cost_converted: 4
 name: Crush Dissent
 printings:
 - MYS1:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - WAR:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71701
     mtgo_id: 71700
     name: War of the Spark
     number: 47
     rarity: common
     release_date: 2019-05-03
-    set_number: 47
+    wizards_id: 460974
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460974
 rules: "Counter target spell unless its controller pays [[symbol:2]].\r\n\r\nAmass\
   \ 2. *(Put two +1/+1 counters on an Army you control. If you don't control one,\
   \ create a 0/0 black Zombie Army creature token first.)*"
 slug: crush-dissent
 tags: card-color-blue card-color-blue-cost-4 card-type-instant
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie Army 0/0 B
   power_toughness: 0/0
   rules: ''
   subtype: Zombie Army
+  tla: WAR
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/crush-dissent/

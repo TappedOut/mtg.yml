@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -47,22 +47,26 @@ mana_cost_converted: 4
 name: Angrath, Captain of Chaos
 printings:
 - SLD:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: Secret Lair
     number: 527
     rarity: uncommon
     release_date: 2019-12-09
-    set_number: 527
 - WAR:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72061
     mtgo_id: 72060
     name: War of the Spark
     number: 227
     rarity: uncommon
     release_date: 2019-05-03
-    set_number: 227
+    wizards_id: 461154
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461154
 rules: "Creatures you control have menace.\r\n\r\n[[symbol:loyalty-minus2]]: Amass\
   \ 2. *(Put two +1/+1 counters on an Army you control. If you don't control one,\
   \ create a 0/0 black Zombie Army creature token first.)*"
@@ -73,11 +77,15 @@ subtype_tokens:
 tags: card-color-black card-color-gold card-color-gold-cost-4 card-color-red card-type-legendary
   card-type-planeswalker
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie Army 0/0 B
   power_toughness: 0/0
   rules: ''
   subtype: Zombie Army
+  tla: WAR
   type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/angrath-captain-of-chaos/

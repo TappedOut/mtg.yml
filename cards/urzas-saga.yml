@@ -23,11 +23,14 @@ companions:
 flat_cost: 0
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -38,7 +41,7 @@ formats:
 - Vintage
 has_activated_abilities: true
 is_land: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -49,13 +52,16 @@ mana_produced: C
 name: Urza's Saga
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 259
     rarity: rare
     release_date: 2021-06-18
-    set_number: 259
     variations:
     - identifier: '380'
+    wizards_id: 522335
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522335
 rules: "*(As this Saga enters the battlefield and after your draw step, add a lore\
   \ counter. Sacrifice after III.)*\r\n\r\n[[symbol:saga-1]]: This gains \"[[symbol:T]]:\
   \ Gain [[symbol:C]].\"\r\n\r\n[[symbol:saga-2]]: This gains \"[[symbol:2]], [[symbol:T]]:\
@@ -72,11 +78,15 @@ subtype_tokens:
 tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-enchantment
   card-type-land
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Construct 0/0 C
   power_toughness: 0/0
   rules: This creature gets +1/+1 for each artifact you control.
   subtype: Construct
+  tla: MH2
   type: Token Artifact Creature
 type: Enchantment Land
 url: http://tappedout.net/mtg-card/urzas-saga/

@@ -34,7 +34,7 @@ formats:
 - Vintage
 has_activated_abilities: true
 is_front: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Defender
@@ -44,13 +44,14 @@ name: Golden Guardian
 power_toughness: 4/4
 printings:
 - RIX:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66824
     mtgo_id: 66823
     name: Rivals of Ixalan
     number: 179
     rarity: rare
     release_date: 2018-01-19
-    set_number: 179
     wizards_id: 439842
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439842
 rules: "Defender\r\n\r\n[[symbol:2]]: Golden Guardian fights another target creature\
@@ -62,11 +63,15 @@ subtype_tokens:
 - Golem
 tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 4/4 C Token Artifact Creature Golem
   power_toughness: 4/4
   rules: ''
   subtype: Golem
+  tla: RIX
   type: Token Artifact Creature
 type: Artifact Creature
 url: http://tappedout.net/mtg-card/golden-guardian/

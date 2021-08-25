@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tap/Untap
@@ -43,13 +43,14 @@ name: Drana's Chosen
 power_toughness: 2/2
 printings:
 - OGW:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 59530
     mtgo_id: 59529
     name: Oath of the Gatewatch
     number: 84
     rarity: rare
     release_date: 2016-01-22
-    set_number: 84
     wizards_id: 407594
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407594
 rules: '*Cohort* &mdash; [[symbol:T]], Tap an untapped Ally you control: Put a 2/2
@@ -62,11 +63,15 @@ subtype_tokens:
 - Ally
 tags: card-color-black card-color-black-cost-4 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: OGW
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/dranas-chosen/

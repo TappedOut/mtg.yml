@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -48,9 +48,12 @@ mana_cost_converted: 2
 name: Zektar Shrine Expedition
 printings:
 - ZEN:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 34509
     mtgo_id: 34508
     name: Zendikar
+    number: 155
     rarity: common
     release_date: 2009-10-02
     wizards_id: 183403
@@ -63,11 +66,15 @@ rules: "Landfall \x97 Whenever a land enters the battlefield under your control,
 slug: zektar-shrine-expedition
 tags: card-color-red card-color-red-cost-2 card-type-enchantment
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 7/1 R Token Creature Elemental
   power_toughness: 7/1
   rules: Trample, haste
   subtype: Elemental
+  tla: ZEN
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/zektar-shrine-expedition/

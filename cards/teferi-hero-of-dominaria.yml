@@ -3,7 +3,7 @@ activated_abilities:
 - ': Put target nonland permanent into its owner''s library third from the top. '
 - ': You get an emblem with '
 canadian_hl_score: 0
-cannonical_set: SLD
+cannonical_set: DOM
 cannonical_type: Planeswalker
 companions:
 - Jegantha, the Wellspring
@@ -37,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -48,26 +48,28 @@ mana_cost_converted: 5
 name: Teferi, Hero of Dominaria
 printings:
 - SLD:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Secret Lair
     number: 248
     rarity: mythic_rare
     release_date: 2019-12-09
-    set_number: 248
 - GRNMED:
+    border_color: B
     cannonical: false
+    frame: m15
     name: 'Guilds of Ravnica: Mythic Edition'
     number: 6
     rarity: mythic_rare
     release_date: 2018-10-04
-    set_number: 6
 - DOM:
-    cannonical: false
+    border_color: B
+    frame: m15
     name: Dominaria
     number: 207
     rarity: mythic_rare
     release_date: 2018-04-22
-    set_number: 207
     variations:
     - identifier: Animated
     wizards_id: 443095
@@ -88,11 +90,15 @@ synonyms:
 tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-white card-type-legendary
   card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Teferi
   power_toughness: null
   rules: Whenever you draw a card, exile target permanent an opponent controls.
   subtype: Teferi
+  tla: DOM
   type: Emblem
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/teferi-hero-of-dominaria/

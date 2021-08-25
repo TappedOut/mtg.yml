@@ -15,11 +15,14 @@ effective_cost:
 flat_cost: 2
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -31,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Storm
@@ -41,23 +44,30 @@ mana_cost_converted: 2
 name: Chatterstorm
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 152
     rarity: common
     release_date: 2021-06-18
-    set_number: 152
     variations:
     - identifier: '411'
+    wizards_id: 522228
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522228
 rules: "Create a 1/1 green Squirrel creature token.\r\n\r\nStorm *(When you cast this\
   \ spell, copy it for each spell cast before it this turn.)*"
 slug: chatterstorm
 tags: card-color-green card-color-green-cost-2 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Squirrel 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Squirrel
+  tla: MH2
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/chatterstorm/

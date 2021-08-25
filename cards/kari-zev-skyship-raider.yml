@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - First strike
@@ -44,13 +44,14 @@ name: Kari Zev, Skyship Raider
 power_toughness: 1/3
 printings:
 - AER:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 62746
     mtgo_id: 62745
     name: Aether Revolt
     number: 87
     rarity: rare
     release_date: 2017-01-20
-    set_number: 87
     wizards_id: 423754
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423754
 rules: "First strike, menace \r\n\r\nWhenever Kari Zev, Skyship Raider attacks, create\
@@ -63,11 +64,15 @@ subtype_tokens:
 - Pirate
 tags: card-color-red card-color-red-cost-2 card-type-creature card-type-legendary
 tokens:
-- colors: R
-  name: 2/1 R Token Legendary Creature Monkey
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Ragavan
   power_toughness: 2/1
   rules: ''
   subtype: Monkey
+  tla: AER
   type: Token Legendary Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/kari-zev-skyship-raider/

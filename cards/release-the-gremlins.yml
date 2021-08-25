@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -41,29 +41,36 @@ mana_cost_converted: 1
 name: Release the Gremlins
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: rare
     release_date: 2020-03-14
 - AER:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 62750
     mtgo_id: 62749
     name: Aether Revolt
     number: 96
     rarity: rare
     release_date: 2017-01-20
-    set_number: 96
     wizards_id: 423763
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423763
 rules: Destroy X target artifacts. Create X 2/2 red Gremlin creature tokens.
 slug: release-the-gremlins
 tags: card-color-red card-color-red-cost-1 card-type-sorcery
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 R Token Creature Gremlin
   power_toughness: 2/2
   rules: ''
   subtype: Gremlin
+  tla: AER
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/release-the-gremlins/

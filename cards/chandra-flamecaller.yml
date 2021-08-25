@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -45,28 +45,33 @@ mana_cost_converted: 6
 name: Chandra, Flamecaller
 printings:
 - C20:
+    border_color: B
+    frame: m15
     name: Commander 2020
     number: 145
     rarity: mythic_rare
     release_date: 2020-05-15
-    set_number: 145
+    wizards_id: 482773
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482773
 - OGW:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 59362
     mtgo_id: 59361
     name: Oath of the Gatewatch
     number: 104
     rarity: mythic_rare
     release_date: 2016-01-22
-    set_number: 104
     wizards_id: 407614
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407614
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 104
     rarity: mythic_rare
     release_date: 1990-04-15
-    set_number: 104
 rules: "[[symbol:loyalty-plus1]]: Create two 3/1 red Elemental creature tokens with\
   \ haste. Exile them at the beginning of the next end step.\r\n\r\n[[symbol:loyalty-zero]]:\
   \ Discard all the cards in your hand, then draw that many cards plus one.\r\n\r\n\
@@ -77,11 +82,15 @@ subtype_tokens:
 - Chandra
 tags: card-color-red card-color-red-cost-6 card-type-planeswalker
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/1 R Token Creature Elemental
   power_toughness: 3/1
   rules: ''
   subtype: Elemental
+  tla: C20
   type: Token Creature
 type: Planeswalker
 url: http://tappedout.net/mtg-card/chandra-flamecaller/

@@ -21,11 +21,14 @@ effective_cost:
 flat_cost: 5
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -34,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -48,14 +51,17 @@ name: Timeless Dragon
 power_toughness: 5/5
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 35
     rarity: rare
     release_date: 2021-06-18
-    set_number: 35
     variations:
     - identifier: '388'
     - identifier: '445'
+    wizards_id: 522111
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522111
 rules: "Flying\r\n\r\nPlainscycling [[symbol:2]] *([[symbol:2]], Discard this card:\
   \ Search your library for a Plains card, reveal it, put it into your hand, then\
   \ shuffle your library.)*\r\n\r\nEternalize [[symbol:2]][[symbol:W]][[symbol:W]]\
@@ -68,11 +74,15 @@ subtype_tokens:
 - Dragon
 tags: card-color-white card-color-white-cost-5 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Timeless Dragon 4/4 B
   power_toughness: 4/4
   rules: Flying
   subtype: Zombie Dragon
+  tla: MH2
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/timeless-dragon/

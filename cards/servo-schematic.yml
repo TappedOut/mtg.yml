@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -39,13 +39,14 @@ mana_cost_converted: 2
 name: Servo Schematic
 printings:
 - AER:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 62838
     mtgo_id: 62837
     name: Aether Revolt
     number: 176
     rarity: uncommon
     release_date: 2017-01-20
-    set_number: 176
     wizards_id: 423843
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423843
 rules: When Servo Schematic enters the battlefield or is put into a graveyard from
@@ -55,11 +56,15 @@ synonyms:
 - Sevo Schematic
 tags: card-color-colorless card-color-colorless-cost-2 card-type-artifact
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Servo 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Servo
+  tla: AER
   type: Token Artifact Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/servo-schematic/

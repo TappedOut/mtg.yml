@@ -23,11 +23,14 @@ effective_cost:
 flat_cost: 5
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -36,7 +39,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -46,11 +49,12 @@ name: Garth One-Eye
 power_toughness: 5/5
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 197
     rarity: mythic_rare
     release_date: 2021-06-18
-    set_number: 197
     variations:
     - identifier: '365'
     - identifier: '420'
@@ -69,11 +73,14 @@ subtype_tokens:
 tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-5 card-color-green
   card-color-red card-color-white card-type-creature card-type-legendary
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: MH2
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/garth-one-eye/

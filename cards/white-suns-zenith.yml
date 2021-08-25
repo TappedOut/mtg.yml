@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -39,20 +39,26 @@ name: White Sun's Zenith
 printings:
 - CMR:
     booster_exclude: true
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 391
     rarity: rare
     release_date: 2020-11-20
-    set_number: 391
+    wizards_id: 500871
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=500871
 - C17:
+    border_color: B
+    frame: m15
     name: Commander 2017
     number: 78
     rarity: rare
     release_date: 2017-08-25
-    set_number: 78
     wizards_id: 433010
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433010
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54918
     mtgo_id: 54917
     name: Commander 2014
@@ -61,6 +67,8 @@ printings:
     wizards_id: 389746
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389746
 - MBS:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 39574
     mtgo_id: 39573
     name: Mirrodin Besieged
@@ -69,7 +77,9 @@ printings:
     wizards_id: 221555
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=221555
 - MBM:
+    border_color: B
     cannonical: false
+    frame: modern
     name: 'Mirrodin Besieged: Mirran'
     rarity: rare
     release_date: 2011-02-03
@@ -78,11 +88,15 @@ rules: Create X 2/2 Cat creature tokens. Shuffle White Sun's Zenith into its own
 slug: white-suns-zenith
 tags: card-color-white card-color-white-cost-3 card-type-instant
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 W Token Creature Cat
   power_toughness: 2/2
   rules: ''
   subtype: Cat
+  tla: CMR
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/white-suns-zenith/

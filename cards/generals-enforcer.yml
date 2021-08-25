@@ -42,7 +42,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Indestructible
@@ -54,13 +54,16 @@ name: General's Enforcer
 power_toughness: 2/3
 printings:
 - IKO:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 80386
     mtgo_id: 80385
     name: 'Ikoria: Lair of Behemoths'
     number: 188
     rarity: uncommon
     release_date: 2020-04-15
-    set_number: 188
+    wizards_id: 479708
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479708
 rules: "Legendary Humans you control have indestructible. \r\n\r\n[[symbol:2]][[symbol:W]][[symbol:B]]:\
   \ Exile target card from a graveyard. If it was a creature card, create a 1/1 white\
   \ Human Soldier creature token."
@@ -71,11 +74,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-black card-color-gold card-color-gold-cost-2 card-color-white card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Human Soldier
   power_toughness: 1/1
   rules: ''
   subtype: Human Soldier
+  tla: IKO
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/generals-enforcer/

@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Hexproof
@@ -45,13 +45,16 @@ mana_cost_converted: 2
 name: Lazotep Plating
 printings:
 - WAR:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71725
     mtgo_id: 71724
     name: War of the Spark
     number: 59
     rarity: uncommon
     release_date: 2019-05-03
-    set_number: 59
+    wizards_id: 460986
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460986
 rules: "Amass 1. *(Put a +1/+1 counter on an Army you control. If you don't control\
   \ one, create a 0/0 black Zombie Army creature token first.)*\r\n\r\nYou and permanents\
   \ you control gain hexproof until end of turn. *(You and they can't be the targets\
@@ -59,11 +62,15 @@ rules: "Amass 1. *(Put a +1/+1 counter on an Army you control. If you don't cont
 slug: lazotep-plating
 tags: card-color-blue card-color-blue-cost-2 card-type-instant
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie Army 0/0 B
   power_toughness: 0/0
   rules: ''
   subtype: Zombie Army
+  tla: WAR
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/lazotep-plating/

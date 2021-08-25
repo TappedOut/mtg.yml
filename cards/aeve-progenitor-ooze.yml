@@ -12,11 +12,14 @@ effective_cost:
 flat_cost: 5
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -25,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Storm
@@ -37,14 +40,17 @@ name: Aeve, Progenitor Ooze
 power_toughness: 2/2
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 148
     rarity: rare
     release_date: 2021-06-18
-    set_number: 148
     variations:
     - identifier: '409'
     - identifier: '459'
+    wizards_id: 522224
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522224
 rules: "Storm *(When you cast this spell, copy it for each spell cast before it this\
   \ turn. The copies become tokens.)*\r\n\r\nAeve, Progenitor Ooze isn't legendary\
   \ if it's a token.\r\n\r\nAeve enters the battlefield with a +1/+1 counter on it\
@@ -55,11 +61,14 @@ subtype_tokens:
 - Ooze
 tags: card-color-green card-color-green-cost-5 card-type-creature card-type-legendary
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: MH2
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/aeve-progenitor-ooze/

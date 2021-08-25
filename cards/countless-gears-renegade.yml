@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -44,18 +44,21 @@ name: Countless Gears Renegade
 power_toughness: 2/2
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - AER:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 62570
     mtgo_id: 62569
     name: Aether Revolt
     number: 13
     rarity: common
     release_date: 2017-01-20
-    set_number: 13
     wizards_id: 423680
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423680
 rules: '*Revolt* &mdash; When Countless Gears Renegade enters the battlefield, if
@@ -68,11 +71,15 @@ subtype_tokens:
 - Artificer
 tags: card-color-white card-color-white-cost-2 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Servo 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Servo
+  tla: AER
   type: Token Artifact Creature
 type: Creature
 url: http://tappedout.net/mtg-card/countless-gears-renegade/

@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 mana_cost: 4B
 mana_cost_converted: 5
@@ -38,13 +38,14 @@ name: Mausoleum Harpy
 power_toughness: 3/3
 printings:
 - RIX:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66610
     mtgo_id: 66609
     name: Rivals of Ixalan
     number: 78
     rarity: uncommon
     release_date: 2018-01-19
-    set_number: 78
     wizards_id: 439735
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439735
 rules: "Ascend _(If you control ten or more permanents, you get the city's blessing\
@@ -56,11 +57,14 @@ subtype_tokens:
 - Harpy
 tags: card-color-black card-color-black-cost-5 card-type-creature
 tokens:
-- colors: C
-  name: C Emblem City's Blessing
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: City's Blessing
   power_toughness: null
   rules: ''
-  subtype: City's Blessing
+  tla: RIX
   type: Emblem
 type: Creature
 url: http://tappedout.net/mtg-card/mausoleum-harpy/

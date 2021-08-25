@@ -18,11 +18,14 @@ effective_cost:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -32,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Landwalk
@@ -44,14 +47,17 @@ name: Chatterfang, Squirrel General
 power_toughness: 3/3
 printings:
 - MH2:
+    border_color: B
+    frame: m15
     name: Modern Horizons 2
     number: 151
     rarity: mythic_rare
     release_date: 2021-06-18
-    set_number: 151
     variations:
     - identifier: '316'
     - identifier: '410'
+    wizards_id: 522227
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522227
 rules: "Forestwalk *(This creature can't be blocked as long as defending player controls\
   \ a Forest.)*\r\n\r\nIf one or more tokens would be created under your control,\
   \ those tokens plus that many 1/1 green Squirrel creature tokens are created instead.\r\
@@ -64,11 +70,15 @@ subtype_tokens:
 - Warrior
 tags: card-color-green card-color-green-cost-3 card-type-creature card-type-legendary
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Squirrel 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Squirrel
+  tla: MH2
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/chatterfang-squirrel-general/

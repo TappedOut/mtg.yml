@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -45,22 +45,26 @@ mana_cost_converted: 3
 name: Tibalt, Rakish Instigator
 printings:
 - SLD:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     name: Secret Lair
     number: 515
     rarity: uncommon
     release_date: 2019-12-09
-    set_number: 515
 - WAR:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 71899
     mtgo_id: 71898
     name: War of the Spark
     number: 146
     rarity: uncommon
     release_date: 2019-05-03
-    set_number: 146
+    wizards_id: 461073
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461073
 rules: "Your opponents can't gain life.\r\n\r\n[[symbol:loyalty-minus2]]: Create a\
   \ 1/1 red Devil creature token with \"When this creature dies *(is put into the\
   \ graveyard from the battlefield)*, it deals 1 damage to target creature, player\
@@ -71,12 +75,17 @@ subtype_tokens:
 - Tibalt
 tags: card-color-red card-color-red-cost-3 card-type-legendary card-type-planeswalker
 tokens:
-- colors: R
-  name: 1/1 R Token Creature Devil
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Devil 1/1 R
   power_toughness: 1/1
-  rules: When this creature dies, it deals 1 damage to target creature, player or
-    planeswalker.
+  rules: When this creature dies *(is put into the graveyard from the battlefield,
+    tokens are put into the graveyard before ceasing to exist)*, it deals 1 damage
+    to target creature, player or planeswalker.
   subtype: Devil
+  tla: WAR
   type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/tibalt-rakish-instigator/
