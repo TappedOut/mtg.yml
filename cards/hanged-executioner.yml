@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -48,13 +48,14 @@ name: Hanged Executioner
 power_toughness: 1/1
 printings:
 - M20:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72944
     mtgo_id: 72943
     name: Core Set 2020
     number: 22
     rarity: rare
     release_date: 2019-07-12
-    set_number: 22
     variations:
     - identifier: PromoPack
     wizards_id: 466776
@@ -68,11 +69,15 @@ subtype_tokens:
 - Spirit
 tags: card-color-white card-color-white-cost-3 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: M20
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/hanged-executioner/

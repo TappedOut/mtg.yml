@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -42,13 +42,14 @@ mana_cost_converted: 6
 name: Masterful Replication
 printings:
 - M20:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 73030
     mtgo_id: 73029
     name: Core Set 2020
     number: 65
     rarity: rare
     release_date: 2019-07-12
-    set_number: 65
     variations:
     - identifier: PromoPack
     wizards_id: 466819
@@ -59,11 +60,15 @@ rules: "Choose one &mdash;\r\n\r\n- Create two 3/3 colourless Golem artifact cre
 slug: masterful-replication
 tags: card-color-blue card-color-blue-cost-6 card-type-instant
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Golem 3/3 C
   power_toughness: 3/3
   rules: ''
   subtype: Golem
+  tla: M20
   type: Token Artifact Creature
 type: Instant
 url: http://tappedout.net/mtg-card/masterful-replication/

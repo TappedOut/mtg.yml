@@ -37,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -47,13 +47,14 @@ mana_cost_converted: 6
 name: Chandra, Awakened Inferno
 printings:
 - M20:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 73154
     mtgo_id: 73153
     name: Core Set 2020
     number: 127
     rarity: mythic_rare
     release_date: 2019-07-12
-    set_number: 127
     variations:
     - identifier: PromoPack
     wizards_id: 466881
@@ -71,11 +72,15 @@ subtype_tokens:
 - Chandra
 tags: card-color-red card-color-red-cost-6 card-type-legendary card-type-planeswalker
 tokens:
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Chandra
   power_toughness: null
   rules: At the beginning of your upkeep, this Emblem deals 1 damage to you.
   subtype: Chandra
+  tla: M20
   type: Emblem
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/chandra-awakened-inferno/

@@ -37,7 +37,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -50,13 +50,14 @@ name: Kykar, Wind's Fury
 power_toughness: 3/3
 printings:
 - M20:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 73324
     mtgo_id: 73323
     name: Core Set 2020
     number: 212
     rarity: mythic_rare
     release_date: 2019-07-12
-    set_number: 212
     variations:
     - identifier: PromoPack
     wizards_id: 466966
@@ -71,11 +72,15 @@ subtype_tokens:
 tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-red card-color-white
   card-mana-red card-type-creature card-type-legendary
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: M20
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/kykar-winds-fury/

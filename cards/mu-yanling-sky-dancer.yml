@@ -36,7 +36,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -47,13 +47,14 @@ mana_cost_converted: 3
 name: Mu Yanling, Sky Dancer
 printings:
 - M20:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 73036
     mtgo_id: 73035
     name: Core Set 2020
     number: 68
     rarity: mythic_rare
     release_date: 2019-07-12
-    set_number: 68
     variations:
     - identifier: PromoPack
     wizards_id: 466822
@@ -68,17 +69,25 @@ subtype_tokens:
 - Yanling
 tags: card-color-blue card-color-blue-cost-3 card-type-legendary card-type-planeswalker
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 4/4 U Token Creature Elemental Bird
   power_toughness: 4/4
   rules: Flying
   subtype: Elemental Bird
+  tla: M20
   type: Token Creature
-- colors: C
+- cannonical_type: Emblem
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: C Emblem Yanling
   power_toughness: null
   rules: 'Islands you control have "[[symbol:T]]: Draw a card."'
   subtype: Yanling
+  tla: M20
   type: Emblem
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/mu-yanling-sky-dancer/

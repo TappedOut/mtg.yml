@@ -39,7 +39,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -51,13 +51,14 @@ mana_cost_converted: 3
 name: Chandra, Acolyte of Flame
 printings:
 - M20:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 73152
     mtgo_id: 73151
     name: Core Set 2020
     number: 126
     rarity: rare
     release_date: 2019-07-12
-    set_number: 126
     variations:
     - identifier: PromoPack
     wizards_id: 466880
@@ -74,11 +75,15 @@ subtype_tokens:
 - Chandra
 tags: card-color-red card-color-red-cost-3 card-type-legendary card-type-planeswalker
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 R Token Creature Elemental
   power_toughness: 1/1
   rules: ''
   subtype: Elemental
+  tla: M20
   type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/chandra-acolyte-of-flame/

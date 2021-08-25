@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Vigilance
@@ -41,13 +41,14 @@ name: Cavalier of Dawn
 power_toughness: 4/6
 printings:
 - M20:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72920
     mtgo_id: 72919
     name: Core Set 2020
     number: 10
     rarity: mythic_rare
     release_date: 2019-07-12
-    set_number: 10
     variations:
     - identifier: PromoPack
     wizards_id: 466764
@@ -64,11 +65,15 @@ subtype_tokens:
 - Knight
 tags: card-color-white card-color-white-cost-5 card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Golem 3/3 C
   power_toughness: 3/3
   rules: ''
   subtype: Golem
+  tla: M20
   type: Token Artifact Creature
 type: Creature
 url: http://tappedout.net/mtg-card/cavalier-of-dawn/

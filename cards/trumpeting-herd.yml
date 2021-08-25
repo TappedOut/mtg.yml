@@ -15,11 +15,14 @@ effective_cost:
 flat_cost: 4
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -30,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Exile
@@ -41,24 +44,31 @@ mana_cost_converted: 4
 name: Trumpeting Herd
 printings:
 - MH1:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 72747
     mtgo_id: 72746
     name: Modern Horizons
     number: 187
     rarity: common
     release_date: 2019-06-14
-    set_number: 187
+    wizards_id: 464136
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464136
 rules: "Create a 3/3 green Elephant creature token.\r\n\r\nRebound *(If you cast this\
   \ spell from your hand, exile it as it resolves. At the beginning of your next upkeep,\
   \ you may cast this card from exile without paying its mana cost.)*"
 slug: trumpeting-herd
 tags: card-color-green card-color-green-cost-4 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 G Token Creature Elephant
   power_toughness: 3/3
   rules: ''
   subtype: Elephant
+  tla: MH1
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/trumpeting-herd/
