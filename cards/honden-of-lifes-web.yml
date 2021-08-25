@@ -37,11 +37,15 @@ mana_cost_converted: 5
 name: Honden of Life's Web
 printings:
 - ARENA:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Arena Cards
     rarity: uncommon
     release_date: 2019-09-26
 - EMA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 60994
     mtgo_id: 60993
     name: Eternal Masters
@@ -52,6 +56,8 @@ printings:
     wizards_id: 413714
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413714
 - CHK:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 21388
     mtgo_id: 21387
     name: Champions of Kamigawa
@@ -67,11 +73,15 @@ subtype_tokens:
 - Shrine
 tags: card-color-green card-color-green-cost-5 card-type-enchantment card-type-legendary
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 C Token Creature Spirit
   power_toughness: 1/1
   rules: ''
   subtype: Spirit
+  tla: EMA
   type: Token Creature
 type: Legendary Enchantment
 url: http://tappedout.net/mtg-card/honden-of-lifes-web/

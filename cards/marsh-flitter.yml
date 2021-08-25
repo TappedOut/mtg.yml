@@ -42,6 +42,8 @@ name: Marsh Flitter
 power_toughness: 1/1
 printings:
 - ZNC:
+    border_color: B
+    frame: m15
     name: 'Zendikar Rising: Commander'
     number: 46
     rarity: uncommon
@@ -50,6 +52,8 @@ printings:
     wizards_id: 495984
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=495984
 - MMA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 48693
     mtgo_id: 48692
     name: Modern Masters
@@ -58,6 +62,8 @@ printings:
     wizards_id: 370374
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370374
 - LRW:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 28398
     mtgo_id: 28397
     name: Lorwyn
@@ -75,11 +81,15 @@ subtype_tokens:
 - Rogue
 tags: card-color-black card-color-black-cost-4 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 B Token Creature Goblin Rogue
   power_toughness: 1/1
   rules: ''
   subtype: Goblin Rogue
+  tla: ZNC
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/marsh-flitter/

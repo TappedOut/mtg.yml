@@ -41,6 +41,8 @@ mana_produced: W, U, B, R, G
 name: Forbidden Orchard
 printings:
 - C16:
+    border_color: B
+    frame: m15
     name: Commander 2016
     number: 296
     rarity: rare
@@ -49,9 +51,11 @@ printings:
     wizards_id: 420913
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420913
 - EXP:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: m15
     mtgo_foil_id: 59702
     mtgo_id: 59701
     name: Zendikar Expeditions
@@ -62,9 +66,11 @@ printings:
     wizards_id: 409570
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409570
 - V12:
+    border_color: B
     cannonical: false
     foil: foil
     foil_only: true
+    frame: modern
     mtgo_foil_id: 46245
     mtgo_id: 46244
     name: 'From the Vault: Realms'
@@ -73,6 +79,8 @@ printings:
     wizards_id: 282541
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=282541
 - CHK:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 21438
     mtgo_id: 21437
     name: Champions of Kamigawa
@@ -87,11 +95,15 @@ slug: forbidden-orchard
 tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-blue
   card-mana-green card-mana-red card-mana-white card-type-land
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 C Token Creature Spirit
   power_toughness: 1/1
   rules: ''
   subtype: Spirit
+  tla: C16
   type: Token Creature
 type: Land
 url: http://tappedout.net/mtg-card/forbidden-orchard/
