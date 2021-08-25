@@ -23,7 +23,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -33,13 +33,16 @@ name: Keeper of the Accord
 power_toughness: 3/4
 printings:
 - CMR:
+    border_color: B
+    frame: m15
     name: Commander Legends
     number: 27
     rarity: rare
     release_date: 2020-11-20
-    set_number: 27
     variations:
     - identifier: '621'
+    wizards_id: 497547
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497547
 rules: "At the beginning of each opponent's end step, if that player controls more\
   \ creatures than you, create a 1/1 white Soldier creature token.\r\n\r\nAt the beginning\
   \ of each opponent's end step, if that player controls more lands than you, you\
@@ -52,11 +55,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W
   power_toughness: 1/1
   rules: ''
   subtype: Soldier
+  tla: CMR
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/keeper-of-the-accord/

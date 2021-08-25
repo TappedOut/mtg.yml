@@ -32,7 +32,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -44,18 +44,22 @@ name: Sethron, Hurloon General
 power_toughness: 4/4
 printings:
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 25
     rarity: rare
     release_date: 2020-07-17
-    set_number: 25
+    wizards_id: 489192
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489192
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: rare
     release_date: 1990-04-15
-    set_number: 1
 rules: "Whenever Sethron, Hurloon General or another nontoken Minotaur enters the\
   \ battlefield under your control, create a 2/3 red Minotaur creature token.\r\n\r\
   \n[[symbol:2]][[symbol:BR]]: Minotaurs you control get +1/+0 and gain menace and\
@@ -68,11 +72,15 @@ subtype_tokens:
 - Warrior
 tags: card-color-red card-color-red-cost-5 card-type-creature card-type-legendary
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/3 R Token Creature Minotaur
   power_toughness: 2/3
   rules: ''
   subtype: Minotaur
+  tla: JMP
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/sethron-hurloon-general/

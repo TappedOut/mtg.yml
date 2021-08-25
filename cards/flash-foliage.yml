@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Flash
@@ -39,9 +39,12 @@ mana_cost_converted: 3
 name: Flash Foliage
 printings:
 - DIS:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 24102
     mtgo_id: 24101
     name: Dissension
+    number: 85
     rarity: uncommon
     release_date: 2006-05-05
     wizards_id: 107264
@@ -52,11 +55,15 @@ rules: "Play Flash Foliage only during combat after blockers are declared.\r\n\r
 slug: flash-foliage
 tags: card-color-green card-color-green-cost-3 card-type-instant
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: DIS
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/flash-foliage/

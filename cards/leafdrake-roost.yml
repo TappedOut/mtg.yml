@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: CM1
+cannonical_set: C13
 cannonical_type: Enchantment
 companions:
 - Jegantha, the Wellspring
@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Enchant
@@ -39,10 +39,15 @@ name: Leafdrake Roost
 printings:
 - CM1:
     booster_exclude: true
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Commander Anthology
     rarity: uncommon
     release_date: 2017-06-09
 - C13:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 51497
     mtgo_id: 51496
     name: Commander 2013
@@ -51,6 +56,8 @@ printings:
     wizards_id: 376397
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376397
 - DIS:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 24290
     mtgo_id: 24289
     name: Dissension
@@ -66,11 +73,15 @@ subtype_tokens:
 - Aura
 tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-green card-type-enchantment
 tokens:
-- colors: GU
+- cannonical_type: Creature
+  colors: GU
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 GU Token Creature Drake
   power_toughness: 2/2
   rules: Flying
   subtype: Drake
+  tla: C13
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/leafdrake-roost/

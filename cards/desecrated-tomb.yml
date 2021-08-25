@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -40,34 +40,40 @@ mana_cost_converted: 3
 name: Desecrated Tomb
 printings:
 - M19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 68624
     mtgo_id: 68623
     name: Core Set 2019
     number: 230
     rarity: rare
     release_date: 2018-07-13
-    set_number: 230
     variations:
     - identifier: '230'
     wizards_id: 447367
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447367
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 230
     rarity: rare
     release_date: 1990-04-15
-    set_number: 230
 rules: Whenever one or more creatures cards leave your graveyard, create a 1/1 black
   Bat creature token with flying.
 slug: desecrated-tomb
 tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 B Token Creature Bat
   power_toughness: 1/1
   rules: Flying
   subtype: Bat
+  tla: M19
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/desecrated-tomb/

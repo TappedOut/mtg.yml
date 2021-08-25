@@ -32,20 +32,21 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 mana_cost: GG
 mana_cost_converted: 2
 name: Rhonas's Last Stand
 printings:
 - HOU:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 64749
     mtgo_id: 64748
     name: Hour of Devastation
     number: 132
     rarity: rare
     release_date: 2017-07-14
-    set_number: 132
     wizards_id: 430821
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430821
 rules: Create a 5/4 green Snake creature token. Lands you control don't untap during
@@ -53,11 +54,15 @@ rules: Create a 5/4 green Snake creature token. Lands you control don't untap du
 slug: rhonass-last-stand
 tags: card-color-green card-color-green-cost-2 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 5/4 G Token Creature Snake
   power_toughness: 5/4
   rules: ''
   subtype: Snake
+  tla: HOU
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/rhonass-last-stand/

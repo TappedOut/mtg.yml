@@ -44,7 +44,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Attach
@@ -55,14 +55,17 @@ mana_cost_converted: 4
 name: Nahiri, Heir of the Ancients
 printings:
 - ZNR:
+    border_color: B
+    frame: m15
     name: Zendikar Rising
     number: 230
     rarity: mythic_rare
     release_date: 2020-09-25
-    set_number: 230
     variations:
     - identifier: '282'
     - identifier: PromoPack
+    wizards_id: 491881
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=491881
 rules: "[[symbol:loyalty-plus1]]: Create a 1/1 white Kor Warrior creature token. You\
   \ may attach an Equipment you control to it.\r\n\r\n[[symbol:loyalty-minus2]]: Look\
   \ at the top six cards of your library. You may reveal a Warrior or Equipment card\
@@ -77,11 +80,15 @@ subtype_tokens:
 tags: card-color-gold card-color-gold-cost-4 card-color-red card-color-white card-type-legendary
   card-type-planeswalker
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Kor Warrior
   power_toughness: 1/1
   rules: ''
   subtype: Kor Warrior
+  tla: ZNR
   type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/nahiri-heir-of-the-ancients/

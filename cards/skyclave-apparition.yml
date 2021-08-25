@@ -33,7 +33,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
@@ -44,14 +44,17 @@ name: Skyclave Apparition
 power_toughness: 2/2
 printings:
 - ZNR:
+    border_color: B
+    frame: m15
     name: Zendikar Rising
     number: 39
     rarity: rare
     release_date: 2020-09-25
-    set_number: 39
     variations:
     - identifier: '322'
     - identifier: PromoPack
+    wizards_id: 491665
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=491665
 rules: "When Skyclave Apparition enters the battlefield, exile up ton one target nonland,\
   \ nontoken permanent you don't control with converted mana cost 4 or less.\r\n\r\
   \nWhen Skyclave Apparition leaves the battlefield, the exiled card's owner creates\
@@ -68,11 +71,15 @@ synonyms:
 - Skyclave Aparition
 tags: card-color-white card-color-white-cost-3 card-type-creature
 tokens:
-- colors: U
-  name: '*/* U Token Creature Illusion'
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Illusion */* U
   power_toughness: '*/*'
   rules: ''
   subtype: Illusion
+  tla: ZNR
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/skyclave-apparition/

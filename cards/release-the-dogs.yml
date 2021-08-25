@@ -29,7 +29,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -38,20 +38,27 @@ mana_cost_converted: 4
 name: Release the Dogs
 printings:
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 4
     rarity: uncommon
     release_date: 2020-07-17
-    set_number: 4
+    wizards_id: 489171
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489171
 rules: Create four 1/1 white Dog creature tokens.
 slug: release-the-dogs
 tags: card-color-white card-color-white-cost-4 card-type-sorcery
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Dog
   power_toughness: 1/1
   rules: ''
   subtype: Dog
+  tla: JMP
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/release-the-dogs/
