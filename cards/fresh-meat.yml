@@ -29,26 +29,34 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 mana_cost: 3G
 mana_cost_converted: 4
 name: Fresh Meat
 printings:
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77447
     mtgo_id: 77446
     name: Commander 2019
     number: 166
     rarity: rare
     release_date: 2019-08-23
-    set_number: 166
+    wizards_id: 470712
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470712
 - CM1:
     booster_exclude: true
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Commander Anthology
     rarity: rare
     release_date: 2017-06-09
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 54946
     mtgo_id: 54945
     name: Commander 2014
@@ -57,13 +65,14 @@ printings:
     wizards_id: 389529
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389529
 - NPH:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 39841
     mtgo_id: 39840
     name: New Phyrexia
     number: 109
     rarity: rare
     release_date: 2011-05-13
-    set_number: 109
     wizards_id: 218051
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=218051
 rules: Create a 3/3 green Beast creature token for each creature put into your graveyard
@@ -71,11 +80,15 @@ rules: Create a 3/3 green Beast creature token for each creature put into your g
 slug: fresh-meat
 tags: card-color-green card-color-green-cost-4 card-type-instant
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Beast 3/3 G
   power_toughness: 3/3
   rules: ''
   subtype: Beast
+  tla: C19
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/fresh-meat/

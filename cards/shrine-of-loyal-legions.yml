@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -39,18 +39,22 @@ mana_cost_converted: 2
 name: Shrine of Loyal Legions
 printings:
 - MD1:
+    border_color: B
     cannonical: false
+    frame: modern
     name: Modern Event Deck
     number: 5
     rarity: uncommon
     release_date: 2014-05-30
-    set_number: 5
     wizards_id: 382196
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382196
 - NPH:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 39699
     mtgo_id: 39698
     name: New Phyrexia
+    number: 155
     rarity: uncommon
     release_date: 2011-05-13
     wizards_id: 206347
@@ -62,11 +66,15 @@ rules: "At the beginning of your upkeep or whenever you cast a white spell, put 
 slug: shrine-of-loyal-legions
 tags: card-color-colorless card-color-colorless-cost-2 card-type-artifact
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Myr 1/1 C
   power_toughness: 1/1
   rules: ''
   subtype: Myr
+  tla: NPH
   type: Token Artifact Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/shrine-of-loyal-legions/
