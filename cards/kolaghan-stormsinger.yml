@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -44,13 +44,14 @@ name: Kolaghan Stormsinger
 power_toughness: 1/1
 printings:
 - DTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55981
     mtgo_id: 55980
     name: Dragons of Tarkir
     number: 145
     rarity: common
     release_date: 2015-03-27
-    set_number: 145
     wizards_id: 394612
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394612
 rules: "Haste\r\n\r\nMegamorph {R} (You may cast this card face down as a 2/2 creature\
@@ -64,12 +65,15 @@ subtype_tokens:
 - Shaman
 tags: card-color-red card-color-red-cost-1 card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: DTK
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/kolaghan-stormsinger/

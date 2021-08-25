@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -42,13 +42,14 @@ name: Segmented Krotiq
 power_toughness: 6/5
 printings:
 - DTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 56141
     mtgo_id: 56140
     name: Dragons of Tarkir
     number: 202
     rarity: common
     release_date: 2015-03-27
-    set_number: 202
     wizards_id: 394684
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394684
 rules: Megamorph {6}{G} (You may cast this card face down as a 2/2 creature for {3}.
@@ -59,12 +60,15 @@ subtype_tokens:
 - Insect
 tags: card-color-green card-color-green-cost-6 card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: DTK
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/segmented-krotiq/

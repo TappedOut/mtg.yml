@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counterspell
@@ -42,13 +42,14 @@ name: Silumgar Spell-Eater
 power_toughness: 2/3
 printings:
 - DTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 56359
     mtgo_id: 56358
     name: Dragons of Tarkir
     number: 77
     rarity: uncommon
     release_date: 2015-03-27
-    set_number: 77
     wizards_id: 394704
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394704
 rules: "Megamorph 4U (You may cast this card face-down as a 2/2 creature for 3. Turn\
@@ -62,12 +63,15 @@ subtype_tokens:
 - Wizard
 tags: card-color-blue card-color-blue-cost-3 card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Morph
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Morph 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
     \ with morph can be turned face up at any time for its morph cost.*"
-  subtype: Morph
+  tla: DTK
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/silumgar-spell-eater/

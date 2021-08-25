@@ -29,7 +29,7 @@ formats:
 - Tiny Leaders
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -39,22 +39,28 @@ name: Brindle Shoat
 power_toughness: 1/1
 printings:
 - JMP:
+    border_color: B
+    frame: m15
     name: Jumpstart
     number: 380
     rarity: uncommon
     release_date: 2020-07-17
-    set_number: 380
+    wizards_id: 489363
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489363
 - PCA:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Planechase Anthology
     number: 60
     rarity: uncommon
     release_date: 2016-11-25
-    set_number: 60
     wizards_id: 423485
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423485
 - VMA:
+    border_color: B
     cannonical: false
+    frame: modern
     mtgo_foil_id: 53012
     mtgo_id: 53011
     name: Vintage Masters
@@ -63,6 +69,8 @@ printings:
     wizards_id: 382874
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382874
 - PC2:
+    border_color: B
+    frame: modern
     mtgo_id: 45050
     name: Planechase 2012 Edition
     rarity: uncommon
@@ -77,11 +85,15 @@ subtype_tokens:
 - Boar
 tags: card-color-green card-color-green-cost-2 card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 G Token Creature Boar
   power_toughness: 3/3
   rules: ''
   subtype: Boar
+  tla: JMP
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/brindle-shoat/

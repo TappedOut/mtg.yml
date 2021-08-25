@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -39,21 +39,25 @@ mana_cost_converted: 4
 name: Skywise Teachings
 printings:
 - IMA:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 66026
     mtgo_id: 66025
     name: Iconic Masters
+    number: 73
     rarity: uncommon
     release_date: 2017-11-17
     wizards_id: 438639
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438639
 - DTK:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 56171
     mtgo_id: 56170
     name: Dragons of Tarkir
     number: 79
     rarity: uncommon
     release_date: 2015-03-27
-    set_number: 79
     wizards_id: 394707
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394707
 rules: Whenever you cast a noncreature spell, you pay pay 1U. If you do, put a 2/2
@@ -61,11 +65,15 @@ rules: Whenever you cast a noncreature spell, you pay pay 1U. If you do, put a 2
 slug: skywise-teachings
 tags: card-color-blue card-color-blue-cost-4 card-type-enchantment
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 U Token Creature Djinn Monk
   power_toughness: 2/2
   rules: Flying
   subtype: Djinn Monk
+  tla: IMA
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/skywise-teachings/

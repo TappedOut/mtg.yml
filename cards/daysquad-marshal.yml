@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -45,13 +45,16 @@ name: Daysquad Marshal
 power_toughness: 3/3
 printings:
 - IKO:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 80026
     mtgo_id: 80025
     name: 'Ikoria: Lair of Behemoths'
     number: 8
     rarity: common
     release_date: 2020-04-15
-    set_number: 8
+    wizards_id: 479528
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479528
 rules: When Daysquad Marshal enters the battlefield, create a 1/1 white Human Soldier
   creature token.
 slug: daysquad-marshal
@@ -61,11 +64,15 @@ subtype_tokens:
 - Soldier
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Human
   power_toughness: 1/1
   rules: ''
   subtype: Human
+  tla: IKO
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/daysquad-marshal/

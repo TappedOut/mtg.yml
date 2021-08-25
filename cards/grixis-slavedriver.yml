@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -48,21 +48,26 @@ name: Grixis Slavedriver
 power_toughness: 4/4
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - MM3:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 63168
     mtgo_id: 63167
     name: Modern Masters 2017 Edition
     number: 74
     rarity: common
     release_date: 2017-03-17
-    set_number: 74
     wizards_id: 425899
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425899
 - CON:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 31700
     mtgo_id: 31699
     name: Conflux
@@ -81,11 +86,15 @@ subtype_tokens:
 - Giant
 tags: card-color-black card-color-black-cost-6 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: MM3
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/grixis-slavedriver/

@@ -23,7 +23,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Reach
@@ -33,32 +33,37 @@ name: Dragonlair Spider
 power_toughness: 5/6
 printings:
 - PCA:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Planechase Anthology
     number: 87
     rarity: rare
     release_date: 2016-11-25
-    set_number: 87
     wizards_id: 423512
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423512
 - CN2:
+    border_color: B
+    frame: m15
     name: 'Conspiracy: Take the Crown'
     number: 201
     rarity: rare
     release_date: 2016-08-26
-    set_number: 201
     wizards_id: 416958
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416958
 - CMA:
-    cannonical: false
+    border_color: B
     foil: foil
     foil_only: true
+    frame: modern
     name: Commander's Arsenal
     rarity: rare
     release_date: 2012-11-02
     wizards_id: 338446
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=338446
 - PC2:
+    border_color: B
+    frame: modern
     mtgo_id: 45074
     name: Planechase 2012 Edition
     rarity: rare
@@ -73,11 +78,15 @@ subtype_tokens:
 - Spider
 tags: card-color-gold card-color-gold-cost-6 card-color-green card-color-red card-type-creature
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Insect 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Insect
+  tla: CN2
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/dragonlair-spider/
