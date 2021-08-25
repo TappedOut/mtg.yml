@@ -32,7 +32,9 @@ mana_cost_converted: 3
 name: Tibalt the Chaotic
 printings:
 - MYSCON:
+    border_color: B
     cannonical: false
+    frame: m15
     name: 'Mystery Booster: Convention Edition'
     number: 66
     rarity: rare
@@ -56,18 +58,27 @@ subtype_tokens:
 - Tibalt
 tags: card-color-red card-color-red-cost-3 card-type-legendary card-type-planeswalker
 tokens:
-- colors: R
-  name: 1/1 R Token Creature Devil
-  power_toughness: 1/1
-  rules: When this creature dies, it deals 1 damage to target creature, player or
-    planeswalker.
-  subtype: Devil
-  type: Token Creature
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 4/4 R Token Creature Hellion
   power_toughness: 4/4
   rules: ''
   subtype: Hellion
+  tla: MYSCON
+  type: Token Creature
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Devil 1/1 R
+  power_toughness: 1/1
+  rules: When this creature dies *(is put into the graveyard from the battlefield,
+    tokens are put into the graveyard before ceasing to exist)*, it deals 1 damage
+    to target creature, player or planeswalker.
+  subtype: Devil
+  tla: MYSCON
   type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/tibalt-the-chaotic/
