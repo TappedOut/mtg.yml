@@ -26,7 +26,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -38,20 +38,27 @@ name: Dragon Broodmother
 power_toughness: 4/4
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: mythic_rare
     release_date: 2020-03-14
 - ARB:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 32487
     mtgo_id: 32486
     name: Alara Reborn
+    number: 53
     rarity: mythic_rare
     release_date: 2009-04-30
     wizards_id: 189648
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=189648
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     rarity: mythic_rare
     release_date: 1990-04-15
@@ -65,13 +72,17 @@ subtype_tokens:
 - Dragon
 tags: card-color-gold card-color-gold-cost-6 card-color-green card-color-red card-type-creature
 tokens:
-- colors: RG
+- cannonical_type: Creature
+  colors: RG
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 RG Token Creature Dragon
   power_toughness: 1/1
   rules: "Flying\r\n\r\nDevour 2 *(As this creature enters the battlefield, you may\
     \ sacrifice any number of creatures. It enters the battlefield with twice that\
     \ many +1/+1 counters on it.)*"
   subtype: Dragon
+  tla: ARB
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/dragon-broodmother/

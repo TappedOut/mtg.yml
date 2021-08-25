@@ -31,7 +31,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -41,11 +41,14 @@ name: Chrome Replicator
 power_toughness: 4/4
 printings:
 - M21:
+    border_color: B
+    frame: m15
     name: Core Set 2021
     number: 229
     rarity: uncommon
     release_date: 2020-07-03
-    set_number: 229
+    wizards_id: 485552
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485552
 rules: When Chrome Replicator enters the battlefield, if you control two or more nonland,
   nontoken permanents with the same name as one another, create a 4/4 colourless Construct
   artifact creature token.
@@ -55,11 +58,15 @@ subtype_tokens:
 - Construct
 tags: card-color-colorless card-color-colorless-cost-5 card-type-artifact card-type-creature
 tokens:
-- colors: C
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 4/4 C Token Artifact Creature Construct
   power_toughness: 4/4
   rules: ''
   subtype: Construct
+  tla: M21
   type: Token Artifact Creature
 type: Artifact Creature
 url: http://tappedout.net/mtg-card/chrome-replicator/

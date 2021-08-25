@@ -35,7 +35,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Counterspell
@@ -44,11 +44,12 @@ mana_cost_converted: 6
 name: Sublime Epiphany
 printings:
 - M21:
+    border_color: B
+    frame: m15
     name: Core Set 2021
     number: 74
     rarity: rare
     release_date: 2020-07-03
-    set_number: 74
     variations:
     - identifier: '355'
     - identifier: PromoPack
@@ -62,11 +63,14 @@ rules: "Choose one or more *(Remember that the modes you choose resolve in the o
 slug: sublime-epiphany
 tags: card-color-blue card-color-blue-cost-6 card-type-instant
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: M21
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/sublime-epiphany/

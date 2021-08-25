@@ -38,7 +38,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Exile
@@ -48,21 +48,28 @@ mana_cost_converted: 5
 name: Secure the Scene
 printings:
 - M21:
+    border_color: B
+    frame: m15
     name: Core Set 2021
     number: 35
     rarity: common
     release_date: 2020-07-03
-    set_number: 35
+    wizards_id: 485358
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485358
 rules: Exile target nonland permanent. Its controller creates a 1/1 white Soldier
   creature token.
 slug: secure-the-scene
 tags: card-color-white card-color-white-cost-5 card-type-sorcery
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Soldier 1/1 W
   power_toughness: 1/1
   rules: ''
   subtype: Soldier
+  tla: M21
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/secure-the-scene/

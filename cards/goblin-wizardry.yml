@@ -38,7 +38,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Prowess
@@ -48,22 +48,29 @@ mana_cost_converted: 4
 name: Goblin Wizardry
 printings:
 - M21:
+    border_color: B
+    frame: m15
     name: Core Set 2021
     number: 148
     rarity: common
     release_date: 2020-07-03
-    set_number: 148
+    wizards_id: 485471
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485471
 rules: Create two 1/1 red Goblin Wizard creature tokens with prowess. *(Whenever you
   cast a noncreature spell, they get +1/+1 until end of turn.)*
 slug: goblin-wizardry
 tags: card-color-red card-color-red-cost-4 card-type-instant
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 R Token Creature Goblin Wizard
   power_toughness: 1/1
   rules: Prowess *(Whenever you cast a noncreature spell, this gets +1/+1 until end
     of turn.)*
   subtype: Goblin Wizard
+  tla: M21
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/goblin-wizardry/
