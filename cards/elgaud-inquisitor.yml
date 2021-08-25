@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -39,9 +39,12 @@ name: Elgaud Inquisitor
 power_toughness: 2/2
 printings:
 - DKA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 43256
     mtgo_id: 43255
     name: Dark Ascension
+    number: 6
     rarity: common
     release_date: 2012-02-03
     wizards_id: 245219
@@ -56,11 +59,15 @@ subtype_tokens:
 - Cleric
 tags: card-color-white card-color-white-cost-4 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: DKA
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/elgaud-inquisitor/

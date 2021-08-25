@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Retrace
@@ -39,22 +39,26 @@ mana_cost_converted: 5
 name: Worm Harvest
 printings:
 - C18:
+    border_color: B
+    frame: m15
     name: Commander 2018
     number: 194
     rarity: rare
     release_date: 2018-08-10
-    set_number: 194
     wizards_id: 451149
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451149
 - C16:
+    border_color: B
+    frame: m15
     name: Commander 2016
     number: 238
     rarity: rare
     release_date: 2016-11-11
-    set_number: 238
     wizards_id: 420855
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420855
 - MMA:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 48779
     mtgo_id: 48778
     name: Modern Masters
@@ -63,6 +67,8 @@ printings:
     wizards_id: 370532
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370532
 - EVE:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 30001
     mtgo_id: 30000
     name: Eventide
@@ -76,11 +82,15 @@ rules: "Create a 1/1 black and green Worm creature token for each land card in y
 slug: worm-harvest
 tags: card-color-black card-color-gold card-color-gold-cost-5 card-color-green card-type-sorcery
 tokens:
-- colors: BG
+- cannonical_type: Creature
+  colors: BG
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 BG Token Creature Worm
   power_toughness: 1/1
   rules: ''
   subtype: Worm
+  tla: C18
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/worm-harvest/

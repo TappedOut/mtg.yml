@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -40,24 +40,28 @@ name: Ib Halfheart, Goblin Tactician
 power_toughness: 3/2
 printings:
 - DD3:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Duel Decks Anthology
     number: 43
     rarity: rare
     release_date: 2014-12-05
-    set_number: 43
     wizards_id: 393968
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393968
 - EVG:
+    border_color: B
+    frame: modern
     mtgo_id: 28937
     name: 'Duel Decks: Elves vs. Goblins'
     number: 43
     rarity: rare
     release_date: 2007-11-16
-    set_number: 43
-    wizards_id: 157923
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=157923
+    wizards_id: 393968
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393968
 - TSP:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 25700
     mtgo_id: 25699
     name: Time Spiral
@@ -75,11 +79,15 @@ subtype_tokens:
 - Advisor
 tags: card-color-red card-color-red-cost-4 card-type-creature card-type-legendary
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: EVG
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/ib-halfheart-goblin-tactician/

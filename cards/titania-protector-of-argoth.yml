@@ -13,11 +13,14 @@ effective_cost:
 flat_cost: 5
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -26,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -42,7 +45,6 @@ printings:
     number: 287
     rarity: mythic_rare
     release_date: 2021-06-18
-    set_number: 287
     variations:
     - identifier: '319'
     - identifier: '416'
@@ -65,7 +67,6 @@ printings:
     number: 50
     rarity: mythic_rare
     release_date: 2014-11-21
-    set_number: 50
     variations:
     - identifier: null
     - identifier: null
@@ -80,11 +81,15 @@ subtype_tokens:
 - Elemental
 tags: card-color-green card-color-green-cost-5 card-type-creature card-type-legendary
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Elemental 5/3 G
   power_toughness: 5/3
   rules: ''
   subtype: Elemental
+  tla: MH2
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/titania-protector-of-argoth/

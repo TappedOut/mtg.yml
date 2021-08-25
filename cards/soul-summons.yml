@@ -32,7 +32,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Manifest
@@ -41,22 +41,27 @@ mana_cost_converted: 2
 name: Soul Summons
 printings:
 - MYS1:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: common
     release_date: 2020-03-14
 - FRF:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55369
     mtgo_id: 55368
     name: Fate Reforged
     number: 26
     rarity: common
     release_date: 2015-01-23
-    set_number: 26
     wizards_id: 391926
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=391926
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     rarity: common
     release_date: 1990-04-15
@@ -65,13 +70,16 @@ rules: Manifest the top card of your library. *(Put it onto the battlefield as a
 slug: soul-summons
 tags: card-color-white card-color-white-cost-2 card-type-sorcery
 tokens:
-- colors: C
-  name: 2/2 C Creature Manifest
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Manifest 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down manifested creature with this reminder card.\r\
     \n\r\nA manifested creature card can be turned face up at any time for its mana\
     \ cost. A face-down card can also be turned face up for its morph cost."
-  subtype: Manifest
+  tla: FRF
   type: Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/soul-summons/

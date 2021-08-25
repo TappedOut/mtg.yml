@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -40,9 +40,12 @@ mana_cost_converted: 4
 name: Wand of the Elements
 printings:
 - DST:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 20582
     mtgo_id: 20581
     name: Darksteel
+    number: 158
     rarity: rare
     release_date: 2004-02-06
     wizards_id: 49775
@@ -53,17 +56,25 @@ rules: "Tap, Sacrifice an Island: Put a 2/2 blue Elemental creature token with f
 slug: wand-of-the-elements
 tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 3/3 R Token Creature Elemental
   power_toughness: 3/3
   rules: ''
   subtype: Elemental
+  tla: DST
   type: Token Creature
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/2 U Token Creature Elemental
   power_toughness: 2/2
   rules: Flying
   subtype: Elemental
+  tla: DST
   type: Token Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/wand-of-the-elements/

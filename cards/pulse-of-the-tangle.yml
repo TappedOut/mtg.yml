@@ -29,16 +29,19 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 mana_cost: 1GG
 mana_cost_converted: 3
 name: Pulse of the Tangle
 printings:
 - DST:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 20484
     mtgo_id: 20483
     name: Darksteel
+    number: 80
     rarity: rare
     release_date: 2004-02-06
     wizards_id: 39690
@@ -48,11 +51,15 @@ rules: Put a 3/3 green Beast creature token into play. Then if an opponent contr
 slug: pulse-of-the-tangle
 tags: card-color-green card-color-green-cost-3 card-type-sorcery
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Beast 3/3 G
   power_toughness: 3/3
   rules: ''
   subtype: Beast
+  tla: DST
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/pulse-of-the-tangle/

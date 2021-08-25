@@ -29,7 +29,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Tokens
@@ -38,32 +38,37 @@ mana_cost_converted: 6
 name: Supplant Form
 printings:
 - FRF:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55653
     mtgo_id: 55652
     name: Fate Reforged
     number: 54
     rarity: rare
     release_date: 2015-01-23
-    set_number: 54
     wizards_id: 391933
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=391933
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 54
     rarity: rare
     release_date: 1990-04-15
-    set_number: 54
 rules: Return target creature to its owner's hand. You put a token onto the battlefield
   that's a copy of that creature.
 slug: supplant-form
 tags: card-color-blue card-color-blue-cost-6 card-type-instant
 tokens:
-- colors: null
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  subtype: Copy Clone
+  tla: FRF
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/supplant-form/

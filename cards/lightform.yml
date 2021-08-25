@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: MYS1
+cannonical_set: C18
 cannonical_type: Enchantment
 companions:
 - Kaheera, the Orphanguard
@@ -28,7 +28,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Enchant
@@ -41,25 +41,30 @@ mana_cost_converted: 3
 name: Lightform
 printings:
 - MYS1:
+    border_color: B
+    cannonical: false
+    frame: m15
     name: Mystery Booster
     rarity: uncommon
     release_date: 2020-03-14
 - C18:
+    border_color: B
+    frame: m15
     name: Commander 2018
     number: 68
     rarity: uncommon
     release_date: 2018-08-10
-    set_number: 68
     wizards_id: 451023
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451023
 - FRF:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55647
     mtgo_id: 55646
     name: Fate Reforged
     number: 16
     rarity: uncommon
     release_date: 2015-01-23
-    set_number: 16
     wizards_id: 391867
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=391867
 rules: "When Lightform enters the battlefield, it becomes an Aura with enchant creature.\
@@ -70,13 +75,16 @@ rules: "When Lightform enters the battlefield, it becomes an Aura with enchant c
 slug: lightform
 tags: card-color-white card-color-white-cost-3 card-type-enchantment
 tokens:
-- colors: C
-  name: 2/2 C Creature Manifest
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Manifest 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down manifested creature with this reminder card.\r\
     \n\r\nA manifested creature card can be turned face up at any time for its mana\
     \ cost. A face-down card can also be turned face up for its morph cost."
-  subtype: Manifest
+  tla: C18
   type: Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/lightform/

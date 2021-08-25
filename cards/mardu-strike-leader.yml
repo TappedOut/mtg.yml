@@ -30,7 +30,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
@@ -42,13 +42,14 @@ name: Mardu Strike Leader
 power_toughness: 3/2
 printings:
 - FRF:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55643
     mtgo_id: 55642
     name: Fate Reforged
     number: 75
     rarity: rare
     release_date: 2015-01-23
-    set_number: 75
     wizards_id: 391876
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=391876
 rules: "Whenever Mardu Strike Leader attacks, put a 2/1 black Warrior creature token\
@@ -62,11 +63,15 @@ subtype_tokens:
 - Warrior
 tags: card-color-black card-color-black-cost-3 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 2/1 B Token Creature Warrior
   power_toughness: 2/1
   rules: ''
   subtype: Warrior
+  tla: FRF
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/mardu-strike-leader/

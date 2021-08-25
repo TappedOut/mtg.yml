@@ -22,7 +22,7 @@ formats:
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
@@ -33,29 +33,34 @@ name: Overseer of the Damned
 power_toughness: 5/5
 printings:
 - C19:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 77365
     mtgo_id: 77364
     name: Commander 2019
     number: 125
     rarity: rare
     release_date: 2019-08-23
-    set_number: 125
+    wizards_id: 470671
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470671
 - E01:
+    border_color: B
+    frame: m15
     name: 'Archenemy: Nicol Bolas'
     number: 36
     rarity: rare
     release_date: 2017-06-16
-    set_number: 36
     wizards_id: 430575
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430575
 - C14:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55136
     mtgo_id: 55135
     name: Commander 2014
     number: 28
     rarity: rare
     release_date: 2014-11-21
-    set_number: 28
     wizards_id: 389622
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389622
 rules: "Flying\r\n\r\nWhen Overseer of the Damned enters the battlefield, you may\
@@ -68,11 +73,15 @@ subtype_tokens:
 - Demon
 tags: card-color-black card-color-black-cost-7 card-type-creature
 tokens:
-- colors: B
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Zombie 2/2 B
   power_toughness: 2/2
   rules: ''
   subtype: Zombie
+  tla: C19
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/overseer-of-the-damned/

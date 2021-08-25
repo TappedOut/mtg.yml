@@ -26,7 +26,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Fight
@@ -37,22 +37,24 @@ name: Temur War Shaman
 power_toughness: 4/5
 printings:
 - FRF:
+    border_color: B
+    frame: m15
     mtgo_foil_id: 55677
     mtgo_id: 55676
     name: Fate Reforged
     number: 142
     rarity: rare
     release_date: 2015-01-23
-    set_number: 142
     wizards_id: 391943
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=391943
 - '000':
+    border_color: B
     cannonical: false
+    frame: original
     name: Promo Set
     number: 1
     rarity: rare
     release_date: 1990-04-15
-    set_number: 1
 rules: "When Temur War Shaman enters the battlefield, manifest the top card of your\
   \ library. *(Put that card onto the battlefield face down as a 2/2 creature. Turn\
   \ it face up any time for its mana cost if it's a creature card.)*\r\n\r\nWhenever\
@@ -65,13 +67,16 @@ subtype_tokens:
 - Shaman
 tags: card-color-green card-color-green-cost-6 card-type-creature
 tokens:
-- colors: C
-  name: 2/2 C Creature Manifest
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Manifest 2/2 C
   power_toughness: 2/2
   rules: "*You can cover a face-down manifested creature with this reminder card.\r\
     \n\r\nA manifested creature card can be turned face up at any time for its mana\
     \ cost. A face-down card can also be turned face up for its morph cost."
-  subtype: Manifest
+  tla: FRF
   type: Creature
 type: Creature
 url: http://tappedout.net/mtg-card/temur-war-shaman/

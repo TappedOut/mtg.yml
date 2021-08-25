@@ -3,7 +3,7 @@ activated_abilities:
 activation_costs:
 - W
 canadian_hl_score: 0
-cannonical_set: TSP
+cannonical_set: UMA
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
@@ -34,7 +34,7 @@ formats:
 - Unformat
 - Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -44,15 +44,19 @@ name: Icatian Crier
 power_toughness: 1/1
 printings:
 - UMA:
-    cannonical: false
+    border_color: B
+    frame: m15
     mtgo_foil_id: 70118
     mtgo_id: 70117
     name: Ultimate Masters
     number: 22
     rarity: common
     release_date: 2018-12-07
-    set_number: 22
+    wizards_id: 456618
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456618
 - TSP:
+    border_color: B
+    frame: modern
     mtgo_foil_id: 25464
     mtgo_id: 25463
     name: Time Spiral
@@ -69,11 +73,15 @@ subtype_tokens:
 - Spellshaper
 tags: card-color-white card-color-white-cost-3 card-type-creature
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 W Token Creature Citizen
   power_toughness: 1/1
   rules: ''
   subtype: Citizen
+  tla: UMA
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/icatian-crier/
