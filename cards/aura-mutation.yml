@@ -24,6 +24,7 @@ formats:
 - Leviathan
 - Limited
 - Oathbreaker
+- Premodern
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -37,6 +38,8 @@ mana_cost_converted: 2
 name: Aura Mutation
 printings:
 - C16:
+    border_color: B
+    frame: m15
     name: Commander 2016
     number: 180
     rarity: rare
@@ -45,6 +48,8 @@ printings:
     wizards_id: 420797
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420797
 - INV:
+    border_color: B
+    frame: original
     mtgo_foil_id: 14576
     mtgo_id: 14575
     name: Invasion
@@ -57,11 +62,15 @@ rules: Destroy target enchantment. Create X 1/1 green Saproling creature tokens,
 slug: aura-mutation
 tags: card-color-gold card-color-gold-cost-2 card-color-green card-color-white card-type-instant
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Saproling 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
+  tla: C16
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/aura-mutation/
