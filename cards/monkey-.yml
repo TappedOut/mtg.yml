@@ -1,6 +1,6 @@
 activated_abilities:
-- 'Augment {2}{G} ({2}{G}, Reveal this card from your hand: Combine it with target  host.
-  Augment only as a sorcery.)'
+- 'Augment  *(, Reveal this card from your hand: Combine this with target host. Augment
+  only as a sorcery.)'
 activation_costs:
 - G
 canadian_hl_score: 0
@@ -14,31 +14,38 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+effective_cost:
+- G
 flat_cost: 0
 formats:
 - Limited
 - Unformat
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
+keywords:
+- Augment
 mana_cost_converted: 0
 name: Monkey-
 power_toughness: +2/+2
 printings:
 - UN3:
+    border_color: S
+    frame: m15
     name: Unstable
+    number: 115
     rarity: uncommon
     release_date: 2017-12-08
     wizards_id: 439504
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439504
-rules: 'Whenever a nontoken creature you control dies,
-
-  Augment {2}{G} ({2}{G}, Reveal this card from your hand: Combine it with target  host.
-  Augment only as a sorcery.)'
+rules: "<div align=\"right\">Whenever a nontoken creature you control dies *(is put\
+  \ into the graveyard from the battlefield)*,</div.\r\n\r\nAugment [[symbol:2]][[symbol:G]]\
+  \ *([[symbol:2]][[symbol:G]], Reveal this card from your hand: Combine this with\
+  \ target host. Augment only as a sorcery.)"
 slug: monkey-
 subtype: Monkey
 subtype_tokens:
 - Monkey
-tags: card-color-colorless card-color-colorless-cost-0 card-type-creature
+tags: card-type-creature
 type: Creature
 url: http://tappedout.net/mtg-card/monkey-/
