@@ -1,6 +1,6 @@
 activated_abilities:
-- ': Garruk Relentless deals 3 damage to target creature. That creature deals damage
-  equal to its power to him'
+- ': This deals 3 damage to target creature. That creature deals damage equal to its
+  power to this.'
 - ': Create a 2/2 green Wolf creature token.'
 canadian_hl_score: 0
 cannonical_set: ISD
@@ -15,7 +15,6 @@ companions:
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
-- B
 - G
 flat_cost: 4
 flip: Garruk, the Veil-Cursed
@@ -66,20 +65,20 @@ printings:
     mtgo_foil_id: 42745
     mtgo_id: 42744
     name: Innistrad
+    number: 181
     rarity: mythic_rare
     release_date: 2011-09-30
     wizards_id: 245250
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=245250
-rules: "When Garruk Relentless has two or fewer loyalty counters on him, transform\
-  \ him.\r\n\r\n[[symbol:loyalty-zero]]: Garruk Relentless deals 3 damage to target\
-  \ creature. That creature deals damage equal to its power to him\r\n\r\n[[symbol:loyalty-zero]]:\
-  \ Create a 2/2 green Wolf creature token."
+rules: "When this has two or fewer loyalty counters, transform this.\r\n\r\n[[symbol:loyalty-zero]]:\
+  \ This deals 3 damage to target creature. That creature deals damage equal to its\
+  \ power to this.\r\n\r\n[[symbol:loyalty-zero]]: Create a 2/2 green Wolf creature\
+  \ token."
 slug: garruk-relentless
 subtype: Garruk
 subtype_tokens:
 - Garruk
-tags: card-color-black card-color-black-cost-4 card-color-green card-color-green-cost-4
-  card-type-legendary card-type-planeswalker
+tags: card-color-green card-color-green-cost-4 card-type-legendary card-type-planeswalker
 tokens:
 - cannonical_type: Creature
   colors: G
@@ -88,6 +87,16 @@ tokens:
   name: Wolf 2/2 G
   power_toughness: 2/2
   rules: ''
+  subtype: Wolf
+  tla: ISD
+  type: Token Creature
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: 1/1 B Token Creature Wolf
+  power_toughness: 1/1
+  rules: Deathtouch
   subtype: Wolf
   tla: ISD
   type: Token Creature
