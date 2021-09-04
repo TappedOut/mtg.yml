@@ -1,8 +1,11 @@
+activated_abilities:
+- ', Remove a flame counter from this: Exile the top card of your library. You may
+  play that card this turn.'
 canadian_hl_score: 0
 cannonical_set: MID
-cannonical_type: Artifact
+cannonical_type: Creature
 color_indicator:
-- U
+- R
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -11,8 +14,9 @@ companions:
 - Lutri, the Spellchaser
 - Umori, the Collector
 - Yorion, Sky Nomad
+- Zirda, the Dawnwaker
 effective_cost:
-- U
+- R
 flat_cost: 0
 formats:
 - 1v1 Commander
@@ -36,29 +40,32 @@ formats:
 - Tiny Leaders
 - Unformat
 - Vintage
-has_activated_abilities: false
+has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
-- Transform
+- Exile
+- Counters
 mana_cost_converted: 0
-name: Poppet Factory
+name: Embodiment of Flame
+power_toughness: 3/3
 printings:
 - MID:
     booster_exclude: true
     border_color: B
     frame: m15
     name: 'Innistrad: Midnight Hunt'
-    number: 71
-    rarity: mythic_rare
+    number: 141
+    rarity: uncommon
     release_date: 2021-09-24
-    variations:
-    - identifier: '339'
-rules: "Creature tokens you control lose all abilities and have base power and toughness\
-  \ 3/3.\r\n\r\nAt the beginning of your upkeep, you may transform this."
-slug: poppet-factory
-synonyms:
-- Toy Factory
-tags: card-type-artifact
-type: Artifact
-url: http://tappedout.net/mtg-card/poppet-factory/
+rules: "Whenever a spell you control deals damage, put a flame counter on this.\r\n\
+  \r\n[[symbol:1]], Remove a flame counter from this: Exile the top card of your library.\
+  \ You may play that card this turn."
+slug: embodiment-of-flame
+subtype: Elemental Wizard
+subtype_tokens:
+- Elemental
+- Wizard
+tags: card-type-creature
+type: Creature
+url: http://tappedout.net/mtg-card/embodiment-of-flame/

@@ -1,10 +1,12 @@
+activated_abilities:
+- ': This gets +2/+2 until end of turn. Activate this ability only once each turn.'
+activation_costs:
+- G
 canadian_hl_score: 0
 cannonical_set: MID
-cannonical_type: Instant
+cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
-- Kaheera, the Orphanguard
-- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -12,8 +14,8 @@ companions:
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
-- B
-flat_cost: 3
+- G
+flat_cost: 1
 formats:
 - 1v1 Commander
 - Arena
@@ -38,22 +40,27 @@ formats:
 - Tiny Leaders
 - Unformat
 - Vintage
-has_activated_abilities: false
+has_activated_abilities: true
 is_mtgo: true
-is_permanent: false
-mana_cost: 2B
-mana_cost_converted: 3
-name: Defenestrate
+is_permanent: true
+mana_cost: G
+mana_cost_converted: 1
+name: Snarling Wolf
+power_toughness: 1/1
 printings:
 - MID:
     border_color: B
     frame: m15
     name: 'Innistrad: Midnight Hunt'
-    number: 95
+    number: 199
     rarity: common
     release_date: 2021-09-24
-rules: Destroy target creature without flying.
-slug: defenestrate
-tags: card-color-black card-color-black-cost-3 card-type-instant
-type: Instant
-url: http://tappedout.net/mtg-card/defenestrate/
+rules: '[[symbol:1]][[symbol:G]]: This gets +2/+2 until end of turn. Activate this
+  ability only once each turn.'
+slug: snarling-wolf
+subtype: Wolf
+subtype_tokens:
+- Wolf
+tags: card-color-green card-color-green-cost-1 card-type-creature
+type: Creature
+url: http://tappedout.net/mtg-card/snarling-wolf/
