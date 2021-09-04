@@ -13,11 +13,15 @@ effective_cost:
 flat_cost: 2
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
+- Brawl
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -26,6 +30,8 @@ formats:
 - Pauper
 - Pauper EDH
 - Pioneer
+- Pre-release
+- Standard
 - Tiny Leaders
 - Unformat
 - Vintage
@@ -39,6 +45,13 @@ mana_cost_converted: 2
 name: Unruly Mob
 power_toughness: 1/1
 printings:
+- MID:
+    border_color: B
+    frame: m15
+    name: 'Innistrad: Midnight Hunt'
+    number: 40
+    rarity: common
+    release_date: 2021-09-24
 - SOI:
     border_color: B
     frame: m15
@@ -60,7 +73,9 @@ printings:
     release_date: 2011-09-30
     wizards_id: 220389
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220389
-rules: Whenever another creature you control dies, put a +1/+1 counter on Unruly Mob.
+rules: Whenever another creature you control dies *(is put into the graveyard from
+  the battlefield, tokens are put into the graveyard before they cease to exist)*,
+  put a +1/+1 counter on this.
 slug: unruly-mob
 subtype: Human
 subtype_tokens:
