@@ -1,6 +1,6 @@
 activated_abilities:
-- '1R, Discard a card, sacrifice a Vampire: Draw two cards. Activate only if an opponent
-  lost life this turn.'
+- ', Discard a card, Sacrifice a Vampire: Draw two cards. Activate this ability only
+  if an opponent lost life this turn.'
 activation_costs:
 - R
 canadian_hl_score: 0
@@ -42,6 +42,8 @@ formats:
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords:
+- Sacrifice
 mana_cost: R
 mana_cost_converted: 1
 mana_produced: R
@@ -50,13 +52,15 @@ power_toughness: 2/1
 printings:
 - MID:
     border_color: B
-    frame: original
+    frame: m15
     name: 'Innistrad: Midnight Hunt'
     number: 137
     rarity: rare
     release_date: 2021-09-24
-rules: '1R, Discard a card, sacrifice a Vampire: Draw two cards. Activate only if
-  an opponent lost life this turn.'
+    variations:
+    - identifier: '354'
+rules: '[[symbol:1]][[symbol:R]], Discard a card, Sacrifice a Vampire: Draw two cards.
+  Activate this ability only if an opponent lost life this turn.'
 slug: falkenrath-pit-fighter
 subtype: Vampire Warrior
 subtype_tokens:
