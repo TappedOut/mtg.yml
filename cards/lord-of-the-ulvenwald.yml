@@ -44,6 +44,7 @@ has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
+- Transform
 - Daybound / Nightbound
 mana_cost_converted: 0
 mana_produced: R, G
@@ -51,13 +52,22 @@ name: Lord of the Ulvenwald
 power_toughness: 3/3
 printings:
 - MID:
+    border_color: B
+    frame: m15
     name: 'Innistrad: Midnight Hunt'
     number: 231
     rarity: uncommon
     release_date: 2021-09-24
-rules: "Other Wolves and Werewolves you control get +1/+1.\r\n\r\nWhenever Lord of\
-  \ the Ulvenwald attacks, add [R] or [G]. Until end of turn, you don't lose this\
-  \ mana as steps and phases end.\r\n\r\nNightbound"
+    variations:
+    - identifier: '310'
+rules: "Other Wolves and Werewolves you control get +1/+1.\r\n\r\nWhenever this attacks,\
+  \ add [[symbol:R]] or [[symbol:G]]. Until end of turn, you don't lose this mana\
+  \ as steps and phases end.\r\n\r\nNightbound *(If a player casts two spells during\
+  \ their own turn, this game becomes day next turn during the untap step. When it\
+  \ becomes day, all permanents on the battlefield transform into their daybound side\
+  \ if they have one, and any new permanents that enter the battlefield will enter\
+  \ on their daybound side if they have one. Becoming day/night does not use the stack\
+  \ and cannot be responded to.)*"
 slug: lord-of-the-ulvenwald
 subtype: Werewolf
 subtype_tokens:
