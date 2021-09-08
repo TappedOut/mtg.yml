@@ -34,29 +34,32 @@ formats:
 has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
+keywords:
+- Tokens
 mana_cost: 3GG
 mana_cost_converted: 5
-mana_produced: G
 name: Consuming Blob
 power_toughness: '*/*+1'
 printings:
 - MID:
     border_color: B
-    frame: original
+    frame: m15
     name: 'Innistrad: Midnight Hunt'
     number: 177
     rarity: mythic_rare
     release_date: 2021-09-24
-rules: "Consuming Blob's power is equal to the number of card types among cards in\
-  \ your graveyard and its toughness is equal to that number plus 1.\r\n\r\nAt the\
-  \ beginning of your end step, create a green Ooze creature token with \"This creature's\
-  \ power is equal to the number of card types among cards in your graveyards and\
-  \ its toughness is equal to that number plus 1.\""
+    variations:
+    - identifier: '362'
+rules: "This creature's power is equal to the number of card types among cards in\
+  \ your graveyard and this creature's toughness is equal to that number plus 1.\r\
+  \n\r\nAt the beginning of your end step, create a green Ooze creature token with\
+  \ \"This creature's power is equal to the number of card types among cards in your\
+  \ graveyards and this creature's toughness is equal to that number plus 1.\""
 slug: consuming-blob
 subtype: Ooze
 subtype_tokens:
 - Ooze
-tags: card-color-green card-color-green-cost-5 card-mana-green card-type-creature
+tags: card-color-green card-color-green-cost-5 card-type-creature
 tokens:
 - cannonical_type: Creature
   colors: G
