@@ -1,5 +1,5 @@
 canadian_hl_score: 0
-cannonical_set: UNH
+cannonical_set: UND
 cannonical_type: Instant
 companions:
 - Jegantha, the Wellspring
@@ -15,10 +15,21 @@ effective_cost:
 - R
 flat_cost: 3
 formats:
+- 1v1 Commander
+- Canadian Highlander
+- Commander / EDH
+- 'Commander: Rule 0'
+- Duel Commander
+- Highlander
+- Legacy
+- Leviathan
 - Limited
+- Oathbreaker
+- Tiny Leaders
 - Unformat
+- Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Flash
@@ -34,13 +45,17 @@ mana_cost_converted: 3
 name: Blast from the Past
 printings:
 - UND:
-    cannonical: false
+    border_color: S
+    frame: m15
     name: Unsanctioned
     number: 48
     rarity: rare
     release_date: 2020-02-28
-    set_number: 48
+    wizards_id: 479440
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479440
 - UNH:
+    border_color: S
+    frame: modern
     name: Unhinged
     rarity: rare
     release_date: 2004-11-19
@@ -52,11 +67,15 @@ rules: "Madness (Red), cycling (1)(Red), kicker (2)(Red), flashback (3)(Red), bu
 slug: blast-from-the-past
 tags: card-color-red card-color-red-cost-3 card-type-instant
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: UND
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/blast-from-the-past/
