@@ -9,6 +9,8 @@ activation_costs:
 canadian_hl_score: 0
 cannonical_set: UN3
 cannonical_type: Creature
+color_identity:
+- B
 companions:
 - Gyruda, Doom of Depths
 - Keruga, the Macrosage
@@ -17,14 +19,23 @@ companions:
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
-- B
 - R
 flat_cost: 6
 formats:
+- 1v1 Commander
+- Canadian Highlander
+- Commander / EDH
+- 'Commander: Rule 0'
+- Duel Commander
+- Highlander
+- Legacy
+- Leviathan
 - Limited
+- Oathbreaker
 - Unformat
+- Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -34,11 +45,12 @@ name: The Big Idea
 power_toughness: 4/4
 printings:
 - UN3:
+    border_color: S
+    frame: m15
     name: Unstable
     number: 76
     rarity: rare
     release_date: 2017-12-08
-    set_number: 76
     wizards_id: 439465
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439465
 rules: "[[2]][[B/R]][[B/R]], [[{T]]: Roll a six-sided die. Create a number of 1/1\
@@ -50,14 +62,17 @@ subtype: Brainiac Villain
 subtype_tokens:
 - Brainiac
 - Villain
-tags: card-color-black card-color-black-cost-6 card-color-red card-color-red-cost-6
-  card-type-creature card-type-legendary
+tags: card-color-red card-color-red-cost-6 card-type-creature card-type-legendary
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 R Token Creature Brainiac
   power_toughness: 1/1
   rules: ''
   subtype: Brainiac
+  tla: UN3
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/the-big-idea/
