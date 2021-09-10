@@ -12,12 +12,24 @@ effective_cost:
 - R
 flat_cost: 1
 formats:
+- 1v1 Commander
 - Arena
+- Canadian Highlander
+- Commander / EDH
+- Duel Commander
 - Gladiator
+- Highlander
 - Historic
+- Legacy
+- Leviathan
+- Limited
+- Oathbreaker
 - Pauper
+- Pauper EDH
+- Tiny Leaders
+- Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -27,7 +39,9 @@ name: Tin Street Cadet
 power_toughness: 1/1
 printings:
 - ARENA:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Arena Cards
     rarity: common
     release_date: 2019-09-26
@@ -38,11 +52,15 @@ subtype_tokens:
 - Goblin
 tags: card-color-red card-color-red-cost-1 card-type-creature
 tokens:
-- colors: R
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Goblin 1/1 R
   power_toughness: 1/1
   rules: ''
   subtype: Goblin
+  tla: ARENA
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/tin-street-cadet/
