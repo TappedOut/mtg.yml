@@ -1,5 +1,6 @@
 canadian_hl_score: 0
 cannonical_set: MID
+cannonical_type: Enchantment
 companions:
 - Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
@@ -7,7 +8,6 @@ companions:
 - Lutri, the Spellchaser
 - Umori, the Collector
 - Yorion, Sky Nomad
-- Zirda, the Dawnwaker
 effective_cost:
 - B
 flat_cost: 2
@@ -35,21 +35,25 @@ formats:
 - Vintage
 has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
-mana_cost: xBB
+is_permanent: true
+mana_cost: XBB
 mana_cost_converted: 2
 name: The Meathook Massacre
 printings:
 - MID:
     border_color: B
+    frame: m15
     name: 'Innistrad: Midnight Hunt'
     number: 112
     rarity: mythic_rare
     release_date: 2021-09-24
-rules: "When The Meathook Massacre enters the battlefield, each creature gets -X/-X\
-  \ until end of turn.\r\n\r\nWhenever a creature you control dies, each opponent\
-  \ loses 1 life.\r\n\r\nWhenever a creature an opponent controls dies, you gain 1\
-  \ life."
+    variations:
+    - identifier: '348'
+rules: "When this enters the battlefield, each creature gets -X/-X until end of turn.\r\
+  \n\r\nWhenever a creature you control dies *(is put into the graveyard from the\
+  \ battlefield, tokens are put into the graveyard before they cease to exist)*, each\
+  \ opponent loses 1 life.\r\n\r\nWhenever a creature an opponent controls dies, you\
+  \ gain 1 life."
 slug: the-meathook-massacre
 tags: card-color-black card-color-black-cost-2 card-type-enchantment card-type-legendary
 type: Legendary Enchantment
