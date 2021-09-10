@@ -4,7 +4,7 @@ activated_abilities:
 activation_costs:
 - G
 canadian_hl_score: 0
-cannonical_set: UGL
+cannonical_set: UND
 cannonical_type: Enchantment
 companions:
 - Jegantha, the Wellspring
@@ -19,10 +19,11 @@ effective_cost:
 - G
 flat_cost: 3
 formats:
+- 'Commander: Rule 0'
 - Limited
 - Unformat
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
@@ -31,13 +32,17 @@ mana_cost_converted: 3
 name: Squirrel Farm
 printings:
 - UND:
-    cannonical: false
+    border_color: S
+    frame: m15
     name: Unsanctioned
     number: 71
     rarity: rare
     release_date: 2020-02-28
-    set_number: 71
+    wizards_id: 479460
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479460
 - UGL:
+    border_color: S
+    frame: original
     name: Unglued
     rarity: rare
     release_date: 1998-08-01
@@ -49,11 +54,15 @@ rules: '[[symbol:1]][[symbol:G]]: Reveal a card in your hand, covering the artis
 slug: squirrel-farm
 tags: card-color-green card-color-green-cost-3 card-type-enchantment
 tokens:
-- colors: G
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Squirrel 1/1 G
   power_toughness: 1/1
   rules: ''
   subtype: Squirrel
+  tla: UND
   type: Token Creature
 type: Enchantment
 url: http://tappedout.net/mtg-card/squirrel-farm/
