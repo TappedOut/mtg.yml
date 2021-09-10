@@ -1,12 +1,8 @@
 activated_abilities:
-- '1: Sacrifice  Outland Liberator: Destroy target artifact or enchantment.'
+- ': Sacrifice this: Destroy target artifact or enchantment.'
 canadian_hl_score: 0
 cannonical_set: MID
 cannonical_type: Creature
-color_identity:
-- G
-color_indicator:
-- G
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -45,6 +41,10 @@ has_activated_abilities: true
 is_front: true
 is_mtgo: true
 is_permanent: true
+keywords:
+- Sacrifice
+- Transform
+- Daybound / Nightbound
 mana_cost: 1G
 mana_cost_converted: 2
 name: Outland Liberator
@@ -54,11 +54,19 @@ printings:
     border_color: B
     frame: m15
     name: 'Innistrad: Midnight Hunt'
+    number: 190
     rarity: uncommon
     release_date: 2021-09-24
-rules: "1: Sacrifice  Outland Liberator: Destroy target artifact or enchantment.\r\
-  \n\r\nDaybound (If a player casts no spells during their own turn, it becomes night\
-  \ next turn.)"
+    variations:
+    - identifier: '303'
+rules: "[[symbol:1]]: Sacrifice this: Destroy target artifact or enchantment.\r\n\r\
+  \nDaybound *(When this enters the battlefield, if it's not day or night, this game\
+  \ becomes day for all players. If a player casts no spells during their own turn,\
+  \ this game becomes night for all players next turn during the untap step. When\
+  \ it becomes night, all permanents on the battlefield transform into their nightbound\
+  \ side if they have one, and any new permanents that enter the battlefield will\
+  \ enter on their nightbound side if they have one. Becoming day/night does not use\
+  \ the stack and cannot be responded to.)*"
 slug: outland-liberator
 subtype: Human Werewolf
 subtype_tokens:
