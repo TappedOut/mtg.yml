@@ -14,10 +14,12 @@ effective_cost:
 - U
 flat_cost: 10
 formats:
+- 'Commander: Rule 0'
 - Limited
+- Oathbreaker
 - Unformat
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Flying
@@ -28,11 +30,12 @@ mana_cost_converted: 10
 name: Crow Storm
 printings:
 - UN3:
+    border_color: S
+    frame: m15
     name: Unstable
     number: 31
     rarity: uncommon
     release_date: 2017-12-08
-    set_number: 31
     wizards_id: 439420
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439420
 rules: "Create a 1/2 blue Bird creature token with flying named Storm Crow.\r\n\r\n\
@@ -40,11 +43,15 @@ rules: "Create a 1/2 blue Bird creature token with flying named Storm Crow.\r\n\
 slug: crow-storm
 tags: card-color-blue card-color-blue-cost-10 card-type-sorcery
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/2 U Token Creature Bird
   power_toughness: 1/2
   rules: Flying
   subtype: Bird
+  tla: UN3
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/crow-storm/
