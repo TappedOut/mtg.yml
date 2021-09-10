@@ -23,10 +23,20 @@ effective_cost:
 - B
 flat_cost: 4
 formats:
+- 1v1 Commander
+- Canadian Highlander
+- Commander / EDH
+- 'Commander: Rule 0'
+- Duel Commander
+- Highlander
+- Legacy
+- Leviathan
 - Limited
+- Oathbreaker
 - Unformat
+- Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
@@ -36,12 +46,14 @@ name: Acornelia, Fashionable Filcher
 power_toughness: 3/3
 printings:
 - UND:
-    cannonical: false
+    border_color: S
+    frame: m15
     name: Unsanctioned
     number: 31
     rarity: rare
     release_date: 2020-02-28
-    set_number: 31
+    wizards_id: 479426
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479426
 rules: "Whenever you cast a spell with a squirrel in its art, you get [symbol:A] *(an\
   \ acorn counter).*\r\n\r\nWhenever a Squirrel you control enters the battlefield\
   \ or dies *(is put into the graveyard from the battlefield)*, you get [symbol:A].\r\
@@ -54,11 +66,14 @@ subtype_tokens:
 - Squirrel
 tags: card-color-black card-color-black-cost-4 card-type-creature card-type-legendary
 tokens:
-- colors: null
-  name: Emblem Acorn Stash
+- cannonical_type: Emblem
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Acorn Stash Token
   power_toughness: null
   rules: '*Place your acorn counters in this area.*'
-  subtype: Acorn Stash
+  tla: UND
   type: Emblem
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/acornelia-fashionable-filcher/

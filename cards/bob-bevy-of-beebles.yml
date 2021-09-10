@@ -19,10 +19,20 @@ effective_cost:
 - U
 flat_cost: 5
 formats:
+- 1v1 Commander
+- Canadian Highlander
+- Commander / EDH
+- 'Commander: Rule 0'
+- Duel Commander
+- Highlander
+- Legacy
+- Leviathan
 - Limited
+- Oathbreaker
 - Unformat
+- Vintage
 has_activated_abilities: true
-is_limitless: false
+is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
@@ -34,12 +44,14 @@ mana_cost_converted: 5
 name: B.O.B. (Bevy of Beebles)
 printings:
 - UND:
-    cannonical: false
+    border_color: S
+    frame: m15
     name: Unsanctioned
     number: 18
     rarity: mythic_rare
     release_date: 2020-02-28
-    set_number: 18
+    wizards_id: 479414
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479414
 rules: "As B.O.B. (Bevy of Beebles) enters the battlefield, create four 1/1 blue Beeble\
   \ creature tokens.\r\n\r\nThe number of loyalty counters on B.O.B. is equal to the\
   \ number of Beebles you control. *(Create or sacrifice Beebles whenever B.O.B. gains\
@@ -52,11 +64,15 @@ subtype_tokens:
 - B.O.B.
 tags: card-color-blue card-color-blue-cost-5 card-type-legendary card-type-planeswalker
 tokens:
-- colors: U
+- cannonical_type: Creature
+  colors: U
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: 1/1 U Token Creature Beeble
   power_toughness: 1/1
   rules: ''
   subtype: Beeble
+  tla: UND
   type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/bob-bevy-of-beebles/
