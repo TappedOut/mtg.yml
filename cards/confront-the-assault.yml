@@ -15,11 +15,21 @@ effective_cost:
 - W
 flat_cost: 5
 formats:
+- 1v1 Commander
 - Arena
+- Canadian Highlander
+- Commander / EDH
+- Duel Commander
 - Gladiator
+- Highlander
 - Historic
+- Legacy
+- Leviathan
+- Limited
+- Oathbreaker
+- Vintage
 has_activated_abilities: false
-is_limitless: false
+is_mtgo: true
 is_permanent: false
 keywords:
 - Flying
@@ -29,7 +39,9 @@ mana_cost_converted: 5
 name: Confront the Assault
 printings:
 - ARENA:
+    border_color: B
     cannonical: false
+    frame: m15
     name: Arena Cards
     rarity: uncommon
     release_date: 2019-09-26
@@ -38,11 +50,15 @@ rules: "Cast this spell if a creature is attacking you.\r\n\r\nCreate three 1/1 
 slug: confront-the-assault
 tags: card-color-white card-color-white-cost-5 card-type-instant
 tokens:
-- colors: W
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
   name: Spirit 1/1 W
   power_toughness: 1/1
   rules: Flying
   subtype: Spirit
+  tla: ARENA
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/confront-the-assault/
