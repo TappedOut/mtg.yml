@@ -1,6 +1,6 @@
 activated_abilities:
-- '2GG: Another target wolf or werewolf you control fights target creature you don''t
-  control.'
+- ': Another target wolf or werewolf you control fights target creature you don''t
+  control. *(Each deals damage to the other equal to their power).*'
 activation_costs:
 - G
 canadian_hl_score: 0
@@ -48,6 +48,8 @@ is_front: true
 is_mtgo: true
 is_permanent: true
 keywords:
+- Fight
+- Tokens
 - Daybound / Nightbound
 mana_cost_converted: 0
 name: Tovolar's Packleader
@@ -61,9 +63,17 @@ printings:
     number: 204
     rarity: rare
     release_date: 2021-09-24
-rules: "When Tovolar's Packleader enters the battlefield or attacks, create two 2/2\
-  \ green wolf tokens.\r\n\r\n2GG: Another target wolf or werewolf you control fights\
-  \ target creature you don't control.\r\n\r\nNightbound"
+    variations:
+    - identifier: '306'
+rules: "When this enters the battlefield or attacks, create two 2/2 green wolf tokens.\r\
+  \n\r\n[[symbol:2]][[symbol:G]][[symbol:G]]: Another target wolf or werewolf you\
+  \ control fights target creature you don't control. *(Each deals damage to the other\
+  \ equal to their power).*\r\n\r\nNightbound *(If a player casts two spells during\
+  \ their own turn, this game becomes day next turn during the untap step. When it\
+  \ becomes day, all permanents on the battlefield transform into their daybound side\
+  \ if they have one, and any new permanents that enter the battlefield will enter\
+  \ on their daybound side if they have one. Becoming day/night does not use the stack\
+  \ and cannot be responded to.)*"
 slug: tovolars-packleader
 subtype: Werewolf
 subtype_tokens:
