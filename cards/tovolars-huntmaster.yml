@@ -38,6 +38,7 @@ is_front: true
 is_mtgo: true
 is_permanent: true
 keywords:
+- Transform
 - Tokens
 - Daybound / Nightbound
 mana_cost: 4GG
@@ -52,9 +53,16 @@ printings:
     number: 204
     rarity: rare
     release_date: 2021-09-24
-rules: "When Tovolar's Huntmaster enters the battlefield, create two 2/2 green Wolf\
-  \ creature tokens.\r\n\r\nDaybound _(If a player casts no spells during their own\
-  \ turn, it becomes night next turn.)"
+    variations:
+    - identifier: '306'
+rules: "When this enters the battlefield, create two 2/2 green Wolf creature tokens.\r\
+  \n\r\nDaybound *(When this enters the battlefield, if it's not day or night, this\
+  \ game becomes day for all players. If a player casts no spells during their own\
+  \ turn, this game becomes night for all players next turn during the untap step.\
+  \ When it becomes night, all permanents on the battlefield transform into their\
+  \ nightbound side if they have one, and any new permanents that enter the battlefield\
+  \ will enter on their nightbound side if they have one. Becoming day/night does\
+  \ not use the stack and cannot be responded to.)*"
 slug: tovolars-huntmaster
 subtype: Human Werewolf
 subtype_tokens:
