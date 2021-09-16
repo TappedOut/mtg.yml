@@ -1,8 +1,8 @@
 activated_abilities:
 - ': Add .'
-- ", , Sacrifice Crowded Crypt: Create a 2/2 black Zombie creature token with decayed\
-  \ for each corpse counter on Crowded Crypt. *(A creature with decayed can\u2019\
-  t block. When it attacks, sacrifice it at end of combat.)*"
+- ", , Sacrifice this: Create a 2/2 black Zombie creature token with decayed for each\
+  \ corpse counter on this artifact. *(A creature with decayed can\u2019t block. When\
+  \ it attacks, sacrifice it at end of combat.)*"
 activation_costs:
 - B
 canadian_hl_score: 0
@@ -37,6 +37,7 @@ has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
+- Sacrifice
 - Counters
 - Tokens
 - Decayed
@@ -52,11 +53,14 @@ printings:
     number: 17
     rarity: rare
     release_date: 2021-09-25
-rules: "[[Symbol:T]]: Add [[Symbol:B]].\r\n\r\nWhenever a creature you control dies,\
-  \ put a corpse counter on Crowded Crypt.\r\n\r\n[[Symbol:4]][[Symbol:B]][[Symbol:B]],\
-  \ [[Symbol:T]], Sacrifice Crowded Crypt: Create a 2/2 black Zombie creature token\
-  \ with decayed for each corpse counter on Crowded Crypt. *(A creature with decayed\
-  \ can\u2019t block. When it attacks, sacrifice it at end of combat.)*"
+    variations:
+    - identifier: '17'
+rules: "[[Symbol:T]]: Add [[Symbol:B]].\r\n\r\nWhenever a creature you control dies\
+  \ *(is put into the graveyard from the battlefield, tokens are put into the graveyard\
+  \ before they cease to exist)*, put a corpse counter on this.\r\n\r\n[[Symbol:4]][[Symbol:B]][[Symbol:B]],\
+  \ [[Symbol:T]], Sacrifice this: Create a 2/2 black Zombie creature token with decayed\
+  \ for each corpse counter on this artifact. *(A creature with decayed can\u2019\
+  t block. When it attacks, sacrifice it at end of combat.)*"
 slug: crowded-crypt
 tags: card-color-black card-color-black-cost-3 card-mana-black card-type-artifact
 tokens:
