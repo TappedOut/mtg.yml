@@ -33,11 +33,21 @@ is_permanent: true
 keywords:
 - Trample
 - Vigilance
+- Tokens
 mana_cost: 5GW
 mana_cost_converted: 7
 name: Trostani's Summoner
 power_toughness: 1/1
 printings:
+- MIC:
+    border_color: B
+    frame: m15
+    name: 'Innistrad: Midnight Hunt Commander'
+    number: 156
+    rarity: uncommon
+    release_date: 2021-09-25
+    wizards_id: 539417
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539417
 - DGM:
     border_color: B
     frame: modern
@@ -57,9 +67,9 @@ printings:
     number: 27
     rarity: uncommon
     release_date: 1990-04-15
-rules: When Trostani's Summoner enters the battlefield, put a 2/2 white Knight creature
-  token with vigilance, a 3/3 green Centaur creature token, and a 4/4 green Rhino
-  creature token with trample onto the battlefield.
+rules: When this enters the battlefield, create a 2/2 white Knight creature token
+  with vigilance, a 3/3 green Centaur creature token and a 4/4 green Rhino creature
+  token with trample.
 slug: trostanis-summoner
 subtype: Elf Shaman
 subtype_tokens:
@@ -67,16 +77,6 @@ subtype_tokens:
 - Shaman
 tags: card-color-gold card-color-gold-cost-7 card-color-green card-color-white card-type-creature
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 4/4 G Token Creature Rhino
-  power_toughness: 4/4
-  rules: Trample
-  subtype: Rhino
-  tla: DGM
-  type: Token Creature
 - cannonical_type: Creature
   colors: G
   mana_cost: '0'
@@ -95,6 +95,16 @@ tokens:
   power_toughness: 2/2
   rules: Vigilance
   subtype: Knight
+  tla: DGM
+  type: Token Creature
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: 4/4 G Token Creature Rhino
+  power_toughness: 4/4
+  rules: Trample
+  subtype: Rhino
   tla: DGM
   type: Token Creature
 type: Creature
