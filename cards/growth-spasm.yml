@@ -1,3 +1,5 @@
+activation_costs:
+- C
 canadian_hl_score: 0
 cannonical_set: ROE
 cannonical_type: Sorcery
@@ -36,10 +38,21 @@ is_mtgo: true
 is_permanent: false
 keywords:
 - Sacrifice
+- Tokens
 mana_cost: 2G
 mana_cost_converted: 3
+mana_produced: C
 name: Growth Spasm
 printings:
+- MIC:
+    border_color: B
+    frame: m15
+    name: 'Innistrad: Midnight Hunt Commander'
+    number: 139
+    rarity: common
+    release_date: 2021-09-25
+    wizards_id: 539400
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539400
 - ROE:
     border_color: B
     frame: modern
@@ -52,10 +65,10 @@ printings:
     wizards_id: 193526
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=193526
 rules: 'Search your library for a basic land card, put it onto the battlefield tapped,
-  then shuffle your library. Put a 0/1 colorless Eldrazi Spawn creature token onto
-  the battlefield. It has "Sacrifice this creature: Add {{1}} to your mana pool."'
+  then shuffle your library. Create a 0/1 colorless Eldrazi Spawn creature token.
+  It has "Sacrifice this creature: Add [[symbol:C]]."'
 slug: growth-spasm
-tags: card-color-green card-color-green-cost-3 card-type-sorcery
+tags: card-color-green card-color-green-cost-3 card-mana-colorless-sym card-type-sorcery
 tokens:
 - cannonical_type: Creature
   colors: C
