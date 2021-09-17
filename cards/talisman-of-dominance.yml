@@ -1,10 +1,16 @@
 activated_abilities:
-- 'Tap: Add (1) to your mana pool.'
-- 'Tap: Add (Blue) or (Black) to your mana pool. Talisman of Dominance deals 1 damage
-  to you.'
+- ': Add .'
+- ': Add  or . This deals 1 damage to you.'
+activation_costs:
+- B
+- C
+- U
 canadian_hl_score: 0
 cannonical_set: E01
 cannonical_type: Artifact
+color_identity:
+- U
+- B
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -35,9 +41,18 @@ is_mtgo: true
 is_permanent: true
 mana_cost: '2'
 mana_cost_converted: 2
-mana_produced: UB
+mana_produced: U, B, C
 name: Talisman of Dominance
 printings:
+- MIC:
+    border_color: B
+    frame: m15
+    name: 'Innistrad: Midnight Hunt Commander'
+    number: 164
+    rarity: uncommon
+    release_date: 2021-09-25
+    wizards_id: 539425
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539425
 - E01:
     border_color: B
     frame: m15
@@ -57,8 +72,8 @@ printings:
     release_date: 2003-10-02
     wizards_id: 39598
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=39598
-rules: "Tap: Add (1) to your mana pool.\r\n\r\nTap: Add (Blue) or (Black) to your\
-  \ mana pool. Talisman of Dominance deals 1 damage to you."
+rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:T]]: Add [[symbol:U]] or [[symbol:B]].\
+  \ This deals 1 damage to you."
 slug: talisman-of-dominance
 synonyms:
 - UB Talisman
@@ -67,6 +82,6 @@ synonyms:
 - Talisman of Domenance
 - Talisman of Domenence
 tags: card-color-colorless card-color-colorless-cost-2 card-mana-black card-mana-blue
-  card-type-artifact
+  card-mana-colorless-sym card-type-artifact
 type: Artifact
 url: http://tappedout.net/mtg-card/talisman-of-dominance/
