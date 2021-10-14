@@ -1,9 +1,9 @@
 activated_abilities:
-- '[+1]: Each opponent discards a card and loses 2 life.'
-- '[-3]: Gain control of target creature until end of turn. Untap it. It gains haste
-  until end of turn. Sacrifice it at the beginning of the next end step if it has
-  converted mana cost 3 or less.'
-- '[-8]: Each opponent loses life equal to the number of cards in his or her graveyard.'
+- ': Each opponent discards a card and loses 2 life.'
+- ': Gain control of target creature until end of turn. Untap it. It gains haste until
+  end of turn. Sacrifice it at the beginning of the next end step if it has converted
+  mana cost 3 or less.'
+- ': Each opponent loses life equal to the number of cards in his or her graveyard.'
 canadian_hl_score: 0
 cannonical_set: RIX
 cannonical_type: Planeswalker
@@ -41,6 +41,11 @@ formats:
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords:
+- Haste
+- Sacrifice
+- Tap/Untap
+- Counters
 mana_cost: 3BR
 mana_cost_converted: 5
 name: Angrath, the Flame-Chained
@@ -56,11 +61,19 @@ printings:
     release_date: 2018-01-19
     wizards_id: 439809
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439809
-rules: "[+1]: Each opponent discards a card and loses 2 life.\r\n\r\n[-3]: Gain control\
-  \ of target creature until end of turn. Untap it. It gains haste until end of turn.\
-  \ Sacrifice it at the beginning of the next end step if it has converted mana cost\
-  \ 3 or less.\r\n\r\n[-8]: Each opponent loses life equal to the number of cards\
-  \ in his or her graveyard."
+- '000':
+    border_color: B
+    cannonical: false
+    frame: m15
+    name: Promo Set
+    number: 1
+    rarity: mythic_rare
+    release_date: 1990-04-15
+rules: "[[symbol:loyalty-plus1]]: Each opponent discards a card and loses 2 life.\r\
+  \n\r\n[[symbol:loyalty-minus3]]: Gain control of target creature until end of turn.\
+  \ Untap it. It gains haste until end of turn. Sacrifice it at the beginning of the\
+  \ next end step if it has converted mana cost 3 or less.\r\n\r\n[[symbol:loyalty-minus8]]:\
+  \ Each opponent loses life equal to the number of cards in his or her graveyard."
 slug: angrath-the-flame-chained
 tags: card-color-black card-color-gold card-color-gold-cost-5 card-color-red card-type-legendary
   card-type-planeswalker
