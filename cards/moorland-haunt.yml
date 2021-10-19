@@ -1,13 +1,17 @@
 activated_abilities:
-- '{T}: Add 1 to your mana pool.'
-- '{W}{U}, {T}, Exile a creature from your graveyard: Put a 1/1 white Spirit token
-  with flying onto the battlefield.'
+- ': Add .'
+- ', , Exile a creature from your graveyard: Create a 1/1 white Spirit token with
+  flying.'
 activation_costs:
+- C
 - U
 - W
 canadian_hl_score: 0
 cannonical_set: ISD
 cannonical_type: Land
+color_identity:
+- W
+- U
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -42,10 +46,19 @@ is_permanent: true
 keywords:
 - Flying
 - Exile
+- Tokens
 mana_cost_converted: 0
-mana_produced: '1'
+mana_produced: C
 name: Moorland Haunt
 printings:
+- SLD:
+    border_color: B
+    cannonical: false
+    frame: m15
+    name: Secret Lair
+    number: 349
+    rarity: rare
+    release_date: 2019-12-09
 - ISD:
     border_color: B
     frame: modern
@@ -57,10 +70,10 @@ printings:
     release_date: 2011-09-30
     wizards_id: 233239
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=233239
-rules: "{T}: Add 1 to your mana pool.\r\n\r\n{W}{U}, {T}, Exile a creature from your\
-  \ graveyard: Put a 1/1 white Spirit token with flying onto the battlefield."
+rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:W]][[symbol:U]], [[symbol:T]],\
+  \ Exile a creature from your graveyard: Create a 1/1 white Spirit token with flying."
 slug: moorland-haunt
-tags: card-color-colorless card-color-colorless-cost-0 card-type-land
+tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
 tokens:
 - cannonical_type: Creature
   colors: W
