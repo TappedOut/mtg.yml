@@ -1,7 +1,7 @@
 activated_abilities:
-- ': Add  to your mana pool.'
-- ', : Target player puts the top three cards of his or her library into his or her
-  graveyard.'
+- ': Add .'
+- ', : Target player mills three cards. *(They put the top three cards of their library
+  into their graveyard.)*'
 activation_costs:
 - B
 - C
@@ -9,6 +9,9 @@ activation_costs:
 canadian_hl_score: 0
 cannonical_set: ISD
 cannonical_type: Land
+color_identity:
+- U
+- B
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -40,10 +43,20 @@ has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
+keywords:
+- Mill
 mana_cost_converted: 0
 mana_produced: C
 name: Nephalia Drownyard
 printings:
+- SLD:
+    border_color: B
+    cannonical: false
+    frame: m15
+    name: Secret Lair
+    number: 351
+    rarity: rare
+    release_date: 2019-12-09
 - ISD:
     border_color: B
     frame: modern
@@ -55,8 +68,9 @@ printings:
     release_date: 2011-09-30
     wizards_id: 230789
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=230789
-rules: "[[T]]: Add [[C]] to your mana pool.\r\n\r\n[[1]][[U]][[B]], [[T]]: Target\
-  \ player puts the top three cards of his or her library into his or her graveyard."
+rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:1]][[symbol:U]][[symbol:B]],\
+  \ [[symbol:T]]: Target player mills three cards. *(They put the top three cards\
+  \ of their library into their graveyard.)*"
 slug: nephalia-drownyard
 tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
 type: Land
