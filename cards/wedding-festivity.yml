@@ -1,7 +1,7 @@
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Enchantment
-color_identity:
+color_indicator:
 - W
 companions:
 - Gyruda, Doom of Depths
@@ -11,6 +11,8 @@ companions:
 - Lutri, the Spellchaser
 - Umori, the Collector
 - Yorion, Sky Nomad
+effective_cost:
+- W
 flat_cost: 0
 formats: []
 has_activated_abilities: false
@@ -20,14 +22,17 @@ mana_cost_converted: 0
 name: Wedding Festivity
 printings:
 - VOW:
+    booster_exclude: true
     border_color: B
-    frame: original
+    frame: m15
     name: 'Innistrad: Crimson Vow'
     number: 45
     rarity: rare
     release_date: 2021-11-11
-rules: Creatures you control get +1/+1
+    variations:
+    - identifier: '355'
+rules: Creatures you control get +1/+1.
 slug: wedding-festivity
-tags: card-color-colorless card-color-colorless-cost-0 card-type-enchantment
+tags: card-type-enchantment
 type: Enchantment
 url: http://tappedout.net/mtg-card/wedding-festivity/
