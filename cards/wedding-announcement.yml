@@ -1,8 +1,6 @@
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Enchantment
-color_identity:
-- W
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
@@ -14,8 +12,10 @@ companions:
 effective_cost:
 - W
 flat_cost: 3
+flip: Wedding Festivity
 formats: []
 has_activated_abilities: false
+is_front: true
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -27,15 +27,17 @@ name: Wedding Announcement
 printings:
 - VOW:
     border_color: B
-    frame: original
+    frame: m15
     name: 'Innistrad: Crimson Vow'
     number: 45
     rarity: rare
     release_date: 2021-11-11
-rules: At the beginning of your endstep, put an invitation counter on Wedding Announcement.
-  If you attacked with two or more creatures this turn, draw a card. Otherwise, create
-  a 1/1 white Human creature token. Then if Wedding Announcement has three or more
-  inventation counters on it, transform it.
+    variations:
+    - identifier: '355'
+rules: At the beginning of your end step, put an invitation counter on this. If you
+  attacked with two or more creatures this turn, draw a card. Otherwise, create a
+  1/1 white Human creature token. Then if there are three or more invitation counters
+  on this enchantment, transform this.
 slug: wedding-announcement
 tags: card-color-white card-color-white-cost-3 card-type-enchantment
 type: Enchantment
