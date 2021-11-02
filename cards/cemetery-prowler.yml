@@ -15,6 +15,7 @@ has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
+- Vigilance
 - Exile
 mana_cost: 1GG
 mana_cost_converted: 3
@@ -28,9 +29,14 @@ printings:
     number: 191
     rarity: mythic_rare
     release_date: 2021-11-11
-rules: "Vigilance\r\n\r\nWhenever Cemetery Prowler enters the battlefield or attacks,\
-  \ exile a card from a graveyard.\r\n\r\nSpells you cast cost {1} less to cast for\
-  \ each card type they share with cards exiled with Cemetery Prowler."
+    variations:
+    - identifier: '385'
+rules: "Vigilance\r\n\r\nWhenever this enters the battlefield or attacks, exile a\
+  \ card from a graveyard.\r\n\r\nSpells you cast cost [[symbol:1]] less to cast for\
+  \ each card type they share with cards exiled with this. *(This is a linked ability,\
+  \ linked to the second ability on the card named \"Cemetery Prowler\". Creature\
+  \ cards exiled by this card only return to the battlefield if those exiled cards\
+  \ were exiled by the second ability.)*"
 slug: cemetery-prowler
 subtype: Wolf
 subtype_tokens:
