@@ -16,6 +16,7 @@ has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
+- Sacrifice
 - Exploit
 mana_cost: 1B
 mana_cost_converted: 2
@@ -23,13 +24,17 @@ name: Graf Reaver
 power_toughness: 3/3
 printings:
 - VOW:
+    border_color: B
+    frame: m15
     name: 'Innistrad: Crimson Vow'
     number: 115
     rarity: rare
     release_date: 2021-11-11
-rules: "Exploit *(When this creature enters battlefield, you may sacrifice a creature.)*\r\
-  \n\r\nWhen Graf Reaver exploits a creature, destroy target planeswalker.\r\n\r\n\
-  At the beginning of your upkeep, Graf Reaver deals 1 damage to you."
+    variations:
+    - identifier: '371'
+rules: "Exploit *(When this enters battlefield, you may sacrifice a creature.)*\r\n\
+  \r\nWhen this exploits a creature, destroy target planeswalker.\r\n\r\nAt the beginning\
+  \ of your upkeep, this deals 1 damage to you."
 slug: graf-reaver
 subtype: Zombie Warrior
 subtype_tokens:
