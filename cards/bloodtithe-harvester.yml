@@ -1,6 +1,6 @@
 activated_abilities:
-- ', Sacrifice Bloodtithe Harvester: Target creature gets -X/-X until end of turn,
-  where X is twice the number of Blood tokens you control. Activate only as a sorcery.'
+- ', Sacrifice this: Target creature gets -X/-X until end of turn, where X is twice
+  the number of Blood tokens you control. Activate this ability only as a sorcery.'
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Creature
@@ -22,21 +22,26 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
+- Tokens
 mana_cost: BR
 mana_cost_converted: 2
 name: Bloodtithe Harvester
 power_toughness: 3/2
 printings:
 - VOW:
+    border_color: B
+    frame: m15
     name: 'Innistrad: Crimson Vow'
     number: 232
     rarity: uncommon
     release_date: 2021-11-11
-rules: "When Bloodtithe Harvester enters the battlefield, create a Blood token. *(It's\
-  \ an artifact with \"[[1]], [[T]], Discard a card, Sacrifice this artifact: Draw\
-  \ a card.\")*\r\n\r\n[[T]], Sacrifice Bloodtithe Harvester: Target creature gets\
-  \ -X/-X until end of turn, where X is twice the number of Blood tokens you control.\
-  \ Activate only as a sorcery."
+    variations:
+    - identifier: '310'
+rules: "When this enters the battlefield, create a Blood token. *(It's an artifact\
+  \ with \"[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw\
+  \ a card.\")*\r\n\r\n[[symbol:T]], Sacrifice this: Target creature gets -X/-X until\
+  \ end of turn, where X is twice the number of Blood tokens you control. Activate\
+  \ this ability only as a sorcery."
 slug: bloodtithe-harvester
 subtype: Vampire
 subtype_tokens:
