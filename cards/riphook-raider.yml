@@ -1,6 +1,8 @@
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Creature
+color_indicator:
+- G
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -17,29 +19,50 @@ has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
-- Counters
-- Tokens
-- Training
+- Transform
+- Daybound / Nightbound
 mana_cost: 3G
 mana_cost_converted: 4
 name: Riphook Raider
-power_toughness: 1/1
+power_toughness: 6/4
 printings:
 - VOW:
+    booster_exclude: true
     border_color: B
     frame: m15
     name: 'Innistrad: Crimson Vow'
-    number: 216
+    number: 203
     rarity: common
     release_date: 2021-11-11
-rules: "Training *(Whenever this attacks with another creature with greater power,\
-  \ put a +1/+1 counter on this creature.)*\r\n\r\nWhen this enters the battlefield,\
-  \ create a 3/1 green Boar creature token."
+rules: "This can't be blocked by creatures with power 2 or less.\r\n\r\nNightbound\
+  \ *(If a player casts two spells during their own turn, this game becomes day during\
+  \ the untap step next turn. When it becomes day, all permanents on the battlefield\
+  \ transform into their daybound side if they have one, and any new permanents that\
+  \ enter the battlefield will enter on their daybound side if they have one. Becoming\
+  \ day/night does not use the stack and cannot be responded to.)*"
 slug: riphook-raider
-subtype: Human Peasant
+subtype: Werewolf
 subtype_tokens:
-- Human
-- Peasant
+- Werewolf
 tags: card-color-green card-color-green-cost-4 card-type-creature
+tokens:
+- cannonical_type: Emblem
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Day
+  power_toughness: null
+  rules: ''
+  tla: VOW
+  type: Emblem
+- cannonical_type: Emblem
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Night
+  power_toughness: null
+  rules: ''
+  tla: VOW
+  type: Emblem
 type: Creature
 url: http://tappedout.net/mtg-card/riphook-raider/
