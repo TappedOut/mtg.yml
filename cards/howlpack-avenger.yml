@@ -1,5 +1,5 @@
 activated_abilities:
-- '1R: Howlpack Avenger gets +2/+0 until end of turn.'
+- ': This gets +2/+0 until end of turn.'
 activation_costs:
 - R
 canadian_hl_score: 0
@@ -32,16 +32,23 @@ name: Howlpack Avenger
 power_toughness: 4/4
 printings:
 - VOW:
+    booster_exclude: true
     border_color: B
     frame: m15
     name: 'Innistrad: Crimson Vow'
     number: 162
     rarity: rare
     release_date: 2021-11-11
-rules: "Whenever a permanent you control is dealt damage, Howlpack Avenger deals that\
-  \ much damage to any target.\r\n\r\n1R: Howlpack Avenger gets +2/+0 until end of\
-  \ turn.\r\n\r\nNightbound (If a player casts at least two spells during their own\
-  \ turn, it becomes day next turn.)"
+    variations:
+    - identifier: '378'
+rules: "Whenever a permanent you control is dealt damage, this deals that much damage\
+  \ to target creature, player or planeswalker.\r\n\r\n[[symbol:1]][[symbol:R]]: This\
+  \ gets +2/+0 until end of turn.\r\n\r\nNightbound *(If a player casts two spells\
+  \ during their own turn, this game becomes day during the untap step next turn.\
+  \ When it becomes day, all permanents on the battlefield transform into their daybound\
+  \ side if they have one, and any new permanents that enter the battlefield will\
+  \ enter on their daybound side if they have one. Becoming day/night does not use\
+  \ the stack and cannot be responded to.)*"
 slug: howlpack-avenger
 subtype: Werewolf
 subtype_tokens:
