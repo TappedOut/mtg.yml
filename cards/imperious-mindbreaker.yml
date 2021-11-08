@@ -16,6 +16,7 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Soulbond
+- Mill
 mana_cost: 1UU
 mana_cost_converted: 3
 name: Imperious Mindbreaker
@@ -28,11 +29,13 @@ printings:
     number: 33
     rarity: rare
     release_date: 2021-11-18
-rules: "Soulbond (You may pair this creature with another unpaired creature when either\
-  \ enters the battlefield. They remain paired for as long as you control both of\
-  \ them.)\r\n\r\nAs long as Imperious Mindbreaker is paired with another creature,\
-  \ each of those creatures has \"Whenever this creature attacks, each opponent mills\
-  \ cards equal to its toughness.\""
+    variations:
+    - identifier: '71'
+rules: "Soulbond *(You may pair this with another unpaired creature when either enters\
+  \ the battlefield. They remain paired for as long as you control both of them.)*\r\
+  \n\r\nAs long as this is paired with another creature, they both have \"Whenever\
+  \ this attacks, each opponent mills cards equal to its toughness.\" *(They put the\
+  \ cards from the top of their library into their graveyard.)*"
 slug: imperious-mindbreaker
 subtype: Human Wizard
 subtype_tokens:
