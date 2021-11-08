@@ -1,7 +1,6 @@
 activated_abilities:
-- '{T}: Draw a card, then exile a card from your hand face down. You may look at that
-  card for as long as it remains exiled. You may pay {4}{U}{U}. If you do, transform
-  Jacob Hauken, Inspector.'
+- ': Draw a card, then exile a card from your hand face down. You may look at that
+  card for as long as it remains exiled. You may pay . If you do, transform this.'
 activation_costs:
 - U
 canadian_hl_score: 0
@@ -26,6 +25,7 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
+- Transform
 mana_cost: 1U
 mana_cost_converted: 2
 name: Jacob Hauken, Inspector
@@ -38,9 +38,12 @@ printings:
     number: 65
     rarity: mythic_rare
     release_date: 2021-11-11
-rules: '{T}: Draw a card, then exile a card from your hand face down. You may look
-  at that card for as long as it remains exiled. You may pay {4}{U}{U}. If you do,
-  transform Jacob Hauken, Inspector.'
+    variations:
+    - identifier: '320'
+    - identifier: '332'
+rules: '[[symbol:T]]: Draw a card, then exile a card from your hand face down. You
+  may look at that card for as long as it remains exiled. You may pay [[symbol:4]][[symbol:U]][[symbol:U]].
+  If you do, transform this.'
 slug: jacob-hauken-inspector
 subtype: Human Advisor
 subtype_tokens:
