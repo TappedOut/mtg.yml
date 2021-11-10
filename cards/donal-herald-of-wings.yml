@@ -25,6 +25,9 @@ has_activated_abilities: false
 is_land: true
 is_mtgo: true
 is_permanent: true
+keywords:
+- Flying
+- Tokens
 mana_cost: 2UU
 mana_cost_converted: 4
 name: Donal, Herald of Wings
@@ -32,18 +35,43 @@ power_toughness: 3/3
 printings:
 - VOC:
     border_color: B
+    frame: m15
     name: 'Innistrad: Crimson Vow Commander'
     number: 3
     rarity: mythic_rare
     release_date: 2021-11-18
+    variations:
+    - identifier: '41'
+    wizards_id: 547229
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=547229
 rules: Whenever you cast a nonlegendary creature spell with flying, you may copy it,
-  except the copy is a 1/1 Spirit in addition to its other types. Do this only once
-  each turn.
+  except the copy is a 1/1 Spirit in addition to its other types. This ability triggers
+  only once each turn. *(The copy becomes a token.)*
 slug: donal-herald-of-wings
 subtype: Human Wizard
 subtype_tokens:
 - Human
 - Wizard
 tags: card-color-blue card-color-blue-cost-4 card-type-creature card-type-land
+tokens:
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Copy Clone
+  power_toughness: null
+  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
+  tla: VOC
+  type: Token Creature
+- cannonical_type: Creature
+  colors: W
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Spirit 1/1 W
+  power_toughness: 1/1
+  rules: Flying
+  subtype: Spirit
+  tla: VOC
+  type: Token Creature
 type: Land Creature
 url: http://tappedout.net/mtg-card/donal-herald-of-wings/
