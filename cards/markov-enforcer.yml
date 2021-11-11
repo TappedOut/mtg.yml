@@ -1,8 +1,6 @@
 canadian_hl_score: 0
 cannonical_set: VOC
 cannonical_type: Creature
-color_identity:
-- R
 companions:
 - Gyruda, Doom of Depths
 - Keruga, the Macrosage
@@ -26,25 +24,50 @@ formats:
 has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
+keywords:
+- Fight
+- Sacrifice
+- Tokens
 mana_cost: 4RR
 mana_cost_converted: 6
 name: Markov Enforcer
 power_toughness: 6/6
 printings:
 - VOC:
+    border_color: B
+    frame: m15
     name: 'Innistrad: Crimson Vow Commander'
     number: 26
     rarity: rare
     release_date: 2021-11-18
-rules: "Whenever Markov Enforcer or another Vampire enters the battlefield under your\
-  \ control, Markov Enforcer fights up to one target creature an opponent controls.\r\
-  \n\r\nWhenever a creature dealt damage by Markov Enforcer this turn dies, create\
-  \ a Blood token."
+    variations:
+    - identifier: '64'
+    wizards_id: 546990
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=546990
+rules: "Whenever this or another Vampire enters the battlefield under your control,\
+  \ this creature fights up to one target creature an opponent controls. *(Each creature\
+  \ deals damage to the other equal to their power.)*\r\n\r\nWhenever a creature dies\
+  \ *(is put into the graveyard from the battlefield, tokens are put into the graveyard\
+  \ before they cease to exist)*, if it was dealt damage by this creature this turn,\
+  \ create a Blood token. *(It's an artifact with \"[[symbol:1]], [[symbol:T]], Discard\
+  \ a card, Sacrifice this: Draw a card.\")*"
 slug: markov-enforcer
 subtype: Vampire Soldier
 subtype_tokens:
 - Vampire
 - Soldier
 tags: card-color-red card-color-red-cost-6 card-type-creature
+tokens:
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Blood
+  power_toughness: null
+  rules: '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
+    a card.'
+  subtype: Blood
+  tla: VOC
+  type: Token Artifact
 type: Creature
 url: http://tappedout.net/mtg-card/markov-enforcer/
