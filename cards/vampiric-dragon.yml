@@ -1,5 +1,5 @@
 activated_abilities:
-- ': Vampiric Dragon deals 1 damage to target creature.'
+- ': This deals 1 damage to target creature.'
 activation_costs:
 - R
 canadian_hl_score: 0
@@ -29,18 +29,27 @@ formats:
 - Limited
 - Oathbreaker
 - Premodern
-- Unformat
 - Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
+- Counters
 mana_cost: 6BR
 mana_cost_converted: 8
 name: Vampiric Dragon
 power_toughness: 5/5
 printings:
+- VOC:
+    border_color: B
+    frame: m15
+    name: 'Innistrad: Crimson Vow Commander'
+    number: 158
+    rarity: rare
+    release_date: 2021-11-18
+    wizards_id: 545778
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545778
 - ARC:
     border_color: B
     frame: modern
@@ -60,9 +69,10 @@ printings:
     release_date: 2001-09-21
     wizards_id: 29969
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=29969
-rules: "Flying\r\n\r\nWhenever a creature dealt damage by Vampiric Dragon this turn\
-  \ is put into a graveyard, put a +1/+1 counter on Vampiric Dragon.\r\n\r\n[[symbol:1]][[symbol:R]]:\
-  \ Vampiric Dragon deals 1 damage to target creature."
+rules: "Flying\r\n\r\nWhenever a creature dies this turn, if it was dealt damage by\
+  \ this, put a +1/+1 counter on this creature. *(Dying is being put into the graveyard\
+  \ from the battlefield, tokens are put into the graveyard before they cease to exist.)*\r\
+  \n\r\n[[symbol:1]][[symbol:R]]: This deals 1 damage to target creature."
 slug: vampiric-dragon
 subtype: Vampire Dragon
 subtype_tokens:
