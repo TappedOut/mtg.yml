@@ -25,6 +25,9 @@ formats:
 has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
+keywords:
+- Flying
+- Exile
 mana_cost: 3U
 mana_cost_converted: 4
 name: Spectral Arcanist
@@ -32,14 +35,19 @@ power_toughness: 3/2
 printings:
 - VOC:
     border_color: B
+    frame: m15
     name: 'Innistrad: Crimson Vow Commander'
     number: 15
     rarity: rare
     release_date: 2021-11-18
-rules: "Flying\r\nWhen Spectral Arcanist enters the battlefield, you may cast an instant\
-  \ or sorcery spell with mana value less than or equal to the number of Spirits you\
-  \ control from a graveyard without paying its mana cost. If that spell would be\
-  \ put into a graveyard, exile it instead."
+    variations:
+    - identifier: '53'
+    wizards_id: 546979
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=546979
+rules: "Flying\r\n\r\nWhen this enters the battlefield, you may cast an instant or\
+  \ sorcery spell from your graveyard with converted mana cost/mana value less than\
+  \ or equal to the number of Spirits you control without paying the spell's mana\
+  \ cost. If that spell would be put into a graveyard, exile it instead."
 slug: spectral-arcanist
 subtype: Spirit Wizard
 subtype_tokens:
