@@ -72,17 +72,6 @@ subtype_tokens:
 tags: card-color-black card-color-gold card-color-gold-cost-6 card-color-green card-type-legendary
   card-type-planeswalker
 tokens:
-- cannonical_type: Creature
-  colors: BG
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 2/2 BG Token Creature Wolf
-  power_toughness: 2/2
-  rules: When this creature is put into the graveyard from the battlefield, put a
-    loyalty counter on each Garruk you control.
-  subtype: Wolf
-  tla: ELD
-  type: Token Creature
 - cannonical_type: Emblem
   colors: C
   mana_cost: '0'
@@ -93,5 +82,17 @@ tokens:
   subtype: Garruk
   tla: ELD
   type: Emblem
+- cannonical_type: Creature
+  colors: BG
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Wolf 2/2 BG
+  power_toughness: 2/2
+  rules: When this creature dies *(is put into the graveyard from the battlefield,
+    tokens are put into the graveyard before they cease to exist)*, put a loyalty
+    counter on each Garruk you control.
+  subtype: Wolf
+  tla: ELD
+  type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/garruk-cursed-huntsman/
