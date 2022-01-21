@@ -30,24 +30,29 @@ is_mtgo: true
 is_permanent: false
 keywords:
 - Exile
+- Counters
+- Tokens
 mana_cost: '0'
 mana_cost_converted: 0
 name: Grand Ossuary
 printings:
 - PC2:
+    alterations:
+    - Oversized
     border_color: B
     frame: modern
     mtgo_id: 45040
     name: Planechase 2012 Edition
+    number: 17
     rarity: common
     release_date: 2012-06-01
     wizards_id: 226554
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=226554
-rules: Whenever a creature dies, its controller distributes a number of +1/+1 counters
-  equal to its power among any number of target creatures he or she controls. Whenever
-  you roll a Chaos Symbol, each player exiles all creatures he or she controls and
-  puts X 1/1 green Saproling creature tokens onto the battlefield, where X is the
-  total power of the creatures he or she exiled in this way. Then planeswalk.
+rules: Whenever a creature dies *(is put into the graveyard from the battlefield)*,
+  its controller distributes a number of +1/+1 counters equal to its power among any
+  number of target creatures they control. Whenever you roll a Chaos Symbol, each
+  player exiles all creatures they control and creates X 1/1 green Saproling creature
+  tokens, where X is the total power of the creatures exiled in this way. Then planeswalk.
 slug: grand-ossuary
 subtype: Ravnica
 subtype_tokens:
@@ -62,7 +67,7 @@ tokens:
   power_toughness: 1/1
   rules: ''
   subtype: Saproling
-  tla: PC2
+  tla: AFC
   type: Token Creature
 type: Plane
 url: http://tappedout.net/mtg-card/grand-ossuary/
