@@ -30,10 +30,14 @@ formats:
 has_activated_abilities: false
 is_mtgo: true
 is_permanent: false
+keywords:
+- Tokens
 mana_cost_converted: 0
 name: Goldmeadow
 printings:
 - PCA:
+    alterations:
+    - Oversized
     border_color: B
     cannonical: false
     frame: m15
@@ -44,16 +48,19 @@ printings:
     wizards_id: 423611
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423611
 - HOP:
+    alterations:
+    - Oversized
     border_color: B
     frame: modern
     name: Planechase
+    number: 13
     rarity: common
     release_date: 2009-09-04
     wizards_id: 198087
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=198087
-rules: "Whenever a land enters the battlefield, that land's controller puts three\
-  \ 0/1 white Goat creature tokens onto the battlefield.\r\n\r\nWhenever you roll\
-  \ {{C}}, put a 0/1 white Goat creature token onto the battlefield."
+rules: "Whenever a land enters the battlefield, that land's controller creates three\
+  \ 0/1 white Goat creature tokens.\r\n\r\nWhenever you roll {{C}}, create a 0/1 white\
+  \ Goat creature token."
 slug: goldmeadow
 subtype: Lorwyn
 subtype_tokens:
@@ -68,7 +75,7 @@ tokens:
   power_toughness: 0/1
   rules: ''
   subtype: Goat
-  tla: HOP
+  tla: THB
   type: Token Creature
 type: Plane
 url: http://tappedout.net/mtg-card/goldmeadow/
