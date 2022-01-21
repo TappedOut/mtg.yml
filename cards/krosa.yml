@@ -6,6 +6,12 @@ activation_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: HOP
+color_identity:
+- W
+- U
+- B
+- R
+- G
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -30,16 +36,17 @@ formats:
 - Pauper
 - Pauper EDH
 - Tiny Leaders
-- Unformat
 - Vintage
 has_activated_abilities: false
 is_mtgo: true
 is_permanent: false
 mana_cost_converted: 0
-mana_produced: w,u,b,r,g
+mana_produced: WUBRG
 name: Krosa
 printings:
 - PCA:
+    alterations:
+    - Oversized
     border_color: B
     cannonical: false
     frame: m15
@@ -50,15 +57,17 @@ printings:
     wizards_id: 423626
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423626
 - HOP:
+    alterations:
+    - Oversized
     border_color: B
     frame: modern
     name: Planechase
+    number: 20
     rarity: common
     release_date: 2009-09-04
     wizards_id: 198100
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=198100
-rules: "All creatures get +2/+2.\r\n\r\nWhenever you roll CHAOS, you may add [[W]][[U]][[B]][[R]][[G]]\
-  \ to your mana pool."
+rules: "All creatures get +2/+2.\r\n\r\nWhenever you roll CHAOS, you may add [[symbol:W]][[symbol:U]][[symbol:B]][[symbol:R]][[symbol:G]]."
 slug: krosa
 subtype: Dominaria
 subtype_tokens:
