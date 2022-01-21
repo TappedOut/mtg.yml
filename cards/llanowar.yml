@@ -1,8 +1,9 @@
 activation_costs:
 - C
-- G
 canadian_hl_score: 0
 cannonical_set: HOP
+color_identity:
+- G
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -27,28 +28,33 @@ formats:
 - Pauper
 - Pauper EDH
 - Tiny Leaders
-- Unformat
 - Vintage
 has_activated_abilities: false
 is_mtgo: true
 is_permanent: false
+keywords:
+- Tap/Untap
 mana_cost_converted: 0
+mana_produced: GG
 name: Llanowar
 printings:
 - HOP:
+    alterations:
+    - Oversized
     border_color: B
     frame: modern
     name: Planechase
+    number: 22
     rarity: common
     release_date: 2009-09-04
     wizards_id: 198107
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=198107
-rules: "All creatures have \"{{T}}: Add {{G}}{{G}} to your mana pool.\"\r\n\r\nWhenever\
-  \ you roll {{C}}, untap all creatures you control."
+rules: "All creatures have \"{[[symbol:T]]: Add [[symbol:T]][[symbol:T]].\"\r\n\r\n\
+  Whenever you roll {{C}}, untap all creatures you control."
 slug: llanowar
 subtype: Dominaria
 subtype_tokens:
 - Dominaria
-tags: card-color-colorless card-color-colorless-cost-0 card-type-plane
+tags: card-color-colorless card-color-colorless-cost-0 card-mana-green card-type-plane
 type: Plane
 url: http://tappedout.net/mtg-card/llanowar/
