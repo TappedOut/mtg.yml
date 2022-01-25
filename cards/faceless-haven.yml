@@ -1,7 +1,7 @@
 activated_abilities:
-- ': Gain .'
-- ': Faceless Haven becomes a 4/3 creature with vigilance and all creature types until
-  end of turn. It''s still a land. *( can be paid with one mana from a snow source.)*'
+- ': Add .'
+- ': This becomes a 4/3 creature with vigilance and all creature types until end of
+  turn. This is still a land. *( can be paid with one mana from a snow source.)*'
 activation_costs:
 - C
 arena:
@@ -51,7 +51,6 @@ formats:
 - Oathbreaker
 - Pioneer
 - Pre-release
-- Standard
 - Tiny Leaders
 - Vintage
 has_activated_abilities: true
@@ -66,6 +65,12 @@ mana_produced: C
 name: Faceless Haven
 printings:
 - KHM:
+    alterations:
+    - Default
+    - Foil
+    - Prerelease
+    - Promo pack
+    - PromoPackF
     border_color: B
     frame: m15
     name: Kaldheim
@@ -73,11 +78,19 @@ printings:
     rarity: rare
     release_date: 2021-02-05
     variations:
-    - identifier: '371'
-    - identifier: PromoPack
+    - alterations:
+      - Default
+      - Foil
+      identifier: '371'
+    - alterations:
+      - Default
+      - Foil
+      identifier: PromoPack
     wizards_id: 503874
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503874
 - '000':
+    alterations:
+    - Foil
     border_color: B
     cannonical: false
     frame: m15
@@ -85,10 +98,10 @@ printings:
     number: 1
     rarity: rare
     release_date: 1990-04-15
-rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:Snow]][[symbol:Snow]][[symbol:Snow]]:\
-  \ Faceless Haven becomes a 4/3 creature with vigilance and all creature types until\
-  \ end of turn. It's still a land. *([[symbol:Snow]] can be paid with one mana from\
-  \ a snow source.)*"
+rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:Snow]][[symbol:Snow]][[symbol:Snow]]:\
+  \ This becomes a 4/3 creature with vigilance and all creature types until end of\
+  \ turn. This is still a land. *([[symbol:Snow]] can be paid with one mana from a\
+  \ snow source.)*"
 slug: faceless-haven
 tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
   card-type-snow
