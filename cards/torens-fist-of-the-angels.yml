@@ -14,6 +14,7 @@ effective_cost:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Alchemy
 - Arena
 - Block Constructed
 - Brawl
@@ -46,6 +47,9 @@ name: Torens, Fist of the Angels
 power_toughness: 2/2
 printings:
 - DBL:
+    alterations:
+    - Default
+    - Foil
     border_color: B
     cannonical: false
     frame: m15
@@ -54,6 +58,8 @@ printings:
     rarity: rare
     release_date: 2022-01-21
 - VOC:
+    alterations:
+    - Default
     border_color: B
     frame: m15
     name: 'Innistrad: Crimson Vow Commander'
@@ -61,6 +67,12 @@ printings:
     rarity: rare
     release_date: 2021-11-18
 - VOW:
+    alterations:
+    - Default
+    - Foil
+    - Prerelease
+    - Promo pack
+    - PromoPackF
     border_color: B
     frame: m15
     name: 'Innistrad: Crimson Vow'
@@ -68,8 +80,14 @@ printings:
     rarity: rare
     release_date: 2021-11-11
     variations:
-    - identifier: '328'
-    - identifier: '344'
+    - alterations:
+      - Default
+      - Foil
+      identifier: '328'
+    - alterations:
+      - Default
+      - Foil
+      identifier: '344'
     wizards_id: 541124
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=541124
 rules: "Training *(Whenever this creature attacks with another creature with greater\
@@ -94,7 +112,7 @@ tokens:
   rules: Training *(When this attacks with another creature with greater power, put
     a +1/+1 counter on this creature.)*
   subtype: Human Soldier
-  tla: VOC
+  tla: VOW
   type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/torens-fist-of-the-angels/
