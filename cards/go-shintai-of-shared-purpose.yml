@@ -19,6 +19,7 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Vigilance
+- Tokens
 mana_cost: 3W
 mana_cost_converted: 4
 name: Go-Shintai of Shared Purpose
@@ -30,17 +31,29 @@ printings:
     - Foil
     border_color: B
     cannonical: false
+    frame: m15
     name: 'Kamigawa: Neon Dynasty'
     number: 14
     rarity: uncommon
     release_date: 2022-02-10
-rules: "Vigilance\r\n\r\nAt the beginning of your end step, you may pay {1}. If you\
-  \ do, create a 1/1 colorless Spirit creature token for each Shrine you control."
+rules: "Vigilance\r\n\r\nAt the beginning of your end step, you may pay [[symbol:1]].\
+  \ If you do, create a 1/1 colorless Spirit creature token for each Shrine you control."
 slug: go-shintai-of-shared-purpose
 subtype: Shrine
 subtype_tokens:
 - Shrine
 tags: card-color-white card-color-white-cost-4 card-type-creature card-type-enchantment
   card-type-legendary
+tokens:
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Spirit 1/1 C
+  power_toughness: 1/1
+  rules: ''
+  subtype: Spirit
+  tla: VOC
+  type: Token Creature
 type: Legendary Enchantment Creature
 url: http://tappedout.net/mtg-card/go-shintai-of-shared-purpose/
