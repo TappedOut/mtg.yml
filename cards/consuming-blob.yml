@@ -12,6 +12,7 @@ effective_cost:
 flat_cost: 5
 formats:
 - 1v1 Commander
+- Alchemy
 - Arena
 - Block Constructed
 - Brawl
@@ -42,6 +43,9 @@ name: Consuming Blob
 power_toughness: '*/*+1'
 printings:
 - DBL:
+    alterations:
+    - Default
+    - Foil
     border_color: B
     cannonical: false
     frame: m15
@@ -50,6 +54,12 @@ printings:
     rarity: mythic_rare
     release_date: 2022-01-21
 - MID:
+    alterations:
+    - Default
+    - Foil
+    - Prerelease
+    - Promo pack
+    - PromoPackF
     border_color: B
     frame: m15
     name: 'Innistrad: Midnight Hunt'
@@ -57,7 +67,10 @@ printings:
     rarity: mythic_rare
     release_date: 2021-09-24
     variations:
-    - identifier: '362'
+    - alterations:
+      - Default
+      - Foil
+      identifier: '362'
     wizards_id: 534963
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=534963
 rules: "This creature's power is equal to the number of card types among cards in\
@@ -81,7 +94,7 @@ tokens:
   power_toughness: '*/*'
   rules: ''
   subtype: Ooze
-  tla: MID
+  tla: 2XM
   type: Token Creature
 - cannonical_type: Creature
   colors: G
