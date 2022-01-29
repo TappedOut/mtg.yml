@@ -1,10 +1,10 @@
 activated_abilities:
-- 'Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)'
+- 'Equip  *(: Attach this to target creature you control. Equip only as a sorcery.
+  This enters the battlefield unattached and stays on the battlefield if the creature
+  this card is attached to leaves the battlefield.)*'
 canadian_hl_score: 0
 cannonical_set: NEO
 cannonical_type: Artifact
-color_identity:
-- W
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -22,6 +22,9 @@ formats:
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords:
+- Equip
+- Attach
 mana_cost: 1W
 mana_cost_converted: 2
 name: Ancestral Katana
@@ -32,13 +35,16 @@ printings:
     - Foil
     border_color: B
     cannonical: false
+    frame: m15
     name: 'Kamigawa: Neon Dynasty'
     number: 1
     rarity: common
     release_date: 2022-02-10
-rules: "Whenever a Samurai or Warrior you control attacks alone, you can pay {1}.\
-  \ If you do, attach Ancestral Katana to it.\r\n\r\nEquipped creature gets +2/+1.\r\
-  \n\r\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)"
+rules: "Whenever a Samurai or Warrior you control attacks alone, you can pay [[symbol:1]].\
+  \ If you do, attach this to it.\r\n\r\nEquipped creature gets +2/+1.\r\n\r\nEquip\
+  \ [[symbol:3]] *([[symbol:3]]: Attach this to target creature you control. Equip\
+  \ only as a sorcery. This enters the battlefield unattached and stays on the battlefield\
+  \ if the creature this card is attached to leaves the battlefield.)*"
 slug: ancestral-katana
 subtype: Equipment
 subtype_tokens:
