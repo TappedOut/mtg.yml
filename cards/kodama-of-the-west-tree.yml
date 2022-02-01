@@ -17,6 +17,7 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Reach
+- Trample
 mana_cost: 2G
 mana_cost_converted: 3
 name: Kodama of the West Tree
@@ -24,8 +25,8 @@ power_toughness: 3/3
 printings:
 - NEO:
     alterations:
-    - Default
     - Foil
+    - Normal
     border_color: B
     cannonical: false
     frame: m15
@@ -33,10 +34,14 @@ printings:
     number: 199
     rarity: mythic_rare
     release_date: 2022-02-10
-rules: "Reach\r\n\r\nModified creatures you control have trample. _(Equipment, Auras\
-  \ you control, and counters are modifications.)_\r\n\r\nWhenever a modified creature\
-  \ you control deals combat damage to a player, search your library for a basic land\
-  \ card, put it onto the battlefield tapped, then shuffle."
+    variations:
+    - identifier: '392'
+    - identifier: '423'
+    - identifier: '477'
+rules: "Reach\r\n\r\nModified creatures you control have trample. *(Acreature is modified\
+  \ if it has equipment or aura attached to it, or has counters on it.)*\r\n\r\nWhenever\
+  \ a modified creature you control deals combat damage to a player, search your library\
+  \ for a basic land card, put it onto the battlefield tapped, then shuffle."
 slug: kodama-of-the-west-tree
 subtype: Spirit
 subtype_tokens:
