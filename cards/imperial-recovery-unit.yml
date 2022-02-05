@@ -1,3 +1,6 @@
+activated_abilities:
+- 'Crew 2 *(Tap any number of creatures you control with total power 2 or more: This
+  Vehicle becomes an artifact creature until end of turn.)*'
 canadian_hl_score: 0
 cannonical_set: NEO
 cannonical_type: Artifact
@@ -9,14 +12,18 @@ companions:
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+- Zirda, the Dawnwaker
 effective_cost:
 - W
 flat_cost: 3
 formats: []
-has_activated_abilities: false
+has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
-mana_cost: '{2}{W}'
+keywords:
+- Tap/Untap
+- Crew
+mana_cost: 2W
 mana_cost_converted: 3
 name: Imperial Recovery Unit
 power_toughness: 3/4
@@ -27,13 +34,15 @@ printings:
     - Normal
     border_color: B
     cannonical: false
-    frame: modern
+    frame: m15
     name: 'Kamigawa: Neon Dynasty'
     number: 18
     rarity: uncommon
     release_date: 2022-02-10
-rules: "Whenever Imperial Recovery Unit attacks, return target creature or Vehicle\
-  \ card with mana value 2 or less from your graveyard to your hand.\r\n\r\nCrew 2"
+rules: "Whenever this attacks, return target creature or Vehicle card with converted\
+  \ mana cost/mana value 2 or less from your graveyard to your hand.\r\n\r\nCrew 2\
+  \ *(Tap any number of creatures you control with total power 2 or more: This Vehicle\
+  \ becomes an artifact creature until end of turn.)*"
 slug: imperial-recovery-unit
 subtype: Vehicle
 subtype_tokens:
