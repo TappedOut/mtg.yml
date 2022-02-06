@@ -1,5 +1,7 @@
 activated_abilities:
-- '{t}: Create a Treasure token. Activate only if a creature died this turn.'
+- ': Create a Treasure token. *(It''s an artifact with )* Activate this ability only
+  if a creature died this turn. *(Was put into the graveyard from the battlefield,
+  tokens are put into the graveyard before they cease to exist.)*'
 canadian_hl_score: 0
 cannonical_set: NEO
 cannonical_type: Creature
@@ -19,7 +21,10 @@ formats:
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
-mana_cost: '{2}{B}'
+keywords:
+- Sacrifice
+- Tokens
+mana_cost: 2B
 mana_cost_converted: 3
 name: Undercity Scrounger
 power_toughness: 1/4
@@ -30,12 +35,15 @@ printings:
     - Normal
     border_color: B
     cannonical: false
-    frame: modern
+    frame: m15
     name: 'Kamigawa: Neon Dynasty'
     number: 126
     rarity: common
     release_date: 2022-02-10
-rules: '{t}: Create a Treasure token. Activate only if a creature died this turn.'
+rules: '[[symbol:T]]: Create a Treasure token. *(It''s an artifact with "[[symbol:T]],
+  Sacrifice this artifact: Add one mana of any colour.")* Activate this ability only
+  if a creature died this turn. *(Was put into the graveyard from the battlefield,
+  tokens are put into the graveyard before they cease to exist.)*'
 slug: undercity-scrounger
 subtype: Human Rogue
 subtype_tokens:
