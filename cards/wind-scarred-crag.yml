@@ -1,11 +1,14 @@
 activated_abilities:
-- ': Gain  or .'
+- ': Add  or .'
 activation_costs:
 - R
 - W
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Land
+color_identity:
+- W
+- R
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -20,8 +23,10 @@ companions:
 flat_cost: 0
 formats:
 - 1v1 Commander
+- Alchemy
 - Arena
 - Block Constructed
+- Brawl
 - Canadian Highlander
 - Commander / EDH
 - 'Commander: Rule 0'
@@ -37,6 +42,8 @@ formats:
 - Pauper
 - Pauper EDH
 - Pioneer
+- Pre-release
+- Standard
 - Tiny Leaders
 - Vintage
 has_activated_abilities: true
@@ -47,10 +54,20 @@ mana_cost_converted: 0
 mana_produced: R, W
 name: Wind-Scarred Crag
 printings:
+- NEO:
+    alterations:
+    - Foil
+    - Normal
+    border_color: B
+    frame: m15
+    name: 'Kamigawa: Neon Dynasty'
+    number: 282
+    rarity: basic_land
+    release_date: 2022-02-10
 - CMR:
     alterations:
-    - Default
     - Foil
+    - Normal
     booster_exclude: true
     border_color: B
     frame: m15
@@ -62,8 +79,8 @@ printings:
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=500982
 - M21:
     alterations:
-    - Default
     - Foil
+    - Normal
     border_color: B
     frame: m15
     name: Core Set 2021
@@ -72,8 +89,8 @@ printings:
     release_date: 2020-07-03
 - IKO:
     alterations:
-    - Default
     - Foil
+    - Normal
     border_color: B
     frame: m15
     mtgo_foil_id: 80526
@@ -84,8 +101,8 @@ printings:
     release_date: 2020-04-15
 - ELD:
     alterations:
-    - Default
     - Foil
+    - Normal
     booster_exclude: true
     border_color: B
     frame: m15
@@ -97,7 +114,7 @@ printings:
     release_date: 2019-10-04
 - C19:
     alterations:
-    - Default
+    - Normal
     border_color: B
     frame: m15
     mtgo_foil_id: 77693
@@ -108,8 +125,8 @@ printings:
     release_date: 2019-08-23
 - M20:
     alterations:
-    - Default
     - Foil
+    - Normal
     border_color: B
     frame: m15
     mtgo_foil_id: 73420
@@ -120,8 +137,8 @@ printings:
     release_date: 2019-07-12
 - CM2:
     alterations:
-    - Default
     - Foil
+    - Normal
     border_color: B
     cannonical: false
     frame: m15
@@ -133,7 +150,7 @@ printings:
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447014
 - C17:
     alterations:
-    - Default
+    - Normal
     border_color: B
     frame: m15
     name: Commander 2017
@@ -144,8 +161,8 @@ printings:
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433226
 - EMA:
     alterations:
-    - Default
     - Foil
+    - Normal
     border_color: B
     frame: m15
     mtgo_foil_id: 60862
@@ -158,7 +175,7 @@ printings:
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413791
 - C15:
     alterations:
-    - Default
+    - Normal
     border_color: B
     frame: m15
     name: Commander 2015
@@ -169,8 +186,8 @@ printings:
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405452
 - FRF:
     alterations:
-    - Default
     - Foil
+    - Normal
     border_color: B
     frame: m15
     mtgo_foil_id: 55537
@@ -183,8 +200,8 @@ printings:
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=391963
 - KTK:
     alterations:
-    - Default
     - Foil
+    - Normal
     border_color: B
     frame: m15
     mtgo_foil_id: 54079
@@ -195,9 +212,8 @@ printings:
     release_date: 2014-09-26
     wizards_id: 386723
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386723
-rules: "Wind-Scarred Crag enters the battlefield tapped.\r\n\r\nWhen Wind-Scarred\
-  \ Crag enters the battlefield, you gain 1 life.\r\n\r\n[[symbol:T]]: Gain [[symbol:R]]\
-  \ or [[symbol:W]]."
+rules: "This enters the battlefield tapped.\r\n\r\nWhen this enters the battlefield,\
+  \ you gain 1 life.\r\n\r\n[[symbol:T]]: Add [[symbol:R]] or [[symbol:W]]."
 slug: wind-scarred-crag
 tags: card-color-colorless card-color-colorless-cost-0 card-mana-red-slow card-mana-white-slow
   card-type-land
