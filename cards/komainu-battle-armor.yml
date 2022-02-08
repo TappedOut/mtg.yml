@@ -1,6 +1,8 @@
 activated_abilities:
-- 'Reconfigure  _(: Attach to target creature you control; or unattach from a creature.
-  Reconfigure only as a sorcery. While attached, this isn''t a creature.)_'
+- 'Reconfigure  _(: Attach this to target creature you control, or unattach this from
+  a creature. Reconfigure only as a sorcery. While attached, this isn''t a creature.
+  This enters the battlefield unattached and stays on the battlefield if the creature
+  this card is attached to leaves the battlefield.)_'
 canadian_hl_score: 0
 cannonical_set: NEC
 cannonical_type: Creature
@@ -15,11 +17,19 @@ companions:
 effective_cost:
 - R
 flat_cost: 3
-formats: []
+formats:
+- 1v1 Commander
+- Commander / EDH
+- Duel Commander
+- Leviathan
+- Oathbreaker
+- Tiny Leaders
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
+- Equip
+- Attach
 - Menace
 - Goad
 - Reconfigure
@@ -38,12 +48,21 @@ printings:
     number: 21
     rarity: rare
     release_date: 2022-02-11
+    variations:
+    - identifier: '60'
 rules: "Menace\r\n\r\nEquipped creature gets +2/+2 and has menace.\r\n\r\nWhenever\
-  \ Komainu Battle Armor or equipped creature deals combat damage to a player, goad\
-  \ each creature that player controls.\r\n\r\nReconfigure [[symbol: 4]] _([[symbol:\
-  \ 4]]: Attach to target creature you control; or unattach from a creature. Reconfigure\
-  \ only as a sorcery. While attached, this isn't a creature.)_"
+  \ this or equipped creature deals combat damage to a player, goad each creature\
+  \ that player controls. *(Until your next turn, they attack a player other than\
+  \ you if able.)*\r\n\r\nReconfigure [[symbol: 4]] _([[symbol: 4]]: Attach this to\
+  \ target creature you control, or unattach this from a creature. Reconfigure only\
+  \ as a sorcery. While attached, this isn't a creature. This enters the battlefield\
+  \ unattached and stays on the battlefield if the creature this card is attached\
+  \ to leaves the battlefield.)_"
 slug: komainu-battle-armor
+subtype: Equipment Dog
+subtype_tokens:
+- Equipment
+- Dog
 tags: card-color-red card-color-red-cost-3 card-type-artifact card-type-creature
 type: Artifact Creature
 url: http://tappedout.net/mtg-card/komainu-battle-armor/
