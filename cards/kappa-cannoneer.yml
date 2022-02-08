@@ -1,10 +1,6 @@
 canadian_hl_score: 0
 cannonical_set: NEC
 cannonical_type: Creature
-color_identity:
-- U
-color_indicator:
-- U
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -15,11 +11,19 @@ companions:
 effective_cost:
 - U
 flat_cost: 6
-formats: []
+formats:
+- 1v1 Commander
+- Commander / EDH
+- Duel Commander
+- Leviathan
+- Oathbreaker
 has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
+- Counterspell
+- Tap/Untap
+- Counters
 - Improvise
 - Ward
 mana_cost: 5U
@@ -30,14 +34,26 @@ printings:
 - NEC:
     alterations:
     - Normal
+    border_color: B
     cannonical: false
+    frame: m15
     name: 'Kamigawa: Neon Dynasty Commander'
+    number: 14
     rarity: rare
     release_date: 2022-02-11
-rules: "Improvise\r\n\r\nWard 4\r\n\r\nWhenever an artifact enters the battlefield\
-  \ under your control, put a +1/+1 counter on Kappa Cannoneer and it can't be blocked\
-  \ this turn."
+    variations:
+    - identifier: '50'
+rules: "Improvise *(Your artifacts can help cast this spell. Each artifact you tap\
+  \ after you're done activating mana abilities past for [[symbol:1]].)*\r\n\r\nWard\
+  \ [[symbol:4]] *(Whenever this becomes the target of a spell or ability an opponent\
+  \ controls, counter it unless that player pays [[symbol:4]].)*\r\n\r\nWhenever an\
+  \ artifact enters the battlefield under your control, put a +1/+1 counter on this\
+  \ and this can't be blocked this turn."
 slug: kappa-cannoneer
+subtype: Turtle Warrior
+subtype_tokens:
+- Turtle
+- Warrior
 tags: card-color-blue card-color-blue-cost-6 card-type-artifact card-type-creature
 type: Artifact Creature
 url: http://tappedout.net/mtg-card/kappa-cannoneer/
