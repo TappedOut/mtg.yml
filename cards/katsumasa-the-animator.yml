@@ -1,5 +1,5 @@
 activated_abilities:
-- '2U: Until end of turn, target noncreature artifact you control becomes an artifact
+- ': Until end of turn, target noncreature artifact you control becomes an artifact
   creature and gains flying. If it''s not a Vehicle, it has base power and toughness
   1/1 until end of turn.'
 activation_costs:
@@ -7,10 +7,6 @@ activation_costs:
 canadian_hl_score: 0
 cannonical_set: NEC
 cannonical_type: Creature
-color_identity:
-- U
-color_indicator:
-- U
 companions:
 - Gyruda, Doom of Depths
 - Keruga, the Macrosage
@@ -21,10 +17,18 @@ companions:
 effective_cost:
 - U
 flat_cost: 4
-formats: []
+formats:
+- 1v1 Commander
+- Commander / EDH
+- Duel Commander
+- Leviathan
+- Oathbreaker
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords:
+- Flying
+- Counters
 mana_cost: 2UU
 mana_cost_converted: 4
 name: Katsumasa, the Animator
@@ -33,15 +37,25 @@ printings:
 - NEC:
     alterations:
     - Normal
+    border_color: B
     cannonical: false
+    frame: m15
     name: 'Kamigawa: Neon Dynasty Commander'
+    number: 15
     rarity: rare
     release_date: 2022-02-11
-rules: "Flying\r\n\r\n2U: Until end of turn, target noncreature artifact you control\
-  \ becomes an artifact creature and gains flying. If it's not a Vehicle, it has base\
-  \ power and toughness 1/1 until end of turn.\r\n\r\nAt the beginning of your upkeep,\
-  \ put a +1/+1 counter on each of up to three target noncreature artifacts."
+    variations:
+    - identifier: '51'
+rules: "Flying\r\n\r\n[[symbol:2]][[symbol:U]]: Until end of turn, target noncreature\
+  \ artifact you control becomes an artifact creature and gains flying. If it's not\
+  \ a Vehicle, it has base power and toughness 1/1 until end of turn.\r\n\r\nAt the\
+  \ beginning of your upkeep, put a +1/+1 counter on each of up to three target noncreature\
+  \ artifacts."
 slug: katsumasa-the-animator
+subtype: Moonfolk Artificer
+subtype_tokens:
+- Moonfolk
+- Artificer
 tags: card-color-blue card-color-blue-cost-4 card-type-creature card-type-legendary
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/katsumasa-the-animator/
