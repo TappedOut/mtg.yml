@@ -1,10 +1,12 @@
 activated_abilities:
-- ", {T}: Draw two cards, then discard a card. Create a 1/1 colorless Pilot creature\
-  \ token with \u201CThis creature crews Vehicles as though its power were 2 greater.\u201D"
-- 'Crew 8 (Tap any number of creatures you control with total power 1 or more: This
-  Vehicle becomes an artifact creature until end of turn.)'
+- ", : Draw two cards, then discard a card. Create a 1/1 colourless Pilot creature\
+  \ token with \u201CThis creature crews Vehicles as though this creature's power\
+  \ were 2 greater.\u201D"
+- 'Crew 8 *(Tap any number of other creatures you control with total power 8 or more:
+  This Vehicle becomes an artifact creature until end of turn.)*'
 canadian_hl_score: 0
 cannonical_set: NEC
+cannonical_type: Artifact
 color_identity:
 - W
 - U
@@ -13,7 +15,6 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
-- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Umori, the Collector
 - Yorion, Sky Nomad
@@ -30,8 +31,10 @@ formats:
 - Oathbreaker
 has_activated_abilities: true
 is_mtgo: true
-is_permanent: false
+is_permanent: true
 keywords:
+- Tap/Untap
+- Tokens
 - Crew
 mana_cost: 2WU
 mana_cost_converted: 4
@@ -43,15 +46,18 @@ printings:
     - Normal
     border_color: B
     cannonical: false
+    frame: m15
     name: 'Kamigawa: Neon Dynasty Commander'
     number: 4
     rarity: mythic_rare
     release_date: 2022-02-11
-rules: ", {T}: Draw two cards, then discard a card. Create a 1/1 colorless Pilot creature\
-  \ token with \u201CThis creature crews Vehicles as though its power were 2 greater.\u201D\
-  \r\n\r\nCrew 8 (Tap any number of creatures you control with total power 1 or more:\
-  \ This Vehicle becomes an artifact creature until end of turn.)\r\n\r\nShorikai,\
-  \ Genesis Engine can be your commander."
+    variations:
+    - identifier: '76'
+rules: "[[symbol:1]], [[symbol:T]]: Draw two cards, then discard a card. Create a\
+  \ 1/1 colourless Pilot creature token with \u201CThis creature crews Vehicles as\
+  \ though this creature's power were 2 greater.\u201D\r\n\r\nCrew 8 *(Tap any number\
+  \ of other creatures you control with total power 8 or more: This Vehicle becomes\
+  \ an artifact creature until end of turn.)*\r\n\r\nThis can be your commander."
 slug: shorikai-genesis-engine
 subtype: Vehicle
 subtype_tokens:
