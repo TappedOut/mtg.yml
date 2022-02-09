@@ -1,15 +1,14 @@
 activated_abilities:
-- '2B, Sacrifice X artifacts: Return target creature card with power X or less from
+- 'When this enters the battlefield, you may sacrifice another creature you control.
+  If you do, create a number of Treasure tokens equal to that creature''s power. *(They''re
+  artifacts with ", Sacrifice this: Add one mana of any colour.)*'
+- ', Sacrifice X artifacts: Return target creature card with power X or less from
   your graveyard to the battlefield. X can''t be 0.'
 activation_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: NEC
 cannonical_type: Creature
-color_identity:
-- B
-color_indicator:
-- B
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -21,34 +20,48 @@ companions:
 effective_cost:
 - B
 flat_cost: 4
-formats: []
+formats:
+- 1v1 Commander
+- Commander / EDH
+- Duel Commander
+- Leviathan
+- Oathbreaker
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
+- Tokens
 mana_cost: 3B
 mana_cost_converted: 4
+mana_produced: W, U, B, R, G
 name: Ruthless Technomancer
 power_toughness: 2/4
 printings:
 - NEC:
     alterations:
     - Normal
+    border_color: B
     cannonical: false
+    frame: m15
     name: 'Kamigawa: Neon Dynasty Commander'
+    number: 35
     rarity: rare
     release_date: 2022-02-11
-rules: "When Ruthless Technomancer enters the battlefield, you may sacrifice another\
-  \ creature you control. If you do, create a number of Treasure tokens equal to that\
-  \ creature's power.\r\n2B, Sacrifice X artifacts: Return target creature card with\
-  \ power X or less from your graveyard to the battlefield. X can't be 0."
+    variations:
+    - identifier: '56'
+rules: "When this enters the battlefield, you may sacrifice another creature you control.\
+  \ If you do, create a number of Treasure tokens equal to that creature's power.\
+  \ *(They're artifacts with \"[[symbol:T]], Sacrifice this: Add one mana of any colour.)*\r\
+  \n\r\n[[symbol:2]][[symbol:B]], Sacrifice X artifacts: Return target creature card\
+  \ with power X or less from your graveyard to the battlefield. X can't be 0."
 slug: ruthless-technomancer
 subtype: Human Wizard
 subtype_tokens:
 - Human
 - Wizard
-tags: card-color-black card-color-black-cost-4 card-type-creature
+tags: card-color-black card-color-black-cost-4 card-mana-black card-mana-blue card-mana-green
+  card-mana-red card-mana-white card-type-creature
 tokens:
 - cannonical_type: Artifact
   colors: C
