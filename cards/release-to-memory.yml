@@ -1,10 +1,6 @@
 canadian_hl_score: 0
 cannonical_set: NEC
 cannonical_type: Instant
-color_identity:
-- W
-color_indicator:
-- W
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -27,6 +23,9 @@ formats:
 has_activated_abilities: false
 is_mtgo: true
 is_permanent: false
+keywords:
+- Exile
+- Tokens
 mana_cost: 3W
 mana_cost_converted: 4
 name: Release to Memory
@@ -34,13 +33,29 @@ printings:
 - NEC:
     alterations:
     - Normal
+    border_color: B
     cannonical: false
+    frame: m15
     name: 'Kamigawa: Neon Dynasty Commander'
+    number: 9
     rarity: rare
     release_date: 2022-02-11
+    variations:
+    - identifier: '44'
 rules: Exile target opponent's graveyard. For each creature card exiled this way,
-  create a 1/1 colorless Spirit creature token.
+  create a 1/1 colourless Spirit creature token.
 slug: release-to-memory
 tags: card-color-white card-color-white-cost-4 card-type-instant
+tokens:
+- cannonical_type: Creature
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Spirit 1/1 C
+  power_toughness: 1/1
+  rules: ''
+  subtype: Spirit
+  tla: VOC
+  type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/release-to-memory/
