@@ -1,10 +1,6 @@
 canadian_hl_score: 0
 cannonical_set: NEC
 cannonical_type: Enchantment
-color_identity:
-- R
-color_indicator:
-- R
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
@@ -26,6 +22,9 @@ formats:
 has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
+keywords:
+- Enchant
+- Attach
 mana_cost: 2R
 mana_cost_converted: 3
 name: Unquenchable Fury
@@ -33,14 +32,19 @@ printings:
 - NEC:
     alterations:
     - Normal
+    border_color: B
     cannonical: false
+    frame: m15
     name: 'Kamigawa: Neon Dynasty Commander'
+    number: 23
     rarity: rare
     release_date: 2022-02-11
-rules: "Enchant Creature\r\n\r\nEnchanted creature has \"Whenever this creature attacks,\
-  \ it deals X damage to defending player, where X is the number of cards in their\
-  \ hand.\"\r\n\r\nWhen Unquenchable Fury is out into your graveyard from the battlefield,\
-  \ return it to your hand."
+    variations:
+    - identifier: '63'
+rules: "Enchant creature\r\n\r\nEnchanted creature has \"Whenever this creature attacks,\
+  \ this deals X damage to defending player, where X is the number of cards in their\
+  \ hand.\"\r\n\r\nWhen this is put into your graveyard from the battlefield, return\
+  \ it to your hand."
 slug: unquenchable-fury
 subtype: Aura
 subtype_tokens:
