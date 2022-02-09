@@ -23,7 +23,11 @@ formats:
 has_activated_abilities: false
 is_mtgo: true
 is_permanent: false
-mana_cost: '{X}{R}'
+keywords:
+- Enchant
+- Attach
+- Tokens
+mana_cost: XR
 mana_cost_converted: 1
 name: Smoke Spirits' Aid
 printings:
@@ -37,10 +41,13 @@ printings:
     number: 22
     rarity: rare
     release_date: 2022-02-11
+    variations:
+    - identifier: '62'
 rules: "For each of up to X target creatures, create a red Aura enchantment token\
   \ named Smoke Blessing attached to that creature. Those tokens have enchant creature\
   \ and \u201CWhen enchanted creature dies, it deals 1 damage to its controller and\
-  \ you create a Treasure token.\u201D"
+  \ you create a Treasure token.\u201D *(Dying is being put into the graveyard from\
+  \ the battlefield, tokens are put into the graveyard before they cease to exist.)*"
 slug: smoke-spirits-aid
 tags: card-color-red card-color-red-cost-1 card-type-sorcery
 tokens:
