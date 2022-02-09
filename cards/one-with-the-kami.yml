@@ -1,10 +1,6 @@
 canadian_hl_score: 0
 cannonical_set: NEC
 cannonical_type: Enchantment
-color_identity:
-- G
-color_indicator:
-- G
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -26,7 +22,9 @@ has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
+- Enchant
 - Flash
+- Attach
 - Tokens
 mana_cost: 3G
 mana_cost_converted: 4
@@ -35,14 +33,21 @@ printings:
 - NEC:
     alterations:
     - Normal
+    border_color: B
     cannonical: false
+    frame: m15
     name: 'Kamigawa: Neon Dynasty Commander'
+    number: 27
     rarity: rare
     release_date: 2022-02-11
+    variations:
+    - identifier: '69'
 rules: "Flash\r\n\r\nEnchant creature you control\r\n\r\nWhenever enchanted creature\
-  \ or another modified creature you control dies, create X 1/1 colorless Spirit creature\
-  \ tokens, where X is that creature's power. (Equipment, Auras you control, and counters\
-  \ are modifications.)"
+  \ or another modified creature you control dies *(is put into the graveyard from\
+  \ the battlefield, tokens are put into the graveyard before they cease to exist)*,\
+  \ create X 1/1 colorless Spirit creature tokens, where X is that creature's power.\
+  \ *(A creature is modified if it has equipment or aura attached to it, or has counters\
+  \ on it.)*"
 slug: one-with-the-kami
 subtype: Aura
 subtype_tokens:
