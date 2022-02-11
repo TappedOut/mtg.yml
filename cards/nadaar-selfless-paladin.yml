@@ -13,8 +13,8 @@ effective_cost:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Alchemy
 - Arena
-- Block Constructed
 - Brawl
 - Canadian Highlander
 - Commander / EDH
@@ -26,7 +26,6 @@ formats:
 - Legacy
 - Leviathan
 - Limited
-- Modern
 - Oathbreaker
 - Pioneer
 - Pre-release
@@ -45,6 +44,13 @@ name: Nadaar, Selfless Paladin
 power_toughness: 3/3
 printings:
 - AFR:
+    alterations:
+    - D&D Foil
+    - Foil
+    - Normal
+    - Prerelease
+    - Promo pack
+    - PromoPackF
     border_color: B
     frame: m15
     name: 'Dungeons & Dragons: Adventures in the Forgotten Realms'
@@ -52,7 +58,10 @@ printings:
     rarity: rare
     release_date: 2021-07-23
     variations:
-    - identifier: '303'
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '303'
     wizards_id: 527314
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=527314
 rules: "Vigilance\r\n\r\nWhenever this enters the battlefield or attacks, venture\
@@ -118,16 +127,6 @@ tokens:
   rules: Deathtouch
   tla: AFR
   type: Token Legendary Creature
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goblin 1/1 R
-  power_toughness: 1/1
-  rules: ''
-  subtype: Goblin
-  tla: AFR
-  type: Token Creature
 - cannonical_type: Artifact
   colors: C
   mana_cost: '0'
@@ -138,5 +137,15 @@ tokens:
   subtype: Treasure
   tla: AFR
   type: Token Artifact
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Goblin 1/1 R
+  power_toughness: 1/1
+  rules: ''
+  subtype: Goblin
+  tla: AFR
+  type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/nadaar-selfless-paladin/

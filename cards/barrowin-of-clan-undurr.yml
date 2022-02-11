@@ -14,8 +14,8 @@ effective_cost:
 flat_cost: 4
 formats:
 - 1v1 Commander
+- Alchemy
 - Arena
-- Block Constructed
 - Brawl
 - Canadian Highlander
 - Commander / EDH
@@ -27,7 +27,6 @@ formats:
 - Legacy
 - Leviathan
 - Limited
-- Modern
 - Oathbreaker
 - Pioneer
 - Pre-release
@@ -44,6 +43,9 @@ name: Barrowin of Clan Undurr
 power_toughness: 3/3
 printings:
 - AFR:
+    alterations:
+    - Foil
+    - Normal
     border_color: B
     frame: m15
     name: 'Dungeons & Dragons: Adventures in the Forgotten Realms'
@@ -51,7 +53,10 @@ printings:
     rarity: uncommon
     release_date: 2021-07-23
     variations:
-    - identifier: '336'
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '336'
     wizards_id: 527505
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=527505
 rules: "When this enters the battlefield, venture into the dungeon. *(If you aren't\
@@ -118,16 +123,6 @@ tokens:
   rules: Deathtouch
   tla: AFR
   type: Token Legendary Creature
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goblin 1/1 R
-  power_toughness: 1/1
-  rules: ''
-  subtype: Goblin
-  tla: AFR
-  type: Token Creature
 - cannonical_type: Artifact
   colors: C
   mana_cost: '0'
@@ -138,5 +133,15 @@ tokens:
   subtype: Treasure
   tla: AFR
   type: Token Artifact
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Goblin 1/1 R
+  power_toughness: 1/1
+  rules: ''
+  subtype: Goblin
+  tla: AFR
+  type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/barrowin-of-clan-undurr/
