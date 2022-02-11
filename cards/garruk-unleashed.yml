@@ -33,7 +33,6 @@ formats:
 - Limited
 - Modern
 - Oathbreaker
-- Pioneer
 - Vintage
 has_activated_abilities: true
 is_mtgo: true
@@ -47,6 +46,12 @@ mana_cost_converted: 4
 name: Garruk, Unleashed
 printings:
 - M21:
+    alterations:
+    - Foil
+    - Normal
+    - Prerelease
+    - Promo pack
+    - PromoPackF
     border_color: B
     frame: m15
     name: Core Set 2021
@@ -54,9 +59,18 @@ printings:
     rarity: mythic_rare
     release_date: 2020-07-03
     variations:
-    - identifier: '284'
-    - identifier: '305'
-    - identifier: PromoPack
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '284'
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '305'
+    - alterations:
+      - Foil
+      - Normal
+      identifier: PromoPack
     wizards_id: 485506
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485506
 rules: "[[symbol:loyalty-plus1]]: Up to one target creature gets +3/+3 and gains trample\
@@ -71,16 +85,6 @@ subtype_tokens:
 - Garruk
 tags: card-color-green card-color-green-cost-4 card-type-legendary card-type-planeswalker
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Beast 3/3 G
-  power_toughness: 3/3
-  rules: ''
-  subtype: Beast
-  tla: M21
-  type: Token Creature
 - cannonical_type: Emblem
   colors: C
   mana_cost: '0'
@@ -92,5 +96,15 @@ tokens:
   subtype: Garruk
   tla: M21
   type: Emblem
+- cannonical_type: Creature
+  colors: G
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Beast 3/3 G
+  power_toughness: 3/3
+  rules: ''
+  subtype: Beast
+  tla: M21
+  type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/garruk-unleashed/
