@@ -15,8 +15,8 @@ effective_cost:
 flat_cost: 0
 formats:
 - 1v1 Commander
+- Alchemy
 - Arena
-- Block Constructed
 - Brawl
 - Canadian Highlander
 - Commander / EDH
@@ -28,7 +28,6 @@ formats:
 - Legacy
 - Leviathan
 - Limited
-- Modern
 - Oathbreaker
 - Pioneer
 - Pre-release
@@ -45,6 +44,9 @@ name: Ashmouth Dragon
 power_toughness: 4/4
 printings:
 - DBL:
+    alterations:
+    - Foil
+    - Normal
     booster_exclude: true
     border_color: B
     cannonical: false
@@ -54,6 +56,12 @@ printings:
     rarity: rare
     release_date: 2022-01-21
 - MID:
+    alterations:
+    - Foil
+    - Normal
+    - Prerelease
+    - Promo pack
+    - PromoPackF
     booster_exclude: true
     border_color: B
     frame: m15
@@ -62,7 +70,10 @@ printings:
     rarity: rare
     release_date: 2021-09-24
     variations:
-    - identifier: '358'
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '358'
 rules: "Flying\r\n\r\nWhenever you cast an instant or sorcery spell, this deals 2\
   \ damage to target creature, player or planeswalker."
 slug: ashmouth-dragon
