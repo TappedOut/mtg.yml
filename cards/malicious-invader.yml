@@ -15,8 +15,8 @@ effective_cost:
 flat_cost: 0
 formats:
 - 1v1 Commander
+- Alchemy
 - Arena
-- Block Constructed
 - Brawl
 - Canadian Highlander
 - Commander / EDH
@@ -27,7 +27,6 @@ formats:
 - Legacy
 - Leviathan
 - Limited
-- Modern
 - Oathbreaker
 - Pioneer
 - Pre-release
@@ -44,6 +43,9 @@ name: Malicious Invader
 power_toughness: 3/3
 printings:
 - DBL:
+    alterations:
+    - Foil
+    - Normal
     booster_exclude: true
     border_color: B
     cannonical: false
@@ -53,6 +55,9 @@ printings:
     rarity: uncommon
     release_date: 2022-01-21
 - VOW:
+    alterations:
+    - Foil
+    - Normal
     booster_exclude: true
     border_color: B
     frame: m15
@@ -61,8 +66,14 @@ printings:
     rarity: uncommon
     release_date: 2021-11-11
     variations:
-    - identifier: '294'
-    - identifier: '336'
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '294'
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '336'
 rules: "Flying\r\n\r\nThis gets +2/+0 as long as an opponent controls a Human."
 slug: malicious-invader
 subtype: Vampire
