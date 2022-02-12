@@ -32,7 +32,6 @@ formats:
 - Limited
 - Modern
 - Oathbreaker
-- Pioneer
 - Vintage
 has_activated_abilities: false
 is_mtgo: true
@@ -45,6 +44,12 @@ mana_cost_converted: 4
 name: Mythos of Illuna
 printings:
 - IKO:
+    alterations:
+    - Foil
+    - Normal
+    - Prerelease
+    - Promo pack
+    - PromoPackF
     border_color: B
     frame: m15
     mtgo_foil_id: 80126
@@ -54,8 +59,14 @@ printings:
     rarity: rare
     release_date: 2020-04-15
     variations:
-    - identifier: '318'
-    - identifier: PromoPack
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '318'
+    - alterations:
+      - Foil
+      - Normal
+      identifier: PromoPack
     wizards_id: 479578
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479578
 rules: Create a token that's a copy of target permanent. If [[symbol:R]][[symbol:G]]
@@ -72,7 +83,7 @@ tokens:
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: IKO
+  tla: VOW
   type: Token Creature
 type: Sorcery
 url: http://tappedout.net/mtg-card/mythos-of-illuna/
