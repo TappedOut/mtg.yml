@@ -17,8 +17,8 @@ effective_cost:
 flat_cost: 2
 formats:
 - 1v1 Commander
+- Alchemy
 - Arena
-- Block Constructed
 - Brawl
 - Canadian Highlander
 - Commander / EDH
@@ -30,7 +30,6 @@ formats:
 - Legacy
 - Leviathan
 - Limited
-- Modern
 - Oathbreaker
 - Pioneer
 - Pre-release
@@ -48,6 +47,12 @@ mana_cost_converted: 2
 name: Mystic Reflection
 printings:
 - KHM:
+    alterations:
+    - Foil
+    - Normal
+    - Prerelease
+    - Promo pack
+    - PromoPackF
     border_color: B
     frame: m15
     name: Kaldheim
@@ -55,8 +60,14 @@ printings:
     rarity: rare
     release_date: 2021-02-05
     variations:
-    - identifier: '349'
-    - identifier: PromoPack
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '349'
+    - alterations:
+      - Foil
+      - Normal
+      identifier: PromoPack
     wizards_id: 503677
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503677
 rules: "Choose target nonlegendary creature. The next time one or more creatures or\
@@ -74,7 +85,7 @@ tokens:
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: KHM
+  tla: VOW
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/mystic-reflection/
