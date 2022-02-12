@@ -15,6 +15,7 @@ effective_cost:
 flat_cost: 5
 formats:
 - 1v1 Commander
+- Alchemy
 - Arena
 - Block Constructed
 - Brawl
@@ -42,6 +43,12 @@ mana_cost_converted: 5
 name: Echoing Equation
 printings:
 - STX:
+    alterations:
+    - Foil
+    - Normal
+    - Prerelease
+    - Promo pack
+    - PromoPackF
     booster_exclude: true
     border_color: B
     frame: m15
@@ -50,7 +57,10 @@ printings:
     rarity: rare
     release_date: 2021-04-23
     variations:
-    - identifier: '321'
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '321'
 rules: Choose target creature you control. Each other creature you control becomes
   a copy of it until end of turn, except those creatures aren't legendary if the chosen
   creature is legendary.
