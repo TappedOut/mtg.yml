@@ -17,8 +17,8 @@ effective_cost:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Alchemy
 - Arena
-- Block Constructed
 - Brawl
 - Canadian Highlander
 - Commander / EDH
@@ -30,7 +30,6 @@ formats:
 - Legacy
 - Leviathan
 - Limited
-- Modern
 - Oathbreaker
 - Pioneer
 - Pre-release
@@ -49,6 +48,9 @@ name: Rust Monster
 power_toughness: 2/1
 printings:
 - AFR:
+    alterations:
+    - Foil
+    - Normal
     border_color: B
     frame: m15
     name: 'Dungeons & Dragons: Adventures in the Forgotten Realms'
@@ -56,7 +58,10 @@ printings:
     rarity: uncommon
     release_date: 2021-07-23
     variations:
-    - identifier: '321'
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '321'
     wizards_id: 527448
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=527448
 rules: "First strike\r\n\r\nSacrifice an artifact: This gets +2/+0 until end of turn."
