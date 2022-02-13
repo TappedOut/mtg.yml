@@ -13,6 +13,7 @@ effective_cost:
 flat_cost: 4
 formats:
 - 1v1 Commander
+- Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - 'Commander: Rule 0'
@@ -21,6 +22,7 @@ formats:
 - Legacy
 - Leviathan
 - Limited
+- Modern
 - Oathbreaker
 - Vintage
 has_activated_abilities: false
@@ -37,12 +39,16 @@ name: Phantom Steed
 power_toughness: 4/3
 printings:
 - AFC:
+    alterations:
+    - Normal
     name: 'Adventures in the Forgotten Realms: Commander'
     number: 18
     rarity: rare
     release_date: 2021-07-24
     variations:
-    - identifier: '287'
+    - alterations:
+      - Normal
+      identifier: '287'
     wizards_id: 531923
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=531923
 rules: "Flash\r\n\r\nWhen this enters the battlefield, exile another target creature\
@@ -63,7 +69,7 @@ tokens:
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: AFC
+  tla: VOW
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/phantom-steed/

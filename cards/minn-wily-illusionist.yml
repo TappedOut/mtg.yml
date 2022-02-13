@@ -12,6 +12,7 @@ effective_cost:
 flat_cost: 3
 formats:
 - 1v1 Commander
+- Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - 'Commander: Rule 0'
@@ -20,6 +21,7 @@ formats:
 - Legacy
 - Leviathan
 - Limited
+- Modern
 - Oathbreaker
 - Tiny Leaders
 - Vintage
@@ -34,12 +36,16 @@ name: Minn, Wily Illusionist
 power_toughness: 1/3
 printings:
 - AFC:
+    alterations:
+    - Normal
     name: 'Adventures in the Forgotten Realms: Commander'
     number: 16
     rarity: rare
     release_date: 2021-07-24
     variations:
-    - identifier: '16'
+    - alterations:
+      - Normal
+      identifier: '16'
     wizards_id: 531921
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=531921
 rules: "Whenever you draw your second card each turn, create a 1/1 blue Illusion creature\
@@ -63,7 +69,7 @@ tokens:
   power_toughness: 1/1
   rules: Flying
   subtype: Illusion
-  tla: AFC
+  tla: CMR
   type: Token Creature
 - cannonical_type: Creature
   colors: U
