@@ -1,6 +1,7 @@
 activated_abilities:
-- 'Remove Elvish Spirit Guide in your hand from the game: Add (Green) to your mana
-  pool.'
+- 'Exile this from your hand: Add .'
+activation_costs:
+- G
 canadian_hl_score: 0
 cannonical_set: ALL
 cannonical_type: Creature
@@ -28,18 +29,30 @@ formats:
 - Oathbreaker
 - Premodern
 - Tiny Leaders
-- Unformat
 - Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords:
+- Exile
 mana_cost: 2G
 mana_cost_converted: 3
-mana_produced: w
+mana_produced: G
 name: Elvish Spirit Guide
 power_toughness: 2/2
 printings:
+- SLD:
+    border_color: B
+    cannonical: false
+    frame: m15
+    name: Secret Lair
+    number: 423
+    rarity: rare
+    release_date: 2019-12-09
 - ME2:
+    alterations:
+    - Foil
+    - Normal
     border_color: B
     cannonical: false
     frame: modern
@@ -52,6 +65,8 @@ printings:
     wizards_id: 184542
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=184542
 - ALL:
+    alterations:
+    - Normal
     border_color: B
     frame: original
     name: Alliances
@@ -59,13 +74,12 @@ printings:
     release_date: 1996-06-10
     wizards_id: 3134
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3134
-rules: 'Remove Elvish Spirit Guide in your hand from the game: Add (Green) to your
-  mana pool.'
+rules: 'Exile this from your hand: Add [[symbol:G]].'
 slug: elvish-spirit-guide
 subtype: Elf Spirit
 subtype_tokens:
 - Elf
 - Spirit
-tags: card-color-green card-color-green-cost-3 card-mana-white card-type-creature
+tags: card-color-green card-color-green-cost-3 card-mana-green card-type-creature
 type: Creature
 url: http://tappedout.net/mtg-card/elvish-spirit-guide/
