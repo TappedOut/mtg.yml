@@ -1,5 +1,5 @@
 activated_abilities:
-- ': Gain .'
+- ': Add .'
 activation_costs:
 - C
 arena:
@@ -96,7 +96,7 @@ printings:
       identifier: '352'
     wizards_id: 527542
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=527542
-rules: "This enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Gain [[symbol:C]].\r\
+rules: "This enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Add [[symbol:C]].\r\
   \n\r\n[[symbol:4]], [[symbol:T]], Tap an untapped legendary creature you control.\
   \ Venture into the dungeon. Activate this ability only as a sorcery. *(If you aren't\
   \ venturing through a dungeon, choose one of the dungeon cards you own from outside\
@@ -109,15 +109,35 @@ rules: "This enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Gain [[symbol:C
 slug: dungeon-descent
 tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
 tokens:
-- cannonical_type: Dungeon
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: The Atropal
+  power_toughness: 4/4
+  rules: Deathtouch
+  tla: AFR
+  type: Token Legendary Creature
+- cannonical_type: Artifact
   colors: C
   mana_cost: '0'
   mana_cost_converted: 0
-  name: 'Dungeon: Tomb of Annihilation'
+  name: Treasure
   power_toughness: null
-  rules: ''
+  rules: '[[symbol:T]], Sacrifice this: Add one mana of any colour.'
+  subtype: Treasure
   tla: AFR
-  type: Dungeon
+  type: Token Artifact
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Goblin 1/1 R
+  power_toughness: 1/1
+  rules: ''
+  subtype: Goblin
+  tla: AFR
+  type: Token Creature
 - cannonical_type: Dungeon
   colors: C
   mana_cost: '0'
@@ -136,6 +156,15 @@ tokens:
   rules: ''
   tla: AFR
   type: Dungeon
+- cannonical_type: Dungeon
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: 'Dungeon: Tomb of Annihilation'
+  power_toughness: null
+  rules: ''
+  tla: AFR
+  type: Dungeon
 - cannonical_type: Creature
   colors: B
   mana_cost: '0'
@@ -146,34 +175,5 @@ tokens:
   subtype: Skeleton
   tla: AFR
   type: Token Creature
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: The Atropal
-  power_toughness: 4/4
-  rules: Deathtouch
-  tla: AFR
-  type: Token Legendary Creature
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goblin 1/1 R
-  power_toughness: 1/1
-  rules: ''
-  subtype: Goblin
-  tla: AFR
-  type: Token Creature
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this: Add one mana of any colour.'
-  subtype: Treasure
-  tla: AFR
-  type: Token Artifact
 type: Land
 url: http://tappedout.net/mtg-card/dungeon-descent/
