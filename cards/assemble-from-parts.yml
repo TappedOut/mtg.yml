@@ -1,9 +1,3 @@
-activated_abilities:
-- ', Exile this creature from your graveyard: Shuffle this into your library. Create
-  a token that''s a copy of this creature excepit it''s a 4/4 black Zombie in addition
-  to its other types. Activate this ability only as a sorcery." *(Perpetual effects
-  are given to cards permanently regardless of what zone those cards are in and what
-  zone they move to.)*'
 activation_costs:
 - B
 canadian_hl_score: 0
@@ -21,8 +15,12 @@ companions:
 effective_cost:
 - B
 flat_cost: 1
-formats: []
-has_activated_abilities: true
+formats:
+- Alchemy
+- Arena
+- Gladiator
+- Historic
+has_activated_abilities: false
 is_mtgo: true
 is_permanent: false
 keywords:
@@ -33,17 +31,21 @@ mana_cost_converted: 1
 name: Assemble from Parts
 printings:
 - Y22:
+    alterations:
+    - Foil
+    - Normal
     border_color: B
+    cannonical: false
     frame: m15
     name: Arena Alchemy 2022
     rarity: rare
     release_date: 2021-12-09
-rules: "Target creature card in your graveyard perpetually gains \"\r\n[[symbol:3]][[symbol:B]],\
-  \ Exile this creature from your graveyard: Shuffle this into your library. Create\
-  \ a token that's a copy of this creature excepit it's a 4/4 black Zombie in addition\
-  \ to its other types. Activate this ability only as a sorcery.\" *(Perpetual effects\
-  \ are given to cards permanently regardless of what zone those cards are in and\
-  \ what zone they move to.)*"
+rules: 'Target creature card in your graveyard perpetually gains "[[symbol:3]][[symbol:B]],
+  Exile this creature from your graveyard: Shuffle this into your library. Create
+  a token that''s a copy of this creature excepit it''s a 4/4 black Zombie in addition
+  to its other types. Activate this ability only as a sorcery." *(Perpetual effects
+  are given to cards permanently regardless of what zone those cards are in and what
+  zone they move to.)*'
 slug: assemble-from-parts
 tags: card-color-black card-color-black-cost-1 card-type-instant
 tokens:
@@ -54,7 +56,7 @@ tokens:
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: Y22
+  tla: VOW
   type: Token Creature
 type: Instant
 url: http://tappedout.net/mtg-card/assemble-from-parts/
