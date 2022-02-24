@@ -2,8 +2,9 @@ activated_abilities:
 - ': Add . Draft a card from this card''s spellbook, then exile it. Until end of turn,
   you may cast that card. *(To draft a card, randomly generate three cards from the
   given pool of cards, and then put one of them into exile, it is not a token.)*'
-- ': This 3 deals 3 to target creature or planeswalker unless its controller has this
-  deal 3 damage to them. If they do, you may discard a card, then draw a card.'
+- ': This deals 4 damage to target creature or planeswalker unless its controller
+  has this deal 4 damage to them. If they do, you may discard a card, then draw a
+  card.'
 - ': Create X 1/1 red Devil creature tokens with '
 - 'This card''s spellbook:'
 activation_costs:
@@ -22,7 +23,11 @@ companions:
 effective_cost:
 - R
 flat_cost: 5
-formats: []
+formats:
+- Alchemy
+- Arena
+- Gladiator
+- Historic
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -37,7 +42,11 @@ mana_produced: RR
 name: Tibalt, Wicked Tormentor
 printings:
 - Y22:
+    alterations:
+    - Foil
+    - Normal
     border_color: B
+    cannonical: false
     frame: m15
     name: Arena Alchemy 2022
     rarity: mythic_rare
@@ -46,8 +55,8 @@ rules: "[[symbol:loyalty-plus1]]: Add [[symbol:R]][[symbol:R]]. Draft a card fro
   \ this card's spellbook, then exile it. Until end of turn, you may cast that card.\
   \ *(To draft a card, randomly generate three cards from the given pool of cards,\
   \ and then put one of them into exile, it is not a token.)*\r\n\r\n[[symbol:loyalty-plus1]]:\
-  \ This 3 deals 3 to target creature or planeswalker unless its controller has this\
-  \ deal 3 damage to them. If they do, you may discard a card, then draw a card.\r\
+  \ This deals 4 damage to target creature or planeswalker unless its controller has\
+  \ this deal 4 damage to them. If they do, you may discard a card, then draw a card.\r\
   \n\r\n[[symbol:loyalty-minusX]]: Create X 1/1 red Devil creature tokens with \"\
   When this creature dies, this deals 1 damage to target creature, player or planeswalker.\"\
   \r\n\r\nThis card's spellbook:\r\n\r\n- [[Brimstone Vandal]]\r\n- [[Chained Brute]]\r\
@@ -71,7 +80,7 @@ tokens:
     tokens are put into the graveyard before ceasing to exist)*, this deals 1 damage
     to target creature, player or planeswalker.
   subtype: Devil
-  tla: Y22
+  tla: MID
   type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/tibalt-wicked-tormentor/
