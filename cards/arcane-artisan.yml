@@ -42,6 +42,8 @@ name: Arcane Artisan
 power_toughness: 0/3
 printings:
 - KHC:
+    alterations:
+    - Normal
     border_color: B
     frame: m15
     name: 'Kaldheim: Commander'
@@ -51,6 +53,9 @@ printings:
     wizards_id: 508326
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508326
 - BBD:
+    alterations:
+    - Foil
+    - Normal
     border_color: B
     frame: m15
     mtgo_foil_id: 68795
@@ -61,8 +66,11 @@ printings:
     release_date: 2018-06-08
 rules: "[[symbol:2]][[symbol:U]], [[symbol:T]]: Target player draws a card, then exiles\
   \ a card from their hand. If a creature card is exiled this way, that player creates\
-  \ a token that's a copy of that card.\r\n\r\nWhen Arcane Artisan leaves the battlefield,\
-  \ exile all tokens created with it at the beginning of the next end step."
+  \ a token that's a copy of that card.\r\n\r\nWhen this leaves the battlefield, exile\
+  \ all tokens created with this at the beginning of the next end step. *(This is\
+  \ a linked ability, linked to the ability in the first paragraph on the card named\
+  \ \"Arcane Artisan\". Tokens created by this card are only exiled if those tokens\
+  \ were created by the ability in the first paragraph.)*"
 slug: arcane-artisan
 subtype: Human Wizard
 subtype_tokens:
@@ -77,7 +85,7 @@ tokens:
   name: Copy Clone
   power_toughness: null
   rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: KHC
+  tla: VOW
   type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/arcane-artisan/
