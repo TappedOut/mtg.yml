@@ -1,3 +1,5 @@
+activation_costs:
+- W
 canadian_hl_score: 0
 cannonical_set: JUD
 cannonical_type: Instant
@@ -29,19 +31,21 @@ formats:
 - Pauper EDH
 - Premodern
 - Tiny Leaders
-- Unformat
 - Vintage
 has_activated_abilities: false
 is_mtgo: true
 is_permanent: false
 keywords:
-- Flash
+- Exile
 - Flashback
 mana_cost: 2G
 mana_cost_converted: 3
 name: Folk Medicine
 printings:
 - JUD:
+    alterations:
+    - Foil
+    - Normal
     border_color: B
     frame: original
     mtgo_foil_id: 17583
@@ -52,9 +56,9 @@ printings:
     release_date: 2002-05-27
     wizards_id: 35071
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=35071
-rules: "You gain 1 life for each creature you control.\r\n\r\n \r\n\r\nFlashback (1)(White)\
-  \ (You may play this card from your graveyard for its flashback cost. Then remove\
-  \ it from the game.)"
+rules: "You gain 1 life for each creature you control.\r\n\r\nFlashback [[symbol:1]][[symbol:W]]\
+  \ *(You may cast this from your graveyard for this card's flashback cost. Then exile\
+  \ this.)*"
 slug: folk-medicine
 tags: card-color-green card-color-green-cost-3 card-type-instant
 type: Instant
