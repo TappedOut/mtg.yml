@@ -1,6 +1,8 @@
 activated_abilities:
-- '(Blue)(Blue), Tap: Gain control of target legendary permanent. (This effect doesn''t
-  end at end of turn.)'
+- ', : Gain control of target legendary permanent. *(This effect doesn''t end at end
+  of turn.)*'
+activation_costs:
+- U
 canadian_hl_score: 0
 cannonical_set: INV
 cannonical_type: Creature
@@ -26,7 +28,6 @@ formats:
 - Limited
 - Oathbreaker
 - Premodern
-- Unformat
 - Vintage
 has_activated_abilities: true
 is_mtgo: true
@@ -36,7 +37,21 @@ mana_cost_converted: 5
 name: Empress Galina
 power_toughness: 1/3
 printings:
+- SLD:
+    alterations:
+    - Foil
+    - Normal
+    border_color: B
+    cannonical: false
+    frame: m15
+    name: Secret Lair
+    number: 9998
+    rarity: rare
+    release_date: 2019-12-09
 - INV:
+    alterations:
+    - Foil
+    - Normal
     border_color: B
     frame: original
     mtgo_foil_id: 15000
@@ -47,12 +62,13 @@ printings:
     release_date: 2000-10-02
     wizards_id: 23007
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=23007
-rules: '(Blue)(Blue), Tap: Gain control of target legendary permanent. (This effect
-  doesn''t end at end of turn.)'
+rules: '[[symbol:U]][[symbol:U]], [[symbol:T]]: Gain control of target legendary permanent.
+  *(This effect doesn''t end at end of turn.)*'
 slug: empress-galina
-subtype: Merfolk
+subtype: Merfolk Noble
 subtype_tokens:
 - Merfolk
+- Noble
 tags: card-color-blue card-color-blue-cost-5 card-type-creature card-type-legendary
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/empress-galina/
