@@ -31,7 +31,6 @@ formats:
 - Pauper
 - Pauper EDH
 - Tiny Leaders
-- Unformat
 - Vintage
 has_activated_abilities: true
 is_mtgo: true
@@ -42,6 +41,9 @@ name: Combat Medic
 power_toughness: 0/2
 printings:
 - ME2:
+    alterations:
+    - Foil
+    - Normal
     border_color: B
     cannonical: false
     frame: modern
@@ -54,6 +56,8 @@ printings:
     wizards_id: 184686
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=184686
 - ATH:
+    alterations:
+    - Normal
     border_color: B
     frame: original
     name: Anthologies
@@ -61,15 +65,23 @@ printings:
     rarity: common
     release_date: 1998-11-01
 - FEM:
+    alterations:
+    - Normal
     border_color: B
     frame: original
     name: Fallen Empires
     rarity: common
     release_date: 1994-11-01
     variations:
-    - identifier: 1972
-    - identifier: 1973
-    - identifier: 1970
+    - alterations:
+      - Normal
+      identifier: 1972
+    - alterations:
+      - Normal
+      identifier: 1973
+    - alterations:
+      - Normal
+      identifier: 1970
     wizards_id: 1971
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=1971
 rules: '[[symbol:1]][[symbol:W]]: Prevent the next 1 damage that would be dealt to
@@ -81,5 +93,6 @@ subtype_tokens:
 - Cleric
 - Soldier
 tags: card-color-white card-color-white-cost-3 card-type-creature
+tapped_id: 8262
 type: Creature
 url: http://tappedout.net/mtg-card/combat-medic/

@@ -30,7 +30,6 @@ formats:
 - Pauper
 - Pauper EDH
 - Premodern
-- Unformat
 - Vintage
 has_activated_abilities: true
 is_mtgo: false
@@ -43,6 +42,8 @@ name: Homarid Warrior
 power_toughness: 3/3
 printings:
 - 5ED:
+    alterations:
+    - Normal
     border_color: W
     frame: original
     name: Fifth Edition
@@ -52,14 +53,20 @@ printings:
     wizards_id: 3913
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3913
 - FEM:
+    alterations:
+    - Normal
     border_color: B
     frame: original
     name: Fallen Empires
     rarity: common
     release_date: 1994-11-01
     variations:
-    - identifier: 1883
-    - identifier: 1881
+    - alterations:
+      - Normal
+      identifier: 1883
+    - alterations:
+      - Normal
+      identifier: 1881
     wizards_id: 1882
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=1882
 rules: '(Blue): Homarid Warrior gains shroud until end of turn and doesn''t untap
@@ -71,5 +78,6 @@ subtype_tokens:
 - Homarid
 - Warrior
 tags: card-color-blue card-color-blue-cost-5 card-type-creature
+tapped_id: 8293
 type: Creature
 url: http://tappedout.net/mtg-card/homarid-warrior/

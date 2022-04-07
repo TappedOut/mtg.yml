@@ -29,7 +29,6 @@ formats:
 - Pauper
 - Pauper EDH
 - Tiny Leaders
-- Unformat
 - Vintage
 has_activated_abilities: true
 is_mtgo: false
@@ -42,14 +41,20 @@ name: Icatian Moneychanger
 power_toughness: 0/2
 printings:
 - FEM:
+    alterations:
+    - Normal
     border_color: B
     frame: original
     name: Fallen Empires
     rarity: common
     release_date: 1994-11-01
     variations:
-    - identifier: 1990
-    - identifier: 1991
+    - alterations:
+      - Normal
+      identifier: 1990
+    - alterations:
+      - Normal
+      identifier: 1991
     wizards_id: 1989
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=1989
 rules: "Icatian Moneychanger enters the battlefield with three credit counters on\
@@ -62,5 +67,6 @@ subtype: Human
 subtype_tokens:
 - Human
 tags: card-color-white card-color-white-cost-1 card-type-creature
+tapped_id: 8295
 type: Creature
 url: http://tappedout.net/mtg-card/icatian-moneychanger/

@@ -28,7 +28,6 @@ formats:
 - Pauper
 - Pauper EDH
 - Tiny Leaders
-- Unformat
 - Vintage
 has_activated_abilities: true
 is_mtgo: true
@@ -41,6 +40,9 @@ name: Armor Thrull
 power_toughness: 1/3
 printings:
 - ME2:
+    alterations:
+    - Foil
+    - Normal
     border_color: B
     cannonical: false
     frame: modern
@@ -53,15 +55,23 @@ printings:
     wizards_id: 184684
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=184684
 - FEM:
+    alterations:
+    - Normal
     border_color: B
     frame: original
     name: Fallen Empires
     rarity: common
     release_date: 1994-11-01
     variations:
-    - identifier: 1840
-    - identifier: 1839
-    - identifier: 1838
+    - alterations:
+      - Normal
+      identifier: 1840
+    - alterations:
+      - Normal
+      identifier: 1839
+    - alterations:
+      - Normal
+      identifier: 1838
     wizards_id: 1841
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=1841
 rules: 'Tap, Sacrifice Armor Thrull: Put a +1/+2 counter on target creature.'
@@ -72,5 +82,6 @@ subtype_tokens:
 synonyms:
 - Armour Thrull
 tags: card-color-black card-color-black-cost-3 card-type-creature
+tapped_id: 8258
 type: Creature
 url: http://tappedout.net/mtg-card/armor-thrull/

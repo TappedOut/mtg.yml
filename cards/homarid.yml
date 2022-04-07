@@ -25,7 +25,6 @@ formats:
 - Pauper
 - Pauper EDH
 - Tiny Leaders
-- Unformat
 - Vintage
 has_activated_abilities: false
 is_mtgo: false
@@ -36,15 +35,23 @@ name: Homarid
 power_toughness: 2/2
 printings:
 - FEM:
+    alterations:
+    - Normal
     border_color: B
     frame: original
     name: Fallen Empires
     rarity: common
     release_date: 1994-11-01
     variations:
-    - identifier: 1876
-    - identifier: 1877
-    - identifier: 1878
+    - alterations:
+      - Normal
+      identifier: 1876
+    - alterations:
+      - Normal
+      identifier: 1877
+    - alterations:
+      - Normal
+      identifier: 1878
     wizards_id: 1875
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=1875
 rules: "Homarid enters the battlefield with a tide counter on it.\r\n\r\nAt the beginning\
@@ -57,5 +64,6 @@ subtype: Homarid
 subtype_tokens:
 - Homarid
 tags: card-color-blue card-color-blue-cost-3 card-type-creature
+tapped_id: 8291
 type: Creature
 url: http://tappedout.net/mtg-card/homarid/
