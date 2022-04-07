@@ -25,7 +25,6 @@ formats:
 - Pauper EDH
 - Premodern
 - Tiny Leaders
-- Unformat
 - Vintage
 has_activated_abilities: false
 is_mtgo: true
@@ -39,6 +38,9 @@ name: Necrite
 power_toughness: 2/2
 printings:
 - ME2:
+    alterations:
+    - Foil
+    - Normal
     border_color: B
     cannonical: false
     frame: modern
@@ -51,6 +53,8 @@ printings:
     wizards_id: 184699
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=184699
 - 5ED:
+    alterations:
+    - Normal
     border_color: W
     frame: original
     name: Fifth Edition
@@ -59,14 +63,20 @@ printings:
     wizards_id: 3864
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3864
 - FEM:
+    alterations:
+    - Normal
     border_color: B
     frame: original
     name: Fallen Empires
     rarity: common
     release_date: 1994-11-01
     variations:
-    - identifier: 1859
-    - identifier: 1861
+    - alterations:
+      - Normal
+      identifier: 1859
+    - alterations:
+      - Normal
+      identifier: 1861
     wizards_id: 1860
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=1860
 rules: Whenever Necrite attacks and isn't blocked, you may sacrifice it. If you do,
@@ -76,5 +86,6 @@ subtype: Thrull
 subtype_tokens:
 - Thrull
 tags: card-color-black card-color-black-cost-3 card-type-creature
+tapped_id: 8304
 type: Creature
 url: http://tappedout.net/mtg-card/necrite/

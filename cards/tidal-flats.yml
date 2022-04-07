@@ -31,7 +31,6 @@ formats:
 - Pauper
 - Pauper EDH
 - Tiny Leaders
-- Unformat
 - Vintage
 has_activated_abilities: true
 is_mtgo: false
@@ -43,14 +42,20 @@ mana_cost_converted: 1
 name: Tidal Flats
 printings:
 - FEM:
+    alterations:
+    - Normal
     border_color: B
     frame: original
     name: Fallen Empires
     rarity: common
     release_date: 1994-11-01
     variations:
-    - identifier: 1893
-    - identifier: 1892
+    - alterations:
+      - Normal
+      identifier: 1893
+    - alterations:
+      - Normal
+      identifier: 1892
     wizards_id: 1891
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=1891
 rules: '(Blue)(Blue): For each attacking creature without flying, its controller may
@@ -58,5 +63,6 @@ rules: '(Blue)(Blue): For each attacking creature without flying, its controller
   first strike until end of turn.'
 slug: tidal-flats
 tags: card-color-blue card-color-blue-cost-1 card-type-enchantment
+tapped_id: 8325
 type: Enchantment
 url: http://tappedout.net/mtg-card/tidal-flats/

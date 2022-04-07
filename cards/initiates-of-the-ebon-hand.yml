@@ -30,7 +30,6 @@ formats:
 - Pauper EDH
 - Premodern
 - Tiny Leaders
-- Unformat
 - Vintage
 has_activated_abilities: true
 is_mtgo: false
@@ -43,6 +42,8 @@ name: Initiates of the Ebon Hand
 power_toughness: 1/1
 printings:
 - 5ED:
+    alterations:
+    - Normal
     border_color: W
     frame: original
     name: Fifth Edition
@@ -52,14 +53,20 @@ printings:
     wizards_id: 3852
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3852
 - FEM:
+    alterations:
+    - Normal
     border_color: B
     frame: original
     name: Fallen Empires
     rarity: common
     release_date: 1994-11-01
     variations:
-    - identifier: 1854
-    - identifier: 1853
+    - alterations:
+      - Normal
+      identifier: 1854
+    - alterations:
+      - Normal
+      identifier: 1853
     wizards_id: 1855
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=1855
 rules: '(1): Add (Black) to your mana pool. At end of turn, if this ability has been
@@ -69,5 +76,6 @@ subtype: Cleric
 subtype_tokens:
 - Cleric
 tags: card-color-black card-color-black-cost-1 card-type-creature
+tapped_id: 8302
 type: Creature
 url: http://tappedout.net/mtg-card/initiates-of-the-ebon-hand/
