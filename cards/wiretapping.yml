@@ -1,14 +1,16 @@
 canadian_hl_score: 0
 cannonical_set: SNC
-cannonical_type: Creature
+cannonical_type: Enchantment
 companions:
+- Jegantha, the Wellspring
+- Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
-- R
+- U
 flat_cost: 5
 formats:
 - 1v1 Commander
@@ -35,12 +37,10 @@ has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
-- Haste
-- Exile
-mana_cost: 3RR
+- Hideaway
+mana_cost: 4U
 mana_cost_converted: 5
-name: Urabrask, Heretic Praetor
-power_toughness: 4/4
+name: Wiretapping
 printings:
 - SNC:
     alterations:
@@ -52,24 +52,21 @@ printings:
     border_color: B
     frame: m15
     name: Streets of New Capenna
-    number: 129
-    rarity: mythic_rare
+    number: 415
+    rarity: rare
     release_date: 2022-04-29
     variations:
     - alterations:
       - Foil
       - Normal
-      identifier: '346'
-rules: "Haste\r\n\r\nAt the beginning of your upkeep, exile the top card of your library.\
-  \ You may play it this turn.\r\n\r\nAt the beginning of each opponent's upkeep,\
-  \ the next time they would draw a card this turn, instead they exile the top card\
-  \ of their library. They may play it this turn."
-slug: urabrask-heretic-praetor
-subtype: Phyrexian Praetor
-subtype_tokens:
-- Phyrexian
-- Praetor
-tags: card-color-red card-color-red-cost-5 card-type-creature card-type-legendary
-tapped_id: 26141
-type: Legendary Creature
-url: http://tappedout.net/mtg-card/urabrask-heretic-praetor/
+      identifier: '415'
+rules: "Hideaway 5 *(When this enters the battlefield, look at the top five cards\
+  \ of your library, exiled one face down, then put the rest on the bottom in a random\
+  \ order.)*\r\n\r\nWhenever you draw your first card during each of your draw steps,\
+  \ draw a card. Then if you have nine or more cards in hand, you may play the exiled\
+  \ card without paying its mana cost."
+slug: wiretapping
+tags: card-color-blue card-color-blue-cost-5 card-type-enchantment
+tapped_id: 26150
+type: Enchantment
+url: http://tappedout.net/mtg-card/wiretapping/
