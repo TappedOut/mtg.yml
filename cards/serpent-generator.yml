@@ -29,7 +29,6 @@ formats:
 - Pauper
 - Pauper EDH
 - Premodern
-- Unformat
 - Vintage
 has_activated_abilities: true
 is_mtgo: true
@@ -39,6 +38,9 @@ mana_cost_converted: 6
 name: Serpent Generator
 printings:
 - MED:
+    alterations:
+    - Foil
+    - Normal
     border_color: B
     cannonical: false
     frame: modern
@@ -50,6 +52,8 @@ printings:
     wizards_id: 159826
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=159826
 - 5ED:
+    alterations:
+    - Normal
     border_color: W
     frame: original
     name: Fifth Edition
@@ -58,6 +62,8 @@ printings:
     wizards_id: 3809
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3809
 - CHR:
+    alterations:
+    - Normal
     border_color: W
     frame: original
     name: Chronicles
@@ -66,6 +72,8 @@ printings:
     wizards_id: 2792
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=2792
 - LEG:
+    alterations:
+    - Normal
     border_color: B
     frame: original
     name: Legends
@@ -78,6 +86,7 @@ rules: '(4), Tap: Put a 1/1 Snake artifact creature token into play. This creatu
   counter." <i>(A player with ten or more poison counters loses the game.)'
 slug: serpent-generator
 tags: card-color-colorless card-color-colorless-cost-6 card-type-artifact
+tapped_id: 586
 tokens:
 - cannonical_type: Creature
   colors: C
@@ -88,7 +97,6 @@ tokens:
   rules: Whenever this creature deals damage to a player, that player gets a poison
     counter.
   subtype: Snake
-  tla: 5ED
   type: Token Artifact Creature
 type: Artifact
 url: http://tappedout.net/mtg-card/serpent-generator/
