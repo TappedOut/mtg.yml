@@ -28,7 +28,6 @@ formats:
 - Pauper EDH
 - Premodern
 - Tiny Leaders
-- Unformat
 - Vintage
 has_activated_abilities: false
 is_mtgo: true
@@ -38,13 +37,17 @@ mana_cost_converted: 2
 name: Foresight
 printings:
 - ALL:
+    alterations:
+    - Normal
     border_color: B
     frame: original
     name: Alliances
     rarity: common
     release_date: 1996-06-10
     variations:
-    - identifier: 3109
+    - alterations:
+      - Normal
+      identifier: 3109
     wizards_id: 3108
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3108
 rules: "Search your library for three cards, remove them from the game, then shuffle\
@@ -52,5 +55,6 @@ rules: "Search your library for three cards, remove them from the game, then shu
   \ upkeep."
 slug: foresight
 tags: card-color-blue card-color-blue-cost-2 card-type-sorcery
+tapped_id: 7758
 type: Sorcery
 url: http://tappedout.net/mtg-card/foresight/
