@@ -1,8 +1,6 @@
 canadian_hl_score: 0
 cannonical_set: SNC
 cannonical_type: Creature
-color_identity:
-- G
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -38,8 +36,14 @@ formats:
 has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
+keywords:
+- Sacrifice
+- Counters
+- Tokens
+- Alliance
 mana_cost: 1G
 mana_cost_converted: 2
+mana_produced: W, U, B, R, G
 name: Gala Greeters
 power_toughness: 1/1
 printings:
@@ -47,21 +51,52 @@ printings:
     alterations:
     - Foil
     - Normal
+    - Prerelease
+    - Promo pack
+    - PromoPackF
     border_color: B
     frame: m15
     name: Streets of New Capenna
     number: 148
     rarity: rare
     release_date: 2022-04-29
-rules: "Alliance - Whenever another creature enters the battlefield under your control,\
-  \ choose one that hasn't been chosen this turn - \r\n- Put a _1/+1 counter on Gala\
-  \ Greeters.\r\n- Create a tapped Treasure token.\r\n- You gain 2 life."
+    variations:
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '451'
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '452'
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '453'
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '454'
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '455'
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '456'
+rules: "*Alliance* &mdash; Whenever another creature enters the battlefield under\
+  \ your control, choose one that hasn't been chosen this turn &mdash;\r\n \r\n- Put\
+  \ a +1/+1 counter on this.\r\n- Create a tapped Treasure token. *(It's a colourless\
+  \ artifact with \"[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.\"\
+  )*\r\n- You gain 2 life."
 slug: gala-greeters
 subtype: Elf Druid
 subtype_tokens:
 - Elf
 - Druid
-tags: card-color-green card-color-green-cost-2 card-type-creature
+tags: card-color-green card-color-green-cost-2 card-mana-black card-mana-blue card-mana-green
+  card-mana-red card-mana-white card-type-creature
 tapped_id: 26136
 tokens:
 - cannonical_type: Artifact
