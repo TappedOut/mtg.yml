@@ -27,7 +27,6 @@ formats:
 - Pauper
 - Pauper EDH
 - Tiny Leaders
-- Unformat
 - Vintage
 has_activated_abilities: true
 is_mtgo: true
@@ -41,6 +40,9 @@ name: Basal Thrull
 power_toughness: 1/2
 printings:
 - MED:
+    alterations:
+    - Foil
+    - Normal
     border_color: B
     cannonical: false
     frame: modern
@@ -52,15 +54,23 @@ printings:
     wizards_id: 159728
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=159728
 - FEM:
+    alterations:
+    - Normal
     border_color: B
     frame: original
     name: Fallen Empires
     rarity: common
     release_date: 1994-11-01
     variations:
-    - identifier: 1843
-    - identifier: 1844
-    - identifier: 1845
+    - alterations:
+      - Normal
+      identifier: 1843
+    - alterations:
+      - Normal
+      identifier: 1844
+    - alterations:
+      - Normal
+      identifier: 1845
     wizards_id: 1842
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=1842
 rules: 'Tap, Sacrifice Basal Thrull: Add (Black)(Black) to your mana pool.'
@@ -69,5 +79,6 @@ subtype: Thrull
 subtype_tokens:
 - Thrull
 tags: card-color-black card-color-black-cost-2 card-mana-black card-type-creature
+tapped_id: 463
 type: Creature
 url: http://tappedout.net/mtg-card/basal-thrull/
