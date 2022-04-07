@@ -30,7 +30,6 @@ formats:
 - Pauper
 - Pauper EDH
 - Tiny Leaders
-- Unformat
 - Vintage
 has_activated_abilities: true
 is_mtgo: true
@@ -44,6 +43,9 @@ name: Order of Leitbur
 power_toughness: 2/1
 printings:
 - MED:
+    alterations:
+    - Foil
+    - Normal
     border_color: B
     cannonical: false
     frame: modern
@@ -55,14 +57,20 @@ printings:
     wizards_id: 159188
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=159188
 - FEM:
+    alterations:
+    - Normal
     border_color: B
     frame: original
     name: Fallen Empires
     rarity: common
     release_date: 1994-11-01
     variations:
-    - identifier: 2000
-    - identifier: 2002
+    - alterations:
+      - Normal
+      identifier: 2000
+    - alterations:
+      - Normal
+      identifier: 2002
     wizards_id: 2001
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=2001
 rules: "Protection from black\r\n\r\n[[W]]: Order of Leitbur gains first strike until\
@@ -74,5 +82,6 @@ subtype_tokens:
 - Cleric
 - Knight
 tags: card-color-white card-color-white-cost-2 card-type-creature
+tapped_id: 559
 type: Creature
 url: http://tappedout.net/mtg-card/order-of-leitbur/
