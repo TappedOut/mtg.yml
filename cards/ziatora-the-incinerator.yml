@@ -39,28 +39,45 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
+- Sacrifice
+- Tokens
 mana_cost: 3BRG
 mana_cost_converted: 6
+mana_produced: WWW, UUU, BBB, RRR, GGG
 name: Ziatora, the Incinerator
 power_toughness: 6/6
 printings:
 - SNC:
     alterations:
+    - Foil
     - Normal
+    - Prerelease
+    - Promo pack
+    - PromoPackF
+    border_color: B
+    frame: m15
     name: Streets of New Capenna
     number: 231
     rarity: mythic_rare
     release_date: 2022-04-29
+    variations:
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '339'
 rules: "Flying\r\n\r\nAt the beginning of your end step, you may sacrifice another\
-  \ creature. When you do, Ziatora, the Incenerator deals damage equal to that creature's\
-  \ power to any target and you create three Treasure tokens."
+  \ creature. When you do, this deals damage equal to that creature's power to any\
+  \ target (creature, player or planeswalker)* and you create three Treasure tokens.\
+  \ *(They're colourless artifacts with \"[[symbol:T]], Sacrifice this: Add one mana\
+  \ of any colour.\")*"
 slug: ziatora-the-incinerator
 subtype: Demon Dragon
 subtype_tokens:
 - Demon
 - Dragon
 tags: card-color-black card-color-gold card-color-gold-cost-6 card-color-green card-color-red
-  card-type-creature card-type-legendary
+  card-mana-black card-mana-blue card-mana-green card-mana-red card-mana-white card-type-creature
+  card-type-legendary
 tapped_id: 26138
 tokens:
 - cannonical_type: Artifact
