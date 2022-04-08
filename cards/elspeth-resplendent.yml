@@ -1,10 +1,10 @@
 activated_abilities:
-- '[+1]: Choose up to one target creature. Put a +1/+1 counter and a counter from
-  among flying, first strike, lifelink, or vigilance on it.'
-- '[-3]: Look at the top seven cards of your library. You may put a permanent card
-  with mana value 3 or less from among them onto the battlefield with a shield counter
+- ': Choose up to one target creature. Put a +1/+1 counter and a counter from among
+  flying, first strike, lifelink, or vigilance on it.'
+- ': Look at the top seven cards of your library. You may put a permanent card with
+  mana value 3 or less from among them onto the battlefield with a shield counter
   on it. Put the rest on the bottom of your library in a random order.'
-- '[-7]: Create five 3/3 white Angel creature tokens with flying.'
+- ': Create five 3/3 white Angel creature tokens with flying.'
 canadian_hl_score: 0
 cannonical_set: SNC
 cannonical_type: Planeswalker
@@ -43,6 +43,13 @@ formats:
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords:
+- First strike
+- Flying
+- Lifelink
+- Vigilance
+- Counters
+- Tokens
 mana_cost: 3WW
 mana_cost_converted: 5
 name: Elspeth Resplendent
@@ -51,16 +58,31 @@ printings:
     alterations:
     - Foil
     - Normal
+    - Prerelease
+    - Promo pack
+    - PromoPackF
+    border_color: B
+    frame: m15
     name: Streets of New Capenna
     number: 11
     rarity: mythic_rare
     release_date: 2022-04-29
-rules: "[+1]: Choose up to one target creature. Put a +1/+1 counter and a counter\
-  \ from among flying, first strike, lifelink, or vigilance on it.\r\n\r\n[-3]: Look\
-  \ at the top seven cards of your library. You may put a permanent card with mana\
-  \ value 3 or less from among them onto the battlefield with a shield counter on\
-  \ it. Put the rest on the bottom of your library in a random order.\r\n\r\n[-7]:\
-  \ Create five 3/3 white Angel creature tokens with flying."
+    variations:
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '282'
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '341'
+rules: "[[symbol:loyalty-plus1]]: Choose up to one target creature. Put a +1/+1 counter\
+  \ and a counter from among flying, first strike, lifelink, or vigilance on it.\r\
+  \n\r\n[[symbol:loyalty-minus3]]: Look at the top seven cards of your library. You\
+  \ may put a permanent card with mana value 3 or less from among them onto the battlefield\
+  \ with a shield counter on it. Put the rest on the bottom of your library in a random\
+  \ order.\r\n\r\n[[symbol:loyalty-minus7]]: Create five 3/3 white Angel creature\
+  \ tokens with flying."
 slug: elspeth-resplendent
 subtype: Elspeth
 subtype_tokens:
