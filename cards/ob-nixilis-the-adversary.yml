@@ -1,8 +1,8 @@
 activated_abilities:
-- '[+1]: Each opponent loses 2 life unless they discard a card. If you control a Demon
+- ': Each opponent loses 2 life unless they discard a card. If you control a Demon
   or Devil, you gain 2 life.'
-- '[-2]: Create a 1/1 red Devil creature token with '
-- '[-7]: Target player draws seven cards and loses 7 life.'
+- ': Create a 1/1 red Devil creature token with '
+- ': Target player draws seven cards and loses 7 life.'
 canadian_hl_score: 0
 cannonical_set: SNC
 cannonical_type: Planeswalker
@@ -44,6 +44,11 @@ formats:
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords:
+- Sacrifice
+- Counters
+- Tokens
+- Casualty
 mana_cost: 1BR
 mana_cost_converted: 3
 name: Ob Nixilis, the Adversary
@@ -52,17 +57,32 @@ printings:
     alterations:
     - Foil
     - Normal
+    - Prerelease
+    - Promo pack
+    - PromoPackF
+    border_color: B
+    frame: m15
     name: Streets of New Capenna
     number: 206
     rarity: mythic_rare
     release_date: 2022-04-29
-rules: "Casualty X. The copy isn't legendary and has starting loyalty X. (As you cast\
-  \ this spell, you may sacrifice a creature with power X. When you do, copy this\
-  \ spell. The copy becomes a token.)\r\n\r\n[+1]: Each opponent loses 2 life unless\
-  \ they discard a card. If you control a Demon or Devil, you gain 2 life.\r\n\r\n\
-  [-2]: Create a 1/1 red Devil creature token with \"When this creature dies, it deals\
-  \ 1 damage to any target.\"\r\n\r\n[-7]: Target player draws seven cards and loses\
-  \ 7 life."
+    variations:
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '284'
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '348'
+rules: "Casualty X. The copy isn't legendary and has starting loyalty X. *(As you\
+  \ cast this spell, you may sacrifice a creature with power X. When you do, copy\
+  \ this spell. The copy becomes a token.)*\r\n\r\n[[symbol:loyalty-plus1]]: Each\
+  \ opponent loses 2 life unless they discard a card. If you control a Demon or Devil,\
+  \ you gain 2 life.\r\n\r\n[[symbol:loyalty-minus2]]: Create a 1/1 red Devil creature\
+  \ token with \"When this creature dies, this deals 1 damage to any target *(creature,\
+  \ player or planeswalker)*.\"\r\n\r\n[[symbol:loyalty-minus7]]: Target player draws\
+  \ seven cards and loses 7 life."
 slug: ob-nixilis-the-adversary
 subtype: Nixilis
 subtype_tokens:
@@ -70,5 +90,18 @@ subtype_tokens:
 tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-red card-type-legendary
   card-type-planeswalker
 tapped_id: 26142
+tokens:
+- cannonical_type: Creature
+  colors: R
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Devil 1/1 R
+  power_toughness: 1/1
+  rules: When this creature dies *(is put into the graveyard from the battlefield,
+    tokens are put into the graveyard before ceasing to exist)*, this deals 1 damage
+    to target creature, player or planeswalker.
+  subtype: Devil
+  tla: MID
+  type: Token Creature
 type: Legendary Planeswalker
 url: http://tappedout.net/mtg-card/ob-nixilis-the-adversary/
