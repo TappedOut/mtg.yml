@@ -4,6 +4,7 @@ cannonical_type: Creature
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lutri, the Spellchaser
 - Umori, the Collector
@@ -39,16 +40,26 @@ printings:
 - NCC:
     alterations:
     - Normal
+    border_color: B
+    frame: m15
     name: 'Streets of New Capenna: Commander'
-    number: 108
     rarity: mythic_rare
     release_date: 2022-04-30
-rules: "Creature Tokens you control have haste.\r\n\r\nParley - At the beginning of\
-  \ combat on your turn, each player reveals the top card of their library. For each\
-  \ land card revealed this way, you create a 1/1 green and white Citizen creature\
+    variations:
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '108'
+rules: "Creature tokens you control have haste.\r\n\r\n*Parley* &mdash; At the beginning\
+  \ of combat on your turn, each player reveals the top card of their library. For\
+  \ each land card revealed this way, you create a 1/1 green and white Citizen creature\
   \ token. Then creatures you control get +1/+1 until end of turn for each nonland\
   \ card revealed this way. Then each player draws a card."
 slug: phabine-bosss-confidant
+subtype: Cat Advisor
+subtype_tokens:
+- Cat
+- Advisor
 tags: card-color-gold card-color-gold-cost-6 card-color-green card-color-red card-color-white
   card-type-creature card-type-legendary
 tapped_id: 26166
