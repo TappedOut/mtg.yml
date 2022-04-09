@@ -1,5 +1,5 @@
 activated_abilities:
-- '1, T: Add UBR. Spend this mana only to cast instant and/or sorcery spells.'
+- ', : Add . Spend this mana only to cast instant and/or sorcery spells.'
 activation_costs:
 - B
 - R
@@ -45,6 +45,8 @@ formats:
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords:
+- Haste
 mana_cost: 1UBR
 mana_cost_converted: 4
 mana_produced: UBR
@@ -55,13 +57,21 @@ printings:
     alterations:
     - Foil
     - Normal
+    border_color: B
+    frame: m15
     name: Streets of New Capenna
     number: 177
     rarity: uncommon
     release_date: 2022-04-29
-rules: "Haste\r\n\r\n1, T: Add UBR. Spend this mana only to cast instant and/or sorcery\
-  \ spells.\r\n\r\nWhen Cormela, Glamour Thief dies, return up to one target instant\
-  \ or sorcery card from your graveyard to your hand."
+    variations:
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '301'
+rules: "Haste\r\n\r\n[[symbol:1]], [[symbol:T]]: Add [[symbol:U]][[symbol:B]][[symbol:R]].\
+  \ Spend this mana only to cast instant and/or sorcery spells.\r\n\r\nWhen this dies,\
+  \ return up to one target instant or sorcery card from your graveyard to your hand.\
+  \ *(Dying is being put into the graveyard from the battlefield.)*"
 slug: cormela-glamour-thief
 subtype: Vampire Rogue
 subtype_tokens:
