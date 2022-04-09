@@ -1,10 +1,10 @@
 activated_abilities:
-- '[+2]: You may sacrifice a creature. If you do, search your library for a creature
-  card with mana value equal to 1 plus the sacrificed creature''s mana value, put
-  it onto the battlefield, then shuffle.'
-- '[+1]: Mill five cards, then put any number of creature cards milled this way into
-  your hand.'
-- '[-1]: Create a 4/4 green Rhino Warrior creature token.'
+- ': You may sacrifice a creature. If you do, search your library for a creature card
+  with mana value/converted mana cost equal to 1 plus the sacrificed creature''s mana
+  value, put it onto the battlefield, then shuffle your library.'
+- ': Mill five cards, then put any number of creature cards milled this way into your
+  hand. *(Put the top five cards of your library into your graveyard.)*'
+- ': Create a 4/4 green Rhino Warrior creature token.'
 canadian_hl_score: 0
 cannonical_set: SNC
 cannonical_type: Planeswalker
@@ -36,6 +36,7 @@ formats:
 - Limited
 - Modern
 - Oathbreaker
+- Pauper
 - Pioneer
 - Pre-release
 - Standard
@@ -43,6 +44,11 @@ formats:
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords:
+- Sacrifice
+- Counters
+- Tokens
+- Mill
 mana_cost: 4GG
 mana_cost_converted: 6
 name: Vivien on the Hunt
@@ -51,15 +57,34 @@ printings:
     alterations:
     - Foil
     - Normal
+    - Prerelease
+    - Promo pack
+    - PromoPackF
+    border_color: B
+    frame: m15
     name: Streets of New Capenna
-    number: 347
+    number: 162
     rarity: mythic_rare
     release_date: 2022-04-29
-rules: "[+2]: You may sacrifice a creature. If you do, search your library for a creature\
-  \ card with mana value equal to 1 plus the sacrificed creature's mana value, put\
-  \ it onto the battlefield, then shuffle.\r\n\r\n[+1]: Mill five cards, then put\
-  \ any number of creature cards milled this way into your hand.\r\n\r\n[-1]: Create\
-  \ a 4/4 green Rhino Warrior creature token."
+    variations:
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '283'
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '347'
+    - alterations:
+      - Etched
+      identifier: '447'
+rules: "[[symbol:loyalty-plus2]]: You may sacrifice a creature. If you do, search\
+  \ your library for a creature card with mana value/converted mana cost equal to\
+  \ 1 plus the sacrificed creature's mana value, put it onto the battlefield, then\
+  \ shuffle your library.\r\n\r\n[[symbol:loyalty-plus1]]: Mill five cards, then put\
+  \ any number of creature cards milled this way into your hand. *(Put the top five\
+  \ cards of your library into your graveyard.)*\r\n\r\n[[symbol:loyalty-minus1]]:\
+  \ Create a 4/4 green Rhino Warrior creature token."
 slug: vivien-on-the-hunt
 subtype: Vivien
 subtype_tokens:
