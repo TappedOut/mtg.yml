@@ -40,7 +40,7 @@ is_permanent: true
 keywords:
 - Deathtouch
 - Alliance
-mana_cost: '{1}{G}'
+mana_cost: 1G
 mana_cost_converted: 2
 name: Venom Connoisseur
 power_toughness: 2/2
@@ -55,10 +55,15 @@ printings:
     number: 161
     rarity: uncommon
     release_date: 2022-04-29
-rules: Alliance - Whenever another creature enters the battlefield under your control,
-  Venom Connoisseur gains deathtouch until end of turn. If this is the second time
+    variations:
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '161'
+rules: '*Alliance* &mdash; Whenever another creature enters the battlefield under
+  your control, this gains deathtouch until end of turn. If this is the second time
   this ability has resolved this turn, all creatures you control gain deathtouch until
-  end of turn.
+  end of turn.'
 slug: venom-connoisseur
 subtype: Human Druid
 subtype_tokens:
