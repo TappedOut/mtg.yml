@@ -1,5 +1,7 @@
 activated_abilities:
-- 'T: Exile up to two target cards from a single graveyard.'
+- ': Exile up to two target cards from a single graveyard.'
+- 'Crew 2 *(Tap any number of creatures you control with total power 2 or more: This
+  vehicle becomes an artifact creature until end of turn.)*'
 canadian_hl_score: 0
 cannonical_set: SNC
 cannonical_type: Artifact
@@ -41,8 +43,9 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
+- Tap/Untap
 - Crew
-mana_cost: '{2}'
+mana_cost: '2'
 mana_cost_converted: 2
 name: Unlicensed Hearse
 power_toughness: '*/*'
@@ -51,15 +54,27 @@ printings:
     alterations:
     - Foil
     - Normal
+    - Prerelease
+    - Promo pack
+    - PromoPackF
     border_color: B
     frame: m15
     name: Streets of New Capenna
     number: 246
     rarity: rare
     release_date: 2022-04-29
-rules: "T: Exile up to two target cards from a single graveyard.\r\n\r\nUnlicensed\
-  \ Hearse's power and toughness are each equal to the number of cards exiled with\
-  \ it.\r\n\r\nCrew 2"
+    variations:
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '440'
+rules: "[[symbol:T]]: Exile up to two target cards from a single graveyard.\r\n\r\n\
+  This card's power and toughness are each equal to the number of cards exiled with\
+  \ this. *(This is a linked ability, linked to the ability in the first paragraph\
+  \ on the card named \"Unlicensed Hearse\". The power and toughness of this vehicle\
+  \ are only equal to the number of cards exiled with the first ability.)*\r\n\r\n\
+  Crew 2 *(Tap any number of creatures you control with total power 2 or more: This\
+  \ vehicle becomes an artifact creature until end of turn.)*"
 slug: unlicensed-hearse
 subtype: Vehicle
 subtype_tokens:
