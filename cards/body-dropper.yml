@@ -1,5 +1,6 @@
 activated_abilities:
-- 'BR, Sacrifice another creature: Body Dropper gains menace until end of turn.'
+- ', Sacrifice another creature: This gains menace until end of turn. *(This can''t
+  be blocked except by two or more creatures.)*'
 activation_costs:
 - B
 - R
@@ -48,7 +49,9 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
-mana_cost: '{B}{R}'
+- Counters
+- Menace
+mana_cost: BR
 mana_cost_converted: 2
 name: Body Dropper
 power_toughness: 2/2
@@ -58,13 +61,14 @@ printings:
     - Foil
     - Normal
     border_color: B
-    frame: modern
+    frame: m15
     name: Streets of New Capenna
     number: 148
     rarity: common
     release_date: 2022-04-29
-rules: "Whenever you sacrifice another creature, put a +1/+1 counter on Body Dropper.\r\
-  \n\r\nBR, Sacrifice another creature: Body Dropper gains menace until end of turn."
+rules: "Whenever you sacrifice another creature, put a +1/+1 counter on this.\r\n\r\
+  \n[[symbol:B]][[symbol:R]], Sacrifice another creature: This gains menace until\
+  \ end of turn. *(This can't be blocked except by two or more creatures.)*"
 slug: body-dropper
 subtype: Devil Warrior
 subtype_tokens:
