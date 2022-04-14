@@ -1,7 +1,7 @@
 activated_abilities:
-- ': Add . Put a stash counter on Glittering Stockpile.'
-- ', Sacrifice Glittering Stockpile: Add X mana of any one color, where X is the number
-  of stash counters on Glittering Stockpile.'
+- ': Add . Put a stash counter on this.'
+- ', Sacrifice this: Add X mana of any one colour, where X is the number of stash
+  counters on this.'
 activation_costs:
 - R
 canadian_hl_score: 0
@@ -46,9 +46,11 @@ has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
+- Sacrifice
 - Counters
 mana_cost: 2R
 mana_cost_converted: 3
+mana_produced: WWWW, UUUU, BBBB, RRRR, GGGG
 name: Glittering Stockpile
 printings:
 - SNC:
@@ -61,14 +63,15 @@ printings:
     number: 107
     rarity: uncommon
     release_date: 2022-04-29
-rules: "[[symbol:T]]: Add [[symbol:R]]. Put a stash counter on Glittering Stockpile.\r\
-  \n\r\n[[symbol:T]], Sacrifice Glittering Stockpile: Add X mana of any one color,\
-  \ where X is the number of stash counters on Glittering Stockpile."
+rules: "[[symbol:T]]: Add [[symbol:R]]. Put a stash counter on this.\r\n\r\n[[symbol:T]],\
+  \ Sacrifice this: Add X mana of any one colour, where X is the number of stash counters\
+  \ on this."
 slug: glittering-stockpile
 subtype: Treasure
 subtype_tokens:
 - Treasure
-tags: card-color-red card-color-red-cost-3 card-type-artifact
+tags: card-color-red card-color-red-cost-3 card-mana-black card-mana-blue card-mana-green
+  card-mana-red card-mana-white card-type-artifact
 tapped_id: 26267
 type: Artifact
 url: http://tappedout.net/mtg-card/glittering-stockpile/
