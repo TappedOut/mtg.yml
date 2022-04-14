@@ -40,8 +40,6 @@ formats:
 has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
-keywords:
-- Sacrifice
 mana_cost: BRG
 mana_cost_converted: 3
 name: Riveteers Ascendancy
@@ -50,13 +48,23 @@ printings:
     alterations:
     - Foil
     - Normal
+    - Prerelease
+    - Promo pack
+    - PromoPackF
+    border_color: B
+    frame: m15
     name: Streets of New Capenna
     number: 216
     rarity: rare
     release_date: 2022-04-29
+    variations:
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '330'
 rules: Whenever you sacrifice a creature, you may return target creature card with
-  lesser mana value from your graveyard to the battlefield tapped. Do this only once
-  each turn.
+  lesser converted mana cost/mana value from your graveyard to the battlefield tapped.
+  Do this only once each turn.
 slug: riveteers-ascendancy
 tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-green card-color-red
   card-type-enchantment
