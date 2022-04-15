@@ -37,21 +37,37 @@ formats:
 has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
+keywords:
+- Sacrifice
+- Tokens
 mana_cost: 5G
 mana_cost_converted: 6
+mana_produced: W, U, B, R, G
 name: Bootleggers' Stash
 printings:
 - SNC:
     alterations:
     - Foil
     - Normal
+    - Prerelease
+    - Promo pack
+    - PromoPackF
+    border_color: B
+    frame: m15
     name: Streets of New Capenna
     number: 134
     rarity: mythic_rare
     release_date: 2022-04-29
-rules: 'Lands you control have "T: Create a Treasure token."'
+    variations:
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '288'
+rules: 'Lands you control have "[[symbol:T]]: Create a Treasure token." *(It''s an
+  artifact with "[[symbol:T]], Sacrifice this: Add one mana of any colour.")*'
 slug: bootleggers-stash
-tags: card-color-green card-color-green-cost-6 card-type-artifact
+tags: card-color-green card-color-green-cost-6 card-mana-black card-mana-blue card-mana-green
+  card-mana-red card-mana-white card-type-artifact
 tapped_id: 26302
 tokens:
 - cannonical_type: Artifact
