@@ -4,6 +4,7 @@ cannonical_type: Creature
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lutri, the Spellchaser
 - Umori, the Collector
@@ -28,6 +29,11 @@ formats:
 has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
+keywords:
+- Trample
+- Tap/Untap
+- Tokens
+- Goad
 mana_cost: 1RGW
 mana_cost_converted: 4
 name: Kitt Kanto, Mayhem Diva
@@ -36,15 +42,24 @@ printings:
 - NCC:
     alterations:
     - Normal
+    border_color: B
+    frame: m15
     name: 'Streets of New Capenna: Commander'
-    number: 189
+    number: 4
     rarity: mythic_rare
     release_date: 2022-04-30
-rules: "When Kitt Kanto enters the battlefield, create a 1/1 green and white Citizen\
-  \ creature token.\r\n\r\nAt the beginning of combat on each player's turn, you may\
-  \ tap two untapped creatures you control. When you do, target creature that player\
-  \ controls gets +2/+2 and gains trample until end of turn. Goad that creature."
+rules: "When this enters the battlefield, create a 1/1 green and white Citizen creature\
+  \ token.\r\n\r\nAt the beginning of combat on each player's turn, you may tap two\
+  \ untapped creatures you control. When you do, target creature that player controls\
+  \ gets +2/+2 and gains trample until end of turn. Goad that creature. *(Until your\
+  \ next turn, those creatures attack each combat if able and attack a player other\
+  \ than you if able.)*"
 slug: kitt-kanto-mayhem-diva
+subtype: Cat Bard Druid
+subtype_tokens:
+- Cat
+- Bard
+- Druid
 tags: card-color-gold card-color-gold-cost-4 card-color-green card-color-red card-color-white
   card-type-creature card-type-legendary
 tapped_id: 26167
