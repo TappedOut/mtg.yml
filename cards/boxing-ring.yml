@@ -1,8 +1,8 @@
 activated_abilities:
-- 'T: Create a Treasure token. Activate only if you control a creature that fought
-  this turn.'
+- ': Create a Treasure token. Activate this ability only if you control a creature
+  that fought this turn. *(It''s a colourless artifact with )*'
 canadian_hl_score: 0
-cannonical_set: SNC
+cannonical_set: NCC
 cannonical_type: Artifact
 companions:
 - Gyruda, Doom of Depths
@@ -42,10 +42,28 @@ formats:
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords:
+- Fight
+- Sacrifice
+- Tokens
 mana_cost: 1G
 mana_cost_converted: 2
+mana_produced: W, U, B, R, G
 name: Boxing Ring
 printings:
+- NCC:
+    alterations:
+    - Normal
+    border_color: B
+    frame: m15
+    name: 'Streets of New Capenna: Commander'
+    number: 91
+    rarity: rare
+    release_date: 2022-04-30
+    variations:
+    - alterations:
+      - Normal
+      identifier: '99'
 - SNC:
     alterations:
     - Foil
@@ -54,10 +72,25 @@ printings:
     rarity: rare
     release_date: 2022-04-29
 rules: "Whenever a creature enters the battlefield under your control, it fights up\
-  \ to one target creature you don't control with the same mana value.\r\n\r\nT: Create\
-  \ a Treasure token. Activate only if you control a creature that fought this turn."
+  \ to one target creature you don't control with the same converted mana cost/mana\
+  \ value. *(Each creature deals damage equal to its power to the other.)*\r\n\r\n\
+  [[symbol:T]]: Create a Treasure token. Activate this ability only if you control\
+  \ a creature that fought this turn. *(It's a colourless artifact with \"[[symbol:T]],\
+  \ Sacrifice this: Add one mana of any colour.\")*"
 slug: boxing-ring
-tags: card-color-green card-color-green-cost-2 card-type-artifact
+tags: card-color-green card-color-green-cost-2 card-mana-black card-mana-blue card-mana-green
+  card-mana-red card-mana-white card-type-artifact
 tapped_id: 26301
+tokens:
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Treasure
+  power_toughness: null
+  rules: '[[symbol:T]], Sacrifice this: Add one mana of any colour.'
+  subtype: Treasure
+  tla: NEO
+  type: Token Artifact
 type: Artifact
 url: http://tappedout.net/mtg-card/boxing-ring/
