@@ -1,10 +1,6 @@
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Creature
-color_identity:
-- W
-color_indicator:
-- W
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -31,9 +27,9 @@ has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
+- Tap/Untap
 - Convoke
-- Tokens
-mana_cost: '4'
+mana_cost: 3W
 mana_cost_converted: 4
 name: Bennie Bracks, Zoologist
 power_toughness: 3/2
@@ -41,9 +37,20 @@ printings:
 - NCC:
     alterations:
     - Normal
+    border_color: B
+    frame: m15
     name: 'Streets of New Capenna: Commander'
+    number: 86
     rarity: mythic_rare
     release_date: 2022-04-30
+    variations:
+    - alterations:
+      - Normal
+      identifier: '94'
+rules: "Convoke *(You may tap your creatures as you cast this spell. Each creature\
+  \ you tap while casting this spell pays for [[symbol:1]] or one mana of that creature's\
+  \ colour.)*\r\n\r\nAt the beginning of each end step, if you created a token this\
+  \ turn, draw a card."
 slug: bennie-bracks-zoologist
 subtype: Elf Druid
 subtype_tokens:
