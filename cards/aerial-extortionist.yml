@@ -27,6 +27,7 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
+- Exile
 mana_cost: 3WW
 mana_cost_converted: 5
 name: Aerial Extortionist
@@ -35,17 +36,20 @@ printings:
 - NCC:
     alterations:
     - Normal
-    booster_exclude: true
     border_color: B
     frame: m15
     name: 'Streets of New Capenna: Commander'
     number: 11
     rarity: rare
     release_date: 2022-04-30
-rules: "Flying\r\n\r\nWhenever Aerial Extortionist enters the battlefield or deals\
-  \ combat damage to a player, exile up to one target nonland permanent. For as long\
-  \ as that card remains exiled, its owner may cast it.\r\n\r\nWhenever another player\
-  \ casts a spell from anywhere other than their hand, draw a card."
+    variations:
+    - alterations:
+      - Normal
+      identifier: '112'
+rules: "Flying\r\n\r\nWhenever this enters the battlefield or deals combat damage\
+  \ to a player, exile up to one target nonland permanent. For as long as that card\
+  \ remains exiled, its owner may cast it.\r\n\r\nWhenever another player casts a\
+  \ spell from anywhere other than their hand, draw a card."
 slug: aerial-extortionist
 subtype: Bird Soldier
 subtype_tokens:
