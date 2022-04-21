@@ -28,6 +28,9 @@ formats:
 has_activated_abilities: false
 is_mtgo: true
 is_permanent: false
+keywords:
+- Sacrifice
+- Casualty
 mana_cost: 3UU
 mana_cost_converted: 5
 name: Flawless Forgery
@@ -35,16 +38,19 @@ printings:
 - NCC:
     alterations:
     - Normal
-    booster_exclude: true
     border_color: B
     frame: m15
     name: 'Streets of New Capenna: Commander'
     number: 26
     rarity: rare
     release_date: 2022-04-30
-rules: "Casualty 3 (As you cast this spell, you may sacrifice a creature with power\
+    variations:
+    - alterations:
+      - Normal
+      identifier: '127'
+rules: "Casualty 3 *(As you cast this spell, you may sacrifice a creature with power\
   \ 3 or greater. When you do, copy this spell and you may choose a new target for\
-  \ the copy.)\r\n\r\nExile target instant or sorcery card from an opponent's graveyard.\
+  \ the copy.)*\r\n\r\nExile target instant or sorcery card from an opponent's graveyard.\
   \ Copy that card. You may cast the copy without paying its mana cost."
 slug: flawless-forgery
 tags: card-color-blue card-color-blue-cost-5 card-type-sorcery
