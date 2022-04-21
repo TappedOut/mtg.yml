@@ -1,5 +1,5 @@
 activated_abilities:
-- '2, : Draw a card, then discard a card.'
+- ', : Draw a card, then discard a card.'
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Artifact
@@ -29,6 +29,10 @@ formats:
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords:
+- Exile
+- Sacrifice
+- Tokens
 mana_cost: '1'
 mana_cost_converted: 1
 name: Currency Converter
@@ -36,18 +40,23 @@ printings:
 - NCC:
     alterations:
     - Normal
-    booster_exclude: true
     border_color: B
     frame: m15
     name: 'Streets of New Capenna: Commander'
     number: 81
     rarity: rare
     release_date: 2022-04-30
+    variations:
+    - alterations:
+      - Normal
+      identifier: '181'
 rules: "Whenever you discard a card, you may exile that card from your graveyard.\r\
-  \n\r\n2, [[symbol:T]]: Draw a card, then discard a card.\r\n\r\n[[symbol:T]]; Put\
-  \ a card exiled with Currency Converter into your graveyard. If it's a land card,\
-  \ create a Treasure token. If it's a nonland card, create a 2/2 black Rogue creature\
-  \ token."
+  \n\r\n[[symbol:2]], [[symbol:T]]: Draw a card, then discard a card.\r\n\r\n[[symbol:T]];\
+  \ Put a card exiled with this into your graveyard. If it's a land card, create a\
+  \ Treasure token. If it's a nonland card, create a 2/2 black Rogue creature token.\
+  \ *(This is a linked ability, linked to the ability in the first paragraph on the\
+  \ card named \"Currency Converter\". You may only put cards into the graveyard if\
+  \ they were exiled via the ability in the first paragraph.)*"
 slug: currency-converter
 tags: card-color-colorless card-color-colorless-cost-1 card-type-artifact
 tapped_id: 26418
