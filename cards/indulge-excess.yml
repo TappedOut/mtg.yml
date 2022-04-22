@@ -1,5 +1,6 @@
 canadian_hl_score: 0
 cannonical_set: NCC
+cannonical_type: Sorcery
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -27,6 +28,11 @@ formats:
 has_activated_abilities: false
 is_mtgo: true
 is_permanent: false
+keywords:
+- Exile
+- Sacrifice
+- Tokens
+- Aftermath
 mana_cost: 2R // 1R
 mana_cost_converted: 5
 name: Indulge / Excess
@@ -34,6 +40,8 @@ printings:
 - NCC:
     alterations:
     - Normal
+    border_color: B
+    frame: m15
     name: 'Streets of New Capenna: Commander'
     number: 46
     rarity: rare
@@ -41,22 +49,13 @@ printings:
 rules: "<h4>Indulge:</h4>\r\n\r\nWhenever a creature you control attacks this turn,\
   \ create a 1/1 green and white Citizen creature token that\u2019s tapped and attacking.\r\
   \n\r\n-----\r\n\r\n<h4>Excess:</h4>\r\n\r\nAftermath *(Cast this spell only from\
-  \ your graveyard. Then exile it.)*\r\n\r\nCreate a Treasure token for each creature\
-  \ you controlled that dealt combat damage to a player this turn."
+  \ your graveyard. Then exile this.)*\r\n\r\nCreate a Treasure token for each creature\
+  \ you controlled that dealt combat damage to a player this turn. *(They're colourless\
+  \ artifacts with \"[[symbol:T]], Sacrifice this: Add one mana of any colour.\")*"
 slug: indulge-excess
 tags: card-color-red card-color-red-cost-5 card-type-sorcery
 tapped_id: 26442
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Citizen 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Citizen
-  tla: UMA
-  type: Token Creature
 - cannonical_type: Artifact
   colors: C
   mana_cost: '0'
