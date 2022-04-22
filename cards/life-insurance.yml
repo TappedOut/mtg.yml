@@ -32,26 +32,35 @@ has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
+- Sacrifice
 - Extort
+- Tokens
 mana_cost: 3WB
 mana_cost_converted: 5
+mana_produced: W, U, B, R, G
 name: Life Insurance
 printings:
 - NCC:
     alterations:
     - Normal
-    booster_exclude: true
     border_color: B
     frame: m15
     name: 'Streets of New Capenna: Commander'
     number: 74
     rarity: rare
     release_date: 2022-04-30
-rules: "Extort (Whenever you cast a spell, you may pay W/B. If you do, each opponent\
-  \ loses 1 life and you gain that much life.)\r\n\r\nWhenever a nontoken creature\
-  \ dies, you lose 1 life and create a Treasure token."
+    variations:
+    - alterations:
+      - Normal
+      identifier: '174'
+rules: "Extort *(Whenever you cast a spell, you may pay [[symbol:WB]]. If you do,\
+  \ each opponent loses 1 life and you gain that much life.)*\r\n\r\nWhenever a nontoken\
+  \ creature dies *(is put into the graveyard from the battlefield)*, you lose 1 life\
+  \ and create a Treasure token. *(It's a colourless artifact with \"[[symbol:T]],\
+  \ Sacrifice this: Add one mana of any colour.\")*"
 slug: life-insurance
-tags: card-color-black card-color-gold card-color-gold-cost-5 card-color-white card-type-enchantment
+tags: card-color-black card-color-gold card-color-gold-cost-5 card-color-white card-mana-black
+  card-mana-blue card-mana-green card-mana-red card-mana-white card-type-enchantment
 tapped_id: 26419
 tokens:
 - cannonical_type: Artifact
