@@ -29,8 +29,11 @@ has_activated_abilities: false
 is_mtgo: true
 is_permanent: false
 keywords:
+- Tap/Untap
 - Convoke
-mana_cost: '{2}{b}{b}'
+- Counters
+- Connive
+mana_cost: 2BB
 mana_cost_converted: 4
 name: Lethal Scheme
 printings:
@@ -38,15 +41,20 @@ printings:
     alterations:
     - Normal
     border_color: B
+    frame: m15
     name: 'Streets of New Capenna: Commander'
     number: 36
     rarity: rare
     release_date: 2022-04-30
-rules: "Convoke (Your creatures can help cast this spell. Each creature you tap while\
-  \ casting this spell pays for {1} or one mana of that creature\u2019s color.)\r\n\
-  \r\nDestroy target creature or planeswalker. Each creature that convoked Lethal\
-  \ Scheme connives. (Draw a card, then discard a card. If you discarded a nonland\
-  \ card, put a +1/+1 counter on that creature.)"
+    variations:
+    - alterations:
+      - Normal
+      identifier: '137'
+rules: "Convoke *(You may tap your creatures as you cast this spell. Each creature\
+  \ you tap while casting this spell pays for [[symbol:1]] or one mana of that creature\u2019\
+  s colour.)*\r\n\r\nDestroy target creature or planeswalker. Each creature that convoked\
+  \ this spell connives. *(Draw a card, then discard a card. If you discarded a nonland\
+  \ card, put a +1/+1 counter on that creature.)*"
 slug: lethal-scheme
 tags: card-color-black card-color-black-cost-4 card-type-instant
 tapped_id: 26441
