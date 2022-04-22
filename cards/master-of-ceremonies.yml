@@ -26,22 +26,29 @@ formats:
 has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
+keywords:
+- Sacrifice
+- Tokens
 mana_cost: 3W
 mana_cost_converted: 4
+mana_produced: W, U, B, R, G
 name: Master of Ceremonies
 power_toughness: 3/4
 printings:
 - NCC:
     alterations:
     - Normal
-    booster_exclude: true
     border_color: B
     frame: m15
     name: 'Streets of New Capenna: Commander'
     number: 18
     rarity: rare
     release_date: 2022-04-30
-rules: At the beginning of your upkeep, each opponent chooses money, friends, or secrets.
+    variations:
+    - alterations:
+      - Normal
+      identifier: '119'
+rules: At the beginning of your upkeep, each opponent chooses money, friends or secrets.
   For each player who chose money, you and that player each create a Treasure token.
   For each player who chose friends, you and that player each create a 1/1 green and
   white Citizen creature token. For each player who chose secrets, you and that player
@@ -51,7 +58,8 @@ subtype: Rhino Druid
 subtype_tokens:
 - Rhino
 - Druid
-tags: card-color-white card-color-white-cost-4 card-type-creature
+tags: card-color-white card-color-white-cost-4 card-mana-black card-mana-blue card-mana-green
+  card-mana-red card-mana-white card-type-creature
 tapped_id: 26409
 tokens:
 - cannonical_type: Artifact
