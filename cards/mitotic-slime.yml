@@ -28,11 +28,22 @@ formats:
 has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
+keywords:
+- Tokens
 mana_cost: 4G
 mana_cost_converted: 5
 name: Mitotic Slime
 power_toughness: 4/4
 printings:
+- NCC:
+    alterations:
+    - Normal
+    border_color: B
+    frame: m15
+    name: 'Streets of New Capenna: Commander'
+    number: 302
+    rarity: rare
+    release_date: 2022-04-30
 - PCA:
     alterations:
     - Normal
@@ -79,9 +90,10 @@ printings:
     number: 53
     rarity: rare
     release_date: 1990-04-15
-rules: When Mitotic Slime is put into a graveyard from the battlefield, put two 2/2
-  green Ooze creature tokens onto the battlefield. They have "When this creature is
-  put into a graveyard, put two 1/1 green Ooze creature tokens onto the battlefield."
+rules: When this dies, create two 2/2 green Ooze creature tokens. They have "When
+  this creature dies, create two 1/1 green Ooze creature tokens." *(Dying is being
+  put into the graveyard from the battlefield, tokens are put into the graveyard before
+  they cease to exist.)*
 slug: mitotic-slime
 subtype: Ooze
 subtype_tokens:
