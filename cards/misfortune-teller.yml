@@ -28,31 +28,39 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Deathtouch
+- Sacrifice
+- Tokens
 mana_cost: 3B
 mana_cost_converted: 4
+mana_produced: W, U, B, R, G
 name: Misfortune Teller
 power_toughness: 3/1
 printings:
 - NCC:
     alterations:
     - Normal
-    booster_exclude: true
     border_color: B
     frame: m15
     name: 'Streets of New Capenna: Commander'
     number: 38
     rarity: rare
     release_date: 2022-04-30
-rules: "Deathtouch\r\n\r\nWhenever Misfortune Teller enter the battlefield or deals\
-  \ combat damage to a player, exile target card from a graveyard. If it was a creature,\
-  \ create a 2/2 black Rogue creature token. If it was a land card, create a Treasure\
-  \ token. Otherwise, you gain 3 life."
+    variations:
+    - alterations:
+      - Normal
+      identifier: '139'
+rules: "Deathtouch\r\n\r\nWhenever this enter the battlefield or deals combat damage\
+  \ to a player, exile target card from a graveyard. If it was a creature, create\
+  \ a 2/2 black Rogue creature token. If it was a land card, create a Treasure token.\
+  \ Otherwise, you gain 3 life. *(It's a colourless artifact with \"[[symbol:T]],\
+  \ Sacrifice this: Add one mana of any colour.\")*"
 slug: misfortune-teller
 subtype: Human Warlock
 subtype_tokens:
 - Human
 - Warlock
-tags: card-color-black card-color-black-cost-4 card-type-creature
+tags: card-color-black card-color-black-cost-4 card-mana-black card-mana-blue card-mana-green
+  card-mana-red card-mana-white card-type-creature
 tapped_id: 26416
 tokens:
 - cannonical_type: Artifact
