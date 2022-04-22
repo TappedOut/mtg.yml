@@ -29,6 +29,8 @@ formats:
 has_activated_abilities: false
 is_mtgo: true
 is_permanent: false
+keywords:
+- Sacrifice
 mana_cost: 3B
 mana_cost_converted: 4
 name: Make an Example
@@ -36,12 +38,19 @@ printings:
 - NCC:
     alterations:
     - Normal
+    border_color: B
+    frame: m15
     name: 'Streets of New Capenna: Commander'
+    number: 37
     rarity: rare
     release_date: 2022-04-30
-rules: Each opponent seperates the creatures they control into two piles. For each
+    variations:
+    - alterations:
+      - Normal
+      identifier: '138'
+rules: Each opponent separates the creatures they control into two piles. For each
   opponent, you choose one of their piles. Each opponent sacrifices the creatures
-  in their chosen pile. (Piles can be empty.)
+  in their chosen pile. *(Piles can be empty.)*
 slug: make-an-example
 tags: card-color-black card-color-black-cost-4 card-type-sorcery
 tapped_id: 26398
