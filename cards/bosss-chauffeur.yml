@@ -27,6 +27,8 @@ has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
+- Counters
+- Tokens
 - Alliance
 mana_cost: 4W
 mana_cost_converted: 5
@@ -36,16 +38,22 @@ printings:
 - NCC:
     alterations:
     - Normal
-    booster_exclude: true
+    border_color: B
+    frame: m15
     name: 'Streets of New Capenna: Commander'
     number: 13
     rarity: rare
     release_date: 2022-04-30
-rules: "Boss's Chauffeur enters the battlefield with a number of +1/+1 counters on\
-  \ it equal to one plus the number of other creatures you control.\r\n\r\nAlliance\
-  \ - Whenever another creature enters the battlefield under your control, put a +1/+1\
-  \ counter on Boss's Chauffeur.\r\n\r\nWhen Boss's Chauffeur dies, create a 1/1 green\
-  \ and white Citizen creature token for each +1/+1 counter on it."
+    variations:
+    - alterations:
+      - Normal
+      identifier: '114'
+rules: "This enters the battlefield with a number of +1/+1 counters on this creature\
+  \ equal to one plus the number of other creatures you control.\r\n\r\n*Alliance*\
+  \ &mdash; Whenever another creature enters the battlefield under your control, put\
+  \ a +1/+1 counter on this.\r\n\r\nWhen this dies, create a 1/1 green and white Citizen\
+  \ creature token for each +1/+1 counter on it. *(Dying is being put into the graveyard\
+  \ from the battlefield.)*"
 slug: bosss-chauffeur
 subtype: Elf Citizen
 subtype_tokens:
