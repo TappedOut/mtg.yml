@@ -30,6 +30,8 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
+- Exile
+- Escape
 mana_cost: 3U
 mana_cost_converted: 4
 name: Skyway Robber
@@ -38,18 +40,24 @@ printings:
 - NCC:
     alterations:
     - Normal
-    booster_exclude: true
     border_color: B
     frame: m15
     name: 'Streets of New Capenna: Commander'
     number: 31
     rarity: rare
     release_date: 2022-04-30
-rules: "Flying\r\nEscape - 3U, Exile five other cards from your graveyard. (You may\
-  \ cast this card from your graveyard for its escape cost.)\r\n\r\nSkyway Robber\
-  \ escapes with \"Whenever Skyway Robber deals combat damage to a player, you may\
-  \ cast an artifact, instant, or sorcery spell from among cards exiled with Skyway\
-  \ Robber without paying its mana cost.\""
+    variations:
+    - alterations:
+      - Normal
+      identifier: '132'
+rules: "Flying\r\n\r\nEscape &mdash; [[symbol:3]][[symbol:U]], Exile five other cards\
+  \ from your graveyard. *(You may cast this from your graveyard for this card's escape\
+  \ cost.)*\r\n\r\nWhen this escapes, it gains \"Whenever this deals combat damage\
+  \ to a player, you may cast an artifact, instant, or sorcery spell from among cards\
+  \ exiled with this creature without paying its mana cost.\" \r\n *(This is a linked\
+  \ ability, linked to the escape ability in the second paragraph on the card named\
+  \ \"Skyway Robber\". You may only cast a spell if it was exiled via the escape ability\
+  \ in the second paragraph.)*"
 slug: skyway-robber
 subtype: Bird Rogue
 subtype_tokens:
