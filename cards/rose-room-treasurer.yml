@@ -27,6 +27,8 @@ has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
+- Sacrifice
+- Tokens
 - Alliance
 mana_cost: 3R
 mana_cost_converted: 4
@@ -36,17 +38,20 @@ printings:
 - NCC:
     alterations:
     - Normal
-    booster_exclude: true
     border_color: B
     frame: m15
     name: 'Streets of New Capenna: Commander'
     number: 51
     rarity: rare
     release_date: 2022-04-30
-rules: Alliance - Whenever another creature enters the battlefield under your control,
-  create a Treasure token if this is the first or second time this ability has resolved
-  this turn. Otherwise, you may pay X. When you do, Rose Room Treasurer deals X damage
-  to any target.
+    variations:
+    - alterations:
+      - Normal
+      identifier: '151'
+rules: '*Alliance* &mdash; Whenever another creature enters the battlefield under
+  your control, create a Treasure token if this is the first or second time this ability
+  has resolved this turn. Otherwise, you may pay [[symbol:X]]. When you do, this deals
+  X damage to any target *(creature, player or planeswalker)*.'
 slug: rose-room-treasurer
 subtype: Ogre Warrior
 subtype_tokens:
