@@ -27,10 +27,12 @@ has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
+- Sacrifice
 - Cascade
 - Tokens
 mana_cost: 3RR
 mana_cost_converted: 5
+mana_produced: WW, UU, BB, RR, GG
 name: Rain of Riches
 printings:
 - NCC:
@@ -42,14 +44,20 @@ printings:
     number: 50
     rarity: rare
     release_date: 2022-04-30
-rules: "When Rain of Riches enters the battlefield, create two Treasure tokens.\r\n\
-  \r\nThe first spell you cast each turn that mana from a Treasure was spent to cast\
-  \ has cascade. (When you cast the spell, exile cards from the top of your library\
-  \ until you exile a nonland card that costs less. You may cast it without paying\
-  \ its mana cost. Put the exiled cards on the bottom of your library in a random\
-  \ order.)"
+    variations:
+    - alterations:
+      - Normal
+      identifier: '150'
+rules: "When this enters the battlefield, create two Treasure tokens. *(They're colourless\
+  \ artifacts with \"[[symbol:T]], Sacrifice this: Add one mana of any colour.\")*\r\
+  \n\r\nThe first spell you cast each turn that mana from a Treasure was spent to\
+  \ cast has cascade. *(When you cast the spell, exile cards from the top of your\
+  \ library until you exile a nonland card that costs less. You may cast it without\
+  \ paying its mana cost. Put the exiled cards on the bottom of your library in a\
+  \ random order.)*"
 slug: rain-of-riches
-tags: card-color-red card-color-red-cost-5 card-type-enchantment
+tags: card-color-red card-color-red-cost-5 card-mana-black card-mana-blue card-mana-green
+  card-mana-red card-mana-white card-type-enchantment
 tapped_id: 26402
 tokens:
 - cannonical_type: Artifact
