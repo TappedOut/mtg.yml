@@ -1,10 +1,12 @@
 activated_abilities:
-- ': Gain  or one mana of the chosen colour.'
+- ': Add  or one mana of the chosen colour.'
 activation_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: AFC
 cannonical_type: Land
+color_identity:
+- G
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -45,6 +47,15 @@ mana_cost_converted: 0
 mana_produced: W, U, B, R, G
 name: Thriving Grove
 printings:
+- NCC:
+    alterations:
+    - Normal
+    border_color: B
+    frame: m15
+    name: 'Streets of New Capenna: Commander'
+    number: 439
+    rarity: common
+    release_date: 2022-04-30
 - AFC:
     alterations:
     - Normal
@@ -67,7 +78,7 @@ printings:
     wizards_id: 489201
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489201
 rules: "This enters the battlefield tapped.\r\n\r\nAs this enters the battlefield,\
-  \ choose a colour other than green.\r\n\r\n[[symbol:T]]: Gain [[symbol:G]] or one\
+  \ choose a colour other than green.\r\n\r\n[[symbol:T]]: Add [[symbol:G]] or one\
   \ mana of the chosen colour."
 slug: thriving-grove
 synonyms:
@@ -75,8 +86,9 @@ synonyms:
 - Thriving G
 - Thrive G
 - G Thrive
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-blue
-  card-mana-green card-mana-red card-mana-white card-type-land
+tags: card-color-colorless card-color-colorless-cost-0 card-mana-black-slow card-mana-blue-slow
+  card-mana-green-slow card-mana-red-slow card-mana-white-slow card-type-land
+tap_land: true
 tapped_id: 23167
 type: Land
 url: http://tappedout.net/mtg-card/thriving-grove/
