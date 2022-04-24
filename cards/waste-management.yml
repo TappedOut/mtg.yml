@@ -33,7 +33,9 @@ has_activated_abilities: false
 is_mtgo: true
 is_permanent: false
 keywords:
+- Exile
 - Kicker
+- Tokens
 mana_cost: 2B
 mana_cost_converted: 3
 name: Waste Management
@@ -41,17 +43,20 @@ printings:
 - NCC:
     alterations:
     - Normal
-    booster_exclude: true
     border_color: B
     frame: m15
     name: 'Streets of New Capenna: Commander'
     number: 40
     rarity: rare
     release_date: 2022-04-30
-rules: "Kicker 3B (You may pay an additional 3B as you cast this spell.)\r\n\r\nExile\
-  \ up to two target cards from a single graveyard. If this spell was kicked, instead\
-  \ exile target player's graveyard. Create a 2/2 black Rogue creature token for each\
-  \ creature card exiled this way."
+    variations:
+    - alterations:
+      - Normal
+      identifier: '141'
+rules: "Kicker [[symbol:3]][[symbol:B]] *(You may pay an additional [[symbol:3]][[symbol:B]]\
+  \ as you cast this spell.)*\r\n\r\nExile up to two target cards from a single graveyard.\
+  \ If this spell was kicked, instead exile target player's graveyard. Create a 2/2\
+  \ black Rogue creature token for each creature card exiled this way."
 slug: waste-management
 tags: card-color-black card-color-black-cost-3 card-type-instant
 tapped_id: 26417
