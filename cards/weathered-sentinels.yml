@@ -27,6 +27,7 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Defender
+- Indestructible
 - Reach
 - Trample
 - Vigilance
@@ -38,17 +39,19 @@ printings:
 - NCC:
     alterations:
     - Normal
-    booster_exclude: true
     border_color: B
     frame: m15
     name: 'Streets of New Capenna: Commander'
     number: 85
     rarity: rare
     release_date: 2022-04-30
-rules: "Defender, vigilance, reach, trample\r\n\r\nWeathered Sentinels can attack\
-  \ players who attacked you during their last turn as though it didn't have defender.\r\
-  \n\r\nWhenever Weathered Sentinels attacks, it gets +3/+3 and gains indestructible\
-  \ until end of turn."
+    variations:
+    - alterations:
+      - Normal
+      identifier: '185'
+rules: "Defender, vigilance, reach, trample\r\n\r\nThis can attack players who attacked\
+  \ you during their last turn as though this didn't have defender.\r\n\r\nWhenever\
+  \ this attacks, this gets +3/+3 and gains indestructible until end of turn."
 slug: weathered-sentinels
 subtype: Wall
 subtype_tokens:
