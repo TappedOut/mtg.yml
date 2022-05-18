@@ -31,6 +31,8 @@ is_permanent: true
 keywords:
 - Deathtouch
 - Flying
+- Counterspell
+- Sacrifice
 - Ward
 mana_cost: B
 mana_cost_converted: 1
@@ -40,15 +42,27 @@ printings:
     alterations:
     - Foil
     - Normal
+    - Prerelease
+    - Promo pack
+    - PromoPackF
     border_color: B
     frame: m15
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 123
     rarity: rare
     release_date: 2022-06-10
-rules: Commander creatures you own get +3/+3 and have flying, deathtouch, "Ward -
-  Pay 3 life," and "At the beginning of your upkeep, sacrifice a creature."
+    variations:
+    - alterations:
+      - Etched
+      identifier: '495'
+rules: Commander creatures you own get +3/+3 and have flying, deathtouch, "Ward&mdash;Pay
+  3 life," and "At the beginning of your upkeep, sacrifice a creature." *(Whenever
+  a creature with ward becomes the target of a spell or ability an opponent controls,
+  counter it unless that player pays the ward cost.)*
 slug: cultist-of-the-absolute
+subtype: Background
+subtype_tokens:
+- Background
 tags: card-color-black card-color-black-cost-1 card-type-enchantment card-type-legendary
 tapped_id: 26486
 type: Legendary Enchantment
