@@ -29,6 +29,10 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Deathtouch
+- First strike
+- Menace
+- Venture Into the Dungeon
+- Initiative
 mana_cost: 3UB
 mana_cost_converted: 5
 name: Rilsa Rael, Kingpin
@@ -44,6 +48,14 @@ printings:
     number: 293
     rarity: uncommon
     release_date: 2022-06-10
+    variations:
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '439'
+    - alterations:
+      - Etched
+      identifier: '550'
 rules: "Deathtouch\r\n\r\nWhen Rilsa Rael, Kingpin enters the battlefield, you take\
   \ the initiative.\r\n\r\nWhenever you attack, target attacking creature gains deathtouch\
   \ until end of turn. If you've completed a dungeon, that creature also gets +5/+0\
@@ -56,5 +68,28 @@ subtype_tokens:
 tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-5 card-type-creature
   card-type-legendary
 tapped_id: 26483
+tokens:
+- cannonical_type: Emblem
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: The Initiative
+  power_toughness: null
+  rules: "Whenever one or more creatures a player controls deal combat damage to you,\
+    \ that player takes the initiative.\r\n\r\nWhenever you take the initiative and\
+    \ at the beginning of your upkeep, venture into Undercity. *(If you're in a dungeon,\
+    \ advance to the next room. If you're not, enter Undercity. You can take the initiative\
+    \ even if you already have it.)*"
+  tla: CLB
+  type: Emblem
+- cannonical_type: Dungeon
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: 'Dungeon: Undercity'
+  power_toughness: null
+  rules: ''
+  tla: CLB
+  type: Dungeon
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/rilsa-rael-kingpin/
