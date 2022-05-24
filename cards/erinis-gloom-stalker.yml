@@ -1,9 +1,8 @@
 canadian_hl_score: 0
 cannonical_set: CLB
-cannonical_type: Enchantment
+cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
-- Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -29,10 +28,11 @@ has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
-- Tokens
+- Deathtouch
 mana_cost: 2G
 mana_cost_converted: 3
-name: Cloakwood Hermit
+name: Erinis, Gloom Stalker
+power_toughness: 3/3
 printings:
 - CLB:
     alterations:
@@ -41,32 +41,26 @@ printings:
     border_color: B
     frame: m15
     name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 221
+    number: 230
     rarity: uncommon
     release_date: 2022-06-10
     variations:
     - alterations:
+      - Foil
+      - Normal
+      identifier: '407'
+    - alterations:
       - Etched
-      identifier: '514'
-rules: Commander creatures you own have "At the beginning of your end step, if a creature
-  card was put into your graveyard from anywhere this turn, create two tapped 1/1
-  green Squirrel creature tokens."
-slug: cloakwood-hermit
-subtype: Background
+      identifier: '515'
+rules: "Deathtouch\r\n\r\nWhenever Erinis, Gloom Stalker attacks, return target land\
+  \ card from your graveyard to the battlefield.\r\n\r\nChoose a Background *(You\
+  \ can have a Background as a second commander.)*"
+slug: erinis-gloom-stalker
+subtype: Halfling Ranger
 subtype_tokens:
-- Background
-tags: card-color-green card-color-green-cost-3 card-type-enchantment card-type-legendary
-tapped_id: 26500
-tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Squirrel 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Squirrel
-  tla: MH2
-  type: Token Creature
-type: Legendary Enchantment
-url: http://tappedout.net/mtg-card/cloakwood-hermit/
+- Halfling
+- Ranger
+tags: card-color-green card-color-green-cost-3 card-type-creature card-type-legendary
+tapped_id: 26523
+type: Legendary Creature
+url: http://tappedout.net/mtg-card/erinis-gloom-stalker/
