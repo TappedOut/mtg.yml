@@ -1,8 +1,6 @@
 canadian_hl_score: 0
 cannonical_set: CLB
-cannonical_type: Creature
-color_identity:
-- U
+cannonical_type: Artifact
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -11,8 +9,6 @@ companions:
 - Lutri, the Spellchaser
 - Umori, the Collector
 - Yorion, Sky Nomad
-effective_cost:
-- U
 flat_cost: 4
 formats:
 - 1v1 Commander
@@ -31,10 +27,10 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
-mana_cost: 3U
+- Counters
+mana_cost: '4'
 mana_cost_converted: 4
-name: Displacer Kitten
-power_toughness: 2/2
+name: Fraying Line
 printings:
 - CLB:
     alterations:
@@ -44,23 +40,21 @@ printings:
     border_color: B
     frame: m15
     name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 63
+    number: 314
     rarity: rare
     release_date: 2022-06-10
     variations:
     - alterations:
       - Foil
       - Normal
-      identifier: '560'
-rules: '*Avoidance* &mdash; Whenever you cast a noncreature spell, exile up to one
-  target nonland permanent you control, then return that card to the battlefield under
-  its owner''s control.'
-slug: displacer-kitten
-subtype: Cat Beast
-subtype_tokens:
-- Cat
-- Beast
-tags: card-color-blue card-color-blue-cost-4 card-type-creature
-tapped_id: 26590
-type: Creature
-url: http://tappedout.net/mtg-card/displacer-kitten/
+      identifier: '597'
+rules: "When Frying Line enters the battlefield, put a rope counter on target creature\
+  \ you control.\r\n\r\nAt the beginning of each player's upkeep, that player may\
+  \ pay [[symbol:2]]. If they do, they put a rope counter on a creature they control.\
+  \ Otherwise, exile Fraying Line and each creature without a rope counter on it,\
+  \ then remove all rope counters from all creatures."
+slug: fraying-line
+tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
+tapped_id: 26663
+type: Artifact
+url: http://tappedout.net/mtg-card/fraying-line/
