@@ -38,6 +38,8 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
+- Counterspell
+- Tokens
 - Ward
 mana_cost: 3GUR
 mana_cost_converted: 6
@@ -48,14 +50,26 @@ printings:
     alterations:
     - Foil
     - Normal
+    - Prerelease
     border_color: B
     frame: m15
     name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 284
     rarity: rare
     release_date: 2022-06-10
-rules: "Flying, ward 2\r\n\r\nWhenever another nontoken Dragon enters the battlefield\
-  \ under your control, create a token that's a copy of it, except the token isn't\
-  \ legendary if that Dragon is legendary."
+    variations:
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '431'
+    - alterations:
+      - Etched
+      identifier: '542'
+rules: "Flying, ward [[symbol:2]] *(When this becomes the target of a spell or ability\
+  \ an opponent controls, counter it unless that player pays [[symbol:2]].)*\r\n\r\
+  \nWhenever another nontoken Dragon enters the battlefield under your control, create\
+  \ a token that's a copy of it, except the token isn't legendary if that Dragon is\
+  \ legendary."
 slug: miirym-sentinel-wyrm
 subtype: Dragon Spirit
 subtype_tokens:
@@ -64,5 +78,15 @@ subtype_tokens:
 tags: card-color-blue card-color-gold card-color-gold-cost-6 card-color-green card-color-red
   card-type-creature card-type-legendary
 tapped_id: 26655
+tokens:
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Copy Clone
+  power_toughness: null
+  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
+  tla: VOW
+  type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/miirym-sentinel-wyrm/
