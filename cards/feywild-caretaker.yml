@@ -32,6 +32,7 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
+- Venture Into the Dungeon
 - Initiative
 mana_cost: '5'
 mana_cost_converted: 5
@@ -45,11 +46,12 @@ printings:
     border_color: B
     frame: m15
     name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 69
     rarity: uncommon
     release_date: 2022-06-10
 rules: "When Feywild Caretaker enters the battlefield, you take the initiative.\r\n\
-  At the beginning of your end step, if you have the initiative, create a 11 blue\
-  \ Farie Dragon creature token ith flying."
+  \r\nAt the beginning of your end step, if you have the initiative, create a 11 blue\
+  \ Faerie Dragon creature token with flying."
 slug: feywild-caretaker
 subtype: Orc Wizard
 subtype_tokens:
@@ -68,5 +70,27 @@ tokens:
   subtype: Faerie Dragon
   tla: AFR
   type: Token Creature
+- cannonical_type: Emblem
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: The Initiative
+  power_toughness: null
+  rules: "Whenever one or more creatures a player controls deal combat damage to you,\
+    \ that player takes the initiative.\r\n\r\nWhenever you take the initiative and\
+    \ at the beginning of your upkeep, venture into Undercity. *(If you're in a dungeon,\
+    \ advance to the next room. If you're not, enter Undercity. You can take the initiative\
+    \ even if you already have it.)*"
+  tla: CLB
+  type: Emblem
+- cannonical_type: Dungeon
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: 'Dungeon: Undercity'
+  power_toughness: null
+  rules: ''
+  tla: CLB
+  type: Dungeon
 type: Creature
 url: http://tappedout.net/mtg-card/feywild-caretaker/
