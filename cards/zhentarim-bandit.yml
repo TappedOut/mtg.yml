@@ -1,14 +1,15 @@
 canadian_hl_score: 0
 cannonical_set: CLB
-cannonical_type: Artifact
+cannonical_type: Creature
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
-- Kaheera, the Orphanguard
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Umori, the Collector
 - Yorion, Sky Nomad
+effective_cost:
+- B
 flat_cost: 2
 formats:
 - 1v1 Commander
@@ -32,10 +33,11 @@ is_permanent: true
 keywords:
 - Sacrifice
 - Tokens
-mana_cost: '2'
+mana_cost: 1B
 mana_cost_converted: 2
 mana_produced: W, U, B, R, G
-name: Prized Statue
+name: Zhentarim Bandit
+power_toughness: 2/1
 printings:
 - CLB:
     alterations:
@@ -44,16 +46,20 @@ printings:
     border_color: B
     frame: m15
     name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 334
+    number: 158
     rarity: common
     release_date: 2022-06-10
-rules: 'When Prized Statue enters the battlefield or is put into a graveyard from
-  the battlefield, create a treasure token. *(It''s a colourless artifact with "[[symbol:T]],
-  Sacrifice this artifact: Add one mana of any colour.")*'
-slug: prized-statue
-tags: card-color-colorless card-color-colorless-cost-2 card-mana-black card-mana-blue
-  card-mana-green card-mana-red card-mana-white card-type-artifact
-tapped_id: 26711
+rules: 'When Zhentarim Bandit attacks, you may pay 1 life. If you do, create a Treasure
+  token. *(It''s a colourless artifact with "[[symbol:T]], Sacrifice this artifact:
+  Add one mana of any colour.")*'
+slug: zhentarim-bandit
+subtype: Halfling Rogue
+subtype_tokens:
+- Halfling
+- Rogue
+tags: card-color-black card-color-black-cost-2 card-mana-black card-mana-blue card-mana-green
+  card-mana-red card-mana-white card-type-creature
+tapped_id: 26785
 tokens:
 - cannonical_type: Artifact
   colors: C
@@ -65,5 +71,5 @@ tokens:
   subtype: Treasure
   tla: SNC
   type: Token Artifact
-type: Artifact
-url: http://tappedout.net/mtg-card/prized-statue/
+type: Creature
+url: http://tappedout.net/mtg-card/zhentarim-bandit/

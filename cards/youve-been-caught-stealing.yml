@@ -1,6 +1,6 @@
 canadian_hl_score: 0
 cannonical_set: CLB
-cannonical_type: Artifact
+cannonical_type: Sorcery
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -9,6 +9,9 @@ companions:
 - Lutri, the Spellchaser
 - Umori, the Collector
 - Yorion, Sky Nomad
+- Zirda, the Dawnwaker
+effective_cost:
+- R
 flat_cost: 2
 formats:
 - 1v1 Commander
@@ -28,14 +31,14 @@ formats:
 - Vintage
 has_activated_abilities: false
 is_mtgo: true
-is_permanent: true
+is_permanent: false
 keywords:
 - Sacrifice
 - Tokens
-mana_cost: '2'
+mana_cost: 1R
 mana_cost_converted: 2
 mana_produced: W, U, B, R, G
-name: Prized Statue
+name: You've Been Caught Stealing
 printings:
 - CLB:
     alterations:
@@ -44,16 +47,17 @@ printings:
     border_color: B
     frame: m15
     name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 334
+    number: 211
     rarity: common
     release_date: 2022-06-10
-rules: 'When Prized Statue enters the battlefield or is put into a graveyard from
-  the battlefield, create a treasure token. *(It''s a colourless artifact with "[[symbol:T]],
-  Sacrifice this artifact: Add one mana of any colour.")*'
-slug: prized-statue
-tags: card-color-colorless card-color-colorless-cost-2 card-mana-black card-mana-blue
-  card-mana-green card-mana-red card-mana-white card-type-artifact
-tapped_id: 26711
+rules: "Choose one &mdash;\r\n\r\n- *Threaten the Merchant* &mdash; Each creature\
+  \ blocks this turn if able.\r\n- *Bribe the Guards* &mdash; You create a Treasure\
+  \ token for each opponent who was dealt damage this turn. *(It's a colourless artifact\
+  \ with \"[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.\")*"
+slug: youve-been-caught-stealing
+tags: card-color-red card-color-red-cost-2 card-mana-black card-mana-blue card-mana-green
+  card-mana-red card-mana-white card-type-sorcery
+tapped_id: 26784
 tokens:
 - cannonical_type: Artifact
   colors: C
@@ -65,5 +69,5 @@ tokens:
   subtype: Treasure
   tla: SNC
   type: Token Artifact
-type: Artifact
-url: http://tappedout.net/mtg-card/prized-statue/
+type: Sorcery
+url: http://tappedout.net/mtg-card/youve-been-caught-stealing/
