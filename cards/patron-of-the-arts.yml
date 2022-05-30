@@ -31,9 +31,11 @@ has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
+- Sacrifice
 - Tokens
-mana_cost: '{2}{R}'
+mana_cost: 2R
 mana_cost_converted: 3
+mana_produced: W, U, B, R, G
 name: Patron of the Arts
 power_toughness: 3/1
 printings:
@@ -44,15 +46,19 @@ printings:
     border_color: B
     frame: m15
     name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 191
     rarity: common
     release_date: 2022-06-10
-rules: When Patron of the Arts enters the battlefield or dies, create a treasure token.
+rules: 'When Patron of the Arts enters the battlefield or dies, create a treasure
+  token. *(It''s a colourless artifact with "[[symbol:T]], Sacrifice this artifact:
+  Add one mana of any colour.")*'
 slug: patron-of-the-arts
 subtype: Dragon Noble
 subtype_tokens:
 - Dragon
 - Noble
-tags: card-color-red card-color-red-cost-3 card-type-creature
+tags: card-color-red card-color-red-cost-3 card-mana-black card-mana-blue card-mana-green
+  card-mana-red card-mana-white card-type-creature
 tapped_id: 26716
 tokens:
 - cannonical_type: Artifact
