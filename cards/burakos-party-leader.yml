@@ -27,9 +27,12 @@ has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
+- Sacrifice
+- Tokens
 - Party
 mana_cost: 3B
 mana_cost_converted: 4
+mana_produced: W, U, B, R, G
 name: Burakos, Party Leader
 power_toughness: 2/4
 printings:
@@ -41,17 +44,23 @@ printings:
     frame: m15
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 653
-    rarity: rare
+    rarity: mythic_rare
     release_date: 2022-06-10
 rules: "Burakos, Party Leader is also a Cleric, Rogue, Warrior, and Wizard.\r\n\r\n\
   Whenever Burakos attacks, defending player loses X life and you create X Treasure\
-  \ tokens, where X is the number of creatures in your party.\r\n\r\nChoose a Background\
-  \ (You can have a background as a second commander.)"
+  \ tokens, where X is the number of creatures in your party. *(Your party consists\
+  \ of up to four creatures, one Cleric, Rogue, Warrior and Wizard, each.)*\r\n\r\n\
+  Choose a Background *(You can have a background as a second commander.)*"
 slug: burakos-party-leader
-subtype: Orc
+subtype: Orc Cleric Rogue Warrior Wizard
 subtype_tokens:
 - Orc
-tags: card-color-black card-color-black-cost-4 card-type-creature card-type-legendary
+- Cleric
+- Rogue
+- Warrior
+- Wizard
+tags: card-color-black card-color-black-cost-4 card-mana-black card-mana-blue card-mana-green
+  card-mana-red card-mana-white card-type-creature card-type-legendary
 tapped_id: 26792
 tokens:
 - cannonical_type: Artifact
