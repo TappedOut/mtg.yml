@@ -1,10 +1,6 @@
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
-color_identity:
-- U
-color_indicator:
-- U
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
@@ -33,6 +29,7 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Flash
+- Counterspell
 - Ward
 mana_cost: 2U
 mana_cost_converted: 3
@@ -41,22 +38,24 @@ power_toughness: 2/3
 printings:
 - CLB:
     alterations:
-    - Foil
     - Normal
+    booster_exclude: true
     border_color: B
-    frame: modern
+    frame: m15
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 662
     rarity: rare
     release_date: 2022-06-10
-rules: "Flash \r\n\r\nWard {2}\r\n\r\nProbing Telepathy \u2014 Whenever a creature\
-  \ entering the battlefield under an opponent's control causes a triggered ability\
-  \ of that creature to trigger, you may copy that ability. You may choose new targets\
-  \ for the copy."
+rules: "Flash \r\n\r\nWard [[symbol:2]] *(Whenever this becomes the target of a spell\
+  \ or ability an opponent controls, counter it unless that player pays [[symbol:2]].)*\r\
+  \n\r\n*Probing Telepathy* \u2014 Whenever a creature entering the battlefield under\
+  \ an opponent's control causes a triggered ability of that creature to trigger,\
+  \ you may copy that ability. You may choose new targets for the copy."
 slug: aboleth-spawn
-subtype: Fish
+subtype: Fish Horror
 subtype_tokens:
 - Fish
+- Horror
 tags: card-color-blue card-color-blue-cost-3 card-type-creature
 tapped_id: 26805
 type: Creature
