@@ -1,9 +1,3 @@
-activated_abilities:
-- '*(Example scenarios for Stomp: You may cast this off of . You may not target this
-  with .  increases the cost of this.  requires X=2. You may cast this from a cascade
-  spell if the spell has a cost greater than Bonecrusher Giant''s cost. If you cast
-  a Stomp that another player owns, only you may cast the Bonecrusher Giant that got
-  sent on an adventure, not the owner.)*'
 activation_costs:
 - R
 canadian_hl_score: 0
@@ -16,7 +10,6 @@ companions:
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-- Zirda, the Dawnwaker
 effective_cost:
 - R
 flat_cost: 3
@@ -39,7 +32,7 @@ formats:
 - Pioneer
 - Tiny Leaders
 - Vintage
-has_activated_abilities: true
+has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -50,6 +43,16 @@ mana_cost_converted: 3
 name: Bonecrusher Giant
 power_toughness: 4/3
 printings:
+- CLB:
+    alterations:
+    - Normal
+    booster_exclude: true
+    border_color: B
+    frame: m15
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 781
+    rarity: rare
+    release_date: 2022-06-10
 - ELD:
     alterations:
     - Foil
@@ -85,13 +88,10 @@ rules: "Whenever Bonecrusher Giant becomes the target of a spell, Bonecrusher Gi
   \n\r\n*(You may cast Stomp for [[symbol:1]][[symbol:R]] from anywhere that you have\
   \ the permission to cast this, then exile it on an adventure instead of putting\
   \ it into your graveyard. When you have not chosen to cast Stomp, this card is treated\
-  \ only as Bonecrusher Giant in whatever zone it is in.)*\r\n\r\n*(Example scenarios\
-  \ for Stomp: You may cast this off of [[Melek, Izzet Paragon]]. You may not target\
-  \ this with [[Snapcaster Mage]]. [[Thalia, Guardian of Thraben]] increases the cost\
-  \ of this. [[Electrodominance]] requires X=2. You may cast this from a cascade spell\
-  \ if the spell has a cost greater than Bonecrusher Giant's cost. If you cast a Stomp\
-  \ that another player owns, only you may cast the Bonecrusher Giant that got sent\
-  \ on an adventure, not the owner.)*"
+  \ only as Bonecrusher Giant in whatever zone it is in.)*\r\n\r\n*(When not exiled\
+  \ on an adventure, Adventure cards function identically to modal double faced cards\
+  \ when regarding to the interactions of cards that look at them or attempt to cast\
+  \ them.)*"
 slug: bonecrusher-giant
 subtype: Giant
 subtype_tokens:
