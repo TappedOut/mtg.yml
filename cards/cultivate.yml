@@ -41,8 +41,19 @@ is_mtgo: true
 is_permanent: false
 mana_cost: 2G
 mana_cost_converted: 3
+mana_produced: W, U, B, R, G
 name: Cultivate
 printings:
+- CLB:
+    alterations:
+    - Normal
+    booster_exclude: true
+    border_color: B
+    frame: m15
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 821
+    rarity: uncommon
+    release_date: 2022-06-10
 - NCC:
     alterations:
     - Normal
@@ -330,7 +341,9 @@ rules: Search your library for up to two basic land cards, reveal those cards, p
   one onto the battlefield tapped and the other into your hand, then shuffle your
   library.
 slug: cultivate
-tags: card-color-green card-color-green-cost-3 card-type-sorcery
+tags: card-color-green card-color-green-cost-3 card-mana-black-slow card-mana-blue-slow
+  card-mana-green-slow card-mana-red-slow card-mana-white-slow card-type-sorcery
+tap_land: true
 tapped_id: 12335
 type: Sorcery
 url: http://tappedout.net/mtg-card/cultivate/
