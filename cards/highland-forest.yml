@@ -1,11 +1,14 @@
 activated_abilities:
-- '*(: Gain  or .)*'
+- '*(: Add  or .)*'
 activation_costs:
 - G
 - R
 canadian_hl_score: 0
 cannonical_set: KHM
 cannonical_type: Land
+color_identity:
+- R
+- G
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -52,6 +55,16 @@ mana_cost_converted: 0
 mana_produced: R, G
 name: Highland Forest
 printings:
+- CLB:
+    alterations:
+    - Normal
+    booster_exclude: true
+    border_color: B
+    frame: m15
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 896
+    rarity: common
+    release_date: 2022-06-10
 - KHM:
     alterations:
     - Foil
@@ -64,15 +77,16 @@ printings:
     release_date: 2021-02-05
     wizards_id: 503881
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503881
-rules: "*([[symbol:T]]: Gain [[symbol:R]] or [[symbol:G]].)*\r\n\r\nHighland Forest\
-  \ enters the battlefield tapped"
+rules: "*([[symbol:T]]: Add [[symbol:R]] or [[symbol:G]].)*\r\n\r\nHighland Forest\
+  \ enters the battlefield tapped."
 slug: highland-forest
 subtype: Mountain Forest
 subtype_tokens:
 - Mountain
 - Forest
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-green card-mana-red
+tags: card-color-colorless card-color-colorless-cost-0 card-mana-green-slow card-mana-red-slow
   card-type-land card-type-snow
+tap_land: true
 tapped_id: 23744
 type: Snow Land
 url: http://tappedout.net/mtg-card/highland-forest/
