@@ -1,12 +1,15 @@
 activated_abilities:
-- ': Gain  or .'
-- ', : Scry 1.'
+- ': Add  or .'
+- ', : Scry 1. *(Look at the top card of your library. You may put it into your graveyard.)*'
 activation_costs:
 - R
 - U
 canadian_hl_score: 0
 cannonical_set: STX
 cannonical_type: Land
+color_identity:
+- U
+- R
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -55,6 +58,16 @@ mana_cost_converted: 0
 mana_produced: U, R
 name: Prismari Campus
 printings:
+- CLB:
+    alterations:
+    - Normal
+    booster_exclude: true
+    border_color: B
+    frame: m15
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 909
+    rarity: common
+    release_date: 2022-06-10
 - STX:
     alterations:
     - Foil
@@ -67,11 +80,13 @@ printings:
     release_date: 2021-04-23
     wizards_id: 513762
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=513762
-rules: "This enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Gain [[symbol:U]]\
-  \ or [[symbol:R]].\r\n\r\n[[symbol:4]], [[symbol:T]]: Scry 1."
+rules: "Prismari Campus enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Add [[symbol:U]]\
+  \ or [[symbol:R]].\r\n\r\n[[symbol:4]], [[symbol:T]]: Scry 1. *(Look at the top\
+  \ card of your library. You may put it into your graveyard.)*"
 slug: prismari-campus
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-blue card-mana-red
+tags: card-color-colorless card-color-colorless-cost-0 card-mana-blue-slow card-mana-red-slow
   card-type-land
+tap_land: true
 tapped_id: 24078
 type: Land
 url: http://tappedout.net/mtg-card/prismari-campus/
