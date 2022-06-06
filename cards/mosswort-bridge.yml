@@ -1,7 +1,9 @@
 activated_abilities:
 - ': Add .'
 - ', : You may play the exiled card without paying its mana cost if creatures you
-  control have total power 10 or greater.'
+  control have total power 10 or greater. *(This is a linked ability, linked to the
+  ability in the first paragraph on this card. You may only play the exiled card that
+  was exiled via the ability in the first paragraph.)*'
 activation_costs:
 - G
 canadian_hl_score: 0
@@ -47,6 +49,16 @@ mana_cost_converted: 0
 mana_produced: G
 name: Mosswort Bridge
 printings:
+- CLB:
+    alterations:
+    - Normal
+    booster_exclude: true
+    border_color: B
+    frame: m15
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 902
+    rarity: rare
+    release_date: 2022-06-10
 - NCC:
     alterations:
     - Normal
@@ -186,11 +198,14 @@ printings:
     release_date: 2007-10-12
     wizards_id: 139515
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=139515
-rules: "Hideaway *(This land enters the battlefield tapped. When this does, look at\
-  \ the top four cards of your library, exile one face down, then put the rest on\
-  \ the bottom of your library.)*\r\n\r\n[[symbol:T]]: Add [[symbol:G]].\r\n\r\n[[symbol:G]],\
-  \ [[symbol:T]]: You may play the exiled card without paying its mana cost if creatures\
-  \ you control have total power 10 or greater."
+rules: "Hideaway *(When this land enters the battlefield, look at the top four cards\
+  \ of your library, exile one face down, then put the rest on the bottom of your\
+  \ library.)*\r\n\r\nMosswort Bridge enters the battlefield tapped.\r\n\r\n[[symbol:T]]:\
+  \ Add [[symbol:G]].\r\n\r\n[[symbol:G]], [[symbol:T]]: You may play the exiled card\
+  \ without paying its mana cost if creatures you control have total power 10 or greater.\
+  \ *(This is a linked ability, linked to the ability in the first paragraph on this\
+  \ card. You may only play the exiled card that was exiled via the ability in the\
+  \ first paragraph.)*"
 slug: mosswort-bridge
 synonyms:
 - G Hideaway
