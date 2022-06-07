@@ -1,5 +1,6 @@
 activated_abilities:
-- '{1}, {T}: Target player mills three cards.'
+- ', : Target player mills three cards. *(They put the top three cards of their library
+  into their graveyard.)*'
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
@@ -34,6 +35,9 @@ formats:
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords:
+- Tokens
+- Mill
 mana_cost: 2U
 mana_cost_converted: 3
 name: Zellix, Sanity Flayer
@@ -43,20 +47,34 @@ printings:
     alterations:
     - Foil
     - Normal
+    booster_exclude: true
     border_color: B
-    frame: modern
+    frame: m15
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 652
     rarity: mythic_rare
     release_date: 2022-06-10
-rules: "Hive Mind \u2014 Whenever a player mills one or more creature cards, you create\
-  \ a 1/1 black Horror creature token.\r\n\r\n{1}, {T}: Target player mills three\
-  \ cards.\r\n\r\nChoose a Background (You can have a Background as a second commander.)"
+rules: "*Hive Mind* \u2014 Whenever a player mills one or more creature cards, you\
+  \ create a 1/1 black Horror creature token.\r\n\r\n[[symbol:1]], [[symbol:T]]: Target\
+  \ player mills three cards. *(They put the top three cards of their library into\
+  \ their graveyard.)*\r\n\r\nChoose a Background *(You can have a Background as a\
+  \ second commander.)*"
 slug: zellix-sanity-flayer
 subtype: Horror
 subtype_tokens:
 - Horror
 tags: card-color-blue card-color-blue-cost-3 card-type-creature card-type-legendary
 tapped_id: 26786
+tokens:
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Horror 1/1 B
+  power_toughness: 1/1
+  rules: ''
+  subtype: Horror
+  tla: CLB
+  type: Token Creature
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/zellix-sanity-flayer/
