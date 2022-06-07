@@ -1,7 +1,9 @@
 activated_abilities:
 - ': Add .'
 - ', : You may play the exiled card without paying its mana cost if an opponent was
-  dealt 7 or more damage this turn.'
+  dealt 7 or more damage this turn. *(This is a linked ability, linked to the ability
+  in the first paragraph on this card. You may only play the exiled card that was
+  exiled via the ability in the first paragraph.)*'
 activation_costs:
 - R
 canadian_hl_score: 0
@@ -47,6 +49,16 @@ mana_cost_converted: 0
 mana_produced: R
 name: Spinerock Knoll
 printings:
+- CLB:
+    alterations:
+    - Normal
+    booster_exclude: true
+    border_color: B
+    frame: m15
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 916
+    rarity: rare
+    release_date: 2022-06-10
 - NCC:
     alterations:
     - Normal
@@ -123,11 +135,14 @@ printings:
     release_date: 2007-10-12
     wizards_id: 139514
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=139514
-rules: "Hideaway *(This enters the battlefield tapped. When this does, look at the\
-  \ top four cards of your library, exile one face down, then put the rest on the\
-  \ bottom of your library.)*\r\n\r\n[[symbol:T]]: Add [[symbol:R]].\r\n\r\n[[symbol:R]],\
-  \ [[symbol:T]]: You may play the exiled card without paying its mana cost if an\
-  \ opponent was dealt 7 or more damage this turn."
+rules: "Hideaway *(When this land enters the battlefield, look at the top four cards\
+  \ of your library, exile one face down, then put the rest on the bottom of your\
+  \ library.)*\r\n\r\nSpinerock Knoll enters the battlefield tapped.\r\n\r\n[[symbol:T]]:\
+  \ Add [[symbol:R]].\r\n\r\n[[symbol:R]], [[symbol:T]]: You may play the exiled card\
+  \ without paying its mana cost if an opponent was dealt 7 or more damage this turn.\
+  \ *(This is a linked ability, linked to the ability in the first paragraph on this\
+  \ card. You may only play the exiled card that was exiled via the ability in the\
+  \ first paragraph.)*"
 slug: spinerock-knoll
 synonyms:
 - R Hideaway
