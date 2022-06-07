@@ -1,10 +1,6 @@
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
-color_identity:
-- B
-color_indicator:
-- B
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -30,6 +26,9 @@ formats:
 has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
+keywords:
+- Exile
+- Tokens
 mana_cost: 3B
 mana_cost_converted: 4
 name: Uchuulon
@@ -37,25 +36,36 @@ power_toughness: '*/4'
 printings:
 - CLB:
     alterations:
-    - Foil
     - Normal
+    booster_exclude: true
     border_color: B
-    frame: modern
+    frame: m15
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 673
     rarity: rare
     release_date: 2022-06-10
 rules: "Uchuulon\u2019s power is equal to the number of Crabs, Oozes, and/or Horrors\
-  \ you control.\r\n\r\nHorrific Symbiosis \u2014 At the beginning of your end step,\
+  \ you control.\r\n\r\n*Horrific Symbiosis* \u2014 At the beginning of your end step,\
   \ exile up to one target creature card from an opponent\u2019s graveyard. If you,\
   \ create a token that\u2019s a copy of Uchuulon."
 slug: uchuulon
-subtype: Crab Horror
+subtype: Crab Ooze Horror
 subtype_tokens:
 - Crab
+- Ooze
 - Horror
 tags: card-color-black card-color-black-cost-4 card-type-creature
 tap_land: true
 tapped_id: 26803
+tokens:
+- cannonical_type: Creature
+  colors: null
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Copy Clone
+  power_toughness: null
+  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
+  tla: CLB
+  type: Token Creature
 type: Creature
 url: http://tappedout.net/mtg-card/uchuulon/
