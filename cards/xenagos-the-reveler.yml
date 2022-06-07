@@ -1,7 +1,7 @@
 activated_abilities:
-- ': Add X mana in any combination of  and/or  to your mana pool, where X is the number
-  of creatures you control.'
-- ': Put a 2/2 red and green Satyr creature token with haste onto the battlefield.'
+- ': Add X mana in any combination of  and/or , where X is the number of creatures
+  you control.'
+- ': Create a 2/2 red and green Satyr creature token with haste.'
 - ': Exile the top seven cards of your library. You may put any number of creature
   and/or land cards from among them onto the battlefield.'
 activation_costs:
@@ -41,10 +41,27 @@ formats:
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords:
+- Haste
+- Exile
+- Sacrifice
+- Counters
+- Tokens
 mana_cost: 2RG
 mana_cost_converted: 4
+mana_produced: R, G, RG, RRGG
 name: Xenagos, the Reveler
 printings:
+- CLB:
+    alterations:
+    - Normal
+    booster_exclude: true
+    border_color: B
+    frame: m15
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 853
+    rarity: mythic_rare
+    release_date: 2022-06-10
 - THS:
     alterations:
     - Foil
@@ -59,13 +76,14 @@ printings:
     release_date: 2013-09-27
     wizards_id: 373502
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373502
-rules: "[[symbol:loyalty-plus1]]: Add X mana in any combination of [[R]] and/or [[G]]\
-  \ to your mana pool, where X is the number of creatures you control.\r\n\r\n[[symbol:loyalty-zero]]:\
-  \ Put a 2/2 red and green Satyr creature token with haste onto the battlefield.\r\
-  \n\r\n[[symbol:loyalty-minus6]]: Exile the top seven cards of your library. You\
-  \ may put any number of creature and/or land cards from among them onto the battlefield."
+rules: "[[symbol:loyalty-plus1]]: Add X mana in any combination of [[symbol:R]] and/or\
+  \ [[symbol:G]], where X is the number of creatures you control.\r\n\r\n[[symbol:loyalty-zero]]:\
+  \ Create a 2/2 red and green Satyr creature token with haste.\r\n\r\n[[symbol:loyalty-minus6]]:\
+  \ Exile the top seven cards of your library. You may put any number of creature\
+  \ and/or land cards from among them onto the battlefield."
 slug: xenagos-the-reveler
-tags: card-color-gold card-color-gold-cost-4 card-color-green card-color-red card-type-planeswalker
+tags: card-color-gold card-color-gold-cost-4 card-color-green card-color-red card-mana-green
+  card-mana-red card-type-planeswalker
 tapped_id: 14818
 tokens:
 - cannonical_type: Creature
