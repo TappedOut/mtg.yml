@@ -1,7 +1,7 @@
 activated_abilities:
-- ': Up to one target creature gets -2/-1 until your next turn. '
-- ': Put the top two cards of your library into your graveyard, then you may return
-  a creature card from your graveyard to your hand. '
+- ': Up to one target creature gets -2/-1 until your next turn.'
+- ': Mill two cards, then you may return a creature card from your graveyard to your
+  hand.'
 - ': You get an emblem with '
 canadian_hl_score: 0
 cannonical_set: EMN
@@ -38,6 +38,7 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
+- Mill
 mana_cost: 1BB
 mana_cost_converted: 3
 name: Liliana, the Last Hope
@@ -61,6 +62,9 @@ printings:
     - alterations:
       - Foil
       identifier: '440'
+    - alterations:
+      - Foil
+      identifier: '573'
 - GRNMED:
     alterations:
     - Foil
@@ -98,11 +102,10 @@ printings:
     rarity: mythic_rare
     release_date: 1990-04-15
 rules: "[[symbol:loyalty-plus1]]: Up to one target creature gets -2/-1 until your\
-  \ next turn. \r\n\r\n[[symbol:loyalty-minus2]]: Put the top two cards of your library\
-  \ into your graveyard, then you may return a creature card from your graveyard to\
-  \ your hand. \r\n\r\n[[symbol:loyalty-minus7]]: You get an emblem with \"At the\
-  \ beginning of your end step, create X 2/2 black Zombie creature tokens, where X\
-  \ is two plus the number of Zombies you control.\""
+  \ next turn.\r\n\r\n[[symbol:loyalty-minus2]]: Mill two cards, then you may return\
+  \ a creature card from your graveyard to your hand.\r\n\r\n[[symbol:loyalty-minus7]]:\
+  \ You get an emblem with \"At the beginning of your end step, create X 2/2 black\
+  \ Zombie creature tokens, where X is two plus the number of Zombies you control.\""
 slug: liliana-the-last-hope
 subtype: Liliana
 subtype_tokens:
@@ -112,6 +115,16 @@ synonyms:
 tags: card-color-black card-color-black-cost-3 card-type-planeswalker
 tapped_id: 17966
 tokens:
+- cannonical_type: Creature
+  colors: B
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Zombie 2/2 B
+  power_toughness: 2/2
+  rules: ''
+  subtype: Zombie
+  tla: EMN
+  type: Token Creature
 - cannonical_type: Emblem
   colors: C
   mana_cost: '0'
@@ -123,15 +136,5 @@ tokens:
   subtype: Liliana
   tla: EMN
   type: Emblem
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: EMN
-  type: Token Creature
 type: Planeswalker
 url: http://tappedout.net/mtg-card/liliana-the-last-hope/
