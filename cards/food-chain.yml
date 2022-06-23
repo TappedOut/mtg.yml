@@ -1,7 +1,7 @@
 activated_abilities:
-- 'Exile a creature you control: Add X mana of any one color to your mana pool, where
-  X is the exiled creature''s converted mana cost plus one. Spend this mana only to
-  cast creature spells.'
+- 'Exile a creature you control: Add X mana of any one colour to your mana pool, where
+  X is the exiled creature''s converted mana cost/mana value plus one. Spend this
+  mana only to cast creature spells.'
 canadian_hl_score: 0
 cannonical_set: MMQ
 cannonical_type: Enchantment
@@ -34,10 +34,24 @@ formats:
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords:
+- Exile
 mana_cost: 2G
 mana_cost_converted: 3
+mana_produced: WWW, UUU, BBB, RRR, GGG
 name: Food Chain
 printings:
+- 2X2:
+    alterations:
+    - Foil
+    - Normal
+    border_color: B
+    cannonical: false
+    frame: m15
+    name: Double Masters 2022
+    number: 147
+    rarity: mythic_rare
+    release_date: 2022-07-08
 - MMQ:
     alterations:
     - Foil
@@ -63,11 +77,12 @@ printings:
     number: 8
     rarity: rare
     release_date: 1990-04-15
-rules: 'Exile a creature you control: Add X mana of any one color to your mana pool,
-  where X is the exiled creature''s converted mana cost plus one. Spend this mana
-  only to cast creature spells.'
+rules: 'Exile a creature you control: Add X mana of any one colour to your mana pool,
+  where X is the exiled creature''s converted mana cost/mana value plus one. Spend
+  this mana only to cast creature spells.'
 slug: food-chain
-tags: card-color-green card-color-green-cost-3 card-type-enchantment
+tags: card-color-green card-color-green-cost-3 card-mana-black card-mana-blue card-mana-green
+  card-mana-red card-mana-white card-type-enchantment
 tapped_id: 5722
 type: Enchantment
 url: http://tappedout.net/mtg-card/food-chain/
