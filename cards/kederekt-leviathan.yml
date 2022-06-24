@@ -1,7 +1,9 @@
 activated_abilities:
-- 'Unearth (6)(Blue) ((6)(Blue): Return this card from your graveyard to play. It
-  gains haste. Remove it from the game at end of turn or if it would leave play. Unearth
-  only as a sorcery.)'
+- 'Unearth  *(: Return this card from your graveyard to the battlefield. It gains
+  haste. Exile it at the beginning of the next end step or if it would leave the battlefield.
+  Unearth only as a sorcery.)*'
+activation_costs:
+- U
 canadian_hl_score: 0
 cannonical_set: ALA
 cannonical_type: Creature
@@ -34,12 +36,28 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
+- Exile
 - Unearth
 mana_cost: 6UU
 mana_cost_converted: 8
 name: Kederekt Leviathan
 power_toughness: 5/5
 printings:
+- 2X2:
+    alterations:
+    - Foil
+    - Normal
+    border_color: B
+    cannonical: false
+    frame: m15
+    name: Double Masters 2022
+    number: 55
+    rarity: rare
+    release_date: 2022-07-08
+    variations:
+    - alterations:
+      - Etched
+      identifier: '431'
 - ALA:
     alterations:
     - Foil
@@ -55,9 +73,10 @@ printings:
     wizards_id: 174882
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=174882
 rules: "When Kederekt Leviathan enters the battlefield, return all other nonland permanents\
-  \ to their owners' hands.\r\n\r\nUnearth (6)(Blue) ((6)(Blue): Return this card\
-  \ from your graveyard to play. It gains haste. Remove it from the game at end of\
-  \ turn or if it would leave play. Unearth only as a sorcery.)"
+  \ to their owners' hands.\r\n\r\nUnearth [[symbol:6]][[symbol:U]] *([[symbol:6]][[symbol:U]]:\
+  \ Return this card from your graveyard to the battlefield. It gains haste. Exile\
+  \ it at the beginning of the next end step or if it would leave the battlefield.\
+  \ Unearth only as a sorcery.)*"
 slug: kederekt-leviathan
 subtype: Leviathan
 subtype_tokens:
