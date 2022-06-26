@@ -1,7 +1,9 @@
 activated_abilities:
-- 'Each creature card in your graveyard has unearth (2)(Black). ((2)(Black): Return
-  the card to play. The creature gains haste. Remove it from the game at end of turn
-  or if it would leave play. Unearth only as a sorcery.)'
+- 'Each creature card in your graveyard has unearth . *(: Return the card to the battlefield.
+  The creature gains haste. Exile it at the beginning of the next end step or if it
+  would leave the battlefield. Unearth only as a sorcery.)*'
+activation_costs:
+- B
 canadian_hl_score: 0
 cannonical_set: ALA
 cannonical_type: Creature
@@ -37,12 +39,32 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
+- Exile
 - Unearth
 mana_cost: 3UBR
 mana_cost_converted: 6
 name: Sedris, the Traitor King
 power_toughness: 5/5
 printings:
+- 2X2:
+    alterations:
+    - Foil
+    - Normal
+    border_color: B
+    cannonical: false
+    frame: m15
+    name: Double Masters 2022
+    number: 274
+    rarity: mythic_rare
+    release_date: 2022-07-08
+    variations:
+    - alterations:
+      - Foil
+      - Normal
+      identifier: '387'
+    - alterations:
+      - Etched
+      identifier: '537'
 - ALA:
     alterations:
     - Foil
@@ -58,9 +80,10 @@ printings:
     release_date: 2008-10-03
     wizards_id: 175111
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=175111
-rules: 'Each creature card in your graveyard has unearth (2)(Black). ((2)(Black):
-  Return the card to play. The creature gains haste. Remove it from the game at end
-  of turn or if it would leave play. Unearth only as a sorcery.)'
+rules: 'Each creature card in your graveyard has unearth [[symbol:2]][[symbol:B]].
+  *([[symbol:2]][[symbol:B]]: Return the card to the battlefield. The creature gains
+  haste. Exile it at the beginning of the next end step or if it would leave the battlefield.
+  Unearth only as a sorcery.)*'
 slug: sedris-the-traitor-king
 subtype: Zombie Warrior
 subtype_tokens:
