@@ -47,6 +47,7 @@ printings:
     alterations:
     - Foil
     - Normal
+    - The List
     border_color: B
     frame: m15
     name: Modern Horizons 2
@@ -55,10 +56,11 @@ printings:
     release_date: 2021-06-18
     wizards_id: 522256
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522256
-rules: '*Landfall* &mdash; Whenever a land enters the battlefield under your control,
-  create a Food token or a Treasure token. *(Food is an artifact with "[[symbol:2]],
-  [[symbol:T]], Sacrifice this artifact: You gain 3 life." <br>Treasure is an artifact
-  with "[[symbol:T]], Sacrifice this artifact: Gain one mana of any colour.")*'
+rules: "*Landfall* &mdash; Whenever a land enters the battlefield under your control,\
+  \ create a Food token or a Treasure token. *(Food is an artifact with \"[[symbol:2]],\
+  \ [[symbol:T]], Sacrifice this artifact: You gain 3 life.\"\r\n<br>Treasure is an\
+  \ artifact with \"[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.\"\
+  )*"
 slug: tireless-provisioner
 subtype: Elf Scout
 subtype_tokens:
@@ -72,20 +74,20 @@ tokens:
   colors: C
   mana_cost: '0'
   mana_cost_converted: 0
-  name: Food
+  name: Treasure
   power_toughness: null
-  rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
-  subtype: Food
+  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+  subtype: Treasure
   tla: MH2
   type: Token Artifact
 - cannonical_type: Artifact
   colors: C
   mana_cost: '0'
   mana_cost_converted: 0
-  name: Treasure
+  name: Food
   power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
+  rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
+  subtype: Food
   tla: MH2
   type: Token Artifact
 type: Creature
