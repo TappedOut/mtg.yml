@@ -1,20 +1,25 @@
 activated_abilities:
 - ', , Sacrifice another artifact or creature: Draw a card.'
-- ', , Sacrifice this: Roll a ten sided die. Return up to X cards from among cards
-  exiled with this to their owners'' hands, where X is the result.'
+- ', , Sacrifice Bag of Devouring: Roll a ten sided die. Return up to X cards from
+  among cards exiled with Bag of Devouring to their owners'' hands, where X is the
+  result. *(This is a linked ability, linked to the ability in the first paragraph
+  on this card. You may only put the exiled cards into your hand if those cards were
+  exiled via the ability in the first paragraph.)*'
 canadian_hl_score: 0
 cannonical_set: AFC
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+effective_cost:
+- B
+flat_cost: 1
 formats:
 - 1v1 Commander
 - Alchemy
@@ -40,7 +45,8 @@ is_permanent: true
 keywords:
 - Exile
 - Sacrifice
-mana_cost_converted: 0
+mana_cost: B
+mana_cost_converted: 1
 name: Bag of Devouring
 printings:
 - AFC:
@@ -60,11 +66,13 @@ printings:
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=531926
 rules: "Whenever you sacrifice another nontoken artifact or creature, exile it.\r\n\
   \r\n[[symbol:2]], [[symbol:T]], Sacrifice another artifact or creature: Draw a card.\r\
-  \n\r\n[[symbol:3]], [[symbol:T]], Sacrifice this: Roll a ten sided die. Return up\
-  \ to X cards from among cards exiled with this to their owners' hands, where X is\
-  \ the result."
+  \n\r\n[[symbol:3]], [[symbol:T]], Sacrifice Bag of Devouring: Roll a ten sided die.\
+  \ Return up to X cards from among cards exiled with Bag of Devouring to their owners'\
+  \ hands, where X is the result. *(This is a linked ability, linked to the ability\
+  \ in the first paragraph on this card. You may only put the exiled cards into your\
+  \ hand if those cards were exiled via the ability in the first paragraph.)*"
 slug: bag-of-devouring
-tags: card-color-colorless card-color-colorless-cost-0 card-type-artifact
+tags: card-color-black card-color-black-cost-1 card-type-artifact
 tapped_id: 24886
 type: Artifact
 url: http://tappedout.net/mtg-card/bag-of-devouring/
