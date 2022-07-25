@@ -23,12 +23,10 @@ has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
-- Exile
 - Sacrifice
 - Tokens
 mana_cost: 2UB
 mana_cost_converted: 4
-mana_produced: W, U, B, R, G
 name: Ramirez DePietro, Pillager
 power_toughness: 4/3
 printings:
@@ -46,6 +44,14 @@ printings:
       - Etched
       - Normal
       identifier: '60'
+- DMU:
+    alterations:
+    - Normal
+    border_color: B
+    frame: m15
+    name: Dominaria United
+    rarity: uncommon
+    release_date: 2022-09-09
 rules: "When Ramirez DePietro, Pillager enters the battlefield, you lose 2 life and\
   \ create two Treasure tokens. *(They're colourless artifact tokens with \"[[symbol:T]],\
   \ Sacrifice this artifact: Add one mana of any colour.)*\r\n\r\nWhenever one or\
@@ -56,9 +62,19 @@ subtype: Human Pirate
 subtype_tokens:
 - Human
 - Pirate
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-4 card-mana-black
-  card-mana-blue card-mana-green card-mana-red card-mana-white card-type-creature
+tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-4 card-type-creature
   card-type-legendary
 tapped_id: 27038
+tokens:
+- cannonical_type: Artifact
+  colors: C
+  mana_cost: '0'
+  mana_cost_converted: 0
+  name: Treasure
+  power_toughness: null
+  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+  subtype: Treasure
+  tla: 2X2
+  type: Token Artifact
 type: Legendary Creature
 url: http://tappedout.net/mtg-card/ramirez-depietro-pillager/
