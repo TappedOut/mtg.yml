@@ -2,12 +2,14 @@ activated_abilities:
 - 'Discard your hand: Search your library for this card, reveal it, shuffle your library
   and put this card on top of it. Activate this ability only at the beginning of your
   upkeep, and only if this card is in your library.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: PSG
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -19,42 +21,56 @@ effective_cost:
 - B
 - R
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Shroud
 mana_cost: WUBRG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: 1996 World Champion
 power_toughness: '*/*'
 printings:
 - PSG:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Christopher Rush
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*It takes great sacrifice to make it to the top.*'
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo set for Gatherer
     number: 1
     rarity: rare
-    release_date: 1990-01-10
-promo_sets:
-- PSG
+    release_date: '1990-01-10'
+    tla: PSG
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "Shroud\r\n\r\nThis creature has power and toughness equal to the life total\
   \ of target opponent.\r\n\r\nDiscard your hand: Search your library for this card,\
   \ reveal it, shuffle your library and put this card on top of it. Activate this\
@@ -65,8 +81,9 @@ subtype: Human Wizard
 subtype_tokens:
 - Human
 - Wizard
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-5 card-color-green
-  card-color-red card-color-white card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 12715
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/1996-world-champion/
+url: https://tappedout.net/mtg-card/1996-world-champion/
+
