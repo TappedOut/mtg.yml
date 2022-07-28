@@ -1,37 +1,40 @@
 activated_abilities:
 - ', Exile a creature card from your graveyard: Create a 3/1 black and red Graveborn
   creature token with haste. Sacrifice it at the beginning of the next end step.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: ALL
 cannonical_type: Creature
-color_identity:
-- R
+color_identity: R
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.6
+draft_average: 3.4
 effective_cost:
 - B
-flat_cost: 4
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,45 +44,78 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 3B
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Balduvian Dead
 power_toughness: 2/3
 printings:
-- CTD:
+- ALL:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mike Kimble
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: modern
-    name: Coldsnap Theme Deck
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: 24483
+    name: Alliances
+    number: null
     rarity: uncommon
-    release_date: 2013-01-21
+    release_date: '1996-06-10'
+    tla: ALL
+    variations: []
+    wizards_id: 3066
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3066
 - ME2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mike Kimble
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 30647
     mtgo_id: 30646
     name: Masters Edition II
     number: 79
     rarity: uncommon
-    release_date: 2008-09-22
+    release_date: '2008-09-22'
+    tla: ME2
+    variations: []
     wizards_id: 184735
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=184735
-- ALL:
+- CTD:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mike Kimble
+    booster_exclude: false
     border_color: B
-    frame: original
-    mtgo_id: 24483
-    name: Alliances
+    cannonical: false
+    flavour_text: null
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Coldsnap Theme Deck
+    number: null
     rarity: uncommon
-    release_date: 1996-06-10
-    wizards_id: 3066
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3066
+    release_date: '2013-01-21'
+    tla: CTD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: uncommon
 rules: '[[symbol:2]][[symbol:R]], Exile a creature card from your graveyard: Create
   a 3/1 black and red Graveborn creature token with haste. Sacrifice it at the beginning
   of the next end step.'
@@ -87,17 +123,24 @@ slug: balduvian-dead
 subtype: Zombie
 subtype_tokens:
 - Zombie
-tags: card-color-black card-color-black-cost-4 card-type-creature
+synonyms: []
 tapped_id: 7737
 tokens:
-- cannonical_type: Creature
-  colors: B,R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 3/1 B,R Creature Graveborn
-  power_toughness: 3/1
-  rules: Haste
-  subtype: Graveborn
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B,R
+    - - power_toughness
+      - 3/1
+    - - rules
+      - Haste
+    - - type
+      - Creature
+    - - subtype
+      - 895
+    - - cannonical_type
+      - Creature
+    - - name
+      - null
 type: Creature
-url: http://tappedout.net/mtg-card/balduvian-dead/
+url: https://tappedout.net/mtg-card/balduvian-dead/
+

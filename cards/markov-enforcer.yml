@@ -1,28 +1,31 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: VOC
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - R
-flat_cost: 6
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -30,23 +33,31 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 4RR
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Markov Enforcer
 power_toughness: 6/6
 printings:
 - VOC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Wisnu Tan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow Commander'
     number: 26
     rarity: rare
-    release_date: 2021-11-18
+    release_date: '2021-11-18'
+    tla: VOC
     variations:
-    - alterations:
-      - Normal
-      identifier: '64'
+    - identifier: '64'
     wizards_id: 546990
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=546990
 rules: "Whenever this or another Vampire enters the battlefield under your control,\
@@ -61,19 +72,25 @@ subtype: Vampire Soldier
 subtype_tokens:
 - Vampire
 - Soldier
-tags: card-color-red card-color-red-cost-6 card-type-creature
+synonyms: []
 tapped_id: 25661
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Blood
-  power_toughness: null
-  rules: '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
-    a card.'
-  subtype: Blood
-  tla: VOW
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
+        a card.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1692
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Blood
 type: Creature
-url: http://tappedout.net/mtg-card/markov-enforcer/
+url: https://tappedout.net/mtg-card/markov-enforcer/
+

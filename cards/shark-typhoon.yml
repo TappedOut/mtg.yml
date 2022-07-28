@@ -1,40 +1,44 @@
 activated_abilities:
 - 'Cycling  *(, Discard this card: Draw a card.)*'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: IKO
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 3.56
+draft_average: 1.94
 effective_cost:
 - U
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,51 +48,67 @@ keywords:
 - Prowess
 - Tokens
 mana_cost: 5U
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Shark Typhoon
 printings:
 - IKO:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Caio Monteiro
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 80144
     mtgo_id: 80143
     name: 'Ikoria: Lair of Behemoths'
     number: 67
     rarity: rare
-    release_date: 2020-04-15
+    release_date: '2020-04-15'
+    tla: IKO
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '319'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '319'
+    - identifier: PromoPack
     wizards_id: 479587
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479587
 rules: "Whenever you cast a noncreature spell, create an X/X blue Shark creature token\
   \ with flying, where X is that spell's converted mana cost.\r\n\r\nCycling [[symbol:X]][[symbol:1]][[symbol:U]]\
   \ *([[symbol:X]][[symbol:1]][[symbol:U]], Discard this card: Draw a card.)*"
 slug: shark-typhoon
-tags: card-color-blue card-color-blue-cost-6 card-type-enchantment
+synonyms: []
 tapped_id: 22694
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Shark X/X U
-  power_toughness: X/X
-  rules: Flying
-  subtype: Shark
-  tla: IKO
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - X/X
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 1451
+    - - cannonical_type
+      - Creature
+    - - name
+      - Shark X/X U
 type: Enchantment
-url: http://tappedout.net/mtg-card/shark-typhoon/
+url: https://tappedout.net/mtg-card/shark-typhoon/
+

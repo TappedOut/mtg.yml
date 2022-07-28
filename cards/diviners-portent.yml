@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: AFC
@@ -14,48 +15,55 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Scry
 mana_cost: XUUU
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Diviner's Portent
 printings:
 - AFC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Lie Setiawan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Adventures in the Forgotten Realms: Commander'
     number: 15
     rarity: rare
-    release_date: 2021-07-24
+    release_date: '2021-07-24'
+    tla: AFC
     variations:
-    - alterations:
-      - Normal
-      identifier: '284'
+    - identifier: '284'
     wizards_id: 531920
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=531920
 rules: "Roll a twenty sided die and add the number of cards in your hand to that roll.\
@@ -63,7 +71,9 @@ rules: "Roll a twenty sided die and add the number of cards in your hand to that
   \ that isn't an MTG spindown.)*\r\n\r\nIf you roll 1-14 | Draw X cards.\r\n<br>If\
   \ you roll 15+ | Scry X, then draw X cards."
 slug: diviners-portent
-tags: card-color-blue card-color-blue-cost-3 card-type-instant
+synonyms: []
 tapped_id: 24922
+tokens: []
 type: Instant
-url: http://tappedout.net/mtg-card/diviners-portent/
+url: https://tappedout.net/mtg-card/diviners-portent/
+

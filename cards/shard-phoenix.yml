@@ -3,7 +3,7 @@ activated_abilities:
   flying.'
 - ': Return Shard Phoenix from your graveyard to your hand. Activate this ability
   only during your upkeep.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: 9ED
@@ -11,29 +11,33 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.75
+draft_average: 3.25
 effective_cost:
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Premodern
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,75 +45,126 @@ keywords:
 - Flying
 - Sacrifice
 mana_cost: 4R
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Shard Phoenix
 power_toughness: 2/2
 printings:
-- TPR:
+- 9ED:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Paolo Parente
+    booster_exclude: false
+    border_color: W
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 22348
+    mtgo_id: 22347
+    name: Ninth Edition
+    number: null
+    rarity: rare
+    release_date: '2005-07-29'
+    tla: 9ED
+    variations: []
+    wizards_id: 83410
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=83410
+- STH:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Paolo Parente
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: 10264
+    mtgo_id: 10263
+    name: Stronghold
+    number: null
+    rarity: rare
+    release_date: '1998-02-01'
+    tla: STH
+    variations: []
+    wizards_id: 5155
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=5155
+- '000':
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ron Spencer
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Promo Set
+    number: 1
+    rarity: rare
+    release_date: '1990-04-15'
+    tla: '000'
+    variations:
+    - identifier: '2'
+    - identifier: '3'
+    - identifier: '4'
+    wizards_id: null
+    wizards_url: null
+- TPR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Parente
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 56797
     mtgo_id: 56796
     name: Tempest Remastered
     number: 158
     rarity: mythic_rare
-    release_date: 2015-05-06
+    release_date: '2015-05-06'
+    tla: TPR
+    variations: []
     wizards_id: 397414
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397414
-- 9ED:
-    alterations:
-    - Foil
-    - Normal
-    border_color: W
-    frame: modern
-    mtgo_foil_id: 22348
-    mtgo_id: 22347
-    name: Ninth Edition
-    rarity: rare
-    release_date: 2005-07-29
-    wizards_id: 83410
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=83410
 - 9EDFBB:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Paolo Parente
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 22348
     mtgo_id: 22347
     name: Ninth Edition Foreign Black Border
+    number: null
     rarity: rare
-    release_date: 2005-07-29
-- STH:
-    alterations:
-    - Normal
-    border_color: B
-    frame: original
-    mtgo_foil_id: 10264
-    mtgo_id: 10263
-    name: Stronghold
-    rarity: rare
-    release_date: 1998-02-01
-    wizards_id: 5155
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=5155
-- '000':
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    frame: original
-    name: Promo Set
-    number: 1
-    rarity: rare
-    release_date: 1990-04-15
-    variations:
-    - identifier: '2'
-    - identifier: '3'
-    - identifier: '4'
+    release_date: '2005-07-29'
+    tla: 9EDFBB
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "Flying *(This creature can't be blocked except by creatures with flying or\
   \ reach.)*\r\n\r\nSacrifice Shard Phoenix: Shard Phoenix deals 2 damage to each\
   \ creature without flying.\r\n\r\n[[symbol:R]][[symbol:R]][[symbol:R]]: Return Shard\
@@ -121,7 +176,8 @@ subtype_tokens:
 - Phoenix
 synonyms:
 - Shard Pheonix
-tags: card-color-red card-color-red-cost-5 card-type-creature
 tapped_id: 6762
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/shard-phoenix/
+url: https://tappedout.net/mtg-card/shard-phoenix/
+

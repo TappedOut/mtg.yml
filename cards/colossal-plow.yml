@@ -1,44 +1,47 @@
 activated_abilities:
 - 'Crew 6 *(Tap any number of other creatures you control with total power 6 or more:
   This Vehicle becomes an artifact creature until end of turn.)*'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: KHM
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 2
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,35 +49,57 @@ keywords:
 - Tap/Untap
 - Crew
 mana_cost: '2'
-mana_cost_converted: 2
 mana_produced: WWW
+mana_value: 2
+melds_from: []
 name: Colossal Plow
 power_toughness: 6/3
 printings:
-- NEC:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Kamigawa: Neon Dynasty Commander'
-    number: 148
-    rarity: uncommon
-    release_date: 2022-02-11
-    wizards_id: 554230
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554230
 - KHM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Joe Slucher
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Kaldheim
     number: 236
     rarity: uncommon
-    release_date: 2021-02-05
+    release_date: '2021-02-05'
+    tla: KHM
+    variations: []
     wizards_id: 503852
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503852
+- NEC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Joe Slucher
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kamigawa: Neon Dynasty Commander'
+    number: 148
+    rarity: uncommon
+    release_date: '2022-02-11'
+    tla: NEC
+    variations: []
+    wizards_id: 554230
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554230
 rules: "Wheneverthis attacks, gain [[symbol:W]][[symbol:W]][[symbol:W]] and you gain\
   \ 3 life. Until end of turn, you don't lose this mana as steps and phases end.\r\
   \n\r\nCrew 6 *(Tap any number of other creatures you control with total power 6\
@@ -83,7 +108,9 @@ slug: colossal-plow
 subtype: Vehicle
 subtype_tokens:
 - Vehicle
-tags: card-color-colorless card-color-colorless-cost-2 card-mana-white card-type-artifact
+synonyms: []
 tapped_id: 23892
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/colossal-plow/
+url: https://tappedout.net/mtg-card/colossal-plow/
+

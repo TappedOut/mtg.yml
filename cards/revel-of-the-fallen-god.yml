@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: JOU
 cannonical_type: Sorcery
@@ -10,60 +12,82 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.5
+draft_average: 1.8
 effective_cost:
 - R
 - G
-flat_cost: 7
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Quest Magic
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
+keywords: []
 mana_cost: 3RRGG
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Revel of the Fallen God
 printings:
 - JOU:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Adam Paquette
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "\"Xenagos has fallen, and the world frows dark without him. What\
+      \ can ever fill that darkness but our rage?\"\r\n-Gruuthes, disciple of Xenagos"
     frame: modern
     mtgo_foil_id: 52143
     mtgo_id: 52142
     name: Journey into Nyx
     number: 155
     rarity: rare
-    release_date: 2014-05-02
+    release_date: '2014-05-02'
+    tla: JOU
+    variations: []
     wizards_id: 380482
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=380482
+rarity: rare
 rules: 'Put four 2/2 red and green Satyr creature tokens with haste onto the battlefield. '
 slug: revel-of-the-fallen-god
-tags: card-color-gold card-color-gold-cost-7 card-color-green card-color-red card-type-sorcery
+synonyms: []
 tapped_id: 15472
 tokens:
-- cannonical_type: Creature
-  colors: GR
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Satyr 2/2 GR
-  power_toughness: 2/2
-  rules: ''
-  subtype: Satyr
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - GR
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 812
+    - - cannonical_type
+      - Creature
+    - - name
+      - Satyr 2/2 GR
 type: Sorcery
-url: http://tappedout.net/mtg-card/revel-of-the-fallen-god/
+url: https://tappedout.net/mtg-card/revel-of-the-fallen-god/
+

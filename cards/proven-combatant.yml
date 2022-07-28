@@ -2,44 +2,47 @@ activated_abilities:
 - 'Eternalize  *(, Exile this card from your graveyard: Create a token that''s a copy
   of it, except it''s a 4/4 black Zombie Human Warrior with no mana cost. Eternalize
   only as a sorcery.)*'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: HOU
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+draft_average: 10.36
 effective_cost:
 - U
-flat_cost: 1
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -48,24 +51,36 @@ keywords:
 - Tokens
 - Eternalize
 mana_cost: U
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Proven Combatant
 power_toughness: 1/1
 printings:
 - HOU:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Clint Cearley
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"It''s not wise to keep glory waiting."'
     frame: m15
     mtgo_foil_id: 64569
     mtgo_id: 64568
     name: Hour of Devastation
     number: 42
     rarity: common
-    release_date: 2017-07-14
+    release_date: '2017-07-14'
+    tla: HOU
+    variations: []
     wizards_id: 430731
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430731
+rarity: common
 rules: 'Eternalize [[symbol:4]][[symbol:U]][[symbol:U]] *([[symbol:4]][[symbol:U]][[symbol:U]],
   Exile this card from your graveyard: Create a token that''s a copy of it, except
   it''s a 4/4 black Zombie Human Warrior with no mana cost. Eternalize only as a sorcery.)*'
@@ -76,18 +91,23 @@ subtype_tokens:
 - Warrior
 synonyms:
 - Proven Combattant
-tags: card-color-blue card-color-blue-cost-1 card-type-creature
 tapped_id: 19222
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Proven Combatant 4/4 B
-  power_toughness: 4/4
-  rules: ''
-  subtype: Zombie Human Warrior
-  tla: HOU
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 4/4
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 1286
+    - - cannonical_type
+      - Creature
+    - - name
+      - Proven Combatant 4/4 B
 type: Creature
-url: http://tappedout.net/mtg-card/proven-combatant/
+url: https://tappedout.net/mtg-card/proven-combatant/
+

@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: MH2
@@ -15,55 +16,59 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Flashback
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Calibrated Blast
 printings:
 - MH2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Evan Shipard
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Modern Horizons 2
     number: 118
     rarity: rare
-    release_date: 2021-06-18
+    release_date: '2021-06-18'
+    tla: MH2
     variations:
-    - alterations:
-      - Etched
-      - Foil
-      - Normal
-      identifier: '405'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '456'
+    - identifier: '405'
+    - identifier: '456'
     wizards_id: 522194
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522194
 rules: "Reveal cards from the top of your library until you reveal a nonland card.\
@@ -73,7 +78,9 @@ rules: "Reveal cards from the top of your library until you reveal a nonland car
   \ [[symbol:3]][[symbol:R]][[symbol:R]] *(You may cast this card from your graveyard\
   \ for its flashback cost. Then exile this.)*"
 slug: calibrated-blast
-tags: card-color-red card-color-red-cost-3 card-type-instant
+synonyms: []
 tapped_id: 24488
+tokens: []
 type: Instant
-url: http://tappedout.net/mtg-card/calibrated-blast/
+url: https://tappedout.net/mtg-card/calibrated-blast/
+

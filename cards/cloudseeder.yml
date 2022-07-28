@@ -1,37 +1,40 @@
 activated_abilities:
 - ', , Discard a card: Create a 1/1 blue Faerie creature token named Cloud Sprite
   with flying and '
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: FUT
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+draft_average: 6.58
 effective_cost:
 - U
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -39,36 +42,60 @@ keywords:
 - Flying
 - Tokens
 mana_cost: 1U
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Cloudseeder
 power_toughness: 1/1
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 57
-    rarity: uncommon
-    release_date: 2021-03-19
-    wizards_id: 509422
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509422
 - FUT:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Tsutomu Kawade
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 26663
     mtgo_id: 26662
     name: Future Sight
+    number: null
     rarity: uncommon
-    release_date: 2007-05-04
+    release_date: '2007-05-04'
+    tla: FUT
+    variations: []
     wizards_id: 130309
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=130309
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Tsutomu Kawade
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 57
+    rarity: uncommon
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509422
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509422
+rarity: uncommon
 rules: "Flying\r\n\r\n[[symbol:U]], [[symbol:T]], Discard a card: Create a 1/1 blue\
   \ Faerie creature token named Cloud Sprite with flying and \"Cloud Sprite can block\
   \ only creatures with flying.\""
@@ -77,18 +104,24 @@ subtype: Faerie Spellshaper
 subtype_tokens:
 - Faerie
 - Spellshaper
-tags: card-color-blue card-color-blue-cost-2 card-type-creature
+synonyms: []
 tapped_id: 648
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Cloud Sprite 1/1 U
-  power_toughness: 1/1
-  rules: "Flying\r\n\r\nThis creature can block only creatures with flying."
-  subtype: Faerie
-  tla: TSR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 1/1
+    - - rules
+      - "Flying\r\n\r\nThis creature can block only creatures with flying."
+    - - type
+      - Token Creature
+    - - subtype
+      - 36
+    - - cannonical_type
+      - Creature
+    - - name
+      - Cloud Sprite 1/1 U
 type: Creature
-url: http://tappedout.net/mtg-card/cloudseeder/
+url: https://tappedout.net/mtg-card/cloudseeder/
+

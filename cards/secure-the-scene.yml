@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M21
 cannonical_type: Sorcery
@@ -11,67 +13,88 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.78
+draft_average: 9.83
 effective_cost:
 - W
-flat_cost: 5
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Tokens
 mana_cost: 4W
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Secure the Scene
 printings:
 - M21:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Zoltan Boros
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"You know it's a great show when the Azorius arrest the props\
+      \ too!\"\r\n<br>&mdash;Judith, the Scourge Diva*"
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Core Set 2021
     number: 35
     rarity: common
-    release_date: 2020-07-03
+    release_date: '2020-07-03'
+    tla: M21
+    variations: []
     wizards_id: 485358
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485358
 rules: Exile target nonland permanent. Its controller creates a 1/1 white Soldier
   creature token.
 slug: secure-the-scene
-tags: card-color-white card-color-white-cost-5 card-type-sorcery
+synonyms: []
 tapped_id: 23125
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Soldier 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Soldier
-  tla: M21
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 18
+    - - cannonical_type
+      - Creature
+    - - name
+      - Soldier 1/1 W
 type: Sorcery
-url: http://tappedout.net/mtg-card/secure-the-scene/
+url: https://tappedout.net/mtg-card/secure-the-scene/
+

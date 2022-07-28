@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: 2XM
 cannonical_type: Artifact
@@ -5,28 +7,31 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-- Zirda, the Dawnwaker
-flat_cost: 3
+cube_average: 4.75
+draft_average: 1.14
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: true
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -34,53 +39,81 @@ keywords:
 - Protection
 - Attach
 mana_cost: '3'
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Sword of War and Peace
 printings:
-- 2XM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 300
-    rarity: mythic_rare
-    release_date: 2020-08-07
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '367'
-    wizards_id: 489973
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489973
-- MPS:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: 'Masterpiece Series: Kaladesh Inventions'
-    number: 51
-    rarity: mythic_rare
-    release_date: 2016-09-30
-    wizards_id: 425822
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425822
 - NPH:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 39731
     mtgo_id: 39730
     name: New Phyrexia
+    number: null
     rarity: mythic_rare
-    release_date: 2011-05-13
+    release_date: '2011-05-13'
+    tla: NPH
+    variations: []
     wizards_id: 214368
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=214368
+- MPS:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Filip Burburan
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Masterpiece Series: Kaladesh Inventions'
+    number: 51
+    rarity: mythic_rare
+    release_date: '2016-09-30'
+    tla: MPS
+    variations: []
+    wizards_id: 425822
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425822
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 300
+    rarity: mythic_rare
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations:
+    - identifier: '367'
+    wizards_id: 489973
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489973
+rarity: mythic_rare
 rules: "Equipped creature gets +2/+2 and has protection from red and from white.\r\
   \n\r\nWhenever equipped creature deals combat damage to a player, Sword of War and\
   \ Peace deals damage to that player equal to the number of cards in their hand and\
@@ -96,7 +129,8 @@ synonyms:
 - Sword of WR
 - Sword of R and W
 - Sword of W and R
-tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
 tapped_id: 13026
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/sword-of-war-and-peace/
+url: https://tappedout.net/mtg-card/sword-of-war-and-peace/
+

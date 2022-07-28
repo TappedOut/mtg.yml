@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C15
 cannonical_type: Artifact
@@ -5,26 +7,30 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 5
+cube_average: 10.0
+draft_average: 2.0
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -32,69 +38,129 @@ keywords:
 - Indestructible
 - Sacrifice
 mana_cost: '5'
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Eldrazi Monument
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: mythic_rare
-    release_date: 2020-03-14
-- SLD:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 603
-    rarity: mythic_rare
-    release_date: 2019-12-09
-- CM1:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology
-    number: 216
-    rarity: mythic_rare
-    release_date: 2017-06-09
-    wizards_id: 430435
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430435
-- C15:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2015
-    number: 253
-    rarity: mythic_rare
-    release_date: 2015-11-13
-    wizards_id: 405213
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405213
 - ZEN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: 'Mark Tedin '
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "\"Gods don't die. They merely slumber.\"\r\n\x97Ayli, Kamsa cleric"
     frame: modern
     mtgo_foil_id: 34701
     mtgo_id: 34700
     name: Zendikar
+    number: null
     rarity: mythic_rare
-    release_date: 2009-10-02
+    release_date: '2009-10-02'
+    tla: ZEN
+    variations: []
     wizards_id: 193398
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=193398
+- C15:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mark Tedin
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Gods don't die. They merely slumber.\"\r\n<br>&mdash;Ayli, Kamsa\
+      \ cleric*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2015
+    number: 253
+    rarity: mythic_rare
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
+    wizards_id: 405213
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405213
+- CM1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Tedin
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '"Gods don''t die. They merely slumber." -Ayli, Kamsa cleric'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology
+    number: 216
+    rarity: mythic_rare
+    release_date: '2017-06-09'
+    tla: CM1
+    variations: []
+    wizards_id: 430435
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430435
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mark Tedin
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '"Gods don''t die. They merely slumber." -Ayli, Kamsa cleric'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: mythic_rare
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- SLD:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Cosmin Podar
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 603
+    rarity: mythic_rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "Creatures you control get +1/+1 and have flying and indestructible.\r\n\r\n\
   At the beginning of your upkeep, sacrifice a creature. If you can't, sacrifice this."
 slug: eldrazi-monument
-tags: card-color-colorless card-color-colorless-cost-5 card-type-artifact
+synonyms: []
 tapped_id: 11710
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/eldrazi-monument/
+url: https://tappedout.net/mtg-card/eldrazi-monument/
+

@@ -1,38 +1,41 @@
 activated_abilities:
 - ': Target opponent loses 1 life for each Spider you control.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: EMN
 cannonical_type: Creature
-color_identity:
-- B
+color_identity: B
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.82
+draft_average: 1.44
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,26 +44,42 @@ keywords:
 - Tokens
 - Delirium
 mana_cost: 4G
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Ishkanah, Grafwidow
 power_toughness: 3/5
 printings:
 - EMN:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - list
+      - The List
+    artist: Christine Choi
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 61259
     mtgo_id: 61258
     name: Eldritch Moon
     number: 162
     rarity: mythic_rare
-    release_date: 2016-07-22
+    release_date: '2016-07-22'
+    tla: EMN
+    variations: []
     wizards_id: 414463
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414463
+rarity: mythic_rare
 rules: "Reach \r\n\r\nDelirium - When Ishkanah, Grafwidow enters the battlefield,\
   \ if there are four or more card types among cards in your graveyard, put three\
   \ 1/2 green Spider creature tokens with reach onto the battlefield. \r\n\r\n[[6]][[B]]:\
@@ -69,18 +88,24 @@ slug: ishkanah-grafwidow
 subtype: Spider
 subtype_tokens:
 - Spider
-tags: card-color-green card-color-green-cost-5 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 17964
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spider 1/2 G
-  power_toughness: 1/2
-  rules: Reach
-  subtype: Spider
-  tla: EMN
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/2
+    - - rules
+      - Reach
+    - - type
+      - Token Creature
+    - - subtype
+      - 68
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spider 1/2 G
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/ishkanah-grafwidow/
+url: https://tappedout.net/mtg-card/ishkanah-grafwidow/
+

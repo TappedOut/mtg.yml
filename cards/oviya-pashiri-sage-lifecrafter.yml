@@ -2,66 +2,85 @@ activated_abilities:
 - ', : Create a 1/1 colorless Servo artifact creature token.'
 - ', : Create an X/X colorless Construct artifact creature token, where X is the number
   of creatures you control.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: KLD
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.82
+draft_average: 1.85
 effective_cost:
 - G
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: G
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Oviya Pashiri, Sage Lifecrafter
 power_toughness: 1/2
 printings:
 - KLD:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Magali Villeneuve
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: 'Inspiration is reciprocal: we all have a responsibility to each
+      other to create.'
     frame: m15
     mtgo_foil_id: 62022
     mtgo_id: 62021
     name: Kaladesh
     number: 165
     rarity: rare
-    release_date: 2016-09-30
+    release_date: '2016-09-30'
+    tla: KLD
+    variations: []
     wizards_id: 417738
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417738
+rarity: rare
 rules: "[[2]][[G]], [[symbol:T]]: Create a 1/1 colorless Servo artifact creature token.\r\
   \n\r\n[[4]][[G]], [[symbol:T]]: Create an X/X colorless Construct artifact creature\
   \ token, where X is the number of creatures you control."
@@ -70,28 +89,39 @@ subtype: Human Artificer
 subtype_tokens:
 - Human
 - Artificer
-tags: card-color-green card-color-green-cost-1 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 18333
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Servo 1/1 C
-  power_toughness: 1/1
-  rules: ''
-  subtype: Servo
-  tla: KLD
-  type: Token Artifact Creature
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Construct X/X C
-  power_toughness: X/X
-  rules: ''
-  subtype: Construct
-  tla: KLD
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 1175
+    - - cannonical_type
+      - Creature
+    - - name
+      - Servo 1/1 C
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - X/X
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 72
+    - - cannonical_type
+      - Creature
+    - - name
+      - Construct X/X C
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/oviya-pashiri-sage-lifecrafter/
+url: https://tappedout.net/mtg-card/oviya-pashiri-sage-lifecrafter/
+

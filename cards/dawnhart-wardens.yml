@@ -1,9 +1,12 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MID
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -11,69 +14,93 @@ companions:
 effective_cost:
 - W
 - G
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
 - Vigilance
 - Coven
 mana_cost: 1GW
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Dawnhart Wardens
 power_toughness: 3/3
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 216
-    rarity: uncommon
-    release_date: 2022-01-21
 - MID:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Joshua Raphael
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"The balance of day and night is shattered. We must find the Moonsilver
+      Key."*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Midnight Hunt'
     number: 216
     rarity: uncommon
-    release_date: 2021-09-24
+    release_date: '2021-09-24'
+    tla: MID
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '308'
+    - identifier: '308'
     wizards_id: 535008
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=535008
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Joshua Raphael
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"The balance of day and night is shattered. We must find the Moonsilver
+      Key."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 216
+    rarity: uncommon
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Vigilance\r\n\r\n*Coven* &mdash; At the beginning of combat on your turn,\
   \ if you control three or more creatures with different powers, creatures you control\
   \ get +1/+0 until end of turn."
@@ -82,7 +109,9 @@ subtype: Human Warlock
 subtype_tokens:
 - Human
 - Warlock
-tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-white card-type-creature
+synonyms: []
 tapped_id: 25096
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/dawnhart-wardens/
+url: https://tappedout.net/mtg-card/dawnhart-wardens/
+

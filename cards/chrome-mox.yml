@@ -1,5 +1,6 @@
 activated_abilities:
 - ': Gain one mana of any of the exiled card''s colours.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: 2XM
 cannonical_type: Artifact
@@ -12,21 +13,25 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 4.83
+draft_average: 2.26
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
+- Block Constructed
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -34,84 +39,134 @@ keywords:
 - Exile
 - Imprint
 mana_cost: '0'
-mana_cost_converted: 0
 mana_produced: W, U, B, R, G
+mana_value: 0
+melds_from: []
 name: Chrome Mox
 printings:
-- 2XM:
+- MRD:
     alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 240
-    rarity: mythic_rare
-    release_date: 2020-08-07
-    variations:
-    - alterations:
-      - Foil
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: '358'
-    wizards_id: 489913
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489913
-- MPS:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Donato Giancola
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 19832
+    mtgo_id: 19831
+    name: Mirrodin
+    number: null
+    rarity: rare
+    release_date: '2003-10-02'
+    tla: MRD
+    variations: []
+    wizards_id: 47446
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=47446
+- '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Alan Pollack
+    booster_exclude: false
     border_color: B
     cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: 'Masterpiece Series: Kaladesh Inventions'
-    number: 9
-    rarity: mythic_rare
-    release_date: 2016-09-30
-    wizards_id: 420596
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420596
+    flavour_text: null
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Promo Set
+    number: 3
+    rarity: rare
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
 - EMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Volkan Baga
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 60966
     mtgo_id: 60965
     name: Eternal Masters
     number: 219
     rarity: mythic_rare
-    release_date: 2016-06-10
+    release_date: '2016-06-10'
+    tla: EMA
+    variations: []
     wizards_id: 413761
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413761
-- MRD:
+- MPS:
     alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 19832
-    mtgo_id: 19831
-    name: Mirrodin
-    rarity: rare
-    release_date: 2003-10-02
-    wizards_id: 47446
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=47446
-- '000':
-    alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kieran Yanner
+    booster_exclude: false
     border_color: B
     cannonical: false
-    frame: original
-    name: Promo Set
-    number: 3
-    rarity: rare
-    release_date: 1990-04-15
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Masterpiece Series: Kaladesh Inventions'
+    number: 9
+    rarity: mythic_rare
+    release_date: '2016-09-30'
+    tla: MPS
+    variations: []
+    wizards_id: 420596
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420596
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Volkan Baga
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 240
+    rarity: mythic_rare
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations:
+    - identifier: '358'
+    wizards_id: 489913
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489913
+rarity: rare
 rules: "*Imprint* &mdash; When Chrome Mox enters the battlefield, you may exile a\
   \ nonartifact, nonland card from your hand.\r\n\r\n[[symbol:T]]: Gain one mana of\
   \ any of the exiled card's colours."
 slug: chrome-mox
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-blue
-  card-mana-green card-mana-red card-mana-white card-type-artifact
+synonyms: []
 tapped_id: 3270
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/chrome-mox/
+url: https://tappedout.net/mtg-card/chrome-mox/
+

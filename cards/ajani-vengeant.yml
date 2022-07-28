@@ -2,36 +2,41 @@ activated_abilities:
 - ': Target permanent doesn''t untap during its controller''s next untap step.'
 - ': Ajani Vengeant deals 3 damage to target creature or player and you gain 3 life.'
 - ': Destroy all lands target player controls.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DDH
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.7
+draft_average: 1.5
 effective_cost:
 - W
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -39,48 +44,78 @@ keywords:
 - Tap/Untap
 - Counters
 mana_cost: 2WR
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Ajani Vengeant
+planeswalker_loyalty: 3
 printings:
-- DDH:
-    alterations:
-    - Foil
-    border_color: B
-    foil: foil
-    foil_only: true
-    frame: modern
-    mtgo_foil_id: 42175
-    mtgo_id: 42174
-    name: 'Duel Decks: Ajani vs. Nicol Bolas'
-    number: 1
-    rarity: mythic_rare
-    release_date: 2011-09-02
-    wizards_id: 266299
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=266299
 - ALA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Wayne Reynolds
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 30924
     mtgo_id: 30923
     name: Shards of Alara
     number: 154
     rarity: mythic_rare
-    release_date: 2008-10-03
+    release_date: '2008-10-03'
+    tla: ALA
+    variations: []
     wizards_id: 174852
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=174852
+- DDH:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Wayne Reynolds
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 42175
+    mtgo_id: 42174
+    name: 'Duel Decks: Ajani vs. Nicol Bolas'
+    number: 1
+    rarity: mythic_rare
+    release_date: '2011-09-02'
+    tla: DDH
+    variations: []
+    wizards_id: 266299
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=266299
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Chan
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 38
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Target permanent doesn't untap during its controller's\
   \ next untap step.\r\n\r\n[[symbol:loyalty-minus2]]: Ajani Vengeant deals 3 damage\
   \ to target creature or player and you gain 3 life.\r\n\r\n[[symbol:loyalty-minus7]]:\
@@ -92,7 +127,8 @@ subtype_tokens:
 synonyms:
 - Ajani Vengant
 - Ajani Vengent
-tags: card-color-gold card-color-gold-cost-4 card-color-red card-color-white card-type-planeswalker
 tapped_id: 9943
+tokens: []
 type: Planeswalker
-url: http://tappedout.net/mtg-card/ajani-vengeant/
+url: https://tappedout.net/mtg-card/ajani-vengeant/
+

@@ -3,7 +3,7 @@ activated_abilities:
 - ', : Put a storage counter on Saltcrusted Steppe.'
 - ', Remove X storage counters from Saltcrusted Steppe: Gain X mana in any combination
   of  and/or .'
-activation_costs:
+activated_costs:
 - C
 - G
 - W
@@ -21,99 +21,160 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 9.6
+draft_average: 9.12
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
-mana_cost_converted: 0
 mana_produced: G, W, C
+mana_value: 0
+melds_from: []
 name: Saltcrusted Steppe
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 283
-    rarity: uncommon
-    release_date: 2021-03-19
-    wizards_id: 509648
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509648
-- C17:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2017
-    number: 273
-    rarity: uncommon
-    release_date: 2017-08-25
-    wizards_id: 433205
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433205
-- CM1:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology
-    rarity: uncommon
-    release_date: 2017-06-09
-- C13:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 51509
-    mtgo_id: 51508
-    name: Commander 2013
-    rarity: uncommon
-    release_date: 2013-11-01
-    wizards_id: 376479
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376479
 - TSP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Greg Staples
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 25426
     mtgo_id: 25425
     name: Time Spiral
+    number: null
     rarity: uncommon
-    release_date: 2006-10-06
+    release_date: '2006-10-06'
+    tla: TSP
+    variations: []
     wizards_id: 108839
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=108839
+- C13:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Greg Staples
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 51509
+    mtgo_id: 51508
+    name: Commander 2013
+    number: null
+    rarity: uncommon
+    release_date: '2013-11-01'
+    tla: C13
+    variations: []
+    wizards_id: 376479
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376479
+- C17:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: null
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2017
+    number: 273
+    rarity: uncommon
+    release_date: '2017-08-25'
+    tla: C17
+    variations: []
+    wizards_id: 433205
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433205
+- CM1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Greg Staples
+    booster_exclude: true
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology
+    number: null
+    rarity: uncommon
+    release_date: '2017-06-09'
+    tla: CM1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Greg Staples
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 283
+    rarity: uncommon
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509648
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509648
+rarity: uncommon
 rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:1]], [[symbol:T]]: Put a\
   \ storage counter on Saltcrusted Steppe.\r\n\r\n[[symbol:1]], Remove X storage counters\
   \ from Saltcrusted Steppe: Gain X mana in any combination of [[symbol:G]] and/or\
   \ [[symbol:W]]."
 slug: saltcrusted-steppe
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-mana-green
-  card-mana-white card-type-land
+synonyms: []
 tapped_id: 1160
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/saltcrusted-steppe/
+url: https://tappedout.net/mtg-card/saltcrusted-steppe/
+

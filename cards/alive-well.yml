@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DGM
 cannonical_type: Sorcery
@@ -11,45 +13,62 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 11.76
+draft_average: 5.58
 effective_cost:
 - W
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Fuse
 - Tokens
 mana_cost: 3G // W
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Alive / Well
 printings:
 - DGM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Nils Hamm
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Dragon's Maze
     number: 121
     rarity: uncommon
-    release_date: 2013-05-03
+    release_date: '2013-05-03'
+    tla: DGM
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: uncommon
 rules: "<h4>Alive:</h4>\r\n\r\nCreate a 3/3 green Centaur creature token.\r\n\r\n\
   -----\r\n\r\n<h4>Well:</h4>\r\n\r\nYou gain 2 life for each creature you control.\r\
   \n\r\n-----\r\n\r\nFuse *(You may cast one or both halves of this card from your\
@@ -64,18 +83,23 @@ synonyms:
 - Alive/Well
 - Well and Alive
 - Well/Alive
-tags: card-color-gold card-color-gold-cost-5 card-color-green card-color-white card-type-sorcery
 tapped_id: 14639
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Centaur 3/3 G
-  power_toughness: 3/3
-  rules: ''
-  subtype: Centaur
-  tla: MIC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 3/3
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 154
+    - - cannonical_type
+      - Creature
+    - - name
+      - Centaur 3/3 G
 type: Sorcery
-url: http://tappedout.net/mtg-card/alive-well/
+url: https://tappedout.net/mtg-card/alive-well/
+

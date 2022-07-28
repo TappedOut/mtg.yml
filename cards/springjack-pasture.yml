@@ -3,7 +3,7 @@ activated_abilities:
 - ', : Put a 0/1 white Goat creature token into play.'
 - ', Sacrifice X Goats: Add X mana of any one color to your mana pool. You gain X
   life.'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: C13
@@ -19,76 +19,107 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 9.57
+draft_average: 6.5
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
-mana_cost_converted: 0
+mana_cost: ''
 mana_produced: u/b/g/r/w/c
+mana_value: 0
+melds_from: []
 name: Springjack Pasture
 power_toughness: '0'
 printings:
+- EVE:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Terese Nielsen
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 30225
+    mtgo_id: 30224
+    name: Eventide
+    number: null
+    rarity: rare
+    release_date: '2008-07-25'
+    tla: EVE
+    variations: []
+    wizards_id: 157976
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=157976
 - C13:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Terese Nielsen
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 50919
     mtgo_id: 50918
     name: Commander 2013
     number: 326
     rarity: rare
-    release_date: 2013-11-01
+    release_date: '2013-11-01'
+    tla: C13
+    variations: []
     wizards_id: 376518
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376518
-- EVE:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 30225
-    mtgo_id: 30224
-    name: Eventide
-    rarity: rare
-    release_date: 2008-07-25
-    wizards_id: 157976
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=157976
+rarity: rare
 rules: "[[T]]: Add [[C]] to your mana pool.\r\n\r\n[[4]], [[T]]: Put a 0/1 white Goat\
   \ creature token into play.\r\n\r\n[[T]], Sacrifice X Goats: Add X mana of any one\
   \ color to your mana pool. You gain X life."
 slug: springjack-pasture
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-blue
-  card-mana-colorless-sym card-mana-green card-mana-red card-mana-white card-type-land
+synonyms: []
 tapped_id: 9910
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goat 0/1 W
-  power_toughness: 0/1
-  rules: ''
-  subtype: Goat
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 0/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 565
+    - - cannonical_type
+      - Creature
+    - - name
+      - Goat 0/1 W
 type: Land
-url: http://tappedout.net/mtg-card/springjack-pasture/
+url: https://tappedout.net/mtg-card/springjack-pasture/
+

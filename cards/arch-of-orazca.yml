@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Add .'
 - ', : Draw a card. Activate this ability only if you have the city''s blessing.'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: RIX
@@ -17,95 +17,135 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 10.06
+effective_cost: []
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Ascend
-mana_cost_converted: 0
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Arch of Orazca
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: original
-    name: Time Spiral Remastered
-    number: 404
-    rarity: special
-    release_date: 2021-03-19
-    wizards_id: 512370
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512370
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: basic_land
-    release_date: 2020-03-14
 - RIX:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Titus Lunter
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 66838
     mtgo_id: 66837
     name: Rivals of Ixalan
     number: 185
     rarity: rare
-    release_date: 2018-01-19
+    release_date: '2018-01-19'
+    tla: RIX
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 439849
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439849
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Titus Lunter
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: basic_land
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Titus Lunter
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 404
+    rarity: special
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 512370
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512370
 rules: "Ascend *(If you control ten or more permanents, you get the city's blessing\
   \ for the rest of the game.)*\r\n\r\n[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:5]],\
   \ [[symbol:T]]: Draw a card. Activate this ability only if you have the city's blessing."
 slug: arch-of-orazca
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
+synonyms: []
 tapped_id: 19975
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: City's Blessing
-  power_toughness: null
-  rules: ''
-  tla: RIX
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - City's Blessing
 type: Land
-url: http://tappedout.net/mtg-card/arch-of-orazca/
+url: https://tappedout.net/mtg-card/arch-of-orazca/
+

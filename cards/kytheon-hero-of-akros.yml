@@ -1,38 +1,42 @@
 activated_abilities:
 - ': Kytheon gains indestructible until end of turn.'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: ORI
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.67
+draft_average: 1.33
 effective_cost:
 - W
-flat_cost: 1
 flip: Gideon, Battle-Forged
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_front: true
 is_mtgo: true
@@ -42,49 +46,81 @@ keywords:
 - Exile
 - Transform
 mana_cost: W
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Kytheon, Hero of Akros
 power_toughness: 2/1
 printings:
-- V17:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: 'From the Vault: Transform'
-    number: 13
-    rarity: mythic_rare
-    release_date: 2017-11-24
-    wizards_id: 439337
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439337
 - ORI:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: William Murai
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 57877
     mtgo_id: 57876
     name: Magic Origins
     number: 23
     rarity: mythic_rare
-    release_date: 2015-06-17
+    release_date: '2015-06-17'
+    tla: ORI
+    variations: []
     wizards_id: 398428
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398428
-- '000':
+- V17:
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Willian Murai
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'From the Vault: Transform'
+    number: 13
+    rarity: mythic_rare
+    release_date: '2017-11-24'
+    tla: V17
+    variations: []
+    wizards_id: 439337
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439337
+- '000':
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Wayne Reynolds
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "At the end of combat, if Kytheon, Hero of Akros and at least two other creatures\
   \ attacked this combat, exile Kytheon, then return him to the battlefield transformed\
   \ under his owners control.\r\n\r\n[[symbol:2]][[symbol:W]]: Kytheon gains indestructible\
@@ -97,7 +133,8 @@ subtype_tokens:
 synonyms:
 - Baby Gideon
 - Baby Gids
-tags: card-color-white card-color-white-cost-1 card-type-creature card-type-legendary
 tapped_id: 16855
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/kytheon-hero-of-akros/
+url: https://tappedout.net/mtg-card/kytheon-hero-of-akros/
+

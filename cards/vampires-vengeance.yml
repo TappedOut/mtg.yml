@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Instant
@@ -13,87 +15,115 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
-is_permanent: false
 keywords:
 - Sacrifice
 - Tokens
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Vampires' Vengeance
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 447
-    rarity: uncommon
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Cold
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Olivia was quick to make an example of any village that refused
+      to pay her blood tithe.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 180
     rarity: uncommon
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '339'
+    - identifier: '339'
     wizards_id: 541038
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=541038
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Cold
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Olivia was quick to make an example of any village that refused
+      to pay her blood tithe.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 447
+    rarity: uncommon
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: 'This deals 2 damage to each non-Vampire creature. Create a Blood token. *(It''s
   an artifact with "[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact:
   Draw a card.")*'
 slug: vampires-vengeance
 synonyms:
 - Mysterious Blood Illness
-tags: card-color-red card-color-red-cost-3 card-type-instant
 tapped_id: 25482
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Blood
-  power_toughness: null
-  rules: '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
-    a card.'
-  subtype: Blood
-  tla: VOW
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
+        a card.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1692
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Blood
 type: Instant
-url: http://tappedout.net/mtg-card/vampires-vengeance/
+url: https://tappedout.net/mtg-card/vampires-vengeance/
+

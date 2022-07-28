@@ -2,7 +2,7 @@ activated_abilities:
 - ': Exile the top card of each player''s library.'
 - ': Exile target artifact or creature.'
 - ': Exile all cards from all graveyards. Gain .'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: KHM
@@ -11,6 +11,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -19,62 +20,76 @@ companions:
 effective_cost:
 - B
 - R
-flat_cost: 7
+flip: Valki, God of Lies
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
 mana_cost: 5BR
-mana_cost_converted: 7
 mana_produced: RRR
+mana_value: 7
+melds_from: []
 name: Tibalt, Cosmic Impostor
+planeswalker_loyalty: 5
 printings:
 - KHM:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    booster_exclude: true
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Yongjae Choi
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Kaldheim
     number: 114
     rarity: mythic_rare
-    release_date: 2021-02-05
+    release_date: '2021-02-05'
+    tla: KHM
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '286'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '308'
+    - identifier: '286'
+    - identifier: '308'
     wizards_id: 503725
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503725
 rules: "As Tibalt enters the battlefield, you get an emblem with \"You may play cards\
@@ -87,20 +102,25 @@ slug: tibalt-cosmic-impostor
 subtype: Tibalt
 subtype_tokens:
 - Tibalt
-tags: card-color-black card-color-gold card-color-gold-cost-7 card-color-red card-mana-red
-  card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 23713
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Tibalt, Cosmic Impostor
-  power_toughness: null
-  rules: You may play cards exiled with Tibalt, Cosmic Impostor, and you may spend
-    mana as though it were mana of any colour to cast those spells.
-  subtype: Tibalt
-  tla: KHM
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - You may play cards exiled with Tibalt, Cosmic Impostor, and you may spend
+        mana as though it were mana of any colour to cast those spells.
+    - - type
+      - Emblem
+    - - subtype
+      - 959
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Tibalt, Cosmic Impostor
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/tibalt-cosmic-impostor/
+url: https://tappedout.net/mtg-card/tibalt-cosmic-impostor/
+

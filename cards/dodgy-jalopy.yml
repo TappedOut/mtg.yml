@@ -3,7 +3,7 @@ activated_abilities:
   vehicle becomes an artifact creature until end of turn.)*'
 - 'Scavenge  *(, Exile this card from your graveyard: Put a number of +1/+1 counters
   equal to this card''s power on target creature. Scavenge only as a sorcery.)*'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: NCC
@@ -12,6 +12,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -19,21 +20,22 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
-- Penny Dreadful
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Penny Dreadful
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,23 +47,33 @@ keywords:
 - Counters
 - Crew
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Dodgy Jalopy
 power_toughness: '*/5'
 printings:
 - NCC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Sean Murray
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Streets of New Capenna: Commander'
     number: 58
     rarity: rare
-    release_date: 2022-04-30
+    release_date: '2022-04-30'
+    tla: NCC
     variations:
-    - alterations:
-      - Normal
-      identifier: '158'
+    - identifier: '158'
+    wizards_id: null
+    wizards_url: null
 rules: "Trample\r\n\r\nThis creature's power is equal to the highest converted mana\
   \ cost/mana value among creatures you control.\r\n\r\nCrew 3 *(Tap any number of\
   \ creatures you control with total power 3 or more: This vehicle becomes an artifact\
@@ -72,7 +84,9 @@ slug: dodgy-jalopy
 subtype: Vehicle
 subtype_tokens:
 - Vehicle
-tags: card-color-green card-color-green-cost-3 card-type-artifact
+synonyms: []
 tapped_id: 26437
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/dodgy-jalopy/
+url: https://tappedout.net/mtg-card/dodgy-jalopy/
+

@@ -1,75 +1,98 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ROE
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.0
+draft_average: 6.48
 effective_cost:
 - R
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Sacrifice
 mana_cost: 1R
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Brood Birthing
+power_toughness: ''
 printings:
 - ROE:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Anthony Francisco
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 36631
     mtgo_id: 36630
     name: Rise of the Eldrazi
     number: 138
     rarity: common
-    release_date: 2010-04-23
+    release_date: '2010-04-23'
+    tla: ROE
+    variations: []
     wizards_id: 193633
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=193633
+rarity: common
 rules: 'If you control an Eldrazi Spawn, put three 0/1 colorless Eldrazi Spawn creature
   tokens onto the battlefield. They have "Sacrifice this creature: Add {{1}} to your
   mana pool." Otherwise, put one of those tokens onto the battlefield.'
 slug: brood-birthing
-tags: card-color-red card-color-red-cost-2 card-type-sorcery
+synonyms: []
 tapped_id: 12216
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Eldrazi Spawn 0/1 C
-  power_toughness: 0/1
-  rules: 'Sacrifice this: Add [[symbol:C]].'
-  subtype: Eldrazi Spawn
-  tla: ROE
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 0/1
+    - - rules
+      - 'Sacrifice this: Add [[symbol:C]].'
+    - - type
+      - Token Creature
+    - - subtype
+      - 894
+    - - cannonical_type
+      - Creature
+    - - name
+      - Eldrazi Spawn 0/1 C
 type: Sorcery
-url: http://tappedout.net/mtg-card/brood-birthing/
+url: https://tappedout.net/mtg-card/brood-birthing/
+

@@ -1,36 +1,40 @@
 activated_abilities:
 - ': Regenerate another target Elf.'
 - ': Elf creatures you control get +3/+3 and gain trample until end of turn.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: DDU
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.96
+draft_average: 5.6
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -38,64 +42,106 @@ keywords:
 - Trample
 - Regenerate
 mana_cost: 1GG
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Ezuri, Renegade Leader
 power_toughness: 2/2
 printings:
-- DDU:
-    alterations:
-    - Foil
-    border_color: B
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: 'Duel Decks: Elves vs. Inventors'
-    number: 1
-    rarity: mythic_rare
-    release_date: 2018-04-06
-    wizards_id: 442737
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442737
-- CM1:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology
-    number: 108
-    rarity: rare
-    release_date: 2017-06-09
-    wizards_id: 430327
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430327
-- C14:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 54876
-    mtgo_id: 54875
-    name: Commander 2014
-    number: 195
-    rarity: rare
-    release_date: 2014-11-21
-    wizards_id: 389511
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389511
 - SOM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Karl Kopinski
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: The infamous Ezuri commands the highest bounty the vedalken have
+      ever placed upon an outlaw.
     frame: modern
     mtgo_foil_id: 38046
     mtgo_id: 38045
     name: Scars of Mirrodin
     number: 119
     rarity: rare
-    release_date: 2010-10-01
+    release_date: '2010-10-01'
+    tla: SOM
+    variations: []
     wizards_id: 194243
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=194243
+- C14:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Karl Kopenski
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*The infamous Ezuri commands the highest bounty the vedalken have
+      ever placed upon an outlaw.*'
+    frame: m15
+    mtgo_foil_id: 54876
+    mtgo_id: 54875
+    name: Commander 2014
+    number: 195
+    rarity: rare
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
+    wizards_id: 389511
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389511
+- CM1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Karl Kopinski
+    booster_exclude: true
+    border_color: B
+    cannonical: false
+    flavour_text: The infamous Ezuri commands the highest bounty the vedalken have
+      ever placed upon an outlaw.
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology
+    number: 108
+    rarity: rare
+    release_date: '2017-06-09'
+    tla: CM1
+    variations: []
+    wizards_id: 430327
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430327
+- DDU:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Victor Adame Minguez
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Great hero or grand betrayer? The truth of Ezuri''s legacy is
+      clouded by the fog of legend.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Elves vs. Inventors'
+    number: 1
+    rarity: mythic_rare
+    release_date: '2018-04-06'
+    tla: DDU
+    variations: []
+    wizards_id: 442737
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442737
+rarity: rare
 rules: "[[symbol:G]]: Regenerate another target Elf.\r\n\r\n[[symbol:2]][[symbol:G]][[symbol:G]][[symbol:G]]:\
   \ Elf creatures you control get +3/+3 and gain trample until end of turn."
 slug: ezuri-renegade-leader
@@ -103,7 +149,9 @@ subtype: Elf Warrior
 subtype_tokens:
 - Elf
 - Warrior
-tags: card-color-green card-color-green-cost-3 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 12488
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/ezuri-renegade-leader/
+url: https://tappedout.net/mtg-card/ezuri-renegade-leader/
+

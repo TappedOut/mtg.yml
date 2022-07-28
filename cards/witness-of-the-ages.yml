@@ -1,72 +1,98 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: KTK
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 6
+cube_average: 5.67
+draft_average: 8.14
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
 - Morph
 mana_cost: '6'
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Witness of the Ages
 power_toughness: 4/4
 printings:
 - KTK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Izzy
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*It strode through the clash of the dragons, the fall of Ugin,
+      and the rise of the khans.*'
     frame: m15
     mtgo_foil_id: 54155
     mtgo_id: 54154
     name: Khans of Tarkir
     number: 228
     rarity: uncommon
-    release_date: 2014-09-26
+    release_date: '2014-09-26'
+    tla: KTK
+    variations: []
     wizards_id: 386728
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386728
+rarity: uncommon
 rules: Morph {5} *(You may cast this card face down as a 2/2 creature for {3}. Turn
   it face up any time for its morph cost.)*
 slug: witness-of-the-ages
 subtype: Golem
 subtype_tokens:
 - Golem
-tags: card-color-colorless card-color-colorless-cost-6 card-type-artifact card-type-creature
+synonyms: []
 tapped_id: 15868
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Morph 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  tla: KTK
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+        \ with morph can be turned face up at any time for its morph cost.*"
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Morph 2/2 C
 type: Artifact Creature
-url: http://tappedout.net/mtg-card/witness-of-the-ages/
+url: https://tappedout.net/mtg-card/witness-of-the-ages/
+

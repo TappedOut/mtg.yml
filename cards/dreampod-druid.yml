@@ -1,76 +1,115 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: PC2
 cannonical_type: Creature
+color_identity: ''
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 9.6
 effective_cost:
 - G
-flat_cost: 2
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Enchant
 mana_cost: 1G
-mana_cost_converted: 2
+mana_produced: ''
+mana_value: 2
+melds_from: []
 name: Dreampod Druid
 power_toughness: 2/2
 printings:
-- PCA:
+- PC2:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Wayne Reynolds
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    name: Planechase Anthology
-    number: 64
+    cannonical: true
+    flavour_text: '"Don''t mistake my creations for mere vegetation. They are my children,
+      loyal and fierce.'
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 45086
+    name: Planechase 2012 Edition
+    number: null
     rarity: uncommon
-    release_date: 2016-11-25
-    wizards_id: 423489
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423489
+    release_date: '2012-06-01'
+    tla: PC2
+    variations: []
+    wizards_id: 270742
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=270742
 - VMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Wayne Reynolds
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*"Don''t mistake my creations for mere vegetation. They are my
+      children, loyal and fierce."*'
     frame: modern
     mtgo_foil_id: 53018
     mtgo_id: 53017
     name: Vintage Masters
+    number: null
     rarity: uncommon
-    release_date: 2014-06-16
+    release_date: '2014-06-16'
+    tla: VMA
+    variations: []
     wizards_id: 382919
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382919
-- PC2:
+- PCA:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: null
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_id: 45086
-    name: Planechase 2012 Edition
-    rarity: uncommon
-    release_date: 2012-06-01
-    wizards_id: 270742
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=270742
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Planechase Anthology
+    number: 64
+    rarity: null
+    release_date: '2016-11-25'
+    tla: PCA
+    variations: []
+    wizards_id: 423489
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423489
+rarity: uncommon
 rules: At the beginning of each upkeep, if Dreampod Druid is enchanted, put a 1/1
   green Saproling creature token onto the battlefield.
 slug: dreampod-druid
@@ -78,18 +117,24 @@ subtype: Human Druid
 subtype_tokens:
 - Human
 - Druid
-tags: card-color-green card-color-green-cost-2 card-type-creature
+synonyms: []
 tapped_id: 13880
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Saproling 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Saproling
-  tla: 2X2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 893
+    - - cannonical_type
+      - Creature
+    - - name
+      - Saproling 1/1 G
 type: Creature
-url: http://tappedout.net/mtg-card/dreampod-druid/
+url: https://tappedout.net/mtg-card/dreampod-druid/
+

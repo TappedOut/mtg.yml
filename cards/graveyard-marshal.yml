@@ -1,40 +1,44 @@
 activated_abilities:
 - ', Exile a creature card from your graveyard: Create a tapped 2/2 black Zombie creature
   token.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: M19
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.79
+draft_average: 4.64
 effective_cost:
 - B
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,25 +46,43 @@ keywords:
 - Exile
 - Tokens
 mana_cost: BB
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Graveyard Marshal
 power_toughness: 3/2
 printings:
 - M19:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Mark Behm
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "\"Time to wake up my dears. There's much to do.\"\r\n\r\n\u2014\
+      Isareth the Awakener"
     frame: m15
     mtgo_foil_id: 68360
     mtgo_id: 68359
     name: Core Set 2019
     number: 99
     rarity: rare
-    release_date: 2018-07-13
+    release_date: '2018-07-13'
+    tla: M19
+    variations: []
     wizards_id: 447235
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447235
 rules: '[[symbol:2]][[symbol:B]], Exile a creature card from your graveyard: Create
@@ -70,18 +92,24 @@ subtype: Zombie Soldier
 subtype_tokens:
 - Zombie
 - Soldier
-tags: card-color-black card-color-black-cost-2 card-type-creature
+synonyms: []
 tapped_id: 20593
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: M19
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Creature
-url: http://tappedout.net/mtg-card/graveyard-marshal/
+url: https://tappedout.net/mtg-card/graveyard-marshal/
+

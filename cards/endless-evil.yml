@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Enchantment
@@ -5,31 +7,32 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - U
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -37,23 +40,30 @@ keywords:
 - Attach
 - Tokens
 mana_cost: 2U
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Endless Evil
 printings:
 - CLB:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Diego Gisbert
     booster_exclude: true
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 665
     rarity: rare
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
     variations:
-    - alterations:
-      - Normal
-      identifier: '615'
+    - identifier: '615'
     wizards_id: 567230
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567230
 rules: "Enchant creature you control\r\n\r\nAt the beginning of your upkeep, create\
@@ -65,17 +75,24 @@ slug: endless-evil
 subtype: Aura
 subtype_tokens:
 - Aura
-tags: card-color-blue card-color-blue-cost-3 card-type-enchantment
+synonyms: []
 tapped_id: 26794
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Enchantment
-url: http://tappedout.net/mtg-card/endless-evil/
+url: https://tappedout.net/mtg-card/endless-evil/
+

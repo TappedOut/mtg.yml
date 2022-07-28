@@ -1,8 +1,9 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NEO
 cannonical_type: Creature
-color_identity:
-- B
+color_identity: B
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -10,56 +11,70 @@ companions:
 - Lutri, the Spellchaser
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 0
+effective_cost: []
+flip: Tribute to Horobi
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
 - Haste
 - Sacrifice
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Echo of Death's Wail
 power_toughness: 3/3
 printings:
 - NEO:
     alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Robin Olausson
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
     number: 124
     rarity: rare
-    release_date: 2022-02-10
+    release_date: '2022-02-10'
+    tla: NEO
     variations:
     - identifier: '356'
     - identifier: '462'
+    wizards_id: null
+    wizards_url: null
 rules: "Flying, haste\r\n\r\nWhen this enters the battlefield, gain control of all\
   \ Rat tokens.\r\n\r\nWhenever this attacks, you may sacrifice another creature.\
   \ If you do, draw a card."
@@ -67,18 +82,24 @@ slug: echo-of-deaths-wail
 subtype: Spirit
 subtype_tokens:
 - Spirit
-tags: card-color-colorless card-color-colorless-cost-0 card-type-creature card-type-enchantment
+synonyms: []
 tapped_id: 25830
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Rat Rogue 1/1 B
-  power_toughness: 1/1
-  rules: ''
-  subtype: Rat Rogue
-  tla: NEO
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 537
+    - - cannonical_type
+      - Creature
+    - - name
+      - Rat Rogue 1/1 B
 type: Enchantment Creature
-url: http://tappedout.net/mtg-card/echo-of-deaths-wail/
+url: https://tappedout.net/mtg-card/echo-of-deaths-wail/
+

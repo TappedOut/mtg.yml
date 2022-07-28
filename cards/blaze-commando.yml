@@ -1,54 +1,75 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DGM
 cannonical_type: Creature
+color_identity: ''
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 8.28
+draft_average: 5.38
 effective_cost:
 - W
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 3RW
-mana_cost_converted: 5
+mana_produced: ''
+mana_value: 5
+melds_from: []
 name: Blaze Commando
 power_toughness: 5/3
 printings:
 - DGM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: ' James Ryman'
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: A true Boros commando only calls for reinforcements so they can
+      clean up the mess.
     frame: modern
     mtgo_foil_id: 48441
     mtgo_id: 48440
     name: Dragon's Maze
     number: 56
     rarity: uncommon
-    release_date: 2013-05-03
+    release_date: '2013-05-03'
+    tla: DGM
+    variations: []
     wizards_id: 369047
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=369047
+rarity: uncommon
 rules: Whenever an instant or sorcery spell you control deals damage, put two 1/1
   red and white Soldier creature tokens with haste onto the battlefield.
 slug: blaze-commando
@@ -56,18 +77,24 @@ subtype: Minotaur Soldier
 subtype_tokens:
 - Minotaur
 - Soldier
-tags: card-color-gold card-color-gold-cost-5 card-color-red card-color-white card-type-creature
+synonyms: []
 tapped_id: 14577
 tokens:
-- cannonical_type: Creature
-  colors: RW
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Soldier 1/1 RW
-  power_toughness: 1/1
-  rules: ''
-  subtype: Soldier
-  tla: GK1
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - RW
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 18
+    - - cannonical_type
+      - Creature
+    - - name
+      - Soldier 1/1 RW
 type: Creature
-url: http://tappedout.net/mtg-card/blaze-commando/
+url: https://tappedout.net/mtg-card/blaze-commando/
+

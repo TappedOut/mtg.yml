@@ -1,36 +1,40 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: THB
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 8.58
+draft_average: 2.35
 effective_cost:
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -38,58 +42,88 @@ keywords:
 - Counters
 - Escape
 mana_cost: 3RR
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Ox of Agonas
 power_toughness: 4/2
 printings:
-- NEC:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Kamigawa: Neon Dynasty Commander'
-    number: 108
-    rarity: mythic_rare
-    release_date: 2022-02-11
-    wizards_id: 554191
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554191
 - THB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Lie Setiawan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 79419
     mtgo_id: 79418
     name: Theros Beyond Death
     number: 147
     rarity: mythic_rare
-    release_date: 2020-01-24
+    release_date: '2020-01-24'
+    tla: THB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '318'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '318'
+    - identifier: PromoPack
     wizards_id: 476398
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476398
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lie Setiawan
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- NEC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Lie Setiawan
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kamigawa: Neon Dynasty Commander'
+    number: 108
+    rarity: mythic_rare
+    release_date: '2022-02-11'
+    tla: NEC
+    variations: []
+    wizards_id: 554191
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554191
 rules: "When CARDNAME enters the battlefield, discard your hand, then draw three cards.\r\
   \n\r\nEscape\u2014[[symbol:R]][[symbol:R]], Exile eight other cards from your graveyard.\
   \ *(You may cast this card from your graveyard for CARDNAME's escape cost.)*\r\n\
@@ -98,7 +132,9 @@ slug: ox-of-agonas
 subtype: Ox
 subtype_tokens:
 - Ox
-tags: card-color-red card-color-red-cost-5 card-type-creature
+synonyms: []
 tapped_id: 22421
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/ox-of-agonas/
+url: https://tappedout.net/mtg-card/ox-of-agonas/
+

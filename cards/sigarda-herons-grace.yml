@@ -1,35 +1,40 @@
 activated_abilities:
 - ', Exile a card from your graveyard: Create a 1/1 white Human Soldier creature token.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MIC
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.12
+draft_average: 1.7
 effective_cost:
 - W
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -39,55 +44,84 @@ keywords:
 - Exile
 - Tokens
 mana_cost: 3GW
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Sigarda, Heron's Grace
 power_toughness: 4/5
 printings:
-- MIC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Midnight Hunt Commander'
-    number: 155
-    rarity: mythic_rare
-    release_date: 2021-09-25
-    wizards_id: 539416
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539416
 - SOI:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 59981
     mtgo_id: 59980
     name: Shadows over Innistrad
     number: 250
     rarity: mythic_rare
-    release_date: 2016-04-08
+    release_date: '2016-04-08'
+    tla: SOI
+    variations: []
     wizards_id: 410015
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=410015
+- MIC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Midnight Hunt Commander'
+    number: 155
+    rarity: mythic_rare
+    release_date: '2021-09-25'
+    tla: MIC
+    variations: []
+    wizards_id: 539416
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539416
+rarity: mythic_rare
 rules: "Flying\r\n\r\nYou and Humans you control have hexproof.\r\n\r\n[[symbol:2]],\
   \ Exile a card from your graveyard: Create a 1/1 white Human Soldier creature token."
 slug: sigarda-herons-grace
 subtype: Angel
 subtype_tokens:
 - Angel
-tags: card-color-gold card-color-gold-cost-5 card-color-green card-color-white card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 17672
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Human Soldier 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Human Soldier
-  tla: MIC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 29
+    - - cannonical_type
+      - Creature
+    - - name
+      - Human Soldier 1/1 W
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/sigarda-herons-grace/
+url: https://tappedout.net/mtg-card/sigarda-herons-grace/
+

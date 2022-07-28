@@ -2,7 +2,7 @@ activated_abilities:
 - ': Add .'
 - ', : Draw a card. Activate this ability only if you control a creature with power
   4 or greater.'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: IKO
@@ -18,60 +18,75 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 10.93
+draft_average: 2.9
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Ferocious
-mana_cost_converted: 0
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Bonders' Enclave
 printings:
 - IKO:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Cliff Childs
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*There is a sanctuary that reveals itself only to those graced
+      by the *eludha*; the mystical connection between bonder and monster.*'
     frame: m15
     mtgo_foil_id: 80500
     mtgo_id: 80499
     name: 'Ikoria: Lair of Behemoths'
     number: 245
     rarity: rare
-    release_date: 2020-04-15
+    release_date: '2020-04-15'
+    tla: IKO
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '363'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '363'
+    - identifier: PromoPack
     wizards_id: 479765
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479765
 rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:3]], [[symbol:T]]: Draw a\
@@ -79,7 +94,8 @@ rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:3]], [[symbol:T]]: Draw 
 slug: bonders-enclave
 synonyms:
 - Bonder's Enclave
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
 tapped_id: 22864
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/bonders-enclave/
+url: https://tappedout.net/mtg-card/bonders-enclave/
+

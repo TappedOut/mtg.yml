@@ -1,6 +1,7 @@
 activated_abilities:
 - 'Remove a +1/+1 counter from this: Put a +1/+1 counter on target creature you control.
   Activate only as a sorcery and only once each turn.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NEO
 cannonical_type: Enchantment
@@ -8,6 +9,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -16,30 +18,31 @@ companions:
 effective_cost:
 - R
 - G
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -47,20 +50,32 @@ keywords:
 - Haste
 - Counters
 mana_cost: 1RG
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Invigorating Hot Spring
 printings:
 - NEO:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Gabor Szikszai
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
     number: 223
     rarity: uncommon
-    release_date: 2022-02-10
+    release_date: '2022-02-10'
+    tla: NEO
+    variations: []
     wizards_id: 548535
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=548535
 rules: "This enters the battlefield with four +1/+1 counters on it.\r\n\r\nModified\
@@ -69,7 +84,9 @@ rules: "This enters the battlefield with four +1/+1 counters on it.\r\n\r\nModif
   \ from this: Put a +1/+1 counter on target creature you control. Activate only as\
   \ a sorcery and only once each turn."
 slug: invigorating-hot-spring
-tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-red card-type-enchantment
+synonyms: []
 tapped_id: 25978
+tokens: []
 type: Enchantment
-url: http://tappedout.net/mtg-card/invigorating-hot-spring/
+url: https://tappedout.net/mtg-card/invigorating-hot-spring/
+

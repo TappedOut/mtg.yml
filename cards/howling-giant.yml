@@ -1,56 +1,72 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M20
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.6
+draft_average: 5.73
 effective_cost:
 - G
-flat_cost: 7
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Reach
 - Tokens
 mana_cost: 5GG
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Howling Giant
 power_toughness: 5/5
 printings:
 - M20:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Grzegorz Rutkowski
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*He and his pack sing the same mournful song to the moon.*'
     frame: m15
     mtgo_foil_id: 73254
     mtgo_id: 73253
     name: Core Set 2020
     number: 177
     rarity: uncommon
-    release_date: 2019-07-12
+    release_date: '2019-07-12'
+    tla: M20
+    variations: []
     wizards_id: 466931
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=466931
 rules: "Reach *(This creature can block creatures with flying.)*\r\n\r\nWhen Howling\
@@ -60,18 +76,24 @@ subtype: Giant Druid
 subtype_tokens:
 - Giant
 - Druid
-tags: card-color-green card-color-green-cost-7 card-type-creature
+synonyms: []
 tapped_id: 21867
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Wolf 2/2 G
-  power_toughness: 2/2
-  rules: ''
-  subtype: Wolf
-  tla: M20
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 93
+    - - cannonical_type
+      - Creature
+    - - name
+      - Wolf 2/2 G
 type: Creature
-url: http://tappedout.net/mtg-card/howling-giant/
+url: https://tappedout.net/mtg-card/howling-giant/
+

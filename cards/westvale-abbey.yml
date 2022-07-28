@@ -2,13 +2,12 @@ activated_abilities:
 - ': Gain .'
 - ', , Pay 1 life: Create a 1/1 white and black Human Cleric creature token.'
 - ', , Sacrifice five creatures: Transform this, then untap this.'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: SOI
 cannonical_type: Land
-color_identity:
-- B
+color_identity: B
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -20,24 +19,28 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 8.74
+draft_average: 1.62
+effective_cost: []
 flip: Ormendahl, Profane Prince
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_front: true
 is_land: true
@@ -47,41 +50,61 @@ keywords:
 - Tap/Untap
 - Transform
 - Tokens
-mana_cost_converted: 0
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Westvale Abbey
 printings:
 - SOI:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Min Yum
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 59811
     mtgo_id: 59810
     name: Shadows over Innistrad
     number: 281
     rarity: rare
-    release_date: 2016-04-08
+    release_date: '2016-04-08'
+    tla: SOI
+    variations: []
     wizards_id: 410049
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=410049
+rarity: rare
 rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:5]], [[symbol:T]], Pay 1\
   \ life: Create a 1/1 white and black Human Cleric creature token.\r\n\r\n[[symbol:5]],\
   \ [[symbol:T]], Sacrifice five creatures: Transform this, then untap this."
 slug: westvale-abbey
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
+synonyms: []
 tapped_id: 17690
 tokens:
-- cannonical_type: Creature
-  colors: BW
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Human Cleric 1/1 BW
-  power_toughness: 1/1
-  rules: ''
-  subtype: Human Cleric
-  tla: SOI
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - BW
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 2
+    - - cannonical_type
+      - Creature
+    - - name
+      - Human Cleric 1/1 BW
 type: Land
-url: http://tappedout.net/mtg-card/westvale-abbey/
+url: https://tappedout.net/mtg-card/westvale-abbey/
+

@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Instant
@@ -13,84 +15,119 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 is_mtgo: true
-is_permanent: false
 keywords:
 - Counterspell
 - Sacrifice
 - Tokens
 mana_cost: 2U
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Syphon Essence
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 351
-    rarity: common
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sean Murray
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*The third step in creating a skaab requires draining the body
+      of blood and replacing it with *viscus vitae* a mixture of angel''s blood and
+      lamp oil.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 84
     rarity: common
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
+    variations: []
     wizards_id: 540928
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=540928
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sean Murray
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*The third step in creating a skaab requires draining the body
+      of blood and replacing it with *viscus vitae* a mixture of angel''s blood and
+      lamp oil.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 351
+    rarity: common
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: 'Counter target creature or planeswalker spell. Create a Blood token. *(It''s
   an artifact with "[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this: Draw
   a card.")*'
 slug: syphon-essence
-tags: card-color-blue card-color-blue-cost-3 card-type-instant
+synonyms: []
 tapped_id: 25627
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Blood
-  power_toughness: null
-  rules: '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
-    a card.'
-  subtype: Blood
-  tla: VOW
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
+        a card.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1692
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Blood
 type: Instant
-url: http://tappedout.net/mtg-card/syphon-essence/
+url: https://tappedout.net/mtg-card/syphon-essence/
+

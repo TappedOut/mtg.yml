@@ -1,9 +1,12 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -11,32 +14,32 @@ companions:
 effective_cost:
 - U
 - B
-flat_cost: 3
 flip: Krothuss, Lord of the Deep
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_front: true
 is_mtgo: true
 is_permanent: true
@@ -44,41 +47,64 @@ keywords:
 - Flying
 - Transform
 mana_cost: 1UB
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Runo Stromkirk
 power_toughness: 1/4
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: G
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 513
-    rarity: rare
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Matt Stewart
+    booster_exclude: false
     border_color: G
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 246
     rarity: rare
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
     variations:
-    - alterations:
-      - Foil
+    - identifier: '316'
+    - identifier: '327'
+    wizards_id: null
+    wizards_url: null
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: '316'
-    - alterations:
+    - !!python/tuple
+      - f
       - Foil
-      - Normal
-      identifier: '327'
+    artist: Matt Stewart
+    booster_exclude: false
+    border_color: G
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 513
+    rarity: rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Flying\r\n\r\nWhen this enters the battlefield, put up to one target creature\
   \ card from your graveyard on top of your library.\r\n\r\nAt the beginning of your\
   \ upkeep, look at the top card of your library. You may reveal that card. If a creature\
@@ -89,8 +115,9 @@ subtype: Vampire Cleric
 subtype_tokens:
 - Vampire
 - Cleric
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-3 card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 25357
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/runo-stromkirk/
+url: https://tappedout.net/mtg-card/runo-stromkirk/
+

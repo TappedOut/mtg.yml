@@ -1,37 +1,41 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: EMN
 cannonical_type: Creature
-color_identity:
-- U
+color_identity: U
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 7
+cube_average: 5.12
+draft_average: 5.13
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
 - Pauper EDH
+- Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Pauper
+- Pauper Duel Commander
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -39,33 +43,57 @@ keywords:
 - Sacrifice
 - Emerge
 mana_cost: '7'
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Wretched Gryff
 power_toughness: 3/4
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
 - EMN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Darek Zabrocki
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 61111
     mtgo_id: 61110
     name: Eldritch Moon
     number: 12
     rarity: common
-    release_date: 2016-07-22
+    release_date: '2016-07-22'
+    tla: EMN
+    variations: []
     wizards_id: 414301
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414301
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Darek Zabrocki
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: "Emerge [[symbol:5]][[symbol:U]] *(You may cast this spell by sacrificing a\
   \ creature and paying the emerge cost reduced by that creature's converted mana\
   \ cost.)*\r\n\r\nWhen you cast Wretched Gryff, draw a card. \r\n\r\nFlying"
@@ -74,7 +102,9 @@ subtype: Eldrazi Hippogriff
 subtype_tokens:
 - Eldrazi
 - Hippogriff
-tags: card-color-colorless card-color-colorless-cost-7 card-type-creature
+synonyms: []
 tapped_id: 17935
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/wretched-gryff/
+url: https://tappedout.net/mtg-card/wretched-gryff/
+

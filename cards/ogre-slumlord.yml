@@ -1,89 +1,145 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: AFC
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.29
+draft_average: 2.5
 effective_cost:
 - B
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Deathtouch
 - Tokens
 mana_cost: 3BB
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Ogre Slumlord
 power_toughness: 3/3
 printings:
-- AFC:
-    alterations:
-    - Normal
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 104
-    rarity: rare
-    release_date: 2021-07-24
-    wizards_id: 532491
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532491
-- ZNC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Zendikar Rising: Commander'
-    number: 50
-    rarity: rare
-    release_date: 2020-09-25
-    wizards_id: 495988
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=495988
-- JMP:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Jumpstart
-    number: 260
-    rarity: rare
-    release_date: 2020-07-17
 - GTC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Trevor Klaxton
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 47842
     mtgo_id: 47841
     name: Gatecrash
     number: 74
     rarity: rare
-    release_date: 2013-02-01
+    release_date: '2013-02-01'
+    tla: GTC
+    variations: []
     wizards_id: 366432
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=366432
+- JMP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Trevor Claxton
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"His tenement is filled with the most vile, disgusting vermin.\
+      \ It's infested with rats too.\"\r\n<br>&mdash;Branko One-Ear*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Jumpstart
+    number: 260
+    rarity: rare
+    release_date: '2020-07-17'
+    tla: JMP
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- ZNC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Trevor Claxton
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"His tenement is filled with the most vile, disgusting vermin.\
+      \ It's infested with rats too.\"\r\n<br>&mdash;Branko One-Ear*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Zendikar Rising: Commander'
+    number: 50
+    rarity: rare
+    release_date: '2020-09-25'
+    tla: ZNC
+    variations: []
+    wizards_id: 495988
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=495988
+- AFC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Trevor Claxton
+    booster_exclude: false
+    border_color: null
+    cannonical: true
+    flavour_text: "*\"His tenement is filled with the most vile, disgusting vermin.\
+      \ It's infested with rats too.\"\r\n<br>&mdash;Branko One-Ear*"
+    frame: null
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 104
+    rarity: rare
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: 532491
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532491
+rarity: rare
 rules: "Whenever another nontoken creature dies *(is put into the graveyard from the\
   \ battlefield)*, you may create a 1/1 black Rat creature token.\r\n\r\nRats you\
   \ control have deathtouch."
@@ -92,18 +148,24 @@ subtype: Ogre Rogue
 subtype_tokens:
 - Ogre
 - Rogue
-tags: card-color-black card-color-black-cost-5 card-type-creature
+synonyms: []
 tapped_id: 14321
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Rat 1/1 B
-  power_toughness: 1/1
-  rules: ''
-  subtype: Rat
-  tla: AFC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 187
+    - - cannonical_type
+      - Creature
+    - - name
+      - Rat 1/1 B
 type: Creature
-url: http://tappedout.net/mtg-card/ogre-slumlord/
+url: https://tappedout.net/mtg-card/ogre-slumlord/
+

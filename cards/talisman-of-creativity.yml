@@ -1,110 +1,163 @@
 activated_abilities:
 - ': Add .'
 - ': Add  or . Talisman of Creativity deals 1 damage to you.'
-activation_costs:
+activated_costs:
 - C
 - R
 - U
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Artifact
-color_identity:
-- U
-- R
+color_identity: UR
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 2
+cube_average: 8.52
+draft_average: 6.5
+effective_cost: []
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: '2'
-mana_cost_converted: 2
 mana_produced: U, R, C
+mana_value: 2
+melds_from: []
 name: Talisman of Creativity
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 876
-    rarity: uncommon
-    release_date: 2022-06-10
-    wizards_id: 567693
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567693
-- H1R:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: Modern Horizons Timeshifted Reprints
-    number: 34
-    rarity: uncommon
-    release_date: 2021-06-18
-- C21:
-    alterations:
-    - Foil
-    - Normal
-    - The List
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 269
-    rarity: uncommon
-    release_date: 2021-04-23
-    wizards_id: 519304
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519304
 - MH1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lindsey Look
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"Good ideas don't take time. They take a lot of bad ideas first.\"\
+      \r\n<br>&mdash;Ral Zarek*"
     frame: m15
     mtgo_foil_id: 72835
     mtgo_id: 72834
     name: Modern Horizons
     number: 231
     rarity: uncommon
-    release_date: 2019-06-14
+    release_date: '2019-06-14'
+    tla: MH1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Lindsey Look
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Good ideas don't take time. They take a lot of bad ideas first.\"\
+      \r\n<br>&mdash;Ral Zarek*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 269
+    rarity: uncommon
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519304
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519304
+- H1R:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lindsey Look
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*\"Good ideas don't take time. They take a lot of bad ideas first.\"\
+      \r\n<br>&mdash;Ral Zarek*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Modern Horizons Timeshifted Reprints
+    number: 34
+    rarity: uncommon
+    release_date: '2021-06-18'
+    tla: H1R
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Lindsey Look
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Good ideas don't take time. They take a lot of bad ideas first.\"\
+      \r\n<br>&mdash;Ral Zarek*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 876
+    rarity: uncommon
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567693
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567693
 rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:T]]: Add [[symbol:U]] or [[symbol:R]].\
   \ Talisman of Creativity deals 1 damage to you."
 slug: talisman-of-creativity
 synonyms:
 - UR Talisman
 - RU Talisman
-tags: card-color-colorless card-color-colorless-cost-2 card-mana-blue card-mana-colorless-sym
-  card-mana-red card-type-artifact
 tapped_id: 21579
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/talisman-of-creativity/
+url: https://tappedout.net/mtg-card/talisman-of-creativity/
+

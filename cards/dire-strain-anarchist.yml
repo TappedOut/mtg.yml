@@ -1,8 +1,9 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Creature
-color_indicator:
-- R
+color_indicator: R
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -12,31 +13,32 @@ companions:
 - Yorion, Sky Nomad
 effective_cost:
 - R
-flat_cost: 0
+flip: Volatile Arsonist
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -44,39 +46,63 @@ keywords:
 - Transform
 - Menace
 - Daybound / Nightbound
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Dire-Strain Anarchist
 power_toughness: 5/5
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 448
-    rarity: mythic_rare
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    booster_exclude: true
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Gabor Szikszai
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 181
     rarity: mythic_rare
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
     variations:
-    - alterations:
-      - Foil
+    - identifier: '382'
+    wizards_id: null
+    wizards_url: null
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: '382'
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Gabor Szikszai
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 448
+    rarity: mythic_rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Menace, haste\r\n\r\nWhenever this attacks, this delas 2 damage to each up\
   \ to one target creature, player and/or planeswalker.\r\n\r\nNightbound *(If a player\
   \ casts two spells during their own turn, this game becomes day next turn during\
@@ -88,26 +114,39 @@ slug: dire-strain-anarchist
 subtype: Werewolf
 subtype_tokens:
 - Werewolf
-tags: card-type-creature
+synonyms: []
 tapped_id: 25343
 tokens:
-- cannonical_type: Emblem
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Day
-  power_toughness: null
-  rules: ''
-  tla: VOW
-  type: Emblem
-- cannonical_type: Emblem
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Night
-  power_toughness: null
-  rules: ''
-  tla: VOW
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Day
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Night
 type: Creature
-url: http://tappedout.net/mtg-card/dire-strain-anarchist/
+url: https://tappedout.net/mtg-card/dire-strain-anarchist/
+

@@ -1,13 +1,14 @@
 activated_abilities:
 - ', Discard a card, Sacrifice a Vampire: Draw two cards. Activate this ability only
   if an opponent lost life this turn.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: MID
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -16,72 +17,103 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 1
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
 mana_cost: R
-mana_cost_converted: 1
 mana_produced: R
+mana_value: 1
+melds_from: []
 name: Falkenrath Pit Fighter
 power_toughness: 2/1
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 137
-    rarity: rare
-    release_date: 2022-01-21
 - MID:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Anna Fehr
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*In the arena, vampires set aside all pretense of honor or civilization
+      and fight like the predators they know themselves to be.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Midnight Hunt'
     number: 137
     rarity: rare
-    release_date: 2021-09-24
+    release_date: '2021-09-24'
+    tla: MID
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '354'
+    - identifier: '354'
     wizards_id: 534913
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=534913
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Anna Fehr
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*In the arena, vampires set aside all pretense of honor or civilization
+      and fight like the predators they know themselves to be.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 137
+    rarity: rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: '[[symbol:1]][[symbol:R]], Discard a card, Sacrifice a Vampire: Draw two cards.
   Activate this ability only if an opponent lost life this turn.'
 slug: falkenrath-pit-fighter
@@ -89,7 +121,9 @@ subtype: Vampire Warrior
 subtype_tokens:
 - Vampire
 - Warrior
-tags: card-color-red card-color-red-cost-1 card-mana-red card-type-creature
+synonyms: []
 tapped_id: 24994
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/falkenrath-pit-fighter/
+url: https://tappedout.net/mtg-card/falkenrath-pit-fighter/
+

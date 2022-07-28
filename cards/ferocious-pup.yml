@@ -1,60 +1,76 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M20
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.4
+draft_average: 7.94
 effective_cost:
 - G
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Ferocious Pup
 power_toughness: 0/1
 printings:
 - M20:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Rudy Siswanto
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*The Strongest pack has the fiercest pups.*'
     frame: m15
     mtgo_foil_id: 73242
     mtgo_id: 73241
     name: Core Set 2020
     number: 171
     rarity: common
-    release_date: 2019-07-12
+    release_date: '2019-07-12'
+    tla: M20
+    variations: []
     wizards_id: 466925
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=466925
 rules: When Ferocious Pup enters the battlefield, create a 2/2 green Wolf creature
@@ -63,18 +79,24 @@ slug: ferocious-pup
 subtype: Wolf
 subtype_tokens:
 - Wolf
-tags: card-color-green card-color-green-cost-3 card-type-creature
+synonyms: []
 tapped_id: 21770
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Wolf 2/2 G
-  power_toughness: 2/2
-  rules: ''
-  subtype: Wolf
-  tla: M20
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 93
+    - - cannonical_type
+      - Creature
+    - - name
+      - Wolf 2/2 G
 type: Creature
-url: http://tappedout.net/mtg-card/ferocious-pup/
+url: https://tappedout.net/mtg-card/ferocious-pup/
+

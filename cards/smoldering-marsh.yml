@@ -1,14 +1,12 @@
 activated_abilities:
 - '*(: Add  or .)*'
-activation_costs:
+activated_costs:
 - B
 - R
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Land
-color_identity:
-- B
-- R
+color_identity: BR
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -20,119 +18,204 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 8.61
+draft_average: 4.54
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: B, R
+mana_value: 0
+melds_from: []
 name: Smoldering Marsh
 printings:
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 428
-    rarity: rare
-    release_date: 2022-04-30
-    wizards_id: 560000
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=560000
-- VOC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Crimson Vow Commander'
-    number: 183
-    rarity: rare
-    release_date: 2021-11-18
-    wizards_id: 545803
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545803
-- AFC:
-    alterations:
-    - Normal
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 262
-    rarity: rare
-    release_date: 2021-07-24
-    wizards_id: 532649
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532649
-- C20:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 314
-    rarity: rare
-    release_date: 2020-05-15
-    wizards_id: 482942
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482942
-- EXP:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    mtgo_foil_id: 58886
-    mtgo_id: 58885
-    name: Zendikar Expeditions
-    number: 3
-    rarity: mythic_rare
-    release_date: 2015-10-03
-    wizards_id: 405108
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405108
 - BFZ:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Adam Paquette
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*The continent of Guul Draz is a geothermal swampland reeking of
+      heat and decay.*'
     frame: m15
     mtgo_foil_id: 58698
     mtgo_id: 58697
     name: Battle for Zendikar
     number: 247
     rarity: rare
-    release_date: 2015-10-02
+    release_date: '2015-10-02'
+    tla: BFZ
+    variations: []
     wizards_id: 402043
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=402043
-- '000':
+- EXP:
     alterations:
-    - Foil
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Titus Lunter
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 58886
+    mtgo_id: 58885
+    name: Zendikar Expeditions
+    number: 3
+    rarity: mythic_rare
+    release_date: '2015-10-03'
+    tla: EXP
+    variations: []
+    wizards_id: 405108
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405108
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*The continent of Guul Draz is a geothermal swampland reeking of
+      heat and decay.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 314
+    rarity: rare
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: 482942
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482942
+- '000':
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Titus Lunter
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*The continent of Guul Draz is a geothermal swampland reeking of
+      heat and decay.*'
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- AFC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: null
+    cannonical: true
+    flavour_text: '*The continent of Guul Draz is a geothermal swampland reeking of
+      heat and decay.*'
+    frame: null
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 262
+    rarity: rare
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: 532649
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532649
+- VOC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*The continent of Guul Draz is a geothermal swampland reeking of
+      heat and decay.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Crimson Vow Commander'
+    number: 183
+    rarity: rare
+    release_date: '2021-11-18'
+    tla: VOC
+    variations: []
+    wizards_id: 545803
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545803
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*The continent of Guul Draz is a geothermal swampland reeking of
+      heat and decay.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 428
+    rarity: rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 560000
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=560000
+rarity: rare
 rules: "*([[symbol:T]]: Add [[symbol:B]] or [[symbol:R]].)*\r\n\r\nThis enters the\
   \ battlefield tapped unless you control two or more basic lands."
 slug: smoldering-marsh
@@ -147,9 +230,9 @@ synonyms:
 - RB BFZ Land
 - BR BFZland
 - RB BFZland
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black-slow card-mana-red-slow
-  card-type-land
 tap_land: true
 tapped_id: 17124
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/smoldering-marsh/
+url: https://tappedout.net/mtg-card/smoldering-marsh/
+

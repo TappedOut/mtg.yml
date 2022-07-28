@@ -1,10 +1,10 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: MYSCON
 cannonical_type: Creature
-color_identity:
-- U
+color_identity: U
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -12,42 +12,57 @@ companions:
 - Lutri, the Spellchaser
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 0
+cube_average: 1.0
+draft_average: 7.0
+effective_cost: []
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tap/Untap
-mana_cost_converted: 0
 mana_produced: U
+mana_value: 0
+melds_from: []
 name: Jasconian Isle
 power_toughness: 3/4
 printings:
 - MYSCON:
     alterations:
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - list
+      - The List
+    artist: Aaron Reed
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Mystery Booster: Convention Edition'
     number: 117
     rarity: rare
-    release_date: 2019-11-07
+    release_date: '2019-11-07'
+    tla: MYSCON
+    variations: []
     wizards_id: 476247
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476247
 rules: "*(CARDNAME isn't a spell, it's affected by summoning sickness, it's blue,\
@@ -63,8 +78,9 @@ subtype: Island Fish
 subtype_tokens:
 - Island
 - Fish
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-blue card-type-creature
-  card-type-land
+synonyms: []
 tapped_id: 22258
+tokens: []
 type: Land Creature
-url: http://tappedout.net/mtg-card/jasconian-isle/
+url: https://tappedout.net/mtg-card/jasconian-isle/
+

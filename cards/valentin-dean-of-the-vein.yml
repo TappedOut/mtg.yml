@@ -1,10 +1,12 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: STX
 cannonical_type: Creature
-color_identity:
-- G
+color_identity: G
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -12,32 +14,32 @@ companions:
 - Yorion, Sky Nomad
 effective_cost:
 - B
-flat_cost: 1
 flip: Lisette, Dean of the Root
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_front: true
 is_mtgo: true
 is_permanent: true
@@ -47,28 +49,45 @@ keywords:
 - Tokens
 - Menace
 mana_cost: B
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Valentin, Dean of the Vein
 power_toughness: 1/1
 printings:
 - STX:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Jesper Ejsing
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Strixhaven
     number: 161
     rarity: rare
-    release_date: 2021-04-23
+    release_date: '2021-04-23'
+    tla: STX
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '333'
+    - identifier: '333'
+    wizards_id: null
+    wizards_url: null
 rules: "Menace, Lifelink\r\n\r\nIf a nontoken creature an opponent controls would\
   \ die, exile it instead. When you do, you may pay [[symbol:2]]. If you do, create\
   \ a 1/1 black and green Pest creature token with \"When this creature dies *(is\
@@ -81,19 +100,24 @@ subtype_tokens:
 - Wizard
 synonyms:
 - Lisette, Dean of the Root
-tags: card-color-black card-color-black-cost-1 card-type-creature card-type-legendary
 tapped_id: 24035
 tokens:
-- cannonical_type: Creature
-  colors: BG
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Pest 1/1 BG
-  power_toughness: 1/1
-  rules: When this dies *(is put into the graveyard from the battlefield, tokens are
-    put into the graveyard before they cease to exist.)*, you gain 1 life.
-  subtype: Pest
-  tla: STX
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - BG
+    - - power_toughness
+      - 1/1
+    - - rules
+      - When this dies *(is put into the graveyard from the battlefield, tokens are
+        put into the graveyard before they cease to exist.)*, you gain 1 life.
+    - - type
+      - Token Creature
+    - - subtype
+      - 907
+    - - cannonical_type
+      - Creature
+    - - name
+      - Pest 1/1 BG
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/valentin-dean-of-the-vein/
+url: https://tappedout.net/mtg-card/valentin-dean-of-the-vein/
+

@@ -1,75 +1,95 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: RAV
 cannonical_type: Instant
-color_identity:
-- G
+color_identity: G
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.12
+draft_average: 6.0
 effective_cost:
 - W
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: 3W
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Seed Spark
 printings:
 - RAV:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jeff Miracola
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"If you ask me, those root-lovers value mindless dogma over progress."Trivaz,
+      Izzet mage'
     frame: modern
     mtgo_foil_id: 23351
     mtgo_id: 23350
     name: 'Ravnica: City of Guilds'
     number: 30
     rarity: uncommon
-    release_date: 2005-10-07
+    release_date: '2005-10-07'
+    tla: RAV
+    variations: []
     wizards_id: 88984
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=88984
+rarity: uncommon
 rules: Destroy target artifact or enchantment. If [[symbol:G]] was spent to cast this
   spell, create two 1/1 green Saproling creature tokens.
 slug: seed-spark
-tags: card-color-white card-color-white-cost-4 card-type-instant
+synonyms: []
 tapped_id: 2080
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Saproling 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Saproling
-  tla: 2X2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 893
+    - - cannonical_type
+      - Creature
+    - - name
+      - Saproling 1/1 G
 type: Instant
-url: http://tappedout.net/mtg-card/seed-spark/
+url: https://tappedout.net/mtg-card/seed-spark/
+

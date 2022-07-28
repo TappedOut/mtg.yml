@@ -1,72 +1,115 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MM2
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 5
+cube_average: 7.71
+draft_average: 2.03
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: '5'
-mana_cost_converted: 5
+mana_produced: ''
+mana_value: 5
+melds_from: []
 name: Precursor Golem
 power_toughness: 3/3
 printings:
-- MYS1:
+- SOM:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chippy
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 38158
+    mtgo_id: 38157
+    name: Scars of Mirrodin
+    number: null
     rarity: rare
-    release_date: 2020-03-14
+    release_date: '2010-10-01'
+    tla: SOM
+    variations: []
+    wizards_id: 206348
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=206348
 - MM2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chippy
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 57257
     mtgo_id: 57256
     name: Modern Masters 2015 Edition
     number: 225
     rarity: rare
-    release_date: 2015-05-22
+    release_date: '2015-05-22'
+    tla: MM2
+    variations: []
     wizards_id: 397708
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397708
-- SOM:
+- MYS1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Chippy
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 38158
-    mtgo_id: 38157
-    name: Scars of Mirrodin
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
     rarity: rare
-    release_date: 2010-10-01
-    wizards_id: 206348
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=206348
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "When Precursor Golem enters the battlefield, put two 3/3 colorless Golem artifact\
   \ creature tokens onto the battlefield.\r\n\r\nWhenever a player casts an instant\
   \ or sorcery spell that targets only a single Golem, that player copies that spell\
@@ -76,27 +119,39 @@ slug: precursor-golem
 subtype: Golem
 subtype_tokens:
 - Golem
-tags: card-color-colorless card-color-colorless-cost-5 card-type-artifact card-type-creature
+synonyms: []
 tapped_id: 12462
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Golem 3/3 C
-  power_toughness: 3/3
-  rules: ''
-  subtype: Golem
-  tla: MM2
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 3/3
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 49
+    - - cannonical_type
+      - Creature
+    - - name
+      - Golem 3/3 C
 type: Artifact Creature
-url: http://tappedout.net/mtg-card/precursor-golem/
+url: https://tappedout.net/mtg-card/precursor-golem/
+

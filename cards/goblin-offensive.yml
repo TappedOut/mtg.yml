@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: HOP
 cannonical_type: Sorcery
@@ -10,78 +12,118 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.12
+draft_average: 6.0
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
+keywords: []
 mana_cost: X1RR
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Goblin Offensive
 printings:
-- HOP:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    name: Planechase
-    number: 56
-    rarity: uncommon
-    release_date: 2009-09-04
-    wizards_id: 205388
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=205388
-- ATH:
-    alterations:
-    - Normal
-    border_color: B
-    frame: original
-    name: Anthologies
-    number: 13
-    rarity: uncommon
-    release_date: 1998-11-01
 - USG:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Carl Critchlow
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 11916
     mtgo_id: 11915
     name: Urza's Saga
+    number: null
     rarity: uncommon
-    release_date: 1998-10-12
+    release_date: '1998-10-12'
+    tla: USG
+    variations: []
     wizards_id: 8818
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=8818
+- ATH:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Carl Critchlow
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*They certainly are.*'
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Anthologies
+    number: 13
+    rarity: uncommon
+    release_date: '1998-11-01'
+    tla: ATH
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- HOP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Carl Critchlow
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: They certainly are.
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Planechase
+    number: 56
+    rarity: uncommon
+    release_date: '2009-09-04'
+    tla: HOP
+    variations: []
+    wizards_id: 205388
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=205388
+rarity: uncommon
 rules: Create X 1/1 red Goblin creature tokens.
 slug: goblin-offensive
 synonyms:
 - Goblin Offencive
-tags: card-color-red card-color-red-cost-3 card-type-sorcery
 tapped_id: 6323
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goblin 1/1 R
-  power_toughness: 1/1
-  rules: ''
-  subtype: Goblin
-  tla: NEC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 153
+    - - cannonical_type
+      - Creature
+    - - name
+      - Goblin 1/1 R
 type: Sorcery
-url: http://tappedout.net/mtg-card/goblin-offensive/
+url: https://tappedout.net/mtg-card/goblin-offensive/
+

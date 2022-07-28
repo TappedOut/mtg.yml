@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Sorcery
@@ -11,72 +13,102 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.5
 effective_cost:
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: 4U
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Zndrsplt's Judgment
 printings:
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 240
-    rarity: rare
-    release_date: 2022-04-30
-    wizards_id: 559812
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559812
 - BBD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Bayard Wu
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Zndrsplt retired from officiating when she teamed up with Okaun,
+      but she still knows the penalties better than anyone else.*'
     frame: m15
     mtgo_foil_id: 68815
     mtgo_id: 68814
     name: Battlebond
     number: 43
     rarity: rare
-    release_date: 2018-06-08
+    release_date: '2018-06-08'
+    tla: BBD
+    variations: []
     wizards_id: 446011
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446011
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Bayard Wu
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Zndrsplt retired from officiating when she teamed up with Okaun,
+      but she still knows the penalties better than anyone else.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 240
+    rarity: rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559812
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559812
+rarity: rare
 rules: For each player, choose whether they are a friend or a foe. Each friend creates
   a token that's a copy of a creature they control. Each foe returns a creature they
   control to its owner's hand.
 slug: zndrsplts-judgment
 synonyms:
 - Zndrsplt's Judgement
-tags: card-color-blue card-color-blue-cost-5 card-type-sorcery
 tapped_id: 20342
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Sorcery
-url: http://tappedout.net/mtg-card/zndrsplts-judgment/
+url: https://tappedout.net/mtg-card/zndrsplts-judgment/
+

@@ -1,68 +1,95 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ONS
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 5.5
+draft_average: 8.1
 effective_cost:
 - G
-flat_cost: 2
 formats:
 - 1v1 Commander
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Morph
 mana_cost: 1G
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Broodhatch Nantuko
 power_toughness: 1/1
 printings:
+- ONS:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Keith Garletts
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: 18152
+    mtgo_id: 18151
+    name: Onslaught
+    number: null
+    rarity: uncommon
+    release_date: '2002-10-07'
+    tla: ONS
+    variations: []
+    wizards_id: 39742
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=39742
 - A25:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: James Paick
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 67239
     mtgo_id: 67238
     name: Masters 25
     number: 162
     rarity: uncommon
-    release_date: 2018-03-16
+    release_date: '2018-03-16'
+    tla: A25
+    variations: []
     wizards_id: 442151
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442151
-- ONS:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: original
-    mtgo_foil_id: 18152
-    mtgo_id: 18151
-    name: Onslaught
-    rarity: uncommon
-    release_date: 2002-10-07
-    wizards_id: 39742
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=39742
+rarity: uncommon
 rules: "Whenever Broodhatch Nantuko is dealt damage, you may put that many 1/1 green\
   \ Insect creature tokens into play.\r\n\r\nMorph (2)(Green) (You may play this face\
   \ down as a 2/2 creature for (3). Turn it face up any time for its morph cost.)"
@@ -71,28 +98,40 @@ subtype: Insect Druid
 subtype_tokens:
 - Insect
 - Druid
-tags: card-color-green card-color-green-cost-2 card-type-creature
+synonyms: []
 tapped_id: 3842
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Morph 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  tla: C19
-  type: Creature
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Insect 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Insect
-  tla: ONS
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+        \ with morph can be turned face up at any time for its morph cost.*"
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Morph 2/2 C
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 16
+    - - cannonical_type
+      - Creature
+    - - name
+      - Insect 1/1 G
 type: Creature
-url: http://tappedout.net/mtg-card/broodhatch-nantuko/
+url: https://tappedout.net/mtg-card/broodhatch-nantuko/
+

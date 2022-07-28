@@ -1,39 +1,43 @@
 activated_abilities:
 - ', Exile Seasoned Pyromancer from your graveyard: Create two 1/1 red Elemental creature
   tokens.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: MH1
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.24
+draft_average: 2.5
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,45 +45,61 @@ keywords:
 - Exile
 - Tokens
 mana_cost: 1RR
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Seasoned Pyromancer
 power_toughness: 2/2
 printings:
-- 2X2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Double Masters 2022
-    number: 123
-    rarity: mythic_rare
-    release_date: 2022-07-08
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '363'
-    - alterations:
-      - Etched
-      identifier: '454'
-    wizards_id: 571456
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571456
 - MH1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Cynthia Sheppard
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 72663
     mtgo_id: 72662
     name: Modern Horizons
     number: 145
     rarity: mythic_rare
-    release_date: 2019-06-14
+    release_date: '2019-06-14'
+    tla: MH1
+    variations: []
     wizards_id: 464094
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464094
+- 2X2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Cynthia Sheppard
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters 2022
+    number: 123
+    rarity: mythic_rare
+    release_date: '2022-07-08'
+    tla: 2X2
+    variations:
+    - identifier: '363'
+    - identifier: '454'
+    wizards_id: 571456
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571456
 rules: "When Seasoned Pyromancer enters the battlefield, discard two cards, the draw\
   \ two cards. For each nonland card discarded this way, create a 1/1 red Elemental\
   \ creature token.\r\n\r\n[[symbol:3]][[symbol:R]][[symbol:R]], Exile Seasoned Pyromancer\
@@ -89,18 +109,24 @@ subtype: Human Shaman
 subtype_tokens:
 - Human
 - Shaman
-tags: card-color-red card-color-red-cost-3 card-type-creature
+synonyms: []
 tapped_id: 21519
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elemental 1/1 R
-  power_toughness: 1/1
-  rules: ''
-  subtype: Elemental
-  tla: MH1
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elemental 1/1 R
 type: Creature
-url: http://tappedout.net/mtg-card/seasoned-pyromancer/
+url: https://tappedout.net/mtg-card/seasoned-pyromancer/
+

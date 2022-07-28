@@ -5,49 +5,49 @@ activated_abilities:
   a token that''s a copy of that card.'
 - ": Create Tamiyo's Notebook, a legendary colourless artifact token with \u201CSpells\
   \ you cast cost  less to cast: Draw a card.\""
-activation_costs:
+activated_costs:
 - G
 - U
 canadian_hl_score: 0
 cannonical_set: NEO
 cannonical_type: Planeswalker
-color_identity:
-- U
-- G
+color_identity: GU
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - U
 - G
-flat_cost: 6
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -57,34 +57,45 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 2G{PG/PU}U
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Tamiyo, Compleated Sage
+planeswalker_loyalty: 5
 printings:
 - NEO:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
     number: 238
     rarity: mythic_rare
-    release_date: 2022-02-10
+    release_date: '2022-02-10'
+    tla: NEO
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '306'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '308'
-    - alterations:
-      - Etched
-      identifier: '428'
+    - identifier: '306'
+    - identifier: '308'
+    - identifier: '428'
     wizards_id: 548551
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=548551
 rules: "Compleated *({PG/PU} can be paid with [[symbol:G]], [[symbol:U]], or 2 life.\
@@ -99,28 +110,40 @@ slug: tamiyo-compleated-sage
 subtype: Tamiyo
 subtype_tokens:
 - Tamiyo
-tags: card-color-blue card-color-gold card-color-gold-cost-6 card-color-green card-type-legendary
-  card-type-planeswalker
+synonyms: []
 tapped_id: 25757
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Tamiyo's Notebook
-  power_toughness: null
-  rules: "Spells you cast cost [[symbol:2]] less to cast.\r\n\r\n[[symbol:T]]: Draw\
-    \ a card."
-  tla: NEO
-  type: Token Legendary Artifact
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - "Spells you cast cost [[symbol:2]] less to cast.\r\n\r\n[[symbol:T]]: Draw\
+        \ a card."
+    - - type
+      - Token Legendary Artifact
+    - - subtype
+      - null
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Tamiyo's Notebook
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/tamiyo-compleated-sage/
+url: https://tappedout.net/mtg-card/tamiyo-compleated-sage/
+

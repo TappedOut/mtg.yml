@@ -1,86 +1,120 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: IMA
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.8
+draft_average: 5.75
 effective_cost:
 - U
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: 3u
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Skywise Teachings
 printings:
-- IMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 66026
-    mtgo_id: 66025
-    name: Iconic Masters
-    number: 73
-    rarity: uncommon
-    release_date: 2017-11-17
-    wizards_id: 438639
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438639
 - DTK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Filip Burburan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Ojutai's words must be translated from Draconic before his followers
+      can benefit from their wisdom.
     frame: m15
     mtgo_foil_id: 56171
     mtgo_id: 56170
     name: Dragons of Tarkir
     number: 79
     rarity: uncommon
-    release_date: 2015-03-27
+    release_date: '2015-03-27'
+    tla: DTK
+    variations: []
     wizards_id: 394707
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394707
+- IMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Filip Burburan
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Ojutai's words must be translated from Draconic before his students
+      can benefit from their wisdom.
+    frame: m15
+    mtgo_foil_id: 66026
+    mtgo_id: 66025
+    name: Iconic Masters
+    number: 73
+    rarity: uncommon
+    release_date: '2017-11-17'
+    tla: IMA
+    variations: []
+    wizards_id: 438639
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438639
+rarity: uncommon
 rules: Whenever you cast a noncreature spell, you pay pay 1U. If you do, put a 2/2
   blue Djinn Monk creature token with flying onto the battlefield.
 slug: skywise-teachings
-tags: card-color-blue card-color-blue-cost-4 card-type-enchantment
+synonyms: []
 tapped_id: 16657
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Djinn Monk 2/2 U
-  power_toughness: 2/2
-  rules: Flying
-  subtype: Djinn Monk
-  tla: IMA
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 2/2
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 1053
+    - - cannonical_type
+      - Creature
+    - - name
+      - Djinn Monk 2/2 U
 type: Enchantment
-url: http://tappedout.net/mtg-card/skywise-teachings/
+url: https://tappedout.net/mtg-card/skywise-teachings/
+

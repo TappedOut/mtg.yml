@@ -3,7 +3,7 @@ activated_abilities:
   end of turn.'
 - ': Armored Guardian gains shroud until end of turn. *(It can''t be the target of
   spells or abilities.)*'
-activation_costs:
+activated_costs:
 - U
 - W
 canadian_hl_score: 0
@@ -13,28 +13,32 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.25
+draft_average: 3.0
 effective_cost:
 - W
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,24 +46,36 @@ keywords:
 - Protection
 - Shroud
 mana_cost: 3WU
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Armored Guardian
 power_toughness: 2/5
 printings:
 - INV:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Arnie Swekel
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 14714
     mtgo_id: 14713
     name: Invasion
     number: 230
     rarity: rare
-    release_date: 2000-10-02
+    release_date: '2000-10-02'
+    tla: INV
+    variations: []
     wizards_id: 23197
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=23197
+rarity: rare
 rules: "[[symbol:1]][[symbol:W]][[symbol:W]]: Target creature you control gains protection\
   \ from the color of your choice until end of turn.\r\n\r\n[[symbol:1]][[symbol:U]][[symbol:U]]:\
   \ Armored Guardian gains shroud until end of turn. *(It can't be the target of spells\
@@ -71,7 +87,8 @@ subtype_tokens:
 - Soldier
 synonyms:
 - Armoured Guardian
-tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-white card-type-creature
 tapped_id: 5033
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/armored-guardian/
+url: https://tappedout.net/mtg-card/armored-guardian/
+

@@ -2,41 +2,43 @@ activated_abilities:
 - ': Mill two cards *(put the top two cards from your library into your graveyard)*,
   then return a nonland card of an opponenent''s choice from your graveyard to your
   hand.'
-activation_costs:
+activated_costs:
 - G
 - U
 canadian_hl_score: 0
 cannonical_set: UMA
 cannonical_type: Creature
-color_identity:
-- U
-- G
+color_identity: UG
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.57
+draft_average: 1.44
 effective_cost:
 - B
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,66 +47,108 @@ keywords:
 - Delve
 - Mill
 mana_cost: 5B
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Tasigur, the Golden Fang
 power_toughness: 4/5
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: original
-    name: Time Spiral Remastered
-    number: 333
-    rarity: special
-    release_date: 2021-03-19
-    wizards_id: 512299
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512299
-- UMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 70308
-    mtgo_id: 70307
-    name: Ultimate Masters
-    number: 117
-    rarity: rare
-    release_date: 2018-12-07
-    wizards_id: 456713
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456713
-- UMAP:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: Ultimate Masters Promo
-    number: 13
-    rarity: mythic_rare
-    release_date: 2018-12-06
 - FRF:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 55339
     mtgo_id: 55338
     name: Fate Reforged
     number: 87
     rarity: rare
-    release_date: 2015-01-23
+    release_date: '2015-01-23'
+    tla: FRF
+    variations: []
     wizards_id: 391937
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=391937
-promo_sets:
-- UMAP
+- UMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Igor Kieryluk
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: 70308
+    mtgo_id: 70307
+    name: Ultimate Masters
+    number: 117
+    rarity: rare
+    release_date: '2018-12-07'
+    tla: UMA
+    variations: []
+    wizards_id: 456713
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456713
+- UMAP:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Igor Kieryluk
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Ultimate Masters Promo
+    number: 13
+    rarity: mythic_rare
+    release_date: '2018-12-06'
+    tla: UMAP
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 333
+    rarity: special
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 512299
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512299
+rarity: rare
 rules: "Delve *(You may exile cards from your graveyard as you cast this spell. Each\
   \ card you exile while casting this spell pays for [[symbol:1]].)*\r\n\r\n[[symbol:2]][[symbol:GU]][[symbol:GU]]:\
   \ Mill two cards *(put the top two cards from your library into your graveyard)*,\
@@ -115,7 +159,9 @@ subtype: Human Shaman
 subtype_tokens:
 - Human
 - Shaman
-tags: card-color-black card-color-black-cost-6 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 16166
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/tasigur-the-golden-fang/
+url: https://tappedout.net/mtg-card/tasigur-the-golden-fang/
+

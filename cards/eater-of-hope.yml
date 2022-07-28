@@ -3,36 +3,40 @@ activated_abilities:
   be destroyed this turn, this creature isn''t destroyed. Instead tap this, remove
   all damage from this, and remove this creature from combat.)*'
 - ', Sacrifice two other creatures: Destroy target creature.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: MIC
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.0
+draft_average: 1.65
 effective_cost:
 - B
-flat_cost: 7
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,66 +46,123 @@ keywords:
 - Sacrifice
 - Tap/Untap
 mana_cost: 5BB
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Eater of Hope
 power_toughness: 6/4
 printings:
-- MIC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Midnight Hunt Commander'
-    number: 115
-    rarity: rare
-    release_date: 2021-09-25
-    wizards_id: 539376
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539376
-- CM1:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology
-    number: 57
-    rarity: rare
-    release_date: 2017-06-09
-- C15:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2015
-    number: 123
-    rarity: rare
-    release_date: 2015-11-13
-    wizards_id: 405211
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405211
 - BNG:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Peter Mohrbacher
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Gods can be appeased. Demons, however...
     frame: modern
     mtgo_foil_id: 51728
     mtgo_id: 51727
     name: Born of the Gods
     number: 66
     rarity: rare
-    release_date: 2014-02-07
+    release_date: '2014-02-07'
+    tla: BNG
+    variations: []
     wizards_id: 378438
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=378438
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mathias Kollros
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*Gods can be appeased. Demons, however . . .*'
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
+    number: null
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C15:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Peter Mohrbacher
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Gods can be appeased. Demons, however ...*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2015
+    number: 123
+    rarity: rare
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
+    wizards_id: 405211
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405211
+- CM1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Peter Mohrbacher
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: Gods can be appeased. Demons, however . . .
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology
+    number: 57
+    rarity: null
+    release_date: '2017-06-09'
+    tla: CM1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- MIC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mathias Kollros
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Gods can be appeased. Demons, however ...*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Midnight Hunt Commander'
+    number: 115
+    rarity: rare
+    release_date: '2021-09-25'
+    tla: MIC
+    variations: []
+    wizards_id: 539376
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539376
+rarity: rare
 rules: "Flying\r\n\r\n[[symbol:B]], Sacrifice another creature: Regenerate this. *(The\
   \ next time this creature would be destroyed this turn, this creature isn't destroyed.\
   \ Instead tap this, remove all damage from this, and remove this creature from combat.)*\r\
@@ -110,7 +171,9 @@ slug: eater-of-hope
 subtype: Demon
 subtype_tokens:
 - Demon
-tags: card-color-black card-color-black-cost-7 card-type-creature
+synonyms: []
 tapped_id: 15151
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/eater-of-hope/
+url: https://tappedout.net/mtg-card/eater-of-hope/
+

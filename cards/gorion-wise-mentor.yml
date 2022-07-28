@@ -1,9 +1,12 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -12,53 +15,63 @@ effective_cost:
 - W
 - U
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Vigilance
 mana_cost: GWU
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Gorion, Wise Mentor
 power_toughness: 3/4
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Jason Kang
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"You are safest in Candlekeep, Abdel, but I cannot keep you from
+      the world forever."*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 276
     rarity: rare
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '423'
-    - alterations:
-      - Etched
-      identifier: '534'
+    - identifier: '423'
+    - identifier: '534'
     wizards_id: 563159
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563159
 rules: "Vigilance\r\n\r\nWhenever you cast an Adventure spell, you may copy it. You\
@@ -68,8 +81,9 @@ subtype: Human Wizard
 subtype_tokens:
 - Human
 - Wizard
-tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-green card-color-white
-  card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 26513
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/gorion-wise-mentor/
+url: https://tappedout.net/mtg-card/gorion-wise-mentor/
+

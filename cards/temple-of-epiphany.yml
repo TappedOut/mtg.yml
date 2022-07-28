@@ -1,14 +1,12 @@
 activated_abilities:
 - ': Add  or .'
-activation_costs:
+activated_costs:
 - R
 - U
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Land
-color_identity:
-- U
-- R
+color_identity: UR
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -20,142 +18,221 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 8.44
+draft_average: 3.38
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Quest Magic
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Scry
-mana_cost_converted: 0
 mana_produced: U, R
+mana_value: 0
+melds_from: []
 name: Temple of Epiphany
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 923
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567740
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567740
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 432
-    rarity: rare
-    release_date: 2022-04-30
-    wizards_id: 560004
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=560004
-- C21:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 322
-    rarity: rare
-    release_date: 2021-04-23
-    wizards_id: 519357
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519357
-- M21:
-    alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    border_color: B
-    frame: m15
-    name: Core Set 2021
-    number: 252
-    rarity: rare
-    release_date: 2020-07-03
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '387'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
-    wizards_id: 485575
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485575
-- M20:
-    alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 73406
-    mtgo_id: 73405
-    name: Core Set 2020
-    number: 253
-    rarity: rare
-    release_date: 2019-07-12
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
-    wizards_id: 467007
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=467007
-- DDU:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Duel Decks: Elves vs. Inventors'
-    number: 72
-    rarity: rare
-    release_date: 2018-04-06
-    wizards_id: 442808
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442808
 - JOU:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Noah Bradley
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 51967
     mtgo_id: 51966
     name: Journey into Nyx
     number: 164
     rarity: rare
-    release_date: 2014-05-02
+    release_date: '2014-05-02'
+    tla: JOU
+    variations: []
     wizards_id: 380514
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=380514
+- DDU:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Yeong-Hao Han
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Elves vs. Inventors'
+    number: 72
+    rarity: null
+    release_date: '2018-04-06'
+    tla: DDU
+    variations: []
+    wizards_id: 442808
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442808
+- M20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 73406
+    mtgo_id: 73405
+    name: Core Set 2020
+    number: 253
+    rarity: rare
+    release_date: '2019-07-12'
+    tla: M20
+    variations:
+    - identifier: PromoPack
+    wizards_id: 467007
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=467007
+- M21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Core Set 2021
+    number: 252
+    rarity: rare
+    release_date: '2020-07-03'
+    tla: M21
+    variations:
+    - identifier: '387'
+    - identifier: PromoPack
+    wizards_id: 485575
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485575
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 322
+    rarity: rare
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519357
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519357
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 432
+    rarity: rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 560004
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=560004
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 923
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567740
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567740
+rarity: rare
 rules: "Temple of Epiphany enters the battlefield tapped.\r\n\r\nWhen Temple of Epiphany\
   \ enters the battlefield, scry 1. *(Look at the top card of your library. You may\
   \ put that card on the bottom of your library.)*\r\n\r\n[[symbol:T]]: Add [[symbol:U]]\
@@ -166,9 +243,9 @@ synonyms:
 - RU Scryland
 - UR Scry Land
 - RU Temple
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-blue-slow card-mana-red-slow
-  card-type-land
 tap_land: true
 tapped_id: 15371
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/temple-of-epiphany/
+url: https://tappedout.net/mtg-card/temple-of-epiphany/
+

@@ -3,7 +3,7 @@ activated_abilities:
   are not well weight balanced, so please roll a die that isn''t an MTG spindown.)*'
 - ', Remove 100 charge counters from Vexing Puzzlebox: Search your library for an
   artifact card, put that card onto the battlefield, then shuffle your library.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: CLB
@@ -12,55 +12,69 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 3
+effective_cost: []
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
 mana_cost: '3'
-mana_cost_converted: 3
 mana_produced: W, U, B, R, G
+mana_value: 3
+melds_from: []
 name: Vexing Puzzlebox
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Volkan Baga
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 343
     rarity: mythic_rare
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '374'
+    - identifier: '374'
     wizards_id: 563226
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563226
 rules: "Whenever you roll one or more dice, put a number of charge counters on Vexing\
@@ -70,8 +84,9 @@ rules: "Whenever you roll one or more dice, put a number of charge counters on V
   \ 100 charge counters from Vexing Puzzlebox: Search your library for an artifact\
   \ card, put that card onto the battlefield, then shuffle your library."
 slug: vexing-puzzlebox
-tags: card-color-colorless card-color-colorless-cost-3 card-mana-black card-mana-blue
-  card-mana-green card-mana-red card-mana-white card-type-artifact
+synonyms: []
 tapped_id: 26706
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/vexing-puzzlebox/
+url: https://tappedout.net/mtg-card/vexing-puzzlebox/
+

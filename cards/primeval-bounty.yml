@@ -1,37 +1,42 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.42
+draft_average: 1.0
 effective_cost:
 - G
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -39,66 +44,109 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 5G
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Primeval Bounty
 printings:
-- CLB:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 830
-    rarity: mythic_rare
-    release_date: 2022-06-10
-    wizards_id: 567647
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567647
-- JMP:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Jumpstart
-    number: 421
-    rarity: mythic_rare
-    release_date: 2020-07-17
-    wizards_id: 489404
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489404
 - M14:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Christing Choi
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: modern
     mtgo_foil_id: 49474
     mtgo_id: 49473
     name: Magic 2014
     number: 190
     rarity: mythic_rare
-    release_date: 2013-07-19
+    release_date: '2013-07-19'
+    tla: M14
+    variations: []
     wizards_id: 370656
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370656
+- JMP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Christing Choi
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Jumpstart
+    number: 421
+    rarity: mythic_rare
+    release_date: '2020-07-17'
+    tla: JMP
+    variations: []
+    wizards_id: 489404
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489404
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Christing Choi
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 830
+    rarity: mythic_rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567647
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567647
+rarity: mythic_rare
 rules: "Whenever you cast a creature spell, create a 3/3 green Beast creature token.\r\
   \n\r\nWhenever you cast a noncreature spell, put three +1/+1 counters on target\
   \ creature you control.\r\n\r\n*Landfall* &mdash; Whenever a land enters the battlefield\
   \ under your control, you gain 3 life."
 slug: primeval-bounty
-tags: card-color-green card-color-green-cost-6 card-type-enchantment
+synonyms: []
 tapped_id: 14696
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Beast 3/3 G
-  power_toughness: 3/3
-  rules: ''
-  subtype: Beast
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 3/3
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 83
+    - - cannonical_type
+      - Creature
+    - - name
+      - Beast 3/3 G
 type: Enchantment
-url: http://tappedout.net/mtg-card/primeval-bounty/
+url: https://tappedout.net/mtg-card/primeval-bounty/
+

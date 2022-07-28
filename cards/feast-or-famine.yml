@@ -1,96 +1,141 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DDJ
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.5
+draft_average: 5.14
 effective_cost:
 - B
-flat_cost: 4
 formats:
 - 1v1 Commander
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Premodern
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Regenerate
 mana_cost: 3B
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Feast or Famine
+power_toughness: ''
 printings:
-- DDJ:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 46109
-    name: 'Duel Decks: Izzet vs. Golgari'
-    number: 72
-    rarity: common
-    release_date: 2012-09-07
-    wizards_id: 338405
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=338405
 - MED:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Pete Venters
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '"We are not yet free of Lim-Dul''s terrors."Halvor Arensson, Kjeldoran
+      priest'
     frame: modern
     mtgo_foil_id: 28110
     mtgo_id: 28109
     name: Masters Edition
+    number: null
     rarity: common
-    release_date: 2007-09-10
+    release_date: '2007-09-10'
+    tla: MED
+    variations: []
     wizards_id: 159739
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=159739
 - ALL:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Pete Venters
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "\"The living cannot understand the benefits of death.\"\r\n\x97\
+      Chaeska, Keeper of Tresserhorn"
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Alliances
+    number: null
     rarity: common
-    release_date: 1996-06-10
+    release_date: '1996-06-10'
+    tla: ALL
+    variations: []
     wizards_id: 3074
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3074
+- DDJ:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Chase Stone
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"The living cannot understand the benefits of death.\"\r\n<br>\u2014\
+      Chaeska, Keeper of Tresserhorn*"
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 46109
+    name: 'Duel Decks: Izzet vs. Golgari'
+    number: 72
+    rarity: common
+    release_date: '2012-09-07'
+    tla: DDJ
+    variations: []
+    wizards_id: 338405
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=338405
+rarity: common
 rules: "Choose one \u2014\r\n\u2022 Put a 2/2 black Zombie creature token onto the\
   \ battlefield.\r\n\u2022 Destroy target nonartifact, nonblack creature. It can't\
   \ be regenerated."
 slug: feast-or-famine
-tags: card-color-black card-color-black-cost-4 card-type-instant
+synonyms: []
 tapped_id: 499
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: 2X2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Instant
-url: http://tappedout.net/mtg-card/feast-or-famine/
+url: https://tappedout.net/mtg-card/feast-or-famine/
+

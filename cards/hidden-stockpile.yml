@@ -1,40 +1,45 @@
 activated_abilities:
 - ', Sacrifice a creature: Scry 1.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: 2XM
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.62
+draft_average: 6.34
 effective_cost:
 - W
 - B
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,60 +49,102 @@ keywords:
 - Tokens
 - Revolt
 mana_cost: WB
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Hidden Stockpile
 printings:
-- 2XM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 201
-    rarity: uncommon
-    release_date: 2020-08-07
-    wizards_id: 489874
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489874
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: uncommon
-    release_date: 2020-03-14
 - AER:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Darek Zabrocki
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 62820
     mtgo_id: 62819
     name: Aether Revolt
     number: 129
     rarity: uncommon
-    release_date: 2017-01-20
+    release_date: '2017-01-20'
+    tla: AER
+    variations: []
     wizards_id: 423796
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423796
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Darek Zabrocki
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: uncommon
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Darek Zabrocki
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 201
+    rarity: uncommon
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations: []
+    wizards_id: 489874
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489874
+rarity: uncommon
 rules: "*Revolt* &mdash; At the beginning of your end step, if a permanent you controlled\
   \ left the battlefield this turn, create a 1/1 colourless Servo artifact creature\
   \ token.\r\n\r\n[[symbol:1]], Sacrifice a creature: Scry 1."
 slug: hidden-stockpile
-tags: card-color-black card-color-gold card-color-gold-cost-2 card-color-white card-type-enchantment
+synonyms: []
 tapped_id: 18586
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Servo 1/1 C
-  power_toughness: 1/1
-  rules: ''
-  subtype: Servo
-  tla: 2XM
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 1175
+    - - cannonical_type
+      - Creature
+    - - name
+      - Servo 1/1 C
 type: Enchantment
-url: http://tappedout.net/mtg-card/hidden-stockpile/
+url: https://tappedout.net/mtg-card/hidden-stockpile/
+

@@ -2,41 +2,45 @@ activated_abilities:
 - ': Resolute Rider gains lifelink until end of turn.'
 - ': Resolute Rider gains indestructible until end of turn. *(Damage and effects that
   say  don''t destroy it.)*'
-activation_costs:
+activated_costs:
 - B
 - W
 canadian_hl_score: 0
 cannonical_set: ELD
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 2.8
+draft_average: 2.94
 effective_cost:
 - W
 - B
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,22 +48,33 @@ keywords:
 - Indestructible
 - Lifelink
 mana_cost: '{W/B}{W/B}{W/B}{W/B}'
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Resolute Rider
 power_toughness: 4/2
 printings:
 - ELD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Carmen Sinek
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Respect the wilds? Certainly. Fear them? No."*'
     frame: m15
     mtgo_foil_id: 78575
     mtgo_id: 78574
     name: Throne of Eldraine
     number: 214
     rarity: uncommon
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
+    variations: []
     wizards_id: 473176
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=473176
 rules: "[[symbol:WB]][[symbol:WB]]: Resolute Rider gains lifelink until end of turn.\r\
@@ -70,7 +85,9 @@ subtype: Human Knight
 subtype_tokens:
 - Human
 - Knight
-tags: card-color-black card-color-gold card-color-gold-cost-4 card-color-white card-type-creature
+synonyms: []
 tapped_id: 22181
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/resolute-rider/
+url: https://tappedout.net/mtg-card/resolute-rider/
+

@@ -4,40 +4,44 @@ activated_abilities:
   cascade spell if the spell has a cost greater than Cast Off''s cost. If you cast
   a Cast Off that another player owns, only you may cast the Realm-Cloaked Giant that
   got sent on an adventure, not the owner.)*'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: AFC
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.72
+draft_average: 1.36
 effective_cost:
 - W
-flat_cost: 7
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,43 +50,67 @@ keywords:
 - Exile
 - Adventure
 mana_cost: 5WW
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Realm-Cloaked Giant
 power_toughness: 7/7
 printings:
-- AFC:
-    alterations:
-    - Normal
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 70
-    rarity: mythic_rare
-    release_date: 2021-07-24
 - ELD:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Adam Paquette
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 78147
     mtgo_id: 78146
     name: Throne of Eldraine
     number: 26
     rarity: mythic_rare
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '277'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '277'
+    - identifier: PromoPack
     wizards_id: 472988
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=472988
+- AFC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: null
+    cannonical: true
+    flavour_text: ''
+    frame: null
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 70
+    rarity: mythic_rare
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Vigilance\r\n\r\n<br>\r\n\r\n*(You may cast Realm-Cloaked Giant from exile\
   \ if you sent this on an adventure.)*\r\n\r\n-----\r\n\r\n<h3>Cast Off</h3>\r\n\
   <h4>Sorcery &mdash; Adventure</h4>\r\n\r\nDestroy all non-Giant Creatures.\r\n\r\
@@ -106,7 +134,8 @@ synonyms:
 - Realm-Cloaked Giant/Cast Off
 - Cast Off/Realm-Cloaked Giant
 - Cast Off / Realm-Cloaked Giant
-tags: card-color-white card-color-white-cost-7 card-type-creature
 tapped_id: 22152
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/realm-cloaked-giant/
+url: https://tappedout.net/mtg-card/realm-cloaked-giant/
+

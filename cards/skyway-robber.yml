@@ -1,32 +1,34 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - U
-flat_cost: 4
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
 - Penny Dreadful
-- Vintage
-has_activated_abilities: false
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -34,23 +36,33 @@ keywords:
 - Exile
 - Escape
 mana_cost: 3U
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Skyway Robber
 power_toughness: 3/3
 printings:
 - NCC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Denys Tsiperko
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Streets of New Capenna: Commander'
     number: 31
     rarity: rare
-    release_date: 2022-04-30
+    release_date: '2022-04-30'
+    tla: NCC
     variations:
-    - alterations:
-      - Normal
-      identifier: '132'
+    - identifier: '132'
+    wizards_id: null
+    wizards_url: null
 rules: "Flying\r\n\r\nEscape &mdash; [[symbol:3]][[symbol:U]], Exile five other cards\
   \ from your graveyard. *(You may cast this from your graveyard for this card's escape\
   \ cost.)*\r\n\r\nWhen this escapes, it gains \"Whenever this deals combat damage\
@@ -64,7 +76,9 @@ subtype: Bird Rogue
 subtype_tokens:
 - Bird
 - Rogue
-tags: card-color-blue card-color-blue-cost-4 card-type-creature
+synonyms: []
 tapped_id: 26410
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/skyway-robber/
+url: https://tappedout.net/mtg-card/skyway-robber/
+

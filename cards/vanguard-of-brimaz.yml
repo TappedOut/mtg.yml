@@ -1,58 +1,78 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: BNG
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.53
+draft_average: 4.43
 effective_cost:
 - W
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Vigilance
 - Heroic
 mana_cost: WW
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Vanguard of Brimaz
 power_toughness: 2/2
 printings:
 - BNG:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Mark Zug
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"The humans and their gods never blessed me. Only the pride deserves
+      my allegiance."'
     frame: modern
     mtgo_foil_id: 51756
     mtgo_id: 51755
     name: Born of the Gods
     number: 29
     rarity: uncommon
-    release_date: 2014-02-07
+    release_date: '2014-02-07'
+    tla: BNG
+    variations: []
     wizards_id: 378401
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=378401
+rarity: uncommon
 rules: "Vigilance\r\n\r\nHeroic -- Whenever you cast a spell that targets Vanguard\
   \ of Brimaz, put a 1/1 white Cat Soldier creature token with vigilance onto the\
   \ battlefield."
@@ -61,18 +81,24 @@ subtype: Cat Soldier
 subtype_tokens:
 - Cat
 - Soldier
-tags: card-color-white card-color-white-cost-2 card-type-creature
+synonyms: []
 tapped_id: 15221
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Cat Soldier 1/1 W
-  power_toughness: 1/1
-  rules: Vigilance
-  subtype: Cat Soldier
-  tla: BNG
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Vigilance
+    - - type
+      - Token Creature
+    - - subtype
+      - 104
+    - - cannonical_type
+      - Creature
+    - - name
+      - Cat Soldier 1/1 W
 type: Creature
-url: http://tappedout.net/mtg-card/vanguard-of-brimaz/
+url: https://tappedout.net/mtg-card/vanguard-of-brimaz/
+

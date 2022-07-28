@@ -1,60 +1,77 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: RIX
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.92
+draft_average: 5.95
 effective_cost:
 - W
 - U
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
 mana_cost: 1WU
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Resplendent Griffin
 power_toughness: 2/2
 printings:
 - RIX:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sam Rowan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 66802
     mtgo_id: 66801
     name: Rivals of Ixalan
     number: 170
     rarity: uncommon
-    release_date: 2018-01-19
+    release_date: '2018-01-19'
+    tla: RIX
+    variations: []
     wizards_id: 439831
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439831
+rarity: uncommon
 rules: "Flying \r\n\r\nAscend _(If you control ten or more permanents, you get the\
   \ city's blessing for the rest of the game.)_\r\n\r\nWhenever Resplendent Griffin\
   \ attacks, if you have the city's blessing, put a +1/+1 counter on it."
@@ -62,17 +79,24 @@ slug: resplendent-griffin
 subtype: Griffin
 subtype_tokens:
 - Griffin
-tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-white card-type-creature
+synonyms: []
 tapped_id: 20013
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: City's Blessing
-  power_toughness: null
-  rules: ''
-  tla: RIX
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - City's Blessing
 type: Creature
-url: http://tappedout.net/mtg-card/resplendent-griffin/
+url: https://tappedout.net/mtg-card/resplendent-griffin/
+

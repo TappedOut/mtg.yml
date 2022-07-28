@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 - G
 - R
@@ -11,38 +12,39 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - R
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Penny Dreadful
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -51,28 +53,43 @@ keywords:
 - Hideaway
 - Tokens
 mana_cost: 2R
-mana_cost_converted: 3
 mana_produced: W, U, B, R, G
+mana_value: 3
+melds_from: []
 name: Widespread Thieving
 printings:
 - SNC:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Andrew Mar
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Streets of New Capenna
     number: 130
     rarity: rare
-    release_date: 2022-04-29
+    release_date: '2022-04-29'
+    tla: SNC
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '428'
+    - identifier: '428'
     wizards_id: 555331
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=555331
 rules: "Hideaway 5 *(When this enchantment enters the battlefield, look at the top\
@@ -84,19 +101,24 @@ rules: "Hideaway 5 *(When this enchantment enters the battlefield, look at the t
   \ \"[[Widespread Thieving]]\". You may only cast cards exiled by this card if they\
   \ were exiled by the ability in the first paragraph.)*"
 slug: widespread-thieving
-tags: card-color-red card-color-red-cost-3 card-mana-black card-mana-blue card-mana-green
-  card-mana-red card-mana-white card-type-enchantment
+synonyms: []
 tapped_id: 26334
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: SNC
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Enchantment
-url: http://tappedout.net/mtg-card/widespread-thieving/
+url: https://tappedout.net/mtg-card/widespread-thieving/
+

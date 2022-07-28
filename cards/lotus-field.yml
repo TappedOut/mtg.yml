@@ -1,5 +1,6 @@
 activated_abilities:
 - ': Add three mana of any one color.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M20
 cannonical_type: Land
@@ -14,26 +15,30 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 6.38
+draft_average: 4.95
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -41,39 +46,53 @@ is_permanent: true
 keywords:
 - Hexproof
 - Sacrifice
-mana_cost_converted: 0
 mana_produced: UWBRG
+mana_value: 0
+melds_from: []
 name: Lotus Field
 printings:
 - M20:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: John Avon
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 73398
     mtgo_id: 73397
     name: Core Set 2020
     number: 249
     rarity: rare
-    release_date: 2019-07-12
+    release_date: '2019-07-12'
+    tla: M20
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 467003
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=467003
 rules: "Hexproof\r\n\r\nLotus Field enters the battlefield tapped.\r\n\r\nWhen Lotus\
   \ Field enters the battlefield, sacrifice two lands.\r\n\r\n[[symbol:T]]: Add three\
   \ mana of any one color."
 slug: lotus-field
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black-slow card-mana-blue-slow
-  card-mana-green-slow card-mana-red-slow card-mana-white-slow card-type-land
+synonyms: []
 tap_land: true
 tapped_id: 21868
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/lotus-field/
+url: https://tappedout.net/mtg-card/lotus-field/
+

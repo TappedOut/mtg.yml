@@ -1,6 +1,6 @@
 activated_abilities:
 - ', : Put a +1/+1 counter on each creature you control with flying.'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: NCC
@@ -8,33 +8,37 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.89
+draft_average: 4.61
 effective_cost:
 - U
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,35 +46,56 @@ keywords:
 - Flying
 - Counters
 mana_cost: 2U
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Wingspan Mentor
 power_toughness: 1/3
 printings:
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 239
-    rarity: uncommon
-    release_date: 2022-04-30
-    wizards_id: 559811
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559811
 - IKO:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sidharth Chaturvedi
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Their bond grew over time, as did the height of their jumps.*'
     frame: m15
     mtgo_foil_id: 80154
     mtgo_id: 80153
     name: 'Ikoria: Lair of Behemoths'
     number: 72
     rarity: uncommon
-    release_date: 2020-04-15
+    release_date: '2020-04-15'
+    tla: IKO
+    variations: []
     wizards_id: 479592
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479592
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Sidharth Chaturvedi
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Their bond grew over time, as did the height of their jumps.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 239
+    rarity: uncommon
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559811
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559811
 rules: "When this enters the battlefield, put a flying counter on target non-Human\
   \ creature you control.\r\n\r\n[[symbol:2]][[symbol:U]], [[symbol:T]]: Put a +1/+1\
   \ counter on each creature you control with flying."
@@ -79,7 +104,9 @@ subtype: Human Wizard
 subtype_tokens:
 - Human
 - Wizard
-tags: card-color-blue card-color-blue-cost-3 card-type-creature
+synonyms: []
 tapped_id: 22887
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/wingspan-mentor/
+url: https://tappedout.net/mtg-card/wingspan-mentor/
+

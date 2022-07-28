@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Gain .'
 - ', : Create a 2/2 colourless Assembly-Worker artifact creature token.'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: C13
@@ -17,98 +17,156 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 9.33
+draft_average: 5.0
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
-mana_cost_converted: 0
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Urza's Factory
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 288
-    rarity: uncommon
-    release_date: 2021-03-19
-    wizards_id: 509653
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509653
-- C13:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 51521
-    mtgo_id: 51520
-    name: Commander 2013
-    rarity: uncommon
-    release_date: 2013-11-01
-    wizards_id: 376564
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376564
 - TSP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Tedin
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"Though their ideals are leagues apart, Urza s and Mishra''s creations
+      have a surprising harmony with one another."Tocasia, journal entry'
     frame: modern
     mtgo_foil_id: 25724
     mtgo_id: 25723
     name: Time Spiral
+    number: null
     rarity: uncommon
-    release_date: 2006-10-06
+    release_date: '2006-10-06'
+    tla: TSP
+    variations: []
     wizards_id: 116384
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=116384
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Tedin
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 5
     rarity: uncommon
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C13:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mark Tedin
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "\"Though their ideals are leagues apart, Urza's and Mishra's creations\
+      \ have a surprising harmony with one another.\"\r\n\u2014Tocasia, journal entry"
+    frame: modern
+    mtgo_foil_id: 51521
+    mtgo_id: 51520
+    name: Commander 2013
+    number: null
+    rarity: uncommon
+    release_date: '2013-11-01'
+    tla: C13
+    variations: []
+    wizards_id: 376564
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376564
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Tedin
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*\"Though their ideals are leagues apart, Urza's and Mishra's creations\
+      \ have a surprising harmony with one another.\"\r\n<br>\u2014Tocasia, journal\
+      \ entry*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 288
+    rarity: uncommon
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509653
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509653
+rarity: uncommon
 rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:7]], [[symbol:T]]: Create\
   \ a 2/2 colourless Assembly-Worker artifact creature token."
 slug: urzas-factory
 subtype: Urza's
 subtype_tokens:
 - Urza's
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
+synonyms: []
 tapped_id: 1229
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Assembly-Worker 2/2 C
-  power_toughness: 2/2
-  rules: ''
-  subtype: Assembly-Worker
-  tla: TSR
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 115
+    - - cannonical_type
+      - Creature
+    - - name
+      - Assembly-Worker 2/2 C
 type: Land
-url: http://tappedout.net/mtg-card/urzas-factory/
+url: https://tappedout.net/mtg-card/urzas-factory/
+

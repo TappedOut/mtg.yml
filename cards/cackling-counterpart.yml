@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: MM3
@@ -12,89 +13,130 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.5
+draft_average: 2.33
 effective_cost:
 - U
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flashback
 - Tokens
 mana_cost: 1UU
-mana_cost_converted: 3
+mana_produced: ''
+mana_value: 3
+melds_from: []
 name: Cackling Counterpart
+power_toughness: ''
 printings:
-- MM3:
+- ISD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: David Rapoza
+    booster_exclude: false
     border_color: B
-    frame: m15
-    mtgo_foil_id: 63298
-    mtgo_id: 63297
-    name: Modern Masters 2017 Edition
-    number: 32
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 42709
+    mtgo_id: 42708
+    name: Innistrad
+    number: null
     rarity: rare
-    release_date: 2017-03-17
-    wizards_id: 425857
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425857
+    release_date: '2011-09-30'
+    tla: ISD
+    variations: []
+    wizards_id: 245195
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=245195
 - C14:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: David Rapoza
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 54974
     mtgo_id: 54973
     name: Commander 2014
     number: 100
     rarity: rare
-    release_date: 2014-11-21
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
     wizards_id: 389456
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389456
-- ISD:
+- MM3:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: David Rapoza
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 42709
-    mtgo_id: 42708
-    name: Innistrad
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: 63298
+    mtgo_id: 63297
+    name: Modern Masters 2017 Edition
+    number: 32
     rarity: rare
-    release_date: 2011-09-30
-    wizards_id: 245195
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=245195
+    release_date: '2017-03-17'
+    tla: MM3
+    variations: []
+    wizards_id: 425857
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425857
+rarity: rare
 rules: "Put a token onto the battlefield that's a copy of target creature you control.\
   \ \r\n\r\nFlashback [[symbol:5]][[symbol:U]][[symbol:U]] *(You may cast this card\
   \ from your graveyard for its flashback cost. Then exile it.)*"
 slug: cackling-counterpart
-tags: card-color-blue card-color-blue-cost-3 card-type-instant
+synonyms: []
 tapped_id: 13272
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Instant
-url: http://tappedout.net/mtg-card/cackling-counterpart/
+url: https://tappedout.net/mtg-card/cackling-counterpart/
+

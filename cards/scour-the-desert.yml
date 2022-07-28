@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MH2
 cannonical_type: Sorcery
@@ -12,62 +14,80 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - W
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 - Exile
 - Tokens
 mana_cost: 3WW
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Scour the Desert
 printings:
 - MH2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Tyler Walpole
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Even in the most barren wastelands, every death feeds more life.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Modern Horizons 2
     number: 28
     rarity: uncommon
-    release_date: 2021-06-18
+    release_date: '2021-06-18'
+    tla: MH2
+    variations: []
     wizards_id: 522104
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522104
 rules: Exile target creature card from your graveyard. Create X 1/1 white Bird creature
   tokens with flying, where X is the exiled card's toughness.
 slug: scour-the-desert
-tags: card-color-white card-color-white-cost-5 card-type-sorcery
+synonyms: []
 tapped_id: 24565
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Bird 1/1 W
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Bird
-  tla: MH2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 32
+    - - cannonical_type
+      - Creature
+    - - name
+      - Bird 1/1 W
 type: Sorcery
-url: http://tappedout.net/mtg-card/scour-the-desert/
+url: https://tappedout.net/mtg-card/scour-the-desert/
+

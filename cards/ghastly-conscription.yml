@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C19
 cannonical_type: Sorcery
@@ -10,93 +12,132 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.78
+draft_average: 1.67
 effective_cost:
 - B
-flat_cost: 7
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Morph
 - Manifest
 mana_cost: 5BB
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Ghastly Conscription
 printings:
-- C19:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 77345
-    mtgo_id: 77344
-    name: Commander 2019
-    number: 115
-    rarity: mythic_rare
-    release_date: 2019-08-23
-    wizards_id: 470661
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470661
-- C16:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2016
-    number: 111
-    rarity: mythic_rare
-    release_date: 2016-11-11
-    wizards_id: 420728
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420728
 - FRF:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: YW Tang
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 55371
     mtgo_id: 55370
     name: Fate Reforged
     number: 70
     rarity: mythic_rare
-    release_date: 2015-01-23
+    release_date: '2015-01-23'
+    tla: FRF
+    variations: []
     wizards_id: 391843
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=391843
+- C16:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: YW Tang
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2016
+    number: 111
+    rarity: mythic_rare
+    release_date: '2016-11-11'
+    tla: C16
+    variations: []
+    wizards_id: 420728
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420728
+- C19:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: YW Tang
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 77345
+    mtgo_id: 77344
+    name: Commander 2019
+    number: 115
+    rarity: mythic_rare
+    release_date: '2019-08-23'
+    tla: C19
+    variations: []
+    wizards_id: 470661
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470661
+rarity: mythic_rare
 rules: Exile all creature cards from target player's graveyard in a face-down pile,
   shuffle that pile, then manifest those cards. *(To manifest a card, put it onto
   the battlefield face down as a 2/2 creature. Turn it face up at any time for its
   mana cost if it's a creature card.)*
 slug: ghastly-conscription
-tags: card-color-black card-color-black-cost-7 card-type-sorcery
+synonyms: []
 tapped_id: 16199
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Manifest 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down manifested creature with this reminder card.\r\
-    \n\r\nA manifested creature card can be turned face up at any time for its mana\
-    \ cost. A face-down card can also be turned face up for its morph cost."
-  tla: C19
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down manifested creature with this reminder card.\r\
+        \n\r\nA manifested creature card can be turned face up at any time for its\
+        \ mana cost. A face-down card can also be turned face up for its morph cost."
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Manifest 2/2 C
 type: Sorcery
-url: http://tappedout.net/mtg-card/ghastly-conscription/
+url: https://tappedout.net/mtg-card/ghastly-conscription/
+

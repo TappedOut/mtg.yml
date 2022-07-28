@@ -2,76 +2,99 @@ activated_abilities:
 - '(1)(Green), Sacrifice a non-Ooze creature: Put an X/X green Ooze creature token
   into play, where X is the sacrificed creature''s power. Play this ability only any
   time you could play a sorcery.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ALA
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+draft_average: 3.22
 effective_cost:
 - G
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
 mana_cost: 1G
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Ooze Garden
 power_toughness: '0'
 printings:
 - ALA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Anthony S. Waters
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Jund has little necromancy. Instead, the flesh of its dead gives
+      rise to algal fiends.
     frame: modern
     mtgo_foil_id: 30952
     mtgo_id: 30951
     name: Shards of Alara
     number: 143
     rarity: rare
-    release_date: 2008-10-03
+    release_date: '2008-10-03'
+    tla: ALA
+    variations: []
     wizards_id: 174886
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=174886
+rarity: rare
 rules: '(1)(Green), Sacrifice a non-Ooze creature: Put an X/X green Ooze creature
   token into play, where X is the sacrificed creature''s power. Play this ability
   only any time you could play a sorcery.'
 slug: ooze-garden
-tags: card-color-green card-color-green-cost-2 card-type-enchantment
+synonyms: []
 tapped_id: 10075
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Ooze X/X G
-  power_toughness: X/X
-  rules: ''
-  subtype: Ooze
-  tla: ALA
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - X/X
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 14
+    - - cannonical_type
+      - Creature
+    - - name
+      - Ooze X/X G
 type: Enchantment
-url: http://tappedout.net/mtg-card/ooze-garden/
+url: https://tappedout.net/mtg-card/ooze-garden/
+

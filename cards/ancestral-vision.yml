@@ -1,10 +1,10 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: IMA
 cannonical_type: Sorcery
-color_indicator:
-- U
+color_indicator: U
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -14,105 +14,160 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 3.79
+draft_average: 1.73
 effective_cost:
 - U
-flat_cost: 0
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Suspend
 - Counters
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Ancestral Vision
 printings:
-- TSR:
+- TSP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Poole
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 52
-    rarity: mythic_rare
-    release_date: 2021-03-19
-    wizards_id: 509417
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509417
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 25610
+    mtgo_id: 25609
+    name: Time Spiral
+    number: null
+    rarity: rare
+    release_date: '2006-10-06'
+    tla: TSP
+    variations: []
+    wizards_id: 113505
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=113505
+- DD2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mark Poole
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 31639
+    name: 'Duel Decks: Jace vs. Chandra'
+    number: 21
+    rarity: rare
+    release_date: '2008-11-07'
+    tla: DD2
+    variations: []
+    wizards_id: 189244
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=189244
 - IMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Avon
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 65964
     mtgo_id: 65963
     name: Iconic Masters
     number: 42
     rarity: rare
-    release_date: 2017-11-17
+    release_date: '2017-11-17'
+    tla: IMA
+    variations: []
     wizards_id: 438608
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438608
 - DD3:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mark Poole
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Duel Decks Anthology
     number: 21
     rarity: rare
-    release_date: 2014-12-05
+    release_date: '2014-12-05'
+    tla: DD3
+    variations: []
     wizards_id: 393818
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393818
-- DD2:
+- TSR:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Poole
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_id: 31639
-    name: 'Duel Decks: Jace vs. Chandra'
-    number: 21
-    rarity: rare
-    release_date: 2008-11-07
-    wizards_id: 189244
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=189244
-- TSP:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 25610
-    mtgo_id: 25609
-    name: Time Spiral
-    rarity: rare
-    release_date: 2006-10-06
-    wizards_id: 113505
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=113505
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 52
+    rarity: mythic_rare
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509417
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509417
+rarity: rare
 rules: "This is blue.\r\n\r\nSuspend 4&mdash;[[symbol:U]] <i>(Rather than cast this\
   \ card from your hand, pay [[symbol:U]] and exile this with four time counters on\
   \ this. At the beginning of your upkeep, remove a time counter. When the last is\
   \ removed, cast this without paying the mana cost.) </i>\r\n\r\nTarget player draws\
   \ three cards."
 slug: ancestral-vision
-tags: card-type-sorcery
+synonyms: []
 tapped_id: 975
+tokens: []
 type: Sorcery
-url: http://tappedout.net/mtg-card/ancestral-vision/
+url: https://tappedout.net/mtg-card/ancestral-vision/
+

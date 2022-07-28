@@ -1,54 +1,71 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DIS
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+draft_average: 1.0
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Defender
 mana_cost: 4G
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Sprouting Phytohydra
 power_toughness: 0/2
 printings:
 - DIS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Heather Hudson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: A hydra tender's problem isn't having enough defenses but enough
+      pots.
     frame: modern
     mtgo_foil_id: 24330
     mtgo_id: 24329
     name: Dissension
     number: 95
     rarity: rare
-    release_date: 2006-05-05
+    release_date: '2006-05-05'
+    tla: DIS
+    variations: []
     wizards_id: 111220
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=111220
+rarity: rare
 rules: "Defender (This creature can't attack.) \r\n\r\nWhenever Sprouting Phytohydra\
   \ is dealt damage, you may put a token into play that's a copy of Sprouting Phytohydra."
 slug: sprouting-phytohydra
@@ -56,17 +73,24 @@ subtype: Plant Hydra
 subtype_tokens:
 - Plant
 - Hydra
-tags: card-color-green card-color-green-cost-5 card-type-creature
+synonyms: []
 tapped_id: 1670
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Creature
-url: http://tappedout.net/mtg-card/sprouting-phytohydra/
+url: https://tappedout.net/mtg-card/sprouting-phytohydra/
+

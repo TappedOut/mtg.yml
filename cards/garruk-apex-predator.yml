@@ -3,6 +3,7 @@ activated_abilities:
 - ': Create a 3/3 black Beast creature token with deathtouch.'
 - ': Destroy target creature. You gain life equal to its toughness. '
 - ': Target opponent gets an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M15
 cannonical_type: Planeswalker
@@ -10,30 +11,34 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.86
+draft_average: 4.29
 effective_cost:
 - B
 - G
-flat_cost: 7
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,45 +47,78 @@ keywords:
 - Trample
 - Tokens
 mana_cost: 5BG
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Garruk, Apex Predator
+planeswalker_loyalty: 5
 printings:
-- WARMED:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: 'War of the Spark: Mythic Edition'
-    number: 5
-    rarity: mythic_rare
-    release_date: 2019-05-02
 - M15:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Tyler Jacobson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 53565
     mtgo_id: 53564
     name: Magic 2015
     number: 210
     rarity: mythic_rare
-    release_date: 2014-07-18
+    release_date: '2014-07-18'
+    tla: M15
+    variations: []
     wizards_id: 383251
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383251
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jae Lee
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 210
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- WARMED:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Victor Adame Minguez
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'War of the Spark: Mythic Edition'
+    number: 5
+    rarity: mythic_rare
+    release_date: '2019-05-02'
+    tla: WARMED
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Destroy another target planeswalker. \r\n\r\n[[symbol:loyalty-plus1]]:\
   \ Create a 3/3 black Beast creature token with deathtouch.\r\n\r\n[[symbol:loyalty-minus3]]:\
   \ Destroy target creature. You gain life equal to its toughness. \r\n\r\n[[symbol:loyalty-minus8]]:\
@@ -90,29 +128,40 @@ slug: garruk-apex-predator
 subtype: Garruk
 subtype_tokens:
 - Garruk
-tags: card-color-black card-color-gold card-color-gold-cost-7 card-color-green card-type-planeswalker
+synonyms: []
 tapped_id: 15651
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Garruk, Apex Predator
-  power_toughness: null
-  rules: Whenever a creature attacks you, it gets +5/+5 and gains trample until end
-    of turn.
-  subtype: Garruk
-  tla: M15
-  type: Emblem
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Beast 3/3 B
-  power_toughness: 3/3
-  rules: Deathtouch
-  subtype: Beast
-  tla: M15
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Whenever a creature attacks you, it gets +5/+5 and gains trample until end
+        of turn.
+    - - type
+      - Emblem
+    - - subtype
+      - 393
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Garruk, Apex Predator
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 3/3
+    - - rules
+      - Deathtouch
+    - - type
+      - Token Creature
+    - - subtype
+      - 83
+    - - cannonical_type
+      - Creature
+    - - name
+      - Beast 3/3 B
 type: Planeswalker
-url: http://tappedout.net/mtg-card/garruk-apex-predator/
+url: https://tappedout.net/mtg-card/garruk-apex-predator/
+

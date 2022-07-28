@@ -1,59 +1,77 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: RNA
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.43
+draft_average: 4.89
 effective_cost:
 - W
 - U
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 - Tap/Untap
 - Tokens
 mana_cost: 1{W/U} // 2WU
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Depose / Deploy
 printings:
 - RNA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sara Winters
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Ravnica Allegiance
     number: 225
     rarity: uncommon
-    release_date: 2019-01-25
+    release_date: '2019-01-25'
+    tla: RNA
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "<h4></h4>\r\n\r\nTap target creature.\r\n\r\nDraw a card.\r\n\r\n-----\r\n\
   \r\n<h4></h4>\r\n\r\nCreate two 1/1 colourless thopter artifact creature tokens\
   \ with flying, then you gain 1 life for each creature you control."
@@ -68,18 +86,23 @@ synonyms:
 - Deploy and Depose
 - Deploy to Depose
 - Depose to Deploy
-tags: card-color-blue card-color-gold card-color-gold-cost-6 card-color-white card-type-instant
 tapped_id: 21044
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Thopter 1/1 C
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Thopter
-  tla: RNA
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 323
+    - - cannonical_type
+      - Creature
+    - - name
+      - Thopter 1/1 C
 type: Instant
-url: http://tappedout.net/mtg-card/depose-deploy/
+url: https://tappedout.net/mtg-card/depose-deploy/
+

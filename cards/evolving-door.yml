@@ -3,6 +3,7 @@ activated_abilities:
   your library for a creature card that''s exactly that many colours plus one. Exile
   that card, then shuffle your library. You may cast the exiled card. Activate this
   ability only as a sorcery.*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SNC
 cannonical_type: Artifact
@@ -10,6 +11,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -17,31 +19,32 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - G
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Penny Dreadful
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -49,27 +52,42 @@ keywords:
 - Exile
 - Sacrifice
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Evolving Door
 printings:
 - SNC:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Drew Baker
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*In with the old, out with the new.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Streets of New Capenna
     number: 144
     rarity: rare
-    release_date: 2022-04-29
+    release_date: '2022-04-29'
+    tla: SNC
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '429'
+    - identifier: '429'
     wizards_id: 555345
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=555345
 rules: '[[symbol:1]], [[symbol:T]], Sacrifice a creature: Count the colours of the
@@ -77,7 +95,9 @@ rules: '[[symbol:1]], [[symbol:T]], Sacrifice a creature: Count the colours of t
   that many colours plus one. Exile that card, then shuffle your library. You may
   cast the exiled card. Activate this ability only as a sorcery.*'
 slug: evolving-door
-tags: card-color-green card-color-green-cost-3 card-type-artifact
+synonyms: []
 tapped_id: 26182
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/evolving-door/
+url: https://tappedout.net/mtg-card/evolving-door/
+

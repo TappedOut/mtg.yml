@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: HOP
@@ -11,52 +12,74 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+effective_cost: []
 formats:
 - 1v1 Commander
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Pauper
+- Casual
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
-mana_cost_converted: 0
+keywords: []
+mana_value: 0
+melds_from: []
 name: Agyrem
 printings:
-- PCA:
-    alterations:
-    - Oversized
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Planechase Anthology
-    number: 11
-    rarity: common
-    release_date: 2016-11-25
-    wizards_id: 423592
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423592
 - HOP:
     alterations:
-    - Oversized
+    - !!python/tuple
+      - oversized
+      - Oversized
+    artist: Todd Lockwood
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Planechase
     number: 3
     rarity: common
-    release_date: 2009-09-04
+    release_date: '2009-09-04'
+    tla: HOP
+    variations: []
     wizards_id: 198090
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=198090
+- PCA:
+    alterations:
+    - !!python/tuple
+      - oversized
+      - Oversized
+    artist: Todd Lockwood
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Planechase Anthology
+    number: 11
+    rarity: common
+    release_date: '2016-11-25'
+    tla: PCA
+    variations: []
+    wizards_id: 423592
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423592
+rarity: common
 rules: "Whenever a white creature is put into a graveyard from the battlefield, return\
   \ it to the battlefield under its owner's control at the beginning of the next end\
   \ step.\r\n\r\nWhenever a nonwhite creature is put into a graveyard from the battlefield,\
@@ -66,7 +89,9 @@ slug: agyrem
 subtype: Ravnica
 subtype_tokens:
 - Ravnica
-tags: card-color-colorless card-color-colorless-cost-0 card-type-plane
+synonyms: []
 tapped_id: 12675
+tokens: []
 type: Plane
-url: http://tappedout.net/mtg-card/agyrem/
+url: https://tappedout.net/mtg-card/agyrem/
+

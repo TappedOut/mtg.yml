@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Enchantment
@@ -5,30 +7,32 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 10.21
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -36,57 +40,109 @@ keywords:
 - First strike
 - Attach
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Vow of Lightning
 printings:
-- CMR:
+- CMD:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Svetlin Velinov
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: Commander Legends
-    number: 209
+    cannonical: true
+    flavour_text: "\"Ruhan would never agree to such terms.\"\r\n-Ruhan of the Fomori"
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 40655
+    name: 'MTG: Commander'
+    number: null
     rarity: uncommon
-    release_date: 2020-11-20
-    wizards_id: 497729
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497729
-- EO2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Explorers of Ixalan
-    number: 30
-    rarity: uncommon
-    release_date: 2017-12-15
-    wizards_id: 439372
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439372
+    release_date: '2011-06-17'
+    tla: CMD
+    variations: []
+    wizards_id: 236999
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=236999
 - CM1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: null
     booster_exclude: true
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander Anthology
     number: 63
     rarity: uncommon
-    release_date: 2017-06-09
-- CMD:
+    release_date: '2017-06-09'
+    tla: CM1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- EO2:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Svetlin Velinov
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_id: 40655
-    name: 'MTG: Commander'
+    cannonical: true
+    flavour_text: "*\"Ruhan would never agree to such terms.\"\r\n<br>\u2014Ruhan\
+      \ of the Fomori*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Explorers of Ixalan
+    number: 30
     rarity: uncommon
-    release_date: 2011-06-17
-    wizards_id: 236999
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=236999
+    release_date: '2017-12-15'
+    tla: EO2
+    variations: []
+    wizards_id: 439372
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439372
+- CMR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Randy Vargas
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"For all I have lost, for all who have fallen, I will render\
+      \ you to dust.\"\r\n<br>\u2014Jared Carthalion*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Legends
+    number: 209
+    rarity: uncommon
+    release_date: '2020-11-20'
+    tla: CMR
+    variations: []
+    wizards_id: 497729
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497729
+rarity: uncommon
 rules: "Enchant creature\r\n\r\nEnchanted creature gets +2/+2, has first strike, and\
   \ can't attack you or a planeswalker you control."
 slug: vow-of-lightning
@@ -95,7 +151,8 @@ subtype_tokens:
 - Aura
 synonyms:
 - Vow of Lighting
-tags: card-color-red card-color-red-cost-3 card-type-enchantment
 tapped_id: 13079
+tokens: []
 type: Enchantment
-url: http://tappedout.net/mtg-card/vow-of-lightning/
+url: https://tappedout.net/mtg-card/vow-of-lightning/
+

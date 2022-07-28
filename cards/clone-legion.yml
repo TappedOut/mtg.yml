@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Sorcery
@@ -10,84 +12,128 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.5
+draft_average: 2.8
 effective_cost:
 - U
-flat_cost: 9
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: 7UU
-mana_cost_converted: 9
+mana_value: 9
+melds_from: []
 name: Clone Legion
 printings:
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 215
-    rarity: mythic_rare
-    release_date: 2022-04-30
-    wizards_id: 559787
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559787
-- C17:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2017
-    number: 84
-    rarity: mythic_rare
-    release_date: 2017-08-25
-    wizards_id: 433016
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433016
 - DTK:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Svetlin Vellinov
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Their lust for battle was so great that they didn''t care their
+      enemies wore their own faces.*'
     frame: m15
     mtgo_foil_id: 55925
     mtgo_id: 55924
     name: Dragons of Tarkir
     number: 48
     rarity: mythic_rare
-    release_date: 2015-03-27
+    release_date: '2015-03-27'
+    tla: DTK
+    variations: []
     wizards_id: 394517
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394517
+- C17:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: null
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2017
+    number: 84
+    rarity: mythic_rare
+    release_date: '2017-08-25'
+    tla: C17
+    variations: []
+    wizards_id: 433016
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433016
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Svetlin Velinov
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Their lust for battle was so great that they didn''t care their
+      enemies wore their own faces.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 215
+    rarity: mythic_rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559787
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559787
+rarity: mythic_rare
 rules: For each creature target player controls, create a token that's a copy of that
   creature.
 slug: clone-legion
-tags: card-color-blue card-color-blue-cost-9 card-type-sorcery
+synonyms: []
 tapped_id: 16447
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Sorcery
-url: http://tappedout.net/mtg-card/clone-legion/
+url: https://tappedout.net/mtg-card/clone-legion/
+

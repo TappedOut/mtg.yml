@@ -3,56 +3,74 @@ activated_abilities:
   the battlefield.'
 - '{T}, Sacrifice a creature with defender: Flamewright deals 1 damage to target creature
   or player. '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CNS
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.72
+draft_average: 3.64
 effective_cost:
 - W
 - R
-flat_cost: 2
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
-is_mtgo: false
 is_permanent: true
 keywords:
 - Sacrifice
 mana_cost: RW
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Flamewright
 power_toughness: 1/1
 printings:
 - CNS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mathias Kollros
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Those who can''t conspire, create.*'
     frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Conspiracy
     number: 46
     rarity: uncommon
-    release_date: 2014-06-06
+    release_date: '2014-06-06'
+    tla: CNS
+    variations: []
     wizards_id: 382269
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382269
+rarity: uncommon
 rules: "{1}, {T}: Put a 1/1 colorless Construct artifact creature token with defender\
   \ onto the battlefield.\r\n\r\n{T}, Sacrifice a creature with defender: Flamewright\
   \ deals 1 damage to target creature or player. "
@@ -61,18 +79,24 @@ subtype: Human Artificer
 subtype_tokens:
 - Human
 - Artificer
-tags: card-color-gold card-color-gold-cost-2 card-color-red card-color-white card-type-creature
+synonyms: []
 tapped_id: 15561
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Construct 1/1 C Token w/ Defender
-  power_toughness: 1/1
-  rules: Defender
-  subtype: Construct
-  tla: CNS
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Defender
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 72
+    - - cannonical_type
+      - Creature
+    - - name
+      - Construct 1/1 C Token w/ Defender
 type: Creature
-url: http://tappedout.net/mtg-card/flamewright/
+url: https://tappedout.net/mtg-card/flamewright/
+

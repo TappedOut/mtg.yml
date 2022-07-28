@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NEO
 cannonical_type: Sorcery
@@ -12,32 +14,31 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - G
-flat_cost: 5
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
-is_permanent: false
 keywords:
 - Reach
 - Trample
@@ -45,48 +46,67 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 1GGGG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Invoke the Ancients
 printings:
 - NEO:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Filip Burburan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*After large sections were clear-cut to build Towashi, the once-peaceful
+      Jukai Forest grew violently hostile to outsiders.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
     number: 193
     rarity: rare
-    release_date: 2022-02-10
+    release_date: '2022-02-10'
+    tla: NEO
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '390'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '474'
+    - identifier: '390'
+    - identifier: '474'
     wizards_id: 548501
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=548501
 rules: Create two 4/5 green Spirit creature tokens. For each of them, put your choice
   of a vigilance counter, a reach counter or a trample counter on it.
 slug: invoke-the-ancients
-tags: card-color-green card-color-green-cost-5 card-type-sorcery
+synonyms: []
 tapped_id: 25979
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spirit 4/5 G
-  power_toughness: 4/5
-  rules: ''
-  subtype: Spirit
-  tla: NEO
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 4/5
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 17
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spirit 4/5 G
 type: Sorcery
-url: http://tappedout.net/mtg-card/invoke-the-ancients/
+url: https://tappedout.net/mtg-card/invoke-the-ancients/
+

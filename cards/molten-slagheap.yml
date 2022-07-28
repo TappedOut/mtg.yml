@@ -3,7 +3,7 @@ activated_abilities:
 - ', : Put a storage counter on Molten Slagheap.'
 - ', Remove X storage counters from Molten Slagheap: Gain X mana in any combination
   of  and/or .'
-activation_costs:
+activated_costs:
 - B
 - C
 - R
@@ -21,98 +21,159 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 10.13
+draft_average: 5.7
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
-mana_cost_converted: 0
 mana_produced: B, R, C
+mana_value: 0
+melds_from: []
 name: Molten Slagheap
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 282
-    rarity: uncommon
-    release_date: 2021-03-19
-    wizards_id: 509647
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509647
-- CM1:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology
-    rarity: uncommon
-    release_date: 2017-06-09
-- C13:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 51511
-    mtgo_id: 51510
-    name: Commander 2013
-    rarity: uncommon
-    release_date: 2013-11-01
-    wizards_id: 376414
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376414
-- CMD:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 40773
-    name: 'MTG: Commander'
-    rarity: uncommon
-    release_date: 2011-06-17
-    wizards_id: 247515
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247515
 - TSP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daren Bader
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 25442
     mtgo_id: 25441
     name: Time Spiral
+    number: null
     rarity: uncommon
-    release_date: 2006-10-06
+    release_date: '2006-10-06'
+    tla: TSP
+    variations: []
     wizards_id: 108860
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=108860
+- CMD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Daren Bader
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 40773
+    name: 'MTG: Commander'
+    number: null
+    rarity: uncommon
+    release_date: '2011-06-17'
+    tla: CMD
+    variations: []
+    wizards_id: 247515
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247515
+- C13:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Daren Bader
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 51511
+    mtgo_id: 51510
+    name: Commander 2013
+    number: null
+    rarity: uncommon
+    release_date: '2013-11-01'
+    tla: C13
+    variations: []
+    wizards_id: 376414
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376414
+- CM1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: null
+    booster_exclude: true
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology
+    number: null
+    rarity: uncommon
+    release_date: '2017-06-09'
+    tla: CM1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daren Bader
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 282
+    rarity: uncommon
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509647
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509647
+rarity: uncommon
 rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:1]], [[symbol:T]]: Put a\
   \ storage counter on Molten Slagheap.\r\n\r\n[[symbol:1]], Remove X storage counters\
   \ from Molten Slagheap: Gain X mana in any combination of [[symbol:B]] and/or [[symbol:R]]."
 slug: molten-slagheap
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-colorless-sym
-  card-mana-red card-type-land
+synonyms: []
 tapped_id: 1117
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/molten-slagheap/
+url: https://tappedout.net/mtg-card/molten-slagheap/
+

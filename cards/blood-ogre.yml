@@ -1,35 +1,40 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: E01
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.63
+draft_average: 8.4
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -37,69 +42,125 @@ keywords:
 - Bloodthirst
 - Counters
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Blood Ogre
 power_toughness: 2/2
 printings:
-- MYS1:
+- M12:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: 'Christopher Moeller '
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 41426
+    mtgo_id: 41425
+    name: 2012 Core Set
+    number: null
     rarity: common
-    release_date: 2020-03-14
-- E01:
+    release_date: '2011-07-15'
+    tla: M12
+    variations: []
+    wizards_id: 220227
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220227
+- DDL:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Christopher Moeller
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: 'Archenemy: Nicol Bolas'
-    number: 41
+    cannonical: true
+    flavour_text: null
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 49915
+    name: 'Duel Decks: Heroes vs. Monsters'
+    number: 49
     rarity: common
-    release_date: 2017-06-16
-    wizards_id: 430580
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430580
+    release_date: '2013-09-06'
+    tla: DDL
+    variations: []
+    wizards_id: 373383
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373383
 - MM2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Christopher Moeller
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"Ogres taunt the dragons by moving into their territory, but\
+      \ even the hellkites find them too much trouble to hunt.\"\r\n<br>&mdash;Marza,\
+      \ mountain scout*"
     frame: m15
     mtgo_foil_id: 57301
     mtgo_id: 57300
     name: Modern Masters 2015 Edition
     number: 106
     rarity: common
-    release_date: 2015-05-22
+    release_date: '2015-05-22'
+    tla: MM2
+    variations: []
     wizards_id: 397759
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397759
-- DDL:
+- E01:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Christopher Moeller
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_id: 49915
-    name: 'Duel Decks: Heroes vs. Monsters'
-    number: 49
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Archenemy: Nicol Bolas'
+    number: 41
     rarity: common
-    release_date: 2013-09-06
-    wizards_id: 373383
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373383
-- M12:
+    release_date: '2017-06-16'
+    tla: E01
+    variations: []
+    wizards_id: 430580
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430580
+- MYS1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Christopher Moeller
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 41426
-    mtgo_id: 41425
-    name: 2012 Core Set
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
     rarity: common
-    release_date: 2011-07-15
-    wizards_id: 220227
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220227
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: "Bloodthirst 1 *(If an opponent was dealt damage this turn, this creature enters\
   \ the battlefield with a +1/+1 counter on it.)*\r\n\r\nFirst strike *(This creature\
   \ deals combat damage before creatures without first strike.)*"
@@ -108,7 +169,9 @@ subtype: Ogre Warrior
 subtype_tokens:
 - Ogre
 - Warrior
-tags: card-color-red card-color-red-cost-3 card-type-creature
+synonyms: []
 tapped_id: 13142
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/blood-ogre/
+url: https://tappedout.net/mtg-card/blood-ogre/
+

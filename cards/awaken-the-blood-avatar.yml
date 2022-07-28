@@ -1,89 +1,114 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: STX
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - B
 - R
-flat_cost: 8
+flip: Extus, Oriq Overlord
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
-is_permanent: false
 keywords:
 - Haste
 - Sacrifice
 - Tokens
 mana_cost: 6BR
-mana_cost_converted: 8
+mana_value: 8
+melds_from: []
 name: Awaken the Blood Avatar
 printings:
 - STX:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Kekai Kotaki
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Strixhaven
     number: 149
     rarity: mythic_rare
-    release_date: 2021-04-23
+    release_date: '2021-04-23'
+    tla: STX
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '323'
+    - identifier: '323'
+    wizards_id: null
+    wizards_url: null
 rules: "As an additional cost to cast this spell, you may sacrifice any number of\
   \ creatures. This spell costs [[symbol:2]] less to cast for each creature sacrificed\
   \ this way.\r\n\r\nEach opponent sacrifices a creature. Create a 3/6 black and red\
   \ Avatar creature token with haste and \"Whenever this creature attacks, it deals\
   \ 3 damage to each opponent.\""
 slug: awaken-the-blood-avatar
-tags: card-color-black card-color-gold card-color-gold-cost-8 card-color-red card-type-sorcery
+synonyms: []
 tapped_id: 24115
 tokens:
-- cannonical_type: Creature
-  colors: BR
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Avatar 3/6 BR
-  power_toughness: 3/6
-  rules: "Haste\r\n\r\nWhenever this attacks, this deals 3 damage to each opponent."
-  subtype: Avatar
-  tla: STX
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - BR
+    - - power_toughness
+      - 3/6
+    - - rules
+      - "Haste\r\n\r\nWhenever this attacks, this deals 3 damage to each opponent."
+    - - type
+      - Token Creature
+    - - subtype
+      - 27
+    - - cannonical_type
+      - Creature
+    - - name
+      - Avatar 3/6 BR
 type: Sorcery
-url: http://tappedout.net/mtg-card/awaken-the-blood-avatar/
+url: https://tappedout.net/mtg-card/awaken-the-blood-avatar/
+

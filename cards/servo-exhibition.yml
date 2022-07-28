@@ -1,97 +1,143 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: KLD
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.26
+draft_average: 5.14
 effective_cost:
 - W
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: 1W
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Servo Exhibition
 printings:
 - KLD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sara Winters
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"The judges really put them through their paces, but they preveiled.
+      I think they even impressed Head Judge Tezzeret" - Ritika, artificer'
     frame: m15
     mtgo_foil_id: 61892
     mtgo_id: 61891
     name: Kaladesh
     number: 27
     rarity: uncommon
-    release_date: 2016-09-30
+    release_date: '2016-09-30'
+    tla: KLD
+    variations: []
     wizards_id: 417600
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417600
 - FNM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Vincent Proce
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: FNM Promos
     number: 4
     rarity: rare
-    release_date: 1990-11-05
+    release_date: '1990-11-05'
+    tla: FNM
+    variations: []
+    wizards_id: null
+    wizards_url: null
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Vincent Proce
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: "*Impressing a judge is one thing.\r\n<br>Delighting a child is\
+      \ another.*"
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
-promo_sets:
-- FNM
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: uncommon
 rules: Create two 1/1 colorless Servo artifact creature tokens.
 slug: servo-exhibition
-tags: card-color-white card-color-white-cost-2 card-type-sorcery
+synonyms: []
 tapped_id: 18350
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Servo 1/1 C
-  power_toughness: 1/1
-  rules: ''
-  subtype: Servo
-  tla: KLD
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 1175
+    - - cannonical_type
+      - Creature
+    - - name
+      - Servo 1/1 C
 type: Sorcery
-url: http://tappedout.net/mtg-card/servo-exhibition/
+url: https://tappedout.net/mtg-card/servo-exhibition/
+

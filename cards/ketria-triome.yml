@@ -1,7 +1,7 @@
 activated_abilities:
 - '*(: Gain ,  or .)*'
 - 'Cycling  *(, Discard this card: Draw a card,)*'
-activation_costs:
+activated_costs:
 - G
 - R
 - U
@@ -19,60 +19,75 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 4.76
+draft_average: 4.0
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Cycling
-mana_cost_converted: 0
 mana_produced: G, U, R
+mana_value: 0
+melds_from: []
 name: Ketria Triome
 printings:
 - IKO:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Sam Burley
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Nowhere on Ikoria are monsters more integral to the landscape
+      than Ketria, where the river itself will stand up and roar.*'
     frame: m15
     mtgo_foil_id: 80510
     mtgo_id: 80509
     name: 'Ikoria: Lair of Behemoths'
     number: 250
     rarity: rare
-    release_date: 2020-04-15
+    release_date: '2020-04-15'
+    tla: IKO
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '310'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '310'
+    - identifier: PromoPack
     wizards_id: 479770
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479770
 rules: "*([[symbol:T]]: Gain [[symbol:G]], [[symbol:U]] or [[symbol:R]].)*\r\n\r\n\
@@ -99,9 +114,9 @@ synonyms:
 - Temur Cycling
 - GUR Cycling Land
 - Temur Cycling Land
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-blue-slow card-mana-green-slow
-  card-mana-red-slow card-type-land
 tap_land: true
 tapped_id: 22862
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/ketria-triome/
+url: https://tappedout.net/mtg-card/ketria-triome/
+

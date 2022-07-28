@@ -1,82 +1,113 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMD
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+draft_average: 6.46
 effective_cost:
 - B
 - G
-flat_cost: 8
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Regenerate
 mana_cost: 6GB
-mana_cost_converted: 8
+mana_value: 8
+melds_from: []
 name: Death Mutation
+power_toughness: ''
 printings:
-- CMD:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 40613
-    name: 'MTG: Commander'
-    number: 192
-    rarity: uncommon
-    release_date: 2011-06-17
-    wizards_id: 247158
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247158
 - APC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Carl Critchlow
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 16251
     mtgo_id: 16250
     name: Apocalypse
+    number: null
     rarity: uncommon
-    release_date: 2001-06-01
+    release_date: '2001-06-01'
+    tla: APC
+    variations: []
     wizards_id: 25833
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=25833
+- CMD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Carl Critchlow
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 40613
+    name: 'MTG: Commander'
+    number: 192
+    rarity: uncommon
+    release_date: '2011-06-17'
+    tla: CMD
+    variations: []
+    wizards_id: 247158
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247158
+rarity: uncommon
 rules: Destroy target nonblack creature. It can't be regenerated. Put X 1/1 green
   Saproling creature tokens into play, where X is its converted mana cost.
 slug: death-mutation
-tags: card-color-black card-color-gold card-color-gold-cost-8 card-color-green card-type-sorcery
+synonyms: []
 tapped_id: 4762
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Saproling 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Saproling
-  tla: 2X2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 893
+    - - cannonical_type
+      - Creature
+    - - name
+      - Saproling 1/1 G
 type: Sorcery
-url: http://tappedout.net/mtg-card/death-mutation/
+url: https://tappedout.net/mtg-card/death-mutation/
+

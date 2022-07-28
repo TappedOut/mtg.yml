@@ -2,6 +2,7 @@ activated_abilities:
 - 'Equip  *(: Attach this to target creature you control. Equip only as a sorcery.
   This enters the battlefield unattached and stays on the battlefield if the creature
   this card is attached to leaves the battlefield.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: HOP
 cannonical_type: Artifact
@@ -9,30 +10,34 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.0
+draft_average: 3.5
 effective_cost:
 - R
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -40,46 +45,80 @@ keywords:
 - Equip
 - Attach
 mana_cost: 1RG
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Mage Slayer
 printings:
-- NEC:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Kamigawa: Neon Dynasty Commander'
-    number: 140
-    rarity: uncommon
-    release_date: 2022-02-11
-    wizards_id: 554222
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554222
-- HOP:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: modern
-    name: Planechase
-    number: 91
-    rarity: uncommon
-    release_date: 2009-09-04
-    wizards_id: 205319
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=205319
 - ARB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lars Grant-West
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "\"When the wielder is strong enough, any sword will do.\"\r\n\x97\
+      Kresh the Bloodbraided"
     frame: modern
     mtgo_foil_id: 32293
     mtgo_id: 32292
     name: Alara Reborn
+    number: null
     rarity: uncommon
-    release_date: 2009-04-30
+    release_date: '2009-04-30'
+    tla: ARB
+    variations: []
     wizards_id: 179567
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=179567
+- HOP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Lars Grant-West
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: "\"When the wielder is strong enough, any sword will do.\"\r\n\u2014\
+      Kresh the Bloodbraided"
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Planechase
+    number: 91
+    rarity: uncommon
+    release_date: '2009-09-04'
+    tla: HOP
+    variations: []
+    wizards_id: 205319
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=205319
+- NEC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Lars Grant-West
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*\"When the wielder is strong enough, any sword will do.\"\r\n\
+      <br>\u2014Kresh the Bloodbraided*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kamigawa: Neon Dynasty Commander'
+    number: 140
+    rarity: uncommon
+    release_date: '2022-02-11'
+    tla: NEC
+    variations: []
+    wizards_id: 554222
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554222
+rarity: uncommon
 rules: "Whenever equipped creature attacks, it deals damage equal to its power to\
   \ the player or planeswalker it's attacking.\r\n\r\nEquip [[symbol:3]] *([[symbol:3]]:\
   \ Attach this to target creature you control. Equip only as a sorcery. This enters\
@@ -89,7 +128,9 @@ slug: mage-slayer
 subtype: Equipment
 subtype_tokens:
 - Equipment
-tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-red card-type-artifact
+synonyms: []
 tapped_id: 11417
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/mage-slayer/
+url: https://tappedout.net/mtg-card/mage-slayer/
+

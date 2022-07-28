@@ -1,102 +1,162 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C20
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.33
+draft_average: 1.78
 effective_cost:
 - G
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
 mana_cost: XGG
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Genesis Hydra
 power_toughness: 0/0
 printings:
-- NEC:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Kamigawa: Neon Dynasty Commander'
-    number: 118
-    rarity: rare
-    release_date: 2022-02-11
-    wizards_id: 554201
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554201
-- C20:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 172
-    rarity: rare
-    release_date: 2020-05-15
-    wizards_id: 482800
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482800
-- IMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 66206
-    mtgo_id: 66205
-    name: Iconic Masters
-    rarity: rare
-    release_date: 2017-11-17
-    wizards_id: 438729
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438729
 - M15:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Peter Mohrbacher
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Designed by George Fan*'
     frame: m15
     mtgo_foil_id: 53577
     mtgo_id: 53576
     name: Magic 2015
     number: 176
     rarity: rare
-    release_date: 2014-07-18
+    release_date: '2014-07-18'
+    tla: M15
+    variations: []
     wizards_id: 383255
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383255
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Peter Mohrbacher
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 176
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- IMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Peter Mohrbacher
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 66206
+    mtgo_id: 66205
+    name: Iconic Masters
+    number: null
+    rarity: rare
+    release_date: '2017-11-17'
+    tla: IMA
+    variations: []
+    wizards_id: 438729
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438729
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Peter Mohrbacher
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 172
+    rarity: rare
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: 482800
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482800
+- NEC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Donato Giancola
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kamigawa: Neon Dynasty Commander'
+    number: 118
+    rarity: rare
+    release_date: '2022-02-11'
+    tla: NEC
+    variations: []
+    wizards_id: 554201
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554201
+rarity: rare
 rules: "When you cast this, reveal the top X cards of your library. You may put a\
   \ nonland permanent card with converted mana cost/mana value X or less from among\
   \ them onto the battlefield. Then shuffle the rest into your library.\r\n\r\nThis\
@@ -106,7 +166,9 @@ subtype: Plant Hydra
 subtype_tokens:
 - Plant
 - Hydra
-tags: card-color-green card-color-green-cost-2 card-type-creature
+synonyms: []
 tapped_id: 15625
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/genesis-hydra/
+url: https://tappedout.net/mtg-card/genesis-hydra/
+

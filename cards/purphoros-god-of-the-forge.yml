@@ -1,36 +1,40 @@
 activated_abilities:
 - ': Creatures you control get +1/+0 until end of turn.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: THS
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.43
+draft_average: 1.15
 effective_cost:
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -38,46 +42,81 @@ keywords:
 - Indestructible
 - Devotion
 mana_cost: 3R
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Purphoros, God of the Forge
 power_toughness: 6/5
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: mythic_rare
-    release_date: 2020-03-14
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: Secret Lair
-    number: 77
-    rarity: mythic_rare
-    release_date: 2019-12-09
 - THS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Deschamps
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 50313
     mtgo_id: 50312
     name: Theros
     number: 135
     rarity: mythic_rare
-    release_date: 2013-09-27
+    release_date: '2013-09-27'
+    tla: THS
+    variations: []
     wizards_id: 373556
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373556
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason A. Engle
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 77
+    rarity: mythic_rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Eric Deschamps
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: mythic_rare
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "Indestructible \r\n\r\nAs long as your devotion to red is less than five,\
   \ Purphoros isn't a creature. \r\n\r\nWhenever another creature enters the battlefield\
   \ under your control, Purphoros deals 2 damage to each opponent. \r\n\r\n[[symbol:2]][[symbol:R]]:\
@@ -86,8 +125,9 @@ slug: purphoros-god-of-the-forge
 subtype: God
 subtype_tokens:
 - God
-tags: card-color-red card-color-red-cost-4 card-type-creature card-type-enchantment
-  card-type-legendary
+synonyms: []
 tapped_id: 14859
+tokens: []
 type: Legendary Enchantment Creature
-url: http://tappedout.net/mtg-card/purphoros-god-of-the-forge/
+url: https://tappedout.net/mtg-card/purphoros-god-of-the-forge/
+

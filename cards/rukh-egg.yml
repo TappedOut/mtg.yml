@@ -1,120 +1,190 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: 9ED
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 3.83
+draft_average: 6.03
 effective_cost:
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Oldschool 93/94
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Oldschool 93/94
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Vintage
-has_activated_abilities: false
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
 mana_cost: 3R
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Rukh Egg
 power_toughness: 0/3
 printings:
 - 9ED:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Zug
+    booster_exclude: false
     border_color: W
+    cannonical: true
+    flavour_text: Called "stonefeathers" by many lowlanders, rukhs are thought to
+      descend from a phoenix that sacrificed its flame for a body of stone.
     frame: modern
     mtgo_foil_id: 22750
     mtgo_id: 22749
     name: Ninth Edition
     number: 214
     rarity: rare
-    release_date: 2005-07-29
+    release_date: '2005-07-29'
+    tla: 9ED
+    variations: []
     wizards_id: 83236
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=83236
-- 9EDFBB:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: modern
-    mtgo_foil_id: 22750
-    mtgo_id: 22749
-    name: Ninth Edition Foreign Black Border
-    rarity: rare
-    release_date: 2005-07-29
 - 8ED:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Zug
+    booster_exclude: false
     border_color: W
+    cannonical: true
+    flavour_text: Called "stonefeathers" by many lowlanders, rukhs are thought to
+      descend from a phoenix that sacrificed its flame for a body of stone.
     frame: modern
     mtgo_foil_id: 19536
     mtgo_id: 19535
     name: Eighth Edition
+    number: null
     rarity: rare
-    release_date: 2003-07-28
+    release_date: '2003-07-28'
+    tla: 8ED
+    variations: []
     wizards_id: 45390
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=45390
 - ARN:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Christopher Rush
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Arabian Nights
+    number: null
     rarity: common
-    release_date: 1993-12-01
+    release_date: '1993-12-01'
+    tla: ARN
+    variations: []
     wizards_id: 966
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=966
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Zug
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*Called "stonefeathers" by many lowlanders, rukhs are thought to
+      descend from a phoenix that sacrificed its flame for a body of stone.*'
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- 9EDFBB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mark Zug
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: Called "stonefeathers" by many lowlanders, rukhs are thought to
+      descend from a phoenix that sacrificed its flame for a body of stone.
+    frame: modern
+    mtgo_foil_id: 22750
+    mtgo_id: 22749
+    name: Ninth Edition Foreign Black Border
+    number: null
+    rarity: rare
+    release_date: '2005-07-29'
+    tla: 9EDFBB
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: When Rukh Egg dies, put a 4/4 red Bird creature token with flying onto the
   battlefield at the beginning of the next end step.
 slug: rukh-egg
 subtype: Egg
 subtype_tokens:
 - Egg
-tags: card-color-red card-color-red-cost-4 card-type-creature
+synonyms: []
 tapped_id: 8794
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Bird 4/4 R
-  power_toughness: 4/4
-  rules: Flying
-  subtype: Bird
-  tla: 8ED
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 4/4
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 32
+    - - cannonical_type
+      - Creature
+    - - name
+      - Bird 4/4 R
 type: Creature
-url: http://tappedout.net/mtg-card/rukh-egg/
+url: https://tappedout.net/mtg-card/rukh-egg/
+

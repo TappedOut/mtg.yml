@@ -1,29 +1,32 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C21
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - B
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -31,23 +34,31 @@ keywords:
 - Lifelink
 - Tokens
 mana_cost: 4B
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Tivash, Gloom Summoner
 power_toughness: 4/4
 printings:
 - C21:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kieran Yanner
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2021
     number: 45
     rarity: rare
-    release_date: 2021-04-23
+    release_date: '2021-04-23'
+    tla: C21
     variations:
-    - alterations:
-      - Normal
-      identifier: '372'
+    - identifier: '372'
     wizards_id: 518441
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518441
 rules: "Lifelink\r\n\r\nAt the beginning of your end step, if you gained life this\
@@ -58,18 +69,24 @@ subtype: Human Warlock
 subtype_tokens:
 - Human
 - Warlock
-tags: card-color-black card-color-black-cost-5 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 24358
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Demon X/X B
-  power_toughness: X/X
-  rules: Flying
-  subtype: Demon
-  tla: C21
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - X/X
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 88
+    - - cannonical_type
+      - Creature
+    - - name
+      - Demon X/X B
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/tivash-gloom-summoner/
+url: https://tappedout.net/mtg-card/tivash-gloom-summoner/
+

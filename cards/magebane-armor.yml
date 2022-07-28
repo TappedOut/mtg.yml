@@ -1,5 +1,6 @@
 activated_abilities:
 - 'Equip {{2}} ({{2}}: Attach to target creature you control. Equip only as a sorcery.)'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M10
 cannonical_type: Artifact
@@ -7,27 +8,31 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 3
+draft_average: 2.4
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -36,23 +41,35 @@ keywords:
 - Flying
 - Attach
 mana_cost: '3'
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Magebane Armor
 printings:
 - M10:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Izzy
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 32904
     mtgo_id: 32903
     name: 2010 Core Set
     number: 214
     rarity: rare
-    release_date: 2009-07-17
+    release_date: '2009-07-17'
+    tla: M10
+    variations: []
     wizards_id: 191591
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=191591
+rarity: rare
 rules: "Equipped creature gets +2/+4 and loses flying.\r\n\r\nPrevent all noncombat\
   \ damage that would be dealt to equipped creature.\r\n\r\nEquip {{2}} ({{2}}: Attach\
   \ to target creature you control. Equip only as a sorcery.)"
@@ -62,7 +79,8 @@ subtype_tokens:
 - Equipment
 synonyms:
 - Magebane Armour
-tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
 tapped_id: 11606
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/magebane-armor/
+url: https://tappedout.net/mtg-card/magebane-armor/
+

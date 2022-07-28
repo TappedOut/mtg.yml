@@ -1,33 +1,36 @@
 activated_abilities:
 - ': Create a 1/1 white Warrior creature token.'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: BBD
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 1.0
 effective_cost:
 - W
-flat_cost: 4
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -35,24 +38,36 @@ keywords:
 - Tokens
 - Partner
 mana_cost: 3W
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Blaring Recruiter
 power_toughness: 2/2
 printings:
 - BBD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Grzegorz Rutkowski
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 68755
     mtgo_id: 68754
     name: Battlebond
     number: 13
     rarity: uncommon
-    release_date: 2018-06-08
+    release_date: '2018-06-08'
+    tla: BBD
+    variations: []
     wizards_id: 445981
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=445981
+rarity: uncommon
 rules: "Partner with Blaring Captain *(When this creature enters the battlefield,\
   \ target player may put Blaring Captain into their hand from their library, then\
   \ shuffle.)*\r\n\r\n[[symbol:2]][[symbol:W]]: Create a 1/1 white Warrior creature\
@@ -62,18 +77,24 @@ subtype: Elf Warrior
 subtype_tokens:
 - Elf
 - Warrior
-tags: card-color-white card-color-white-cost-4 card-type-creature
+synonyms: []
 tapped_id: 20419
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Warrior 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Warrior
-  tla: BBD
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 864
+    - - cannonical_type
+      - Creature
+    - - name
+      - Warrior 1/1 W
 type: Creature
-url: http://tappedout.net/mtg-card/blaring-recruiter/
+url: https://tappedout.net/mtg-card/blaring-recruiter/
+

@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MYSCON
 cannonical_type: Instant
@@ -11,43 +13,55 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+draft_average: 7.67
 effective_cost:
 - W
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Vigilance
 - Tokens
 mana_cost: 2W // 1R
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Start / Fire
 printings:
 - MYSCON:
     alterations:
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - list
+      - The List
+    artist: Nelson Brown
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Mystery Booster: Convention Edition'
     number: 101
     rarity: rare
-    release_date: 2019-11-07
+    release_date: '2019-11-07'
+    tla: MYSCON
+    variations: []
     wizards_id: 476231
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476231
 rules: "<h4>Start</h4>\r\n\r\nCreate two 1/1 white warrior creature tokens with vigilance.\r\
@@ -65,18 +79,23 @@ synonyms:
 - Fire/Start
 - Fire / Start
 - Start to Fire
-tags: card-color-gold card-color-gold-cost-5 card-color-red card-color-white card-type-instant
 tapped_id: 22343
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Warrior 1/1 W w/ Vigilance
-  power_toughness: 1/1
-  rules: Vigilance
-  subtype: Warrior
-  tla: AKH
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Vigilance
+    - - type
+      - Token Creature
+    - - subtype
+      - 864
+    - - cannonical_type
+      - Creature
+    - - name
+      - Warrior 1/1 W w/ Vigilance
 type: Instant
-url: http://tappedout.net/mtg-card/start-fire/
+url: https://tappedout.net/mtg-card/start-fire/
+

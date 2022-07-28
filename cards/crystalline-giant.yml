@@ -1,34 +1,40 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 3
+cube_average: 2.35
+draft_average: 1.75
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -43,51 +49,68 @@ keywords:
 - Counters
 - Menace
 mana_cost: '3'
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Crystalline Giant
 power_toughness: 3/3
 printings:
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 364
-    rarity: rare
-    release_date: 2022-04-30
-    wizards_id: 559936
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559936
 - IKO:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Jason Rainville
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 80478
     mtgo_id: 80477
     name: 'Ikoria: Lair of Behemoths'
     number: 234
     rarity: rare
-    release_date: 2020-04-15
+    release_date: '2020-04-15'
+    tla: IKO
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '361'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '387'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '361'
+    - identifier: '387'
+    - identifier: PromoPack
     wizards_id: 479754
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479754
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jason Rainville
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 364
+    rarity: rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559936
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559936
 rules: At the beginning of combat on your turn, choose a kind of counter at random
   that this creatures doesn't have from among flying, first strike, deathtouch, hexproof,
   lifelink, menace, reach, trample, vigilance, and +1/+1. Put a counter of that kind
@@ -99,7 +122,8 @@ subtype_tokens:
 synonyms:
 - Mecha Godzilla
 - MechaGodzilla
-tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact card-type-creature
 tapped_id: 22685
+tokens: []
 type: Artifact Creature
-url: http://tappedout.net/mtg-card/crystalline-giant/
+url: https://tappedout.net/mtg-card/crystalline-giant/
+

@@ -1,72 +1,86 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: KHM
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - R
-flat_cost: 5
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
 - Foretell
 mana_cost: 3RR
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Quakebringer
 power_toughness: 5/4
 printings:
 - KHM:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Lucas Graciano
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Kaldheim
     number: 145
     rarity: mythic_rare
-    release_date: 2021-02-05
+    release_date: '2021-02-05'
+    tla: KHM
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '297'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '297'
+    - identifier: PromoPack
     wizards_id: 503757
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503757
 rules: "Your opponents can't gain life.\r\n\r\nAt the beginning of your upkeep, Quakebringer\
@@ -80,7 +94,9 @@ subtype: Giant Berserker
 subtype_tokens:
 - Giant
 - Berserker
-tags: card-color-red card-color-red-cost-5 card-type-creature
+synonyms: []
 tapped_id: 23781
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/quakebringer/
+url: https://tappedout.net/mtg-card/quakebringer/
+

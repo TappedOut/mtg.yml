@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C16
 cannonical_type: Instant
@@ -11,71 +13,102 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.0
 effective_cost:
 - U
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Attach
 - Tokens
 mana_cost: 2U
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Grip of Phyresis
 printings:
-- CM2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology 2018
-    number: 43
-    rarity: uncommon
-    release_date: 2018-06-08
-    wizards_id: 446779
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446779
 - C16:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Lake Hurwitz
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"Even your blade knows who will triumph here.\"\r\n<br>&mdash;Atraxa,\
+      \ Praetors' Voice*"
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2016
     number: 9
     rarity: uncommon
-    release_date: 2016-11-11
+    release_date: '2016-11-11'
+    tla: C16
+    variations: []
     wizards_id: 420626
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420626
+- CM2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lake Hurwitz
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*\"Even your blade knows who will triumph here.\"\r\n<br>&mdash;Atraxa,\
+      \ Praetors' Voice*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology 2018
+    number: 43
+    rarity: uncommon
+    release_date: '2018-06-08'
+    tla: CM2
+    variations: []
+    wizards_id: 446779
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446779
+rarity: uncommon
 rules: Gain control of target Equipment, then create a 0/0 black Germ creature token
   and attach that Equipment to it.
 slug: grip-of-phyresis
-tags: card-color-blue card-color-blue-cost-3 card-type-instant
+synonyms: []
 tapped_id: 18512
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Phyrexian Germ 0/0 B
-  power_toughness: 0/0
-  rules: ''
-  subtype: Phyrexian Germ
-  tla: C16
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 0/0
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 1586
+    - - cannonical_type
+      - Creature
+    - - name
+      - Phyrexian Germ 0/0 B
 type: Instant
-url: http://tappedout.net/mtg-card/grip-of-phyresis/
+url: https://tappedout.net/mtg-card/grip-of-phyresis/
+

@@ -6,6 +6,7 @@ activated_abilities:
 - ': Nicol Bolas, God-Pharaoh deals 7 damage to any opposing target *(creature, player
   or planeswalker)*.'
 - ': Exile each nonland permanent your opponents control.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: HOU
 cannonical_type: Planeswalker
@@ -13,34 +14,38 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.91
+draft_average: 1.22
 effective_cost:
 - U
 - B
 - R
-flat_cost: 7
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -48,66 +53,105 @@ keywords:
 - Exile
 - Counters
 mana_cost: 4UBR
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Nicol Bolas, God-Pharaoh
+planeswalker_loyalty: 7
 printings:
-- 2X2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Double Masters 2022
-    number: 260
-    rarity: mythic_rare
-    release_date: 2022-07-08
-    variations:
-    - alterations:
-      - Etched
-      identifier: '530'
-    wizards_id: 571593
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571593
 - HOU:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Raymond Swanland
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 64765
     mtgo_id: 64764
     name: Hour of Devastation
     number: 140
     rarity: mythic_rare
-    release_date: 2017-07-14
+    release_date: '2017-07-14'
+    tla: HOU
+    variations: []
     wizards_id: 430829
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430829
 - S17:
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Vincent Price
     booster_exclude: true
     border_color: B
     cannonical: false
-    foil: foil
-    foil_only: true
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: SDCC Promo 2017
     number: 140
-    rarity: common
-    release_date: 1990-07-20
+    rarity: null
+    release_date: '1990-07-20'
+    tla: S17
+    variations: []
+    wizards_id: null
+    wizards_url: null
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Vincent Proce
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: mythic_rare
-    release_date: 1990-04-15
-promo_sets:
-- S17
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- 2X2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Raymond Swanland
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters 2022
+    number: 260
+    rarity: mythic_rare
+    release_date: '2022-07-08'
+    tla: 2X2
+    variations:
+    - identifier: '530'
+    wizards_id: 571593
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571593
 rules: "[[symbol:loyalty-plus2]]: Target opponent exiles cards from the top of their\
   \ library until they exile a nonland card. Until end of turn, you may cast that\
   \ card without paying its mana cost.\r\n\r\n[[symbol:loyalty-plus1]]: Each opponent\
@@ -122,8 +166,8 @@ synonyms:
 - Nicol Bolas, God-Pharoah
 - Nicol Bolas, the God-Pharoah
 - Nicol Bolas, the God-Pharaoh
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-7 card-color-red
-  card-type-planeswalker
 tapped_id: 19010
+tokens: []
 type: Planeswalker
-url: http://tappedout.net/mtg-card/nicol-bolas-god-pharaoh/
+url: https://tappedout.net/mtg-card/nicol-bolas-god-pharaoh/
+

@@ -1,41 +1,45 @@
 activated_abilities:
 - 'Sacrifice an artifact, creature, or land: Remove a time counter from Greater Gargadon.
   Activate this ability only if Greater Gargadon is suspended.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 11.48
+draft_average: 2.93
 effective_cost:
 - R
-flat_cost: 10
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,87 +50,151 @@ keywords:
 - Suspend
 - Counters
 mana_cost: 9R
-mana_cost_converted: 10
+mana_value: 10
+melds_from: []
 name: Greater Gargadon
 power_toughness: 9/7
 printings:
-- 2X2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Double Masters 2022
-    number: 111
-    rarity: rare
-    release_date: 2022-07-08
-    variations:
-    - alterations:
-      - Etched
-      identifier: '453'
-    wizards_id: 571444
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571444
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 796
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567613
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567613
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 167
-    rarity: rare
-    release_date: 2021-03-19
-    wizards_id: 509532
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509532
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: rare
-    release_date: 2020-03-14
-- MMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 49043
-    mtgo_id: 49042
-    name: Modern Masters
-    rarity: rare
-    release_date: 2013-06-07
-    wizards_id: 370560
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370560
 - TSP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Rob Alexander
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 25582
     mtgo_id: 25581
     name: Time Spiral
+    number: null
     rarity: rare
-    release_date: 2006-10-06
+    release_date: '2006-10-06'
+    tla: TSP
+    variations: []
     wizards_id: 111048
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=111048
+- MMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Rob Alexander
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 49043
+    mtgo_id: 49042
+    name: Modern Masters
+    number: null
+    rarity: rare
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
+    wizards_id: 370560
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370560
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Rob Alexander
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: rare
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Rob Alexander
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 167
+    rarity: rare
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509532
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509532
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Rob Alexander
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 796
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567613
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567613
+- 2X2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Rob Alexander
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters 2022
+    number: 111
+    rarity: rare
+    release_date: '2022-07-08'
+    tla: 2X2
+    variations:
+    - identifier: '453'
+    wizards_id: 571444
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571444
+rarity: rare
 rules: "Suspend 10&mdash;[[symbol:R]] *(Rather than cast this card from your hand,\
   \ you may pay [[symbol:R]] and exile it with four time counters on it. At the beginning\
   \ of your upkeep, remove a time counter. When the last is removed, cast it without\
@@ -137,7 +205,9 @@ slug: greater-gargadon
 subtype: Beast
 subtype_tokens:
 - Beast
-tags: card-color-red card-color-red-cost-10 card-type-creature
+synonyms: []
 tapped_id: 1070
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/greater-gargadon/
+url: https://tappedout.net/mtg-card/greater-gargadon/
+

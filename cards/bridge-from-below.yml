@@ -1,99 +1,145 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: UMA
 cannonical_type: Enchantment
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 11.71
+draft_average: 5.53
 effective_cost:
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
+- Block Constructed
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
 - Tokens
 mana_cost: BBB
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Bridge from Below
 printings:
-- UMA:
+- FUT:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Greg & Tim Hildebrandt
+    booster_exclude: false
     border_color: B
-    frame: m15
-    mtgo_foil_id: 70248
-    mtgo_id: 70247
-    name: Ultimate Masters
-    number: 87
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 26935
+    mtgo_id: 26934
+    name: Future Sight
+    number: null
     rarity: rare
-    release_date: 2018-12-07
-    wizards_id: 456683
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456683
+    release_date: '2007-05-04'
+    tla: FUT
+    variations: []
+    wizards_id: 136054
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=136054
 - MMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daarken
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 48875
     mtgo_id: 48874
     name: Modern Masters
     number: 74
     rarity: rare
-    release_date: 2013-06-07
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
     wizards_id: 370353
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370353
-- FUT:
+- UMA:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daarken
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 26935
-    mtgo_id: 26934
-    name: Future Sight
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: 70248
+    mtgo_id: 70247
+    name: Ultimate Masters
+    number: 87
     rarity: rare
-    release_date: 2007-05-04
-    wizards_id: 136054
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=136054
+    release_date: '2018-12-07'
+    tla: UMA
+    variations: []
+    wizards_id: 456683
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456683
+rarity: rare
 rules: "Whenever a nontoken creature is put into your graveyard from the battlefield,\
   \ if Bridge from Below is in your graveyard, create a 2/2 black Zombie creature\
   \ token.\r\n\r\nWhen a creature is put into an opponent's graveyard from the battlefield,\
   \ if Bridge from Below is in your graveyard, exile Bridge from Below."
 slug: bridge-from-below
-tags: card-color-black card-color-black-cost-3 card-type-enchantment
+synonyms: []
 tapped_id: 643
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: UMA
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Enchantment
-url: http://tappedout.net/mtg-card/bridge-from-below/
+url: https://tappedout.net/mtg-card/bridge-from-below/
+

@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 - U
 canadian_hl_score: 0
@@ -7,33 +8,36 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 3.53
+draft_average: 2.6
 effective_cost:
 - U
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -41,48 +45,73 @@ keywords:
 - Sacrifice
 - Escape
 mana_cost: 1GU
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Uro, Titan of Nature's Wrath
 power_toughness: 6/6
 printings:
 - THB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    - !!python/tuple
+      - list
+      - The List
+    artist: Vincent Proce
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 79583
     mtgo_id: 79582
     name: Theros Beyond Death
     number: 229
     rarity: mythic_rare
-    release_date: 2020-01-24
+    release_date: '2020-01-24'
+    tla: THB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '343'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '343'
+    - identifier: PromoPack
     wizards_id: 476480
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476480
 - SLD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Richard Luong
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Secret Lair
     number: 222
     rarity: mythic_rare
-    release_date: 2019-12-09
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "When Uro enters the battlefield, sacrifice it unless it escaped.\r\n\r\nWhenever\
   \ Uro enters the battlefield or attacks, you gain 3 life and draw a card, then you\
   \ may put a land card from your hand onto the battlefield.\r\n\r\nEscape&mdash;[[symbol:G]][[symbol:G]][[symbol:U]][[symbol:U]],\
@@ -93,8 +122,9 @@ subtype: Elder Giant
 subtype_tokens:
 - Elder
 - Giant
-tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-green card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 22472
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/uro-titan-of-natures-wrath/
+url: https://tappedout.net/mtg-card/uro-titan-of-natures-wrath/
+

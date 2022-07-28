@@ -1,85 +1,109 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: STX
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - U
 - G
-flat_cost: 2
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: GU
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Double Major
 printings:
 - STX:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Suzanne Helmigh
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: _"Now I can dedicate myself fully to zoetimancy and void theory!"_
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Strixhaven
     number: 179
     rarity: rare
-    release_date: 2021-04-23
+    release_date: '2021-04-23'
+    tla: STX
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '340'
+    - identifier: '340'
     wizards_id: 513671
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=513671
 rules: Copy target creature spell you control, except it isn't legendary if the spell
   is legendary. _(A copy of a creature spell becomes a token.)_
 slug: double-major
-tags: card-color-blue card-color-gold card-color-gold-cost-2 card-color-green card-type-instant
+synonyms: []
 tapped_id: 24156
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Instant
-url: http://tappedout.net/mtg-card/double-major/
+url: https://tappedout.net/mtg-card/double-major/
+

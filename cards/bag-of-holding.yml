@@ -4,42 +4,48 @@ activated_abilities:
   owner''s hand. *(This is a linked ability, linked to the ability in the first paragraph
   on the card named . Cards you own exiled by this card only return to your hand if
   those exiled cards were exiled by the ability in the first paragraph.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Artifact
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 1
+cube_average: 9.34
+draft_average: 5.52
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -47,55 +53,92 @@ keywords:
 - Exile
 - Sacrifice
 mana_cost: '1'
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Bag of Holding
 printings:
-- CLB:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 299
-    rarity: uncommon
-    release_date: 2022-06-10
-    wizards_id: 563182
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563182
-- AFR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Dungeons & Dragons: Adventures in the Forgotten Realms'
-    number: 240
-    rarity: uncommon
-    release_date: 2021-07-23
-    wizards_id: 527527
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=527527
 - M20:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Dmitry Burmak
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*There\u2019s no prepared like overprepared.*"
     frame: m15
     mtgo_foil_id: 73344
     mtgo_id: 73343
     name: Core Set 2020
     number: 222
     rarity: rare
-    release_date: 2019-07-12
+    release_date: '2019-07-12'
+    tla: M20
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 466976
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=466976
+- AFR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Evyn Fong
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Leave no treasure behind.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Dungeons & Dragons: Adventures in the Forgotten Realms'
+    number: 240
+    rarity: uncommon
+    release_date: '2021-07-23'
+    tla: AFR
+    variations: []
+    wizards_id: 527527
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=527527
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Evyn Fong
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Leave no treasure behind.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 299
+    rarity: uncommon
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 563182
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563182
 rules: "Whenever you discard a card, exile that card from your graveyard. \r\n\r\n\
   [[symbol:2]], [[symbol:T]]: Draw a card, then discard a card. \r\n\r\n[[symbol:4]],\
   \ [[symbol:T]], Sacrifice Bag of Holding: Return all cards exiled with Bag of Holding\
@@ -104,7 +147,9 @@ rules: "Whenever you discard a card, exile that card from your graveyard. \r\n\r
   \ this card only return to your hand if those exiled cards were exiled by the ability\
   \ in the first paragraph.)*"
 slug: bag-of-holding
-tags: card-color-colorless card-color-colorless-cost-1 card-type-artifact
+synonyms: []
 tapped_id: 21854
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/bag-of-holding/
+url: https://tappedout.net/mtg-card/bag-of-holding/
+

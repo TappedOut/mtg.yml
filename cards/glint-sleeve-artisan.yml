@@ -1,84 +1,125 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: 2XM
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 8.08
+draft_average: 5.11
 effective_cost:
 - W
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
 - Tokens
 mana_cost: 2W
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Glint-Sleeve Artisan
 power_toughness: 2/2
 printings:
-- 2XM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 18
-    rarity: common
-    release_date: 2020-08-07
-    wizards_id: 489691
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489691
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
 - KLD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ryan Pancoast
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"Shine bright, bolts tight."'
     frame: m15
     mtgo_foil_id: 61606
     mtgo_id: 61605
     name: Kaladesh
     number: 17
     rarity: common
-    release_date: 2016-09-30
+    release_date: '2016-09-30'
+    tla: KLD
+    variations: []
     wizards_id: 417590
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417590
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ryan Pancoast
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '"Shine bright, bolts tight."'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ryan Pancoast
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*"Shine bright, bolts tight."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 18
+    rarity: common
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations: []
+    wizards_id: 489691
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489691
+rarity: common
 rules: Fabricate 1 *(When this creature enters the battlefield, put a +1/+1 counter
   on it or create a 1/1 colorless Servo artifact creature token.)*
 slug: glint-sleeve-artisan
@@ -86,18 +127,24 @@ subtype: Dwarf Artificer
 subtype_tokens:
 - Dwarf
 - Artificer
-tags: card-color-white card-color-white-cost-3 card-type-creature
+synonyms: []
 tapped_id: 18276
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Servo 1/1 C
-  power_toughness: 1/1
-  rules: ''
-  subtype: Servo
-  tla: 2XM
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 1175
+    - - cannonical_type
+      - Creature
+    - - name
+      - Servo 1/1 C
 type: Creature
-url: http://tappedout.net/mtg-card/glint-sleeve-artisan/
+url: https://tappedout.net/mtg-card/glint-sleeve-artisan/
+

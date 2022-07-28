@@ -1,58 +1,74 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: M15
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 5.56
+draft_average: 3.5
 effective_cost:
 - R
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
 mana_cost: 1R
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Goblin Kaboomist
 power_toughness: 1/2
 printings:
 - M15:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kev Walker
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Designed by Stone Librande*'
     frame: m15
     mtgo_foil_id: 53527
     mtgo_id: 53526
     name: Magic 2015
     number: 144
     rarity: rare
-    release_date: 2014-07-18
+    release_date: '2014-07-18'
+    tla: M15
+    variations: []
     wizards_id: 383257
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383257
+rarity: rare
 rules: 'At the beginning of your upkeep, put a colorless artifact token named Land
   Mine onto the battlefield with "{R}, Sacrifice this artifact: This artifact deals
   2 damage to target attacking creature without flying." Then flip a coin. If you
@@ -62,18 +78,25 @@ subtype: Goblin Warrior
 subtype_tokens:
 - Goblin
 - Warrior
-tags: card-color-red card-color-red-cost-2 card-type-creature
+synonyms: []
 tapped_id: 15661
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Land Mine
-  power_toughness: null
-  rules: '[[symbol:R]], Sacrifice this: This deals 2 damage to target attacking creature
-    without flying.'
-  tla: M15
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:R]], Sacrifice this: This deals 2 damage to target attacking creature
+        without flying.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - null
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Land Mine
 type: Creature
-url: http://tappedout.net/mtg-card/goblin-kaboomist/
+url: https://tappedout.net/mtg-card/goblin-kaboomist/
+

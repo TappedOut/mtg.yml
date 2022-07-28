@@ -3,13 +3,12 @@ activated_abilities:
 - '*Threshold* &mdash;  , , Sacrifice Cephalid Coliseum: Target player draws three
   cards, then discards three cards. Activate only if seven or more cards are in your
   graveyard.'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: ODY
 cannonical_type: Land
-color_identity:
-- U
+color_identity: U
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -21,21 +20,25 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 10.85
+draft_average: 9.0
+effective_cost: []
 formats:
 - 1v1 Commander
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -43,45 +46,65 @@ is_permanent: true
 keywords:
 - Sacrifice
 - Threshold
-mana_cost_converted: 0
 mana_produced: u
+mana_value: 0
+melds_from: []
 name: Cephalid Coliseum
 printings:
-- V12:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: modern
-    mtgo_foil_id: 46249
-    mtgo_id: 46248
-    name: 'From the Vault: Realms'
-    rarity: mythic_rare
-    release_date: 2012-08-31
-    wizards_id: 288995
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=288995
 - ODY:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Avon
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 16456
     mtgo_id: 16455
     name: Odyssey
     number: 317
     rarity: uncommon
-    release_date: 2001-09-21
+    release_date: '2001-09-21'
+    tla: ODY
+    variations: []
     wizards_id: 29903
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=29903
+- V12:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Cliff Childs
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 46249
+    mtgo_id: 46248
+    name: 'From the Vault: Realms'
+    number: null
+    rarity: mythic_rare
+    release_date: '2012-08-31'
+    tla: V12
+    variations: []
+    wizards_id: 288995
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=288995
+rarity: mythic_rare
 rules: "[[T]]: Add [[symbol:U]]. Cephalid Coliseum deals 1 damage to you.\r\n\r\n\
   *Threshold* &mdash;  [[symol:U]], [[T]], Sacrifice Cephalid Coliseum: Target player\
   \ draws three cards, then discards three cards. Activate only if seven or more cards\
   \ are in your graveyard."
 slug: cephalid-coliseum
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-blue card-type-land
+synonyms: []
 tapped_id: 4467
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/cephalid-coliseum/
+url: https://tappedout.net/mtg-card/cephalid-coliseum/
+

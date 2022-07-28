@@ -1,40 +1,42 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - W
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -43,46 +45,67 @@ keywords:
 - Exile
 - Foretell
 mana_cost: 2WW
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Glorious Protector
 power_toughness: 3/4
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 695
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567512
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567512
 - KHM:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Hugh Pindur
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Kaldheim
     number: 12
     rarity: rare
-    release_date: 2021-02-05
+    release_date: '2021-02-05'
+    tla: KHM
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '335'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '335'
+    - identifier: PromoPack
     wizards_id: 503616
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503616
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Hugh Pindur
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 695
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567512
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567512
 rules: "Flash\r\n\r\nFlying\r\n\r\nWhen Glorious Protector enters the battlefield,\
   \ you may exile any number of non-Angel creatures you control until Glorious Protector\
   \ leaves the battlefield.\r\n\r\nForetell [[symbol:2]][[symbol:W]] *(During your\
@@ -93,7 +116,9 @@ subtype: Angel Cleric
 subtype_tokens:
 - Angel
 - Cleric
-tags: card-color-white card-color-white-cost-4 card-type-creature
+synonyms: []
 tapped_id: 23934
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/glorious-protector/
+url: https://tappedout.net/mtg-card/glorious-protector/
+

@@ -1,100 +1,151 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.41
+draft_average: 1.95
 effective_cost:
 - W
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Sacrifice
 - Tokens
 - Investigate
 mana_cost: 1W
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Declaration in Stone
 printings:
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 198
-    rarity: rare
-    release_date: 2022-04-30
-- ARENA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Arena Cards
-    rarity: rare
-    release_date: 2019-09-26
 - SOI:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Tyler Jacobson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*The message was clear to Sorin&mdash;Nahiri had paid Markov Manor
+      a visit.*'
     frame: m15
     mtgo_foil_id: 59879
     mtgo_id: 59878
     name: Shadows over Innistrad
     number: 12
     rarity: rare
-    release_date: 2016-04-08
+    release_date: '2016-04-08'
+    tla: SOI
+    variations: []
     wizards_id: 409750
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409750
+- ARENA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Tyler Jacobson
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Arena Cards
+    number: null
+    rarity: rare
+    release_date: '2019-09-26'
+    tla: ARENA
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Tyler Jacobson
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 198
+    rarity: rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: 'Exile target creature and all other creatures its controller controls with
   the same name as that creature. That player investigates for each nontoken creature
   exiled this way. *(To investigate, create a colourless Clue artifact token with
   "[[symbol:2]], Sacrifice this: Draw a card.")*'
 slug: declaration-in-stone
-tags: card-color-white card-color-white-cost-2 card-type-sorcery
+synonyms: []
 tapped_id: 17620
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Clue
-  power_toughness: null
-  rules: '[[symbol:2]], Sacrifice this: Draw a card.'
-  subtype: Clue
-  tla: CLB
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], Sacrifice this: Draw a card.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1130
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Clue
 type: Sorcery
-url: http://tappedout.net/mtg-card/declaration-in-stone/
+url: https://tappedout.net/mtg-card/declaration-in-stone/
+

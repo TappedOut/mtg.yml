@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: UMA
 cannonical_type: Sorcery
@@ -10,80 +12,111 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.41
+draft_average: 8.36
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: 1RR
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Molten Birth
 printings:
-- UMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 70354
-    mtgo_id: 70353
-    name: Ultimate Masters
-    number: 140
-    rarity: common
-    release_date: 2018-12-07
-    wizards_id: 456736
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456736
 - M14:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jaime Jones
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "\"Few can coax the creatures within the magma to be cooled and\
+      \ take form.\"\u2014Koth of the Hammer"
     frame: modern
     mtgo_foil_id: 49436
     mtgo_id: 49435
     name: Magic 2014
     number: 147
     rarity: uncommon
-    release_date: 2013-07-19
+    release_date: '2013-07-19'
+    tla: M14
+    variations: []
     wizards_id: 370604
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370604
+- UMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jaime Jones
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Few can coax the creatures within the magma to be cooled and\
+      \ take form.\"\r\n<br>&mdash;Koth of the Hammer*"
+    frame: m15
+    mtgo_foil_id: 70354
+    mtgo_id: 70353
+    name: Ultimate Masters
+    number: 140
+    rarity: common
+    release_date: '2018-12-07'
+    tla: UMA
+    variations: []
+    wizards_id: 456736
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456736
+rarity: uncommon
 rules: Create two 1/1 red Elemental creature tokens. Then flip a coin. If you win
   the flip, return Molten Birth to its owner's hand.
 slug: molten-birth
-tags: card-color-red card-color-red-cost-3 card-type-sorcery
+synonyms: []
 tapped_id: 14785
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elemental 1/1 R
-  power_toughness: 1/1
-  rules: ''
-  subtype: Elemental
-  tla: UMA
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elemental 1/1 R
 type: Sorcery
-url: http://tappedout.net/mtg-card/molten-birth/
+url: https://tappedout.net/mtg-card/molten-birth/
+

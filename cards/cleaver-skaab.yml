@@ -1,32 +1,35 @@
 activated_abilities:
 - ', , Sacrifice another Zombie: Create two tokens that are copies of the sacrificed
   creature.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MIC
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 4
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -34,23 +37,32 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 3U
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Cleaver Skaab
 power_toughness: 2/4
 printings:
 - MIC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Johann Bodin
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Furious and unable to separate, the bitter rivals consoled themselves
+      by splitting everything else they saw in half.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Midnight Hunt Commander'
     number: 11
     rarity: rare
-    release_date: 2021-09-25
+    release_date: '2021-09-25'
+    tla: MIC
     variations:
-    - alterations:
-      - Normal
-      identifier: '49'
+    - identifier: '49'
     wizards_id: 540454
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=540454
 rules: '[[symbol:3]], [[symbol:T]], Sacrifice another Zombie: Create two tokens that
@@ -60,17 +72,24 @@ subtype: Zombie Horror
 subtype_tokens:
 - Zombie
 - Horror
-tags: card-color-blue card-color-blue-cost-4 card-type-creature
+synonyms: []
 tapped_id: 25304
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Creature
-url: http://tappedout.net/mtg-card/cleaver-skaab/
+url: https://tappedout.net/mtg-card/cleaver-skaab/
+

@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C17
 cannonical_type: Sorcery
@@ -11,68 +13,100 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.97
 effective_cost:
 - W
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Tokens
 mana_cost: 3WU
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Fractured Identity
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 272
-    rarity: rare
-    release_date: 2019-12-09
 - C17:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Yongiae Choi
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Self-reflection is not without its perils.
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2017
     number: 37
     rarity: rare
-    release_date: 2017-08-25
+    release_date: '2017-08-25'
+    tla: C17
+    variations: []
     wizards_id: 433278
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433278
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Justin & Alexis Hernandez
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 272
+    rarity: rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: Exile target nonland permanent. Each player other than its controller creates
   a token that's a copy of it.
 slug: fractured-identity
-tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-white card-type-sorcery
+synonyms: []
 tapped_id: 19273
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Sorcery
-url: http://tappedout.net/mtg-card/fractured-identity/
+url: https://tappedout.net/mtg-card/fractured-identity/
+

@@ -1,57 +1,73 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: WWK
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.0
+draft_average: 4.14
 effective_cost:
 - R
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Trample
 - Exile
 mana_cost: 5R
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Stone Idol Trap
+power_toughness: ''
 printings:
 - WWK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jung Park
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 35708
     mtgo_id: 35707
     name: Worldwake
     number: 93
     rarity: rare
-    release_date: 2010-02-05
+    release_date: '2010-02-05'
+    tla: WWK
+    variations: []
     wizards_id: 191552
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=191552
+rarity: rare
 rules: "Stone Idol Trap costs {{1}} less to cast for each attacking creature.\r\n\r\
   \nPut a 6/12 colorless Construct artifact creature token with trample onto the battlefield.\
   \ Exile it at the beginning of your next end step."
@@ -59,18 +75,24 @@ slug: stone-idol-trap
 subtype: Trap
 subtype_tokens:
 - Trap
-tags: card-color-red card-color-red-cost-6 card-type-instant
+synonyms: []
 tapped_id: 11942
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Construct 6/12 C
-  power_toughness: 6/12
-  rules: Trample
-  subtype: Construct
-  tla: WWK
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 6/12
+    - - rules
+      - Trample
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 72
+    - - cannonical_type
+      - Creature
+    - - name
+      - Construct 6/12 C
 type: Instant
-url: http://tappedout.net/mtg-card/stone-idol-trap/
+url: https://tappedout.net/mtg-card/stone-idol-trap/
+

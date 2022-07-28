@@ -1,56 +1,67 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C21
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - U
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 - Magecraft
 mana_cost: 2UR
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Zaffai, Thunder Conductor
 power_toughness: 1/4
 printings:
 - C21:
     alterations:
-    - Foil
-    - Thick
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - thick
+      - Thick
+    artist: Dmitry Burmak
+    booster_exclude: false
     border_color: B
-    foil: foil
-    foil_only: true
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2021
     number: 4
     rarity: mythic_rare
-    release_date: 2021-04-23
+    release_date: '2021-04-23'
+    tla: C21
     variations:
-    - alterations:
-      - Normal
-      identifier: '331'
+    - identifier: '331'
     wizards_id: 518310
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518310
 rules: '*Magecraft* &mdash; Whenever you cast or copy an instant or sorcery spell,
@@ -65,19 +76,23 @@ subtype_tokens:
 - Shaman
 synonyms:
 - Zaffai, Thunder Collector
-tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-red card-type-creature
-  card-type-legendary
 tapped_id: 24029
 tokens:
-- cannonical_type: Creature
-  colors: UR
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elemental 4/4 UR
-  power_toughness: 4/4
-  rules: ''
-  subtype: Elemental
-  tla: STX
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - UR
+    - - power_toughness
+      - 4/4
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elemental 4/4 UR
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/zaffai-thunder-conductor/
+url: https://tappedout.net/mtg-card/zaffai-thunder-conductor/
+

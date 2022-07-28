@@ -1,92 +1,141 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: C14
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 8.53
+draft_average: 6.31
 effective_cost:
 - U
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Morph
 mana_cost: 1UU
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Shaper Parasite
 power_toughness: 2/3
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 85
-    rarity: uncommon
-    release_date: 2021-03-19
-    wizards_id: 509450
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509450
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
-- C14:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 54636
-    mtgo_id: 54635
-    name: Commander 2014
-    rarity: common
-    release_date: 2014-11-21
-    wizards_id: 389668
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389668
 - PLC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: rk post
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 26264
     mtgo_id: 26263
     name: Planar Chaos
+    number: null
     rarity: common
-    release_date: 2007-02-02
+    release_date: '2007-02-02'
+    tla: PLC
+    variations: []
     wizards_id: 122375
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=122375
+- C14:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: rk post
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 54636
+    mtgo_id: 54635
+    name: Commander 2014
+    number: null
+    rarity: common
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
+    wizards_id: 389668
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389668
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: rk post
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: rk post
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 85
+    rarity: uncommon
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509450
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509450
+rarity: common
 rules: "Morph [[symbol:2]][[symbol:U]] *(You may play this face down as a 2/2 creature\
   \ for [[symbol:3]]. Turn it face up any time for its morph cost.) \r\n\r\nWhen Shaper\
   \ Parasite is turned face up, target creature gets +2/-2 or -2/+2 until end of turn."
@@ -94,18 +143,25 @@ slug: shaper-parasite
 subtype: Illusion
 subtype_tokens:
 - Illusion
-tags: card-color-blue card-color-blue-cost-3 card-type-creature
+synonyms: []
 tapped_id: 932
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Morph 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  tla: C19
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+        \ with morph can be turned face up at any time for its morph cost.*"
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Morph 2/2 C
 type: Creature
-url: http://tappedout.net/mtg-card/shaper-parasite/
+url: https://tappedout.net/mtg-card/shaper-parasite/
+

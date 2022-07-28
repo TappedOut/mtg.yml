@@ -3,42 +3,46 @@ activated_abilities:
   turn.'
 - 'Crew 4 *(Tap any number of other creatures you control with total power 4 or more:
   This Vehicle becomes an artifact creature until end of turn.)*'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: AER
 cannonical_type: Artifact
-color_identity:
-- W
+color_identity: W
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 3
+cube_average: 6.3
+draft_average: 2.77
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,37 +50,60 @@ keywords:
 - Tap/Untap
 - Crew
 mana_cost: '3'
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Peacewalker Colossus
 power_toughness: 6/6
 printings:
-- NEC:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Kamigawa: Neon Dynasty Commander'
-    number: 155
-    rarity: rare
-    release_date: 2022-02-11
-    wizards_id: 554237
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554237
 - AER:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Vincent Proce
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"Peace? Its sole pupose is fear.\"\r\n<br>&mdash;Saheeli Rai*"
     frame: m15
     mtgo_foil_id: 62906
     mtgo_id: 62905
     name: Aether Revolt
     number: 170
     rarity: rare
-    release_date: 2017-01-20
+    release_date: '2017-01-20'
+    tla: AER
+    variations: []
     wizards_id: 423837
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423837
+- NEC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Vincent Proce
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*\"Peace? Its sole purpose is fear.\"\r\n<br>&mdash;Saheeli Rai*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kamigawa: Neon Dynasty Commander'
+    number: 155
+    rarity: rare
+    release_date: '2022-02-11'
+    tla: NEC
+    variations: []
+    wizards_id: 554237
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554237
+rarity: rare
 rules: "[[symbol:1]][[symbol:W]]: Another target Vehicle you control becomes an artifact\
   \ creature until end of turn.\r\n\r\nCrew 4 *(Tap any number of other creatures\
   \ you control with total power 4 or more: This Vehicle becomes an artifact creature\
@@ -85,7 +112,9 @@ slug: peacewalker-colossus
 subtype: Vehicle
 subtype_tokens:
 - Vehicle
-tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
+synonyms: []
 tapped_id: 18568
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/peacewalker-colossus/
+url: https://tappedout.net/mtg-card/peacewalker-colossus/
+

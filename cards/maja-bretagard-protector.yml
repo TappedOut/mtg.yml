@@ -1,8 +1,11 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: KHM
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -10,55 +13,65 @@ companions:
 effective_cost:
 - W
 - G
-flat_cost: 5
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
 - Landfall
 - Tokens
 mana_cost: 2GWW
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Maja, Bretagard Protector
 power_toughness: 2/3
 printings:
 - KHM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lie Setiawan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Our enemies have breached our realm. To survive, the clans must
+      fight as one!"*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Kaldheim
     number: 222
     rarity: uncommon
-    release_date: 2021-02-05
+    release_date: '2021-02-05'
+    tla: KHM
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '327'
+    - identifier: '327'
     wizards_id: 503838
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503838
 rules: "Other creatures you control get +1/+1.\r\n\r\nWhenever a land enters the battlefield\
@@ -68,19 +81,24 @@ subtype: Human Warrior
 subtype_tokens:
 - Human
 - Warrior
-tags: card-color-gold card-color-gold-cost-5 card-color-green card-color-white card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 23900
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Human Warrior 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Human Warrior
-  tla: KHM
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 149
+    - - cannonical_type
+      - Creature
+    - - name
+      - Human Warrior 1/1 W
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/maja-bretagard-protector/
+url: https://tappedout.net/mtg-card/maja-bretagard-protector/
+

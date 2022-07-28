@@ -1,5 +1,6 @@
 activated_abilities:
 - ': Create a 1/1 red Devil creature token with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: WAR
 cannonical_type: Planeswalker
@@ -7,33 +8,37 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.35
+draft_average: 2.88
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,37 +46,62 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Tibalt, Rakish Instigator
+planeswalker_loyalty: 5
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: Secret Lair
-    number: 515
-    rarity: uncommon
-    release_date: 2019-12-09
 - WAR:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Chase Stone
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 71899
     mtgo_id: 71898
     name: War of the Spark
     number: 146
     rarity: uncommon
-    release_date: 2019-05-03
+    release_date: '2019-05-03'
+    tla: WAR
+    variations: []
     wizards_id: 461073
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461073
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chase Stone
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 515
+    rarity: uncommon
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Your opponents can't gain life.\r\n\r\n[[symbol:loyalty-minus2]]: Create a\
   \ 1/1 red Devil creature token with \"When this creature dies *(is put into the\
   \ graveyard from the battlefield)*, it deals 1 damage to target creature, player\
@@ -80,20 +110,26 @@ slug: tibalt-rakish-instigator
 subtype: Tibalt
 subtype_tokens:
 - Tibalt
-tags: card-color-red card-color-red-cost-3 card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 21291
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Devil 1/1 R
-  power_toughness: 1/1
-  rules: When this creature dies *(is put into the graveyard from the battlefield,
-    tokens are put into the graveyard before ceasing to exist)*, this deals 1 damage
-    to any target *(creature, player or planeswalker)*.
-  subtype: Devil
-  tla: WAR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - When this creature dies *(is put into the graveyard from the battlefield,
+        tokens are put into the graveyard before ceasing to exist)*, this deals 1
+        damage to any target *(creature, player or planeswalker)*.
+    - - type
+      - Token Creature
+    - - subtype
+      - 675
+    - - cannonical_type
+      - Creature
+    - - name
+      - Devil 1/1 R
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/tibalt-rakish-instigator/
+url: https://tappedout.net/mtg-card/tibalt-rakish-instigator/
+

@@ -1,33 +1,39 @@
 activated_abilities:
 - ', : Create a token that''s a copy of the imprinted creature card. X is the converted
   mana cost of that card.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C19
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 4
+cube_average: 4.38
+draft_average: 2.33
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -36,51 +42,79 @@ keywords:
 - Imprint
 - Tokens
 mana_cost: '4'
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Soul Foundry
 printings:
+- MRD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Arnie Swekel
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 20064
+    mtgo_id: 20063
+    name: Mirrodin
+    number: null
+    rarity: rare
+    release_date: '2003-10-02'
+    tla: MRD
+    variations: []
+    wizards_id: 46723
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=46723
 - C19:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Arnie Swekel
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 77569
     mtgo_id: 77568
     name: Commander 2019
     number: 223
     rarity: rare
-    release_date: 2019-08-23
+    release_date: '2019-08-23'
+    tla: C19
+    variations: []
     wizards_id: 470769
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470769
-- MRD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 20064
-    mtgo_id: 20063
-    name: Mirrodin
-    rarity: rare
-    release_date: 2003-10-02
-    wizards_id: 46723
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=46723
+rarity: rare
 rules: "*Imprint* &mdash; When Soul Foundry enters the battlefield, you may exile\
   \ a creature card from your hand. *(The exiled card is imprinted on this artifact.)*\r\
   \n\r\n[[symbol:X]], [[symbol:T]]: Create a token that's a copy of the imprinted\
   \ creature card. X is the converted mana cost of that card."
 slug: soul-foundry
-tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
+synonyms: []
 tapped_id: 3458
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Artifact
-url: http://tappedout.net/mtg-card/soul-foundry/
+url: https://tappedout.net/mtg-card/soul-foundry/
+

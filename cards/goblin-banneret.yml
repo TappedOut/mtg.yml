@@ -1,40 +1,44 @@
 activated_abilities:
 - ': Goblin Banneret gets +2/+0 until end of turn.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: GRN
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.21
+draft_average: 6.43
 effective_cost:
 - R
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,37 +46,59 @@ keywords:
 - Counters
 - Mentor
 mana_cost: R
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Goblin Banneret
 power_toughness: 1/1
 printings:
-- 2X2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Double Masters 2022
-    number: 110
-    rarity: uncommon
-    release_date: 2022-07-08
-    wizards_id: 571443
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571443
 - GRN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Viktor Titov
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*The Boros banner stands tall even if its bearer doesn''t.*'
     frame: m15
     mtgo_foil_id: 69578
     mtgo_id: 69577
     name: Guilds of Ravnica
     number: 102
     rarity: uncommon
-    release_date: 2018-10-05
+    release_date: '2018-10-05'
+    tla: GRN
+    variations: []
     wizards_id: 452852
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=452852
+- 2X2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Viktor Titov
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*The Boros banner stands tall even if its bearer doesn''t.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters 2022
+    number: 110
+    rarity: uncommon
+    release_date: '2022-07-08'
+    tla: 2X2
+    variations: []
+    wizards_id: 571443
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571443
 rules: "Mentor *(Whenever this creature attacks, put a +1/+1 counter on target attacking\
   \ creature with lesser power.)*\r\n\r\n[[symbol:1]][[symbol:R]]: Goblin Banneret\
   \ gets +2/+0 until end of turn."
@@ -81,7 +107,9 @@ subtype: Goblin Soldier
 subtype_tokens:
 - Goblin
 - Soldier
-tags: card-color-red card-color-red-cost-1 card-type-creature
+synonyms: []
 tapped_id: 20788
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/goblin-banneret/
+url: https://tappedout.net/mtg-card/goblin-banneret/
+

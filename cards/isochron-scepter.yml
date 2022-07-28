@@ -1,34 +1,40 @@
 activated_abilities:
 - ', : You may copy the exiled card. If you do, you may cast the copy without paying
   its mana cost.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: 2XM
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 2
+cube_average: 6.65
+draft_average: 2.38
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -36,86 +42,149 @@ keywords:
 - Exile
 - Imprint
 mana_cost: '2'
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Isochron Scepter
 printings:
-- 2XM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 264
-    rarity: rare
-    release_date: 2020-08-07
-    wizards_id: 489937
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489937
-- EMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 60664
-    mtgo_id: 60663
-    name: Eternal Masters
-    number: 223
-    rarity: rare
-    release_date: 2016-06-10
-    wizards_id: 413765
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413765
-- DDJ:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 46043
-    name: 'Duel Decks: Izzet vs. Golgari'
-    number: 16
-    rarity: uncommon
-    release_date: 2012-09-07
-    wizards_id: 292752
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=292752
-- V10:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: modern
-    mtgo_foil_id: 37648
-    name: 'From the Vault: Relics'
-    rarity: uncommon
-    release_date: 2010-08-27
-    wizards_id: 212626
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=212626
 - MRD:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Mark Harrison
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 19666
     mtgo_id: 19665
     name: Mirrodin
     number: 188
     rarity: rare
-    release_date: 2003-10-02
+    release_date: '2003-10-02'
+    tla: MRD
+    variations: []
     wizards_id: 46741
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=46741
-- '000':
+- V10:
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Harrison
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 37648
+    mtgo_id: null
+    name: 'From the Vault: Relics'
+    number: null
+    rarity: uncommon
+    release_date: '2010-08-27'
+    tla: V10
+    variations: []
+    wizards_id: 212626
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=212626
+- '000':
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Brian Despain
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- DDJ:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mark Harrison
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 46043
+    name: 'Duel Decks: Izzet vs. Golgari'
+    number: 16
+    rarity: uncommon
+    release_date: '2012-09-07'
+    tla: DDJ
+    variations: []
+    wizards_id: 292752
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=292752
+- EMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chippy
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 60664
+    mtgo_id: 60663
+    name: Eternal Masters
+    number: 223
+    rarity: rare
+    release_date: '2016-06-10'
+    tla: EMA
+    variations: []
+    wizards_id: 413765
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413765
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Harrison
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 264
+    rarity: rare
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations: []
+    wizards_id: 489937
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489937
+rarity: uncommon
 rules: "*Imprint* &mdash; When Isochron Scepter enters the battlefield, you may exile\
   \ an instant card with converted mana cost 2 or less from your hand. *(The exiled\
   \ card is imprinted onto this artifact.)*\r\n\r\n[[symbol:2]], [[symbol:T]]: You\
@@ -124,7 +193,8 @@ rules: "*Imprint* &mdash; When Isochron Scepter enters the battlefield, you may 
 slug: isochron-scepter
 synonyms:
 - Isochron Sceptre
-tags: card-color-colorless card-color-colorless-cost-2 card-type-artifact
 tapped_id: 3340
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/isochron-scepter/
+url: https://tappedout.net/mtg-card/isochron-scepter/
+

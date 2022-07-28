@@ -1,37 +1,42 @@
 activated_abilities:
 - 'Tap two untapped artifacts you control: Target creature can''t be blocked this
   turn.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.02
+draft_average: 2.66
 effective_cost:
 - U
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,113 +46,206 @@ keywords:
 - Unblockable
 - Tokens
 mana_cost: 2UU
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Whirler Rogue
 power_toughness: 2/2
 printings:
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 238
-    rarity: uncommon
-    release_date: 2022-04-30
-    wizards_id: 559810
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559810
-- NEC:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Kamigawa: Neon Dynasty Commander'
-    number: 101
-    rarity: uncommon
-    release_date: 2022-02-11
-    wizards_id: 554184
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554184
-- KHC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Kaldheim: Commander'
-    number: 45
-    rarity: uncommon
-    release_date: 2021-02-05
-    wizards_id: 508335
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508335
-- ZNC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Zendikar Rising: Commander'
-    number: 39
-    rarity: uncommon
-    release_date: 2020-09-25
-    wizards_id: 495977
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=495977
-- ARENA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Arena Cards
-    rarity: uncommon
-    release_date: 2019-09-26
-- GNT:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Magic Game Night
-    number: 25
-    rarity: uncommon
-    release_date: 2018-11-16
-    wizards_id: 456545
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456545
-- C18:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2018
-    number: 111
-    rarity: uncommon
-    release_date: 2018-08-10
-    wizards_id: 451066
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451066
-- DDU:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Duel Decks: Elves vs. Inventors'
-    number: 43
-    rarity: common
-    release_date: 2018-04-06
-    wizards_id: 442779
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442779
 - ORI:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Winona Nelson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 57927
     mtgo_id: 57926
     name: Magic Origins
     number: 83
     rarity: uncommon
-    release_date: 2015-06-17
+    release_date: '2015-06-17'
+    tla: ORI
+    variations: []
     wizards_id: 398410
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398410
+- DDU:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Winona Nelson
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Elves vs. Inventors'
+    number: 43
+    rarity: null
+    release_date: '2018-04-06'
+    tla: DDU
+    variations: []
+    wizards_id: 442779
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442779
+- C18:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Winona Nelson
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2018
+    number: 111
+    rarity: uncommon
+    release_date: '2018-08-10'
+    tla: C18
+    variations: []
+    wizards_id: 451066
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451066
+- GNT:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Winona Nelson
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Magic Game Night
+    number: 25
+    rarity: uncommon
+    release_date: '2018-11-16'
+    tla: GNT
+    variations: []
+    wizards_id: 456545
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456545
+- ZNC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Winona Nelson
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Zendikar Rising: Commander'
+    number: 39
+    rarity: uncommon
+    release_date: '2020-09-25'
+    tla: ZNC
+    variations: []
+    wizards_id: 495977
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=495977
+- KHC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Winona Nelson
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kaldheim: Commander'
+    number: 45
+    rarity: uncommon
+    release_date: '2021-02-05'
+    tla: KHC
+    variations: []
+    wizards_id: 508335
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508335
+- ARENA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Winona Nelson
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Arena Cards
+    number: null
+    rarity: uncommon
+    release_date: '2019-09-26'
+    tla: ARENA
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- NEC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Winona Nelson
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kamigawa: Neon Dynasty Commander'
+    number: 101
+    rarity: uncommon
+    release_date: '2022-02-11'
+    tla: NEC
+    variations: []
+    wizards_id: 554184
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554184
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Winona Nelson
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 238
+    rarity: uncommon
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559810
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559810
 rules: "When this enters the battlefield, create two 1/1 colourless Thopter artifact\
   \ creature tokens with flying.\r\n\r\nTap two untapped artifacts you control: Target\
   \ creature can't be blocked this turn."
@@ -156,18 +254,24 @@ subtype: Human Rogue
 subtype_tokens:
 - Human
 - Rogue
-tags: card-color-blue card-color-blue-cost-4 card-type-creature
+synonyms: []
 tapped_id: 16998
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Thopter 1/1 C
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Thopter
-  tla: NCC
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 323
+    - - cannonical_type
+      - Creature
+    - - name
+      - Thopter 1/1 C
 type: Creature
-url: http://tappedout.net/mtg-card/whirler-rogue/
+url: https://tappedout.net/mtg-card/whirler-rogue/
+

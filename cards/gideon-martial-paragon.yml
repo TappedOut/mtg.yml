@@ -5,6 +5,7 @@ activated_abilities:
   turn. '
 - ': Creatures you control get +2/+2 until end of turn. Tap all creatures your opponents
   control.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: AKH
 cannonical_type: Planeswalker
@@ -12,32 +13,35 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.91
 effective_cost:
 - W
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,27 +50,39 @@ keywords:
 - Tap/Untap
 - Counters
 mana_cost: 4W
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Gideon, Martial Paragon
+planeswalker_loyalty: 5
 printings:
 - AKH:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Daarken
     booster_exclude: true
     border_color: B
-    foil: foil
-    foil_only: true
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 64203
     mtgo_id: 64202
     name: Amonkhet
     number: 270
     rarity: mythic_rare
-    release_date: 2017-04-28
+    release_date: '2017-04-28'
+    tla: AKH
+    variations: []
     wizards_id: 429662
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=429662
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus2]]: Untap creatures you control. They get +1/+1 until\
   \ end of turn. \r\n\r\n[[symbol:loyalty-zero]]: Until end of turn, Gideon, Martial\
   \ Paragon becomes a 5/5 human Soldier with indestructible that's still a planeswalker.\
@@ -77,7 +93,9 @@ slug: gideon-martial-paragon
 subtype: Gideon
 subtype_tokens:
 - Gideon
-tags: card-color-white card-color-white-cost-5 card-type-planeswalker
+synonyms: []
 tapped_id: 18783
+tokens: []
 type: Planeswalker
-url: http://tappedout.net/mtg-card/gideon-martial-paragon/
+url: https://tappedout.net/mtg-card/gideon-martial-paragon/
+

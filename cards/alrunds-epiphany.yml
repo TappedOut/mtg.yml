@@ -1,28 +1,6 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - U
-arena:
-  Alchemy:
-    cannonical_type: Sorcery
-    cmc: 7
-    date: 2021-12-09
-    keywords:
-    - Flying
-    - Exile
-    - Tokens
-    - Foretell
-    mana_cost: 5UU
-    rules: "Take an extra turn after this one. If this spell was foretold, create\
-      \ two 1/1 blue Bird creature tokens with flying. Exile this.\r\n\r\nForetell\
-      \ [[symbol:5]][[symbol:U]][[symbol:U]] *(During your turn, you may pay [[symbol:2]]\
-      \ and exile this from your hand face down. Cast this on a later turn for this\
-      \ card's foretell cost.)*"
-  Historic:
-    date: 2021-12-09
-    rules: "Take an extra turn after this one. If this spell was foretold, create\
-      \ two 1/1 blue Bird creature tokens with flying. Exile this.\r\n\r\nForetell\
-      \ [[symbol:5]][[symbol:U]][[symbol:U]] *(During your turn, you may pay [[symbol:2]]\
-      \ and exile this from your hand face down. Cast this on a later turn for this\
-      \ card's foretell cost.)*"
 canadian_hl_score: 0
 cannonical_set: KHM
 cannonical_type: Sorcery
@@ -37,62 +15,73 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 7
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
 - Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 - Exile
 - Tokens
 - Foretell
 mana_cost: 5UU
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Alrund's Epiphany
 printings:
 - KHM:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Kieran Yanner
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Kaldheim
     number: 41
     rarity: mythic_rare
-    release_date: 2021-02-05
+    release_date: '2021-02-05'
+    tla: KHM
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '295'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '295'
+    - identifier: PromoPack
     wizards_id: 503648
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503648
 rules: "Create two 1/1 blue Bird creature tokens with flying. Take an extra turn after\
@@ -100,18 +89,24 @@ rules: "Create two 1/1 blue Bird creature tokens with flying. Take an extra turn
   \ *(During your turn, you may pay [[symbol:2]] and exile this card from your hand\
   \ face down. Cast it on a later turn for its foretell cost.)*"
 slug: alrunds-epiphany
-tags: card-color-blue card-color-blue-cost-7 card-type-sorcery
+synonyms: []
 tapped_id: 23719
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Bird 1/1 U
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Bird
-  tla: KHM
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 32
+    - - cannonical_type
+      - Creature
+    - - name
+      - Bird 1/1 U
 type: Sorcery
-url: http://tappedout.net/mtg-card/alrunds-epiphany/
+url: https://tappedout.net/mtg-card/alrunds-epiphany/
+

@@ -4,32 +4,36 @@ activated_abilities:
 - ': You may put an Equipment card from your hand or graveyard onto the battlefield.'
 - ': Create a colorless Equipment artifact token named Stoneforged Blade with indestructible,  and
   equip .'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C14
 cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.8
 effective_cost:
 - W
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,24 +45,39 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 3WW
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Nahiri, the Lithomancer
+planeswalker_loyalty: 3
 printings:
 - C14:
     alterations:
-    - Normal
-    - Oversized
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - oversized
+      - Oversized
+    - !!python/tuple
+      - list
+      - The List
+    artist: Eric Deschamps
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 55176
     mtgo_id: 55175
     name: Commander 2014
     number: 10
     rarity: mythic_rare
-    release_date: 2014-11-21
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
     wizards_id: 389612
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389612
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus2]]: Create a 1/1 white Kor Soldier creature token. You\
   \ may attach an Equipment you control to it.\r\n\r\n[[symbol:loyalty-minus2]]: You\
   \ may put an Equipment card from your hand or graveyard onto the battlefield.\r\n\
@@ -70,29 +89,40 @@ slug: nahiri-the-lithomancer
 subtype: Nahiri
 subtype_tokens:
 - Nahiri
-tags: card-color-white card-color-white-cost-5 card-type-planeswalker
+synonyms: []
 tapped_id: 16038
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Stoneforged Blade
-  power_toughness: null
-  rules: "Indestructible\r\n\r\nEquipped creature gets +5/+5 and has double strike.\r\
-    \n\r\nEquip [[symbol:0]]"
-  subtype: Equipment
-  tla: C14
-  type: Token Artifact
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Kor Soldier 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Kor Soldier
-  tla: C14
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - "Indestructible\r\n\r\nEquipped creature gets +5/+5 and has double strike.\r\
+        \n\r\nEquip [[symbol:0]]"
+    - - type
+      - Token Artifact
+    - - subtype
+      - 26
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Stoneforged Blade
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 100
+    - - cannonical_type
+      - Creature
+    - - name
+      - Kor Soldier 1/1 W
 type: Planeswalker
-url: http://tappedout.net/mtg-card/nahiri-the-lithomancer/
+url: https://tappedout.net/mtg-card/nahiri-the-lithomancer/
+

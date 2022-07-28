@@ -4,13 +4,12 @@ activated_abilities:
   three or more creatures this turn. *(This is a linked ability, linked to the ability
   in the first paragraph on this card. You may only play the exiled card that was
   exiled via the ability in the first paragraph.)*'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Land
-color_identity:
-- W
+color_identity: W
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -22,26 +21,30 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 11.65
+draft_average: 2.89
+effective_cost: []
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -49,106 +52,186 @@ is_permanent: true
 keywords:
 - Exile
 - Hideaway
-mana_cost_converted: 0
 mana_produced: W
+mana_value: 0
+melds_from: []
 name: Windbrisk Heights
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 930
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567747
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567747
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 447
-    rarity: rare
-    release_date: 2022-04-30
-    wizards_id: 560019
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=560019
-- C20:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 321
-    rarity: rare
-    release_date: 2020-05-15
-    wizards_id: 482949
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482949
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 436
-    rarity: rare
-    release_date: 2019-12-09
-- C16:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2016
-    number: 336
-    rarity: rare
-    release_date: 2016-11-11
-    wizards_id: 420953
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420953
-- MD1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: modern
-    name: Modern Event Deck
-    number: 18
-    rarity: rare
-    release_date: 2014-05-30
-    wizards_id: 382203
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382203
-- V12:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: modern
-    mtgo_foil_id: 46237
-    mtgo_id: 46236
-    name: 'From the Vault: Realms'
-    rarity: mythic_rare
-    release_date: 2012-08-31
-    wizards_id: 287338
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=287338
 - LRW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Omar Rayyan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 28622
     mtgo_id: 28621
     name: Lorwyn
+    number: null
     rarity: rare
-    release_date: 2007-10-12
+    release_date: '2007-10-12'
+    tla: LRW
+    variations: []
     wizards_id: 145798
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=145798
+- V12:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Omar Rayyan
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 46237
+    mtgo_id: 46236
+    name: 'From the Vault: Realms'
+    number: null
+    rarity: mythic_rare
+    release_date: '2012-08-31'
+    tla: V12
+    variations: []
+    wizards_id: 287338
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=287338
+- MD1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Omar Rayyan
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Modern Event Deck
+    number: 18
+    rarity: rare
+    release_date: '2014-05-30'
+    tla: MD1
+    variations: []
+    wizards_id: 382203
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382203
+- C16:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Omar Rayyan
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2016
+    number: 336
+    rarity: rare
+    release_date: '2016-11-11'
+    tla: C16
+    variations: []
+    wizards_id: 420953
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420953
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Omar Rayyan
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 321
+    rarity: rare
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: 482949
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482949
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Tomohito
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 436
+    rarity: rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Omar Rayyan
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 447
+    rarity: rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 560019
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=560019
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Omar Rayyan
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 930
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567747
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567747
+rarity: rare
 rules: "Hideaway 4 *(When this land enters the battlefield, look at the top four cards\
   \ of your library, exile one face down, then put the rest on the bottom of your\
   \ library in a random order.)*\r\n\r\nWindbrisk Heights enters the battlefield tapped.\r\
@@ -162,8 +245,9 @@ synonyms:
 - W Hideaway
 - W Hideawayland
 - W Hideaway Land
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-white-slow card-type-land
 tap_land: true
 tapped_id: 426
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/windbrisk-heights/
+url: https://tappedout.net/mtg-card/windbrisk-heights/
+

@@ -3,7 +3,7 @@ activated_abilities:
 - ', : Add one mana of any colour.'
 - ', , Tap an untapped Gate you control: Create a Treasure token. *(It''s a colourless
   artifact with )*'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: CLB
@@ -19,27 +19,29 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Penny Dreadful
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Pauper
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Historic
+- Gladiator
+- Alchemy
+- Pauper Duel Commander
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -47,20 +49,33 @@ is_permanent: true
 keywords:
 - Sacrifice
 - Tokens
-mana_cost_converted: 0
 mana_produced: W, U, B, R, G, C
+mana_value: 0
+melds_from: []
 name: Heap Gate
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Andreas Rocha
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 354
     rarity: common
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
     wizards_id: 563237
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563237
 rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:1]], [[symbol:T]]: Add one\
@@ -71,19 +86,24 @@ slug: heap-gate
 subtype: Gate
 subtype_tokens:
 - Gate
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-blue
-  card-mana-colorless-sym card-mana-green card-mana-red card-mana-white card-type-land
+synonyms: []
 tapped_id: 26666
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: CLB
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Land
-url: http://tappedout.net/mtg-card/heap-gate/
+url: https://tappedout.net/mtg-card/heap-gate/
+

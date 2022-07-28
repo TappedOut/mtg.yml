@@ -1,65 +1,96 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CSP
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 8.5
+draft_average: 3.06
 effective_cost:
 - W
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 4WW
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Darien, King of Kjeldor
 power_toughness: 3/3
 printings:
+- CSP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Michael Phillippi
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '"With his dream of unification fulfilled, Darien became the last
+      king of Kjeldor. Those who followed were known as the kings of New Argive."'
+    frame: modern
+    mtgo_foil_id: 24780
+    mtgo_id: 24779
+    name: Coldsnap
+    number: null
+    rarity: rare
+    release_date: '2006-07-21'
+    tla: CSP
+    variations: []
+    wizards_id: 122049
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=122049
 - A25:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Michael Phillippi
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: "\u201CWith his dream of unification fulfilled, Darien became the\
+      \ last king of Kjeldor. Those who followed were known as the kings of New Argive.\u201D\
+      \ \u2014Kjeldor: Ice Civilization"
     frame: m15
     mtgo_foil_id: 66933
     mtgo_id: 66932
     name: Masters 25
     number: 9
-    rarity: rare
-    release_date: 2018-03-16
+    rarity: null
+    release_date: '2018-03-16'
+    tla: A25
+    variations: []
     wizards_id: 441998
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=441998
-- CSP:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 24780
-    mtgo_id: 24779
-    name: Coldsnap
-    rarity: rare
-    release_date: 2006-07-21
-    wizards_id: 122049
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=122049
+rarity: rare
 rules: Whenever you're dealt damage, you may put that many 1/1 white Soldier creature
   tokens into play.
 slug: darien-king-of-kjeldor
@@ -67,18 +98,24 @@ subtype: Human Soldier
 subtype_tokens:
 - Human
 - Soldier
-tags: card-color-white card-color-white-cost-6 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 1399
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Soldier 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Soldier
-  tla: 2X2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 18
+    - - cannonical_type
+      - Creature
+    - - name
+      - Soldier 1/1 W
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/darien-king-of-kjeldor/
+url: https://tappedout.net/mtg-card/darien-king-of-kjeldor/
+

@@ -1,82 +1,122 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MMA
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.0
+draft_average: 7.14
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Vintage
-has_activated_abilities: false
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
 - Tokens
 mana_cost: 3GG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Sporoloth Ancient
 power_toughness: 4/4
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 232
-    rarity: common
-    release_date: 2021-03-19
-    wizards_id: 509597
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509597
-- MMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 48635
-    mtgo_id: 48634
-    name: Modern Masters
-    rarity: common
-    release_date: 2013-06-07
-    wizards_id: 370503
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370503
 - FUT:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: James Kei
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 26673
     mtgo_id: 26672
     name: Future Sight
+    number: null
     rarity: common
-    release_date: 2007-05-04
+    release_date: '2007-05-04'
+    tla: FUT
+    variations: []
     wizards_id: 130323
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=130323
+- MMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: James Kei
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 48635
+    mtgo_id: 48634
+    name: Modern Masters
+    number: null
+    rarity: common
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
+    wizards_id: 370503
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370503
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: James Kei
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 232
+    rarity: common
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509597
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509597
+rarity: common
 rules: "At the beginning of your upkeep, put a spore counter on Sporoloth Ancient.\r\
   \n\r\nCreatures you control have \"Remove two spore counters from this creature:\
   \ Create a 1/1 green Saproling creature token.\""
@@ -86,18 +126,23 @@ subtype_tokens:
 - Fungus
 synonyms:
 - Sporoloth Anceint
-tags: card-color-green card-color-green-cost-5 card-type-creature
 tapped_id: 777
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Saproling 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Saproling
-  tla: MMA
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 893
+    - - cannonical_type
+      - Creature
+    - - name
+      - Saproling 1/1 G
 type: Creature
-url: http://tappedout.net/mtg-card/sporoloth-ancient/
+url: https://tappedout.net/mtg-card/sporoloth-ancient/
+

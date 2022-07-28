@@ -1,71 +1,101 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ELD
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 14.0
+draft_average: 11.5
 effective_cost:
 - W
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
 - Tokens
 mana_cost: 3W
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Bartered Cow
 power_toughness: 3/3
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
 - ELD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Deruchenko Alexander
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*At the market, no one heeded Hilda''s frantic mooing. The fae
+      curse was turning out even worse than she had feared.*'
     frame: m15
     mtgo_foil_id: 78101
     mtgo_id: 78100
     name: Throne of Eldraine
     number: 6
     rarity: common
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
+    variations: []
     wizards_id: 472968
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=472968
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Deruchenko Alexander
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*At the market, no one heeded Hilda''s frantic mooing. The fae
+      curse was turning out even worse than she had feared.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: 'When Bartered Cow is put into the graveyard from the battlefield or is discarded,
   create a Food token. *(It''s an artifact with "[[symbol:2]], [[symbol:T]]. Sacrifice
   this artifact: You gain 3 life.")*'
@@ -73,18 +103,24 @@ slug: bartered-cow
 subtype: Ox
 subtype_tokens:
 - Ox
-tags: card-color-white card-color-white-cost-4 card-type-creature
+synonyms: []
 tapped_id: 22122
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Food
-  power_toughness: null
-  rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
-  subtype: Food
-  tla: ELD
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1373
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Food
 type: Creature
-url: http://tappedout.net/mtg-card/bartered-cow/
+url: https://tappedout.net/mtg-card/bartered-cow/
+

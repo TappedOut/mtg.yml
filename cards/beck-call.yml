@@ -1,59 +1,78 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DGM
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.44
+draft_average: 3.3
 effective_cost:
 - W
 - U
 - G
-flat_cost: 8
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 - Fuse
 - Tokens
 mana_cost: GU // 4WU
-mana_cost_converted: 8
+mana_value: 8
+melds_from: []
 name: Beck / Call
 printings:
 - DGM:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Adam Paquette
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Dragon's Maze
     number: 123
     rarity: rare
-    release_date: 2013-05-03
+    release_date: '2013-05-03'
+    tla: DGM
+    variations: []
     wizards_id: 369063
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=369063
+rarity: rare
 rules: "<h4>Beck:</h4>\r\n\r\nWhenever a creature enters the battlefield this turn,\
   \ you may draw a card.\r\n\r\n-----\r\n\r\n<h4>Call:</h4>\r\n\r\nCreate four 1/1\
   \ white Bird creature tokens with flying.\r\n\r\n-----\r\n\r\nFuse (You may cast\
@@ -69,19 +88,23 @@ synonyms:
 - Call/Beck
 - Call and Beck
 - Beck to Call
-tags: card-color-blue card-color-gold card-color-gold-cost-8 card-color-green card-color-white
-  card-type-sorcery
 tapped_id: 14641
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Bird 1/1 W
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Bird
-  tla: DGM
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 32
+    - - cannonical_type
+      - Creature
+    - - name
+      - Bird 1/1 W
 type: Sorcery
-url: http://tappedout.net/mtg-card/beck-call/
+url: https://tappedout.net/mtg-card/beck-call/
+

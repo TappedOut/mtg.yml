@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: BBD
 cannonical_type: Instant
@@ -11,75 +13,105 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.2
+draft_average: 4.99
 effective_cost:
 - W
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: 4W
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Take Up Arms
 printings:
-- BBD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 68951
-    mtgo_id: 68950
-    name: Battlebond
-    number: 111
-    rarity: uncommon
-    release_date: 2018-06-08
-    wizards_id: 446079
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446079
 - KTK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Craig J Spearing
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*Many scales make the skin of a dragon.\"*\r\n<br>\u2014Abzan wisdom"
     frame: m15
     mtgo_foil_id: 54281
     mtgo_id: 54280
     name: Khans of Tarkir
     number: 26
     rarity: uncommon
-    release_date: 2014-09-26
+    release_date: '2014-09-26'
+    tla: KTK
+    variations: []
     wizards_id: 386691
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386691
+- BBD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Craig J Spearing
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Many scales make the skin of a dragon.\"\r\n<br>&mdash;Abzan\
+      \ wisdom*"
+    frame: m15
+    mtgo_foil_id: 68951
+    mtgo_id: 68950
+    name: Battlebond
+    number: 111
+    rarity: uncommon
+    release_date: '2018-06-08'
+    tla: BBD
+    variations: []
+    wizards_id: 446079
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446079
+rarity: uncommon
 rules: Create three 1/1 white Warrior creature tokens.
 slug: take-up-arms
-tags: card-color-white card-color-white-cost-5 card-type-instant
+synonyms: []
 tapped_id: 15923
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Warrior 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Warrior
-  tla: BBD
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 864
+    - - cannonical_type
+      - Creature
+    - - name
+      - Warrior 1/1 W
 type: Instant
-url: http://tappedout.net/mtg-card/take-up-arms/
+url: https://tappedout.net/mtg-card/take-up-arms/
+

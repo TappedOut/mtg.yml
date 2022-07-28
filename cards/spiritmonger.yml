@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Regenerate Spiritmonger.'
 - ': Spiritmonger becomes the color of your choice until end of turn.'
-activation_costs:
+activated_costs:
 - B
 - G
 canadian_hl_score: 0
@@ -11,101 +11,161 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.46
+draft_average: 1.95
 effective_cost:
 - B
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Regenerate
 mana_cost: 3BG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Spiritmonger
 power_toughness: 6/6
 printings:
-- IMA:
+- APC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Glen Angus
+    booster_exclude: false
     border_color: B
-    frame: m15
-    mtgo_foil_id: 66298
-    mtgo_id: 66297
-    name: Iconic Masters
-    number: 209
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: 16271
+    mtgo_id: 16270
+    name: Apocalypse
+    number: null
     rarity: rare
-    release_date: 2017-11-17
-    wizards_id: 438775
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438775
+    release_date: '2001-06-01'
+    tla: APC
+    variations: []
+    wizards_id: 28009
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=28009
+- CNS:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kev Walker
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Conspiracy
+    number: null
+    rarity: rare
+    release_date: '2014-06-06'
+    tla: CNS
+    variations: []
+    wizards_id: 382370
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382370
 - VMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kev Walker
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 52600
     mtgo_id: 52599
     name: Vintage Masters
     number: 262
     rarity: rare
-    release_date: 2014-06-16
+    release_date: '2014-06-16'
+    tla: VMA
+    variations: []
     wizards_id: 383110
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383110
-- CNS:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    name: Conspiracy
-    rarity: rare
-    release_date: 2014-06-06
-    wizards_id: 382370
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382370
-- APC:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: original
-    mtgo_foil_id: 16271
-    mtgo_id: 16270
-    name: Apocalypse
-    rarity: rare
-    release_date: 2001-06-01
-    wizards_id: 28009
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=28009
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kev Walker
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- IMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kev Walker
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 66298
+    mtgo_id: 66297
+    name: Iconic Masters
+    number: 209
+    rarity: rare
+    release_date: '2017-11-17'
+    tla: IMA
+    variations: []
+    wizards_id: 438775
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438775
+rarity: rare
 rules: "Whenever Spiritmonger deals damage to a creature, put a +1/+1 counter on Spiritmonger.\r\
   \n\r\n[[symbol:B]]: Regenerate Spiritmonger.\r\n\r\n[[symbol:G]]: Spiritmonger becomes\
   \ the color of your choice until end of turn."
@@ -113,7 +173,9 @@ slug: spiritmonger
 subtype: Beast
 subtype_tokens:
 - Beast
-tags: card-color-black card-color-gold card-color-gold-cost-5 card-color-green card-type-creature
+synonyms: []
 tapped_id: 4850
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/spiritmonger/
+url: https://tappedout.net/mtg-card/spiritmonger/
+

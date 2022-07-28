@@ -1,75 +1,99 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M21
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 2.25
+draft_average: 8.55
 effective_cost:
 - W
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 - Exile
 - Tokens
 mana_cost: 1W
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Angelic Ascension
 printings:
 - M21:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Volkan Baga
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Within her battalion she was known as the Angel of Arkvale. Until
+      now, that was only a metaphor.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Core Set 2021
     number: 3
     rarity: uncommon
-    release_date: 2020-07-03
+    release_date: '2020-07-03'
+    tla: M21
+    variations: []
     wizards_id: 485326
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485326
 rules: Exile target creature or planeswalker. Its controller creates a 4/4 white Angel
   creature token with flying.
 slug: angelic-ascension
-tags: card-color-white card-color-white-cost-2 card-type-instant
+synonyms: []
 tapped_id: 23012
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Angel 4/4 W
-  power_toughness: 4/4
-  rules: Flying
-  subtype: Angel
-  tla: M21
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 4/4
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 20
+    - - cannonical_type
+      - Creature
+    - - name
+      - Angel 4/4 W
 type: Instant
-url: http://tappedout.net/mtg-card/angelic-ascension/
+url: https://tappedout.net/mtg-card/angelic-ascension/
+

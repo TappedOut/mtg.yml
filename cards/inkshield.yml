@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C21
 cannonical_type: Instant
@@ -14,60 +16,74 @@ companions:
 effective_cost:
 - W
 - B
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 - Tokens
 mana_cost: 3WB
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Inkshield
 printings:
 - C21:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jarel Threat
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "_Silverquill\u2019s elite know how to offer a scathing rebuttal\
+      \ without uttering a word._"
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2021
     number: 71
     rarity: rare
-    release_date: 2021-04-23
+    release_date: '2021-04-23'
+    tla: C21
     variations:
-    - alterations:
-      - Normal
-      identifier: '398'
+    - identifier: '398'
     wizards_id: 518467
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518467
 rules: Prevent all combat damage that would be dealt to you this turn. For each 1
   damage prevented this way, create a 2/1 white and black Inkling creature token with
   flying.
 slug: inkshield
-tags: card-color-black card-color-gold card-color-gold-cost-5 card-color-white card-type-instant
+synonyms: []
 tapped_id: 24364
 tokens:
-- cannonical_type: Creature
-  colors: WB
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Inkling 2/1 WB
-  power_toughness: 2/1
-  rules: Flying
-  subtype: Inkling
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - WB
+    - - power_toughness
+      - 2/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 1585
+    - - cannonical_type
+      - Creature
+    - - name
+      - Inkling 2/1 WB
 type: Instant
-url: http://tappedout.net/mtg-card/inkshield/
+url: https://tappedout.net/mtg-card/inkshield/
+

@@ -1,6 +1,9 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: 10E
 cannonical_type: Sorcery
+color_identity: ''
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
@@ -11,74 +14,106 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.0
 effective_cost:
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
+keywords: []
 mana_cost: X2B
-mana_cost_converted: 3
+mana_produced: ''
+mana_value: 3
+melds_from: []
 name: Midnight Ritual
+power_toughness: ''
 printings:
 - 10E:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jeff Easley
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Bury old friends deeply, lest they return bearing worms.
     frame: modern
     mtgo_foil_id: 27319
     mtgo_id: 27318
     name: Tenth Edition
     number: 158
     rarity: rare
-    release_date: 2007-07-13
+    release_date: '2007-07-13'
+    tla: 10E
+    variations: []
     wizards_id: 135272
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=135272
 - MMQ:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jeff Easley
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Bury old friends deeply, lest they return bearing worms.
     frame: original
     mtgo_foil_id: 13198
     mtgo_id: 13197
     name: Mercadian Masques
+    number: null
     rarity: rare
-    release_date: 1999-10-04
+    release_date: '1999-10-04'
+    tla: MMQ
+    variations: []
     wizards_id: 19707
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=19707
+rarity: rare
 rules: Remove X target creature cards in your graveyard from the game. For each creature
   card removed this way, put a 2/2 black Zombie creature token into play.
 slug: midnight-ritual
-tags: card-color-black card-color-black-cost-3 card-type-sorcery
+synonyms: []
 tapped_id: 5792
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: 10E
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Sorcery
-url: http://tappedout.net/mtg-card/midnight-ritual/
+url: https://tappedout.net/mtg-card/midnight-ritual/
+

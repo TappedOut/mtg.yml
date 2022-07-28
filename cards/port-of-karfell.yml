@@ -3,15 +3,13 @@ activated_abilities:
 - ', , Sacrifice Port of Karfell: Mill four cards, then return a creature card from
   your graveyard to the battlefield tapped. *(To mill a card, put the top card of
   your library into your graveyard.)*'
-activation_costs:
+activated_costs:
 - B
 - U
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Land
-color_identity:
-- U
-- B
+color_identity: UB
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -23,30 +21,32 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -54,42 +54,66 @@ is_permanent: true
 keywords:
 - Sacrifice
 - Mill
-mana_cost_converted: 0
 mana_produced: U
+mana_value: 0
+melds_from: []
 name: Port of Karfell
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 908
-    rarity: uncommon
-    release_date: 2022-06-10
-    wizards_id: 567725
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567725
 - KHM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mauricio Calle
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Kaldheim
     number: 265
     rarity: uncommon
-    release_date: 2021-02-05
+    release_date: '2021-02-05'
+    tla: KHM
+    variations: []
     wizards_id: 503885
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503885
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mauricio Calle
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 908
+    rarity: uncommon
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567725
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567725
 rules: "Port of Karfell enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Add [[symbol:U]].\r\
   \n\r\n[[symbol:3]][[symbol:U]][[symbol:B]][[symbol:B]], [[symbol:T]], Sacrifice\
   \ Port of Karfell: Mill four cards, then return a creature card from your graveyard\
   \ to the battlefield tapped. *(To mill a card, put the top card of your library\
   \ into your graveyard.)*"
 slug: port-of-karfell
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-blue-slow card-type-land
+synonyms: []
 tap_land: true
 tapped_id: 23901
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/port-of-karfell/
+url: https://tappedout.net/mtg-card/port-of-karfell/
+

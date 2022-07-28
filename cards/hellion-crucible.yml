@@ -3,11 +3,12 @@ activated_abilities:
 - '1{R}, {T}: Put a pressure counter on Hellion Crucible.'
 - '1{R}, {T}, Remove two pressure counters from Hellion Crucible and sacrifice it:
   Put a 4/4 red Hellion creature token with haste onto the battlefield. '
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: M13
 cannonical_type: Land
+color_identity: ''
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -19,22 +20,26 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 10.07
+draft_average: 5.5
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -42,39 +47,60 @@ is_permanent: true
 keywords:
 - Haste
 - Sacrifice
-mana_cost_converted: 0
+mana_cost: ''
+mana_produced: ''
+mana_value: 0
+melds_from: []
 name: Hellion Crucible
+power_toughness: ''
 printings:
 - M13:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Trevor Claxton
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 45701
     mtgo_id: 45700
     name: Magic 2013
     number: 226
     rarity: rare
-    release_date: 2012-07-13
+    release_date: '2012-07-13'
+    tla: M13
+    variations: []
     wizards_id: 253729
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=253729
+rarity: rare
 rules: "{T}: Add 1 to your mana pool.\r\n1{R}, {T}: Put a pressure counter on Hellion\
   \ Crucible.\r\n1{R}, {T}, Remove two pressure counters from Hellion Crucible and\
   \ sacrifice it: Put a 4/4 red Hellion creature token with haste onto the battlefield. "
 slug: hellion-crucible
-tags: card-color-colorless card-color-colorless-cost-0 card-type-land
+synonyms: []
 tapped_id: 13945
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Hellion 4/4 R
-  power_toughness: 4/4
-  rules: ''
-  subtype: Hellion
-  tla: M13
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 4/4
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 172
+    - - cannonical_type
+      - Creature
+    - - name
+      - Hellion 4/4 R
 type: Land
-url: http://tappedout.net/mtg-card/hellion-crucible/
+url: https://tappedout.net/mtg-card/hellion-crucible/
+

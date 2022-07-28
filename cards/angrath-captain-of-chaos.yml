@@ -1,39 +1,44 @@
 activated_abilities:
 - ': Amass 2. *(Put two +1/+1 counters on an Army you control. If you don''t control
   one, create a 0/0 black Zombie Army creature token first.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: WAR
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.32
+draft_average: 2.72
 effective_cost:
 - B
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,37 +48,62 @@ keywords:
 - Menace
 - Amass
 mana_cost: 2{B/R}{B/R}
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Angrath, Captain of Chaos
+planeswalker_loyalty: 5
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: Secret Lair
-    number: 527
-    rarity: uncommon
-    release_date: 2019-12-09
 - WAR:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Slawomir Maniak
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 72061
     mtgo_id: 72060
     name: War of the Spark
     number: 227
     rarity: uncommon
-    release_date: 2019-05-03
+    release_date: '2019-05-03'
+    tla: WAR
+    variations: []
     wizards_id: 461154
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461154
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Slawomir Maniak
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 527
+    rarity: uncommon
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Creatures you control have menace.\r\n\r\n[[symbol:loyalty-minus2]]: Amass\
   \ 2. *(Put two +1/+1 counters on an Army you control. If you don't control one,\
   \ create a 0/0 black Zombie Army creature token first.)*"
@@ -81,19 +111,24 @@ slug: angrath-captain-of-chaos
 subtype: Angrath
 subtype_tokens:
 - Angrath
-tags: card-color-black card-color-gold card-color-gold-cost-4 card-color-red card-type-legendary
-  card-type-planeswalker
+synonyms: []
 tapped_id: 21275
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie Army 0/0 B
-  power_toughness: 0/0
-  rules: ''
-  subtype: Zombie Army
-  tla: WAR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 0/0
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 1342
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie Army 0/0 B
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/angrath-captain-of-chaos/
+url: https://tappedout.net/mtg-card/angrath-captain-of-chaos/
+

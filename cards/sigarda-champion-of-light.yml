@@ -1,39 +1,42 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MID
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - W
 - G
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -41,42 +44,70 @@ keywords:
 - Trample
 - Coven
 mana_cost: 1GWW
-mana_cost_converted: 4
 mana_produced: GW
+mana_value: 4
+melds_from: []
 name: Sigarda, Champion of Light
 power_toughness: 4/4
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 240
-    rarity: mythic_rare
-    release_date: 2022-01-21
 - MID:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Howard Lyon
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Midnight Hunt'
     number: 240
     rarity: mythic_rare
-    release_date: 2021-09-24
+    release_date: '2021-09-24'
+    tla: MID
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '323'
+    - identifier: '323'
     wizards_id: 535036
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=535036
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Howard Lyon
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 240
+    rarity: mythic_rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Flying, trample\r\n\r\nHumans you control get +1/+1.\r\n\r\n*Coven* &mdash;\
   \ Whenever this attacks, if you control three or more creature with different powers,\
   \ look at the top five cards of your library. You may reveal a Human creature card\
@@ -86,8 +117,9 @@ slug: sigarda-champion-of-light
 subtype: Angel
 subtype_tokens:
 - Angel
-tags: card-color-gold card-color-gold-cost-4 card-color-green card-color-white card-mana-green
-  card-mana-white card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 24987
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/sigarda-champion-of-light/
+url: https://tappedout.net/mtg-card/sigarda-champion-of-light/
+

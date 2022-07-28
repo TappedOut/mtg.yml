@@ -1,29 +1,32 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - B
-flat_cost: 6
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -31,26 +34,34 @@ keywords:
 - Tokens
 - Partner
 mana_cost: 5B
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Nadier, Agent of the Duskenel
 power_toughness: 3/3
 printings:
 - CMR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Yongjae Choi
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander Legends
     number: 135
     rarity: uncommon
-    release_date: 2020-11-20
+    release_date: '2020-11-20'
+    tla: CMR
     variations:
-    - alterations:
-      - Etched
-      - Foil
-      - Normal
-      identifier: '567'
+    - identifier: '567'
     wizards_id: 497655
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497655
 rules: "Whenever a token you control leaves the battlefield, put a +1/+1 counter on\
@@ -62,18 +73,24 @@ subtype: Elf Warrior
 subtype_tokens:
 - Elf
 - Warrior
-tags: card-color-black card-color-black-cost-6 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 23597
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elf Warrior 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Elf Warrior
-  tla: CMR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 48
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elf Warrior 1/1 G
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/nadier-agent-of-the-duskenel/
+url: https://tappedout.net/mtg-card/nadier-agent-of-the-duskenel/
+

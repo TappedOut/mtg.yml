@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SNC
 cannonical_type: Enchantment
@@ -5,38 +7,39 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - B
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Penny Dreadful
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -44,27 +47,42 @@ keywords:
 - Hideaway
 - Mill
 mana_cost: 2B
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Cemetery Tampering
 printings:
 - SNC:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Taras Susak
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Streets of New Capenna
     number: 69
     rarity: rare
-    release_date: 2022-04-29
+    release_date: '2022-04-29'
+    tla: SNC
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '418'
+    - identifier: '418'
     wizards_id: 555270
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=555270
 rules: "Hideaway 5 *(When this enchantment enters the battlefield, look at the top\
@@ -74,7 +92,9 @@ rules: "Hideaway 5 *(When this enchantment enters the battlefield, look at the t
   \ the exiled card without paying its mana cost. *(To mill three, put the top three\
   \ cards of your library into your graveyard.)*"
 slug: cemetery-tampering
-tags: card-color-black card-color-black-cost-3 card-type-enchantment
+synonyms: []
 tapped_id: 26196
+tokens: []
 type: Enchantment
-url: http://tappedout.net/mtg-card/cemetery-tampering/
+url: https://tappedout.net/mtg-card/cemetery-tampering/
+

@@ -3,39 +3,43 @@ activated_abilities:
 - 'Embalm 3WW (3WW, Exile this card from your graveyard: Create a token that''s a
   copy of it, except it''s a white Zombie Bird Soldier with no mana cost. Embalm only
   as a sorcery.)'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: AKH
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.2
+draft_average: 3.51
 effective_cost:
 - W
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,24 +48,36 @@ keywords:
 - Cycling
 - Embalm
 mana_cost: 3WW
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Oketra's Attendant
 power_toughness: 3/3
 printings:
 - AKH:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lake Hurwitz
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 63647
     mtgo_id: 63646
     name: Amonkhet
     number: 22
     rarity: uncommon
-    release_date: 2017-04-28
+    release_date: '2017-04-28'
+    tla: AKH
+    variations: []
     wizards_id: 426724
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426724
+rarity: uncommon
 rules: "Flying\r\n\r\nCycling 2 (2, Discard this card: Draw a card.)\r\n\r\nEmbalm\
   \ 3WW (3WW, Exile this card from your graveyard: Create a token that's a copy of\
   \ it, except it's a white Zombie Bird Soldier with no mana cost. Embalm only as\
@@ -71,18 +87,24 @@ subtype: Bird Soldier
 subtype_tokens:
 - Bird
 - Soldier
-tags: card-color-white card-color-white-cost-5 card-type-creature
+synonyms: []
 tapped_id: 18878
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Oketra's Attendant 3/3 W
-  power_toughness: 3/3
-  rules: Flying
-  subtype: Zombie Bird Soldier
-  tla: AKH
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 3/3
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 1285
+    - - cannonical_type
+      - Creature
+    - - name
+      - Oketra's Attendant 3/3 W
 type: Creature
-url: http://tappedout.net/mtg-card/oketras-attendant/
+url: https://tappedout.net/mtg-card/oketras-attendant/
+

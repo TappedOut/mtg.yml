@@ -1,6 +1,6 @@
 activated_abilities:
 - ': Add .'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: NCC
@@ -16,22 +16,26 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 10.5
+draft_average: 4.91
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -39,98 +43,174 @@ is_permanent: true
 keywords:
 - Graft
 - Counters
-mana_cost_converted: 0
 mana_produced: G
+mana_value: 0
+melds_from: []
 name: Llanowar Reborn
 printings:
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 413
-    rarity: uncommon
-    release_date: 2022-04-30
-    wizards_id: 559985
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559985
-- C21:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 296
-    rarity: uncommon
-    release_date: 2021-04-23
-    wizards_id: 519331
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519331
-- C15:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2015
-    number: 293
-    rarity: uncommon
-    release_date: 2015-11-13
-    wizards_id: 405285
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405285
-- C13:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 50825
-    mtgo_id: 50824
-    name: Commander 2013
-    rarity: uncommon
-    release_date: 2013-11-01
-    wizards_id: 376400
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376400
-- DDL:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 49863
-    name: 'Duel Decks: Heroes vs. Monsters'
-    number: 72
-    rarity: uncommon
-    release_date: 2013-09-06
-    wizards_id: 373368
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373368
-- ARC:
-    alterations:
-    - Normal
-    - The List
-    border_color: B
-    frame: modern
-    name: Archenemy
-    rarity: uncommon
-    release_date: 2010-06-18
-    wizards_id: 220496
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220496
 - FUT:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Philip Straub
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 26809
     mtgo_id: 26808
     name: Future Sight
+    number: null
     rarity: uncommon
-    release_date: 2007-05-04
+    release_date: '2007-05-04'
+    tla: FUT
+    variations: []
     wizards_id: 136035
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=136035
+- ARC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - list
+      - The List
+    artist: Philip Straub
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Archenemy
+    number: null
+    rarity: uncommon
+    release_date: '2010-06-18'
+    tla: ARC
+    variations: []
+    wizards_id: 220496
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220496
+- C13:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Philip Straub
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 50825
+    mtgo_id: 50824
+    name: Commander 2013
+    number: null
+    rarity: uncommon
+    release_date: '2013-11-01'
+    tla: C13
+    variations: []
+    wizards_id: 376400
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376400
+- DDL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Philip Straub
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 49863
+    name: 'Duel Decks: Heroes vs. Monsters'
+    number: 72
+    rarity: uncommon
+    release_date: '2013-09-06'
+    tla: DDL
+    variations: []
+    wizards_id: 373368
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373368
+- C15:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Philib Straub
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2015
+    number: 293
+    rarity: uncommon
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
+    wizards_id: 405285
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405285
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Philib Straub
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 296
+    rarity: uncommon
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519331
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519331
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Philib Straub
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 413
+    rarity: uncommon
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559985
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559985
+rarity: uncommon
 rules: "This enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Add [[symbol:G]].\r\
   \n\r\nGraft 1 *(This land enters the battlefield with a +1/+1 counter on this land.\
   \ Whenever a creature enters the battlefield, you may move a +1/+1 counter from\
   \ this land onto it.)*"
 slug: llanowar-reborn
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-green-slow card-type-land
+synonyms: []
 tap_land: true
 tapped_id: 706
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/llanowar-reborn/
+url: https://tappedout.net/mtg-card/llanowar-reborn/
+

@@ -3,6 +3,7 @@ activated_abilities:
   of the next end step.'
 - ': Creatures are unblockable this turn.'
 - ': You get an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DDI
 cannonical_type: Planeswalker
@@ -10,29 +11,33 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.3
+draft_average: 1.0
 effective_cost:
 - W
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,39 +46,57 @@ keywords:
 - Unblockable
 - Counters
 mana_cost: 3WU
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Venser, the Sojourner
 power_toughness: '3'
 printings:
-- DDI:
-    alterations:
-    - Foil
-    border_color: B
-    foil: foil
-    foil_only: true
-    frame: modern
-    mtgo_foil_id: 43755
-    mtgo_id: 43754
-    name: 'Duel Decks: Venser vs. Koth'
-    number: 1
-    rarity: mythic_rare
-    release_date: 2012-03-30
-    wizards_id: 266078
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=266078
 - SOM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Deschamps
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 38336
     mtgo_id: 38335
     name: Scars of Mirrodin
     number: 135
     rarity: mythic_rare
-    release_date: 2010-10-01
+    release_date: '2010-10-01'
+    tla: SOM
+    variations: []
     wizards_id: 212240
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=212240
+- DDI:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Deschamps
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 43755
+    mtgo_id: 43754
+    name: 'Duel Decks: Venser vs. Koth'
+    number: 1
+    rarity: mythic_rare
+    release_date: '2012-03-30'
+    tla: DDI
+    variations: []
+    wizards_id: 266078
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=266078
+rarity: mythic_rare
 rules: "[[loyalty-plus2]]: Exile target permanent you own. Return it to the battlefield\
   \ at the beginning of the next end step.\r\n\r\n[[loyalty-minus1]]: Creatures are\
   \ unblockable this turn.\r\n\r\n[[loyalty-minus8]]: You get an emblem with \"Whenever\
@@ -82,18 +105,24 @@ slug: venser-the-sojourner
 subtype: Venser
 subtype_tokens:
 - Venser
-tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-white card-type-planeswalker
+synonyms: []
 tapped_id: 12406
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Venser, the Sojourner
-  power_toughness: null
-  rules: Whenever you cast a spell, exile target permanent.
-  subtype: Venser
-  tla: DDI
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Whenever you cast a spell, exile target permanent.
+    - - type
+      - Emblem
+    - - subtype
+      - 858
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Venser, the Sojourner
 type: Planeswalker
-url: http://tappedout.net/mtg-card/venser-the-sojourner/
+url: https://tappedout.net/mtg-card/venser-the-sojourner/
+

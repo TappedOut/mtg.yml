@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C21
 cannonical_type: Sorcery
@@ -14,61 +16,75 @@ companions:
 effective_cost:
 - U
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Counters
 - Tokens
 mana_cost: 3GU
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Oversimplify
 printings:
 - C21:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Liiga Smilshkalne
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\u201CA fine example of addition by subtraction.\u201D\r\n<br>\u2014\
+      Deekah, professor of fractal theory*"
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2021
     number: 72
     rarity: rare
-    release_date: 2021-04-23
+    release_date: '2021-04-23'
+    tla: C21
     variations:
-    - alterations:
-      - Normal
-      identifier: '399'
+    - identifier: '399'
     wizards_id: 518468
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518468
 rules: Exile all creatures. Each player creates a 0/0 green and blue Fractal creature
   token and puts a number of +1/+1 counters on it equal to the total power of creatures
   they controlled that were exiled this way.
 slug: oversimplify
-tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-green card-type-sorcery
+synonyms: []
 tapped_id: 24315
 tokens:
-- cannonical_type: Creature
-  colors: GU
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Fractal 0/0 GU
-  power_toughness: 0/0
-  rules: ''
-  subtype: Fractal
-  tla: STX
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - GU
+    - - power_toughness
+      - 0/0
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 1560
+    - - cannonical_type
+      - Creature
+    - - name
+      - Fractal 0/0 GU
 type: Sorcery
-url: http://tappedout.net/mtg-card/oversimplify/
+url: https://tappedout.net/mtg-card/oversimplify/
+

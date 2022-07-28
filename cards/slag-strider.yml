@@ -1,11 +1,13 @@
 activated_abilities:
 - ', Sacrifice an artifact: This deals 1 damage to target creature, player or planeswalker.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MH2
 cannonical_type: Creature
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -13,24 +15,25 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 7
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -38,20 +41,34 @@ keywords:
 - Sacrifice
 - Affinity
 mana_cost: 5RR
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Slag Strider
 power_toughness: 3/3
 printings:
 - MH2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Yeong-Hao Han
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Imbued with life by a stray bolt of spellcraft, it began to wander
+      about the foundry, to the blacksmiths'' alarm.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Modern Horizons 2
     number: 141
     rarity: uncommon
-    release_date: 2021-06-18
+    release_date: '2021-06-18'
+    tla: MH2
+    variations: []
     wizards_id: 522217
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522217
 rules: "Affinity for artifacts *(This spell costs [[symbol:1]] less to cast for each\
@@ -61,7 +78,9 @@ slug: slag-strider
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-color-red card-color-red-cost-7 card-type-creature
+synonyms: []
 tapped_id: 24528
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/slag-strider/
+url: https://tappedout.net/mtg-card/slag-strider/
+

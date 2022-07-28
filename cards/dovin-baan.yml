@@ -3,64 +3,84 @@ activated_abilities:
   abilities can''t be activated.'
 - ': You gain 2 life and draw a card.'
 - ': You get an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: KLD
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.22
+draft_average: 1.76
 effective_cost:
 - W
 - U
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tap/Untap
 mana_cost: 2WU
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Dovin Baan
+planeswalker_loyalty: 3
 printings:
 - KLD:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Tyler Jacobson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 61576
     mtgo_id: 61575
     name: Kaladesh
     number: 179
     rarity: mythic_rare
-    release_date: 2016-09-30
+    release_date: '2016-09-30'
+    tla: KLD
+    variations: []
     wizards_id: 417752
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417752
+rarity: mythic_rare
 rules: "[[loyalty-plus1]]: Until your next turn, up to one target creature gets -3/-0\
   \ and it's activated abilities can't be activated.\r\n\r\n[[loyalty-minus1]]: You\
   \ gain 2 life and draw a card.\r\n\r\n[[loyalty-minus7]]: You get an emblem with\
@@ -69,18 +89,24 @@ slug: dovin-baan
 subtype: Dovin
 subtype_tokens:
 - Dovin
-tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-white card-type-planeswalker
+synonyms: []
 tapped_id: 18306
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Dovin Baan
-  power_toughness: null
-  rules: Your opponents can't untap more than two permanents during their untap steps.
-  subtype: Dovin
-  tla: KLD
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Your opponents can't untap more than two permanents during their untap steps.
+    - - type
+      - Emblem
+    - - subtype
+      - 1163
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Dovin Baan
 type: Planeswalker
-url: http://tappedout.net/mtg-card/dovin-baan/
+url: https://tappedout.net/mtg-card/dovin-baan/
+

@@ -1,9 +1,12 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -11,31 +14,31 @@ companions:
 effective_cost:
 - B
 - G
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -43,40 +46,64 @@ keywords:
 - Tokens
 - Mill
 mana_cost: 1BG
-mana_cost_converted: 3
 mana_produced: W, U, B, R, G
+mana_value: 3
+melds_from: []
 name: Old Rutstein
 power_toughness: 1/4
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 511
-    rarity: rare
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Greg Staples
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 244
     rarity: rare
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '326'
+    - identifier: '326'
     wizards_id: 541118
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=541118
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Greg Staples
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 511
+    rarity: rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: 'When this enters the battlefield or at the beginning of your upkeep, mill
   a card. *(Put the top card of your library into your graveyard.)* If a land card
   is milled this way, creature a Treasure token. *(It''s an artifact with "[[symbol:T]],
@@ -89,41 +116,55 @@ subtype: Human Peasant
 subtype_tokens:
 - Human
 - Peasant
-tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-green card-mana-black
-  card-mana-blue card-mana-green card-mana-red card-mana-white card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 25500
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Blood
-  power_toughness: null
-  rules: '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
-    a card.'
-  subtype: Blood
-  tla: VOW
-  type: Token Artifact
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Insect 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Insect
-  tla: VOW
-  type: Token Creature
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: VOW
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
+        a card.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1692
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Blood
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 16
+    - - cannonical_type
+      - Creature
+    - - name
+      - Insect 1/1 G
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/old-rutstein/
+url: https://tappedout.net/mtg-card/old-rutstein/
+

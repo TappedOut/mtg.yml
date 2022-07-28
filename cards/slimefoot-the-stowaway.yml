@@ -1,75 +1,109 @@
 activated_abilities:
 - ': Create a 1/1 green Saproling creature token.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DOM
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.06
+draft_average: 3.25
 effective_cost:
 - B
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: 1BG
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Slimefoot, the Stowaway
 power_toughness: 2/3
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: original
-    name: Time Spiral Remastered
-    number: 386
-    rarity: special
-    release_date: 2021-03-19
-    wizards_id: 512352
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512352
 - DOM:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Alex Konstad
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*As Jhoira restored the *Weatherlight,* a mushroom growing in its
+      hold unexpectedly became her first crew member.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Dominaria
     number: 205
     rarity: uncommon
-    release_date: 2018-04-22
+    release_date: '2018-04-22'
+    tla: DOM
+    variations: []
     wizards_id: 443093
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443093
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Alex Konstad
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*As Jhoira restored the *Weatherlight,* a mushroom growing in its
+      hold unexpectedly became her first crew member.*'
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 386
+    rarity: special
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 512352
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512352
+rarity: uncommon
 rules: "Whenever a Saproling you control dies *(is put into the graveyard from the\
   \ battlefield, tokens are put into the graveyard before they cease to exist)*, this\
   \ deals 1 damage to each opponent and you gain 1 life.\r\n\r\n[[symbol:4]]: Create\
@@ -78,19 +112,24 @@ slug: slimefoot-the-stowaway
 subtype: Fungus
 subtype_tokens:
 - Fungus
-tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-green card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 20155
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Saproling 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Saproling
-  tla: DOM
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 893
+    - - cannonical_type
+      - Creature
+    - - name
+      - Saproling 1/1 G
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/slimefoot-the-stowaway/
+url: https://tappedout.net/mtg-card/slimefoot-the-stowaway/
+

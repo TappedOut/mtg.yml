@@ -2,36 +2,41 @@ activated_abilities:
 - ': Create a 0/1 green Plant creature token.'
 - ': Put a +1/+1 counter on each creature you control.'
 - ': You gain X life and draw X cards, where X is the number of lands you control.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DDR
 cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 3.73
+draft_average: 1.19
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -39,63 +44,109 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 1GG
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Nissa, Voice of Zendikar
+planeswalker_loyalty: 3
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: mythic_rare
-    release_date: 2020-03-14
-- DDR:
-    alterations:
-    - Foil
-    border_color: B
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: 'Duel Decks: Nissa vs. Ob Nixilis'
-    number: 1
-    rarity: mythic_rare
-    release_date: 2016-09-02
-    wizards_id: 417424
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417424
 - OGW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Raymond Swanland
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 59336
     mtgo_id: 59335
     name: Oath of the Gatewatch
     number: 138
     rarity: mythic_rare
-    release_date: 2016-01-22
+    release_date: '2016-01-22'
+    tla: OGW
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 407648
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407648
+- DDR:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Raymond Swanland
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Nissa vs. Ob Nixilis'
+    number: 1
+    rarity: mythic_rare
+    release_date: '2016-09-02'
+    tla: DDR
+    variations: []
+    wizards_id: 417424
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417424
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Deschamps
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 138
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Raymond Swanland
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: mythic_rare
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Create a 0/1 green Plant creature token.\r\n\r\n\
   [[symbol:loyalty-minus2]]: Put a +1/+1 counter on each creature you control.\r\n\
   \r\n[[symbol:loyalty-minus7]]: You gain X life and draw X cards, where X is the\
@@ -104,18 +155,24 @@ slug: nissa-voice-of-zendikar
 subtype: Nissa
 subtype_tokens:
 - Nissa
-tags: card-color-green card-color-green-cost-3 card-type-planeswalker
+synonyms: []
 tapped_id: 17461
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Plant 0/1 G
-  power_toughness: 0/1
-  rules: ''
-  subtype: Plant
-  tla: DDR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 0/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 691
+    - - cannonical_type
+      - Creature
+    - - name
+      - Plant 0/1 G
 type: Planeswalker
-url: http://tappedout.net/mtg-card/nissa-voice-of-zendikar/
+url: https://tappedout.net/mtg-card/nissa-voice-of-zendikar/
+

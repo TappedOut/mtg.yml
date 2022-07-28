@@ -1,36 +1,40 @@
 activated_abilities:
 - ', Sacrifice an artifact: Pia and Kiran Nalaar deals 2 damage to target creature
   or player.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: DDU
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.77
+draft_average: 1.97
 effective_cost:
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -39,46 +43,80 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 2RR
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Pia and Kiran Nalaar
 power_toughness: 2/2
 printings:
-- DDU:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Duel Decks: Elves vs. Inventors'
-    number: 47
-    rarity: rare
-    release_date: 2018-04-06
-    wizards_id: 442783
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442783
 - ORI:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Eric Deschamps
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 57991
     mtgo_id: 57990
     name: Magic Origins
     number: 157
     rarity: rare
-    release_date: 2015-06-17
+    release_date: '2015-06-17'
+    tla: ORI
+    variations: []
     wizards_id: 398453
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398453
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Tyler Jacobson
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 157
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- DDU:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Eric Deschamps
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Elves vs. Inventors'
+    number: 47
+    rarity: rare
+    release_date: '2018-04-06'
+    tla: DDU
+    variations: []
+    wizards_id: 442783
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442783
 rules: "When Pia and Kiran Nalaar enters the battlefield, create two 1/1 colorless\
   \ Thopter artifact creature tokens with flying.\r\n\r\n[[symbol:2]][[symbol:R]],\
   \ Sacrifice an artifact: Pia and Kiran Nalaar deals 2 damage to target creature\
@@ -94,18 +132,23 @@ synonyms:
 - Mom and Dad
 - Pia and Kiran
 - Parents
-tags: card-color-red card-color-red-cost-4 card-type-creature card-type-legendary
 tapped_id: 16862
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Thopter 1/1 C
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Thopter
-  tla: DDU
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 323
+    - - cannonical_type
+      - Creature
+    - - name
+      - Thopter 1/1 C
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/pia-and-kiran-nalaar/
+url: https://tappedout.net/mtg-card/pia-and-kiran-nalaar/
+

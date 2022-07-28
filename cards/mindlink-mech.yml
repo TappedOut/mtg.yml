@@ -1,6 +1,7 @@
 activated_abilities:
 - 'Crew 1 *(Tap any number of creatures you control with total power 1 or more: This
   Vehicle becomes an artifact creature until end of turn.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NEO
 cannonical_type: Artifact
@@ -8,6 +9,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -15,30 +17,31 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -47,32 +50,44 @@ keywords:
 - Tap/Untap
 - Crew
 mana_cost: 2U
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Mindlink Mech
 power_toughness: 4/3
 printings:
 - NEO:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Robbie Trevino
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
     number: 62
     rarity: rare
-    release_date: 2022-02-10
+    release_date: '2022-02-10'
+    tla: NEO
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '373'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '448'
+    - identifier: '373'
+    - identifier: '448'
     wizards_id: 548359
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=548359
 rules: "Flying\r\n\r\nWhenever this becomes crewed for the first time each turn, until\
@@ -85,7 +100,9 @@ slug: mindlink-mech
 subtype: Vehicle
 subtype_tokens:
 - Vehicle
-tags: card-color-blue card-color-blue-cost-3 card-type-artifact
+synonyms: []
 tapped_id: 25994
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/mindlink-mech/
+url: https://tappedout.net/mtg-card/mindlink-mech/
+

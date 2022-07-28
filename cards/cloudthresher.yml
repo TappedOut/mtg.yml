@@ -1,33 +1,37 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: DDR
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.69
+draft_average: 2.92
 effective_cost:
 - G
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -36,56 +40,102 @@ keywords:
 - Sacrifice
 - Evoke
 mana_cost: 2GGGG
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Cloudthresher
 power_toughness: 7/7
 printings:
-- CM1:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology
-    number: 96
-    rarity: rare
-    release_date: 2017-06-09
-- DDR:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Duel Decks: Nissa vs. Ob Nixilis'
-    number: 6
-    rarity: rare
-    release_date: 2016-09-02
-    wizards_id: 417429
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417429
-- C15:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2015
-    number: 179
-    rarity: rare
-    release_date: 2015-11-13
-    wizards_id: 405174
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405174
 - LRW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Christopher Moeller
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 28704
     mtgo_id: 28703
     name: Lorwyn
+    number: null
     rarity: rare
-    release_date: 2007-10-12
+    release_date: '2007-10-12'
+    tla: LRW
+    variations: []
     wizards_id: 146173
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=146173
+- C15:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Christopher Moeller
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2015
+    number: 179
+    rarity: rare
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
+    wizards_id: 405174
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405174
+- DDR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Christopher Moeller
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Nissa vs. Ob Nixilis'
+    number: 6
+    rarity: rare
+    release_date: '2016-09-02'
+    tla: DDR
+    variations: []
+    wizards_id: 417429
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417429
+- CM1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Christopher Moeller
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology
+    number: 96
+    rarity: null
+    release_date: '2017-06-09'
+    tla: CM1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "Flash\r\n\r\nReach *(This can block creatures with flying.)*\r\n\r\nWhen Cloudthresher\
   \ enters the battlefield, it deals 2 damage to each creature with flying and each\
   \ player.\r\n\r\nEvoke [[symbol:2]][[symbol:G]][[symbol:G]] *(You may cast this\
@@ -94,7 +144,9 @@ slug: cloudthresher
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-color-green card-color-green-cost-6 card-type-creature
+synonyms: []
 tapped_id: 195
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/cloudthresher/
+url: https://tappedout.net/mtg-card/cloudthresher/
+

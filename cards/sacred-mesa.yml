@@ -1,6 +1,6 @@
 activated_abilities:
 - ': Put a 1/1 white Pegasus creature token with flying into play.'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: C14
@@ -9,30 +9,34 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.68
+draft_average: 4.0
 effective_cost:
 - W
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,72 +45,123 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 2W
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Sacred Mesa
+power_toughness: ''
 printings:
+- TSB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Margaret Organ-Kean
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '"Do not go there, do not go / unless you rise on wings, unless
+      you walk on hooves.""Song to the Sun," Femeref song'
+    frame: modern
+    mtgo_foil_id: 26076
+    mtgo_id: 26075
+    name: Time Spiral "Timeshifted"
+    number: null
+    rarity: rare
+    release_date: '2006-10-06'
+    tla: TSB
+    variations: []
+    wizards_id: 106625
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=106625
+- MIR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Margaret Organ-Kean
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: 7266
+    mtgo_id: 7265
+    name: Mirage
+    number: null
+    rarity: rare
+    release_date: '1996-10-01'
+    tla: MIR
+    variations: []
+    wizards_id: 3512
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3512
 - C14:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Robbie Trevino
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 55238
     mtgo_id: 55237
     name: Commander 2014
     number: 86
     rarity: rare
-    release_date: 2014-11-21
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
     wizards_id: 389661
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389661
-- TSB:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 26076
-    mtgo_id: 26075
-    name: Time Spiral "Timeshifted"
-    rarity: rare
-    release_date: 2006-10-06
-    wizards_id: 106625
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=106625
 - ATH:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Margaret Organ-Kean
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*Do not go there, do not go / unless you rise on wings, unless\
+      \ you walk on hooves.\"\r\n<br>\u2014\"Song to the Sun,\" Femeref song*"
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Anthologies
     number: 47
     rarity: rare
-    release_date: 1998-11-01
-- MIR:
-    alterations:
-    - Normal
-    border_color: B
-    frame: original
-    mtgo_foil_id: 7266
-    mtgo_id: 7265
-    name: Mirage
-    rarity: rare
-    release_date: 1996-10-01
-    wizards_id: 3512
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3512
+    release_date: '1998-11-01'
+    tla: ATH
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "At the beginning of your upkeep, sacrifice Sacred Mesa unless you sacrifice\
   \ a Pegasus.\r\n\r\n[[symbol:1]][[symbol:W]]: Put a 1/1 white Pegasus creature token\
   \ with flying into play."
 slug: sacred-mesa
-tags: card-color-white card-color-white-cost-3 card-type-enchantment
+synonyms: []
 tapped_id: 1326
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Pegasus 1/1 W
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Pegasus
-  tla: C14
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 105
+    - - cannonical_type
+      - Creature
+    - - name
+      - Pegasus 1/1 W
 type: Enchantment
-url: http://tappedout.net/mtg-card/sacred-mesa/
+url: https://tappedout.net/mtg-card/sacred-mesa/
+

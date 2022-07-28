@@ -1,5 +1,6 @@
 activated_abilities:
 - ': Cinder Pyromancer deals 1 damage to target player.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: EVE
 cannonical_type: Creature
@@ -7,80 +8,113 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.0
+draft_average: 6.06
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Cinder Pyromancer
 power_toughness: 0/1
 printings:
-- PFL:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: modern
-    mtgo_foil_id: 39241
-    name: 'Premium Deck Series: Fire and Lightning'
-    number: 9
-    rarity: common
-    release_date: 2010-11-19
-    wizards_id: 234717
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=234717
-- DPA:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: modern
-    mtgo_id: 34121
-    name: Duels of the Planeswalkers
-    number: 41
-    rarity: common
-    release_date: 2010-06-04
 - EVE:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Greg Staples
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"If the whole world burns, I''ll never grow cold."'
     frame: modern
     mtgo_foil_id: 29961
     mtgo_id: 29960
     name: Eventide
     number: 50
     rarity: common
-    release_date: 2008-07-25
+    release_date: '2008-07-25'
+    tla: EVE
+    variations: []
     wizards_id: 151067
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=151067
+- PFL:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Greg Staples
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"If the whole world burns, I''ll never grow cold."*'
+    frame: modern
+    mtgo_foil_id: 39241
+    mtgo_id: null
+    name: 'Premium Deck Series: Fire and Lightning'
+    number: 9
+    rarity: common
+    release_date: '2010-11-19'
+    tla: PFL
+    variations: []
+    wizards_id: 234717
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=234717
+- DPA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Greg Staples
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*If the whole world burns, I''ll never grow cold.*'
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 34121
+    name: Duels of the Planeswalkers
+    number: 41
+    rarity: common
+    release_date: '2010-06-04'
+    tla: DPA
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: "[[T]]: Cinder Pyromancer deals 1 damage to target player.\r\n\r\nWhenever\
   \ you cast a red spell, you may untap Cinder Pyromancer.\r\n"
 slug: cinder-pyromancer
@@ -88,7 +122,9 @@ subtype: Elemental Shaman
 subtype_tokens:
 - Elemental
 - Shaman
-tags: card-color-red card-color-red-cost-3 card-type-creature
+synonyms: []
 tapped_id: 9783
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/cinder-pyromancer/
+url: https://tappedout.net/mtg-card/cinder-pyromancer/
+

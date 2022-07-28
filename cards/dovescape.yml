@@ -1,35 +1,39 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - U
 - W
 canadian_hl_score: 0
 cannonical_set: GK2
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 4.4
+draft_average: 1.0
 effective_cost:
 - W
 - U
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -37,62 +41,106 @@ keywords:
 - Counterspell
 - Tokens
 mana_cost: 3{W/U}{W/U}{W/U}
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Dovescape
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 95
-    rarity: rare
-    release_date: 2019-12-09
-- GK2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Ravnica Allegiance: Guild Kits'
-    number: 11
-    rarity: rare
-    release_date: 2019-02-15
-    wizards_id: 460140
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460140
 - DIS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Shishizaru
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 24218
     mtgo_id: 24217
     name: Dissension
     number: 143
     rarity: rare
-    release_date: 2006-05-05
+    release_date: '2006-05-05'
+    tla: DIS
+    variations: []
     wizards_id: 107428
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=107428
+- GK2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Shishizaru
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Ravnica Allegiance: Guild Kits'
+    number: 11
+    rarity: rare
+    release_date: '2019-02-15'
+    tla: GK2
+    variations: []
+    wizards_id: 460140
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460140
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ovidio Cartagena
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 95
+    rarity: rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "*([[symbol:WU]] can be paid with either [[symbol:W]] or [[symbol:U]])*\r\n\
   \r\nWhenever a player casts a noncreature spell, counter that spell. That player\
   \ creates X 1/1 white and blue Bird creature tokens with flying, where X is the\
   \ spell's converted mana cost."
 slug: dovescape
-tags: card-color-blue card-color-gold card-color-gold-cost-6 card-color-white card-type-enchantment
+synonyms: []
 tapped_id: 1565
 tokens:
-- cannonical_type: Creature
-  colors: WU
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 1/1 WU Token Creature Bird
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Bird
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - WU
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 32
+    - - cannonical_type
+      - Creature
+    - - name
+      - null
 type: Enchantment
-url: http://tappedout.net/mtg-card/dovescape/
+url: https://tappedout.net/mtg-card/dovescape/
+

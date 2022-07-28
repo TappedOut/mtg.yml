@@ -1,12 +1,11 @@
 activated_abilities:
 - ': Put a +1/+1 counter on target creature.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: MID
 cannonical_type: Creature
-color_indicator:
-- G
+color_indicator: G
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -17,30 +16,32 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - G
-flat_cost: 0
+flip: Hound Tamer
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -48,38 +49,60 @@ keywords:
 - Trample
 - Counters
 - Daybound / Nightbound
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Untamed Pup
 power_toughness: 4/4
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 187
-    rarity: uncommon
-    release_date: 2022-01-21
 - MID:
     alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Randy Vargas
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Midnight Hunt'
     number: 187
     rarity: uncommon
-    release_date: 2021-09-24
+    release_date: '2021-09-24'
+    tla: MID
     variations:
-    - alterations:
-      - Foil
+    - identifier: '302'
+    wizards_id: null
+    wizards_url: null
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: '302'
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Randy Vargas
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 187
+    rarity: uncommon
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Trample\r\n\r\nOther Wolves and Werewolves you control trample.\r\n\r\n[[symbol:3]][[symbol:G]]:\
   \ Put a +1/+1 counter on target creature.\r\n\r\nNightbound *(If a player casts\
   \ two spells during their own turn, this game becomes day next turn during the untap\
@@ -91,26 +114,39 @@ slug: untamed-pup
 subtype: Werewolf
 subtype_tokens:
 - Werewolf
-tags: card-type-creature
+synonyms: []
 tapped_id: 25160
 tokens:
-- cannonical_type: Emblem
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Day
-  power_toughness: null
-  rules: ''
-  tla: MID
-  type: Emblem
-- cannonical_type: Emblem
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Night
-  power_toughness: null
-  rules: ''
-  tla: MID
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Day
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Night
 type: Creature
-url: http://tappedout.net/mtg-card/untamed-pup/
+url: https://tappedout.net/mtg-card/untamed-pup/
+

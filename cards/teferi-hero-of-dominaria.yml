@@ -2,6 +2,7 @@ activated_abilities:
 - ': Draw a card. At the beginning of the next end step, untap two lands. '
 - ': Put target nonland permanent into its owner''s library third from the top. '
 - ': You get an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DOM
 cannonical_type: Planeswalker
@@ -9,33 +10,37 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.61
+draft_average: 1.63
 effective_cost:
 - W
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,61 +49,118 @@ keywords:
 - Tap/Untap
 - Counters
 mana_cost: 3WU
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Teferi, Hero of Dominaria
+planeswalker_loyalty: 4
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 248
-    rarity: mythic_rare
-    release_date: 2019-12-09
-- GRNMED:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Guilds of Ravnica: Mythic Edition'
-    number: 6
-    rarity: mythic_rare
-    release_date: 2018-10-04
 - DOM:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    - !!python/tuple
+      - list
+      - The List
+    artist: Chris Rallis
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Dominaria
     number: 207
     rarity: mythic_rare
-    release_date: 2018-04-22
+    release_date: '2018-04-22'
+    tla: DOM
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: Animated
+    - identifier: Animated
     wizards_id: 443095
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443095
+- GRNMED:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Yongjae Choi
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Guilds of Ravnica: Mythic Edition'
+    number: 6
+    rarity: mythic_rare
+    release_date: '2018-10-04'
+    tla: GRNMED
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: KNIIO
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 248
+    rarity: mythic_rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
 - '000':
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rallis
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Draw a card. At the beginning of the next end step,\
   \ untap two lands. \r\n\r\n[[symbol:loyalty-minus3]]: Put target nonland permanent\
   \ into its owner's library third from the top. \r\n\r\n[[symbol:loyalty-minus8]]:\
@@ -112,19 +174,23 @@ synonyms:
 - 5feri
 - T5feri
 - Te5eri
-tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-white card-type-legendary
-  card-type-planeswalker
 tapped_id: 20084
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Teferi, Hero of Dominaria
-  power_toughness: null
-  rules: Whenever you draw a card, exile target permanent an opponent controls.
-  subtype: Teferi
-  tla: DOM
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Whenever you draw a card, exile target permanent an opponent controls.
+    - - type
+      - Emblem
+    - - subtype
+      - 1040
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Teferi, Hero of Dominaria
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/teferi-hero-of-dominaria/
+url: https://tappedout.net/mtg-card/teferi-hero-of-dominaria/
+

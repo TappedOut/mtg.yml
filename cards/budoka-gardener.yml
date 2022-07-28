@@ -3,38 +3,42 @@ activated_abilities:
   or more lands, flip Budoka Gardener.'
 - ', : Create an X/X green Elemental creature token, where X is the number of lands
   you control.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: C18
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 1.5
+draft_average: 2.0
 effective_cost:
 - G
-flat_cost: 2
 flip: Dokai, Weaver of Life
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_front: true
 is_mtgo: true
@@ -43,35 +47,57 @@ keywords:
 - Flip
 - Tokens
 mana_cost: 1G
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Budoka Gardener
 power_toughness: 2/1
 printings:
-- C18:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2018
-    number: 134
-    rarity: rare
-    release_date: 2018-08-10
-    wizards_id: 451089
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451089
 - CHK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kev Walker
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 21226
     mtgo_id: 21225
     name: Champions of Kamigawa
     number: 202
     rarity: rare
-    release_date: 2004-10-01
+    release_date: '2004-10-01'
+    tla: CHK
+    variations: []
     wizards_id: 78687
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=78687
+- C18:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kev Walker
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2018
+    number: 134
+    rarity: rare
+    release_date: '2018-08-10'
+    tla: C18
+    variations: []
+    wizards_id: 451089
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451089
+rarity: rare
 rules: "[[symbol:T]]: You may put a land card from your hand onto the battlefield.\
   \ If you control ten or more lands, flip Budoka Gardener.\r\n\r\n-----\r\n\r\n<h2>Dokai,\
   \ Weaver of Life</h2>\r\n<h3>Legendary Creature &mdash; Human Monk</h3>\r\n\r\n\
@@ -94,18 +120,23 @@ synonyms:
 - Badoka Gardener
 - Dokai, Weaver of Life / Badoka Gardener
 - Badoka Gardener / Dokai, Weaver of Life
-tags: card-color-green card-color-green-cost-2 card-type-creature
 tapped_id: 10384
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elemental X/X G
-  power_toughness: X/X
-  rules: ''
-  subtype: Elemental
-  tla: C18
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - X/X
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elemental X/X G
 type: Creature
-url: http://tappedout.net/mtg-card/budoka-gardener/
+url: https://tappedout.net/mtg-card/budoka-gardener/
+

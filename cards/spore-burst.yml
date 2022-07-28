@@ -1,71 +1,93 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CON
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+draft_average: 5.88
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Domain
 mana_cost: 3G
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Spore Burst
+power_toughness: ''
 printings:
 - CON:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daarken
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Seeds from Jund don't drift gently on the wind. They get up and
+      stampede.
     frame: modern
     mtgo_foil_id: 31896
     mtgo_id: 31895
     name: Conflux
     number: 93
     rarity: uncommon
-    release_date: 2009-02-06
+    release_date: '2009-02-06'
+    tla: CON
+    variations: []
     wizards_id: 185829
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=185829
+rarity: uncommon
 rules: "Domain \x97 Put a 1/1 green Saproling creature token onto the battlefield\
   \ for each basic land type among lands you control.\r\n"
 slug: spore-burst
-tags: card-color-green card-color-green-cost-4 card-type-sorcery
+synonyms: []
 tapped_id: 10280
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Saproling 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Saproling
-  tla: 2X2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 893
+    - - cannonical_type
+      - Creature
+    - - name
+      - Saproling 1/1 G
 type: Sorcery
-url: http://tappedout.net/mtg-card/spore-burst/
+url: https://tappedout.net/mtg-card/spore-burst/
+

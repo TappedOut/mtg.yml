@@ -1,93 +1,144 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: JMP
 cannonical_type: Creature
+color_identity: ''
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.72
+draft_average: 1.5
 effective_cost:
 - W
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Attach
 - Tokens
 mana_cost: 2WW
-mana_cost_converted: 4
+mana_produced: ''
+mana_value: 4
+melds_from: []
 name: Ajani's Chosen
 power_toughness: 3/3
 printings:
-- JMP:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Jumpstart
-    number: 82
-    rarity: rare
-    release_date: 2020-07-17
-    wizards_id: 489566
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489566
-- C18:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2018
-    number: 61
-    rarity: rare
-    release_date: 2018-08-10
-    wizards_id: 451016
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451016
-- C15:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2015
-    number: 57
-    rarity: rare
-    release_date: 2015-11-13
-    wizards_id: 405121
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405121
 - M14:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Wayne Reynolds
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"United, our roar will level mountains."'
     frame: modern
     mtgo_foil_id: 49540
     mtgo_id: 49539
     name: Magic 2014
     number: 2
     rarity: rare
-    release_date: 2013-07-19
+    release_date: '2013-07-19'
+    tla: M14
+    variations: []
     wizards_id: 370750
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370750
+- C15:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Wayne Reynolds
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*"United, our roar will level mountains."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2015
+    number: 57
+    rarity: rare
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
+    wizards_id: 405121
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405121
+- C18:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Wayne Reynolds
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*"United, our roar will level mountains."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2018
+    number: 61
+    rarity: rare
+    release_date: '2018-08-10'
+    tla: C18
+    variations: []
+    wizards_id: 451016
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451016
+- JMP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Wayne Reynolds
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*"United, our roar will level mountains."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Jumpstart
+    number: 82
+    rarity: rare
+    release_date: '2020-07-17'
+    tla: JMP
+    variations: []
+    wizards_id: 489566
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489566
+rarity: rare
 rules: Whenever an enchantment enters the battlefield under your control, create a
   2/2 white Cat creature token. If that enchantment is an Aura, you may attach it
   to the token.
@@ -96,18 +147,24 @@ subtype: Cat Soldier
 subtype_tokens:
 - Cat
 - Soldier
-tags: card-color-white card-color-white-cost-4 card-type-creature
+synonyms: []
 tapped_id: 14673
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Cat 2/2 W
-  power_toughness: 2/2
-  rules: ''
-  subtype: Cat
-  tla: CMR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 227
+    - - cannonical_type
+      - Creature
+    - - name
+      - Cat 2/2 W
 type: Creature
-url: http://tappedout.net/mtg-card/ajanis-chosen/
+url: https://tappedout.net/mtg-card/ajanis-chosen/
+

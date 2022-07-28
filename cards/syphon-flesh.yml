@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MIC
 cannonical_type: Sorcery
@@ -11,93 +13,147 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.34
 effective_cost:
 - B
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Sacrifice
 - Tokens
 mana_cost: 4B
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Syphon Flesh
 printings:
-- MIC:
+- CMD:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ironbrush
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: 'Innistrad: Midnight Hunt Commander'
-    number: 129
+    cannonical: true
+    flavour_text: Necromancers deal in commodities far more precious that gold and
+      grain.
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 40607
+    name: 'MTG: Commander'
+    number: null
     rarity: uncommon
-    release_date: 2021-09-25
-    wizards_id: 539390
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539390
-- CM2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology 2018
-    number: 79
-    rarity: uncommon
-    release_date: 2018-06-08
-    wizards_id: 446815
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446815
+    release_date: '2011-06-17'
+    tla: CMD
+    variations: []
+    wizards_id: 233218
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=233218
 - CM1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: null
     booster_exclude: true
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander Anthology
     number: 69
     rarity: uncommon
-    release_date: 2017-06-09
-- CMD:
+    release_date: '2017-06-09'
+    tla: CM1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- CM2:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ironbrush
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_id: 40607
-    name: 'MTG: Commander'
+    cannonical: false
+    flavour_text: '*Necromancers deal in commodities far more precious than gold and
+      grain.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology 2018
+    number: 79
     rarity: uncommon
-    release_date: 2011-06-17
-    wizards_id: 233218
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=233218
+    release_date: '2018-06-08'
+    tla: CM2
+    variations: []
+    wizards_id: 446815
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446815
+- MIC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ironbrush
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Necromancers deal in commodities far more precious than gold and
+      grain.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Midnight Hunt Commander'
+    number: 129
+    rarity: uncommon
+    release_date: '2021-09-25'
+    tla: MIC
+    variations: []
+    wizards_id: 539390
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539390
+rarity: uncommon
 rules: Each other player sacrifices a creature. You create a 2/2 black Zombie creature
   token for each creature sacrificed with this ability.
 slug: syphon-flesh
-tags: card-color-black card-color-black-cost-5 card-type-sorcery
+synonyms: []
 tapped_id: 13076
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: MIC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Sorcery
-url: http://tappedout.net/mtg-card/syphon-flesh/
+url: https://tappedout.net/mtg-card/syphon-flesh/
+

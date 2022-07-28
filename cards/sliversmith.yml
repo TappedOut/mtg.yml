@@ -1,87 +1,124 @@
 activated_abilities:
 - ', , Discard a card: Create a 1/1 Sliver artifact creature token named Metallic
   Sliver.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: FUT
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 2
+draft_average: 4.82
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: '2'
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Sliversmith
 power_toughness: 1/1
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 273
-    rarity: uncommon
-    release_date: 2021-03-19
-    wizards_id: 509638
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509638
 - FUT:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Avon
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: After centuries of labor, its creations outnumber those they were
+      to mimic.
     frame: modern
     mtgo_foil_id: 26679
     mtgo_id: 26678
     name: Future Sight
+    number: null
     rarity: uncommon
-    release_date: 2007-05-04
+    release_date: '2007-05-04'
+    tla: FUT
+    variations: []
     wizards_id: 130329
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=130329
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Avon
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*After centuries of labor, its creations outnumber those they were
+      to mimic.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 273
+    rarity: uncommon
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509638
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509638
+rarity: uncommon
 rules: '[[symbol:1]], [[symbol:T]], Discard a card: Create a 1/1 Sliver artifact creature
   token named Metallic Sliver.'
 slug: sliversmith
 subtype: Spellshaper
 subtype_tokens:
 - Spellshaper
-tags: card-color-colorless card-color-colorless-cost-2 card-type-artifact card-type-creature
+synonyms: []
 tapped_id: 769
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Metallic Sliver 1/1 C
-  power_toughness: 1/1
-  rules: ''
-  subtype: Sliver
-  tla: TSR
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 15
+    - - cannonical_type
+      - Creature
+    - - name
+      - Metallic Sliver 1/1 C
 type: Artifact Creature
-url: http://tappedout.net/mtg-card/sliversmith/
+url: https://tappedout.net/mtg-card/sliversmith/
+

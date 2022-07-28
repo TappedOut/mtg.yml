@@ -2,7 +2,7 @@ activated_abilities:
 - ', Exile Spara''s Adjudicators from your hand: Target land gains  until Spara''s
   Adjudicators is cast from exile. You may cast Spara''s Adjudicators spell for as
   long as Spara''s Adjudicators card remains exiled.'
-activation_costs:
+activated_costs:
 - G
 - U
 - W
@@ -13,6 +13,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -22,62 +23,70 @@ effective_cost:
 - W
 - U
 - G
-flat_cost: 5
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Penny Dreadful
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
 mana_cost: 2GWU
-mana_cost_converted: 5
 mana_produced: G, W, U
+mana_value: 5
+melds_from: []
 name: Spara's Adjudicators
 power_toughness: 4/4
 printings:
 - SNC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Aaron J. Riley
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Streets of New Capenna
     number: 224
     rarity: common
-    release_date: 2022-04-29
+    release_date: '2022-04-29'
+    tla: SNC
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '335'
-    - alterations:
-      - Foil
-      identifier: '400'
+    - identifier: '335'
+    - identifier: '400'
     wizards_id: 555425
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=555425
 rules: "When Spara's Adjudicators enters the battlefield, target creature an opponent\
@@ -91,8 +100,9 @@ subtype: Cat Citizen
 subtype_tokens:
 - Cat
 - Citizen
-tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-green card-color-white
-  card-mana-blue card-mana-green card-mana-white card-type-creature
+synonyms: []
 tapped_id: 26327
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/sparas-adjudicators/
+url: https://tappedout.net/mtg-card/sparas-adjudicators/
+

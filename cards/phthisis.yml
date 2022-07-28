@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: AFC
@@ -12,105 +13,164 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.44
+draft_average: 4.58
 effective_cost:
 - B
-flat_cost: 7
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Suspend
 - Counters
 mana_cost: 3BBBB
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Phthisis
 printings:
-- AFC:
-    alterations:
-    - Normal
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 105
-    rarity: uncommon
-    release_date: 2021-07-24
-    wizards_id: 532492
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532492
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 129
-    rarity: uncommon
-    release_date: 2021-03-19
-    wizards_id: 509494
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509494
-- C13:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 51513
-    mtgo_id: 51512
-    name: Commander 2013
-    rarity: uncommon
-    release_date: 2013-11-01
-    wizards_id: 376445
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376445
-- MMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 49039
-    mtgo_id: 49038
-    name: Modern Masters
-    rarity: uncommon
-    release_date: 2013-06-07
-    wizards_id: 370383
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370383
 - TSP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Carl Critchlow
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 25546
     mtgo_id: 25545
     name: Time Spiral
+    number: null
     rarity: uncommon
-    release_date: 2006-10-06
+    release_date: '2006-10-06'
+    tla: TSP
+    variations: []
     wizards_id: 109758
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=109758
+- MMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Carl Critchlow
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 49039
+    mtgo_id: 49038
+    name: Modern Masters
+    number: null
+    rarity: uncommon
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
+    wizards_id: 370383
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370383
+- C13:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Carl Critchlow
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 51513
+    mtgo_id: 51512
+    name: Commander 2013
+    number: null
+    rarity: uncommon
+    release_date: '2013-11-01'
+    tla: C13
+    variations: []
+    wizards_id: 376445
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376445
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Carl Critchlow
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 129
+    rarity: uncommon
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509494
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509494
+- AFC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Carl Critchlow
+    booster_exclude: false
+    border_color: null
+    cannonical: true
+    flavour_text: ''
+    frame: null
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 105
+    rarity: uncommon
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: 532492
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532492
+rarity: uncommon
 rules: "Destroy target creature. Its controller loses life equal to its power plus\
   \ its toughness.\r\n\r\nSuspend 5&mdash;[[symbol:1]][[symbol:B]] *(Rather than cast\
   \ this card from your hand, you may pay [[symbol:1]][[symbol:B]] and exile this\
   \ with five time counters on this. At the beginning of your upkeep, remove a time\
   \ counter. When the last is removed, cast this without paying the mana cost.)*"
 slug: phthisis
-tags: card-color-black card-color-black-cost-7 card-type-sorcery
+synonyms: []
 tapped_id: 1139
+tokens: []
 type: Sorcery
-url: http://tappedout.net/mtg-card/phthisis/
+url: https://tappedout.net/mtg-card/phthisis/
+

@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: 2XM
 cannonical_type: Artifact
@@ -5,28 +7,31 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-- Zirda, the Dawnwaker
-flat_cost: 3
+cube_average: 3.37
+draft_average: 1.37
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: true
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -34,77 +39,128 @@ keywords:
 - Protection
 - Attach
 mana_cost: '3'
-mana_cost_converted: 3
+mana_produced: ''
+mana_value: 3
+melds_from: []
 name: Sword of Fire and Ice
+power_toughness: ''
 printings:
-- 2XM:
+- DST:
     alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 297
-    rarity: mythic_rare
-    release_date: 2020-08-07
-    variations:
-    - alterations:
-      - Foil
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: '365'
-    wizards_id: 489970
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489970
-- MPS:
-    alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Zug
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: 'Masterpiece Series: Kaladesh Inventions'
-    number: 29
-    rarity: mythic_rare
-    release_date: 2016-09-30
-    wizards_id: 420616
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420616
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 20536
+    mtgo_id: 20535
+    name: Darksteel
+    number: null
+    rarity: rare
+    release_date: '2004-02-06'
+    tla: DST
+    variations: []
+    wizards_id: 46429
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=46429
 - MMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 48869
     mtgo_id: 48868
     name: Modern Masters
     number: 216
     rarity: mythic_rare
-    release_date: 2013-06-07
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
     wizards_id: 370471
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370471
-- DST:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 20536
-    mtgo_id: 20535
-    name: Darksteel
-    rarity: rare
-    release_date: 2004-02-06
-    wizards_id: 46429
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=46429
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Zug
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 2
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- MPS:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Volkan Baga
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Masterpiece Series: Kaladesh Inventions'
+    number: 29
+    rarity: mythic_rare
+    release_date: '2016-09-30'
+    tla: MPS
+    variations: []
+    wizards_id: 420616
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420616
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 297
+    rarity: mythic_rare
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations:
+    - identifier: '365'
+    wizards_id: 489970
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489970
+rarity: mythic_rare
 rules: "Equipped creature gets +2/+2 and has protection from red and from blue.\r\n\
   \r\nWhenever equipped creature deals combat damage to a player, Sword of Fire and\
   \ Ice deals 2 damage to target creature or player and you draw a card.\r\n\r\nEquip\
@@ -120,7 +176,8 @@ synonyms:
 - Sword of RU
 - Sword of U and R
 - Sword of R and U
-tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
 tapped_id: 3210
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/sword-of-fire-and-ice/
+url: https://tappedout.net/mtg-card/sword-of-fire-and-ice/
+

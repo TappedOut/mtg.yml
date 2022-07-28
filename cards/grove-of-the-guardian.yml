@@ -2,13 +2,14 @@ activated_abilities:
 - ': Gain .'
 - ', , Tap two untapped creatures you control, Sacrifice Grove of the Guardian: Create
   an 8/8 green and white Elemental creature token with vigilance.'
-activation_costs:
+activated_costs:
 - C
 - G
 - W
 canadian_hl_score: 0
 cannonical_set: GK1
 cannonical_type: Land
+color_identity: ''
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -20,23 +21,27 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 9.81
+draft_average: 3.19
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -46,61 +51,105 @@ keywords:
 - Sacrifice
 - Tap/Untap
 - Tokens
-mana_cost_converted: 0
+mana_cost: ''
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Grove of the Guardian
+power_toughness: ''
 printings:
-- GK1:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Guilds of Ravnica: Guild Kit'
-    number: 124
-    rarity: rare
-    release_date: 2018-11-02
-    wizards_id: 456382
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456382
 - RTR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Christine Choi
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 46788
     mtgo_id: 46787
     name: Return to Ravnica
     number: 240
     rarity: rare
-    release_date: 2012-10-05
+    release_date: '2012-10-05'
+    tla: RTR
+    variations: []
     wizards_id: 270968
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=270968
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Yeong-Hao Han
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
+    number: null
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- GK1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Christine Choi
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Guilds of Ravnica: Guild Kit'
+    number: 124
+    rarity: rare
+    release_date: '2018-11-02'
+    tla: GK1
+    variations: []
+    wizards_id: 456382
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456382
+rarity: rare
 rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:3]][[symbol:G]][[symbol:W]],\
   \ [[symbol:T]], Tap two untapped creatures you control, Sacrifice Grove of the Guardian:\
   \ Create an 8/8 green and white Elemental creature token with vigilance."
 slug: grove-of-the-guardian
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
+synonyms: []
 tapped_id: 14041
 tokens:
-- cannonical_type: Creature
-  colors: GW
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elemental 8/8 GW
-  power_toughness: 8/8
-  rules: Vigilance
-  subtype: Elemental
-  tla: GK1
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - GW
+    - - power_toughness
+      - 8/8
+    - - rules
+      - Vigilance
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elemental 8/8 GW
 type: Land
-url: http://tappedout.net/mtg-card/grove-of-the-guardian/
+url: https://tappedout.net/mtg-card/grove-of-the-guardian/
+

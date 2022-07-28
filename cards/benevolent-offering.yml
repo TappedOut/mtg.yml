@@ -1,81 +1,109 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: VOC
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.6
 effective_cost:
 - W
-flat_cost: 4
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 - Tokens
 mana_cost: 3W
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Benevolent Offering
 printings:
-- VOC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Crimson Vow Commander'
-    number: 78
-    rarity: rare
-    release_date: 2021-11-18
-    wizards_id: 545698
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545698
 - C14:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ryan Yee
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 55192
     mtgo_id: 55191
     name: Commander 2014
     number: 3
     rarity: rare
-    release_date: 2014-11-21
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
     wizards_id: 389440
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389440
+- VOC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ryan Yee
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Crimson Vow Commander'
+    number: 78
+    rarity: rare
+    release_date: '2021-11-18'
+    tla: VOC
+    variations: []
+    wizards_id: 545698
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545698
+rarity: rare
 rules: "Choose an opponent. You and that player each create three 1/1 white Spirit\
   \ creature tokens with flying.\r\n\r\nChoose an opponent. You gain 2 life for each\
   \ creature you control and that player gains 2 life for each creature they control."
 slug: benevolent-offering
-tags: card-color-white card-color-white-cost-4 card-type-instant
+synonyms: []
 tapped_id: 16045
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spirit 1/1 W
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Spirit
-  tla: 2X2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 17
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spirit 1/1 W
 type: Instant
-url: http://tappedout.net/mtg-card/benevolent-offering/
+url: https://tappedout.net/mtg-card/benevolent-offering/
+

@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: MH1
@@ -13,50 +14,64 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 11.43
+draft_average: 8.5
 effective_cost:
 - W
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Splice
 - Tokens
 mana_cost: 2W
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Splicer's Skill
 printings:
 - MH1:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Jason Felix
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 72435
     mtgo_id: 72434
     name: Modern Horizons
     number: 31
     rarity: uncommon
-    release_date: 2019-06-14
+    release_date: '2019-06-14'
+    tla: MH1
+    variations: []
     wizards_id: 463980
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=463980
 rules: "Create a 3/3 colourless Golem artifact creature token.\r\n\r\nSplice onto\
@@ -64,18 +79,24 @@ rules: "Create a 3/3 colourless Golem artifact creature token.\r\n\r\nSplice ont
   \ spell, you may reveal this card from your hand and pay its splice cost. If you\
   \ do, add this card's effects to that spell.)*"
 slug: splicers-skill
-tags: card-color-white card-color-white-cost-3 card-type-sorcery
+synonyms: []
 tapped_id: 21554
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Phyrexian Golem 3/3 C
-  power_toughness: 3/3
-  rules: ''
-  subtype: Phyrexian Golem
-  tla: 2X2
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 3/3
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 1644
+    - - cannonical_type
+      - Creature
+    - - name
+      - Phyrexian Golem 3/3 C
 type: Sorcery
-url: http://tappedout.net/mtg-card/splicers-skill/
+url: https://tappedout.net/mtg-card/splicers-skill/
+

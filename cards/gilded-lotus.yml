@@ -1,5 +1,6 @@
 activated_abilities:
 - ': Gain three mana of any one color.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DOM
 cannonical_type: Artifact
@@ -7,114 +8,182 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 5
+cube_average: 3.37
+draft_average: 2.29
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: '5'
-mana_cost_converted: 5
 mana_produced: W, U, B, R, G
+mana_value: 5
+melds_from: []
 name: Gilded Lotus
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 205
-    rarity: rare
-    release_date: 2019-12-09
-- DOM:
-    alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    border_color: B
-    frame: m15
-    name: Dominaria
-    number: 215
-    rarity: rare
-    release_date: 2018-04-22
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
-    wizards_id: 443103
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443103
-- V13:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: modern
-    mtgo_foil_id: 50052
-    name: 'From the Vault: Twenty'
-    number: 12
-    rarity: mythic_rare
-    release_date: 2013-08-10
-    wizards_id: 373335
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373335
-- M13:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 45707
-    mtgo_id: 45706
-    name: Magic 2013
-    rarity: rare
-    release_date: 2012-07-13
-    wizards_id: 249742
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=249742
 - MRD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Martina Pilcerova
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Over such beauty, wars are fought. With such power, wars are won.
     frame: modern
     mtgo_foil_id: 20114
     mtgo_id: 20113
     name: Mirrodin
+    number: null
     rarity: rare
-    release_date: 2003-10-02
+    release_date: '2003-10-02'
+    tla: MRD
+    variations: []
     wizards_id: 48189
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=48189
+- M13:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Martina Picerova
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Over such beauty, wars are fought. With such power, wars are won.
+    frame: modern
+    mtgo_foil_id: 45707
+    mtgo_id: 45706
+    name: Magic 2013
+    number: null
+    rarity: rare
+    release_date: '2012-07-13'
+    tla: M13
+    variations: []
+    wizards_id: 249742
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=249742
+- V13:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daniel Ljunggren
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Over such beauty, wars are fought. <br>With such power, wars are
+      won.*'
+    frame: modern
+    mtgo_foil_id: 50052
+    mtgo_id: null
+    name: 'From the Vault: Twenty'
+    number: 12
+    rarity: mythic_rare
+    release_date: '2013-08-10'
+    tla: V13
+    variations: []
+    wizards_id: 373335
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373335
+- DOM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Volkan Baga
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"The perfection of the lotus reminds me of my hopes for this\
+      \ world . . . and my failures. I will not rest until I've atoned for them.\"\
+      \r\n<br>&mdash;Karn*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Dominaria
+    number: 215
+    rarity: rare
+    release_date: '2018-04-22'
+    tla: DOM
+    variations:
+    - identifier: PromoPack
+    wizards_id: 443103
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443103
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mab Graves
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*The mage entered into a contract with the golden flower. She could
+      wield its considerable power, but all would be lost should a single petal fall.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 205
+    rarity: rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: '[[symbol:T]]: Gain three mana of any one color.'
 slug: gilded-lotus
-tags: card-color-colorless card-color-colorless-cost-5 card-mana-black card-mana-blue
-  card-mana-green card-mana-red card-mana-white card-type-artifact
+synonyms: []
 tapped_id: 3316
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/gilded-lotus/
+url: https://tappedout.net/mtg-card/gilded-lotus/
+

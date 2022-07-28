@@ -2,34 +2,38 @@ activated_abilities:
 - ', Remove a +1/+1 counter from a creature you control: Create a 1/1 green Saproling
   creature token.'
 - ', Sacrifice a creature: Put a +1/+1 counter on target creature.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C16
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.64
 effective_cost:
 - W
 - B
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -38,64 +42,106 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 2WBG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Ghave, Guru of Spores
 power_toughness: 0/0
 printings:
-- 2X2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Double Masters 2022
-    number: 216
-    rarity: mythic_rare
-    release_date: 2022-07-08
-    variations:
-    - alterations:
-      - Etched
-      identifier: '498'
-    wizards_id: 571549
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571549
-- CM2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology 2018
-    number: 157
-    rarity: mythic_rare
-    release_date: 2018-06-08
-    wizards_id: 446893
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446893
-- C16:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2016
-    number: 200
-    rarity: mythic_rare
-    release_date: 2016-11-11
-    wizards_id: 420817
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420817
 - CMD:
     alterations:
-    - Normal
-    - Oversized
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - oversized
+      - Oversized
+    artist: James Paick
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
+    mtgo_foil_id: null
     mtgo_id: 40650
     name: 'MTG: Commander'
     number: 200
     rarity: mythic_rare
-    release_date: 2011-06-17
+    release_date: '2011-06-17'
+    tla: CMD
+    variations: []
     wizards_id: 236501
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=236501
+- C16:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: James Paick
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2016
+    number: 200
+    rarity: mythic_rare
+    release_date: '2016-11-11'
+    tla: C16
+    variations: []
+    wizards_id: 420817
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420817
+- CM2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: James Paick
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology 2018
+    number: 157
+    rarity: mythic_rare
+    release_date: '2018-06-08'
+    tla: CM2
+    variations: []
+    wizards_id: 446893
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446893
+- 2X2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: James Paick
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters 2022
+    number: 216
+    rarity: mythic_rare
+    release_date: '2022-07-08'
+    tla: 2X2
+    variations:
+    - identifier: '498'
+    wizards_id: 571549
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571549
+rarity: mythic_rare
 rules: "Ghave, Guru of Spores enters the battlefield with five +1/+1 counters on it.\
   \ \r\n\r\n[[symbol:1]], Remove a +1/+1 counter from a creature you control: Create\
   \ a 1/1 green Saproling creature token.\r\n\r\n[[symbol:1]], Sacrifice a creature:\
@@ -105,19 +151,24 @@ subtype: Fungus Shaman
 subtype_tokens:
 - Fungus
 - Shaman
-tags: card-color-black card-color-gold card-color-gold-cost-5 card-color-green card-color-white
-  card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 13060
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Saproling 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Saproling
-  tla: C16
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 893
+    - - cannonical_type
+      - Creature
+    - - name
+      - Saproling 1/1 G
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/ghave-guru-of-spores/
+url: https://tappedout.net/mtg-card/ghave-guru-of-spores/
+

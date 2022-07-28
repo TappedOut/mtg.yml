@@ -1,5 +1,6 @@
 activated_abilities:
 - ', Sacrifice Tormod''s Crypt: Exile all cards from target player''s graveyard.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M21
 cannonical_type: Artifact
@@ -12,31 +13,35 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 9.83
+draft_average: 10.58
+effective_cost: []
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Oldschool 93/94
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Premodern
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Oldschool 93/94
+- Pioneer
+- Historic
+- Gladiator
+- Premodern
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,117 +49,225 @@ keywords:
 - Exile
 - Sacrifice
 mana_cost: '0'
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Tormod's Crypt
+power_toughness: ''
 printings:
-- M21:
+- TSB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Christopher Rush
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: Core Set 2021
-    number: 241
-    rarity: uncommon
-    release_date: 2020-07-03
-    wizards_id: 485564
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485564
-- MYS1:
+    cannonical: true
+    flavour_text: The dark opening seemed to breathe the cold, damp air of the dead
+      earth in a steady rhythm.
+    frame: modern
+    mtgo_foil_id: 26034
+    mtgo_id: 26033
+    name: Time Spiral "Timeshifted"
+    number: null
+    rarity: rare
+    release_date: '2006-10-06'
+    tla: TSB
+    variations: []
+    wizards_id: 109716
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=109716
+- DRK:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Christopher Rush
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
+    cannonical: true
+    flavour_text: The dark opening seemed to breathe the cold, damp air of the dead
+      earth in a steady rhythm.
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: The Dark
+    number: null
     rarity: uncommon
-    release_date: 2020-03-14
-- C14:
+    release_date: '1994-08-01'
+    tla: DRK
+    variations: []
+    wizards_id: 1724
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=1724
+- M13:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lars Grant-West
+    booster_exclude: false
     border_color: B
-    frame: m15
-    mtgo_foil_id: 54726
-    mtgo_id: 54725
-    name: Commander 2014
-    number: 278
+    cannonical: true
+    flavour_text: Dominaria's most extravagant crypt nevertheless holds an empty grave.
+    frame: modern
+    mtgo_foil_id: 45251
+    mtgo_id: 45250
+    name: Magic 2013
+    number: null
     rarity: uncommon
-    release_date: 2014-11-21
-    wizards_id: 389723
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389723
+    release_date: '2012-07-13'
+    tla: M13
+    variations: []
+    wizards_id: 279713
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=279713
+- CHR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Christopher Rush
+    booster_exclude: false
+    border_color: W
+    cannonical: true
+    flavour_text: '*The dark opening seemed to breathe the cold, damp air of the dead
+      earth in a steady rhythm.*'
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Chronicles
+    number: null
+    rarity: common
+    release_date: '1995-06-01'
+    tla: CHR
+    variations: []
+    wizards_id: 2793
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=2793
 - M15:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lars Grant-West
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Dominaria''s most extravagant crypt nevertheless holds an empty
+      grave.*'
     frame: m15
     mtgo_foil_id: 53279
     mtgo_id: 53278
     name: Magic 2015
     number: 237
     rarity: uncommon
-    release_date: 2014-07-18
+    release_date: '2014-07-18'
+    tla: M15
+    variations: []
     wizards_id: 383417
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383417
-- M13:
+- C14:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Lars Grant-West
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 45251
-    mtgo_id: 45250
-    name: Magic 2013
+    cannonical: true
+    flavour_text: Dominaria's most extravagant crypt nevertheless holds an empty grave.
+    frame: m15
+    mtgo_foil_id: 54726
+    mtgo_id: 54725
+    name: Commander 2014
+    number: 278
     rarity: uncommon
-    release_date: 2012-07-13
-    wizards_id: 279713
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=279713
-- TSB:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 26034
-    mtgo_id: 26033
-    name: Time Spiral "Timeshifted"
-    rarity: rare
-    release_date: 2006-10-06
-    wizards_id: 109716
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=109716
-- CHR:
-    alterations:
-    - Normal
-    border_color: W
-    frame: original
-    name: Chronicles
-    rarity: common
-    release_date: 1995-06-01
-    wizards_id: 2793
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=2793
-- DRK:
-    alterations:
-    - Normal
-    border_color: B
-    frame: original
-    name: The Dark
-    rarity: uncommon
-    release_date: 1994-08-01
-    wizards_id: 1724
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=1724
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
+    wizards_id: 389723
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389723
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lars Grant-West
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*Dominaria''s most extravagant crypt nevertheless holds an empty
+      grave.*'
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Lars Grant-West
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: Dominaria's most extravagant crypt nevertheless holds an empty grave.
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: uncommon
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- M21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lars Grant-West
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Dominaria''s most extravagant crypt neverthless holds an empty
+      grave.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Core Set 2021
+    number: 241
+    rarity: uncommon
+    release_date: '2020-07-03'
+    tla: M21
+    variations: []
+    wizards_id: 485564
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485564
+rarity: uncommon
 rules: '[[symbol:T]], Sacrifice Tormod''s Crypt: Exile all cards from target player''s
   graveyard.'
 slug: tormods-crypt
-tags: card-color-colorless card-color-colorless-cost-0 card-type-artifact
+synonyms: []
 tapped_id: 1350
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/tormods-crypt/
+url: https://tappedout.net/mtg-card/tormods-crypt/
+

@@ -1,6 +1,6 @@
 activated_abilities:
 - '{{2,U}}: Tap target creature with flying.'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: MM2
@@ -9,29 +9,33 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.67
+draft_average: 6.15
 effective_cost:
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -39,81 +43,146 @@ keywords:
 - Flying
 - Tap/Untap
 mana_cost: 4U
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Air Servant
 power_toughness: 4/3
 printings:
-- W16:
+- M11:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lars Grant-West
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    mtgo_id: 60500
-    name: Welcome Deck 2016
-    number: 4
-    rarity: uncommon
-    release_date: 2016-03-23
-    wizards_id: 413370
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413370
-- MM2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 57237
-    mtgo_id: 57236
-    name: Modern Masters 2015 Edition
-    rarity: uncommon
-    release_date: 2015-05-22
-    wizards_id: 397847
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397847
-- CNS:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
+    cannonical: true
+    flavour_text: "\"Wind is forceful, yet ephemeral. It can knock a dragon out of\
+      \ the sky, yet pass through the smallest crack unhindered.\"\r\n\x97Jestus Dreya,\
+      \ Of Elements and Eternity"
     frame: modern
-    name: Conspiracy
-    number: 90
+    mtgo_foil_id: 37473
+    mtgo_id: 37472
+    name: 2011 Core Set
+    number: null
     rarity: uncommon
-    release_date: 2014-06-06
-    wizards_id: 382210
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382210
+    release_date: '2010-07-16'
+    tla: M11
+    variations: []
+    wizards_id: 205070
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=205070
 - M14:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lars Grant-West
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "\"Wind is forceful, yet ephemeral. It can knock a dragon out of\
+      \ the sky, yet pass through the smallest crack unhindered.\"\u2014Jestus Dreya,\
+      \ Of Elements and Eternity"
     frame: modern
     mtgo_foil_id: 49222
     mtgo_id: 49221
     name: Magic 2014
     number: 370688
-    rarity: uncommon
-    release_date: 2013-07-19
+    rarity: ''
+    release_date: '2013-07-19'
+    tla: M14
+    variations: []
     wizards_id: 370688
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370688
-- M11:
+- CNS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lars Grant-West
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "\"Wind is forceful, yet ephemeral. It can knock a dragon out of\
+      \ the sky, yet pass through the smallest crack unhindered.\"\r\n\u2014Jestus\
+      \ Dreya, Of Elements and Eternity"
     frame: modern
-    mtgo_foil_id: 37473
-    mtgo_id: 37472
-    name: 2011 Core Set
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Conspiracy
+    number: 90
     rarity: uncommon
-    release_date: 2010-07-16
-    wizards_id: 205070
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=205070
+    release_date: '2014-06-06'
+    tla: CNS
+    variations: []
+    wizards_id: 382210
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382210
+- MM2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lars Grant-West
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "\"Wind is forceful, yet ephemeral. It can knock a dragon out of\
+      \ the sky, yet pass through the smallest crack unhindered.\"\r\n\u2014Jestus\
+      \ Dreya, Of Elements and Eternity"
+    frame: m15
+    mtgo_foil_id: 57237
+    mtgo_id: 57236
+    name: Modern Masters 2015 Edition
+    number: null
+    rarity: uncommon
+    release_date: '2015-05-22'
+    tla: MM2
+    variations: []
+    wizards_id: 397847
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397847
+- W16:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Lars Grant-West
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: Wind is forceful, yet ephemeral. It can knock a dragon out of the
+      sky, yet pass through the smallest crack unhindered.
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: 60500
+    name: Welcome Deck 2016
+    number: 4
+    rarity: uncommon
+    release_date: '2016-03-23'
+    tla: W16
+    variations: []
+    wizards_id: 413370
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413370
+rarity: uncommon
 rules: "Flying\r\n\r\n{{2,U}}: Tap target creature with flying."
 slug: air-servant
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-color-blue card-color-blue-cost-5 card-type-creature
+synonyms: []
 tapped_id: 12305
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/air-servant/
+url: https://tappedout.net/mtg-card/air-servant/
+

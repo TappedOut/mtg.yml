@@ -2,7 +2,7 @@ activated_abilities:
 - 'Remove a crystal counter from Prism Array: Tap target creature.'
 - ': Scry 3. *(Look at the top three cards of your library, then put any number of
   them on the bottom of your library and the rest on top in any order.)*'
-activation_costs:
+activated_costs:
 - B
 - G
 - R
@@ -15,29 +15,33 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 12.33
+draft_average: 11.11
 effective_cost:
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -48,31 +52,47 @@ keywords:
 - Counters
 - Converge
 mana_cost: 4U
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Prism Array
 printings:
 - BFZ:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Philib Straub
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 58654
     mtgo_id: 58653
     name: Battle for Zendikar
     number: 81
     rarity: rare
-    release_date: 2015-10-02
+    release_date: '2015-10-02'
+    tla: BFZ
+    variations: []
     wizards_id: 401999
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401999
+rarity: rare
 rules: "*Converge* &mdash; Prism Array enters the battlefield with a crystal counter\
   \ on it for each color of mana spent to cast it.\r\n\r\nRemove a crystal counter\
   \ from Prism Array: Tap target creature.\r\n\r\n[[symbol:W]][[symbol:U]][[symbol:B]][[symbol:R]][[symbol:G]]:\
   \ Scry 3. *(Look at the top three cards of your library, then put any number of\
   \ them on the bottom of your library and the rest on top in any order.)*"
 slug: prism-array
-tags: card-color-blue card-color-blue-cost-5 card-type-enchantment
+synonyms: []
 tapped_id: 17225
+tokens: []
 type: Enchantment
-url: http://tappedout.net/mtg-card/prism-array/
+url: https://tappedout.net/mtg-card/prism-array/
+

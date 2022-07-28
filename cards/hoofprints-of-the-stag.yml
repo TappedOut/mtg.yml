@@ -1,38 +1,42 @@
 activated_abilities:
 - ', Remove four hoofprint counters from this: Create a 4/4 white Elemental creature
   token with flying. Activate this ability only during your turn.'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.57
+draft_average: 3.5
 effective_cost:
 - W
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,55 +45,98 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 1W
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Hoofprints of the Stag
 printings:
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 203
-    rarity: rare
-    release_date: 2022-04-30
-    wizards_id: 559775
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559775
-- C20:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 90
-    rarity: rare
-    release_date: 2020-05-15
-    wizards_id: 482718
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482718
-- C16:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2016
-    number: 67
-    rarity: rare
-    release_date: 2016-11-11
-    wizards_id: 420684
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420684
 - LRW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Anthony S. Waters
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 28618
     mtgo_id: 28617
     name: Lorwyn
+    number: null
     rarity: rare
-    release_date: 2007-10-12
+    release_date: '2007-10-12'
+    tla: LRW
+    variations: []
     wizards_id: 143730
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=143730
+- C16:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Anthony S. Waters
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2016
+    number: 67
+    rarity: rare
+    release_date: '2016-11-11'
+    tla: C16
+    variations: []
+    wizards_id: 420684
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420684
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Anthony S. Waters
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 90
+    rarity: rare
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: 482718
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482718
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Anthony S. Waters
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 203
+    rarity: rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559775
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559775
+rarity: rare
 rules: "Whenever you draw a card, you may put a hoofprint counter on this.\r\n\r\n\
   [[symbol:2]][[symbol:W]], Remove four hoofprint counters from this: Create a 4/4\
   \ white Elemental creature token with flying. Activate this ability only during\
@@ -98,18 +145,24 @@ slug: hoofprints-of-the-stag
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-color-white card-color-white-cost-2 card-type-enchantment card-type-tribal
+synonyms: []
 tapped_id: 270
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elemental 4/4 W
-  power_toughness: 4/4
-  rules: Flying
-  subtype: Elemental
-  tla: NCC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 4/4
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elemental 4/4 W
 type: Tribal Enchantment
-url: http://tappedout.net/mtg-card/hoofprints-of-the-stag/
+url: https://tappedout.net/mtg-card/hoofprints-of-the-stag/
+

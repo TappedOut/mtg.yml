@@ -2,7 +2,7 @@ activated_abilities:
 - 'Tap: Add {{B}} to your mana pool. Cabal Pit deals 1 damage to you.'
 - "Threshold \x97 {{B}}, Tap, Sacrifice Cabal Pit: Target creature gets -2/-2 until\
   \ end of turn. Activate this ability only if seven or more cards are in your graveyard."
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: ODY
@@ -18,21 +18,25 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 10.4
+draft_average: 4.5
+effective_cost: []
 formats:
 - 1v1 Commander
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -40,30 +44,46 @@ is_permanent: true
 keywords:
 - Sacrifice
 - Threshold
-mana_cost_converted: 0
+mana_cost: ''
 mana_produced: b
+mana_value: 0
+melds_from: []
 name: Cabal Pit
+power_toughness: ''
 printings:
 - ODY:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Avon
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 16454
     mtgo_id: 16453
     name: Odyssey
     number: 315
     rarity: uncommon
-    release_date: 2001-09-21
+    release_date: '2001-09-21'
+    tla: ODY
+    variations: []
     wizards_id: 29904
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=29904
+rarity: uncommon
 rules: "Tap: Add {{B}} to your mana pool. Cabal Pit deals 1 damage to you.\r\n\r\n\
   Threshold \x97 {{B}}, Tap, Sacrifice Cabal Pit: Target creature gets -2/-2 until\
   \ end of turn. Activate this ability only if seven or more cards are in your graveyard.\r\
   \n"
 slug: cabal-pit
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-type-land
+synonyms: []
 tapped_id: 4457
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/cabal-pit/
+url: https://tappedout.net/mtg-card/cabal-pit/
+

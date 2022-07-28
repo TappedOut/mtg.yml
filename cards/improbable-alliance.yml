@@ -1,43 +1,47 @@
 activated_abilities:
 - ': Draw a card, then discard a card.'
-activation_costs:
+activated_costs:
 - R
 - U
 canadian_hl_score: 0
 cannonical_set: ELD
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.79
+draft_average: 5.68
 effective_cost:
 - U
 - R
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,26 +49,34 @@ keywords:
 - Flying
 - Tokens
 mana_cost: UR
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Improbable Alliance
 printings:
 - ELD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Zoltan Boros
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"I agreed to light his way as long as he always had my back.\"\
+      \r\n<br>&mdash;Squill, Mistford pixie*"
     frame: m15
     mtgo_foil_id: 78531
     mtgo_id: 78530
     name: Throne of Eldraine
     number: 193
     rarity: uncommon
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '396'
+    - identifier: '396'
     wizards_id: 473155
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=473155
 rules: "Whenever you draw your second card each turn, create a 1/1 blue Faerie creature\
@@ -73,18 +85,23 @@ rules: "Whenever you draw your second card each turn, create a 1/1 blue Faerie c
 slug: improbable-alliance
 synonyms:
 - Improbable Allience
-tags: card-color-blue card-color-gold card-color-gold-cost-2 card-color-red card-type-enchantment
 tapped_id: 22167
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Faerie 1/1 U
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Faerie
-  tla: ELD
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 36
+    - - cannonical_type
+      - Creature
+    - - name
+      - Faerie 1/1 U
 type: Enchantment
-url: http://tappedout.net/mtg-card/improbable-alliance/
+url: https://tappedout.net/mtg-card/improbable-alliance/
+

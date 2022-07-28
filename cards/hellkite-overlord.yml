@@ -3,7 +3,7 @@ activated_abilities:
 - ': Regenerate Hellkite Overlord. *(The next time this creature would be destroyed
   this turn, this creature isn''t destroyed. Instead tap this, remove all damage from
   this, and remove this creature from combat.)*'
-activation_costs:
+activated_costs:
 - B
 - G
 - R
@@ -11,31 +11,35 @@ canadian_hl_score: 0
 cannonical_set: ALA
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.64
+draft_average: 1.12
 effective_cost:
 - B
 - R
 - G
-flat_cost: 8
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,56 +49,88 @@ keywords:
 - Trample
 - Regenerate
 mana_cost: 4GBRR
-mana_cost_converted: 8
+mana_value: 8
+melds_from: []
 name: Hellkite Overlord
 power_toughness: 8/8
 printings:
-- 2X2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Double Masters 2022
-    number: 225
-    rarity: mythic_rare
-    release_date: 2022-07-08
-    variations:
-    - alterations:
-      - Etched
-      identifier: '504'
-    wizards_id: 571558
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571558
 - ALA:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Justin Sweet
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"The dragon has no pretense of compassion, no false mask of civilizationjust
+      hunger, heat, and need."Sarkhan Vol'
     frame: modern
     mtgo_foil_id: 31128
     mtgo_id: 31127
     name: Shards of Alara
     number: 172
     rarity: mythic_rare
-    release_date: 2008-10-03
+    release_date: '2008-10-03'
+    tla: ALA
+    variations: []
     wizards_id: 175057
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=175057
 - DRB:
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Justin Sweet
+    booster_exclude: false
     border_color: B
     cannonical: false
-    foil: foil
-    foil_only: true
+    flavour_text: "*\"The dragon has no pretense of compassion, no false mask of civilization\u2014\
+      just hunger, heat, and need.\"\r\n\u2014Sarkhan Vol*"
     frame: modern
     mtgo_foil_id: 30791
+    mtgo_id: null
     name: 'From the Vault: Dragons'
+    number: null
     rarity: rare
-    release_date: 2008-07-29
+    release_date: '2008-07-29'
+    tla: DRB
+    variations: []
     wizards_id: 178028
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=178028
+- 2X2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Justin Sweet
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*\"The dragon has no pretense of compassion, no false mask of civilization;\
+      \ just hunger, heat, and need.\"\r\n<br>&mdash;Sarkhan Vol*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters 2022
+    number: 225
+    rarity: mythic_rare
+    release_date: '2022-07-08'
+    tla: 2X2
+    variations:
+    - identifier: '504'
+    wizards_id: 571558
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571558
+rarity: mythic_rare
 rules: "Flying, trample, haste\r\n\r\n[[symbol:R]]: Hellkite Overlord gets +1/+0 until\
   \ end of turn.\r\n\r\n[[symbol:B]][[symbol:G]]: Regenerate Hellkite Overlord. *(The\
   \ next time this creature would be destroyed this turn, this creature isn't destroyed.\
@@ -103,8 +139,9 @@ slug: hellkite-overlord
 subtype: Dragon
 subtype_tokens:
 - Dragon
-tags: card-color-black card-color-gold card-color-gold-cost-8 card-color-green card-color-red
-  card-type-creature
+synonyms: []
 tapped_id: 10027
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/hellkite-overlord/
+url: https://tappedout.net/mtg-card/hellkite-overlord/
+

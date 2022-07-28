@@ -1,66 +1,85 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C21
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 4
+effective_cost: []
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: '{4}'
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Tempting Contract
 printings:
 - C21:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Tomas Duchek
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\u201CDon\u2019t think of it as debt. Think of it as an investment\
+      \ in yourself.\u201D\r\n<br>\u2014Diriga, demon bursar*"
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2021
     number: 78
     rarity: rare
-    release_date: 2021-04-23
+    release_date: '2021-04-23'
+    tla: C21
     variations:
-    - alterations:
-      - Normal
-      identifier: '405'
+    - identifier: '405'
     wizards_id: 518474
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518474
 rules: At the beginning of your upkeep, each opponent may create a Treasure token.
   For each opponent who does, you create a Treasure token.
 slug: tempting-contract
-tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
+synonyms: []
 tapped_id: 24363
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: 2X2
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Artifact
-url: http://tappedout.net/mtg-card/tempting-contract/
+url: https://tappedout.net/mtg-card/tempting-contract/
+

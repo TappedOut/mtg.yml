@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C19
 cannonical_type: Enchantment
@@ -5,26 +7,28 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 5.0
 effective_cost:
 - B
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -33,20 +37,29 @@ keywords:
 - Sacrifice
 - Morph
 mana_cost: 4B
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Gift of Doom
 printings:
 - C19:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: James Zapata
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 77089
     mtgo_id: 77088
     name: Commander 2019
     number: 17
     rarity: rare
-    release_date: 2019-08-23
+    release_date: '2019-08-23'
+    tla: C19
+    variations: []
     wizards_id: 470563
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470563
 rules: "Enchant creature\r\n\r\nEnchanted creature has deathtouch and indestructible.\r\
@@ -57,18 +70,25 @@ slug: gift-of-doom
 subtype: Aura
 subtype_tokens:
 - Aura
-tags: card-color-black card-color-black-cost-5 card-type-enchantment
+synonyms: []
 tapped_id: 21897
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Morph 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  tla: C19
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+        \ with morph can be turned face up at any time for its morph cost.*"
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Morph 2/2 C
 type: Enchantment
-url: http://tappedout.net/mtg-card/gift-of-doom/
+url: https://tappedout.net/mtg-card/gift-of-doom/
+

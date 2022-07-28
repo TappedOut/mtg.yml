@@ -1,7 +1,7 @@
 activated_abilities:
 - ', Sacrifice two artifacts: Exile the top card of your library. You may play that
   card this turn.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: VOC
@@ -9,6 +9,7 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -16,20 +17,21 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -38,24 +40,32 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 2R
-mana_cost_converted: 3
 mana_produced: W, U, B, R, G
+mana_value: 3
+melds_from: []
 name: Scion of Opulence
 power_toughness: 3/1
 printings:
 - VOC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Chris Rallis
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow Commander'
     number: 28
     rarity: rare
-    release_date: 2021-11-18
+    release_date: '2021-11-18'
+    tla: VOC
     variations:
-    - alterations:
-      - Normal
-      identifier: '66'
+    - identifier: '66'
     wizards_id: 546992
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=546992
 rules: "Whenever this or another nontoken Vampire you control dies *(is put into the\
@@ -68,19 +78,24 @@ subtype: Vampire Noble
 subtype_tokens:
 - Vampire
 - Noble
-tags: card-color-red card-color-red-cost-3 card-mana-black card-mana-blue card-mana-green
-  card-mana-red card-mana-white card-type-creature
+synonyms: []
 tapped_id: 25667
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: 2X2
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Creature
-url: http://tappedout.net/mtg-card/scion-of-opulence/
+url: https://tappedout.net/mtg-card/scion-of-opulence/
+

@@ -1,74 +1,97 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: AER
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 2
+cube_average: 5.4
+draft_average: 6.04
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: '2'
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Servo Schematic
 printings:
 - AER:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Titus Lunter
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*The Consulate prizes innovation when it is dependable and replicable.*'
     frame: m15
     mtgo_foil_id: 62838
     mtgo_id: 62837
     name: Aether Revolt
     number: 176
     rarity: uncommon
-    release_date: 2017-01-20
+    release_date: '2017-01-20'
+    tla: AER
+    variations: []
     wizards_id: 423843
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423843
+rarity: uncommon
 rules: When Servo Schematic enters the battlefield or is put into a graveyard from
   the battlefield, create a 1/1 colorless Servo artifact creature token.
 slug: servo-schematic
 synonyms:
 - Sevo Schematic
-tags: card-color-colorless card-color-colorless-cost-2 card-type-artifact
 tapped_id: 18630
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Servo 1/1 C
-  power_toughness: 1/1
-  rules: ''
-  subtype: Servo
-  tla: AFC
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 1175
+    - - cannonical_type
+      - Creature
+    - - name
+      - Servo 1/1 C
 type: Artifact
-url: http://tappedout.net/mtg-card/servo-schematic/
+url: https://tappedout.net/mtg-card/servo-schematic/
+

@@ -1,55 +1,71 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: APC
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+draft_average: 5.0
 effective_cost:
 - W
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
 - Haunt
 mana_cost: 2W
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Haunted Angel
 power_toughness: 3/3
 printings:
 - APC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Arnie Swekel
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 16147
     mtgo_id: 16146
     name: Apocalypse
     number: 12
     rarity: uncommon
-    release_date: 2001-06-01
+    release_date: '2001-06-01'
+    tla: APC
+    variations: []
     wizards_id: 25910
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=25910
+rarity: uncommon
 rules: "Flying\r\n\r\nWhen Haunted Angel is put into a graveyard from play, remove\
   \ Haunted Angel from the game and each other player puts a 3/3 black Angel creature\
   \ token with flying into play."
@@ -57,17 +73,24 @@ slug: haunted-angel
 subtype: Angel
 subtype_tokens:
 - Angel
-tags: card-color-white card-color-white-cost-3 card-type-creature
+synonyms: []
 tapped_id: 4792
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 3/3 B Token Creature Angel
-  power_toughness: 3/3
-  rules: Flying
-  subtype: Angel
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 3/3
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 20
+    - - cannonical_type
+      - Creature
+    - - name
+      - null
 type: Creature
-url: http://tappedout.net/mtg-card/haunted-angel/
+url: https://tappedout.net/mtg-card/haunted-angel/
+

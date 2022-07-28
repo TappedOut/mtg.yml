@@ -1,61 +1,85 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: RNA
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.95
+draft_average: 2.28
 effective_cost:
 - R
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
 - Exile
 mana_cost: 5R
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Mirror March
 printings:
 - RNA:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    - !!python/tuple
+      - list
+      - The List
+    artist: Johannes Voss
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 71217
     mtgo_id: 71216
     name: Ravnica Allegiance
     number: 108
     rarity: rare
-    release_date: 2019-01-25
+    release_date: '2019-01-25'
+    tla: RNA
+    variations: []
     wizards_id: 457252
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=457252
 rules: Whenever a nontoken creature enters the battlefield under your control, flip
@@ -63,17 +87,24 @@ rules: Whenever a nontoken creature enters the battlefield under your control, f
   of that creature. Those tokens gain haste. Exile them at the beginning of the next
   end step.
 slug: mirror-march
-tags: card-color-red card-color-red-cost-6 card-type-enchantment
+synonyms: []
 tapped_id: 21091
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Enchantment
-url: http://tappedout.net/mtg-card/mirror-march/
+url: https://tappedout.net/mtg-card/mirror-march/
+

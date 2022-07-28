@@ -4,37 +4,42 @@ activated_abilities:
 - ': This deals X damage to target creature or planeswalker and you gain X life.'
 - ': Create a number of 1/1 black Vampire Knight creature tokens with lifelink equal
   to the highest life total among all players.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SOI
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.86
+draft_average: 1.3
 effective_cost:
 - W
 - B
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,35 +47,63 @@ keywords:
 - Lifelink
 - Tokens
 mana_cost: 4WB
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Sorin, Grim Nemesis
+planeswalker_loyalty: 6
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 400
-    rarity: mythic_rare
-    release_date: 2019-12-09
 - SOI:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Eric Deschamps
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 59991
     mtgo_id: 59990
     name: Shadows over Innistrad
     number: 251
     rarity: mythic_rare
-    release_date: 2016-04-08
+    release_date: '2016-04-08'
+    tla: SOI
+    variations: []
     wizards_id: 410016
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=410016
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Uta Natsume
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 400
+    rarity: mythic_rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Reveal the top card of your library and put that\
   \ card into your hand. Each opponent loses life equal to its converted mana cost/mana\
   \ value.\r\n\r\n[[symbol:loyalty-minusX]]: This deals X damage to target creature\
@@ -81,18 +114,24 @@ slug: sorin-grim-nemesis
 subtype: Sorin
 subtype_tokens:
 - Sorin
-tags: card-color-black card-color-gold card-color-gold-cost-6 card-color-white card-type-planeswalker
+synonyms: []
 tapped_id: 17662
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Vampire Knight 1/1 B
-  power_toughness: 1/1
-  rules: Lifelink
-  subtype: Vampire Knight
-  tla: SOI
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Lifelink
+    - - type
+      - Token Creature
+    - - subtype
+      - 847
+    - - cannonical_type
+      - Creature
+    - - name
+      - Vampire Knight 1/1 B
 type: Planeswalker
-url: http://tappedout.net/mtg-card/sorin-grim-nemesis/
+url: https://tappedout.net/mtg-card/sorin-grim-nemesis/
+

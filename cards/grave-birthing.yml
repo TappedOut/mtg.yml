@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: BFZ
 cannonical_type: Instant
@@ -11,71 +13,90 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 11.33
+draft_average: 9.29
 effective_cost:
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Sacrifice
 - Tokens
 - Devoid
 mana_cost: 2B
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Grave Birthing
 printings:
 - BFZ:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Craig J Spearing
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 58680
     mtgo_id: 58679
     name: Battle for Zendikar
     number: 93
     rarity: common
-    release_date: 2015-10-02
+    release_date: '2015-10-02'
+    tla: BFZ
+    variations: []
     wizards_id: 401900
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401900
+rarity: common
 rules: "Devoid *(this card has no color.)*\r\n\r\nTarget opponent exiles a card form\
   \ his or her graveyard. You put a 1/1 colorless Eldrazi Scion creature token onto\
   \ the battlefield. It has \"Sacrifice this creature: Add [[symbol:1]] to your mana\
   \ pool.\"\r\n\r\nDraw a card."
 slug: grave-birthing
-tags: card-color-black card-color-black-cost-3 card-type-instant
+synonyms: []
 tapped_id: 17245
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Eldrazi Scion 1/1 C
-  power_toughness: 1/1
-  rules: 'Sacrifice this creature: Add [[symbol:C]].'
-  subtype: Eldrazi Scion
-  tla: BFZ
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - 'Sacrifice this creature: Add [[symbol:C]].'
+    - - type
+      - Token Creature
+    - - subtype
+      - 1091
+    - - cannonical_type
+      - Creature
+    - - name
+      - Eldrazi Scion 1/1 C
 type: Instant
-url: http://tappedout.net/mtg-card/grave-birthing/
+url: https://tappedout.net/mtg-card/grave-birthing/
+

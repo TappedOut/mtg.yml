@@ -1,38 +1,42 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: MM2
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.06
+draft_average: 7.02
 effective_cost:
 - G
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -40,58 +44,105 @@ keywords:
 - Multikicker
 - Counters
 mana_cost: 1G
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Gnarlid Pack
 power_toughness: 2/2
 printings:
-- MYS1:
+- WWK:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Johann Bodin
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 35776
+    mtgo_id: 35775
+    name: Worldwake
+    number: null
     rarity: common
-    release_date: 2020-03-14
+    release_date: '2010-02-05'
+    tla: WWK
+    variations: []
+    wizards_id: 197771
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=197771
+- CNS:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Johann Bodin
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Conspiracy
+    number: 166
+    rarity: common
+    release_date: '2014-06-06'
+    tla: CNS
+    variations: []
+    wizards_id: 382275
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382275
 - MM2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Johann Bodin
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 57177
     mtgo_id: 57176
     name: Modern Masters 2015 Edition
     number: 144
     rarity: common
-    release_date: 2015-05-22
+    release_date: '2015-05-22'
+    tla: MM2
+    variations: []
     wizards_id: 397863
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397863
-- CNS:
+- MYS1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Johann Bodin
+    booster_exclude: false
     border_color: B
-    frame: modern
-    name: Conspiracy
-    number: 166
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
     rarity: common
-    release_date: 2014-06-06
-    wizards_id: 382275
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382275
-- WWK:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 35776
-    mtgo_id: 35775
-    name: Worldwake
-    rarity: common
-    release_date: 2010-02-05
-    wizards_id: 197771
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=197771
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: "Multikicker {1}{G} *(You may pay an additional {1}{G} any number of times\
   \ as you cast this spell.)*\r\n\r\nGnarlid Pack enters the battlefield with a +1/+1\
   \ counter on it for each time it was kicked."
@@ -99,7 +150,9 @@ slug: gnarlid-pack
 subtype: Beast
 subtype_tokens:
 - Beast
-tags: card-color-green card-color-green-cost-2 card-type-creature
+synonyms: []
 tapped_id: 11964
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/gnarlid-pack/
+url: https://tappedout.net/mtg-card/gnarlid-pack/
+

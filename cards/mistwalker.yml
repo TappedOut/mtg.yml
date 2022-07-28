@@ -1,6 +1,6 @@
 activated_abilities:
 - ': Mistwalker gets +1/-1 until end of turn.'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: KHM
@@ -9,6 +9,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -16,33 +17,34 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -50,20 +52,33 @@ keywords:
 - Flying
 - Changeling
 mana_cost: 2U
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Mistwalker
 power_toughness: 1/4
 printings:
 - KHM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Steve Prescott
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"To escape Littjara, follow a bird.\"\r\n<br>&mdash;Tuskeri folklore*"
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Kaldheim
     number: 68
     rarity: common
-    release_date: 2021-02-05
+    release_date: '2021-02-05'
+    tla: KHM
+    variations: []
     wizards_id: 503676
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503676
 rules: "Changeling *(This card is every creature type.)*\r\n\r\nFlying\r\n\r\n[[symbol:1]][[symbol:U]]:\
@@ -72,7 +87,9 @@ slug: mistwalker
 subtype: Shapeshifter
 subtype_tokens:
 - Shapeshifter
-tags: card-color-blue card-color-blue-cost-3 card-type-creature
+synonyms: []
 tapped_id: 23971
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/mistwalker/
+url: https://tappedout.net/mtg-card/mistwalker/
+

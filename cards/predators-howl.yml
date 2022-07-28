@@ -1,66 +1,91 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CNS
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.41
+draft_average: 4.73
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
-is_mtgo: false
-is_permanent: false
+keywords: []
 mana_cost: '{3}{G}'
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Predator's Howl
+power_toughness: ''
 printings:
 - CNS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ralph Horsley
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "\"And Muzzio says my arguments have no teeth.\"\r\n\r\n\u2014Selvala,\
+      \ ranger of the Lowlands"
     frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Conspiracy
     number: 37
     rarity: uncommon
-    release_date: 2014-06-06
+    release_date: '2014-06-06'
+    tla: CNS
+    variations: []
     wizards_id: 382333
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382333
+rarity: uncommon
 rules: "Put a 2/2 green Wolf creature token onto the battlefield.\r\n\r\nMorbid \u2014\
   \ Put three 2/2 green Wolf creature tokens onto the battlefield instead if a creature\
   \ died this turn."
 slug: predators-howl
-tags: card-color-green card-color-green-cost-4 card-type-instant
+synonyms: []
 tapped_id: 15593
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Wolf 2/2 G
-  power_toughness: 2/2
-  rules: ''
-  subtype: Wolf
-  tla: CNS
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 93
+    - - cannonical_type
+      - Creature
+    - - name
+      - Wolf 2/2 G
 type: Instant
-url: http://tappedout.net/mtg-card/predators-howl/
+url: https://tappedout.net/mtg-card/predators-howl/
+

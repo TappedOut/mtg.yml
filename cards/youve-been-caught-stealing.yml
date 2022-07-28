@@ -1,59 +1,74 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 2
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Penny Dreadful
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Pauper
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Historic
+- Gladiator
+- Alchemy
+- Pauper Duel Commander
 is_mtgo: true
-is_permanent: false
 keywords:
 - Sacrifice
 - Tokens
 mana_cost: 1R
-mana_cost_converted: 2
 mana_produced: W, U, B, R, G
+mana_value: 2
+melds_from: []
 name: You've Been Caught Stealing
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Brian Valeza
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 211
     rarity: common
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
     wizards_id: 563094
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563094
 rules: "Choose one &mdash;\r\n\r\n- *Threaten the Merchant* &mdash; Each creature\
@@ -61,19 +76,24 @@ rules: "Choose one &mdash;\r\n\r\n- *Threaten the Merchant* &mdash; Each creatur
   \ token for each opponent who was dealt damage this turn. *(It's a colourless artifact\
   \ with \"[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.\")*"
 slug: youve-been-caught-stealing
-tags: card-color-red card-color-red-cost-2 card-mana-black card-mana-blue card-mana-green
-  card-mana-red card-mana-white card-type-sorcery
+synonyms: []
 tapped_id: 26784
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: CLB
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Sorcery
-url: http://tappedout.net/mtg-card/youve-been-caught-stealing/
+url: https://tappedout.net/mtg-card/youve-been-caught-stealing/
+

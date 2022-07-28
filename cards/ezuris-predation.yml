@@ -1,93 +1,132 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.75
 effective_cost:
 - G
-flat_cost: 8
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Fight
 - Tokens
 mana_cost: 5GGG
-mana_cost_converted: 8
+mana_value: 8
+melds_from: []
 name: Ezuri's Predation
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 824
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567641
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567641
-- C21:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 188
-    rarity: rare
-    release_date: 2021-04-23
-    wizards_id: 519223
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519223
 - C15:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Svetlin Velinov
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Those who do not submit will be consumed.*"'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2015
     number: 36
     rarity: rare
-    release_date: 2015-11-13
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
     wizards_id: 405222
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405222
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Svetlin Velinov
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*"Those who do not submit will be consumed.*"'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 188
+    rarity: rare
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519223
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519223
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Svetlin Velinov
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: '*"Those who do not submit will be consumed.*"'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 824
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567641
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567641
+rarity: rare
 rules: For each creature your opponents control, create a 4/4 green Phyrexian Beast
   creature token. Each of those tokens fights a different one of those creatures.
 slug: ezuris-predation
-tags: card-color-green card-color-green-cost-8 card-type-sorcery
+synonyms: []
 tapped_id: 17368
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Phyrexian Beast 4/4 G
-  power_toughness: 4/4
-  rules: ''
-  subtype: Phyrexian Beast
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 4/4
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 1658
+    - - cannonical_type
+      - Creature
+    - - name
+      - Phyrexian Beast 4/4 G
 type: Sorcery
-url: http://tappedout.net/mtg-card/ezuris-predation/
+url: https://tappedout.net/mtg-card/ezuris-predation/
+

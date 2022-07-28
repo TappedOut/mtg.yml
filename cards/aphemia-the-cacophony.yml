@@ -1,36 +1,41 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: THB
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.2
+draft_average: 2.22
 effective_cost:
 - B
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -38,34 +43,44 @@ keywords:
 - Exile
 - Tokens
 mana_cost: 1B
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Aphemia, the Cacophony
 power_toughness: 2/1
 printings:
 - THB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Lucas Graciano
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"Sing, beauty. Sing for death, and for the dead.\"\r\n<br>&mdash;Ashiok*"
     frame: m15
     mtgo_foil_id: 79293
     mtgo_id: 79292
     name: Theros Beyond Death
     number: 84
     rarity: rare
-    release_date: 2020-01-24
+    release_date: '2020-01-24'
+    tla: THB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '311'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '311'
+    - identifier: PromoPack
     wizards_id: 476335
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476335
 rules: "Flying\r\n\r\nAt the beginning of your end step, you may exile an enchantment\
@@ -78,19 +93,23 @@ synonyms:
 - Aphaemia, the Cacophony
 - Aphaemia, the Cacophany
 - Aphemia, the Cacophany
-tags: card-color-black card-color-black-cost-2 card-type-creature card-type-enchantment
-  card-type-legendary
 tapped_id: 22394
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: THB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Legendary Enchantment Creature
-url: http://tappedout.net/mtg-card/aphemia-the-cacophony/
+url: https://tappedout.net/mtg-card/aphemia-the-cacophony/
+

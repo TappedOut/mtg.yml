@@ -1,27 +1,32 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C18
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 10
+cube_average: 7.58
+effective_cost: []
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -29,19 +34,30 @@ keywords:
 - Trample
 - Tokens
 mana_cost: '10'
-mana_cost_converted: 10
+mana_value: 10
+melds_from: []
 name: Ancient Stone Idol
 power_toughness: 12/12
 printings:
 - C18:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Josh Hass
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2018
     number: 53
     rarity: rare
-    release_date: 2018-08-10
+    release_date: '2018-08-10'
+    tla: C18
+    variations: []
     wizards_id: 450654
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=450654
 rules: "Flash\r\n\r\nThis spell costs [[symbol:1]] less to cast for each attacking\
@@ -53,18 +69,23 @@ subtype_tokens:
 - Golem
 synonyms:
 - Anceint Stone Idol
-tags: card-color-colorless card-color-colorless-cost-10 card-type-artifact card-type-creature
 tapped_id: 20665
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Construct 6/12 C
-  power_toughness: 6/12
-  rules: Trample
-  subtype: Construct
-  tla: C18
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 6/12
+    - - rules
+      - Trample
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 72
+    - - cannonical_type
+      - Creature
+    - - name
+      - Construct 6/12 C
 type: Artifact Creature
-url: http://tappedout.net/mtg-card/ancient-stone-idol/
+url: https://tappedout.net/mtg-card/ancient-stone-idol/
+

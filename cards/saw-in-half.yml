@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: UNF
 cannonical_type: Instant
@@ -13,45 +15,65 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 3
-formats: []
-has_activated_abilities: false
+formats:
+- Casual
+- Custom
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: 2B
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Saw in Half
 printings:
 - UNF:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sebastian Giacobino
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*The audience always loves it, but volunteers are divided.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Unfinity
     number: 88
     rarity: rare
-    release_date: 2022-10-07
+    release_date: '2022-10-07'
+    tla: UNF
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: Destroy target creature. If that creature dies this way *(would be put into
   the graveyard from the battlefield, tokens are put into the graveyard before ceasing
   to exist)*, its controller creates two tokens that are copies of that creature,
   except their base power and toughness are half that creature's power and toughness
   respectively. Round up each time.
 slug: saw-in-half
-tags: card-color-black card-color-black-cost-3 card-type-instant
+synonyms: []
 tapped_id: 25677
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Instant
-url: http://tappedout.net/mtg-card/saw-in-half/
+url: https://tappedout.net/mtg-card/saw-in-half/
+

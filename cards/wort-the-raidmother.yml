@@ -1,31 +1,36 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C20
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 10.5
+draft_average: 2.34
 effective_cost:
 - R
 - G
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -33,48 +38,81 @@ keywords:
 - Conspire
 - Tokens
 mana_cost: 4{R/G}{R/G}
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Wort, the Raidmother
 power_toughness: 3/3
 printings:
-- C20:
+- SHM:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dave Allsop
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 234
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 29530
+    mtgo_id: 29529
+    name: Shadowmoor
+    number: null
     rarity: rare
-    release_date: 2020-05-15
-    wizards_id: 482862
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482862
+    release_date: '2008-05-02'
+    tla: SHM
+    variations: []
+    wizards_id: 147379
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=147379
 - MM3:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: null
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 63114
     mtgo_id: 63113
     name: Modern Masters 2017 Edition
     number: 214
     rarity: rare
-    release_date: 2017-03-17
+    release_date: '2017-03-17'
+    tla: MM3
+    variations: []
     wizards_id: 426039
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426039
-- SHM:
+- C20:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Dave Allsop
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 29530
-    mtgo_id: 29529
-    name: Shadowmoor
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 234
     rarity: rare
-    release_date: 2008-05-02
-    wizards_id: 147379
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=147379
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: 482862
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482862
+rarity: rare
 rules: "When Wort, the Raidmother enters the battlefield, create two 1/1 red and green\
   \ Goblin Warrior creature tokens.\r\n\r\nEach red or green instant or sorcery spell\
   \ you play has conspire. *(As you cast the spell, you may tap two untapped creatures\
@@ -85,19 +123,24 @@ subtype: Goblin Shaman
 subtype_tokens:
 - Goblin
 - Shaman
-tags: card-color-gold card-color-gold-cost-6 card-color-green card-color-red card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 9758
 tokens:
-- cannonical_type: Creature
-  colors: RG
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goblin Warrior 1/1 RG
-  power_toughness: 1/1
-  rules: ''
-  subtype: Goblin Warrior
-  tla: C20
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - RG
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 22
+    - - cannonical_type
+      - Creature
+    - - name
+      - Goblin Warrior 1/1 RG
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/wort-the-raidmother/
+url: https://tappedout.net/mtg-card/wort-the-raidmother/
+

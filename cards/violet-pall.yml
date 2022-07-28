@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MOR
 cannonical_type: Instant
@@ -11,67 +13,87 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.3
+draft_average: 5.21
 effective_cost:
 - B
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Vintage
-has_activated_abilities: false
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 mana_cost: 4B
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Violet Pall
+power_toughness: ''
 printings:
 - MOR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jeff Miracola
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: A faerie is the offspring of Oona and mischief.
     frame: modern
     mtgo_foil_id: 29235
     mtgo_id: 29234
     name: Morningtide
     number: 81
     rarity: common
-    release_date: 2008-02-01
+    release_date: '2008-02-01'
+    tla: MOR
+    variations: []
     wizards_id: 157426
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=157426
+rarity: common
 rules: Destroy target nonblack creature. Put a 1/1 black Faerie Rogue creature token
   with flying into play.
 slug: violet-pall
 subtype: Faerie
 subtype_tokens:
 - Faerie
-tags: card-color-black card-color-black-cost-5 card-type-instant card-type-tribal
+synonyms: []
 tapped_id: 140
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Faerie Rogue 1/1 B
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Faerie Rogue
-  tla: MOR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 313
+    - - cannonical_type
+      - Creature
+    - - name
+      - Faerie Rogue 1/1 B
 type: Tribal Instant
-url: http://tappedout.net/mtg-card/violet-pall/
+url: https://tappedout.net/mtg-card/violet-pall/
+

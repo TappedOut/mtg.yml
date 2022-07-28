@@ -2,23 +2,26 @@ activated_abilities:
 - 'When Ramirez DePietro, Pillager enters the battlefield, you lose 2 life and create
   two Treasure tokens. *(They''re colourless artifact tokens with ", Sacrifice this
   artifact: Add one mana of any colour.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DMC
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - U
 - B
-flat_cost: 4
 formats:
+- Casual
 - Penny Dreadful
+- Custom
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -26,32 +29,54 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 2UB
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Ramirez DePietro, Pillager
 power_toughness: 4/3
 printings:
 - DMC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Anna Steinbauer
+    booster_exclude: false
     border_color: B
+    cannonical: false
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Dominaria United: Commander'
     number: 38
     rarity: uncommon
-    release_date: 2022-09-10
+    release_date: '2022-09-10'
+    tla: DMC
     variations:
-    - alterations:
-      - Etched
-      - Normal
-      identifier: '60'
+    - identifier: '60'
+    wizards_id: null
+    wizards_url: null
 - DMU:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Anna Steinbauer
+    booster_exclude: false
     border_color: B
+    cannonical: false
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Dominaria United
+    number: null
     rarity: uncommon
-    release_date: 2022-09-09
+    release_date: '2022-09-09'
+    tla: DMU
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "When Ramirez DePietro, Pillager enters the battlefield, you lose 2 life and\
   \ create two Treasure tokens. *(They're colourless artifact tokens with \"[[symbol:T]],\
   \ Sacrifice this artifact: Add one mana of any colour.)*\r\n\r\nWhenever one or\
@@ -62,19 +87,24 @@ subtype: Human Pirate
 subtype_tokens:
 - Human
 - Pirate
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-4 card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 27038
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: 2X2
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/ramirez-depietro-pillager/
+url: https://tappedout.net/mtg-card/ramirez-depietro-pillager/
+

@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 - U
 canadian_hl_score: 0
@@ -8,37 +9,40 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 8.32
+draft_average: 6.14
 effective_cost:
 - U
 - G
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -46,45 +50,80 @@ keywords:
 - Hexproof
 - Attach
 mana_cost: 2{G/U}
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Shielding Plax
 printings:
-- AFC:
+- DIS:
     alterations:
-    - Normal
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 192
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Brian Hagan
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 24022
+    mtgo_id: 24021
+    name: Dissension
+    number: null
     rarity: common
-    release_date: 2021-07-24
-    wizards_id: 532579
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532579
+    release_date: '2006-05-05'
+    tla: DIS
+    variations: []
+    wizards_id: 97084
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=97084
 - UMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Brian Hagan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 70518
     mtgo_id: 70517
     name: Ultimate Masters
     number: 222
     rarity: common
-    release_date: 2018-12-07
+    release_date: '2018-12-07'
+    tla: UMA
+    variations: []
     wizards_id: 456818
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456818
-- DIS:
+- AFC:
     alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 24022
-    mtgo_id: 24021
-    name: Dissension
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Brian Hagan
+    booster_exclude: false
+    border_color: null
+    cannonical: true
+    flavour_text: ''
+    frame: null
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 192
     rarity: common
-    release_date: 2006-05-05
-    wizards_id: 97084
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=97084
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: 532579
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532579
+rarity: common
 rules: "*([[symbol:GU]] can be paid with either [[symbol:G]] or [[symbol:U]].)*\r\n\
   \r\nEnchant creature\r\n\r\nWhen this enters the battlefield, draw a card.\r\n\r\
   \nEnchanted creature can't be the target of spells or abilities your opponents control."
@@ -92,7 +131,9 @@ slug: shielding-plax
 subtype: Aura
 subtype_tokens:
 - Aura
-tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-green card-type-enchantment
+synonyms: []
 tapped_id: 1653
+tokens: []
 type: Enchantment
-url: http://tappedout.net/mtg-card/shielding-plax/
+url: https://tappedout.net/mtg-card/shielding-plax/
+

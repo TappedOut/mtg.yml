@@ -2,12 +2,14 @@ activated_abilities:
 - ': You draw a card and you lose 1 life.'
 - ': Create two 2/1 black Spider creature tokens with menace and reach.'
 - ': You get an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: AFR
 cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -15,29 +17,30 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 5
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -47,29 +50,49 @@ keywords:
 - Tokens
 - Menace
 mana_cost: 3BB
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Lolth, Spider Queen
+planeswalker_loyalty: 4
 printings:
 - AFR:
     alterations:
-    - D&D Foil
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    - !!python/tuple
+      - f-&
+      - D&D Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Tyler Jacobson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Dungeons & Dragons: Adventures in the Forgotten Realms'
     number: 112
     rarity: mythic_rare
-    release_date: 2021-07-23
+    release_date: '2021-07-23'
+    tla: AFR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '284'
+    - identifier: '284'
     wizards_id: 527399
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=527399
 rules: "Whenever a creature you control dies, put a loyalty counter on Lolth. *(Is\
@@ -85,30 +108,41 @@ slug: lolth-spider-queen
 subtype: Lolth
 subtype_tokens:
 - Lolth
-tags: card-color-black card-color-black-cost-5 card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 24386
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Lolth, Spider Queen
-  power_toughness: null
-  rules: Whenever an opponent is dealt combat damage by one or more creatures you
-    control, it that player lost less than 8 life this turn, they lose life equal
-    to the difference.
-  subtype: Lolth
-  tla: AFR
-  type: Emblem
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spider 2/1 B
-  power_toughness: 2/1
-  rules: Menace, reach
-  subtype: Spider
-  tla: AFR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Whenever an opponent is dealt combat damage by one or more creatures you control,
+        it that player lost less than 8 life this turn, they lose life equal to the
+        difference.
+    - - type
+      - Emblem
+    - - subtype
+      - 1569
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Lolth, Spider Queen
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/1
+    - - rules
+      - Menace, reach
+    - - type
+      - Token Creature
+    - - subtype
+      - 68
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spider 2/1 B
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/lolth-spider-queen/
+url: https://tappedout.net/mtg-card/lolth-spider-queen/
+

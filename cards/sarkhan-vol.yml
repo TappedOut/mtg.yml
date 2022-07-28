@@ -3,36 +3,41 @@ activated_abilities:
 - ': Gain control of target creature until end of turn. Untap that creature. It gains
   haste until end of turn.'
 - ': Put five 4/4 red Dragon creature tokens with flying into play.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MMA
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.07
+draft_average: 1.89
 effective_cost:
 - R
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -40,36 +45,61 @@ keywords:
 - Flying
 - Haste
 mana_cost: 2GR
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Sarkhan Vol
+planeswalker_loyalty: 4
+power_toughness: ''
 printings:
+- ALA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daarken
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 31054
+    mtgo_id: 31053
+    name: Shards of Alara
+    number: null
+    rarity: mythic_rare
+    release_date: '2008-10-03'
+    tla: ALA
+    variations: []
+    wizards_id: 174983
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=174983
 - MMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daarken
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 48807
     mtgo_id: 48806
     name: Modern Masters
     number: 183
     rarity: mythic_rare
-    release_date: 2013-06-07
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
     wizards_id: 370566
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370566
-- ALA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 31054
-    mtgo_id: 31053
-    name: Shards of Alara
-    rarity: mythic_rare
-    release_date: 2008-10-03
-    wizards_id: 174983
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=174983
+rarity: mythic rare
 rules: "[[symbol:loyalty-plus1]]: Creatures you control get +1/+1 and gain haste until\
   \ end of turn.\r\n\r\n[[symbol:loyalty-minus2]]: Gain control of target creature\
   \ until end of turn. Untap that creature. It gains haste until end of turn.\r\n\r\
@@ -79,18 +109,24 @@ slug: sarkhan-vol
 subtype: Sarkhan
 subtype_tokens:
 - Sarkhan
-tags: card-color-gold card-color-gold-cost-4 card-color-green card-color-red card-type-planeswalker
+synonyms: []
 tapped_id: 10104
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Dragon 4/4 R
-  power_toughness: 4/4
-  rules: Flying
-  subtype: Dragon
-  tla: MMA
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 4/4
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 42
+    - - cannonical_type
+      - Creature
+    - - name
+      - Dragon 4/4 R
 type: Planeswalker
-url: http://tappedout.net/mtg-card/sarkhan-vol/
+url: https://tappedout.net/mtg-card/sarkhan-vol/
+

@@ -1,34 +1,38 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 8
+effective_cost: []
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
 - Pauper EDH
-- Penny Dreadful
+- Canadian Highlander
+- Legacy
+- Arena
+- Oathbreaker
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -36,20 +40,33 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: '8'
-mana_cost_converted: 8
+mana_value: 8
+melds_from: []
 name: Marut
 power_toughness: 7/7
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Campbell White
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 322
     rarity: common
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
     wizards_id: 563205
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563205
 rules: "Trample\r\n\r\nWhen Marut enters the battlefield, if mana form a Treasure\
@@ -60,18 +77,24 @@ slug: marut
 subtype: Construct
 subtype_tokens:
 - Construct
-tags: card-color-colorless card-color-colorless-cost-8 card-type-artifact card-type-creature
+synonyms: []
 tapped_id: 26688
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: CLB
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Artifact Creature
-url: http://tappedout.net/mtg-card/marut/
+url: https://tappedout.net/mtg-card/marut/
+

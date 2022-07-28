@@ -1,32 +1,38 @@
 activated_abilities:
 - 'Discard a card with converted mana cost/mana value X: Counter target spell with
   converted mana cost X.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: OGW
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 10
+cube_average: 6.24
+draft_average: 1.53
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -34,36 +40,63 @@ keywords:
 - Counterspell
 - Menace
 mana_cost: 8CC
-mana_cost_converted: 10
+mana_value: 10
+melds_from: []
 name: Kozilek, the Great Distortion
 power_toughness: 12/12
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 493
-    rarity: mythic_rare
-    release_date: 2019-12-09
 - OGW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Aleksi Briclot
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*A void as cryptic as reality itself.*'
     frame: m15
     mtgo_foil_id: 59318
     mtgo_id: 59317
     name: Oath of the Gatewatch
     number: 4
     rarity: mythic_rare
-    release_date: 2016-01-22
+    release_date: '2016-01-22'
+    tla: OGW
+    variations: []
     wizards_id: 407514
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407514
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 493
+    rarity: mythic_rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "When you cast this spell, if you have fewer than seven cards in hand, draw\
   \ cards equal to the difference.\r\n\r\nMenace *(This creature can't be blocked\
   \ except by two or more creatures.)*\r\n\r\nDiscard a card with converted mana cost/mana\
@@ -72,8 +105,9 @@ slug: kozilek-the-great-distortion
 subtype: Eldrazi
 subtype_tokens:
 - Eldrazi
-tags: card-color-colorless card-color-colorless-cost-10 card-color-colorless-sym card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 17469
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/kozilek-the-great-distortion/
+url: https://tappedout.net/mtg-card/kozilek-the-great-distortion/
+

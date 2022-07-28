@@ -2,7 +2,7 @@ activated_abilities:
 - ': Gain .'
 - ': Treetop Village becomes a 3/3 green Ape creature with trample until end of turn.
   It''s still a land.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: DDU
@@ -18,142 +18,241 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 11.3
+draft_average: 4.93
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
+- Vintage
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Modern
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Premodern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Trample
-mana_cost_converted: 0
 mana_produced: G
+mana_value: 0
+melds_from: []
 name: Treetop Village
 printings:
-- DDU:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Duel Decks: Elves vs. Inventors'
-    number: 30
-    rarity: common
-    release_date: 2018-04-06
-    wizards_id: 442766
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442766
-- DDR:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Duel Decks: Nissa vs. Ob Nixilis'
-    number: 30
-    rarity: uncommon
-    release_date: 2016-09-02
-    wizards_id: 417453
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417453
-- DD3:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Duel Decks Anthology
-    number: 27
-    rarity: uncommon
-    release_date: 2014-12-05
-    wizards_id: 393931
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393931
-- DDG:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 40114
-    name: 'Duel Decks: Knights vs. Dragons'
-    rarity: uncommon
-    release_date: 2011-04-01
-    wizards_id: 243455
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=243455
-- DDD:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 34890
-    name: 'Duel Decks: Garruk vs. Liliana'
-    rarity: common
-    release_date: 2009-10-20
-    wizards_id: 202279
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=202279
 - 10E:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Rob Alexander
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 27113
     mtgo_id: 27112
     name: Tenth Edition
+    number: null
     rarity: uncommon
-    release_date: 2007-07-13
+    release_date: '2007-07-13'
+    tla: 10E
+    variations: []
     wizards_id: 106455
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=106455
 - ULG:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Anthony S. Waters
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 12502
     mtgo_id: 12501
     name: Urza's Legacy
+    number: null
     rarity: uncommon
-    release_date: 1999-02-01
+    release_date: '1999-02-01'
+    tla: ULG
+    variations: []
     wizards_id: 12498
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=12498
+- DDD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Rob Alexander
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 34890
+    name: 'Duel Decks: Garruk vs. Liliana'
+    number: null
+    rarity: common
+    release_date: '2009-10-20'
+    tla: DDD
+    variations: []
+    wizards_id: 202279
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=202279
+- DDG:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Rob Alexander
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 40114
+    name: 'Duel Decks: Knights vs. Dragons'
+    number: null
+    rarity: uncommon
+    release_date: '2011-04-01'
+    tla: DDG
+    variations: []
+    wizards_id: 243455
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=243455
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Rob Alexander
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
     variations:
     - identifier: '2'
+    wizards_id: null
+    wizards_url: null
 - PSG:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Rob Alexander
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo set for Gatherer
+    number: null
     rarity: rare
-    release_date: 1990-01-10
-promo_sets:
-- PSG
+    release_date: '1990-01-10'
+    tla: PSG
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- DDR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Rob Alexander
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Nissa vs. Ob Nixilis'
+    number: 30
+    rarity: uncommon
+    release_date: '2016-09-02'
+    tla: DDR
+    variations: []
+    wizards_id: 417453
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417453
+- DDU:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Rob Alexander
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Elves vs. Inventors'
+    number: 30
+    rarity: null
+    release_date: '2018-04-06'
+    tla: DDU
+    variations: []
+    wizards_id: 442766
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442766
+- DD3:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Rob Alexander
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Duel Decks Anthology
+    number: 27
+    rarity: uncommon
+    release_date: '2014-12-05'
+    tla: DD3
+    variations: []
+    wizards_id: 393931
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393931
+rarity: common
 rules: "Treetop Village enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Gain [[symbol:G]].\r\
   \n\r\n[[symbol:1]][[symbol:G]]: Treetop Village becomes a 3/3 green Ape creature\
   \ with trample until end of turn. It's still a land."
@@ -163,8 +262,9 @@ synonyms:
 - G Man Land
 - Manland G
 - Man Land G
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-green-slow card-type-land
 tap_land: true
 tapped_id: 6199
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/treetop-village/
+url: https://tappedout.net/mtg-card/treetop-village/
+

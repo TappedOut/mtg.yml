@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Enchantment
@@ -5,53 +7,64 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Cloakwood Hermit
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kai Carpenter
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*You''ve always preferred the company of animals to people.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 221
     rarity: uncommon
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
     variations:
-    - alterations:
-      - Etched
-      identifier: '514'
+    - identifier: '514'
     wizards_id: 563104
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563104
 rules: Commander creatures you own have "At the beginning of your end step, if a creature
@@ -61,18 +74,24 @@ slug: cloakwood-hermit
 subtype: Background
 subtype_tokens:
 - Background
-tags: card-color-green card-color-green-cost-3 card-type-enchantment card-type-legendary
+synonyms: []
 tapped_id: 26500
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Squirrel 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Squirrel
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 729
+    - - cannonical_type
+      - Creature
+    - - name
+      - Squirrel 1/1 G
 type: Legendary Enchantment
-url: http://tappedout.net/mtg-card/cloakwood-hermit/
+url: https://tappedout.net/mtg-card/cloakwood-hermit/
+

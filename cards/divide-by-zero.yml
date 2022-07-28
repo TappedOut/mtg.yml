@@ -1,16 +1,5 @@
-arena:
-  Alchemy:
-    date: 2022-01-27
-    rules: Return target spell or permanent with converted mana cost/mana value 1
-      or greater to its owner's hand. If it's mana value/converted mana cost was 4
-      or less, learn. *(You may reveal a Lesson card you own from outside the game
-      and put it into your hand, or discard a card to draw acard.)*
-  Historic:
-    date: 2022-01-27
-    rules: Return target spell or permanent with converted mana cost/mana value 1
-      or greater to its owner's hand. If it's mana value/converted mana cost was 4
-      or less, learn. *(You may reveal a Lesson card you own from outside the game
-      and put it into your hand, or discard a card to draw acard.)*
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: STX
 cannonical_type: Instant
@@ -26,48 +15,60 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
 - Pre-release
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
-is_permanent: false
 keywords:
 - Learn
 mana_cost: 2U
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Divide by Zero
 printings:
 - STX:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Liiga Smilshkalne
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Misery. Inadequacy. Failure. The common denominator is you."*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Strixhaven
     number: 41
     rarity: uncommon
-    release_date: 2021-04-23
+    release_date: '2021-04-23'
+    tla: STX
+    variations: []
     wizards_id: 513518
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=513518
 rules: "Return target spell or permanent with converted mana cost/mana value 1 or\
@@ -75,7 +76,9 @@ rules: "Return target spell or permanent with converted mana cost/mana value 1 o
   \ own from outside the game and put it into your hand, or discard a card to draw\
   \  acard.)*"
 slug: divide-by-zero
-tags: card-color-blue card-color-blue-cost-3 card-type-instant
+synonyms: []
 tapped_id: 24268
+tokens: []
 type: Instant
-url: http://tappedout.net/mtg-card/divide-by-zero/
+url: https://tappedout.net/mtg-card/divide-by-zero/
+

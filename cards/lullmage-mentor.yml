@@ -1,57 +1,74 @@
 activated_abilities:
 - 'Tap seven untapped Merfolk you control: Counter target spell.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ZEN
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.0
+draft_average: 4.46
 effective_cost:
 - U
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Counterspell
 mana_cost: 1UU
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Lullmage Mentor
 power_toughness: 2/2
 printings:
 - ZEN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jaime Jones
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"Many voices are needed to quiet this land."'
     frame: modern
     mtgo_foil_id: 34609
     mtgo_id: 34608
     name: Zendikar
     number: 54
     rarity: rare
-    release_date: 2009-10-02
+    release_date: '2009-10-02'
+    tla: ZEN
+    variations: []
     wizards_id: 190404
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=190404
+rarity: rare
 rules: "Whenever a spell or ability you control counters a spell, you may put a 1/1\
   \ blue Merfolk creature token onto the battlefield.\r\n\r\nTap seven untapped Merfolk\
   \ you control: Counter target spell.\r\n"
@@ -60,18 +77,24 @@ subtype: Merfolk Wizard
 subtype_tokens:
 - Merfolk
 - Wizard
-tags: card-color-blue card-color-blue-cost-3 card-type-creature
+synonyms: []
 tapped_id: 11803
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Merfolk 1/1 U
-  power_toughness: 1/1
-  rules: ''
-  subtype: Merfolk
-  tla: ZEN
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 80
+    - - cannonical_type
+      - Creature
+    - - name
+      - Merfolk 1/1 U
 type: Creature
-url: http://tappedout.net/mtg-card/lullmage-mentor/
+url: https://tappedout.net/mtg-card/lullmage-mentor/
+

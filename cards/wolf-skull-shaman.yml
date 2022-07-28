@@ -1,55 +1,72 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MOR
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.31
+draft_average: 2.19
 effective_cost:
 - G
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Kinship
 mana_cost: 1G
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Wolf-Skull Shaman
 power_toughness: 2/2
 printings:
 - MOR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jim Murray
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: A chorus of howls answers his call.
     frame: modern
     mtgo_foil_id: 29079
     mtgo_id: 29078
     name: Morningtide
     number: 140
     rarity: uncommon
-    release_date: 2008-02-01
+    release_date: '2008-02-01'
+    tla: MOR
+    variations: []
     wizards_id: 152728
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=152728
+rarity: uncommon
 rules: "Kinship \x97 At the beginning of your upkeep, you may look at the top card\
   \ of your library. If it shares a creature type with Wolf-Skull Shaman, you may\
   \ reveal it. If you do, put a 2/2 green Wolf creature token onto the battlefield.\r\
@@ -59,18 +76,24 @@ subtype: Elf Shaman
 subtype_tokens:
 - Elf
 - Shaman
-tags: card-color-green card-color-green-cost-2 card-type-creature
+synonyms: []
 tapped_id: 150
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Wolf 2/2 G
-  power_toughness: 2/2
-  rules: ''
-  subtype: Wolf
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 93
+    - - cannonical_type
+      - Creature
+    - - name
+      - Wolf 2/2 G
 type: Creature
-url: http://tappedout.net/mtg-card/wolf-skull-shaman/
+url: https://tappedout.net/mtg-card/wolf-skull-shaman/
+

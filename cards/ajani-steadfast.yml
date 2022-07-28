@@ -4,36 +4,41 @@ activated_abilities:
 - ': Put a +1/+1 counter on each creature you control and a loyalty counter on each
   other planeswalker you control.'
 - ': You get an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M15
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.03
+draft_average: 1.0
 effective_cost:
 - W
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,44 +48,81 @@ keywords:
 - Vigilance
 - Counters
 mana_cost: 3W
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Ajani Steadfast
+planeswalker_loyalty: 4
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 87
-    rarity: mythic_rare
-    release_date: 2019-12-09
 - M15:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 53505
     mtgo_id: 53504
     name: Magic 2015
     number: 1
     rarity: mythic_rare
-    release_date: 2014-07-18
+    release_date: '2014-07-18'
+    tla: M15
+    variations: []
     wizards_id: 383180
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383180
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jae Lee
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: David Rapoza
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 87
+    rarity: mythic_rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Until end of turn, up to one target creature gets\
   \ +1/+1 and gains first strike, vigilance, and lifelink.\r\n\r\n[[symbol:loyalty-minus2]]:\
   \ Put a +1/+1 counter on each creature you control and a loyalty counter on each\
@@ -91,19 +133,25 @@ slug: ajani-steadfast
 subtype: Ajani
 subtype_tokens:
 - Ajani
-tags: card-color-white card-color-white-cost-4 card-type-planeswalker
+synonyms: []
 tapped_id: 15633
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Ajani Steadfast
-  power_toughness: null
-  rules: If a source would deal damage to you or a planeswalker you control, prevent
-    all but one of that damage.
-  subtype: Ajani
-  tla: M15
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - If a source would deal damage to you or a planeswalker you control, prevent
+        all but one of that damage.
+    - - type
+      - Emblem
+    - - subtype
+      - 37
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Ajani Steadfast
 type: Planeswalker
-url: http://tappedout.net/mtg-card/ajani-steadfast/
+url: https://tappedout.net/mtg-card/ajani-steadfast/
+

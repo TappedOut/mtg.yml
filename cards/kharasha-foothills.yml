@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: PC2
@@ -11,45 +12,56 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+effective_cost: []
 formats:
 - 1v1 Commander
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Pauper
+- Casual
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Sacrifice
 - Tokens
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Kharasha Foothills
 printings:
 - PC2:
     alterations:
-    - Oversized
+    - !!python/tuple
+      - oversized
+      - Oversized
+    artist: Trevor Claxton
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
+    mtgo_foil_id: null
     mtgo_id: 45014
     name: Planechase 2012 Edition
     number: 22
     rarity: common
-    release_date: 2012-06-01
+    release_date: '2012-06-01'
+    tla: PC2
+    variations: []
     wizards_id: 226534
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=226534
+rarity: common
 rules: "Whenever a creature you control attacks a player, for each other opponent,\
   \ you may create a token that's a copy of that creature tapped and attacking that\
   \ opponent. Exile those tokens at the beginning of the next end step.\r\n\r\nWhenever\
@@ -59,17 +71,24 @@ slug: kharasha-foothills
 subtype: Mongseng
 subtype_tokens:
 - Mongseng
-tags: card-color-colorless card-color-colorless-cost-0 card-type-plane
+synonyms: []
 tapped_id: 13833
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Plane
-url: http://tappedout.net/mtg-card/kharasha-foothills/
+url: https://tappedout.net/mtg-card/kharasha-foothills/
+

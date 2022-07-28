@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: CLB
@@ -7,34 +8,37 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 4.92
+draft_average: 2.06
 effective_cost:
 - G
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -42,46 +46,67 @@ keywords:
 - Tokens
 - Adventure
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Lovestruck Beast
 power_toughness: 5/5
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 827
-    rarity: rare
-    release_date: 2022-06-10
 - ELD:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Kev Walker
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*His mind chose solitude, but his heart disagreed.*'
     frame: m15
     mtgo_foil_id: 78469
     mtgo_id: 78468
     name: Throne of Eldraine
     number: 165
     rarity: rare
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '299'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '299'
+    - identifier: PromoPack
     wizards_id: 473127
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=473127
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kev Walker
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: '*His mind chose solitude, but his heart disagreed.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 827
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Lovestruck Beast can't attack unless you control a 1/1 creature.\r\n\r\n<br>\r\
   \n\r\n*(You may cast Lovestruck Beast from exile if you sent it on an adventure.)*\r\
   \n\r\n-----\r\n\r\n<h3>Heart's Desire</h3>\r\n<h4>Sorcery &mdash; Adventure</h4>\r\
@@ -103,18 +128,23 @@ synonyms:
 - Lovestruck Beast/Heart's Desire
 - Heart's Desire / Lovestruck Beast
 - Heart's Desire/Lovestruck Beast
-tags: card-color-green card-color-green-cost-3 card-type-creature
 tapped_id: 21998
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Human 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Human
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 8
+    - - cannonical_type
+      - Creature
+    - - name
+      - Human 1/1 W
 type: Creature
-url: http://tappedout.net/mtg-card/lovestruck-beast/
+url: https://tappedout.net/mtg-card/lovestruck-beast/
+

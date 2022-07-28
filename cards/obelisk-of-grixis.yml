@@ -1,6 +1,6 @@
 activated_abilities:
 - ': Gain , , or .'
-activation_costs:
+activated_costs:
 - B
 - R
 - U
@@ -11,89 +11,142 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 3
+cube_average: 7.85
+draft_average: 7.9
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: '3'
-mana_cost_converted: 3
 mana_produced: U, B, R
+mana_value: 3
+melds_from: []
 name: Obelisk of Grixis
 printings:
-- E01:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Archenemy: Nicol Bolas'
-    number: 88
-    rarity: common
-    release_date: 2017-06-16
-    wizards_id: 430627
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430627
-- C13:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 50941
-    mtgo_id: 50940
-    name: Commander 2013
-    rarity: common
-    release_date: 2013-11-01
-    wizards_id: 376434
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376434
-- DDH:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 42078
-    name: 'Duel Decks: Ajani vs. Nicol Bolas'
-    rarity: common
-    release_date: 2011-09-02
-    wizards_id: 259279
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=259279
 - ALA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Nils Hamm
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Like most features of Grixis, the obelisks that remain from the
+      time of Alara now exist only for dark exploitation.
     frame: modern
     mtgo_foil_id: 30954
     mtgo_id: 30953
     name: Shards of Alara
+    number: null
     rarity: common
-    release_date: 2008-10-03
+    release_date: '2008-10-03'
+    tla: ALA
+    variations: []
     wizards_id: 174887
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=174887
+- DDH:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Nils Hamm
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Like most features of Grixis, the obelisks that remain from the
+      time of Alara now exist only for dark exploitation.
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 42078
+    name: 'Duel Decks: Ajani vs. Nicol Bolas'
+    number: null
+    rarity: common
+    release_date: '2011-09-02'
+    tla: DDH
+    variations: []
+    wizards_id: 259279
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=259279
+- C13:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Nils Hamm
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Like most features of Grixis, the obelisks that remain from the
+      time of Alara now exist only for dark exploitation.
+    frame: modern
+    mtgo_foil_id: 50941
+    mtgo_id: 50940
+    name: Commander 2013
+    number: null
+    rarity: common
+    release_date: '2013-11-01'
+    tla: C13
+    variations: []
+    wizards_id: 376434
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376434
+- E01:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Nils Hamm
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*LIke most features of Grixis, the obelisks that remain from the
+      time of Alara now exist only for dark exploitation.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Archenemy: Nicol Bolas'
+    number: 88
+    rarity: common
+    release_date: '2017-06-16'
+    tla: E01
+    variations: []
+    wizards_id: 430627
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430627
+rarity: common
 rules: '[[symbol:T]]: Gain [[symbol:U]], [[symbol:B]], or [[symbol:R]].'
 slug: obelisk-of-grixis
-tags: card-color-colorless card-color-colorless-cost-3 card-mana-black card-mana-blue
-  card-mana-red card-type-artifact
+synonyms: []
 tapped_id: 10071
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/obelisk-of-grixis/
+url: https://tappedout.net/mtg-card/obelisk-of-grixis/
+

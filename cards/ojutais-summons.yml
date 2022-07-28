@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DTK
 cannonical_type: Sorcery
@@ -10,82 +12,113 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.06
+draft_average: 7.53
 effective_cost:
 - U
-flat_cost: 5
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 - Exile
 - Rebound
 - Tokens
 mana_cost: 3UU
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Ojutai's Summons
 printings:
-- J21:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Jumpstart: Historic Horizons'
-    rarity: common
-    release_date: 2021-08-12
 - DTK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jakub Kasper
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 56169
     mtgo_id: 56168
     name: Dragons of Tarkir
     number: 68
     rarity: common
-    release_date: 2015-03-27
+    release_date: '2015-03-27'
+    tla: DTK
+    variations: []
     wizards_id: 394643
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394643
+- J21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jakub Kasper
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Jumpstart: Historic Horizons'
+    number: null
+    rarity: common
+    release_date: '2021-08-12'
+    tla: J21
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: "Create a 2/2 blue Djinn Monk creature token with flying.\r\n\r\nRebound *(If\
   \ you cast this spell from your hand, exile this as this resolves. At the beginning\
   \ of your next upkeep, you may cast this card from exile without paying the mana\
   \ cost).*"
 slug: ojutais-summons
-tags: card-color-blue card-color-blue-cost-5 card-type-sorcery
+synonyms: []
 tapped_id: 16407
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Djinn Monk 2/2 U
-  power_toughness: 2/2
-  rules: Flying
-  subtype: Djinn Monk
-  tla: DTK
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 2/2
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 1053
+    - - cannonical_type
+      - Creature
+    - - name
+      - Djinn Monk 2/2 U
 type: Sorcery
-url: http://tappedout.net/mtg-card/ojutais-summons/
+url: https://tappedout.net/mtg-card/ojutais-summons/
+

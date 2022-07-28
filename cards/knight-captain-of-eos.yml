@@ -1,6 +1,6 @@
 activated_abilities:
 - '{W}, Sacrifice a Soldier: Prevent all combat damage that would be dealt this turn.'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: ALA
@@ -8,52 +8,69 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.0
+draft_average: 2.0
 effective_cost:
 - W
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
 mana_cost: 4W
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Knight-Captain of Eos
 power_toughness: 2/2
 printings:
 - ALA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: The strength of Bant's caste system is the unfailing loyalty of
+      its meekest members.
     frame: modern
     mtgo_foil_id: 31308
     mtgo_id: 31307
     name: Shards of Alara
     number: 17
     rarity: rare
-    release_date: 2008-10-03
+    release_date: '2008-10-03'
+    tla: ALA
+    variations: []
     wizards_id: 179421
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=179421
+rarity: rare
 rules: "When Knight-Captain of Eos enters the battlefield, put two 1/1 white Soldier\
   \ creature tokens into play.\r\n\r\n{W}, Sacrifice a Soldier: Prevent all combat\
   \ damage that would be dealt this turn."
@@ -62,18 +79,24 @@ subtype: Human Knight
 subtype_tokens:
 - Human
 - Knight
-tags: card-color-white card-color-white-cost-5 card-type-creature
+synonyms: []
 tapped_id: 10048
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Soldier 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Soldier
-  tla: ALA
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 18
+    - - cannonical_type
+      - Creature
+    - - name
+      - Soldier 1/1 W
 type: Creature
-url: http://tappedout.net/mtg-card/knight-captain-of-eos/
+url: https://tappedout.net/mtg-card/knight-captain-of-eos/
+

@@ -2,38 +2,44 @@ activated_abilities:
 - 'Equip  *(: Attach this to target creature you control. Equip only as a sorcery.
   This enters the battlefield unattached and stays on the battlefield if the creature
   this card is attached to leaves the battlefield.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 2
+cube_average: 7.3
+draft_average: 2.11
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,77 +47,140 @@ keywords:
 - Equip
 - Attach
 mana_cost: '2'
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Blackblade Reforged
 printings:
-- NEC:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Kamigawa: Neon Dynasty Commander'
-    number: 146
-    rarity: rare
-    release_date: 2022-02-11
-    wizards_id: 554228
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554228
-- CMR:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: Commander Legends
-    number: 457
-    rarity: rare
-    release_date: 2020-11-20
-    wizards_id: 500937
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=500937
-- ZNC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Zendikar Rising: Commander'
-    number: 107
-    rarity: rare
-    release_date: 2020-09-25
-    wizards_id: 496045
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=496045
-- SS2:
-    alterations:
-    - Foil
-    - Normal
-    - The List
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Signature Spellbook: Gideon'
-    number: 8
-    rarity: rare
-    release_date: 2019-06-28
 - DOM:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*It spilled the blood of one elder dragon. In Gideon''s hands,
+      it may yet taste another''s.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Dominaria
     number: 211
     rarity: rare
-    release_date: 2018-04-22
+    release_date: '2018-04-22'
+    tla: DOM
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 443099
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443099
+- SS2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Richard Kane Ferguson
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*A weapon of evil, redeemed in Gideon''s hand.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Signature Spellbook: Gideon'
+    number: 8
+    rarity: rare
+    release_date: '2019-06-28'
+    tla: SS2
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- ZNC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*A weapon of evil, redeemed in Gideon''s hand.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Zendikar Rising: Commander'
+    number: 107
+    rarity: rare
+    release_date: '2020-09-25'
+    tla: ZNC
+    variations: []
+    wizards_id: 496045
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=496045
+- CMR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: '*A weapon of evil, redeemed in Gideon''s hand.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Legends
+    number: 457
+    rarity: rare
+    release_date: '2020-11-20'
+    tla: CMR
+    variations: []
+    wizards_id: 500937
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=500937
+- NEC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*It spilled the blood of one elder dragon. In Gideon''s hands,
+      it may yet taste another''s.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kamigawa: Neon Dynasty Commander'
+    number: 146
+    rarity: rare
+    release_date: '2022-02-11'
+    tla: NEC
+    variations: []
+    wizards_id: 554228
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554228
+rarity: rare
 rules: "Equipped creature gets +1/+1 for each land you control.\r\n\r\nEquip legendary\
   \ creature [[symbol:3]]\r\n\r\nEquip [[symbol:7]] *([[symbol:7]]: Attach this to\
   \ target creature you control. Equip only as a sorcery. This enters the battlefield\
@@ -121,7 +190,9 @@ slug: blackblade-reforged
 subtype: Equipment
 subtype_tokens:
 - Equipment
-tags: card-color-colorless card-color-colorless-cost-2 card-type-artifact card-type-legendary
+synonyms: []
 tapped_id: 20079
+tokens: []
 type: Legendary Artifact
-url: http://tappedout.net/mtg-card/blackblade-reforged/
+url: https://tappedout.net/mtg-card/blackblade-reforged/
+

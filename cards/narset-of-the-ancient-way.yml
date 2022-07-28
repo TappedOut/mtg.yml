@@ -4,7 +4,7 @@ activated_abilities:
   way, Narset of the Ancient Way deals damage equal to that card''s converted mana
   cost to target creature or planeswalker. '
 - ': You get an emblem with '
-activation_costs:
+activated_costs:
 - R
 - U
 - W
@@ -12,71 +12,86 @@ canadian_hl_score: 0
 cannonical_set: IKO
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 2.0
+draft_average: 2.44
 effective_cost:
 - W
 - U
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
 mana_cost: 1URW
-mana_cost_converted: 4
 mana_produced: U, R, W
+mana_value: 4
+melds_from: []
 name: Narset of the Ancient Way
+planeswalker_loyalty: 4
 printings:
 - IKO:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Yongjae Choi
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 80400
     mtgo_id: 80399
     name: 'Ikoria: Lair of Behemoths'
     number: 195
     rarity: mythic_rare
-    release_date: 2020-04-15
+    release_date: '2020-04-15'
+    tla: IKO
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '278'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '278'
+    - identifier: PromoPack
     wizards_id: 479715
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479715
 rules: "[[symbol:loyalty-plus1]]: You gain 2 life. Gain [[symbol:U]], [[symbol:R]]\
@@ -92,20 +107,24 @@ subtype_tokens:
 - Narset
 synonyms:
 - Narset of the Anceint Way
-tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-red card-color-white
-  card-mana-blue card-mana-red card-mana-white card-type-legendary card-type-planeswalker
 tapped_id: 22825
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Narset of the Ancient Way
-  power_toughness: null
-  rules: Whenever you cast a noncreature spell, this emblem deals 2 damage to target
-    creature, player or planeswalker.
-  subtype: Narset
-  tla: IKO
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Whenever you cast a noncreature spell, this emblem deals 2 damage to target
+        creature, player or planeswalker.
+    - - type
+      - Emblem
+    - - subtype
+      - 1079
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Narset of the Ancient Way
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/narset-of-the-ancient-way/
+url: https://tappedout.net/mtg-card/narset-of-the-ancient-way/
+

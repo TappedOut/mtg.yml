@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: EVE
 cannonical_type: Sorcery
@@ -10,63 +12,82 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.86
+draft_average: 5.38
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Retrace
 mana_cost: 3GG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Savage Conception
 power_toughness: '0'
 printings:
 - EVE:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: William O'Connor
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Some beasts are born not of a mother, but of magic.
     frame: modern
     mtgo_foil_id: 30105
     mtgo_id: 30104
     name: Eventide
     number: 75
     rarity: uncommon
-    release_date: 2008-07-25
+    release_date: '2008-07-25'
+    tla: EVE
+    variations: []
     wizards_id: 153438
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=153438
+rarity: uncommon
 rules: "Put a 3/3 green Beast creature token into play.\r\n\r\nRetrace (You may play\
   \ this card from your graveyard by discarding a land card in addition to paying\
   \ its other costs.)"
 slug: savage-conception
-tags: card-color-green card-color-green-cost-5 card-type-sorcery
+synonyms: []
 tapped_id: 9894
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Beast 3/3 G
-  power_toughness: 3/3
-  rules: ''
-  subtype: Beast
-  tla: EVE
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 3/3
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 83
+    - - cannonical_type
+      - Creature
+    - - name
+      - Beast 3/3 G
 type: Sorcery
-url: http://tappedout.net/mtg-card/savage-conception/
+url: https://tappedout.net/mtg-card/savage-conception/
+

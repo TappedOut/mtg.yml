@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: C20
@@ -12,98 +13,147 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.67
+draft_average: 1.69
 effective_cost:
 - W
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Flashback
 - Tokens
 mana_cost: 3WW
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Increasing Devotion
 printings:
-- C20:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 91
-    rarity: rare
-    release_date: 2020-05-15
-    wizards_id: 482719
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482719
-- C19:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 77247
-    mtgo_id: 77246
-    name: Commander 2019
-    number: 66
-    rarity: rare
-    release_date: 2019-08-23
-- DDQ:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Duel Decks: Blessed vs. Cursed'
-    number: 14
-    rarity: rare
-    release_date: 2016-02-26
-    wizards_id: 409590
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409590
 - DKA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daniel Ljunggren
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 43454
     mtgo_id: 43453
     name: Dark Ascension
     number: 11
     rarity: rare
-    release_date: 2012-02-03
+    release_date: '2012-02-03'
+    tla: DKA
+    variations: []
     wizards_id: 262870
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=262870
+- DDQ:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Daniel Ljunggren
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Blessed vs. Cursed'
+    number: 14
+    rarity: rare
+    release_date: '2016-02-26'
+    tla: DDQ
+    variations: []
+    wizards_id: 409590
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409590
+- C19:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Daniel Ljunggren
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: 77247
+    mtgo_id: 77246
+    name: Commander 2019
+    number: 66
+    rarity: rare
+    release_date: '2019-08-23'
+    tla: C19
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Daniel Ljunggren
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 91
+    rarity: rare
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: 482719
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482719
+rarity: rare
 rules: "Create five 1/1 white Human creature tokens. If Increasing Devotion was cast\
   \ from a graveyard, create ten of those tokens instead.\r\n\r\nFlashback [[symbol:7]][[symbol:W]][[symbol:W]]\
   \ *(You may cast this card from your graveyard for its flashback cost. Then exile\
   \ it.)*"
 slug: increasing-devotion
-tags: card-color-white card-color-white-cost-5 card-type-sorcery
+synonyms: []
 tapped_id: 13462
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Human 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Human
-  tla: C20
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 8
+    - - cannonical_type
+      - Creature
+    - - name
+      - Human 1/1 W
 type: Sorcery
-url: http://tappedout.net/mtg-card/increasing-devotion/
+url: https://tappedout.net/mtg-card/increasing-devotion/
+

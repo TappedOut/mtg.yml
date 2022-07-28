@@ -1,6 +1,6 @@
 activated_abilities:
 - ': Gain .'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: M20
@@ -16,54 +16,71 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 8.47
+draft_average: 8.5
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Historic
-- Legacy
-- Leviathan
+- Casual
+- Block Constructed
 - Limited
-- Oathbreaker
-- Pioneer
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
-mana_cost_converted: 0
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Field of the Dead
 printings:
 - M20:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Kev Walker
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 73394
     mtgo_id: 73393
     name: Core Set 2020
     number: 247
     rarity: rare
-    release_date: 2019-07-12
+    release_date: '2019-07-12'
+    tla: M20
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 467001
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=467001
 rules: "Field of the Dead enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Gain\
@@ -71,19 +88,25 @@ rules: "Field of the Dead enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Ga
   \ under your control, if you control seven or more lands with different names, create\
   \ a 2/2 black Zombie creature token."
 slug: field-of-the-dead
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
+synonyms: []
 tap_land: true
 tapped_id: 21735
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: M20
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Land
-url: http://tappedout.net/mtg-card/field-of-the-dead/
+url: https://tappedout.net/mtg-card/field-of-the-dead/
+

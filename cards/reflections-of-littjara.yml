@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Enchantment
@@ -5,99 +7,127 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - U
-flat_cost: 5
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: 4U
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Reflections of Littjara
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 733
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567550
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567550
 - KHM:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Aaron Miller
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*The masks float downstream toward the Mirrorlake, where faces
+      arise to wear them.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Kaldheim
     number: 73
     rarity: rare
-    release_date: 2021-02-05
+    release_date: '2021-02-05'
+    tla: KHM
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '347'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '400'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '347'
+    - identifier: '400'
+    - identifier: PromoPack
     wizards_id: 503681
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503681
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Aaron Miller
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: '*The masks float downstream toward the Mirrorlake, where faces
+      arise to wear them.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 733
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567550
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567550
 rules: "As Reflections of Littjara enters the battlefield, choose a creature type.\r\
   \n\r\nWhenever you cast a spell on the chosen type, copy that spell. *(A copy of\
   \ a permanent spell becomes a token.)*"
 slug: reflections-of-littjara
-tags: card-color-blue card-color-blue-cost-5 card-type-enchantment
+synonyms: []
 tapped_id: 23716
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Enchantment
-url: http://tappedout.net/mtg-card/reflections-of-littjara/
+url: https://tappedout.net/mtg-card/reflections-of-littjara/
+

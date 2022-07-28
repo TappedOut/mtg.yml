@@ -1,6 +1,6 @@
 activated_abilities:
 - ', Exile Nyx Weaver: Return target card from your graveyard to your hand.'
-activation_costs:
+activated_costs:
 - B
 - G
 canadian_hl_score: 0
@@ -9,31 +9,36 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.5
+draft_average: 7.48
 effective_cost:
 - B
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Quest Magic
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,35 +46,57 @@ keywords:
 - Reach
 - Exile
 mana_cost: 1BG
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Nyx Weaver
 power_toughness: 2/3
 printings:
-- C20:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 226
-    rarity: uncommon
-    release_date: 2020-05-15
-    wizards_id: 482854
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482854
 - JOU:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jack Wang
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: modern
     mtgo_foil_id: 52085
     mtgo_id: 52084
     name: Journey into Nyx
     number: 155
     rarity: uncommon
-    release_date: 2014-05-02
+    release_date: '2014-05-02'
+    tla: JOU
+    variations: []
     wizards_id: 380462
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=380462
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jack Wang
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 226
+    rarity: uncommon
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: 482854
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482854
+rarity: uncommon
 rules: "Reach\r\n\r\nAt the beginning of your upkeep, put the top two cards of your\
   \ library into your graveyard.\r\n\r\n[[symbol:1]][[symbol:B]][[symbol:G]], Exile\
   \ Nyx Weaver: Return target card from your graveyard to your hand."
@@ -77,8 +104,9 @@ slug: nyx-weaver
 subtype: Spider
 subtype_tokens:
 - Spider
-tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-green card-type-creature
-  card-type-enchantment
+synonyms: []
 tapped_id: 15445
+tokens: []
 type: Enchantment Creature
-url: http://tappedout.net/mtg-card/nyx-weaver/
+url: https://tappedout.net/mtg-card/nyx-weaver/
+

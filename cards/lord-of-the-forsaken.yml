@@ -1,43 +1,45 @@
 activated_abilities:
 - 'Pay 1 life: Add . Spend this mana only to cast a spell from your graveyard.'
-activation_costs:
+activated_costs:
 - B
 - C
 canadian_hl_score: 0
 cannonical_set: MID
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 6
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -47,42 +49,70 @@ keywords:
 - Sacrifice
 - Mill
 mana_cost: 4BB
-mana_cost_converted: 6
 mana_produced: C
+mana_value: 6
+melds_from: []
 name: Lord of the Forsaken
 power_toughness: 6/6
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 110
-    rarity: mythic_rare
-    release_date: 2022-01-21
 - MID:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Kekai Kotaki
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Midnight Hunt'
     number: 110
     rarity: mythic_rare
-    release_date: 2021-09-24
+    release_date: '2021-09-24'
+    tla: MID
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '346'
+    - identifier: '346'
     wizards_id: 534884
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=534884
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kekai Kotaki
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 110
+    rarity: mythic_rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Flying, trample\r\n\r\n[[symbol:B]], Sacrifice another creature; Target player\
   \ mills three cards.  *(They put the top three cards of their library into their\
   \ graveyard.)*\r\n\r\nPay 1 life: Add [[symbol:C]]. Spend this mana only to cast\
@@ -91,7 +121,9 @@ slug: lord-of-the-forsaken
 subtype: Demon
 subtype_tokens:
 - Demon
-tags: card-color-black card-color-black-cost-6 card-mana-colorless-sym card-type-creature
+synonyms: []
 tapped_id: 25243
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/lord-of-the-forsaken/
+url: https://tappedout.net/mtg-card/lord-of-the-forsaken/
+

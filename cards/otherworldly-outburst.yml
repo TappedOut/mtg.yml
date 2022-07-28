@@ -1,77 +1,98 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: EMN
 cannonical_type: Instant
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.33
+draft_average: 9.83
 effective_cost:
 - R
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: R
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Otherworldly Outburst
 printings:
 - EMN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kieran Yanner
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: A tiny crack is enough to open the mind to Emrakul.
     frame: m15
     mtgo_foil_id: 61417
     mtgo_id: 61416
     name: Eldritch Moon
     number: 138
     rarity: common
-    release_date: 2016-07-22
+    release_date: '2016-07-22'
+    tla: EMN
+    variations: []
     wizards_id: 414437
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414437
+rarity: common
 rules: Target creature gets +1/+0 until end of turn. When that creature dies this
   turn, put a 3/2 colorless Eldrazi Horror creature token onto the battlefield.
 slug: otherworldly-outburst
 synonyms:
 - Otherwordly Outburst
-tags: card-color-red card-color-red-cost-1 card-type-instant
 tapped_id: 18023
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Eldrazi Horror 3/2 C
-  power_toughness: 3/2
-  rules: ''
-  subtype: Eldrazi Horror
-  tla: EMN
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 3/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 1149
+    - - cannonical_type
+      - Creature
+    - - name
+      - Eldrazi Horror 3/2 C
 type: Instant
-url: http://tappedout.net/mtg-card/otherworldly-outburst/
+url: https://tappedout.net/mtg-card/otherworldly-outburst/
+

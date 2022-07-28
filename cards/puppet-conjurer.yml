@@ -1,58 +1,76 @@
 activated_abilities:
 - '(Blue), Tap: Put a 0/1 blue Homunculus artifact creature token into play.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ALA
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.62
+draft_average: 8.59
 effective_cost:
 - B
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
 mana_cost: 1B
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Puppet Conjurer
 power_toughness: 1/2
 printings:
 - ALA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Steven Belledin
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: He scowls at his imperfect creation, then crushes it to scrap. He
+      salvages the etherium and begins anew.
     frame: modern
     mtgo_foil_id: 31078
     mtgo_id: 31077
     name: Shards of Alara
     number: 82
     rarity: uncommon
-    release_date: 2008-10-03
+    release_date: '2008-10-03'
+    tla: ALA
+    variations: []
     wizards_id: 175012
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=175012
+rarity: uncommon
 rules: "(Blue), Tap: Put a 0/1 blue Homunculus artifact creature token into play.\r\
   \n\r\nAt the beginning of your upkeep, sacrifice a Homunculus."
 slug: puppet-conjurer
@@ -60,18 +78,24 @@ subtype: Human Wizard
 subtype_tokens:
 - Human
 - Wizard
-tags: card-color-black card-color-black-cost-2 card-type-artifact card-type-creature
+synonyms: []
 tapped_id: 10081
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Homunculus 0/1 U
-  power_toughness: 0/1
-  rules: ''
-  subtype: Homunculus
-  tla: ALA
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 0/1
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 192
+    - - cannonical_type
+      - Creature
+    - - name
+      - Homunculus 0/1 U
 type: Artifact Creature
-url: http://tappedout.net/mtg-card/puppet-conjurer/
+url: https://tappedout.net/mtg-card/puppet-conjurer/
+

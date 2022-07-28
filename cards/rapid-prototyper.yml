@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: UN3
 cannonical_type: Artifact
@@ -9,47 +11,72 @@ companions:
 - Lutri, the Spellchaser
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 0
+cube_average: 3.75
+effective_cost: []
 formats:
-- 'Commander: Rule 0'
-- Limited
+- Custom
 - Unformat
-has_activated_abilities: false
+- 'Commander: Rule 0'
+- Casual
+- Limited
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
+mana_value: 0
+melds_from: []
 name: Rapid Prototyper
+planeswalker_loyalty: 0
+power_toughness: ''
 printings:
 - UN3:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Felix
+    booster_exclude: false
     border_color: S
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Unstable
     number: 200
     rarity: mythic_rare
-    release_date: 2017-12-08
+    release_date: '2017-12-08'
+    tla: UN3
+    variations: []
     wizards_id: 439589
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439589
+rarity: mythic_rare
 rules: Whenever you crank Rapid Prototyper, create an X/X colorless Construct artifact
   creature token, where X is the number of artifacts you control.
 slug: rapid-prototyper
 subtype: Contraption
 subtype_tokens:
 - Contraption
-tags: card-color-colorless card-color-colorless-cost-0 card-type-artifact
+synonyms: []
 tapped_id: 19805
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Construct X/X C
-  power_toughness: X/X
-  rules: ''
-  subtype: Construct
-  tla: UN3
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - X/X
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 72
+    - - cannonical_type
+      - Creature
+    - - name
+      - Construct X/X C
 type: Artifact
-url: http://tappedout.net/mtg-card/rapid-prototyper/
+url: https://tappedout.net/mtg-card/rapid-prototyper/
+

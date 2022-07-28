@@ -5,47 +5,63 @@ activated_abilities:
   graveyard from the battlefield)*, you get [symbol:A].
 - ', Pay X [symbol:A]: Target creature gets -X/-X until end of turn.'
 - ', Pay X [symbol:A]: Target creature gets +X/+X until end of turn.'
-activation_costs:
+activated_costs:
 - B
 - G
 canadian_hl_score: 0
 cannonical_set: UND
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+draft_average: 3.5
 effective_cost:
 - B
-flat_cost: 4
 formats:
-- 'Commander: Rule 0'
-- Limited
+- Custom
 - Unformat
+- 'Commander: Rule 0'
+- Casual
+- Limited
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
 mana_cost: 3B
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Acornelia, Fashionable Filcher
 power_toughness: 3/3
 printings:
 - UND:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Bram Sels
+    booster_exclude: false
     border_color: S
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Unsanctioned
     number: 31
     rarity: rare
-    release_date: 2020-02-28
+    release_date: '2020-02-28'
+    tla: UND
+    variations: []
     wizards_id: 479426
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479426
 rules: "Whenever you cast a spell with a squirrel in its art, you get [symbol:A] *(an\
@@ -58,17 +74,24 @@ slug: acornelia-fashionable-filcher
 subtype: Squirrel
 subtype_tokens:
 - Squirrel
-tags: card-color-black card-color-black-cost-4 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 22598
 tokens:
-- cannonical_type: Emblem
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Acorn Stash Token
-  power_toughness: null
-  rules: '*Place your acorn counters in this area.*'
-  tla: UND
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*Place your acorn counters in this area.*'
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Acorn Stash Token
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/acornelia-fashionable-filcher/
+url: https://tappedout.net/mtg-card/acornelia-fashionable-filcher/
+

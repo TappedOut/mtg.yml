@@ -1,106 +1,136 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: RNA
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 3.55
+draft_average: 1.8
 effective_cost:
 - W
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
 - Tokens
 mana_cost: 3W
-mana_cost_converted: 4
 mana_produced: W, U, B, R, G
+mana_value: 4
+melds_from: []
 name: Smothering Tithe
 printings:
-- 2X2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Double Masters 2022
-    number: 31
-    rarity: rare
-    release_date: 2022-07-08
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '342'
-    - alterations:
-      - Etched
-      identifier: '423'
-    wizards_id: 571364
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571364
 - RNA:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Mark Behm
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"I await your donation.\"\r\n<br>&mdash;Dasha, Orzhov priest*"
     frame: m15
     mtgo_foil_id: 71045
     mtgo_id: 71044
     name: Ravnica Allegiance
     number: 22
     rarity: rare
-    release_date: 2019-01-25
+    release_date: '2019-01-25'
+    tla: RNA
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 457166
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=457166
+- 2X2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Behm
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*\"I await your donation.\"\r\n<br>&mdash;Dasha, Orzhov priest*\r\
+      \n\r\n*\"Oh, how I love gold. I'd eat and breath it if I could.\"\r\n<br>&mdash;Leland,\
+      \ tax collector*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters 2022
+    number: 31
+    rarity: rare
+    release_date: '2022-07-08'
+    tla: 2X2
+    variations:
+    - identifier: '342'
+    - identifier: '423'
+    wizards_id: 571364
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571364
 rules: 'Whenever an opponent draws a card, that player may pay [[symbol:2]]. If the
   player doesn''t, you create a Treasure artifact token. *(It''s an artifact with
   "[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.")*'
 slug: smothering-tithe
-tags: card-color-white card-color-white-cost-4 card-mana-black card-mana-blue card-mana-green
-  card-mana-red card-mana-white card-type-enchantment
+synonyms: []
 tapped_id: 21059
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: RNA
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Enchantment
-url: http://tappedout.net/mtg-card/smothering-tithe/
+url: https://tappedout.net/mtg-card/smothering-tithe/
+

@@ -1,6 +1,6 @@
 activated_abilities:
 - ': Gain .'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: MH2
@@ -14,25 +14,27 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -40,30 +42,36 @@ keywords:
 - Exile
 - Suspend
 - Counters
-mana_cost_converted: 0
 mana_produced: CC
+mana_value: 0
+melds_from: []
 name: Sol Talisman
 printings:
 - MH2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Volkan Baga
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*It contains the energy of a dying star caught at the moment of
+      its explosion.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Modern Horizons 2
     number: 236
     rarity: rare
-    release_date: 2021-06-18
+    release_date: '2021-06-18'
+    tla: MH2
     variations:
-    - alterations:
-      - Etched
-      - Foil
-      - Normal
-      identifier: '432'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '472'
+    - identifier: '432'
+    - identifier: '472'
     wizards_id: 522312
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522312
 rules: "Suspend 3&mdash;[[symbol:1]] *(Rather than cast this card from your hand,\
@@ -71,7 +79,9 @@ rules: "Suspend 3&mdash;[[symbol:1]] *(Rather than cast this card from your hand
   \ your upkeep, remove a time counter. When the last is removed, cast this without\
   \ paying the mana cost.)*\r\n\r\n[[symbol:T]]: Gain [[symbol:C]][[symbol:C]]."
 slug: sol-talisman
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-artifact
+synonyms: []
 tapped_id: 24568
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/sol-talisman/
+url: https://tappedout.net/mtg-card/sol-talisman/
+

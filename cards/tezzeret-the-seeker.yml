@@ -4,34 +4,39 @@ activated_abilities:
   put it into play. Then shuffle your library.'
 - ': Artifacts you control become artifact creatures with base power and toughness
   5/5 until end of turn.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MM2
 cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.03
+draft_average: 2.0
 effective_cost:
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -39,65 +44,102 @@ keywords:
 - Tap/Untap
 - Counters
 mana_cost: 3UU
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Tezzeret the Seeker
+planeswalker_loyalty: 4
 printings:
-- WARMED:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: 'War of the Spark: Mythic Edition'
-    number: 4
-    rarity: mythic_rare
-    release_date: 2019-05-02
-    wizards_id: 463945
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=463945
-- MM2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 57089
-    mtgo_id: 57088
-    name: Modern Masters 2015 Edition
-    number: 62
-    rarity: mythic_rare
-    release_date: 2015-05-22
-    wizards_id: 397700
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397700
-- DDF:
-    alterations:
-    - Foil
-    border_color: B
-    foil: foil
-    foil_only: true
-    frame: modern
-    mtgo_foil_id: 37783
-    name: 'Duel Decks: Elspeth vs. Tezzeret'
-    number: 39
-    rarity: mythic_rare
-    release_date: 2010-09-03
-    wizards_id: 217826
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=217826
 - ALA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Anthony Francisco
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 30980
     mtgo_id: 30979
     name: Shards of Alara
     number: 60
     rarity: mythic_rare
-    release_date: 2008-10-03
+    release_date: '2008-10-03'
+    tla: ALA
+    variations: []
     wizards_id: 174912
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=174912
+- DDF:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Igor Kieryluk
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 37783
+    mtgo_id: null
+    name: 'Duel Decks: Elspeth vs. Tezzeret'
+    number: 39
+    rarity: mythic_rare
+    release_date: '2010-09-03'
+    tla: DDF
+    variations: []
+    wizards_id: 217826
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=217826
+- MM2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Anthony Francisco
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 57089
+    mtgo_id: 57088
+    name: Modern Masters 2015 Edition
+    number: 62
+    rarity: mythic_rare
+    release_date: '2015-05-22'
+    tla: MM2
+    variations: []
+    wizards_id: 397700
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397700
+- WARMED:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Victor Adame Minguez
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'War of the Spark: Mythic Edition'
+    number: 4
+    rarity: mythic_rare
+    release_date: '2019-05-02'
+    tla: WARMED
+    variations: []
+    wizards_id: 463945
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=463945
+rarity: mythic_rare
 rules: "[[loyalty-plus1]]: Untap up to two target artifacts.\r\n\r\n[[loyalty-minusX]]:\
   \ Search your library for an artifact card with converted mana cost X or less and\
   \ put it into play. Then shuffle your library.\r\n\r\n[[loyalty-minus5]]: Artifacts\
@@ -107,7 +149,9 @@ slug: tezzeret-the-seeker
 subtype: Tezzeret
 subtype_tokens:
 - Tezzeret
-tags: card-color-blue card-color-blue-cost-5 card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 10139
+tokens: []
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/tezzeret-the-seeker/
+url: https://tappedout.net/mtg-card/tezzeret-the-seeker/
+

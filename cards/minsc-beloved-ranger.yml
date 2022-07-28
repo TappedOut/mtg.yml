@@ -2,12 +2,14 @@ activated_abilities:
 - ': Until end of turn, target creature you control has base power and toughness X/X
   and becomes a Giant in addition to its other types. Activate this ability only as
   a sorcery.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: AFR
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -17,30 +19,31 @@ effective_cost:
 - W
 - R
 - G
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -49,30 +52,49 @@ keywords:
 - Trample
 - Tokens
 mana_cost: RGW
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Minsc, Beloved Ranger
 power_toughness: 3/3
 printings:
 - AFR:
     alterations:
-    - D&D Foil
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    - !!python/tuple
+      - f-&
+      - D&D Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Howard Lyon
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Dungeons & Dragons: Adventures in the Forgotten Realms'
     number: 227
     rarity: mythic_rare
-    release_date: 2021-07-23
+    release_date: '2021-07-23'
+    tla: AFR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '344'
+    - identifier: '344'
     wizards_id: 527514
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=527514
 rules: "When Minsc, Beloved Ranger enters the battlefield, create Boo, a legendary\
@@ -85,19 +107,24 @@ subtype: Human Ranger
 subtype_tokens:
 - Human
 - Ranger
-tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-red card-color-white
-  card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 24796
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Boo
-  power_toughness: 1/1
-  rules: Trample, haste
-  subtype: Hamster
-  tla: AFR
-  type: Token Legendary Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Trample, haste
+    - - type
+      - Token Legendary Creature
+    - - subtype
+      - 1610
+    - - cannonical_type
+      - Creature
+    - - name
+      - Boo
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/minsc-beloved-ranger/
+url: https://tappedout.net/mtg-card/minsc-beloved-ranger/
+

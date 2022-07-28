@@ -1,44 +1,48 @@
 activated_abilities:
 - ': Fetid Imp gains deathtouch until end of turn. *(Any amount of damage it deals
   to a creature is enough to destroy it.)*'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: M21
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.0
+draft_average: 7.01
 effective_cost:
 - B
-flat_cost: 2
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,56 +50,102 @@ keywords:
 - Deathtouch
 - Flying
 mana_cost: 1B
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Fetid Imp
 power_toughness: 1/2
 printings:
-- M21:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Core Set 2021
-    number: 98
-    rarity: common
-    release_date: 2020-07-03
-    wizards_id: 485421
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485421
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
-- DDR:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Duel Decks: Nissa vs. Ob Nixilis'
-    number: 48
-    rarity: common
-    release_date: 2016-09-02
-    wizards_id: 417471
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417471
 - ORI:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Nils Hamm
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 57947
     mtgo_id: 57946
     name: Magic Origins
     number: 97
     rarity: common
-    release_date: 2015-06-17
+    release_date: '2015-06-17'
+    tla: ORI
+    variations: []
     wizards_id: 398633
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398633
+- DDR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Nils Hamm
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Nissa vs. Ob Nixilis'
+    number: 48
+    rarity: common
+    release_date: '2016-09-02'
+    tla: DDR
+    variations: []
+    wizards_id: 417471
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417471
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Nils Hamm
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- M21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Nils Hamm
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Core Set 2021
+    number: 98
+    rarity: common
+    release_date: '2020-07-03'
+    tla: M21
+    variations: []
+    wizards_id: 485421
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485421
+rarity: common
 rules: "Flying *(This creature can't be blocked except by creatures with flying or\
   \ reach.)*\r\n\r\n[[symbol:B]]: Fetid Imp gains deathtouch until end of turn. *(Any\
   \ amount of damage it deals to a creature is enough to destroy it.)*"
@@ -103,7 +153,9 @@ slug: fetid-imp
 subtype: Imp
 subtype_tokens:
 - Imp
-tags: card-color-black card-color-black-cost-2 card-type-creature
+synonyms: []
 tapped_id: 17090
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/fetid-imp/
+url: https://tappedout.net/mtg-card/fetid-imp/
+

@@ -1,65 +1,85 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - U
-flat_cost: 6
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
 - Penny Dreadful
-- Vintage
-has_activated_abilities: false
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: 4UU
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Extravagant Replication
 printings:
 - NCC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Pauline Voss
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"Just one aether tiger? What do I look like, a peasant?"'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Streets of New Capenna: Commander'
     number: 25
     rarity: rare
-    release_date: 2022-04-30
+    release_date: '2022-04-30'
+    tla: NCC
     variations:
-    - alterations:
-      - Normal
-      identifier: '126'
+    - identifier: '126'
+    wizards_id: null
+    wizards_url: null
 rules: At the beginning of your upkeep, create a token that's a copy of another target
   nonland permanent you control.
 slug: extravagant-replication
-tags: card-color-blue card-color-blue-cost-6 card-type-enchantment
+synonyms: []
 tapped_id: 26401
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Enchantment
-url: http://tappedout.net/mtg-card/extravagant-replication/
+url: https://tappedout.net/mtg-card/extravagant-replication/
+

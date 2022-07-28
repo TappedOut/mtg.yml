@@ -1,36 +1,40 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: IMA
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.12
+draft_average: 8.78
 effective_cost:
 - G
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Vintage
-has_activated_abilities: false
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -39,72 +43,129 @@ keywords:
 - Suspend
 - Counters
 mana_cost: 4GG
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Durkwood Baloth
 power_toughness: 5/5
 printings:
-- TSR:
+- TSP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dan Frazier
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 200
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 25408
+    mtgo_id: 25407
+    name: Time Spiral
+    number: null
     rarity: common
-    release_date: 2021-03-19
-    wizards_id: 509565
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509565
-- MYS1:
+    release_date: '2006-10-06'
+    tla: TSP
+    variations: []
+    wizards_id: 108807
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=108807
+- MMA:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dan Frazier
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 49025
+    mtgo_id: 49024
+    name: Modern Masters
+    number: null
     rarity: common
-    release_date: 2020-03-14
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
+    wizards_id: 370482
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370482
 - IMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dan Frazier
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 66200
     mtgo_id: 66199
     name: Iconic Masters
     number: 160
     rarity: common
-    release_date: 2017-11-17
+    release_date: '2017-11-17'
+    tla: IMA
+    variations: []
     wizards_id: 438726
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438726
-- MMA:
+- MYS1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Dan Frazier
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 49025
-    mtgo_id: 49024
-    name: Modern Masters
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
     rarity: common
-    release_date: 2013-06-07
-    wizards_id: 370482
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370482
-- TSP:
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- TSR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dan Frazier
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 25408
-    mtgo_id: 25407
-    name: Time Spiral
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 200
     rarity: common
-    release_date: 2006-10-06
-    wizards_id: 108807
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=108807
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509565
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509565
+rarity: common
 rules: Suspend 5&mdash;[[symbol:G]] *(Rather than cast this card from your hand, you
   may pay [[symbol:G]] and exile it with five time counters on it. At the beginning
   of your upkeep, remove a time counter. When the last is removed, cast it without
@@ -113,7 +174,9 @@ slug: durkwood-baloth
 subtype: Beast
 subtype_tokens:
 - Beast
-tags: card-color-green card-color-green-cost-6 card-type-creature
+synonyms: []
 tapped_id: 1031
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/durkwood-baloth/
+url: https://tappedout.net/mtg-card/durkwood-baloth/
+

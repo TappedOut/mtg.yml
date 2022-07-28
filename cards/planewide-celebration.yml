@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: WAR
 cannonical_type: Sorcery
@@ -10,70 +12,94 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.21
+draft_average: 2.05
 effective_cost:
 - G
-flat_cost: 7
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Proliferate
 - Tokens
 mana_cost: 5GG
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Planewide Celebration
 printings:
 - WAR:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Wisnu Tan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 71951
     mtgo_id: 71950
     name: War of the Spark
     number: 172
     rarity: rare
-    release_date: 2019-05-03
+    release_date: '2019-05-03'
+    tla: WAR
+    variations: []
     wizards_id: 461099
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461099
 rules: "Choose four. You may choose the same mode more than once.\r\n\r\n- Create\
   \ a 2/2 Citizen creature token that's all colours.\r\n- Return target permanent\
   \ card from your graveyard to your hand.\r\n- Proliferate.\r\n- You gain 4 life."
 slug: planewide-celebration
-tags: card-color-green card-color-green-cost-7 card-type-sorcery
+synonyms: []
 tapped_id: 21489
 tokens:
-- cannonical_type: Creature
-  colors: WUBRG
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Citizen 2/2 WUBRG
-  power_toughness: 2/2
-  rules: This creature is all colours.
-  subtype: Citizen
-  tla: WAR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - WUBRG
+    - - power_toughness
+      - 2/2
+    - - rules
+      - This creature is all colours.
+    - - type
+      - Token Creature
+    - - subtype
+      - 905
+    - - cannonical_type
+      - Creature
+    - - name
+      - Citizen 2/2 WUBRG
 type: Sorcery
-url: http://tappedout.net/mtg-card/planewide-celebration/
+url: https://tappedout.net/mtg-card/planewide-celebration/
+

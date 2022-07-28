@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C14
 cannonical_type: Sorcery
@@ -10,58 +12,75 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 1.0
 effective_cost:
 - W
-flat_cost: 7
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: 5WW
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Deploy to the Front
 printings:
 - C14:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Aaron Miller
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"We will descend upon you like a plague of locusts to purge you\
+      \ from our lands!\"\r\n<br>&mdash;Hirov, commander of the Thousand Swords*"
     frame: m15
     mtgo_foil_id: 55206
     mtgo_id: 55205
     name: Commander 2014
     number: 6
     rarity: rare
-    release_date: 2014-11-21
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
     wizards_id: 389483
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389483
+rarity: rare
 rules: Put X 1/1 white Soldier creature tokens onto the battlefield, where X is the
   number of creatures on the battlefield.
 slug: deploy-to-the-front
-tags: card-color-white card-color-white-cost-7 card-type-sorcery
+synonyms: []
 tapped_id: 16051
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Soldier 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Soldier
-  tla: C14
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 18
+    - - cannonical_type
+      - Creature
+    - - name
+      - Soldier 1/1 W
 type: Sorcery
-url: http://tappedout.net/mtg-card/deploy-to-the-front/
+url: https://tappedout.net/mtg-card/deploy-to-the-front/
+

@@ -1,74 +1,96 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ODY
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.73
+draft_average: 6.0
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Premodern
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flash
 - Flashback
 mana_cost: 2GG
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Elephant Ambush
+power_toughness: ''
 printings:
 - ODY:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Anthony S. Waters
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 17044
     mtgo_id: 17043
     name: Odyssey
     number: 240
     rarity: common
-    release_date: 2001-09-21
+    release_date: '2001-09-21'
+    tla: ODY
+    variations: []
     wizards_id: 32919
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=32919
+rarity: common
 rules: "Put a 3/3 green Elephant creature token into play.\r\n\r\n \r\n\r\nFlashback\
   \ (6)(Green)(Green) (You may play this card from your graveyard for its flashback\
   \ cost. Then remove it from the game.)"
 slug: elephant-ambush
-tags: card-color-green card-color-green-cost-4 card-type-instant
+synonyms: []
 tapped_id: 4518
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elephant 3/3 G
-  power_toughness: 3/3
-  rules: ''
-  subtype: Elephant
-  tla: ODY
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 3/3
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 214
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elephant 3/3 G
 type: Instant
-url: http://tappedout.net/mtg-card/elephant-ambush/
+url: https://tappedout.net/mtg-card/elephant-ambush/
+

@@ -1,36 +1,41 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: UMA
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 8.82
+draft_average: 6.93
 effective_cost:
 - R
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -38,38 +43,62 @@ keywords:
 - Heroic
 - Tokens
 mana_cost: R
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Akroan Crusader
 power_toughness: 1/1
 printings:
-- UMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 70316
-    mtgo_id: 70315
-    name: Ultimate Masters
-    number: 121
-    rarity: common
-    release_date: 2018-12-07
-    wizards_id: 456717
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456717
 - THS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Johann Budin
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: An Akroan soldier's worth is measured by the number of swords raised
+      by his battle cry.
     frame: modern
     mtgo_foil_id: 50497
     mtgo_id: 50496
     name: Theros
     number: 111
     rarity: common
-    release_date: 2013-09-27
+    release_date: '2013-09-27'
+    tla: THS
+    variations: []
     wizards_id: 373578
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373578
+- UMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Johann Bodin
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*An Akroan soldier''s worth is measured by the number of swords
+      raised by his battle cry.*'
+    frame: m15
+    mtgo_foil_id: 70316
+    mtgo_id: 70315
+    name: Ultimate Masters
+    number: 121
+    rarity: common
+    release_date: '2018-12-07'
+    tla: UMA
+    variations: []
+    wizards_id: 456717
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456717
+rarity: common
 rules: '*Heroic* &mdash; Whenever you cast a spell that targets Akroan Crusader, create
   a 1/1 red soldier creature token with haste.'
 slug: akroan-crusader
@@ -77,18 +106,24 @@ subtype: Human Soldier
 subtype_tokens:
 - Human
 - Soldier
-tags: card-color-red card-color-red-cost-1 card-type-creature
+synonyms: []
 tapped_id: 14807
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Soldier 1/1 R
-  power_toughness: 1/1
-  rules: ''
-  subtype: Soldier
-  tla: UMA
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 18
+    - - cannonical_type
+      - Creature
+    - - name
+      - Soldier 1/1 R
 type: Creature
-url: http://tappedout.net/mtg-card/akroan-crusader/
+url: https://tappedout.net/mtg-card/akroan-crusader/
+

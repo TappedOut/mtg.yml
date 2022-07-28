@@ -3,6 +3,7 @@ activated_abilities:
   destroy that creature.'
 - ': Destroy target nonland permanent.'
 - ': Create three 1/1 black Assassin tokens with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C19
 cannonical_type: Planeswalker
@@ -10,30 +11,34 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.5
+draft_average: 1.6
 effective_cost:
 - B
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,70 +46,103 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 3BG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Vraska the Unseen
+planeswalker_loyalty: 5
 printings:
-- C19:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 77537
-    mtgo_id: 77536
-    name: Commander 2019
-    number: 207
-    rarity: mythic_rare
-    release_date: 2019-08-23
-    wizards_id: 470753
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470753
-- DDM:
-    alterations:
-    - Foil
-    border_color: B
-    foil: foil
-    foil_only: true
-    frame: modern
-    mtgo_foil_id: 52504
-    mtgo_id: 52503
-    name: 'Duel Decks: Jace vs. Vraska'
-    number: 42
-    rarity: mythic_rare
-    release_date: 2014-03-14
-    wizards_id: 380214
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=380214
 - RTR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Aleksi Briclot
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 46568
     mtgo_id: 46567
     name: Return to Ravnica
     number: 208
     rarity: mythic_rare
-    release_date: 2012-10-05
+    release_date: '2012-10-05'
+    tla: RTR
+    variations: []
     wizards_id: 290538
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=290538
+- DDM:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Igor Kieryluk
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 52504
+    mtgo_id: 52503
+    name: 'Duel Decks: Jace vs. Vraska'
+    number: 42
+    rarity: mythic_rare
+    release_date: '2014-03-14'
+    tla: DDM
+    variations: []
+    wizards_id: 380214
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=380214
+- C19:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Aleksi Briclot
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 77537
+    mtgo_id: 77536
+    name: Commander 2019
+    number: 207
+    rarity: mythic_rare
+    release_date: '2019-08-23'
+    tla: C19
+    variations: []
+    wizards_id: 470753
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470753
+rarity: mythic_rare
 rules: "[[loyalty-plus1]]: Until your next turn, whenever a creature deals combat\
   \ damage to Vaskra the Unseen, destroy that creature.\r\n\r\n[[loyalty-minus3]]:\
   \ Destroy target nonland permanent.\r\n\r\n[[loyalty-minus7]]: Create three 1/1\
   \ black Assassin tokens with \"Whenever this creature deals combat damage to a player,\
   \ that player loses the game.\""
 slug: vraska-the-unseen
-tags: card-color-black card-color-gold card-color-gold-cost-5 card-color-green card-type-planeswalker
+synonyms: []
 tapped_id: 14057
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Assassin 1/1 B w/ Player Killer
-  power_toughness: 1/1
-  rules: When this creature deals combat damage to a player, that player loses the
-    game.
-  subtype: Assassin
-  tla: C19
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 1/1
+    - - rules
+      - When this creature deals combat damage to a player, that player loses the
+        game.
+    - - type
+      - Token Creature
+    - - subtype
+      - 982
+    - - cannonical_type
+      - Creature
+    - - name
+      - Assassin 1/1 B w/ Player Killer
 type: Planeswalker
-url: http://tappedout.net/mtg-card/vraska-the-unseen/
+url: https://tappedout.net/mtg-card/vraska-the-unseen/
+

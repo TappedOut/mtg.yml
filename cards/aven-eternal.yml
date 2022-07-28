@@ -1,39 +1,44 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: WAR
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 8.16
+draft_average: 4.54
 effective_cost:
 - U
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -42,22 +47,33 @@ keywords:
 - Tokens
 - Amass
 mana_cost: 2U
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Aven Eternal
 power_toughness: 2/2
 printings:
 - WAR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Johan Grenier
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"I've never seen the firemane angels so anxious.\"\r\n<br>&mdash;Tajic"
     frame: m15
     mtgo_foil_id: 71691
     mtgo_id: 71690
     name: War of the Spark
     number: 42
     rarity: common
-    release_date: 2019-05-03
+    release_date: '2019-05-03'
+    tla: WAR
+    variations: []
     wizards_id: 460969
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460969
 rules: "Flying\r\n\r\nWhen Aven Eternal enters the battlefield, amass 1. *(Put a +1/+1\
@@ -69,18 +85,24 @@ subtype_tokens:
 - Zombie
 - Bird
 - Warrior
-tags: card-color-blue card-color-blue-cost-3 card-type-creature
+synonyms: []
 tapped_id: 21484
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie Army 0/0 B
-  power_toughness: 0/0
-  rules: ''
-  subtype: Zombie Army
-  tla: WAR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 0/0
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 1342
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie Army 0/0 B
 type: Creature
-url: http://tappedout.net/mtg-card/aven-eternal/
+url: https://tappedout.net/mtg-card/aven-eternal/
+

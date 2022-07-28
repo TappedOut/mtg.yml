@@ -1,40 +1,44 @@
 activated_abilities:
 - ': Add .'
 - 'Put a -1/-1 counter on Devoted Druid: Untap Devoted Druid.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.49
+draft_average: 5.05
 effective_cost:
 - G
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,63 +46,109 @@ keywords:
 - Tap/Untap
 - Counters
 mana_cost: 1G
-mana_cost_converted: 2
 mana_produced: G
+mana_value: 2
+melds_from: []
 name: Devoted Druid
 power_toughness: 0/2
 printings:
-- 2X2:
+- SHM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Darrell Riche
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    name: Double Masters 2022
-    number: 143
-    rarity: uncommon
-    release_date: 2022-07-08
-    wizards_id: 571476
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571476
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 286
-    rarity: uncommon
-    release_date: 2022-04-30
-    wizards_id: 559858
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559858
+    cannonical: true
+    flavour_text: '"Mana lurks in all things, even in the depths of one''s own heart."'
+    frame: modern
+    mtgo_foil_id: 29306
+    mtgo_id: 29305
+    name: Shadowmoor
+    number: null
+    rarity: common
+    release_date: '2008-05-02'
+    tla: SHM
+    variations: []
+    wizards_id: 135500
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=135500
 - UMA:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Kimonas Theodossiou
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Mana lurks in all things, even in the depths of one''s own heart."*'
     frame: m15
     mtgo_foil_id: 70398
     mtgo_id: 70397
     name: Ultimate Masters
     number: 162
     rarity: uncommon
-    release_date: 2018-12-07
+    release_date: '2018-12-07'
+    tla: UMA
+    variations: []
     wizards_id: 456758
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456758
-- SHM:
+- NCC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kimonas Theodossiou
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 29306
-    mtgo_id: 29305
-    name: Shadowmoor
-    rarity: common
-    release_date: 2008-05-02
-    wizards_id: 135500
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=135500
+    cannonical: true
+    flavour_text: '*"Mana lurks in all things, even in the depths of one''s own heart."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 286
+    rarity: uncommon
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559858
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559858
+- 2X2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kimonas Theodossiou
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"Mana lurks in all things, even in the depths of one''s own heart."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters 2022
+    number: 143
+    rarity: uncommon
+    release_date: '2022-07-08'
+    tla: 2X2
+    variations: []
+    wizards_id: 571476
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571476
+rarity: common
 rules: "[[symbol:T]]: Add [[symbol:G]].\r\n\r\nPut a -1/-1 counter on Devoted Druid:\
   \ Untap Devoted Druid."
 slug: devoted-druid
@@ -106,7 +156,9 @@ subtype: Elf Druid
 subtype_tokens:
 - Elf
 - Druid
-tags: card-color-green card-color-green-cost-2 card-mana-green card-type-creature
+synonyms: []
 tapped_id: 9535
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/devoted-druid/
+url: https://tappedout.net/mtg-card/devoted-druid/
+

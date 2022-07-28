@@ -1,7 +1,7 @@
 activated_abilities:
 - ', , Exile this: Put an enlightened counter on target Angel. It gains  Activate
   this ability only as a sorcery.'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: AFR
@@ -9,6 +9,7 @@ cannonical_type: Artifact
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -16,30 +17,31 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - W
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -49,28 +51,45 @@ keywords:
 - Counters
 - Tokens
 mana_cost: WWW
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: The Book of Exalted Deeds
 printings:
 - AFR:
     alterations:
-    - D&D Foil
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    - !!python/tuple
+      - f-&
+      - D&D Foil
+    artist: Daniel Ljunggren
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Dungeons & Dragons: Adventures in the Forgotten Realms'
     number: 4
     rarity: mythic_rare
-    release_date: 2021-07-23
+    release_date: '2021-07-23'
+    tla: AFR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '359'
+    - identifier: '359'
     wizards_id: 527291
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=527291
 rules: "At the beginning of your end step, if you gained 3 or more life this turn,\
@@ -79,18 +98,24 @@ rules: "At the beginning of your end step, if you gained 3 or more life this tur
   \ \"You can't lose the game and your opponents can't win the game.\" Activate this\
   \ ability only as a sorcery."
 slug: the-book-of-exalted-deeds
-tags: card-color-white card-color-white-cost-3 card-type-artifact card-type-legendary
+synonyms: []
 tapped_id: 24845
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Angel 3/3 W
-  power_toughness: 3/3
-  rules: Flying
-  subtype: Angel
-  tla: AFR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 3/3
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 20
+    - - cannonical_type
+      - Creature
+    - - name
+      - Angel 3/3 W
 type: Legendary Artifact
-url: http://tappedout.net/mtg-card/the-book-of-exalted-deeds/
+url: https://tappedout.net/mtg-card/the-book-of-exalted-deeds/
+

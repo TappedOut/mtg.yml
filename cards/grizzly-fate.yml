@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: JUD
@@ -12,79 +13,111 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.77
+draft_average: 1.86
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flashback
 - Threshold
 mana_cost: 3GG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Grizzly Fate
+power_toughness: ''
 printings:
+- JUD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Dave Dorman
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: 17595
+    mtgo_id: 17594
+    name: Judgment
+    number: null
+    rarity: uncommon
+    release_date: '2002-05-27'
+    tla: JUD
+    variations: []
+    wizards_id: 34209
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=34209
 - VMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dave Dorman
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 53006
     mtgo_id: 53005
     name: Vintage Masters
     number: 215
     rarity: uncommon
-    release_date: 2014-06-16
+    release_date: '2014-06-16'
+    tla: VMA
+    variations: []
     wizards_id: 382970
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382970
-- JUD:
-    alterations:
-    - Foil
-    - Normal
-    - The List
-    border_color: B
-    frame: original
-    mtgo_foil_id: 17595
-    mtgo_id: 17594
-    name: Judgment
-    rarity: uncommon
-    release_date: 2002-05-27
-    wizards_id: 34209
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=34209
+rarity: uncommon
 rules: "Put two 2/2 green Bear creature tokens onto the battlefield.\r\n\r\nThreshold\
   \ \u2014 Put four 2/2 green Bear creature tokens onto the battlefield instead if\
   \ seven or more cards are in your graveyard.\r\n\r\nFlashback [[symbol:5]][[symbol:G]][[symbol:G]]\
   \ *(You may cast this card from your graveyard for its flashback cost. Then exile\
   \ it.)*"
 slug: grizzly-fate
-tags: card-color-green card-color-green-cost-5 card-type-sorcery
+synonyms: []
 tapped_id: 4187
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Bear 2/2 G
-  power_toughness: 2/2
-  rules: ''
-  subtype: Bear
-  tla: KHM
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 109
+    - - cannonical_type
+      - Creature
+    - - name
+      - Bear 2/2 G
 type: Sorcery
-url: http://tappedout.net/mtg-card/grizzly-fate/
+url: https://tappedout.net/mtg-card/grizzly-fate/
+

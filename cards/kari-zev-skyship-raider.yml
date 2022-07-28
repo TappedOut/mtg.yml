@@ -1,36 +1,41 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: AER
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.25
+draft_average: 1.83
 effective_cost:
 - R
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -39,26 +44,43 @@ keywords:
 - Tokens
 - Menace
 mana_cost: 1R
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Kari Zev, Skyship Raider
 power_toughness: 1/3
 printings:
 - AER:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - list
+      - The List
+    artist: Brad Rigney
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Aboard her ship, the *Dragon''s Smile*, Kari follows no one''s
+      rules but her own.*'
     frame: m15
     mtgo_foil_id: 62746
     mtgo_id: 62745
     name: Aether Revolt
     number: 87
     rarity: rare
-    release_date: 2017-01-20
+    release_date: '2017-01-20'
+    tla: AER
+    variations: []
     wizards_id: 423754
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423754
+rarity: rare
 rules: "First strike, menace \r\n\r\nWhenever Kari Zev, Skyship Raider attacks, create\
   \ a legendary 2/1 red Monkey creature token named Ragavan that's tapped and attacking.\
   \ Exile that token at end of combat."
@@ -67,18 +89,24 @@ subtype: Human Pirate
 subtype_tokens:
 - Human
 - Pirate
-tags: card-color-red card-color-red-cost-2 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 18623
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Ragavan
-  power_toughness: 2/1
-  rules: ''
-  subtype: Monkey
-  tla: AER
-  type: Token Legendary Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 2/1
+    - - rules
+      - ''
+    - - type
+      - Token Legendary Creature
+    - - subtype
+      - 1182
+    - - cannonical_type
+      - Creature
+    - - name
+      - Ragavan
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/kari-zev-skyship-raider/
+url: https://tappedout.net/mtg-card/kari-zev-skyship-raider/
+

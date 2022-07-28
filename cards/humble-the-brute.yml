@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SOI
 cannonical_type: Instant
@@ -11,65 +13,85 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.75
+draft_average: 6.01
 effective_cost:
 - W
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Sacrifice
 - Tokens
 - Investigate
 mana_cost: 4W
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Humble the Brute
 printings:
 - SOI:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daarken
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"The element of surprise only works when it''s backed up by a
+      bolt between the eyes."*'
     frame: m15
     mtgo_foil_id: 59985
     mtgo_id: 59984
     name: Shadows over Innistrad
     number: 23
     rarity: uncommon
-    release_date: 2016-04-08
+    release_date: '2016-04-08'
+    tla: SOI
+    variations: []
     wizards_id: 409762
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409762
+rarity: uncommon
 rules: "Destroy target creature with power 4 or greater.\r\n\r\nInvestigate. *(Put\
   \ a colourless Clue artifact token onto the battlefield with \"[[symbol:2]], Sacrifice\
   \ this artifact: Draw a card.\")*"
 slug: humble-the-brute
-tags: card-color-white card-color-white-cost-5 card-type-instant
+synonyms: []
 tapped_id: 17741
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Clue
-  power_toughness: null
-  rules: '[[symbol:2]], Sacrifice this: Draw a card.'
-  subtype: Clue
-  tla: SOI
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], Sacrifice this: Draw a card.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1130
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Clue
 type: Instant
-url: http://tappedout.net/mtg-card/humble-the-brute/
+url: https://tappedout.net/mtg-card/humble-the-brute/
+

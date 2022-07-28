@@ -2,12 +2,14 @@ activated_abilities:
 - ": Kelsien deals 1 damage to target creature you don\u2019t control. When that creature\
   \ dies this turn *(is put into a graveyard from the battlefield)*, you get an experience\
   \ counter."
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C20
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -17,20 +19,21 @@ effective_cost:
 - W
 - B
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -40,20 +43,33 @@ keywords:
 - Counters
 - Experience
 mana_cost: RWB
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Kelsien, the Plague
 power_toughness: 2/2
 printings:
 - C20:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rallis
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Aim for an eye. Better they never see you."*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2020
     number: 11
     rarity: mythic_rare
-    release_date: 2020-05-15
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
     wizards_id: 484718
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=484718
 rules: "Vigilance, haste\r\n\r\nKelsien, the Plague gets +1/+1 for each experience\
@@ -65,8 +81,9 @@ subtype: Human Assassin
 subtype_tokens:
 - Human
 - Assassin
-tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-red card-color-white
-  card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 22703
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/kelsien-the-plague/
+url: https://tappedout.net/mtg-card/kelsien-the-plague/
+

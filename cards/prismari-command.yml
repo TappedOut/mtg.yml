@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: STX
 cannonical_type: Instant
@@ -14,58 +16,72 @@ companions:
 effective_cost:
 - U
 - R
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
-is_permanent: false
 keywords:
 - Sacrifice
 - Tokens
 mana_cost: 1UR
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Prismari Command
 printings:
 - STX:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Johannes Voss
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Strixhaven
     number: 214
     rarity: rare
-    release_date: 2021-04-23
+    release_date: '2021-04-23'
+    tla: STX
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '348'
+    - identifier: '348'
     wizards_id: 513706
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=513706
 rules: "Choose two, choose each mode only once &mdash;\r\n\r\n- This deals 2 damage\
@@ -73,18 +89,24 @@ rules: "Choose two, choose each mode only once &mdash;\r\n\r\n- This deals 2 dam
   \ then discards two cards.\r\n- Target player creatures a Treasure token.\r\n- Destroy\
   \ target artifact."
 slug: prismari-command
-tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-red card-type-instant
+synonyms: []
 tapped_id: 23991
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: STX
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Instant
-url: http://tappedout.net/mtg-card/prismari-command/
+url: https://tappedout.net/mtg-card/prismari-command/
+

@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Instant
@@ -10,85 +12,121 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.77
+draft_average: 5.38
 effective_cost:
 - W
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Lifelink
 - Tap/Untap
 - Convoke
 - Tokens
 mana_cost: XGWW
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: March of the Multitudes
 printings:
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 346
-    rarity: mythic_rare
-    release_date: 2022-04-30
-    wizards_id: 559918
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559918
 - GRN:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Zack Stella
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Our forces number more than the leaves of Vitu-Ghazi. Do not
+      provoke us."*'
     frame: m15
     mtgo_foil_id: 69750
     mtgo_id: 69749
     name: Guilds of Ravnica
     number: 188
     rarity: mythic_rare
-    release_date: 2018-10-05
+    release_date: '2018-10-05'
+    tla: GRN
+    variations: []
     wizards_id: 452938
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=452938
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Zack Stella
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*"Our forces number more than the leaves of Vitu-Ghazi. Do not
+      provoke us."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 346
+    rarity: mythic_rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559918
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559918
 rules: "Convoke *(You may tap your creatures as you cast this spell. Each creature\
   \ you tap while casting this spell pays for [[symbol:1]] or one mana of that creature's\
   \ colour.)*\r\n\r\nCreate X 1/1 white Soldier creature tokens with lifelink."
 slug: march-of-the-multitudes
-tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-white card-type-instant
+synonyms: []
 tapped_id: 20759
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Soldier 1/1 W w/ Lifelink
-  power_toughness: 1/1
-  rules: Lifelink
-  subtype: Soldier
-  tla: GRN
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Lifelink
+    - - type
+      - Token Creature
+    - - subtype
+      - 18
+    - - cannonical_type
+      - Creature
+    - - name
+      - Soldier 1/1 W w/ Lifelink
 type: Instant
-url: http://tappedout.net/mtg-card/march-of-the-multitudes/
+url: https://tappedout.net/mtg-card/march-of-the-multitudes/
+

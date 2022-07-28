@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C21
 cannonical_type: Enchantment
@@ -5,49 +7,58 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 - Menace
 mana_cost: 2B
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Blight Mound
 printings:
 - C21:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Oriana Menendez
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Pests feed on carrion, mud, and one another.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2021
     number: 36
     rarity: rare
-    release_date: 2021-04-23
+    release_date: '2021-04-23'
+    tla: C21
     variations:
-    - alterations:
-      - Normal
-      identifier: '363'
+    - identifier: '363'
     wizards_id: 518432
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518432
 rules: "Attacking Pests you control get +1/+0 and have menace.\r\n\r\nWhenever a nontoken\
@@ -55,19 +66,25 @@ rules: "Attacking Pests you control get +1/+0 and have menace.\r\n\r\nWhenever a
   \ create a 1/1 black and green Pest creature token with \"When this creature dies,\
   \ you gain 1 life.\""
 slug: blight-mound
-tags: card-color-black card-color-black-cost-3 card-type-enchantment
+synonyms: []
 tapped_id: 24344
 tokens:
-- cannonical_type: Creature
-  colors: BG
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Pest 1/1 BG
-  power_toughness: 1/1
-  rules: When this dies *(is put into the graveyard from the battlefield, tokens are
-    put into the graveyard before they cease to exist.)*, you gain 1 life.
-  subtype: Pest
-  tla: STX
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - BG
+    - - power_toughness
+      - 1/1
+    - - rules
+      - When this dies *(is put into the graveyard from the battlefield, tokens are
+        put into the graveyard before they cease to exist.)*, you gain 1 life.
+    - - type
+      - Token Creature
+    - - subtype
+      - 907
+    - - cannonical_type
+      - Creature
+    - - name
+      - Pest 1/1 BG
 type: Enchantment
-url: http://tappedout.net/mtg-card/blight-mound/
+url: https://tappedout.net/mtg-card/blight-mound/
+

@@ -1,79 +1,99 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MH1
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.3
+draft_average: 5.61
 effective_cost:
 - G
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Rebound
 - Tokens
 mana_cost: 2GG
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Trumpeting Herd
 printings:
 - MH1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lars Grant-West
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*An elephant never forgives.*'
     frame: m15
     mtgo_foil_id: 72747
     mtgo_id: 72746
     name: Modern Horizons
     number: 187
     rarity: common
-    release_date: 2019-06-14
+    release_date: '2019-06-14'
+    tla: MH1
+    variations: []
     wizards_id: 464136
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464136
 rules: "Create a 3/3 green Elephant creature token.\r\n\r\nRebound *(If you cast this\
   \ spell from your hand, exile it as it resolves. At the beginning of your next upkeep,\
   \ you may cast this card from exile without paying its mana cost.)*"
 slug: trumpeting-herd
-tags: card-color-green card-color-green-cost-4 card-type-sorcery
+synonyms: []
 tapped_id: 21685
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elephant 3/3 G
-  power_toughness: 3/3
-  rules: ''
-  subtype: Elephant
-  tla: MH1
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 3/3
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 214
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elephant 3/3 G
 type: Sorcery
-url: http://tappedout.net/mtg-card/trumpeting-herd/
+url: https://tappedout.net/mtg-card/trumpeting-herd/
+

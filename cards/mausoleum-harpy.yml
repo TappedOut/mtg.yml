@@ -1,56 +1,73 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: RIX
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+draft_average: 5.76
 effective_cost:
 - B
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 4B
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Mausoleum Harpy
 power_toughness: 3/3
 printings:
 - RIX:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Randy Vargas
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 66610
     mtgo_id: 66609
     name: Rivals of Ixalan
     number: 78
     rarity: uncommon
-    release_date: 2018-01-19
+    release_date: '2018-01-19'
+    tla: RIX
+    variations: []
     wizards_id: 439735
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439735
+rarity: uncommon
 rules: "Ascend _(If you control ten or more permanents, you get the city's blessing\
   \ for the rest of the game.)_\r\n\r\nWhenever another creature you control dies,\
   \ if you have the city's blessing, put a +1/+1 counter on Mausoleum Harpy."
@@ -58,17 +75,24 @@ slug: mausoleum-harpy
 subtype: Harpy
 subtype_tokens:
 - Harpy
-tags: card-color-black card-color-black-cost-5 card-type-creature
+synonyms: []
 tapped_id: 20059
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: City's Blessing
-  power_toughness: null
-  rules: ''
-  tla: RIX
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - City's Blessing
 type: Creature
-url: http://tappedout.net/mtg-card/mausoleum-harpy/
+url: https://tappedout.net/mtg-card/mausoleum-harpy/
+

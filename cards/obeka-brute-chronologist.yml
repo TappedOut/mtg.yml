@@ -2,14 +2,16 @@ activated_abilities:
 - ': The player whose turn it is may end the turn. *(Exile all spells and abilities
   from the stack. The player whose turn it is discards down to their maximum hand
   size. Damage wears off, and  and  effects end.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
@@ -17,44 +19,53 @@ effective_cost:
 - U
 - B
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
 mana_cost: 1UBR
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Obeka, Brute Chronologist
 printings:
 - CMR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jesper Ejsing
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"I''m bored with now."*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander Legends
     number: 289
     rarity: rare
-    release_date: 2020-11-20
+    release_date: '2020-11-20'
+    tla: CMR
     variations:
-    - alterations:
-      - Etched
-      - Foil
-      - Normal
-      identifier: '609'
+    - identifier: '609'
     wizards_id: 497809
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497809
 rules: '[[symbol:T]]: The player whose turn it is may end the turn. *(Exile all spells
@@ -66,8 +77,9 @@ subtype: Ogre Wizard
 subtype_tokens:
 - Ogre
 - Wizard
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-4 card-color-red
-  card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 23578
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/obeka-brute-chronologist/
+url: https://tappedout.net/mtg-card/obeka-brute-chronologist/
+

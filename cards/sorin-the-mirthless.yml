@@ -4,42 +4,45 @@ activated_abilities:
 - ': Create a 2/3 black Vampire creature token with flying and lifelink.'
 - ': This deals 13 damage to target creature, player or planeswalker. You gain 13
   life.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -49,48 +52,71 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 2BB
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Sorin the Mirthless
+planeswalker_loyalty: 4
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 398
-    rarity: mythic_rare
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: "Martina Fa\u010Dkov\xE1"
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 131
     rarity: mythic_rare
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '278'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '297'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '337'
+    - identifier: '278'
+    - identifier: '297'
+    - identifier: '337'
     wizards_id: 540983
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=540983
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: "Martina Fa\u010Dkov\xE1"
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 398
+    rarity: mythic_rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "[[symbol:loyalty-plus1]]: Look at the top card of your library. You may reveal\
   \ that card and put it into your hand. If you do, you lose life equal to its converted\
   \ mana cost/mana value.\r\n\r\n[[symbol:loyalty-minus2]]: Create a 2/3 black Vampire\
@@ -102,18 +128,23 @@ subtype_tokens:
 - Sorin
 synonyms:
 - Count Dracula
-tags: card-color-black card-color-black-cost-4 card-type-legendary card-type-planeswalker
 tapped_id: 25377
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Vampire 2/3 B
-  power_toughness: 2/3
-  rules: Flying, lifelink
-  subtype: Vampire
-  tla: VOW
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/3
+    - - rules
+      - Flying, lifelink
+    - - type
+      - Token Creature
+    - - subtype
+      - 107
+    - - cannonical_type
+      - Creature
+    - - name
+      - Vampire 2/3 B
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/sorin-the-mirthless/
+url: https://tappedout.net/mtg-card/sorin-the-mirthless/
+

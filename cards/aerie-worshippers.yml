@@ -1,55 +1,72 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: BNG
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 10.62
+draft_average: 4.66
 effective_cost:
 - U
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 3U
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Aerie Worshippers
 power_toughness: 2/4
 printings:
 - BNG:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mike Sass
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: They can conjure stars from a clear sky.
     frame: modern
     mtgo_foil_id: 51670
     mtgo_id: 51669
     name: Born of the Gods
     number: 30
     rarity: uncommon
-    release_date: 2014-02-07
+    release_date: '2014-02-07'
+    tla: BNG
+    variations: []
     wizards_id: 378402
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=378402
+rarity: uncommon
 rules: "Inspired \u2014 Whenever Aerie Worshipers becomes untapped, you may pay 2{U}.\
   \ If you do, put a 2/2 blue Bird enchantment creature token with flying onto the\
   \ battlefield."
@@ -58,18 +75,24 @@ subtype: Human Cleric
 subtype_tokens:
 - Human
 - Cleric
-tags: card-color-blue card-color-blue-cost-4 card-type-creature
+synonyms: []
 tapped_id: 15159
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Enchantment Bird 2/2 U
-  power_toughness: 2/2
-  rules: Flying
-  subtype: Bird
-  tla: BNG
-  type: Token Enchantment Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 2/2
+    - - rules
+      - Flying
+    - - type
+      - Token Enchantment Creature
+    - - subtype
+      - 32
+    - - cannonical_type
+      - Creature
+    - - name
+      - Enchantment Bird 2/2 U
 type: Creature
-url: http://tappedout.net/mtg-card/aerie-worshippers/
+url: https://tappedout.net/mtg-card/aerie-worshippers/
+

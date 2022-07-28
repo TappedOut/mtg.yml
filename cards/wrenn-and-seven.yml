@@ -5,12 +5,14 @@ activated_abilities:
 - ': Create a green Treefolk creature token with reach and '
 - ': Return all permanent cards from your graveyard to your hand. You get an emblem
   with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MID
 cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -18,29 +20,30 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - G
-flat_cost: 5
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -48,40 +51,69 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 3GG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Wrenn and Seven
+planeswalker_loyalty: 5
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 208
-    rarity: mythic_rare
-    release_date: 2022-01-21
 - MID:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: HeonHwa Choe
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Midnight Hunt'
     number: 208
     rarity: mythic_rare
-    release_date: 2021-09-24
+    release_date: '2021-09-24'
+    tla: MID
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '278'
+    - identifier: '278'
     wizards_id: 534999
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=534999
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: HeonHwa Choe
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 208
+    rarity: mythic_rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "[[symbol:loyalty-plus1]]: Reveal the top four cards of your library. Put all\
   \ land cards revealed this way into your hand and the rest into your graveyard.\r\
   \n\r\n[[symbol:loyalty-zero]]: Put any number of land cards from your hand onto\
@@ -94,29 +126,40 @@ slug: wrenn-and-seven
 subtype: Wrenn
 subtype_tokens:
 - Wrenn
-tags: card-color-green card-color-green-cost-5 card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 24982
 tokens:
-- cannonical_type: Emblem
-  colors: c
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Wrenn and Seven
-  power_toughness: null
-  rules: You have no maximum hand size.
-  subtype: Wrenn
-  tla: MID
-  type: Emblem
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treefolk X/X G w/ Reach
-  power_toughness: X/X
-  rules: "Reach\r\n\r\nThis creature's power and toughness are each equal to the number\
-    \ of lands you control."
-  subtype: Treefolk
-  tla: MID
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - c
+    - - power_toughness
+      - null
+    - - rules
+      - You have no maximum hand size.
+    - - type
+      - Emblem
+    - - subtype
+      - 1346
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Wrenn and Seven
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - X/X
+    - - rules
+      - "Reach\r\n\r\nThis creature's power and toughness are each equal to the number\
+        \ of lands you control."
+    - - type
+      - Token Creature
+    - - subtype
+      - 98
+    - - cannonical_type
+      - Creature
+    - - name
+      - Treefolk X/X G w/ Reach
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/wrenn-and-seven/
+url: https://tappedout.net/mtg-card/wrenn-and-seven/
+

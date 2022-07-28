@@ -1,44 +1,47 @@
 activated_abilities:
 - ', Sacrifice an artifact: This deals 1 damage to each opponent. You gain 1 life.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NEO
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - B
 - R
-flat_cost: 2
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,20 +49,32 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: BR
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Oni-Cult Anvil
 printings:
 - NEO:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Yeong-Hao Han
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
     number: 230
     rarity: uncommon
-    release_date: 2022-02-10
+    release_date: '2022-02-10'
+    tla: NEO
+    variations: []
     wizards_id: 548543
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=548543
 rules: "Whenever one or more artifacts you control leave the battlefield during your\
@@ -67,18 +82,24 @@ rules: "Whenever one or more artifacts you control leave the battlefield during 
   \ triggers only once each turn.\r\n\r\n[[symbol:T]], Sacrifice an artifact: This\
   \ deals 1 damage to each opponent. You gain 1 life."
 slug: oni-cult-anvil
-tags: card-color-black card-color-gold card-color-gold-cost-2 card-color-red card-type-artifact
+synonyms: []
 tapped_id: 25860
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Construct 1/1 C
-  power_toughness: 1/1
-  rules: ''
-  subtype: Construct
-  tla: NEO
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 72
+    - - cannonical_type
+      - Creature
+    - - name
+      - Construct 1/1 C
 type: Artifact
-url: http://tappedout.net/mtg-card/oni-cult-anvil/
+url: https://tappedout.net/mtg-card/oni-cult-anvil/
+

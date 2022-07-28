@@ -1,91 +1,123 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: WAR
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.14
+draft_average: 8.11
 effective_cost:
 - U
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 is_mtgo: true
-is_permanent: false
 keywords:
 - Counterspell
 - Counters
 - Tokens
 - Amass
 mana_cost: 3U
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Crush Dissent
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
 - WAR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mike Bierek
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"All I ask for is obedience.\"\r\n<br>&mdash;Nicol Bolas*"
     frame: m15
     mtgo_foil_id: 71701
     mtgo_id: 71700
     name: War of the Spark
     number: 47
     rarity: common
-    release_date: 2019-05-03
+    release_date: '2019-05-03'
+    tla: WAR
+    variations: []
     wizards_id: 460974
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460974
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mike Bierek
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*\"All I ask for is obedience.\"\r\n<br>&mdash;Nicol Bolas*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Counter target spell unless its controller pays [[symbol:2]].\r\n\r\nAmass\
   \ 2. *(Put two +1/+1 counters on an Army you control. If you don't control one,\
   \ create a 0/0 black Zombie Army creature token first.)*"
 slug: crush-dissent
-tags: card-color-blue card-color-blue-cost-4 card-type-instant
+synonyms: []
 tapped_id: 21242
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie Army 0/0 B
-  power_toughness: 0/0
-  rules: ''
-  subtype: Zombie Army
-  tla: WAR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 0/0
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 1342
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie Army 0/0 B
 type: Instant
-url: http://tappedout.net/mtg-card/crush-dissent/
+url: https://tappedout.net/mtg-card/crush-dissent/
+

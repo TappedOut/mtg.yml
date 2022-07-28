@@ -1,39 +1,42 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: STX
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - U
 - R
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -41,28 +44,43 @@ keywords:
 - Tokens
 - Magecraft
 mana_cost: '{U/R}{U/R}{U/R}{U/R}'
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Elemental Expressionist
 power_toughness: 4/4
 printings:
 - STX:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Zack Stella
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Strixhaven
     number: 181
     rarity: rare
-    release_date: 2021-04-23
+    release_date: '2021-04-23'
+    tla: STX
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '342'
+    - identifier: '342'
     wizards_id: 513673
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=513673
 rules: '*Magecraft* &mdash; Whenever you cast or copy an instant or sorcery spell,
@@ -75,18 +93,24 @@ subtype: Orc Wizard
 subtype_tokens:
 - Orc
 - Wizard
-tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-red card-type-creature
+synonyms: []
 tapped_id: 24124
 tokens:
-- cannonical_type: Creature
-  colors: UR
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elemental 4/4 UR
-  power_toughness: 4/4
-  rules: ''
-  subtype: Elemental
-  tla: STX
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - UR
+    - - power_toughness
+      - 4/4
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elemental 4/4 UR
 type: Creature
-url: http://tappedout.net/mtg-card/elemental-expressionist/
+url: https://tappedout.net/mtg-card/elemental-expressionist/
+

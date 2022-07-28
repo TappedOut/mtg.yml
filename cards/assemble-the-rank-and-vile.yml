@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: CN2
@@ -11,59 +12,82 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 7.8
+draft_average: 5.75
+effective_cost: []
 formats:
 - 1v1 Commander
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Pauper
+- Casual
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
-mana_cost_converted: 0
+keywords: []
+mana_value: 0
+melds_from: []
 name: Assemble the Rank and Vile
 printings:
 - CN2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Seb McKinnon
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Conspiracy: Take the Crown'
     number: 2
     rarity: common
-    release_date: 2016-08-26
+    release_date: '2016-08-26'
+    tla: CN2
+    variations: []
     wizards_id: 416759
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416759
+rarity: common
 rules: "Hidden agenda (Start the game with this conspiracy face down in the command\
   \ zone and secretly name a card. You may turn this conspiracy face up any time and\
   \ reveal the chosen name.)\r\n\r\nCreatrues you control with the chosen name have\
   \ \"When this creature dies, you may pay [[B]]. If you do, put a 2/2 black Zombie\
   \ creature token onto the battlefield tapped.\""
 slug: assemble-the-rank-and-vile
-tags: card-color-colorless card-color-colorless-cost-0 card-type-conspiracy
+synonyms: []
 tapped_id: 18164
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: CN2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Conspiracy
-url: http://tappedout.net/mtg-card/assemble-the-rank-and-vile/
+url: https://tappedout.net/mtg-card/assemble-the-rank-and-vile/
+

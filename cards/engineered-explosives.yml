@@ -1,6 +1,7 @@
 activated_abilities:
 - ', Sacrifice Engineered Explosives: Destroy each nonland permanent with converted
   mana cost equal to the number of charge counters on Engineered Explosives.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: 2XM
 cannonical_type: Artifact
@@ -13,22 +14,26 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 10.09
+draft_average: 3.0
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -37,94 +42,157 @@ keywords:
 - Sunburst
 - Counters
 mana_cost: X
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Engineered Explosives
 printings:
-- 2XM:
+- 5DN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ron Spears
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: Double Masters
-    number: 252
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 20701
+    mtgo_id: 20700
+    name: Fifth Dawn
+    number: null
     rarity: rare
-    release_date: 2020-08-07
-    wizards_id: 489925
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489925
-- UMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 70532
-    mtgo_id: 70531
-    name: Ultimate Masters
-    number: 227
-    rarity: rare
-    release_date: 2018-12-07
-- UMAP:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: Ultimate Masters Promo
-    number: 28
-    rarity: mythic_rare
-    release_date: 2018-12-06
-- MPS:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: 'Masterpiece Series: Kaladesh Inventions'
-    number: 36
-    rarity: mythic_rare
-    release_date: 2016-09-30
-    wizards_id: 425807
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425807
+    release_date: '2004-06-04'
+    tla: 5DN
+    variations: []
+    wizards_id: 50139
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=50139
 - MMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lars Grant-West
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 48881
     mtgo_id: 48880
     name: Modern Masters
     number: 204
     rarity: rare
-    release_date: 2013-06-07
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
     wizards_id: 370549
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370549
-- 5DN:
+- MPS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: James Paick
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 20701
-    mtgo_id: 20700
-    name: Fifth Dawn
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Masterpiece Series: Kaladesh Inventions'
+    number: 36
+    rarity: mythic_rare
+    release_date: '2016-09-30'
+    tla: MPS
+    variations: []
+    wizards_id: 425807
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425807
+- UMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lars Grant-West
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: 70532
+    mtgo_id: 70531
+    name: Ultimate Masters
+    number: 227
     rarity: rare
-    release_date: 2004-06-04
-    wizards_id: 50139
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=50139
-promo_sets:
-- UMAP
+    release_date: '2018-12-07'
+    tla: UMA
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- UMAP:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lars Grant-West
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Ultimate Masters Promo
+    number: 28
+    rarity: mythic_rare
+    release_date: '2018-12-06'
+    tla: UMAP
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lars Grant-West
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 252
+    rarity: rare
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations: []
+    wizards_id: 489925
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489925
+rarity: rare
 rules: "Sunburst *(This enters the battlefield with a charge counter on it for each\
   \ colour of mana spent to cast it.)*\r\n\r\n[[symbol:2]], Sacrifice Engineered Explosives:\
   \ Destroy each nonland permanent with converted mana cost equal to the number of\
   \ charge counters on Engineered Explosives."
 slug: engineered-explosives
-tags: card-color-colorless card-color-colorless-cost-0 card-type-artifact
+synonyms: []
 tapped_id: 2960
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/engineered-explosives/
+url: https://tappedout.net/mtg-card/engineered-explosives/
+

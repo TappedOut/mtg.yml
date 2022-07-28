@@ -1,40 +1,45 @@
 activated_abilities:
 - ': Gain one mana of any colour.'
 - ', , Sacrifice Draconic Disciple: Create a 5/5 red Dragon creature token with flying.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M19
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.6
+draft_average: 7.84
 effective_cost:
 - R
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,33 +48,56 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 1RG
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Draconic Disciple
 power_toughness: 2/2
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: uncommon
-    release_date: 2020-03-14
 - M19:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Yongjae Choi
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"If I am to die, I will die in the embrace of immeasurable flame."*'
     frame: m15
     mtgo_foil_id: 68592
     mtgo_id: 68591
     name: Core Set 2019
     number: 215
     rarity: uncommon
-    release_date: 2018-07-13
+    release_date: '2018-07-13'
+    tla: M19
+    variations: []
     wizards_id: 447351
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447351
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Yongjae Choi
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"If I am to die, I will die in the embrace of immeasurable flame."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: uncommon
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "[[symbol:T]]: Gain one mana of any colour.\r\n\r\n[[symbol:7]], [[symbol:T]],\
   \ Sacrifice Draconic Disciple: Create a 5/5 red Dragon creature token with flying."
 slug: draconic-disciple
@@ -77,18 +105,24 @@ subtype: Human Shaman
 subtype_tokens:
 - Human
 - Shaman
-tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-red card-type-creature
+synonyms: []
 tapped_id: 20539
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Dragon 5/5 R
-  power_toughness: 5/5
-  rules: Flying
-  subtype: Dragon
-  tla: M19
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 5/5
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 42
+    - - cannonical_type
+      - Creature
+    - - name
+      - Dragon 5/5 R
 type: Creature
-url: http://tappedout.net/mtg-card/draconic-disciple/
+url: https://tappedout.net/mtg-card/draconic-disciple/
+

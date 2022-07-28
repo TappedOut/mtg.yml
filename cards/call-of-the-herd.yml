@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: DDS
@@ -13,113 +14,176 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.38
+draft_average: 2.0
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Flashback
 - Tokens
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Call of the Herd
+power_toughness: ''
 printings:
-- DDS:
+- TSB:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Carl Critchlow
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: 'Duel Decks: Mind vs. Might'
-    number: 44
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 26172
+    mtgo_id: 26171
+    name: Time Spiral "Timeshifted"
+    number: null
     rarity: rare
-    release_date: 2017-03-31
-    wizards_id: 426616
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426616
+    release_date: '2006-10-06'
+    tla: TSB
+    variations: []
+    wizards_id: 109672
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=109672
+- ODY:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Carl Critchlow
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: 16606
+    mtgo_id: 16605
+    name: Odyssey
+    number: null
+    rarity: rare
+    release_date: '2001-09-21'
+    tla: ODY
+    variations: []
+    wizards_id: 29786
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=29786
+- '000':
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lars Grant-West
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Promo Set
+    number: 2
+    rarity: rare
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
 - MM3:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Carl Critchlow
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 63048
     mtgo_id: 63047
     name: Modern Masters 2017 Edition
     number: 121
     rarity: rare
-    release_date: 2017-03-17
+    release_date: '2017-03-17'
+    tla: MM3
+    variations: []
     wizards_id: 425946
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425946
-- TSB:
+- DDS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Carl Critchlow
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 26172
-    mtgo_id: 26171
-    name: Time Spiral "Timeshifted"
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Mind vs. Might'
+    number: 44
     rarity: rare
-    release_date: 2006-10-06
-    wizards_id: 109672
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=109672
-- ODY:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: original
-    mtgo_foil_id: 16606
-    mtgo_id: 16605
-    name: Odyssey
-    rarity: rare
-    release_date: 2001-09-21
-    wizards_id: 29786
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=29786
-- '000':
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    frame: original
-    name: Promo Set
-    number: 2
-    rarity: rare
-    release_date: 1990-04-15
+    release_date: '2017-03-31'
+    tla: DDS
+    variations: []
+    wizards_id: 426616
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426616
+rarity: rare
 rules: "Create a 3/3 green Elephant creature token.\r\n\r\nFlashback [[symbol:3]][[symbol:G]]\
   \ *(You may cast this card from your graveyard for its flashback cost. Then exile\
   \ it.)*"
 slug: call-of-the-herd
-tags: card-color-green card-color-green-cost-3 card-type-sorcery
+synonyms: []
 tapped_id: 1260
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elephant 3/3 G
-  power_toughness: 3/3
-  rules: ''
-  subtype: Elephant
-  tla: DDS
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 3/3
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 214
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elephant 3/3 G
 type: Sorcery
-url: http://tappedout.net/mtg-card/call-of-the-herd/
+url: https://tappedout.net/mtg-card/call-of-the-herd/
+

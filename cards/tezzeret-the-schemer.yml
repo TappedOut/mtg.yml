@@ -3,40 +3,45 @@ activated_abilities:
 - ': Target creature get +X/-X until end of turn, where X is the number of artifacts
   you control. '
 - ': You get an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: AER
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.5
+draft_average: 1.48
 effective_cost:
 - U
 - B
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,24 +50,39 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 2UB
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Tezzeret the Schemer
+planeswalker_loyalty: 5
 printings:
 - AER:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Ryan Alexander Lee
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 62558
     mtgo_id: 62557
     name: Aether Revolt
     number: 137
     rarity: mythic_rare
-    release_date: 2017-01-20
+    release_date: '2017-01-20'
+    tla: AER
+    variations: []
     wizards_id: 423804
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423804
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Create a colorless artifact token named Etherium\
   \ Cell with \"[[symbol:T]], Sacrifice this artifact: Add one mana of any color to\
   \ your mana pool.\" \r\n\r\n[[symbol:loyalty-minus2]]: Target creature get +X/-X\
@@ -73,28 +93,40 @@ slug: tezzeret-the-schemer
 subtype: Tezzeret
 subtype_tokens:
 - Tezzeret
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-4 card-type-planeswalker
+synonyms: []
 tapped_id: 18535
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Etherium Cell
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Gain one mana of any colour.'
-  tla: AER
-  type: Token Artifact
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Tezzeret the Schemer
-  power_toughness: null
-  rules: At the beginning of combat on your turn, target artifact you control becomes
-    an artifact creature with base power and toughness 5/5.
-  subtype: Tezzeret
-  tla: AER
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Gain one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - null
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Etherium Cell
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - At the beginning of combat on your turn, target artifact you control becomes
+        an artifact creature with base power and toughness 5/5.
+    - - type
+      - Emblem
+    - - subtype
+      - 754
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Tezzeret the Schemer
 type: Planeswalker
-url: http://tappedout.net/mtg-card/tezzeret-the-schemer/
+url: https://tappedout.net/mtg-card/tezzeret-the-schemer/
+

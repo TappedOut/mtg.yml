@@ -3,42 +3,45 @@ activated_abilities:
 - ': Create a 1/1 red Devil creature token with '
 - ': You get an emblem with "At the end of the first combat phase on your turn, untap
   target creature you control. After this phase, there is an additional combat phase.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: AFR
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -48,28 +51,46 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 2RR
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Zariel, Archduke of Avernus
+planeswalker_loyalty: 4
 printings:
 - AFR:
     alterations:
-    - D&D Foil
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    - !!python/tuple
+      - f-&
+      - D&D Foil
+    artist: HeonHwa Choe
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Dungeons & Dragons: Adventures in the Forgotten Realms'
     number: 172
     rarity: mythic_rare
-    release_date: 2021-07-23
+    release_date: '2021-07-23'
+    tla: AFR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '285'
+    - identifier: '285'
     wizards_id: 527459
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=527459
 rules: "[[symbol:loyalty-plus1]]: Creatures you control get +1/+0 and gain haste until\
@@ -83,31 +104,42 @@ slug: zariel-archduke-of-avernus
 subtype: Zariel
 subtype_tokens:
 - Zariel
-tags: card-color-red card-color-red-cost-4 card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 24678
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Zariel, Archduke of Avernus
-  power_toughness: null
-  rules: At the end of the first combat phase on your turn, untap target creature
-    you control. After this phase, there is an additional combat phase.
-  subtype: Zariel
-  tla: AFR
-  type: Emblem
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Devil 1/1 R
-  power_toughness: 1/1
-  rules: When this creature dies *(is put into the graveyard from the battlefield,
-    tokens are put into the graveyard before ceasing to exist)*, this deals 1 damage
-    to any target *(creature, player or planeswalker)*.
-  subtype: Devil
-  tla: AFR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - At the end of the first combat phase on your turn, untap target creature you
+        control. After this phase, there is an additional combat phase.
+    - - type
+      - Emblem
+    - - subtype
+      - 1174
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Zariel, Archduke of Avernus
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - When this creature dies *(is put into the graveyard from the battlefield,
+        tokens are put into the graveyard before ceasing to exist)*, this deals 1
+        damage to any target *(creature, player or planeswalker)*.
+    - - type
+      - Token Creature
+    - - subtype
+      - 675
+    - - cannonical_type
+      - Creature
+    - - name
+      - Devil 1/1 R
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/zariel-archduke-of-avernus/
+url: https://tappedout.net/mtg-card/zariel-archduke-of-avernus/
+

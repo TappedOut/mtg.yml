@@ -1,6 +1,6 @@
 activated_abilities:
 - ': Gain , , or .'
-activation_costs:
+activated_costs:
 - G
 - R
 - U
@@ -18,92 +18,155 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 9.19
+draft_average: 4.69
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: G, U, R
+mana_value: 0
+melds_from: []
 name: Frontier Bivouac
 printings:
-- C20:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 275
-    rarity: uncommon
-    release_date: 2020-05-15
-    wizards_id: 482903
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482903
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: uncommon
-    release_date: 2020-03-14
-- C17:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2017
-    number: 251
-    rarity: uncommon
-    release_date: 2017-08-25
-    wizards_id: 433183
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433183
-- C16:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2016
-    number: 297
-    rarity: uncommon
-    release_date: 2016-11-11
-    wizards_id: 420914
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420914
 - KTK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Titus Lunter
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"The most powerful dreams visit those who shelter in a dragon's\
+      \ skull.\"*\r\n<br>\u2014Chianul, Who Whispers Twice"
     frame: m15
     mtgo_foil_id: 54169
     mtgo_id: 54168
     name: Khans of Tarkir
     number: 234
     rarity: uncommon
-    release_date: 2014-09-26
+    release_date: '2014-09-26'
+    tla: KTK
+    variations: []
     wizards_id: 386544
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386544
+- C16:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Titus Lunter
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"The most powerful dreams visit those who shelter in a dragon's\
+      \ skull.\"\r\n<br>&mdash;Chianul, Who Whispers Twice*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2016
+    number: 297
+    rarity: uncommon
+    release_date: '2016-11-11'
+    tla: C16
+    variations: []
+    wizards_id: 420914
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420914
+- C17:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: null
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2017
+    number: 251
+    rarity: uncommon
+    release_date: '2017-08-25'
+    tla: C17
+    variations: []
+    wizards_id: 433183
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433183
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: null
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: uncommon
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Titus Lunter
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"The most powerful dreams visit those who shelter in a dragon's\
+      \ skull.\"\r\n<br>&mdash;Chianul, Who Whispers Twice*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 275
+    rarity: uncommon
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: 482903
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482903
+rarity: uncommon
 rules: "Frontier Bivuoac enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Gain\
   \ [[symbol:G]], [[symbol:U]], or [[symbol:R]]."
 slug: frontier-bivouac
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-blue card-mana-green
-  card-mana-red card-type-land
+synonyms: []
 tapped_id: 15830
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/frontier-bivouac/
+url: https://tappedout.net/mtg-card/frontier-bivouac/
+

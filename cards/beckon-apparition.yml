@@ -1,104 +1,151 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: UMA
 cannonical_type: Instant
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.09
+draft_average: 7.3
 effective_cost:
 - W
 - B
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 - Exile
 - Tokens
 mana_cost: '{W/B}'
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Beckon Apparition
 printings:
+- EVE:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Larry MacDougall
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: When a graveyard is full, the gwyllions rattle the tombs and unleash
+      the spirits into the sky.
+    frame: modern
+    mtgo_foil_id: 30209
+    mtgo_id: 30208
+    name: Eventide
+    number: null
+    rarity: common
+    release_date: '2008-07-25'
+    tla: EVE
+    variations: []
+    wizards_id: 157415
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=157415
+- GTC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Cliff Childs
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: The foyer is littered with the coins it demands but can no longer
+      hold.
+    frame: modern
+    mtgo_foil_id: 47870
+    mtgo_id: 47869
+    name: Gatecrash
+    number: null
+    rarity: common
+    release_date: '2013-02-01'
+    tla: GTC
+    variations: []
+    wizards_id: 366461
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=366461
 - UMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Cliff Childs
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*The foyer is littered with the coins it demands but can no longer
+      hold.*'
     frame: m15
     mtgo_foil_id: 70496
     mtgo_id: 70495
     name: Ultimate Masters
     number: 211
     rarity: common
-    release_date: 2018-12-07
+    release_date: '2018-12-07'
+    tla: UMA
+    variations: []
     wizards_id: 456807
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456807
-- GTC:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 47870
-    mtgo_id: 47869
-    name: Gatecrash
-    rarity: common
-    release_date: 2013-02-01
-    wizards_id: 366461
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=366461
-- EVE:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 30209
-    mtgo_id: 30208
-    name: Eventide
-    rarity: common
-    release_date: 2008-07-25
-    wizards_id: 157415
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=157415
+rarity: common
 rules: Exile target card in a graveyard. Create a 1/1 white and black Spirit creature
   token with flying.
 slug: beckon-apparition
-tags: card-color-black card-color-gold card-color-gold-cost-1 card-color-white card-type-instant
+synonyms: []
 tapped_id: 9771
 tokens:
-- cannonical_type: Creature
-  colors: WB
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spirit 1/1 WB
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Spirit
-  tla: UMA
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - WB
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 17
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spirit 1/1 WB
 type: Instant
-url: http://tappedout.net/mtg-card/beckon-apparition/
+url: https://tappedout.net/mtg-card/beckon-apparition/
+

@@ -4,36 +4,40 @@ activated_abilities:
 - ': Target player draws two cards. Until your next turn, instant, sorcery, and planeswalker
   spells that player casts cost  less to cast. '
 - ': Target player gets an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.6
 effective_cost:
 - U
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,51 +45,82 @@ keywords:
 - Counters
 - Partner
 mana_cost: 4UU
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Will Kenrith
+planeswalker_loyalty: 4
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 738
-    rarity: mythic_rare
-    release_date: 2022-06-10
-    wizards_id: 567555
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567555
 - BBD:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Anna Steinbauer
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 69239
     mtgo_id: 69238
     name: Battlebond
     number: 1
     rarity: mythic_rare
-    release_date: 2018-06-08
+    release_date: '2018-06-08'
+    tla: BBD
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '255'
+    - identifier: '255'
     wizards_id: 445969
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=445969
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Anna Steinbauer
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 255
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Anna Steinbauer
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 738
+    rarity: mythic_rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567555
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567555
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus2]]: Until your next turn, up to two target creatures\
   \ each have base power and toughness and lose all abilities. \r\n\r\n[[symbol:loyalty-minus2]]:\
   \ Target player draws two cards. Until your next turn, instant, sorcery, and planeswalker\
@@ -97,19 +132,25 @@ slug: will-kenrith
 subtype: Will
 subtype_tokens:
 - Will
-tags: card-color-blue card-color-blue-cost-6 card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 20374
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Will Kenrith
-  power_toughness: null
-  rules: Whenever you cast an instant or sorcery spell, copy it. You may choose new
-    targets for the copy.
-  subtype: Will
-  tla: CLB
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Whenever you cast an instant or sorcery spell, copy it. You may choose new
+        targets for the copy.
+    - - type
+      - Emblem
+    - - subtype
+      - 1260
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Will Kenrith
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/will-kenrith/
+url: https://tappedout.net/mtg-card/will-kenrith/
+

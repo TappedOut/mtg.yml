@@ -6,38 +6,43 @@ activated_abilities:
 - ': Exile the top ten cards of your library. Choose an instant or sorcery card exiled
   this way and copy it three times. You may cast the copies without paying their mana
   costs.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: E01
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.45
+draft_average: 1.0
 effective_cost:
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,70 +50,127 @@ keywords:
 - Exile
 - Counters
 mana_cost: 2RR
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Chandra, Pyromaster
+planeswalker_loyalty: 4
 printings:
-- ARENA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Arena Cards
-    rarity: mythic_rare
-    release_date: 2019-09-26
-- E01:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Archenemy: Nicol Bolas'
-    number: 42
-    rarity: mythic_rare
-    release_date: 2017-06-16
-    wizards_id: 430581
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430581
-- M15:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 53441
-    mtgo_id: 53440
-    name: Magic 2015
-    number: 134
-    rarity: mythic_rare
-    release_date: 2014-07-18
-    wizards_id: 383204
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383204
 - M14:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Winona Nelson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 49364
     mtgo_id: 49363
     name: Magic 2014
     number: 132
     rarity: mythic_rare
-    release_date: 2013-07-19
+    release_date: '2013-07-19'
+    tla: M14
+    variations: []
     wizards_id: 370637
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370637
+- M15:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Winona Nelson
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: 53441
+    mtgo_id: 53440
+    name: Magic 2015
+    number: 134
+    rarity: mythic_rare
+    release_date: '2014-07-18'
+    tla: M15
+    variations: []
+    wizards_id: 383204
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383204
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Steve Prescott
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
     variations:
     - identifier: '2'
+    wizards_id: null
+    wizards_url: null
+- E01:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Archenemy: Nicol Bolas'
+    number: 42
+    rarity: mythic_rare
+    release_date: '2017-06-16'
+    tla: E01
+    variations: []
+    wizards_id: 430581
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430581
+- ARENA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Arena Cards
+    number: null
+    rarity: mythic_rare
+    release_date: '2019-09-26'
+    tla: ARENA
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Chandra, Pyromaster deals 1 damage to target player\
   \ or planeswalker and 1 damage to up to one target creature that player or that\
   \ planeswalker's controller controls. That creature can't block this turn.\r\n\r\
@@ -120,7 +182,9 @@ slug: chandra-pyromaster
 subtype: Chandra
 subtype_tokens:
 - Chandra
-tags: card-color-red card-color-red-cost-4 card-type-planeswalker
+synonyms: []
 tapped_id: 14744
+tokens: []
 type: Planeswalker
-url: http://tappedout.net/mtg-card/chandra-pyromaster/
+url: https://tappedout.net/mtg-card/chandra-pyromaster/
+

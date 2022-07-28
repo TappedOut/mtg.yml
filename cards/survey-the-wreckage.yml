@@ -1,6 +1,9 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: RTR
 cannonical_type: Sorcery
+color_identity: ''
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
@@ -11,62 +14,84 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.67
+draft_average: 11.23
 effective_cost:
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
 - Pauper EDH
+- Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Pauper
+- Pauper Duel Commander
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
+keywords: []
 mana_cost: 4R
-mana_cost_converted: 5
+mana_produced: ''
+mana_value: 5
+melds_from: []
 name: Survey the Wreckage
+power_toughness: ''
 printings:
 - RTR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Warren Mahy
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Goblins and architects seldom get along.
     frame: modern
     mtgo_foil_id: 46344
     mtgo_id: 46343
     name: Return to Ravnica
     number: 107
     rarity: common
-    release_date: 2012-10-05
+    release_date: '2012-10-05'
+    tla: RTR
+    variations: []
     wizards_id: 270804
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=270804
+rarity: common
 rules: Destroy target land. Put a 1/1 red Goblin creature token onto the battlefield.
 slug: survey-the-wreckage
-tags: card-color-red card-color-red-cost-5 card-type-sorcery
+synonyms: []
 tapped_id: 14185
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goblin 1/1 R
-  power_toughness: 1/1
-  rules: ''
-  subtype: Goblin
-  tla: RTR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 153
+    - - cannonical_type
+      - Creature
+    - - name
+      - Goblin 1/1 R
 type: Sorcery
-url: http://tappedout.net/mtg-card/survey-the-wreckage/
+url: https://tappedout.net/mtg-card/survey-the-wreckage/
+

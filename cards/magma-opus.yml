@@ -1,106 +1,131 @@
 activated_abilities:
 - ', Discard Magma Opus: Create a Treasure token.'
-activation_costs:
+activated_costs:
 - R
 - U
 canadian_hl_score: 0
 cannonical_set: STX
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - U
 - R
-flat_cost: 8
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
-is_permanent: false
 keywords:
 - Sacrifice
 - Tap/Untap
 - Tokens
 mana_cost: 6UR
-mana_cost_converted: 8
 mana_produced: W, U, B, R, G
+mana_value: 8
+melds_from: []
 name: Magma Opus
 printings:
 - STX:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Liiga Smilshkalne
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Strixhaven
     number: 203
     rarity: mythic_rare
-    release_date: 2021-04-23
+    release_date: '2021-04-23'
+    tla: STX
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '346'
+    - identifier: '346'
     wizards_id: 513695
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=513695
 rules: "Magma Opus deals 4 damage divided among any number of targets. Tap two target\
   \ permanents. Create a 4/4 blue and red Elemental creature token. Draw two cards.\r\
   \n\r\n[[symbol:UR]][[symbol:UR]], Discard Magma Opus: Create a Treasure token."
 slug: magma-opus
-tags: card-color-blue card-color-gold card-color-gold-cost-8 card-color-red card-mana-black
-  card-mana-blue card-mana-green card-mana-red card-mana-white card-type-instant
+synonyms: []
 tapped_id: 24064
 tokens:
-- cannonical_type: Creature
-  colors: UR
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elemental 4/4 UR
-  power_toughness: 4/4
-  rules: ''
-  subtype: Elemental
-  tla: STX
-  type: Token Creature
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: STX
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - UR
+    - - power_toughness
+      - 4/4
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elemental 4/4 UR
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Instant
-url: http://tappedout.net/mtg-card/magma-opus/
+url: https://tappedout.net/mtg-card/magma-opus/
+

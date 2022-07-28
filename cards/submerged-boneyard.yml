@@ -1,11 +1,12 @@
 activated_abilities:
 - ': Gain  or .'
-activation_costs:
+activated_costs:
 - B
 - U
 canadian_hl_score: 0
 cannonical_set: ZNC
 cannonical_type: Land
+color_identity: ''
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -17,121 +18,196 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 9.11
+draft_average: 8.11
+effective_cost: []
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
+mana_cost: ''
 mana_produced: U, B
+mana_value: 0
+melds_from: []
 name: Submerged Boneyard
+power_toughness: ''
 printings:
-- ZNC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Zendikar Rising: Commander'
-    number: 141
-    rarity: uncommon
-    release_date: 2020-09-25
-    wizards_id: 496079
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=496079
-- C18:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2018
-    number: 283
-    rarity: uncommon
-    release_date: 2018-08-10
-    wizards_id: 451238
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451238
-- M19:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 68678
-    mtgo_id: 68677
-    name: Core Set 2019
-    number: 257
-    rarity: basic_land
-    release_date: 2018-07-13
-    wizards_id: 447394
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447394
-- AKH:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 64231
-    mtgo_id: 64230
-    name: Amonkhet
-    rarity: common
-    release_date: 2017-04-28
-    wizards_id: 429676
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=429676
-- AER:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 63017
-    mtgo_id: 63016
-    name: Aether Revolt
-    number: 194
-    rarity: common
-    release_date: 2017-01-20
-    wizards_id: 425701
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425701
 - OGW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Cliff Childs
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"Long after the land has given up the last of its secrets, there\
+      \ will still be mysteries in the depths of the sea.\"\r\n<br>&mdash;Kiora*"
     frame: m15
     mtgo_foil_id: 59360
     mtgo_id: 59359
     name: Oath of the Gatewatch
     number: 178
     rarity: uncommon
-    release_date: 2016-01-22
+    release_date: '2016-01-22'
+    tla: OGW
+    variations: []
     wizards_id: 407688
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407688
+- AER:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Christine Choi
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: '*Aether currents in the sky mirror water currents below, including
+      the deadly rapids.*'
+    frame: m15
+    mtgo_foil_id: 63017
+    mtgo_id: 63016
+    name: Aether Revolt
+    number: 194
+    rarity: common
+    release_date: '2017-01-20'
+    tla: AER
+    variations: []
+    wizards_id: 425701
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425701
+- AKH:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Christine Choi
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: Aether currents in the sky mirror water currents below, including
+      the deadly rapids.
+    frame: m15
+    mtgo_foil_id: 64231
+    mtgo_id: 64230
+    name: Amonkhet
+    number: null
+    rarity: common
+    release_date: '2017-04-28'
+    tla: AKH
+    variations: []
+    wizards_id: 429676
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=429676
+- M19:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Cliff Childs
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Long after the land has given up the last of its secrets, there\
+      \ will still be mysteries in the depths of the sea.\"\r\n<br>&mdash;Kiora*"
+    frame: m15
+    mtgo_foil_id: 68678
+    mtgo_id: 68677
+    name: Core Set 2019
+    number: 257
+    rarity: basic_land
+    release_date: '2018-07-13'
+    tla: M19
+    variations: []
+    wizards_id: 447394
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447394
+- C18:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Cliff Childs
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Long after the land has given up the last of its secrets, there\
+      \ will still be mysteries in the depths of the sea.\"\r\n<br>&mdash;Kiora*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2018
+    number: 283
+    rarity: uncommon
+    release_date: '2018-08-10'
+    tla: C18
+    variations: []
+    wizards_id: 451238
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451238
+- ZNC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Cliff Childs
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Long after the land has given up the last of its secrets, there\
+      \ will still be mysteries in the depths of the sea.\"\r\n<br>&mdash;Kiora*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Zendikar Rising: Commander'
+    number: 141
+    rarity: uncommon
+    release_date: '2020-09-25'
+    tla: ZNC
+    variations: []
+    wizards_id: 496079
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=496079
+rarity: common
 rules: "Submerged Boneyard enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Gain\
   \ [[symbol:U]] or [[symbol:B]]."
 slug: submerged-boneyard
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-blue
-  card-type-land
+synonyms: []
 tapped_id: 17437
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/submerged-boneyard/
+url: https://tappedout.net/mtg-card/submerged-boneyard/
+

@@ -1,73 +1,99 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: JUD
 cannonical_type: Sorcery
+color_identity: ''
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.3
+draft_average: 6.4
 effective_cost:
 - R
-flat_cost: 2
 formats:
 - 1v1 Commander
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flash
 - Haste
 - Sacrifice
 - Flashback
 mana_cost: XRR
-mana_cost_converted: 2
+mana_produced: ''
+mana_value: 2
+melds_from: []
 name: Firecat Blitz
+power_toughness: ''
 printings:
 - JUD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: David Martin
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 17535
     mtgo_id: 17534
     name: Judgment
     number: 88
     rarity: uncommon
-    release_date: 2002-05-27
+    release_date: '2002-05-27'
+    tla: JUD
+    variations: []
     wizards_id: 34929
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=34929
+rarity: uncommon
 rules: "Put X 1/1 red Elemental Cat creature tokens with haste into play. Remove them\
   \ from the game at end of turn.\r\n\r\nFlashback-(Red)(Red), Sacrifice X Mountains.\
   \ (You may play this card from your graveyard for its flashback cost. Then remove\
   \ it from the game.)"
 slug: firecat-blitz
-tags: card-color-red card-color-red-cost-2 card-type-sorcery
+synonyms: []
 tapped_id: 4173
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 1/1 R Token Creature Elemental Cat
-  power_toughness: 1/1
-  rules: Haste
-  subtype: Elemental Cat
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Haste
+    - - type
+      - Token Creature
+    - - subtype
+      - 171
+    - - cannonical_type
+      - Creature
+    - - name
+      - null
 type: Sorcery
-url: http://tappedout.net/mtg-card/firecat-blitz/
+url: https://tappedout.net/mtg-card/firecat-blitz/
+

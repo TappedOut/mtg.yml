@@ -1,39 +1,45 @@
 activated_abilities:
 - 'Equip  *(: Attach this to target creature you control. Equip only as a sorcery.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Artifact
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 1
+cube_average: 9.12
+draft_average: 4.77
+effective_cost: []
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,85 +47,160 @@ keywords:
 - Equip
 - Attach
 mana_cost: '1'
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Bonesplitter
 printings:
-- CMR:
+- MRD:
     alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Darrell Riche
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: Commander Legends
-    number: 458
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 19830
+    mtgo_id: 19829
+    name: Mirrodin
+    number: null
     rarity: common
-    release_date: 2020-11-20
-    wizards_id: 500938
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=500938
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
-- ARENA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Arena Cards
-    rarity: common
-    release_date: 2019-09-26
+    release_date: '2003-10-02'
+    tla: MRD
+    variations: []
+    wizards_id: 47442
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=47442
 - MMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Darrell Riche
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "\"It puts an end to what ails you.\"\r\n<br>\u2014Jeorg, Valla\
+      \ battlemaster"
     frame: modern
     mtgo_foil_id: 48913
     mtgo_id: 48912
     name: Modern Masters
     number: 202
     rarity: common
-    release_date: 2013-06-07
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
     wizards_id: 370442
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370442
-- MRD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 19830
-    mtgo_id: 19829
-    name: Mirrodin
-    rarity: common
-    release_date: 2003-10-02
-    wizards_id: 47442
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=47442
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Darrell Riche
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Darrell Riche
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- CMR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Darrell Riche
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"it puts an end to what ails you.\"\r\n<br>&mdash;Jeorg, Valla\
+      \ battlemaster*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Legends
+    number: 458
+    rarity: common
+    release_date: '2020-11-20'
+    tla: CMR
+    variations: []
+    wizards_id: 500938
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=500938
+- ARENA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Darrell Riche
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Arena Cards
+    number: null
+    rarity: common
+    release_date: '2019-09-26'
+    tla: ARENA
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: "Equipped creature gets +2/+0.\r\n\r\nEquip [[symbol:1]] *([[symbol:1]]: Attach\
   \ this to target creature you control. Equip only as a sorcery.)*"
 slug: bonesplitter
 subtype: Equipment
 subtype_tokens:
 - Equipment
-tags: card-color-colorless card-color-colorless-cost-1 card-type-artifact
+synonyms: []
 tapped_id: 3261
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/bonesplitter/
+url: https://tappedout.net/mtg-card/bonesplitter/
+

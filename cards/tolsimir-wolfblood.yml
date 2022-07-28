@@ -1,67 +1,96 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: GK1
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 8.03
+draft_average: 1.48
 effective_cost:
 - W
 - G
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: 4WG
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Tolsimir Wolfblood
 power_toughness: 3/4
 printings:
-- GK1:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Guilds of Ravnica: Guild Kit'
-    number: 121
-    rarity: rare
-    release_date: 2018-11-02
-    wizards_id: 456379
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456379
 - RAV:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Donato Giancola
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 23511
     mtgo_id: 23510
     name: 'Ravnica: City of Guilds'
     number: 236
     rarity: rare
-    release_date: 2005-10-07
+    release_date: '2005-10-07'
+    tla: RAV
+    variations: []
     wizards_id: 89110
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=89110
+- GK1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Donato Giancola
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Guilds of Ravnica: Guild Kit'
+    number: 121
+    rarity: rare
+    release_date: '2018-11-02'
+    tla: GK1
+    variations: []
+    wizards_id: 456379
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456379
+rarity: rare
 rules: "Other green creatures you control get +1/+1.\r\n\r\nOther white creatures\
   \ you control get +1/+1.\r\n\r\n[[symbol:T]] Create a legendary 2/2 green and white\
   \ Wolf creature token named Voja."
@@ -70,19 +99,24 @@ subtype: Elf Warrior
 subtype_tokens:
 - Elf
 - Warrior
-tags: card-color-gold card-color-gold-cost-6 card-color-green card-color-white card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 2125
 tokens:
-- cannonical_type: Creature
-  colors: GW
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Voja
-  power_toughness: 2/2
-  rules: ''
-  subtype: Wolf
-  tla: GK1
-  type: Token Legendary Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - GW
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Legendary Creature
+    - - subtype
+      - 93
+    - - cannonical_type
+      - Creature
+    - - name
+      - Voja
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/tolsimir-wolfblood/
+url: https://tappedout.net/mtg-card/tolsimir-wolfblood/
+

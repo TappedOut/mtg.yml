@@ -1,6 +1,6 @@
 activated_abilities:
 - 'Equip  *(: Attach to target creature you control. Equip only as a sorcery.)*'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: AFC
@@ -9,6 +9,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -16,26 +17,27 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - W
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,22 +46,30 @@ keywords:
 - Equip
 - Attach
 mana_cost: 2W
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Holy Avenger
 printings:
 - AFC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: "Milivoj \u0106eran"
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Divine light forged in steel.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Adventures in the Forgotten Realms: Commander'
     number: 6
     rarity: rare
-    release_date: 2021-07-24
+    release_date: '2021-07-24'
+    tla: AFC
     variations:
-    - alterations:
-      - Normal
-      identifier: '275'
+    - identifier: '275'
     wizards_id: 531911
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=531911
 rules: "Equipped creature has double strike.\r\n\r\nWhenever equipped creature deals\
@@ -70,7 +80,9 @@ slug: holy-avenger
 subtype: Equipment
 subtype_tokens:
 - Equipment
-tags: card-color-white card-color-white-cost-3 card-type-artifact
+synonyms: []
 tapped_id: 24911
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/holy-avenger/
+url: https://tappedout.net/mtg-card/holy-avenger/
+

@@ -1,57 +1,76 @@
 activated_abilities:
 - '(Black), Tap: Target player loses 1 life.'
 - '(Green), Tap: Put a 1/1 green Saproling creature token into play.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ALA
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.67
+draft_average: 4.55
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Jund Battlemage
 power_toughness: 2/2
 printings:
 - ALA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Vance Kovacs
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"Of your blood I will make my mead, an offering to the thirsty
+      jungle."'
     frame: modern
     mtgo_foil_id: 31122
     mtgo_id: 31121
     name: Shards of Alara
     number: 106
     rarity: uncommon
-    release_date: 2008-10-03
+    release_date: '2008-10-03'
+    tla: ALA
+    variations: []
     wizards_id: 175050
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=175050
+rarity: uncommon
 rules: "(Black), Tap: Target player loses 1 life.\r\n\r\n(Green), Tap: Put a 1/1 green\
   \ Saproling creature token into play."
 slug: jund-battlemage
@@ -59,18 +78,24 @@ subtype: Human Shaman
 subtype_tokens:
 - Human
 - Shaman
-tags: card-color-red card-color-red-cost-3 card-type-creature
+synonyms: []
 tapped_id: 10036
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Saproling 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Saproling
-  tla: ALA
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 893
+    - - cannonical_type
+      - Creature
+    - - name
+      - Saproling 1/1 G
 type: Creature
-url: http://tappedout.net/mtg-card/jund-battlemage/
+url: https://tappedout.net/mtg-card/jund-battlemage/
+

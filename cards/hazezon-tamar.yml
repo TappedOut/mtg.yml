@@ -1,78 +1,117 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: LEG
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 12.17
+draft_average: 2.0
 effective_cost:
 - W
 - R
 - G
-flat_cost: 7
 formats:
 - 1v1 Commander
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
 - Oathbreaker
+- Custom
 - Oldschool 93/94
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
 mana_cost: 4RGW
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Hazezon Tamar
 power_toughness: 2/4
 printings:
-- ME3:
+- MOP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Richard Kane Ferguson
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Magic Online Promo Cards
+    number: null
+    rarity: rare
+    release_date: '1990-01-09'
+    tla: MOP
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- LEG:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Richard Kane Ferguson
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Legends
+    number: null
+    rarity: rare
+    release_date: '1994-06-01'
+    tla: LEG
+    variations: []
+    wizards_id: 1656
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=1656
+- ME3:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Richard Kane Ferguson
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
     frame: modern
     mtgo_foil_id: 33705
     mtgo_id: 33704
     name: Masters Edition III
     number: 151
     rarity: rare
-    release_date: 2009-09-07
+    release_date: '2009-09-07'
+    tla: ME3
+    variations: []
     wizards_id: 201193
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=201193
-- LEG:
-    alterations:
-    - Normal
-    border_color: B
-    frame: original
-    name: Legends
-    rarity: rare
-    release_date: 1994-06-01
-    wizards_id: 1656
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=1656
-- MOP:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: original
-    name: Magic Online Promo Cards
-    rarity: rare
-    release_date: 1990-01-09
-promo_sets:
-- MOP
+rarity: rare
 rules: "When Hazezon Tamar enters the battlefield, put X 1/1 Sand Warrior creature\
   \ tokens that are red, green, and white onto the battlefield at the beginning of\
   \ your next upkeep, where X is the number of lands you control at that time.\r\n\
@@ -82,18 +121,24 @@ subtype: Human Warrior
 subtype_tokens:
 - Human
 - Warrior
-tags: card-color-gold card-color-gold-cost-7 card-color-green card-color-red card-color-white
-  card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 439
 tokens:
-- cannonical_type: Creature
-  colors: RGW
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 1/1 RGW Token Creature Sand Warrior
-  power_toughness: 1/1
-  rules: ''
-  subtype: Sand Warrior
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - RGW
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 903
+    - - cannonical_type
+      - Creature
+    - - name
+      - null
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/hazezon-tamar/
+url: https://tappedout.net/mtg-card/hazezon-tamar/
+

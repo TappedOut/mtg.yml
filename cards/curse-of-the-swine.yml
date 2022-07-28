@@ -1,110 +1,164 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.68
+draft_average: 2.0
 effective_cost:
 - U
-flat_cost: 2
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Tokens
 mana_cost: XUU
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Curse of the Swine
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 716
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567533
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567533
-- C21:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 118
-    rarity: rare
-    release_date: 2021-04-23
-    wizards_id: 519153
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519153
-- KHC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Kaldheim: Commander'
-    number: 37
-    rarity: rare
-    release_date: 2021-02-05
-    wizards_id: 508327
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508327
 - THS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: James Ryman
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: modern
     mtgo_foil_id: 50379
     mtgo_id: 50378
     name: Theros
     number: 46
     rarity: rare
-    release_date: 2013-09-27
+    release_date: '2013-09-27'
+    tla: THS
+    variations: []
     wizards_id: 373542
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373542
+- KHC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: James Ryman
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Another imminent battle subsided in busy snuffling and carefree
+      rooting.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kaldheim: Commander'
+    number: 37
+    rarity: rare
+    release_date: '2021-02-05'
+    tla: KHC
+    variations: []
+    wizards_id: 508327
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508327
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: James Ryman
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Another imminent battle subsided in busy snuffling and carefree
+      rooting.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 118
+    rarity: rare
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519153
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519153
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: James Ryman
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: '*Another imminent battle subsided in busy snuffling and carefree
+      rooting.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 716
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567533
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567533
+rarity: rare
 rules: Exile X target creatures. For each creature exiled this way, its controller
   creates a 2/2 green boar creature token.
 slug: curse-of-the-swine
-tags: card-color-blue card-color-blue-cost-2 card-type-sorcery
+synonyms: []
 tapped_id: 14838
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Boar 2/2 G
-  power_toughness: 2/2
-  rules: ''
-  subtype: Boar
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 97
+    - - cannonical_type
+      - Creature
+    - - name
+      - Boar 2/2 G
 type: Sorcery
-url: http://tappedout.net/mtg-card/curse-of-the-swine/
+url: https://tappedout.net/mtg-card/curse-of-the-swine/
+

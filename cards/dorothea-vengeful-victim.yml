@@ -1,45 +1,47 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - U
 - W
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - W
 - U
-flat_cost: 2
 flip: Dorothea's Retribution
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_front: true
 is_mtgo: true
 is_permanent: true
@@ -49,37 +51,63 @@ keywords:
 - Transform
 - Disturb
 mana_cost: WU
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Dorothea, Vengeful Victim
 power_toughness: 4/4
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 502
-    rarity: rare
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Marta Nael
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Every day a Voldaren draws breath is a day I cannot rest."*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 235
     rarity: rare
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
     variations:
-    - alterations:
-      - Foil
+    - identifier: '322'
+    wizards_id: null
+    wizards_url: null
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: '322'
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Marta Nael
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"Every day a Voldaren draws breath is a day I cannot rest."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 502
+    rarity: rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Flying\r\n\r\nWhen this attacks or blocks, sacrifice this at the end of of\
   \ combat.\r\n\r\nDisturb [[symbol:1]][[symbol:W]][[symbol:U]] *(You may cast this\
   \ from your graveyard transformed for this card's disturb cost.)*"
@@ -87,19 +115,24 @@ slug: dorothea-vengeful-victim
 subtype: Spirit
 subtype_tokens:
 - Spirit
-tags: card-color-blue card-color-gold card-color-gold-cost-2 card-color-white card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 25345
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spirit 4/4 W
-  power_toughness: 4/4
-  rules: Flying
-  subtype: Spirit
-  tla: VOW
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 4/4
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 17
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spirit 4/4 W
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/dorothea-vengeful-victim/
+url: https://tappedout.net/mtg-card/dorothea-vengeful-victim/
+

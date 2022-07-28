@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Target creature with a +1/+1 counter on it gains flying and vigilance until end
   of turn.'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: BBD
@@ -10,32 +10,36 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.8
+draft_average: 5.45
 effective_cost:
 - W
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,50 +47,81 @@ keywords:
 - Flying
 - Vigilance
 mana_cost: 4W
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Steppe Glider
 power_toughness: 2/4
 printings:
-- GN2:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Game Night 2019
-    number: 12
-    rarity: uncommon
-    release_date: 2019-11-15
-    wizards_id: 476078
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476078
-- BBD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 68947
-    mtgo_id: 68946
-    name: Battlebond
-    number: 109
-    rarity: uncommon
-    release_date: 2018-06-08
-    wizards_id: 446077
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446077
 - OGW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Severin Brassell
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*It glides over the landscape. It also happens to be one.*'
     frame: m15
     mtgo_foil_id: 59428
     mtgo_id: 59427
     name: Oath of the Gatewatch
     number: 36
     rarity: uncommon
-    release_date: 2016-01-22
+    release_date: '2016-01-22'
+    tla: OGW
+    variations: []
     wizards_id: 407546
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407546
+- BBD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Severin Brassell
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*It glides over the landscape. It also happens to be one.*'
+    frame: m15
+    mtgo_foil_id: 68947
+    mtgo_id: 68946
+    name: Battlebond
+    number: 109
+    rarity: uncommon
+    release_date: '2018-06-08'
+    tla: BBD
+    variations: []
+    wizards_id: 446077
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446077
+- GN2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: John Severin Brassell
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Game Night 2019
+    number: 12
+    rarity: uncommon
+    release_date: '2019-11-15'
+    tla: GN2
+    variations: []
+    wizards_id: 476078
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476078
+rarity: uncommon
 rules: "Flying, vigilance *(Attacking doesn't cause this creature to tap.)*\r\n\r\n\
   [[symbol:1]][[symbol:W]]: Target creature with a +1/+1 counter on it gains flying\
   \ and vigilance until end of turn."
@@ -94,7 +129,9 @@ slug: steppe-glider
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-color-white card-color-white-cost-5 card-type-creature
+synonyms: []
 tapped_id: 17521
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/steppe-glider/
+url: https://tappedout.net/mtg-card/steppe-glider/
+

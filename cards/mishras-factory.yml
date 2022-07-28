@@ -3,7 +3,7 @@ activated_abilities:
 - ': This becomes a 2/2 Assembly-Worker artifact creature until end of turn. This
   is still a land.'
 - ': Target Assembly-Worker creature gets +1/+1 until end of turn.'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: AFC
@@ -19,189 +19,321 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 11.09
+draft_average: 5.5
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Oldschool 93/94
-- Premodern
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Oldschool 93/94
+- Historic
+- Gladiator
+- Premodern
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Mishra's Factory
 printings:
-- AFC:
+- MED:
     alterations:
-    - Normal
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 248
-    rarity: uncommon
-    release_date: 2021-07-24
-    wizards_id: 532635
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532635
-- MH2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Modern Horizons 2
-    number: 302
-    rarity: uncommon
-    release_date: 2021-06-18
-    variations:
-    - alterations:
-      - Foil
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: '326'
-    wizards_id: 526273
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=526273
-- 2XM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 323
-    rarity: uncommon
-    release_date: 2020-08-07
-- MYS1:
-    alterations:
-    - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kaja & Phil Foglio
+    booster_exclude: false
     border_color: B
     cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: uncommon
-    release_date: 2020-03-14
-- A25:
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 27896
+    mtgo_id: 27895
+    name: Masters Edition
+    number: null
+    rarity: rare
+    release_date: '2007-09-10'
+    tla: MED
+    variations: []
+    wizards_id: 159114
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=159114
+- 4ED:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kaja & Phil Foglio
+    booster_exclude: false
+    border_color: W
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Fourth Edition
+    number: null
+    rarity: uncommon
+    release_date: '1995-04-01'
+    tla: 4ED
+    variations: []
+    wizards_id: 2387
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=2387
+- ATQ:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kaja & Phil Foglio
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Antiquities
+    number: null
+    rarity: uncommon
+    release_date: '1994-03-01'
+    tla: ATQ
+    variations:
+    - identifier: 11111073
+    - identifier: 1011111171
+    - identifier: 1074111111
+    wizards_id: 1072
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=1072
+- DDF:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Scott Chou
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 37703
+    name: 'Duel Decks: Elspeth vs. Tezzeret'
+    number: null
+    rarity: uncommon
+    release_date: '2010-09-03'
+    tla: DDF
+    variations: []
+    wizards_id: 218340
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=218340
+- '000':
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kaja & Phil Foglio
+    booster_exclude: false
     border_color: B
     cannonical: false
-    frame: m15
-    mtgo_foil_id: 67399
-    mtgo_id: 67398
-    name: Masters 25
-    number: 242
+    flavour_text: null
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Promo Set
+    number: 4
     rarity: uncommon
-    release_date: 2018-03-16
-    wizards_id: 442231
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442231
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
 - EMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Scott Chou
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 60672
     mtgo_id: 60671
     name: Eternal Masters
     number: 242
     rarity: uncommon
-    release_date: 2016-06-10
+    release_date: '2016-06-10'
+    tla: EMA
+    variations: []
     wizards_id: 413784
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413784
-- DDF:
+- A25:
     alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 37703
-    name: 'Duel Decks: Elspeth vs. Tezzeret'
-    rarity: uncommon
-    release_date: 2010-09-03
-    wizards_id: 218340
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=218340
-- MED:
-    alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Scott Chou
+    booster_exclude: false
     border_color: B
     cannonical: false
-    frame: modern
-    mtgo_foil_id: 27896
-    mtgo_id: 27895
-    name: Masters Edition
-    rarity: rare
-    release_date: 2007-09-10
-    wizards_id: 159114
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=159114
-- 4ED:
-    alterations:
-    - Normal
-    border_color: W
-    frame: original
-    name: Fourth Edition
-    rarity: uncommon
-    release_date: 1995-04-01
-    wizards_id: 2387
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=2387
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: 67399
+    mtgo_id: 67398
+    name: Masters 25
+    number: 242
+    rarity: null
+    release_date: '2018-03-16'
+    tla: A25
+    variations: []
+    wizards_id: 442231
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442231
 - 4EDFBB:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kaja & Phil Foglio
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 4th Edition Foreign Black Border
+    number: null
     rarity: uncommon
-    release_date: 1995-04-01
-- ATQ:
+    release_date: '1995-04-01'
+    tla: 4EDFBB
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- MYS1:
     alterations:
-    - Normal
-    border_color: B
-    frame: original
-    name: Antiquities
-    rarity: uncommon
-    release_date: 1994-03-01
-    variations:
-    - alterations:
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: 11111073
-    - alterations:
-      - Normal
-      identifier: 1011111171
-    - alterations:
-      - Normal
-      identifier: 1074111111
-    wizards_id: 1072
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=1072
-- '000':
-    alterations:
-    - Foil
+    artist: Scott Chou
+    booster_exclude: false
     border_color: B
     cannonical: false
-    frame: original
-    name: Promo Set
-    number: 4
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: null
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Scott Chou
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 323
     rarity: uncommon
-    release_date: 1990-04-15
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- MH2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Scott Chou
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Modern Horizons 2
+    number: 302
+    rarity: uncommon
+    release_date: '2021-06-18'
+    tla: MH2
+    variations:
+    - identifier: '326'
+    wizards_id: 526273
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=526273
+- AFC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Scott Chou
+    booster_exclude: false
+    border_color: null
+    cannonical: true
+    flavour_text: ''
+    frame: null
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 248
+    rarity: uncommon
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: 532635
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532635
+rarity: uncommon
 rules: "[[symbol:T]]: Gain [[symbol:C]]\r\n\r\n[[symbol:1]]: This becomes a 2/2 Assembly-Worker\
   \ artifact creature until end of turn. This is still a land.\r\n\r\n[[symbol:T]]:\
   \ Target Assembly-Worker creature gets +1/+1 until end of turn."
 slug: mishras-factory
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
+synonyms: []
 tapped_id: 441
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/mishras-factory/
+url: https://tappedout.net/mtg-card/mishras-factory/
+

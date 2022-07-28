@@ -1,39 +1,44 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: 2XM
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 8.06
+draft_average: 5.32
 effective_cost:
 - W
-flat_cost: 1
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -41,68 +46,133 @@ keywords:
 - Tokens
 - Investigate
 mana_cost: W
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Thraben Inspector
 power_toughness: 1/2
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: original
-    name: Time Spiral Remastered
-    number: 305
-    rarity: special
-    release_date: 2021-03-19
-    wizards_id: 512271
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512271
-- 2XM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 35
-    rarity: common
-    release_date: 2020-08-07
-    wizards_id: 489708
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489708
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
-- ARENA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Arena Cards
-    rarity: common
-    release_date: 2019-09-26
 - SOI:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Matt Stewart
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"If you''ve been at this as long as I have, nothing can surprise
+      you. That''s the hope at least."*'
     frame: m15
     mtgo_foil_id: 60241
     mtgo_id: 60240
     name: Shadows over Innistrad
     number: 44
     rarity: common
-    release_date: 2016-04-08
+    release_date: '2016-04-08'
+    tla: SOI
+    variations: []
     wizards_id: 409784
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409784
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Matt Stewart
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"If you''ve been at this as long as I have, nothing can surprise
+      you. That''s the hope at least."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Matt Stewart
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*"If you''ve been at this as long as I have, nothing can surprise
+      you. That''s the hope at least."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 35
+    rarity: common
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations: []
+    wizards_id: 489708
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489708
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Matt Stewart
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"If you''ve been at this as long as I have, nothing can surprise
+      you. That''s the hope at least."*'
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 305
+    rarity: special
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 512271
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512271
+- ARENA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Matt Stewart
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Arena Cards
+    number: null
+    rarity: common
+    release_date: '2019-09-26'
+    tla: ARENA
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: 'When this enters the battlefield, investigate. *(Create a colourless Clue
   artifact token with "[[symbol:2]], Sacrifice this artifact: Draw a card.")*'
 slug: thraben-inspector
@@ -110,18 +180,24 @@ subtype: Human Soldier
 subtype_tokens:
 - Human
 - Soldier
-tags: card-color-white card-color-white-cost-1 card-type-creature
+synonyms: []
 tapped_id: 17602
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Clue
-  power_toughness: null
-  rules: '[[symbol:2]], Sacrifice this: Draw a card.'
-  subtype: Clue
-  tla: 2XM
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], Sacrifice this: Draw a card.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1130
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Clue
 type: Creature
-url: http://tappedout.net/mtg-card/thraben-inspector/
+url: https://tappedout.net/mtg-card/thraben-inspector/
+

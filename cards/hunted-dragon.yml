@@ -1,30 +1,35 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C15
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.29
+draft_average: 2.75
 effective_cost:
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -33,66 +38,111 @@ keywords:
 - Haste
 - Tokens
 mana_cost: 3RR
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Hunted Dragon
 power_toughness: 6/6
 printings:
-- CM2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology 2018
-    number: 106
-    rarity: rare
-    release_date: 2018-06-08
-    wizards_id: 446842
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446842
-- C15:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2015
-    number: 159
-    rarity: rare
-    release_date: 2015-11-13
-    wizards_id: 405259
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405259
 - RAV:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Mark Zug
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: The knights see a mighty quarry. The dragon sees breakfast, lunch,
+      and dinner.
     frame: modern
     mtgo_foil_id: 23481
     mtgo_id: 23480
     name: 'Ravnica: City of Guilds'
+    number: null
     rarity: rare
-    release_date: 2005-10-07
+    release_date: '2005-10-07'
+    tla: RAV
+    variations: []
     wizards_id: 89086
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=89086
+- C15:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mark Zug
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*The knights see a mighty quarry. The dragon sees breakfast, lunch
+      and dinner.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2015
+    number: 159
+    rarity: rare
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
+    wizards_id: 405259
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405259
+- CM2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Zug
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*The knights see a mighty quarry. The dragon sees breakfast, lunch,
+      and dinner.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology 2018
+    number: 106
+    rarity: rare
+    release_date: '2018-06-08'
+    tla: CM2
+    variations: []
+    wizards_id: 446842
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446842
+rarity: rare
 rules: "Flying, haste\r\n\r\nWhen Hunted Dragon enters the battlefield, target opponent\
   \ creates three 2/2 white Knight creature tokens with first strike."
 slug: hunted-dragon
 subtype: Dragon
 subtype_tokens:
 - Dragon
-tags: card-color-red card-color-red-cost-5 card-type-creature
+synonyms: []
 tapped_id: 2001
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Knight 2/2 W w/ First Strike
-  power_toughness: 2/2
-  rules: First strike
-  subtype: Knight
-  tla: C15
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 2/2
+    - - rules
+      - First strike
+    - - type
+      - Token Creature
+    - - subtype
+      - 501
+    - - cannonical_type
+      - Creature
+    - - name
+      - Knight 2/2 W w/ First Strike
 type: Creature
-url: http://tappedout.net/mtg-card/hunted-dragon/
+url: https://tappedout.net/mtg-card/hunted-dragon/
+

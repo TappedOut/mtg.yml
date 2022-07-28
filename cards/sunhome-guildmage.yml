@@ -1,39 +1,44 @@
 activated_abilities:
 - ': Create a 1/1 red and white Soldier creature token with haste.'
-activation_costs:
+activated_costs:
 - R
 - W
 canadian_hl_score: 0
 cannonical_set: GK1
 cannonical_type: Creature
+color_identity: ''
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 11.14
+draft_average: 6.77
 effective_cost:
 - W
 - R
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,49 +46,85 @@ keywords:
 - Haste
 - Tokens
 mana_cost: RW
-mana_cost_converted: 2
+mana_produced: ''
+mana_value: 2
+melds_from: []
 name: Sunhome Guildmage
 power_toughness: 2/2
 printings:
-- GK1:
+- GTC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Deschamps
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: 'Guilds of Ravnica: Guild Kit'
-    number: 95
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 47460
+    mtgo_id: 47459
+    name: Gatecrash
+    number: null
     rarity: uncommon
-    release_date: 2018-11-02
-    wizards_id: 455772
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=455772
+    release_date: '2013-02-01'
+    tla: GTC
+    variations: []
+    wizards_id: 366429
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=366429
 - MM3:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: null
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 63372
     mtgo_id: 63371
     name: Modern Masters 2017 Edition
     number: 191
     rarity: uncommon
-    release_date: 2017-03-17
+    release_date: '2017-03-17'
+    tla: MM3
+    variations: []
     wizards_id: 426016
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426016
-- GTC:
+- GK1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Deschamps
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 47460
-    mtgo_id: 47459
-    name: Gatecrash
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Guilds of Ravnica: Guild Kit'
+    number: 95
     rarity: uncommon
-    release_date: 2013-02-01
-    wizards_id: 366429
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=366429
+    release_date: '2018-11-02'
+    tla: GK1
+    variations: []
+    wizards_id: 455772
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=455772
+rarity: uncommon
 rules: "[[symbol:1]][[symbol:R]][[symbol:W]] Creatures you control get +1/+0 until\
   \ end of turn.\r\n\r\n[[symbol:2]][[symbol:R]][[symbol:W]]: Create a 1/1 red and\
   \ white Soldier creature token with haste."
@@ -92,18 +133,24 @@ subtype: Human Wizard
 subtype_tokens:
 - Human
 - Wizard
-tags: card-color-gold card-color-gold-cost-2 card-color-red card-color-white card-type-creature
+synonyms: []
 tapped_id: 14293
 tokens:
-- cannonical_type: Creature
-  colors: RW
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Soldier 1/1 RW
-  power_toughness: 1/1
-  rules: ''
-  subtype: Soldier
-  tla: GK1
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - RW
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 18
+    - - cannonical_type
+      - Creature
+    - - name
+      - Soldier 1/1 RW
 type: Creature
-url: http://tappedout.net/mtg-card/sunhome-guildmage/
+url: https://tappedout.net/mtg-card/sunhome-guildmage/
+

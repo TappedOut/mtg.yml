@@ -1,7 +1,7 @@
 activated_abilities:
 - '*(: Gain .)*'
 - ', : You gain 1 life. Activate only if you control two or more green permanents.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: C21
@@ -17,65 +17,103 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 10.67
+draft_average: 10.5
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: G
+mana_value: 0
+melds_from: []
 name: Sapseep Forest
 printings:
-- C21:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 313
-    rarity: uncommon
-    release_date: 2021-04-23
-    wizards_id: 519348
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519348
-- DDH:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 42066
-    name: 'Duel Decks: Ajani vs. Nicol Bolas'
-    rarity: uncommon
-    release_date: 2011-09-02
-    wizards_id: 249389
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=249389
 - SHM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Aleksi Briclot
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 29392
     mtgo_id: 29391
     name: Shadowmoor
+    number: null
     rarity: uncommon
-    release_date: 2008-05-02
+    release_date: '2008-05-02'
+    tla: SHM
+    variations: []
     wizards_id: 142048
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=142048
+- DDH:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Aleksi Briclot
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 42066
+    name: 'Duel Decks: Ajani vs. Nicol Bolas'
+    number: null
+    rarity: uncommon
+    release_date: '2011-09-02'
+    tla: DDH
+    variations: []
+    wizards_id: 249389
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=249389
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Aleksi Briclot
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 313
+    rarity: uncommon
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519348
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519348
+rarity: uncommon
 rules: "*([[symbol:T]]: Gain [[symbol:G]].)*\r\n\r\nThis enters the battlefield tapped.\r\
   \n\r\n[[symbol:T]], [[symbol:T]]: You gain 1 life. Activate only if you control\
   \ two or more green permanents."
@@ -83,8 +121,10 @@ slug: sapseep-forest
 subtype: Forest
 subtype_tokens:
 - Forest
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-green-slow card-type-land
+synonyms: []
 tap_land: true
 tapped_id: 9689
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/sapseep-forest/
+url: https://tappedout.net/mtg-card/sapseep-forest/
+

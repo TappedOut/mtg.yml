@@ -1,33 +1,38 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ORI
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 5.82
+draft_average: 1.33
 effective_cost:
 - R
-flat_cost: 3
 flip: Chandra, Roaring Flame
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_front: true
 is_mtgo: true
 is_permanent: true
@@ -36,49 +41,81 @@ keywords:
 - Tap/Untap
 - Transform
 mana_cost: 1RR
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Chandra, Fire of Kaladesh
 power_toughness: 2/2
 printings:
-- V17:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: 'From the Vault: Transform'
-    number: 6
-    rarity: mythic_rare
-    release_date: 2017-11-24
-    wizards_id: 439324
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439324
 - ORI:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Eric Deschamps
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 57995
     mtgo_id: 57994
     name: Magic Origins
     number: 135
     rarity: mythic_rare
-    release_date: 2015-06-17
+    release_date: '2015-06-17'
+    tla: ORI
+    variations: []
     wizards_id: 398422
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398422
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Wayne Reynolds
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- V17:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Deschamps
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'From the Vault: Transform'
+    number: 6
+    rarity: mythic_rare
+    release_date: '2017-11-24'
+    tla: V17
+    variations: []
+    wizards_id: 439324
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439324
+rarity: mythic_rare
 rules: "Whenever you cast a red spell, untap Chandra, Fire of Kaladesh.\r\n\r\n[[symbol:T]]\
   \ Chandra, Fire of Kaladesh deals 1 damage to target player. If Chandra has dealt\
   \ 3 or more damage this turn, exile her, then return her to the battlefield transformed\
@@ -90,18 +127,23 @@ subtype_tokens:
 - Shaman
 synonyms:
 - Baby Chandra
-tags: card-color-red card-color-red-cost-3 card-type-creature card-type-legendary
 tapped_id: 16931
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Chandra, Fire of Kaladesh
-  power_toughness: null
-  rules: At the beginning of your upkeep, this emblem deals 3 damage to you.
-  subtype: Chandra
-  tla: ORI
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - At the beginning of your upkeep, this emblem deals 3 damage to you.
+    - - type
+      - Emblem
+    - - subtype
+      - 243
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Chandra, Fire of Kaladesh
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/chandra-fire-of-kaladesh/
+url: https://tappedout.net/mtg-card/chandra-fire-of-kaladesh/
+

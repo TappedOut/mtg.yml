@@ -1,37 +1,42 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 8.49
+draft_average: 1.99
 effective_cost:
 - W
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -40,48 +45,81 @@ keywords:
 - Tokens
 - Investigate
 mana_cost: 2W
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Bygone Bishop
 power_toughness: 2/3
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 689
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567506
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567506
-- VOC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Crimson Vow Commander'
-    number: 80
-    rarity: rare
-    release_date: 2021-11-18
-    wizards_id: 545700
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545700
 - SOI:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Jason A. Engle
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 60213
     mtgo_id: 60212
     name: Shadows over Innistrad
     number: 8
     rarity: rare
-    release_date: 2016-04-08
+    release_date: '2016-04-08'
+    tla: SOI
+    variations: []
     wizards_id: 409746
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409746
+- VOC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jason A. Engle
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Crimson Vow Commander'
+    number: 80
+    rarity: rare
+    release_date: '2021-11-18'
+    tla: VOC
+    variations: []
+    wizards_id: 545700
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545700
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jason A. Engle
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 689
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567506
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567506
+rarity: rare
 rules: "Flying\r\n\r\nWhenever you cast a creature spell with converted mana cost/mana\
   \ value 3 or less, investigate. *(Create a colourless Clue artifact token with \"\
   [[symbol:2]], Sacrifice this artifact: Draw a card.\")*"
@@ -90,18 +128,24 @@ subtype: Spirit Cleric
 subtype_tokens:
 - Spirit
 - Cleric
-tags: card-color-white card-color-white-cost-3 card-type-creature
+synonyms: []
 tapped_id: 17622
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Clue
-  power_toughness: null
-  rules: '[[symbol:2]], Sacrifice this: Draw a card.'
-  subtype: Clue
-  tla: CLB
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], Sacrifice this: Draw a card.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1130
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Clue
 type: Creature
-url: http://tappedout.net/mtg-card/bygone-bishop/
+url: https://tappedout.net/mtg-card/bygone-bishop/
+

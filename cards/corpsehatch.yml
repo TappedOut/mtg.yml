@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DDP
 cannonical_type: Sorcery
@@ -10,82 +12,125 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.33
+draft_average: 3.6
 effective_cost:
 - B
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Sacrifice
 - Tokens
 mana_cost: 3BB
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Corpsehatch
+power_toughness: ''
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: uncommon
-    release_date: 2020-03-14
-- DDP:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Duel Decks: Zendikar vs. Eldrazi'
-    number: 50
-    rarity: uncommon
-    release_date: 2015-08-28
-    wizards_id: 401692
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401692
 - ROE:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kekai Kotaki
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 36621
     mtgo_id: 36620
     name: Rise of the Eldrazi
+    number: null
     rarity: uncommon
-    release_date: 2010-04-23
+    release_date: '2010-04-23'
+    tla: ROE
+    variations: []
     wizards_id: 193625
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=193625
+- DDP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kekai Kotaki
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Zendikar vs. Eldrazi'
+    number: 50
+    rarity: uncommon
+    release_date: '2015-08-28'
+    tla: DDP
+    variations: []
+    wizards_id: 401692
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401692
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kekai Kotaki
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: uncommon
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: uncommon
 rules: 'Destroy target nonblack creature. Put two 0/1 colorless Eldrazi Spawn creature
   tokens onto the battlefield. They have "Sacrifice this creature: Add [[symbol:1]]
   to your mana pool."'
 slug: corpsehatch
-tags: card-color-black card-color-black-cost-5 card-type-sorcery
+synonyms: []
 tapped_id: 12071
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Eldrazi Spawn 0/1 C
-  power_toughness: 0/1
-  rules: 'Sacrifice this: Add [[symbol:C]].'
-  subtype: Eldrazi Spawn
-  tla: DDP
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 0/1
+    - - rules
+      - 'Sacrifice this: Add [[symbol:C]].'
+    - - type
+      - Token Creature
+    - - subtype
+      - 894
+    - - cannonical_type
+      - Creature
+    - - name
+      - Eldrazi Spawn 0/1 C
 type: Sorcery
-url: http://tappedout.net/mtg-card/corpsehatch/
+url: https://tappedout.net/mtg-card/corpsehatch/
+

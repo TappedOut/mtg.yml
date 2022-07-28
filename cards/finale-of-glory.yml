@@ -1,89 +1,122 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: WAR
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.65
+draft_average: 1.67
 effective_cost:
 - W
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 - Vigilance
 - Tokens
 mana_cost: XWW
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Finale of Glory
 printings:
 - WAR:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Stanton Feng
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*The sky boiled over the citadel, dire and dark. Then the angels
+      brought the dawn.*'
     frame: m15
     mtgo_foil_id: 71631
     mtgo_id: 71630
     name: War of the Spark
     number: 12
     rarity: mythic_rare
-    release_date: 2019-05-03
+    release_date: '2019-05-03'
+    tla: WAR
+    variations: []
     wizards_id: 460939
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460939
 rules: Create X 2/2 white Soldier creature tokens with vigilance. If X is 10 or more,
   also create X 4/4 white Angel creature tokens with flying and vigilance.
 slug: finale-of-glory
-tags: card-color-white card-color-white-cost-2 card-type-sorcery
+synonyms: []
 tapped_id: 21444
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Soldier 2/2 W
-  power_toughness: 2/2
-  rules: Vigilance
-  subtype: Soldier
-  tla: WAR
-  type: Token Creature
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Angel 4/4 W w/ Vigilance
-  power_toughness: 4/4
-  rules: Flying, vigilance
-  subtype: Angel
-  tla: WAR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 2/2
+    - - rules
+      - Vigilance
+    - - type
+      - Token Creature
+    - - subtype
+      - 18
+    - - cannonical_type
+      - Creature
+    - - name
+      - Soldier 2/2 W
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 4/4
+    - - rules
+      - Flying, vigilance
+    - - type
+      - Token Creature
+    - - subtype
+      - 20
+    - - cannonical_type
+      - Creature
+    - - name
+      - Angel 4/4 W w/ Vigilance
 type: Sorcery
-url: http://tappedout.net/mtg-card/finale-of-glory/
+url: https://tappedout.net/mtg-card/finale-of-glory/
+

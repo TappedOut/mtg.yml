@@ -2,37 +2,41 @@ activated_abilities:
 - 'Level up  *(: Put a level counter on this. Level up only as a sorcery.)* [1/1]'
 - 'Level 2-5 : Create a 3/3 green Elephant creature token. [1/1]'
 - 'Level 6+ : Create two 3/3 green Elephant creature tokens. [1/1]'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: C21
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.88
+draft_average: 1.45
 effective_cost:
 - G
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,57 +45,102 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 1G
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Kazandu Tuskcaller
 power_toughness: 1/1
 printings:
-- C21:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 196
-    rarity: rare
-    release_date: 2021-04-23
-    wizards_id: 519231
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519231
-- CM1:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology
-    rarity: rare
-    release_date: 2017-06-09
-- C13:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 51069
-    mtgo_id: 51068
-    name: Commander 2013
-    rarity: rare
-    release_date: 2013-11-01
-    wizards_id: 376389
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376389
 - ROE:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mike Bjerek
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 36605
     mtgo_id: 36604
     name: Rise of the Eldrazi
+    number: null
     rarity: rare
-    release_date: 2010-04-23
+    release_date: '2010-04-23'
+    tla: ROE
+    variations: []
     wizards_id: 193611
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=193611
+- C13:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mike Bierek
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 51069
+    mtgo_id: 51068
+    name: Commander 2013
+    number: null
+    rarity: rare
+    release_date: '2013-11-01'
+    tla: C13
+    variations: []
+    wizards_id: 376389
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376389
+- CM1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: null
+    booster_exclude: true
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology
+    number: null
+    rarity: rare
+    release_date: '2017-06-09'
+    tla: CM1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mike Bierek
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 196
+    rarity: rare
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519231
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519231
+rarity: rare
 rules: "Level up [[symbol:1]][[symbol:G]] *([[symbol:1]][[symbol:G]]: Put a level\
   \ counter on this. Level up only as a sorcery.)* [1/1]\r\n\r\nLevel 2-5 [[symbol:T]]:\
   \ Create a 3/3 green Elephant creature token. [1/1]\r\n\r\nLevel 6+ [[symbol:T]]:\
@@ -101,18 +150,24 @@ subtype: Human Shaman
 subtype_tokens:
 - Human
 - Shaman
-tags: card-color-green card-color-green-cost-2 card-type-creature
+synonyms: []
 tapped_id: 12096
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elephant 3/3 G
-  power_toughness: 3/3
-  rules: ''
-  subtype: Elephant
-  tla: C21
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 3/3
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 214
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elephant 3/3 G
 type: Creature
-url: http://tappedout.net/mtg-card/kazandu-tuskcaller/
+url: https://tappedout.net/mtg-card/kazandu-tuskcaller/
+

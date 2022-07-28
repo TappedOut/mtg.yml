@@ -1,35 +1,38 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ELD
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - W
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -37,26 +40,42 @@ keywords:
 - Vigilance
 - Tokens
 mana_cost: 5W
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Silverwing Squadron
 power_toughness: '*/*'
 printings:
 - ELD:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Johannes Voss
     booster_exclude: true
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 78691
     mtgo_id: 78690
     name: Throne of Eldraine
     number: 315
     rarity: rare
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
+    variations: []
     wizards_id: 476033
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476033
 rules: "Flying, vigilance\r\n\r\nSilverwing Squadron's power and toughness are each\
@@ -68,18 +87,24 @@ subtype: Human Knight
 subtype_tokens:
 - Human
 - Knight
-tags: card-color-white card-color-white-cost-6 card-type-creature
+synonyms: []
 tapped_id: 21974
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Knight 2/2 W w/ Vigilance
-  power_toughness: 2/2
-  rules: Vigilance
-  subtype: Knight
-  tla: ELD
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 2/2
+    - - rules
+      - Vigilance
+    - - type
+      - Token Creature
+    - - subtype
+      - 501
+    - - cannonical_type
+      - Creature
+    - - name
+      - Knight 2/2 W w/ Vigilance
 type: Creature
-url: http://tappedout.net/mtg-card/silverwing-squadron/
+url: https://tappedout.net/mtg-card/silverwing-squadron/
+

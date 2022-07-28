@@ -1,32 +1,36 @@
 activated_abilities:
 - 'Tap five untapped Elves you control: Create a 7/7 green Elemental creature token
   with trample.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: KHC
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 3.0
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -35,76 +39,127 @@ keywords:
 - Tap/Untap
 - Tokens
 mana_cost: 3GG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Voice of the Woods
 power_toughness: 2/2
 printings:
-- KHC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Kaldheim: Commander'
-    number: 78
-    rarity: rare
-    release_date: 2021-02-05
-    wizards_id: 508368
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508368
-- DD3:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Duel Decks Anthology
-    number: 14
-    rarity: rare
-    release_date: 2014-12-05
-    wizards_id: 393995
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393995
-- EVG:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 28888
-    name: 'Duel Decks: Elves vs. Goblins'
-    number: 14
-    rarity: rare
-    release_date: 2007-11-16
-    wizards_id: 159029
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=159029
 - ONS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Pete Venters
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: The ritual of making draws upon the elves' memories and pasts. And
+      elves have long memories and ancient pasts.
     frame: original
     mtgo_foil_id: 18210
     mtgo_id: 18209
     name: Onslaught
+    number: null
     rarity: rare
-    release_date: 2002-10-07
+    release_date: '2002-10-07'
+    tla: ONS
+    variations: []
     wizards_id: 40174
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=40174
+- EVG:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Pete Venters
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*The ritual of making draws upon the elves'' memories and pasts.
+      And elves have long memories and ancient pasts.*'
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 28888
+    name: 'Duel Decks: Elves vs. Goblins'
+    number: 14
+    rarity: rare
+    release_date: '2007-11-16'
+    tla: EVG
+    variations: []
+    wizards_id: 159029
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=159029
+- DD3:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Pete Venters
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*The ritual of making draws upon the elves'' memories and pasts.
+      And elves have long memories and ancient pasts.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Duel Decks Anthology
+    number: 14
+    rarity: rare
+    release_date: '2014-12-05'
+    tla: DD3
+    variations: []
+    wizards_id: 393995
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393995
+- KHC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Nestor Ossandon Leal
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*"Ancient ones, I call on you, your wisdom and your power, your
+      will to claim again all that is rightfully yours."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kaldheim: Commander'
+    number: 78
+    rarity: rare
+    release_date: '2021-02-05'
+    tla: KHC
+    variations: []
+    wizards_id: 508368
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508368
+rarity: rare
 rules: 'Tap five untapped Elves you control: Create a 7/7 green Elemental creature
   token with trample.'
 slug: voice-of-the-woods
 subtype: Elf
 subtype_tokens:
 - Elf
-tags: card-color-green card-color-green-cost-5 card-type-creature
+synonyms: []
 tapped_id: 4107
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 7/7 G Token Creature Elemental
-  power_toughness: 7/7
-  rules: Trample
-  subtype: Elemental
-  tla: KHC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 7/7
+    - - rules
+      - Trample
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - 7/7 G Token Creature Elemental
 type: Creature
-url: http://tappedout.net/mtg-card/voice-of-the-woods/
+url: https://tappedout.net/mtg-card/voice-of-the-woods/
+

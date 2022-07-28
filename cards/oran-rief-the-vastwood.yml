@@ -2,7 +2,7 @@ activated_abilities:
 - ': Add .'
 - ': Put a +1/+1 counter on each green creature that entered the battlefield this
   turn.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: C21
@@ -18,131 +18,220 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 9.8
+draft_average: 5.31
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
-mana_cost_converted: 0
 mana_produced: G
+mana_value: 0
+melds_from: []
 name: Oran-Rief, the Vastwood
 printings:
-- NEC:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Kamigawa: Neon Dynasty Commander'
-    number: 173
-    rarity: rare
-    release_date: 2022-02-11
-    wizards_id: 554255
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554255
-- C21:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 307
-    rarity: rare
-    release_date: 2021-04-23
-    wizards_id: 519342
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519342
-- C20:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 296
-    rarity: rare
-    release_date: 2020-05-15
-- DDU:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Duel Decks: Elves vs. Inventors'
-    number: 28
-    rarity: rare
-    release_date: 2018-04-06
-    wizards_id: 442764
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442764
-- CM1:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology
-    number: 263
-    rarity: rare
-    release_date: 2017-06-09
-    wizards_id: 430482
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430482
-- C15:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2015
-    number: 297
-    rarity: rare
-    release_date: 2015-11-13
-    wizards_id: 405325
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405325
-- C14:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 54782
-    mtgo_id: 54781
-    name: Commander 2014
-    rarity: rare
-    release_date: 2014-11-21
-    wizards_id: 389620
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389620
 - ZEN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mike Bierek
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 34627
     mtgo_id: 34626
     name: Zendikar
+    number: null
     rarity: rare
-    release_date: 2009-10-02
+    release_date: '2009-10-02'
+    tla: ZEN
+    variations: []
     wizards_id: 190417
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=190417
+- C14:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mike Bierek
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 54782
+    mtgo_id: 54781
+    name: Commander 2014
+    number: null
+    rarity: rare
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
+    wizards_id: 389620
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389620
+- C15:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mike Bierek
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2015
+    number: 297
+    rarity: rare
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
+    wizards_id: 405325
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405325
+- CM1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mike Bierik
+    booster_exclude: true
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology
+    number: 263
+    rarity: rare
+    release_date: '2017-06-09'
+    tla: CM1
+    variations: []
+    wizards_id: 430482
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430482
+- DDU:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mike Bierek
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Elves vs. Inventors'
+    number: 28
+    rarity: null
+    release_date: '2018-04-06'
+    tla: DDU
+    variations: []
+    wizards_id: 442764
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442764
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mike Bierek
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 296
+    rarity: rare
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mike Bierek
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 307
+    rarity: rare
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519342
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519342
+- NEC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mike Bierek
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kamigawa: Neon Dynasty Commander'
+    number: 173
+    rarity: rare
+    release_date: '2022-02-11'
+    tla: NEC
+    variations: []
+    wizards_id: 554255
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554255
+rarity: rare
 rules: "This enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Add [[symbol:G]].\r\
   \n\r\n[[symbol:T]]: Put a +1/+1 counter on each green creature that entered the\
   \ battlefield this turn."
 slug: oran-rief-the-vastwood
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-green-slow card-type-land
+synonyms: []
 tap_land: true
 tapped_id: 11681
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/oran-rief-the-vastwood/
+url: https://tappedout.net/mtg-card/oran-rief-the-vastwood/
+

@@ -1,38 +1,44 @@
 activated_abilities:
 - ': Permanents your opponents control lose hexproof and indestructible until end
   of turn.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: THB
 cannonical_type: Artifact
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 1
+cube_average: 5.08
+draft_average: 1.86
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,34 +48,46 @@ keywords:
 - Trample
 - Attach
 mana_cost: '1'
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Shadowspear
 printings:
 - THB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    - !!python/tuple
+      - list
+      - The List
+    artist: Yeong-Hao Han
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*A weapon of darkness for a warrior of light.*'
     frame: m15
     mtgo_foil_id: 79597
     mtgo_id: 79596
     name: Theros Beyond Death
     number: 236
     rarity: rare
-    release_date: 2020-01-24
+    release_date: '2020-01-24'
+    tla: THB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '345'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '345'
+    - identifier: PromoPack
     wizards_id: 476487
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476487
 rules: "Equipped creature gets +1/+1 and has trample and lifelink.\r\n\r\n[[symbol:1]]:\
@@ -79,7 +97,9 @@ slug: shadowspear
 subtype: Equipment
 subtype_tokens:
 - Equipment
-tags: card-color-colorless card-color-colorless-cost-1 card-type-artifact card-type-legendary
+synonyms: []
 tapped_id: 22475
+tokens: []
 type: Legendary Artifact
-url: http://tappedout.net/mtg-card/shadowspear/
+url: https://tappedout.net/mtg-card/shadowspear/
+

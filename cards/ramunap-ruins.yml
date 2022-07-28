@@ -2,14 +2,13 @@ activated_abilities:
 - ': Gain .'
 - ', Pay 1 life: Gain .'
 - ', , Sacrifice a Desert: This deals 2 damage to each opponent.'
-activation_costs:
+activated_costs:
 - C
 - R
 canadian_hl_score: 0
 cannonical_set: HOU
 cannonical_type: Land
-color_identity:
-- R
+color_identity: R
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -21,63 +20,90 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 10.78
+draft_average: 4.76
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
-mana_cost_converted: 0
 mana_produced: R, C
+mana_value: 0
+melds_from: []
 name: Ramunap Ruins
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: original
-    name: Time Spiral Remastered
-    number: 309
-    rarity: special
-    release_date: 2021-03-19
-    wizards_id: 512375
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512375
 - HOU:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Florian de Gesincourt
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 64887
     mtgo_id: 64886
     name: Hour of Devastation
     number: 181
     rarity: uncommon
-    release_date: 2017-07-14
+    release_date: '2017-07-14'
+    tla: HOU
+    variations: []
     wizards_id: 430870
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430870
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Florian de Gesincourt
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 309
+    rarity: special
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 512375
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512375
+rarity: uncommon
 rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:T]], Pay 1 life: Gain [[symbol:R]].\r\
   \n\r\n[[symbol:2]][[symbol:R]][[symbol:R]], [[symbol:T]], Sacrifice a Desert: This\
   \ deals 2 damage to each opponent."
@@ -85,8 +111,9 @@ slug: ramunap-ruins
 subtype: Desert
 subtype_tokens:
 - Desert
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-mana-red
-  card-type-land
+synonyms: []
 tapped_id: 19123
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/ramunap-ruins/
+url: https://tappedout.net/mtg-card/ramunap-ruins/
+

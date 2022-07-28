@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: NCC
@@ -6,27 +7,28 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
 - Penny Dreadful
-- Vintage
-has_activated_abilities: false
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -34,23 +36,33 @@ keywords:
 - Sacrifice
 - Blitz
 mana_cost: 4R
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Mezzio Mugger
 power_toughness: 3/3
 printings:
 - NCC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Filipe Pagliuso
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Streets of New Capenna: Commander'
     number: 49
     rarity: rare
-    release_date: 2022-04-30
+    release_date: '2022-04-30'
+    tla: NCC
     variations:
-    - alterations:
-      - Normal
-      identifier: '149'
+    - identifier: '149'
+    wizards_id: null
+    wizards_url: null
 rules: "Whenever this attacks, exile the top card of each player's library. You may\
   \ play those cards this turn, and you may spend mana as though it were mana of any\
   \ colour to cast those spells.\r\n\r\nBlitz [[symbol:2]][[symbol:R]] *(If you cast\
@@ -61,7 +73,9 @@ subtype: Viashino Rogue
 subtype_tokens:
 - Viashino
 - Rogue
-tags: card-color-red card-color-red-cost-5 card-type-creature
+synonyms: []
 tapped_id: 26454
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/mezzio-mugger/
+url: https://tappedout.net/mtg-card/mezzio-mugger/
+

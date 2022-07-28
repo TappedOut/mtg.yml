@@ -1,89 +1,139 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ARC
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.2
+draft_average: 7.21
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
 - Pauper EDH
-- Premodern
-- Tiny Leaders
+- Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Morph
 mana_cost: 1RR
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Skirk Commando
 power_toughness: 2/1
 printings:
-- MYS1:
+- ONS:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dave Dorman
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: 18006
+    mtgo_id: 18005
+    name: Onslaught
+    number: null
     rarity: common
-    release_date: 2020-03-14
+    release_date: '2002-10-07'
+    tla: ONS
+    variations: []
+    wizards_id: 12417
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=12417
+- ARC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Dave Dorman
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Archenemy
+    number: null
+    rarity: common
+    release_date: '2010-06-18'
+    tla: ARC
+    variations: []
+    wizards_id: 220493
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220493
 - A25:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Slawomir Maniak
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 67215
     mtgo_id: 67214
     name: Masters 25
     number: 150
-    rarity: common
-    release_date: 2018-03-16
+    rarity: null
+    release_date: '2018-03-16'
+    tla: A25
+    variations: []
     wizards_id: 442139
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442139
-- ARC:
+- MYS1:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Slawomir Maniak
+    booster_exclude: false
     border_color: B
-    frame: modern
-    name: Archenemy
-    rarity: common
-    release_date: 2010-06-18
-    wizards_id: 220493
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220493
-- ONS:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: original
-    mtgo_foil_id: 18006
-    mtgo_id: 18005
-    name: Onslaught
-    rarity: common
-    release_date: 2002-10-07
-    wizards_id: 12417
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=12417
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: null
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: "Whenever Skirk Commando deals combat damage to a player, you may have it deal\
   \ 2 damage to target creature that player controls.\r\n\r\nMorph (2)(Red) (You may\
   \ play this face down as a 2/2 creature for (3). Turn it face up any time for its\
@@ -92,18 +142,25 @@ slug: skirk-commando
 subtype: Goblin
 subtype_tokens:
 - Goblin
-tags: card-color-red card-color-red-cost-3 card-type-creature
+synonyms: []
 tapped_id: 4054
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Morph 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  tla: C19
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+        \ with morph can be turned face up at any time for its morph cost.*"
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Morph 2/2 C
 type: Creature
-url: http://tappedout.net/mtg-card/skirk-commando/
+url: https://tappedout.net/mtg-card/skirk-commando/
+

@@ -1,41 +1,44 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SNC
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - B
 - R
 - G
-flat_cost: 6
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -43,32 +46,45 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 3BRG
-mana_cost_converted: 6
 mana_produced: WWW, UUU, BBB, RRR, GGG
+mana_value: 6
+melds_from: []
 name: Ziatora, the Incinerator
 power_toughness: 6/6
 printings:
 - SNC:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Streets of New Capenna
     number: 231
     rarity: mythic_rare
-    release_date: 2022-04-29
+    release_date: '2022-04-29'
+    tla: SNC
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '339'
-    - alterations:
-      - Foil
-      identifier: '404'
+    - identifier: '339'
+    - identifier: '404'
     wizards_id: 555432
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=555432
 rules: "Flying\r\n\r\nAt the beginning of your end step, you may sacrifice another\
@@ -81,20 +97,24 @@ subtype: Demon Dragon
 subtype_tokens:
 - Demon
 - Dragon
-tags: card-color-black card-color-gold card-color-gold-cost-6 card-color-green card-color-red
-  card-mana-black card-mana-blue card-mana-green card-mana-red card-mana-white card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 26138
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: SNC
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/ziatora-the-incinerator/
+url: https://tappedout.net/mtg-card/ziatora-the-incinerator/
+

@@ -1,12 +1,13 @@
 activated_abilities:
 - ', , Exile three cards from your graveyard: Create a 3/2 red Wolf creature token.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -15,30 +16,31 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 1
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -47,39 +49,65 @@ keywords:
 - Tokens
 - Menace
 mana_cost: R
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Kessig Wolfrider
 power_toughness: 1/2
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 432
-    rarity: rare
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Bram Sels
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"It''s a perfect partnership. My village is safe from wolf attacks,
+      and she gets to eat any vampires we catch."*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 165
     rarity: rare
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '379'
+    - identifier: '379'
     wizards_id: 541022
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=541022
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Bram Sels
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"It''s a perfect partnership. My village is safe from wolf attacks,
+      and she gets to eat any vampires we catch."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 432
+    rarity: rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Menace\r\n\r\n[[symbol:2]][[symbol:R]], [[symbol:T]], Exile three cards from\
   \ your graveyard: Create a 3/2 red Wolf creature token."
 slug: kessig-wolfrider
@@ -87,18 +115,24 @@ subtype: Human Knight
 subtype_tokens:
 - Human
 - Knight
-tags: card-color-red card-color-red-cost-1 card-type-creature
+synonyms: []
 tapped_id: 25421
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Wolf 3/2 R
-  power_toughness: 3/2
-  rules: ''
-  subtype: Wolf
-  tla: VOW
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 3/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 93
+    - - cannonical_type
+      - Creature
+    - - name
+      - Wolf 3/2 R
 type: Creature
-url: http://tappedout.net/mtg-card/kessig-wolfrider/
+url: https://tappedout.net/mtg-card/kessig-wolfrider/
+

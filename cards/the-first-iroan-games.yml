@@ -1,6 +1,7 @@
 activated_abilities:
 - 'symbol:saga-4 &dmash; Create a Gold token. *(It''s a colourless artifact token
   with "Sacrifice this: Gain one mana of any colour.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: THB
 cannonical_type: Enchantment
@@ -8,33 +9,37 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.46
+draft_average: 2.25
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,30 +48,43 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 2G
-mana_cost_converted: 3
 mana_produced: W, U, B, R, G
+mana_value: 3
+melds_from: []
 name: The First Iroan Games
 printings:
 - THB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Noah Bradley
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 79465
     mtgo_id: 79464
     name: Theros Beyond Death
     number: 170
     rarity: rare
-    release_date: 2020-01-24
+    release_date: '2020-01-24'
+    tla: THB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 476421
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476421
 rules: "*(As this Saga enters and after your draw step, add a lore counter. Sacrifice\
@@ -80,29 +98,39 @@ slug: the-first-iroan-games
 subtype: Saga
 subtype_tokens:
 - Saga
-tags: card-color-green card-color-green-cost-3 card-mana-black card-mana-blue card-mana-green
-  card-mana-red card-mana-white card-type-enchantment
+synonyms: []
 tapped_id: 22471
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Human Soldier 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Human Soldier
-  tla: THB
-  type: Token Creature
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Gold
-  power_toughness: null
-  rules: 'Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Gold
-  tla: THB
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 29
+    - - cannonical_type
+      - Creature
+    - - name
+      - Human Soldier 1/1 W
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - 'Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1865
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Gold
 type: Enchantment
-url: http://tappedout.net/mtg-card/the-first-iroan-games/
+url: https://tappedout.net/mtg-card/the-first-iroan-games/
+

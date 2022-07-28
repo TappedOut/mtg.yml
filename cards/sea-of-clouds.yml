@@ -1,14 +1,12 @@
 activated_abilities:
 - ': Add  or .'
-activation_costs:
+activated_costs:
 - U
 - W
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Land
-color_identity:
-- W
-- U
+color_identity: WU
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -20,73 +18,110 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 10.88
+effective_cost: []
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: W, U
+mana_value: 0
+melds_from: []
 name: Sea of Clouds
 printings:
-- CLB:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 360
-    rarity: rare
-    release_date: 2022-06-10
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '605'
-    wizards_id: 563243
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563243
-- ZNE:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Zendikar Rising: Expeditions'
-    number: 16
-    rarity: mythic_rare
-    release_date: 2020-09-25
 - BBD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Florian de Gesincourt
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Skybridges from across Kylem converge at the grand stadium of
+      Valor''s Reach.*'
     frame: m15
     mtgo_foil_id: 68897
     mtgo_id: 68896
     name: Battlebond
     number: 84
     rarity: rare
-    release_date: 2018-06-08
+    release_date: '2018-06-08'
+    tla: BBD
+    variations: []
     wizards_id: 446052
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446052
+- ZNE:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sam Burley
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Zendikar Rising: Expeditions'
+    number: 16
+    rarity: mythic_rare
+    release_date: '2020-09-25'
+    tla: ZNE
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Matt Gaser
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*A shoreless sea extends to every horizon, sharing its beauty only
+      with those who can fly high enough to see it.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 360
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations:
+    - identifier: '605'
+    wizards_id: 563243
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563243
+rarity: rare
 rules: "This enters the battlefield tapped unless you have two or more opponents.\r\
   \n\r\n[[symbol:T]]: Add [[symbol:W]] or [[symbol:U]]."
 slug: sea-of-clouds
@@ -99,8 +134,8 @@ synonyms:
 - UW Battle Land
 - WU Battleland
 - UW Battleland
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-blue card-mana-white
-  card-type-land
 tapped_id: 20376
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/sea-of-clouds/
+url: https://tappedout.net/mtg-card/sea-of-clouds/
+

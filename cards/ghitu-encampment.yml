@@ -2,7 +2,7 @@ activated_abilities:
 - ': Add  to your mana pool.'
 - ': Ghitu Encampment becomes a 2/1 red Warrior creature with first strike until end
   of turn. It''s still a land.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: DDN
@@ -18,85 +18,129 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 11.65
+draft_average: 4.0
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - First strike
-mana_cost_converted: 0
 mana_produced: R
+mana_value: 0
+melds_from: []
 name: Ghitu Encampment
 printings:
-- DDN:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Duel Decks: Speed vs. Cunning'
-    number: 33
-    rarity: uncommon
-    release_date: 2014-09-05
-    wizards_id: 386321
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386321
-- PFL:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: modern
-    mtgo_foil_id: 39233
-    name: 'Premium Deck Series: Fire and Lightning'
-    number: 29
-    rarity: uncommon
-    release_date: 2010-11-19
-    wizards_id: 234698
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=234698
 - 10E:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Avon
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 27121
     mtgo_id: 27120
     name: Tenth Edition
+    number: null
     rarity: uncommon
-    release_date: 2007-07-13
+    release_date: '2007-07-13'
+    tla: 10E
+    variations: []
     wizards_id: 106564
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=106564
 - ULG:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Hazeltine
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 12588
     mtgo_id: 12587
     name: Urza's Legacy
+    number: null
     rarity: uncommon
-    release_date: 1999-02-01
+    release_date: '1999-02-01'
+    tla: ULG
+    variations: []
     wizards_id: 12497
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=12497
+- DDN:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: John Avon
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Speed vs. Cunning'
+    number: 33
+    rarity: uncommon
+    release_date: '2014-09-05'
+    tla: DDN
+    variations: []
+    wizards_id: 386321
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386321
+- PFL:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Avon
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 39233
+    mtgo_id: null
+    name: 'Premium Deck Series: Fire and Lightning'
+    number: 29
+    rarity: uncommon
+    release_date: '2010-11-19'
+    tla: PFL
+    variations: []
+    wizards_id: 234698
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=234698
+rarity: uncommon
 rules: "Ghitu Encampment enters the battlefield tapped.\r\n\r\n[[T]]: Add [[R]] to\
   \ your mana pool.\r\n\r\n[[1]][[R]]: Ghitu Encampment becomes a 2/1 red Warrior\
   \ creature with first strike until end of turn. It's still a land."
@@ -106,8 +150,9 @@ synonyms:
 - R Man Land
 - Manland R
 - Man Land R
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-red-slow card-type-land
 tap_land: true
 tapped_id: 6111
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/ghitu-encampment/
+url: https://tappedout.net/mtg-card/ghitu-encampment/
+

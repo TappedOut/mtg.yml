@@ -2,40 +2,45 @@ activated_abilities:
 - ': You may sacrifice another permanent. If you do, you gain 1 life and draw a card.'
 - ': Destroy target nonland permanent with converted mana cost 3 or less.'
 - ': You get an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: GRN
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.07
+draft_average: 2.7
 effective_cost:
 - B
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,66 +48,112 @@ keywords:
 - Sacrifice
 - Counters
 mana_cost: 2BG
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Vraska, Golgari Queen
+planeswalker_loyalty: 4
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 90
-    rarity: mythic_rare
-    release_date: 2019-12-09
 - GRN:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Magali Villeneuve
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 69800
     mtgo_id: 69799
     name: Guilds of Ravnica
     number: 213
     rarity: mythic_rare
-    release_date: 2018-10-05
+    release_date: '2018-10-05'
+    tla: GRN
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: Animated
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: Animated
+    - identifier: PromoPack
     wizards_id: 452963
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=452963
 - GRNMED:
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Livla Prima
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Guilds of Ravnica: Mythic Edition'
     number: 8
     rarity: mythic_rare
-    release_date: 2018-10-04
-- '000':
+    release_date: '2018-10-04'
+    tla: GRNMED
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- SLD:
     alterations:
-    - Foil
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mike Uziel
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 90
+    rarity: mythic_rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- '000':
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Magali Villeneuve
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "[[symbol:loyalty-plus2]]: You may sacrifice another permanent. If you do,\
   \ you gain 1 life and draw a card.\r\n\r\n[[symbol:loyalty-minus3]]: Destroy target\
   \ nonland permanent with converted mana cost 3 or less.\r\n\r\n[[symbol:loyalty-minus9]]:\
@@ -112,19 +163,25 @@ slug: vraska-golgari-queen
 subtype: Vraska
 subtype_tokens:
 - Vraska
-tags: card-color-black card-color-gold card-color-gold-cost-4 card-color-green card-type-planeswalker
+synonyms: []
 tapped_id: 20767
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Vraska, Golgari Queen
-  power_toughness: null
-  rules: Whenever a creature you control deals combat damage to a player, that player
-    loses the game.
-  subtype: Vraska
-  tla: GRN
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Whenever a creature you control deals combat damage to a player, that player
+        loses the game.
+    - - type
+      - Emblem
+    - - subtype
+      - 1205
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Vraska, Golgari Queen
 type: Planeswalker
-url: http://tappedout.net/mtg-card/vraska-golgari-queen/
+url: https://tappedout.net/mtg-card/vraska-golgari-queen/
+

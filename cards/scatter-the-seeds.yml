@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: GK1
 cannonical_type: Instant
@@ -10,101 +12,156 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.97
+draft_average: 5.65
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Vintage
-has_activated_abilities: false
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tap/Untap
 - Convoke
 - Tokens
 mana_cost: 3GG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Scatter the Seeds
+power_toughness: ''
 printings:
-- MYS1:
+- RAV:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Rob Alexander
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
+    cannonical: true
+    flavour_text: From the seeds of faith, great forests grow.
+    frame: modern
+    mtgo_foil_id: 23197
+    mtgo_id: 23196
+    name: 'Ravnica: City of Guilds'
+    number: null
     rarity: common
-    release_date: 2020-03-14
-- GK1:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Guilds of Ravnica: Guild Kit'
-    number: 106
-    rarity: common
-    release_date: 2018-11-02
-    wizards_id: 456364
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456364
+    release_date: '2005-10-07'
+    tla: RAV
+    variations: []
+    wizards_id: 87931
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=87931
 - MM2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Rob Alexander
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: From the seeds of faith, great forests grow.
     frame: m15
     mtgo_foil_id: 57433
     mtgo_id: 57432
     name: Modern Masters 2015 Edition
     number: 159
     rarity: common
-    release_date: 2015-05-22
+    release_date: '2015-05-22'
+    tla: MM2
+    variations: []
     wizards_id: 397665
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397665
-- RAV:
+- GK1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Rob Alexander
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 23197
-    mtgo_id: 23196
-    name: 'Ravnica: City of Guilds'
+    cannonical: true
+    flavour_text: '*From the seeds of faith, great forests grow.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Guilds of Ravnica: Guild Kit'
+    number: 106
     rarity: common
-    release_date: 2005-10-07
-    wizards_id: 87931
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=87931
+    release_date: '2018-11-02'
+    tla: GK1
+    variations: []
+    wizards_id: 456364
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456364
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Rob Alexander
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*From the seeds of faith, great forests grow.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: "Convoke *(Your creatures can help cast this spell. Each creature you tap while\
   \ casting this spell pays for [[symbol:1]] or one mana of that creature's colour.)*\r\
   \n\r\nCreate three 1/1 green Saproling creature tokens."
 slug: scatter-the-seeds
-tags: card-color-green card-color-green-cost-5 card-type-instant
+synonyms: []
 tapped_id: 2076
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Saproling 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Saproling
-  tla: GK1
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 893
+    - - cannonical_type
+      - Creature
+    - - name
+      - Saproling 1/1 G
 type: Instant
-url: http://tappedout.net/mtg-card/scatter-the-seeds/
+url: https://tappedout.net/mtg-card/scatter-the-seeds/
+

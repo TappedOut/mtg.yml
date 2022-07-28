@@ -1,96 +1,122 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MH2
 cannonical_type: Creature
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.74
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: 3GG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Titania, Protector of Argoth
 power_toughness: 5/3
 printings:
-- MH2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Modern Horizons 2
-    number: 287
-    rarity: mythic_rare
-    release_date: 2021-06-18
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '319'
-    - alterations:
-      - Etched
-      - Foil
-      - Normal
-      identifier: '416'
-    wizards_id: 526258
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=526258
-- CM1:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology
-    rarity: mythic_rare
-    release_date: 2017-06-09
 - C14:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Magali Villeneuve
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 55120
     mtgo_id: 55119
     name: Commander 2014
     number: 50
     rarity: mythic_rare
-    release_date: 2014-11-21
+    release_date: '2014-11-21'
+    tla: C14
     variations:
-    - alterations:
-      - Normal
-      identifier: null
-    - alterations:
-      - Normal
-      identifier: null
+    - identifier: null
+    - identifier: null
     wizards_id: 389721
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389721
+- CM1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: null
+    booster_exclude: true
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology
+    number: null
+    rarity: mythic_rare
+    release_date: '2017-06-09'
+    tla: CM1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- MH2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Magali Villeneuve
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Modern Horizons 2
+    number: 287
+    rarity: mythic_rare
+    release_date: '2021-06-18'
+    tla: MH2
+    variations:
+    - identifier: '319'
+    - identifier: '416'
+    wizards_id: 526258
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=526258
+rarity: mythic_rare
 rules: "When this enters the battlefield, return target land card from your graveyard\
   \ to the battlefield.\r\n\r\nWhenever a land you control is put into a graveyard\
   \ from the battlefield, create a 5/3 green elemental creature token."
@@ -98,18 +124,24 @@ slug: titania-protector-of-argoth
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-color-green card-color-green-cost-5 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 16107
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elemental 5/3 G
-  power_toughness: 5/3
-  rules: ''
-  subtype: Elemental
-  tla: MH2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 5/3
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elemental 5/3 G
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/titania-protector-of-argoth/
+url: https://tappedout.net/mtg-card/titania-protector-of-argoth/
+

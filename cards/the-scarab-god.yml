@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Exile target creature card from a graveyard. Create a token that''s a copy of
   it, except it''s a 4/4 black Zombie.'
-activation_costs:
+activated_costs:
 - B
 - U
 canadian_hl_score: 0
@@ -10,33 +10,37 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.07
+draft_average: 1.17
 effective_cost:
 - U
 - B
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,51 +49,84 @@ keywords:
 - Scry
 - Tokens
 mana_cost: 3UB
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: The Scarab God
 power_toughness: 5/5
 printings:
-- 2XM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 216
-    rarity: mythic_rare
-    release_date: 2020-08-07
-    wizards_id: 489889
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489889
 - HOU:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Lius Lasahido
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 64775
     mtgo_id: 64774
     name: Hour of Devastation
     number: 145
     rarity: mythic_rare
-    release_date: 2017-07-14
+    release_date: '2017-07-14'
+    tla: HOU
+    variations: []
     wizards_id: 430834
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430834
 - AKHMPS:
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Grzegorz Rutkowski
+    booster_exclude: false
     border_color: B
     cannonical: false
-    foil: foil
-    foil_only: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Masterpiece Series: Amonkhet Invocations'
     number: 53
     rarity: special
-    release_date: 2017-04-28
+    release_date: '2017-04-28'
+    tla: AKHMPS
+    variations: []
     wizards_id: 430688
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430688
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lius Lasahido
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 216
+    rarity: mythic_rare
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations: []
+    wizards_id: 489889
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489889
+rarity: mythic_rare
 rules: "At the beginning of your upkeep, each opponent loses X life and you scry X,\
   \ where X is the number of Zombies you control.\r\n\r\n[[symbol:2]][[symbol:U]][[symbol:B]]:\
   \ Exile target creature card from a graveyard. Create a token that's a copy of it,\
@@ -100,18 +137,24 @@ slug: the-scarab-god
 subtype: God
 subtype_tokens:
 - God
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-5 card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 19038
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: 2XM
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/the-scarab-god/
+url: https://tappedout.net/mtg-card/the-scarab-god/
+

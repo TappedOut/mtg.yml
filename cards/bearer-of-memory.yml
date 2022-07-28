@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Put a +1/+1 counter on target enchantment creature. It gains trample until end
   of turn.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: NEO
@@ -9,6 +9,7 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -16,33 +17,34 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - G
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -50,21 +52,34 @@ keywords:
 - Trample
 - Counters
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Bearer of Memory
 power_toughness: 3/2
 printings:
 - NEO:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Randy Vargas
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*Members of the Living Historians don''t simply chronicle the past;
+      they embody it.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
     number: 174
     rarity: common
-    release_date: 2022-02-10
+    release_date: '2022-02-10'
+    tla: NEO
+    variations: []
     wizards_id: 548480
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=548480
 rules: '[[symbol:5]][[symbol:G]]: Put a +1/+1 counter on target enchantment creature.
@@ -74,7 +89,9 @@ subtype: Human Monk
 subtype_tokens:
 - Human
 - Monk
-tags: card-color-green card-color-green-cost-3 card-type-creature card-type-enchantment
+synonyms: []
 tapped_id: 25947
+tokens: []
 type: Enchantment Creature
-url: http://tappedout.net/mtg-card/bearer-of-memory/
+url: https://tappedout.net/mtg-card/bearer-of-memory/
+

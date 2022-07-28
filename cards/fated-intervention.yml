@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: BNG
 cannonical_type: Instant
@@ -10,74 +12,104 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.06
+draft_average: 1.76
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Scry
 - Tokens
 mana_cost: 2GGG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Fated Intervention
 printings:
 - BNG:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Svetlin Velinov
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: modern
     mtgo_foil_id: 51856
     mtgo_id: 51855
     name: Born of the Gods
     number: 121
     rarity: rare
-    release_date: 2014-02-07
+    release_date: '2014-02-07'
+    tla: BNG
+    variations: []
     wizards_id: 378493
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=378493
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Deschamps
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 2
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: Put two 3/3 green Centaur enchantment creature tokens onto the battlefield.
   If it's your turn, scry 2. *(Look at the top two cards of your library, then put
   any number of them on the bottom of your library and the rest on top in any order.)*
 slug: fated-intervention
-tags: card-color-green card-color-green-cost-5 card-type-instant
+synonyms: []
 tapped_id: 15188
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Enchantment Centaur 3/3 G
-  power_toughness: 3/3
-  rules: ''
-  subtype: Centaur
-  tla: BNG
-  type: Token Enchantment Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 3/3
+    - - rules
+      - ''
+    - - type
+      - Token Enchantment Creature
+    - - subtype
+      - 154
+    - - cannonical_type
+      - Creature
+    - - name
+      - Enchantment Centaur 3/3 G
 type: Instant
-url: http://tappedout.net/mtg-card/fated-intervention/
+url: https://tappedout.net/mtg-card/fated-intervention/
+

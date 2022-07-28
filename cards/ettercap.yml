@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: CLB
@@ -7,33 +8,34 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
 - Pauper EDH
-- Penny Dreadful
+- Canadian Highlander
+- Legacy
+- Arena
+- Oathbreaker
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -41,20 +43,36 @@ keywords:
 - Exile
 - Adventure
 mana_cost: 4G
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Ettercap
 power_toughness: 2/5
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Olivier Bernard
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"Filthy, sticky, vile, noxious; and I haven't even started describing\
+      \ the webs.\"\r\n<br>&mdash;Erinis, gloom stalker*"
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 231
     rarity: common
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Reach\r\n\r\n<br>\r\n\r\n*(You may cast Ettercap from exile if you sent it\
   \ on an adventure.)*\r\n\r\n-----\r\n\r\n<h3>Web Shot</h3>\r\n<h4>Instant &mdash;\
   \ Adventure</h4>\r\n\r\nDestroy target creature with flying. *(Then send this card\
@@ -71,7 +89,9 @@ subtype: Spider Beast
 subtype_tokens:
 - Spider
 - Beast
-tags: card-color-green card-color-green-cost-5 card-type-creature
+synonyms: []
 tapped_id: 26742
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/ettercap/
+url: https://tappedout.net/mtg-card/ettercap/
+

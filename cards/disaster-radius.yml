@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: EO2
 cannonical_type: Sorcery
@@ -10,96 +12,157 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.88
+draft_average: 2.5
 effective_cost:
 - R
-flat_cost: 7
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
+keywords: []
 mana_cost: 5RR
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Disaster Radius
+power_toughness: ''
 printings:
-- CM2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology 2018
-    number: 92
-    rarity: rare
-    release_date: 2018-06-08
-    wizards_id: 446828
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446828
-- EO2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Explorers of Ixalan
-    number: 26
-    rarity: rare
-    release_date: 2017-12-15
-    wizards_id: 439368
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439368
-- C15:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2015
-    number: 150
-    rarity: rare
-    release_date: 2015-11-13
-    wizards_id: 405201
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405201
-- CMD:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 40596
-    name: 'MTG: Commander'
-    rarity: rare
-    release_date: 2011-06-17
-    wizards_id: 247394
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247394
 - ROE:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: James Paick
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 36565
     mtgo_id: 36564
     name: Rise of the Eldrazi
+    number: null
     rarity: rare
-    release_date: 2010-04-23
+    release_date: '2010-04-23'
+    tla: ROE
+    variations: []
     wizards_id: 193579
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=193579
+- CMD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: James Paick
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 40596
+    name: 'MTG: Commander'
+    number: null
+    rarity: rare
+    release_date: '2011-06-17'
+    tla: CMD
+    variations: []
+    wizards_id: 247394
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247394
+- C15:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: James Paick
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2015
+    number: 150
+    rarity: rare
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
+    wizards_id: 405201
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405201
+- EO2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: James Paick
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Explorers of Ixalan
+    number: 26
+    rarity: null
+    release_date: '2017-12-15'
+    tla: EO2
+    variations: []
+    wizards_id: 439368
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439368
+- CM2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: James Paick
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology 2018
+    number: 92
+    rarity: rare
+    release_date: '2018-06-08'
+    tla: CM2
+    variations: []
+    wizards_id: 446828
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446828
+rarity: rare
 rules: "As an additional cost to cast this spell, reveal a creature card from your\
   \ hand.\r\n\r\nDisaster Radius deals X damage to each creature your opponents control,\
   \ where X is the revealed card's converted mana cost."
 slug: disaster-radius
-tags: card-color-red card-color-red-cost-7 card-type-sorcery
+synonyms: []
 tapped_id: 12141
+tokens: []
 type: Sorcery
-url: http://tappedout.net/mtg-card/disaster-radius/
+url: https://tappedout.net/mtg-card/disaster-radius/
+

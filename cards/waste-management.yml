@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: NCC
@@ -15,62 +16,77 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
-- Penny Dreadful
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Kicker
 - Tokens
 mana_cost: 2B
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Waste Management
 printings:
 - NCC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Aaron Miller
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Streets of New Capenna: Commander'
     number: 40
     rarity: rare
-    release_date: 2022-04-30
+    release_date: '2022-04-30'
+    tla: NCC
     variations:
-    - alterations:
-      - Normal
-      identifier: '141'
+    - identifier: '141'
+    wizards_id: null
+    wizards_url: null
 rules: "Kicker [[symbol:3]][[symbol:B]] *(You may pay an additional [[symbol:3]][[symbol:B]]\
   \ as you cast this spell.)*\r\n\r\nExile up to two target cards from a single graveyard.\
   \ If this spell was kicked, instead exile target player's graveyard. Create a 2/2\
   \ black Rogue creature token for each creature card exiled this way."
 slug: waste-management
-tags: card-color-black card-color-black-cost-3 card-type-instant
+synonyms: []
 tapped_id: 26417
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Rogue 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Rogue
-  tla: SNC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 503
+    - - cannonical_type
+      - Creature
+    - - name
+      - Rogue 2/2 B
 type: Instant
-url: http://tappedout.net/mtg-card/waste-management/
+url: https://tappedout.net/mtg-card/waste-management/
+

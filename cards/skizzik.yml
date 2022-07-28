@@ -1,39 +1,43 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: DOM
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.91
+draft_average: 4.11
 effective_cost:
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Premodern
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Premodern
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -42,35 +46,61 @@ keywords:
 - Sacrifice
 - Kicker
 mana_cost: 3R
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Skizzik
 power_toughness: 5/3
 printings:
-- DOM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Dominaria
-    number: 145
-    rarity: uncommon
-    release_date: 2018-04-22
-    wizards_id: 443033
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443033
 - INV:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ron Spencer
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 14688
     mtgo_id: 14687
     name: Invasion
+    number: null
     rarity: rare
-    release_date: 2000-10-02
+    release_date: '2000-10-02'
+    tla: INV
+    variations: []
     wizards_id: 23096
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=23096
+- DOM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Tomasz Jedruszek
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*It skitters across Shiv, each tendril hitting the ground with
+      a sharp snap.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Dominaria
+    number: 145
+    rarity: uncommon
+    release_date: '2018-04-22'
+    tla: DOM
+    variations: []
+    wizards_id: 443033
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443033
+rarity: rare
 rules: "Kicker [[symbol:R]] *(You may pay an additional [[symbol:R]] as you cast this\
   \ spell.)*\r\n\r\nTrample, haste\r\n\r\nAt the beginning of the end step, if Skizzik\
   \ wasn't kicked, sacrifice it."
@@ -78,7 +108,9 @@ slug: skizzik
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-color-red card-color-red-cost-4 card-type-creature
+synonyms: []
 tapped_id: 5247
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/skizzik/
+url: https://tappedout.net/mtg-card/skizzik/
+

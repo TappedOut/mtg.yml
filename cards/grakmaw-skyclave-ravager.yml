@@ -1,73 +1,89 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ZNR
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 2.5
 effective_cost:
 - B
 - G
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
 - Tokens
 mana_cost: 1BG
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Grakmaw, Skyclave Ravager
 power_toughness: 0/0
 printings:
 - ZNR:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Filip Burburan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Zendikar Rising
     number: 223
     rarity: rare
-    release_date: 2020-09-25
+    release_date: '2020-09-25'
+    tla: ZNR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '366'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '366'
+    - identifier: PromoPack
     wizards_id: 491874
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=491874
 rules: "Grakmaw, Skyclave Ravager enters the battlefield with three +1/+1 counters\
@@ -80,19 +96,24 @@ subtype: Hydra Horror
 subtype_tokens:
 - Hydra
 - Horror
-tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-green card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 23403
 tokens:
-- cannonical_type: Creature
-  colors: BG
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Hydra X/X BG
-  power_toughness: X/X
-  rules: ''
-  subtype: Hydra
-  tla: ZNR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - BG
+    - - power_toughness
+      - X/X
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 66
+    - - cannonical_type
+      - Creature
+    - - name
+      - Hydra X/X BG
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/grakmaw-skyclave-ravager/
+url: https://tappedout.net/mtg-card/grakmaw-skyclave-ravager/
+

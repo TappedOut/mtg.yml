@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: ALA
@@ -13,82 +14,110 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.2
+draft_average: 6.14
 effective_cost:
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Vintage
-has_activated_abilities: false
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Regenerate
 mana_cost: 4R
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Skeletonize
 power_toughness: '0'
 printings:
+- ALA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Karl Kopinski
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Fire burns away both flesh and freedom.
+    frame: modern
+    mtgo_foil_id: 31138
+    mtgo_id: 31137
+    name: Shards of Alara
+    number: null
+    rarity: uncommon
+    release_date: '2008-10-03'
+    tla: ALA
+    variations: []
+    wizards_id: 175070
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=175070
 - A25:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Karl Kopinski
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: Fire burns away both flesh and freedom.
     frame: m15
     mtgo_foil_id: 67213
     mtgo_id: 67212
     name: Masters 25
     number: 149
     rarity: common
-    release_date: 2018-03-16
+    release_date: '2018-03-16'
+    tla: A25
+    variations: []
     wizards_id: 442138
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442138
-- ALA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 31138
-    mtgo_id: 31137
-    name: Shards of Alara
-    rarity: uncommon
-    release_date: 2008-10-03
-    wizards_id: 175070
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=175070
+rarity: uncommon
 rules: 'Skeletonize deals 3 damage to target creature. When a creature dealt damage
   this way is put into a graveyard this turn, put a 1/1 black Skeleton creature token
   into play with "[[B]]: Regenerate this creature."'
 slug: skeletonize
 synonyms:
 - Skeletonise
-tags: card-color-red card-color-red-cost-5 card-type-instant
 tapped_id: 10122
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Skeleton 1/1 B w/ Regenerate
-  power_toughness: 1/1
-  rules: '[[symbol:B]]: Regenerate this creature.'
-  subtype: Skeleton
-  tla: ALA
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 1/1
+    - - rules
+      - '[[symbol:B]]: Regenerate this creature.'
+    - - type
+      - Token Creature
+    - - subtype
+      - 232
+    - - cannonical_type
+      - Creature
+    - - name
+      - Skeleton 1/1 B w/ Regenerate
 type: Instant
-url: http://tappedout.net/mtg-card/skeletonize/
+url: https://tappedout.net/mtg-card/skeletonize/
+

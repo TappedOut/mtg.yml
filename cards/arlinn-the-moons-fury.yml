@@ -2,15 +2,13 @@ activated_abilities:
 - ': Add .'
 - ': Until end of turn, this becomes a 5/5 Werewolf creature with trample, indestructible
   and haste.'
-activation_costs:
+activated_costs:
 - G
 - R
 canadian_hl_score: 0
 cannonical_set: MID
 cannonical_type: Planeswalker
-color_indicator:
-- R
-- G
+color_indicator: RG
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -23,30 +21,32 @@ companions:
 effective_cost:
 - R
 - G
-flat_cost: 0
+flip: Arlinn, the Pack's Hope
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -57,45 +57,71 @@ keywords:
 - Transform
 - Counters
 - Daybound / Nightbound
-mana_cost_converted: 0
 mana_produced: RG
+mana_value: 0
+melds_from: []
 name: Arlinn, the Moon's Fury
+planeswalker_loyalty: 4
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 211
-    rarity: mythic_rare
-    release_date: 2022-01-21
 - MID:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    booster_exclude: true
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Anna Steinbauer
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Midnight Hunt'
     number: 211
     rarity: mythic_rare
-    release_date: 2021-09-24
+    release_date: '2021-09-24'
+    tla: MID
     variations:
-    - alterations:
-      - Foil
+    - identifier: '279'
+    - identifier: '307'
+    wizards_id: null
+    wizards_url: null
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: '279'
-    - alterations:
+    - !!python/tuple
+      - f
       - Foil
-      - Normal
-      identifier: '307'
+    artist: Anna Steinbauer
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 211
+    rarity: mythic_rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Nightbound *(If a player casts at least two spells during their own turn,\
   \ it becomes day next turn.)*\r\n\r\n[[symbol:loyalty-plus2]]: Add [[symbol:R]][[symbol:G]].\r\
   \n\r\n[[symbol:loyalty-zero]]: Until end of turn, this becomes a 5/5 Werewolf creature\
@@ -104,26 +130,39 @@ slug: arlinn-the-moons-fury
 subtype: Arlinn
 subtype_tokens:
 - Arlinn
-tags: card-mana-green card-mana-red card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 24993
 tokens:
-- cannonical_type: Emblem
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Day
-  power_toughness: null
-  rules: ''
-  tla: MID
-  type: Emblem
-- cannonical_type: Emblem
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Night
-  power_toughness: null
-  rules: ''
-  tla: MID
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Day
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Night
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/arlinn-the-moons-fury/
+url: https://tappedout.net/mtg-card/arlinn-the-moons-fury/
+

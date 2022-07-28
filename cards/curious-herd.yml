@@ -1,66 +1,86 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C20
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.0
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: 3G
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Curious Herd
 printings:
 - C20:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Zoltan Boros
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"If you don't break camp as you leave, you'll return to find\
+      \ it broken for you.\"\r\n<br>&mdash;Jonald, mission naturalist*"
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2020
     number: 59
     rarity: rare
-    release_date: 2020-05-15
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
     wizards_id: 484906
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=484906
 rules: Choose target opponent. You create X 3/3 green Beast creature tokens, where
   X is the number of artifacts that player controls.
 slug: curious-herd
-tags: card-color-green card-color-green-cost-4 card-type-instant
+synonyms: []
 tapped_id: 22702
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Beast 3/3 G
-  power_toughness: 3/3
-  rules: ''
-  subtype: Beast
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 3/3
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 83
+    - - cannonical_type
+      - Creature
+    - - name
+      - Beast 3/3 G
 type: Instant
-url: http://tappedout.net/mtg-card/curious-herd/
+url: https://tappedout.net/mtg-card/curious-herd/
+

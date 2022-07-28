@@ -1,82 +1,105 @@
 activated_abilities:
 - '1W, Sacrfice Cogworker''s Puzzleknot: Create a 1/1 colorless Servo artifact creature
   token.'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: KLD
 cannonical_type: Artifact
-color_identity:
-- W
+color_identity: W
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 2
+cube_average: 10.86
+draft_average: 8.68
+effective_cost: []
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: '2'
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Cogworker's Puzzleknot
 printings:
 - KLD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Cliff Childs
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 61792
     mtgo_id: 61791
     name: Kaladesh
     number: 201
     rarity: common
-    release_date: 2016-09-30
+    release_date: '2016-09-30'
+    tla: KLD
+    variations: []
     wizards_id: 417774
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417774
+rarity: common
 rules: "When Cogworker's Puzzleknot enters the battlefield, create a 1/1 colorless\
   \ Servo artifact creature token.\r\n\r\n1W, Sacrfice Cogworker's Puzzleknot: Create\
   \ a 1/1 colorless Servo artifact creature token."
 slug: cogworkers-puzzleknot
-tags: card-color-colorless card-color-colorless-cost-2 card-type-artifact
+synonyms: []
 tapped_id: 18269
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Servo 1/1 C
-  power_toughness: 1/1
-  rules: ''
-  subtype: Servo
-  tla: KLD
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 1175
+    - - cannonical_type
+      - Creature
+    - - name
+      - Servo 1/1 C
 type: Artifact
-url: http://tappedout.net/mtg-card/cogworkers-puzzleknot/
+url: https://tappedout.net/mtg-card/cogworkers-puzzleknot/
+

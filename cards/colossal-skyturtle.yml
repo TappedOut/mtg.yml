@@ -2,7 +2,7 @@ activated_abilities:
 - '*Channel* &mdash; , Discard this: Return target card from your graveyard to your
   hand.'
 - '*Channel* &mdash; , Discard this: Return target creature to its owner''s hand.'
-activation_costs:
+activated_costs:
 - G
 - U
 canadian_hl_score: 0
@@ -10,6 +10,7 @@ cannonical_set: NEO
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -18,29 +19,30 @@ companions:
 effective_cost:
 - U
 - G
-flat_cost: 7
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -50,21 +52,33 @@ keywords:
 - Channel
 - Ward
 mana_cost: 4GGU
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Colossal Skyturtle
 power_toughness: 6/5
 printings:
 - NEO:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Nicholas Gregory
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
     number: 216
     rarity: uncommon
-    release_date: 2022-02-10
+    release_date: '2022-02-10'
+    tla: NEO
+    variations: []
     wizards_id: 548527
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=548527
 rules: "Flying, ward [[symbol:2]] *(Whenever this becomes the target of a spell or\
@@ -76,8 +90,9 @@ slug: colossal-skyturtle
 subtype: Turtle
 subtype_tokens:
 - Turtle
-tags: card-color-blue card-color-gold card-color-gold-cost-7 card-color-green card-type-creature
-  card-type-enchantment
+synonyms: []
 tapped_id: 25913
+tokens: []
 type: Enchantment Creature
-url: http://tappedout.net/mtg-card/colossal-skyturtle/
+url: https://tappedout.net/mtg-card/colossal-skyturtle/
+

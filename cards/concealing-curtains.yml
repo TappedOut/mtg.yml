@@ -1,12 +1,13 @@
 activated_abilities:
 - ': Transform this. Activate this ability only as a sorcery.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -15,31 +16,32 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 1
 flip: Revealing Eye
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_front: true
 is_mtgo: true
@@ -48,44 +50,74 @@ keywords:
 - Defender
 - Transform
 mana_cost: B
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Concealing Curtains
 power_toughness: 0/4
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 368
-    rarity: rare
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Brian Valeza
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Specifics were kept secret, but word quickly spread that the show
+      was a must-see.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 101
     rarity: rare
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
     variations:
-    - alterations:
-      - Foil
+    - identifier: '367'
+    wizards_id: null
+    wizards_url: null
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: '367'
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Brian Valeza
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Specifics were kept secret, but word quickly spread that the show
+      was a must-see.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 368
+    rarity: rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Defender\r\n\r\n[[symbol:2]][[symbol:B]]: Transform this. Activate this ability\
   \ only as a sorcery."
 slug: concealing-curtains
 subtype: Wall
 subtype_tokens:
 - Wall
-tags: card-color-black card-color-black-cost-1 card-type-creature
+synonyms: []
 tapped_id: 25437
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/concealing-curtains/
+url: https://tappedout.net/mtg-card/concealing-curtains/
+

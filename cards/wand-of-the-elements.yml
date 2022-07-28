@@ -2,33 +2,38 @@ activated_abilities:
 - 'Tap, Sacrifice an Island: Put a 2/2 blue Elemental creature token with flying into
   play.'
 - 'Tap, Sacrifice a Mountain: Put a 3/3 red Elemental creature token into play.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DST
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 4
+draft_average: 2.0
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -36,47 +41,73 @@ keywords:
 - Flying
 - Sacrifice
 mana_cost: '4'
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Wand of the Elements
+power_toughness: ''
 printings:
 - DST:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Thomas M. Baxa
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: It gives legs to the earth and wings to the sky.
     frame: modern
     mtgo_foil_id: 20582
     mtgo_id: 20581
     name: Darksteel
     number: 158
     rarity: rare
-    release_date: 2004-02-06
+    release_date: '2004-02-06'
+    tla: DST
+    variations: []
     wizards_id: 49775
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=49775
+rarity: rare
 rules: "Tap, Sacrifice an Island: Put a 2/2 blue Elemental creature token with flying\
   \ into play.\r\n\r\nTap, Sacrifice a Mountain: Put a 3/3 red Elemental creature\
   \ token into play."
 slug: wand-of-the-elements
-tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
+synonyms: []
 tapped_id: 3234
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 3/3 R Token Creature Elemental
-  power_toughness: 3/3
-  rules: ''
-  subtype: Elemental
-  type: Token Creature
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 2/2 U Token Creature Elemental
-  power_toughness: 2/2
-  rules: Flying
-  subtype: Elemental
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 3/3
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - null
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 2/2
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - null
 type: Artifact
-url: http://tappedout.net/mtg-card/wand-of-the-elements/
+url: https://tappedout.net/mtg-card/wand-of-the-elements/
+

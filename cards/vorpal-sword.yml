@@ -1,6 +1,6 @@
 activated_abilities:
 - ': Until end of turn, this gains '
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: AFR
@@ -8,6 +8,7 @@ cannonical_type: Artifact
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -16,30 +17,31 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 1
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -48,32 +50,46 @@ keywords:
 - Equip
 - Attach
 mana_cost: B
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Vorpal Sword
 printings:
 - AFR:
     alterations:
-    - D&D Foil
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    - !!python/tuple
+      - f-&
+      - D&D Foil
+    artist: Caio Monteiro
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Dungeons & Dragons: Adventures in the Forgotten Realms'
     number: 124
     rarity: rare
-    release_date: 2021-07-23
+    release_date: '2021-07-23'
+    tla: AFR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '377'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '396'
+    - identifier: '377'
+    - identifier: '396'
     wizards_id: 527411
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=527411
 rules: "Equipped creature gets +2/+0 and has deathtouch.\r\n\r\n[[symbol:5]][[symbol:B]][[symbol:B]][[symbol:B]]:\
@@ -83,7 +99,9 @@ slug: vorpal-sword
 subtype: Equipment
 subtype_tokens:
 - Equipment
-tags: card-color-black card-color-black-cost-1 card-type-artifact
+synonyms: []
 tapped_id: 24374
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/vorpal-sword/
+url: https://tappedout.net/mtg-card/vorpal-sword/
+

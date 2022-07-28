@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
@@ -5,38 +7,39 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - W
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Penny Dreadful
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -44,34 +47,56 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 2W
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Mage's Attendant
 power_toughness: 3/2
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 698
-    rarity: uncommon
-    release_date: 2022-06-10
-    wizards_id: 567515
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567515
 - SNC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Igor Kieryluk
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Crime sometimes makes unlikely allies into lifelong friends.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Streets of New Capenna
     number: 21
     rarity: uncommon
-    release_date: 2022-04-29
+    release_date: '2022-04-29'
+    tla: SNC
+    variations: []
     wizards_id: 555222
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=555222
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Igor Kieryluk
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: '*Crime sometimes makes unlikely allies into lifelong friends.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 698
+    rarity: uncommon
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567515
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567515
 rules: 'When Mage''s Attendant enters the battlefield, create a 1/1 blue Wizard creature
   token with "[[symbol:1]], Sacrifice this creature: Counter target noncreature spell
   unless its controller pays [[symbol:1]]."'
@@ -80,18 +105,25 @@ subtype: Cat Rogue
 subtype_tokens:
 - Cat
 - Rogue
-tags: card-color-white card-color-white-cost-3 card-type-creature
+synonyms: []
 tapped_id: 26184
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Wizard 1/1 U
-  power_toughness: 1/1
-  rules: '[[symbol:1]], Sacrifice this creature: Counter target noncreature spell
-    unless its controller pays [[symbol:1]].'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 1/1
+    - - rules
+      - '[[symbol:1]], Sacrifice this creature: Counter target noncreature spell unless
+        its controller pays [[symbol:1]].'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Wizard 1/1 U
 type: Creature
-url: http://tappedout.net/mtg-card/mages-attendant/
+url: https://tappedout.net/mtg-card/mages-attendant/
+

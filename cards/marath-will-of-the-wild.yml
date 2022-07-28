@@ -2,6 +2,7 @@ activated_abilities:
 - ", Remove X +1/+1 counters from Marath: Choose one \u2014 Put X +1/+1 counters on\
   \ target creature; or Marath deals X damage to target creature or player; or put\
   \ an X/X green Elemental creature token onto the battlefield. X can't be 0."
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Creature
@@ -9,29 +10,32 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 11.55
 effective_cost:
 - W
 - R
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -39,36 +43,57 @@ keywords:
 - Counters
 - Tokens
 mana_cost: RGW
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Marath, Will of the Wild
 power_toughness: 0/0
 printings:
-- CMR:
-    alterations:
-    - Etched
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: Commander Legends
-    number: 527
-    rarity: mythic_rare
-    release_date: 2020-11-20
-    wizards_id: 503330
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503330
 - C13:
     alterations:
-    - Normal
-    - Oversized
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - oversized
+      - Oversized
+    artist: Tyler Jacobson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 51393
     mtgo_id: 51392
     name: Commander 2013
     number: 198
     rarity: mythic_rare
-    release_date: 2013-11-01
+    release_date: '2013-11-01'
+    tla: C13
+    variations: []
     wizards_id: 376404
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376404
+- CMR:
+    alterations:
+    - !!python/tuple
+      - f-etch
+      - Etched
+    artist: Tyler Jacobson
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Legends
+    number: 527
+    rarity: mythic_rare
+    release_date: '2020-11-20'
+    tla: CMR
+    variations: []
+    wizards_id: 503330
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503330
+rarity: mythic_rare
 rules: "Marath, Will of the Wild enters the battlefield with a number of +1/+1 counters\
   \ on it equal to the amount of mana spent to cast it.\r\n\r\n[[symbol:X]], Remove\
   \ X +1/+1 counters from Marath: Choose one \u2014 Put X +1/+1 counters on target\
@@ -79,19 +104,24 @@ subtype: Elemental Beast
 subtype_tokens:
 - Elemental
 - Beast
-tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-red card-color-white
-  card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 15052
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elemental X/X G
-  power_toughness: X/X
-  rules: ''
-  subtype: Elemental
-  tla: C18
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - X/X
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elemental X/X G
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/marath-will-of-the-wild/
+url: https://tappedout.net/mtg-card/marath-will-of-the-wild/
+

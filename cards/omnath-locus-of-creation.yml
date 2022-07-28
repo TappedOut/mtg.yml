@@ -1,38 +1,19 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 - R
 - U
 - W
-arena:
-  Alchemy:
-    date: 2022-05-05
-    keywords:
-    - Landfall
-    rules: "When this enters the battlefield, draw a card.\r\n\r\n*Landfall* &mdash;\
-      \ Whenever a land enters the battlefield under your control, you gain 4 life\
-      \ if this is the first time this ability has resolved this turn. If it's the\
-      \ second time, add [[symbol:R]][[symbol:G]][[symbol:W]][[symbol:U]]. If it's\
-      \ the third time, this deals 4 damage to each opponent and each planeswalker\
-      \ you don't control."
-  Historic:
-    date: 2022-05-05
-    keywords:
-    - Landfall
-    rules: "When this enters the battlefield, draw a card.\r\n\r\n*Landfall* &mdash;\
-      \ Whenever a land enters the battlefield under your control, you gain 4 life\
-      \ if this is the first time this ability has resolved this turn. If it's the\
-      \ second time, add [[symbol:R]][[symbol:G]][[symbol:W]][[symbol:U]]. If it's\
-      \ the third time, this deals 4 damage to each opponent and each planeswalker\
-      \ you don't control."
 canadian_hl_score: 0
 cannonical_set: ZNR
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
@@ -40,71 +21,95 @@ effective_cost:
 - U
 - R
 - G
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
 - Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
 - Landfall
 mana_cost: RGWU
-mana_cost_converted: 4
 mana_produced: RGWU
+mana_value: 4
+melds_from: []
 name: Omnath, Locus of Creation
 power_toughness: 4/4
 printings:
 - ZNR:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Zendikar Rising
     number: 232
     rarity: mythic_rare
-    release_date: 2020-09-25
+    release_date: '2020-09-25'
+    tla: ZNR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '312'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '312'
+    - identifier: PromoPack
     wizards_id: 491883
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=491883
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Tedrick
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "When this enters the battlefield, draw a card.\r\n\r\n*Landfall* &mdash; Whenever\
   \ a land enters the battlefield under your control, you gain 4 life if this is the\
   \ first time this ability has resolved this turn. If it's the second time, gain\
@@ -114,9 +119,9 @@ slug: omnath-locus-of-creation
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-green card-color-red
-  card-color-white card-mana-blue card-mana-green card-mana-red card-mana-white card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 23186
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/omnath-locus-of-creation/
+url: https://tappedout.net/mtg-card/omnath-locus-of-creation/
+

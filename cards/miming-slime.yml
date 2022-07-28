@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: GK2
 cannonical_type: Sorcery
@@ -11,91 +13,138 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.33
+draft_average: 5.65
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Miming Slime
 printings:
-- GK2:
+- GTC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Svetlin Velinov
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: 'Ravnica Allegiance: Guild Kits'
-    number: 113
-    rarity: common
-    release_date: 2019-02-15
-    wizards_id: 460772
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460772
+    cannonical: true
+    flavour_text: "\"We paid the Simic very well for this capability, but we should\
+      \ quickly recoup the expenses in saved wages.\" \u2014Miliana, Orzhov prelate"
+    frame: modern
+    mtgo_foil_id: 47636
+    mtgo_id: 47635
+    name: Gatecrash
+    number: null
+    rarity: uncommon
+    release_date: '2013-02-01'
+    tla: GTC
+    variations: []
+    wizards_id: 366340
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=366340
 - UMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Svetlin Velinov
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"We paid the Simic very well for this capability, but we should\
+      \ quickly recoup our expenses in saved wages.\"\r\n<br>&mdash;Milana, Orzhov\
+      \ prelate*"
     frame: m15
     mtgo_foil_id: 70420
     mtgo_id: 70419
     name: Ultimate Masters
     number: 173
     rarity: common
-    release_date: 2018-12-07
+    release_date: '2018-12-07'
+    tla: UMA
+    variations: []
     wizards_id: 456769
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456769
-- GTC:
+- GK2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Svetlin Velinov
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 47636
-    mtgo_id: 47635
-    name: Gatecrash
-    rarity: uncommon
-    release_date: 2013-02-01
-    wizards_id: 366340
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=366340
+    cannonical: true
+    flavour_text: "*\"We paid the simic ver well for this capability, but we should\
+      \ quickly recoup our expenses in saved wages.\"\r\n<br>mdash;Milana, Orzhov\
+      \ prelate*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Ravnica Allegiance: Guild Kits'
+    number: 113
+    rarity: common
+    release_date: '2019-02-15'
+    tla: GK2
+    variations: []
+    wizards_id: 460772
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460772
+rarity: uncommon
 rules: Create an X/X green Ooze creature token, where X is the greatest power among
   creatures you control.
 slug: miming-slime
-tags: card-color-green card-color-green-cost-3 card-type-sorcery
+synonyms: []
 tapped_id: 14359
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Ooze X/X G
-  power_toughness: X/X
-  rules: ''
-  subtype: Ooze
-  tla: 2XM
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - X/X
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 14
+    - - cannonical_type
+      - Creature
+    - - name
+      - Ooze X/X G
 type: Sorcery
-url: http://tappedout.net/mtg-card/miming-slime/
+url: https://tappedout.net/mtg-card/miming-slime/
+

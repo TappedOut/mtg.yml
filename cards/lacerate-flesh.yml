@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Sorcery
@@ -13,82 +15,113 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 5
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 is_mtgo: true
-is_permanent: false
 keywords:
 - Sacrifice
 - Tokens
 mana_cost: 4R
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Lacerate Flesh
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 433
-    rarity: common
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Pauline Voss
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 166
     rarity: common
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
+    variations: []
     wizards_id: 541023
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=541023
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Pauline Voss
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 433
+    rarity: common
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: 'This deals 4 damage to target creature. Create a number of Blood tokens equal
   to that amount of excess damage dealt to that creature this way. *(They''re artifacts
   with "[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this: Draw a card.")*'
 slug: lacerate-flesh
-tags: card-color-red card-color-red-cost-5 card-type-sorcery
+synonyms: []
 tapped_id: 25599
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Blood
-  power_toughness: null
-  rules: '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
-    a card.'
-  subtype: Blood
-  tla: VOW
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
+        a card.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1692
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Blood
 type: Sorcery
-url: http://tappedout.net/mtg-card/lacerate-flesh/
+url: https://tappedout.net/mtg-card/lacerate-flesh/
+

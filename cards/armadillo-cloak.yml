@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: EMA
 cannonical_type: Enchantment
@@ -5,32 +7,35 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.0
+draft_average: 5.09
 effective_cost:
 - W
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
 - Pauper EDH
-- Premodern
-- Tiny Leaders
+- Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -38,98 +43,178 @@ keywords:
 - Trample
 - Attach
 mana_cost: 1GW
-mana_cost_converted: 3
+mana_produced: ''
+mana_value: 3
+melds_from: []
 name: Armadillo Cloak
+power_toughness: ''
 printings:
-- MYS1:
+- INV:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Paolo Parente
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: uncommon
-    release_date: 2020-03-14
-- EMA:
+    cannonical: true
+    flavour_text: "\"Don't laugh. It works.\" \r\n\x97Yavimaya ranger"
+    frame: original
+    mtgo_foil_id: 14328
+    mtgo_id: 14327
+    name: Invasion
+    number: null
+    rarity: common
+    release_date: '2000-10-02'
+    tla: INV
+    variations: []
+    wizards_id: 23164
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=23164
+- ARC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Paolo Parente
+    booster_exclude: false
     border_color: B
-    frame: m15
-    mtgo_foil_id: 60654
-    mtgo_id: 60653
-    name: Eternal Masters
-    number: 195
-    rarity: uncommon
-    release_date: 2016-06-10
-    wizards_id: 413737
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413737
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Archenemy
+    number: null
+    rarity: common
+    release_date: '2010-06-18'
+    tla: ARC
+    variations: []
+    wizards_id: 220498
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220498
+- DDE:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Wayne Reynolds
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '"Don''t laugh. It works."'
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 35485
+    name: 'Duel Decks: Phyrexia vs. The Coalition'
+    number: null
+    rarity: common
+    release_date: '2010-05-19'
+    tla: DDE
+    variations: []
+    wizards_id: 207890
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=207890
 - VMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Wayne Reynolds
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*"Don''t laugh. It works."*'
     frame: modern
     mtgo_foil_id: 52892
     mtgo_id: 52891
     name: Vintage Masters
     number: 242
     rarity: uncommon
-    release_date: 2014-06-16
+    release_date: '2014-06-16'
+    tla: VMA
+    variations: []
     wizards_id: 382846
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382846
-- ARC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    name: Archenemy
-    rarity: common
-    release_date: 2010-06-18
-    wizards_id: 220498
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220498
-- DDE:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 35485
-    name: 'Duel Decks: Phyrexia vs. The Coalition'
-    rarity: common
-    release_date: 2010-05-19
-    wizards_id: 207890
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=207890
-- INV:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: original
-    mtgo_foil_id: 14328
-    mtgo_id: 14327
-    name: Invasion
-    rarity: common
-    release_date: 2000-10-02
-    wizards_id: 23164
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=23164
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Paolo Parente
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*"Don''t laugh. It works." -Yavimaya ranger*'
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 2
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- EMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Wayne Reynolds
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '"Don''t laugh. It works."'
+    frame: m15
+    mtgo_foil_id: 60654
+    mtgo_id: 60653
+    name: Eternal Masters
+    number: 195
+    rarity: uncommon
+    release_date: '2016-06-10'
+    tla: EMA
+    variations: []
+    wizards_id: 413737
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413737
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Wayne Reynolds
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '"Don''t laugh. It works."'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: uncommon
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: "Enchant creature\r\n\r\nEnchanted creature gets +2/+2 and has trample.\r\n\
   \r\nWhenever enchanted creature deals damage, you gain that much life."
 slug: armadillo-cloak
 subtype: Aura
 subtype_tokens:
 - Aura
-tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-white card-type-enchantment
+synonyms: []
 tapped_id: 5032
+tokens: []
 type: Enchantment
-url: http://tappedout.net/mtg-card/armadillo-cloak/
+url: https://tappedout.net/mtg-card/armadillo-cloak/
+

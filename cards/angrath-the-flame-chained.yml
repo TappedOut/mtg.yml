@@ -4,6 +4,7 @@ activated_abilities:
   end of turn. Sacrifice it at the beginning of the next end step if it has converted
   mana cost/mana value 3 or less.'
 - ': Each opponent loses life equal to the number of cards in their graveyard.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: RIX
 cannonical_type: Planeswalker
@@ -11,33 +12,37 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.57
+draft_average: 1.26
 effective_cost:
 - B
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -47,45 +52,84 @@ keywords:
 - Tap/Untap
 - Counters
 mana_cost: 3BR
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Angrath, the Flame-Chained
+planeswalker_loyalty: 4
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 398
-    rarity: mythic_rare
-    release_date: 2019-12-09
 - RIX:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Raymond Swanland
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 66758
     mtgo_id: 66757
     name: Rivals of Ixalan
     number: 152
     rarity: mythic_rare
-    release_date: 2018-01-19
+    release_date: '2018-01-19'
+    tla: RIX
+    variations: []
     wizards_id: 439809
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439809
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Song QDin
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Uta Natsume
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 398
+    rarity: mythic_rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Each opponent discards a card and loses 2 life.\r\
   \n\r\n[[symbol:loyalty-minus3]]: Gain control of target creature until end of turn.\
   \ Untap it. It gains haste until end of turn. Sacrifice it at the beginning of the\
@@ -95,8 +139,9 @@ slug: angrath-the-flame-chained
 subtype: Angrath
 subtype_tokens:
 - Angrath
-tags: card-color-black card-color-gold card-color-gold-cost-5 card-color-red card-type-legendary
-  card-type-planeswalker
+synonyms: []
 tapped_id: 19910
+tokens: []
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/angrath-the-flame-chained/
+url: https://tappedout.net/mtg-card/angrath-the-flame-chained/
+

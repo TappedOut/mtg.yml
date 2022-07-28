@@ -1,41 +1,43 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: SNC
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - R
-flat_cost: 5
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Penny Dreadful
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -44,20 +46,33 @@ keywords:
 - Tokens
 - Blitz
 mana_cost: 3RR
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Pugnacious Pugilist
 power_toughness: 4/4
 printings:
 - SNC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Justine Cruz
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Streets of New Capenna
     number: 117
     rarity: uncommon
-    release_date: 2022-04-29
+    release_date: '2022-04-29'
+    tla: SNC
+    variations: []
     wizards_id: 555318
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=555318
 rules: "Whenever this attacks, create a tapped and attacking 1/1 red Devil creature\
@@ -70,20 +85,26 @@ subtype: Ogre Warrior
 subtype_tokens:
 - Ogre
 - Warrior
-tags: card-color-red card-color-red-cost-5 card-type-creature
+synonyms: []
 tapped_id: 26320
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Devil 1/1 R
-  power_toughness: 1/1
-  rules: When this creature dies *(is put into the graveyard from the battlefield,
-    tokens are put into the graveyard before ceasing to exist)*, this deals 1 damage
-    to any target *(creature, player or planeswalker)*.
-  subtype: Devil
-  tla: SNC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - When this creature dies *(is put into the graveyard from the battlefield,
+        tokens are put into the graveyard before ceasing to exist)*, this deals 1
+        damage to any target *(creature, player or planeswalker)*.
+    - - type
+      - Token Creature
+    - - subtype
+      - 675
+    - - cannonical_type
+      - Creature
+    - - name
+      - Devil 1/1 R
 type: Creature
-url: http://tappedout.net/mtg-card/pugnacious-pugilist/
+url: https://tappedout.net/mtg-card/pugnacious-pugilist/
+

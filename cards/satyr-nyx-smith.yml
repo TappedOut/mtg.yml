@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: BNG
@@ -6,53 +7,68 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 3.5
+draft_average: 4.79
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Satyr Nyx-Smith
 power_toughness: 2/1
 printings:
 - BNG:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Greg Staples
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: modern
     mtgo_foil_id: 51686
     mtgo_id: 51685
     name: Born of the Gods
     number: 109
     rarity: uncommon
-    release_date: 2014-02-07
+    release_date: '2014-02-07'
+    tla: BNG
+    variations: []
     wizards_id: 378481
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=378481
+rarity: uncommon
 rules: "Haste\r\n\r\n*Inspired* &madsh; Whenever Satyr Nyx-Smith becomes untapped,\
   \ you may pay [[symbol:2]][[symbol:R]]. If you do, put a 3/1 red Elemental enchantment\
   \ creature token with haste onto the battlefield."
@@ -61,18 +77,24 @@ subtype: Satyr Shaman
 subtype_tokens:
 - Satyr
 - Shaman
-tags: card-color-red card-color-red-cost-3 card-type-creature
+synonyms: []
 tapped_id: 15171
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Enchantment Elemental 3/1 R
-  power_toughness: 3/1
-  rules: Haste
-  subtype: Elemental
-  tla: BNG
-  type: Token Enchantment Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 3/1
+    - - rules
+      - Haste
+    - - type
+      - Token Enchantment Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - Enchantment Elemental 3/1 R
 type: Creature
-url: http://tappedout.net/mtg-card/satyr-nyx-smith/
+url: https://tappedout.net/mtg-card/satyr-nyx-smith/
+

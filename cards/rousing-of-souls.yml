@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CNS
 cannonical_type: Sorcery
@@ -11,60 +13,82 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.27
+draft_average: 6.67
 effective_cost:
 - W
-flat_cost: 3
 formats:
 - 1v1 Commander
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Pauper
+- Casual
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
-is_mtgo: false
-is_permanent: false
+- Highlander
+- Leviathan
+keywords: []
 mana_cost: '{2}{W}'
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Rousing of Souls
+power_toughness: ''
 printings:
 - CNS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jeff Simpson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"We remember. We rise."'
     frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Conspiracy
     number: 19
     rarity: common
-    release_date: 2014-06-06
+    release_date: '2014-06-06'
+    tla: CNS
+    variations: []
     wizards_id: 382348
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382348
+rarity: common
 rules: "Parley \u2014 Each player reveals the top card of his or her library. For\
   \ each nonland card revealed this way, you put a 1/1 white Spirit creature token\
   \ with flying onto the battlefield. Then each player draws a card."
 slug: rousing-of-souls
-tags: card-color-white card-color-white-cost-3 card-type-sorcery
+synonyms: []
 tapped_id: 15595
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spirit 1/1 W
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Spirit
-  tla: CNS
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 17
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spirit 1/1 W
 type: Sorcery
-url: http://tappedout.net/mtg-card/rousing-of-souls/
+url: https://tappedout.net/mtg-card/rousing-of-souls/
+

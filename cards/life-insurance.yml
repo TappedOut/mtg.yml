@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 - W
 canadian_hl_score: 0
@@ -8,6 +9,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -15,21 +17,21 @@ companions:
 effective_cost:
 - W
 - B
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
 - Penny Dreadful
-- Vintage
-has_activated_abilities: false
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -37,42 +39,57 @@ keywords:
 - Extort
 - Tokens
 mana_cost: 3WB
-mana_cost_converted: 5
 mana_produced: W, U, B, R, G
+mana_value: 5
+melds_from: []
 name: Life Insurance
 printings:
 - NCC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Brian Valeza
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*All the money in the world won''t buy back a pulse.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Streets of New Capenna: Commander'
     number: 74
     rarity: rare
-    release_date: 2022-04-30
+    release_date: '2022-04-30'
+    tla: NCC
     variations:
-    - alterations:
-      - Normal
-      identifier: '174'
+    - identifier: '174'
+    wizards_id: null
+    wizards_url: null
 rules: "Extort *(Whenever you cast a spell, you may pay [[symbol:WB]]. If you do,\
   \ each opponent loses 1 life and you gain that much life.)*\r\n\r\nWhenever a nontoken\
   \ creature dies *(is put into the graveyard from the battlefield)*, you lose 1 life\
   \ and create a Treasure token. *(It's a colourless artifact with \"[[symbol:T]],\
   \ Sacrifice this: Add one mana of any colour.\")*"
 slug: life-insurance
-tags: card-color-black card-color-gold card-color-gold-cost-5 card-color-white card-mana-black
-  card-mana-blue card-mana-green card-mana-red card-mana-white card-type-enchantment
+synonyms: []
 tapped_id: 26419
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: 2X2
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Enchantment
-url: http://tappedout.net/mtg-card/life-insurance/
+url: https://tappedout.net/mtg-card/life-insurance/
+

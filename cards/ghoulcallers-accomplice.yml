@@ -1,44 +1,48 @@
 activated_abilities:
 - ', Exile Ghoulcaller''s Accomplice from your graveyard: Create a 2/2 black Zombie
   creature token. Activate this ability only at any time you could cast a sorcery.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: JMP
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.63
+draft_average: 6.75
 effective_cost:
 - B
-flat_cost: 2
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,57 +50,105 @@ keywords:
 - Exile
 - Tokens
 mana_cost: 1B
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Ghoulcaller's Accomplice
 power_toughness: 2/2
 printings:
-- JMP:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Jumpstart
-    number: 237
-    rarity: common
-    release_date: 2020-07-17
-    wizards_id: 489243
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489243
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
-- UMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 70266
-    mtgo_id: 70265
-    name: Ultimate Masters
-    number: 96
-    rarity: common
-    release_date: 2018-12-07
 - SOI:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dave Kendall
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Once in the box, we''re all the same."*'
     frame: m15
     mtgo_foil_id: 59851
     mtgo_id: 59850
     name: Shadows over Innistrad
     number: 112
     rarity: common
-    release_date: 2016-04-08
+    release_date: '2016-04-08'
+    tla: SOI
+    variations: []
     wizards_id: 409860
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409860
+- UMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dave Kendall
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*"Once in the box, we''re all the same."*'
+    frame: m15
+    mtgo_foil_id: 70266
+    mtgo_id: 70265
+    name: Ultimate Masters
+    number: 96
+    rarity: common
+    release_date: '2018-12-07'
+    tla: UMA
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Dave Kendall
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"Once in the box, we''re all the same."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- JMP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dave Kendall
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*"Once in the box, we''re all the same."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Jumpstart
+    number: 237
+    rarity: common
+    release_date: '2020-07-17'
+    tla: JMP
+    variations: []
+    wizards_id: 489243
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489243
+rarity: common
 rules: '[[symbol:3]][[symbol:B]], Exile Ghoulcaller''s Accomplice from your graveyard:
   Create a 2/2 black Zombie creature token. Activate this ability only at any time
   you could cast a sorcery.'
@@ -105,18 +157,24 @@ subtype: Human Rogue
 subtype_tokens:
 - Human
 - Rogue
-tags: card-color-black card-color-black-cost-2 card-type-creature
+synonyms: []
 tapped_id: 17757
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: 2X2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Creature
-url: http://tappedout.net/mtg-card/ghoulcallers-accomplice/
+url: https://tappedout.net/mtg-card/ghoulcallers-accomplice/
+

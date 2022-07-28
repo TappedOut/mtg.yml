@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DDE
 cannonical_type: Instant
@@ -11,74 +13,104 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.78
+draft_average: 4.4
 effective_cost:
 - W
 - R
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
+keywords: []
 mana_cost: WGR
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Rith's Charm
+power_toughness: ''
 printings:
-- DDE:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 35475
-    name: 'Duel Decks: Phyrexia vs. The Coalition'
-    number: 60
-    rarity: uncommon
-    release_date: 2010-05-19
-    wizards_id: 209152
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=209152
 - PLS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: David Martin
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 15240
     mtgo_id: 15239
     name: Planeshift
+    number: null
     rarity: uncommon
-    release_date: 2001-02-01
+    release_date: '2001-02-01'
+    tla: PLS
+    variations: []
     wizards_id: 25865
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=25865
+- DDE:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: David Martin
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 35475
+    name: 'Duel Decks: Phyrexia vs. The Coalition'
+    number: 60
+    rarity: uncommon
+    release_date: '2010-05-19'
+    tla: DDE
+    variations: []
+    wizards_id: 209152
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=209152
+rarity: uncommon
 rules: Choose one - Destroy target nonbasic land; or put three 1/1 green Saproling
   creature tokens into play; or prevent all damage a source of your choice would deal
   this turn.
 slug: riths-charm
-tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-red card-color-white
-  card-type-instant
+synonyms: []
 tapped_id: 4973
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Saproling 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Saproling
-  tla: DDE
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 893
+    - - cannonical_type
+      - Creature
+    - - name
+      - Saproling 1/1 G
 type: Instant
-url: http://tappedout.net/mtg-card/riths-charm/
+url: https://tappedout.net/mtg-card/riths-charm/
+

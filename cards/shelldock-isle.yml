@@ -2,13 +2,12 @@ activated_abilities:
 - ': Add .'
 - ', : You may play the exiled card without paying its mana cost if a library has
   twenty or fewer cards in it.'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: LRW
 cannonical_type: Land
-color_identity:
-- U
+color_identity: U
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -20,22 +19,26 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 7.3
+draft_average: 3.5
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -43,38 +46,64 @@ is_permanent: true
 keywords:
 - Exile
 - Hideaway
-mana_cost_converted: 0
 mana_produced: U
+mana_value: 0
+melds_from: []
 name: Shelldock Isle
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 230
-    rarity: rare
-    release_date: 2019-12-09
-    variations:
-    - identifier: '437'
 - LRW:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Mark Tedin
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 28708
     mtgo_id: 28707
     name: Lorwyn
     number: 272
     rarity: rare
-    release_date: 2007-10-12
+    release_date: '2007-10-12'
+    tla: LRW
+    variations: []
     wizards_id: 146178
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=146178
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Marija Tiurina
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 230
+    rarity: rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations:
+    - identifier: '437'
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "Hideaway *(This enters the battlefield tapped. When this does, look at the\
   \ top four cards of your library, exile one face down, then put the rest on the\
   \ bottom of your library.)*\r\n\r\n[[symbol:T]]: Add [[symbol:U]].\r\n\r\n[[symbol:U]],\
@@ -85,7 +114,8 @@ synonyms:
 - U Hideaway
 - U Hideawayland
 - U Hideaway Land
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-blue card-type-land
 tapped_id: 367
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/shelldock-isle/
+url: https://tappedout.net/mtg-card/shelldock-isle/
+

@@ -1,62 +1,92 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CN2
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 11.1
+draft_average: 6.0
 effective_cost:
 - W
-flat_cost: 5
 formats:
 - 1v1 Commander
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Vintage
-has_activated_abilities: false
-is_mtgo: false
 is_permanent: true
 keywords:
 - Council's Dilemma
 mana_cost: 4W
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Lieutenants of the Guard
 power_toughness: 2/2
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
 - CN2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Johannes Voss
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Conspiracy: Take the Crown'
     number: 16
     rarity: common
-    release_date: 2016-08-26
+    release_date: '2016-08-26'
+    tla: CN2
+    variations: []
     wizards_id: 416773
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416773
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Johannes Voss
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: _Council's dilemma_ - When Lieutenants of the Guard enters the battlefield,
   starting with you, each player votes for strength or numbers. Put a +1/+1 counter
   on Lieutenants of the Guard for each strength vote and put a 1/1 white Soldier creature
@@ -66,18 +96,24 @@ subtype: Human Soldier
 subtype_tokens:
 - Human
 - Soldier
-tags: card-color-white card-color-white-cost-5 card-type-creature
+synonyms: []
 tapped_id: 18131
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Soldier 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Soldier
-  tla: CN2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 18
+    - - cannonical_type
+      - Creature
+    - - name
+      - Soldier 1/1 W
 type: Creature
-url: http://tappedout.net/mtg-card/lieutenants-of-the-guard/
+url: https://tappedout.net/mtg-card/lieutenants-of-the-guard/
+

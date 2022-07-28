@@ -1,16 +1,14 @@
 activated_abilities:
 - ': Add .'
 - ', : Target creature gets +2/+0 and gains vigilance and haste until end of turn.'
-activation_costs:
+activated_costs:
 - C
 - R
 - W
 canadian_hl_score: 0
 cannonical_set: C21
 cannonical_type: Land
-color_identity:
-- W
-- R
+color_identity: RW
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -22,25 +20,29 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 12.21
+draft_average: 2.75
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -48,61 +50,114 @@ is_permanent: true
 keywords:
 - Haste
 - Vigilance
-mana_cost_converted: 0
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Slayers' Stronghold
 printings:
-- C21:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 318
-    rarity: rare
-    release_date: 2021-04-23
-    wizards_id: 519353
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519353
-- CMR:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: Commander Legends
-    number: 494
-    rarity: common
-    release_date: 2020-11-20
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 356
-    rarity: rare
-    release_date: 2019-12-09
 - AVR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Karl Kopinski
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Its courtyards are lit during every hour of the day so that night
+      may never fall within its walls.
     frame: modern
     mtgo_foil_id: 44096
     mtgo_id: 44095
     name: Avacyn Restored
     number: 229
     rarity: rare
-    release_date: 2012-05-04
+    release_date: '2012-05-04'
+    tla: AVR
+    variations: []
     wizards_id: 240170
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=240170
+- CMR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Karl Kopinski
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: '*Its courtyards are lit during every hour of the day so that night
+      may never fall within its walls.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Legends
+    number: 494
+    rarity: common
+    release_date: '2020-11-20'
+    tla: CMR
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Karl Kopinski
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Its courtyards are lit during every hour of the day so that night
+      may never fall within its walls.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 318
+    rarity: rare
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519353
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519353
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Alayna Danner
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 356
+    rarity: rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:R]][[symbol:W]], [[symbol:T]]:\
   \ Target creature gets +2/+0 and gains vigilance and haste until end of turn."
 slug: slayers-stronghold
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
+synonyms: []
 tapped_id: 13657
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/slayers-stronghold/
+url: https://tappedout.net/mtg-card/slayers-stronghold/
+

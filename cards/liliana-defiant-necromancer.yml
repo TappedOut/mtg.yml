@@ -3,11 +3,11 @@ activated_abilities:
 - ': Return target nonlegendary creature card with converted mana cost/mana value
   X from your graveyard to the battlefield.'
 - ': You get an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ORI
 cannonical_type: Planeswalker
-color_indicator:
-- B
+color_indicator: B
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -17,87 +17,131 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 3.5
 effective_cost:
 - B
-flat_cost: 0
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Liliana, Defiant Necromancer
+planeswalker_loyalty: 3
 printings:
-- CC2:
+- ORI:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Karla Ortiz
     booster_exclude: true
     border_color: B
-    cannonical: false
+    cannonical: true
+    flavour_text: ''
     frame: m15
-    name: 'Commander Collections: Black'
-    number: 1
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Magic Origins
+    number: 106
     rarity: mythic_rare
-    release_date: 2021-12-01
+    release_date: '2015-06-17'
+    tla: ORI
+    variations: []
+    wizards_id: 398442
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398442
 - V17:
     alterations:
-    - Foil
-    booster_exclude: true
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Karla Ortiz
+    booster_exclude: false
     border_color: B
     cannonical: false
-    foil: foil
-    foil_only: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 66446
     mtgo_id: 66445
     name: 'From the Vault: Transform'
     number: 14
     rarity: mythic_rare
-    release_date: 2017-11-24
+    release_date: '2017-11-24'
+    tla: V17
+    variations: []
     wizards_id: 439340
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439340
-- ORI:
-    alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: Magic Origins
-    number: 106
-    rarity: mythic_rare
-    release_date: 2015-06-17
-    wizards_id: 398442
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398442
 - '000':
     alterations:
-    - Foil
-    booster_exclude: true
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Wayne Reynolds
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- CC2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Bastein L. Deharme
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Collections: Black'
+    number: 1
+    rarity: mythic_rare
+    release_date: '2021-12-01'
+    tla: CC2
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus2]]: Each player discards a card.\r\n\r\n[[symbol:loyalty-minusX]]:\
   \ Return target nonlegendary creature card with converted mana cost/mana value X\
   \ from your graveyard to the battlefield.\r\n\r\n[[symbol:loyalty-minus8]]: You\
@@ -108,29 +152,40 @@ slug: liliana-defiant-necromancer
 subtype: Liliana
 subtype_tokens:
 - Liliana
-tags: card-type-planeswalker
+synonyms: []
 tapped_id: 16863
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Liliana, Defiant Necromancer
-  power_toughness: null
-  rules: Whenever a creature dies, return it to the battlefield under your control
-    at the beginning of the next end step.
-  subtype: Liliana
-  tla: ORI
-  type: Emblem
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: ORI
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Whenever a creature dies, return it to the battlefield under your control
+        at the beginning of the next end step.
+    - - type
+      - Emblem
+    - - subtype
+      - 518
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Liliana, Defiant Necromancer
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Planeswalker
-url: http://tappedout.net/mtg-card/liliana-defiant-necromancer/
+url: https://tappedout.net/mtg-card/liliana-defiant-necromancer/
+

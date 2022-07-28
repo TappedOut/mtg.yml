@@ -3,7 +3,7 @@ activated_abilities:
 - ', : Put X charge counters on this.'
 - ', , Sacrifice this: Destroy each nonland permanent with converted mana cost/mana
   value equal to the number of charge counters on this.'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: WAR
@@ -19,26 +19,30 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 11.64
+draft_average: 3.75
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -46,50 +50,78 @@ is_permanent: true
 keywords:
 - Sacrifice
 - Counters
-mana_cost_converted: 0
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Blast Zone
 printings:
-- SLU:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Secret Lair: Ultimate Edition'
-    number: 504
-    rarity: rare
-    release_date: 2020-05-29
 - WAR:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Chris Ostrowski
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 72095
     mtgo_id: 72094
     name: War of the Spark
     number: 244
     rarity: rare
-    release_date: 2019-05-03
+    release_date: '2019-05-03'
+    tla: WAR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 461171
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461171
+- SLU:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Ostrowski
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Secret Lair: Ultimate Edition'
+    number: 504
+    rarity: rare
+    release_date: '2020-05-29'
+    tla: SLU
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "This enters the battlefield with a charge counter on it.\r\n\r\n[[symbol:T]]:\
   \ Add [[symbol:C]].\r\n\r\n[[symbol:X]][[symbol:X]], [[symbol:T]]: Put X charge\
   \ counters on this.\r\n\r\n[[symbol:3]], [[symbol:T]], Sacrifice this: Destroy each\
   \ nonland permanent with converted mana cost/mana value equal to the number of charge\
   \ counters on this."
 slug: blast-zone
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
+synonyms: []
 tapped_id: 21429
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/blast-zone/
+url: https://tappedout.net/mtg-card/blast-zone/
+

@@ -6,26 +6,28 @@ activated_abilities:
   generate three cards from the given pool of cards, and then put one of them into
   your hand, it is not a token.)*'
 - 'Oyaminartok, Polar Werebear''s spellbook:'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: HBG
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - G
-flat_cost: 4
 formats:
-- Alchemy
 - Arena
-- Gladiator
+- Custom
 - Historic
+- Gladiator
+- Alchemy
+- Casual
 - Penny Dreadful
 has_activated_abilities: true
 is_mtgo: true
@@ -36,19 +38,33 @@ keywords:
 - Draft
 - Tokens
 mana_cost: 2GG
-mana_cost_converted: 4
 mana_produced: UUU
+mana_value: 4
+melds_from: []
 name: Oyaminartok, Polar Werebear
 power_toughness: 4/5
 printings:
 - HBG:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Boria Pindado
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Alchemy Horizons: Baldur''s Gate'
+    number: null
     rarity: rare
-    release_date: 2022-07-07
+    release_date: '2022-07-07'
+    tla: HBG
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Oyaminartok, Polar Werebear has hexproof if it hasn't dealt damage yet.\r\n\
   \r\nWhenever Oyaminartok deals combat damage to a player, create a Food token. *(it's\
   \ a colourless artifact with \"[[symbol:2]], Sacrifice this artifact: Gain 2 life.)*\r\
@@ -67,18 +83,24 @@ subtype: Giant Bear
 subtype_tokens:
 - Giant
 - Bear
-tags: card-color-green card-color-green-cost-4 card-mana-blue card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 26954
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Food
-  power_toughness: null
-  rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
-  subtype: Food
-  tla: NCC
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1373
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Food
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/oyaminartok-polar-werebear/
+url: https://tappedout.net/mtg-card/oyaminartok-polar-werebear/
+

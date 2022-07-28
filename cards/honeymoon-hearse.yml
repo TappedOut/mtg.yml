@@ -1,6 +1,7 @@
 activated_abilities:
 - 'Tap two untapped creatures you control: This becomes an artifact creature until
   end of turn.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Artifact
@@ -8,6 +9,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -15,30 +17,31 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,40 +49,70 @@ keywords:
 - Trample
 - Tap/Untap
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Honeymoon Hearse
 power_toughness: 5/5
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 427
-    rarity: uncommon
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Raoul Vitale
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*A carriage crafted from the finest materials. Horses bred from
+      the finest stock. Skulls taken from the finest foes.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 160
     rarity: uncommon
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
+    variations: []
     wizards_id: 541016
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=541016
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Raoul Vitale
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*A carriage crafted from the finest materials. Horses bred from
+      the finest stock. Skulls taken from the finest foes.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 427
+    rarity: uncommon
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Trample\r\n\r\nTap two untapped creatures you control: This becomes an artifact\
   \ creature until end of turn."
 slug: honeymoon-hearse
 subtype: Vehicle
 subtype_tokens:
 - Vehicle
-tags: card-color-red card-color-red-cost-3 card-type-artifact
+synonyms: []
 tapped_id: 25463
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/honeymoon-hearse/
+url: https://tappedout.net/mtg-card/honeymoon-hearse/
+

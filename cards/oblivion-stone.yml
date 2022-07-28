@@ -2,6 +2,7 @@ activated_abilities:
 - ', : Put a fate counter on target permanent.'
 - ', , Sacrifice this: Destroy each nonland permanent without a fate counter on it,
   then remove all fate counters from all permanents.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Artifact
@@ -9,27 +10,32 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 3
+cube_average: 8.14
+draft_average: 3.37
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -37,103 +43,177 @@ keywords:
 - Sacrifice
 - Counters
 mana_cost: '3'
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Oblivion Stone
 printings:
-- NCC:
+- MRD:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sam Wood
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 373
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 20102
+    mtgo_id: 20101
+    name: Mirrodin
+    number: null
     rarity: rare
-    release_date: 2022-04-30
-    wizards_id: 559945
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559945
-- 2XM:
+    release_date: '2003-10-02'
+    tla: MRD
+    variations: []
+    wizards_id: 34901
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=34901
+- CMD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Sam Wood
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: Double Masters
-    number: 279
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 40701
+    name: 'MTG: Commander'
+    number: 254
     rarity: rare
-    release_date: 2020-08-07
-    wizards_id: 489952
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489952
-- CM2:
+    release_date: '2011-06-17'
+    tla: CMD
+    variations: []
+    wizards_id: 247338
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247338
+- MPS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Yeong-Hao Han
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: m15
-    name: Commander Anthology 2018
-    number: 205
-    rarity: rare
-    release_date: 2018-06-08
-    wizards_id: 446941
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446941
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Masterpiece Series: Kaladesh Inventions'
+    number: 41
+    rarity: mythic_rare
+    release_date: '2016-09-30'
+    tla: MPS
+    variations: []
+    wizards_id: 425812
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425812
 - IMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Gabor Szikszai
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 66326
     mtgo_id: 66325
     name: Iconic Masters
     number: 223
     rarity: rare
-    release_date: 2017-11-17
+    release_date: '2017-11-17'
+    tla: IMA
+    variations: []
     wizards_id: 438789
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438789
-- MPS:
+- CM2:
     alterations:
-    - Foil
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sam Wood
+    booster_exclude: false
     border_color: B
     cannonical: false
-    foil: foil
-    foil_only: true
+    flavour_text: ''
     frame: m15
-    name: 'Masterpiece Series: Kaladesh Inventions'
-    number: 41
-    rarity: mythic_rare
-    release_date: 2016-09-30
-    wizards_id: 425812
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425812
-- CMD:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 40701
-    name: 'MTG: Commander'
-    number: 254
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology 2018
+    number: 205
     rarity: rare
-    release_date: 2011-06-17
-    wizards_id: 247338
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247338
-- MRD:
+    release_date: '2018-06-08'
+    tla: CM2
+    variations: []
+    wizards_id: 446941
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446941
+- 2XM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Gabor Szikszai
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 20102
-    mtgo_id: 20101
-    name: Mirrodin
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 279
     rarity: rare
-    release_date: 2003-10-02
-    wizards_id: 34901
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=34901
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations: []
+    wizards_id: 489952
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489952
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Gabor Szikszai
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 373
+    rarity: rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559945
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559945
+rarity: rare
 rules: "[[symbol:4]], [[symbol:T]]: Put a fate counter on target permanent.\r\n\r\n\
   [[symbol:5]], [[symbol:T]], Sacrifice this: Destroy each nonland permanent without\
   \ a fate counter on it, then remove all fate counters from all permanents."
 slug: oblivion-stone
-tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
+synonyms: []
 tapped_id: 3403
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/oblivion-stone/
+url: https://tappedout.net/mtg-card/oblivion-stone/
+

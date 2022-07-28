@@ -1,35 +1,39 @@
 activated_abilities:
 - ': Two-Headed Dragon gets +2/+0 until end of turn.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: ARC
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.86
+draft_average: 2.0
 effective_cost:
 - R
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Premodern
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -37,74 +41,124 @@ keywords:
 - Flying
 - Menace
 mana_cost: 4RR
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Two-Headed Dragon
 power_toughness: 4/4
 printings:
-- ARC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    name: Archenemy
-    number: 50
-    rarity: rare
-    release_date: 2010-06-18
-    wizards_id: 220472
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220472
-- DRB:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: modern
-    mtgo_foil_id: 30811
-    name: 'From the Vault: Dragons'
-    number: 15
-    rarity: rare
-    release_date: 2008-07-29
-    wizards_id: 178027
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=178027
 - 8ED:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sam Wood
+    booster_exclude: false
     border_color: W
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 19190
     mtgo_id: 19189
     name: Eighth Edition
+    number: null
     rarity: rare
-    release_date: 2003-07-28
+    release_date: '2003-07-28'
+    tla: 8ED
+    variations: []
     wizards_id: 45389
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=45389
 - MMQ:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sam Wood
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 13692
     mtgo_id: 13691
     name: Mercadian Masques
+    number: null
     rarity: rare
-    release_date: 1999-10-04
+    release_date: '1999-10-04'
+    tla: MMQ
+    variations: []
     wizards_id: 19711
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=19711
-- '000':
+- DRB:
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sam Wood
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 30811
+    mtgo_id: null
+    name: 'From the Vault: Dragons'
+    number: 15
+    rarity: rare
+    release_date: '2008-07-29'
+    tla: DRB
+    variations: []
+    wizards_id: 178027
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=178027
+- ARC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Sam Wood
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Archenemy
+    number: 50
+    rarity: rare
+    release_date: '2010-06-18'
+    tla: ARC
+    variations: []
+    wizards_id: 220472
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220472
+- '000':
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sam Wood
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
     variations:
     - identifier: '2'
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "Flying\r\n\r\n[[symbol:1]][[symbol:R]]: Two-Headed Dragon gets +2/+0 until\
   \ end of turn.\r\n\r\nTwo-Headed Dragon has menace.\r\n\r\nTwo-Headed Dragon can\
   \ block an additional creature."
@@ -112,7 +166,9 @@ slug: two-headed-dragon
 subtype: Dragon
 subtype_tokens:
 - Dragon
-tags: card-color-red card-color-red-cost-6 card-type-creature
+synonyms: []
 tapped_id: 5918
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/two-headed-dragon/
+url: https://tappedout.net/mtg-card/two-headed-dragon/
+

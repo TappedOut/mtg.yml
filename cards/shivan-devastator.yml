@@ -1,8 +1,11 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: '000'
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -10,22 +13,22 @@ companions:
 - Yorion, Sky Nomad
 effective_cost:
 - R
-flat_cost: 1
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
-- Penny Dreadful
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -33,34 +36,59 @@ keywords:
 - Haste
 - Counters
 mana_cost: XR
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Shivan Devastator
 power_toughness: 0/0
 printings:
 - DMU:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Brent Hollowell
+    booster_exclude: false
     border_color: B
+    cannonical: false
+    flavour_text: '*There were many reasons why Shiv was not high on Sheoldred''s
+      list of places to conquer: big, fiery reasons.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Dominaria United
     number: 143
     rarity: mythic_rare
-    release_date: 2022-09-09
+    release_date: '2022-09-09'
+    tla: DMU
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '410'
+    - identifier: '410'
+    wizards_id: null
+    wizards_url: null
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Aldo Dominguez
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*There were many reasons why Shiv was not high on Sheoldred''s
+      list of places to conquer: big, fiery reasons.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Flying, haste\r\n\r\nShivan Devastator enters the battlefield with X +1/+1\
   \ counters on it."
 slug: shivan-devastator
@@ -68,7 +96,9 @@ subtype: Dragon Hydra
 subtype_tokens:
 - Dragon
 - Hydra
-tags: card-color-red card-color-red-cost-1 card-type-creature
+synonyms: []
 tapped_id: 27039
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/shivan-devastator/
+url: https://tappedout.net/mtg-card/shivan-devastator/
+

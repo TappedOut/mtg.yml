@@ -2,63 +2,77 @@ activated_abilities:
 - '*Adamant* &mdash; If at least three blue mana was spent to cast this spell, create
   a Food token. *(It''s an artifact with ", , Sacrifice this artifact: You gain 3
   life.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ELD
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.12
+draft_average: 4.35
 effective_cost:
 - U
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
-is_permanent: false
 keywords:
 - Sacrifice
 - Tokens
 - Adamant
 mana_cost: 3U
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Turn into a Pumpkin
 printings:
 - ELD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Vincent Proce
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 78251
     mtgo_id: 78250
     name: Throne of Eldraine
     number: 69
     rarity: uncommon
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
+    variations: []
     wizards_id: 473031
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=473031
 rules: "Return target nonland permanent to its owner's hand. Draw a card.\r\n\r\n\
@@ -66,18 +80,24 @@ rules: "Return target nonland permanent to its owner's hand. Draw a card.\r\n\r\
   \ a Food token. *(It's an artifact with \"[[symbol:2]], [[symbol:T]], Sacrifice\
   \ this artifact: You gain 3 life.)*"
 slug: turn-into-a-pumpkin
-tags: card-color-blue card-color-blue-cost-4 card-type-instant
+synonyms: []
 tapped_id: 22029
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Food
-  power_toughness: null
-  rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
-  subtype: Food
-  tla: ELD
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1373
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Food
 type: Instant
-url: http://tappedout.net/mtg-card/turn-into-a-pumpkin/
+url: https://tappedout.net/mtg-card/turn-into-a-pumpkin/
+

@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Add .'
 - ', : Add X mana of any one colour, where X is the number of other Gates you control.'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: CLB
@@ -17,50 +17,69 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+effective_cost: []
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: C, WWW, UUU, BBB, RRR, GGG
+mana_value: 0
+melds_from: []
 name: Baldur's Gate
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Titus Lunter
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"Of course I know what 'eponymous' means! It's a little horse.\"\
+      \r\n<br>&mdash;Krizz, gate guard*"
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 345
     rarity: rare
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '600'
+    - identifier: '600'
     wizards_id: 563228
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563228
 rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:2]], [[symbol:T]]: Add X mana\
@@ -69,9 +88,9 @@ slug: baldurs-gate
 subtype: Gate
 subtype_tokens:
 - Gate
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-blue
-  card-mana-colorless-sym card-mana-green card-mana-red card-mana-white card-type-land
-  card-type-legendary
+synonyms: []
 tapped_id: 26494
+tokens: []
 type: Legendary Land
-url: http://tappedout.net/mtg-card/baldurs-gate/
+url: https://tappedout.net/mtg-card/baldurs-gate/
+

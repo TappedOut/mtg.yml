@@ -1,9 +1,12 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MID
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -11,32 +14,32 @@ companions:
 effective_cost:
 - R
 - G
-flat_cost: 3
 flip: Tovolar, the Midnight Scourge
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_front: true
 is_mtgo: true
 is_permanent: true
@@ -44,39 +47,69 @@ keywords:
 - Transform
 - Daybound / Nightbound
 mana_cost: 1RG
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Tovolar, Dire Overlord
 power_toughness: 3/3
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 246
-    rarity: rare
-    release_date: 2022-01-21
 - MID:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Midnight Hunt'
     number: 246
     rarity: rare
-    release_date: 2021-09-24
+    release_date: '2021-09-24'
+    tla: MID
     variations:
-    - alterations:
-      - Foil
+    - identifier: '311'
+    wizards_id: null
+    wizards_url: null
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: '311'
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 246
+    rarity: rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Whenever a Wolf or Werewolf you control deals combat damage to a player, draw\
   \ a card.\r\n\r\nAt the beginning of your upkeep, if you control three or more Wolves\
   \ and/or Werewolves, it becomes night. Then transform any number of Human Werewolves\
@@ -87,27 +120,39 @@ subtype: Human Werewolf
 subtype_tokens:
 - Human
 - Werewolf
-tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-red card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 24984
 tokens:
-- cannonical_type: Emblem
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Day
-  power_toughness: null
-  rules: ''
-  tla: MID
-  type: Emblem
-- cannonical_type: Emblem
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Night
-  power_toughness: null
-  rules: ''
-  tla: MID
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Day
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Night
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/tovolar-dire-overlord/
+url: https://tappedout.net/mtg-card/tovolar-dire-overlord/
+

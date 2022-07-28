@@ -1,14 +1,12 @@
 activated_abilities:
 - '*(: Add  or .)*'
-activation_costs:
+activated_costs:
 - U
 - W
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Land
-color_identity:
-- W
-- U
+color_identity: WU
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -20,143 +18,248 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 8.49
+draft_average: 4.69
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: W, U
+mana_value: 0
+melds_from: []
 name: Prairie Stream
 printings:
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 421
-    rarity: rare
-    release_date: 2022-04-30
-    wizards_id: 559993
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559993
-- NEC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Kamigawa: Neon Dynasty Commander'
-    number: 175
-    rarity: rare
-    release_date: 2022-02-11
-    wizards_id: 554257
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554257
-- VOC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Crimson Vow Commander'
-    number: 179
-    rarity: rare
-    release_date: 2021-11-18
-    wizards_id: 545799
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545799
-- AFC:
-    alterations:
-    - Normal
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 256
-    rarity: rare
-    release_date: 2021-07-24
-    wizards_id: 532643
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532643
-- C20:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 299
-    rarity: rare
-    release_date: 2020-05-15
-    wizards_id: 482927
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482927
-- C19:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 77653
-    mtgo_id: 77652
-    name: Commander 2019
-    number: 265
-    rarity: rare
-    release_date: 2019-08-23
-    wizards_id: 470811
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470811
-- EXP:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    mtgo_foil_id: 58888
-    mtgo_id: 58887
-    name: Zendikar Expeditions
-    number: 1
-    rarity: mythic_rare
-    release_date: 2015-10-03
-    wizards_id: 405105
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405105
 - BFZ:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Adam Paquette
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*The continent of Ondu is a vast plateau crisscrossed by deep trenches
+      and meandering rivers.*'
     frame: m15
     mtgo_foil_id: 58624
     mtgo_id: 58623
     name: Battle for Zendikar
     number: 241
     rarity: rare
-    release_date: 2015-10-02
+    release_date: '2015-10-02'
+    tla: BFZ
+    variations: []
     wizards_id: 401998
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401998
-- '000':
+- EXP:
     alterations:
-    - Foil
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Titus Lunter
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 58888
+    mtgo_id: 58887
+    name: Zendikar Expeditions
+    number: 1
+    rarity: mythic_rare
+    release_date: '2015-10-03'
+    tla: EXP
+    variations: []
+    wizards_id: 405105
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405105
+- C19:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*The continent of Ondu is a vast plateau crisscrossed by deep trenches
+      and meandering rivers.*'
+    frame: m15
+    mtgo_foil_id: 77653
+    mtgo_id: 77652
+    name: Commander 2019
+    number: 265
+    rarity: rare
+    release_date: '2019-08-23'
+    tla: C19
+    variations: []
+    wizards_id: 470811
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470811
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*The continent of Ondu is a vast plateau crisscrossed by deep trenches
+      and meandering rivers.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 299
+    rarity: rare
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: 482927
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482927
+- '000':
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Titus Lunter
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*The continent of Ondu is a vast plateau crisscrossed by deep trenches
+      and meandering rivers.*'
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- AFC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: null
+    cannonical: true
+    flavour_text: '*The continent of Ondu is a vast plateau crisscrossed by deep trenches
+      and meandering rivers.*'
+    frame: null
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 256
+    rarity: rare
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: 532643
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532643
+- VOC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*The continent of Ondu is a vast plateau crisscrossed by deep trenches
+      and meandering rivers.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Crimson Vow Commander'
+    number: 179
+    rarity: rare
+    release_date: '2021-11-18'
+    tla: VOC
+    variations: []
+    wizards_id: 545799
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545799
+- NEC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*The continent of Ondu is a vast plateau crisscrossed by deep trenches
+      and meandering rivers.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kamigawa: Neon Dynasty Commander'
+    number: 175
+    rarity: rare
+    release_date: '2022-02-11'
+    tla: NEC
+    variations: []
+    wizards_id: 554257
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554257
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*The continent of Ondu is a vast plateau crisscrossed by deep trenches
+      and meandering rivers.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 421
+    rarity: rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559993
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559993
+rarity: rare
 rules: "*([[symbol:T]]: Add [[symbol:W]] or [[symbol:U]].)*\r\n\r\nThis enters the\
   \ battlefield tapped unless you control two or more basic lands."
 slug: prairie-stream
@@ -171,9 +274,9 @@ synonyms:
 - UW BFZ Land
 - WU BFZland
 - UW BFZland
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-blue-slow card-mana-white-slow
-  card-type-land
 tap_land: true
 tapped_id: 17126
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/prairie-stream/
+url: https://tappedout.net/mtg-card/prairie-stream/
+

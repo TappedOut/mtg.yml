@@ -1,45 +1,49 @@
 activated_abilities:
 - ', Exile this from your graveyard: Create a Treasure token. *(It''s a colourless
   artifact with )*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SNC
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 2
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Penny Dreadful
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -48,21 +52,35 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: '2'
-mana_cost_converted: 2
 mana_produced: W, U, B, R, G
+mana_value: 2
+melds_from: []
 name: Halo Scarab
 power_toughness: 2/1
 printings:
 - SNC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Khurrum
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*It pulses with the colours that best complement the wearer''s
+      outfit.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Streets of New Capenna
     number: 239
     rarity: common
-    release_date: 2022-04-29
+    release_date: '2022-04-29'
+    tla: SNC
+    variations: []
     wizards_id: 555440
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=555440
 rules: '[[symbol:2]], Exile this from your graveyard: Create a Treasure token. *(It''s
@@ -71,19 +89,24 @@ slug: halo-scarab
 subtype: Insect
 subtype_tokens:
 - Insect
-tags: card-color-colorless card-color-colorless-cost-2 card-mana-black card-mana-blue
-  card-mana-green card-mana-red card-mana-white card-type-artifact card-type-creature
+synonyms: []
 tapped_id: 26361
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: SNC
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Artifact Creature
-url: http://tappedout.net/mtg-card/halo-scarab/
+url: https://tappedout.net/mtg-card/halo-scarab/
+

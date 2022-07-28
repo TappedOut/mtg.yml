@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 - G
 - W
@@ -9,34 +10,37 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 5.51
+draft_average: 2.41
 effective_cost:
 - W
 - B
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -44,38 +48,45 @@ keywords:
 - Lifelink
 - Mutate
 mana_cost: 2WGB
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Nethroi, Apex of Death
 power_toughness: 5/5
 printings:
 - IKO:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Slawomir Maniak
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 80404
     mtgo_id: 80403
     name: 'Ikoria: Lair of Behemoths'
     number: 197
     rarity: mythic_rare
-    release_date: 2020-04-15
+    release_date: '2020-04-15'
+    tla: IKO
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '303'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '380'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '303'
+    - identifier: '380'
+    - identifier: PromoPack
     wizards_id: 479717
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479717
 rules: "Mutate [[symbol:4]][[symbol:GW]][[symbol:B]][[symbol:B]] *(If you cast this\
@@ -96,8 +107,8 @@ synonyms:
 - Biollante, Plant
 - Biollante, Plant Beast
 - Plant Beast Form
-tags: card-color-black card-color-gold card-color-gold-cost-5 card-color-green card-color-white
-  card-type-creature
 tapped_id: 22692
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/nethroi-apex-of-death/
+url: https://tappedout.net/mtg-card/nethroi-apex-of-death/
+

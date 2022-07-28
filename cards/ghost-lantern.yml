@@ -2,7 +2,7 @@ activated_abilities:
 - 'Equip  *(: Attach this to target creature you control. Equip only as a sorcery.
   This enters the battlefield unattached and stays on the battlefield if the creature
   this card is attached to leaves the battlefield.)*'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: CLB
@@ -10,6 +10,7 @@ cannonical_type: Artifact
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -18,24 +19,25 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,19 +48,34 @@ keywords:
 - Counters
 - Adventure
 mana_cost: B
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Ghost Lantern
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Julian Kok Joon Wen
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 128
     rarity: uncommon
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Whenever a creature you control dies, put a +1/+1 counter on equipped creature.\
   \ *(Is put into the graveyard from the battlefield, tokens are put into the graveyard\
   \ before they cease to exist.)*\r\n\r\nEquip [[symbol:]] *([[symbol:]]: Attach this\
@@ -80,7 +97,9 @@ slug: ghost-lantern
 subtype: Equipment
 subtype_tokens:
 - Equipment
-tags: card-color-black card-color-black-cost-1 card-type-artifact
+synonyms: []
 tapped_id: 26629
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/ghost-lantern/
+url: https://tappedout.net/mtg-card/ghost-lantern/
+

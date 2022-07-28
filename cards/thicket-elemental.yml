@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: DDR
@@ -6,60 +7,85 @@ cannonical_type: Creature
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 4.22
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Kicker
 mana_cost: 3GG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Thicket Elemental
 power_toughness: 4/4
 printings:
-- DDR:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Duel Decks: Nissa vs. Ob Nixilis'
-    number: 21
-    rarity: rare
-    release_date: 2016-09-02
-    wizards_id: 417444
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417444
 - INV:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ron Spencer
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 14902
     mtgo_id: 14901
     name: Invasion
+    number: null
     rarity: rare
-    release_date: 2000-10-02
+    release_date: '2000-10-02'
+    tla: INV
+    variations: []
     wizards_id: 23135
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=23135
+- DDR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ron Spencer
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Nissa vs. Ob Nixilis'
+    number: 21
+    rarity: rare
+    release_date: '2016-09-02'
+    tla: DDR
+    variations: []
+    wizards_id: 417444
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417444
+rarity: rare
 rules: "Kicker [[symbol:1]][[symbol:G]] *(You may pay an additional [[symbol:1]][[symbol:G]]\
   \ as you cast this spell.)*\r\n\r\nWhen Thicket Elemental enters the battlefield,\
   \ if it was kicked, you may reveal cards from the top of your library until you\
@@ -69,7 +95,9 @@ slug: thicket-elemental
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-color-green card-color-green-cost-5 card-type-creature
+synonyms: []
 tapped_id: 5280
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/thicket-elemental/
+url: https://tappedout.net/mtg-card/thicket-elemental/
+

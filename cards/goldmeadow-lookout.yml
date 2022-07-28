@@ -1,58 +1,75 @@
 activated_abilities:
 - '(White), Tap, Discard a card: Put a 1/1 white Kithkin Soldier creature token named
   Goldmeadow Harrier into play with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: FUT
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 2.0
+draft_average: 1.67
 effective_cost:
 - W
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tap/Untap
 mana_cost: 3W
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Goldmeadow Lookout
 power_toughness: 2/2
 printings:
 - FUT:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Steve Prescott
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 26665
     mtgo_id: 26664
     name: Future Sight
     number: 22
     rarity: uncommon
-    release_date: 2007-05-04
+    release_date: '2007-05-04'
+    tla: FUT
+    variations: []
     wizards_id: 130311
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=130311
+rarity: uncommon
 rules: '(White), Tap, Discard a card: Put a 1/1 white Kithkin Soldier creature token
   named Goldmeadow Harrier into play with "(White), Tap: Tap target creature."'
 slug: goldmeadow-lookout
@@ -60,17 +77,24 @@ subtype: Kithkin Spellshaper
 subtype_tokens:
 - Kithkin
 - Spellshaper
-tags: card-color-white card-color-white-cost-4 card-type-creature
+synonyms: []
 tapped_id: 679
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Kithkin Soldier 1/1 W w/ Tap Target Creature
-  power_toughness: 1/1
-  rules: '[[symbol:W]], [[symbol:T]]: Tap target creature.'
-  subtype: Kithkin Soldier
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - '[[symbol:W]], [[symbol:T]]: Tap target creature.'
+    - - type
+      - Token Creature
+    - - subtype
+      - 144
+    - - cannonical_type
+      - Creature
+    - - name
+      - Kithkin Soldier 1/1 W w/ Tap Target Creature
 type: Creature
-url: http://tappedout.net/mtg-card/goldmeadow-lookout/
+url: https://tappedout.net/mtg-card/goldmeadow-lookout/
+

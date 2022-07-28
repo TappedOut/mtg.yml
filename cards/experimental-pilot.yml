@@ -3,13 +3,14 @@ activated_abilities:
   randomly generate three cards from the given pool of cards, and then put one of
   them into your hand, it is not a token.)*'
 - 'Experimental Pilot''s Spellbook:'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: Y22
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -18,12 +19,13 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 1
 formats:
-- Alchemy
 - Arena
-- Gladiator
+- Custom
 - Historic
+- Gladiator
+- Alchemy
+- Casual
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -32,19 +34,32 @@ keywords:
 - Draft
 - Ward
 mana_cost: U
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Experimental Pilot
 power_toughness: 1/2
 printings:
 - Y22:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Slawomir Maniak
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Arena Alchemy 2022
+    number: null
     rarity: uncommon
-    release_date: 2021-12-09
+    release_date: '2021-12-09'
+    tla: Y22
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Ward [[symbol:2]] *(Whenever this becomes the target of a spell or ability\
   \ an opponent controls, counter it unless that player pays [[symbol:2]].)*\r\n\r\
   \n[[symbol:U]], Discard two cards: Draft a card from this card's spellbook. *(To\
@@ -62,7 +77,9 @@ subtype: Human Pilot
 subtype_tokens:
 - Human
 - Pilot
-tags: card-color-blue card-color-blue-cost-1 card-type-creature
+synonyms: []
 tapped_id: 26122
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/experimental-pilot/
+url: https://tappedout.net/mtg-card/experimental-pilot/
+

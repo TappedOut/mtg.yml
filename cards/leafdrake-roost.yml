@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C13
 cannonical_type: Enchantment
@@ -5,92 +7,140 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 10.37
+draft_average: 1.67
 effective_cost:
 - U
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Enchant
 - Flying
 mana_cost: 3UG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Leafdrake Roost
+power_toughness: ''
 printings:
-- CM1:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology
-    rarity: uncommon
-    release_date: 2017-06-09
-- C13:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 51497
-    mtgo_id: 51496
-    name: Commander 2013
-    rarity: uncommon
-    release_date: 2013-11-01
-    wizards_id: 376397
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376397
 - DIS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Nick Percival
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"The best experiments are those whose successes replicate themselves."Yolov,
+      Simic bioengineer'
     frame: modern
     mtgo_foil_id: 24290
     mtgo_id: 24289
     name: Dissension
+    number: null
     rarity: uncommon
-    release_date: 2006-05-05
+    release_date: '2006-05-05'
+    tla: DIS
+    variations: []
     wizards_id: 107557
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=107557
+- C13:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Nick Percival
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "\"The best experiments are those whose successes replicate themselves.\"\
+      \n\u2014Yolov, Simic bioengineer"
+    frame: modern
+    mtgo_foil_id: 51497
+    mtgo_id: 51496
+    name: Commander 2013
+    number: null
+    rarity: uncommon
+    release_date: '2013-11-01'
+    tla: C13
+    variations: []
+    wizards_id: 376397
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376397
+- CM1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: null
+    booster_exclude: true
+    border_color: B
+    cannonical: false
+    flavour_text: "\"The best experiments are those whose successes replicate themselves.\"\
+      \r\n\u2014Yolov, Simic bioengineer"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology
+    number: null
+    rarity: uncommon
+    release_date: '2017-06-09'
+    tla: CM1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: uncommon
 rules: "Enchant land\r\n\r\nEnchanted land has \"(Green)(Blue), Tap: Put a 2/2 green\
   \ and blue Drake creature token with flying into play.\""
 slug: leafdrake-roost
 subtype: Aura
 subtype_tokens:
 - Aura
-tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-green card-type-enchantment
+synonyms: []
 tapped_id: 1599
 tokens:
-- cannonical_type: Creature
-  colors: GU
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Drake 2/2 GU
-  power_toughness: 2/2
-  rules: Flying
-  subtype: Drake
-  tla: CM1
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - GU
+    - - power_toughness
+      - 2/2
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 133
+    - - cannonical_type
+      - Creature
+    - - name
+      - Drake 2/2 GU
 type: Enchantment
-url: http://tappedout.net/mtg-card/leafdrake-roost/
+url: https://tappedout.net/mtg-card/leafdrake-roost/
+

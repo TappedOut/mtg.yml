@@ -1,6 +1,7 @@
 activated_abilities:
 - ': You gain 1 life.'
 - ': Draw a card.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MYSCON
 cannonical_type: Planeswalker
@@ -8,27 +9,31 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.0
+draft_average: 4.0
 effective_cost:
 - W
 - U
-flat_cost: 7
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -36,20 +41,32 @@ keywords:
 - Exile
 - Counters
 mana_cost: 5WU
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Personal Decoy
 printings:
 - MYSCON:
     alterations:
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - list
+      - The List
+    artist: Alison Fuhrs
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Mystery Booster: Convention Edition'
     number: 96
     rarity: rare
-    release_date: 2019-11-07
+    release_date: '2019-11-07'
+    tla: MYSCON
+    variations: []
     wizards_id: 476226
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476226
 rules: "CARDNAME enters the battlefield with a number of loyalty counters on it equal\
@@ -64,7 +81,9 @@ slug: personal-decoy
 subtype: Duck
 subtype_tokens:
 - Duck
-tags: card-color-blue card-color-gold card-color-gold-cost-7 card-color-white card-type-planeswalker
+synonyms: []
 tapped_id: 22271
+tokens: []
 type: Planeswalker
-url: http://tappedout.net/mtg-card/personal-decoy/
+url: https://tappedout.net/mtg-card/personal-decoy/
+

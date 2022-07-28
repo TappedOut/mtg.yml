@@ -1,33 +1,38 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DDD
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.5
+draft_average: 5.45
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Premodern
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -36,79 +41,144 @@ keywords:
 - Fading
 - Counters
 mana_cost: 2GG
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Blastoderm
 power_toughness: 5/5
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
-- DD3:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Duel Decks Anthology
-    number: 7
-    rarity: common
-    release_date: 2014-12-05
-    wizards_id: 393882
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393882
-- VMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: modern
-    mtgo_foil_id: 52876
-    mtgo_id: 52875
-    name: Vintage Masters
-    rarity: common
-    release_date: 2014-06-16
-    wizards_id: 382867
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382867
-- DDD:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 34950
-    name: 'Duel Decks: Garruk vs. Liliana'
-    rarity: common
-    release_date: 2009-10-20
-    wizards_id: 201831
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=201831
 - NMS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Peterson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 13936
     mtgo_id: 13935
     name: Nemesis
+    number: null
     rarity: common
-    release_date: 2000-02-14
+    release_date: '2000-02-14'
+    tla: NMS
+    variations: []
     wizards_id: 21363
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=21363
-- '000':
+- DDD:
     alterations:
-    - Foil
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Nils Hamm
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 34950
+    name: 'Duel Decks: Garruk vs. Liliana'
+    number: null
+    rarity: common
+    release_date: '2009-10-20'
+    tla: DDD
+    variations: []
+    wizards_id: 201831
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=201831
+- VMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Nils Hamm
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 52876
+    mtgo_id: 52875
+    name: Vintage Masters
+    number: null
+    rarity: common
+    release_date: '2014-06-16'
+    tla: VMA
+    variations: []
+    wizards_id: 382867
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382867
+- DD3:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Nils Hamm
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Duel Decks Anthology
+    number: 7
+    rarity: common
+    release_date: '2014-12-05'
+    tla: DD3
+    variations: []
+    wizards_id: 393882
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393882
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Nils Hamm
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- '000':
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Peterson
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: "Shroud *(This permanent can't be the target of spells or abilities.)*\r\n\r\
   \nFading 3 *(This creature enters the battlefield with three fade counters on it.\
   \ At the beginning of your upkeep, remove a fade counter from it. If you can't,\
@@ -117,7 +187,9 @@ slug: blastoderm
 subtype: Beast
 subtype_tokens:
 - Beast
-tags: card-color-green card-color-green-cost-4 card-type-creature
+synonyms: []
 tapped_id: 5490
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/blastoderm/
+url: https://tappedout.net/mtg-card/blastoderm/
+

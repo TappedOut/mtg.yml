@@ -1,96 +1,145 @@
 activated_abilities:
 - ': Return target creature card from your graveyard to the battlefield tapped.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: JMP
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.0
 effective_cost:
 - B
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
 mana_cost: 4BB
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Gravewaker
 power_toughness: 5/5
 printings:
-- JMP:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Jumpstart
-    number: 241
-    rarity: rare
-    release_date: 2020-07-17
-    wizards_id: 489247
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489247
-- M20:
-    alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 73564
-    mtgo_id: 73563
-    name: Core Set 2020
-    number: 323
-    rarity: rare
-    release_date: 2019-07-12
-    wizards_id: 469876
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=469876
 - M19:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Daniel Ljunggren
     booster_exclude: true
     border_color: B
+    cannonical: true
+    flavour_text: '*Once every seven years it flies on spectral wings over the moors
+      of ancient battlefields.*'
     frame: m15
     mtgo_foil_id: 68120
     mtgo_id: 68119
     name: Core Set 2019
     number: 293
     rarity: rare
-    release_date: 2018-07-13
+    release_date: '2018-07-13'
+    tla: M19
+    variations: []
     wizards_id: 450240
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=450240
+- M20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Daniel Ljunggren
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: '*It glides on silent wings across the midnight sky, and a ddread
+      host rises to follow.*'
+    frame: m15
+    mtgo_foil_id: 73564
+    mtgo_id: 73563
+    name: Core Set 2020
+    number: 323
+    rarity: rare
+    release_date: '2019-07-12'
+    tla: M20
+    variations: []
+    wizards_id: 469876
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=469876
+- JMP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daniel Ljunggren
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*It glides on silent wings across the midnight sky, and a ddread
+      host rises to follow.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Jumpstart
+    number: 241
+    rarity: rare
+    release_date: '2020-07-17'
+    tla: JMP
+    variations: []
+    wizards_id: 489247
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489247
 rules: "Flying *(This creature can't be blocked except by creatures with flying or\
   \ reach.)*\r\n\r\n[[symbol:5]][[symbol:B]][[symbol:B]]: Return target creature card\
   \ from your graveyard to the battlefield tapped."
@@ -99,7 +148,9 @@ subtype: Bird Spirit
 subtype_tokens:
 - Bird
 - Spirit
-tags: card-color-black card-color-black-cost-6 card-type-creature
+synonyms: []
 tapped_id: 20454
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/gravewaker/
+url: https://tappedout.net/mtg-card/gravewaker/
+

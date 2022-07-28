@@ -2,64 +2,78 @@ activated_abilities:
 - "Create three 1/1 green Boar creature tokens with \u201CWhen this creature is put\
   \ into the graveyard from the battlefield, create a Food token., , Sacrifice this\
   \ artifact: You gain 3 life.\")*"
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ELD
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+draft_average: 8.8
 effective_cost:
 - G
-flat_cost: 6
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
-is_permanent: false
 keywords:
 - Sacrifice
 - Tokens
 mana_cost: 4GG
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Wolf's Quarry
 printings:
 - ELD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lars Grant-West
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\u201CThe monster was gaining on them. Twice it had found them.\
+      \ There was only one place left to hide.\u201D*\r\n<br>&mdash;Tales of the Fae"
     frame: m15
     mtgo_foil_id: 78513
     mtgo_id: 78512
     name: Throne of Eldraine
     number: 184
     rarity: common
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
+    variations: []
     wizards_id: 473146
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=473146
 rules: "Create three 1/1 green Boar creature tokens with \u201CWhen this creature\
@@ -67,31 +81,42 @@ rules: "Create three 1/1 green Boar creature tokens with \u201CWhen this creatur
   \ token is an artifact with \"[[symbol:2]], [[symbol:T]], Sacrifice this artifact:\
   \ You gain 3 life.\")*"
 slug: wolfs-quarry
-tags: card-color-green card-color-green-cost-6 card-type-sorcery
+synonyms: []
 tapped_id: 22105
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Boar 1/1 G
-  power_toughness: 1/1
-  rules: 'When this creature dies *(is put into the graveyard from the battlefield,
-    tokens are put into the graveyard before they cease to exist)*, create a food
-    token. *(It''s a token with "[[symbol:2]], [[symbol:T]], Sacrifice this artifact:
-    You gain 3 life.")*'
-  subtype: Boar
-  tla: ELD
-  type: Token Creature
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Food
-  power_toughness: null
-  rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
-  subtype: Food
-  tla: ELD
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - 'When this creature dies *(is put into the graveyard from the battlefield,
+        tokens are put into the graveyard before they cease to exist)*, create a food
+        token. *(It''s a token with "[[symbol:2]], [[symbol:T]], Sacrifice this artifact:
+        You gain 3 life.")*'
+    - - type
+      - Token Creature
+    - - subtype
+      - 97
+    - - cannonical_type
+      - Creature
+    - - name
+      - Boar 1/1 G
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1373
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Food
 type: Sorcery
-url: http://tappedout.net/mtg-card/wolfs-quarry/
+url: https://tappedout.net/mtg-card/wolfs-quarry/
+

@@ -2,6 +2,7 @@ activated_abilities:
 - ': Manifest a card from your hand. *(Put that card onto the battlefield face down
   as a 2/2 creature. Turn it face up at any time for its mana cost if it''s a creature
   card.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C19
 cannonical_type: Artifact
@@ -9,64 +10,84 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 3
+cube_average: 7.5
+effective_cost: []
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Manifest
 mana_cost: '3'
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Scroll of Fate
 printings:
 - C19:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Piotr Dura
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"Our stories define our reality.\"\r\n<br>&mdash;Ugin*"
     frame: m15
     mtgo_foil_id: 77171
     mtgo_id: 77170
     name: Commander 2019
     number: 58
     rarity: rare
-    release_date: 2019-08-23
+    release_date: '2019-08-23'
+    tla: C19
+    variations: []
     wizards_id: 470604
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470604
 rules: '[[symbol:T]]: Manifest a card from your hand. *(Put that card onto the battlefield
   face down as a 2/2 creature. Turn it face up at any time for its mana cost if it''s
   a creature card.)*'
 slug: scroll-of-fate
-tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
+synonyms: []
 tapped_id: 21899
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Manifest 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down manifested creature with this reminder card.\r\
-    \n\r\nA manifested creature card can be turned face up at any time for its mana\
-    \ cost. A face-down card can also be turned face up for its morph cost."
-  tla: C19
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down manifested creature with this reminder card.\r\
+        \n\r\nA manifested creature card can be turned face up at any time for its\
+        \ mana cost. A face-down card can also be turned face up for its morph cost."
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Manifest 2/2 C
 type: Artifact
-url: http://tappedout.net/mtg-card/scroll-of-fate/
+url: https://tappedout.net/mtg-card/scroll-of-fate/
+

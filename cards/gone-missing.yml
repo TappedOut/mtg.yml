@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SOI
 cannonical_type: Sorcery
@@ -11,77 +13,110 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.25
+draft_average: 9.57
 effective_cost:
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
 - Pauper EDH
+- Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Pauper
+- Pauper Duel Commander
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Sacrifice
 - Tokens
 - Investigate
 mana_cost: 4U
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Gone Missing
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
 - SOI:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: James Paick
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"Sometimes it's best for the lost to stay lost.\"\r\n<br>&mdash;Herzag,\
+      \ mayor of Havengul*"
     frame: m15
     mtgo_foil_id: 60357
     mtgo_id: 60356
     name: Shadows over Innistrad
     number: 67
     rarity: common
-    release_date: 2016-04-08
+    release_date: '2016-04-08'
+    tla: SOI
+    variations: []
     wizards_id: 409810
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409810
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: James Paick
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*\"Sometimes it's best for the lost to stay lost.\"\r\n<br>&mdash;Herzag,\
+      \ mayor of Havengul*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: "Put target permanent on top of its owner's library.\r\n\r\nInvestigate. *(Put\
   \ a colourless Clue artifact token onto the battlefield with \"[[symbol:2]], Sacrifice\
   \ this artifact: Draw a card.\")*"
 slug: gone-missing
-tags: card-color-blue card-color-blue-cost-5 card-type-sorcery
+synonyms: []
 tapped_id: 17820
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Clue
-  power_toughness: null
-  rules: '[[symbol:2]], Sacrifice this: Draw a card.'
-  subtype: Clue
-  tla: SOI
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], Sacrifice this: Draw a card.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1130
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Clue
 type: Sorcery
-url: http://tappedout.net/mtg-card/gone-missing/
+url: https://tappedout.net/mtg-card/gone-missing/
+

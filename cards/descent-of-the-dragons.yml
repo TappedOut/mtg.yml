@@ -1,73 +1,96 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DTK
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 11.21
+draft_average: 1.9
 effective_cost:
 - R
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 - Tokens
 mana_cost: 4RR
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Descent of the Dragons
 printings:
 - DTK:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Steve Prescott
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Dragons emerge from tempests fully formed and terribly hungry.*'
     frame: m15
     mtgo_foil_id: 56395
     mtgo_id: 56394
     name: Dragons of Tarkir
     number: 133
     rarity: mythic_rare
-    release_date: 2015-03-27
+    release_date: '2015-03-27'
+    tla: DTK
+    variations: []
     wizards_id: 394536
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394536
+rarity: mythic_rare
 rules: Destroy any number of target creatures.  For each creature destroyed this way,
   its controller puts a 4/4 red Dragon creature token with flying onto the battlefield.
 slug: descent-of-the-dragons
-tags: card-color-red card-color-red-cost-6 card-type-sorcery
+synonyms: []
 tapped_id: 16399
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Dragon 4/4 R
-  power_toughness: 4/4
-  rules: Flying
-  subtype: Dragon
-  tla: DTK
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 4/4
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 42
+    - - cannonical_type
+      - Creature
+    - - name
+      - Dragon 4/4 R
 type: Sorcery
-url: http://tappedout.net/mtg-card/descent-of-the-dragons/
+url: https://tappedout.net/mtg-card/descent-of-the-dragons/
+

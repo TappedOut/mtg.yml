@@ -1,65 +1,80 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: RIX
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.42
+draft_average: 2.42
 effective_cost:
 - R
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 1R
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Tilonalli's Summoner
 power_toughness: 1/1
 printings:
 - RIX:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Lius Lasahido
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 66696
     mtgo_id: 66695
     name: Rivals of Ixalan
     number: 121
     rarity: rare
-    release_date: 2018-01-19
+    release_date: '2018-01-19'
+    tla: RIX
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 439778
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439778
+rarity: rare
 rules: "Ascend\r\n\r\nEvery time Tilonalli's Summoner attacks, you may pay XR. If\
   \ you do, create X 1/1 Elemental creature tokens tapped and attacking.\r\nExile\
   \ them at the beginning of the next end step, unless you have the City's Blessing."
@@ -68,27 +83,39 @@ subtype: Human Shaman
 subtype_tokens:
 - Human
 - Shaman
-tags: card-color-red card-color-red-cost-2 card-type-creature
+synonyms: []
 tapped_id: 20006
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: City's Blessing
-  power_toughness: null
-  rules: ''
-  tla: RIX
-  type: Emblem
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elemental 1/1 R
-  power_toughness: 1/1
-  rules: ''
-  subtype: Elemental
-  tla: RIX
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - City's Blessing
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elemental 1/1 R
 type: Creature
-url: http://tappedout.net/mtg-card/tilonallis-summoner/
+url: https://tappedout.net/mtg-card/tilonallis-summoner/
+

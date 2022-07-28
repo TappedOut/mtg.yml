@@ -3,7 +3,7 @@ activated_abilities:
 - ', : Exile target creature you control. '
 - ', , Sacrifice Endless Sands: Return each creature card exiled with Endless Sands
   to the battlefield under its owner''s control.'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: C20
@@ -19,26 +19,30 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 12.8
+draft_average: 7.05
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -46,36 +50,60 @@ is_permanent: true
 keywords:
 - Exile
 - Sacrifice
-mana_cost_converted: 0
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Endless Sands
 printings:
-- C20:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 272
-    rarity: rare
-    release_date: 2020-05-15
-    wizards_id: 482900
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482900
 - HOU:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Noah Bradley
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 64877
     mtgo_id: 64876
     name: Hour of Devastation
     number: 176
     rarity: rare
-    release_date: 2017-07-14
+    release_date: '2017-07-14'
+    tla: HOU
+    variations: []
     wizards_id: 430865
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430865
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Noah Bradley
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 272
+    rarity: rare
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: 482900
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482900
+rarity: rare
 rules: "[[symbol:T]]: Gain [[symbol:C]]\r\n\r\n[[symbol:2]], [[symbol:T]]: Exile target\
   \ creature you control. \r\n\r\n[[symbol:4]], [[symbol:T]], Sacrifice Endless Sands:\
   \ Return each creature card exiled with Endless Sands to the battlefield under its\
@@ -84,7 +112,9 @@ slug: endless-sands
 subtype: Desert
 subtype_tokens:
 - Desert
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
+synonyms: []
 tapped_id: 19124
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/endless-sands/
+url: https://tappedout.net/mtg-card/endless-sands/
+

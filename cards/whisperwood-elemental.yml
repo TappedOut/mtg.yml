@@ -1,35 +1,40 @@
 activated_abilities:
 - 'Sacrifice Whisperwood Elemental: Until end of turn, face-up nontoken creatures
   you control gain '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: FRF
 cannonical_type: Creature
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.15
+draft_average: 2.44
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -37,25 +42,39 @@ keywords:
 - Sacrifice
 - Manifest
 mana_cost: 3GG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Whisperwood Elemental
 power_toughness: 4/4
 printings:
 - FRF:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Raymond Swanland
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 55587
     mtgo_id: 55586
     name: Fate Reforged
     number: 145
     rarity: mythic_rare
-    release_date: 2015-01-23
+    release_date: '2015-01-23'
+    tla: FRF
+    variations: []
     wizards_id: 391958
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=391958
+rarity: mythic_rare
 rules: "At the beginning of your end step, manifest the top card of your library.\
   \ *(Put it onto the battlefield face down as a 2/2 creature. Turn it face up at\
   \ any time for its mana cost if it's a creature card.)*\r\n\r\nSacrifice Whisperwood\
@@ -65,19 +84,26 @@ slug: whisperwood-elemental
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-color-green card-color-green-cost-5 card-type-creature
+synonyms: []
 tapped_id: 16110
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Manifest 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down manifested creature with this reminder card.\r\
-    \n\r\nA manifested creature card can be turned face up at any time for its mana\
-    \ cost. A face-down card can also be turned face up for its morph cost."
-  tla: FRF
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down manifested creature with this reminder card.\r\
+        \n\r\nA manifested creature card can be turned face up at any time for its\
+        \ mana cost. A face-down card can also be turned face up for its morph cost."
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Manifest 2/2 C
 type: Creature
-url: http://tappedout.net/mtg-card/whisperwood-elemental/
+url: https://tappedout.net/mtg-card/whisperwood-elemental/
+

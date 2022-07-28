@@ -2,37 +2,42 @@ activated_abilities:
 - ': Creatures you control with flying get +1/+1 until end of turn.'
 - ': Create a 4/4 white Angel creature token with flying and vigilance.'
 - ': You get an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MH1
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.51
+draft_average: 1.62
 effective_cost:
 - W
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,21 +46,33 @@ keywords:
 - Vigilance
 - Tokens
 mana_cost: 2WW
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Serra the Benevolent
+planeswalker_loyalty: 4
 printings:
 - MH1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Magali Villeneuve
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 72425
     mtgo_id: 72424
     name: Modern Horizons
     number: 26
     rarity: mythic_rare
-    release_date: 2019-06-14
+    release_date: '2019-06-14'
+    tla: MH1
+    variations: []
     wizards_id: 463975
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=463975
 rules: "[[symbol:loyalty-plus2]]: Creatures you control with flying get +1/+1 until\
@@ -67,29 +84,40 @@ slug: serra-the-benevolent
 subtype: Serra
 subtype_tokens:
 - Serra
-tags: card-color-white card-color-white-cost-4 card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 21231
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Serra the Benevolent
-  power_toughness: null
-  rules: If you control a creature, damage that would reduce your life total to less
-    than 1 reduces it to 1 instead.
-  subtype: Serra
-  tla: MH1
-  type: Emblem
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Angel 4/4 W w/ Vigilance
-  power_toughness: 4/4
-  rules: Flying, vigilance
-  subtype: Angel
-  tla: MH1
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - If you control a creature, damage that would reduce your life total to less
+        than 1 reduces it to 1 instead.
+    - - type
+      - Emblem
+    - - subtype
+      - 1322
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Serra the Benevolent
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 4/4
+    - - rules
+      - Flying, vigilance
+    - - type
+      - Token Creature
+    - - subtype
+      - 20
+    - - cannonical_type
+      - Creature
+    - - name
+      - Angel 4/4 W w/ Vigilance
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/serra-the-benevolent/
+url: https://tappedout.net/mtg-card/serra-the-benevolent/
+

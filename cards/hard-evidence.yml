@@ -1,9 +1,12 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MH2
 cannonical_type: Sorcery
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -12,78 +15,104 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 1
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 is_mtgo: true
-is_permanent: false
 keywords:
 - Sacrifice
 - Tokens
 - Investigate
 mana_cost: U
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Hard Evidence
 printings:
 - MH2:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Yeong-Hao Han
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*The investigator felt a pinch on his ankle. When he looked down,
+      something glittered in the sand.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Modern Horizons 2
     number: 46
     rarity: common
-    release_date: 2021-06-18
+    release_date: '2021-06-18'
+    tla: MH2
+    variations: []
     wizards_id: 522122
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522122
 rules: "Create an 0/3 blue Crab creature token.\r\n\r\nInvestigate. *(Create a colourless\
   \ Clue artifact token with \"[[symbol:2]], Sacrifice this artifact: Draw a card.\"\
   )*"
 slug: hard-evidence
-tags: card-color-blue card-color-blue-cost-1 card-type-sorcery
+synonyms: []
 tapped_id: 24554
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Crab
-  power_toughness: 0/3
-  rules: ''
-  subtype: Crab
-  tla: MH2
-  type: Token Creature
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Clue
-  power_toughness: null
-  rules: '[[symbol:2]], Sacrifice this: Draw a card.'
-  subtype: Clue
-  tla: MH2
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 0/3
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 444
+    - - cannonical_type
+      - Creature
+    - - name
+      - Crab
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], Sacrifice this: Draw a card.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1130
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Clue
 type: Sorcery
-url: http://tappedout.net/mtg-card/hard-evidence/
+url: https://tappedout.net/mtg-card/hard-evidence/
+

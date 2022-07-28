@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Enchantment
@@ -5,36 +7,37 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - R
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -44,42 +47,77 @@ keywords:
 - Tokens
 - Goad
 mana_cost: 2R
-mana_cost_converted: 3
 mana_produced: W, U, B, R, G
+mana_value: 3
+melds_from: []
 name: Shiny Impetus
 printings:
-- CLB:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 194
-    rarity: common
-    release_date: 2022-06-10
-    wizards_id: 563077
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563077
-- AFC:
-    alterations:
-    - Normal
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 138
-    rarity: uncommon
-    release_date: 2021-07-24
-    wizards_id: 532525
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532525
 - C20:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Svetlin Velinov
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2020
     number: 55
     rarity: uncommon
-    release_date: 2020-05-15
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
     wizards_id: 484902
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=484902
+- AFC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Svetlin Velinov
+    booster_exclude: false
+    border_color: null
+    cannonical: true
+    flavour_text: ''
+    frame: null
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 138
+    rarity: uncommon
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: 532525
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532525
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Filipe Pagliuso
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 194
+    rarity: common
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 563077
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563077
 rules: "Enchant creature\r\n\r\nEnchanted creature gets +2/+2 and is goaded. *(It\
   \ attacks each combat if able and attacks a player other than you if able.)*\r\n\
   \r\nWhenever enchanted creature attacks, you create a Treasure token. *(It's a colourless\
@@ -89,19 +127,24 @@ slug: shiny-impetus
 subtype: Aura
 subtype_tokens:
 - Aura
-tags: card-color-red card-color-red-cost-3 card-mana-black card-mana-blue card-mana-green
-  card-mana-red card-mana-white card-type-enchantment
+synonyms: []
 tapped_id: 22705
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: CLB
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Enchantment
-url: http://tappedout.net/mtg-card/shiny-impetus/
+url: https://tappedout.net/mtg-card/shiny-impetus/
+

@@ -2,39 +2,43 @@ activated_abilities:
 - 'Unearth  (: Return this card from your graveyard to the battlefield. It gains haste.
   Exile it at the beginning of the next end step or if it would leave the battlefield.
   Unearth only as a sorcery.)'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: MM3
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.14
+draft_average: 8.34
 effective_cost:
 - B
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Vintage
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,46 +48,81 @@ keywords:
 - Unearth
 - Tokens
 mana_cost: 5B
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Grixis Slavedriver
 power_toughness: 4/4
 printings:
-- MYS1:
+- CON:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dave Kendall
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 31700
+    mtgo_id: 31699
+    name: Conflux
+    number: null
+    rarity: uncommon
+    release_date: '2009-02-06'
+    tla: CON
+    variations: []
+    wizards_id: 179804
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=179804
 - MM3:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dave Kendall
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 63168
     mtgo_id: 63167
     name: Modern Masters 2017 Edition
     number: 74
     rarity: common
-    release_date: 2017-03-17
+    release_date: '2017-03-17'
+    tla: MM3
+    variations: []
     wizards_id: 425899
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425899
-- CON:
+- MYS1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Dave Kendall
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 31700
-    mtgo_id: 31699
-    name: Conflux
-    rarity: uncommon
-    release_date: 2009-02-06
-    wizards_id: 179804
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=179804
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: uncommon
 rules: "When Grixis Slavedriver leaves the battlefield, create a 2/2 black Zombie\
   \ creature token.\r\n\r\nUnearth [[symbol:3]][[B]] ([[symbol:3]][[B]]: Return this\
   \ card from your graveyard to the battlefield. It gains haste. Exile it at the beginning\
@@ -93,18 +132,24 @@ subtype: Zombie Giant
 subtype_tokens:
 - Zombie
 - Giant
-tags: card-color-black card-color-black-cost-6 card-type-creature
+synonyms: []
 tapped_id: 10218
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: MM3
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Creature
-url: http://tappedout.net/mtg-card/grixis-slavedriver/
+url: https://tappedout.net/mtg-card/grixis-slavedriver/
+

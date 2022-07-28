@@ -2,7 +2,7 @@ activated_abilities:
 - ': Gain .'
 - ': Until end of turn, Frostwalk Bastion becomes a 2/3 Construct artifact creature.
   It''s still a land. *( can be paid with one mana from a snow permanent.)*'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: MH1
@@ -18,47 +18,62 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 7.0
+draft_average: 7.0
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tap/Untap
-mana_cost_converted: 0
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Frostwalk Bastion
 printings:
 - MH1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jedd Chevrier
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 72853
     mtgo_id: 72852
     name: Modern Horizons
     number: 240
     rarity: uncommon
-    release_date: 2019-06-14
+    release_date: '2019-06-14'
+    tla: MH1
+    variations: []
     wizards_id: 464189
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464189
 rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:1]][[symbol:Snow]]: Until\
@@ -67,8 +82,9 @@ rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:1]][[symbol:Snow]]: Unt
   \n\r\nWhenever Frostwalk Bastion deals combat damage to a creature, tap that creature\
   \ and it doesn't untap during its controller's next untap step."
 slug: frostwalk-bastion
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
-  card-type-snow
+synonyms: []
 tapped_id: 21546
+tokens: []
 type: Snow Land
-url: http://tappedout.net/mtg-card/frostwalk-bastion/
+url: https://tappedout.net/mtg-card/frostwalk-bastion/
+

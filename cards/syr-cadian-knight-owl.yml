@@ -3,7 +3,7 @@ activated_abilities:
   only from sunrise to sunset.'
 - ': Syr Cadian, Knight Owl gains flying until end of turn. Activate this ability
   only from sunset to sunrise.'
-activation_costs:
+activated_costs:
 - B
 - W
 canadian_hl_score: 0
@@ -11,6 +11,7 @@ cannonical_set: UND
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -18,11 +19,12 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - W
-flat_cost: 5
 formats:
-- 'Commander: Rule 0'
-- Limited
+- Custom
 - Unformat
+- 'Commander: Rule 0'
+- Casual
+- Limited
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -32,20 +34,33 @@ keywords:
 - Vigilance
 - Knightlifelink
 mana_cost: 3WW
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Syr Cadian, Knight Owl
 power_toughness: 4/4
 printings:
 - UND:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Andrea Radeck
+    booster_exclude: false
     border_color: S
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Unsanctioned
     number: 15
     rarity: rare
-    release_date: 2020-02-28
+    release_date: '2020-02-28'
+    tla: UND
+    variations: []
     wizards_id: 479411
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479411
 rules: "Knightlifelink *(Damage dealt by Knights you control also causes you to gain\
@@ -58,7 +73,9 @@ subtype: Bird Knight
 subtype_tokens:
 - Bird
 - Knight
-tags: card-color-white card-color-white-cost-5 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 22610
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/syr-cadian-knight-owl/
+url: https://tappedout.net/mtg-card/syr-cadian-knight-owl/
+

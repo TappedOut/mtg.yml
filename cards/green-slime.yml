@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: CLB
@@ -6,31 +7,32 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -39,20 +41,30 @@ keywords:
 - Exile
 - Foretell
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Green Slime
 power_toughness: 2/2
 printings:
 - CLB:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Igor Kieryluk
     booster_exclude: true
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 680
     rarity: rare
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
     wizards_id: 567245
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567245
 rules: "Flash\r\n\r\nWhen Green Slime enters the battlefield, counter target activated\
@@ -64,7 +76,9 @@ slug: green-slime
 subtype: Ooze
 subtype_tokens:
 - Ooze
-tags: card-color-green card-color-green-cost-3 card-type-creature
+synonyms: []
 tapped_id: 26817
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/green-slime/
+url: https://tappedout.net/mtg-card/green-slime/
+

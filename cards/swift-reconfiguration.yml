@@ -3,12 +3,14 @@ activated_abilities:
   types. *(It''s not a creature unless it''s crewed. It has "Tap any number of other
   creatures you control with total power 5 or more: This Vehicle becomes an artifact
   creature until end of turn.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NEC
 cannonical_type: Enchantment
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -17,20 +19,21 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - W
-flat_cost: 1
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,22 +44,30 @@ keywords:
 - Tap/Untap
 - Crew
 mana_cost: W
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Swift Reconfiguration
 printings:
 - NEC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Nicholas Gregory
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*On the bright side, the bear now had cupholders.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Kamigawa: Neon Dynasty Commander'
     number: 10
     rarity: rare
-    release_date: 2022-02-11
+    release_date: '2022-02-11'
+    tla: NEC
     variations:
-    - alterations:
-      - Normal
-      identifier: '45'
+    - identifier: '45'
     wizards_id: 553907
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=553907
 rules: "Flash\r\n\r\nEnchant creature or Vehicle\r\n\r\nEnchanted permanent is a Vehicle\
@@ -68,7 +79,9 @@ slug: swift-reconfiguration
 subtype: Aura
 subtype_tokens:
 - Aura
-tags: card-color-white card-color-white-cost-1 card-type-enchantment
+synonyms: []
 tapped_id: 26067
+tokens: []
 type: Enchantment
-url: http://tappedout.net/mtg-card/swift-reconfiguration/
+url: https://tappedout.net/mtg-card/swift-reconfiguration/
+

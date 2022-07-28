@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: HOP
@@ -11,42 +12,54 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+effective_cost: []
 formats:
 - 1v1 Commander
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Pauper
+- Casual
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Mill
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Lethe Lake
 printings:
 - HOP:
     alterations:
-    - Oversized
+    - !!python/tuple
+      - oversized
+      - Oversized
+    artist: Chris J. Anderson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Planechase
     number: 21
     rarity: common
-    release_date: 2009-09-04
+    release_date: '2009-09-04'
+    tla: HOP
+    variations: []
     wizards_id: 198105
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=198105
+rarity: common
 rules: "At the beginning of your upkeep, mill ten cards. *(Put the top ten cards of\
   \ your library into your graveyard.)*\r\n\r\nWhenever you roll {{C}}, target player\
   \ mills 10 cards."
@@ -54,7 +67,9 @@ slug: lethe-lake
 subtype: Arkhos
 subtype_tokens:
 - Arkhos
-tags: card-color-colorless card-color-colorless-cost-0 card-type-plane
+synonyms: []
 tapped_id: 12688
+tokens: []
 type: Plane
-url: http://tappedout.net/mtg-card/lethe-lake/
+url: https://tappedout.net/mtg-card/lethe-lake/
+

@@ -1,36 +1,41 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M21
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 11.83
+draft_average: 7.0
 effective_cost:
 - B
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -39,20 +44,33 @@ keywords:
 - Exile
 - Tokens
 mana_cost: B
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Archfiend's Vessel
 power_toughness: 1/1
 printings:
 - M21:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jake Murray
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Core Set 2021
     number: 88
     rarity: uncommon
-    release_date: 2020-07-03
+    release_date: '2020-07-03'
+    tla: M21
+    variations: []
     wizards_id: 485411
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485411
 rules: "Lifelink *(Damage dealt by this creature also causes you to gain that much\
@@ -64,18 +82,24 @@ subtype: Human Cleric
 subtype_tokens:
 - Human
 - Cleric
-tags: card-color-black card-color-black-cost-1 card-type-creature
+synonyms: []
 tapped_id: 23013
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Demon 5/5 B
-  power_toughness: 5/5
-  rules: Flying
-  subtype: Demon
-  tla: M21
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 5/5
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 88
+    - - cannonical_type
+      - Creature
+    - - name
+      - Demon 5/5 B
 type: Creature
-url: http://tappedout.net/mtg-card/archfiends-vessel/
+url: https://tappedout.net/mtg-card/archfiends-vessel/
+

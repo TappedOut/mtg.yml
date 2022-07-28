@@ -1,41 +1,45 @@
 activated_abilities:
 - ': Attach this to target creature you control.'
 - 'Equip  _(: Attach to target creature you control. Equip only as a sorcery.)_'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: 2XM
 cannonical_type: Artifact
-color_identity:
-- B
+color_identity: B
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 2
+cube_average: 8.02
+draft_average: 3.67
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,84 +47,152 @@ keywords:
 - Equip
 - Attach
 mana_cost: '2'
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Cranial Plating
 printings:
-- TSR:
+- 5DN:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Adam Rex
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: original
-    name: Time Spiral Remastered
-    number: 392
-    rarity: special
-    release_date: 2021-03-19
-    wizards_id: 512358
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512358
-- 2XM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 245
-    rarity: uncommon
-    release_date: 2020-08-07
-    wizards_id: 489918
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489918
-- C16:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2016
-    number: 249
-    rarity: uncommon
-    release_date: 2016-11-11
-    wizards_id: 420866
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420866
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 20825
+    mtgo_id: 20824
+    name: Fifth Dawn
+    number: null
+    rarity: common
+    release_date: '2004-06-04'
+    tla: 5DN
+    variations: []
+    wizards_id: 51184
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=51184
 - MM2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Adam Rex
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 57393
     mtgo_id: 57392
     name: Modern Masters 2015 Edition
     number: 206
     rarity: uncommon
-    release_date: 2015-05-22
+    release_date: '2015-05-22'
+    tla: MM2
+    variations: []
     wizards_id: 397869
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397869
 - HOP:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Rex
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Planechase
     number: 110
     rarity: common
-    release_date: 2009-09-04
+    release_date: '2009-09-04'
+    tla: HOP
+    variations: []
     wizards_id: 205328
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=205328
-- 5DN:
+- C16:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Rex
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 20825
-    mtgo_id: 20824
-    name: Fifth Dawn
-    rarity: common
-    release_date: 2004-06-04
-    wizards_id: 51184
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=51184
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2016
+    number: 249
+    rarity: uncommon
+    release_date: '2016-11-11'
+    tla: C16
+    variations: []
+    wizards_id: 420866
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420866
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Adam Rex
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 245
+    rarity: uncommon
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations: []
+    wizards_id: 489918
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489918
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Adam Rex
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 392
+    rarity: special
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 512358
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512358
+rarity: common
 rules: "Equipped creature gets +1/+0 for each artifact you control.\r\n\r\n[[symbol:B]][[symbol:B]]:\
   \ Attach this to target creature you control.\r\n\r\nEquip [[symbol:1]] _([[symbol:1]]:\
   \ Attach to target creature you control. Equip only as a sorcery.)_"
@@ -128,7 +200,9 @@ slug: cranial-plating
 subtype: Equipment
 subtype_tokens:
 - Equipment
-tags: card-color-colorless card-color-colorless-cost-2 card-type-artifact
+synonyms: []
 tapped_id: 2947
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/cranial-plating/
+url: https://tappedout.net/mtg-card/cranial-plating/
+

@@ -1,71 +1,96 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: WWK
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.0
+draft_average: 7.1
 effective_cost:
 - W
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Vintage
-has_activated_abilities: false
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
+keywords: []
 mana_cost: 3W
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Join the Ranks
+power_toughness: ''
 printings:
 - WWK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kekai Kotaki
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Expeditionary houses are notorious for their rivalries. But when
+      adventurers meet in the wilderness, the instinct for mutual survival outweighs
+      petty grudges.
     frame: modern
     mtgo_foil_id: 35568
     mtgo_id: 35567
     name: Worldwake
     number: 9
     rarity: common
-    release_date: 2010-02-05
+    release_date: '2010-02-05'
+    tla: WWK
+    variations: []
     wizards_id: 194706
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=194706
+rarity: common
 rules: Put two 1/1 white Soldier Ally creature tokens onto the battlefield.
 slug: join-the-ranks
-tags: card-color-white card-color-white-cost-4 card-type-instant
+synonyms: []
 tapped_id: 11930
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Soldier Ally 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Soldier Ally
-  tla: WWK
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 896
+    - - cannonical_type
+      - Creature
+    - - name
+      - Soldier Ally 1/1 W
 type: Instant
-url: http://tappedout.net/mtg-card/join-the-ranks/
+url: https://tappedout.net/mtg-card/join-the-ranks/
+

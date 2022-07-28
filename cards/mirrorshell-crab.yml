@@ -1,13 +1,14 @@
 activated_abilities:
 - '*Channel* &mdash; , Discard this: Counter target spell or ability unless its controller
   pays .'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: NEO
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -15,32 +16,33 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 7
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -49,21 +51,33 @@ keywords:
 - Channel
 - Ward
 mana_cost: 5UU
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Mirrorshell Crab
 power_toughness: 5/7
 printings:
 - NEO:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Cristi Balanescu
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
     number: 63
     rarity: common
-    release_date: 2022-02-10
+    release_date: '2022-02-10'
+    tla: NEO
+    variations: []
     wizards_id: 548360
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=548360
 rules: "Ward [[symbol:3]] *(Whenever this becomes the target of a spell or ability\
@@ -74,7 +88,9 @@ slug: mirrorshell-crab
 subtype: Crab
 subtype_tokens:
 - Crab
-tags: card-color-blue card-color-blue-cost-7 card-type-artifact card-type-creature
+synonyms: []
 tapped_id: 25984
+tokens: []
 type: Artifact Creature
-url: http://tappedout.net/mtg-card/mirrorshell-crab/
+url: https://tappedout.net/mtg-card/mirrorshell-crab/
+

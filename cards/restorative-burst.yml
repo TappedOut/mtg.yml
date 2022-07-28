@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: STX
 cannonical_type: Sorcery
@@ -12,73 +14,96 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - G
-flat_cost: 5
+flip: Pestilent Cauldron
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 mana_cost: 3GG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Restorative Burst
 printings:
 - STX:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    booster_exclude: true
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Dan Scott
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Death? Everyone does death. Let me show you something actually
+      impressive."*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Strixhaven
     number: 154
     rarity: rare
-    release_date: 2021-04-23
+    release_date: '2021-04-23'
+    tla: STX
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '327'
+    - identifier: '327'
+    wizards_id: null
+    wizards_url: null
 rules: Return up to two target creature, land, and/or planeswalker cards from your
   graveyard to your hand. Each player gains 4 life. Exile Restorative Burst.
 slug: restorative-burst
-tags: card-color-green card-color-green-cost-5 card-type-sorcery
+synonyms: []
 tapped_id: 24273
 tokens:
-- cannonical_type: Creature
-  colors: BG
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Pest 1/1 BG
-  power_toughness: 1/1
-  rules: When this dies *(is put into the graveyard from the battlefield, tokens are
-    put into the graveyard before they cease to exist.)*, you gain 1 life.
-  subtype: Pest
-  tla: STX
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - BG
+    - - power_toughness
+      - 1/1
+    - - rules
+      - When this dies *(is put into the graveyard from the battlefield, tokens are
+        put into the graveyard before they cease to exist.)*, you gain 1 life.
+    - - type
+      - Token Creature
+    - - subtype
+      - 907
+    - - cannonical_type
+      - Creature
+    - - name
+      - Pest 1/1 BG
 type: Sorcery
-url: http://tappedout.net/mtg-card/restorative-burst/
+url: https://tappedout.net/mtg-card/restorative-burst/
+

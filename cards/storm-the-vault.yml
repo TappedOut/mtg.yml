@@ -1,60 +1,80 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: RIX
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 11.47
+draft_average: 12.33
 effective_cost:
 - U
 - R
-flat_cost: 4
 flip: Vault of Catlacan
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_front: true
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 2RU
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Storm the Vault
 printings:
 - RIX:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Victor Adame Minguez
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 66808
     mtgo_id: 66807
     name: Rivals of Ixalan
     number: 173
     rarity: rare
-    release_date: 2018-01-19
+    release_date: '2018-01-19'
+    tla: RIX
+    variations: []
     wizards_id: 439834
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439834
+rarity: rare
 rules: "Whenever one or more creatures you control deal combat damage to a player,\
   \ create a colorless Treasure artifact token with \"T, Sacrifice this artifact:\
   \ Add one mana of any color to your mana pool.\" \r\n\r\nAt the beginning of your\
@@ -63,19 +83,23 @@ slug: storm-the-vault
 synonyms:
 - Vault of Catlacan
 - Vault of Cataclan
-tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-red card-type-enchantment
-  card-type-legendary
 tapped_id: 19965
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: 2X2
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Legendary Enchantment
-url: http://tappedout.net/mtg-card/storm-the-vault/
+url: https://tappedout.net/mtg-card/storm-the-vault/
+

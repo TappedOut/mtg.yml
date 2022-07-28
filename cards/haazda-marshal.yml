@@ -1,36 +1,41 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: GRN
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 8.23
+draft_average: 6.7
 effective_cost:
 - W
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -38,22 +43,34 @@ keywords:
 - Battalion
 - Tokens
 mana_cost: W
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Haazda Marshal
 power_toughness: 1/1
 printings:
 - GRN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Josh Hass
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Ravnica''s convoluted power structure often boils down to who
+      can muster the most swords on a given block.*'
     frame: m15
     mtgo_foil_id: 69400
     mtgo_id: 69399
     name: Guilds of Ravnica
     number: 13
     rarity: uncommon
-    release_date: 2018-10-05
+    release_date: '2018-10-05'
+    tla: GRN
+    variations: []
     wizards_id: 452763
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=452763
 rules: Whenever Haazda Marshal and at least two other creatures attack, create a 1/1
@@ -63,18 +80,24 @@ subtype: Human Soldier
 subtype_tokens:
 - Human
 - Soldier
-tags: card-color-white card-color-white-cost-1 card-type-creature
+synonyms: []
 tapped_id: 20842
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Soldier 1/1 W w/ Lifelink
-  power_toughness: 1/1
-  rules: Lifelink
-  subtype: Soldier
-  tla: GRN
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Lifelink
+    - - type
+      - Token Creature
+    - - subtype
+      - 18
+    - - cannonical_type
+      - Creature
+    - - name
+      - Soldier 1/1 W w/ Lifelink
 type: Creature
-url: http://tappedout.net/mtg-card/haazda-marshal/
+url: https://tappedout.net/mtg-card/haazda-marshal/
+

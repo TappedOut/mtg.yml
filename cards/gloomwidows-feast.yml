@@ -1,76 +1,98 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SHM
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.0
+draft_average: 7.78
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Vintage
-has_activated_abilities: false
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 - Reach
 mana_cost: 3G
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Gloomwidow's Feast
+power_toughness: ''
 printings:
 - SHM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Thomas M. Baxa
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Each night, gloomwidows cull fresh prey for their ravenous hatchlings.
     frame: modern
     mtgo_foil_id: 29690
     mtgo_id: 29689
     name: Shadowmoor
     number: 118
     rarity: common
-    release_date: 2008-05-02
+    release_date: '2008-05-02'
+    tla: SHM
+    variations: []
     wizards_id: 154394
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=154394
+rarity: common
 rules: Destroy target creature with flying. If that creature was blue or black, put
   a 1/2 green Spider creature token with reach into play. (It can block creatures
   with flying.)
 slug: gloomwidows-feast
-tags: card-color-green card-color-green-cost-4 card-type-instant
+synonyms: []
 tapped_id: 9573
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spider 1/2 G
-  power_toughness: 1/2
-  rules: Reach
-  subtype: Spider
-  tla: SHM
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/2
+    - - rules
+      - Reach
+    - - type
+      - Token Creature
+    - - subtype
+      - 68
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spider 1/2 G
 type: Instant
-url: http://tappedout.net/mtg-card/gloomwidows-feast/
+url: https://tappedout.net/mtg-card/gloomwidows-feast/
+

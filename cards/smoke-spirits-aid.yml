@@ -1,9 +1,12 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NEC
 cannonical_type: Sorcery
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -12,44 +15,51 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 1
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Enchant
 - Attach
 - Tokens
 mana_cost: XR
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Smoke Spirits' Aid
 printings:
 - NEC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Uriah Voth
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Kamigawa: Neon Dynasty Commander'
     number: 22
     rarity: rare
-    release_date: 2022-02-11
+    release_date: '2022-02-11'
+    tla: NEC
     variations:
-    - alterations:
-      - Normal
-      identifier: '62'
+    - identifier: '62'
     wizards_id: 553919
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=553919
 rules: "For each of up to X target creatures, create a red Aura enchantment token\
@@ -58,32 +68,43 @@ rules: "For each of up to X target creatures, create a red Aura enchantment toke
   \ you create a Treasure token.\u201D *(Dying is being put into the graveyard from\
   \ the battlefield, tokens are put into the graveyard before they cease to exist.)*"
 slug: smoke-spirits-aid
-tags: card-color-red card-color-red-cost-1 card-type-sorcery
+synonyms: []
 tapped_id: 26061
 tokens:
-- cannonical_type: Enchantment
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Smoke Blessing
-  power_toughness: null
-  rules: "Enchant creature\r\n\r\nWhen enchanted creature dies *(is put into the graveyard\
-    \ from the battlefield, tokens are put into the graveyard before they cease to\
-    \ exist)*, it deals 1 damage to tis controller and you create a Treasure token.\
-    \ *(It's an artifact with \"[[symbol:T]], Sacrifice this: Add one mana of any\
-    \ colour.\")*"
-  subtype: Aura
-  tla: NEC
-  type: Token Enchantment
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: 2X2
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - null
+    - - rules
+      - "Enchant creature\r\n\r\nWhen enchanted creature dies *(is put into the graveyard\
+        \ from the battlefield, tokens are put into the graveyard before they cease\
+        \ to exist)*, it deals 1 damage to tis controller and you create a Treasure\
+        \ token. *(It's an artifact with \"[[symbol:T]], Sacrifice this: Add one mana\
+        \ of any colour.\")*"
+    - - type
+      - Token Enchantment
+    - - subtype
+      - 3
+    - - cannonical_type
+      - Enchantment
+    - - name
+      - Smoke Blessing
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Sorcery
-url: http://tappedout.net/mtg-card/smoke-spirits-aid/
+url: https://tappedout.net/mtg-card/smoke-spirits-aid/
+

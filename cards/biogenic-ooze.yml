@@ -1,38 +1,42 @@
 activated_abilities:
 - ': Create a 2/2 green Ooze creature token.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: RNA
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.99
+draft_average: 1.4
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -40,30 +44,43 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 3GG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Biogenic Ooze
 power_toughness: 2/2
 printings:
 - RNA:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Lake Hurwitz
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 71245
     mtgo_id: 71244
     name: Ravnica Allegiance
     number: 122
     rarity: mythic_rare
-    release_date: 2019-01-25
+    release_date: '2019-01-25'
+    tla: RNA
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 457266
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=457266
 rules: "When Biogenic Ooze enters the battlefield, create a 2/2 green Ooze creature\
@@ -74,18 +91,24 @@ slug: biogenic-ooze
 subtype: Ooze
 subtype_tokens:
 - Ooze
-tags: card-color-green card-color-green-cost-5 card-type-creature
+synonyms: []
 tapped_id: 21099
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Ooze 2/2 G
-  power_toughness: 2/2
-  rules: ''
-  subtype: Ooze
-  tla: RNA
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 14
+    - - cannonical_type
+      - Creature
+    - - name
+      - Ooze 2/2 G
 type: Creature
-url: http://tappedout.net/mtg-card/biogenic-ooze/
+url: https://tappedout.net/mtg-card/biogenic-ooze/
+

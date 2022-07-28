@@ -1,6 +1,6 @@
 activated_abilities:
 - 'Cycling  *(, Discard this card: Draw a card.)*'
-activation_costs:
+activated_costs:
 - U
 - W
 canadian_hl_score: 0
@@ -9,32 +9,36 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.24
+draft_average: 5.84
 effective_cost:
 - W
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Vintage
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,48 +46,84 @@ keywords:
 - Cycling
 - Unblockable
 mana_cost: 3WU
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Glassdust Hulk
 power_toughness: 3/4
 printings:
-- 2XM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 199
-    rarity: uncommon
-    release_date: 2020-08-07
-    wizards_id: 489872
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489872
-- MM2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 57135
-    mtgo_id: 57134
-    name: Modern Masters 2015 Edition
-    rarity: uncommon
-    release_date: 2015-05-22
-    wizards_id: 397807
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397807
 - ARB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Franz Vohwinkel
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 32303
     mtgo_id: 32302
     name: Alara Reborn
+    number: null
     rarity: common
-    release_date: 2009-04-30
+    release_date: '2009-04-30'
+    tla: ARB
+    variations: []
     wizards_id: 179576
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=179576
+- MM2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Franz Vohwinkel
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 57135
+    mtgo_id: 57134
+    name: Modern Masters 2015 Edition
+    number: null
+    rarity: uncommon
+    release_date: '2015-05-22'
+    tla: MM2
+    variations: []
+    wizards_id: 397807
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397807
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Franz Vohwinkel
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 199
+    rarity: uncommon
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations: []
+    wizards_id: 489872
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489872
+rarity: common
 rules: "Whenever another artifact enters the battlefield under your control, Glassdust\
   \ Hulk gets +1/+1 until end of turn and is unblockable this turn.\r\n\r\nCycling\
   \ [[symbol:WU]] *([[symbol:WU]], Discard this card: Draw a card.)*"
@@ -91,8 +131,9 @@ slug: glassdust-hulk
 subtype: Golem
 subtype_tokens:
 - Golem
-tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-white card-type-artifact
-  card-type-creature
+synonyms: []
 tapped_id: 11367
+tokens: []
 type: Artifact Creature
-url: http://tappedout.net/mtg-card/glassdust-hulk/
+url: https://tappedout.net/mtg-card/glassdust-hulk/
+

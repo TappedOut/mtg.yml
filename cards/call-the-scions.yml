@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: BFZ
@@ -13,78 +14,111 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.89
+draft_average: 8.9
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Sacrifice
 - Tokens
 - Devoid
 mana_cost: 2G
-mana_cost_converted: 3
 mana_produced: C, CC
+mana_value: 3
+melds_from: []
 name: Call the Scions
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
 - BFZ:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Winona Nelson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Ulamog''s progeny swarm the land, draining Zendikar''s mana to
+      feed the titan''s insatiable hunger.*'
     frame: m15
     mtgo_foil_id: 58450
     mtgo_id: 58449
     name: Battle for Zendikar
     number: 165
     rarity: common
-    release_date: 2015-10-02
+    release_date: '2015-10-02'
+    tla: BFZ
+    variations: []
     wizards_id: 401836
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401836
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Winona Nelson
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Ulamog''s progeny swarm the land, draining Zendikar''s mana to
+      feed the titan''s insatiable hunger.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: "Devoid *(This card has no color.)*\r\n\r\nCreate two 1/1 colorless Eldrazi\
   \ Scion creature tokens. They have \"Sacrifice this creature: Gain [[symbol:C]].\""
 slug: call-the-scions
-tags: card-color-green card-color-green-cost-3 card-mana-colorless-sym card-type-sorcery
+synonyms: []
 tapped_id: 17266
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Eldrazi Scion 1/1 C
-  power_toughness: 1/1
-  rules: 'Sacrifice this creature: Add [[symbol:C]].'
-  subtype: Eldrazi Scion
-  tla: BFZ
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - 'Sacrifice this creature: Add [[symbol:C]].'
+    - - type
+      - Token Creature
+    - - subtype
+      - 1091
+    - - cannonical_type
+      - Creature
+    - - name
+      - Eldrazi Scion 1/1 C
 type: Sorcery
-url: http://tappedout.net/mtg-card/call-the-scions/
+url: https://tappedout.net/mtg-card/call-the-scions/
+

@@ -1,16 +1,14 @@
 activated_abilities:
 - ': Add .'
 - ', : Target creature gets +X/+0 and gains trample until end of turn.'
-activation_costs:
+activated_costs:
 - C
 - G
 - R
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Land
-color_identity:
-- R
-- G
+color_identity: RG
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -22,113 +20,185 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 10.7
+draft_average: 5.18
+effective_cost: []
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Trample
-mana_cost_converted: 0
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Kessig Wolf Run
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 898
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567715
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567715
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 411
-    rarity: rare
-    release_date: 2022-04-30
-    wizards_id: 559983
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559983
-- C20:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 284
-    rarity: rare
-    release_date: 2020-05-15
-    wizards_id: 482912
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482912
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 355
-    rarity: rare
-    release_date: 2019-12-09
-- V13:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: modern
-    mtgo_foil_id: 50040
-    name: 'From the Vault: Twenty'
-    number: 20
-    rarity: mythic_rare
-    release_date: 2013-08-10
-    wizards_id: 373323
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373323
 - ISD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eytan Zana
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: When a werewolf changes for the first time, that first howl is said
+      to echo through the wilds till moonset.
     frame: modern
     mtgo_foil_id: 42587
     mtgo_id: 42586
     name: Innistrad
+    number: null
     rarity: rare
-    release_date: 2011-09-30
+    release_date: '2011-09-30'
+    tla: ISD
+    variations: []
     wizards_id: 233256
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=233256
+- V13:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eytan Zana
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*When a werewolf changes for the first time, that first howl is
+      said to echo through the wilds till moonset.*'
+    frame: modern
+    mtgo_foil_id: 50040
+    mtgo_id: null
+    name: 'From the Vault: Twenty'
+    number: 20
+    rarity: mythic_rare
+    release_date: '2013-08-10'
+    tla: V13
+    variations: []
+    wizards_id: 373323
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373323
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Eytan Zana
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*When a werewolf changes for the first time, that first howl is
+      said to echo through the wilds till moonset.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 284
+    rarity: rare
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: 482912
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482912
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Rio Krisma
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 355
+    rarity: rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Eytan Zana
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*When a werewolf changes for the first time, that first howl is
+      said to echo through the wilds till moonset.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 411
+    rarity: rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559983
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559983
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Eytan Zana
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: '*When a werewolf changes for the first time, that first howl is
+      said to echo through the wilds till moonset.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 898
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567715
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567715
+rarity: mythic_rare
 rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:X][[symbol:R]][[symbol:G]],\
   \ [[symbol:T]]: Target creature gets +X/+0 and gains trample until end of turn."
 slug: kessig-wolf-run
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
+synonyms: []
 tapped_id: 13260
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/kessig-wolf-run/
+url: https://tappedout.net/mtg-card/kessig-wolf-run/
+

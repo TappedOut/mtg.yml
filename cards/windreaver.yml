@@ -3,7 +3,7 @@ activated_abilities:
 - ': Windreaver gets +0/+1 until end of turn.'
 - ': Switch Windreaver''s power and toughness until end of turn.'
 - ': Return Windreaver to its owner''s hand.'
-activation_costs:
+activated_costs:
 - U
 - W
 canadian_hl_score: 0
@@ -13,29 +13,33 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.25
+draft_average: 1.0
 effective_cost:
 - W
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,47 +47,81 @@ keywords:
 - Flying
 - Vigilance
 mana_cost: 3UW
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Windreaver
 power_toughness: 1/3
 printings:
-- GK2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Ravnica Allegiance: Guild Kits'
-    number: 22
-    rarity: rare
-    release_date: 2019-02-15
-    wizards_id: 460151
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460151
-- DDI:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 43795
-    name: 'Duel Decks: Venser vs. Koth'
-    number: 19
-    rarity: rare
-    release_date: 2012-03-30
-    wizards_id: 270835
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=270835
 - DIS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Aleksi Briclot
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 24040
     mtgo_id: 24039
     name: Dissension
+    number: null
     rarity: rare
-    release_date: 2006-05-05
+    release_date: '2006-05-05'
+    tla: DIS
+    variations: []
     wizards_id: 97094
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=97094
+- DDI:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Aleksi Briclot
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 43795
+    name: 'Duel Decks: Venser vs. Koth'
+    number: 19
+    rarity: rare
+    release_date: '2012-03-30'
+    tla: DDI
+    variations: []
+    wizards_id: 270835
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=270835
+- GK2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Aleksi Briclot
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Ravnica Allegiance: Guild Kits'
+    number: 22
+    rarity: rare
+    release_date: '2019-02-15'
+    tla: GK2
+    variations: []
+    wizards_id: 460151
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460151
+rarity: rare
 rules: "Flying\r\n\r\n[[symbol:W]]: Windreaver gains vigilance until end of turn.\r\
   \n\r\n[[symbol:W]]: Windreaver gets +0/+1 until end of turn.\r\n\r\n[[symbol:U]]:\
   \ Switch Windreaver's power and toughness until end of turn.\r\n\r\n[[symbol:U]]:\
@@ -92,7 +130,9 @@ slug: windreaver
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-white card-type-creature
+synonyms: []
 tapped_id: 1703
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/windreaver/
+url: https://tappedout.net/mtg-card/windreaver/
+

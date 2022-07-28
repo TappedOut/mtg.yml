@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: VOC
@@ -7,98 +8,146 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.95
+draft_average: 2.63
 effective_cost:
 - U
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
 - Enchant
 - Attach
 mana_cost: 2U
-mana_cost_converted: 3
 mana_produced: C
+mana_value: 3
+melds_from: []
 name: Imprisoned in the Moon
 printings:
-- VOC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Crimson Vow Commander'
-    number: 106
-    rarity: rare
-    release_date: 2021-11-18
-    wizards_id: 545726
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545726
-- AFC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 85
-    rarity: rare
-    release_date: 2021-07-24
-    wizards_id: 532472
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532472
 - EMN:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Ryan Alexander Lee
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Only one vault was great enough to hold Emrakul.*'
     frame: m15
     mtgo_foil_id: 61117
     mtgo_id: 61116
     name: Eldritch Moon
     number: 65
     rarity: rare
-    release_date: 2016-07-22
+    release_date: '2016-07-22'
+    tla: EMN
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 414360
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414360
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ryan Alexander Lee
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*Only one vault was great enough to hold Emrakul.*'
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 65
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- AFC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ryan Alexander Lee
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Only one vault was great enough to hold Emrakul.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 85
+    rarity: rare
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: 532472
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532472
+- VOC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ryan Alexander Lee
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Only one vault was great enough to hold Emrakul.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Crimson Vow Commander'
+    number: 106
+    rarity: rare
+    release_date: '2021-11-18'
+    tla: VOC
+    variations: []
+    wizards_id: 545726
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545726
+rarity: rare
 rules: "Enchant creature, land or planeswalker \r\n\r\nEnchanted permanent is a colorless\
   \ land with \"[[symbol:T]]: Add [[symbol:C]].\" and loses all other card types and\
   \ abilities."
@@ -106,7 +155,9 @@ slug: imprisoned-in-the-moon
 subtype: Aura
 subtype_tokens:
 - Aura
-tags: card-color-blue card-color-blue-cost-3 card-mana-colorless-sym card-type-enchantment
+synonyms: []
 tapped_id: 17974
+tokens: []
 type: Enchantment
-url: http://tappedout.net/mtg-card/imprisoned-in-the-moon/
+url: https://tappedout.net/mtg-card/imprisoned-in-the-moon/
+

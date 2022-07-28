@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: KHM
 cannonical_type: Enchantment
@@ -5,6 +7,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -12,30 +15,30 @@ companions:
 effective_cost:
 - W
 - B
-flat_cost: 5
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -44,20 +47,32 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 3Wb
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Rampage of the Valkyries
 printings:
 - KHM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Billy Christian
     booster_exclude: true
     border_color: B
+    cannonical: true
+    flavour_text: '*"This is a foul place. Cleanse it."*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Kaldheim
     number: 393
     rarity: uncommon
-    release_date: 2021-02-05
+    release_date: '2021-02-05'
+    tla: KHM
+    variations: []
     wizards_id: 506935
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=506935
 rules: "When Rampage of the Valkyries enters the battlefield, create a 4/4 white Angel\
@@ -65,18 +80,24 @@ rules: "When Rampage of the Valkyries enters the battlefield, create a 4/4 white
   \ put into the graveyard from the battlefield, tokens enter the graveyard before\
   \ ceasing to exist)*, each other player sacrifices a creature."
 slug: rampage-of-the-valkyries
-tags: card-color-black card-color-gold card-color-gold-cost-5 card-color-white card-type-enchantment
+synonyms: []
 tapped_id: 23682
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Angel 4/4 W w/ Vigilance
-  power_toughness: 4/4
-  rules: Flying, vigilance
-  subtype: Angel
-  tla: NEC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 4/4
+    - - rules
+      - Flying, vigilance
+    - - type
+      - Token Creature
+    - - subtype
+      - 20
+    - - cannonical_type
+      - Creature
+    - - name
+      - Angel 4/4 W w/ Vigilance
 type: Enchantment
-url: http://tappedout.net/mtg-card/rampage-of-the-valkyries/
+url: https://tappedout.net/mtg-card/rampage-of-the-valkyries/
+

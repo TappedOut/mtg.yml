@@ -1,69 +1,93 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: PCY
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 1.0
 effective_cost:
 - G
-flat_cost: 2
 formats:
 - 1v1 Commander
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
+keywords: []
 mana_cost: 1G
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Elephant Resurgence
+power_toughness: ''
 printings:
 - PCY:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: DiTerlizzi
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 14028
     mtgo_id: 14027
     name: Prophecy
     number: 113
     rarity: rare
-    release_date: 2000-06-05
+    release_date: '2000-06-05'
+    tla: PCY
+    variations: []
     wizards_id: 21382
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=21382
+rarity: rare
 rules: Each player puts a green Elephant creature token into play. Those creatures
   have "This creature's power and toughness are each equal to the number of creature
   cards in its controller's graveyard."
 slug: elephant-resurgence
-tags: card-color-green card-color-green-cost-2 card-type-sorcery
+synonyms: []
 tapped_id: 5368
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: '*/* G Token Creature Elephant'
-  power_toughness: '*/*'
-  rules: This creature's power and toughness are each equal to the number of creature
-    cards in its controller's graveyard.
-  subtype: Elephant
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - '*/*'
+    - - rules
+      - This creature's power and toughness are each equal to the number of creature
+        cards in its controller's graveyard.
+    - - type
+      - Token Creature
+    - - subtype
+      - 214
+    - - cannonical_type
+      - Creature
+    - - name
+      - null
 type: Sorcery
-url: http://tappedout.net/mtg-card/elephant-resurgence/
+url: https://tappedout.net/mtg-card/elephant-resurgence/
+

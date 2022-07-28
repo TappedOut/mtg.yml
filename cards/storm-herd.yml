@@ -1,103 +1,161 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: KHC
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.67
+draft_average: 1.8
 effective_cost:
 - W
-flat_cost: 10
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 - Tokens
 mana_cost: 8WW
-mana_cost_converted: 10
+mana_value: 10
+melds_from: []
 name: Storm Herd
 printings:
-- KHC:
+- GPT:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jim Nelson
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: 'Kaldheim: Commander'
-    number: 33
+    cannonical: true
+    flavour_text: "\"When you hear thunder on a cloudless day, take cover and brace\
+      \ for the coming of the storm herd.\" \u2014Skotov, Tin Street basket vendor"
+    frame: modern
+    mtgo_foil_id: 23794
+    mtgo_id: 23793
+    name: Guildpact
+    number: null
     rarity: rare
-    release_date: 2021-02-05
-    wizards_id: 508323
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508323
+    release_date: '2006-02-03'
+    tla: GPT
+    variations: []
+    wizards_id: 96968
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=96968
+- CMD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jim Nelson
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "\"When you hear thunder on a cloudless day, take cover and brace\
+      \ for the coming of the storm herd.\" \u2014Skotov, Tin Street basket vendor"
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 40753
+    name: 'MTG: Commander'
+    number: null
+    rarity: rare
+    release_date: '2011-06-17'
+    tla: CMD
+    variations: []
+    wizards_id: 247287
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247287
 - C19:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jim Nelson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"When you hear thunder on a cloudless day, take cover and brace\
+      \ for the coming of the storm herd.\"\r\n<br>&mdash;Skotov, Tin Street basket\
+      \ vendor*"
     frame: m15
     mtgo_foil_id: 77265
     mtgo_id: 77264
     name: Commander 2019
     number: 75
     rarity: rare
-    release_date: 2019-08-23
-- CMD:
+    release_date: '2019-08-23'
+    tla: C19
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- KHC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jim Nelson
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_id: 40753
-    name: 'MTG: Commander'
+    cannonical: true
+    flavour_text: "*\"When you hear thunder on a cloudless day, take cover and brace\
+      \ for the coming of the storm herd.\"\r\n<br>&mdash;Skotov, Tin Street basket\
+      \ vendor*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kaldheim: Commander'
+    number: 33
     rarity: rare
-    release_date: 2011-06-17
-    wizards_id: 247287
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247287
-- GPT:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 23794
-    mtgo_id: 23793
-    name: Guildpact
-    rarity: rare
-    release_date: 2006-02-03
-    wizards_id: 96968
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=96968
+    release_date: '2021-02-05'
+    tla: KHC
+    variations: []
+    wizards_id: 508323
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508323
+rarity: rare
 rules: Create X 1/1 white Pegasus creature tokens with flying, where X is your life
   total.
 slug: storm-herd
-tags: card-color-white card-color-white-cost-10 card-type-sorcery
+synonyms: []
 tapped_id: 1849
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Pegasus 1/1 W
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Pegasus
-  tla: KHC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 105
+    - - cannonical_type
+      - Creature
+    - - name
+      - Pegasus 1/1 W
 type: Sorcery
-url: http://tappedout.net/mtg-card/storm-herd/
+url: https://tappedout.net/mtg-card/storm-herd/
+

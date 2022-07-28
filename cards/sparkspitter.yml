@@ -1,7 +1,7 @@
 activated_abilities:
 - ', , Discard a card: Create a 3/1 red Elemental creature token named Spark Elemental.
   It has trample, haste, and '
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: UMA
@@ -10,32 +10,36 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.83
+draft_average: 8.77
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,46 +49,81 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Sparkspitter
 power_toughness: 1/3
 printings:
-- MYS1:
+- FUT:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dan Scott
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 26691
+    mtgo_id: 26690
+    name: Future Sight
+    number: null
+    rarity: uncommon
+    release_date: '2007-05-04'
+    tla: FUT
+    variations: []
+    wizards_id: 130341
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=130341
 - UMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dan Scott
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 70372
     mtgo_id: 70371
     name: Ultimate Masters
     number: 149
     rarity: common
-    release_date: 2018-12-07
+    release_date: '2018-12-07'
+    tla: UMA
+    variations: []
     wizards_id: 456745
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456745
-- FUT:
+- MYS1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Dan Scott
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 26691
-    mtgo_id: 26690
-    name: Future Sight
-    rarity: uncommon
-    release_date: 2007-05-04
-    wizards_id: 130341
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=130341
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: uncommon
 rules: '[[symbol:R]], [[symbol:T]], Discard a card: Create a 3/1 red Elemental creature
   token named Spark Elemental. It has trample, haste, and "At end of turn, sacrifice
   Spark Elemental."'
@@ -93,18 +132,24 @@ subtype: Elemental Spellshaper
 subtype_tokens:
 - Elemental
 - Spellshaper
-tags: card-color-red card-color-red-cost-3 card-type-creature
+synonyms: []
 tapped_id: 772
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spark Elemental
-  power_toughness: 3/1
-  rules: "Trample, haste\r\n\r\nAt the beginning of the end step, sacrifice this creature."
-  subtype: Elemental
-  tla: UMA
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 3/1
+    - - rules
+      - "Trample, haste\r\n\r\nAt the beginning of the end step, sacrifice this creature."
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spark Elemental
 type: Creature
-url: http://tappedout.net/mtg-card/sparkspitter/
+url: https://tappedout.net/mtg-card/sparkspitter/
+

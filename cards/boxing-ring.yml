@@ -1,45 +1,48 @@
 activated_abilities:
 - ': Create a Treasure token. Activate this ability only if you control a creature
   that fought this turn. *(It''s a colourless artifact with )*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - G
-flat_cost: 2
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Penny Dreadful
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -48,32 +51,57 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 1G
-mana_cost_converted: 2
 mana_produced: W, U, B, R, G
+mana_value: 2
+melds_from: []
 name: Boxing Ring
 printings:
+- SNC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: null
+    booster_exclude: false
+    border_color: null
+    cannonical: true
+    flavour_text: null
+    frame: null
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Streets of New Capenna
+    number: null
+    rarity: rare
+    release_date: '2022-04-29'
+    tla: SNC
+    variations: []
+    wizards_id: null
+    wizards_url: null
 - NCC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: James Paick
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Streets of New Capenna: Commander'
     number: 91
     rarity: rare
-    release_date: 2022-04-30
+    release_date: '2022-04-30'
+    tla: NCC
     variations:
-    - alterations:
-      - Normal
-      identifier: '99'
+    - identifier: '99'
     wizards_id: 559570
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559570
-- SNC:
-    alterations:
-    - Foil
-    - Normal
-    name: Streets of New Capenna
-    rarity: rare
-    release_date: 2022-04-29
 rules: "Whenever a creature enters the battlefield under your control, it fights up\
   \ to one target creature you don't control with the same converted mana cost/mana\
   \ value. *(Each creature deals damage equal to its power to the other.)*\r\n\r\n\
@@ -81,19 +109,24 @@ rules: "Whenever a creature enters the battlefield under your control, it fights
   \ a creature that fought this turn. *(It's a colourless artifact with \"[[symbol:T]],\
   \ Sacrifice this: Add one mana of any colour.\")*"
 slug: boxing-ring
-tags: card-color-green card-color-green-cost-2 card-mana-black card-mana-blue card-mana-green
-  card-mana-red card-mana-white card-type-artifact
+synonyms: []
 tapped_id: 26301
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: 2X2
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Artifact
-url: http://tappedout.net/mtg-card/boxing-ring/
+url: https://tappedout.net/mtg-card/boxing-ring/
+

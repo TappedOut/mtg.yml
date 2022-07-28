@@ -2,7 +2,7 @@ activated_abilities:
 - ': Gain .'
 - ', : Remove the top card of your library from the game. Until your next turn, you
   may play that card if it''s an instant or sorcery.'
-activation_costs:
+activated_costs:
 - C
 - R
 - U
@@ -20,55 +20,84 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 12.38
+draft_average: 11.04
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Nivix, Aerie of the Firemind
 printings:
-- DDJ:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 46216
-    name: 'Duel Decks: Izzet vs. Golgari'
-    number: 36
-    rarity: uncommon
-    release_date: 2012-09-07
-    wizards_id: 292737
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=292737
 - GPT:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Martina Pilcerova
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Niv-Mizzet's genius and vanity reverberate throughout the mirrored
+      halls of Nivix.
     frame: modern
     mtgo_foil_id: 23760
     mtgo_id: 23759
     name: Guildpact
+    number: null
     rarity: uncommon
-    release_date: 2006-02-03
+    release_date: '2006-02-03'
+    tla: GPT
+    variations: []
     wizards_id: 96937
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=96937
+- DDJ:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Martina Pilcerova
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Niv-Mizzet''s genius and vanity reverberate throughout the mirrored
+      halls of Nivix.*'
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 46216
+    name: 'Duel Decks: Izzet vs. Golgari'
+    number: 36
+    rarity: uncommon
+    release_date: '2012-09-07'
+    tla: DDJ
+    variations: []
+    wizards_id: 292737
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=292737
+rarity: uncommon
 rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:2]][[symbol:U]][[symbol:R]],\
   \ [[symbol:T]]: Remove the top card of your library from the game. Until your next\
   \ turn, you may play that card if it's an instant or sorcery."
@@ -82,7 +111,8 @@ synonyms:
 - UR Guild Hall
 - RU Guild Hall
 - Izzet Guild Hall
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
 tapped_id: 1794
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/nivix-aerie-of-the-firemind/
+url: https://tappedout.net/mtg-card/nivix-aerie-of-the-firemind/
+

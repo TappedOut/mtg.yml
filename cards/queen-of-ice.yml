@@ -4,7 +4,7 @@ activated_abilities:
   from a cascade spell if the spell has a cost greater than Queen of Ice''s cost.
   If you cast a Rage of Winter that another player owns, only you may cast the Queen
   of Ice that gets sent on an adventure, not the owner.)*'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: ELD
@@ -12,36 +12,40 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.94
+draft_average: 5.54
 effective_cost:
 - U
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -50,27 +54,36 @@ keywords:
 - Tap/Untap
 - Adventure
 mana_cost: 2U
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Queen of Ice
 power_toughness: 2/3
 printings:
 - ELD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Deschamps
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 78233
     mtgo_id: 78232
     name: Throne of Eldraine
     number: 61
     rarity: common
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '285'
+    - identifier: '285'
+    wizards_id: null
+    wizards_url: null
 rules: "Whenever Queen of Ice deals combat damage to a creature, tap that creature.\
   \ It doesn't untap during its controller's next untap step.\r\n\r\n<br>\r\n\r\n\
   *(You may cast Queen of Ice from exile if you sent it on an adventure.)*\r\n\r\n\
@@ -98,7 +111,8 @@ synonyms:
 - Queen of Ice/Rage of Winter
 - Rage of Winter/Queen of Ice
 - Rage of Winter / Queen of Ice
-tags: card-color-blue card-color-blue-cost-3 card-type-creature
 tapped_id: 22211
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/queen-of-ice/
+url: https://tappedout.net/mtg-card/queen-of-ice/
+

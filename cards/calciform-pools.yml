@@ -3,7 +3,7 @@ activated_abilities:
 - ', : Put a storage counter on Calciform Pools.'
 - ', Remove X storage counters from Calciform Pools: Gain X mana in any combination
   of  and/or .'
-activation_costs:
+activated_costs:
 - C
 - U
 - W
@@ -21,64 +21,93 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 10.42
+draft_average: 7.77
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
-mana_cost_converted: 0
 mana_produced: W, U, C
+mana_value: 0
+melds_from: []
 name: Calciform Pools
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 275
-    rarity: uncommon
-    release_date: 2021-03-19
-    wizards_id: 509640
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509640
 - TSP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Darrell Riche
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 25484
     mtgo_id: 25483
     name: Time Spiral
+    number: null
     rarity: uncommon
-    release_date: 2006-10-06
+    release_date: '2006-10-06'
+    tla: TSP
+    variations: []
     wizards_id: 108930
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=108930
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Darrell Riche
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 275
+    rarity: uncommon
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509640
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509640
+rarity: uncommon
 rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:1]], [[symbol:T]]: Put a\
   \ storage counter on Calciform Pools.\r\n\r\n[[symbol:1]], Remove X storage counters\
   \ from Calciform Pools: Gain X mana in any combination of [[symbol:W]] and/or [[symbol:U]]."
 slug: calciform-pools
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-blue card-mana-colorless-sym
-  card-mana-white card-type-land
+synonyms: []
 tapped_id: 993
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/calciform-pools/
+url: https://tappedout.net/mtg-card/calciform-pools/
+

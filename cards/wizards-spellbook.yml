@@ -2,7 +2,7 @@ activated_abilities:
 - ': Exile target instant or sorcery card from a graveyard. Roll a twenty sided die.
   Activate this ability only as a sorcery. *(Remember that MTG spindowns are not well
   weight balanced, so please roll a die that isn''t an MTG spindown.)*'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: AFR
@@ -10,6 +10,7 @@ cannonical_type: Artifact
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -17,57 +18,75 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 7
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
 mana_cost: 5UU
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Wizard's Spellbook
 printings:
 - AFR:
     alterations:
-    - D&D Foil
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    - !!python/tuple
+      - f-&
+      - D&D Foil
+    artist: Iris Compiet
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Dungeons & Dragons: Adventures in the Forgotten Realms'
     number: 82
     rarity: rare
-    release_date: 2021-07-23
+    release_date: '2021-07-23'
+    tla: AFR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '370'
+    - identifier: '370'
     wizards_id: 527369
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=527369
 rules: "[[symbol:T]]: Exile target instant or sorcery card from a graveyard. Roll\
@@ -78,7 +97,9 @@ rules: "[[symbol:T]]: Exile target instant or sorcery card from a graveyard. Rol
   \ rather than paying its mana cost.\r\n<br>If you roll a 20 | Copy each card exiled\
   \ with this. You may cast any number of the copies without paying their mana costs."
 slug: wizards-spellbook
-tags: card-color-blue card-color-blue-cost-7 card-type-artifact
+synonyms: []
 tapped_id: 24778
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/wizards-spellbook/
+url: https://tappedout.net/mtg-card/wizards-spellbook/
+

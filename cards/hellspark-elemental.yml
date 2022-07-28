@@ -2,38 +2,42 @@ activated_abilities:
 - 'Unearth  *(: Return this card from your graveyard to the battlefield. It gains
   haste. Exile it at the beginning of the next end step or if it would leave the battlefield.
   Unearth only as a sorcery.)*'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: DDK
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 11.13
+draft_average: 5.34
 effective_cost:
 - R
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,60 +48,99 @@ keywords:
 - Sacrifice
 - Unearth
 mana_cost: 1R
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Hellspark Elemental
 power_toughness: 3/1
 printings:
-- DDK:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 48043
-    name: 'Duel Decks: Sorin vs. Tibalt'
-    number: 46
-    rarity: uncommon
-    release_date: 2013-05-15
-    wizards_id: 368477
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=368477
-- PFL:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: modern
-    mtgo_foil_id: 39251
-    name: 'Premium Deck Series: Fire and Lightning'
-    number: 6
-    rarity: uncommon
-    release_date: 2010-11-19
-    wizards_id: 234711
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=234711
 - CON:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Justin Sweet
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 31712
     mtgo_id: 31711
     name: Conflux
+    number: null
     rarity: uncommon
-    release_date: 2009-02-06
+    release_date: '2009-02-06'
+    tla: CON
+    variations: []
     wizards_id: 174799
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=174799
+- DDK:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Justin Sweet
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 48043
+    name: 'Duel Decks: Sorin vs. Tibalt'
+    number: 46
+    rarity: uncommon
+    release_date: '2013-05-15'
+    tla: DDK
+    variations: []
+    wizards_id: 368477
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=368477
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Nils Hamm
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 25
     rarity: uncommon
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- PFL:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: ' Justin Sweet'
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: modern
+    mtgo_foil_id: 39251
+    mtgo_id: null
+    name: 'Premium Deck Series: Fire and Lightning'
+    number: 6
+    rarity: uncommon
+    release_date: '2010-11-19'
+    tla: PFL
+    variations: []
+    wizards_id: 234711
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=234711
+rarity: uncommon
 rules: "Trample, haste\r\n\r\nAt the beginning of the end step, sacrifice Hellspark\
   \ Elemental.\r\n\r\nUnearth [[1]][[R]] *([[1]][[R]]: Return this card from your\
   \ graveyard to the battlefield. It gains haste. Exile it at the beginning of the\
@@ -107,7 +150,9 @@ slug: hellspark-elemental
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-color-red card-color-red-cost-2 card-type-creature
+synonyms: []
 tapped_id: 10221
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/hellspark-elemental/
+url: https://tappedout.net/mtg-card/hellspark-elemental/
+

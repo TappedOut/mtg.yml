@@ -1,38 +1,42 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.37
+draft_average: 1.69
 effective_cost:
 - B
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -40,77 +44,141 @@ keywords:
 - Attach
 - Bestow
 mana_cost: 1BB
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Nighthowler
 power_toughness: 0/0
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 764
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567581
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567581
-- ZNC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Zendikar Rising: Commander'
-    number: 49
-    rarity: rare
-    release_date: 2020-09-25
-    wizards_id: 495987
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=495987
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: rare
-    release_date: 2020-03-14
-- C15:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2015
-    number: 129
-    rarity: rare
-    release_date: 2015-11-13
-    wizards_id: 405319
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405319
 - THS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Nils Hamm
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: modern
     mtgo_foil_id: 50545
     mtgo_id: 50544
     name: Theros
     number: 98
     rarity: rare
-    release_date: 2013-09-27
+    release_date: '2013-09-27'
+    tla: THS
+    variations: []
     wizards_id: 373564
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373564
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Seb McKinnon
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 31
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C15:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Nils Hamm
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2015
+    number: 129
+    rarity: rare
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
+    wizards_id: 405319
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405319
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Nils Hamm
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: rare
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- ZNC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Nils Hamm
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Zendikar Rising: Commander'
+    number: 49
+    rarity: rare
+    release_date: '2020-09-25'
+    tla: ZNC
+    variations: []
+    wizards_id: 495987
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=495987
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Nils Hamm
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 764
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567581
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567581
+rarity: rare
 rules: "Bestow [[symbol:2]][[symbol:B]][[symbol:B]] *(If you cast this card for its\
   \ bestow cost, it's an Aura spell with enchant creature. It becomes a creature again\
   \ if it's not attached to a creature.)*\r\n\r\nNighthowler and enchanted creature\
@@ -119,7 +187,9 @@ slug: nighthowler
 subtype: Horror
 subtype_tokens:
 - Horror
-tags: card-color-black card-color-black-cost-3 card-type-creature card-type-enchantment
+synonyms: []
 tapped_id: 14821
+tokens: []
 type: Enchantment Creature
-url: http://tappedout.net/mtg-card/nighthowler/
+url: https://tappedout.net/mtg-card/nighthowler/
+

@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Note the name of target instant or sorcery card in your graveyard and put it
   onto the battlefield face down. It''s a 3/3 creature with  and '
-activation_costs:
+activated_costs:
 - B
 - R
 canadian_hl_score: 0
@@ -10,6 +10,7 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -18,35 +19,46 @@ companions:
 effective_cost:
 - B
 - R
-flat_cost: 3
 formats:
+- Casual
 - Penny Dreadful
+- Custom
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
 mana_cost: 1BR
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Magar of the Magic Strings
 power_toughness: 3/3
 printings:
 - UNF:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Tomik Larek
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Unfinity
     number: 171
     rarity: mythic_rare
-    release_date: 2022-10-07
+    release_date: '2022-10-07'
+    tla: UNF
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '263'
+    - identifier: '263'
+    wizards_id: null
+    wizards_url: null
 rules: '[[symbol:1]][[symbol:B]][[symbol:R]]: Note the name of target instant or sorcery
   card in your graveyard and put it onto the battlefield face down. It''s a 3/3 creature
   with "Whenever this creature deals combat damage to a player, you may create a copy
@@ -58,8 +70,9 @@ subtype: Minotaur Performer
 subtype_tokens:
 - Minotaur
 - Performer
-tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-red card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 27046
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/magar-of-the-magic-strings/
+url: https://tappedout.net/mtg-card/magar-of-the-magic-strings/
+

@@ -1,37 +1,43 @@
 activated_abilities:
 - ', Remove an arrowhead counter from Serrated Arrows: Put a -1/-1 counter on target
   creature.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DDD
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 4
+cube_average: 8.45
+draft_average: 4.69
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
+- Vintage
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Modern
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Premodern
-- Vintage
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -39,89 +45,169 @@ keywords:
 - Sacrifice
 - Counters
 mana_cost: '4'
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Serrated Arrows
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
-- DD3:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Duel Decks Anthology
-    number: 20
-    rarity: common
-    release_date: 2014-12-05
-    wizards_id: 393920
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393920
-- DDD:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 34908
-    name: 'Duel Decks: Garruk vs. Liliana'
-    rarity: common
-    release_date: 2009-10-20
-    wizards_id: 202280
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=202280
 - TSB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: David A. Cherry
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 26066
     mtgo_id: 26065
     name: Time Spiral "Timeshifted"
+    number: null
     rarity: rare
-    release_date: 2006-10-06
+    release_date: '2006-10-06'
+    tla: TSB
+    variations: []
     wizards_id: 109730
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=109730
+- HML:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: David A. Cherry
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Homelands
+    number: null
+    rarity: common
+    release_date: '1995-10-01'
+    tla: HML
+    variations: []
+    wizards_id: 2909
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=2909
+- DDD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: John Avon
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 34908
+    name: 'Duel Decks: Garruk vs. Liliana'
+    number: null
+    rarity: common
+    release_date: '2009-10-20'
+    tla: DDD
+    variations: []
+    wizards_id: 202280
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=202280
 - ATH:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: David A. Cherry
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Anthologies
     number: 63
     rarity: uncommon
-    release_date: 1998-11-01
-- HML:
-    alterations:
-    - Normal
-    border_color: B
-    frame: original
-    name: Homelands
-    rarity: common
-    release_date: 1995-10-01
-    wizards_id: 2909
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=2909
+    release_date: '1998-11-01'
+    tla: ATH
+    variations: []
+    wizards_id: null
+    wizards_url: null
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Avon
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- DD3:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: John Avon
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Duel Decks Anthology
+    number: 20
+    rarity: common
+    release_date: '2014-12-05'
+    tla: DD3
+    variations: []
+    wizards_id: 393920
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393920
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: John Avon
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: "Serrated Arrows enters the battlefield with three arrowhead counters on it.\r\
   \n\r\nAt the beginning of your upkeep, if there are no arrowhead counters on Serrated\
   \ Arrows, sacrifice it.\r\n\r\n[[symbol:T]], Remove an arrowhead counter from Serrated\
   \ Arrows: Put a -1/-1 counter on target creature."
 slug: serrated-arrows
-tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
+synonyms: []
 tapped_id: 1330
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/serrated-arrows/
+url: https://tappedout.net/mtg-card/serrated-arrows/
+

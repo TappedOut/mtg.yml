@@ -2,32 +2,37 @@ activated_abilities:
 - 'Equip  *(: Attach this to target creature you control. Equip only as a sorcery.
   This enters the battlefield unattached and stays on the battlefield if the creature
   this card is attached to leaves the battlefield.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C17
 cannonical_type: Artifact
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 1
+cube_average: 6.26
+effective_cost: []
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -36,41 +41,59 @@ keywords:
 - Attach
 - Tokens
 mana_cost: '1'
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Bloodforged Battle-Axe
 printings:
-- 2X2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Double Masters 2022
-    number: 299
-    rarity: rare
-    release_date: 2022-07-08
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '392'
-    - alterations:
-      - Etched
-      identifier: '556'
-    wizards_id: 571632
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571632
 - C17:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Alayna Danner
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Spilled blood always begets more of the same.
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2017
     number: 30
     rarity: rare
-    release_date: 2017-08-25
+    release_date: '2017-08-25'
+    tla: C17
+    variations: []
     wizards_id: 433291
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433291
+- 2X2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Alayna Danner
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*Spilled blood always begets more of the same.*\r\n\r\n*She awoke\
+      \ with blood on her brow, an axe in her hand, and heads at her feet.*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters 2022
+    number: 299
+    rarity: rare
+    release_date: '2022-07-08'
+    tla: 2X2
+    variations:
+    - identifier: '392'
+    - identifier: '556'
+    wizards_id: 571632
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571632
+rarity: rare
 rules: "Equipped creature gets +2/+0.\r\n\r\nWhenever equipped creature deals combat\
   \ damage to a player, create a token that's a copy of Bloodforged Battle-Axe.\r\n\
   \r\nEquip [[symbol:2]] *([[symbol:2]]: Attach this to target creature you control.\
@@ -82,17 +105,23 @@ subtype_tokens:
 - Equipment
 synonyms:
 - Bloodforged Battle-Ax
-tags: card-color-colorless card-color-colorless-cost-1 card-type-artifact
 tapped_id: 19276
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Artifact
-url: http://tappedout.net/mtg-card/bloodforged-battle-axe/
+url: https://tappedout.net/mtg-card/bloodforged-battle-axe/
+

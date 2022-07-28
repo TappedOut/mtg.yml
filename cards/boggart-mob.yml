@@ -1,55 +1,71 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: LRW
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+draft_average: 2.0
 effective_cost:
 - B
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
 - Champion
 mana_cost: 3B
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Boggart Mob
 power_toughness: 5/5
 printings:
 - LRW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Thomas Denmark
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 28476
     mtgo_id: 28475
     name: Lorwyn
     number: 104
     rarity: rare
-    release_date: 2007-10-12
+    release_date: '2007-10-12'
+    tla: LRW
+    variations: []
     wizards_id: 140230
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=140230
+rarity: rare
 rules: "Champion a Goblin <i>(When this enters the battlefield, sacrifice it unless\
   \ you remove another Goblin you control from the game. When this leaves the battlefield,\
   \ that card returns to play.) \r\n\r\nWhenever a Goblin you control deals combat\
@@ -59,18 +75,24 @@ subtype: Goblin Warrior
 subtype_tokens:
 - Goblin
 - Warrior
-tags: card-color-black card-color-black-cost-4 card-type-creature
+synonyms: []
 tapped_id: 175
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goblin Rogue 1/1 B
-  power_toughness: 1/1
-  rules: ''
-  subtype: Goblin Rogue
-  tla: LRW
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 106
+    - - cannonical_type
+      - Creature
+    - - name
+      - Goblin Rogue 1/1 B
 type: Creature
-url: http://tappedout.net/mtg-card/boggart-mob/
+url: https://tappedout.net/mtg-card/boggart-mob/
+

@@ -1,13 +1,12 @@
 activated_abilities:
 - ': Another target wolf or werewolf you control fights target creature you don''t
   control. *(Each deals damage to the other equal to their power).*'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: MID
 cannonical_type: Creature
-color_indicator:
-- G
+color_indicator: G
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -18,31 +17,32 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - G
-flat_cost: 0
 flip: Tovolar's Huntmaster
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_front: true
 is_mtgo: true
@@ -51,41 +51,69 @@ keywords:
 - Fight
 - Tokens
 - Daybound / Nightbound
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Tovolar's Packleader
 power_toughness: 7/7
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 204
-    rarity: rare
-    release_date: 2022-01-21
 - MID:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    booster_exclude: true
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Cristi Balanescu
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Midnight Hunt'
     number: 204
     rarity: rare
-    release_date: 2021-09-24
+    release_date: '2021-09-24'
+    tla: MID
     variations:
-    - alterations:
-      - Foil
+    - identifier: '306'
+    wizards_id: null
+    wizards_url: null
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: '306'
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Cristi Balanescu
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 204
+    rarity: rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "When this enters the battlefield or attacks, create two 2/2 green wolf tokens.\r\
   \n\r\n[[symbol:2]][[symbol:G]][[symbol:G]]: Another target wolf or werewolf you\
   \ control fights target creature you don't control. *(Each deals damage to the other\
@@ -99,36 +127,54 @@ slug: tovolars-packleader
 subtype: Werewolf
 subtype_tokens:
 - Werewolf
-tags: card-type-creature
+synonyms: []
 tapped_id: 25211
 tokens:
-- cannonical_type: Emblem
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Day
-  power_toughness: null
-  rules: ''
-  tla: MID
-  type: Emblem
-- cannonical_type: Emblem
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Night
-  power_toughness: null
-  rules: ''
-  tla: MID
-  type: Emblem
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Wolf 2/2 G
-  power_toughness: 2/2
-  rules: ''
-  subtype: Wolf
-  tla: MID
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Day
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Night
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 93
+    - - cannonical_type
+      - Creature
+    - - name
+      - Wolf 2/2 G
 type: Creature
-url: http://tappedout.net/mtg-card/tovolars-packleader/
+url: https://tappedout.net/mtg-card/tovolars-packleader/
+

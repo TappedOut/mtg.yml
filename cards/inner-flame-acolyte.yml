@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: DD2
@@ -6,32 +7,35 @@ cannonical_type: Creature
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.32
+draft_average: 8.55
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -39,46 +43,78 @@ keywords:
 - Sacrifice
 - Evoke
 mana_cost: 1RR
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Inner-Flame Acolyte
 power_toughness: 2/2
 printings:
-- DD3:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Duel Decks Anthology
-    number: 41
-    rarity: common
-    release_date: 2014-12-05
-    wizards_id: 393846
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393846
-- DD2:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 31548
-    name: 'Duel Decks: Jace vs. Chandra'
-    rarity: common
-    release_date: 2008-11-07
-    wizards_id: 189216
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=189216
 - LRW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ron Spears
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 28488
     mtgo_id: 28487
     name: Lorwyn
+    number: null
     rarity: common
-    release_date: 2007-10-12
+    release_date: '2007-10-12'
+    tla: LRW
+    variations: []
     wizards_id: 146599
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=146599
+- DD2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ron Spears
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 31548
+    name: 'Duel Decks: Jace vs. Chandra'
+    number: null
+    rarity: common
+    release_date: '2008-11-07'
+    tla: DD2
+    variations: []
+    wizards_id: 189216
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=189216
+- DD3:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ron Spears
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Duel Decks Anthology
+    number: 41
+    rarity: common
+    release_date: '2014-12-05'
+    tla: DD3
+    variations: []
+    wizards_id: 393846
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393846
+rarity: common
 rules: "When Inner-Flame Acolyte enters the battlefield, target creature gets +2/+0\
   \ and gains haste until end of turn.\r\n\r\nEvoke [[symbol:R]] *(You may play this\
   \ spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)*"
@@ -87,7 +123,9 @@ subtype: Elemental Shaman
 subtype_tokens:
 - Elemental
 - Shaman
-tags: card-color-red card-color-red-cost-3 card-type-creature
+synonyms: []
 tapped_id: 285
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/inner-flame-acolyte/
+url: https://tappedout.net/mtg-card/inner-flame-acolyte/
+

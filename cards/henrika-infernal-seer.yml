@@ -1,13 +1,12 @@
 activated_abilities:
 - ': Each creature you control with flying, deathtouch and/or lifelink gets +1/+0
   until end of turn.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Creature
-color_indicator:
-- B
+color_indicator: B
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -18,30 +17,32 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 0
+flip: Henrika Domnathi
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -49,45 +50,72 @@ keywords:
 - Deathtouch
 - Flying
 - Lifelink
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Henrika, Infernal Seer
 power_toughness: 3/4
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 386
-    rarity: mythic_rare
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    booster_exclude: true
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Billy Christian
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Once you''ve tasted demon blood, you''ll wonder why you ever
+      settled for human."*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 119
     rarity: mythic_rare
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
     variations:
-    - alterations:
-      - Foil
+    - identifier: '293'
+    - identifier: '335'
+    wizards_id: null
+    wizards_url: null
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: '293'
-    - alterations:
+    - !!python/tuple
+      - f
       - Foil
-      - Normal
-      identifier: '335'
+    artist: Billy Christian
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"Once you''ve tasted demon blood, you''ll wonder why you ever
+      settled for human."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 386
+    rarity: mythic_rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Flying, deathtouch, lifelink\r\n\r\n[[symbol:1]][[symbol:B]][[symbol:B]]:\
   \ Each creature you control with flying, deathtouch and/or lifelink gets +1/+0 until\
   \ end of turn."
@@ -98,7 +126,8 @@ subtype_tokens:
 synonyms:
 - Fiends of Darkest Night
 - The Fiends of Darkest Night
-tags: card-type-creature card-type-legendary
 tapped_id: 25462
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/henrika-infernal-seer/
+url: https://tappedout.net/mtg-card/henrika-infernal-seer/
+

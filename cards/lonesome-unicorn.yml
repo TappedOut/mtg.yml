@@ -4,7 +4,7 @@ activated_abilities:
   cascade spell if the spell has a cost greater than Lonesome Unicorn''s cost. If
   you cast a Rider in Need that another player owns, only you may cast the Lonesome
   Unicorn that got sent on an adventure, not the owner.)*'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: ELD
@@ -12,35 +12,39 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.0
+draft_average: 7.38
 effective_cost:
 - W
-flat_cost: 5
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -50,36 +54,57 @@ keywords:
 - Tokens
 - Adventure
 mana_cost: 4W
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Lonesome Unicorn
 power_toughness: 3/3
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
 - ELD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Winona Nelson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 78135
     mtgo_id: 78134
     name: Throne of Eldraine
     number: 21
     rarity: common
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
     variations:
-    - alterations:
-      - Foil
+    - identifier: '276'
+    wizards_id: null
+    wizards_url: null
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: '276'
+    artist: Winona Nelson
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Vigilance\r\n\r\n<br>\r\n\r\n*(You may cast Lonesome Unicorn from exile if\
   \ you sent it on an adventure.)*\r\n\r\n-----\r\n\r\n<h3>Rider in Need</h3>\r\n\
   <h4>Sorcery &mdash; Adventure</h4>\r\n\r\nCreate a 2/2 white Knight creature token\
@@ -103,18 +128,23 @@ synonyms:
 - Lonesome Unicorn/Rider in Need
 - Rider in Need / Lonesome Unicorn
 - Rider in Need/Lonesome Unicorn
-tags: card-color-white card-color-white-cost-5 card-type-creature
 tapped_id: 22150
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Knight 2/2 W w/ Vigilance
-  power_toughness: 2/2
-  rules: Vigilance
-  subtype: Knight
-  tla: ELD
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 2/2
+    - - rules
+      - Vigilance
+    - - type
+      - Token Creature
+    - - subtype
+      - 501
+    - - cannonical_type
+      - Creature
+    - - name
+      - Knight 2/2 W w/ Vigilance
 type: Creature
-url: http://tappedout.net/mtg-card/lonesome-unicorn/
+url: https://tappedout.net/mtg-card/lonesome-unicorn/
+

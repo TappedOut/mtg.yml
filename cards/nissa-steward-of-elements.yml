@@ -5,41 +5,46 @@ activated_abilities:
   Nissa, Steward of Elements, you may put that card onto the battlefield. '
 - ': Untap up to two target lands you control. They become 5/5 Elemental creatures
   with flying and haste until end of turn. They''re still lands.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C20
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.8
+draft_average: 1.62
 effective_cost:
 - U
 - G
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -50,60 +55,101 @@ keywords:
 - Scry
 - Counters
 mana_cost: XGU
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Nissa, Steward of Elements
+planeswalker_loyalty: 0
 printings:
-- C20:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 224
-    rarity: mythic_rare
-    release_date: 2020-05-15
-    wizards_id: 482852
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482852
 - AKH:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Howard Lyon
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 64011
     mtgo_id: 64010
     name: Amonkhet
     number: 204
     rarity: mythic_rare
-    release_date: 2017-04-28
+    release_date: '2017-04-28'
+    tla: AKH
+    variations: []
     wizards_id: 426906
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426906
 - S17:
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Vincent Price
     booster_exclude: true
     border_color: B
     cannonical: false
-    foil: foil
-    foil_only: true
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: SDCC Promo 2017
     number: 204
-    rarity: common
-    release_date: 1990-07-20
+    rarity: null
+    release_date: '1990-07-20'
+    tla: S17
+    variations: []
+    wizards_id: null
+    wizards_url: null
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Vincent Proce
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: mythic_rare
-    release_date: 1990-04-15
-promo_sets:
-- S17
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Howard Lyon
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 224
+    rarity: mythic_rare
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: 482852
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482852
 rules: "[[symbol:loyalty-plus2]]: Scry 2. \r\n\r\n[[symbol:loyalty-zero]]: Look at\
   \ the top card of your library. If it's a land card or a creature card with converted\
   \ mana cost less than or equal to the number of loyalty counters on Nissa, Steward\
@@ -114,7 +160,9 @@ slug: nissa-steward-of-elements
 subtype: Nissa
 subtype_tokens:
 - Nissa
-tags: card-color-blue card-color-gold card-color-gold-cost-2 card-color-green card-type-planeswalker
+synonyms: []
 tapped_id: 18818
+tokens: []
 type: Planeswalker
-url: http://tappedout.net/mtg-card/nissa-steward-of-elements/
+url: https://tappedout.net/mtg-card/nissa-steward-of-elements/
+

@@ -1,13 +1,14 @@
 activated_abilities:
 - ', Exile this from your graveyard: Create a 1/1 blue Fish creature token with  Activate
   this ability only as a sorcery.'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: SNC
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -16,34 +17,35 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 1
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Penny Dreadful
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -52,20 +54,34 @@ keywords:
 - Unblockable
 - Tokens
 mana_cost: U
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Expendable Lackey
 power_toughness: 1/1
 printings:
 - SNC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Randy Gallegos
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"Altonio? No, I'm sorry. No one by that name works here.\"\r\n\
+      <br>&mdash;Raffine*"
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Streets of New Capenna
     number: 43
     rarity: common
-    release_date: 2022-04-29
+    release_date: '2022-04-29'
+    tla: SNC
+    variations: []
     wizards_id: 555244
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=555244
 rules: '[[symbol:1]][[symbol:U]], Exile this from your graveyard: Create a 1/1 blue
@@ -76,18 +92,24 @@ subtype: Human Citizen
 subtype_tokens:
 - Human
 - Citizen
-tags: card-color-blue card-color-blue-cost-1 card-type-creature
+synonyms: []
 tapped_id: 26351
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Fish 1/1 U
-  power_toughness: 1/1
-  rules: This can't be blocked.
-  subtype: Fish
-  tla: SNC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 1/1
+    - - rules
+      - This can't be blocked.
+    - - type
+      - Token Creature
+    - - subtype
+      - 270
+    - - cannonical_type
+      - Creature
+    - - name
+      - Fish 1/1 U
 type: Creature
-url: http://tappedout.net/mtg-card/expendable-lackey/
+url: https://tappedout.net/mtg-card/expendable-lackey/
+

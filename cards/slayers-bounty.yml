@@ -1,12 +1,14 @@
 activated_abilities:
 - ', Sacrifice this: Draw a card.'
 - 'This card''s spellbook:'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: Y22
 cannonical_type: Artifact
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -15,12 +17,13 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - W
-flat_cost: 1
 formats:
-- Alchemy
 - Arena
-- Gladiator
+- Custom
 - Historic
+- Gladiator
+- Alchemy
+- Casual
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -28,19 +31,34 @@ keywords:
 - Sacrifice
 - Draft
 mana_cost: W
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Slayer's Bounty
 printings:
 - Y22:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Aurore Folny
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Arena Alchemy 2022
+    number: null
     rarity: rare
-    release_date: 2021-12-09
+    release_date: '2021-12-09'
+    tla: Y22
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "When this enters the battlefield, look at the creature cards in target opponent's\
   \ hand.\r\n\r\nWhenever you sacrifice this or another Clue, draft a card from this\
   \ card's spellbook.\r\n\r\n[[symbol:2]], Sacrifice this: Draw a card.\r\n\r\nThis\
@@ -53,7 +71,9 @@ slug: slayers-bounty
 subtype: Clue
 subtype_tokens:
 - Clue
-tags: card-color-white card-color-white-cost-1 card-type-artifact card-type-legendary
+synonyms: []
 tapped_id: 25727
+tokens: []
 type: Legendary Artifact
-url: http://tappedout.net/mtg-card/slayers-bounty/
+url: https://tappedout.net/mtg-card/slayers-bounty/
+

@@ -1,67 +1,82 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M21
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.42
+draft_average: 2.44
 effective_cost:
 - U
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Counterspell
 mana_cost: 4UU
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Sublime Epiphany
 printings:
 - M21:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Lindsey Look
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Core Set 2021
     number: 74
     rarity: rare
-    release_date: 2020-07-03
+    release_date: '2020-07-03'
+    tla: M21
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '355'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '355'
+    - identifier: PromoPack
     wizards_id: 485397
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485397
 rules: "Choose one or more *(Remember that the modes you choose resolve in the order\
@@ -70,17 +85,24 @@ rules: "Choose one or more *(Remember that the modes you choose resolve in the o
   \ its owner's hand.\r\n- Create a token that's a copy of target creature you control.\r\
   \n- Target player draws a card."
 slug: sublime-epiphany
-tags: card-color-blue card-color-blue-cost-6 card-type-instant
+synonyms: []
 tapped_id: 23095
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Instant
-url: http://tappedout.net/mtg-card/sublime-epiphany/
+url: https://tappedout.net/mtg-card/sublime-epiphany/
+

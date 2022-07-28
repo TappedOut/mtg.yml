@@ -1,67 +1,94 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 5.25
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - First strike
 - Tokens
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Goblin Spymaster
 power_toughness: 2/1
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 795
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567612
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567612
 - C16:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Wayne Reynolds
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"Infiltrate and infuriate!\"\r\n<br>&mdash;Goblin Espionage League\
+      \ motto*"
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2016
     number: 19
     rarity: rare
-    release_date: 2016-11-11
+    release_date: '2016-11-11'
+    tla: C16
+    variations: []
     wizards_id: 420636
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420636
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Wayne Reynolds
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Infiltrate and infuriate!\"\r\n<br>&mdash;Goblin Espionage League\
+      \ motto*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 795
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567612
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567612
+rarity: rare
 rules: "First Strike\r\n\r\nAt the beginning of each opponent's end step, that player\
   \ creates a 1/1 red Goblin creature token with \"Creatures you control attack each\
   \ combat if able.\""
@@ -70,18 +97,24 @@ subtype: Goblin Rogue
 subtype_tokens:
 - Goblin
 - Rogue
-tags: card-color-red card-color-red-cost-3 card-type-creature
+synonyms: []
 tapped_id: 18489
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goblin 1/1 R for Goblin Spymaster
-  power_toughness: 1/1
-  rules: Creatures you control attack each combat if able.
-  subtype: Goblin
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Creatures you control attack each combat if able.
+    - - type
+      - Token Creature
+    - - subtype
+      - 153
+    - - cannonical_type
+      - Creature
+    - - name
+      - Goblin 1/1 R for Goblin Spymaster
 type: Creature
-url: http://tappedout.net/mtg-card/goblin-spymaster/
+url: https://tappedout.net/mtg-card/goblin-spymaster/
+

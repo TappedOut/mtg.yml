@@ -1,39 +1,43 @@
 activated_abilities:
 - ': This gets +X/+X until end of turn, where X is this creature''s power.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: AFC
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.09
+draft_average: 1.0
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,71 +45,120 @@ keywords:
 - Protection
 - Changeling
 mana_cost: 2GG
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Chameleon Colossus
 power_toughness: 4/4
 printings:
-- AFC:
+- MOR:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Darrell Riche
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 153
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 29201
+    mtgo_id: 29200
+    name: Morningtide
+    number: null
     rarity: rare
-    release_date: 2021-07-24
-    wizards_id: 532540
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532540
-- C15:
+    release_date: '2008-02-01'
+    tla: MOR
+    variations: []
+    wizards_id: 153450
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=153450
+- ARC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Darrell Riche
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: Commander 2015
-    number: 178
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Archenemy
+    number: null
     rarity: rare
-    release_date: 2015-11-13
-    wizards_id: 405171
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405171
+    release_date: '2010-06-18'
+    tla: ARC
+    variations: []
+    wizards_id: 220451
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220451
 - V13:
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Darrell Riche
+    booster_exclude: false
     border_color: B
     cannonical: false
-    foil: foil
-    foil_only: true
+    flavour_text: null
     frame: modern
     mtgo_foil_id: 50028
     mtgo_id: 50027
     name: 'From the Vault: Twenty'
     number: 16
     rarity: mythic_rare
-    release_date: 2013-08-10
+    release_date: '2013-08-10'
+    tla: V13
+    variations: []
     wizards_id: 373321
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373321
-- ARC:
+- C15:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Darrell Riche
+    booster_exclude: false
     border_color: B
-    frame: modern
-    name: Archenemy
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2015
+    number: 178
     rarity: rare
-    release_date: 2010-06-18
-    wizards_id: 220451
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220451
-- MOR:
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
+    wizards_id: 405171
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405171
+- AFC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Darrell Riche
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 29201
-    mtgo_id: 29200
-    name: Morningtide
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 153
     rarity: rare
-    release_date: 2008-02-01
-    wizards_id: 153450
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=153450
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: 532540
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532540
+rarity: mythic_rare
 rules: "Changeling *(This card is every creature type at all times.) *\r\n\r\nProtection\
   \ from black *(This creature can't be blocked, targeted, dealt damage, enchanted\
   \ or equipped by anything white.)* -> Protection *((Remember the acronym <b>debt</b>.)\
@@ -117,7 +170,9 @@ slug: chameleon-colossus
 subtype: Shapeshifter
 subtype_tokens:
 - Shapeshifter
-tags: card-color-green card-color-green-cost-4 card-type-creature
+synonyms: []
 tapped_id: 16
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/chameleon-colossus/
+url: https://tappedout.net/mtg-card/chameleon-colossus/
+

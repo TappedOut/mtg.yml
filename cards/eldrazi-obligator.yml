@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: OGW
@@ -6,30 +7,33 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 9.94
+draft_average: 2.28
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -37,25 +41,39 @@ keywords:
 - Tap/Untap
 - Devoid
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Eldrazi Obligator
 power_toughness: 3/1
 printings:
 - OGW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Jason Felix
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 59542
     mtgo_id: 59541
     name: Oath of the Gatewatch
     number: 96
     rarity: rare
-    release_date: 2016-01-22
+    release_date: '2016-01-22'
+    tla: OGW
+    variations: []
     wizards_id: 407606
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407606
+rarity: rare
 rules: "Devoid *(This card has no colour.)*\r\n\r\nWhen you cast Eldrazi Obligator,\
   \ you may pay [[symbol:1]][[symbol:C]]. If you do, gain control of target creature\
   \ until end of turn, untap that creature, and it gains haste until end of turn.\
@@ -64,7 +82,9 @@ slug: eldrazi-obligator
 subtype: Eldrazi
 subtype_tokens:
 - Eldrazi
-tags: card-color-red card-color-red-cost-3 card-type-creature
+synonyms: []
 tapped_id: 17485
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/eldrazi-obligator/
+url: https://tappedout.net/mtg-card/eldrazi-obligator/
+

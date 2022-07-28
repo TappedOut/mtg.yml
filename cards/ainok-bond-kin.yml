@@ -1,43 +1,47 @@
 activated_abilities:
 - 'Outlast  *(, : Put a +1/+1 counter on this creature. Outlast only as a sorcery.)*'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: MIC
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.91
+draft_average: 4.23
 effective_cost:
 - W
-flat_cost: 2
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,80 +50,147 @@ keywords:
 - Counters
 - Outlast
 mana_cost: 1W
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Ainok Bond-Kin
 power_toughness: 2/1
 printings:
-- 2X2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Double Masters 2022
-    number: 5
-    rarity: common
-    release_date: 2022-07-08
-    wizards_id: 571338
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571338
-- MIC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Midnight Hunt Commander'
-    number: 78
-    rarity: common
-    release_date: 2021-09-25
-    wizards_id: 539339
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539339
-- J21:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Jumpstart: Historic Horizons'
-    rarity: common
-    release_date: 2021-08-12
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
-- IMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 65888
-    mtgo_id: 65887
-    name: Iconic Masters
-    number: 4
-    rarity: common
-    release_date: 2017-11-17
-    wizards_id: 438570
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438570
 - KTK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Hold the line, for family and the fallen!"*'
     frame: m15
     mtgo_foil_id: 54261
     mtgo_id: 54260
     name: Khans of Tarkir
     number: 3
     rarity: common
-    release_date: 2014-09-26
+    release_date: '2014-09-26'
+    tla: KTK
+    variations: []
     wizards_id: 386471
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386471
+- IMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '"Hond the line, for family and the fallen!"'
+    frame: m15
+    mtgo_foil_id: 65888
+    mtgo_id: 65887
+    name: Iconic Masters
+    number: 4
+    rarity: common
+    release_date: '2017-11-17'
+    tla: IMA
+    variations: []
+    wizards_id: 438570
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438570
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"Hold the line, for family and the fallen!"*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- J21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"Hold the line, for family and the fallen!"*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Jumpstart: Historic Horizons'
+    number: null
+    rarity: common
+    release_date: '2021-08-12'
+    tla: J21
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- MIC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*"Hold the line, for family and the fallen!"*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Midnight Hunt Commander'
+    number: 78
+    rarity: common
+    release_date: '2021-09-25'
+    tla: MIC
+    variations: []
+    wizards_id: 539339
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539339
+- 2X2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"Hold the line, for family and the fallen!"*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters 2022
+    number: 5
+    rarity: common
+    release_date: '2022-07-08'
+    tla: 2X2
+    variations: []
+    wizards_id: 571338
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571338
+rarity: common
 rules: "Outlast [[symbol:1]][[symbol:W]] *([[symbol:1]][[symbol:W]], [[symbol:T]]:\
   \ Put a +1/+1 counter on this creature. Outlast only as a sorcery.)*\r\n\r\nEach\
   \ creature you control with a +1/+1 counter on it has first strike."
@@ -128,7 +199,9 @@ subtype: Human Soldier
 subtype_tokens:
 - Human
 - Soldier
-tags: card-color-white card-color-white-cost-2 card-type-creature
+synonyms: []
 tapped_id: 15799
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/ainok-bond-kin/
+url: https://tappedout.net/mtg-card/ainok-bond-kin/
+

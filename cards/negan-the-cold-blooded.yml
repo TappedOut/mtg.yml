@@ -1,9 +1,12 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SLD
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -12,38 +15,51 @@ effective_cost:
 - W
 - B
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 2RWB
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Negan, The Cold-Blooded
 power_toughness: 4/3
 printings:
 - SLD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jake Murray
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Secret Lair
     number: 147
     rarity: mythic_rare
-    release_date: 2019-12-09
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
     wizards_id: 497509
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497509
 rules: "When Negan enters the battlefield, you ant target opponent each secretly choose\
@@ -55,19 +71,24 @@ subtype: Human Rogue
 subtype_tokens:
 - Human
 - Rogue
-tags: card-color-black card-color-gold card-color-gold-cost-5 card-color-red card-color-white
-  card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 23489
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: 2X2
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/negan-the-cold-blooded/
+url: https://tappedout.net/mtg-card/negan-the-cold-blooded/
+

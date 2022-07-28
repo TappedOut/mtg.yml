@@ -1,41 +1,45 @@
 activated_abilities:
 - ', : Create a Food token.'
 - ', Sacrifice a Food: Add one mana of any colour.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: ELD
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.35
+draft_average: 1.75
 effective_cost:
 - G
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,57 +48,92 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: G
-mana_cost_converted: 1
 mana_produced: W, U, B, R, G
+mana_value: 1
+melds_from: []
 name: Gilded Goose
 power_toughness: 0/2
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 93
-    rarity: rare
-    release_date: 2019-12-09
 - ELD:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Lindsey Look
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 78459
     mtgo_id: 78458
     name: Throne of Eldraine
     number: 160
     rarity: rare
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '369'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '369'
+    - identifier: PromoPack
     wizards_id: 473122
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=473122
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Allen Douglas
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 93
+    rarity: rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Seaman
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Flying\r\n\r\nWhen Gilded Goose enters the battlefield, create a Food token.\
   \ *(It's a colourless artifact with \"[[symbol:2]], [[symbol:T]]: Sacrifice this\
   \ artifact: You gain 2 life.\")*\r\n\r\n[[symbol:1]][[symbol:G]], [[symbol:T]]:\
@@ -106,19 +145,23 @@ subtype_tokens:
 - Bird
 synonyms:
 - Goose
-tags: card-color-green card-color-green-cost-1 card-mana-black card-mana-blue card-mana-green
-  card-mana-red card-mana-white card-type-creature
 tapped_id: 21950
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Food
-  power_toughness: null
-  rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
-  subtype: Food
-  tla: ELD
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1373
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Food
 type: Creature
-url: http://tappedout.net/mtg-card/gilded-goose/
+url: https://tappedout.net/mtg-card/gilded-goose/
+

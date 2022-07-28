@@ -4,7 +4,7 @@ activated_abilities:
   this mana to cast your commander, it enters the battlefield with a number of +1/+1
   counters on it equal to the number of times it''s been cast from the command zone
   this game.'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: C21
@@ -20,148 +20,245 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 7.11
+effective_cost: []
 formats:
 - 1v1 Commander
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Pauper
+- Casual
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
-mana_cost_converted: 0
 mana_produced: W, U, B, R, G, C
+mana_value: 0
+melds_from: []
 name: Opal Palace
 printings:
-- NEC:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Kamigawa: Neon Dynasty Commander'
-    number: 172
-    rarity: common
-    release_date: 2022-02-11
-    wizards_id: 554254
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554254
-- C21:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 306
-    rarity: common
-    release_date: 2021-04-23
-    wizards_id: 519341
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519341
-- KHC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Kaldheim: Commander'
-    number: 116
-    rarity: common
-    release_date: 2021-02-05
-    wizards_id: 508406
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508406
-- CMR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander Legends
-    number: 352
-    rarity: common
-    release_date: 2020-11-20
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '707'
-- CM2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology 2018
-    number: 259
-    rarity: common
-    release_date: 2018-06-08
-    wizards_id: 446995
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446995
-- C17:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2017
-    number: 266
-    rarity: common
-    release_date: 2017-08-25
-    wizards_id: 433198
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433198
-- CM1:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology
-    rarity: common
-    release_date: 2017-06-09
-- C16:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2016
-    number: 312
-    rarity: common
-    release_date: 2016-11-11
-    wizards_id: 420929
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420929
 - C13:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Andreas Rocha
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 51355
     mtgo_id: 51354
     name: Commander 2013
     number: 310
     rarity: common
-    release_date: 2013-11-01
+    release_date: '2013-11-01'
+    tla: C13
+    variations: []
     wizards_id: 376438
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376438
+- C16:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Andreas Rocha
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2016
+    number: 312
+    rarity: common
+    release_date: '2016-11-11'
+    tla: C16
+    variations: []
+    wizards_id: 420929
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420929
+- C17:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: null
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2017
+    number: 266
+    rarity: common
+    release_date: '2017-08-25'
+    tla: C17
+    variations: []
+    wizards_id: 433198
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433198
+- CM1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: null
+    booster_exclude: true
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology
+    number: null
+    rarity: common
+    release_date: '2017-06-09'
+    tla: CM1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- CM2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Andreas Rocha
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology 2018
+    number: 259
+    rarity: common
+    release_date: '2018-06-08'
+    tla: CM2
+    variations: []
+    wizards_id: 446995
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446995
+- CMR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Andreas Rocha
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Legends
+    number: 352
+    rarity: common
+    release_date: '2020-11-20'
+    tla: CMR
+    variations:
+    - identifier: '707'
+    wizards_id: null
+    wizards_url: null
+- KHC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Andreas Rocha
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kaldheim: Commander'
+    number: 116
+    rarity: common
+    release_date: '2021-02-05'
+    tla: KHC
+    variations: []
+    wizards_id: 508406
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508406
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Andreas Rocha
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 306
+    rarity: common
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519341
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519341
+- NEC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Andreas Rocha
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kamigawa: Neon Dynasty Commander'
+    number: 172
+    rarity: common
+    release_date: '2022-02-11'
+    tla: NEC
+    variations: []
+    wizards_id: 554254
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554254
+rarity: common
 rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:1]], [[symbol:T]]: Gain one\
   \ mana of any colour in your commander's color identity. If you spend this mana\
   \ to cast your commander, it enters the battlefield with a number of +1/+1 counters\
   \ on it equal to the number of times it's been cast from the command zone this game."
 slug: opal-palace
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-blue
-  card-mana-colorless-sym card-mana-green card-mana-red card-mana-white card-type-land
+synonyms: []
 tapped_id: 15090
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/opal-palace/
+url: https://tappedout.net/mtg-card/opal-palace/
+

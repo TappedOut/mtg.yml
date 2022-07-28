@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MID
 cannonical_type: Sorcery
@@ -13,83 +15,114 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 - Decayed
 mana_cost: 2B
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: No Way Out
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 116
-    rarity: common
-    release_date: 2022-01-21
 - MID:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sebastian Giacobino
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*In the maze-like passages of the Erdwal, a wrong turn can be fatal.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Midnight Hunt'
     number: 116
     rarity: common
-    release_date: 2021-09-24
+    release_date: '2021-09-24'
+    tla: MID
+    variations: []
     wizards_id: 534890
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=534890
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sebastian Giacobino
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*In the maze-like passages of the Erdwal, a wrong turn can be fatal.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 116
+    rarity: common
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: Target opponent discards two cards. You create a 2/2 black Zombie creature
   token with decayed. *(It can't block. When it attacks, sacrifice it at the end of
   combat.)*
 slug: no-way-out
-tags: card-color-black card-color-black-cost-3 card-type-sorcery
+synonyms: []
 tapped_id: 25248
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B w/ Decayed
-  power_toughness: 2/2
-  rules: Decayed *(This can't block. When this attacks, sacrifice this at the end
-    of combat.)*
-  subtype: Zombie
-  tla: MID
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - Decayed *(This can't block. When this attacks, sacrifice this at the end of
+        combat.)*
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B w/ Decayed
 type: Sorcery
-url: http://tappedout.net/mtg-card/no-way-out/
+url: https://tappedout.net/mtg-card/no-way-out/
+

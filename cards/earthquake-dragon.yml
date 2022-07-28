@@ -1,6 +1,6 @@
 activated_abilities:
 - ', Sacrifice a land: Return Earthquake Dragon from your graveyard to your hand.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: CLB
@@ -9,6 +9,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -16,23 +17,24 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - G
-flat_cost: 15
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,26 +43,37 @@ keywords:
 - Trample
 - Sacrifice
 mana_cost: 14G
-mana_cost_converted: 15
+mana_value: 15
+melds_from: []
 name: Earthquake Dragon
 power_toughness: 10/10
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Johan Grenier
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 228
     rarity: rare
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '588'
+    - identifier: '588'
     wizards_id: 563111
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563111
 rules: "This spell costs [[symbol:X]] less to cast, where X is the total converted\
@@ -71,7 +84,9 @@ subtype: Elemental Dragon
 subtype_tokens:
 - Elemental
 - Dragon
-tags: card-color-green card-color-green-cost-15 card-type-creature
+synonyms: []
 tapped_id: 26626
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/earthquake-dragon/
+url: https://tappedout.net/mtg-card/earthquake-dragon/
+

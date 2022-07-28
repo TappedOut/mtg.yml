@@ -2,37 +2,41 @@ activated_abilities:
 - ': Thick-Skinned Goblin gains protection from red until end of turn. *((Remember
   the acronym .) This creature can''t be amaged, nchanted, quipped, locked or argeted
   by anything red. Anything red attached to this creature immediately falls off.)*'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: TSP
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.0
+draft_average: 5.21
 effective_cost:
 - R
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -40,36 +44,62 @@ keywords:
 - Protection
 - Echo
 mana_cost: 1R
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Thick-Skinned Goblin
 power_toughness: 2/1
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 196
-    rarity: uncommon
-    release_date: 2021-03-19
-    wizards_id: 509561
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509561
 - TSP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ralph Horsley
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: The shaman of the tribe is responsible for keeping track of all
+      its treasures, including angry pets and cursed lamps of fiery doom.
     frame: modern
     mtgo_foil_id: 25508
     mtgo_id: 25507
     name: Time Spiral
+    number: null
     rarity: uncommon
-    release_date: 2006-10-06
+    release_date: '2006-10-06'
+    tla: TSP
+    variations: []
     wizards_id: 109703
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=109703
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ralph Horsley
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*The shaman of the tribe is responsible for keeping track of all
+      its treasures, including angry pets and cursed lamps of fiery doom.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 196
+    rarity: uncommon
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509561
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509561
+rarity: uncommon
 rules: "You may pay [[symbol:0]] rather than pay the echo cost for permanents you\
   \ control.\r\n\r\n[[symbol:R]]: Thick-Skinned Goblin gains protection from red until\
   \ end of turn. *((Remember the acronym <b>debt</b>.) This creature can't be <b>d</b>amaged,\
@@ -80,7 +110,9 @@ subtype: Goblin Shaman
 subtype_tokens:
 - Goblin
 - Shaman
-tags: card-color-red card-color-red-cost-2 card-type-creature
+synonyms: []
 tapped_id: 1213
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/thick-skinned-goblin/
+url: https://tappedout.net/mtg-card/thick-skinned-goblin/
+

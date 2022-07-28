@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DIS
 cannonical_type: Instant
@@ -11,63 +13,84 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 2.0
+draft_average: 7.12
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flash
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Flash Foliage
+power_toughness: ''
 printings:
 - DIS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ron Spears
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"This undemanding vegetation takes root in a mote of dust but grows
+      incredibly quickly."Simic research notes'
     frame: modern
     mtgo_foil_id: 24102
     mtgo_id: 24101
     name: Dissension
     number: 85
     rarity: uncommon
-    release_date: 2006-05-05
+    release_date: '2006-05-05'
+    tla: DIS
+    variations: []
     wizards_id: 107264
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=107264
+rarity: uncommon
 rules: "Play Flash Foliage only during combat after blockers are declared.\r\n\r\n\
   Put a 1/1 green Saproling creature token into play blocking target creature attacking\
   \ you. \r\n\r\nDraw a card."
 slug: flash-foliage
-tags: card-color-green card-color-green-cost-3 card-type-instant
+synonyms: []
 tapped_id: 1577
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Saproling 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Saproling
-  tla: 2X2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 893
+    - - cannonical_type
+      - Creature
+    - - name
+      - Saproling 1/1 G
 type: Instant
-url: http://tappedout.net/mtg-card/flash-foliage/
+url: https://tappedout.net/mtg-card/flash-foliage/
+

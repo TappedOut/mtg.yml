@@ -1,93 +1,127 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M20
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 4.83
+draft_average: 7.83
 effective_cost:
 - B
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: 3B
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Undead Servant
 power_toughness: 3/2
 printings:
-- M20:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 73136
-    mtgo_id: 73135
-    name: Core Set 2020
-    number: 118
-    rarity: common
-    release_date: 2019-07-12
-    wizards_id: 466872
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=466872
 - ORI:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: James Zapata
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"Get up, You're not finished yet.\"\r\n<br>&mdash;Liliana Vess*"
     frame: m15
     mtgo_foil_id: 57977
     mtgo_id: 57976
     name: Magic Origins
     number: 124
     rarity: common
-    release_date: 2015-06-17
+    release_date: '2015-06-17'
+    tla: ORI
+    variations: []
     wizards_id: 398484
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398484
+- M20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: James Zapata
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"There are always more like you.\"\r\n<br>&mdash;Modriss of Zargoth\
+      \ Fen*"
+    frame: m15
+    mtgo_foil_id: 73136
+    mtgo_id: 73135
+    name: Core Set 2020
+    number: 118
+    rarity: common
+    release_date: '2019-07-12'
+    tla: M20
+    variations: []
+    wizards_id: 466872
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=466872
+rarity: common
 rules: When Undead Savant enters the battlefield, create a 2/2 black Zombie creature
   token for each card named Undead Servant in your graveyard.
 slug: undead-servant
 subtype: Zombie
 subtype_tokens:
 - Zombie
-tags: card-color-black card-color-black-cost-4 card-type-creature
+synonyms: []
 tapped_id: 16925
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: M20
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Creature
-url: http://tappedout.net/mtg-card/undead-servant/
+url: https://tappedout.net/mtg-card/undead-servant/
+

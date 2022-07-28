@@ -2,6 +2,7 @@ activated_abilities:
 - 'Pay : Aethersphere Harvester gains lifelink until end of turn.'
 - 'Crew 1 *(Tap any number of creatures you control with total power 1 or more: This
   vehicle becomes an artifact creature until end of turn.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: AER
 cannonical_type: Artifact
@@ -9,31 +10,36 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 3
+cube_average: 5.65
+draft_average: 1.15
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,25 +50,39 @@ keywords:
 - Counters
 - Crew
 mana_cost: '3'
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Aethersphere Harvester
 power_toughness: 3/5
 printings:
 - AER:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Christine Choi
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 62888
     mtgo_id: 62887
     name: Aether Revolt
     number: 142
     rarity: rare
-    release_date: 2017-01-20
+    release_date: '2017-01-20'
+    tla: AER
+    variations: []
     wizards_id: 423809
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423809
+rarity: rare
 rules: "Flying\r\n\r\nWhen Aethersphere Harvester enters the battlefield, you get\
   \ [[symbol:energy]][[symbol:energy]] *(two energy counters)*.\r\n\r\nPay [[symbol:energy]]:\
   \ Aethersphere Harvester gains lifelink until end of turn.\r\n\r\nCrew 1 *(Tap any\
@@ -72,7 +92,9 @@ slug: aethersphere-harvester
 subtype: Vehicle
 subtype_tokens:
 - Vehicle
-tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
+synonyms: []
 tapped_id: 18642
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/aethersphere-harvester/
+url: https://tappedout.net/mtg-card/aethersphere-harvester/
+

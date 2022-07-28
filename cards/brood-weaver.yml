@@ -1,90 +1,127 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MID
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - G
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
 - Reach
 - Tokens
 mana_cost: 3G
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Brood Weaver
 power_toughness: 2/4
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 173
-    rarity: uncommon
-    release_date: 2022-01-21
 - MID:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Slawomir Maniak
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Travelers in the Somberwald scan the ground for werewolves and
+      other threats, unaware of what lurks above.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Midnight Hunt'
     number: 173
     rarity: uncommon
-    release_date: 2021-09-24
+    release_date: '2021-09-24'
+    tla: MID
+    variations: []
     wizards_id: 534958
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=534958
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Slawomir Maniak
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Travelers in the Somberwald scan the ground for werewolves and
+      other threats, unaware of what lurks above.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 173
+    rarity: uncommon
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Reach\r\n\r\nWhen this dies *(is put into the graveyard from the battlefield)*,\
   \ create a 1/2 green Spider creature token with reach."
 slug: brood-weaver
 subtype: Spider
 subtype_tokens:
 - Spider
-tags: card-color-green card-color-green-cost-4 card-type-creature
+synonyms: []
 tapped_id: 25141
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spider 1/2 G
-  power_toughness: 1/2
-  rules: Reach
-  subtype: Spider
-  tla: MID
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/2
+    - - rules
+      - Reach
+    - - type
+      - Token Creature
+    - - subtype
+      - 68
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spider 1/2 G
 type: Creature
-url: http://tappedout.net/mtg-card/brood-weaver/
+url: https://tappedout.net/mtg-card/brood-weaver/
+

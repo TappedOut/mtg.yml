@@ -4,38 +4,43 @@ activated_abilities:
 - ': Tap up to two nonland permanents. They don''t untap during their controller''s
   next untap step.'
 - ': Draw three cards.You get an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: EMN
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.18
+draft_average: 1.5
 effective_cost:
 - W
 - U
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,35 +48,63 @@ keywords:
 - Tap/Untap
 - Counters
 mana_cost: 1GWU
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Tamiyo, Field Researcher
+planeswalker_loyalty: 4
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 89
-    rarity: mythic_rare
-    release_date: 2019-12-09
 - EMN:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: null
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 61263
     mtgo_id: 61262
     name: Eldritch Moon
     number: 190
     rarity: mythic_rare
-    release_date: 2016-07-22
+    release_date: '2016-07-22'
+    tla: EMN
+    variations: []
     wizards_id: 414495
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414495
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Yeong-Hao Han
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 89
+    rarity: mythic_rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Choose up to two target creatures. Until your next\
   \ turn, whenever either of those creatures deals combat damage, you draw a card.\r\
   \n\r\n[[symbol:loyalty-minus2]]: Tap up to two nonland permanents. They don't untap\
@@ -82,19 +115,24 @@ slug: tamiyo-field-researcher
 subtype: Tamiyo
 subtype_tokens:
 - Tamiyo
-tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-green card-color-white
-  card-type-planeswalker
+synonyms: []
 tapped_id: 17894
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Tamiyo, Field Researcher
-  power_toughness: null
-  rules: You may cast nonland cards from your hand without paying their mana costs.
-  subtype: Tamiyo
-  tla: EMN
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - You may cast nonland cards from your hand without paying their mana costs.
+    - - type
+      - Emblem
+    - - subtype
+      - 958
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Tamiyo, Field Researcher
 type: Planeswalker
-url: http://tappedout.net/mtg-card/tamiyo-field-researcher/
+url: https://tappedout.net/mtg-card/tamiyo-field-researcher/
+

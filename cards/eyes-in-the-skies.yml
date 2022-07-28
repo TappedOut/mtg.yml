@@ -1,97 +1,145 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MM3
 cannonical_type: Instant
+color_identity: ''
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.06
+draft_average: 8.03
 effective_cost:
 - W
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
 - Pauper EDH
+- Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Pauper
+- Pauper Duel Commander
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Populate
 - Tokens
 mana_cost: 3W
-mana_cost_converted: 4
+mana_produced: ''
+mana_value: 4
+melds_from: []
 name: Eyes in the Skies
+power_toughness: ''
 printings:
-- MYS1:
+- RTR:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: James Paick
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
+    cannonical: true
+    flavour_text: "\"What root and branch cannot reach, our winged friends will attend\
+      \ to.\"\r\n-Zunak, Selesnya strategist"
+    frame: modern
+    mtgo_foil_id: 46288
+    mtgo_id: 46287
+    name: Return to Ravnica
+    number: null
     rarity: common
-    release_date: 2020-03-14
+    release_date: '2012-10-05'
+    tla: RTR
+    variations: []
+    wizards_id: 253553
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=253553
 - MM3:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: James Ryman
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 63362
     mtgo_id: 63361
     name: Modern Masters 2017 Edition
     number: 5
     rarity: common
-    release_date: 2017-03-17
+    release_date: '2017-03-17'
+    tla: MM3
+    variations: []
     wizards_id: 425830
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425830
-- RTR:
+- MYS1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: James Ryman
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 46288
-    mtgo_id: 46287
-    name: Return to Ravnica
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
     rarity: common
-    release_date: 2012-10-05
-    wizards_id: 253553
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=253553
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: Create a 1/1 white Bird creature token with flying, then populate.
 slug: eyes-in-the-skies
-tags: card-color-white card-color-white-cost-4 card-type-instant
+synonyms: []
 tapped_id: 14038
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Bird 1/1 W
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Bird
-  tla: MM3
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 32
+    - - cannonical_type
+      - Creature
+    - - name
+      - Bird 1/1 W
 type: Instant
-url: http://tappedout.net/mtg-card/eyes-in-the-skies/
+url: https://tappedout.net/mtg-card/eyes-in-the-skies/
+

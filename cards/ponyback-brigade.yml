@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 - R
 - W
@@ -6,60 +7,75 @@ canadian_hl_score: 0
 cannonical_set: KTK
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 5.0
+draft_average: 6.0
 effective_cost:
 - W
 - B
 - R
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
 - Pauper EDH
+- Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Pauper
+- Pauper Duel Commander
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Morph
 - Tokens
 mana_cost: 3RWB
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Ponyback Brigade
 power_toughness: 2/2
 printings:
 - KTK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Zug
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 54139
     mtgo_id: 54138
     name: Khans of Tarkir
     number: 191
     rarity: common
-    release_date: 2014-09-26
+    release_date: '2014-09-26'
+    tla: KTK
+    variations: []
     wizards_id: 386628
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386628
+rarity: common
 rules: "When Ponyback Brigade enters the battlefield or is turned face up, put three\
   \ 1/1 red Goblin creature tokens onto the battlefield.\r\n\r\nMorph [[symbol:2]][[symbol:R]][[symbol:W]][[symbol:B]]\
   \ *(You may cast this card face down as a 2/2 creature for [[symbol:3]]. Turn it\
@@ -69,29 +85,40 @@ subtype: Goblin Warrior
 subtype_tokens:
 - Goblin
 - Warrior
-tags: card-color-black card-color-gold card-color-gold-cost-6 card-color-red card-color-white
-  card-type-creature
+synonyms: []
 tapped_id: 16001
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Morph 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  tla: KTK
-  type: Creature
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goblin 1/1 R
-  power_toughness: 1/1
-  rules: ''
-  subtype: Goblin
-  tla: KTK
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+        \ with morph can be turned face up at any time for its morph cost.*"
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Morph 2/2 C
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 153
+    - - cannonical_type
+      - Creature
+    - - name
+      - Goblin 1/1 R
 type: Creature
-url: http://tappedout.net/mtg-card/ponyback-brigade/
+url: https://tappedout.net/mtg-card/ponyback-brigade/
+

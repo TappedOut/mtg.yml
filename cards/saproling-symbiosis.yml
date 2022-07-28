@@ -1,69 +1,91 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: INV
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+draft_average: 1.0
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
+keywords: []
 mana_cost: 3G
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Saproling Symbiosis
+power_toughness: ''
 printings:
 - INV:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ciruelo
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 14976
     mtgo_id: 14975
     name: Invasion
     number: 209
     rarity: rare
-    release_date: 2000-10-02
+    release_date: '2000-10-02'
+    tla: INV
+    variations: []
     wizards_id: 24670
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=24670
+rarity: rare
 rules: "You may play Saproling Symbiosis any time you could play an instant if you\
   \ pay (2) more to play it.\r\n\r\n \r\n\r\nPut a 1/1 green Saproling creature token\
   \ into play for each creature you control."
 slug: saproling-symbiosis
-tags: card-color-green card-color-green-cost-4 card-type-sorcery
+synonyms: []
 tapped_id: 5228
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Saproling 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Saproling
-  tla: INV
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 893
+    - - cannonical_type
+      - Creature
+    - - name
+      - Saproling 1/1 G
 type: Sorcery
-url: http://tappedout.net/mtg-card/saproling-symbiosis/
+url: https://tappedout.net/mtg-card/saproling-symbiosis/
+

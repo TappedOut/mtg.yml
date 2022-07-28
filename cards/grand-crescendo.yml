@@ -1,69 +1,87 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - W
-flat_cost: 2
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
-- Penny Dreadful
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Indestructible
 - Tokens
 mana_cost: XWW
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Grand Crescendo
 printings:
 - NCC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Raluca Marinescu
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*The roar of applause drowned out the melee raging in the lobby.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Streets of New Capenna: Commander'
     number: 16
     rarity: rare
-    release_date: 2022-04-30
+    release_date: '2022-04-30'
+    tla: NCC
     variations:
-    - alterations:
-      - Normal
-      identifier: '117'
+    - identifier: '117'
+    wizards_id: null
+    wizards_url: null
 rules: Create X 1/1 green and white Citizen creature tokens. Creatures you control
   gain indestructible until end of turn.
 slug: grand-crescendo
-tags: card-color-white card-color-white-cost-2 card-type-instant
+synonyms: []
 tapped_id: 26444
 tokens:
-- cannonical_type: Creature
-  colors: GW
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Citizen 1/1 GW
-  power_toughness: 1/1
-  rules: ''
-  subtype: Citizen
-  tla: SNC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - GW
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 905
+    - - cannonical_type
+      - Creature
+    - - name
+      - Citizen 1/1 GW
 type: Instant
-url: http://tappedout.net/mtg-card/grand-crescendo/
+url: https://tappedout.net/mtg-card/grand-crescendo/
+

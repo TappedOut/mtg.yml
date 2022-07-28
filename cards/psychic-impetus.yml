@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Enchantment
@@ -5,32 +7,33 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - U
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -39,42 +42,76 @@ keywords:
 - Scry
 - Goad
 mana_cost: 2U
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Psychic Impetus
 printings:
-- CLB:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 89
-    rarity: uncommon
-    release_date: 2022-06-10
-    wizards_id: 562972
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=562972
-- AFC:
-    alterations:
-    - Normal
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 92
-    rarity: uncommon
-    release_date: 2021-07-24
-    wizards_id: 532479
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532479
 - C20:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Lindsey Look
     booster_exclude: true
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2020
     number: 37
     rarity: uncommon
-    release_date: 2020-05-15
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
     wizards_id: 484884
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=484884
+- AFC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Lindsey Look
+    booster_exclude: false
+    border_color: null
+    cannonical: true
+    flavour_text: ''
+    frame: null
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 92
+    rarity: uncommon
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: 532479
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532479
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lindsey Look
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 89
+    rarity: uncommon
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 562972
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=562972
 rules: "Enchant creature\r\n\r\nEnchanted creature gets +2/+2 and is goaded. *(It\
   \ attacks each combat if able and attacks a player other than you if able.)*\r\n\
   \r\nWhenever enchanted creature attacks, you scry 2. *(Look at the top two cards\
@@ -84,7 +121,9 @@ slug: psychic-impetus
 subtype: Aura
 subtype_tokens:
 - Aura
-tags: card-color-blue card-color-blue-cost-3 card-type-enchantment
+synonyms: []
 tapped_id: 22725
+tokens: []
 type: Enchantment
-url: http://tappedout.net/mtg-card/psychic-impetus/
+url: https://tappedout.net/mtg-card/psychic-impetus/
+

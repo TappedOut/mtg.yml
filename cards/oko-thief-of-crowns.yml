@@ -4,6 +4,7 @@ activated_abilities:
   with base power and toughness 3/3.'
 - ': Exchange control of target artifact or creature you control and target creature
   an opponent controls with power 3 or less.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ELD
 cannonical_type: Planeswalker
@@ -11,32 +12,36 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 2.5
+draft_average: 1.29
 effective_cost:
 - U
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Historic
-- Legacy
-- Leviathan
+- Casual
+- Block Constructed
 - Limited
-- Oathbreaker
-- Pioneer
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,33 +49,44 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 1GU
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Oko, Thief of Crowns
+planeswalker_loyalty: 4
 printings:
 - ELD:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Yongjae Choi
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 78539
     mtgo_id: 78538
     name: Throne of Eldraine
     number: 197
     rarity: mythic_rare
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '271'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '271'
+    - identifier: PromoPack
     wizards_id: 473159
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=473159
 rules: "[[symbol:loyalty-plus2]]: Create a Food token.\r\n\r\n[[symbol:loyalty-plus1]]:\
@@ -84,19 +100,23 @@ subtype_tokens:
 - Oko
 synonyms:
 - Oko
-tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-green card-type-legendary
-  card-type-planeswalker
 tapped_id: 21944
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Food
-  power_toughness: null
-  rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
-  subtype: Food
-  tla: ELD
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1373
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Food
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/oko-thief-of-crowns/
+url: https://tappedout.net/mtg-card/oko-thief-of-crowns/
+

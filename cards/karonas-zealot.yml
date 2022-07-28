@@ -1,67 +1,93 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SCG
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+draft_average: 7.25
 effective_cost:
 - W
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Morph
 mana_cost: 4W
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Karona's Zealot
 power_toughness: 2/5
 printings:
+- SCG:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Alan Pollack
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: 18811
+    mtgo_id: 18810
+    name: Scourge
+    number: null
+    rarity: uncommon
+    release_date: '2003-05-17'
+    tla: SCG
+    variations: []
+    wizards_id: 45858
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=45858
 - A25:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Alan Pollack
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 66951
     mtgo_id: 66950
     name: Masters 25
     number: 18
-    rarity: uncommon
-    release_date: 2018-03-16
+    rarity: null
+    release_date: '2018-03-16'
+    tla: A25
+    variations: []
     wizards_id: 442007
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442007
-- SCG:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: original
-    mtgo_foil_id: 18811
-    mtgo_id: 18810
-    name: Scourge
-    rarity: uncommon
-    release_date: 2003-05-17
-    wizards_id: 45858
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=45858
+rarity: uncommon
 rules: "Morph (3)(White)(White) (You may play this face down as a 2/2 creature for\
   \ (3). Turn it face up any time for its morph cost.) \r\n\r\nWhen Karona's Zealot\
   \ is turned face up, all damage that would be dealt to it this turn is dealt to\
@@ -71,18 +97,25 @@ subtype: Human Cleric
 subtype_tokens:
 - Human
 - Cleric
-tags: card-color-white card-color-white-cost-5 card-type-creature
+synonyms: []
 tapped_id: 3597
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Morph 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  tla: C19
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+        \ with morph can be turned face up at any time for its morph cost.*"
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Morph 2/2 C
 type: Creature
-url: http://tappedout.net/mtg-card/karonas-zealot/
+url: https://tappedout.net/mtg-card/karonas-zealot/
+

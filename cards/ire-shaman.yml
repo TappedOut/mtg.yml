@@ -1,35 +1,39 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: DTK
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 11.52
+draft_average: 4.17
 effective_cost:
 - R
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -39,40 +43,63 @@ keywords:
 - Counters
 - Megamorph
 mana_cost: 1R
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Ire Shaman
 power_toughness: 2/1
 printings:
-- A25:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    mtgo_foil_id: 67189
-    mtgo_id: 67188
-    name: Masters 25
-    number: 137
-    rarity: uncommon
-    release_date: 2018-03-16
-    wizards_id: 442126
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442126
 - DTK:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Jack Wang
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 56103
     mtgo_id: 56102
     name: Dragons of Tarkir
     number: 141
     rarity: rare
-    release_date: 2015-03-27
+    release_date: '2015-03-27'
+    tla: DTK
+    variations: []
     wizards_id: 394602
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394602
+- A25:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jack Wang
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: 67189
+    mtgo_id: 67188
+    name: Masters 25
+    number: 137
+    rarity: uncommon
+    release_date: '2018-03-16'
+    tla: A25
+    variations: []
+    wizards_id: 442126
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442126
+rarity: uncommon
 rules: "Ire Shaman can't be blocked except by two or more creatures.\r\n\r\nMegamorph\
   \ [[symbol:R]] *(You may cast this card face down as a 2/2 creature for [[symbol:3]].\
   \ Turn it face up at any time for its megamorph cost and put a +1/+1 counter on\
@@ -83,18 +110,25 @@ subtype: Orc Shaman
 subtype_tokens:
 - Orc
 - Shaman
-tags: card-color-red card-color-red-cost-2 card-type-creature
+synonyms: []
 tapped_id: 16444
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Morph 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  tla: DTK
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+        \ with morph can be turned face up at any time for its morph cost.*"
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Morph 2/2 C
 type: Creature
-url: http://tappedout.net/mtg-card/ire-shaman/
+url: https://tappedout.net/mtg-card/ire-shaman/
+

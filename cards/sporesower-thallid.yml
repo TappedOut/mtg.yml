@@ -1,33 +1,38 @@
 activated_abilities:
 - 'Remove three spore counters from Sporesower Thallid: Create a 1/1 green Saproling
   creature token.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MMA
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.64
+draft_average: 4.9
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -35,49 +40,84 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 2GG
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Sporesower Thallid
 power_toughness: 4/4
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 231
-    rarity: uncommon
-    release_date: 2021-03-19
-    wizards_id: 509596
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509596
-- MMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 49045
-    mtgo_id: 49044
-    name: Modern Masters
-    rarity: uncommon
-    release_date: 2013-06-07
-    wizards_id: 370441
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370441
 - TSP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ron Spencer
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 25594
     mtgo_id: 25593
     name: Time Spiral
+    number: null
     rarity: uncommon
-    release_date: 2006-10-06
+    release_date: '2006-10-06'
+    tla: TSP
+    variations: []
     wizards_id: 111068
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=111068
+- MMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ron Spencer
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 49045
+    mtgo_id: 49044
+    name: Modern Masters
+    number: null
+    rarity: uncommon
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
+    wizards_id: 370441
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370441
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ron Spencer
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 231
+    rarity: uncommon
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509596
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509596
+rarity: uncommon
 rules: "At the beginning of your upkeep, put a spore counter on each Fungus you control.\r\
   \n\r\nRemove three spore counters from Sporesower Thallid: Create a 1/1 green Saproling\
   \ creature token."
@@ -85,18 +125,24 @@ slug: sporesower-thallid
 subtype: Fungus
 subtype_tokens:
 - Fungus
-tags: card-color-green card-color-green-cost-4 card-type-creature
+synonyms: []
 tapped_id: 1185
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Saproling 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Saproling
-  tla: MMA
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 893
+    - - cannonical_type
+      - Creature
+    - - name
+      - Saproling 1/1 G
 type: Creature
-url: http://tappedout.net/mtg-card/sporesower-thallid/
+url: https://tappedout.net/mtg-card/sporesower-thallid/
+

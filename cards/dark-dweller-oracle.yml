@@ -2,43 +2,48 @@ activated_abilities:
 - ', Sacrifice a creature: Exile the top card of your library. You may play that card
   this turn. *(You still pay its costs. You can play a land this way only if you have
   an an available land play remaining.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: AFC
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.42
+draft_average: 6.83
 effective_cost:
 - R
-flat_cost: 2
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,60 +51,110 @@ keywords:
 - Exile
 - Sacrifice
 mana_cost: 1R
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Dark-Dweller Oracle
 power_toughness: 2/2
 printings:
-- 2X2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Double Masters 2022
-    number: 106
-    rarity: common
-    release_date: 2022-07-08
-    wizards_id: 571439
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571439
-- J21:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Jumpstart: Historic Horizons'
-    rarity: rare
-    release_date: 2021-08-12
-- AFC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 119
-    rarity: rare
-    release_date: 2021-07-24
-    wizards_id: 532506
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532506
 - M19:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Deruchenko Alexander
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Eyes are unnecessary for seeing the future.*'
     frame: m15
     mtgo_foil_id: 68430
     mtgo_id: 68429
     name: Core Set 2019
     number: 134
     rarity: rare
-    release_date: 2018-07-13
+    release_date: '2018-07-13'
+    tla: M19
+    variations: []
     wizards_id: 447270
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447270
+- AFC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Deruchenko Alexander
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Eyes are unnecessary for seeing the future.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 119
+    rarity: rare
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: 532506
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532506
+- J21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Deruchenko Alexander
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Jumpstart: Historic Horizons'
+    number: null
+    rarity: rare
+    release_date: '2021-08-12'
+    tla: J21
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- 2X2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Deruchenko Alexander
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Eyes are unnecessary for seeing the future.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters 2022
+    number: 106
+    rarity: common
+    release_date: '2022-07-08'
+    tla: 2X2
+    variations: []
+    wizards_id: 571439
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571439
 rules: '[[symbol:1]], Sacrifice a creature: Exile the top card of your library. You
   may play that card this turn. *(You still pay its costs. You can play a land this
   way only if you have an an available land play remaining.)*'
@@ -108,7 +163,9 @@ subtype: Goblin Shaman
 subtype_tokens:
 - Goblin
 - Shaman
-tags: card-color-red card-color-red-cost-2 card-type-creature
+synonyms: []
 tapped_id: 20518
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/dark-dweller-oracle/
+url: https://tappedout.net/mtg-card/dark-dweller-oracle/
+

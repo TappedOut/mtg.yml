@@ -1,36 +1,38 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: APC
 cannonical_type: Creature
-color_identity:
-- W
-- G
+color_identity: GW
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.67
+draft_average: 2.5
 effective_cost:
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -38,25 +40,39 @@ keywords:
 - Trample
 - Kicker
 mana_cost: 2B
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Necravolver
 power_toughness: 2/2
 printings:
 - APC:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Dave Dorman
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 16319
     mtgo_id: 16318
     name: Apocalypse
     number: 46
     rarity: rare
-    release_date: 2001-06-01
+    release_date: '2001-06-01'
+    tla: APC
+    variations: []
     wizards_id: 25949
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=25949
+rarity: rare
 rules: "Kicker [[symbol:1]][[symbiol:G]] and/or [[symbol:w]]\r\n\r\nIf the [[symbol:1]][[symbiol:G]]\
   \ kicker cost was paid, Necravolver enters the battlefield with two +1/+1 counters\
   \ on it and with trample.\r\n\r\nIf the [[symbol:w]] kicker cost was paid, Necravolver\
@@ -66,7 +82,9 @@ slug: necravolver
 subtype: Volver
 subtype_tokens:
 - Volver
-tags: card-color-black card-color-black-cost-3 card-type-creature
+synonyms: []
 tapped_id: 4821
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/necravolver/
+url: https://tappedout.net/mtg-card/necravolver/
+

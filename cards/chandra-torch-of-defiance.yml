@@ -4,40 +4,44 @@ activated_abilities:
 - ': Gain .'
 - ': Chandra, Torch of Defiance deals 4 damage to target creature.'
 - ': You get an emblem with '
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: KLD
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 3.94
+draft_average: 1.28
 effective_cost:
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,76 +49,127 @@ keywords:
 - Exile
 - Counters
 mana_cost: 2RR
-mana_cost_converted: 4
 mana_produced: RR
+mana_value: 4
+melds_from: []
 name: Chandra, Torch of Defiance
+planeswalker_loyalty: 4
 printings:
-- SS3:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Signature Spellbook: Chandra'
-    number: 1
-    rarity: mythic_rare
-    release_date: 2020-06-26
 - KLD:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Magali Villeneuve
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 61574
     mtgo_id: 61573
     name: Kaladesh
     number: 110
     rarity: mythic_rare
-    release_date: 2016-09-30
+    release_date: '2016-09-30'
+    tla: KLD
+    variations: []
     wizards_id: 417683
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417683
 - S17:
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Vincent Price
     booster_exclude: true
     border_color: B
     cannonical: false
-    foil: foil
-    foil_only: true
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: SDCC Promo 2017
     number: 110
-    rarity: common
-    release_date: 1990-07-20
+    rarity: null
+    release_date: '1990-07-20'
+    tla: S17
+    variations: []
+    wizards_id: null
+    wizards_url: null
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Vincent Proce
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
     variations:
     - identifier: '2'
+    wizards_id: null
+    wizards_url: null
 - S18:
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Terese Nielsen
     booster_exclude: true
     border_color: B
     cannonical: false
-    foil: foil
-    foil_only: true
+    flavour_text: null
+    frame: null
+    mtgo_foil_id: null
+    mtgo_id: null
     name: SDCC Promo 2018
     number: 110
     rarity: mythic_rare
     release_date: null
-promo_sets:
-- S17
-- S18
+    tla: S18
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- SS3:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Magali Villeneuve
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Signature Spellbook: Chandra'
+    number: 1
+    rarity: mythic_rare
+    release_date: '2020-06-26'
+    tla: SS3
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "[[symbol:loyalty-plus1]]: Exile the top card of your library. You may cast\
   \ that card. If you don't, Chandra, Torch of Defiance deals 2 damage to each opponent.\r\
   \n\r\n[[symbol:loyalty-plus1]]: Gain [[symbol:R]][[symbol:R]].\r\n\r\n[[symbol:loyalty-minus3]]:\
@@ -127,19 +182,24 @@ subtype_tokens:
 - Chandra
 synonyms:
 - Chandra, Torch of Defience
-tags: card-color-red card-color-red-cost-4 card-mana-red card-type-legendary card-type-planeswalker
 tapped_id: 18220
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Chandra, Torch of Defiance
-  power_toughness: null
-  rules: Whenever you cast a spell, this emblem deals 5 damage to target creature
-    or player.
-  subtype: Chandra
-  tla: KLD
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Whenever you cast a spell, this emblem deals 5 damage to target creature or
+        player.
+    - - type
+      - Emblem
+    - - subtype
+      - 243
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Chandra, Torch of Defiance
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/chandra-torch-of-defiance/
+url: https://tappedout.net/mtg-card/chandra-torch-of-defiance/
+

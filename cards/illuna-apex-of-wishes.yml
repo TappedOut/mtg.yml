@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 - R
 - U
@@ -9,34 +10,37 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 8.51
+draft_average: 1.62
 effective_cost:
 - U
 - R
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -45,38 +49,45 @@ keywords:
 - Exile
 - Mutate
 mana_cost: 2GUR
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Illuna, Apex of Wishes
 power_toughness: 6/6
 printings:
 - IKO:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 80390
     mtgo_id: 80389
     name: 'Ikoria: Lair of Behemoths'
     number: 190
     rarity: mythic_rare
-    release_date: 2020-04-15
+    release_date: '2020-04-15'
+    tla: IKO
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '300'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '379'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '300'
+    - identifier: '379'
+    - identifier: PromoPack
     wizards_id: 479710
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479710
 rules: "Mutate [[symbol:3]][[symbol:RG]][[symbol:U]][[symbol:U]] *(If you cast this\
@@ -97,8 +108,8 @@ synonyms:
 - Ghidorah, King
 - Ghidorah
 - Ghidorah, Cosmos King
-tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-green card-color-red
-  card-type-creature card-type-legendary
 tapped_id: 22620
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/illuna-apex-of-wishes/
+url: https://tappedout.net/mtg-card/illuna-apex-of-wishes/
+

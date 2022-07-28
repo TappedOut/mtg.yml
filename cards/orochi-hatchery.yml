@@ -1,9 +1,11 @@
 activated_abilities:
 - ', : Put a 1/1 green Snake creature token into play for each charge counter on Orochi
   Hatchery.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C15
 cannonical_type: Artifact
+color_identity: ''
 companions:
 - Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
@@ -12,22 +14,26 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 6.82
+draft_average: 1.33
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -35,49 +41,80 @@ keywords:
 - Counters
 - Tokens
 mana_cost: XX
-mana_cost_converted: 0
+mana_produced: ''
+mana_value: 0
+melds_from: []
 name: Orochi Hatchery
+power_toughness: ''
 printings:
-- C15:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2015
-    number: 260
-    rarity: rare
-    release_date: 2015-11-13
-    wizards_id: 405328
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405328
 - CHK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Alex Horley-Orlandelli
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 21510
     mtgo_id: 21509
     name: Champions of Kamigawa
+    number: null
     rarity: rare
-    release_date: 2004-10-01
+    release_date: '2004-10-01'
+    tla: CHK
+    variations: []
     wizards_id: 80241
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=80241
+- C15:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Alex Horley-Orlandelli
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2015
+    number: 260
+    rarity: rare
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
+    wizards_id: 405328
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405328
+rarity: rare
 rules: "Orochi Hatchery enters the battlefield with X charge counters on it.\r\n\r\
   \n[[symbol:5]], [[symbol:T]]: Put a 1/1 green Snake creature token into play for\
   \ each charge counter on Orochi Hatchery."
 slug: orochi-hatchery
-tags: card-color-colorless card-color-colorless-cost-0 card-type-artifact
+synonyms: []
 tapped_id: 2673
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Snake 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Snake
-  tla: C15
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 63
+    - - cannonical_type
+      - Creature
+    - - name
+      - Snake 1/1 G
 type: Artifact
-url: http://tappedout.net/mtg-card/orochi-hatchery/
+url: https://tappedout.net/mtg-card/orochi-hatchery/
+

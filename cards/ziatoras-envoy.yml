@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 - G
 - R
@@ -6,41 +7,42 @@ canadian_hl_score: 0
 cannonical_set: SNC
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - B
 - R
 - G
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Penny Dreadful
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -49,31 +51,44 @@ keywords:
 - Sacrifice
 - Blitz
 mana_cost: 1BRG
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Ziatora's Envoy
 power_toughness: 5/4
 printings:
 - SNC:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Tuan Duong Chu
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Streets of New Capenna
     number: 232
     rarity: rare
-    release_date: 2022-04-29
+    release_date: '2022-04-29'
+    tla: SNC
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '340'
-    - alterations:
-      - Foil
-      identifier: '405'
+    - identifier: '340'
+    - identifier: '405'
     wizards_id: 555433
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=555433
 rules: "Trample\r\n\r\nWhenever Ziatora's Envoy deals combat damage to a player, look\
@@ -89,8 +104,9 @@ subtype: Viashino Warrior
 subtype_tokens:
 - Viashino
 - Warrior
-tags: card-color-black card-color-gold card-color-gold-cost-4 card-color-green card-color-red
-  card-type-creature
+synonyms: []
 tapped_id: 26300
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/ziatoras-envoy/
+url: https://tappedout.net/mtg-card/ziatoras-envoy/
+

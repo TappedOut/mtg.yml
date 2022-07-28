@@ -1,9 +1,12 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -11,25 +14,25 @@ companions:
 effective_cost:
 - W
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -38,29 +41,38 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 1GW
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Gluntch, the Bestower
 power_toughness: 0/5
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Olivier Bernard
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 275
     rarity: rare
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '422'
-    - alterations:
-      - Etched
-      identifier: '533'
+    - identifier: '422'
+    - identifier: '533'
     wizards_id: 563158
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563158
 rules: "Flying\r\n\r\nAt the beginning of your end step, choose a player. They put\
@@ -71,19 +83,24 @@ slug: gluntch-the-bestower
 subtype: Jellyfish
 subtype_tokens:
 - Jellyfish
-tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-white card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 26559
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: CLB
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/gluntch-the-bestower/
+url: https://tappedout.net/mtg-card/gluntch-the-bestower/
+

@@ -1,39 +1,44 @@
 activated_abilities:
 - 'Sacrifice two Foods: Draw a card.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ELD
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.0
+draft_average: 3.72
 effective_cost:
 - B
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,22 +46,34 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 1BG
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Savvy Hunter
 power_toughness: 3/3
 printings:
 - ELD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dan Dos Santos
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*None of the other villagers dare venture into the wilds, so she
+      feeds the whole hamlet herself.*'
     frame: m15
     mtgo_foil_id: 78545
     mtgo_id: 78544
     name: Throne of Eldraine
     number: 200
     rarity: uncommon
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
+    variations: []
     wizards_id: 473162
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=473162
 rules: "Whenever Savvy Hunter attacks or blocks, create a Food token. *(It's an artifact\
@@ -67,18 +84,24 @@ subtype: Human Warrior
 subtype_tokens:
 - Human
 - Warrior
-tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-green card-type-creature
+synonyms: []
 tapped_id: 22001
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Food
-  power_toughness: null
-  rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
-  subtype: Food
-  tla: ELD
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1373
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Food
 type: Creature
-url: http://tappedout.net/mtg-card/savvy-hunter/
+url: https://tappedout.net/mtg-card/savvy-hunter/
+

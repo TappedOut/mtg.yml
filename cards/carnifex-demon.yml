@@ -1,38 +1,42 @@
 activated_abilities:
 - ', Remove a -1/-1 counter from Carnifex Demon: Put a -1/-1 counter on each other
   creature.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: SOM
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.42
+draft_average: 2.27
 effective_cost:
 - B
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -40,34 +44,60 @@ keywords:
 - Flying
 - Counters
 mana_cost: 4BB
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Carnifex Demon
 power_toughness: 6/6
 printings:
-- ARENA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Arena Cards
-    rarity: rare
-    release_date: 2019-09-26
 - SOM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Aleksi Briclot
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Every contagion has a host.
     frame: modern
     mtgo_foil_id: 38166
     mtgo_id: 38165
     name: Scars of Mirrodin
     number: 57
     rarity: rare
-    release_date: 2010-10-01
+    release_date: '2010-10-01'
+    tla: SOM
+    variations: []
     wizards_id: 206357
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=206357
+- ARENA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Aleksi Briclot
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Every contagion has a host.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Arena Cards
+    number: null
+    rarity: rare
+    release_date: '2019-09-26'
+    tla: ARENA
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "Flying\r\n\r\nCarnifex Demon enters the battlefield with two -1/-1 counters\
   \ on it.\r\n\r\n[[symbol:B]], Remove a -1/-1 counter from Carnifex Demon: Put a\
   \ -1/-1 counter on each other creature."
@@ -76,7 +106,9 @@ subtype: Phyrexian Demon
 subtype_tokens:
 - Phyrexian
 - Demon
-tags: card-color-black card-color-black-cost-6 card-type-creature
+synonyms: []
 tapped_id: 12494
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/carnifex-demon/
+url: https://tappedout.net/mtg-card/carnifex-demon/
+

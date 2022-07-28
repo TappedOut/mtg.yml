@@ -1,12 +1,14 @@
 activated_abilities:
 - ': Sacrifice three other artifacts and/or creatures: Look at the top three cards
   of your library. Put two of them into your hand and the other into your graveyard.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -14,20 +16,21 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -35,26 +38,34 @@ keywords:
 - Sacrifice
 - Partner
 mana_cost: 2B
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Keskit, the Flesh Sculptor
 power_toughness: 1/3
 printings:
 - CMR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Yongjae Choi
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Perfection is elusive. Let us try again."*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander Legends
     number: 131
     rarity: uncommon
-    release_date: 2020-11-20
+    release_date: '2020-11-20'
+    tla: CMR
     variations:
-    - alterations:
-      - Etched
-      - Foil
-      - Normal
-      identifier: '565'
+    - identifier: '565'
     wizards_id: 497651
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497651
 rules: "[[symbol:T]]: Sacrifice three other artifacts and/or creatures: Look at the\
@@ -67,7 +78,9 @@ subtype_tokens:
 - Phyrexian
 - Human
 - Artificer
-tags: card-color-black card-color-black-cost-3 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 23512
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/keskit-the-flesh-sculptor/
+url: https://tappedout.net/mtg-card/keskit-the-flesh-sculptor/
+

@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Add  to your mana pool.'
 - ', , Sacrifice Throne of the High City: You become the monarch.'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: CN2
@@ -17,55 +17,81 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 10.57
+draft_average: 3.29
+effective_cost: []
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Throne of the High City
 printings:
 - CN2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Titus Lunter
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "A shining symbol of Paliano's true ruler \u2013 ambition."
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Conspiracy: Take the Crown'
     number: 80
     rarity: rare
-    release_date: 2016-08-26
+    release_date: '2016-08-26'
+    tla: CN2
+    variations: []
     wizards_id: 416837
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416837
+rarity: rare
 rules: "[[T]]: Add [[C]] to your mana pool.\r\n\r\n[[4]], [[T]], Sacrifice Throne\
   \ of the High City: You become the monarch."
 slug: throne-of-the-high-city
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
+synonyms: []
 tapped_id: 18169
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Monarch Emblem
-  power_toughness: null
-  rules: "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
-    \ deals combat damage to you, its controller becomes the monarch."
-  tla: CN2
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
+        \ deals combat damage to you, its controller becomes the monarch."
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Monarch Emblem
 type: Land
-url: http://tappedout.net/mtg-card/throne-of-the-high-city/
+url: https://tappedout.net/mtg-card/throne-of-the-high-city/
+

@@ -4,7 +4,7 @@ activated_abilities:
   may choose new targets for the copy.'
 - ', , Sacrifice Mirrorpool: Create a token that''s a copy of target creature you
   control.'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: OGW
@@ -20,23 +20,27 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 5.5
+draft_average: 1.71
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -44,43 +48,66 @@ is_permanent: true
 keywords:
 - Sacrifice
 - Tokens
-mana_cost_converted: 0
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Mirrorpool
 printings:
 - OGW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - list
+      - The List
+    artist: Cliff Childs
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 59312
     mtgo_id: 59311
     name: Oath of the Gatewatch
     number: 174
     rarity: mythic_rare
-    release_date: 2016-01-22
+    release_date: '2016-01-22'
+    tla: OGW
+    variations: []
     wizards_id: 407684
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407684
+rarity: mythic_rare
 rules: "Mirrorpool enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Add [[symbol:C]].\r\
   \n\r\n[[symbol:2]][[symbol:C]], [[symbol:T]], Sacrifice Mirrorpool: Copy target\
   \ instant or sorcery spell you control. You may choose new targets for the copy.\r\
   \n\r\n[[symbol:4]][[symbol:C]], [[symbol:T]], Sacrifice Mirrorpool: Create a token\
   \ that's a copy of target creature you control."
 slug: mirrorpool
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
+synonyms: []
 tapped_id: 17463
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Land
-url: http://tappedout.net/mtg-card/mirrorpool/
+url: https://tappedout.net/mtg-card/mirrorpool/
+

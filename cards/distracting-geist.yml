@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: VOW
@@ -6,38 +7,39 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - W
-flat_cost: 3
 flip: Clever Distraction
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_front: true
 is_mtgo: true
 is_permanent: true
@@ -46,31 +48,59 @@ keywords:
 - Transform
 - Disturb
 mana_cost: 2W
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Distracting Geist
 power_toughness: 2/1
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 276
-    rarity: uncommon
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Andrew Mar
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"I never did enjoy studying."*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 9
     rarity: uncommon
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Andrew Mar
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"I never did enjoy studying."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 276
+    rarity: uncommon
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Whenever this attacks, tap target creature defending player controls.\r\n\r\
   \nDisturb [[symbol:4]][[symbol:W]] *(You may cast this from your graveyard transformed\
   \ for this card's disturb cost.)*"
@@ -78,7 +108,9 @@ slug: distracting-geist
 subtype: Spirit
 subtype_tokens:
 - Spirit
-tags: card-color-white card-color-white-cost-3 card-type-creature
+synonyms: []
 tapped_id: 25458
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/distracting-geist/
+url: https://tappedout.net/mtg-card/distracting-geist/
+

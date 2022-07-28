@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: C15
@@ -6,87 +7,133 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 9.9
+draft_average: 8.13
 effective_cost:
 - W
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Kicker
 mana_cost: 2W
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Kor Sanctifiers
 power_toughness: 2/3
 printings:
-- C15:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2015
-    number: 73
-    rarity: common
-    release_date: 2015-11-13
-    wizards_id: 405281
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405281
-- C14:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 54786
-    mtgo_id: 54785
-    name: Commander 2014
-    rarity: common
-    release_date: 2014-11-21
-    wizards_id: 389574
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389574
 - ZEN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dan Scott
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"Why keep such trinkets? They only add weight to your travels."'
     frame: modern
     mtgo_foil_id: 34665
     mtgo_id: 34664
     name: Zendikar
+    number: null
     rarity: common
-    release_date: 2009-10-02
+    release_date: '2009-10-02'
+    tla: ZEN
+    variations: []
     wizards_id: 192214
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=192214
+- C14:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Dan Scott
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '"Why keep such trinkets? They only add weight to your travels."'
+    frame: m15
+    mtgo_foil_id: 54786
+    mtgo_id: 54785
+    name: Commander 2014
+    number: null
+    rarity: common
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
+    wizards_id: 389574
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389574
 - HOP:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Dan Scott
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"Why keep such trinkets? They only add weight to your travels."'
     frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Planechase
+    number: null
     rarity: common
-    release_date: 2009-09-04
+    release_date: '2009-09-04'
+    tla: HOP
+    variations: []
     wizards_id: 205342
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=205342
+- C15:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Dan Scott
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*"Why keep such trinkets? They only add weight to your travels."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2015
+    number: 73
+    rarity: common
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
+    wizards_id: 405281
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405281
+rarity: common
 rules: "Kicker [[symbol:W]] (You may pay an additional [[symbol:W]] as you cast this\
   \ spell.)\r\n\r\nWhen Kor Sanctifiers enters the battlefield, if it was kicked,\
   \ destroy target artifact or enchantment."
@@ -95,7 +142,9 @@ subtype: Kor Cleric
 subtype_tokens:
 - Kor
 - Cleric
-tags: card-color-white card-color-white-cost-3 card-type-creature
+synonyms: []
 tapped_id: 11636
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/kor-sanctifiers/
+url: https://tappedout.net/mtg-card/kor-sanctifiers/
+

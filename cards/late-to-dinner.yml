@@ -1,83 +1,103 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MH2
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - W
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 is_mtgo: true
-is_permanent: false
 keywords:
 - Sacrifice
 - Tokens
 mana_cost: 3W
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Late to Dinner
 printings:
 - MH2:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Kev Walker
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"I knew you were set in your ways, friend, but even I didn't\
+      \ expect you to keep our engagement, under the circumstances.\"*\r\n\r\n*Mood:\
+      \ A friendship that can outlast death.*"
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Modern Horizons 2
     number: 19
     rarity: common
-    release_date: 2021-06-18
+    release_date: '2021-06-18'
+    tla: MH2
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '329'
+    - identifier: '329'
     wizards_id: 522095
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522095
 rules: 'Return target creature card from your graveyard to the battlefield. Create
   a Food token. *(It''s an artifact with "[[symbol:2]], [[symbol:T]], Sacrifice this
   artifact: You gain 3 life.")*'
 slug: late-to-dinner
-tags: card-color-white card-color-white-cost-4 card-type-sorcery
+synonyms: []
 tapped_id: 24391
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Food
-  power_toughness: null
-  rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
-  subtype: Food
-  tla: MH2
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1373
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Food
 type: Sorcery
-url: http://tappedout.net/mtg-card/late-to-dinner/
+url: https://tappedout.net/mtg-card/late-to-dinner/
+

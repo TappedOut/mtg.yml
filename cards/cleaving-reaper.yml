@@ -2,11 +2,13 @@ activated_abilities:
 - 'Pay 3 life: Return Cleaving Reaper from your graveyard to your hand. Activate this
   ability only if you had an Angel or Berserker enter the battlefield under your control
   this turn.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: KHM
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -14,29 +16,30 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 5
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,24 +47,43 @@ keywords:
 - Flying
 - Trample
 mana_cost: 3BB
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Cleaving Reaper
 power_toughness: 5/3
 printings:
 - KHM:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Victor Adame Minguez
     booster_exclude: true
     border_color: B
+    cannonical: true
+    flavour_text: '*"I won''t pollute my blade with your blood, demon. You''ll die
+      by your own axe!"*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Kaldheim
     number: 376
     rarity: rare
-    release_date: 2021-02-05
+    release_date: '2021-02-05'
+    tla: KHM
+    variations: []
     wizards_id: 506918
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=506918
 rules: "Flying, trample\r\n\r\nPay 3 life: Return Cleaving Reaper from your graveyard\
@@ -72,7 +94,9 @@ subtype: Angel Berserker
 subtype_tokens:
 - Angel
 - Berserker
-tags: card-color-black card-color-black-cost-5 card-type-creature
+synonyms: []
 tapped_id: 23674
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/cleaving-reaper/
+url: https://tappedout.net/mtg-card/cleaving-reaper/
+

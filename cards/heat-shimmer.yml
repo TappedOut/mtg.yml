@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: 2XM
 cannonical_type: Sorcery
@@ -11,74 +13,108 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.7
+draft_average: 9.26
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Haste
 - Exile
 - Tokens
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Heat Shimmer
 printings:
-- 2XM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 130
-    rarity: rare
-    release_date: 2020-08-07
-    wizards_id: 489803
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489803
 - LRW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Franz Vohwinkel
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"Better to flare out than to gutter."Flamekin expression'
     frame: modern
     mtgo_foil_id: 28290
     mtgo_id: 28289
     name: Lorwyn
+    number: null
     rarity: rare
-    release_date: 2007-10-12
+    release_date: '2007-10-12'
+    tla: LRW
+    variations: []
     wizards_id: 139468
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=139468
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Franz Vohwinkel
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Better to flare out than to gutter.\"\r\n<br>&mdash;Flamekin\
+      \ expression*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 130
+    rarity: rare
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations: []
+    wizards_id: 489803
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489803
+rarity: rare
 rules: Create a token that's a copy of target creature except it has haste and "At
   the beginning of the end step, exile this permanent."
 slug: heat-shimmer
-tags: card-color-red card-color-red-cost-3 card-type-sorcery
+synonyms: []
 tapped_id: 266
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: 2XM
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Sorcery
-url: http://tappedout.net/mtg-card/heat-shimmer/
+url: https://tappedout.net/mtg-card/heat-shimmer/
+

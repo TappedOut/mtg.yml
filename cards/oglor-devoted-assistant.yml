@@ -1,42 +1,60 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: Y22
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - U
-flat_cost: 2
 formats:
-- Alchemy
 - Arena
-- Gladiator
+- Custom
 - Historic
-has_activated_abilities: false
+- Gladiator
+- Alchemy
+- Casual
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 - Perpetually
 mana_cost: 1U
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Oglor, Devoted Assistant
 power_toughness: 1/1
 printings:
 - Y22:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Michele Giorgi
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Arena Alchemy 2022
+    number: null
     rarity: mythic_rare
-    release_date: 2021-12-09
+    release_date: '2021-12-09'
+    tla: Y22
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "At the beginning of your upkeep, look at the top two cards of your library,\
   \ then put one of them into your graveyard.\r\n\r\nWhenever a creature card is put\
   \ into your graveyard from your library or hand, it perpetually gains \"When this\
@@ -47,18 +65,24 @@ slug: oglor-devoted-assistant
 subtype: Homunculus
 subtype_tokens:
 - Homunculus
-tags: card-color-blue card-color-blue-cost-2 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 25715
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: 2X2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/oglor-devoted-assistant/
+url: https://tappedout.net/mtg-card/oglor-devoted-assistant/
+

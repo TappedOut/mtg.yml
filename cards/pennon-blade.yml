@@ -1,5 +1,6 @@
 activated_abilities:
 - 'Equip  *(: Attach this to target creature you control. Equip only as a sorcery.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Artifact
@@ -7,27 +8,32 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 3
+cube_average: 7.6
+draft_average: 8.1
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -35,41 +41,70 @@ keywords:
 - Equip
 - Attach
 mana_cost: '3'
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Pennon Blade
 printings:
-- CMR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander Legends
-    number: 329
-    rarity: uncommon
-    release_date: 2020-11-20
-    wizards_id: 497849
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497849
 - ROE:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Alex Horley-Orlandelli
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Draped with the pennon of a fallen outpost, the sword came to symbolize
+      the peoples of Zendikar becoming one.
     frame: modern
     mtgo_foil_id: 36505
     mtgo_id: 36504
     name: Rise of the Eldrazi
+    number: null
     rarity: uncommon
-    release_date: 2010-04-23
+    release_date: '2010-04-23'
+    tla: ROE
+    variations: []
     wizards_id: 193528
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=193528
+- CMR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Alex Horley-Orlandelli
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Draped with the pennon of a fallen outpost, the sword came to
+      symbolize the peoples of Zendikar becoming one.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Legends
+    number: 329
+    rarity: uncommon
+    release_date: '2020-11-20'
+    tla: CMR
+    variations: []
+    wizards_id: 497849
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497849
+rarity: uncommon
 rules: "Equipped creature gets +1/+1 for each creature you control.\r\n\r\nEquip [[symbol:4]]\
   \ *([[symbol:4]]: Attach this to target creature you control. Equip only as a sorcery.)*"
 slug: pennon-blade
 subtype: Equipment
 subtype_tokens:
 - Equipment
-tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
+synonyms: []
 tapped_id: 12259
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/pennon-blade/
+url: https://tappedout.net/mtg-card/pennon-blade/
+

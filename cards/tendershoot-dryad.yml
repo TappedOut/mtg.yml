@@ -1,73 +1,104 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: RIX
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.86
+draft_average: 1.68
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: 4G
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Tendershoot Dryad
 power_toughness: 2/2
 printings:
 - RIX:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Yongjae Choi
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 66748
     mtgo_id: 66747
     name: Rivals of Ixalan
     number: 147
     rarity: rare
-    release_date: 2018-01-19
+    release_date: '2018-01-19'
+    tla: RIX
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 439804
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439804
 - EO2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: ''
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: This Card is not in E02 and needs to be removed.  It appears only
+      in Rivals of Ixalan.
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Explorers of Ixalan
-    rarity: rare
-    release_date: 2017-12-15
+    number: null
+    rarity: null
+    release_date: '2017-12-15'
+    tla: EO2
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "Ascend (If you control ten or more permanents, you get the city's blessing\
   \ for the rest of the game.) \r\n\r\nAt the beginning of each upkeep, create a 1/1\
   \ green Saproling creature token. \r\n\r\nSaprolings you control have +2/+2 as long\
@@ -76,27 +107,39 @@ slug: tendershoot-dryad
 subtype: Dryad
 subtype_tokens:
 - Dryad
-tags: card-color-green card-color-green-cost-5 card-type-creature
+synonyms: []
 tapped_id: 19928
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: City's Blessing
-  power_toughness: null
-  rules: ''
-  tla: RIX
-  type: Emblem
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Saproling 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Saproling
-  tla: RIX
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - City's Blessing
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 893
+    - - cannonical_type
+      - Creature
+    - - name
+      - Saproling 1/1 G
 type: Creature
-url: http://tappedout.net/mtg-card/tendershoot-dryad/
+url: https://tappedout.net/mtg-card/tendershoot-dryad/
+

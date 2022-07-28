@@ -1,85 +1,118 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DDM
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.25
+draft_average: 6.68
 effective_cost:
 - U
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Vintage
-has_activated_abilities: false
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Counterspell
 mana_cost: 2UU
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Summoner's Bane
+power_toughness: ''
 printings:
+- ZEN:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: 'Cyril Van Der Haegen '
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "\"I don't need to have the perfect plan. My foe just has to have\
+      \ an imperfect one.\"\r\n\x97Jace Beleren"
+    frame: modern
+    mtgo_foil_id: 34639
+    mtgo_id: 34638
+    name: Zendikar
+    number: null
+    rarity: common
+    release_date: '2009-10-02'
+    tla: ZEN
+    variations: []
+    wizards_id: 191360
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=191360
 - DDM:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Cyril Van Der Haegen
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*I don't need to have the perfect plan. My foe just has to have\
+      \ an imperfect one.\"\r\n<br>\u2014Jace Beleren*"
     frame: modern
     mtgo_foil_id: 52388
     mtgo_id: 52387
     name: 'Duel Decks: Jace vs. Vraska'
     number: 31
     rarity: uncommon
-    release_date: 2014-03-14
+    release_date: '2014-03-14'
+    tla: DDM
+    variations: []
     wizards_id: 380266
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=380266
-- ZEN:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 34639
-    mtgo_id: 34638
-    name: Zendikar
-    rarity: common
-    release_date: 2009-10-02
-    wizards_id: 191360
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=191360
+rarity: common
 rules: "Counter target creature spell. Put a 2/2 blue Illusion creature token onto\
   \ the battlefield.\r\n"
 slug: summoners-bane
-tags: card-color-blue card-color-blue-cost-4 card-type-instant
+synonyms: []
 tapped_id: 11784
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Illusion 2/2 U
-  power_toughness: 2/2
-  rules: ''
-  subtype: Illusion
-  tla: ZEN
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 21
+    - - cannonical_type
+      - Creature
+    - - name
+      - Illusion 2/2 U
 type: Instant
-url: http://tappedout.net/mtg-card/summoners-bane/
+url: https://tappedout.net/mtg-card/summoners-bane/
+

@@ -1,6 +1,7 @@
 activated_abilities:
 - 'Basic landcycling  _(, Discard this card: Search your library for a basic land
   card, reveal it, put it into your hand, then shuffle your library.)_'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: KHC
 cannonical_type: Sorcery
@@ -14,103 +15,167 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.15
 effective_cost:
 - W
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 - Cycling
 - Typecycling
 - Tokens
 mana_cost: 3WU
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Migratory Route
 printings:
-- KHC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Kaldheim: Commander'
-    number: 87
-    rarity: uncommon
-    release_date: 2021-02-05
-    wizards_id: 508377
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508377
-- C20:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 222
-    rarity: uncommon
-    release_date: 2020-05-15
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: uncommon
-    release_date: 2020-03-14
-- CM2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology 2018
-    number: 161
-    rarity: uncommon
-    release_date: 2018-06-08
-    wizards_id: 446897
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446897
 - C16:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Winona Nelson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2016
     number: 38
     rarity: uncommon
-    release_date: 2016-11-11
+    release_date: '2016-11-11'
+    tla: C16
+    variations: []
     wizards_id: 420655
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420655
+- CM2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Winona Nelson
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology 2018
+    number: 161
+    rarity: uncommon
+    release_date: '2018-06-08'
+    tla: CM2
+    variations: []
+    wizards_id: 446897
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446897
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Winona Nelson
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: uncommon
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Winona Nelson
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 222
+    rarity: uncommon
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- KHC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Winona Nelson
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kaldheim: Commander'
+    number: 87
+    rarity: uncommon
+    release_date: '2021-02-05'
+    tla: KHC
+    variations: []
+    wizards_id: 508377
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508377
+rarity: uncommon
 rules: "Create four 1/1 white Bird creature tokens with flying. \r\n\r\nBasic landcycling\
   \ [[symbol:2]] _([[symbol:2]], Discard this card: Search your library for a basic\
   \ land card, reveal it, put it into your hand, then shuffle your library.)_"
 slug: migratory-route
-tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-white card-type-sorcery
+synonyms: []
 tapped_id: 18507
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Bird 1/1 W
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Bird
-  tla: KHC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 32
+    - - cannonical_type
+      - Creature
+    - - name
+      - Bird 1/1 W
 type: Sorcery
-url: http://tappedout.net/mtg-card/migratory-route/
+url: https://tappedout.net/mtg-card/migratory-route/
+

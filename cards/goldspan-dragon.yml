@@ -1,54 +1,41 @@
-arena:
-  Alchemy:
-    cannonical_type: Creature
-    cmc: 5
-    date: 2021-12-09
-    mana_cost: 3RR
-    power_toughness: 4/4
-    rules: "Flying, haste\r\n\r\nWhenever this attacks, create a Treasure token.\r\
-      \n\r\nTreasures you control have \"[[symbol:T]], Sacrifice this artifact: Add\
-      \ two mana of any one colour.\""
-    subtype: Dragon
-  Historic:
-    date: 2021-12-09
-    rules: "Flying, haste\r\n\r\nWhenever this attacks, create a Treasure token.\r\
-      \n\r\nTreasures you control have \"[[symbol:T]], Sacrifice this artifact: Add\
-      \ two mana of any one colour.\""
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: KHM
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - R
-flat_cost: 5
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -57,34 +44,48 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 3RR
-mana_cost_converted: 5
 mana_produced: WW, UU, BB, RR, GG
+mana_value: 5
+melds_from: []
 name: Goldspan Dragon
 power_toughness: 4/4
 printings:
 - KHM:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    - !!python/tuple
+      - list
+      - The List
+    artist: Andrew Mar
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Kaldheim
     number: 139
     rarity: mythic_rare
-    release_date: 2021-02-05
+    release_date: '2021-02-05'
+    tla: KHM
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '358'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '358'
+    - identifier: PromoPack
     wizards_id: 503751
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503751
 rules: "Flying, haste\r\n\r\nWhenever Goldspan Dragon attacks or becomes the target\
@@ -94,19 +95,24 @@ slug: goldspan-dragon
 subtype: Dragon
 subtype_tokens:
 - Dragon
-tags: card-color-red card-color-red-cost-5 card-mana-black card-mana-blue card-mana-green
-  card-mana-red card-mana-white card-type-creature
+synonyms: []
 tapped_id: 23722
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: KHM
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Creature
-url: http://tappedout.net/mtg-card/goldspan-dragon/
+url: https://tappedout.net/mtg-card/goldspan-dragon/
+

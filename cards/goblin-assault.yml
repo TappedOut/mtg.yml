@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MM3
 cannonical_type: Enchantment
@@ -5,89 +7,137 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 5.29
+draft_average: 4.11
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Haste
 - Tokens
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Goblin Assault
+power_toughness: ''
 printings:
-- MYS1:
+- ALA:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jaime Jones
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: uncommon
-    release_date: 2020-03-14
+    cannonical: true
+    flavour_text: A goblin raid is a delicate gambita blend of stealth, precision,
+      and screaming death.
+    frame: modern
+    mtgo_foil_id: 31008
+    mtgo_id: 31007
+    name: Shards of Alara
+    number: null
+    rarity: rare
+    release_date: '2008-10-03'
+    tla: ALA
+    variations: []
+    wizards_id: 174939
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=174939
 - MM3:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jaime Jones
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*A goblin raid is a delicate gambita blend of stealth, precision,
+      and screaming death.*'
     frame: m15
     mtgo_foil_id: 63144
     mtgo_id: 63143
     name: Modern Masters 2017 Edition
     number: 95
     rarity: uncommon
-    release_date: 2017-03-17
+    release_date: '2017-03-17'
+    tla: MM3
+    variations: []
     wizards_id: 425920
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425920
-- ALA:
+- MYS1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jaime Jones
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 31008
-    mtgo_id: 31007
-    name: Shards of Alara
-    rarity: rare
-    release_date: 2008-10-03
-    wizards_id: 174939
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=174939
+    cannonical: false
+    flavour_text: '*A goblin raid is a delicate gambita blend of stealth, precision,
+      and screaming death.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: uncommon
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "At the beginning of your upkeep, create a 1/1 red Goblin creature token with\
   \ haste.\r\n\r\nGoblin creatures attack each turn if able."
 slug: goblin-assault
-tags: card-color-red card-color-red-cost-3 card-type-enchantment
+synonyms: []
 tapped_id: 10018
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goblin 1/1 R
-  power_toughness: 1/1
-  rules: ''
-  subtype: Goblin
-  tla: MM3
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 153
+    - - cannonical_type
+      - Creature
+    - - name
+      - Goblin 1/1 R
 type: Enchantment
-url: http://tappedout.net/mtg-card/goblin-assault/
+url: https://tappedout.net/mtg-card/goblin-assault/
+

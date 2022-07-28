@@ -1,6 +1,6 @@
 activated_abilities:
 - 'Outlast  *(, : Put a +1/+1 counter on this creature. Outlast only as a sorcery.)*'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: ZNC
@@ -8,33 +8,37 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.76
+draft_average: 3.57
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,72 +47,126 @@ keywords:
 - Counters
 - Outlast
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Tuskguard Captain
 power_toughness: 2/3
 printings:
-- 2X2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Double Masters 2022
-    number: 163
-    rarity: common
-    release_date: 2022-07-08
-    wizards_id: 571496
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571496
-- ZNC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Zendikar Rising: Commander'
-    number: 85
-    rarity: uncommon
-    release_date: 2020-09-25
-    wizards_id: 496023
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=496023
-- CM2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology 2018
-    number: 147
-    rarity: uncommon
-    release_date: 2018-06-08
-    wizards_id: 446883
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446883
-- C16:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2016
-    number: 173
-    rarity: uncommon
-    release_date: 2016-11-11
-    wizards_id: 420790
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420790
 - KTK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Aaron Miller
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*One quiet word sets off the stampede.*'
     frame: m15
     mtgo_foil_id: 54393
     mtgo_id: 54392
     name: Khans of Tarkir
     number: 156
     rarity: uncommon
-    release_date: 2014-09-26
+    release_date: '2014-09-26'
+    tla: KTK
+    variations: []
     wizards_id: 386708
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386708
+- C16:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Aaron Miller
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2016
+    number: 173
+    rarity: uncommon
+    release_date: '2016-11-11'
+    tla: C16
+    variations: []
+    wizards_id: 420790
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420790
+- CM2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Aaron Miller
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*One quiet word sets off the stampede.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology 2018
+    number: 147
+    rarity: uncommon
+    release_date: '2018-06-08'
+    tla: CM2
+    variations: []
+    wizards_id: 446883
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446883
+- ZNC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Aaron Miller
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*One quiet word sets off the stampede.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Zendikar Rising: Commander'
+    number: 85
+    rarity: uncommon
+    release_date: '2020-09-25'
+    tla: ZNC
+    variations: []
+    wizards_id: 496023
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=496023
+- 2X2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Aaron Miller
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*One quiet word sets off the stampede.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters 2022
+    number: 163
+    rarity: common
+    release_date: '2022-07-08'
+    tla: 2X2
+    variations: []
+    wizards_id: 571496
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571496
+rarity: uncommon
 rules: "Outlast [[symbol:G]] *([[symbol:G]], [[symbol:T]]: Put a +1/+1 counter on\
   \ this creature. Outlast only as a sorcery.)*\r\n\r\nEach creature you control with\
   \ a +1/+1 counter on it has trample."
@@ -117,7 +175,9 @@ subtype: Human Warrior
 subtype_tokens:
 - Human
 - Warrior
-tags: card-color-green card-color-green-cost-3 card-type-creature
+synonyms: []
 tapped_id: 15951
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/tuskguard-captain/
+url: https://tappedout.net/mtg-card/tuskguard-captain/
+

@@ -1,36 +1,39 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
 - Pauper EDH
-- Penny Dreadful
+- Canadian Highlander
+- Legacy
+- Arena
+- Oathbreaker
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -39,20 +42,33 @@ keywords:
 - Tokens
 - Myriad
 mana_cost: 4R
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Tiamat's Fanatics
 power_toughness: 4/3
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: David Auden Nash
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 202
     rarity: common
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
     wizards_id: 563085
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563085
 rules: "Haste\r\n\r\nMyriad *(Whenever this creature attacks, for each opponent other\
@@ -64,17 +80,24 @@ subtype: Dragon Warrior
 subtype_tokens:
 - Dragon
 - Warrior
-tags: card-color-red card-color-red-cost-5 card-type-creature
+synonyms: []
 tapped_id: 26777
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Creature
-url: http://tappedout.net/mtg-card/tiamats-fanatics/
+url: https://tappedout.net/mtg-card/tiamats-fanatics/
+

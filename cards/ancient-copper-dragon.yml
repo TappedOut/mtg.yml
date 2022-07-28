@@ -1,34 +1,36 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - R
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -36,31 +38,39 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 4RR
-mana_cost_converted: 6
 mana_produced: WWW, UUU, BBB, RRR, GGG
+mana_value: 6
+melds_from: []
 name: Ancient Copper Dragon
 power_toughness: 6/5
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: "Antonio Jos\xE9 Manzanedo"
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 161
     rarity: mythic_rare
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '368'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '396'
+    - identifier: '368'
+    - identifier: '396'
     wizards_id: 563044
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563044
 rules: "Flying\r\n\r\nWhenever Ancient Copper Dragon deals combat damage to a player,\
@@ -72,19 +82,24 @@ subtype: Elder Dragon
 subtype_tokens:
 - Elder
 - Dragon
-tags: card-color-red card-color-red-cost-6 card-mana-black card-mana-blue card-mana-green
-  card-mana-red card-mana-white card-type-creature
+synonyms: []
 tapped_id: 26656
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: CLB
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Creature
-url: http://tappedout.net/mtg-card/ancient-copper-dragon/
+url: https://tappedout.net/mtg-card/ancient-copper-dragon/
+

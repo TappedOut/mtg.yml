@@ -1,10 +1,10 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: FUT
 cannonical_type: Land
-color_identity:
-- G
+color_identity: G
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -15,73 +15,111 @@ companions:
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 0
+cube_average: 8.88
+draft_average: 4.1
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: gG
+mana_value: 0
+melds_from: []
 name: Dryad Arbor
 power_toughness: 1/1
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 277
-    rarity: rare
-    release_date: 2021-03-19
-    wizards_id: 509642
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509642
-- V12:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: modern
-    mtgo_foil_id: 46247
-    mtgo_id: 46246
-    name: 'From the Vault: Realms'
-    rarity: mythic_rare
-    release_date: 2012-08-31
-    wizards_id: 282542
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=282542
 - FUT:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Eric Fortune
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"Touch no tree, break no branch, and speak only the question you
+      wish answered."Von Yomm, elder druid, to her initiates'
     frame: modern
     mtgo_foil_id: 26883
     mtgo_id: 26882
     name: Future Sight
+    number: null
     rarity: uncommon
-    release_date: 2007-05-04
+    release_date: '2007-05-04'
+    tla: FUT
+    variations: []
     wizards_id: 136196
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=136196
+- V12:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Brad Rigney
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 46247
+    mtgo_id: 46246
+    name: 'From the Vault: Realms'
+    number: null
+    rarity: mythic_rare
+    release_date: '2012-08-31'
+    tla: V12
+    variations: []
+    wizards_id: 282542
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=282542
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Fortune
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*\"Touch no tree, break no branch, and speak only the question\
+      \ you wish answered.\"\r\n<br>&mdash;Von Yomm, elder druid, to her initiates*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 277
+    rarity: rare
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509642
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509642
+rarity: mythic_rare
 rules: "*(Dryad Arbor isn't a spell, it's affected by summoning sickness, and it has\
   \ \"[[symbol:T]]: Gain [[symbol:G]].\")*\r\n\r\nDryad Arbor is green."
 slug: dryad-arbor
@@ -91,8 +129,8 @@ subtype_tokens:
 - Dryad
 synonyms:
 - Dryad Arbour
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-green card-type-creature
-  card-type-land
 tapped_id: 659
+tokens: []
 type: Land Creature
-url: http://tappedout.net/mtg-card/dryad-arbor/
+url: https://tappedout.net/mtg-card/dryad-arbor/
+

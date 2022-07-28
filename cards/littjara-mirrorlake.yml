@@ -3,15 +3,13 @@ activated_abilities:
 - ', , Sacrifice this: Create a token that''s a copy of target creature you control,
   except it enters the battlefield with an additional +1/+1 counter on it. Activate
   this ability only at any time you could cast a sorcery.'
-activation_costs:
+activated_costs:
 - G
 - U
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Land
-color_identity:
-- U
-- G
+color_identity: UG
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -23,30 +21,32 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -54,50 +54,80 @@ is_permanent: true
 keywords:
 - Counters
 - Tokens
-mana_cost_converted: 0
 mana_produced: U
+mana_value: 0
+melds_from: []
 name: Littjara Mirrorlake
 printings:
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 412
-    rarity: uncommon
-    release_date: 2022-04-30
-    wizards_id: 559984
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559984
 - KHM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jokubas Uogintas
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Kaldheim
     number: 264
     rarity: uncommon
-    release_date: 2021-02-05
+    release_date: '2021-02-05'
+    tla: KHM
+    variations: []
     wizards_id: 503884
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503884
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jokubas Uogintas
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 412
+    rarity: uncommon
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559984
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559984
 rules: "This enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Add [[symbol:U]].\r\
   \n\r\n[[symbol:2]][[symbol:G]][[symbol:G]][[symbol:U]], [[symbol:T]], Sacrifice\
   \ this: Create a token that's a copy of target creature you control, except it enters\
   \ the battlefield with an additional +1/+1 counter on it. Activate this ability\
   \ only at any time you could cast a sorcery."
 slug: littjara-mirrorlake
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-blue card-type-land
+synonyms: []
 tapped_id: 23989
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Land
-url: http://tappedout.net/mtg-card/littjara-mirrorlake/
+url: https://tappedout.net/mtg-card/littjara-mirrorlake/
+

@@ -3,11 +3,11 @@ activated_abilities:
 - ': You may cast target instant or sorcery card from your graveyard this turn. If
   that card would be put into your graveyard this turn, exile it instead.'
 - ': You get an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ORI
 cannonical_type: Planeswalker
-color_indicator:
-- U
+color_indicator: U
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -19,23 +19,24 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 0
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,51 +44,80 @@ keywords:
 - Exile
 - Counters
 - Mill
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Jace, Telepath Unbound
+planeswalker_loyalty: 5
 printings:
+- ORI:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Jaime Jones
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Magic Origins
+    number: 60
+    rarity: mythic_rare
+    release_date: '2015-06-17'
+    tla: ORI
+    variations: []
+    wizards_id: 398435
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398435
 - V17:
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jaime Jones
     booster_exclude: true
     border_color: B
     cannonical: false
-    foil: foil
-    foil_only: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 66438
     mtgo_id: 66437
     name: 'From the Vault: Transform'
     number: 12
     rarity: mythic_rare
-    release_date: 2017-11-24
+    release_date: '2017-11-24'
+    tla: V17
+    variations: []
     wizards_id: 439336
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439336
-- ORI:
-    alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: Magic Origins
-    number: 60
-    rarity: mythic_rare
-    release_date: 2015-06-17
-    wizards_id: 398435
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398435
 - '000':
     alterations:
-    - Foil
-    booster_exclude: true
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Wayne Reynolds
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "[[symbol:loyalty-plus1]]: Up to one target creature gets -2/-0 until your\
   \ next turn.\r\n\r\n[[symbol:loyalty-minus3]]: You may cast target instant or sorcery\
   \ card from your graveyard this turn. If that card would be put into your graveyard\
@@ -98,18 +128,24 @@ slug: jace-telepath-unbound
 subtype: Jace
 subtype_tokens:
 - Jace
-tags: card-type-planeswalker
+synonyms: []
 tapped_id: 16929
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Jace, Vryn's Prodigy
-  power_toughness: null
-  rules: Whenever you cast a spell, target opponent mills 5 cards.
-  subtype: Jace
-  tla: ORI
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Whenever you cast a spell, target opponent mills 5 cards.
+    - - type
+      - Emblem
+    - - subtype
+      - 481
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Jace, Vryn's Prodigy
 type: Planeswalker
-url: http://tappedout.net/mtg-card/jace-telepath-unbound/
+url: https://tappedout.net/mtg-card/jace-telepath-unbound/
+

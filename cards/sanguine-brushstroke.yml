@@ -1,22 +1,25 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: Y22
 cannonical_type: Enchantment
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - B
-flat_cost: 3
 formats:
-- Alchemy
 - Arena
-- Gladiator
+- Custom
 - Historic
-has_activated_abilities: false
+- Gladiator
+- Alchemy
+- Casual
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -24,38 +27,59 @@ keywords:
 - Tokens
 - Conjure
 mana_cost: 1BB
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Sanguine Brushstroke
 printings:
 - Y22:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Wayne Wu
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Arena Alchemy 2022
+    number: null
     rarity: rare
-    release_date: 2021-12-09
+    release_date: '2021-12-09'
+    tla: Y22
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "When this enters the battlefield, create a Blood token *(it's an artifact\
   \ with \"[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw\
   \ a card\")* and conjure a card named [[Blood Artist]] onto the battlefield. *(Generate\
   \ a copy of [[Blood Artist]] that is not a token and put it into the given zone.)*\r\
   \n\r\nWhenever you sacrifice a Blood token, each opponent loses 1 life."
 slug: sanguine-brushstroke
-tags: card-color-black card-color-black-cost-3 card-type-enchantment
+synonyms: []
 tapped_id: 25722
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Blood
-  power_toughness: null
-  rules: '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
-    a card.'
-  subtype: Blood
-  tla: VOW
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
+        a card.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1692
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Blood
 type: Enchantment
-url: http://tappedout.net/mtg-card/sanguine-brushstroke/
+url: https://tappedout.net/mtg-card/sanguine-brushstroke/
+

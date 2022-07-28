@@ -2,37 +2,42 @@ activated_abilities:
 - ': Until your next turn, creatures you control get +1/+0 and gain lifelink.'
 - ': Put a 2/2 black Vampire creature token with flying onto the battlefield.'
 - ': You get an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: KTK
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.82
+draft_average: 1.3
 effective_cost:
 - W
 - B
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,24 +47,39 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 2WB
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Sorin, Solemn Visitor
+planeswalker_loyalty: 4
 printings:
 - KTK:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Cynthia Sheppard
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 54259
     mtgo_id: 54258
     name: Khans of Tarkir
     number: 202
     rarity: mythic_rare
-    release_date: 2014-09-26
+    release_date: '2014-09-26'
+    tla: KTK
+    variations: []
     wizards_id: 386672
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386672
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Until your next turn, creatures you control get\
   \ +1/+0 and gain lifelink.\r\n\r\n[[symbol:loyalty-minus2]]: Put a 2/2 black Vampire\
   \ creature token with flying onto the battlefield.\r\n\r\n[[symbol:loyalty-minus6]]:\
@@ -71,28 +91,38 @@ subtype_tokens:
 - Sorin
 synonyms:
 - Sad Sorin
-tags: card-color-black card-color-gold card-color-gold-cost-4 card-color-white card-type-planeswalker
 tapped_id: 15803
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Sorin, Solemn Visitor
-  power_toughness: null
-  rules: At the beginning of each opponent's upkeep, that player sacrifices a creature.
-  subtype: Sorin
-  tla: KTK
-  type: Emblem
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Vampire 2/2 B
-  power_toughness: 2/2
-  rules: Flying
-  subtype: Vampire
-  tla: KTK
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - At the beginning of each opponent's upkeep, that player sacrifices a creature.
+    - - type
+      - Emblem
+    - - subtype
+      - 713
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Sorin, Solemn Visitor
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 107
+    - - cannonical_type
+      - Creature
+    - - name
+      - Vampire 2/2 B
 type: Planeswalker
-url: http://tappedout.net/mtg-card/sorin-solemn-visitor/
+url: https://tappedout.net/mtg-card/sorin-solemn-visitor/
+

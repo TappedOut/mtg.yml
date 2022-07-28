@@ -3,6 +3,7 @@ activated_abilities:
   is spent to cast a creature spell that shares a creature type with your commander,
   scry 1. *(Look at the top card of your library. You may put that card onto the bottom
   of your library.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Land
@@ -17,157 +18,271 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 8.96
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Scry
-mana_cost_converted: 0
 mana_produced: W, U, B, R, G
+mana_value: 0
+melds_from: []
 name: Path of Ancestry
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 907
-    rarity: common
-    release_date: 2022-06-10
-    wizards_id: 567724
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567724
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 419
-    rarity: common
-    release_date: 2022-04-30
-    wizards_id: 559991
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559991
-- VOC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Crimson Vow Commander'
-    number: 177
-    rarity: common
-    release_date: 2021-11-18
-    wizards_id: 545797
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545797
-- MIC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Midnight Hunt Commander'
-    number: 178
-    rarity: common
-    release_date: 2021-09-25
-    wizards_id: 539439
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539439
-- AFC:
-    alterations:
-    - Normal
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 254
-    rarity: common
-    release_date: 2021-07-24
-- KHC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Kaldheim: Commander'
-    number: 117
-    rarity: common
-    release_date: 2021-02-05
-    wizards_id: 508407
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508407
-- CMR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander Legends
-    number: 353
-    rarity: common
-    release_date: 2020-11-20
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '708'
-- C20:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 298
-    rarity: common
-    release_date: 2020-05-15
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 250
-    rarity: rare
-    release_date: 2019-12-09
 - C17:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Alayna Danner
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2017
     number: 56
     rarity: common
-    release_date: 2017-08-25
+    release_date: '2017-08-25'
+    tla: C17
+    variations: []
     wizards_id: 433297
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433297
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Alayna Danner
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 298
+    rarity: common
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- CMR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Alayna Danner
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Legends
+    number: 353
+    rarity: common
+    release_date: '2020-11-20'
+    tla: CMR
+    variations:
+    - identifier: '708'
+    wizards_id: null
+    wizards_url: null
+- KHC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Alayna Danner
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kaldheim: Commander'
+    number: 117
+    rarity: common
+    release_date: '2021-02-05'
+    tla: KHC
+    variations: []
+    wizards_id: 508407
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508407
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Alayna Danner
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 250
+    rarity: rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- AFC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Alayna Danner
+    booster_exclude: false
+    border_color: null
+    cannonical: true
+    flavour_text: ''
+    frame: null
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 254
+    rarity: common
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- MIC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Alayna Danner
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Midnight Hunt Commander'
+    number: 178
+    rarity: common
+    release_date: '2021-09-25'
+    tla: MIC
+    variations: []
+    wizards_id: 539439
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539439
+- VOC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Alayna Danner
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Crimson Vow Commander'
+    number: 177
+    rarity: common
+    release_date: '2021-11-18'
+    tla: VOC
+    variations: []
+    wizards_id: 545797
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545797
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Alayna Danner
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 419
+    rarity: common
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559991
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559991
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Alayna Danner
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 907
+    rarity: common
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567724
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567724
+rarity: common
 rules: "Path of Ancestry enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Add one\
   \ mana of any colour in your commander's colour identity. When that mana is spent\
   \ to cast a creature spell that shares a creature type with your commander, scry\
   \ 1. *(Look at the top card of your library. You may put that card onto the bottom\
   \ of your library.)*"
 slug: path-of-ancestry
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black-slow card-mana-blue-slow
-  card-mana-green-slow card-mana-red-slow card-mana-white-slow card-type-land
+synonyms: []
 tap_land: true
 tapped_id: 19285
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/path-of-ancestry/
+url: https://tappedout.net/mtg-card/path-of-ancestry/
+

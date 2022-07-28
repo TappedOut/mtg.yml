@@ -1,65 +1,75 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: THB
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 5.86
+draft_average: 3.7
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Devotion
 - Tokens
 mana_cost: 1RR
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Anax, Hardened in the Forge
 power_toughness: '*/3'
 printings:
 - THB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Deschamps
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 79375
     mtgo_id: 79374
     name: Theros Beyond Death
     number: 125
     rarity: uncommon
-    release_date: 2020-01-24
+    release_date: '2020-01-24'
+    tla: THB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      - The List
-      identifier: '264'
+    - identifier: '264'
     wizards_id: 476376
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476376
 rules: "Anax's power is equal to your devotion to red. *(Each [[symbol:R]] in the\
@@ -72,19 +82,24 @@ slug: anax-hardened-in-the-forge
 subtype: Demigod
 subtype_tokens:
 - Demigod
-tags: card-color-red card-color-red-cost-3 card-type-creature card-type-enchantment
-  card-type-legendary
+synonyms: []
 tapped_id: 22446
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Satyr 1/1 R
-  power_toughness: 1/1
-  rules: This creature can't block.
-  subtype: Satyr
-  tla: THB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - This creature can't block.
+    - - type
+      - Token Creature
+    - - subtype
+      - 812
+    - - cannonical_type
+      - Creature
+    - - name
+      - Satyr 1/1 R
 type: Legendary Enchantment Creature
-url: http://tappedout.net/mtg-card/anax-hardened-in-the-forge/
+url: https://tappedout.net/mtg-card/anax-hardened-in-the-forge/
+

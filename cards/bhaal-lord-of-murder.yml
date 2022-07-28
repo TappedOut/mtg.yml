@@ -1,9 +1,12 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -12,24 +15,24 @@ effective_cost:
 - B
 - R
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -37,31 +40,44 @@ keywords:
 - Counters
 - Goad
 mana_cost: 2BRG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Bhaal, Lord of Murder
 power_toughness: 4/4
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Peter Polach
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 268
     rarity: rare
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '416'
-    - alterations:
-      - Etched
-      identifier: '527'
+    - identifier: '416'
+    - identifier: '527'
     wizards_id: 563151
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563151
 rules: "As long as your life total is less than or equal to half your starting life\
@@ -73,8 +89,9 @@ slug: bhaal-lord-of-murder
 subtype: God
 subtype_tokens:
 - God
-tags: card-color-black card-color-gold card-color-gold-cost-5 card-color-green card-color-red
-  card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 26497
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/bhaal-lord-of-murder/
+url: https://tappedout.net/mtg-card/bhaal-lord-of-murder/
+

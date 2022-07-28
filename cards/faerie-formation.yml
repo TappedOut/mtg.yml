@@ -1,6 +1,6 @@
 activated_abilities:
 - ': Create a 1/1 blue Faerie creature token with flying. Draw a card.'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: ELD
@@ -8,32 +8,35 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.75
 effective_cost:
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,26 +44,43 @@ keywords:
 - Flying
 - Tokens
 mana_cost: 4U
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Faerie Formation
 power_toughness: 5/4
 printings:
 - ELD:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Ryan Yee
     booster_exclude: true
     border_color: B
+    cannonical: true
+    flavour_text: '*The throng flitted from castle to castle, leaving a trail of star=crossed
+      love, damaging rumors, and missing heirlooms in their wake.*'
     frame: m15
     mtgo_foil_id: 78693
     mtgo_id: 78692
     name: Throne of Eldraine
     number: 316
     rarity: rare
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
+    variations: []
     wizards_id: 476034
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476034
 rules: "Flying\r\n\r\n[[symbol:3]][[symbol:U]]: Create a 1/1 blue Faerie creature\
@@ -69,18 +89,24 @@ slug: faerie-formation
 subtype: Faerie
 subtype_tokens:
 - Faerie
-tags: card-color-blue card-color-blue-cost-5 card-type-creature
+synonyms: []
 tapped_id: 21993
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Faerie 1/1 U
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Faerie
-  tla: ELD
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 36
+    - - cannonical_type
+      - Creature
+    - - name
+      - Faerie 1/1 U
 type: Creature
-url: http://tappedout.net/mtg-card/faerie-formation/
+url: https://tappedout.net/mtg-card/faerie-formation/
+

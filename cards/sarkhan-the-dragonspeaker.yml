@@ -4,35 +4,40 @@ activated_abilities:
   he''s not a planeswalker.)*'
 - ': Sarkhan, the Dragonspeaker deals 4 damage to target creature.'
 - ': You get an emblem with  and '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: KTK
 cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.73
+draft_average: 1.21
 effective_cost:
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,24 +46,39 @@ keywords:
 - Haste
 - Indestructible
 mana_cost: 3RR
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Sarkhan, the Dragonspeaker
+planeswalker_loyalty: 4
 printings:
 - KTK:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Daarken
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 54247
     mtgo_id: 54246
     name: Khans of Tarkir
     number: 119
     rarity: mythic_rare
-    release_date: 2014-09-26
+    release_date: '2014-09-26'
+    tla: KTK
+    variations: []
     wizards_id: 386650
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386650
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Until end of turn, Sarkhan, the Dragonspeaker becomes\
   \ a legendary 4/4 red Dragon creature with flying, indestructible, and haste. *(He\
   \ doesn't lose loyalty while he's not a planeswalker.)*\r\n\r\n[[symbol:loyalty-minus3]]:\
@@ -69,19 +89,25 @@ slug: sarkhan-the-dragonspeaker
 subtype: Sarkhan
 subtype_tokens:
 - Sarkhan
-tags: card-color-red card-color-red-cost-5 card-type-planeswalker
+synonyms: []
 tapped_id: 15789
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Sarkhan, the Dragonspeaker
-  power_toughness: null
-  rules: "At the beginning of your draw step, draw two additional cards.\r\n\r\nAt\
-    \ the beginning of your end step, discard your hand."
-  subtype: Sarkhan
-  tla: KTK
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - "At the beginning of your draw step, draw two additional cards.\r\n\r\nAt\
+        \ the beginning of your end step, discard your hand."
+    - - type
+      - Emblem
+    - - subtype
+      - 670
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Sarkhan, the Dragonspeaker
 type: Planeswalker
-url: http://tappedout.net/mtg-card/sarkhan-the-dragonspeaker/
+url: https://tappedout.net/mtg-card/sarkhan-the-dragonspeaker/
+

@@ -2,7 +2,7 @@ activated_abilities:
 - ': Gain .'
 - ': Faerie Conclave becomes a 2/1 blue Faerie creature with flying until end of turn.
   It''s still a land. *(It can''t be blocked except by creatures with flying or reach.)*'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: C13
@@ -18,101 +18,174 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 10.33
+draft_average: 4.36
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
-mana_cost_converted: 0
 mana_produced: U
+mana_value: 0
+melds_from: []
 name: Faerie Conclave
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: uncommon
-    release_date: 2020-03-14
-- CM1:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology
-    rarity: uncommon
-    release_date: 2017-06-09
-- C13:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 50839
-    mtgo_id: 50838
-    name: Commander 2013
-    rarity: uncommon
-    release_date: 2013-11-01
-    wizards_id: 376326
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376326
 - 10E:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Stephan Martiniere
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 27117
     mtgo_id: 27116
     name: Tenth Edition
+    number: null
     rarity: uncommon
-    release_date: 2007-07-13
+    release_date: '2007-07-13'
+    tla: 10E
+    variations: []
     wizards_id: 106531
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=106531
 - ULG:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Val Mayerik
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 12726
     mtgo_id: 12725
     name: Urza's Legacy
+    number: null
     rarity: uncommon
-    release_date: 1999-02-01
+    release_date: '1999-02-01'
+    tla: ULG
+    variations: []
     wizards_id: 12495
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=12495
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Stephan Martiniere
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: uncommon
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C13:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Stephan Martiniere
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 50839
+    mtgo_id: 50838
+    name: Commander 2013
+    number: null
+    rarity: uncommon
+    release_date: '2013-11-01'
+    tla: C13
+    variations: []
+    wizards_id: 376326
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376326
+- CM1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: null
+    booster_exclude: true
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology
+    number: null
+    rarity: uncommon
+    release_date: '2017-06-09'
+    tla: CM1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: null
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: uncommon
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: uncommon
 rules: "Faerie Conclave enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Gain [[symbol:U]].\r\
   \n\r\n[[symbol:1]][[symbol:U]]: Faerie Conclave becomes a 2/1 blue Faerie creature\
   \ with flying until end of turn. It's still a land. *(It can't be blocked except\
@@ -123,8 +196,9 @@ synonyms:
 - U Man Land
 - Manland U
 - Man Land U
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-blue-slow card-type-land
 tap_land: true
 tapped_id: 6105
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/faerie-conclave/
+url: https://tappedout.net/mtg-card/faerie-conclave/
+

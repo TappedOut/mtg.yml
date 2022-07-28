@@ -1,5 +1,6 @@
 activated_abilities:
 - 'Equip  *(: Attach to target creature you control. Equip only as a sorcery.)'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C16
 cannonical_type: Artifact
@@ -7,30 +8,35 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 3
+cube_average: 6.71
+draft_average: 3.47
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -40,115 +46,217 @@ keywords:
 - Attach
 - Unblockable
 mana_cost: '3'
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Whispersilk Cloak
+power_toughness: ''
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: uncommon
-    release_date: 2020-03-14
-- PCA:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Planechase Anthology
-    number: 115
-    rarity: uncommon
-    release_date: 2016-11-25
-    wizards_id: 423540
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423540
-- C16:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2016
-    number: 280
-    rarity: uncommon
-    release_date: 2016-11-11
-    wizards_id: 420897
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420897
-- PC2:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 44864
-    name: Planechase 2012 Edition
-    rarity: uncommon
-    release_date: 2012-06-01
-    wizards_id: 271198
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=271198
-- M11:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 37233
-    mtgo_id: 37232
-    name: 2011 Core Set
-    rarity: uncommon
-    release_date: 2010-07-16
-    wizards_id: 206342
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=206342
-- DDE:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 35405
-    name: 'Duel Decks: Phyrexia vs. The Coalition'
-    rarity: uncommon
-    release_date: 2010-05-19
-    wizards_id: 210140
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=210140
-- M10:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 32850
-    mtgo_id: 32849
-    name: 2010 Core Set
-    rarity: uncommon
-    release_date: 2009-07-17
-    wizards_id: 191078
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=191078
 - 10E:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Luca Zontini
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Such cloaks are in high demand both by assassins and by those who
+      fear them.
     frame: modern
     mtgo_foil_id: 27575
     mtgo_id: 27574
     name: Tenth Edition
+    number: null
     rarity: uncommon
-    release_date: 2007-07-13
+    release_date: '2007-07-13'
+    tla: 10E
+    variations: []
     wizards_id: 135278
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=135278
+- M10:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: 'Daren Bader '
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 32850
+    mtgo_id: 32849
+    name: 2010 Core Set
+    number: null
+    rarity: uncommon
+    release_date: '2009-07-17'
+    tla: M10
+    variations: []
+    wizards_id: 191078
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=191078
 - DST:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Luca Zontini
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 20290
     mtgo_id: 20289
     name: Darksteel
+    number: null
     rarity: common
-    release_date: 2004-02-06
+    release_date: '2004-02-06'
+    tla: DST
+    variations: []
     wizards_id: 46030
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=46030
+- M11:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daren Bader
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 37233
+    mtgo_id: 37232
+    name: 2011 Core Set
+    number: null
+    rarity: uncommon
+    release_date: '2010-07-16'
+    tla: M11
+    variations: []
+    wizards_id: 206342
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=206342
+- DDE:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Daren Bader
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Such cloaks are in high demand both by assassins and by those who
+      fear them.
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 35405
+    name: 'Duel Decks: Phyrexia vs. The Coalition'
+    number: null
+    rarity: uncommon
+    release_date: '2010-05-19'
+    tla: DDE
+    variations: []
+    wizards_id: 210140
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=210140
+- PC2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Daren Bader
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Such cloaks are in high demand both by assassins and by those who
+      fear them.
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 44864
+    name: Planechase 2012 Edition
+    number: null
+    rarity: uncommon
+    release_date: '2012-06-01'
+    tla: PC2
+    variations: []
+    wizards_id: 271198
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=271198
+- C16:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Daren Bader
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Such cloaks are in high demand both by assassins and by those
+      who fear them.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2016
+    number: 280
+    rarity: uncommon
+    release_date: '2016-11-11'
+    tla: C16
+    variations: []
+    wizards_id: 420897
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420897
+- PCA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Daren Bader
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Planechase Anthology
+    number: 115
+    rarity: uncommon
+    release_date: '2016-11-25'
+    tla: PCA
+    variations: []
+    wizards_id: 423540
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423540
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Daren Bader
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: uncommon
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: uncommon
 rules: "Equipped creature can't be blocked and has shroud. *(It can't be the target\
   \ of spells or abilities.)*\r\n\r\nEquip [[symbol:2]] *([[symbol:2]]: Attach to\
   \ target creature you control. Equip only as a sorcery.)"
@@ -156,7 +264,9 @@ slug: whispersilk-cloak
 subtype: Equipment
 subtype_tokens:
 - Equipment
-tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
+synonyms: []
 tapped_id: 3236
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/whispersilk-cloak/
+url: https://tappedout.net/mtg-card/whispersilk-cloak/
+

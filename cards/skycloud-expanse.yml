@@ -1,14 +1,12 @@
 activated_abilities:
 - ', : Add .'
-activation_costs:
+activated_costs:
 - U
 - W
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Land
-color_identity:
-- W
-- U
+color_identity: WU
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -20,107 +18,181 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 8.61
+draft_average: 7.75
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Premodern
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Historic
+- Gladiator
+- Premodern
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: WU
+mana_value: 0
+melds_from: []
 name: Skycloud Expanse
 printings:
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 427
-    rarity: rare
-    release_date: 2022-04-30
-    wizards_id: 559999
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559999
-- NEC:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Kamigawa: Neon Dynasty Commander'
-    number: 177
-    rarity: rare
-    release_date: 2022-02-11
-    wizards_id: 554259
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554259
-- VOC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Crimson Vow Commander'
-    number: 182
-    rarity: rare
-    release_date: 2021-11-18
-    wizards_id: 545802
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545802
-- AFC:
-    alterations:
-    - Normal
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 261
-    rarity: rare
-    release_date: 2021-07-24
-    wizards_id: 532648
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532648
-- C20:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 312
-    rarity: rare
-    release_date: 2020-05-15
-    wizards_id: 482940
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482940
 - ODY:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Rob Alexander
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 16448
     mtgo_id: 16447
     name: Odyssey
     number: 327
     rarity: rare
-    release_date: 2001-09-21
+    release_date: '2001-09-21'
+    tla: ODY
+    variations: []
     wizards_id: 29792
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=29792
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Rob Alexander
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*From Otaria, the sun above meets the sea below at a glittering
+      horizon.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 312
+    rarity: rare
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: 482940
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482940
+- AFC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Sam White
+    booster_exclude: false
+    border_color: null
+    cannonical: true
+    flavour_text: '*Legend says a mighty angel appears to pilgrims in need who reach
+      this lofty height.*'
+    frame: null
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 261
+    rarity: rare
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: 532648
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532648
+- VOC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Sam White
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Legend says a mighty angel appears to pilgrims in need who reach
+      this lofty height.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Crimson Vow Commander'
+    number: 182
+    rarity: rare
+    release_date: '2021-11-18'
+    tla: VOC
+    variations: []
+    wizards_id: 545802
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545802
+- NEC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Sam Burley
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Remote but always watching, the soaring city of Otawara moves
+      over Kamigawa with a purpose that few understand.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kamigawa: Neon Dynasty Commander'
+    number: 177
+    rarity: rare
+    release_date: '2022-02-11'
+    tla: NEC
+    variations: []
+    wizards_id: 554259
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554259
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Sam White
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Legend says a mighty angel appears to pilgrims in need who reach
+      this lofty height.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 427
+    rarity: rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559999
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559999
+rarity: rare
 rules: '[[symbol:1]], [[symbol:T]]: Add [[symbol:W]][[symbol:U]].'
 slug: skycloud-expanse
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-blue card-mana-white
-  card-type-land
+synonyms: []
 tapped_id: 4674
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/skycloud-expanse/
+url: https://tappedout.net/mtg-card/skycloud-expanse/
+

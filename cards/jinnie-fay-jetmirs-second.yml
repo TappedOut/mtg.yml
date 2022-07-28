@@ -1,9 +1,12 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SNC
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -12,32 +15,32 @@ effective_cost:
 - W
 - R
 - G
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Penny Dreadful
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -45,31 +48,44 @@ keywords:
 - Vigilance
 - Tokens
 mana_cost: '{R/G}G{G/W}'
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Jinnie Fay, Jetmir's Second
 power_toughness: 3/3
 printings:
 - SNC:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: David Gaillet
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*She watches Jetmir''s back while her companions watch hers.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Streets of New Capenna
     number: 195
     rarity: rare
-    release_date: 2022-04-29
+    release_date: '2022-04-29'
+    tla: SNC
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '313'
-    - alterations:
-      - Foil
-      identifier: '378'
+    - identifier: '313'
+    - identifier: '378'
     wizards_id: 555396
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=555396
 rules: If you would create one or more tokens, you may instead create that many 2/2
@@ -80,29 +96,39 @@ subtype: Elf Druid
 subtype_tokens:
 - Elf
 - Druid
-tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-red card-color-white
-  card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 26249
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Cat 2/2 G w/ Haste
-  power_toughness: 2/2
-  rules: Haste
-  subtype: Cat
-  tla: SNC
-  type: Token Creature
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Dog 3/1 G
-  power_toughness: 3/1
-  rules: Vigilance
-  subtype: Dog
-  tla: SNC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 2/2
+    - - rules
+      - Haste
+    - - type
+      - Token Creature
+    - - subtype
+      - 227
+    - - cannonical_type
+      - Creature
+    - - name
+      - Cat 2/2 G w/ Haste
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 3/1
+    - - rules
+      - Vigilance
+    - - type
+      - Token Creature
+    - - subtype
+      - 136
+    - - cannonical_type
+      - Creature
+    - - name
+      - Dog 3/1 G
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/jinnie-fay-jetmirs-second/
+url: https://tappedout.net/mtg-card/jinnie-fay-jetmirs-second/
+

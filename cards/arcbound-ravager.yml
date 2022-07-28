@@ -1,33 +1,39 @@
 activated_abilities:
 - 'Sacrifice an artifact: Put a +1/+1 counter on Arcbound Ravager.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MMA
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 2
+cube_average: 8.91
+draft_average: 2.91
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -36,72 +42,126 @@ keywords:
 - Modular
 - Counters
 mana_cost: '2'
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Arcbound Ravager
 power_toughness: 0/0
 printings:
-- SLD:
+- DST:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Carl Critchlow
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 56
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 20598
+    mtgo_id: 20597
+    name: Darksteel
+    number: null
     rarity: rare
-    release_date: 2019-12-09
-- MPS:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: 'Masterpiece Series: Kaladesh Inventions'
-    number: 31
-    rarity: mythic_rare
-    release_date: 2016-09-30
-    wizards_id: 425802
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425802
+    release_date: '2004-02-06'
+    tla: DST
+    variations: []
+    wizards_id: 50943
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=50943
 - MMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kev Walker
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 48873
     mtgo_id: 48872
     name: Modern Masters
     number: 198
     rarity: rare
-    release_date: 2013-06-07
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
     wizards_id: 370510
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370510
-- DST:
+- MPS:
     alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 20598
-    mtgo_id: 20597
-    name: Darksteel
-    rarity: rare
-    release_date: 2004-02-06
-    wizards_id: 50943
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=50943
-- '000':
-    alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daarken
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Masterpiece Series: Kaladesh Inventions'
+    number: 31
+    rarity: mythic_rare
+    release_date: '2016-09-30'
+    tla: MPS
+    variations: []
+    wizards_id: 425802
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425802
+- '000':
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chase Stone
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Danny Miller
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 56
+    rarity: rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "Sacrifice an artifact: Put a +1/+1 counter on Arcbound Ravager.\r\n\r\nModular\
   \ 1 *(This enters the battlefield with a +1/+1 counter on it. When it's put into\
   \ a graveyard, you may put its +1/+1 counters on target artifact creature.)*"
@@ -109,7 +169,9 @@ slug: arcbound-ravager
 subtype: Beast
 subtype_tokens:
 - Beast
-tags: card-color-colorless card-color-colorless-cost-2 card-type-artifact card-type-creature
+synonyms: []
 tapped_id: 3085
+tokens: []
 type: Artifact Creature
-url: http://tappedout.net/mtg-card/arcbound-ravager/
+url: https://tappedout.net/mtg-card/arcbound-ravager/
+

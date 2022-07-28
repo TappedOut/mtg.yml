@@ -3,6 +3,7 @@ activated_abilities:
 - ": Look at the top three cards of your library. Exile one face down and put the\
   \ rest on the bottom of your library in any order. For as long as it remains exiled,\
   \ you may look at that card and you may cast it if it\u2019s a creature card."
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Planeswalker
@@ -10,34 +11,38 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.24
+draft_average: 2.16
 effective_cost:
 - G
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -48,56 +53,90 @@ keywords:
 - Exile
 - Counters
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Vivien, Champion of the Wilds
+planeswalker_loyalty: 4
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 838
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567655
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567655
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: Secret Lair
-    number: 519
-    rarity: rare
-    release_date: 2019-12-09
 - WAR:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Magali Villeneuve
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 71967
     mtgo_id: 71966
     name: War of the Spark
     number: 180
     rarity: rare
-    release_date: 2019-05-03
+    release_date: '2019-05-03'
+    tla: WAR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 461107
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461107
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Magali Villeneuve
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 519
+    rarity: rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Magali Villeneuve
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 838
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567655
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567655
 rules: "You may cast creature spells as though they had flash.\r\n\r\n[[symbol:loyalty-plus1]]:\
   \ Until your next turn, up to one target creature gains vigilance and reach.\r\n\
   \r\n[[symbol:loyalty-minus2]]: Look at the top three cards of your library. Exile\
@@ -108,7 +147,9 @@ slug: vivien-champion-of-the-wilds
 subtype: Vivien
 subtype_tokens:
 - Vivien
-tags: card-color-green card-color-green-cost-3 card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 21292
+tokens: []
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/vivien-champion-of-the-wilds/
+url: https://tappedout.net/mtg-card/vivien-champion-of-the-wilds/
+

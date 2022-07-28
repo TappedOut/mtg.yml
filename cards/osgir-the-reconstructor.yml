@@ -3,33 +3,36 @@ activated_abilities:
 - ', , Exile an artifact card with converted mana cost/mana value X from your graveyard:
   Create two tokens that are copies of the exiled card. Activate this ability only
   as a sorcery.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C21
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - W
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -39,26 +42,34 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 2RW
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Osgir, the Reconstructor
 power_toughness: 4/4
 printings:
 - C21:
     alterations:
-    - Foil
-    - Thick
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - thick
+      - Thick
+    artist: Victor Adame Minguez
+    booster_exclude: false
     border_color: B
-    foil: foil
-    foil_only: true
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2021
     number: 8
     rarity: mythic_rare
-    release_date: 2021-04-23
+    release_date: '2021-04-23'
+    tla: C21
     variations:
-    - alterations:
-      - Normal
-      identifier: '335'
+    - identifier: '335'
     wizards_id: 518314
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518314
 rules: "Vigilance\r\n\r\n[[symbol:1]], Sacrifice an artifact: Target creature you\
@@ -71,18 +82,24 @@ subtype: Giant Artificer
 subtype_tokens:
 - Giant
 - Artificer
-tags: card-color-gold card-color-gold-cost-4 card-color-red card-color-white card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 24016
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: C21
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/osgir-the-reconstructor/
+url: https://tappedout.net/mtg-card/osgir-the-reconstructor/
+

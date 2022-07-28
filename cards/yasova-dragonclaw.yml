@@ -1,39 +1,41 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - R
 - U
 canadian_hl_score: 0
 cannonical_set: FRF
 cannonical_type: Creature
-color_identity:
-- U
-- R
+color_identity: UR
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 8.1
+draft_average: 2.03
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -41,25 +43,40 @@ keywords:
 - Trample
 - Tap/Untap
 mana_cost: 2G
-mana_cost_converted: 3
+mana_produced: ''
+mana_value: 3
+melds_from: []
 name: Yasova Dragonclaw
 power_toughness: 4/2
 printings:
 - FRF:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Winona Nelson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 55431
     mtgo_id: 55430
     name: Fate Reforged
     number: 148
     rarity: rare
-    release_date: 2015-01-23
+    release_date: '2015-01-23'
+    tla: FRF
+    variations: []
     wizards_id: 391965
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=391965
+rarity: rare
 rules: "Trample \r\n\r\nAt the beginning of combat on your turn, you may pay [[symbol:1]][[symbol:UR]][[symbol:UR]].\
   \ If you do, gain control of target creature an opponent controls with power less\
   \ than Yasova Dragonclaw's power until end of turn, untap that creature, and it\
@@ -69,7 +86,9 @@ subtype: Human Warrior
 subtype_tokens:
 - Human
 - Warrior
-tags: card-color-green card-color-green-cost-3 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 16094
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/yasova-dragonclaw/
+url: https://tappedout.net/mtg-card/yasova-dragonclaw/
+

@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Add .'
 - ': Put an hour counter on Midnight Clock.'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: CLB
@@ -10,34 +10,38 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.89
+draft_average: 3.25
 effective_cost:
 - U
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,78 +49,121 @@ keywords:
 - Exile
 - Counters
 mana_cost: 2U
-mana_cost_converted: 3
 mana_produced: U
+mana_value: 3
+melds_from: []
 name: Midnight Clock
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 727
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567544
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567544
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 226
-    rarity: rare
-    release_date: 2022-04-30
-    wizards_id: 559798
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559798
-- VOC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Crimson Vow Commander'
-    number: 108
-    rarity: rare
-    release_date: 2021-11-18
-    wizards_id: 545728
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545728
 - ELD:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    - !!python/tuple
+      - list
+      - The List
+    artist: Alexander Forssberg
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 78219
     mtgo_id: 78218
     name: Throne of Eldraine
     number: 54
     rarity: rare
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '346'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '346'
+    - identifier: PromoPack
     wizards_id: 473016
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=473016
+- VOC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Alexander Forssberg
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Crimson Vow Commander'
+    number: 108
+    rarity: rare
+    release_date: '2021-11-18'
+    tla: VOC
+    variations: []
+    wizards_id: 545728
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545728
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Alexander Forssberg
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 226
+    rarity: rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559798
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559798
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Alexander Forssberg
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 727
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567544
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567544
 rules: "[[symbol:T]]: Add [[symbol:U]].\r\n\r\n[[symbol:2]][[symbol:U]]: Put an hour\
   \ counter on Midnight Clock.\r\n\r\nAt the beginning of each upkeep, put an hour\
   \ counter on Midnight Clock.\r\n\r\nWhen the twelfth hour counter is put on Midnight\
   \ Clock, shuffle your hand and graveyard into your library, then draw seven cards.\
   \ Exile Midnight Clock."
 slug: midnight-clock
-tags: card-color-blue card-color-blue-cost-3 card-mana-blue card-type-artifact
+synonyms: []
 tapped_id: 21957
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/midnight-clock/
+url: https://tappedout.net/mtg-card/midnight-clock/
+

@@ -4,16 +4,16 @@ activated_abilities:
 - ': Create a 0/0 green and blue Fractal creature token. Put a +1/+1 counter on it
   for each different mana value among nonland cards you own in exile with study counters
   on them.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: STX
 cannonical_type: Creature
-color_identity:
-- U
+color_identity: U
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -21,31 +21,32 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - G
-flat_cost: 3
 flip: Imbraham, Dean of Theory
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_front: true
 is_mtgo: true
@@ -55,28 +56,45 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Kianne, Dean of Substance
 power_toughness: 2/2
 printings:
 - STX:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Ryan Pancoast
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Strixhaven
     number: 152
     rarity: rare
-    release_date: 2021-04-23
+    release_date: '2021-04-23'
+    tla: STX
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '326'
+    - identifier: '326'
+    wizards_id: null
+    wizards_url: null
 rules: "[[symbol:T]]: Exile the top card of your library. If it's a land card, put\
   \ it into your hand. Otherwise, put a study counter on it.\r\n\r\n[[symbol:4]][[symbol:G]]:\
   \ Create a 0/0 green and blue Fractal creature token. Put a +1/+1 counter on it\
@@ -89,18 +107,23 @@ subtype_tokens:
 - Druid
 synonyms:
 - Imbraham, Dean of Theory
-tags: card-color-green card-color-green-cost-3 card-type-creature card-type-legendary
 tapped_id: 24043
 tokens:
-- cannonical_type: Creature
-  colors: GU
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Fractal 0/0 GU
-  power_toughness: 0/0
-  rules: ''
-  subtype: Fractal
-  tla: STX
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - GU
+    - - power_toughness
+      - 0/0
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 1560
+    - - cannonical_type
+      - Creature
+    - - name
+      - Fractal 0/0 GU
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/kianne-dean-of-substance/
+url: https://tappedout.net/mtg-card/kianne-dean-of-substance/
+

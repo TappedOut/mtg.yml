@@ -2,36 +2,42 @@ activated_abilities:
 - ': Put a +1/+1 counter on up to one target creature.  '
 - ': Target creature gains flying and double strike until end of turn.  '
 - ': Put X 2/2 Cat Creature tokens onto the battlefield, where X is your life total.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M14
 cannonical_type: Planeswalker
+color_identity: ''
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.73
+draft_average: 1.5
 effective_cost:
 - W
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -39,45 +45,83 @@ keywords:
 - Double strike
 - Flying
 mana_cost: 1WW
-mana_cost_converted: 3
+mana_produced: ''
+mana_value: 3
+melds_from: []
 name: Ajani, Caller of the Pride
+planeswalker_loyalty: 4
+power_toughness: ''
 printings:
+- M13:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: 'D. Alexander Gregory '
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 45427
+    mtgo_id: 45426
+    name: Magic 2013
+    number: null
+    rarity: mythic_rare
+    release_date: '2012-07-13'
+    tla: M13
+    variations: []
+    wizards_id: 249695
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=249695
 - M14:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: D. Alexander Gregory
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: modern
     mtgo_foil_id: 49246
     mtgo_id: 49245
     name: Magic 2014
     number: 1
     rarity: mythic_rare
-    release_date: 2013-07-19
+    release_date: '2013-07-19'
+    tla: M14
+    variations: []
     wizards_id: 370680
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370680
-- M13:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 45427
-    mtgo_id: 45426
-    name: Magic 2013
-    rarity: mythic_rare
-    release_date: 2012-07-13
-    wizards_id: 249695
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=249695
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Steve Prescott
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
-    rarity: mythic_rare
-    release_date: 1990-04-15
+    number: null
+    rarity: null
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Put a +1/+1 counter on up to one target creature.\
   \  \r\n[[symbol:loyalty-minus3]]: Target creature gains flying and double strike\
   \ until end of turn.  \r\n[[symbol:loyalty-minus8]]: Put X 2/2 Cat Creature tokens\
@@ -86,18 +130,24 @@ slug: ajani-caller-of-the-pride
 subtype: Ajani
 subtype_tokens:
 - Ajani
-tags: card-color-white card-color-white-cost-3 card-type-planeswalker
+synonyms: []
 tapped_id: 13926
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Cat 2/2 W
-  power_toughness: 2/2
-  rules: ''
-  subtype: Cat
-  tla: M14
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 227
+    - - cannonical_type
+      - Creature
+    - - name
+      - Cat 2/2 W
 type: Planeswalker
-url: http://tappedout.net/mtg-card/ajani-caller-of-the-pride/
+url: https://tappedout.net/mtg-card/ajani-caller-of-the-pride/
+

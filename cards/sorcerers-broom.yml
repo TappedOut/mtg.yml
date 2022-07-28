@@ -1,83 +1,121 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ELD
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 2
+cube_average: 11.56
+draft_average: 6.19
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: '2'
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Sorcerer's Broom
 power_toughness: 2/1
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: uncommon
-    release_date: 2020-03-14
 - ELD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jung Park
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"Reynald wished for an army to sweep away his enemies. The fae\
+      \ king smiled.\"*\r\n<br>&mdash;Beyond the Great Henge"
     frame: m15
     mtgo_foil_id: 78611
     mtgo_id: 78610
     name: Throne of Eldraine
     number: 232
     rarity: uncommon
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
+    variations: []
     wizards_id: 473194
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=473194
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jung Park
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*\"Reynald wished for an army to sweep away his enemies. The fae\
+      \ king smiled.\"*\r\n<br>&mdash;Beyond the Great Henge"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: uncommon
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: Whenever you sacrifice another permanent, you may pay [[symbol:3]]. If you
   do, create a token that's a copy of Sorcerer's Broom.
 slug: sorcerers-broom
 subtype: Spirit
 subtype_tokens:
 - Spirit
-tags: card-color-colorless card-color-colorless-cost-2 card-type-artifact card-type-creature
+synonyms: []
 tapped_id: 22137
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Artifact Creature
-url: http://tappedout.net/mtg-card/sorcerers-broom/
+url: https://tappedout.net/mtg-card/sorcerers-broom/
+

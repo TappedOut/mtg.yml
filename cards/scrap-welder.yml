@@ -2,16 +2,16 @@ activated_abilities:
 - ': Sacrifice an artifact with mana value/converted mana cost X: Return target artifact
   card with mana value less than X from your graveyard to the battlefield. It gains
   haste until end of turn.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NEO
 cannonical_type: Creature
-color_identity:
-- R
-color_indicator:
-- R
+color_identity: R
+color_indicator: R
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -19,30 +19,31 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -50,32 +51,44 @@ keywords:
 - Haste
 - Sacrifice
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Scrap Welder
 power_toughness: 3/3
 printings:
 - NEO:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Simon Dominic
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"This big metal guy will make some amazing wind chimes!"*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
     number: 159
     rarity: rare
-    release_date: 2022-02-10
+    release_date: '2022-02-10'
+    tla: NEO
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '388'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '471'
+    - identifier: '388'
+    - identifier: '471'
     wizards_id: 548463
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=548463
 rules: '[[symbol:T]]: Sacrifice an artifact with mana value/converted mana cost X:
@@ -86,7 +99,9 @@ subtype: Goblin Artificer
 subtype_tokens:
 - Goblin
 - Artificer
-tags: card-color-red card-color-red-cost-3 card-type-creature
+synonyms: []
 tapped_id: 25804
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/scrap-welder/
+url: https://tappedout.net/mtg-card/scrap-welder/
+

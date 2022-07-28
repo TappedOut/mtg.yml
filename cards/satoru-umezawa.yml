@@ -2,7 +2,7 @@ activated_abilities:
 - 'Each creature card in your hand has ninjutsu . *(, Return an unblocked attacker
   you control to hand: Put this card onto the battlefield from your hand tapped and
   attacking.)*'
-activation_costs:
+activated_costs:
 - B
 - U
 canadian_hl_score: 0
@@ -11,6 +11,7 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -19,68 +20,77 @@ companions:
 effective_cost:
 - U
 - B
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Ninjutsu
 mana_cost: 1UB
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Satoru Umezawa
 power_toughness: 2/4
 printings:
 - NEO:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Anna Pavleeva
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
     number: 234
     rarity: rare
-    release_date: 2022-02-10
+    release_date: '2022-02-10'
+    tla: NEO
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '352'
-    - alterations:
-      - Etched
-      identifier: '426'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '493'
-    - alterations:
-      - Foil
-      identifier: '507'
+    - identifier: '352'
+    - identifier: '426'
+    - identifier: '493'
+    - identifier: '507'
     wizards_id: 548547
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=548547
 rules: "Whenever you activate a ninjutsu ability, look at the top three cards of your\
@@ -94,8 +104,9 @@ subtype: Human Ninja
 subtype_tokens:
 - Human
 - Ninja
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-3 card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 25741
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/satoru-umezawa/
+url: https://tappedout.net/mtg-card/satoru-umezawa/
+

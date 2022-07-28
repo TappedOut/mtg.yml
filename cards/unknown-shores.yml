@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Gain .'
 - ', : Gain one mana of any colour.'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: THB
@@ -17,97 +17,152 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 11.2
+draft_average: 8.02
+effective_cost: []
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: W, U, B, R, G, C
+mana_value: 0
+melds_from: []
 name: Unknown Shores
 printings:
-- THB:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 79623
-    mtgo_id: 79622
-    name: Theros Beyond Death
-    number: 249
-    rarity: common
-    release_date: 2020-01-24
-    wizards_id: 476500
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476500
-- XLN:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 65549
-    mtgo_id: 65548
-    name: Ixalan
-    rarity: common
-    release_date: 2017-09-29
-    wizards_id: 435420
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435420
-- OGW:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 59342
-    mtgo_id: 59341
-    name: Oath of the Gatewatch
-    number: 181
-    rarity: common
-    release_date: 2016-01-22
-    wizards_id: 407691
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407691
 - THS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Seb McKinnon
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Philosophers speak of a place where myths wash like tides upon the
+      shores of the real.
     frame: modern
     mtgo_foil_id: 50399
     mtgo_id: 50398
     name: Theros
     number: 229
     rarity: common
-    release_date: 2013-09-27
+    release_date: '2013-09-27'
+    tla: THS
+    variations: []
     wizards_id: 373743
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373743
+- OGW:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jung Park
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Kozilek''s presence warped the land, stripping away layer after
+      layer.*'
+    frame: m15
+    mtgo_foil_id: 59342
+    mtgo_id: 59341
+    name: Oath of the Gatewatch
+    number: 181
+    rarity: common
+    release_date: '2016-01-22'
+    tla: OGW
+    variations: []
+    wizards_id: 407691
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407691
+- XLN:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: null
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '"Just imagine what''s waiting around the bend. Adventure. Discovery.
+      Riches for the taking. This is why I sail." - Captain Lannery Storm'
+    frame: m15
+    mtgo_foil_id: 65549
+    mtgo_id: 65548
+    name: Ixalan
+    number: null
+    rarity: common
+    release_date: '2017-09-29'
+    tla: XLN
+    variations: []
+    wizards_id: 435420
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435420
+- THB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Callaphe gazed on the coastline,\r\n<p style=\"text-indent:\
+      \ 15px\">certain her destiny called her</p>\r\n<br>here, where the mist-shrouded\
+      \ rocks sang,\r\n<p style=\"text-indent: 15px\">promising glories undreamed\
+      \ of.\"*\r\n<br>&mdash;The Callapheia"
+    frame: m15
+    mtgo_foil_id: 79623
+    mtgo_id: 79622
+    name: Theros Beyond Death
+    number: 249
+    rarity: common
+    release_date: '2020-01-24'
+    tla: THB
+    variations: []
+    wizards_id: 476500
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476500
+rarity: common
 rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:1]], [[symbol:T]]: Gain one\
   \ mana of any colour."
 slug: unknown-shores
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-blue
-  card-mana-colorless-sym card-mana-green card-mana-red card-mana-white card-type-land
+synonyms: []
 tapped_id: 14954
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/unknown-shores/
+url: https://tappedout.net/mtg-card/unknown-shores/
+

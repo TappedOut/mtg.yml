@@ -1,33 +1,38 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C21
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.07
+draft_average: 1.44
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -35,44 +40,78 @@ keywords:
 - Defender
 - Flying
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Hornet Nest
 power_toughness: 0/2
 printings:
-- C21:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 192
-    rarity: rare
-    release_date: 2021-04-23
-    wizards_id: 519227
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519227
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: rare
-    release_date: 2020-03-14
 - M15:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Adam Paquette
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 53699
     mtgo_id: 53698
     name: Magic 2015
     number: 177
     rarity: rare
-    release_date: 2014-07-18
+    release_date: '2014-07-18'
+    tla: M15
+    variations: []
     wizards_id: 383267
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383267
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: rare
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 192
+    rarity: rare
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519227
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519227
+rarity: rare
 rules: "Defender *(This creature can't attack.)*\r\n\r\nWhenever Hornet Nest is dealt\
   \ damage, create that many 1/1 green Insect creature tokens with flying and deathtouch.\
   \ *(Any amount of damage a creature with deathtouch deals to a creature is enough\
@@ -81,18 +120,24 @@ slug: hornet-nest
 subtype: Insect
 subtype_tokens:
 - Insect
-tags: card-color-green card-color-green-cost-3 card-type-creature
+synonyms: []
 tapped_id: 15646
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Insect 1/1 G w/ Flying, Deathtouch
-  power_toughness: 1/1
-  rules: Flying, deathtouch
-  subtype: Insect
-  tla: C21
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying, deathtouch
+    - - type
+      - Token Creature
+    - - subtype
+      - 16
+    - - cannonical_type
+      - Creature
+    - - name
+      - Insect 1/1 G w/ Flying, Deathtouch
 type: Creature
-url: http://tappedout.net/mtg-card/hornet-nest/
+url: https://tappedout.net/mtg-card/hornet-nest/
+

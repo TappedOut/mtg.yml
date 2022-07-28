@@ -1,117 +1,156 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 4.85
+draft_average: 2.76
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Reach
 - Tokens
 mana_cost: 2GG
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Arasta of the Endless Web
 power_toughness: 3/5
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 817
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567634
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567634
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 279
-    rarity: rare
-    release_date: 2022-04-30
-    wizards_id: 559851
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559851
 - THB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Sam Rowan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Her webs, spun from her own hair, reach from Nyx to the mortal
+      world and even into the Underworld.*'
     frame: m15
     mtgo_foil_id: 79455
     mtgo_id: 79454
     name: Theros Beyond Death
     number: 165
     rarity: rare
-    release_date: 2020-01-24
+    release_date: '2020-01-24'
+    tla: THB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '325'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '352'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '325'
+    - identifier: '352'
+    - identifier: PromoPack
     wizards_id: 476416
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476416
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Sam Rowan
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Her webs, spun from her own hair, reach from Nyx to the mortal
+      world and even into the Underworld.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 279
+    rarity: rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559851
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559851
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Sam Rowan
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: '*Her webs, spun from her own hair, reach from Nyx to the mortal
+      world and even into the Underworld.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 817
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567634
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567634
 rules: "Reach\r\n\r\nWhenever an opponent casts an instant or sorcery spell, create\
   \ a 1/2 green Spider creature token with reach."
 slug: arasta-of-the-endless-web
 subtype: Spider
 subtype_tokens:
 - Spider
-tags: card-color-green card-color-green-cost-4 card-type-creature card-type-enchantment
-  card-type-legendary
+synonyms: []
 tapped_id: 22416
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spider 1/2 G
-  power_toughness: 1/2
-  rules: Reach
-  subtype: Spider
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/2
+    - - rules
+      - Reach
+    - - type
+      - Token Creature
+    - - subtype
+      - 68
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spider 1/2 G
 type: Legendary Enchantment Creature
-url: http://tappedout.net/mtg-card/arasta-of-the-endless-web/
+url: https://tappedout.net/mtg-card/arasta-of-the-endless-web/
+

@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: FUT
@@ -12,60 +13,85 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.8
+draft_average: 2.2
 effective_cost:
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Suspend
 - Counters
 mana_cost: 3RR
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Arc Blade
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 152
-    rarity: uncommon
-    release_date: 2021-03-19
-    wizards_id: 509517
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509517
 - FUT:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Shishizaru
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 26647
     mtgo_id: 26646
     name: Future Sight
+    number: null
     rarity: uncommon
-    release_date: 2007-05-04
+    release_date: '2007-05-04'
+    tla: FUT
+    variations: []
     wizards_id: 126193
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=126193
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Shishizaru
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 152
+    rarity: uncommon
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509517
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509517
+rarity: uncommon
 rules: "Arc Blade deals 2 damage to target creature, player or planeswalker. Exile\
   \ Arc Blade with three time counters on it.\r\n\r\nSuspend 3&mdash;[[symbol:2]][[symbol:R]]\
   \ *(Rather than cast this card from your hand, you may pay [[symbol:2]][[symbol:R]]\
@@ -73,7 +99,9 @@ rules: "Arc Blade deals 2 damage to target creature, player or planeswalker. Exi
   \ remove a time counter. When the last is removed, cast it without paying its mana\
   \ cost.)*"
 slug: arc-blade
-tags: card-color-red card-color-red-cost-5 card-type-sorcery
+synonyms: []
 tapped_id: 628
+tokens: []
 type: Sorcery
-url: http://tappedout.net/mtg-card/arc-blade/
+url: https://tappedout.net/mtg-card/arc-blade/
+

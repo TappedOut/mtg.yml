@@ -3,41 +3,45 @@ activated_abilities:
   +1/+1 counter on this, add three mana of that type instead.'
 - ': Adapt 3. _(If there are not +1/+1 counters on this, put three +1/+1 counters
   on this.)_'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.87
+draft_average: 2.65
 effective_cost:
 - G
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,55 +49,88 @@ keywords:
 - Counters
 - Adapt
 mana_cost: 1G
-mana_cost_converted: 2
 mana_produced: W, U, B, R, G
+mana_value: 2
+melds_from: []
 name: Incubation Druid
 power_toughness: 0/2
 printings:
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 296
-    rarity: rare
-    release_date: 2022-04-30
-    wizards_id: 559868
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559868
-- C21:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 195
-    rarity: rare
-    release_date: 2021-04-23
-    wizards_id: 519230
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519230
 - RNA:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Daniel Ljunggren
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 71263
     mtgo_id: 71262
     name: Ravnica Allegiance
     number: 131
     rarity: rare
-    release_date: 2019-01-25
+    release_date: '2019-01-25'
+    tla: RNA
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 457275
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=457275
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Daniel Ljunggren
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 195
+    rarity: rare
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519230
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519230
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Daniel Ljunggren
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 296
+    rarity: rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559868
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559868
 rules: "[[symbol:T]]: Add one mana of any type that a land you control could produce.\
   \ If there is a +1/+1 counter on this, add three mana of that type instead.\r\n\r\
   \n[[symbol:3]][[symbol:G]][[symbol:G]]: Adapt 3. _(If there are not +1/+1 counters\
@@ -103,8 +140,9 @@ subtype: Elf Druid
 subtype_tokens:
 - Elf
 - Druid
-tags: card-color-green card-color-green-cost-2 card-mana-black card-mana-blue card-mana-green
-  card-mana-red card-mana-white card-type-creature
+synonyms: []
 tapped_id: 21093
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/incubation-druid/
+url: https://tappedout.net/mtg-card/incubation-druid/
+

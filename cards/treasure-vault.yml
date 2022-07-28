@@ -2,7 +2,7 @@ activated_abilities:
 - ': Gain .'
 - ', , Sacrifice this: Create X Treasure tokens. *(They''re artifacts with ", Sacrifice
   this: Gain one mana of any colour.)*'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: AFR
@@ -18,30 +18,32 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -49,48 +51,71 @@ is_permanent: true
 keywords:
 - Sacrifice
 - Tokens
-mana_cost_converted: 0
 mana_produced: W, U, B, R, G
+mana_value: 0
+melds_from: []
 name: Treasure Vault
 printings:
 - AFR:
     alterations:
-    - D&D Foil
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    - !!python/tuple
+      - f-&
+      - D&D Foil
+    artist: Johannes Voss
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*There is wealth enough inside to cause the rise and the ruin of
+      dynasties.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Dungeons & Dragons: Adventures in the Forgotten Realms'
     number: 261
     rarity: rare
-    release_date: 2021-07-23
+    release_date: '2021-07-23'
+    tla: AFR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '358'
+    - identifier: '358'
     wizards_id: 527548
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=527548
 rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:X]][[symbol:X]], [[symbol:T]],\
   \ Sacrifice this: Create X Treasure tokens. *(They're artifacts with \"[[symbol:T]],\
   \ Sacrifice this: Gain one mana of any colour.)*"
 slug: treasure-vault
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-blue
-  card-mana-green card-mana-red card-mana-white card-type-artifact card-type-land
+synonyms: []
 tapped_id: 24873
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: AFR
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Artifact Land
-url: http://tappedout.net/mtg-card/treasure-vault/
+url: https://tappedout.net/mtg-card/treasure-vault/
+

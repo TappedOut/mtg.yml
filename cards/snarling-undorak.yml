@@ -1,59 +1,76 @@
 activated_abilities:
 - '(2)(Green): Target Beast creature gets +1/+1 until end of turn.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ONS
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+draft_average: 5.18
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Premodern
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Morph
 mana_cost: 2GG
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Snarling Undorak
 power_toughness: 3/3
 printings:
 - ONS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Justin Sweet
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Most creatures in the Krosan Forest feared the Mirari's power. A
+      few fed upon it.
     frame: original
     mtgo_foil_id: 18114
     mtgo_id: 18113
     name: Onslaught
     number: 283
     rarity: common
-    release_date: 2002-10-07
+    release_date: '2002-10-07'
+    tla: ONS
+    variations: []
     wizards_id: 39492
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=39492
+rarity: common
 rules: "(2)(Green): Target Beast creature gets +1/+1 until end of turn.\r\n\r\nMorph\
   \ (1)(Green)(Green) (You may play this face down as a 2/2 creature for (3). Turn\
   \ it face up any time for its morph cost.)"
@@ -61,18 +78,25 @@ slug: snarling-undorak
 subtype: Beast
 subtype_tokens:
 - Beast
-tags: card-color-green card-color-green-cost-4 card-type-creature
+synonyms: []
 tapped_id: 4063
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Morph 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  tla: C19
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+        \ with morph can be turned face up at any time for its morph cost.*"
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Morph 2/2 C
 type: Creature
-url: http://tappedout.net/mtg-card/snarling-undorak/
+url: https://tappedout.net/mtg-card/snarling-undorak/
+

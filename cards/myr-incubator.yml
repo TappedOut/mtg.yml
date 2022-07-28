@@ -2,72 +2,97 @@ activated_abilities:
 - '(6), Tap, Sacrifice Myr Incubator: Search your library for any number of artifact
   cards, remove them from the game, then put that many 1/1 Myr artifact creature tokens
   into play. Then shuffle your library.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MRD
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 6
+cube_average: 13.39
+draft_average: 5.25
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
 mana_cost: '6'
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Myr Incubator
+power_toughness: ''
 printings:
 - MRD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Alex Horley-Orlandelli
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 20080
     mtgo_id: 20079
     name: Mirrodin
     number: 212
     rarity: rare
-    release_date: 2003-10-02
+    release_date: '2003-10-02'
+    tla: MRD
+    variations: []
     wizards_id: 47450
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=47450
+rarity: rare
 rules: '(6), Tap, Sacrifice Myr Incubator: Search your library for any number of artifact
   cards, remove them from the game, then put that many 1/1 Myr artifact creature tokens
   into play. Then shuffle your library.'
 slug: myr-incubator
-tags: card-color-colorless card-color-colorless-cost-6 card-type-artifact
+synonyms: []
 tapped_id: 3386
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Myr 1/1 C
-  power_toughness: 1/1
-  rules: ''
-  subtype: Myr
-  tla: MRD
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 52
+    - - cannonical_type
+      - Creature
+    - - name
+      - Myr 1/1 C
 type: Artifact
-url: http://tappedout.net/mtg-card/myr-incubator/
+url: https://tappedout.net/mtg-card/myr-incubator/
+

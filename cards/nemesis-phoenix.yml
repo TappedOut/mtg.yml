@@ -2,13 +2,14 @@ activated_abilities:
 - ': Return Nemesis Phoenix from your graveyard to the battlefield tapped and attacking.
   Activate only during the declare attackers step and only if you''re attacking two
   or more opponents.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -16,48 +17,58 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
 mana_cost: 3RR
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Nemesis Phoenix
 power_toughness: 4/2
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ben Wootten
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*A flame as bright and merciless as the sun.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 189
     rarity: uncommon
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '403'
+    - identifier: '403'
     wizards_id: 563072
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563072
 rules: "Flying\r\n\r\n[[symbol:2]][[symbol:R]]: Return Nemesis Phoenix from your graveyard\
@@ -67,7 +78,9 @@ slug: nemesis-phoenix
 subtype: Phoenix
 subtype_tokens:
 - Phoenix
-tags: card-color-red card-color-red-cost-5 card-type-creature
+synonyms: []
 tapped_id: 26538
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/nemesis-phoenix/
+url: https://tappedout.net/mtg-card/nemesis-phoenix/
+

@@ -5,40 +5,45 @@ activated_abilities:
 - ': Exile target creature. Its controller gains life equal its power. '
 - ': Put five +1+1 counters on each creature you control and five loyalty counters
   on each other planeswalker you control.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.22
+draft_average: 1.43
 effective_cost:
 - W
 - G
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,46 +51,81 @@ keywords:
 - Exile
 - Counters
 mana_cost: 4GW
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Ajani Unyielding
+planeswalker_loyalty: 4
 printings:
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 324
-    rarity: mythic_rare
-    release_date: 2022-04-30
-    wizards_id: 559896
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559896
-- C20:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 201
-    rarity: mythic_rare
-    release_date: 2020-05-15
-    wizards_id: 482829
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482829
 - AER:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Kieran Yanner
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 62832
     mtgo_id: 62831
     name: Aether Revolt
     number: 127
     rarity: mythic_rare
-    release_date: 2017-01-20
+    release_date: '2017-01-20'
+    tla: AER
+    variations: []
     wizards_id: 423794
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423794
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kieran Yanner
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 201
+    rarity: mythic_rare
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: 482829
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482829
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kieran Yanner
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 324
+    rarity: mythic_rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559896
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559896
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus2]]: Reveal the top three cards from your library. Put\
   \ all nonland permanent cards revealed this way into your hand and the rest on the\
   \ bottom of your library in any order. \r\n\r\n[[symbol:loyalty-minus2]]: Exile\
@@ -96,7 +136,9 @@ slug: ajani-unyielding
 subtype: Ajani
 subtype_tokens:
 - Ajani
-tags: card-color-gold card-color-gold-cost-6 card-color-green card-color-white card-type-planeswalker
+synonyms: []
 tapped_id: 18524
+tokens: []
 type: Planeswalker
-url: http://tappedout.net/mtg-card/ajani-unyielding/
+url: https://tappedout.net/mtg-card/ajani-unyielding/
+

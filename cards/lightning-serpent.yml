@@ -1,36 +1,40 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CSP
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+draft_average: 2.75
 effective_cost:
 - R
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -39,34 +43,62 @@ keywords:
 - Sacrifice
 - Counters
 mana_cost: XR
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Lightning Serpent
 power_toughness: 2/1
 printings:
-- ARENA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Arena Cards
-    rarity: rare
-    release_date: 2019-09-26
 - CSP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Avon
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Ice exploded into steam in its wake, hissing like a thousand serpents
+      hailing their blazing master.
     frame: modern
     mtgo_foil_id: 24682
     mtgo_id: 24681
     name: Coldsnap
     number: 88
     rarity: rare
-    release_date: 2006-07-21
+    release_date: '2006-07-21'
+    tla: CSP
+    variations: []
     wizards_id: 121220
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=121220
+- ARENA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Avon
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Ice exploded into steam in its wake, hissing like a thousand serpents
+      hailing their blazing master.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Arena Cards
+    number: null
+    rarity: rare
+    release_date: '2019-09-26'
+    tla: ARENA
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "Trample, haste\r\n\r\nLightning Serpent enters the battlefield with X +1/+0\
   \ counters on it.\r\n\r\nAt end of turn, sacrifice Lightning Serpent."
 slug: lightning-serpent
@@ -76,7 +108,8 @@ subtype_tokens:
 - Serpent
 synonyms:
 - Lighting Serpent
-tags: card-color-red card-color-red-cost-1 card-type-creature
 tapped_id: 1449
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/lightning-serpent/
+url: https://tappedout.net/mtg-card/lightning-serpent/
+

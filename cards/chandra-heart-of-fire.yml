@@ -5,7 +5,7 @@ activated_abilities:
 - ': Search your graveyard and library for any number of red instant and/or sorcery
   cards, exile them, then shuffle your library. You may cast them this turn. Gain
   six .'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: M21
@@ -13,32 +13,36 @@ cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 2.45
+draft_average: 2.83
 effective_cost:
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,36 +50,46 @@ keywords:
 - Exile
 - Counters
 mana_cost: 3RR
-mana_cost_converted: 5
 mana_produced: RRRRRR
+mana_value: 5
+melds_from: []
 name: Chandra, Heart of Fire
+planeswalker_loyalty: 5
 printings:
 - M21:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Josu Hernaiz
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Core Set 2021
     number: 135
     rarity: mythic_rare
-    release_date: 2020-07-03
+    release_date: '2020-07-03'
+    tla: M21
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '283'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '301'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '283'
+    - identifier: '301'
+    - identifier: PromoPack
     wizards_id: 485458
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485458
 rules: "[[symbol:loyalty-plus1]]: Discard your hand, then exile the top three cards\
@@ -88,7 +102,9 @@ slug: chandra-heart-of-fire
 subtype: Chandra
 subtype_tokens:
 - Chandra
-tags: card-color-red card-color-red-cost-5 card-mana-red card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 22996
+tokens: []
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/chandra-heart-of-fire/
+url: https://tappedout.net/mtg-card/chandra-heart-of-fire/
+

@@ -1,63 +1,80 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: AKH
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-- Zirda, the Dawnwaker
+cube_average: 7.3
+draft_average: 1.7
 effective_cost:
 - G
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: true
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Trample
 - Embalm
 mana_cost: 5G
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Honored Hydra
 power_toughness: 6/6
 printings:
 - AKH:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Todd Lockwood
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Even gods have pets.
     frame: m15
     mtgo_foil_id: 63947
     mtgo_id: 63946
     name: Amonkhet
     number: 172
     rarity: rare
-    release_date: 2017-04-28
+    release_date: '2017-04-28'
+    tla: AKH
+    variations: []
     wizards_id: 426874
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426874
+rarity: rare
 rules: "Trample\r\n\r\nEmbalm [[symbol:3]][[symbol:G]]"
 slug: honored-hydra
 subtype: Snake Hydra
@@ -66,18 +83,23 @@ subtype_tokens:
 - Hydra
 synonyms:
 - Honoured Hydra
-tags: card-color-green card-color-green-cost-6 card-type-creature
 tapped_id: 18836
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Honored Hydra 6/6 W
-  power_toughness: 6/6
-  rules: Trample
-  subtype: Zombie Snake Hydra
-  tla: AKH
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 6/6
+    - - rules
+      - Trample
+    - - type
+      - Token Creature
+    - - subtype
+      - 1283
+    - - cannonical_type
+      - Creature
+    - - name
+      - Honored Hydra 6/6 W
 type: Creature
-url: http://tappedout.net/mtg-card/honored-hydra/
+url: https://tappedout.net/mtg-card/honored-hydra/
+

@@ -1,35 +1,40 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: WAR
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 10.93
+draft_average: 5.59
 effective_cost:
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -38,22 +43,33 @@ keywords:
 - Tokens
 - Amass
 mana_cost: 3R
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Dreadhorde Twins
 power_toughness: 2/2
 printings:
 - WAR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Johannes Voss
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 71859
     mtgo_id: 71858
     name: War of the Spark
     number: 126
     rarity: uncommon
-    release_date: 2019-05-03
+    release_date: '2019-05-03'
+    tla: WAR
+    variations: []
     wizards_id: 461053
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461053
 rules: "When Dreadhorde Twins enters the battlefield, amass 2. *(Put two +1/+1 counters\
@@ -65,18 +81,24 @@ subtype_tokens:
 - Zombie
 - Jackal
 - Warrior
-tags: card-color-red card-color-red-cost-4 card-type-creature
+synonyms: []
 tapped_id: 21383
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie Army 0/0 B
-  power_toughness: 0/0
-  rules: ''
-  subtype: Zombie Army
-  tla: WAR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 0/0
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 1342
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie Army 0/0 B
 type: Creature
-url: http://tappedout.net/mtg-card/dreadhorde-twins/
+url: https://tappedout.net/mtg-card/dreadhorde-twins/
+

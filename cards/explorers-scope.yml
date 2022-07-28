@@ -1,40 +1,46 @@
 activated_abilities:
 - 'Equip  *(: Attach to target creature you control. Equip only as a sorcery.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: AFC
 cannonical_type: Artifact
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 1
+cube_average: 8.09
+draft_average: 5.82
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,69 +48,126 @@ keywords:
 - Equip
 - Attach
 mana_cost: '1'
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Explorer's Scope
+power_toughness: ''
 printings:
-- AFC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 205
-    rarity: common
-    release_date: 2021-07-24
-    wizards_id: 532592
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532592
-- CMR:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: Commander Legends
-    number: 461
-    rarity: common
-    release_date: 2020-11-20
-    wizards_id: 500941
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=500941
-- DDP:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Duel Decks: Zendikar vs. Eldrazi'
-    number: 28
-    rarity: common
-    release_date: 2015-08-28
-    wizards_id: 401670
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401670
-- CNS:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    name: Conspiracy
-    number: 198
-    rarity: common
-    release_date: 2014-06-06
-    wizards_id: 382263
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382263
 - ZEN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Vincent Proce
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 34597
     mtgo_id: 34596
     name: Zendikar
+    number: null
     rarity: common
-    release_date: 2009-10-02
+    release_date: '2009-10-02'
+    tla: ZEN
+    variations: []
     wizards_id: 190396
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=190396
+- CNS:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Vincent Proce
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Conspiracy
+    number: 198
+    rarity: common
+    release_date: '2014-06-06'
+    tla: CNS
+    variations: []
+    wizards_id: 382263
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382263
+- DDP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Vincent Proce
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Zendikar vs. Eldrazi'
+    number: 28
+    rarity: common
+    release_date: '2015-08-28'
+    tla: DDP
+    variations: []
+    wizards_id: 401670
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401670
+- CMR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Vincent Proce
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Legends
+    number: 461
+    rarity: common
+    release_date: '2020-11-20'
+    tla: CMR
+    variations: []
+    wizards_id: 500941
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=500941
+- AFC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Vincent Proce
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 205
+    rarity: common
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: 532592
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532592
+rarity: common
 rules: "Whenever equipped creature attacks, look at the top card of your library.\
   \ If it's a land card, you may put it onto the battlefield tapped.\r\n\r\nEquip\
   \ [[symbol:1]] *([[symbol:1]]: Attach to target creature you control. Equip only\
@@ -113,7 +176,9 @@ slug: explorers-scope
 subtype: Equipment
 subtype_tokens:
 - Equipment
-tags: card-color-colorless card-color-colorless-cost-1 card-type-artifact
+synonyms: []
 tapped_id: 11727
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/explorers-scope/
+url: https://tappedout.net/mtg-card/explorers-scope/
+

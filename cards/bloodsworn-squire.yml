@@ -2,45 +2,47 @@ activated_abilities:
 - ', Discard a card: This gains indestructible until end of turn. Tap this. Then if
   there are four or more creature cards in your graveyard. transform this. *(Damage
   and effects that say  don''t destroy this.)*'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 4
 flip: Bloodsworn Knight
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_front: true
 is_mtgo: true
@@ -50,36 +52,60 @@ keywords:
 - Tap/Untap
 - Transform
 mana_cost: 3B
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Bloodsworn Squire
 power_toughness: 3/3
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 364
-    rarity: uncommon
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Darren Tan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 97
     rarity: uncommon
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
     variations:
-    - alterations:
-      - Foil
+    - identifier: '289'
+    wizards_id: null
+    wizards_url: null
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: '289'
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Darren Tan
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 364
+    rarity: uncommon
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: '[[symbol:1]][[symbol:B]], Discard a card: This gains indestructible until
   end of turn. Tap this. Then if there are four or more creature cards in your graveyard.
   transform this. *(Damage and effects that say "destroy" don''t destroy this.)*'
@@ -88,7 +114,9 @@ subtype: Vampire Soldier
 subtype_tokens:
 - Vampire
 - Soldier
-tags: card-color-black card-color-black-cost-4 card-type-creature
+synonyms: []
 tapped_id: 25405
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/bloodsworn-squire/
+url: https://tappedout.net/mtg-card/bloodsworn-squire/
+

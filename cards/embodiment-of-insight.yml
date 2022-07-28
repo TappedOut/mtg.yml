@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ZNC
 cannonical_type: Creature
@@ -5,29 +7,32 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 10.4
+draft_average: 4.07
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -35,35 +40,57 @@ keywords:
 - Vigilance
 - Landfall
 mana_cost: 4G
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Embodiment of Insight
 power_toughness: 4/4
 printings:
-- ZNC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Zendikar Rising: Commander'
-    number: 64
-    rarity: uncommon
-    release_date: 2020-09-25
-    wizards_id: 496002
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=496002
 - OGW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Marco Nelor
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 59358
     mtgo_id: 59357
     name: Oath of the Gatewatch
     number: 131
     rarity: uncommon
-    release_date: 2016-01-22
+    release_date: '2016-01-22'
+    tla: OGW
+    variations: []
     wizards_id: 407641
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407641
+- ZNC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Marco Nelor
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Zendikar Rising: Commander'
+    number: 64
+    rarity: uncommon
+    release_date: '2020-09-25'
+    tla: ZNC
+    variations: []
+    wizards_id: 496002
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=496002
+rarity: uncommon
 rules: "Vigilance\r\n\r\nLand creatures you control have vigilance.\r\n\r\n*Landfall*\
   \ &mdash; Whenever a land enters the battlefield under your control, you may have\
   \ target land you control become a 3/3 Elemental creature with haste until end of\
@@ -72,7 +99,9 @@ slug: embodiment-of-insight
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-color-green card-color-green-cost-5 card-type-creature
+synonyms: []
 tapped_id: 17483
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/embodiment-of-insight/
+url: https://tappedout.net/mtg-card/embodiment-of-insight/
+

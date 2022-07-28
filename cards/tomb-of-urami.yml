@@ -3,6 +3,7 @@ activated_abilities:
   don''t control an Ogre.'
 - '(2)(Black)(Black), Tap, Sacrifice all lands you control: Put a legendary 5/5 black
   Demon Spirit creature token with flying named Urami into play.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SOK
 cannonical_type: Land
@@ -17,22 +18,26 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 8.11
+draft_average: 3.8
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -40,41 +45,61 @@ is_permanent: true
 keywords:
 - Flying
 - Sacrifice
-mana_cost_converted: 0
+mana_cost: ''
 mana_produced: b
+mana_value: 0
+melds_from: []
 name: Tomb of Urami
+power_toughness: ''
 printings:
 - SOK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Alex Horley-Orlandelli
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 22089
     mtgo_id: 22088
     name: Saviors of Kamigawa
     number: 165
     rarity: rare
-    release_date: 2005-06-03
+    release_date: '2005-06-03'
+    tla: SOK
+    variations: []
     wizards_id: 74492
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=74492
+rarity: rare
 rules: "Tap: Add (Black) to your mana pool. Tomb of Urami deals 1 damage to you if\
   \ you don't control an Ogre.\r\n\r\n(2)(Black)(Black), Tap, Sacrifice all lands\
   \ you control: Put a legendary 5/5 black Demon Spirit creature token with flying\
   \ named Urami into play."
 slug: tomb-of-urami
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-type-land
-  card-type-legendary
+synonyms: []
 tapped_id: 2316
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Urami
-  power_toughness: 5/5
-  rules: Flying
-  subtype: Demon Spirit
-  type: Token Legendary Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 5/5
+    - - rules
+      - Flying
+    - - type
+      - Token Legendary Creature
+    - - subtype
+      - 433
+    - - cannonical_type
+      - Creature
+    - - name
+      - Urami
 type: Legendary Land
-url: http://tappedout.net/mtg-card/tomb-of-urami/
+url: https://tappedout.net/mtg-card/tomb-of-urami/
+

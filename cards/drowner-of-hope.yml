@@ -1,34 +1,39 @@
 activated_abilities:
 - 'Sacrifice an Eldrazi Scion: Tap target creature.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: BFZ
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.82
+draft_average: 1.98
 effective_cost:
 - U
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -38,35 +43,60 @@ keywords:
 - Tokens
 - Devoid
 mana_cost: 5U
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Drowner of Hope
 power_toughness: 5/5
 printings:
 - BFZ:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Tomasz Jedruszek
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 58630
     mtgo_id: 58629
     name: Battle for Zendikar
     number: 57
     rarity: rare
-    release_date: 2015-10-02
+    release_date: '2015-10-02'
+    tla: BFZ
+    variations: []
     wizards_id: 401863
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401863
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: James Zapata
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 57
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "Devoid *(This card has no color.)*\r\n\r\nWhen Drowner of Hope enters the\
   \ battlefield, put two 1/1 colorless Eldrazi Scion creature tokens onto the battlefield.\
   \ They have \"Sacrifice this creature: Add [[symbol:1]] to your mana pool.\"\r\n\
@@ -75,18 +105,24 @@ slug: drowner-of-hope
 subtype: Eldrazi
 subtype_tokens:
 - Eldrazi
-tags: card-color-blue card-color-blue-cost-6 card-type-creature
+synonyms: []
 tapped_id: 17186
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Eldrazi Scion 1/1 C
-  power_toughness: 1/1
-  rules: 'Sacrifice this creature: Add [[symbol:C]].'
-  subtype: Eldrazi Scion
-  tla: BFZ
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - 'Sacrifice this creature: Add [[symbol:C]].'
+    - - type
+      - Token Creature
+    - - subtype
+      - 1091
+    - - cannonical_type
+      - Creature
+    - - name
+      - Eldrazi Scion 1/1 C
 type: Creature
-url: http://tappedout.net/mtg-card/drowner-of-hope/
+url: https://tappedout.net/mtg-card/drowner-of-hope/
+

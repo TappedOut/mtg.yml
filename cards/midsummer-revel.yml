@@ -1,72 +1,94 @@
 activated_abilities:
 - '(Green), Sacrifice Midsummer Revel: Put X 3/3 green Beast creature tokens into
   play, where X is the number of verse counters on Midsummer Revel.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: USG
 cannonical_type: Enchantment
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.0
+draft_average: 1.0
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
 mana_cost: 3GG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Midsummer Revel
+power_toughness: ''
 printings:
 - USG:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Steve Firchow
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 12002
     mtgo_id: 12001
     name: Urza's Saga
     number: 268
     rarity: rare
-    release_date: 1998-10-12
+    release_date: '1998-10-12'
+    tla: USG
+    variations: []
     wizards_id: 8448
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=8448
+rarity: rare
 rules: "At the beginning of your upkeep, you may put a verse counter on Midsummer\
   \ Revel.\r\n\r\n \r\n\r\n(Green), Sacrifice Midsummer Revel: Put X 3/3 green Beast\
   \ creature tokens into play, where X is the number of verse counters on Midsummer\
   \ Revel."
 slug: midsummer-revel
-tags: card-color-green card-color-green-cost-5 card-type-enchantment
+synonyms: []
 tapped_id: 6368
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Beast 3/3 G
-  power_toughness: 3/3
-  rules: ''
-  subtype: Beast
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 3/3
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 83
+    - - cannonical_type
+      - Creature
+    - - name
+      - Beast 3/3 G
 type: Enchantment
-url: http://tappedout.net/mtg-card/midsummer-revel/
+url: https://tappedout.net/mtg-card/midsummer-revel/
+

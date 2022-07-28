@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: MIC
@@ -13,79 +14,108 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.29
+draft_average: 4.49
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Sacrifice
 - Tokens
 mana_cost: 2G
-mana_cost_converted: 3
 mana_produced: C
+mana_value: 3
+melds_from: []
 name: Growth Spasm
 printings:
-- MIC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Midnight Hunt Commander'
-    number: 139
-    rarity: common
-    release_date: 2021-09-25
-    wizards_id: 539400
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539400
 - ROE:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dan Scott
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 36501
     mtgo_id: 36500
     name: Rise of the Eldrazi
     number: 186
     rarity: common
-    release_date: 2010-04-23
+    release_date: '2010-04-23'
+    tla: ROE
+    variations: []
     wizards_id: 193526
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=193526
+- MIC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Dan Scott
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Midnight Hunt Commander'
+    number: 139
+    rarity: common
+    release_date: '2021-09-25'
+    tla: MIC
+    variations: []
+    wizards_id: 539400
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539400
+rarity: common
 rules: 'Search your library for a basic land card, put it onto the battlefield tapped,
   then shuffle your library. Create a 0/1 colorless Eldrazi Spawn creature token.
   It has "Sacrifice this creature: Add [[symbol:C]]."'
 slug: growth-spasm
-tags: card-color-green card-color-green-cost-3 card-mana-colorless-sym card-type-sorcery
+synonyms: []
 tapped_id: 12236
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Eldrazi Spawn 0/1 C
-  power_toughness: 0/1
-  rules: 'Sacrifice this: Add [[symbol:C]].'
-  subtype: Eldrazi Spawn
-  tla: MIC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 0/1
+    - - rules
+      - 'Sacrifice this: Add [[symbol:C]].'
+    - - type
+      - Token Creature
+    - - subtype
+      - 894
+    - - cannonical_type
+      - Creature
+    - - name
+      - Eldrazi Spawn 0/1 C
 type: Sorcery
-url: http://tappedout.net/mtg-card/growth-spasm/
+url: https://tappedout.net/mtg-card/growth-spasm/
+

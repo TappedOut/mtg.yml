@@ -2,39 +2,44 @@ activated_abilities:
 - 'Remove three quest counters from Khalni Heart Expedition and sacrifice it: Search
   your library for up to two basic land cards, put them onto the battlefield tapped,
   then shuffle your library.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.86
+draft_average: 5.13
 effective_cost:
 - G
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,95 +48,174 @@ keywords:
 - Landfall
 - Counters
 mana_cost: 1G
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Khalni Heart Expedition
+power_toughness: ''
 printings:
-- CMR:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: Commander Legends
-    number: 428
-    rarity: common
-    release_date: 2020-11-20
-    wizards_id: 500908
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=500908
-- ZNC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Zendikar Rising: Commander'
-    number: 72
-    rarity: common
-    release_date: 2020-09-25
-    wizards_id: 496010
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=496010
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
-- C18:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2018
-    number: 154
-    rarity: common
-    release_date: 2018-08-10
-    wizards_id: 451109
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451109
-- E01:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Archenemy: Nicol Bolas'
-    number: 67
-    rarity: common
-    release_date: 2017-06-16
-    wizards_id: 430606
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430606
-- DDP:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Duel Decks: Zendikar vs. Eldrazi'
-    number: 18
-    rarity: common
-    release_date: 2015-08-28
-    wizards_id: 401660
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401660
 - ZEN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Chan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 34557
     mtgo_id: 34556
     name: Zendikar
+    number: null
     rarity: common
-    release_date: 2009-10-02
+    release_date: '2009-10-02'
+    tla: ZEN
+    variations: []
     wizards_id: 186320
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=186320
+- DDP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jason Chan
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Zendikar vs. Eldrazi'
+    number: 18
+    rarity: common
+    release_date: '2015-08-28'
+    tla: DDP
+    variations: []
+    wizards_id: 401660
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401660
+- C18:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jason Chan
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2018
+    number: 154
+    rarity: common
+    release_date: '2018-08-10'
+    tla: C18
+    variations: []
+    wizards_id: 451109
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451109
+- E01:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jason Chan
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Archenemy: Nicol Bolas'
+    number: 67
+    rarity: common
+    release_date: '2017-06-16'
+    tla: E01
+    variations: []
+    wizards_id: 430606
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430606
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jason Chan
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- ZNC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jason Chan
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Zendikar Rising: Commander'
+    number: 72
+    rarity: common
+    release_date: '2020-09-25'
+    tla: ZNC
+    variations: []
+    wizards_id: 496010
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=496010
+- CMR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Chan
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Legends
+    number: 428
+    rarity: common
+    release_date: '2020-11-20'
+    tla: CMR
+    variations: []
+    wizards_id: 500908
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=500908
+rarity: common
 rules: "*Landfall* &mdash; Whenever a land enters the battlefield under your control,\
   \ you may put a quest counter on Khalni Heart Expedition.\r\n\r\nRemove three quest\
   \ counters from Khalni Heart Expedition and sacrifice it: Search your library for\
   \ up to two basic land cards, put them onto the battlefield tapped, then shuffle\
   \ your library."
 slug: khalni-heart-expedition
-tags: card-color-green card-color-green-cost-2 card-type-enchantment
+synonyms: []
 tapped_id: 11688
+tokens: []
 type: Enchantment
-url: http://tappedout.net/mtg-card/khalni-heart-expedition/
+url: https://tappedout.net/mtg-card/khalni-heart-expedition/
+

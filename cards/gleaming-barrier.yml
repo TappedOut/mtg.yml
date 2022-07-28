@@ -1,37 +1,43 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: 2XM
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 2
+cube_average: 11.14
+draft_average: 9.63
+effective_cost: []
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -39,37 +45,61 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: '2'
-mana_cost_converted: 2
 mana_produced: W, U, B, R, G
+mana_value: 2
+melds_from: []
 name: Gleaming Barrier
 power_toughness: 0/4
 printings:
-- 2XM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 257
-    rarity: common
-    release_date: 2020-08-07
-    wizards_id: 489930
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489930
 - RIX:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Felix
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "\"Gold without freedom might as well be lead.\" \r\n-Angrath"
     frame: m15
     mtgo_foil_id: 66822
     mtgo_id: 66821
     name: Rivals of Ixalan
     number: 178
     rarity: common
-    release_date: 2018-01-19
+    release_date: '2018-01-19'
+    tla: RIX
+    variations: []
     wizards_id: 439841
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439841
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Felix
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Gold without freedom might as well be lead.\" \r\n<br>&mdash;Angrath*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 257
+    rarity: common
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations: []
+    wizards_id: 489930
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489930
+rarity: common
 rules: "Defender \r\n\r\nWhen Gleaming Barrier dies *(is put into the graveyard from\
   \ the battlefield)*, create a Treasure token. *(It's an artifact with \"[[symbol:T]],\
   \ Sacrifice this artifact: Gain one mana of any colour.\")*"
@@ -77,19 +107,24 @@ slug: gleaming-barrier
 subtype: Wall
 subtype_tokens:
 - Wall
-tags: card-color-colorless card-color-colorless-cost-2 card-mana-black card-mana-blue
-  card-mana-green card-mana-red card-mana-white card-type-artifact card-type-creature
+synonyms: []
 tapped_id: 19964
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: 2XM
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Artifact Creature
-url: http://tappedout.net/mtg-card/gleaming-barrier/
+url: https://tappedout.net/mtg-card/gleaming-barrier/
+

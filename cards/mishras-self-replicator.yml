@@ -1,55 +1,83 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DOM
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 5
+cube_average: 9.29
+draft_average: 3.24
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: '5'
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Mishra's Self-Replicator
 power_toughness: 2/2
 printings:
 - DOM:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Joseph Meehan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*It has witnessed history\u2019s most significant events, one incarnation\
+      \ after another.*"
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Dominaria
     number: 223
     rarity: rare
-    release_date: 2018-04-22
+    release_date: '2018-04-22'
+    tla: DOM
+    variations: []
     wizards_id: 443111
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443111
+rarity: rare
 rules: "Whenever you cast a historic spell, you may pay [[symbol:1]]. If you do, create\
   \ a token that\u2019s a copy of Mishra\u2019s Self-Replicator. *(Artifacts, legendaries,\
   \ and Sagas are historic.)*"
@@ -57,17 +85,24 @@ slug: mishras-self-replicator
 subtype: Assembly-Worker
 subtype_tokens:
 - Assembly-Worker
-tags: card-color-colorless card-color-colorless-cost-5 card-type-artifact card-type-creature
+synonyms: []
 tapped_id: 20265
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Artifact Creature
-url: http://tappedout.net/mtg-card/mishras-self-replicator/
+url: https://tappedout.net/mtg-card/mishras-self-replicator/
+

@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M14
 cannonical_type: Sorcery
@@ -11,60 +13,80 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 12.54
+draft_average: 1.67
 effective_cost:
 - W
-flat_cost: 7
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
+keywords: []
 mana_cost: 6W
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Devout Invocation
 printings:
 - M14:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: David Palumbo
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: A prayer to bring demons to their knees.
     frame: modern
     mtgo_foil_id: 49418
     mtgo_id: 49417
     name: Magic 2014
     number: 16
     rarity: mythic_rare
-    release_date: 2013-07-19
+    release_date: '2013-07-19'
+    tla: M14
+    variations: []
     wizards_id: 370726
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370726
+rarity: mythic_rare
 rules: Tap any number of untapped creatures you control. Put a 4/4 white Angel creature
   token with flying onto the battlefield for each creature tapped this way.
 slug: devout-invocation
-tags: card-color-white card-color-white-cost-7 card-type-sorcery
+synonyms: []
 tapped_id: 14679
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Angel 4/4 W
-  power_toughness: 4/4
-  rules: Flying
-  subtype: Angel
-  tla: M14
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 4/4
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 20
+    - - cannonical_type
+      - Creature
+    - - name
+      - Angel 4/4 W
 type: Sorcery
-url: http://tappedout.net/mtg-card/devout-invocation/
+url: https://tappedout.net/mtg-card/devout-invocation/
+

@@ -1,90 +1,127 @@
 activated_abilities:
 - ', , Sacrifice an artifact: Return target artifact card with converted mana cost
   / mana value 3 or less from your graveyard to the battlefield.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: MH1
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.56
+draft_average: 4.27
 effective_cost:
 - R
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
 mana_cost: 1R
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Goblin Engineer
 power_toughness: 1/2
 printings:
-- H1R:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: Modern Horizons Timeshifted Reprints
-    number: 16
-    rarity: rare
-    release_date: 2021-06-18
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: original
-    name: Time Spiral Remastered
-    number: 345
-    rarity: special
-    release_date: 2021-03-19
-    wizards_id: 512311
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512311
 - MH1:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Jehan Choo
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 72629
     mtgo_id: 72628
     name: Modern Horizons
     number: 128
     rarity: rare
-    release_date: 2019-06-14
+    release_date: '2019-06-14'
+    tla: MH1
+    variations: []
     wizards_id: 464077
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464077
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jehan Choo
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 345
+    rarity: special
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 512311
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512311
+- H1R:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jehan Choo
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Modern Horizons Timeshifted Reprints
+    number: 16
+    rarity: rare
+    release_date: '2021-06-18'
+    tla: H1R
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "When this enters the battlefield, you may search your library for an artifact\
   \ card, put it into your graveyard, then shuffle your library.\r\n\r\n[[symbol:R]],\
   \ [[symbol:T]], Sacrifice an artifact: Return target artifact card with converted\
@@ -94,7 +131,9 @@ subtype: Goblin Artificer
 subtype_tokens:
 - Goblin
 - Artificer
-tags: card-color-red card-color-red-cost-2 card-type-creature
+synonyms: []
 tapped_id: 21548
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/goblin-engineer/
+url: https://tappedout.net/mtg-card/goblin-engineer/
+

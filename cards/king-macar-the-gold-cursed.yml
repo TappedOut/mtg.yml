@@ -1,52 +1,71 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: JOU
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.06
+draft_average: 2.06
 effective_cost:
 - B
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Quest Magic
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 2BB
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: King Macar, the Gold-Cursed
 power_toughness: 2/3
 printings:
 - JOU:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Greg Staples
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: modern
     mtgo_foil_id: 52115
     mtgo_id: 52114
     name: Journey into Nyx
     number: 74
     rarity: rare
-    release_date: 2014-05-02
+    release_date: '2014-05-02'
+    tla: JOU
+    variations: []
     wizards_id: 380443
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=380443
+rarity: rare
 rules: "Inspired\_- Whenever King Macar, the Gold-Cursed becomes untapped, you may\
   \ exile target creature. If you do, put a colorless artifact token named Gold onto\
   \ the battlefield. It has \"Sacrifice this artifact: Add one mana of any color to\
@@ -55,18 +74,24 @@ slug: king-macar-the-gold-cursed
 subtype: Human
 subtype_tokens:
 - Human
-tags: card-color-black card-color-black-cost-4 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 15388
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Gold
-  power_toughness: null
-  rules: 'Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Gold
-  tla: CLB
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - 'Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1865
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Gold
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/king-macar-the-gold-cursed/
+url: https://tappedout.net/mtg-card/king-macar-the-gold-cursed/
+

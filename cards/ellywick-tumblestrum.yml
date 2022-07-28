@@ -11,75 +11,45 @@ activated_abilities:
   among them and put it into your hand. If it''s legendary, you gain 3 life. Put the
   rest on the bottom of your library in a random order.'
 - ': You get an emblem with '
-arena:
-  Alchemy:
-    date: 2022-01-27
-    rules: "[[symbol:loyalty-plus1]]: Venture into the dungeon. *(If you aren't venturing\
-      \ through a dungeon, choose one of the dungeon cards you own from outside the\
-      \ game, put it into the command zone and put a venture counter on the first\
-      \ room of that dungeon. All effects of that room trigger. When you venture into\
-      \ the dungeon while you have a dungeon in the command zone, advance to the next\
-      \ room downward of your choice and triggering all effects of that room. When\
-      \ you have resolved the effects of the last room of the dungeon, remove that\
-      \ dungeon from the game. You can only venture through one dungeon at a time.)*\r\
-      \n\r\n[[symbol:loyalty-minus2]]: Look at the top six cards of your library.\
-      \ You may reveal a creature card from among them and put it into your hand.\
-      \ If it's legendary, you gain 3 life. Put the rest on the bottom of your library\
-      \ in a random order.\r\n\r\n[[symbol:loyalty-minus6]]: You get an emblem with\
-      \ \"Creatures you control have trample and haste and get +2/+2 for each differently\
-      \ named dungeon you've completed.\""
-  Historic:
-    date: 2022-01-27
-    rules: "[[symbol:loyalty-plus1]]: Venture into the dungeon. *(If you aren't venturing\
-      \ through a dungeon, choose one of the dungeon cards you own from outside the\
-      \ game, put it into the command zone and put a venture counter on the first\
-      \ room of that dungeon. All effects of that room trigger. When you venture into\
-      \ the dungeon while you have a dungeon in the command zone, advance to the next\
-      \ room downward of your choice and triggering all effects of that room. When\
-      \ you have resolved the effects of the last room of the dungeon, remove that\
-      \ dungeon from the game. You can only venture through one dungeon at a time.)*\r\
-      \n\r\n[[symbol:loyalty-minus2]]: Look at the top six cards of your library.\
-      \ You may reveal a creature card from among them and put it into your hand.\
-      \ If it's legendary, you gain 3 life. Put the rest on the bottom of your library\
-      \ in a random order.\r\n\r\n[[symbol:loyalty-minus6]]: You get an emblem with\
-      \ \"Creatures you control have trample and haste and get +2/+2 for each differently\
-      \ named dungeon you've completed.\""
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: AFR
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - G
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -88,28 +58,45 @@ keywords:
 - Trample
 - Venture Into the Dungeon
 mana_cost: 2GG
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Ellywick Tumblestrum
 printings:
 - AFR:
     alterations:
-    - D&D Foil
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    - !!python/tuple
+      - f-&
+      - D&D Foil
+    artist: Anna Steinbauer
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Dungeons & Dragons: Adventures in the Forgotten Realms'
     number: 181
     rarity: mythic_rare
-    release_date: 2021-07-23
+    release_date: '2021-07-23'
+    tla: AFR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '286'
+    - identifier: '286'
     wizards_id: 527468
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=527468
 rules: "[[symbol:loyalty-plus1]]: Venture into the dungeon. *(If you aren't venturing\
@@ -129,85 +116,130 @@ slug: ellywick-tumblestrum
 subtype: Ellywick
 subtype_tokens:
 - Ellywick
-tags: card-color-green card-color-green-cost-4 card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 24636
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Ellywick Tumblestrum
-  power_toughness: null
-  rules: Creatures you control have trample and haste and get +2/+2 for each differently
-    named dungeon you've completed.
-  subtype: Ellywick
-  tla: AFR
-  type: Emblem
-- cannonical_type: Dungeon
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 'Dungeon: Tomb of Annihilation'
-  power_toughness: null
-  rules: ''
-  tla: AFR
-  type: Dungeon
-- cannonical_type: Dungeon
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 'Dungeon: Dungeon of the Mad Mage'
-  power_toughness: null
-  rules: ''
-  tla: AFR
-  type: Dungeon
-- cannonical_type: Dungeon
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 'Dungeon: Lost Mine of Phandelver'
-  power_toughness: null
-  rules: ''
-  tla: AFR
-  type: Dungeon
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: The Atropal
-  power_toughness: 4/4
-  rules: Deathtouch
-  tla: AFR
-  type: Token Legendary Creature
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goblin 1/1 R
-  power_toughness: 1/1
-  rules: ''
-  subtype: Goblin
-  tla: AFR
-  type: Token Creature
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: AFR
-  type: Token Artifact
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Skeleton 1/1 B
-  power_toughness: 1/1
-  rules: ''
-  subtype: Skeleton
-  tla: AFR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Creatures you control have trample and haste and get +2/+2 for each differently
+        named dungeon you've completed.
+    - - type
+      - Emblem
+    - - subtype
+      - 1088
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Ellywick Tumblestrum
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Dungeon
+    - - subtype
+      - null
+    - - cannonical_type
+      - Dungeon
+    - - name
+      - 'Dungeon: Tomb of Annihilation'
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Dungeon
+    - - subtype
+      - null
+    - - cannonical_type
+      - Dungeon
+    - - name
+      - 'Dungeon: Dungeon of the Mad Mage'
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Dungeon
+    - - subtype
+      - null
+    - - cannonical_type
+      - Dungeon
+    - - name
+      - 'Dungeon: Lost Mine of Phandelver'
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 4/4
+    - - rules
+      - Deathtouch
+    - - type
+      - Token Legendary Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - The Atropal
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 153
+    - - cannonical_type
+      - Creature
+    - - name
+      - Goblin 1/1 R
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 232
+    - - cannonical_type
+      - Creature
+    - - name
+      - Skeleton 1/1 B
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/ellywick-tumblestrum/
+url: https://tappedout.net/mtg-card/ellywick-tumblestrum/
+

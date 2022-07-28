@@ -2,37 +2,41 @@ activated_abilities:
 - ', Exile Nearheath Chaplain from your graveyard: Put two 1/1 white Spirit creature
   tokens with flying onto the battlefield. Activate this ability only at any time
   you could cast a sorcery.'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: SOI
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.07
+draft_average: 2.92
 effective_cost:
 - W
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,24 +46,36 @@ keywords:
 - Exile
 - Tokens
 mana_cost: 3W
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Nearheath Chaplain
 power_toughness: 3/1
 printings:
 - SOI:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Zoltan Boros
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 59865
     mtgo_id: 59864
     name: Shadows over Innistrad
     number: 29
     rarity: uncommon
-    release_date: 2016-04-08
+    release_date: '2016-04-08'
+    tla: SOI
+    variations: []
     wizards_id: 409768
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409768
+rarity: uncommon
 rules: "Lifelink\r\n\r\n[[symbol:2]][[symbol:W]], Exile Nearheath Chaplain from your\
   \ graveyard: Put two 1/1 white Spirit creature tokens with flying onto the battlefield.\
   \ Activate this ability only at any time you could cast a sorcery."
@@ -68,18 +84,24 @@ subtype: Human Cleric
 subtype_tokens:
 - Human
 - Cleric
-tags: card-color-white card-color-white-cost-4 card-type-creature
+synonyms: []
 tapped_id: 17880
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spirit 1/1 W
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Spirit
-  tla: SOI
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 17
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spirit 1/1 W
 type: Creature
-url: http://tappedout.net/mtg-card/nearheath-chaplain/
+url: https://tappedout.net/mtg-card/nearheath-chaplain/
+

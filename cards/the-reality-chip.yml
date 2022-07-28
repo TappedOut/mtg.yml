@@ -1,45 +1,47 @@
 activated_abilities:
 - 'Reconfigure  *(: attach to target creature you control; or unattach this from a
   creature. Reconfigure only as a sorcery. While attached, this isn''t a creature.)*'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: NEO
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 2
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -48,32 +50,44 @@ keywords:
 - Attach
 - Reconfigure
 mana_cost: 1U
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: The Reality Chip
 power_toughness: 0/4
 printings:
 - NEO:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Campbell White
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
     number: 74
     rarity: rare
-    release_date: 2022-02-10
+    release_date: '2022-02-10'
+    tla: NEO
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '374'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '449'
+    - identifier: '374'
+    - identifier: '449'
     wizards_id: 548372
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=548372
 rules: "You may look at the top card of your library at any time.\r\n\r\nAs long as\
@@ -86,8 +100,9 @@ subtype: Equipment Jellyfish
 subtype_tokens:
 - Equipment
 - Jellyfish
-tags: card-color-blue card-color-blue-cost-2 card-type-artifact card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 25756
+tokens: []
 type: Legendary Artifact Creature
-url: http://tappedout.net/mtg-card/the-reality-chip/
+url: https://tappedout.net/mtg-card/the-reality-chip/
+

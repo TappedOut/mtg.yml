@@ -1,9 +1,11 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 - R
 canadian_hl_score: 0
 cannonical_set: MM3
 cannonical_type: Sorcery
+color_identity: ''
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
@@ -14,103 +16,160 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.03
+draft_average: 6.39
 effective_cost:
 - B
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Haste
 mana_cost: 4{B/R}
-mana_cost_converted: 5
+mana_produced: ''
+mana_value: 5
+melds_from: []
 name: Torrent of Souls
+power_toughness: ''
 printings:
-- MM3:
+- SHM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ian Edward Ameling
+    booster_exclude: false
     border_color: B
-    frame: m15
-    mtgo_foil_id: 63092
-    mtgo_id: 63091
-    name: Modern Masters 2017 Edition
-    number: 213
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 29895
+    mtgo_id: 29894
+    name: Shadowmoor
+    number: null
     rarity: uncommon
-    release_date: 2017-03-17
-    wizards_id: 426038
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426038
+    release_date: '2008-05-02'
+    tla: SHM
+    variations: []
+    wizards_id: 158751
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=158751
+- DDK:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ian Edward Ameling
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 48185
+    name: 'Duel Decks: Sorin vs. Tibalt'
+    number: 71
+    rarity: uncommon
+    release_date: '2013-05-15'
+    tla: DDK
+    variations: []
+    wizards_id: 368511
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=368511
 - EMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ian Edward Ameling
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 61022
     mtgo_id: 61021
     name: Eternal Masters
     number: 217
     rarity: uncommon
-    release_date: 2016-06-10
+    release_date: '2016-06-10'
+    tla: EMA
+    variations: []
     wizards_id: 413759
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413759
-- DDK:
+- MM3:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: null
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_id: 48185
-    name: 'Duel Decks: Sorin vs. Tibalt'
-    number: 71
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: 63092
+    mtgo_id: 63091
+    name: Modern Masters 2017 Edition
+    number: 213
     rarity: uncommon
-    release_date: 2013-05-15
-    wizards_id: 368511
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=368511
+    release_date: '2017-03-17'
+    tla: MM3
+    variations: []
+    wizards_id: 426038
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426038
 - ARC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ian Edward Ameling
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Archenemy
     number: 96
-    rarity: uncommon
-    release_date: 2010-06-18
+    rarity: null
+    release_date: '2010-06-18'
+    tla: ARC
+    variations: []
     wizards_id: 220547
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220547
-- SHM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 29895
-    mtgo_id: 29894
-    name: Shadowmoor
-    rarity: uncommon
-    release_date: 2008-05-02
-    wizards_id: 158751
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=158751
+rarity: uncommon
 rules: Return up to one target creature card from your graveyard to play if {B] was
   spent to play Torrent of Souls. Creatures target player controls get +2/+0 and gain
   haste until end of turn if {R} was spent to play Torrent of Souls. *(Do both if
   {B}{R} was spent.)*
 slug: torrent-of-souls
-tags: card-color-black card-color-gold card-color-gold-cost-5 card-color-red card-type-sorcery
+synonyms: []
 tapped_id: 9730
+tokens: []
 type: Sorcery
-url: http://tappedout.net/mtg-card/torrent-of-souls/
+url: https://tappedout.net/mtg-card/torrent-of-souls/
+

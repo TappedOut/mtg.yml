@@ -2,43 +2,45 @@ activated_abilities:
 - 'Boast &mdash; , Sacrifice a creature: Each opponent sacrifices a creature or planeswalker.
   *(Activate this ability only if this creature attacked this turn and only once each
   turn.)*'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: KHM
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -49,32 +51,44 @@ keywords:
 - Sacrifice
 - Boast
 mana_cost: 2BB
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Eradicator Valkyrie
 power_toughness: 4/3
 printings:
 - KHM:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Tyler Jacobson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Kaldheim
     number: 94
     rarity: mythic_rare
-    release_date: 2021-02-05
+    release_date: '2021-02-05'
+    tla: KHM
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '353'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '353'
+    - identifier: PromoPack
     wizards_id: 503703
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503703
 rules: "Flying, lifelink, hexproof from planeswalkers *((Remember the acronym <b>debt</b>.)\
@@ -87,7 +101,9 @@ subtype: Angel Berserker
 subtype_tokens:
 - Angel
 - Berserker
-tags: card-color-black card-color-black-cost-4 card-type-creature
+synonyms: []
 tapped_id: 23782
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/eradicator-valkyrie/
+url: https://tappedout.net/mtg-card/eradicator-valkyrie/
+

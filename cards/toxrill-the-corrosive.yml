@@ -1,6 +1,6 @@
 activated_abilities:
 - ', Sacrifice a Slug: Draw a card.'
-activation_costs:
+activated_costs:
 - B
 - U
 canadian_hl_score: 0
@@ -8,6 +8,7 @@ cannonical_set: VOW
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -15,29 +16,30 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 7
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,39 +48,63 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 5BB
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Toxrill, the Corrosive
 power_toughness: 7/7
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 399
-    rarity: mythic_rare
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Simon Dominic
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 132
     rarity: mythic_rare
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '321'
+    - identifier: '321'
     wizards_id: 540984
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=540984
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Simon Dominic
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 399
+    rarity: mythic_rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "At the beginning of each end step, put a slime counter on each creature you\
   \ don't control.\r\n\r\nCreatures you don't control get -1/-1 for each slime counter\
   \ on them.\r\n\r\nWhenever a creature you don't control with a slime counter on\
@@ -90,18 +116,24 @@ subtype: Slug Horror
 subtype_tokens:
 - Slug
 - Horror
-tags: card-color-black card-color-black-cost-7 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 25395
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Slug 1/1 B
-  power_toughness: 1/1
-  rules: ''
-  subtype: Slug
-  tla: VOW
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 402
+    - - cannonical_type
+      - Creature
+    - - name
+      - Slug 1/1 B
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/toxrill-the-corrosive/
+url: https://tappedout.net/mtg-card/toxrill-the-corrosive/
+

@@ -2,6 +2,7 @@ activated_abilities:
 - ': Target player draws two cards, then discards two cards.'
 - ': Gain control of target artifact.'
 - ': You get an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: EMA
 cannonical_type: Planeswalker
@@ -9,97 +10,160 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.0
+draft_average: 1.49
 effective_cost:
 - U
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 1UR
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Dack Fayden
+planeswalker_loyalty: 3
 printings:
-- SLD:
+- CNS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Deschamps
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: original
-    name: Secret Lair
-    number: 251
+    cannonical: true
+    flavour_text: null
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Conspiracy
+    number: 42
     rarity: mythic_rare
-    release_date: 2019-12-09
-- RNAMED:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Ravnica Allegiance: Mythic Edition'
-    number: 69
-    rarity: mythic_rare
-    release_date: 2019-01-26
-- EMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 60732
-    mtgo_id: 60731
-    name: Eternal Masters
-    number: 199
-    rarity: mythic_rare
-    release_date: 2016-06-10
-    wizards_id: 413741
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413741
+    release_date: '2014-06-06'
+    tla: CNS
+    variations: []
+    wizards_id: 382244
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382244
 - VMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Deschamps
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 52986
     mtgo_id: 52985
     name: Vintage Masters
     number: 247
     rarity: mythic_rare
-    release_date: 2014-06-16
+    release_date: '2014-06-16'
+    tla: VMA
+    variations: []
     wizards_id: 382903
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382903
-- CNS:
+- EMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Deschamps
+    booster_exclude: false
     border_color: B
-    frame: modern
-    name: Conspiracy
-    number: 42
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: 60732
+    mtgo_id: 60731
+    name: Eternal Masters
+    number: 199
     rarity: mythic_rare
-    release_date: 2014-06-06
-    wizards_id: 382244
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382244
+    release_date: '2016-06-10'
+    tla: EMA
+    variations: []
+    wizards_id: 413741
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413741
+- RNAMED:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Rainville
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Ravnica Allegiance: Mythic Edition'
+    number: 69
+    rarity: mythic_rare
+    release_date: '2019-01-26'
+    tla: RNAMED
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Greg Staples
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 251
+    rarity: mythic_rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Target player draws two cards, then discards two\
   \ cards.\r\n\r\n[[symbol:loyalty-minus2]]: Gain control of target artifact.\r\n\r\
   \n[[symbol:loyalty-minus6]]: You get an emblem with \"Whenever you cast a spell\
@@ -108,20 +172,25 @@ slug: dack-fayden
 subtype: Dack
 subtype_tokens:
 - Dack
-tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-red card-type-legendary
-  card-type-planeswalker
+synonyms: []
 tapped_id: 15553
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Dack Fayden
-  power_toughness: null
-  rules: Whenever you cast a spell that targets one or more permanents, gain control
-    of those permanents.
-  subtype: Dack
-  tla: EMA
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Whenever you cast a spell that targets one or more permanents, gain control
+        of those permanents.
+    - - type
+      - Emblem
+    - - subtype
+      - 1026
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Dack Fayden
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/dack-fayden/
+url: https://tappedout.net/mtg-card/dack-fayden/
+

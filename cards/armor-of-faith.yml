@@ -1,6 +1,6 @@
 activated_abilities:
 - ': Enchanted creature gets +0/+1 until end of turn.'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: 5ED
@@ -8,32 +8,35 @@ cannonical_type: Enchantment
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+draft_average: 7.43
 effective_cost:
 - W
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
 - Pauper EDH
-- Premodern
-- Tiny Leaders
+- Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
 - Vintage
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,44 +44,79 @@ keywords:
 - Enchant
 - Attach
 mana_cost: W
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Armor of Faith
 printings:
+- 5ED:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Anson Maddocks
+    booster_exclude: false
+    border_color: W
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Fifth Edition
+    number: null
+    rarity: common
+    release_date: '1997-03-24'
+    tla: 5ED
+    variations: []
+    wizards_id: 4105
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=4105
+- ICE:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Anson Maddocks
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "\"Keep your chainmail, warrior. I have my own form of protection.\"\
+      \r\n\x97Halvor Arenson, Kjeldoran Priest"
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Ice Age
+    number: null
+    rarity: common
+    release_date: '1995-06-01'
+    tla: ICE
+    variations: []
+    wizards_id: 2664
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=2664
 - ME2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Anson Maddocks
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: "\"Keep your chainmail, warrior. I have my own form of protection.\"\
+      \r\n\r\n\u2014Halvor Arenson, Kjeldoran priest"
     frame: modern
     mtgo_foil_id: 30381
     mtgo_id: 30380
     name: Masters Edition II
     number: 4
     rarity: common
-    release_date: 2008-09-22
+    release_date: '2008-09-22'
+    tla: ME2
+    variations: []
     wizards_id: 184726
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=184726
-- 5ED:
-    alterations:
-    - Normal
-    border_color: W
-    frame: original
-    name: Fifth Edition
-    rarity: common
-    release_date: 1997-03-24
-    wizards_id: 4105
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=4105
-- ICE:
-    alterations:
-    - Normal
-    border_color: B
-    frame: original
-    name: Ice Age
-    rarity: common
-    release_date: 1995-06-01
-    wizards_id: 2664
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=2664
+rarity: common
 rules: "Enchant creature\r\n\r\nEnchanted creature gets +1/+1.\r\n\r\n[[symbol:W]]:\
   \ Enchanted creature gets +0/+1 until end of turn."
 slug: armor-of-faith
@@ -87,7 +125,8 @@ subtype_tokens:
 - Aura
 synonyms:
 - Armour of Faith
-tags: card-color-white card-color-white-cost-1 card-type-enchantment
 tapped_id: 7966
+tokens: []
 type: Enchantment
-url: http://tappedout.net/mtg-card/armor-of-faith/
+url: https://tappedout.net/mtg-card/armor-of-faith/
+

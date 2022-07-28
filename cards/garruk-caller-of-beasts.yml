@@ -3,79 +3,121 @@ activated_abilities:
   way into your hand and the rest on the bottom of your library in any order.'
 - ': You may put a green creature card from your hand onto the battlefield.'
 - ': You get an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M14
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.83
+draft_average: 1.0
 effective_cost:
 - G
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
 mana_cost: 4GG
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Garruk, Caller of Beasts
+planeswalker_loyalty: 4
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 9995
-    rarity: mythic_rare
-    release_date: 2019-12-09
 - M14:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Karl Kopinski
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: modern
     mtgo_foil_id: 49374
     mtgo_id: 49373
     name: Magic 2014
     number: 172
     rarity: mythic_rare
-    release_date: 2013-07-19
+    release_date: '2013-07-19'
+    tla: M14
+    variations: []
     wizards_id: 370687
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370687
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Steve Prescott
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 172
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jesper Ejsing
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 9995
+    rarity: mythic_rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Reveal the top five cards of your library. Put all\
   \ creature cards revealed this way into your hand and the rest on the bottom of\
   \ your library in any order.\r\n\r\n[[symbol:loyalty-minus3]]: You may put a green\
@@ -86,19 +128,25 @@ slug: garruk-caller-of-beasts
 subtype: Garruk
 subtype_tokens:
 - Garruk
-tags: card-color-green card-color-green-cost-6 card-type-planeswalker
+synonyms: []
 tapped_id: 14720
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Garruk, Caller of Beasts
-  power_toughness: null
-  rules: Whenever you cast a creature spell, you may search your library for a creature
-    card, put it onto the battlefield, then shuffle your library.
-  subtype: Garruk
-  tla: M14
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Whenever you cast a creature spell, you may search your library for a creature
+        card, put it onto the battlefield, then shuffle your library.
+    - - type
+      - Emblem
+    - - subtype
+      - 393
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Garruk, Caller of Beasts
 type: Planeswalker
-url: http://tappedout.net/mtg-card/garruk-caller-of-beasts/
+url: https://tappedout.net/mtg-card/garruk-caller-of-beasts/
+

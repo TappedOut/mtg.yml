@@ -1,7 +1,7 @@
 activated_abilities:
 - 'Level up {{2,B}} ({{2,B}}: Put a level counter on this. Level up only as a sorcery.)
   [3/2]'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: ROE
@@ -9,29 +9,33 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 3.0
+draft_average: 3.67
 effective_cost:
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -40,24 +44,36 @@ keywords:
 - First strike
 - Level up
 mana_cost: 2B
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Nirkana Cutthroat
 power_toughness: 3/2
 printings:
 - ROE:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Erica Yang
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 36697
     mtgo_id: 36696
     name: Rise of the Eldrazi
     number: 119
     rarity: uncommon
-    release_date: 2010-04-23
+    release_date: '2010-04-23'
+    tla: ROE
+    variations: []
     wizards_id: 194933
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=194933
+rarity: uncommon
 rules: "Level up {{2,B}} ({{2,B}}: Put a level counter on this. Level up only as a\
   \ sorcery.) [3/2]\r\n\r\n[[Level 1-2]] Deathtouch [4/3]\r\n\r\n[[Level 3+]] First\
   \ strike, deathtouch [5/4]"
@@ -68,7 +84,8 @@ subtype_tokens:
 - Warrior
 synonyms:
 - Nirkana Cut Throat
-tags: card-color-black card-color-black-cost-3 card-type-creature
 tapped_id: 12254
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/nirkana-cutthroat/
+url: https://tappedout.net/mtg-card/nirkana-cutthroat/
+

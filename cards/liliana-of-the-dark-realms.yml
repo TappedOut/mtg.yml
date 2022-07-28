@@ -4,80 +4,124 @@ activated_abilities:
 - ': Target creature gets +X/+X or -X/-X until end of turn, where X is the number
   of Swamps you control.'
 - ': You get an emblem with '
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: M14
 cannonical_type: Planeswalker
+color_identity: ''
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.4
+draft_average: 2.67
 effective_cost:
 - B
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 2BB
-mana_cost_converted: 4
+mana_produced: ''
+mana_value: 4
+melds_from: []
 name: Liliana of the Dark Realms
+planeswalker_loyalty: 3
+power_toughness: ''
 printings:
+- M13:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: 'D. Alexander Gregory '
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 45429
+    mtgo_id: 45428
+    name: Magic 2013
+    number: null
+    rarity: mythic_rare
+    release_date: '2012-07-13'
+    tla: M13
+    variations: []
+    wizards_id: 259695
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=259695
 - M14:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: D. Alexander Gregory
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: modern
     mtgo_foil_id: 49250
     mtgo_id: 49249
     name: Magic 2014
     number: 102
     rarity: mythic_rare
-    release_date: 2013-07-19
+    release_date: '2013-07-19'
+    tla: M14
+    variations: []
     wizards_id: 370658
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370658
-- M13:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 45429
-    mtgo_id: 45428
-    name: Magic 2013
-    rarity: mythic_rare
-    release_date: 2012-07-13
-    wizards_id: 259695
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=259695
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Steve Prescott
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
-    rarity: mythic_rare
-    release_date: 1990-04-15
+    number: null
+    rarity: null
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Search your library for a Swamp card, reveal it,\
   \ and put it into your hand. Then shuffle your library.\r\n\r\n[[symbol:loyalty-minus3]]:\
   \ Target creature gets +X/+X or -X/-X until end of turn, where X is the number of\
@@ -88,18 +132,24 @@ slug: liliana-of-the-dark-realms
 subtype: Liliana
 subtype_tokens:
 - Liliana
-tags: card-color-black card-color-black-cost-4 card-type-planeswalker
+synonyms: []
 tapped_id: 13929
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Liliana of the Dark Realms
-  power_toughness: null
-  rules: 'Swamps you control have "[[symbol:T]]: Gain [[symbol:B]][[symbol:B]][[symbol:B]][[symbol:B]]."'
-  subtype: Liliana
-  tla: M14
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - 'Swamps you control have "[[symbol:T]]: Gain [[symbol:B]][[symbol:B]][[symbol:B]][[symbol:B]]."'
+    - - type
+      - Emblem
+    - - subtype
+      - 518
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Liliana of the Dark Realms
 type: Planeswalker
-url: http://tappedout.net/mtg-card/liliana-of-the-dark-realms/
+url: https://tappedout.net/mtg-card/liliana-of-the-dark-realms/
+

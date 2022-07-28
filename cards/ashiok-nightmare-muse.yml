@@ -4,6 +4,7 @@ activated_abilities:
   a card form their hand.'
 - ': You may cast up to three face-up cards your opponents own from exile without
   paying their mana costs.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: THB
 cannonical_type: Planeswalker
@@ -11,33 +12,37 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 3.19
+draft_average: 1.85
 effective_cost:
 - U
 - B
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,33 +51,44 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 3UB
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Ashiok, Nightmare Muse
+planeswalker_loyalty: 5
 printings:
 - THB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Raymond Swanland
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 79541
     mtgo_id: 79540
     name: Theros Beyond Death
     number: 208
     rarity: mythic_rare
-    release_date: 2020-01-24
+    release_date: '2020-01-24'
+    tla: THB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '256'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '256'
+    - identifier: PromoPack
     wizards_id: 476459
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476459
 rules: "[[symbol:loyalty-plus1]]: Create a 2/3 blue and black Nightmare creature token\
@@ -85,20 +101,25 @@ slug: ashiok-nightmare-muse
 subtype: Ashiok
 subtype_tokens:
 - Ashiok
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-5 card-type-legendary
-  card-type-planeswalker
+synonyms: []
 tapped_id: 22348
 tokens:
-- cannonical_type: Creature
-  colors: UB
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Nightmare 2/3 UB
-  power_toughness: 2/3
-  rules: Whenever this creature attacks or blocks, each opponent exiles the top two
-    cards of their library.
-  subtype: Nightmare
-  tla: THB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - UB
+    - - power_toughness
+      - 2/3
+    - - rules
+      - Whenever this creature attacks or blocks, each opponent exiles the top two
+        cards of their library.
+    - - type
+      - Token Creature
+    - - subtype
+      - 1126
+    - - cannonical_type
+      - Creature
+    - - name
+      - Nightmare 2/3 UB
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/ashiok-nightmare-muse/
+url: https://tappedout.net/mtg-card/ashiok-nightmare-muse/
+

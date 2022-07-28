@@ -1,60 +1,86 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: UN3
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.8
+draft_average: 8.0
 effective_cost:
 - U
-flat_cost: 10
 formats:
-- 'Commander: Rule 0'
-- Limited
+- Custom
 - Unformat
-has_activated_abilities: false
+- 'Commander: Rule 0'
+- Casual
+- Limited
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 - Storm
 - Tokens
 mana_cost: '[[2]][[U]]'
-mana_cost_converted: 10
+mana_value: 10
+melds_from: []
 name: Crow Storm
+planeswalker_loyalty: 0
+power_toughness: ''
 printings:
 - UN3:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: TW Tang
+    booster_exclude: false
     border_color: S
+    cannonical: true
+    flavour_text: '*Storm crow lonely, boon for a birder. Storm crows together, likely
+      a murder.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Unstable
     number: 31
     rarity: uncommon
-    release_date: 2017-12-08
+    release_date: '2017-12-08'
+    tla: UN3
+    variations: []
     wizards_id: 439420
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439420
+rarity: uncommon
 rules: "Create a 1/2 blue Bird creature token with flying named Storm Crow.\r\n\r\n\
   Storm (when you cast this spell, copy it for each spell cast before it this turn.)"
 slug: crow-storm
-tags: card-color-blue card-color-blue-cost-10 card-type-sorcery
+synonyms: []
 tapped_id: 19647
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Bird 1/2 U
-  power_toughness: 1/2
-  rules: Flying
-  subtype: Bird
-  tla: UN3
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 1/2
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 32
+    - - cannonical_type
+      - Creature
+    - - name
+      - Bird 1/2 U
 type: Sorcery
-url: http://tappedout.net/mtg-card/crow-storm/
+url: https://tappedout.net/mtg-card/crow-storm/
+

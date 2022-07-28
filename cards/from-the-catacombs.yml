@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: CLB
@@ -14,26 +15,25 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Counters
@@ -41,23 +41,30 @@ keywords:
 - Venture Into the Dungeon
 - Initiative
 mana_cost: 3BB
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: From the Catacombs
 printings:
 - CLB:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ben Wootten
     booster_exclude: true
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 671
     rarity: rare
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
     variations:
-    - alterations:
-      - Normal
-      identifier: '623'
+    - identifier: '623'
     wizards_id: 567236
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567236
 rules: "Return target creature card from a graveyard to the battlefield with a corpse\
@@ -66,40 +73,58 @@ rules: "Return target creature card from a graveyard to the battlefield with a c
   \ [[symbol:3]][[symbol:B]][[symbol:B]], Exile five other cards from your graveyard.\
   \ *(You may cast this card from your graveyard for its escape cost.)*"
 slug: from-the-catacombs
-tags: card-color-black card-color-black-cost-5 card-type-sorcery
+synonyms: []
 tapped_id: 26795
 tokens:
-- cannonical_type: Emblem
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: The Initiative
-  power_toughness: null
-  rules: "Whenever one or more creatures a player controls deal combat damage to you,\
-    \ that player takes the initiative.\r\n\r\nWhenever you take the initiative and\
-    \ at the beginning of your upkeep, venture into Undercity. *(If you're in a dungeon,\
-    \ advance to the next room. If you're not, enter Undercity. You can take the initiative\
-    \ even if you already have it.)*"
-  tla: CLB
-  type: Emblem
-- cannonical_type: Dungeon
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 'Dungeon: Undercity'
-  power_toughness: null
-  rules: ''
-  tla: CLB
-  type: Dungeon
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Skeleton 4/1 B
-  power_toughness: 4/1
-  rules: Menace *(This creature can't be blocked except by two or more creatures.)*
-  subtype: Skeleton
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - "Whenever one or more creatures a player controls deal combat damage to you,\
+        \ that player takes the initiative.\r\n\r\nWhenever you take the initiative\
+        \ and at the beginning of your upkeep, venture into Undercity. *(If you're\
+        \ in a dungeon, advance to the next room. If you're not, enter Undercity.\
+        \ You can take the initiative even if you already have it.)*"
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - The Initiative
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Dungeon
+    - - subtype
+      - null
+    - - cannonical_type
+      - Dungeon
+    - - name
+      - 'Dungeon: Undercity'
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 4/1
+    - - rules
+      - Menace *(This creature can't be blocked except by two or more creatures.)*
+    - - type
+      - Token Creature
+    - - subtype
+      - 232
+    - - cannonical_type
+      - Creature
+    - - name
+      - Skeleton 4/1 B
 type: Sorcery
-url: http://tappedout.net/mtg-card/from-the-catacombs/
+url: https://tappedout.net/mtg-card/from-the-catacombs/
+

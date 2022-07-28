@@ -1,52 +1,69 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SCG
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 3
+draft_average: 6.09
+effective_cost: []
 formats:
 - 1v1 Commander
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Morph
 mana_cost: '3'
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Proteus Machine
 power_toughness: 2/2
 printings:
 - SCG:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Greg Staples
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 18797
     mtgo_id: 18796
     name: Scourge
     number: 141
     rarity: uncommon
-    release_date: 2003-05-17
+    release_date: '2003-05-17'
+    tla: SCG
+    variations: []
     wizards_id: 46705
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=46705
+rarity: uncommon
 rules: "Morph (0) (You may play this face down as a 2/2 creature for (3). Turn it\
   \ face up any time for its morph cost.) \r\n\r\nWhen Proteus Machine is turned face\
   \ up, it becomes the creature type of your choice. (This effect doesn't end at end\
@@ -55,18 +72,25 @@ slug: proteus-machine
 subtype: Shapeshifter
 subtype_tokens:
 - Shapeshifter
-tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact card-type-creature
+synonyms: []
 tapped_id: 3616
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Morph 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  tla: C19
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+        \ with morph can be turned face up at any time for its morph cost.*"
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Morph 2/2 C
 type: Artifact Creature
-url: http://tappedout.net/mtg-card/proteus-machine/
+url: https://tappedout.net/mtg-card/proteus-machine/
+

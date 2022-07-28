@@ -1,56 +1,73 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ONS
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 10.5
+draft_average: 7.72
 effective_cost:
 - U
-flat_cost: 4
 formats:
 - 1v1 Commander
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Premodern
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
 - Morph
 mana_cost: 2UU
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Ascending Aven
 power_toughness: 3/2
 printings:
 - ONS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ron Spencer
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 17778
     mtgo_id: 17777
     name: Onslaught
     number: 68
     rarity: common
-    release_date: 2002-10-07
+    release_date: '2002-10-07'
+    tla: ONS
+    variations: []
     wizards_id: 25879
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=25879
+rarity: common
 rules: "Flying\r\n\r\nAscending Aven can block only creatures with flying.\r\n\r\n\
   Morph (2)(Blue) (You may play this face down as a 2/2 creature for (3). Turn it\
   \ face up any time for its morph cost.)"
@@ -59,18 +76,25 @@ subtype: Bird Soldier
 subtype_tokens:
 - Bird
 - Soldier
-tags: card-color-blue card-color-blue-cost-4 card-type-creature
+synonyms: []
 tapped_id: 3819
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Morph 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  tla: C19
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+        \ with morph can be turned face up at any time for its morph cost.*"
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Morph 2/2 C
 type: Creature
-url: http://tappedout.net/mtg-card/ascending-aven/
+url: https://tappedout.net/mtg-card/ascending-aven/
+

@@ -1,31 +1,35 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: ONS
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 10.08
+draft_average: 2.44
 effective_cost:
 - W
-flat_cost: 6
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -33,49 +37,78 @@ keywords:
 - Flip
 - Morph
 mana_cost: 4WW
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Exalted Angel
 power_toughness: 4/5
 printings:
-- V15:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    mtgo_foil_id: 58926
-    name: 'From the Vault: Angels'
-    number: 8
-    rarity: mythic_rare
-    release_date: 2015-08-21
-    wizards_id: 401635
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401635
 - ONS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Michael Sutfin
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 17644
     mtgo_id: 17643
     name: Onslaught
     number: 28
     rarity: rare
-    release_date: 2002-10-07
+    release_date: '2002-10-07'
+    tla: ONS
+    variations: []
     wizards_id: 39718
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=39718
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Rob Alexander
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- V15:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Tyler Jacobson
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: 58926
+    mtgo_id: null
+    name: 'From the Vault: Angels'
+    number: 8
+    rarity: mythic_rare
+    release_date: '2015-08-21'
+    tla: V15
+    variations: []
+    wizards_id: 401635
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401635
+rarity: rare
 rules: "Flying\r\n\r\nWhenever Exalted Angel deals damage, you gain that much life.\r\
   \n\r\nMorph [[symbol:2]][[symbol:W]][[symbol:W]] *(You may play this face down as\
   \ a 2/2 creature for [[symbol:3]]. Turn it face up any time for its morph cost.)*"
@@ -83,18 +116,25 @@ slug: exalted-angel
 subtype: Angel
 subtype_tokens:
 - Angel
-tags: card-color-white card-color-white-cost-6 card-type-creature
+synonyms: []
 tapped_id: 3913
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Morph 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  tla: C19
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+        \ with morph can be turned face up at any time for its morph cost.*"
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Morph 2/2 C
 type: Creature
-url: http://tappedout.net/mtg-card/exalted-angel/
+url: https://tappedout.net/mtg-card/exalted-angel/
+

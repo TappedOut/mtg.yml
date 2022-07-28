@@ -2,6 +2,7 @@ activated_abilities:
 - '{T}: Put a 1/1 colorless Myr artifact creature token onto the battlefield.'
 - '{T}, Tap five untapped Myr you control: Search your library for a Myr card and
   put that card onto the battlefield, then shuffle your library.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MBS
 cannonical_type: Artifact
@@ -9,73 +10,113 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 5
+cube_average: 5.73
+draft_average: 2.12
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: '5'
-mana_cost_converted: 5
+mana_produced: ''
+mana_value: 5
+melds_from: []
 name: Myr Turbine
+power_toughness: ''
 printings:
 - MBS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Randis Albion
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 39370
     mtgo_id: 39369
     name: Mirrodin Besieged
     number: 117
     rarity: rare
-    release_date: 2011-02-04
+    release_date: '2011-02-04'
+    tla: MBS
+    variations: []
     wizards_id: 213757
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=213757
 - MBM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Randis Albion
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Mirrodin Besieged: Mirran'
+    number: null
     rarity: rare
-    release_date: 2011-02-03
+    release_date: '2011-02-03'
+    tla: MBM
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "{T}: Put a 1/1 colorless Myr artifact creature token onto the battlefield.\r\
   \n\r\n{T}, Tap five untapped Myr you control: Search your library for a Myr card\
   \ and put that card onto the battlefield, then shuffle your library."
 slug: myr-turbine
-tags: card-color-colorless card-color-colorless-cost-5 card-type-artifact
+synonyms: []
 tapped_id: 12803
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Myr 1/1 C
-  power_toughness: 1/1
-  rules: ''
-  subtype: Myr
-  tla: NEC
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 52
+    - - cannonical_type
+      - Creature
+    - - name
+      - Myr 1/1 C
 type: Artifact
-url: http://tappedout.net/mtg-card/myr-turbine/
+url: https://tappedout.net/mtg-card/myr-turbine/
+

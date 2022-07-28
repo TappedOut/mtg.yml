@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Gain  or . Creature spells you cat this way can''t be countered.'
 - ': Target creature you control fights target creature you don''t control.'
-activation_costs:
+activated_costs:
 - G
 - R
 canadian_hl_score: 0
@@ -11,34 +11,38 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.55
+draft_average: 2.68
 effective_cost:
 - R
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,45 +50,70 @@ keywords:
 - Fight
 - Counters
 mana_cost: 1RG
-mana_cost_converted: 3
 mana_produced: R, G
+mana_value: 3
+melds_from: []
 name: Domri, Anarch of Bolas
+planeswalker_loyalty: 3
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: Secret Lair
-    number: 521
-    rarity: rare
-    release_date: 2019-12-09
 - WAR:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Raymond Swanland
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 71989
     mtgo_id: 71988
     name: War of the Spark
     number: 191
     rarity: rare
-    release_date: 2019-05-03
+    release_date: '2019-05-03'
+    tla: WAR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 461118
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461118
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Raymond Swanland
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 521
+    rarity: rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Creatures you control get +1/+0.\r\n\r\n[[symbol:loyalty-plus1]]: Gain [[symbol:R]]\
   \ or [[symbol:G]]. Creature spells you cat this way can't be countered.\r\n\r\n\
   [[symbol:loyalty-minus2]]: Target creature you control fights target creature you\
@@ -93,8 +122,9 @@ slug: domri-anarch-of-bolas
 subtype: Domri
 subtype_tokens:
 - Domri
-tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-red card-mana-green
-  card-mana-red card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 21379
+tokens: []
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/domri-anarch-of-bolas/
+url: https://tappedout.net/mtg-card/domri-anarch-of-bolas/
+

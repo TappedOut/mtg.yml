@@ -3,7 +3,7 @@ activated_abilities:
 - ', , Sacrifice this and a creature you control: Create a 4/4 white Angel Warrior
   creature token with flying and vigilance. Activate this ability only at any time
   you could cast a sorcery.'
-activation_costs:
+activated_costs:
 - B
 - W
 canadian_hl_score: 0
@@ -20,30 +20,32 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -53,20 +55,33 @@ keywords:
 - Vigilance
 - Sacrifice
 - Tokens
-mana_cost_converted: 0
 mana_produced: B
+mana_value: 0
+melds_from: []
 name: Great Hall of Starnheim
 printings:
 - KHM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jonas De Ro
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Kaldheim
     number: 259
     rarity: uncommon
-    release_date: 2021-02-05
+    release_date: '2021-02-05'
+    tla: KHM
+    variations: []
     wizards_id: 503878
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503878
 rules: "This enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Gain [[symbol:B]].\r\
@@ -74,19 +89,25 @@ rules: "This enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Gain [[symbol:B
   \ you control: Create a 4/4 white Angel Warrior creature token with flying and vigilance.\
   \ Activate this ability only at any time you could cast a sorcery."
 slug: great-hall-of-starnheim
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black-slow card-type-land
+synonyms: []
 tap_land: true
 tapped_id: 23958
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Angel Warrior 4/4 W w/ Vigilance
-  power_toughness: 4/4
-  rules: Flying, vigilance
-  subtype: Angel Warrior
-  tla: KHM
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 4/4
+    - - rules
+      - Flying, vigilance
+    - - type
+      - Token Creature
+    - - subtype
+      - 804
+    - - cannonical_type
+      - Creature
+    - - name
+      - Angel Warrior 4/4 W w/ Vigilance
 type: Land
-url: http://tappedout.net/mtg-card/great-hall-of-starnheim/
+url: https://tappedout.net/mtg-card/great-hall-of-starnheim/
+

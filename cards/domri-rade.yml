@@ -3,6 +3,7 @@ activated_abilities:
   it and put it into your hand.'
 - ': Target creature you control fights another target creature.'
 - ': You get an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MM3
 cannonical_type: Planeswalker
@@ -10,31 +11,35 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.43
+draft_average: 1.87
 effective_cost:
 - R
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,50 +51,84 @@ keywords:
 - Fight
 - Counters
 mana_cost: 1RG
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Domri Rade
+planeswalker_loyalty: 3
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 88
-    rarity: mythic_rare
-    release_date: 2019-12-09
-    wizards_id: 485312
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485312
-- MM3:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 63430
-    mtgo_id: 63429
-    name: Modern Masters 2017 Edition
-    number: 161
-    rarity: mythic_rare
-    release_date: 2017-03-17
-    wizards_id: 425986
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425986
 - GTC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Tyler Jacobsen
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 47852
     mtgo_id: 47851
     name: Gatecrash
     number: 156
     rarity: mythic_rare
-    release_date: 2013-02-01
+    release_date: '2013-02-01'
+    tla: GTC
+    variations: []
     wizards_id: 366367
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=366367
+- MM3:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Tyler Jacobson
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: 63430
+    mtgo_id: 63429
+    name: Modern Masters 2017 Edition
+    number: 161
+    rarity: mythic_rare
+    release_date: '2017-03-17'
+    tla: MM3
+    variations: []
+    wizards_id: 425986
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425986
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rallis
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 88
+    rarity: mythic_rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: 485312
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485312
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Look at the top card of your library. If it's a\
   \ creature card, you may reveal it and put it into your hand.\r\n\r\n[[symbol:loyalty-minus2]]:\
   \ Target creature you control fights another target creature.\r\n\r\n[[symbol:loyalty-minus7]]:\
@@ -99,18 +138,24 @@ slug: domri-rade
 subtype: Domri
 subtype_tokens:
 - Domri
-tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-red card-type-planeswalker
+synonyms: []
 tapped_id: 14252
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Domri Rade
-  power_toughness: null
-  rules: Creatures you control have double strike, trample, hexproof and haste.
-  subtype: Domri
-  tla: MM3
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Creatures you control have double strike, trample, hexproof and haste.
+    - - type
+      - Emblem
+    - - subtype
+      - 985
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Domri Rade
 type: Planeswalker
-url: http://tappedout.net/mtg-card/domri-rade/
+url: https://tappedout.net/mtg-card/domri-rade/
+

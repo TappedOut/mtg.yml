@@ -1,93 +1,128 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - R
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
 - Tokens
 mana_cost: 2RR
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Stensia Uprising
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 445
-    rarity: rare
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Dan Scott
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Vampires have done nothing but take from us. Tonight, we reclaim
+      what is ours!"*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 178
     rarity: rare
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '381'
+    - identifier: '381'
     wizards_id: 541036
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=541036
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dan Scott
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"Vampires have done nothing but take from us. Tonight, we reclaim
+      what is ours!"*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 445
+    rarity: rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: At the beginning of your end step, create a 1/1 red Human creature token. Then
   if you control exactly thirteen permanents, you may sacrifice this. When you do,
   this deals 7 damage to target creature, player or planeswalker.
 slug: stensia-uprising
-tags: card-color-red card-color-red-cost-4 card-type-enchantment
+synonyms: []
 tapped_id: 25478
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Human 1/1 R
-  power_toughness: 1/1
-  rules: ''
-  subtype: Human
-  tla: VOW
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 8
+    - - cannonical_type
+      - Creature
+    - - name
+      - Human 1/1 R
 type: Enchantment
-url: http://tappedout.net/mtg-card/stensia-uprising/
+url: https://tappedout.net/mtg-card/stensia-uprising/
+

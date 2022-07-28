@@ -1,82 +1,128 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: EMA
 cannonical_type: Creature
+color_identity: ''
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.36
+draft_average: 7.83
 effective_cost:
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Morbid
 mana_cost: 2B
-mana_cost_converted: 3
+mana_produced: ''
+mana_value: 3
+melds_from: []
 name: Wakedancer
 power_toughness: 2/2
 printings:
+- DKA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Austin Hsu
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Hers is an ancient form of necromancy, steeped in shamanic trance
+      and ritual that few skaberen or ghoulcallers comprehend.
+    frame: modern
+    mtgo_foil_id: 43396
+    mtgo_id: 43395
+    name: Dark Ascension
+    number: null
+    rarity: uncommon
+    release_date: '2012-02-03'
+    tla: DKA
+    variations: []
+    wizards_id: 262836
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=262836
+- CNS:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Austin Hsu
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Hers is an ancient form of necromancy, steeped in shamanic trance
+      and ritual that few skaberen or ghoulcallers comprehend.
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Conspiracy
+    number: null
+    rarity: common
+    release_date: '2014-06-06'
+    tla: CNS
+    variations: []
+    wizards_id: 382403
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382403
 - EMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Austin Hsu
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Hers is an ancient form of necromancy, steeped in shamanic trance
+      and ritual that few skaberen or ghoulcallers comprehend.
     frame: m15
     mtgo_foil_id: 60742
     mtgo_id: 60741
     name: Eternal Masters
     number: 116
     rarity: common
-    release_date: 2016-06-10
+    release_date: '2016-06-10'
+    tla: EMA
+    variations: []
     wizards_id: 413658
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413658
-- CNS:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    name: Conspiracy
-    rarity: common
-    release_date: 2014-06-06
-    wizards_id: 382403
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382403
-- DKA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 43396
-    mtgo_id: 43395
-    name: Dark Ascension
-    rarity: uncommon
-    release_date: 2012-02-03
-    wizards_id: 262836
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=262836
+rarity: uncommon
 rules: "Morbid \u2014 When Wakedancer enters the battlefield, if a creature died this\
   \ turn, put a 2/2 black Zombie creature token onto the battlefield."
 slug: wakedancer
@@ -84,18 +130,24 @@ subtype: Human Shaman
 subtype_tokens:
 - Human
 - Shaman
-tags: card-color-black card-color-black-cost-3 card-type-creature
+synonyms: []
 tapped_id: 13578
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: EMA
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Creature
-url: http://tappedout.net/mtg-card/wakedancer/
+url: https://tappedout.net/mtg-card/wakedancer/
+

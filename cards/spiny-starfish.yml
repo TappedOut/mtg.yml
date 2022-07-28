@@ -1,68 +1,95 @@
 activated_abilities:
 - ': Regenerate Spiny Starfish.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ALL
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.0
+draft_average: 3.0
 effective_cost:
 - U
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Regenerate
 mana_cost: 2U
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Spiny Starfish
 power_toughness: 0/1
 printings:
+- ALL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Alan Rabinowitz
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Alliances
+    number: null
+    rarity: uncommon
+    release_date: '1996-06-10'
+    tla: ALL
+    variations: []
+    wizards_id: 3118
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3118
 - ME3:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Alan Rabinowitz
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: modern
     mtgo_foil_id: 33695
     mtgo_id: 33694
     name: Masters Edition III
     number: 50
     rarity: uncommon
-    release_date: 2009-09-07
+    release_date: '2009-09-07'
+    tla: ME3
+    variations: []
     wizards_id: 201124
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=201124
-- ALL:
-    alterations:
-    - Normal
-    border_color: B
-    frame: original
-    name: Alliances
-    rarity: uncommon
-    release_date: 1996-06-10
-    wizards_id: 3118
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3118
+rarity: uncommon
 rules: "[[w]]: Regenerate Spiny Starfish.\r\n\r\nAt end of turn, if Spiny Starfish\
   \ regenerated this turn, put a 0/1 blue Starfish creature token into play for each\
   \ time it regenerated this turn."
@@ -70,17 +97,24 @@ slug: spiny-starfish
 subtype: Starfish
 subtype_tokens:
 - Starfish
-tags: card-color-blue card-color-blue-cost-3 card-type-creature
+synonyms: []
 tapped_id: 7822
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 0/1 U Creature Starfish
-  power_toughness: 0/1
-  rules: ''
-  subtype: Starfish
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 0/1
+    - - rules
+      - ''
+    - - type
+      - Creature
+    - - subtype
+      - 725
+    - - cannonical_type
+      - Creature
+    - - name
+      - null
 type: Creature
-url: http://tappedout.net/mtg-card/spiny-starfish/
+url: https://tappedout.net/mtg-card/spiny-starfish/
+

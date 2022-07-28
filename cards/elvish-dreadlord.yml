@@ -2,13 +2,14 @@ activated_abilities:
 - 'Encore  *(, Exile this card from your graveyard: For each opponent, create a token
   copy that attacks that opponent this turn if able. They gain haste. Sacrifice them
   at the beginning of the next end step. Activate this ability only as a sorcery.)*'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -16,19 +17,20 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,25 +43,34 @@ keywords:
 - Tokens
 - Encore
 mana_cost: 3BB
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Elvish Dreadlord
 power_toughness: 3/3
 printings:
 - CMR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Randy Vargas
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander Legends
     number: 121
     rarity: rare
-    release_date: 2020-11-20
+    release_date: '2020-11-20'
+    tla: CMR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '647'
+    - identifier: '647'
     wizards_id: 497641
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497641
 rules: "Deathtouch\r\n\r\nWhen Elvish Dreadlord dies *(is put into the graveyard from\
@@ -73,17 +84,24 @@ subtype: Zombie Elf
 subtype_tokens:
 - Zombie
 - Elf
-tags: card-color-black card-color-black-cost-5 card-type-creature
+synonyms: []
 tapped_id: 23594
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CMR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Creature
-url: http://tappedout.net/mtg-card/elvish-dreadlord/
+url: https://tappedout.net/mtg-card/elvish-dreadlord/
+

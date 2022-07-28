@@ -3,7 +3,7 @@ activated_abilities:
   Hippo creature token into play.'
 - ': Phelddagrif gains flying until end of turn. Target opponent gains 2 life.'
 - ' : Return Phelddagrif to its owner''s hand. Target opponent may draw a card.'
-activation_costs:
+activated_costs:
 - G
 - U
 - W
@@ -11,31 +11,35 @@ canadian_hl_score: 0
 cannonical_set: ALL
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 11.78
+draft_average: 1.0
 effective_cost:
 - W
 - U
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,34 +47,57 @@ keywords:
 - Flying
 - Trample
 mana_cost: 1UWG
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Phelddagrif
 power_toughness: 4/4
 printings:
 - MED:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Amy Weber
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 28122
     mtgo_id: 28121
     name: Masters Edition
-    rarity: rare
-    release_date: 2007-09-10
+    number: null
+    rarity: null
+    release_date: '2007-09-10'
+    tla: MED
+    variations: []
     wizards_id: 159097
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=159097
 - ALL:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Amy Weber
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Alliances
+    number: null
     rarity: rare
-    release_date: 1996-06-10
+    release_date: '1996-06-10'
+    tla: ALL
+    variations: []
     wizards_id: 3227
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3227
+rarity: rare
 rules: "[[symbol:G]]: Phelddagrif gains trample until end of turn. Target opponent\
   \ puts a 1/1 green Hippo creature token into play.\r\n\r\n[[symbol:W]]: Phelddagrif\
   \ gains flying until end of turn. Target opponent gains 2 life.\r\n\r\n[[symbol:U]]\
@@ -79,18 +106,24 @@ slug: phelddagrif
 subtype: Phelddagrif
 subtype_tokens:
 - Phelddagrif
-tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-green card-color-white
-  card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 565
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 1/1 G Creature Hippo
-  power_toughness: 1/1
-  rules: ''
-  subtype: Hippo
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Creature
+    - - subtype
+      - 215
+    - - cannonical_type
+      - Creature
+    - - name
+      - null
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/phelddagrif/
+url: https://tappedout.net/mtg-card/phelddagrif/
+

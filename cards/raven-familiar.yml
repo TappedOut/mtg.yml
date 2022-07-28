@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: C13
@@ -6,28 +7,31 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 2.0
+draft_average: 4.58
 effective_cost:
 - U
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -35,38 +39,63 @@ keywords:
 - Sacrifice
 - Echo
 mana_cost: 2U
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Raven Familiar
 power_toughness: 1/2
 printings:
+- ULG:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Edward P. Beard, Jr.
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: 12520
+    mtgo_id: 12519
+    name: Urza's Legacy
+    number: null
+    rarity: uncommon
+    release_date: '1999-02-01'
+    tla: ULG
+    variations: []
+    wizards_id: 12381
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=12381
 - C13:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: John Avon
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 51295
     mtgo_id: 51294
     name: Commander 2013
     number: 55
     rarity: uncommon
-    release_date: 2013-11-01
+    release_date: '2013-11-01'
+    tla: C13
+    variations: []
     wizards_id: 376468
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376468
-- ULG:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: original
-    mtgo_foil_id: 12520
-    mtgo_id: 12519
-    name: Urza's Legacy
-    rarity: uncommon
-    release_date: 1999-02-01
-    wizards_id: 12381
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=12381
+rarity: uncommon
 rules: "Flying\r\n\r\nEcho {2}{U} (At the beginning of your upkeep, if this came under\
   \ your control since the beginning of your last upkeep, sacrifice it unless you\
   \ pay its echo cost.) \r\n\r\nWhen Raven Familiar enters the battlefield, look at\
@@ -76,7 +105,9 @@ slug: raven-familiar
 subtype: Bird
 subtype_tokens:
 - Bird
-tags: card-color-blue card-color-blue-cost-3 card-type-creature
+synonyms: []
 tapped_id: 6171
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/raven-familiar/
+url: https://tappedout.net/mtg-card/raven-familiar/
+

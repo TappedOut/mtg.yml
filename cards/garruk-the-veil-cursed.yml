@@ -4,12 +4,11 @@ activated_abilities:
   it, put it into your hand, then shuffle your library.'
 - ' : Creatures you control gain trample and get +X/+X until end of turn, where X
   is the number of creature cards in your graveyard.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ISD
 cannonical_type: Planeswalker
-color_indicator:
-- B
-- G
+color_indicator: BG
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -22,22 +21,23 @@ companions:
 effective_cost:
 - B
 - G
-flat_cost: 0
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -47,39 +47,56 @@ keywords:
 - Sacrifice
 - Counters
 - Tokens
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Garruk, the Veil-Cursed
 printings:
+- ISD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Deschamps
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Innistrad
+    number: 181
+    rarity: mythic_rare
+    release_date: '2011-09-30'
+    tla: ISD
+    variations: []
+    wizards_id: 245251
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=245251
 - V17:
     alterations:
-    - Foil
-    booster_exclude: true
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Grzegorz Rutkowski
+    booster_exclude: false
     border_color: B
     cannonical: false
-    foil: foil
-    foil_only: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 66428
     mtgo_id: 66427
     name: 'From the Vault: Transform'
     number: 9
     rarity: mythic_rare
-    release_date: 2017-11-24
+    release_date: '2017-11-24'
+    tla: V17
+    variations: []
     wizards_id: 439331
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439331
-- ISD:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: modern
-    name: Innistrad
-    number: 181
-    rarity: mythic_rare
-    release_date: 2011-09-30
-    wizards_id: 245251
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=245251
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]] : Create a 1/1 black Wolf creature token with deathtouch.\r\
   \n\r\n[[symbol:loyalty-minus1]] : Sacrifice a creature. If you do, search your library\
   \ for a creature card, reveal it, put it into your hand, then shuffle your library.\r\
@@ -89,28 +106,39 @@ slug: garruk-the-veil-cursed
 subtype: Garruk
 subtype_tokens:
 - Garruk
-tags: card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 13250
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Wolf 1/1 B
-  power_toughness: 1/1
-  rules: Deathtouch
-  subtype: Wolf
-  tla: ISD
-  type: Token Creature
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Wolf 2/2 G
-  power_toughness: 2/2
-  rules: ''
-  subtype: Wolf
-  tla: ISD
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Deathtouch
+    - - type
+      - Token Creature
+    - - subtype
+      - 93
+    - - cannonical_type
+      - Creature
+    - - name
+      - Wolf 1/1 B
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 93
+    - - cannonical_type
+      - Creature
+    - - name
+      - Wolf 2/2 G
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/garruk-the-veil-cursed/
+url: https://tappedout.net/mtg-card/garruk-the-veil-cursed/
+

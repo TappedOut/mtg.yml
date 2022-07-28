@@ -5,12 +5,14 @@ activated_abilities:
   create a token copy that attacks that opponent this turn if able. They gain haste.
   Sacrifice them at the beginning of the next end step. Activate this ability only
   as a sorcery.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -19,20 +21,21 @@ companions:
 effective_cost:
 - U
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,26 +47,34 @@ keywords:
 - Tokens
 - Encore
 mana_cost: 1UB
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Araumi of the Dead Tide
 power_toughness: 1/4
 printings:
 - CMR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daarken
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander Legends
     number: 267
     rarity: uncommon
-    release_date: 2020-11-20
+    release_date: '2020-11-20'
+    tla: CMR
     variations:
-    - alterations:
-      - Etched
-      - Foil
-      - Normal
-      identifier: '587'
+    - identifier: '587'
     wizards_id: 497787
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497787
 rules: '[[symbol:T]], Exile cards from your graveyard equal to the number of opponents
@@ -77,17 +88,24 @@ subtype: Merfolk Wizard
 subtype_tokens:
 - Merfolk
 - Wizard
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-3 card-type-creature
+synonyms: []
 tapped_id: 23587
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CMR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Creature
-url: http://tappedout.net/mtg-card/araumi-of-the-dead-tide/
+url: https://tappedout.net/mtg-card/araumi-of-the-dead-tide/
+

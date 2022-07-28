@@ -5,6 +5,7 @@ activated_abilities:
   or planeswalker card from among them and put it into your hand. Put the rest on
   the bottom of your library in any order. '
 - ': You gain 100 life.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: JOU
 cannonical_type: Planeswalker
@@ -12,74 +13,116 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.76
+draft_average: 1.14
 effective_cost:
 - W
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Quest Magic
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
 mana_cost: 3GW
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Ajani, Mentor of Heroes
+planeswalker_loyalty: 4
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 397
-    rarity: mythic_rare
-    release_date: 2019-12-09
-- RNAMED:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Ravnica Allegiance: Mythic Edition'
-    number: 5
-    rarity: mythic_rare
-    release_date: 2019-01-26
 - JOU:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Aaron Miller
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: modern
     mtgo_foil_id: 52135
     mtgo_id: 52134
     name: Journey into Nyx
     number: 145
     rarity: mythic_rare
-    release_date: 2014-05-02
+    release_date: '2014-05-02'
+    tla: JOU
+    variations: []
     wizards_id: 380367
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=380367
+- RNAMED:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Bram Sels
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Ravnica Allegiance: Mythic Edition'
+    number: 5
+    rarity: mythic_rare
+    release_date: '2019-01-26'
+    tla: RNAMED
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Uta Natsume
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 397
+    rarity: mythic_rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Distribute three +1/+1 counters among one, two,\
   \ or three target creatures you control. \r\n\r\n[[symbol:loyalty-plus1]]: Look\
   \ at the top four cards of your library. You may reveal an Aura, creature, or planeswalker\
@@ -89,8 +132,9 @@ slug: ajani-mentor-of-heroes
 subtype: Ajani
 subtype_tokens:
 - Ajani
-tags: card-color-gold card-color-gold-cost-5 card-color-green card-color-white card-type-legendary
-  card-type-planeswalker
+synonyms: []
 tapped_id: 15373
+tokens: []
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/ajani-mentor-of-heroes/
+url: https://tappedout.net/mtg-card/ajani-mentor-of-heroes/
+

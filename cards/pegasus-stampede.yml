@@ -1,96 +1,141 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ATH
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.33
+draft_average: 6.5
 effective_cost:
 - W
-flat_cost: 2
 formats:
 - 1v1 Commander
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 - Sacrifice
 - Buyback
 mana_cost: 1W
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Pegasus Stampede
+power_toughness: ''
 printings:
+- EXO:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - list
+      - The List
+    artist: Mark Zug
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: 10498
+    mtgo_id: 10497
+    name: Exodus
+    number: null
+    rarity: uncommon
+    release_date: '1998-06-15'
+    tla: EXO
+    variations: []
+    wizards_id: 6044
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=6044
+- ATH:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mark Zug
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Anthologies
+    number: 60
+    rarity: uncommon
+    release_date: '1998-11-01'
+    tla: ATH
+    variations: []
+    wizards_id: null
+    wizards_url: null
 - TPR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Zug
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 56887
     mtgo_id: 56886
     name: Tempest Remastered
     number: 24
     rarity: uncommon
-    release_date: 2015-05-06
+    release_date: '2015-05-06'
+    tla: TPR
+    variations: []
     wizards_id: 397430
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397430
-- ATH:
-    alterations:
-    - Normal
-    border_color: B
-    frame: original
-    name: Anthologies
-    number: 60
-    rarity: uncommon
-    release_date: 1998-11-01
-- EXO:
-    alterations:
-    - Normal
-    - The List
-    border_color: B
-    frame: original
-    mtgo_foil_id: 10498
-    mtgo_id: 10497
-    name: Exodus
-    rarity: uncommon
-    release_date: 1998-06-15
-    wizards_id: 6044
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=6044
+rarity: uncommon
 rules: "Buyback-Sacrifice a land. *(You may sacrifice a land in addition to any other\
   \ costs as you play this spell. If you do, put this card into your hand as it resolves.)*\r\
   \n\r\nPut a 1/1 white Pegasus creature token with flying into play."
 slug: pegasus-stampede
-tags: card-color-white card-color-white-cost-2 card-type-sorcery
+synonyms: []
 tapped_id: 6606
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Pegasus 1/1 W
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Pegasus
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 105
+    - - cannonical_type
+      - Creature
+    - - name
+      - Pegasus 1/1 W
 type: Sorcery
-url: http://tappedout.net/mtg-card/pegasus-stampede/
+url: https://tappedout.net/mtg-card/pegasus-stampede/
+

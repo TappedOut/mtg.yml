@@ -1,6 +1,6 @@
 activated_abilities:
 - ': Add  or .'
-activation_costs:
+activated_costs:
 - B
 - W
 canadian_hl_score: 0
@@ -17,83 +17,122 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 10.13
+draft_average: 4.53
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: W, B
+mana_value: 0
+melds_from: []
 name: Isolated Chapel
 printings:
-- DOM:
-    alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    border_color: B
-    frame: m15
-    name: Dominaria
-    number: 241
-    rarity: rare
-    release_date: 2018-04-22
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: Animated
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
-    wizards_id: 443129
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443129
-- MD1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: modern
-    name: Modern Event Deck
-    number: 16
-    rarity: rare
-    release_date: 2014-05-30
-    wizards_id: 382189
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382189
 - ISD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Cliff Childs
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Not every church is a place of faith.
     frame: modern
     mtgo_foil_id: 42653
     mtgo_id: 42652
     name: Innistrad
+    number: null
     rarity: rare
-    release_date: 2011-09-30
+    release_date: '2011-09-30'
+    tla: ISD
+    variations: []
     wizards_id: 241979
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=241979
+- MD1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Cliff Childs
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Not every church is a place of faith.*'
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Modern Event Deck
+    number: 16
+    rarity: rare
+    release_date: '2014-05-30'
+    tla: MD1
+    variations: []
+    wizards_id: 382189
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382189
+- DOM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Richard Wright
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Serra''s blessing lies strongest upon Sursi, where her holy chapels
+      are untouched even as the Cabal encroaches.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Dominaria
+    number: 241
+    rarity: rare
+    release_date: '2018-04-22'
+    tla: DOM
+    variations:
+    - identifier: Animated
+    - identifier: PromoPack
+    wizards_id: 443129
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443129
+rarity: rare
 rules: "Isolated Chapel enters the battlefield tapped unless you control a Plains\
   \ or a Swamp.\r\n\r\n[[symbol:T]]: Add [[symbol:W]] or [[symbol:B]]."
 slug: isolated-chapel
@@ -104,9 +143,9 @@ synonyms:
 - WB Checkland
 - BW Check Land
 - WB Check Land
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black-slow card-mana-white-slow
-  card-type-land
 tap_land: true
 tapped_id: 13188
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/isolated-chapel/
+url: https://tappedout.net/mtg-card/isolated-chapel/
+

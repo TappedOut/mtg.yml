@@ -2,9 +2,11 @@ activated_abilities:
 - 'Counter target spell. Create X colorless Treasure artifact tokens, where X is that
   spell''s converted mana cost. They have , Sacrifice this artifact: Add one mana
   of any color to your mana pool.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: XLN
 cannonical_type: Instant
+color_identity: ''
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -14,74 +16,96 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.66
+draft_average: 4.6
 effective_cost:
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
-is_permanent: false
 keywords:
 - Counterspell
 - Tokens
 mana_cost: 3UU
-mana_cost_converted: 5
+mana_produced: ''
+mana_value: 5
+melds_from: []
 name: Spell Swindle
+power_toughness: ''
 printings:
 - XLN:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - list
+      - The List
+    artist: Victor Adame Minguez
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 65179
     mtgo_id: 65178
     name: Ixalan
     number: 82
     rarity: rare
-    release_date: 2017-09-29
+    release_date: '2017-09-29'
+    tla: XLN
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 435235
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435235
+rarity: rare
 rules: 'Counter target spell. Create X colorless Treasure artifact tokens, where X
   is that spell''s converted mana cost. They have [[symbol:tap]], Sacrifice this artifact:
   Add one mana of any color to your mana pool.'
 slug: spell-swindle
-tags: card-color-blue card-color-blue-cost-5 card-type-instant
+synonyms: []
 tapped_id: 19423
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: XLN
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Instant
-url: http://tappedout.net/mtg-card/spell-swindle/
+url: https://tappedout.net/mtg-card/spell-swindle/
+

@@ -1,6 +1,6 @@
 activated_abilities:
 - ': This gets +5/+5 until end of turn.'
-activation_costs:
+activated_costs:
 - B
 - G
 - R
@@ -9,44 +9,42 @@ activation_costs:
 canadian_hl_score: 0
 cannonical_set: NEO
 cannonical_type: Creature
-color_identity:
-- U
-- B
-- R
-- G
+color_identity: UBRG
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - W
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -55,32 +53,44 @@ keywords:
 - Flying
 - Indestructible
 mana_cost: 3W
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Kyodai, Soul of Kamigawa
 power_toughness: 3/3
 printings:
 - NEO:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Daniel Zrom
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
     number: 23
     rarity: rare
-    release_date: 2022-02-10
+    release_date: '2022-02-10'
+    tla: NEO
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '407'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '438'
+    - identifier: '407'
+    - identifier: '438'
     wizards_id: 548316
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=548316
 rules: "Flash \r\n\r\nFlying \r\n\r\nWhen this enters the battlefield, another target\
@@ -92,7 +102,9 @@ subtype: Dragon Spirit
 subtype_tokens:
 - Dragon
 - Spirit
-tags: card-color-white card-color-white-cost-4 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 25794
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/kyodai-soul-of-kamigawa/
+url: https://tappedout.net/mtg-card/kyodai-soul-of-kamigawa/
+

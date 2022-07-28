@@ -1,14 +1,12 @@
 activated_abilities:
 - ': Add  or .'
-activation_costs:
+activated_costs:
 - U
 - W
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Land
-color_identity:
-- W
-- U
+color_identity: WU
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -20,93 +18,156 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 7.12
+draft_average: 6.28
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: W, U
+mana_value: 0
+melds_from: []
 name: Port Town
 printings:
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 420
-    rarity: rare
-    release_date: 2022-04-30
-    wizards_id: 559992
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559992
-- NEC:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Kamigawa: Neon Dynasty Commander'
-    number: 174
-    rarity: rare
-    release_date: 2022-02-11
-    wizards_id: 554256
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554256
-- VOC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Crimson Vow Commander'
-    number: 178
-    rarity: rare
-    release_date: 2021-11-18
-    wizards_id: 545798
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545798
-- AFC:
-    alterations:
-    - Normal
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 255
-    rarity: rare
-    release_date: 2021-07-24
-    wizards_id: 532642
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532642
 - SOI:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Noah Bradley
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*A haunted fog known as the Nebelgast shrouds the cities along
+      Nephalia''s coast.*'
     frame: m15
     mtgo_foil_id: 59927
     mtgo_id: 59926
     name: Shadows over Innistrad
     number: 278
     rarity: rare
-    release_date: 2016-04-08
+    release_date: '2016-04-08'
+    tla: SOI
+    variations: []
     wizards_id: 410046
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=410046
+- AFC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kamila Szutenberg
+    booster_exclude: false
+    border_color: null
+    cannonical: true
+    flavour_text: ''
+    frame: null
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 255
+    rarity: rare
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: 532642
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532642
+- VOC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kamila Szutenberg
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*A haunted fog known as the Nebelgast shrouds the cities along
+      Nephalia''s coast.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Crimson Vow Commander'
+    number: 178
+    rarity: rare
+    release_date: '2021-11-18'
+    tla: VOC
+    variations: []
+    wizards_id: 545798
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545798
+- NEC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kamila Szutenberg
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*A haunted fog known as the Nebelgast shrouds the cities along
+      Nephalia''s coast.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kamigawa: Neon Dynasty Commander'
+    number: 174
+    rarity: rare
+    release_date: '2022-02-11'
+    tla: NEC
+    variations: []
+    wizards_id: 554256
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554256
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kamila Szutenberg
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 420
+    rarity: rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559992
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559992
+rarity: rare
 rules: "As this enters the battlefield, you may reveal a Plains or Island card from\
   \ your hand. If you don't this enters the battlefield tapped.\r\n\r\n[[symbol:T]]:\
   \ Add [[symbol:W]] or [[symbol:U]]."
@@ -134,8 +195,8 @@ synonyms:
 - UW Snarl Land
 - WU Revealand
 - UW Revealand
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-blue card-mana-white
-  card-type-land
 tapped_id: 17727
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/port-town/
+url: https://tappedout.net/mtg-card/port-town/
+

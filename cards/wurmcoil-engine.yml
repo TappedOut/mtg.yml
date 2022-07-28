@@ -1,29 +1,35 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: 2XM
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 6
+cube_average: 2.55
+draft_average: 1.11
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -31,91 +37,149 @@ keywords:
 - Lifelink
 - Tokens
 mana_cost: '6'
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Wurmcoil Engine
 power_toughness: 6/6
 printings:
-- 2XM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 308
-    rarity: mythic_rare
-    release_date: 2020-08-07
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '368'
-    wizards_id: 489981
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489981
-- CM2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology 2018
-    number: 231
-    rarity: mythic_rare
-    release_date: 2018-06-08
-    wizards_id: 446967
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446967
-- MPS:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: 'Masterpiece Series: Kaladesh Inventions'
-    number: 54
-    rarity: mythic_rare
-    release_date: 2016-09-30
-    wizards_id: 425825
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425825
-- C14:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 54882
-    mtgo_id: 54881
-    name: Commander 2014
-    rarity: mythic_rare
-    release_date: 2014-11-21
-    wizards_id: 389756
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389756
 - SOM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Raymond Swanland
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 38186
     mtgo_id: 38185
     name: Scars of Mirrodin
+    number: null
     rarity: mythic_rare
-    release_date: 2010-10-01
+    release_date: '2010-10-01'
+    tla: SOM
+    variations: []
     wizards_id: 207875
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=207875
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Raymond Swanland
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
     variations:
     - identifier: '2'
+    wizards_id: null
+    wizards_url: null
+- C14:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Raymond Swanland
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 54882
+    mtgo_id: 54881
+    name: Commander 2014
+    number: null
+    rarity: mythic_rare
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
+    wizards_id: 389756
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389756
+- MPS:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Aleksi Briclot
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Masterpiece Series: Kaladesh Inventions'
+    number: 54
+    rarity: mythic_rare
+    release_date: '2016-09-30'
+    tla: MPS
+    variations: []
+    wizards_id: 425825
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425825
+- CM2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Raymond Swanland
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology 2018
+    number: 231
+    rarity: mythic_rare
+    release_date: '2018-06-08'
+    tla: CM2
+    variations: []
+    wizards_id: 446967
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446967
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Raymond Swanland
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 308
+    rarity: mythic_rare
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations:
+    - identifier: '368'
+    wizards_id: 489981
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489981
+rarity: mythic_rare
 rules: "Deathtouch, lifelink\r\n\r\nWhen this dies *(is put into a graveyard from\
   \ the battlefield)*, create a 3/3 colorless Wurm artifact creature token with deathtouch\
   \ and a 3/3 colorless Wurm artifact creature token with lifelink."
@@ -124,28 +188,39 @@ subtype: Phyrexian Wurm
 subtype_tokens:
 - Phyrexian
 - Wurm
-tags: card-color-colorless card-color-colorless-cost-6 card-type-artifact card-type-creature
+synonyms: []
 tapped_id: 12403
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Wurm 3/3 C w/ Deathtouch
-  power_toughness: 3/3
-  rules: Deathtouch
-  subtype: Wurm
-  tla: 2XM
-  type: Token Artifact Creature
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Wurm 3/3 C w/ Lifelink
-  power_toughness: 3/3
-  rules: Lifelink
-  subtype: Wurm
-  tla: 2XM
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 3/3
+    - - rules
+      - Deathtouch
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 99
+    - - cannonical_type
+      - Creature
+    - - name
+      - Wurm 3/3 C w/ Deathtouch
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 3/3
+    - - rules
+      - Lifelink
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 99
+    - - cannonical_type
+      - Creature
+    - - name
+      - Wurm 3/3 C w/ Lifelink
 type: Artifact Creature
-url: http://tappedout.net/mtg-card/wurmcoil-engine/
+url: https://tappedout.net/mtg-card/wurmcoil-engine/
+

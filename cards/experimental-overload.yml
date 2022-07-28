@@ -1,76 +1,99 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M21
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.06
+draft_average: 3.5
 effective_cost:
 - U
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Tokens
 mana_cost: 2UR
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Experimental Overload
 printings:
 - M21:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lie Setiawan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Explosions aren''t necessarily failures, just a different kind
+      of success.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Core Set 2021
     number: 218
     rarity: uncommon
-    release_date: 2020-07-03
+    release_date: '2020-07-03'
+    tla: M21
+    variations: []
     wizards_id: 485541
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485541
 rules: Create an X/X blue and red Weird creature token, where X is the number of instant
   and sorcery cards in your graveyard. Then you may return an instant or sorcery card
   from your graveyard to your hand. Exile Experimental Overload.
 slug: experimental-overload
-tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-red card-type-sorcery
+synonyms: []
 tapped_id: 23088
 tokens:
-- cannonical_type: Creature
-  colors: UR
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Weird X/X UR
-  power_toughness: X/X
-  rules: ''
-  subtype: Weird
-  tla: M21
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - UR
+    - - power_toughness
+      - X/X
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 395
+    - - cannonical_type
+      - Creature
+    - - name
+      - Weird X/X UR
 type: Sorcery
-url: http://tappedout.net/mtg-card/experimental-overload/
+url: https://tappedout.net/mtg-card/experimental-overload/
+

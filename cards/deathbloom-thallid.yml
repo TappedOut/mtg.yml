@@ -1,94 +1,129 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M21
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.72
+draft_average: 6.09
 effective_cost:
 - B
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: 2B
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Deathbloom Thallid
 power_toughness: 3/2
 printings:
-- M21:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Core Set 2021
-    number: 94
-    rarity: common
-    release_date: 2020-07-03
-    wizards_id: 485417
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485417
 - DOM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mike Burns
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*Nature is not always gentle or kind, but all life begets life.\"\
+      \r\n<br>&mdash;Marwyn of Llanowar*"
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Dominaria
     number: 84
     rarity: common
-    release_date: 2018-04-22
+    release_date: '2018-04-22'
+    tla: DOM
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: Animated
+    - identifier: Animated
     wizards_id: 442972
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442972
+- M21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mike Burns
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*Nature is not always gentle or kind, but all life begets life.\"\
+      \r\n<br>&mdash;Marwyn of Llanowar*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Core Set 2021
+    number: 94
+    rarity: common
+    release_date: '2020-07-03'
+    tla: M21
+    variations: []
+    wizards_id: 485417
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485417
+rarity: common
 rules: When Deathbloom Thallid dies, create a 1/1 green Saproling creature token.
 slug: deathbloom-thallid
 subtype: Fungus
 subtype_tokens:
 - Fungus
-tags: card-color-black card-color-black-cost-3 card-type-creature
+synonyms: []
 tapped_id: 20291
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Saproling 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Saproling
-  tla: M21
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 893
+    - - cannonical_type
+      - Creature
+    - - name
+      - Saproling 1/1 G
 type: Creature
-url: http://tappedout.net/mtg-card/deathbloom-thallid/
+url: https://tappedout.net/mtg-card/deathbloom-thallid/
+

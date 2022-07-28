@@ -1,67 +1,91 @@
 activated_abilities:
 - '(4), Tap: Put a 1/1 Gnome artifact creature token into play.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: USG
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 4
+cube_average: 2.0
+draft_average: 2.0
+effective_cost: []
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: '4'
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Metrognome
+power_toughness: ''
 printings:
 - USG:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jeff Laubenstein
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 12144
     mtgo_id: 12143
     name: Urza's Saga
     number: 301
     rarity: rare
-    release_date: 1998-10-12
+    release_date: '1998-10-12'
+    tla: USG
+    variations: []
     wizards_id: 8862
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=8862
+rarity: rare
 rules: "When a spell or ability an opponent controls causes you to discard Metrognome,\
   \ put four 1/1 Gnome artifact creature tokens into play.\r\n\r\n(4), Tap: Put a\
   \ 1/1 Gnome artifact creature token into play."
 slug: metrognome
-tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
+synonyms: []
 tapped_id: 6367
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Gnome 1/1 C
-  power_toughness: 1/1
-  rules: ''
-  subtype: Gnome
-  tla: UN3
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 198
+    - - cannonical_type
+      - Creature
+    - - name
+      - Gnome 1/1 C
 type: Artifact
-url: http://tappedout.net/mtg-card/metrognome/
+url: https://tappedout.net/mtg-card/metrognome/
+

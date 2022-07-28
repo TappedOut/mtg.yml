@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: RNA
 cannonical_type: Sorcery
@@ -10,51 +12,73 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 1.0
+draft_average: 3.77
 effective_cost:
 - U
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Counterspell
 - Tokens
 mana_cost: '{G/U}{G/U} // 1GU'
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Repudiate / Replicate
 printings:
 - RNA:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Victor Adame Minguez
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Ravnica Allegiance
     number: 227
     rarity: rare
-    release_date: 2019-01-25
+    release_date: '2019-01-25'
+    tla: RNA
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "<h4>Repudiate</h4>\r\n\r\nCounter target activated or triggered ability. *(Mana\
   \ abilities can't be targeted.)*\r\n\r\n-----\r\n\r\n<h3>Sorcery</h3>\r\n\r\n<h4>Replicate</h4>\r\
   \n\r\nCreate a token that's a copy of target creature you control."
@@ -69,17 +93,23 @@ synonyms:
 - Replicate / Repudiate
 - Replicate to Repudiate
 - Replicate and Repudiate
-tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-green card-type-instant
 tapped_id: 21183
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Instant
-url: http://tappedout.net/mtg-card/repudiate-replicate/
+url: https://tappedout.net/mtg-card/repudiate-replicate/
+

@@ -3,36 +3,40 @@ activated_abilities:
   if able. '
 - ': Rowan Kenrith deals 3 damage to each tapped creature target player controls. '
 - ': Target player gets an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.0
 effective_cost:
 - R
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -40,51 +44,82 @@ keywords:
 - Counters
 - Partner
 mana_cost: 4RR
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Rowan Kenrith
+planeswalker_loyalty: 4
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 805
-    rarity: mythic_rare
-    release_date: 2022-06-10
-    wizards_id: 567622
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567622
 - BBD:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Anna Steinbauer
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 69241
     mtgo_id: 69240
     name: Battlebond
     number: 2
     rarity: mythic_rare
-    release_date: 2018-06-08
+    release_date: '2018-06-08'
+    tla: BBD
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '256'
+    - identifier: '256'
     wizards_id: 445970
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=445970
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Anna Steinbauer
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 256
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Anna Steinbauer
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 805
+    rarity: mythic_rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567622
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567622
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus2]]: During target player's next turn, each creature\
   \ that player controls attacks if able. \r\n\r\n[[symbol:loyalty-minus2]]: Rowan\
   \ Kenrith deals 3 damage to each tapped creature target player controls. \r\n\r\n\
@@ -96,19 +131,25 @@ slug: rowan-kenrith
 subtype: Rowan
 subtype_tokens:
 - Rowan
-tags: card-color-red card-color-red-cost-6 card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 20373
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Rowan Kenrith
-  power_toughness: null
-  rules: Whenever you activate an ability that isn't a mana ability, copy it. You
-    may choose new targets for the copy.
-  subtype: Rowan
-  tla: CLB
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Whenever you activate an ability that isn't a mana ability, copy it. You may
+        choose new targets for the copy.
+    - - type
+      - Emblem
+    - - subtype
+      - 1259
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Rowan Kenrith
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/rowan-kenrith/
+url: https://tappedout.net/mtg-card/rowan-kenrith/
+

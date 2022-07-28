@@ -1,32 +1,34 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
 - Penny Dreadful
-- Vintage
-has_activated_abilities: false
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -35,23 +37,33 @@ keywords:
 - Tokens
 - Blitz
 mana_cost: 3G
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Caldaia Guardian
 power_toughness: 4/3
 printings:
 - NCC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Aaron J. Riley
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Streets of New Capenna: Commander'
     number: 56
     rarity: rare
-    release_date: 2022-04-30
+    release_date: '2022-04-30'
+    tla: NCC
     variations:
-    - alterations:
-      - Normal
-      identifier: '156'
+    - identifier: '156'
+    wizards_id: null
+    wizards_url: null
 rules: "Whenever this or another creature you control with converted mana cost/mana\
   \ value 4 or greater dies, create two 1/1 green and white Citizen creature tokens.\
   \ *(Dying is being put into the graveyard from the battlefield, tokens are put into\
@@ -64,18 +76,24 @@ subtype: Human Soldier
 subtype_tokens:
 - Human
 - Soldier
-tags: card-color-green card-color-green-cost-4 card-type-creature
+synonyms: []
 tapped_id: 26431
 tokens:
-- cannonical_type: Creature
-  colors: GW
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Citizen 1/1 GW
-  power_toughness: 1/1
-  rules: ''
-  subtype: Citizen
-  tla: SNC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - GW
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 905
+    - - cannonical_type
+      - Creature
+    - - name
+      - Citizen 1/1 GW
 type: Creature
-url: http://tappedout.net/mtg-card/caldaia-guardian/
+url: https://tappedout.net/mtg-card/caldaia-guardian/
+

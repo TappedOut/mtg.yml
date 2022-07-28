@@ -3,6 +3,7 @@ activated_abilities:
 - ': Exile target permanent.'
 - ': Restart the game, leaving in exile all non-Aura permanent cards exiled with Karn
   Liberated. Then put those cards onto the battlefield under your control.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: 2XM
 cannonical_type: Planeswalker
@@ -10,106 +11,161 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 7
+cube_average: 2.43
+draft_average: 1.23
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
 mana_cost: '7'
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Karn Liberated
+planeswalker_loyalty: 6
 printings:
-- 2XM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 1
-    rarity: mythic_rare
-    release_date: 2020-08-07
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '333'
-    wizards_id: 489674
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489674
-- UMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 70084
-    mtgo_id: 70083
-    name: Ultimate Masters
-    number: 5
-    rarity: mythic_rare
-    release_date: 2018-12-07
-- UMAP:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: Ultimate Masters Promo
-    number: 2
-    rarity: mythic_rare
-    release_date: 2018-12-06
-- MM2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 57311
-    mtgo_id: 57310
-    name: Modern Masters 2015 Edition
-    number: 4
-    rarity: mythic_rare
-    release_date: 2015-05-22
-    wizards_id: 397828
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397828
 - NPH:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Chan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 39711
     mtgo_id: 39710
     name: New Phyrexia
     number: 1
     rarity: mythic_rare
-    release_date: 2011-05-13
+    release_date: '2011-05-13'
+    tla: NPH
+    variations: []
     wizards_id: 214350
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=214350
-promo_sets:
-- UMAP
+- MM2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Chan
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 57311
+    mtgo_id: 57310
+    name: Modern Masters 2015 Edition
+    number: 4
+    rarity: mythic_rare
+    release_date: '2015-05-22'
+    tla: MM2
+    variations: []
+    wizards_id: 397828
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397828
+- UMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Chan
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: 70084
+    mtgo_id: 70083
+    name: Ultimate Masters
+    number: 5
+    rarity: mythic_rare
+    release_date: '2018-12-07'
+    tla: UMA
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- UMAP:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Chan
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Ultimate Masters Promo
+    number: 2
+    rarity: mythic_rare
+    release_date: '2018-12-06'
+    tla: UMAP
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Chan
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 1
+    rarity: mythic_rare
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations:
+    - identifier: '333'
+    wizards_id: 489674
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489674
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus4]]: Target player exiles a card from his or her hand.\r\
   \n\r\n[[symbol:loyalty-minus3]]: Exile target permanent.\r\n\r\n[[symbol:loyalty-minus14]]:\
   \ Restart the game, leaving in exile all non-Aura permanent cards exiled with Karn\
@@ -120,7 +176,8 @@ subtype_tokens:
 - Karn
 synonyms:
 - Karn
-tags: card-color-colorless card-color-colorless-cost-7 card-type-planeswalker
 tapped_id: 12882
+tokens: []
 type: Planeswalker
-url: http://tappedout.net/mtg-card/karn-liberated/
+url: https://tappedout.net/mtg-card/karn-liberated/
+

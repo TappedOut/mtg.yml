@@ -1,79 +1,118 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: BBD
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.94
+draft_average: 2.0
 effective_cost:
 - B
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
 mana_cost: 4BB
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Noosegraf Mob
 power_toughness: 0/0
 printings:
-- BBD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 69031
-    mtgo_id: 69030
-    name: Battlebond
-    number: 151
-    rarity: common
-    release_date: 2018-06-08
-    wizards_id: 446119
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446119
 - EMN:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Seb McKinnon
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 61375
     mtgo_id: 61374
     name: Eldritch Moon
     number: 98
     rarity: rare
-    release_date: 2016-07-22
+    release_date: '2016-07-22'
+    tla: EMN
+    variations: []
     wizards_id: 414394
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414394
+- BBD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Seb McKinnon
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: 69031
+    mtgo_id: 69030
+    name: Battlebond
+    number: 151
+    rarity: null
+    release_date: '2018-06-08'
+    tla: BBD
+    variations: []
+    wizards_id: 446119
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446119
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Winona Nelson
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 98
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Noosegraf Mob enters the battlefield with five +1/+1 counters on it.\r\n\r\
   \nWhenever a player casts a spell, remove a +1/+1 counter from Noosegraf Mob. If\
   \ you do, create a 2/2 black Zombie creature token."
@@ -81,18 +120,24 @@ slug: noosegraf-mob
 subtype: Zombie
 subtype_tokens:
 - Zombie
-tags: card-color-black card-color-black-cost-6 card-type-creature
+synonyms: []
 tapped_id: 18107
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: BBD
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Creature
-url: http://tappedout.net/mtg-card/noosegraf-mob/
+url: https://tappedout.net/mtg-card/noosegraf-mob/
+

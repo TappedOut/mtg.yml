@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: ZNR
@@ -7,38 +8,39 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-- Zirda, the Dawnwaker
+cube_average: 4.5
 effective_cost:
 - W
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: true
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -47,31 +49,43 @@ keywords:
 - Flying
 - Attach
 mana_cost: 2W
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Maul of the Skyclaves
 printings:
 - ZNR:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Joseph Meehan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Zendikar Rising
     number: 27
     rarity: rare
-    release_date: 2020-09-25
+    release_date: '2020-09-25'
+    tla: ZNR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '320'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '320'
+    - identifier: PromoPack
     wizards_id: 491651
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=491651
 rules: "When Maul of the Skyclaves enters the battlefield, attach it to target creature\
@@ -81,7 +95,9 @@ slug: maul-of-the-skyclaves
 subtype: Equipment
 subtype_tokens:
 - Equipment
-tags: card-color-white card-color-white-cost-3 card-type-artifact
+synonyms: []
 tapped_id: 23247
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/maul-of-the-skyclaves/
+url: https://tappedout.net/mtg-card/maul-of-the-skyclaves/
+

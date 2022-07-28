@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: FUT
@@ -6,31 +7,34 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.75
+draft_average: 6.74
 effective_cost:
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Vintage
-has_activated_abilities: false
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -40,36 +44,60 @@ keywords:
 - Suspend
 - Counters
 mana_cost: 4U
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Infiltrator il-Kor
 power_toughness: 3/1
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 71
-    rarity: common
-    release_date: 2021-03-19
-    wizards_id: 509436
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509436
 - FUT:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jon Foster
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 26751
     mtgo_id: 26750
     name: Future Sight
+    number: null
     rarity: common
-    release_date: 2007-05-04
+    release_date: '2007-05-04'
+    tla: FUT
+    variations: []
     wizards_id: 130694
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=130694
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jon Foster
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 71
+    rarity: common
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509436
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509436
+rarity: common
 rules: "Shadow *(This creature can block or be blocked by only creatures with shadow.)\
   \ *\r\n\r\nSuspend 2&mdash;[[symbol:1]][[symbol:U]] *(Rather than cast this card\
   \ from your hand, you may pay [[symbol:1]][[symbol:U]] and exile it with two time\
@@ -81,7 +109,9 @@ subtype: Kor Rogue
 subtype_tokens:
 - Kor
 - Rogue
-tags: card-color-blue card-color-blue-cost-5 card-type-creature
+synonyms: []
 tapped_id: 693
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/infiltrator-il-kor/
+url: https://tappedout.net/mtg-card/infiltrator-il-kor/
+

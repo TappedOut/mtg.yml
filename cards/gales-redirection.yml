@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: CLB
@@ -14,48 +15,58 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 mana_cost: 3UU
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Gale's Redirection
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Yeong-Hao Han
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 73
     rarity: rare
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '563'
+    - identifier: '563'
     wizards_id: 562956
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=562956
 rules: "Exile target spell, then roll a twenty sided die and add that spell's converted\
@@ -66,7 +77,9 @@ rules: "Exile target spell, then roll a twenty sided die and add that spell's co
   \ 15+ | You may cast the exiled card without paying its mana cost for as long as\
   \ it remains exiled."
 slug: gales-redirection
-tags: card-color-blue card-color-blue-cost-5 card-type-instant
+synonyms: []
 tapped_id: 26607
+tokens: []
 type: Instant
-url: http://tappedout.net/mtg-card/gales-redirection/
+url: https://tappedout.net/mtg-card/gales-redirection/
+

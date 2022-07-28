@@ -2,7 +2,7 @@ activated_abilities:
 - ': Add .'
 - ', : Proliferate. *(Choose any number of permanents and/or players, then give each
   another counter of each kind already there.)*'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: NCC
@@ -18,26 +18,30 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 10.63
+draft_average: 2.32
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -45,58 +49,97 @@ is_permanent: true
 keywords:
 - Proliferate
 - Counters
-mana_cost_converted: 0
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Karn's Bastion
 printings:
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 410
-    rarity: rare
-    release_date: 2022-04-30
-    wizards_id: 559982
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559982
 - WAR:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Adam Paquette
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"I can't protect everyone here. But those I can, I will.\"\r\n\
+      <br>&mdash;*"
     frame: m15
     mtgo_foil_id: 72103
     mtgo_id: 72102
     name: War of the Spark
     number: 248
     rarity: rare
-    release_date: 2019-05-03
+    release_date: '2019-05-03'
+    tla: WAR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 461175
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461175
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Piotr Dura
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: "*\"I can't protect everyone here. But those I can, I will.\"\r\n\
+      <br>&mdash;Karn*"
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 248
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"I can't protect everyone here. But those I can, I will.\"\r\n\
+      <br>&mdash;Karn*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 410
+    rarity: rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559982
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559982
 rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:4]], [[symbol:T]]: Proliferate.\
   \ *(Choose any number of permanents and/or players, then give each another counter\
   \ of each kind already there.)*"
 slug: karns-bastion
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
+synonyms: []
 tapped_id: 21287
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/karns-bastion/
+url: https://tappedout.net/mtg-card/karns-bastion/
+

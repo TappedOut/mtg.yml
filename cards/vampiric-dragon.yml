@@ -1,35 +1,38 @@
 activated_abilities:
 - ': This deals 1 damage to target creature.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: VOC
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.8
 effective_cost:
 - B
 - R
-flat_cost: 8
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -37,45 +40,78 @@ keywords:
 - Flying
 - Counters
 mana_cost: 6BR
-mana_cost_converted: 8
+mana_value: 8
+melds_from: []
 name: Vampiric Dragon
 power_toughness: 5/5
 printings:
-- VOC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Crimson Vow Commander'
-    number: 158
-    rarity: rare
-    release_date: 2021-11-18
-    wizards_id: 545778
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545778
-- ARC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    name: Archenemy
-    number: 99
-    rarity: rare
-    release_date: 2010-06-18
-    wizards_id: 220578
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220578
 - ODY:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Gary Ruddell
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 16506
     mtgo_id: 16505
     name: Odyssey
+    number: null
     rarity: rare
-    release_date: 2001-09-21
+    release_date: '2001-09-21'
+    tla: ODY
+    variations: []
     wizards_id: 29969
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=29969
+- ARC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Gary Ruddell
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Archenemy
+    number: 99
+    rarity: null
+    release_date: '2010-06-18'
+    tla: ARC
+    variations: []
+    wizards_id: 220578
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220578
+- VOC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Gary Ruddell
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Crimson Vow Commander'
+    number: 158
+    rarity: rare
+    release_date: '2021-11-18'
+    tla: VOC
+    variations: []
+    wizards_id: 545778
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545778
+rarity: rare
 rules: "Flying\r\n\r\nWhenever a creature dies this turn, if it was dealt damage by\
   \ this, put a +1/+1 counter on this creature. *(Dying is being put into the graveyard\
   \ from the battlefield, tokens are put into the graveyard before they cease to exist.)*\r\
@@ -85,7 +121,9 @@ subtype: Vampire Dragon
 subtype_tokens:
 - Vampire
 - Dragon
-tags: card-color-black card-color-gold card-color-gold-cost-8 card-color-red card-type-creature
+synonyms: []
 tapped_id: 4721
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/vampiric-dragon/
+url: https://tappedout.net/mtg-card/vampiric-dragon/
+

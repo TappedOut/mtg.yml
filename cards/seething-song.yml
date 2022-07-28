@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: C21
@@ -13,110 +14,187 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.06
+draft_average: 7.8
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
+keywords: []
 mana_cost: 2R
-mana_cost_converted: 3
 mana_produced: RRRRR
+mana_value: 3
+melds_from: []
 name: Seething Song
 printings:
-- C21:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 179
-    rarity: common
-    release_date: 2021-04-23
-    wizards_id: 519214
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519214
-- DDG:
-    alterations:
-    - Foil
-    - Normal
-    - The List
-    border_color: B
-    frame: modern
-    mtgo_id: 40342
-    name: 'Duel Decks: Knights vs. Dragons'
-    number: 70
-    rarity: common
-    release_date: 2011-04-01
-    wizards_id: 243487
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=243487
-- ARC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    name: Archenemy
-    number: 46
-    rarity: common
-    release_date: 2010-06-18
-    wizards_id: 220561
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220561
 - 9ED:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Martina Pilcerova
+    booster_exclude: false
     border_color: W
+    cannonical: true
+    flavour_text: '"The purest ore is produced from the hottest furnace, and the brightest
+      thunder-bolt is elicited from the darkest storm."Charles Colton'
     frame: modern
     mtgo_foil_id: 22808
     mtgo_id: 22807
     name: Ninth Edition
+    number: null
     rarity: common
-    release_date: 2005-07-29
+    release_date: '2005-07-29'
+    tla: 9ED
+    variations: []
     wizards_id: 83377
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=83377
-- 9EDFBB:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: modern
-    mtgo_foil_id: 22808
-    mtgo_id: 22807
-    name: Ninth Edition Foreign Black Border
-    rarity: common
-    release_date: 2005-07-29
 - MRD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Martina Pilcerova
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Vulshok mana rituals echo the day when the red sun burst through
+      Mirrodin's surface to take its place in the heavens.
     frame: modern
     mtgo_foil_id: 19992
     mtgo_id: 19991
     name: Mirrodin
+    number: null
     rarity: common
-    release_date: 2003-10-02
+    release_date: '2003-10-02'
+    tla: MRD
+    variations: []
     wizards_id: 34945
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=34945
+- ARC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Martina Pilcerova
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Vulshok mana rituals echo the day when the red sun burst through
+      Mirrodin's surface to take its place in the heavens.
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Archenemy
+    number: 46
+    rarity: common
+    release_date: '2010-06-18'
+    tla: ARC
+    variations: []
+    wizards_id: 220561
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220561
+- DDG:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Jaime Jones
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*If your flesh can withstand the flame, the spirit of the dragon
+      will burn within your soul.*'
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 40342
+    name: 'Duel Decks: Knights vs. Dragons'
+    number: 70
+    rarity: common
+    release_date: '2011-04-01'
+    tla: DDG
+    variations: []
+    wizards_id: 243487
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=243487
+- 9EDFBB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Martina Pilcerova
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '"The purest ore is produced from the hottest furnace, and the brightest
+      thunder-bolt is elicited from the darkest storm."Charles Colton'
+    frame: modern
+    mtgo_foil_id: 22808
+    mtgo_id: 22807
+    name: Ninth Edition Foreign Black Border
+    number: null
+    rarity: common
+    release_date: '2005-07-29'
+    tla: 9EDFBB
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Martina Pilcerova
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Vulshok mana rituals echo the day when the red sun burst through
+      Mirrodin''s surface to take its place in the heavens.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 179
+    rarity: common
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519214
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519214
+rarity: common
 rules: Gain [[symbol:R]][[symbol:R]][[symbol:R]][[symbol:R]][[symbol:R]].
 slug: seething-song
-tags: card-color-red card-color-red-cost-3 card-mana-red card-type-instant
+synonyms: []
 tapped_id: 3439
+tokens: []
 type: Instant
-url: http://tappedout.net/mtg-card/seething-song/
+url: https://tappedout.net/mtg-card/seething-song/
+

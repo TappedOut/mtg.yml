@@ -1,99 +1,89 @@
-arena:
-  Alchemy:
-    cannonical_type: Creature
-    cmc: 6
-    date: 2021-12-09
-    keywords:
-    - Trample
-    - Landfall
-    mana_cost: 4RG
-    power_toughness: 5/5
-    rules: "Trample\r\n\r\nWhen this enters the battlefield, create a 0/1 green Plant\
-      \ creature token for each basic land you control.\r\n\r\n*Landfall* &mdash;\
-      \ Whenever a land enters the battlefield under your control, put four +1/+1\
-      \ counters on target Plant you control. It gains trample until end fo turn."
-    subtype: Elemental
-  Historic:
-    date: 2021-12-09
-    keywords:
-    - Trample
-    - Landfall
-    - Counters
-    - Tokens
-    rules: "Trample\r\n\r\nWhen this enters the battlefield, create a 0/1 green Plant\
-      \ creature token for each basic land you control.\r\n\r\n*Landfall* &mdash;\
-      \ Whenever a land enters the battlefield under your control, put four +1/+1\
-      \ counters on target Plant you control. It gains trample until end fo turn."
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ZNR
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 10.0
 effective_cost:
 - R
 - G
-flat_cost: 6
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
 - Landfall
 - Tokens
 mana_cost: 4RG
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Phylath, World Sculptor
 power_toughness: 5/5
 printings:
 - ZNR:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Victor Adame Minguez
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Zendikar Rising
     number: 234
     rarity: rare
-    release_date: 2020-09-25
+    release_date: '2020-09-25'
+    tla: ZNR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '313'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '313'
+    - identifier: PromoPack
     wizards_id: 491885
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=491885
 rules: "When Phylath, World Sculptor enters the battlefield, create a 0/1 green Plant\
@@ -104,19 +94,24 @@ slug: phylath-world-sculptor
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-color-gold card-color-gold-cost-6 card-color-green card-color-red card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 23321
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Plant 0/1 G
-  power_toughness: 0/1
-  rules: ''
-  subtype: Plant
-  tla: ZNR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 0/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 691
+    - - cannonical_type
+      - Creature
+    - - name
+      - Plant 0/1 G
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/phylath-world-sculptor/
+url: https://tappedout.net/mtg-card/phylath-world-sculptor/
+

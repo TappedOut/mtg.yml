@@ -1,88 +1,124 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: JMP
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 3.81
+draft_average: 3.62
 effective_cost:
 - B
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 is_mtgo: true
-is_permanent: false
 keywords:
 - Sacrifice
 - Tokens
 mana_cost: 2BB
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Bake into a Pie
 printings:
-- JMP:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Jumpstart
-    number: 201
-    rarity: common
-    release_date: 2020-07-17
-    wizards_id: 489207
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489207
 - ELD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Zoltan Boros
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"My secret ingredient? Well, I can''t tell you that. But here''s
+      a hint. It''s not love."*'
     frame: m15
     mtgo_foil_id: 78265
     mtgo_id: 78264
     name: Throne of Eldraine
     number: 76
     rarity: common
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- JMP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Zoltan Boros
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*"My secret ingredient? Well, I can''t tell you that. But here''s
+      a hint. It''s not love."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Jumpstart
+    number: 201
+    rarity: common
+    release_date: '2020-07-17'
+    tla: JMP
+    variations: []
+    wizards_id: 489207
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489207
 rules: 'Destroy target creature. Create a Food token. *(It''s an artifact with "[[symbol:2]],
   [[symbol:T]], Sacrifice this artifact: You gain 3 life.")*'
 slug: bake-into-a-pie
-tags: card-color-black card-color-black-cost-4 card-type-instant
+synonyms: []
 tapped_id: 21959
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Food
-  power_toughness: null
-  rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
-  subtype: Food
-  tla: NCC
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1373
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Food
 type: Instant
-url: http://tappedout.net/mtg-card/bake-into-a-pie/
+url: https://tappedout.net/mtg-card/bake-into-a-pie/
+

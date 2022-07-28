@@ -1,35 +1,39 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Enchantment
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.39
 effective_cost:
 - R
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -38,41 +42,74 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: R
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Curse of Opulence
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 786
-    rarity: uncommon
-    release_date: 2022-06-10
-    wizards_id: 567603
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567603
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: uncommon
-    release_date: 2020-03-14
 - C17:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kiernan Yanner
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Jingling coins beckon many an eager hand.
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2017
     number: 24
     rarity: uncommon
-    release_date: 2017-08-25
+    release_date: '2017-08-25'
+    tla: C17
+    variations: []
     wizards_id: 433265
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433265
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kiernan Yanner
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: Jingling coins beckon many an eager hand.
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: uncommon
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kieran Yanner
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: '*Jingling coins beckon many an eager hand.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 786
+    rarity: uncommon
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567603
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567603
+rarity: uncommon
 rules: "Enchant player\r\n\r\nWhenever enchanted player is attacked, create a colorless\
   \ artifact token named Gold. It has \"Sacrifice this artifact: Add one mana of any\
   \ color to your mana pool.\" Each opponent attacking that player does the same."
@@ -81,18 +118,24 @@ subtype: Aura Curse
 subtype_tokens:
 - Aura
 - Curse
-tags: card-color-red card-color-red-cost-1 card-type-enchantment
+synonyms: []
 tapped_id: 19304
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Gold
-  power_toughness: null
-  rules: 'Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Gold
-  tla: CLB
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - 'Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1865
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Gold
 type: Enchantment
-url: http://tappedout.net/mtg-card/curse-of-opulence/
+url: https://tappedout.net/mtg-card/curse-of-opulence/
+

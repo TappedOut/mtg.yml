@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SOI
 cannonical_type: Instant
@@ -11,80 +13,111 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.5
+draft_average: 10.43
 effective_cost:
 - W
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Indestructible
 - Sacrifice
 - Tokens
 - Investigate
 mana_cost: 2W
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Survive the Night
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
 - SOI:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Svetlin Velinov
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*The longest nights are measured not in hours, but in heartbeats.*'
     frame: m15
     mtgo_foil_id: 60121
     mtgo_id: 60120
     name: Shadows over Innistrad
     number: 41
     rarity: common
-    release_date: 2016-04-08
+    release_date: '2016-04-08'
+    tla: SOI
+    variations: []
     wizards_id: 409781
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409781
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Svetlin Velinov
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*The longest nights are measured not in hours, but in heartbeats.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: "Target creature gets +1/+0 and gains indestructible until end of turn. *(Damage\
   \ and effects that say \"destroy\" don't destroy it.)*\r\n\r\nInvestigate. *(Put\
   \ a colurless Clue artifact token onto the battlefield with \"[[symbol:2]], Sacrifice\
   \ this artifact: Draw a card.\")*"
 slug: survive-the-night
-tags: card-color-white card-color-white-cost-3 card-type-instant
+synonyms: []
 tapped_id: 17740
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Clue
-  power_toughness: null
-  rules: '[[symbol:2]], Sacrifice this: Draw a card.'
-  subtype: Clue
-  tla: SOI
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], Sacrifice this: Draw a card.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1130
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Clue
 type: Instant
-url: http://tappedout.net/mtg-card/survive-the-night/
+url: https://tappedout.net/mtg-card/survive-the-night/
+

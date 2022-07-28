@@ -2,7 +2,7 @@ activated_abilities:
 - ': Create a 1/1 green Elf Druid creature token with '
 - ': Destroy target artifact or enchantment.'
 - ': Draw a card for each green creature you control.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: C14
@@ -10,26 +10,29 @@ cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.14
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -37,50 +40,88 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 3GG
-mana_cost_converted: 5
 mana_produced: G
+mana_value: 5
+melds_from: []
 name: Freyalise, Llanowar's Fury
+planeswalker_loyalty: 3
 printings:
-- CC1:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Commander Collection: Green'
-    number: 1
-    rarity: mythic_rare
-    release_date: 2020-12-04
-    wizards_id: 509337
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509337
-- CM1:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology
-    number: 111
-    rarity: mythic_rare
-    release_date: 2017-06-09
 - C14:
     alterations:
-    - Normal
-    - Oversized
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - oversized
+      - Oversized
+    - !!python/tuple
+      - list
+      - The List
+    artist: Adam Paquette
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 55204
     mtgo_id: 55203
     name: Commander 2014
     number: 43
     rarity: mythic_rare
-    release_date: 2014-11-21
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
     wizards_id: 389530
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389530
+- CM1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: null
+    booster_exclude: true
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology
+    number: 111
+    rarity: mythic_rare
+    release_date: '2017-06-09'
+    tla: CM1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- CC1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kieran Yanner
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Collection: Green'
+    number: 1
+    rarity: mythic_rare
+    release_date: '2020-12-04'
+    tla: CC1
+    variations: []
+    wizards_id: 509337
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509337
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus2]]: Create a 1/1 green Elf Druid creature token with\
   \ \"[[symbol:T]]: Gain [[symbol:G]].\"\r\n\r\n[[symbol:loyalty-minus2]]: Destroy\
   \ target artifact or enchantment.\r\n\r\n[[symbol:loyalty-minus6]]: Draw a card\
@@ -90,18 +131,24 @@ slug: freyalise-llanowars-fury
 subtype: Freyalise
 subtype_tokens:
 - Freyalise
-tags: card-color-green card-color-green-cost-5 card-mana-green card-type-planeswalker
+synonyms: []
 tapped_id: 16034
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elf Druid 1/1 G
-  power_toughness: 1/1
-  rules: '[[symbol:T]]: Add [[symbol:G]].'
-  subtype: Elf Druid
-  tla: C14
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - '[[symbol:T]]: Add [[symbol:G]].'
+    - - type
+      - Token Creature
+    - - subtype
+      - 95
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elf Druid 1/1 G
 type: Planeswalker
-url: http://tappedout.net/mtg-card/freyalise-llanowars-fury/
+url: https://tappedout.net/mtg-card/freyalise-llanowars-fury/
+

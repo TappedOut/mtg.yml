@@ -1,40 +1,46 @@
 activated_abilities:
 - 'Equip  *(: Attach to a target creature you control. Equip only as a sorcery.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: XLN
 cannonical_type: Artifact
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 1
+cube_average: 9.2
+draft_average: 9.32
+effective_cost: []
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,24 +50,36 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: '1'
-mana_cost_converted: 1
 mana_produced: W, U. B. R. G
+mana_value: 1
+melds_from: []
 name: Prying Blade
 printings:
 - XLN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Aaron Miller
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 65515
     mtgo_id: 65514
     name: Ixalan
     number: 244
     rarity: common
-    release_date: 2017-09-29
+    release_date: '2017-09-29'
+    tla: XLN
+    variations: []
     wizards_id: 435403
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435403
+rarity: common
 rules: "Equipped creature gets +1/+0.\r\n\r\nWhenever equipped creature deals combat\
   \ damage to a player, create a colourless Treasure artifact token with \"[[symbol:T]],\
   \ Sacrifice this artifact: Gain one mana of any colour.\" \r\n\r\nEquip [[symbol:2]]\
@@ -70,19 +88,24 @@ slug: prying-blade
 subtype: Equipment
 subtype_tokens:
 - Equipment
-tags: card-color-colorless card-color-colorless-cost-1 card-mana-black card-mana-blue
-  card-mana-green card-mana-red card-mana-white card-type-artifact
+synonyms: []
 tapped_id: 19477
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: XLN
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Artifact
-url: http://tappedout.net/mtg-card/prying-blade/
+url: https://tappedout.net/mtg-card/prying-blade/
+

@@ -1,5 +1,6 @@
 activated_abilities:
 - ', , Sacrifice an artifact: Return target artifact you control to its owner''s hand.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Artifact
@@ -7,24 +8,27 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 7
+effective_cost: []
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -32,19 +36,32 @@ keywords:
 - Sacrifice
 - Cascade
 mana_cost: '7'
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Ingenuity Engine
 printings:
 - CMR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Yeong-Hao Han
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander Legends
     number: 317
     rarity: uncommon
-    release_date: 2020-11-20
+    release_date: '2020-11-20'
+    tla: CMR
+    variations: []
     wizards_id: 497837
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497837
 rules: "Cascade *(When you cast this spell, exile cards from the top of your library\
@@ -53,7 +70,9 @@ rules: "Cascade *(When you cast this spell, exile cards from the top of your lib
   \ order.)*\r\n\r\n[[symbol:1]], [[symbol:T]], Sacrifice an artifact: Return target\
   \ artifact you control to its owner's hand."
 slug: ingenuity-engine
-tags: card-color-colorless card-color-colorless-cost-7 card-type-artifact
+synonyms: []
 tapped_id: 23642
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/ingenuity-engine/
+url: https://tappedout.net/mtg-card/ingenuity-engine/
+

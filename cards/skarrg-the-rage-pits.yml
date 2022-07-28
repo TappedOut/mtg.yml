@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Gain .'
 - ', : Target creature gets +1/+1 and gains trample until end of turn.'
-activation_costs:
+activated_costs:
 - C
 - G
 - R
@@ -19,89 +19,149 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 9.3
+draft_average: 6.82
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Trample
-mana_cost_converted: 0
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Skarrg, the Rage Pits
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: uncommon
-    release_date: 2020-03-14
-- PCA:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Planechase Anthology
-    number: 127
-    rarity: uncommon
-    release_date: 2016-11-25
-    wizards_id: 423552
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423552
-- DDL:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 50009
-    name: 'Duel Decks: Heroes vs. Monsters'
-    number: 73
-    rarity: uncommon
-    release_date: 2013-09-06
-    wizards_id: 373357
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373357
-- PC2:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 45162
-    name: Planechase 2012 Edition
-    rarity: uncommon
-    release_date: 2012-06-01
-    wizards_id: 271231
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=271231
 - GPT:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Martina Pilcerova
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"This palace will be our fire-spit, and roasted prince our victory
+      meal. Send in the torch-pigs!"Ghut Rak, Gruul guildmage'
     frame: modern
     mtgo_foil_id: 23796
     mtgo_id: 23795
     name: Guildpact
+    number: null
     rarity: uncommon
-    release_date: 2006-02-03
+    release_date: '2006-02-03'
+    tla: GPT
+    variations: []
     wizards_id: 96970
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=96970
+- PC2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Martina Pilcerova
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '"This palace will be our fire-spit, and roasted prince our victory
+      meal. Send in the torch-pigs!"Ghut Rak, Gruul guildmage'
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 45162
+    name: Planechase 2012 Edition
+    number: null
+    rarity: uncommon
+    release_date: '2012-06-01'
+    tla: PC2
+    variations: []
+    wizards_id: 271231
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=271231
+- DDL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Martina Pilcerova
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"This palace will be our fire-spit, and roasted prince our victory\
+      \ meal. Send in the torch-pigs!\"<br>\u2014Ghut Rak, Gruul guildmage*"
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 50009
+    name: 'Duel Decks: Heroes vs. Monsters'
+    number: 73
+    rarity: uncommon
+    release_date: '2013-09-06'
+    tla: DDL
+    variations: []
+    wizards_id: 373357
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373357
+- PCA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: null
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Planechase Anthology
+    number: 127
+    rarity: null
+    release_date: '2016-11-25'
+    tla: PCA
+    variations: []
+    wizards_id: 423552
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423552
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: null
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: null
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: uncommon
 rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:R]][[symbol:G]], [[symbol:T]]:\
   \ Target creature gets +1/+1 and gains trample until end of turn."
 slug: skarrg-the-rage-pits
@@ -115,7 +175,8 @@ synonyms:
 - RG Guild Hall
 - GR Guild Hall
 - Gruul Guild Hall
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
 tapped_id: 1834
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/skarrg-the-rage-pits/
+url: https://tappedout.net/mtg-card/skarrg-the-rage-pits/
+

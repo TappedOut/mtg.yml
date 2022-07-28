@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C14
 cannonical_type: Instant
@@ -11,73 +13,105 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.06
+draft_average: 3.57
 effective_cost:
 - W
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 mana_cost: 2W
-mana_cost_converted: 3
+mana_produced: ''
+mana_value: 3
+melds_from: []
 name: Midnight Haunting
+power_toughness: ''
 printings:
+- ISD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Matt Stewart
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: 'The path back to the world of the living is murky and bewildering.
+      A geist may not even realize that it''s terrifying its own loved ones. '
+    frame: modern
+    mtgo_foil_id: 42355
+    mtgo_id: 42354
+    name: Innistrad
+    number: null
+    rarity: uncommon
+    release_date: '2011-09-30'
+    tla: ISD
+    variations: []
+    wizards_id: 221214
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=221214
 - C14:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Matt Stewart
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: The path back to the world of the living is murky and bewildering.
+      A geist may not even realize that it's terrifying its own loved ones.
     frame: m15
     mtgo_foil_id: 54960
     mtgo_id: 54959
     name: Commander 2014
     number: 80
     rarity: uncommon
-    release_date: 2014-11-21
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
     wizards_id: 389595
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389595
-- ISD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 42355
-    mtgo_id: 42354
-    name: Innistrad
-    rarity: uncommon
-    release_date: 2011-09-30
-    wizards_id: 221214
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=221214
+rarity: uncommon
 rules: Put two 1/1 white Spirit creature tokens with flying onto the battlefield.
 slug: midnight-haunting
-tags: card-color-white card-color-white-cost-3 card-type-instant
+synonyms: []
 tapped_id: 13330
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spirit 1/1 W
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Spirit
-  tla: C14
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 17
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spirit 1/1 W
 type: Instant
-url: http://tappedout.net/mtg-card/midnight-haunting/
+url: https://tappedout.net/mtg-card/midnight-haunting/
+

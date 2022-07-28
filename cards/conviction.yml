@@ -1,45 +1,49 @@
 activated_abilities:
 - ': Return Conviction to its owner''s hand.'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: UMA
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.2
+draft_average: 9.88
 effective_cost:
 - W
-flat_cost: 2
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Premodern
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- Premodern
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -47,80 +51,136 @@ keywords:
 - Enchant
 - Attach
 mana_cost: 1W
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Conviction
+power_toughness: ''
 printings:
-- MYS1:
+- STH:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Paolo Parente
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: 10216
+    mtgo_id: 10215
+    name: Stronghold
+    number: null
     rarity: common
-    release_date: 2020-03-14
-- UMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 70098
-    mtgo_id: 70097
-    name: Ultimate Masters
-    number: 12
-    rarity: common
-    release_date: 2018-12-07
-    wizards_id: 456608
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456608
-- AER:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 62584
-    mtgo_id: 62583
-    name: Aether Revolt
-    number: 12
-    rarity: common
-    release_date: 2017-01-20
-    wizards_id: 423679
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423679
+    release_date: '1998-02-01'
+    tla: STH
+    variations: []
+    wizards_id: 5127
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=5127
 - TPR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Parente
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*It was not the minotaur''s shoulders but his soul that bore the
+      heaviest weight.*'
     frame: m15
     mtgo_foil_id: 56773
     mtgo_id: 56772
     name: Tempest Remastered
     number: 10
     rarity: common
-    release_date: 2015-05-06
+    release_date: '2015-05-06'
+    tla: TPR
+    variations: []
     wizards_id: 397603
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397603
-- STH:
+- AER:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Stanko
+    booster_exclude: false
     border_color: B
-    frame: original
-    mtgo_foil_id: 10216
-    mtgo_id: 10215
-    name: Stronghold
+    cannonical: true
+    flavour_text: '*"There is no greater coward than one who believes in nothing."*'
+    frame: m15
+    mtgo_foil_id: 62584
+    mtgo_id: 62583
+    name: Aether Revolt
+    number: 12
     rarity: common
-    release_date: 1998-02-01
-    wizards_id: 5127
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=5127
+    release_date: '2017-01-20'
+    tla: AER
+    variations: []
+    wizards_id: 423679
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423679
+- UMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Stanko
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*"There is no greater coward that one who believes in nothing."*'
+    frame: m15
+    mtgo_foil_id: 70098
+    mtgo_id: 70097
+    name: Ultimate Masters
+    number: 12
+    rarity: common
+    release_date: '2018-12-07'
+    tla: UMA
+    variations: []
+    wizards_id: 456608
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456608
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: John Stanko
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"There is no greater coward than one who believes in nothing."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: "Enchant creature\r\n\r\nEnchanted creature gets +1/+3.\r\n\r\n[[symbol:W]]:\
   \ Return Conviction to its owner's hand."
 slug: conviction
 subtype: Aura
 subtype_tokens:
 - Aura
-tags: card-color-white card-color-white-cost-2 card-type-enchantment
+synonyms: []
 tapped_id: 6683
+tokens: []
 type: Enchantment
-url: http://tappedout.net/mtg-card/conviction/
+url: https://tappedout.net/mtg-card/conviction/
+

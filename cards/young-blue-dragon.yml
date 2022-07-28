@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: CLB
@@ -6,33 +7,34 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
 - Pauper EDH
-- Penny Dreadful
+- Canadian Highlander
+- Legacy
+- Arena
+- Oathbreaker
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -41,20 +43,36 @@ keywords:
 - Scry
 - Adventure
 mana_cost: 4U
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Young Blue Dragon
 power_toughness: 3/3
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Tuan Duong Chu
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"I see the far side of tomorrow and the lost memories of queens.
+      What do you wish to learn?"*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 106
     rarity: common
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Flying\r\n\r\n<br>\r\n\r\n*(You may cast Young Blue Dragon from exile if you\
   \ sent it on an adventure.)*\r\n\r\n-----\r\n\r\n<h3>Sand Augury</h3>\r\n<h4>Sorcery\
   \ &mdash; Adventure</h4>\r\n\r\nScry 1, then draw a card. *(Then send this card\
@@ -70,7 +88,9 @@ slug: young-blue-dragon
 subtype: Dragon
 subtype_tokens:
 - Dragon
-tags: card-color-blue card-color-blue-cost-5 card-type-creature
+synonyms: []
 tapped_id: 26708
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/young-blue-dragon/
+url: https://tappedout.net/mtg-card/young-blue-dragon/
+

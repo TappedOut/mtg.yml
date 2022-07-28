@@ -4,61 +4,81 @@ activated_abilities:
 - ': When you cast your next instant or sorcery spell from your hand this turn, it
   gains rebound. '
 - ': You get an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DTK
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.4
+draft_average: 1.56
 effective_cost:
 - W
 - U
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Rebound
 mana_cost: 2WU
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Narset Transcendent
+planeswalker_loyalty: 6
 printings:
 - DTK:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Magali Villeneuve
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 56077
     mtgo_id: 56076
     name: Dragons of Tarkir
     number: 225
     rarity: mythic_rare
-    release_date: 2015-03-27
+    release_date: '2015-03-27'
+    tla: DTK
+    variations: []
     wizards_id: 394633
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394633
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Look at the top card of your library. If it's a\
   \ noncreature, nonland card, you may reveal it and put it into your hand. \r\n\r\
   \n[[symbol:loyalty-minus2]]: When you cast your next instant or sorcery spell from\
@@ -68,18 +88,24 @@ slug: narset-transcendent
 subtype: Narset
 subtype_tokens:
 - Narset
-tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-white card-type-planeswalker
+synonyms: []
 tapped_id: 16327
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Narset Transcendent
-  power_toughness: null
-  rules: Your opponents can't cast noncreature spells.
-  subtype: Narset
-  tla: DTK
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Your opponents can't cast noncreature spells.
+    - - type
+      - Emblem
+    - - subtype
+      - 1079
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Narset Transcendent
 type: Planeswalker
-url: http://tappedout.net/mtg-card/narset-transcendent/
+url: https://tappedout.net/mtg-card/narset-transcendent/
+

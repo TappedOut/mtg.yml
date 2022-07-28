@@ -1,42 +1,46 @@
 activated_abilities:
 - 'Ninjutsu  *(, Return an unblocked attacker you control to hand: Put this card onto
   the battlefield from your hand tapped and attacking.)*'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: MH1
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.96
+draft_average: 4.97
 effective_cost:
 - U
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,22 +49,33 @@ keywords:
 - Ninjutsu
 - Tokens
 mana_cost: 3U
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Moonblade Shinobi
 power_toughness: 3/2
 printings:
 - MH1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Taylor Ingvarsson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 72491
     mtgo_id: 72490
     name: Modern Horizons
     number: 59
     rarity: common
-    release_date: 2019-06-14
+    release_date: '2019-06-14'
+    tla: MH1
+    variations: []
     wizards_id: 464008
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464008
 rules: "Ninjutsu [[symbol:2]][[symbol:U]] *([[symbol:2]][[symbol:U]], Return an unblocked\
@@ -72,18 +87,24 @@ subtype: Human Ninja
 subtype_tokens:
 - Human
 - Ninja
-tags: card-color-blue card-color-blue-cost-4 card-type-creature
+synonyms: []
 tapped_id: 21629
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Illusion 1/1 U w/ Flying
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Illusion
-  tla: MH1
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 21
+    - - cannonical_type
+      - Creature
+    - - name
+      - Illusion 1/1 U w/ Flying
 type: Creature
-url: http://tappedout.net/mtg-card/moonblade-shinobi/
+url: https://tappedout.net/mtg-card/moonblade-shinobi/
+

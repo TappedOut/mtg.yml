@@ -1,5 +1,6 @@
 activated_abilities:
 - 'Equip  *(: Attack to target creature you control. Equip only as a sorcery.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ORI
 cannonical_type: Artifact
@@ -7,28 +8,33 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 3
+cube_average: 7.77
+draft_average: 7.31
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -37,37 +43,59 @@ keywords:
 - Trample
 - Attach
 mana_cost: '3'
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Brawler's Plate
 printings:
-- ORI:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 57777
-    mtgo_id: 57776
-    name: Magic Origins
-    number: 224
-    rarity: uncommon
-    release_date: 2015-06-17
-    wizards_id: 398532
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398532
 - M15:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jung Park
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 53695
     mtgo_id: 53694
     name: Magic 2015
     number: 213
     rarity: uncommon
-    release_date: 2014-07-18
+    release_date: '2014-07-18'
+    tla: M15
+    variations: []
     wizards_id: 383196
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383196
+- ORI:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jung Park
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 57777
+    mtgo_id: 57776
+    name: Magic Origins
+    number: 224
+    rarity: uncommon
+    release_date: '2015-06-17'
+    tla: ORI
+    variations: []
+    wizards_id: 398532
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398532
+rarity: uncommon
 rules: "Equipped creature gets +2/+2 and has trample. *(If it would assign enough\
   \ damage to its blockers to destroy them, you may have it assign the rest of its\
   \ damage to defending player or planeswalker.)*\r\n\r\nEquip [[symbol:4]] *([[symbol:4]]:\
@@ -76,7 +104,9 @@ slug: brawlers-plate
 subtype: Equipment
 subtype_tokens:
 - Equipment
-tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
+synonyms: []
 tapped_id: 15690
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/brawlers-plate/
+url: https://tappedout.net/mtg-card/brawlers-plate/
+

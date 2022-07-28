@@ -1,14 +1,12 @@
 activated_abilities:
 - ': Add  or .'
-activation_costs:
+activated_costs:
 - R
 - W
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Land
-color_identity:
-- W
-- R
+color_identity: RW
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -20,69 +18,102 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: R, W
+mana_value: 0
+melds_from: []
 name: Sundown Pass
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 533
-    rarity: rare
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Muhammad Firdaus
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Riders chase the fading light recklessly through the mountains,
+      desperate for one last glimpse of day.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 266
     rarity: rare
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '285'
+    - identifier: '285'
     wizards_id: 541142
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=541142
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Muhammad Firdaus
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Riders chase the fading light recklessly through the mountains,
+      desperate for one last glimpse of day.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 533
+    rarity: rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "This enters the battlefield tapped unless you control two or more other lands.\r\
   \n\r\n[[symbol:T]]: Add [[symbol:R]] or [[symbol:W]]."
 slug: sundown-pass
@@ -99,9 +130,9 @@ synonyms:
 - WR Countland
 - RW Count Land
 - WR Count Land
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-red-slow card-mana-white-slow
-  card-type-land
 tap_land: true
 tapped_id: 25379
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/sundown-pass/
+url: https://tappedout.net/mtg-card/sundown-pass/
+

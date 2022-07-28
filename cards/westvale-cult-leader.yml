@@ -1,8 +1,9 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SOI
 cannonical_type: Creature
-color_indicator:
-- W
+color_indicator: W
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -12,48 +13,62 @@ companions:
 - Yorion, Sky Nomad
 effective_cost:
 - W
-flat_cost: 0
+flip: Hanweir Militia Captain
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Westvale Cult Leader
 power_toughness: '*/*'
 printings:
 - SOI:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    booster_exclude: true
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: David Palumbo
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 59807
     mtgo_id: 59806
     name: Shadows over Innistrad
     number: 21
     rarity: rare
-    release_date: 2016-04-08
+    release_date: '2016-04-08'
+    tla: SOI
+    variations: []
     wizards_id: 409760
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409760
+rarity: rare
 rules: "This creature's power and toughness are each equal to the number of creatures\
   \ you control.\r\n\r\nAt the beginning of you end step, create a 1/1 white and black\
   \ human cleric creature."
@@ -62,18 +77,24 @@ subtype: Human Cleric
 subtype_tokens:
 - Human
 - Cleric
-tags: card-type-creature
+synonyms: []
 tapped_id: 17717
 tokens:
-- cannonical_type: Creature
-  colors: BW
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Human Cleric 1/1 BW
-  power_toughness: 1/1
-  rules: ''
-  subtype: Human Cleric
-  tla: SOI
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - BW
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 2
+    - - cannonical_type
+      - Creature
+    - - name
+      - Human Cleric 1/1 BW
 type: Creature
-url: http://tappedout.net/mtg-card/westvale-cult-leader/
+url: https://tappedout.net/mtg-card/westvale-cult-leader/
+

@@ -1,75 +1,98 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 2
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Penny Dreadful
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Pauper
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Historic
+- Gladiator
+- Alchemy
+- Pauper Duel Commander
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
 - Tokens
 mana_cost: '2'
-mana_cost_converted: 2
 mana_produced: W, U, B, R, G
+mana_value: 2
+melds_from: []
 name: Prized Statue
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ben Wootten
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*To the cultists, the sacred idol was priceless. To the adventurers,
+      it was worth about two sturdy mules and a barrel of ale.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 334
     rarity: common
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
     wizards_id: 563217
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563217
 rules: 'When Prized Statue enters the battlefield or is put into a graveyard from
   the battlefield, create a treasure token. *(It''s a colourless artifact with "[[symbol:T]],
   Sacrifice this artifact: Add one mana of any colour.")*'
 slug: prized-statue
-tags: card-color-colorless card-color-colorless-cost-2 card-mana-black card-mana-blue
-  card-mana-green card-mana-red card-mana-white card-type-artifact
+synonyms: []
 tapped_id: 26711
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: CLB
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Artifact
-url: http://tappedout.net/mtg-card/prized-statue/
+url: https://tappedout.net/mtg-card/prized-statue/
+

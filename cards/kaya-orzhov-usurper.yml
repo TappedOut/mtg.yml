@@ -4,6 +4,7 @@ activated_abilities:
 - ': Exile target nonland permanent with converted mana cost 1 or less.'
 - ': Kaya, Orzhov Usurper deals damage to target player equal to the number of cards
   that player owns in exile and you gain that much life.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: RNA
 cannonical_type: Planeswalker
@@ -11,34 +12,38 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 11.54
+draft_average: 2.0
 effective_cost:
 - W
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,45 +51,67 @@ keywords:
 - Exile
 - Counters
 mana_cost: 1WB
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Kaya, Orzhov Usurper
+planeswalker_loyalty: 3
 printings:
-- RNAMED:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Ravnica Allegiance: Mythic Edition'
-    number: 8
-    rarity: mythic_rare
-    release_date: 2019-01-26
 - RNA:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Yongjae Choi
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 71373
     mtgo_id: 71372
     name: Ravnica Allegiance
     number: 186
     rarity: mythic_rare
-    release_date: 2019-01-25
+    release_date: '2019-01-25'
+    tla: RNA
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: Animated
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: Animated
+    - identifier: PromoPack
     wizards_id: 457330
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=457330
+- RNAMED:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rallis
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Ravnica Allegiance: Mythic Edition'
+    number: 8
+    rarity: mythic_rare
+    release_date: '2019-01-26'
+    tla: RNAMED
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "[[symbol:loyalty-plus1]]: Exile up to two target cards from a single graveyard.\
   \ You gain 2 life if at least one creature card was exiled this way.\r\n\r\n[[symbol:loyalty-minus1]]:\
   \ Exile target nonland permanent with converted mana cost 1 or less.\r\n\r\n[[symbol:loyalty-minus5]]:\
@@ -94,8 +121,9 @@ slug: kaya-orzhov-usurper
 subtype: Kaya
 subtype_tokens:
 - Kaya
-tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-white card-type-legendary
-  card-type-planeswalker
+synonyms: []
 tapped_id: 21041
+tokens: []
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/kaya-orzhov-usurper/
+url: https://tappedout.net/mtg-card/kaya-orzhov-usurper/
+

@@ -1,36 +1,41 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DOM
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 10.41
+draft_average: 4.65
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -39,22 +44,36 @@ keywords:
 - Exile
 - Tokens
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Valduk, Keeper of the Flame
 power_toughness: 3/2
 printings:
 - DOM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Victor Adame Minguez
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*The hammer strikes. The Flame awakens.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Dominaria
     number: 148
     rarity: uncommon
-    release_date: 2018-04-22
+    release_date: '2018-04-22'
+    tla: DOM
+    variations: []
     wizards_id: 443036
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443036
+rarity: uncommon
 rules: At the beginning of combat on your turn, for each Aura and Equipment attached
   to Valduk, Keeper of the Flame, create a 3/1 red Elemental creature token with trample
   and haste. Exile those tokens at the beginning of the next end step.
@@ -63,18 +82,24 @@ subtype: Human Shaman
 subtype_tokens:
 - Human
 - Shaman
-tags: card-color-red card-color-red-cost-3 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 20165
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elemental 3/1 R w/ Trample, haste
-  power_toughness: 3/1
-  rules: Trample, haste
-  subtype: Elemental
-  tla: DOM
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 3/1
+    - - rules
+      - Trample, haste
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elemental 3/1 R w/ Trample, haste
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/valduk-keeper-of-the-flame/
+url: https://tappedout.net/mtg-card/valduk-keeper-of-the-flame/
+

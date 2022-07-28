@@ -1,7 +1,7 @@
 activated_abilities:
 - '*(: Gain ,  or .)*'
 - 'Cycling  *(, Discard this card: Draw a card.)*'
-activation_costs:
+activated_costs:
 - R
 - U
 - W
@@ -19,60 +19,75 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 4.71
+draft_average: 3.58
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Cycling
-mana_cost_converted: 0
 mana_produced: U, R, W
+mana_value: 0
+melds_from: []
 name: Raugrin Triome
 printings:
 - IKO:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Jonas De Ro
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Raugrin meets the sea with jaws wide, its coast spike with teeth
+      of crystal and granite.*'
     frame: m15
     mtgo_foil_id: 80512
     mtgo_id: 80511
     name: 'Ikoria: Lair of Behemoths'
     number: 251
     rarity: rare
-    release_date: 2020-04-15
+    release_date: '2020-04-15'
+    tla: IKO
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '311'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '311'
+    - identifier: PromoPack
     wizards_id: 479771
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479771
 rules: "*([[symbol:T]]: Gain [[symbol:U]], [[symbol:R]] or [[symbol:W]].)*\r\n\r\n\
@@ -99,9 +114,9 @@ synonyms:
 - Jeskai Cycling
 - URW Cycling Land
 - Jeskai Cycling Land
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-blue-slow card-mana-red-slow
-  card-mana-white-slow card-type-land
 tap_land: true
 tapped_id: 22861
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/raugrin-triome/
+url: https://tappedout.net/mtg-card/raugrin-triome/
+

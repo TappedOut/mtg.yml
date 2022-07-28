@@ -1,74 +1,97 @@
 activated_abilities:
 - 'Discard a land card: Create a 2/2 green Bear creature token.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MH1
 cannonical_type: Enchantment
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.23
+draft_average: 3.08
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: GGG
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Ayula's Influence
 printings:
 - MH1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kari Christensen
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Ayula''s runic clawmarks ensure her territories are never left
+      defenseless.*'
     frame: m15
     mtgo_foil_id: 72685
     mtgo_id: 72684
     name: Modern Horizons
     number: 156
     rarity: rare
-    release_date: 2019-06-14
+    release_date: '2019-06-14'
+    tla: MH1
+    variations: []
     wizards_id: 464105
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464105
 rules: 'Discard a land card: Create a 2/2 green Bear creature token.'
 slug: ayulas-influence
-tags: card-color-green card-color-green-cost-3 card-type-enchantment
+synonyms: []
 tapped_id: 21541
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Bear 2/2 G
-  power_toughness: 2/2
-  rules: ''
-  subtype: Bear
-  tla: MH1
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 109
+    - - cannonical_type
+      - Creature
+    - - name
+      - Bear 2/2 G
 type: Enchantment
-url: http://tappedout.net/mtg-card/ayulas-influence/
+url: https://tappedout.net/mtg-card/ayulas-influence/
+

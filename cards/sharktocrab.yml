@@ -1,42 +1,46 @@
 activated_abilities:
 - ': Adapt 1. *(If this creature has no +1/+1 counters on it, put a +1/+1 counter
   on it.)*'
-activation_costs:
+activated_costs:
 - G
 - U
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.2
+draft_average: 2.61
 effective_cost:
 - U
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,35 +49,59 @@ keywords:
 - Counters
 - Adapt
 mana_cost: 2GU
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Sharktocrab
 power_toughness: 4/4
 printings:
-- CMR:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: Commander Legends
-    number: 450
-    rarity: uncommon
-    release_date: 2020-11-20
-    wizards_id: 500930
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=500930
 - RNA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jehan Choo
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 71413
     mtgo_id: 71412
     name: Ravnica Allegiance
     number: 206
     rarity: uncommon
-    release_date: 2019-01-25
+    release_date: '2019-01-25'
+    tla: RNA
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- CMR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jehan Choo
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Legends
+    number: 450
+    rarity: uncommon
+    release_date: '2020-11-20'
+    tla: CMR
+    variations: []
+    wizards_id: 500930
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=500930
 rules: "[[symbol:2]][[symbol:G]][[symbol:U]]: Adapt 1. *(If this creature has no +1/+1\
   \ counters on it, put a +1/+1 counter on it.)*\r\n\r\nWhenever one or more +1/+1\
   \ counters are put on Sharktocrab, tap target creature an opponent controls. That\
@@ -84,7 +112,9 @@ subtype_tokens:
 - Fish
 - Octopus
 - Crab
-tags: card-color-blue card-color-gold card-color-gold-cost-4 card-color-green card-type-creature
+synonyms: []
 tapped_id: 21092
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/sharktocrab/
+url: https://tappedout.net/mtg-card/sharktocrab/
+

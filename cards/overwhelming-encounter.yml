@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: CLB
@@ -14,43 +15,55 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Trample
 - Counters
 mana_cost: 3GG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Overwhelming Encounter
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Darek Zabrocki
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 245
     rarity: uncommon
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
     wizards_id: 563128
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563128
 rules: "Creatures you control gain vigilance and trample until end of turn. Roll a\
@@ -60,7 +73,9 @@ rules: "Creatures you control gain vigilance and trample until end of turn. Roll
   \ Put two +1/+1 counters on each creature you control.\r\n<br>If you roll a 20 |\
   \ Put four +1/+1 counters on each creature you control."
 slug: overwhelming-encounter
-tags: card-color-green card-color-green-cost-5 card-type-sorcery
+synonyms: []
 tapped_id: 26764
+tokens: []
 type: Sorcery
-url: http://tappedout.net/mtg-card/overwhelming-encounter/
+url: https://tappedout.net/mtg-card/overwhelming-encounter/
+

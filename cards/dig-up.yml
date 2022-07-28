@@ -1,14 +1,15 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 - G
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Sorcery
-color_identity:
-- B
+color_identity: B
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -17,74 +18,99 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - G
-flat_cost: 1
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
-is_permanent: false
 keywords:
 - Cleave
 mana_cost: G
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Dig Up
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 464
-    rarity: rare
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Slawomir Maniak
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Things buried on Innistrad rarely seem to stay that way.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 197
     rarity: rare
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '387'
+    - identifier: '387'
     wizards_id: 541059
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=541059
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Slawomir Maniak
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Things buried on Innistrad rarely seem to stay that way.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 464
+    rarity: rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Cleave [[symbol:1]][[symbol:B]][[symbol:B]][[symbol:G]] *(You may cast this\
   \ for this card's cleave cost. If you do, remove the words in the square brackets\
   \ from the rules text of this spell.)*\r\n\r\nSearch your library for a [basic land]\
   \ card, [reveal it,] put it into your hand, then shuffle your library."
 slug: dig-up
-tags: card-color-green card-color-green-cost-1 card-type-sorcery
+synonyms: []
 tapped_id: 25339
+tokens: []
 type: Sorcery
-url: http://tappedout.net/mtg-card/dig-up/
+url: https://tappedout.net/mtg-card/dig-up/
+

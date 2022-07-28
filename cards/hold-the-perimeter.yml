@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CN2
 companions:
@@ -9,36 +11,53 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 5.75
+draft_average: 3.67
+effective_cost: []
 formats:
 - 1v1 Commander
+- Legacy
+- Oathbreaker
+- Custom
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
-mana_cost_converted: 0
+keywords: []
+mana_value: 0
+melds_from: []
 name: Hold the Perimeter
 printings:
 - CN2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason A. Engle
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Conspiracy: Take the Crown'
     number: 6
     rarity: rare
-    release_date: 2016-08-26
+    release_date: '2016-08-26'
+    tla: CN2
+    variations: []
     wizards_id: 416763
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416763
+rarity: rare
 rules: "(Start the game with this conspiracy face up in the command zone.)\r\n\r\n\
   At the beginning of your first upkeep, put a 1/2 white Soldier creature token with\
   \ defender onto the battlefield.\r\n\r\nAt the beginning of each other player's\
@@ -47,28 +66,38 @@ rules: "(Start the game with this conspiracy face up in the command zone.)\r\n\r
 slug: hold-the-perimeter
 synonyms:
 - Hold the Perimetre
-tags: card-color-colorless card-color-colorless-cost-0 card-type-conspiracy
 tapped_id: 18174
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goblin 1/1 R w/ Can't Block
-  power_toughness: 1/1
-  rules: This can't block.
-  subtype: Goblin
-  tla: CN2
-  type: Token Creature
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Soldier 1/2 W
-  power_toughness: 1/2
-  rules: Defender
-  subtype: Soldier
-  tla: CN2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - This can't block.
+    - - type
+      - Token Creature
+    - - subtype
+      - 153
+    - - cannonical_type
+      - Creature
+    - - name
+      - Goblin 1/1 R w/ Can't Block
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/2
+    - - rules
+      - Defender
+    - - type
+      - Token Creature
+    - - subtype
+      - 18
+    - - cannonical_type
+      - Creature
+    - - name
+      - Soldier 1/2 W
 type: Conspiracy
-url: http://tappedout.net/mtg-card/hold-the-perimeter/
+url: https://tappedout.net/mtg-card/hold-the-perimeter/
+

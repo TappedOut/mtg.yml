@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: AKH
 cannonical_type: Sorcery
@@ -10,51 +12,68 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.03
+draft_average: 1.84
 effective_cost:
 - B
-flat_cost: 7
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Tokens
 - Aftermath
 mana_cost: 1BB // 3B
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Never / Return
 printings:
 - AKH:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Daarken
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Amonkhet
     number: 212
     rarity: rare
-    release_date: 2017-04-28
+    release_date: '2017-04-28'
+    tla: AKH
+    variations: []
     wizards_id: 426914
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426914
+rarity: rare
 rules: "<h4>Never:</h4>\r\n\r\nDestroy target creature or planeswalker.\r\n\r\n-----\r\
   \n\r\n<h4>Return:</h4>\r\n\r\nAftermath *(Cast this spell only from your graveyard.\
   \ Then exile it.)*\r\n\r\nExile target card from a graveyard. Create a 2/2 black\
@@ -68,18 +87,23 @@ synonyms:
 - Never/Return
 - Return/Never
 - Return to Never
-tags: card-color-black card-color-black-cost-7 card-type-sorcery
 tapped_id: 18823
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: AKH
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Sorcery
-url: http://tappedout.net/mtg-card/never-return/
+url: https://tappedout.net/mtg-card/never-return/
+

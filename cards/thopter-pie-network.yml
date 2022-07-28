@@ -1,59 +1,83 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: PSG
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.5
 effective_cost:
 - U
-flat_cost: 4
 formats:
-- 'Commander: Rule 0'
-- Duel Commander
 - Legacy
-- Limited
 - Oathbreaker
-has_activated_abilities: false
+- Custom
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 2UU
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Thopter Pie Network
 printings:
 - PSG:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Victor Adame Minguez
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: They all thought her dream was just pie in the sky.
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo set for Gatherer
     number: 1
     rarity: mythic_rare
-    release_date: 1990-01-10
-promo_sets:
-- PSG
+    release_date: '1990-01-10'
+    tla: PSG
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "At the beginning of your upkeep, if you are eating, create a 1/1 colorless\
   \ Thopter artifact creature token with flying. Use food to represent the token.\r\
   \n\r\nWhenever a creature token you control dies, if it's represented by food, eat\
   \ it."
 slug: thopter-pie-network
-tags: card-color-blue card-color-blue-cost-4 card-type-enchantment
+synonyms: []
 tapped_id: 20183
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Thopter 1/1 C
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Thopter
-  tla: NCC
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 323
+    - - cannonical_type
+      - Creature
+    - - name
+      - Thopter 1/1 C
 type: Enchantment
-url: http://tappedout.net/mtg-card/thopter-pie-network/
+url: https://tappedout.net/mtg-card/thopter-pie-network/
+

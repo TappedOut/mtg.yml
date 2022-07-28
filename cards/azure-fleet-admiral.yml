@@ -1,49 +1,68 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - U
-flat_cost: 4
 formats:
 - 1v1 Commander
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 3U
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Azure Fleet Admiral
 power_toughness: 3/3
 printings:
 - CMR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sidharth Chaturvedi
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"Your concern for my safety is touching, but as long as your\
+      \ gunners remain reliably erratic, I see no reason to change course.\"\r\n<br>&mdash;Admiral\
+      \ Yelise, to Commodore Axurik*"
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander Legends
     number: 58
     rarity: common
-    release_date: 2020-11-20
+    release_date: '2020-11-20'
+    tla: CMR
+    variations: []
     wizards_id: 497578
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497578
 rules: "When Azure Fleet Admiral enters the battlefield, you become the monarch.\r\
@@ -54,18 +73,25 @@ subtype: Human Pirate
 subtype_tokens:
 - Human
 - Pirate
-tags: card-color-blue card-color-blue-cost-4 card-type-creature
+synonyms: []
 tapped_id: 23645
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Monarch Emblem
-  power_toughness: null
-  rules: "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
-    \ deals combat damage to you, its controller becomes the monarch."
-  tla: CMR
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
+        \ deals combat damage to you, its controller becomes the monarch."
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Monarch Emblem
 type: Creature
-url: http://tappedout.net/mtg-card/azure-fleet-admiral/
+url: https://tappedout.net/mtg-card/azure-fleet-admiral/
+

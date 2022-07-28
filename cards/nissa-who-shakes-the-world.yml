@@ -4,7 +4,7 @@ activated_abilities:
   land.'
 - ': You get an emblem with  Search your library for any number of Forest cards, put
   them onto the battlefield tapped, then shuffle your library.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: WAR
@@ -12,31 +12,35 @@ cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 3.89
+draft_average: 1.21
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Historic
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -47,55 +51,91 @@ keywords:
 - Tap/Untap
 - Counters
 mana_cost: 3GG
-mana_cost_converted: 5
 mana_produced: G
+mana_value: 5
+melds_from: []
 name: Nissa, Who Shakes the World
+planeswalker_loyalty: 5
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: Secret Lair
-    number: 518
-    rarity: rare
-    release_date: 2019-12-09
 - WAR:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Chris Rallis
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 71945
     mtgo_id: 71944
     name: War of the Spark
     number: 169
     rarity: rare
-    release_date: 2019-05-03
+    release_date: '2019-05-03'
+    tla: WAR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 461096
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461096
-- '000':
+- SLD:
     alterations:
-    - Foil
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rallis
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 518
+    rarity: rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- '000':
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rallis
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Whenever you tap a Forest for mana, gain an additional [[symbol:G]].\r\n\r\
   \n[[symbol:loyalty-plus1]]: Put three +1/+1 counters on up to one target noncreature\
   \ land you control. Untap it. It becomes a 0/0 Elemental creature with vigilance\
@@ -106,19 +146,24 @@ slug: nissa-who-shakes-the-world
 subtype: Nissa
 subtype_tokens:
 - Nissa
-tags: card-color-green card-color-green-cost-5 card-mana-green card-type-legendary
-  card-type-planeswalker
+synonyms: []
 tapped_id: 21393
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Nissa, Who Shakes the World
-  power_toughness: null
-  rules: Lands you control have indestructible
-  subtype: Nissa
-  tla: WAR
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Lands you control have indestructible
+    - - type
+      - Emblem
+    - - subtype
+      - 581
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Nissa, Who Shakes the World
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/nissa-who-shakes-the-world/
+url: https://tappedout.net/mtg-card/nissa-who-shakes-the-world/
+

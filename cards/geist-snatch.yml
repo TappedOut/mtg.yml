@@ -1,74 +1,98 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: AVR
 cannonical_type: Instant
+color_identity: ''
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.25
+draft_average: 8.04
 effective_cost:
 - U
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Vintage
-has_activated_abilities: false
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 - Counterspell
 mana_cost: 2UU
-mana_cost_converted: 4
+mana_produced: ''
+mana_value: 4
+melds_from: []
 name: Geist Snatch
+power_toughness: ''
 printings:
 - AVR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dan Scott
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Angels and demons aren't the only ones listening to your prayers.
     frame: modern
     mtgo_foil_id: 43912
     mtgo_id: 43911
     name: Avacyn Restored
     number: 55
     rarity: common
-    release_date: 2012-05-04
+    release_date: '2012-05-04'
+    tla: AVR
+    variations: []
     wizards_id: 240021
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=240021
+rarity: common
 rules: Counter target creature spell. Put a 1/1 blue spirit creature token with flying
   onto the battlefield.
 slug: geist-snatch
-tags: card-color-blue card-color-blue-cost-4 card-type-instant
+synonyms: []
 tapped_id: 13719
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spirit 1/1 U
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Spirit
-  tla: AVR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 17
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spirit 1/1 U
 type: Instant
-url: http://tappedout.net/mtg-card/geist-snatch/
+url: https://tappedout.net/mtg-card/geist-snatch/
+

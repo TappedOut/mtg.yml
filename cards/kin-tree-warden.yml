@@ -1,40 +1,44 @@
 activated_abilities:
 - ': Regenerate Kin-Tree Warden.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: KTK
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.25
+draft_average: 8.67
 effective_cost:
 - G
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,33 +46,57 @@ keywords:
 - Regenerate
 - Morph
 mana_cost: G
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Kin-Tree Warden
 power_toughness: 1/1
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
 - KTK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Volkan Baga
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"The amber of the tree and the blood of my veins are the same."*'
     frame: m15
     mtgo_foil_id: 54031
     mtgo_id: 54030
     name: Khans of Tarkir
     number: 139
     rarity: common
-    release_date: 2014-09-26
+    release_date: '2014-09-26'
+    tla: KTK
+    variations: []
     wizards_id: 386584
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386584
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Volkan Baga
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"The amber of the tree and the blood of my veins are the same."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: "[[symbol:2]]: Regenerate Kin-Tree Warden.\r\n\r\nMorph [[symbol:G]] (You may\
   \ cast this card face down as a 2/2 creature for [[symbol:3]]. Turn it face up any\
   \ time for its morph cost.)"
@@ -77,18 +105,25 @@ subtype: Human Warrior
 subtype_tokens:
 - Human
 - Warrior
-tags: card-color-green card-color-green-cost-1 card-type-creature
+synonyms: []
 tapped_id: 15996
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Morph 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  tla: KTK
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+        \ with morph can be turned face up at any time for its morph cost.*"
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Morph 2/2 C
 type: Creature
-url: http://tappedout.net/mtg-card/kin-tree-warden/
+url: https://tappedout.net/mtg-card/kin-tree-warden/
+

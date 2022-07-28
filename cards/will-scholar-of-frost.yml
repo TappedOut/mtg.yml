@@ -4,6 +4,7 @@ activated_abilities:
 - ': Draw two cards.'
 - ': Exile up to five target permanents. For each permanent exiled this way, its controller
   creates a 4/4 blue and red Elemental creature token.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: STX
 cannonical_type: Planeswalker
@@ -11,6 +12,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -18,29 +20,31 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 5
+flip: Rowan, Scholar of Sparks
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -49,28 +53,45 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 4U
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Will, Scholar of Frost
+planeswalker_loyalty: 4
 printings:
 - STX:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Magali Villeneuve
     booster_exclude: true
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Strixhaven
     number: 156
     rarity: mythic_rare
-    release_date: 2021-04-23
+    release_date: '2021-04-23'
+    tla: STX
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '278'
+    - identifier: '278'
+    wizards_id: null
+    wizards_url: null
 rules: "Instant and sorcery spells you cast cost [[symbol:1]] less to cast.\r\n\r\n\
   [[symbol:loyalty-plus1]]: Up to one target creature has base power and toughness\
   \ 0/2 until end of your next turn.\r\n\r\n[[symbol:loyalty-minus3]]: Draw two cards.\r\
@@ -81,29 +102,40 @@ slug: will-scholar-of-frost
 subtype: Will
 subtype_tokens:
 - Will
-tags: card-color-blue card-color-blue-cost-5 card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 24025
 tokens:
-- cannonical_type: Creature
-  colors: UR
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elemental 4/4 UR
-  power_toughness: 4/4
-  rules: ''
-  subtype: Elemental
-  tla: STX
-  type: Token Creature
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Rowan, Scholar of Sparks
-  power_toughness: null
-  rules: Whenever you cast an instant or sorcery spell, you may pay [[symbol:2]].
-    If you do, copy that spell. You may choose new targets for the copy.
-  subtype: Rowan
-  tla: STX
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - UR
+    - - power_toughness
+      - 4/4
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elemental 4/4 UR
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Whenever you cast an instant or sorcery spell, you may pay [[symbol:2]]. If
+        you do, copy that spell. You may choose new targets for the copy.
+    - - type
+      - Emblem
+    - - subtype
+      - 1259
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Rowan, Scholar of Sparks
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/will-scholar-of-frost/
+url: https://tappedout.net/mtg-card/will-scholar-of-frost/
+

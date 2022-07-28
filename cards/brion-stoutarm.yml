@@ -1,37 +1,41 @@
 activated_abilities:
 - ', , Sacrifice a creature other than Brion Stoutarm: Brion Stoutarm deals damage
   equal to the sacrificed creature''s power to target player.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: CMA
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.34
+draft_average: 1.79
 effective_cost:
 - W
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -39,70 +43,124 @@ keywords:
 - Lifelink
 - Sacrifice
 mana_cost: 2WR
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Brion Stoutarm
 power_toughness: 4/4
 printings:
+- LRW:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Zoltan Boros & Gabor Szikszai
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 28466
+    mtgo_id: 28465
+    name: Lorwyn
+    number: null
+    rarity: rare
+    release_date: '2007-10-12'
+    tla: LRW
+    variations: []
+    wizards_id: 140217
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=140217
+- CMD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Zoltan Boros & Gabor Szikszai
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 40493
+    name: 'MTG: Commander'
+    number: null
+    rarity: rare
+    release_date: '2011-06-17'
+    tla: CMD
+    variations: []
+    wizards_id: 247298
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247298
+- CMA:
+    alterations:
+    - !!python/tuple
+      - oversized
+      - Oversized
+    artist: Zoltan Boros & Gabor Szikszai
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander's Arsenal
+    number: 2
+    rarity: rare
+    release_date: '2012-11-02'
+    tla: CMA
+    variations: []
+    wizards_id: null
+    wizards_url: null
 - A25:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Zoltan Boros & Gabor Szikszai
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: Boggarts and disturbing bits of boggarts flew through the air with
+      alarming and untidy regularity.
     frame: m15
     mtgo_foil_id: 67315
     mtgo_id: 67314
     name: Masters 25
     number: 200
     rarity: rare
-    release_date: 2018-03-16
+    release_date: '2018-03-16'
+    tla: A25
+    variations: []
     wizards_id: 442189
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442189
-- CMA:
-    alterations:
-    - Oversized
-    border_color: B
-    foil: foil
-    foil_only: true
-    frame: modern
-    name: Commander's Arsenal
-    number: 2
-    rarity: rare
-    release_date: 2012-11-02
-- CMD:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 40493
-    name: 'MTG: Commander'
-    rarity: rare
-    release_date: 2011-06-17
-    wizards_id: 247298
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247298
-- LRW:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 28466
-    mtgo_id: 28465
-    name: Lorwyn
-    rarity: rare
-    release_date: 2007-10-12
-    wizards_id: 140217
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=140217
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Zoltan Boros & Gabor Szikszai
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "Lifelink *(Whenever this creature deals damage, you gain that much life.)*\
   \ \r\n\r\n[[symbol:R]], [[symbol:T]], Sacrifice a creature other than Brion Stoutarm:\
   \ Brion Stoutarm deals damage equal to the sacrificed creature's power to target\
@@ -112,8 +170,9 @@ subtype: Giant Warrior
 subtype_tokens:
 - Giant
 - Warrior
-tags: card-color-gold card-color-gold-cost-4 card-color-red card-color-white card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 181
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/brion-stoutarm/
+url: https://tappedout.net/mtg-card/brion-stoutarm/
+

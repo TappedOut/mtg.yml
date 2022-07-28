@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: LRW
 cannonical_type: Instant
@@ -11,51 +13,65 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 2.5
+draft_average: 5.45
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Deathtouch
 - Clash
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Gilt-Leaf Ambush
+power_toughness: ''
 printings:
 - LRW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Steve Prescott
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 28202
     mtgo_id: 28201
     name: Lorwyn
     number: 214
     rarity: common
-    release_date: 2007-10-12
+    release_date: '2007-10-12'
+    tla: LRW
+    variations: []
     wizards_id: 145984
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=145984
+rarity: common
 rules: "Put two 1/1 green Elf Warrior creature tokens onto the battlefield. Clash\
   \ with an opponent. If you win, those creatures gain deathtouch until end of turn.\
   \ (Each clashing player reveals the top card of his or her library, then puts that\
@@ -67,18 +83,24 @@ slug: gilt-leaf-ambush
 subtype: Elf
 subtype_tokens:
 - Elf
-tags: card-color-green card-color-green-cost-3 card-type-instant card-type-tribal
+synonyms: []
 tapped_id: 250
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elf Warrior 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Elf Warrior
-  tla: LRW
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 48
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elf Warrior 1/1 G
 type: Tribal Instant
-url: http://tappedout.net/mtg-card/gilt-leaf-ambush/
+url: https://tappedout.net/mtg-card/gilt-leaf-ambush/
+

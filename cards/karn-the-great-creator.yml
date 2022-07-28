@@ -4,37 +4,43 @@ activated_abilities:
   converted mana cost'
 - ': You may choose an artifact card you own from outside the game or in exile, reveal
   that card and put it to your hand'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: WAR
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 4
+cube_average: 5.22
+draft_average: 2.48
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,47 +48,70 @@ keywords:
 - Exile
 - Counters
 mana_cost: '4'
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Karn, the Great Creator
+planeswalker_loyalty: 5
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: original
-    name: Secret Lair
-    number: 253
-    rarity: rare
-    release_date: 2019-12-09
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '501'
 - WAR:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Wisnu Tan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 71609
     mtgo_id: 71608
     name: War of the Spark
     number: 1
     rarity: rare
-    release_date: 2019-05-03
+    release_date: '2019-05-03'
+    tla: WAR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 460928
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460928
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Zug
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 253
+    rarity: rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations:
+    - identifier: '501'
+    wizards_id: null
+    wizards_url: null
 rules: "Artifact abilities of artifacts your opponents control can't be activated.\r\
   \n\r\n[[symbol:loyalty-plus1]]: Until your next turn, up to one target noncreature\
   \ artifact become an artifact creature with power and toughness equal to the amount\
@@ -93,7 +122,9 @@ slug: karn-the-great-creator
 subtype: Karn
 subtype_tokens:
 - Karn
-tags: card-color-colorless card-color-colorless-cost-4 card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 21359
+tokens: []
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/karn-the-great-creator/
+url: https://tappedout.net/mtg-card/karn-the-great-creator/
+

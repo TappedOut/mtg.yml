@@ -1,109 +1,174 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C16
 cannonical_type: Instant
+color_identity: ''
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.82
+draft_average: 3.84
 effective_cost:
 - U
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 - Counterspell
 - Tokens
 mana_cost: U
-mana_cost_converted: 1
+mana_produced: ''
+mana_value: 1
+melds_from: []
 name: Swan Song
+power_toughness: ''
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 91
-    rarity: rare
-    release_date: 2019-12-09
-- ARENA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Arena Cards
-    rarity: rare
-    release_date: 2019-09-26
-- C16:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2016
-    number: 98
-    rarity: rare
-    release_date: 2016-11-11
-    wizards_id: 420715
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420715
 - THS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Peter Mohrbacher
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "\"The more enlightened mages create beauty from violence\" \r\n\
+      - Medomai the Ageless"
     frame: modern
     mtgo_foil_id: 50441
     mtgo_id: 50440
     name: Theros
     number: 65
     rarity: rare
-    release_date: 2013-09-27
+    release_date: '2013-09-27'
+    tla: THS
+    variations: []
     wizards_id: 373701
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373701
+- C16:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Peter Mohrbacher
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"The more enlightened mages create beauty from violence\" \r\n\
+      <br>&mdash;Medomai the Ageless*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2016
+    number: 98
+    rarity: rare
+    release_date: '2016-11-11'
+    tla: C16
+    variations: []
+    wizards_id: 420715
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420715
+- ARENA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Peter Mohrbacher
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Arena Cards
+    number: null
+    rarity: rare
+    release_date: '2019-09-26'
+    tla: ARENA
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Allen Douglas
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*The gracefulness of their flight makes one wonder whether Nature,
+      or, indeed, a rare sort of Magic lifts their wings.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 91
+    rarity: rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: Counter target enchantment, instant or sorcery spell. Its controller creates
   a 2/2 blue Bird creature token with flying.
 slug: swan-song
-tags: card-color-blue card-color-blue-cost-1 card-type-instant
+synonyms: []
 tapped_id: 14877
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Bird 2/2 U
-  power_toughness: 2/2
-  rules: Flying
-  subtype: Bird
-  tla: C16
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 2/2
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 32
+    - - cannonical_type
+      - Creature
+    - - name
+      - Bird 2/2 U
 type: Instant
-url: http://tappedout.net/mtg-card/swan-song/
+url: https://tappedout.net/mtg-card/swan-song/
+

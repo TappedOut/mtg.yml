@@ -1,5 +1,6 @@
 activated_abilities:
 - ': Add one mana of any type that a land you control could produce.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Land
@@ -14,103 +15,166 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 6.15
+draft_average: 3.79
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Premodern
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Historic
+- Gladiator
+- Premodern
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: W, U, B, R, G
+mana_value: 0
+melds_from: []
 name: Reflecting Pool
 printings:
-- CLB:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 358
-    rarity: rare
-    release_date: 2022-06-10
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '604'
-    wizards_id: 563241
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563241
-- CNS:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    name: Conspiracy
-    number: 210
-    rarity: rare
-    release_date: 2014-06-06
-    wizards_id: 382342
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382342
-- SHM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 29614
-    mtgo_id: 29613
-    name: Shadowmoor
-    rarity: rare
-    release_date: 2008-05-02
-    wizards_id: 152158
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=152158
 - TMP:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Rex
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 9846
     mtgo_id: 9845
     name: Tempest
+    number: null
     rarity: rare
-    release_date: 1997-10-13
+    release_date: '1997-10-13'
+    tla: TMP
+    variations: []
     wizards_id: 4936
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=4936
+- SHM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Fred Fields
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Does it reflect the future that once was or the past that can never
+      be?
+    frame: modern
+    mtgo_foil_id: 29614
+    mtgo_id: 29613
+    name: Shadowmoor
+    number: null
+    rarity: rare
+    release_date: '2008-05-02'
+    tla: SHM
+    variations: []
+    wizards_id: 152158
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=152158
+- CNS:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Fred Fields
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Does it reflect the future that once was or the past that can never
+      be?
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Conspiracy
+    number: 210
+    rarity: rare
+    release_date: '2014-06-06'
+    tla: CNS
+    variations: []
+    wizards_id: 382342
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382342
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Peter Mohrbacher
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*Does it reflect the future that once was or the past that can
+      never be?*'
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 8
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Alayna Danner
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Gale stared into the pool and saw a stranger. The similarities
+      were uncanny, but it was not him.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 358
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations:
+    - identifier: '604'
+    wizards_id: 563241
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563241
+rarity: rare
 rules: '[[symbol:T]]: Add one mana of any type that a land you control could produce.'
 slug: reflecting-pool
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-blue
-  card-mana-green card-mana-red card-mana-white card-type-land
+synonyms: []
 tapped_id: 7010
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/reflecting-pool/
+url: https://tappedout.net/mtg-card/reflecting-pool/
+

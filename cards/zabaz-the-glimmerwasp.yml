@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Destroy target artifact you control.'
 - ': This gains flying until end of turn.'
-activation_costs:
+activated_costs:
 - R
 - W
 canadian_hl_score: 0
@@ -9,31 +9,34 @@ cannonical_set: MH2
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 1
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,25 +45,34 @@ keywords:
 - Modular
 - Counters
 mana_cost: '1'
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Zabaz, the Glimmerwasp
 power_toughness: 0/0
 printings:
 - MH2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Felix
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Modern Horizons 2
     number: 243
     rarity: rare
-    release_date: 2021-06-18
+    release_date: '2021-06-18'
+    tla: MH2
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '474'
+    - identifier: '474'
     wizards_id: 522319
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522319
 rules: "Modular 1 *(This creature enters the battlefield with a +1/+1 counter on it.\
@@ -73,8 +85,9 @@ slug: zabaz-the-glimmerwasp
 subtype: Insect
 subtype_tokens:
 - Insect
-tags: card-color-colorless card-color-colorless-cost-1 card-type-artifact card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 24406
+tokens: []
 type: Legendary Artifact Creature
-url: http://tappedout.net/mtg-card/zabaz-the-glimmerwasp/
+url: https://tappedout.net/mtg-card/zabaz-the-glimmerwasp/
+

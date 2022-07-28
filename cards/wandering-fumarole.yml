@@ -2,7 +2,7 @@ activated_abilities:
 - ': Add  or  to your mana pool.'
 - ': Until end of turn, Wandering Fumarole becomes a 1/4 blue and red Elemental creature
   with  It''s still a land.'
-activation_costs:
+activated_costs:
 - R
 - U
 canadian_hl_score: 0
@@ -19,62 +19,90 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 8.98
+draft_average: 4.34
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: U, R
+mana_value: 0
+melds_from: []
 name: Wandering Fumarole
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 928
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567745
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567745
 - OGW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Florian de Gesincourt
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 59260
     mtgo_id: 59259
     name: Oath of the Gatewatch
     number: 182
     rarity: rare
-    release_date: 2016-01-22
+    release_date: '2016-01-22'
+    tla: OGW
+    variations: []
     wizards_id: 407692
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407692
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Florian de Gesincourt
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 928
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567745
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567745
+rarity: rare
 rules: "Wandering Fumarole enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Add\
   \ [[symbol:U]] or [[symbol:R]] to your mana pool.\r\n\r\n[[symbol:2]][[symbol:U]][[symbol:R]]:\
   \ Until end of turn, Wandering Fumarole becomes a 1/4 blue and red Elemental creature\
@@ -92,8 +120,8 @@ synonyms:
 - Man Land RU
 - Izzet Manland
 - Izzet Man Land
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-blue card-mana-red
-  card-type-land
 tapped_id: 17429
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/wandering-fumarole/
+url: https://tappedout.net/mtg-card/wandering-fumarole/
+

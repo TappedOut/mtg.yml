@@ -5,6 +5,7 @@ activated_abilities:
   twice that many of of those tokens are created instead.'
 - ': Exile all cards from all graveyards, then create a 1/1 white Spirit creature
   token with flying for each card exiled this way.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Planeswalker
@@ -12,6 +13,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -20,30 +22,31 @@ companions:
 effective_cost:
 - W
 - B
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -53,38 +56,63 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 1WB
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Kaya, Geist Hunter
+planeswalker_loyalty: 3
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 507
-    rarity: mythic_rare
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Ryan Pancoast
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 240
     rarity: mythic_rare
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '280'
+    - identifier: '280'
     wizards_id: 541114
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=541114
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ryan Pancoast
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 507
+    rarity: mythic_rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "[[symbol:loyalty-plus1]]: Creatures you control gain deathtouch until end\
   \ of turn. Put a +1/+1 counter on up to one target creature token you control.\r\
   \n\r\n[[symbol:loyalty-minus2]]: Until end of turn, if one or more tokens would\
@@ -96,19 +124,24 @@ slug: kaya-geist-hunter
 subtype: Kaya
 subtype_tokens:
 - Kaya
-tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-white card-type-legendary
-  card-type-planeswalker
+synonyms: []
 tapped_id: 25566
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spirit 1/1 W
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Spirit
-  tla: VOW
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 17
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spirit 1/1 W
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/kaya-geist-hunter/
+url: https://tappedout.net/mtg-card/kaya-geist-hunter/
+

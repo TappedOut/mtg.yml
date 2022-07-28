@@ -1,7 +1,7 @@
 activated_abilities:
 - ', : Rather than pay the mana cost of the nex spell you cast this turn, you may
   pay life equal to that spell''s converted mana cost/mana value.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: C21
@@ -9,6 +9,7 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -16,42 +17,51 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
 mana_cost: 4B
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Marshland Bloodcaster
 power_toughness: 3/5
 printings:
 - C21:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jodie Muir
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Blood magic is more artery than science.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2021
     number: 43
     rarity: rare
-    release_date: 2021-04-23
+    release_date: '2021-04-23'
+    tla: C21
     variations:
-    - alterations:
-      - Normal
-      identifier: '370'
+    - identifier: '370'
     wizards_id: 518439
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518439
 rules: "Flying\r\n\r\n[[symbol:1]][[symbol:B]], [[symbol:T]]: Rather than pay the\
@@ -62,7 +72,9 @@ subtype: Vampire Warlock
 subtype_tokens:
 - Vampire
 - Warlock
-tags: card-color-black card-color-black-cost-5 card-type-creature
+synonyms: []
 tapped_id: 24353
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/marshland-bloodcaster/
+url: https://tappedout.net/mtg-card/marshland-bloodcaster/
+

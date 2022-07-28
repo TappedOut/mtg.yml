@@ -2,33 +2,37 @@ activated_abilities:
 - ": Choose target creature with a counter on it. When that creature dies this turn,\
   \ return that card to its owner\u2019s hand. *(Dying is being put into the graveyard\
   \ from the battlefield, tokens cease to exist when they are put into the graveyard.)*"
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.35
 effective_cost:
 - W
-flat_cost: 2
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -36,70 +40,128 @@ keywords:
 - Counters
 - Support
 mana_cost: WW
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Together Forever
 printings:
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 212
-    rarity: rare
-    release_date: 2022-04-30
-    wizards_id: 559784
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559784
-- C21:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 108
-    rarity: rare
-    release_date: 2021-04-23
-    wizards_id: 519143
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519143
-- ZNC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Zendikar Rising: Commander'
-    number: 22
-    rarity: rare
-    release_date: 2020-09-25
-    wizards_id: 495960
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=495960
-- C20:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 105
-    rarity: rare
-    release_date: 2020-05-15
 - BBD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Aaron Miller
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 68793
     mtgo_id: 68792
     name: Battlebond
     number: 32
     rarity: rare
-    release_date: 2018-06-08
+    release_date: '2018-06-08'
+    tla: BBD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Aaron Miller
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 105
+    rarity: rare
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- ZNC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Aaron Miller
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Zendikar Rising: Commander'
+    number: 22
+    rarity: rare
+    release_date: '2020-09-25'
+    tla: ZNC
+    variations: []
+    wizards_id: 495960
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=495960
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Aaron Miller
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 108
+    rarity: rare
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519143
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519143
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Aaron Miller
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 212
+    rarity: rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559784
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559784
+rarity: rare
 rules: "When this enters the battlefield, support 2. *(Put a +1+1 counter on each\
   \ of up to two target creatures)*\r\n\r\n[[symbol:1]]: Choose target creature with\
   \ a counter on it. When that creature dies this turn, return that card to its owner\u2019\
   s hand. *(Dying is being put into the graveyard from the battlefield, tokens cease\
   \ to exist when they are put into the graveyard.)*"
 slug: together-forever
-tags: card-color-white card-color-white-cost-2 card-type-enchantment
+synonyms: []
 tapped_id: 20344
+tokens: []
 type: Enchantment
-url: http://tappedout.net/mtg-card/together-forever/
+url: https://tappedout.net/mtg-card/together-forever/
+

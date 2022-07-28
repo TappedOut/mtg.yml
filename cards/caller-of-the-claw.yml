@@ -1,65 +1,93 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C15
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.15
+draft_average: 1.33
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Flash
 - Tokens
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Caller of the Claw
 power_toughness: 2/2
 printings:
-- C15:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2015
-    number: 177
-    rarity: rare
-    release_date: 2015-11-13
-    wizards_id: 405165
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405165
 - LGN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Matt Cavotta
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 18532
     mtgo_id: 18531
     name: Legions
+    number: null
     rarity: rare
-    release_date: 2003-02-03
+    release_date: '2003-02-03'
+    tla: LGN
+    variations: []
     wizards_id: 42187
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=42187
+- C15:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Matt Cavotta
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2015
+    number: 177
+    rarity: rare
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
+    wizards_id: 405165
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405165
+rarity: rare
 rules: "Flash\r\n\r\nWhen Caller of the Claw enters the battlefield, put a 2/2 green\
   \ Bear creature token into play for each nontoken creature put into your graveyard\
   \ from play this turn."
@@ -67,18 +95,24 @@ slug: caller-of-the-claw
 subtype: Elf
 subtype_tokens:
 - Elf
-tags: card-color-green card-color-green-cost-3 card-type-creature
+synonyms: []
 tapped_id: 3677
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Bear 2/2 G
-  power_toughness: 2/2
-  rules: ''
-  subtype: Bear
-  tla: C15
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 109
+    - - cannonical_type
+      - Creature
+    - - name
+      - Bear 2/2 G
 type: Creature
-url: http://tappedout.net/mtg-card/caller-of-the-claw/
+url: https://tappedout.net/mtg-card/caller-of-the-claw/
+

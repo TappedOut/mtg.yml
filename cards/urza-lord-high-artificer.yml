@@ -2,38 +2,42 @@ activated_abilities:
 - 'Tap an untapped artifact you control: Gain .'
 - ': Shuffle your library, then exile the top card. Until end of turn, you may play
   that card without paying its mana cost.'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: MH1
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 3.66
+draft_average: 1.67
 effective_cost:
 - U
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,37 +46,57 @@ keywords:
 - Tap/Untap
 - Tokens
 mana_cost: 2UU
-mana_cost_converted: 4
 mana_produced: U
+mana_value: 4
+melds_from: []
 name: Urza, Lord High Artificer
 power_toughness: 1/4
 printings:
-- H1R:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: Modern Horizons Timeshifted Reprints
-    number: 11
-    rarity: mythic_rare
-    release_date: 2021-06-18
 - MH1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Grzegorz Rutkowski
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 72523
     mtgo_id: 72522
     name: Modern Horizons
     number: 75
     rarity: mythic_rare
-    release_date: 2019-06-14
+    release_date: '2019-06-14'
+    tla: MH1
+    variations: []
     wizards_id: 464024
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464024
+- H1R:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Grzegorz Rutkowski
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Modern Horizons Timeshifted Reprints
+    number: 11
+    rarity: mythic_rare
+    release_date: '2021-06-18'
+    tla: H1R
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "When this enters the battlefield, create a 0/0 colourless Construct artifact\
   \ creature token with \u201CThis creature gets +1/+1 for each artifact you control.\u201D\
   \r\n\r\nTap an untapped artifact you control: Gain [[symbol:U]].\r\n\r\n[[symbol:5]]:\
@@ -83,18 +107,24 @@ subtype: Human Artificer
 subtype_tokens:
 - Human
 - Artificer
-tags: card-color-blue card-color-blue-cost-4 card-mana-blue card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 21514
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Construct 0/0 C
-  power_toughness: 0/0
-  rules: This creature gets +1/+1 for each artifact you control.
-  subtype: Construct
-  tla: MH2
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 0/0
+    - - rules
+      - This creature gets +1/+1 for each artifact you control.
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 72
+    - - cannonical_type
+      - Creature
+    - - name
+      - Construct 0/0 C
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/urza-lord-high-artificer/
+url: https://tappedout.net/mtg-card/urza-lord-high-artificer/
+

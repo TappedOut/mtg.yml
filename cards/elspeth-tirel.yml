@@ -2,34 +2,39 @@ activated_abilities:
 - ': You gain 1 life for each creature you control.'
 - ': Create three 1/1 white Soldier creature tokens.'
 - ': Destroy all other permanents except for lands and tokens.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SOM
 cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.46
+draft_average: 1.43
 effective_cost:
 - W
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -37,23 +42,36 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 3WW
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Elspeth Tirel
+planeswalker_loyalty: 4
 printings:
 - SOM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Michael Komarck
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 38338
     mtgo_id: 38337
     name: Scars of Mirrodin
     number: 6
     rarity: mythic_rare
-    release_date: 2010-10-01
+    release_date: '2010-10-01'
+    tla: SOM
+    variations: []
     wizards_id: 212241
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=212241
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus2]]: You gain 1 life for each creature you control.\r\
   \n\r\n[[symbol:loyalty-minus2]]: Create three 1/1 white Soldier creature tokens.\r\
   \n\r\n[[symbol:loyalty-minus5]]: Destroy all other permanents except for lands and\
@@ -62,18 +80,24 @@ slug: elspeth-tirel
 subtype: Elspeth
 subtype_tokens:
 - Elspeth
-tags: card-color-white card-color-white-cost-5 card-type-planeswalker
+synonyms: []
 tapped_id: 12404
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Soldier 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Soldier
-  tla: SOM
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 18
+    - - cannonical_type
+      - Creature
+    - - name
+      - Soldier 1/1 W
 type: Planeswalker
-url: http://tappedout.net/mtg-card/elspeth-tirel/
+url: https://tappedout.net/mtg-card/elspeth-tirel/
+

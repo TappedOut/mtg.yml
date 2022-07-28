@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: MH1
@@ -6,146 +7,235 @@ cannonical_type: Sorcery
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.54
+draft_average: 5.01
 effective_cost:
 - R
-flat_cost: 1
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Premodern
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Historic
+- Gladiator
+- Premodern
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Flashback
 mana_cost: R
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Firebolt
 printings:
-- MYS1:
+- ODY:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ron Spencer
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Reach out and torch someone.
+    frame: original
+    mtgo_foil_id: 16706
+    mtgo_id: 16705
+    name: Odyssey
+    number: null
+    rarity: common
+    release_date: '2001-09-21'
+    tla: ODY
+    variations: []
+    wizards_id: 30570
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=30570
+- DD2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ron Spencer
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Reach out and torch someone.
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 31590
+    name: 'Duel Decks: Jace vs. Chandra'
+    number: null
+    rarity: common
+    release_date: '2008-11-07'
+    tla: DD2
+    variations: []
+    wizards_id: 189236
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=189236
+- '000':
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ron Spencer
+    booster_exclude: false
     border_color: B
     cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
-- MH1:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 72617
-    mtgo_id: 72616
-    name: Modern Horizons
-    number: 122
-    rarity: uncommon
-    release_date: 2019-06-14
-    wizards_id: 464071
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464071
-- DDS:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Duel Decks: Mind vs. Might'
-    number: 37
-    rarity: common
-    release_date: 2017-03-31
-    wizards_id: 426609
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426609
+    flavour_text: '*Reach out and torch someone.*'
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Promo Set
+    number: 1
+    rarity: rare
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
 - EMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rallis
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"There''s more where that came from!"'
     frame: m15
     mtgo_foil_id: 60940
     mtgo_id: 60939
     name: Eternal Masters
     number: 130
     rarity: common
-    release_date: 2016-06-10
+    release_date: '2016-06-10'
+    tla: EMA
+    variations: []
     wizards_id: 413672
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413672
+- DDS:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Chris Rallis
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Mind vs. Might'
+    number: 37
+    rarity: common
+    release_date: '2017-03-31'
+    tla: DDS
+    variations: []
+    wizards_id: 426609
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426609
+- MH1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rallis
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*"There''s more where that came from!"*'
+    frame: m15
+    mtgo_foil_id: 72617
+    mtgo_id: 72616
+    name: Modern Horizons
+    number: 122
+    rarity: uncommon
+    release_date: '2019-06-14'
+    tla: MH1
+    variations: []
+    wizards_id: 464071
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464071
 - DD3:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ron Spencer
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*Reach out and torch someone.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Duel Decks Anthology
     number: 49
     rarity: common
-    release_date: 2014-12-05
+    release_date: '2014-12-05'
+    tla: DD3
+    variations: []
     wizards_id: 393833
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393833
-- DD2:
+- MYS1:
     alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 31590
-    name: 'Duel Decks: Jace vs. Chandra'
-    rarity: common
-    release_date: 2008-11-07
-    wizards_id: 189236
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=189236
-- ODY:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: original
-    mtgo_foil_id: 16706
-    mtgo_id: 16705
-    name: Odyssey
-    rarity: common
-    release_date: 2001-09-21
-    wizards_id: 30570
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=30570
-- '000':
-    alterations:
-    - Foil
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Chris Rallis
+    booster_exclude: false
     border_color: B
     cannonical: false
-    frame: original
-    name: Promo Set
-    number: 1
-    rarity: rare
-    release_date: 1990-04-15
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: "Firebolt deals 2 damage to target creature, player or planeswalker.\r\n\r\n\
   Flashback [[symbol:4]][[symbol:R]] *(You may cast this card from your graveyard\
   \ for its flashback cost. Then exile it.)*"
 slug: firebolt
-tags: card-color-red card-color-red-cost-1 card-type-sorcery
+synonyms: []
 tapped_id: 4531
+tokens: []
 type: Sorcery
-url: http://tappedout.net/mtg-card/firebolt/
+url: https://tappedout.net/mtg-card/firebolt/
+

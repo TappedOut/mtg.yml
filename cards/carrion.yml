@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MIR
 cannonical_type: Instant
@@ -10,60 +12,79 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.0
+draft_average: 14.0
 effective_cost:
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Sacrifice
 mana_cost: 1BB
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Carrion
+power_toughness: ''
 printings:
 - MIR:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Geofrey Darrow
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 6844
     mtgo_id: 6843
     name: Mirage
     number: 111
     rarity: rare
-    release_date: 1996-10-01
+    release_date: '1996-10-01'
+    tla: MIR
+    variations: []
     wizards_id: 3280
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3280
+rarity: rare
 rules: "As an additional cost to play Carrion, sacrifice a creature.\r\n\r\nPut X\
   \ 0/1 black Insect creature tokens into play, where X is the sacrificed creature's\
   \ power."
 slug: carrion
-tags: card-color-black card-color-black-cost-3 card-type-instant
+synonyms: []
 tapped_id: 7464
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 0/1 B Token Creature Insect
-  power_toughness: 0/1
-  rules: ''
-  subtype: Insect
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 0/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 16
+    - - cannonical_type
+      - Creature
+    - - name
+      - null
 type: Instant
-url: http://tappedout.net/mtg-card/carrion/
+url: https://tappedout.net/mtg-card/carrion/
+

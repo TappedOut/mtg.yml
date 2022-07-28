@@ -1,10 +1,10 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: MMA
 cannonical_type: Instant
-color_indicator:
-- U
+color_indicator: U
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -14,122 +14,190 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.67
+draft_average: 2.84
 effective_cost:
 - U
-flat_cost: 0
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Counterspell
 mana_cost: '0'
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Pact of Negation
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 77
-    rarity: rare
-    release_date: 2021-03-19
-    wizards_id: 509442
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509442
-- ARENA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Arena Cards
-    rarity: rare
-    release_date: 2019-09-26
-- A25:
-    alterations:
-    - Foil
-    - Normal
-    - The List
-    border_color: B
-    cannonical: false
-    frame: m15
-    mtgo_foil_id: 67051
-    mtgo_id: 67050
-    name: Masters 25
-    number: 68
-    rarity: rare
-    release_date: 2018-03-16
-    wizards_id: 442057
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442057
-- AKHMPS:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: 'Masterpiece Series: Amonkhet Invocations'
-    number: 16
-    rarity: special
-    release_date: 2017-04-28
-    wizards_id: 429875
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=429875
-- MMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 48645
-    mtgo_id: 48644
-    name: Modern Masters
-    number: 56
-    rarity: rare
-    release_date: 2013-06-07
-    wizards_id: 370354
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370354
 - FUT:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Chan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Those who expect betrayal at every turn are seldom disappointed.*'
     frame: modern
     mtgo_foil_id: 26759
     mtgo_id: 26758
     name: Future Sight
     number: 42
     rarity: rare
-    release_date: 2007-05-04
+    release_date: '2007-05-04'
+    tla: FUT
+    variations: []
     wizards_id: 130701
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=130701
+- MMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Chan
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Those who expect betrayal at every turn are seldom disappointed.*'
+    frame: modern
+    mtgo_foil_id: 48645
+    mtgo_id: 48644
+    name: Modern Masters
+    number: 56
+    rarity: rare
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
+    wizards_id: 370354
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370354
+- AKHMPS:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Titus Lunter
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Masterpiece Series: Amonkhet Invocations'
+    number: 16
+    rarity: special
+    release_date: '2017-04-28'
+    tla: AKHMPS
+    variations: []
+    wizards_id: 429875
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=429875
+- A25:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Jason Chan
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Those who expect betrayal at every turn are seldom disappointed.*'
+    frame: m15
+    mtgo_foil_id: 67051
+    mtgo_id: 67050
+    name: Masters 25
+    number: 68
+    rarity: rare
+    release_date: '2018-03-16'
+    tla: A25
+    variations: []
+    wizards_id: 442057
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442057
+- ARENA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Titus Lunter
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Those who expect betrayal at every turn are seldom disappointed.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Arena Cards
+    number: null
+    rarity: rare
+    release_date: '2019-09-26'
+    tla: ARENA
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Chan
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Those who expect betrayal at every turn are seldom disappointed.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 77
+    rarity: rare
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509442
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509442
+rarity: rare
 rules: "This is blue.\r\n\r\nCounter target spell.\r\n\r\nAt the beginning of your\
   \ next upkeep, pay [[symbol:3]][[symbol:U]][[symbol:U]]. If you don't, you lose\
   \ the game."
 slug: pact-of-negation
-tags: card-color-blue card-color-blue-cost-0 card-type-instant
+synonyms: []
 tapped_id: 736
+tokens: []
 type: Instant
-url: http://tappedout.net/mtg-card/pact-of-negation/
+url: https://tappedout.net/mtg-card/pact-of-negation/
+

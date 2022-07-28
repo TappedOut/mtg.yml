@@ -1,7 +1,7 @@
 activated_abilities:
 - ', Sacrifice Knights'' Charge: Return all Knight creature cards from your graveyard
   to the battlefield.'
-activation_costs:
+activated_costs:
 - B
 - W
 canadian_hl_score: 0
@@ -11,6 +11,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -19,58 +20,78 @@ companions:
 effective_cost:
 - W
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
 mana_cost: 1WB
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Knights' Charge
 printings:
 - ELD:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Paul Scott Canavan
     booster_exclude: true
     border_color: B
+    cannonical: true
+    flavour_text: "*\"By hoof, wing or paw. For the realm!\"\r\n<br>&mdash;Syr Gwyn,\
+      \ Hero of Ashvale*"
     frame: m15
     mtgo_foil_id: 78717
     mtgo_id: 78716
     name: Throne of Eldraine
     number: 328
     rarity: rare
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
+    variations: []
     wizards_id: 476046
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476046
 rules: "Whenever a Knight you control attacks, each opponent loses 1 life and you\
   \ gain 1 life.\r\n\r\n[[symbol:6]][[symbol:W]][[symbol:B]], Sacrifice Knights' Charge:\
   \ Return all Knight creature cards from your graveyard to the battlefield."
 slug: knights-charge
-tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-white card-type-enchantment
+synonyms: []
 tapped_id: 21968
+tokens: []
 type: Enchantment
-url: http://tappedout.net/mtg-card/knights-charge/
+url: https://tappedout.net/mtg-card/knights-charge/
+

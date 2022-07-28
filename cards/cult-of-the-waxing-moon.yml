@@ -1,57 +1,77 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SOI
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.0
+draft_average: 5.23
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Transform
 - Tokens
 mana_cost: 4G
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Cult of the Waxing Moon
 power_toughness: 5/4
 printings:
 - SOI:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Anastasia Ovchinnikova
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*In times of madness, people cling to the familiar, monstrous though
+      it may be.*'
     frame: m15
     mtgo_foil_id: 59809
     mtgo_id: 59808
     name: Shadows over Innistrad
     number: 201
     rarity: uncommon
-    release_date: 2016-04-08
+    release_date: '2016-04-08'
+    tla: SOI
+    variations: []
     wizards_id: 409959
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409959
+rarity: uncommon
 rules: Whenever a permanent you control transforms into a non-Human creature, put
   a 2/2 green Wolf creature token onto the battlefield.
 slug: cult-of-the-waxing-moon
@@ -59,18 +79,24 @@ subtype: Human Shaman
 subtype_tokens:
 - Human
 - Shaman
-tags: card-color-green card-color-green-cost-5 card-type-creature
+synonyms: []
 tapped_id: 17787
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Wolf 2/2 G
-  power_toughness: 2/2
-  rules: ''
-  subtype: Wolf
-  tla: SOI
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 93
+    - - cannonical_type
+      - Creature
+    - - name
+      - Wolf 2/2 G
 type: Creature
-url: http://tappedout.net/mtg-card/cult-of-the-waxing-moon/
+url: https://tappedout.net/mtg-card/cult-of-the-waxing-moon/
+

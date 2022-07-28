@@ -1,78 +1,115 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: C17
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 10.41
+draft_average: 2.7
 effective_cost:
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
 - Tokens
 mana_cost: 1BB
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Pawn of Ulamog
 power_toughness: 2/2
 printings:
-- C17:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2017
-    number: 120
-    rarity: uncommon
-    release_date: 2017-08-25
-    wizards_id: 433052
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433052
-- DDP:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Duel Decks: Zendikar vs. Eldrazi'
-    number: 55
-    rarity: uncommon
-    release_date: 2015-08-28
-    wizards_id: 401697
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401697
 - ROE:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daarken
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 36663
     mtgo_id: 36662
     name: Rise of the Eldrazi
+    number: null
     rarity: uncommon
-    release_date: 2010-04-23
+    release_date: '2010-04-23'
+    tla: ROE
+    variations: []
     wizards_id: 194907
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=194907
+- DDP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Daarken
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Zendikar vs. Eldrazi'
+    number: 55
+    rarity: uncommon
+    release_date: '2015-08-28'
+    tla: DDP
+    variations: []
+    wizards_id: 401697
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401697
+- C17:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: null
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2017
+    number: 120
+    rarity: uncommon
+    release_date: '2017-08-25'
+    tla: C17
+    variations: []
+    wizards_id: 433052
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433052
+rarity: uncommon
 rules: 'Whenever Pawn of Ulamog or another nontoken creature you control is put into
   a graveyard from the battlefield, you may put a 0/1 colorless Eldrazi Spawn creature
   token onto the battlefield. It has "Sacrifice this creature: Add [[symbol:C]] to
@@ -82,18 +119,24 @@ subtype: Vampire Shaman
 subtype_tokens:
 - Vampire
 - Shaman
-tags: card-color-black card-color-black-cost-3 card-type-creature
+synonyms: []
 tapped_id: 12086
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Eldrazi Spawn 0/1 C
-  power_toughness: 0/1
-  rules: 'Sacrifice this: Add [[symbol:C]].'
-  subtype: Eldrazi Spawn
-  tla: C17
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 0/1
+    - - rules
+      - 'Sacrifice this: Add [[symbol:C]].'
+    - - type
+      - Token Creature
+    - - subtype
+      - 894
+    - - cannonical_type
+      - Creature
+    - - name
+      - Eldrazi Spawn 0/1 C
 type: Creature
-url: http://tappedout.net/mtg-card/pawn-of-ulamog/
+url: https://tappedout.net/mtg-card/pawn-of-ulamog/
+

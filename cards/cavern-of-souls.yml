@@ -2,7 +2,7 @@ activated_abilities:
 - ': Add .'
 - ': Add one mana of any colour. Spend this mana only to cast a creature spell of
   the chosen type, and that spell can''t be countered.'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: UMA
@@ -18,124 +18,188 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 9.71
+draft_average: 2.96
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: W, U, R, B, G, C
+mana_value: 0
+melds_from: []
 name: Cavern of Souls
 printings:
-- 2X2:
+- AVR:
     alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Double Masters 2022
-    number: 320
-    rarity: mythic_rare
-    release_date: 2022-07-08
-    variations:
-    - alterations:
-      - Foil
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: '402'
-    - alterations:
-      - Etched
-      identifier: '569'
-    wizards_id: 571653
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571653
-- ZNE:
-    alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Cliff Childs
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Zendikar Rising: Expeditions'
-    number: 22
-    rarity: mythic_rare
-    release_date: 2020-09-25
-- UMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 70552
-    mtgo_id: 70551
-    name: Ultimate Masters
-    number: 237
-    rarity: mythic_rare
-    release_date: 2018-12-07
-    wizards_id: 456833
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456833
-- UMAP:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: Ultimate Masters Promo
-    number: 32
-    rarity: mythic_rare
-    release_date: 2018-12-06
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 44246
+    mtgo_id: 44245
+    name: Avacyn Restored
+    number: null
+    rarity: rare
+    release_date: '2012-05-04'
+    tla: AVR
+    variations: []
+    wizards_id: 278058
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=278058
 - MM3:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Richard Wright
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 63514
     mtgo_id: 63513
     name: Modern Masters 2017 Edition
     number: 212
     rarity: mythic_rare
-    release_date: 2017-03-17
+    release_date: '2017-03-17'
+    tla: MM3
+    variations: []
     wizards_id: 426057
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426057
-- AVR:
+- UMA:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Richard Wright
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 44246
-    mtgo_id: 44245
-    name: Avacyn Restored
-    rarity: rare
-    release_date: 2012-05-04
-    wizards_id: 278058
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=278058
-promo_sets:
-- UMAP
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: 70552
+    mtgo_id: 70551
+    name: Ultimate Masters
+    number: 237
+    rarity: mythic_rare
+    release_date: '2018-12-07'
+    tla: UMA
+    variations: []
+    wizards_id: 456833
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456833
+- UMAP:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Richard Wright
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Ultimate Masters Promo
+    number: 32
+    rarity: mythic_rare
+    release_date: '2018-12-06'
+    tla: UMAP
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- ZNE:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sam Burlry
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Zendikar Rising: Expeditions'
+    number: 22
+    rarity: mythic_rare
+    release_date: '2020-09-25'
+    tla: ZNE
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- 2X2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Richard Wright
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters 2022
+    number: 320
+    rarity: mythic_rare
+    release_date: '2022-07-08'
+    tla: 2X2
+    variations:
+    - identifier: '402'
+    - identifier: '569'
+    wizards_id: 571653
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571653
+rarity: rare
 rules: "As Cavern of Souls enters the battlefield, choose a creature type.\r\n\r\n\
   [[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:T]]: Add one mana of any colour.\
   \ Spend this mana only to cast a creature spell of the chosen type, and that spell\
   \ can't be countered."
 slug: cavern-of-souls
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-blue
-  card-mana-colorless-sym card-mana-green card-mana-red card-mana-white card-type-land
+synonyms: []
 tapped_id: 13681
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/cavern-of-souls/
+url: https://tappedout.net/mtg-card/cavern-of-souls/
+

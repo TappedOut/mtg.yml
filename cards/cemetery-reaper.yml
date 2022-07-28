@@ -1,36 +1,40 @@
 activated_abilities:
 - ', : Exile target creature card from a graveyard. Create a 2/2 black Zombie creature
   token.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: MIC
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.13
+draft_average: 4.27
 effective_cost:
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -38,58 +42,102 @@ keywords:
 - Exile
 - Tokens
 mana_cost: 1BB
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Cemetery Reaper
 power_toughness: 2/2
 printings:
-- MIC:
+- M10:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dave Allsop
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: 'Innistrad: Midnight Hunt Commander'
-    number: 108
+    cannonical: true
+    flavour_text: Every grave cradles a recruit.
+    frame: modern
+    mtgo_foil_id: 32722
+    mtgo_id: 32721
+    name: 2010 Core Set
+    number: null
     rarity: rare
-    release_date: 2021-09-25
-    wizards_id: 539369
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539369
+    release_date: '2009-07-17'
+    tla: M10
+    variations: []
+    wizards_id: 190193
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=190193
 - M12:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dave Allsop
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Every grave cradles a recruit.
     frame: modern
     mtgo_foil_id: 41184
     mtgo_id: 41183
     name: 2012 Core Set
     number: 86
     rarity: rare
-    release_date: 2011-07-15
+    release_date: '2011-07-15'
+    tla: M12
+    variations: []
     wizards_id: 234070
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=234070
 - ARC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Dave Allsop
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Every grave cradles a recruit.
     frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Archenemy
+    number: null
     rarity: rare
-    release_date: 2010-06-18
+    release_date: '2010-06-18'
+    tla: ARC
+    variations: []
     wizards_id: 220476
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220476
-- M10:
+- MIC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Dave Allsop
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 32722
-    mtgo_id: 32721
-    name: 2010 Core Set
+    cannonical: true
+    flavour_text: '*Every grave cradles a recruit.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Midnight Hunt Commander'
+    number: 108
     rarity: rare
-    release_date: 2009-07-17
-    wizards_id: 190193
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=190193
+    release_date: '2021-09-25'
+    tla: MIC
+    variations: []
+    wizards_id: 539369
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539369
+rarity: rare
 rules: "Other Zombie creatures you control get +1/+1.\r\n\r\n[[symbol:2]][[symbol:B]],\
   \ [[symbol:T]]: Exile target creature card from a graveyard. Create a 2/2 black\
   \ Zombie creature token."
@@ -97,18 +145,24 @@ slug: cemetery-reaper
 subtype: Zombie
 subtype_tokens:
 - Zombie
-tags: card-color-black card-color-black-cost-3 card-type-creature
+synonyms: []
 tapped_id: 11599
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: MIC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Creature
-url: http://tappedout.net/mtg-card/cemetery-reaper/
+url: https://tappedout.net/mtg-card/cemetery-reaper/
+

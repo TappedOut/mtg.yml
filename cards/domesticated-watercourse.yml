@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Gain  or .'
 - ': Until end of turn, CARDNAME becomes an Equipment artifact with equip .'
-activation_costs:
+activated_costs:
 - B
 - U
 canadian_hl_score: 0
@@ -18,20 +18,24 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 3.0
+draft_average: 6.0
+effective_cost: []
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -39,21 +43,33 @@ is_permanent: true
 keywords:
 - Equip
 - Attach
-mana_cost_converted: 0
 mana_produced: U, B
+mana_value: 0
+melds_from: []
 name: Domesticated Watercourse
 printings:
 - MYSCON:
     alterations:
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - list
+      - The List
+    artist: Joe Torra
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Mystery Booster: Convention Edition'
     number: 114
     rarity: rare
-    release_date: 2019-11-07
+    release_date: '2019-11-07'
+    tla: MYSCON
+    variations: []
     wizards_id: 476244
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476244
 rules: "CARDNAME enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Gain [[symbol:U]]\
@@ -65,8 +81,9 @@ rules: "CARDNAME enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Gain [[symb
   \ at <a href=\"https://magic.wizards.com/en/articles/archive/feature/mystery-booster-release-notes-2019-11-11\"\
   >the release notes for that card, here.</a>)*"
 slug: domesticated-watercourse
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-blue
-  card-type-land
+synonyms: []
 tapped_id: 22326
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/domesticated-watercourse/
+url: https://tappedout.net/mtg-card/domesticated-watercourse/
+

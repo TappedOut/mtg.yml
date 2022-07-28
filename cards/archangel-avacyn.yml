@@ -1,34 +1,38 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SOI
 cannonical_type: Creature
-color_identity:
-- R
+color_identity: R
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 4.5
+draft_average: 1.4
 effective_cost:
 - W
-flat_cost: 5
 flip: Avacyn, the Purifier
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_front: true
 is_mtgo: true
 is_permanent: true
@@ -39,39 +43,61 @@ keywords:
 - Vigilance
 - Transform
 mana_cost: 3WW
-mana_cost_converted: 5
+mana_produced: ''
+mana_value: 5
+melds_from: []
 name: Archangel Avacyn
 power_toughness: 4/4
 printings:
-- V17:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: 'From the Vault: Transform'
-    number: 1
-    rarity: mythic_rare
-    release_date: 2017-11-24
-    wizards_id: 439314
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439314
 - SOI:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: James Ryman
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 59767
     mtgo_id: 59766
     name: Shadows over Innistrad
     number: 5
     rarity: mythic_rare
-    release_date: 2016-04-08
+    release_date: '2016-04-08'
+    tla: SOI
+    variations: []
     wizards_id: 409741
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409741
+- V17:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: James Ryman
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'From the Vault: Transform'
+    number: 1
+    rarity: mythic_rare
+    release_date: '2017-11-24'
+    tla: V17
+    variations: []
+    wizards_id: 439314
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439314
+rarity: mythic_rare
 rules: "Flash\r\n\r\nFlying, vigilance\r\n\r\nWhen Archangel Avacyn enters the battlefield,\
   \ creatures you control gain indestructible until end of turn.\r\n\r\nWhen a non-Angel\
   \ creature you control dies, transform Archangel Avacyn at the beginning of the\
@@ -80,7 +106,9 @@ slug: archangel-avacyn
 subtype: Angel
 subtype_tokens:
 - Angel
-tags: card-color-white card-color-white-cost-5 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 17626
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/archangel-avacyn/
+url: https://tappedout.net/mtg-card/archangel-avacyn/
+

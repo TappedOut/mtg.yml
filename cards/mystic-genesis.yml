@@ -1,6 +1,9 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MM3
 cannonical_type: Instant
+color_identity: ''
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -10,76 +13,110 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.85
+draft_average: 8.51
 effective_cost:
 - U
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Counterspell
 mana_cost: 2GUU
-mana_cost_converted: 5
+mana_produced: ''
+mana_value: 5
+melds_from: []
 name: Mystic Genesis
+power_toughness: ''
 printings:
+- GTC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mike Bierek
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "\"The Simic can grow anything out of a puddle of sludge. I just\
+      \ hope they never join forces with the Golgari.\" \u2014Teysa Karlov, Grand\
+      \ Envoy of Orzhov"
+    frame: modern
+    mtgo_foil_id: 47732
+    mtgo_id: 47731
+    name: Gatecrash
+    number: null
+    rarity: rare
+    release_date: '2013-02-01'
+    tla: GTC
+    variations: []
+    wizards_id: 366401
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=366401
 - MM3:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: null
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 63424
     mtgo_id: 63423
     name: Modern Masters 2017 Edition
     number: 174
     rarity: uncommon
-    release_date: 2017-03-17
+    release_date: '2017-03-17'
+    tla: MM3
+    variations: []
     wizards_id: 425999
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425999
-- GTC:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 47732
-    mtgo_id: 47731
-    name: Gatecrash
-    rarity: rare
-    release_date: 2013-02-01
-    wizards_id: 366401
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=366401
+rarity: rare
 rules: Counter target spell. Create an X/X green Ooze creature token, where X is that
   spell's converted mana cost.
 slug: mystic-genesis
-tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-green card-type-instant
+synonyms: []
 tapped_id: 14284
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Ooze X/X G
-  power_toughness: X/X
-  rules: ''
-  subtype: Ooze
-  tla: MM3
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - X/X
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 14
+    - - cannonical_type
+      - Creature
+    - - name
+      - Ooze X/X G
 type: Instant
-url: http://tappedout.net/mtg-card/mystic-genesis/
+url: https://tappedout.net/mtg-card/mystic-genesis/
+

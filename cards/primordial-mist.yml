@@ -1,6 +1,7 @@
 activated_abilities:
 - 'Exile a face-down permanent you control face up: You may play that card this turn.
   *(You still pay its costs. Timing rules still apply.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C18
 cannonical_type: Enchantment
@@ -8,26 +9,29 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 1.0
 effective_cost:
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -35,18 +39,29 @@ keywords:
 - Exile
 - Manifest
 mana_cost: 4U
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Primordial Mist
 printings:
 - C18:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Titus Lunter
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2018
     number: 12
     rarity: rare
-    release_date: 2018-08-10
+    release_date: '2018-08-10'
+    tla: C18
+    variations: []
     wizards_id: 450613
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=450613
 rules: "At the beginning of your end step, you may manifest the top card of your library.\
@@ -55,19 +70,26 @@ rules: "At the beginning of your end step, you may manifest the top card of your
   \ permanent you control face up: You may play that card this turn. *(You still pay\
   \ its costs. Timing rules still apply.)*"
 slug: primordial-mist
-tags: card-color-blue card-color-blue-cost-5 card-type-enchantment
+synonyms: []
 tapped_id: 20717
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Manifest 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down manifested creature with this reminder card.\r\
-    \n\r\nA manifested creature card can be turned face up at any time for its mana\
-    \ cost. A face-down card can also be turned face up for its morph cost."
-  tla: C18
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down manifested creature with this reminder card.\r\
+        \n\r\nA manifested creature card can be turned face up at any time for its\
+        \ mana cost. A face-down card can also be turned face up for its morph cost."
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Manifest 2/2 C
 type: Enchantment
-url: http://tappedout.net/mtg-card/primordial-mist/
+url: https://tappedout.net/mtg-card/primordial-mist/
+

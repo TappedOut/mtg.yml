@@ -3,7 +3,7 @@ activated_abilities:
 - ': Put a 5/5 black Demon creature token with flying onto the battlefield. You lose
   2 life.'
 - ': You gain an emblem with '
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: C14
@@ -11,26 +11,29 @@ cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.3
 effective_cost:
 - B
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -39,23 +42,36 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 3BB
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Ob Nixilis of the Black Oath
+planeswalker_loyalty: 3
 printings:
 - C14:
     alterations:
-    - Normal
-    - Oversized
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - oversized
+      - Oversized
+    artist: Daarken
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 55212
     mtgo_id: 55211
     name: Commander 2014
     number: 27
     rarity: mythic_rare
-    release_date: 2014-11-21
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
     wizards_id: 389618
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389618
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus2]]: Each opponent loses 1 life. You gain life equal\
   \ to the life lost this way.\r\n\r\n[[symbol:loyalty-minus2]]: Put a 5/5 black Demon\
   \ creature token with flying onto the battlefield. You lose 2 life.\r\n\r\n[[symbol:loyalty-minus8]]:\
@@ -66,29 +82,40 @@ slug: ob-nixilis-of-the-black-oath
 subtype: Nixilis
 subtype_tokens:
 - Nixilis
-tags: card-color-black card-color-black-cost-5 card-type-planeswalker
+synonyms: []
 tapped_id: 16026
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Demon 5/5 B
-  power_toughness: 5/5
-  rules: Flying
-  subtype: Demon
-  tla: C14
-  type: Token Creature
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Ob Nixilis of the Black Oath
-  power_toughness: null
-  rules: '[[symbol:1]][[symbol:B]], Sacrifice a creature: You gain X life and draw
-    X cards, where X is the sacrificed creature''s power.'
-  subtype: Nixilis
-  tla: C14
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 5/5
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 88
+    - - cannonical_type
+      - Creature
+    - - name
+      - Demon 5/5 B
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:1]][[symbol:B]], Sacrifice a creature: You gain X life and draw
+        X cards, where X is the sacrificed creature''s power.'
+    - - type
+      - Emblem
+    - - subtype
+      - 1066
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Ob Nixilis of the Black Oath
 type: Planeswalker
-url: http://tappedout.net/mtg-card/ob-nixilis-of-the-black-oath/
+url: https://tappedout.net/mtg-card/ob-nixilis-of-the-black-oath/
+

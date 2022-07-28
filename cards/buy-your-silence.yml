@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SNC
 cannonical_type: Sorcery
@@ -13,71 +15,90 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - W
-flat_cost: 5
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Penny Dreadful
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Sacrifice
 - Tokens
 mana_cost: 4W
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Buy Your Silence
 printings:
 - SNC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Tony Foti
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Mikey "the Mouth" kept his nickname after he struck his deal with
+      Gregorio, even though he never spoke another word.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Streets of New Capenna
     number: 6
     rarity: common
-    release_date: 2022-04-29
+    release_date: '2022-04-29'
+    tla: SNC
+    variations: []
     wizards_id: 555207
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=555207
 rules: 'Exile target nonland permanent. Its controller creates a Treasure token. *(It''s
   an artifact with "[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.")*'
 slug: buy-your-silence
-tags: card-color-white card-color-white-cost-5 card-type-sorcery
+synonyms: []
 tapped_id: 26243
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: SNC
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Sorcery
-url: http://tappedout.net/mtg-card/buy-your-silence/
+url: https://tappedout.net/mtg-card/buy-your-silence/
+

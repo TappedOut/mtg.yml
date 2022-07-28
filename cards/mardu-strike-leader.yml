@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: CLB
@@ -6,34 +7,37 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.29
+draft_average: 1.36
 effective_cost:
 - B
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -41,37 +45,60 @@ keywords:
 - Tokens
 - Dash
 mana_cost: 2B
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Mardu Strike Leader
 power_toughness: 3/2
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 761
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567578
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567578
 - FRF:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Jason Rainville
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 55643
     mtgo_id: 55642
     name: Fate Reforged
     number: 75
     rarity: rare
-    release_date: 2015-01-23
+    release_date: '2015-01-23'
+    tla: FRF
+    variations: []
     wizards_id: 391876
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=391876
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jason Rainville
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 761
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567578
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567578
+rarity: rare
 rules: "Whenever Mardu Strike Leader attacks, create a 2/1 black Warrior creature\
   \ token.\r\n\r\nDash [[symbol:3]][[symbol:B]] *(You may cast this spell for its\
   \ dash cost. If you do, it gains haste, and it is returned from the battlefield\
@@ -81,18 +108,24 @@ subtype: Human Warrior
 subtype_tokens:
 - Human
 - Warrior
-tags: card-color-black card-color-black-cost-3 card-type-creature
+synonyms: []
 tapped_id: 16154
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Warrior 2/1 B
-  power_toughness: 2/1
-  rules: ''
-  subtype: Warrior
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 864
+    - - cannonical_type
+      - Creature
+    - - name
+      - Warrior 2/1 B
 type: Creature
-url: http://tappedout.net/mtg-card/mardu-strike-leader/
+url: https://tappedout.net/mtg-card/mardu-strike-leader/
+

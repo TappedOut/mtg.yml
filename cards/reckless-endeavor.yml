@@ -2,6 +2,7 @@ activated_abilities:
 - 'Roll two twelve sided dice and choose one result. This deals damage equal to that
   result to each creature. Then create a number of Treasure tokens equal to the other
   result. *(They''re artifacts with , Sacrifice this: Gain one mana of any colour.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: AFC
 cannonical_type: Sorcery
@@ -16,47 +17,57 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 7
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
-is_permanent: false
 keywords:
 - Sacrifice
 - Tokens
 mana_cost: 5RR
-mana_cost_converted: 7
 mana_produced: WWW, UUU, BBB, RRR, GGG
+mana_value: 7
+melds_from: []
 name: Reckless Endeavor
 printings:
 - AFC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Billy Christian
+    booster_exclude: false
+    border_color: null
+    cannonical: true
+    flavour_text: '*Which burns more fiercely? Your ambition, or the flame?*'
+    frame: null
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Adventures in the Forgotten Realms: Commander'
     number: 33
     rarity: rare
-    release_date: 2021-07-24
+    release_date: '2021-07-24'
+    tla: AFC
     variations:
-    - alterations:
-      - Normal
-      identifier: '302'
+    - identifier: '302'
     wizards_id: 531938
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=531938
 rules: 'Roll two twelve sided dice and choose one result. This deals damage equal
@@ -64,19 +75,24 @@ rules: 'Roll two twelve sided dice and choose one result. This deals damage equa
   the other result. *(They''re artifacts with [[symbol:T]], Sacrifice this: Gain one
   mana of any colour.)*'
 slug: reckless-endeavor
-tags: card-color-red card-color-red-cost-7 card-mana-black card-mana-blue card-mana-green
-  card-mana-red card-mana-white card-type-sorcery
+synonyms: []
 tapped_id: 24897
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: 2X2
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Sorcery
-url: http://tappedout.net/mtg-card/reckless-endeavor/
+url: https://tappedout.net/mtg-card/reckless-endeavor/
+

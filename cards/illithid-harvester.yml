@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: CLB
@@ -6,30 +7,31 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -37,26 +39,39 @@ keywords:
 - Tap/Untap
 - Adventure
 mana_cost: 4U
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Illithid Harvester
 power_toughness: 4/4
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: David Astruga
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Your mind belongs to the Emperor now."*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 76
     rarity: rare
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '564'
+    - identifier: '564'
+    wizards_id: null
+    wizards_url: null
 rules: "*Ceremorphosis* &mdash; When Illithid Harvester enters the battlefield, turn\
   \ any number of target tapped nontoken creatures face down. They're 2/2 Horror creatures.\r\
   \n\r\n<br>\r\n\r\n*(You may cast Illithid Harvester from exile if you sent it on\
@@ -74,7 +89,9 @@ slug: illithid-harvester
 subtype: Horror
 subtype_tokens:
 - Horror
-tags: card-color-blue card-color-blue-cost-5 card-type-creature
+synonyms: []
 tapped_id: 26515
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/illithid-harvester/
+url: https://tappedout.net/mtg-card/illithid-harvester/
+

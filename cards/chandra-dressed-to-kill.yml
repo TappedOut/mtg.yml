@@ -3,7 +3,7 @@ activated_abilities:
 - ': Exile the top card of your library. If it''s red, you may cast it this turn.'
 - ': Exile the top five cards of your library. You may cast red spells from among
   them this turn. You get an emblem with '
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: VOW
@@ -11,6 +11,7 @@ cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -18,30 +19,31 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -49,39 +51,64 @@ keywords:
 - Exile
 - Counters
 mana_cost: 1RR
-mana_cost_converted: 3
 mana_produced: R
+mana_value: 3
+melds_from: []
 name: Chandra, Dressed to Kill
+planeswalker_loyalty: 3
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 416
-    rarity: mythic_rare
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Viktor Titov
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 149
     rarity: mythic_rare
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '279'
+    - identifier: '279'
     wizards_id: 541004
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=541004
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Viktor Titov
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 416
+    rarity: mythic_rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "[[symbol:loyalty-plus1]]: Add [[symbol:R]]. This deals 1 damage to up to one\
   \ target player or planeswalker.\r\n\r\n[[symbol:loyalty-plus1]]: Exile the top\
   \ card of your library. If it's red, you may cast it this turn.\r\n\r\n[[symbol:loyalty-minus7]]:\
@@ -93,19 +120,25 @@ slug: chandra-dressed-to-kill
 subtype: Chandra
 subtype_tokens:
 - Chandra
-tags: card-color-red card-color-red-cost-3 card-mana-red card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 25366
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Chandra, Dressed to Kill
-  power_toughness: null
-  rules: Whenever you cast a red spell, this emblem deals X damage to target creature,
-    player or planeswalker, where X is the amount of mana spent to cast that spell.
-  subtype: Chandra
-  tla: VOW
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Whenever you cast a red spell, this emblem deals X damage to target creature,
+        player or planeswalker, where X is the amount of mana spent to cast that spell.
+    - - type
+      - Emblem
+    - - subtype
+      - 243
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Chandra, Dressed to Kill
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/chandra-dressed-to-kill/
+url: https://tappedout.net/mtg-card/chandra-dressed-to-kill/
+

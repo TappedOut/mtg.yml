@@ -1,5 +1,6 @@
 activated_abilities:
 - '(2)(White): Put a 1/1 white Soldier creature token into play.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C14
 cannonical_type: Enchantment
@@ -7,93 +8,138 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.24
+draft_average: 1.0
 effective_cost:
 - W
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Vigilance
 mana_cost: 2W
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Mobilization
+power_toughness: ''
 printings:
+- 10E:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Carl Critchlow
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Wars are won with strength, valor, and numbersespecially numbers.
+    frame: modern
+    mtgo_foil_id: 27509
+    mtgo_id: 27508
+    name: Tenth Edition
+    number: null
+    rarity: rare
+    release_date: '2007-07-13'
+    tla: 10E
+    variations: []
+    wizards_id: 129716
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=129716
+- ONS:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Carl Critchlow
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Newcomers to Otaria find themselves at the bottom of the heap. In
+      the pits, they at least have the chance to climb atop a heap of bodies.
+    frame: original
+    mtgo_foil_id: 17726
+    mtgo_id: 17725
+    name: Onslaught
+    number: null
+    rarity: rare
+    release_date: '2002-10-07'
+    tla: ONS
+    variations: []
+    wizards_id: 39699
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=39699
 - C14:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Carl Critchlow
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "Wars are won with strength, valor, and numbers\u2014especially\
+      \ numbers."
     frame: m15
     mtgo_foil_id: 55006
     mtgo_id: 55005
     name: Commander 2014
     number: 81
     rarity: rare
-    release_date: 2014-11-21
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
     wizards_id: 389597
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389597
-- 10E:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 27509
-    mtgo_id: 27508
-    name: Tenth Edition
-    rarity: rare
-    release_date: 2007-07-13
-    wizards_id: 129716
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=129716
-- ONS:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: original
-    mtgo_foil_id: 17726
-    mtgo_id: 17725
-    name: Onslaught
-    rarity: rare
-    release_date: 2002-10-07
-    wizards_id: 39699
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=39699
+rarity: rare
 rules: "Soldier creatures have vigilance. (Attacking doesn't cause them to tap.) \r\
   \n\r\n(2)(White): Put a 1/1 white Soldier creature token into play."
 slug: mobilization
-tags: card-color-white card-color-white-cost-3 card-type-enchantment
+synonyms: []
 tapped_id: 3995
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Soldier 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Soldier
-  tla: C14
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 18
+    - - cannonical_type
+      - Creature
+    - - name
+      - Soldier 1/1 W
 type: Enchantment
-url: http://tappedout.net/mtg-card/mobilization/
+url: https://tappedout.net/mtg-card/mobilization/
+

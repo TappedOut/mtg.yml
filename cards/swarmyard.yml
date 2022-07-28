@@ -2,7 +2,7 @@ activated_abilities:
 - ': Gain '
 - ': Regenerate target Insect, Rat, Spider, or Squirrel. *(The next time it would
   be destroyed, instead tap it, remove it from combat, and heal all damage on it.)*'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: TSP
@@ -18,22 +18,25 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+draft_average: 7.25
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -41,52 +44,95 @@ is_permanent: true
 keywords:
 - Regenerate
 - Tap/Untap
-mana_cost_converted: 0
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Swarmyard
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 284
-    rarity: rare
-    release_date: 2021-03-19
-    wizards_id: 509649
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509649
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 199
-    rarity: rare
-    release_date: 2019-12-09
 - TSP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Thomas M. Baxa
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Where scavengers nest in hollowed-out rib cages and chittering crawlers
+      peer from empty eye sockets, few dare to trespass.
     frame: modern
     mtgo_foil_id: 25702
     mtgo_id: 25701
     name: Time Spiral
+    number: null
     rarity: rare
-    release_date: 2006-10-06
+    release_date: '2006-10-06'
+    tla: TSP
+    variations: []
     wizards_id: 114913
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=114913
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Carl Critchlow
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Each winter, squirrel elder tell tales of the fabled Nut Hoard
+      of the Fallen Oaks. Each spring, young squirrels leave home in hopes of finding
+      it.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 199
+    rarity: rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Thomas M. Baxa
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Where scavengers nest in hollowed-out rib cages and chittering
+      crawlers peer from empty eyes sockets, few dare to trespass.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 284
+    rarity: rare
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509649
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509649
+rarity: rare
 rules: "[[symbol:T]]: Gain [[symbol:C]]\r\n\r\n[[symbol:T]]: Regenerate target Insect,\
   \ Rat, Spider, or Squirrel. *(The next time it would be destroyed, instead tap it,\
   \ remove it from combat, and heal all damage on it.)*"
 slug: swarmyard
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
+synonyms: []
 tapped_id: 1201
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/swarmyard/
+url: https://tappedout.net/mtg-card/swarmyard/
+

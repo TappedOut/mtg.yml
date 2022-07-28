@@ -1,48 +1,50 @@
 activated_abilities:
 - ', Exile X creature cards from your graveyard: Transform this. X can''t be 0. Activate
   this ability only as a sorcery.'
-activation_costs:
+activated_costs:
 - B
 - U
 canadian_hl_score: 0
 cannonical_set: MID
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - U
 - B
-flat_cost: 2
 flip: Olag, Ludevic's Hubris
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_front: true
 is_mtgo: true
@@ -52,41 +54,69 @@ keywords:
 - Transform
 - Mill
 mana_cost: UB
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Ludevic, Necrogenius
 power_toughness: 2/3
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 233
-    rarity: rare
-    release_date: 2022-01-21
 - MID:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Ryan Pancoast
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Midnight Hunt'
     number: 233
     rarity: rare
-    release_date: 2021-09-24
+    release_date: '2021-09-24'
+    tla: MID
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '320'
+    - identifier: '320'
     wizards_id: 535028
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=535028
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ryan Pancoast
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 233
+    rarity: rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Whenever this enters the battlefield or attacks, mill a card. *(Put the top\
   \ card of your library into your graveyard.)*\r\n\r\n[[symbol:X]][[symbol:U]][[symbol:U]][[symbol:B]][[symbol:B]],\
   \ Exile X creature cards from your graveyard: Transform this. X can't be 0. Activate\
@@ -96,8 +126,9 @@ subtype: Human Wizard
 subtype_tokens:
 - Human
 - Wizard
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-2 card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 25207
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/ludevic-necrogenius/
+url: https://tappedout.net/mtg-card/ludevic-necrogenius/
+

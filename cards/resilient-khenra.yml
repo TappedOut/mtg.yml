@@ -2,41 +2,45 @@ activated_abilities:
 - 'Eternalize  *(, Exile this card from your graveyard: Create a token that''s a copy
   of it, except it''s a 4/4 black Zombie Jackal Wizard with no mana cost. Eternalize
   only as a sorcery.)*'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: HOU
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.48
+draft_average: 1.87
 effective_cost:
 - G
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,25 +49,39 @@ keywords:
 - Tokens
 - Eternalize
 mana_cost: 1G
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Resilient Khenra
 power_toughness: 2/2
 printings:
 - HOU:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Svetlin Velinov
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 64747
     mtgo_id: 64746
     name: Hour of Devastation
     number: 131
     rarity: rare
-    release_date: 2017-07-14
+    release_date: '2017-07-14'
+    tla: HOU
+    variations: []
     wizards_id: 430820
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430820
+rarity: rare
 rules: "When Resilient Khenra enters the battlefield, you may have target creature\
   \ get +X/+X until end of turn, where X is Resilient Khenra's power.\r\n\r\nEternalize\
   \ [[symbol:4]][[symbol:G]][[symbol:G]] *([[symbol:4]][[symbol:G]][[symbol:G]], Exile\
@@ -73,19 +91,25 @@ slug: resilient-khenra
 subtype: Wizard
 subtype_tokens:
 - Wizard
-tags: card-color-green card-color-green-cost-2 card-type-creature
+synonyms: []
 tapped_id: 19104
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Resilient Khenra 4/4 B
-  power_toughness: 4/4
-  rules: When this enters the battlefield, you may have target creature get +X/+X
-    until end of turn, where X is this creature's power.
-  subtype: Zombie Jackal Wizard
-  tla: HOU
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 4/4
+    - - rules
+      - When this enters the battlefield, you may have target creature get +X/+X until
+        end of turn, where X is this creature's power.
+    - - type
+      - Token Creature
+    - - subtype
+      - 1288
+    - - cannonical_type
+      - Creature
+    - - name
+      - Resilient Khenra 4/4 B
 type: Creature
-url: http://tappedout.net/mtg-card/resilient-khenra/
+url: https://tappedout.net/mtg-card/resilient-khenra/
+

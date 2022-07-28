@@ -1,34 +1,39 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DOM
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.07
+draft_average: 1.54
 effective_cost:
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -36,25 +41,45 @@ keywords:
 - Kicker
 - Tokens
 mana_cost: 2RR
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Verix Bladewing
 power_toughness: 4/4
 printings:
 - DOM:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: XiaoDi Jin
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Dominaria
     number: 149
     rarity: mythic_rare
-    release_date: 2018-04-22
+    release_date: '2018-04-22'
+    tla: DOM
+    variations: []
     wizards_id: 443037
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443037
+rarity: mythic_rare
 rules: "Kicker [[3]] *(You may pay an additional [[3]] as you cast this spell.)*\r\
   \n\r\nFlying\r\n\r\nWhen Verix Bladewing enters the battlefield, if it was kicked,\
   \ create Karox Bladewing, a legendary 4/4 red Dragon creature token with flying."
@@ -62,18 +87,24 @@ slug: verix-bladewing
 subtype: Dragon
 subtype_tokens:
 - Dragon
-tags: card-color-red card-color-red-cost-4 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 20124
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Karox Bladewing
-  power_toughness: 4/4
-  rules: Flying
-  subtype: Dragon
-  tla: DOM
-  type: Token Legendary Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 4/4
+    - - rules
+      - Flying
+    - - type
+      - Token Legendary Creature
+    - - subtype
+      - 42
+    - - cannonical_type
+      - Creature
+    - - name
+      - Karox Bladewing
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/verix-bladewing/
+url: https://tappedout.net/mtg-card/verix-bladewing/
+

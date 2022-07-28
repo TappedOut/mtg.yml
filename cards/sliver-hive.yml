@@ -3,7 +3,7 @@ activated_abilities:
 - ': Gain one mana of any colour. Spend this mana only to cast a Sliver spell.'
 - ', : Create a 1/1 colorless Sliver creature token. Activate this ability only if
   you control a Sliver.'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: M15
@@ -19,77 +19,110 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 10.95
+draft_average: 3.88
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
-mana_cost_converted: 0
 mana_produced: W, U, B, R, G
+mana_value: 0
+melds_from: []
 name: Sliver Hive
 printings:
-- J21:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Jumpstart: Historic Horizons'
-    rarity: rare
-    release_date: 2021-08-12
 - M15:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Igor Kieryluk
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 53623
     mtgo_id: 53622
     name: Magic 2015
     number: 247
     rarity: rare
-    release_date: 2014-07-18
+    release_date: '2014-07-18'
+    tla: M15
+    variations: []
     wizards_id: 383384
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383384
+- J21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Igor Kieryluk
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Jumpstart: Historic Horizons'
+    number: null
+    rarity: rare
+    release_date: '2021-08-12'
+    tla: J21
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:T]]: Gain one mana of any\
   \ colour. Spend this mana only to cast a Sliver spell.\r\n\r\n[[symbol:5]], [[symbol:T]]:\
   \ Create a 1/1 colorless Sliver creature token. Activate this ability only if you\
   \ control a Sliver."
 slug: sliver-hive
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-blue
-  card-mana-green card-mana-red card-mana-white card-type-land
+synonyms: []
 tapped_id: 15604
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Sliver 1/1 C
-  power_toughness: 1/1
-  rules: ''
-  subtype: Sliver
-  tla: M15
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 15
+    - - cannonical_type
+      - Creature
+    - - name
+      - Sliver 1/1 C
 type: Land
-url: http://tappedout.net/mtg-card/sliver-hive/
+url: https://tappedout.net/mtg-card/sliver-hive/
+

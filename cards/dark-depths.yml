@@ -1,5 +1,6 @@
 activated_abilities:
 - ': Remove an ice counter from Dark Depths.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: 2XM
 cannonical_type: Land
@@ -14,21 +15,25 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 6.79
+draft_average: 2.0
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
+- Block Constructed
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -39,95 +44,151 @@ keywords:
 - Sacrifice
 - Counters
 - Tokens
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Dark Depths
 printings:
-- 2XM:
+- CSP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Stephan Martiniere
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: Double Masters
-    number: 314
-    rarity: mythic_rare
-    release_date: 2020-08-07
-    wizards_id: 489987
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489987
-- UMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 70560
-    mtgo_id: 70559
-    name: Ultimate Masters
-    number: 241
-    rarity: mythic_rare
-    release_date: 2018-12-07
-- UMAP:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: Ultimate Masters Promo
-    number: 35
-    rarity: mythic_rare
-    release_date: 2018-12-06
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 24584
+    mtgo_id: 24583
+    name: Coldsnap
+    number: null
+    rarity: rare
+    release_date: '2006-07-21'
+    tla: CSP
+    variations: []
+    wizards_id: 121155
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=121155
 - V16:
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Stephan Martiniere
+    booster_exclude: false
     border_color: B
     cannonical: false
-    foil: foil
-    foil_only: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 62106
     mtgo_id: 62105
     name: 'From the Vault: Lore'
     number: 4
     rarity: mythic_rare
-    release_date: 2016-08-19
+    release_date: '2016-08-19'
+    tla: V16
+    variations: []
     wizards_id: 416746
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416746
-- CSP:
+- UMA:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mathias Kollros
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 24584
-    mtgo_id: 24583
-    name: Coldsnap
-    rarity: rare
-    release_date: 2006-07-21
-    wizards_id: 121155
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=121155
-promo_sets:
-- UMAP
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: 70560
+    mtgo_id: 70559
+    name: Ultimate Masters
+    number: 241
+    rarity: mythic_rare
+    release_date: '2018-12-07'
+    tla: UMA
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- UMAP:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mathias Kollros
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Ultimate Masters Promo
+    number: 35
+    rarity: mythic_rare
+    release_date: '2018-12-06'
+    tla: UMAP
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mathias Kollros
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 314
+    rarity: mythic_rare
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations: []
+    wizards_id: 489987
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489987
+rarity: rare
 rules: "Dark Depths enters the battlefield with ten ice counters on it.\r\n\r\n[[symbol:3]]:\
   \ Remove an ice counter from Dark Depths.\r\n\r\nWhen Dark Depths has no ice counters\
   \ on it, sacrifice it. If you do, create Marit Lage, a legendary 20/20 black Avatar\
   \ creature token with flying and indestructible."
 slug: dark-depths
-tags: card-color-colorless card-color-colorless-cost-0 card-type-land card-type-legendary
-  card-type-snow
+synonyms: []
 tapped_id: 1400
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Marit Lage
-  power_toughness: 20/20
-  rules: Flying, indestructible
-  subtype: Avatar
-  tla: 2XM
-  type: Token Legendary Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 20/20
+    - - rules
+      - Flying, indestructible
+    - - type
+      - Token Legendary Creature
+    - - subtype
+      - 27
+    - - cannonical_type
+      - Creature
+    - - name
+      - Marit Lage
 type: Legendary Snow Land
-url: http://tappedout.net/mtg-card/dark-depths/
+url: https://tappedout.net/mtg-card/dark-depths/
+

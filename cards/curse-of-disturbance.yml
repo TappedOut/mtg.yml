@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C21
 cannonical_type: Enchantment
@@ -5,27 +7,29 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 5.64
 effective_cost:
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -33,31 +37,53 @@ keywords:
 - Attach
 - Tokens
 mana_cost: 2B
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Curse of Disturbance
 printings:
-- C21:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 138
-    rarity: uncommon
-    release_date: 2021-04-23
-    wizards_id: 519173
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519173
 - C17:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kieran Yanner
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Sounds of life beckon many a restless soul.
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2017
     number: 16
     rarity: uncommon
-    release_date: 2017-08-25
+    release_date: '2017-08-25'
+    tla: C17
+    variations: []
     wizards_id: 433257
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433257
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kieran Yanner
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Sounds of life beckon many a restless soul.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 138
+    rarity: uncommon
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519173
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519173
+rarity: uncommon
 rules: "Enchant player \r\n\r\nWhenever enchanted player is attacked, create a 2/2\
   \ black Zombie creature token. Each opponent attacking that player does the same."
 slug: curse-of-disturbance
@@ -67,18 +93,23 @@ subtype_tokens:
 - Curse
 synonyms:
 - Curse of Disturbence
-tags: card-color-black card-color-black-cost-3 card-type-enchantment
 tapped_id: 19301
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: C21
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Enchantment
-url: http://tappedout.net/mtg-card/curse-of-disturbance/
+url: https://tappedout.net/mtg-card/curse-of-disturbance/
+

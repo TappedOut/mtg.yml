@@ -1,7 +1,7 @@
 activated_abilities:
 - 'Tap: Add {{U}} to your mana pool.'
 - 'Tap, Sacrifice Ancient Spring: Add {{W,B}} to your mana pool.'
-activation_costs:
+activated_costs:
 - B
 - U
 - W
@@ -19,56 +19,72 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 4.0
+draft_average: 8.42
+effective_cost: []
 formats:
 - 1v1 Commander
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
 - Pauper EDH
-- Premodern
-- Tiny Leaders
+- Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
 - Vintage
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
-mana_cost_converted: 0
 mana_produced: W/U/B
+mana_value: 0
+melds_from: []
 name: Ancient Spring
 printings:
 - INV:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Don Hazeltine
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 14708
     mtgo_id: 14707
     name: Invasion
     number: 319
     rarity: common
-    release_date: 2000-10-02
+    release_date: '2000-10-02'
+    tla: INV
+    variations: []
     wizards_id: 23236
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=23236
+rarity: common
 rules: "Ancient Spring enters the battlefield tapped.\r\n\r\nTap: Add {{U}} to your\
   \ mana pool.\r\n\r\nTap, Sacrifice Ancient Spring: Add {{W,B}} to your mana pool."
 slug: ancient-spring
 synonyms:
 - Anceint Spring
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black-slow card-mana-blue-slow
-  card-mana-white-slow card-type-land
 tap_land: true
 tapped_id: 5025
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/ancient-spring/
+url: https://tappedout.net/mtg-card/ancient-spring/
+

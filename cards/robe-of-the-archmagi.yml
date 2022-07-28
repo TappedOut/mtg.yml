@@ -2,6 +2,7 @@ activated_abilities:
 - 'Equip  *(: Attach this to target creature you control. Equip only as a sorcery.
   This enters the battlefield unattached and stays on the battlefield if the creature
   this card is attached to leaves the battlefield.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Artifact
@@ -9,6 +10,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -16,24 +18,25 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,25 +44,37 @@ keywords:
 - Equip
 - Attach
 mana_cost: 2U
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Robe of the Archmagi
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Dallas Williams
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*It offers the power to shape worlds and the elegance to do so
+      with style.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 91
     rarity: rare
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '566'
+    - identifier: '566'
     wizards_id: 562974
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=562974
 rules: "Whenever equipped creature deals combat damage to a player, you draw that\
@@ -71,7 +86,9 @@ slug: robe-of-the-archmagi
 subtype: Equipment
 subtype_tokens:
 - Equipment
-tags: card-color-blue card-color-blue-cost-3 card-type-artifact
+synonyms: []
 tapped_id: 26545
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/robe-of-the-archmagi/
+url: https://tappedout.net/mtg-card/robe-of-the-archmagi/
+

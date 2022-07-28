@@ -1,96 +1,143 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C18
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.27
+draft_average: 2.35
 effective_cost:
 - U
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: 4UU
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Saheeli's Artistry
 printings:
-- C18:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2018
-    number: 100
-    rarity: rare
-    release_date: 2018-08-10
-    wizards_id: 451055
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451055
 - KLD:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Wesley Burt
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: _"From the first touch, I knew exactly what the metal wants to be."_
     frame: m15
     mtgo_foil_id: 61642
     mtgo_id: 61641
     name: Kaladesh
     number: 62
     rarity: rare
-    release_date: 2016-09-30
+    release_date: '2016-09-30'
+    tla: KLD
+    variations: []
     wizards_id: 417635
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417635
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Wesley Burt
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*"From the first touch, I knew exactly what the metal wants to
+      be."*'
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 62
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C18:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kieran Yanner
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*"From the first touch, I know exactly what the metal wants to
+      be."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2018
+    number: 100
+    rarity: rare
+    release_date: '2018-08-10'
+    tla: C18
+    variations: []
+    wizards_id: 451055
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451055
+rarity: rare
 rules: "Choose one or both &mdash;\r\n\r\n- Create a token that's a copy of target\
   \ artifact.\r\n- Create a token that's a copy of target creature, except it's an\
   \ artifact in addition to its other types."
 slug: saheelis-artistry
-tags: card-color-blue card-color-blue-cost-6 card-type-sorcery
+synonyms: []
 tapped_id: 18171
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Sorcery
-url: http://tappedout.net/mtg-card/saheelis-artistry/
+url: https://tappedout.net/mtg-card/saheelis-artistry/
+

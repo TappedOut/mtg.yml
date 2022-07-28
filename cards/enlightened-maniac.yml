@@ -1,83 +1,119 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: EMN
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 10.07
+draft_average: 7.91
 effective_cost:
 - U
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
 - Pauper EDH
+- Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Pauper
+- Pauper Duel Commander
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 3U
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Enlightened Maniac
 power_toughness: 0/2
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
 - EMN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jaime Jones
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"At last! Proof that it''s not all in my head!"'
     frame: m15
     mtgo_foil_id: 61509
     mtgo_id: 61508
     name: Eldritch Moon
     number: 58
     rarity: common
-    release_date: 2016-07-22
+    release_date: '2016-07-22'
+    tla: EMN
+    variations: []
     wizards_id: 414352
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414352
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jaime Jones
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '"At last! Proof that it''s not all in my head!"'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: When Enlightened Maniac enters the battlefield, put a 3/2 colorless Eldrazi
   Horror creature token onto the battlefield.
 slug: enlightened-maniac
 subtype: Human
 subtype_tokens:
 - Human
-tags: card-color-blue card-color-blue-cost-4 card-type-creature
+synonyms: []
 tapped_id: 18079
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Eldrazi Horror 3/2 C
-  power_toughness: 3/2
-  rules: ''
-  subtype: Eldrazi Horror
-  tla: EMN
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 3/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 1149
+    - - cannonical_type
+      - Creature
+    - - name
+      - Eldrazi Horror 3/2 C
 type: Creature
-url: http://tappedout.net/mtg-card/enlightened-maniac/
+url: https://tappedout.net/mtg-card/enlightened-maniac/
+

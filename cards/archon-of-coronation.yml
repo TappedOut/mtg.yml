@@ -1,65 +1,87 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - W
-flat_cost: 6
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
 mana_cost: 4WW
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Archon of Coronation
 power_toughness: 5/5
 printings:
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 192
-    rarity: mythic_rare
-    release_date: 2022-04-30
-    wizards_id: 559764
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559764
 - CMR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: "Antonio Jos\xE9 Manzanedo"
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander Legends
     number: 9
     rarity: mythic_rare
-    release_date: 2020-11-20
+    release_date: '2020-11-20'
+    tla: CMR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '616'
+    - identifier: '616'
     wizards_id: 497529
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497529
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: "Antonio Jos\xE9 Manzanedo"
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 192
+    rarity: mythic_rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559764
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559764
 rules: "Flying\r\n\r\nWhen this enters the battlefield, you become the monarch.\r\n\
   \r\nAs long as you're the monarch, damage doesn't cause you to lose life. *(When\
   \ a creature deals combat damage to you, its controller still becomes the monarch.)*"
@@ -67,18 +89,25 @@ slug: archon-of-coronation
 subtype: Archon
 subtype_tokens:
 - Archon
-tags: card-color-white card-color-white-cost-6 card-type-creature
+synonyms: []
 tapped_id: 23567
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Monarch Emblem
-  power_toughness: null
-  rules: "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
-    \ deals combat damage to you, its controller becomes the monarch."
-  tla: AFC
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
+        \ deals combat damage to you, its controller becomes the monarch."
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Monarch Emblem
 type: Creature
-url: http://tappedout.net/mtg-card/archon-of-coronation/
+url: https://tappedout.net/mtg-card/archon-of-coronation/
+

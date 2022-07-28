@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Gain .'
 - ', : Put a +1/+1 counter on each creature that entered the battlefield this turn.'
-activation_costs:
+activated_costs:
 - C
 - G
 - U
@@ -19,67 +19,107 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 7.1
+draft_average: 1.0
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
-mana_cost_converted: 0
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Novijen, Heart of Progress
 printings:
-- C21:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 305
-    rarity: uncommon
-    release_date: 2021-04-23
-    wizards_id: 519340
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519340
-- C15:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2015
-    number: 296
-    rarity: uncommon
-    release_date: 2015-11-13
-    wizards_id: 405322
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405322
 - DIS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Martina Pilcerova
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"The unnatural pressures of life in this city are best withstood
+      by lifeforms that adapt with unnatural swiftness."Momir Vig'
     frame: modern
     mtgo_foil_id: 24048
     mtgo_id: 24047
     name: Dissension
+    number: null
     rarity: uncommon
-    release_date: 2006-05-05
+    release_date: '2006-05-05'
+    tla: DIS
+    variations: []
     wizards_id: 97099
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=97099
+- C15:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Martina Pilcerova
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"The unnatural pressures of life in this city are best withstood\
+      \ by lifeforms that adapt with unnatural swiftness.\"\r\n<br>&mdash;Momir Vig*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2015
+    number: 296
+    rarity: uncommon
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
+    wizards_id: 405322
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405322
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Martina Pilcerova
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"The unnatural pressures of life in this city are best withstood\
+      \ by lifeforms that adapt with unnatural swiftness.\"\r\n<br>&mdash;Momir Vig*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 305
+    rarity: uncommon
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519340
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519340
+rarity: uncommon
 rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:G]][[symbol:U]], [[symbol:T]]:\
   \ Put a +1/+1 counter on each creature that entered the battlefield this turn."
 slug: novijen-heart-of-progress
@@ -92,7 +132,8 @@ synonyms:
 - GU Guild Hall
 - UG Guild Hall
 - Simic Guild Hall
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
 tapped_id: 1613
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/novijen-heart-of-progress/
+url: https://tappedout.net/mtg-card/novijen-heart-of-progress/
+

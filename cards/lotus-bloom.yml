@@ -1,5 +1,6 @@
 activated_abilities:
 - ', Sacrifice Lotus Bloom: Gain three mana of any one colour.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MMA
 cannonical_type: Artifact
@@ -12,22 +13,26 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 5.0
+draft_average: 1.88
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -35,72 +40,118 @@ keywords:
 - Sacrifice
 - Suspend
 - Counters
-mana_cost_converted: 0
 mana_produced: WWW, UUU, BBB, RRR, GGG
+mana_value: 0
+melds_from: []
 name: Lotus Bloom
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 270
-    rarity: rare
-    release_date: 2021-03-19
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '411'
-    wizards_id: 509635
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509635
-- MMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 49051
-    mtgo_id: 49050
-    name: Modern Masters
-    rarity: rare
-    release_date: 2013-06-07
-    wizards_id: 370562
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370562
 - TSP:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Mark Zug
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 25692
     mtgo_id: 25691
     name: Time Spiral
+    number: null
     rarity: rare
-    release_date: 2006-10-06
+    release_date: '2006-10-06'
+    tla: TSP
+    variations: []
     wizards_id: 114904
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=114904
+- MMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Zug
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 49051
+    mtgo_id: 49050
+    name: Modern Masters
+    number: null
+    rarity: rare
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
+    wizards_id: 370562
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370562
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Christopher Rush
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
+    number: null
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Zug
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 270
+    rarity: rare
+    release_date: '2021-03-19'
+    tla: TSR
+    variations:
+    - identifier: '411'
+    wizards_id: 509635
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509635
+rarity: rare
 rules: "Suspend 3\u2014[[symbol:0]] *(Rather than cast this card from your hand, pay\
   \ [[symbol:0]] and exile it with three time counters on it. At the beginning of\
   \ your upkeep, remove a time counter. When the last is removed, cast it without\
   \ paying its mana cost.)*\r\n\r\n[[symbol:T]], Sacrifice Lotus Bloom: Gain three\
   \ mana of any one colour."
 slug: lotus-bloom
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-blue
-  card-mana-green card-mana-red card-mana-white card-type-artifact
+synonyms: []
 tapped_id: 1102
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/lotus-bloom/
+url: https://tappedout.net/mtg-card/lotus-bloom/
+

@@ -3,7 +3,7 @@ activated_abilities:
   target creature you control. Craving of Yeenoghu perpetually gains  Activate this
   ability only as a sorcery. *(Perpetual effects that are given to cards are permanent
   regardless of what zone those cards are in and what zone they move to.)*'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: HBG
@@ -12,6 +12,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -19,12 +20,13 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 3
 formats:
-- Alchemy
 - Arena
-- Gladiator
+- Custom
 - Historic
+- Gladiator
+- Alchemy
+- Casual
 - Penny Dreadful
 has_activated_abilities: true
 is_mtgo: true
@@ -35,17 +37,31 @@ keywords:
 - Attach
 - Perpetually
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Craving of Yeenoghu
 printings:
 - HBG:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Yeong-Hao Han
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Alchemy Horizons: Baldur''s Gate'
+    number: null
     rarity: uncommon
-    release_date: 2022-07-07
+    release_date: '2022-07-07'
+    tla: HBG
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Enchant creature you control\r\n\r\nEnchanted creature gets +3/+2, has haste\
   \ and attacks each combat if able.\r\n\r\n[[symbol:R]]: Return Craving of Yeenoghu\
   \ from your graveyard to the battlefield attached to target creature you control.\
@@ -56,7 +72,9 @@ slug: craving-of-yeenoghu
 subtype: Aura
 subtype_tokens:
 - Aura
-tags: card-color-red card-color-red-cost-3 card-type-enchantment
+synonyms: []
 tapped_id: 26873
+tokens: []
 type: Enchantment
-url: http://tappedout.net/mtg-card/craving-of-yeenoghu/
+url: https://tappedout.net/mtg-card/craving-of-yeenoghu/
+

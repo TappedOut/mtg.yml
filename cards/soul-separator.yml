@@ -3,6 +3,7 @@ activated_abilities:
   that''s a copy of that card except it''s a 1/1, it''s a Spirit in addition to its
   other types, and it has flying. Create a black Zombie creature token with power
   equal to that card''s power and toughness equal to that card''s toughness.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: EMN
 cannonical_type: Artifact
@@ -10,28 +11,33 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 3
+cube_average: 6.86
+draft_average: 7.65
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,24 +47,38 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: '3'
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Soul Separator
 printings:
 - EMN:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Daarken
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 61491
     mtgo_id: 61490
     name: Eldritch Moon
     number: 199
     rarity: rare
-    release_date: 2016-07-22
+    release_date: '2016-07-22'
+    tla: EMN
+    variations: []
     wizards_id: 414506
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414506
+rarity: rare
 rules: '[[symbol:5]], [[symbol:T]], Sacrifice this: Exile target creature card from
   your graveyard. Create a token that''s a copy of that card except it''s a 1/1, it''s
   a Spirit in addition to its other types, and it has flying. Create a black Zombie
@@ -67,17 +87,23 @@ rules: '[[symbol:5]], [[symbol:T]], Sacrifice this: Exile target creature card f
 slug: soul-separator
 synonyms:
 - Soul Seperator
-tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
 tapped_id: 17968
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Artifact
-url: http://tappedout.net/mtg-card/soul-separator/
+url: https://tappedout.net/mtg-card/soul-separator/
+

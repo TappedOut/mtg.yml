@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: 2XM
 cannonical_type: Artifact
@@ -5,28 +7,31 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-- Zirda, the Dawnwaker
-flat_cost: 3
+cube_average: 3.76
+draft_average: 1.17
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: true
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -35,85 +40,147 @@ keywords:
 - Attach
 - Tap/Untap
 mana_cost: '3'
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Sword of Feast and Famine
 printings:
-- 2XM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 296
-    rarity: mythic_rare
-    release_date: 2020-08-07
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '364'
-    wizards_id: 489969
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489969
-- MPS:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: 'Masterpiece Series: Kaladesh Inventions'
-    number: 28
-    rarity: mythic_rare
-    release_date: 2016-09-30
-    wizards_id: 420615
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420615
-- MD1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: modern
-    name: Modern Event Deck
-    number: 10
-    rarity: mythic_rare
-    release_date: 2014-05-30
-    wizards_id: 382200
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382200
 - MBS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chrisn Rahn
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 39550
     mtgo_id: 39549
     name: Mirrodin Besieged
+    number: null
     rarity: mythic_rare
-    release_date: 2011-02-04
+    release_date: '2011-02-04'
+    tla: MBS
+    variations: []
     wizards_id: 214070
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=214070
 - MBM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chrisn Rahn
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Mirrodin Besieged: Mirran'
+    number: null
     rarity: mythic_rare
-    release_date: 2011-02-03
+    release_date: '2011-02-03'
+    tla: MBM
+    variations: []
+    wizards_id: null
+    wizards_url: null
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 6
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- MD1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Modern Event Deck
+    number: 10
+    rarity: mythic_rare
+    release_date: '2014-05-30'
+    tla: MD1
+    variations: []
+    wizards_id: 382200
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382200
+- MPS:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Steven Belledin
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Masterpiece Series: Kaladesh Inventions'
+    number: 28
+    rarity: mythic_rare
+    release_date: '2016-09-30'
+    tla: MPS
+    variations: []
+    wizards_id: 420615
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420615
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 296
+    rarity: mythic_rare
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations:
+    - identifier: '364'
+    wizards_id: 489969
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489969
+rarity: mythic_rare
 rules: "Equipped creature gets +2/+2 and has protection from black and from green.\r\
   \n\r\nWhenever equipped creature deals combat damage to a player, that player discards\
   \ a card and you untap all lands you control.\r\n\r\nEquip [[symbol:2]]"
@@ -128,7 +195,8 @@ synonyms:
 - Sword of BG
 - Sword of B and G
 - Sword of G and B
-tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
 tapped_id: 12798
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/sword-of-feast-and-famine/
+url: https://tappedout.net/mtg-card/sword-of-feast-and-famine/
+

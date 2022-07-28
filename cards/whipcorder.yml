@@ -1,34 +1,38 @@
 activated_abilities:
 - ', : Tap target creature.'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: ONS
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 12.31
+draft_average: 4.12
 effective_cost:
 - W
-flat_cost: 2
 formats:
 - 1v1 Commander
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -36,34 +40,58 @@ keywords:
 - Tap/Untap
 - Morph
 mana_cost: WW
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Whipcorder
 power_toughness: 2/2
 printings:
 - ONS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ron Spencer
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: His bolas whirl like galaxies, but it's his enemies who see stars.
     frame: original
     mtgo_foil_id: 17700
     mtgo_id: 17699
     name: Onslaught
     number: 60
     rarity: uncommon
-    release_date: 2002-10-07
+    release_date: '2002-10-07'
+    tla: ONS
+    variations: []
     wizards_id: 41024
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=41024
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ron Spencer
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: "*His bolas whirl like galaxies, but it\u2019s his enemies who see\
+      \ stars.*"
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 9
     rarity: uncommon
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: uncommon
 rules: "[[W]], [[T]]: Tap target creature.\r\n\r\nMorph [[W]] *(You may cast this\
   \ card face down as a 2/2 creature for {3}. Turn it face up any time for its morph\
   \ cost.)*"
@@ -73,18 +101,25 @@ subtype_tokens:
 - Human
 - Soldier
 - Rebel
-tags: card-color-white card-color-white-cost-2 card-type-creature
+synonyms: []
 tapped_id: 4115
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Morph 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  tla: C19
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+        \ with morph can be turned face up at any time for its morph cost.*"
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Morph 2/2 C
 type: Creature
-url: http://tappedout.net/mtg-card/whipcorder/
+url: https://tappedout.net/mtg-card/whipcorder/
+

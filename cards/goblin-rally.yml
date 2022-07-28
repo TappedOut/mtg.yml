@@ -1,6 +1,9 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: JMP
 cannonical_type: Sorcery
+color_identity: ''
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -10,88 +13,133 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.54
+draft_average: 5.95
 effective_cost:
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: 3RR
-mana_cost_converted: 5
+mana_produced: ''
+mana_value: 5
+melds_from: []
 name: Goblin Rally
+power_toughness: ''
 printings:
-- JMP:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Jumpstart
-    number: 329
-    rarity: uncommon
-    release_date: 2020-07-17
-    wizards_id: 489519
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489519
-- GK1:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Guilds of Ravnica: Guild Kit'
-    number: 30
-    rarity: uncommon
-    release_date: 2018-11-02
-    wizards_id: 456220
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456220
 - RTR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Nic Klein
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: You don't so much hire goblins as put ideas in their heads.
     frame: modern
     mtgo_foil_id: 46692
     mtgo_id: 46691
     name: Return to Ravnica
     number: 95
     rarity: uncommon
-    release_date: 2012-10-05
+    release_date: '2012-10-05'
+    tla: RTR
+    variations: []
     wizards_id: 270788
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=270788
+- GK1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Nic Klein
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*You don''t so much hire goblins as put ideas in their heads.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Guilds of Ravnica: Guild Kit'
+    number: 30
+    rarity: uncommon
+    release_date: '2018-11-02'
+    tla: GK1
+    variations: []
+    wizards_id: 456220
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456220
+- JMP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Nic Klein
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*You don''t so much hire goblins as put ideas in their heads.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Jumpstart
+    number: 329
+    rarity: uncommon
+    release_date: '2020-07-17'
+    tla: JMP
+    variations: []
+    wizards_id: 489519
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489519
+rarity: uncommon
 rules: Create four 1/1 red Goblin creature tokens.
 slug: goblin-rally
-tags: card-color-red card-color-red-cost-5 card-type-sorcery
+synonyms: []
 tapped_id: 14178
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goblin 1/1 R
-  power_toughness: 1/1
-  rules: ''
-  subtype: Goblin
-  tla: NEC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 153
+    - - cannonical_type
+      - Creature
+    - - name
+      - Goblin 1/1 R
 type: Sorcery
-url: http://tappedout.net/mtg-card/goblin-rally/
+url: https://tappedout.net/mtg-card/goblin-rally/
+

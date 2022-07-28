@@ -1,43 +1,46 @@
 activated_abilities:
 - ': Exile target creature card from a graveyard. Its owner creates a 1/1 black and
   green Snake enchantment creature token with deathtouch.'
-activation_costs:
+activated_costs:
 - B
 - G
 canadian_hl_score: 0
 cannonical_set: JOU
 cannonical_type: Creature
-color_identity:
-- B
-- G
+color_identity: BG
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.79
+draft_average: 1.57
 effective_cost:
 - B
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Quest Magic
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -48,37 +51,60 @@ keywords:
 - Devotion
 - Tokens
 mana_cost: 1GB
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Pharika, God of Affliction
 power_toughness: 5/5
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: Secret Lair
-    number: 82
-    rarity: mythic_rare
-    release_date: 2019-12-09
 - JOU:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Peter Mohrbacher
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 52117
     mtgo_id: 52116
     name: Journey into Nyx
     number: 134
     rarity: mythic_rare
-    release_date: 2014-05-02
+    release_date: '2014-05-02'
+    tla: JOU
+    variations: []
     wizards_id: 380469
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=380469
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason A. Engle
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 82
+    rarity: mythic_rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "Indestructible\_\r\n\r\nAs long as your devotion to black and green is less\
   \ than seven, Pharika isn't a creature.\_\r\n\r\n[[symbol:B]][[symbol:G]]: Exile\
   \ target creature card from a graveyard. Its owner creates a 1/1 black and green\
@@ -87,19 +113,24 @@ slug: pharika-god-of-affliction
 subtype: God
 subtype_tokens:
 - God
-tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-green card-type-creature
-  card-type-enchantment card-type-legendary
+synonyms: []
 tapped_id: 15400
 tokens:
-- cannonical_type: Creature
-  colors: BG
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Enchantment Snake 1/1 BG
-  power_toughness: 1/1
-  rules: Deathtouch
-  subtype: Snake
-  tla: JOU
-  type: Token Enchantment Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - BG
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Deathtouch
+    - - type
+      - Token Enchantment Creature
+    - - subtype
+      - 63
+    - - cannonical_type
+      - Creature
+    - - name
+      - Enchantment Snake 1/1 BG
 type: Legendary Enchantment Creature
-url: http://tappedout.net/mtg-card/pharika-god-of-affliction/
+url: https://tappedout.net/mtg-card/pharika-god-of-affliction/
+

@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: 2XM
@@ -7,93 +8,141 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 3
+cube_average: 7.48
+draft_average: 3.88
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: '3'
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Trinisphere
 printings:
-- 2XM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 303
-    rarity: mythic_rare
-    release_date: 2020-08-07
-    wizards_id: 489976
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489976
-- MPS:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: 'Masterpiece Series: Kaladesh Inventions'
-    number: 52
-    rarity: mythic_rare
-    release_date: 2016-09-30
-    wizards_id: 425823
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425823
-- V09:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: modern
-    mtgo_foil_id: 33936
-    name: 'From the Vault: Exiled'
-    number: 15
-    rarity: mythic_rare
-    release_date: 2009-08-28
-    wizards_id: 194979
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=194979
 - DST:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Tim Hildebrandt
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 20492
     mtgo_id: 20491
     name: Darksteel
+    number: null
     rarity: rare
-    release_date: 2004-02-06
+    release_date: '2004-02-06'
+    tla: DST
+    variations: []
     wizards_id: 43545
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=43545
+- V09:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Tim Hildebrandt
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Designed to restrain petty thoughts, but used to repress entire
+      empires.*'
+    frame: modern
+    mtgo_foil_id: 33936
+    mtgo_id: null
+    name: 'From the Vault: Exiled'
+    number: 15
+    rarity: mythic_rare
+    release_date: '2009-08-28'
+    tla: V09
+    variations: []
+    wizards_id: 194979
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=194979
+- MPS:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daniel Ljunggren
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "\"This exhibition of Nehra's Threshold Principle must be expropriated\
+      \ and examined for its potential applications in enforcement.\" \u2014 Confiscation\
+      \ directive"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Masterpiece Series: Kaladesh Inventions'
+    number: 52
+    rarity: mythic_rare
+    release_date: '2016-09-30'
+    tla: MPS
+    variations: []
+    wizards_id: 425823
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425823
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Tim Hildebrandt
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 303
+    rarity: mythic_rare
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations: []
+    wizards_id: 489976
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489976
+rarity: mythic_rare
 rules: As long as Trinisphere is untapped, each spell that would cost less than three
   mana to cast costs three mana to cast. *(Additional mana in the cost may be paid
   with any colour of mana or colourless mana. For example, a spell that would cost
   [[symbol:1]][[symbol:B]] to cast costs [[symbol:2]][[symbol:B]] to cast instead.)*
 slug: trinisphere
-tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
+synonyms: []
 tapped_id: 3223
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/trinisphere/
+url: https://tappedout.net/mtg-card/trinisphere/
+

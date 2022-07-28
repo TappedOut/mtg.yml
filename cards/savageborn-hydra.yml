@@ -1,40 +1,44 @@
 activated_abilities:
 - ': Put a +1/+1 counter on Savageborn Hydra. Activate this ability only at any time
   you could cast a sorcery'
-activation_costs:
+activated_costs:
 - G
 - R
 canadian_hl_score: 0
 cannonical_set: 2XM
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.9
+draft_average: 2.44
 effective_cost:
 - R
 - G
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,60 +46,108 @@ keywords:
 - Double strike
 - Counters
 mana_cost: XRG
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Savageborn Hydra
 power_toughness: 0/0
 printings:
-- 2XM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 215
-    rarity: rare
-    release_date: 2020-08-07
-    wizards_id: 489888
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489888
-- GK2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Ravnica Allegiance: Guild Kits'
-    number: 98
-    rarity: mythic_rare
-    release_date: 2019-02-15
-    wizards_id: 460310
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460310
-- IMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 66294
-    mtgo_id: 66293
-    name: Iconic Masters
-    rarity: rare
-    release_date: 2017-11-17
-    wizards_id: 438773
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438773
 - DGM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: ''
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 48253
     mtgo_id: 48252
     name: Dragon's Maze
+    number: null
     rarity: mythic_rare
-    release_date: 2013-05-03
+    release_date: '2013-05-03'
+    tla: DGM
+    variations: []
     wizards_id: 368952
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=368952
+- IMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Raymond Swanland
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 66294
+    mtgo_id: 66293
+    name: Iconic Masters
+    number: null
+    rarity: rare
+    release_date: '2017-11-17'
+    tla: IMA
+    variations: []
+    wizards_id: 438773
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438773
+- GK2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Raymond Swanland
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Ravnica Allegiance: Guild Kits'
+    number: 98
+    rarity: mythic_rare
+    release_date: '2019-02-15'
+    tla: GK2
+    variations: []
+    wizards_id: 460310
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460310
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Raymond Swanland
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 215
+    rarity: rare
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations: []
+    wizards_id: 489888
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489888
+rarity: mythic_rare
 rules: "Double strike\r\n\r\nSavageborn Hydra enters the battlefield with X +1/+1\
   \ counters on it.\r\n\r\n[[symbol:1]][[symbol:RG]]: Put a +1/+1 counter on Savageborn\
   \ Hydra. Activate this ability only at any time you could cast a sorcery"
@@ -103,7 +155,9 @@ slug: savageborn-hydra
 subtype: Hydra
 subtype_tokens:
 - Hydra
-tags: card-color-gold card-color-gold-cost-2 card-color-green card-color-red card-type-creature
+synonyms: []
 tapped_id: 14580
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/savageborn-hydra/
+url: https://tappedout.net/mtg-card/savageborn-hydra/
+

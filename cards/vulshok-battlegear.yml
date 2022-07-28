@@ -2,6 +2,7 @@ activated_abilities:
 - 'Equip  *(: Attach to target creature you control. Equip only as a sorcery. This
   card enters the battlefield unattached and stays in play if the creature leaves
   the battlefield.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DDI
 cannonical_type: Artifact
@@ -9,27 +10,32 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 3
+cube_average: 3.0
+draft_average: 2.7
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -37,34 +43,57 @@ keywords:
 - Equip
 - Attach
 mana_cost: '3'
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Vulshok Battlegear
+power_toughness: ''
 printings:
-- DDI:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 43772
-    name: 'Duel Decks: Venser vs. Koth'
-    number: 68
-    rarity: uncommon
-    release_date: 2012-03-30
-    wizards_id: 270852
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=270852
 - MRD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kevin Dobler
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 20096
     mtgo_id: 20095
     name: Mirrodin
+    number: null
     rarity: uncommon
-    release_date: 2003-10-02
+    release_date: '2003-10-02'
+    tla: MRD
+    variations: []
     wizards_id: 48121
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=48121
+- DDI:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kevin Dobler
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 43772
+    name: 'Duel Decks: Venser vs. Koth'
+    number: 68
+    rarity: uncommon
+    release_date: '2012-03-30'
+    tla: DDI
+    variations: []
+    wizards_id: 270852
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=270852
+rarity: uncommon
 rules: "Equipped creature gets +3/+3.\r\n\r\nEquip [[3]] *([[3]]: Attach to target\
   \ creature you control. Equip only as a sorcery. This card enters the battlefield\
   \ unattached and stays in play if the creature leaves the battlefield.)*"
@@ -72,7 +101,9 @@ slug: vulshok-battlegear
 subtype: Equipment
 subtype_tokens:
 - Equipment
-tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
+synonyms: []
 tapped_id: 3510
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/vulshok-battlegear/
+url: https://tappedout.net/mtg-card/vulshok-battlegear/
+

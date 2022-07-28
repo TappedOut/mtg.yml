@@ -1,29 +1,32 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: VOC
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -31,47 +34,75 @@ keywords:
 - Exile
 - Tokens
 mana_cost: 2RR
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Molten Echoes
 printings:
-- VOC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Crimson Vow Commander'
-    number: 148
-    rarity: rare
-    release_date: 2021-11-18
-    wizards_id: 545768
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545768
 - C20:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Zoltan Boros
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2020
     number: 54
     rarity: rare
-    release_date: 2020-05-15
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
     wizards_id: 484901
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=484901
+- VOC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Zoltan Boros
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Crimson Vow Commander'
+    number: 148
+    rarity: rare
+    release_date: '2021-11-18'
+    tla: VOC
+    variations: []
+    wizards_id: 545768
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545768
 rules: "As this enters the battlefield, choose a creature type.\r\n\r\nWhenever a\
   \ nontoken creature of the chosen type enters the battlefield under your control,\
   \ create a token that's a copy of that creature. That token gains haste. Exile it\
   \ at the beginning of the next end step."
 slug: molten-echoes
-tags: card-color-red card-color-red-cost-4 card-type-enchantment
+synonyms: []
 tapped_id: 22717
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Enchantment
-url: http://tappedout.net/mtg-card/molten-echoes/
+url: https://tappedout.net/mtg-card/molten-echoes/
+

@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: GRN
 cannonical_type: Sorcery
@@ -11,52 +13,64 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.19
+draft_average: 6.98
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Vigilance
 - Tap/Untap
 - Convoke
 - Tokens
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Sprouting Renewal
 printings:
 - GRN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: James Paick
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 69664
     mtgo_id: 69663
     name: Guilds of Ravnica
     number: 145
     rarity: uncommon
-    release_date: 2018-10-05
+    release_date: '2018-10-05'
+    tla: GRN
+    variations: []
     wizards_id: 452895
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=452895
 rules: "Convoke *(Your creatures can help cast this spell. Each creature you tap while\
@@ -64,18 +78,24 @@ rules: "Convoke *(Your creatures can help cast this spell. Each creature you tap
   \n\r\nChoose one &mdash;\r\n\r\n- Create a 2/2 green and white Elf Knight creature\
   \ token with vigilance.\r\n- Destroy target artifact or enchantment."
 slug: sprouting-renewal
-tags: card-color-green card-color-green-cost-3 card-type-sorcery
+synonyms: []
 tapped_id: 20854
 tokens:
-- cannonical_type: Creature
-  colors: GW
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elf Knight 2/2 GW
-  power_toughness: 2/2
-  rules: Vigilance
-  subtype: Elf Knight
-  tla: GRN
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - GW
+    - - power_toughness
+      - 2/2
+    - - rules
+      - Vigilance
+    - - type
+      - Token Creature
+    - - subtype
+      - 524
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elf Knight 2/2 GW
 type: Sorcery
-url: http://tappedout.net/mtg-card/sprouting-renewal/
+url: https://tappedout.net/mtg-card/sprouting-renewal/
+

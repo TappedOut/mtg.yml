@@ -1,12 +1,13 @@
 activated_abilities:
 - ', Exile this from your graveyard: You draw a card and you lose 1 life.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: STX
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -15,33 +16,34 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 1
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -49,20 +51,34 @@ keywords:
 - Exile
 - Menace
 mana_cost: B
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Unwilling Ingredient
 power_toughness: 1/1
 printings:
 - STX:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: David Auden Nash
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"Don't look at me like that. It was either this or being eaten\
+      \ by a groff.\"\r\n<br>&mdash;Dina, Witherbloom mage-student*"
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Strixhaven
     number: 90
     rarity: common
-    release_date: 2021-04-23
+    release_date: '2021-04-23'
+    tla: STX
+    variations: []
     wizards_id: 513567
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=513567
 rules: "Menace *(This creature can't be blocked except by two or more creatures.)*\r\
@@ -72,7 +88,9 @@ slug: unwilling-ingredient
 subtype: Frog
 subtype_tokens:
 - Frog
-tags: card-color-black card-color-black-cost-1 card-type-creature
+synonyms: []
 tapped_id: 24253
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/unwilling-ingredient/
+url: https://tappedout.net/mtg-card/unwilling-ingredient/
+

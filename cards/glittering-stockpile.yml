@@ -2,7 +2,7 @@ activated_abilities:
 - ': Add . Put a stash counter on this.'
 - ', Sacrifice this: Add X mana of any one colour, where X is the number of stash
   counters on this.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: SNC
@@ -11,6 +11,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -18,31 +19,32 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Penny Dreadful
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -50,20 +52,33 @@ keywords:
 - Sacrifice
 - Counters
 mana_cost: 2R
-mana_cost_converted: 3
 mana_produced: WWWW, UUUU, BBBB, RRRR, GGGG
+mana_value: 3
+melds_from: []
 name: Glittering Stockpile
 printings:
 - SNC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Brock Grossman
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: _The only thing Ziatora desires is "more."_
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Streets of New Capenna
     number: 107
     rarity: uncommon
-    release_date: 2022-04-29
+    release_date: '2022-04-29'
+    tla: SNC
+    variations: []
     wizards_id: 555308
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=555308
 rules: "[[symbol:T]]: Add [[symbol:R]]. Put a stash counter on this.\r\n\r\n[[symbol:T]],\
@@ -73,8 +88,9 @@ slug: glittering-stockpile
 subtype: Treasure
 subtype_tokens:
 - Treasure
-tags: card-color-red card-color-red-cost-3 card-mana-black card-mana-blue card-mana-green
-  card-mana-red card-mana-white card-type-artifact
+synonyms: []
 tapped_id: 26267
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/glittering-stockpile/
+url: https://tappedout.net/mtg-card/glittering-stockpile/
+

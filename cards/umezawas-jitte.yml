@@ -3,33 +3,39 @@ activated_abilities:
 - 'Equip  *(: Attach to target creature you control. Equip only as a sorcery. This
   card enters the battlefield unattached and stays on the battlefield if the creature
   this card is attached to leaves the battlefield.)*'
+activated_costs: []
 canadian_hl_score: 1
 cannonical_set: BOK
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 2
+cube_average: 2.99
+draft_average: 1.2
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
+- Block Constructed
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -38,50 +44,80 @@ keywords:
 - Attach
 - Counters
 mana_cost: '2'
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Umezawa's Jitte
 printings:
-- V16:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    mtgo_foil_id: 62104
-    mtgo_id: 62103
-    name: 'From the Vault: Lore'
-    number: 14
-    rarity: mythic_rare
-    release_date: 2016-08-19
-    wizards_id: 416756
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416756
 - BOK:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Christopher Moeller
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 21604
     mtgo_id: 21603
     name: Betrayers of Kamigawa
     number: 163
     rarity: rare
-    release_date: 2005-02-04
+    release_date: '2005-02-04'
+    tla: BOK
+    variations: []
     wizards_id: 81979
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=81979
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Svetlin Velinov
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- V16:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Christopher Moeller
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 62104
+    mtgo_id: 62103
+    name: 'From the Vault: Lore'
+    number: 14
+    rarity: mythic_rare
+    release_date: '2016-08-19'
+    tla: V16
+    variations: []
+    wizards_id: 416756
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416756
+rarity: rare
 rules: "Whenever equipped creature deals combat damage, put two charge counters on\
   \ this.\r\n\r\nRemove a charge counter from this: Choose one &mdash;\r\n\r\n- Equipped\
   \ creature gets +2/+2 until end of turn.\r\n- Target creature gets -1/-1 until end\
@@ -93,7 +129,9 @@ slug: umezawas-jitte
 subtype: Equipment
 subtype_tokens:
 - Equipment
-tags: card-color-colorless card-color-colorless-cost-2 card-type-artifact card-type-legendary
+synonyms: []
 tapped_id: 2478
+tokens: []
 type: Legendary Artifact
-url: http://tappedout.net/mtg-card/umezawas-jitte/
+url: https://tappedout.net/mtg-card/umezawas-jitte/
+

@@ -1,11 +1,12 @@
 activated_abilities:
 - ': Gain  or .'
-activation_costs:
+activated_costs:
 - G
 - R
 canadian_hl_score: 0
 cannonical_set: M19
 cannonical_type: Land
+color_identity: ''
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -17,106 +18,174 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 8.19
+draft_average: 9.33
+effective_cost: []
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
+mana_cost: ''
 mana_produced: R, G
+mana_value: 0
+melds_from: []
 name: Timber Gorge
+power_toughness: ''
 printings:
-- M19:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 68680
-    mtgo_id: 68679
-    name: Core Set 2019
-    number: 258
-    rarity: basic_land
-    release_date: 2018-07-13
-    wizards_id: 447395
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447395
-- GS1:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Global Series: Jiang Yanggu & Mu Yanling'
-    number: 38
-    rarity: common
-    release_date: 2018-06-22
-- DOM:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: Dominaria
-    number: 279
-    rarity: common
-    release_date: 2018-04-22
-    wizards_id: 445857
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=445857
-- AKH:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 64233
-    mtgo_id: 64232
-    name: Amonkhet
-    rarity: common
-    release_date: 2017-04-28
-    wizards_id: 429677
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=429677
 - OGW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Cliff Childs
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Tazeem''s embrace is harsh, but for those that call it home, nothing
+      else will do.*'
     frame: m15
     mtgo_foil_id: 59448
     mtgo_id: 59447
     name: Oath of the Gatewatch
     number: 179
     rarity: uncommon
-    release_date: 2016-01-22
+    release_date: '2016-01-22'
+    tla: OGW
+    variations: []
     wizards_id: 407689
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407689
+- AKH:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Cliff Childs
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: Tazeem's embrace is harsh, but for those that call it home, nothing
+      else will do.
+    frame: m15
+    mtgo_foil_id: 64233
+    mtgo_id: 64232
+    name: Amonkhet
+    number: null
+    rarity: common
+    release_date: '2017-04-28'
+    tla: AKH
+    variations: []
+    wizards_id: 429677
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=429677
+- DOM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: YW Tang
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: '*Glaciers, torrential floods, and temporal disturbances cam and
+      went. The mountains yet stood, unchanged.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Dominaria
+    number: 279
+    rarity: null
+    release_date: '2018-04-22'
+    tla: DOM
+    variations: []
+    wizards_id: 445857
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=445857
+- GS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Babyson Chen & Uzhen Lin
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Near the Western Seas lies MOunt Zhaoyao&mdash;a forest of stones
+      that reaches the clouds, a bountiful land of wondrous treasures and strange
+      animals.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Global Series: Jiang Yanggu & Mu Yanling'
+    number: 38
+    rarity: common
+    release_date: '2018-06-22'
+    tla: GS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- M19:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Cliff Childs
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Tazeem''s embrace is harsh, but for those that call it home, nothing
+      else will do.*'
+    frame: m15
+    mtgo_foil_id: 68680
+    mtgo_id: 68679
+    name: Core Set 2019
+    number: 258
+    rarity: basic_land
+    release_date: '2018-07-13'
+    tla: M19
+    variations: []
+    wizards_id: 447395
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447395
 rules: "Timber Gorge enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Gain [[symbol:R]]\
   \ or [[symbol:G]]."
 slug: timber-gorge
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-green card-mana-red
-  card-type-land
+synonyms: []
 tapped_id: 17434
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/timber-gorge/
+url: https://tappedout.net/mtg-card/timber-gorge/
+

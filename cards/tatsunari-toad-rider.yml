@@ -1,18 +1,17 @@
 activated_abilities:
 - ': This and target Frog you control can''t be blocked this turn except by creatures
   with flying or reach.'
-activation_costs:
+activated_costs:
 - G
 - U
 canadian_hl_score: 0
 cannonical_set: NEO
 cannonical_type: Creature
-color_identity:
-- U
-- G
+color_identity: UG
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -20,62 +19,75 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: 2B
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Tatsunari, Toad Rider
 power_toughness: 3/3
 printings:
 - NEO:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Justine Cruz
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
     number: 123
     rarity: rare
-    release_date: 2022-02-10
+    release_date: '2022-02-10'
+    tla: NEO
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '345'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '461'
+    - identifier: '345'
+    - identifier: '461'
     wizards_id: 548424
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=548424
 rules: "Whenever you cast an enchantment spell, if you don't control a creature named\
@@ -88,19 +100,25 @@ subtype: Human Ninja
 subtype_tokens:
 - Human
 - Ninja
-tags: card-color-black card-color-black-cost-3 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 25787
 tokens:
-- cannonical_type: Creature
-  colors: BG
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Keimi
-  power_toughness: 3/3
-  rules: Whenever you cast an enchantment spell, each opponent loses 1 life and you
-    gain 1 life.
-  subtype: Frog
-  tla: NEO
-  type: Token Legendary Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - BG
+    - - power_toughness
+      - 3/3
+    - - rules
+      - Whenever you cast an enchantment spell, each opponent loses 1 life and you
+        gain 1 life.
+    - - type
+      - Token Legendary Creature
+    - - subtype
+      - 173
+    - - cannonical_type
+      - Creature
+    - - name
+      - Keimi
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/tatsunari-toad-rider/
+url: https://tappedout.net/mtg-card/tatsunari-toad-rider/
+

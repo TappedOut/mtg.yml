@@ -1,37 +1,41 @@
 activated_abilities:
 - ', Discard a card: Create a Food token. *(It''s an artifact with )*'
 - ', , Sacrifice this: Return target creature card from your graveyard to your hand.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MH2
 cannonical_type: Artifact
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 1
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -39,25 +43,33 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: '1'
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: The Underworld Cookbook
 printings:
 - MH2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Joe Slucher
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Modern Horizons 2
     number: 240
     rarity: uncommon
-    release_date: 2021-06-18
+    release_date: '2021-06-18'
+    tla: MH2
     variations:
-    - alterations:
-      - Etched
-      - Foil
-      - Normal
-      identifier: '434'
+    - identifier: '434'
     wizards_id: 522316
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522316
 rules: "[[symbol:T]], Discard a card: Create a Food token. *(It's an artifact with\
@@ -65,18 +77,24 @@ rules: "[[symbol:T]], Discard a card: Create a Food token. *(It's an artifact wi
   \r\n[[symbol:4]], [[symbol:T]], Sacrifice this: Return target creature card from\
   \ your graveyard to your hand."
 slug: the-underworld-cookbook
-tags: card-color-colorless card-color-colorless-cost-1 card-type-artifact
+synonyms: []
 tapped_id: 24449
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Food
-  power_toughness: null
-  rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
-  subtype: Food
-  tla: MH2
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1373
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Food
 type: Artifact
-url: http://tappedout.net/mtg-card/the-underworld-cookbook/
+url: https://tappedout.net/mtg-card/the-underworld-cookbook/
+

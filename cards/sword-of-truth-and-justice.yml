@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MH1
 cannonical_type: Artifact
@@ -5,31 +7,34 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-- Zirda, the Dawnwaker
-flat_cost: 3
+cube_average: 3.94
+draft_average: 1.88
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: true
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -39,35 +44,55 @@ keywords:
 - Counterspell
 - Proliferate
 mana_cost: '3'
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Sword of Truth and Justice
 printings:
-- H1R:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: Modern Horizons Timeshifted Reprints
-    number: 32
-    rarity: mythic_rare
-    release_date: 2021-06-18
 - MH1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 72831
     mtgo_id: 72830
     name: Modern Horizons
     number: 229
     rarity: mythic_rare
-    release_date: 2019-06-14
+    release_date: '2019-06-14'
+    tla: MH1
+    variations: []
     wizards_id: 464178
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464178
+- H1R:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Modern Horizons Timeshifted Reprints
+    number: 32
+    rarity: mythic_rare
+    release_date: '2021-06-18'
+    tla: H1R
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Equipped creature gets +2/+2 and has protection from white and from blue.*((Remember\
   \ the acronym <b>debt</b>.) This can't be <b>d</b>amaged, <b>e</b>nchanted, <b>e</b>quipped,\
   \ <b>b</b>locked or <b>t</b>argeted by anything white or blue. Anything white or\
@@ -86,7 +111,8 @@ synonyms:
 - Sword of UW
 - Sword of W and U
 - Sword of U and W
-tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
 tapped_id: 21573
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/sword-of-truth-and-justice/
+url: https://tappedout.net/mtg-card/sword-of-truth-and-justice/
+

@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - R
 - W
 canadian_hl_score: 0
@@ -17,33 +18,32 @@ companions:
 effective_cost:
 - W
 - R
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
-is_permanent: false
 keywords:
 - Haste
 - Indestructible
@@ -53,46 +53,76 @@ keywords:
 - Exile
 - Flashback
 mana_cost: 1RW
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Angelfire Ignition
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 209
-    rarity: rare
-    release_date: 2022-01-21
 - MID:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Yeong-Hao Han
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"My angel is the flint, and I''m her steel."*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Midnight Hunt'
     number: 209
     rarity: rare
-    release_date: 2021-09-24
+    release_date: '2021-09-24'
+    tla: MID
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '367'
+    - identifier: '367'
     wizards_id: 535000
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=535000
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Yeong-Hao Han
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"My angel is the flint, and I''m her steel."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 209
+    rarity: rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Put two +1/+1 counters on target creature. It gains vigilance, trample, lifelink,\
   \ indestructible and haste until end of turn.\r\n\r\nFlashback [[symbol:2]][[symbol:R]][[symbol:W]]\
   \ *(You may cast this from your graveyard for this card's flashback cost, then exile\
   \ this.)*"
 slug: angelfire-ignition
-tags: card-color-gold card-color-gold-cost-3 card-color-red card-color-white card-type-sorcery
+synonyms: []
 tapped_id: 25214
+tokens: []
 type: Sorcery
-url: http://tappedout.net/mtg-card/angelfire-ignition/
+url: https://tappedout.net/mtg-card/angelfire-ignition/
+

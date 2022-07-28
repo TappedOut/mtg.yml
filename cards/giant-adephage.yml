@@ -1,95 +1,141 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 5.62
+draft_average: 1.55
 effective_cost:
 - G
-flat_cost: 7
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Trample
 - Tokens
 mana_cost: 5GG
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Giant Adephage
 power_toughness: 7/7
 printings:
-- NCC:
+- GTC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Christine Choi
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 293
+    cannonical: true
+    flavour_text: "\"To a creature like that, we must seem like, well, bugs.\" \u2014\
+      Dars Gostok, Firefist captain"
+    frame: modern
+    mtgo_foil_id: 47932
+    mtgo_id: 47931
+    name: Gatecrash
+    number: null
     rarity: mythic_rare
-    release_date: 2022-04-30
-    wizards_id: 559865
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559865
+    release_date: '2013-02-01'
+    tla: GTC
+    variations: []
+    wizards_id: 366394
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=366394
 - C19:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Christine Choi
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"To a creature like that, we must seem like, well, bugs.\"\r\n\
+      <br>&mdash;Dars Gostok, Firefist captain*"
     frame: m15
     mtgo_foil_id: 77453
     mtgo_id: 77452
     name: Commander 2019
     number: 169
     rarity: mythic_rare
-    release_date: 2019-08-23
+    release_date: '2019-08-23'
+    tla: C19
+    variations: []
     wizards_id: 470715
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470715
-- GTC:
+- NCC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Christine Choi
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 47932
-    mtgo_id: 47931
-    name: Gatecrash
+    cannonical: true
+    flavour_text: "*\"To a creature like that, we must seem like, well, bugs.\"\r\n\
+      <br>&mdash;Dars Gostok, Firefist captain*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 293
     rarity: mythic_rare
-    release_date: 2013-02-01
-    wizards_id: 366394
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=366394
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559865
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559865
+rarity: mythic_rare
 rules: "Trample\r\n\r\nWhenever this deals combat damage to a player, create a token\
   \ that is a copy of this."
 slug: giant-adephage
 subtype: Insect
 subtype_tokens:
 - Insect
-tags: card-color-green card-color-green-cost-7 card-type-creature
+synonyms: []
 tapped_id: 14306
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Creature
-url: http://tappedout.net/mtg-card/giant-adephage/
+url: https://tappedout.net/mtg-card/giant-adephage/
+

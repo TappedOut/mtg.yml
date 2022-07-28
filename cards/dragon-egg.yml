@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: CMR
@@ -6,36 +7,39 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 8.32
+draft_average: 8.67
 effective_cost:
 - R
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -43,108 +47,203 @@ keywords:
 - Flying
 - Tokens
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Dragon Egg
 power_toughness: 0/2
 printings:
-- J21:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Jumpstart: Historic Horizons'
-    rarity: common
-    release_date: 2021-08-12
-- CMR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander Legends
-    number: 173
-    rarity: common
-    release_date: 2020-11-20
-    wizards_id: 497693
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497693
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
-- GN2:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Game Night 2019
-    number: 39
-    rarity: uncommon
-    release_date: 2019-11-15
-    wizards_id: 476105
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476105
-- M19:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 68438
-    mtgo_id: 68437
-    name: Core Set 2019
-    number: 138
-    rarity: uncommon
-    release_date: 2018-07-13
-    wizards_id: 447274
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447274
-- IMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 66128
-    mtgo_id: 66127
-    name: Iconic Masters
-    number: 124
-    rarity: common
-    release_date: 2017-11-17
-    wizards_id: 438690
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438690
-- EMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 60798
-    mtgo_id: 60797
-    name: Eternal Masters
-    number: 126
-    rarity: common
-    release_date: 2016-06-10
-    wizards_id: 413668
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413668
 - M14:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jack Wang
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Dragon birth lairs are littered with treasure to entice the young
+      from their eggs.*'
     frame: modern
     mtgo_foil_id: 49412
     mtgo_id: 49411
     name: Magic 2014
     number: 137
     rarity: uncommon
-    release_date: 2013-07-19
+    release_date: '2013-07-19'
+    tla: M14
+    variations: []
     wizards_id: 370660
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370660
+- EMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jack Wang
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Dragon birth lairs are littered with treasure to entice the young
+      from their eggs.
+    frame: m15
+    mtgo_foil_id: 60798
+    mtgo_id: 60797
+    name: Eternal Masters
+    number: 126
+    rarity: common
+    release_date: '2016-06-10'
+    tla: EMA
+    variations: []
+    wizards_id: 413668
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413668
+- IMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jack Wang
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Dragon birth lairs are littered with treasure to entice the young
+      from their eggs.
+    frame: m15
+    mtgo_foil_id: 66128
+    mtgo_id: 66127
+    name: Iconic Masters
+    number: 124
+    rarity: common
+    release_date: '2017-11-17'
+    tla: IMA
+    variations: []
+    wizards_id: 438690
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438690
+- M19:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jack Wang
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Dragon birth lairs are littered with treasure to entice the young
+      from their eggs.*'
+    frame: m15
+    mtgo_foil_id: 68438
+    mtgo_id: 68437
+    name: Core Set 2019
+    number: 138
+    rarity: uncommon
+    release_date: '2018-07-13'
+    tla: M19
+    variations: []
+    wizards_id: 447274
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447274
+- GN2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jack Wang
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Dragon birth lairs are littered with treasure to entice the young
+      form their eggs.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Game Night 2019
+    number: 39
+    rarity: uncommon
+    release_date: '2019-11-15'
+    tla: GN2
+    variations: []
+    wizards_id: 476105
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476105
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jack Wang
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: Dragon birth lairs are littered with treasure to entice the young
+      from their eggs.
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- CMR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jack Wang
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Dragon birth lairs are littered with treasure to entice the young
+      from their eggs.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Legends
+    number: 173
+    rarity: common
+    release_date: '2020-11-20'
+    tla: CMR
+    variations: []
+    wizards_id: 497693
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497693
+- J21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jack Wang
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Dragon birth lairs are littered with treasure to entice the young
+      from their eggs.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Jumpstart: Historic Horizons'
+    number: null
+    rarity: common
+    release_date: '2021-08-12'
+    tla: J21
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: uncommon
 rules: "Defender *(This creature can't attack.)*\r\n\r\nWhen this dies *(is put into\
   \ the graveyard from the battlefield)*, create a 2/2 red Dragon creature token with\
   \ flying. It has \"[[symbol:R]]: This creature gets +1/+0 until end of turn.\""
@@ -153,18 +252,24 @@ subtype: Dragon Egg
 subtype_tokens:
 - Dragon
 - Egg
-tags: card-color-red card-color-red-cost-3 card-type-creature
+synonyms: []
 tapped_id: 14749
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Dragon 2/2 R
-  power_toughness: 2/2
-  rules: "Flying\r\n\r\n[[symbol:R]]: This creature gets +1/+0 until end of turn."
-  subtype: Dragon
-  tla: CMR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "Flying\r\n\r\n[[symbol:R]]: This creature gets +1/+0 until end of turn."
+    - - type
+      - Token Creature
+    - - subtype
+      - 42
+    - - cannonical_type
+      - Creature
+    - - name
+      - Dragon 2/2 R
 type: Creature
-url: http://tappedout.net/mtg-card/dragon-egg/
+url: https://tappedout.net/mtg-card/dragon-egg/
+

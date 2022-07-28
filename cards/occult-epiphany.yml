@@ -1,9 +1,12 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: VOC
 cannonical_type: Instant
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -12,60 +15,74 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 1
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 - Tokens
 mana_cost: XU
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Occult Epiphany
 printings:
 - VOC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jason Rainville
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*In a single unending moment, a hundred lifetimes of knowledge
+      coursed through his unraveling mind.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow Commander'
     number: 14
     rarity: rare
-    release_date: 2021-11-18
+    release_date: '2021-11-18'
+    tla: VOC
     variations:
-    - alterations:
-      - Normal
-      identifier: '52'
+    - identifier: '52'
     wizards_id: 546978
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=546978
 rules: Draw X cards, then discard X cards. Create a 1/1 white Spirit creature token
   with flying for each card type among cards discarded this way.
 slug: occult-epiphany
-tags: card-color-blue card-color-blue-cost-1 card-type-instant
+synonyms: []
 tapped_id: 25651
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spirit 1/1 W
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Spirit
-  tla: 2X2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 17
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spirit 1/1 W
 type: Instant
-url: http://tappedout.net/mtg-card/occult-epiphany/
+url: https://tappedout.net/mtg-card/occult-epiphany/
+

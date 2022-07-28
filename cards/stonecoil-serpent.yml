@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ELD
 cannonical_type: Creature
@@ -8,27 +10,30 @@ companions:
 - Lutri, the Spellchaser
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 0
+cube_average: 4.85
+draft_average: 1.39
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -37,46 +42,69 @@ keywords:
 - Trample
 - Counters
 mana_cost: X
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Stonecoil Serpent
 power_toughness: 0/0
 printings:
 - ELD:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Mark Poole
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Cast out of Garenbrig for his crimes, Ennor turned to fae magic
+      to fashion the perfect weapon for his revenge.*'
     frame: m15
     mtgo_foil_id: 78617
     mtgo_id: 78616
     name: Throne of Eldraine
     number: 235
     rarity: rare
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '385'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '385'
+    - identifier: PromoPack
     wizards_id: 473197
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=473197
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Poole
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*Cast out of Garenbrig for his crimes, Ennor turned to fae magic
+      to fashion the perfect weapon for his revenge.*'
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Reach, trample, protection from multicoloured *(This can't be damaged, enchanted,\
   \ equipped, blocked or targeted by anything multicoloured. Anything multicoloured\
   \ attached to this immediately falls off.)*\r\n\r\nThis enters the battlefield with\
@@ -85,7 +113,9 @@ slug: stonecoil-serpent
 subtype: Snake
 subtype_tokens:
 - Snake
-tags: card-color-colorless card-color-colorless-cost-0 card-type-artifact card-type-creature
+synonyms: []
 tapped_id: 22133
+tokens: []
 type: Artifact Creature
-url: http://tappedout.net/mtg-card/stonecoil-serpent/
+url: https://tappedout.net/mtg-card/stonecoil-serpent/
+

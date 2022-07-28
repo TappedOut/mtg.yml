@@ -2,75 +2,101 @@ activated_abilities:
 - '1G, Remove one or more +1/+1 counters from among creatures you control: Put an
   X/X green Ooze creature token onto the battlefield, where X is the number of +1/+1
   counters removed this way.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: GTC
 cannonical_type: Enchantment
+color_identity: ''
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 11.85
+draft_average: 6.1
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 3G
-mana_cost_converted: 4
+mana_produced: ''
+mana_value: 4
+melds_from: []
 name: Ooze Flux
+power_toughness: ''
 printings:
 - GTC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Zoltan Boros
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 47736
     mtgo_id: 47735
     name: Gatecrash
     number: 128
     rarity: rare
-    release_date: 2013-02-01
+    release_date: '2013-02-01'
+    tla: GTC
+    variations: []
     wizards_id: 366375
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=366375
+rarity: rare
 rules: '1G, Remove one or more +1/+1 counters from among creatures you control: Put
   an X/X green Ooze creature token onto the battlefield, where X is the number of
   +1/+1 counters removed this way.'
 slug: ooze-flux
-tags: card-color-green card-color-green-cost-4 card-type-enchantment
+synonyms: []
 tapped_id: 14327
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Ooze X/X G
-  power_toughness: X/X
-  rules: ''
-  subtype: Ooze
-  tla: 2XM
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - X/X
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 14
+    - - cannonical_type
+      - Creature
+    - - name
+      - Ooze X/X G
 type: Enchantment
-url: http://tappedout.net/mtg-card/ooze-flux/
+url: https://tappedout.net/mtg-card/ooze-flux/
+

@@ -2,20 +2,8 @@ activated_abilities:
 - ': Add .'
 - ': CARDNAME becomes a 4/3 creature with vigilance and all creature types until end
   of turn. CARDNAME is still a land. *( can be paid with one mana from a snow source.)*'
-activation_costs:
+activated_costs:
 - C
-arena:
-  Alchemy:
-    cannonical_type: Land
-    date: 2021-12-09
-    rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:snow]][[symbol:snow]][[symbol:snow]]:\
-      \ This becomes a 3/3 creature with vigilance and all creature types until end\
-      \ of turn. It's still a land."
-  Historic:
-    date: 2021-12-09
-    rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:snow]][[symbol:snow]][[symbol:snow]]:\
-      \ This becomes a 3/3 creature with vigilance and all creature types until end\
-      \ of turn. It's still a land."
 canadian_hl_score: 0
 cannonical_set: KHM
 cannonical_type: Land
@@ -30,29 +18,31 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
 - Pre-release
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -60,51 +50,77 @@ is_permanent: true
 keywords:
 - Vigilance
 - Changeling
-mana_cost_converted: 0
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Faceless Haven
 printings:
 - KHM:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Titus Lunter
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*It is everywhere and nowhere, a place unbound by logic, just beyond
+      the real.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Kaldheim
     number: 255
     rarity: rare
-    release_date: 2021-02-05
+    release_date: '2021-02-05'
+    tla: KHM
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '371'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '371'
+    - identifier: PromoPack
     wizards_id: 503874
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503874
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Pablo Mendoza
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*It is everywhere and nowhere, a place unbound by logic, just beyond
+      the real.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:Snow]][[symbol:Snow]][[symbol:Snow]]:\
   \ CARDNAME becomes a 4/3 creature with vigilance and all creature types until end\
   \ of turn. CARDNAME is still a land. *([[symbol:Snow]] can be paid with one mana\
   \ from a snow source.)*"
 slug: faceless-haven
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
-  card-type-snow
+synonyms: []
 tapped_id: 23764
+tokens: []
 type: Snow Land
-url: http://tappedout.net/mtg-card/faceless-haven/
+url: https://tappedout.net/mtg-card/faceless-haven/
+

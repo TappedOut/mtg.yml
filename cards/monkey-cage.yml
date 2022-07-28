@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MMQ
 cannonical_type: Artifact
@@ -5,62 +7,86 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 5
+cube_average: 2.0
+draft_average: 6.0
+effective_cost: []
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
 mana_cost: '5'
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Monkey Cage
+power_toughness: ''
 printings:
 - MMQ:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Carl Critchlow
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 13150
     mtgo_id: 13149
     name: Mercadian Masques
     number: 307
     rarity: rare
-    release_date: 1999-10-04
+    release_date: '1999-10-04'
+    tla: MMQ
+    variations: []
     wizards_id: 19878
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=19878
+rarity: rare
 rules: When a creature enters the battlefield, sacrifice Monkey Cage and put into
   play a number of 2/2 green Ape creature tokens equal to that creature's converted
   mana cost.
 slug: monkey-cage
-tags: card-color-colorless card-color-colorless-cost-5 card-type-artifact
+synonyms: []
 tapped_id: 5798
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 2/2 G Token Creature Ape
-  power_toughness: 2/2
-  rules: ''
-  subtype: Ape
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 67
+    - - cannonical_type
+      - Creature
+    - - name
+      - null
 type: Artifact
-url: http://tappedout.net/mtg-card/monkey-cage/
+url: https://tappedout.net/mtg-card/monkey-cage/
+

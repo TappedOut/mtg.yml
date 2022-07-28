@@ -1,11 +1,13 @@
 activated_abilities:
 - 'Equip  *(: Attach to target creature you control. Equip only as a sorcery.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MID
 cannonical_type: Artifact
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -14,33 +16,34 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - W
-flat_cost: 1
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -48,32 +51,58 @@ keywords:
 - Equip
 - Attach
 mana_cost: W
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Hedgewitch's Mask
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 23
-    rarity: common
-    release_date: 2022-01-21
 - MID:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ovidio Cartagena
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*In Kessig, even celebration wears a fearsome face.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Midnight Hunt'
     number: 23
     rarity: common
-    release_date: 2021-09-24
+    release_date: '2021-09-24'
+    tla: MID
+    variations: []
     wizards_id: 534779
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=534779
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ovidio Cartagena
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*In Kessig, even celebration wears a fearsome face.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 23
+    rarity: common
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Equipped creature gets +1/+1.\r\n\r\nEquipped creature can't be blocked by\
   \ creatures with power 4 or greater.\r\n\r\nEquip [[symbol:2]] *([[symbol:2]]: Attach\
   \ to target creature you control. Equip only as a sorcery.)*"
@@ -81,7 +110,9 @@ slug: hedgewitchs-mask
 subtype: Equipment
 subtype_tokens:
 - Equipment
-tags: card-color-white card-color-white-cost-1 card-type-artifact
+synonyms: []
 tapped_id: 25075
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/hedgewitchs-mask/
+url: https://tappedout.net/mtg-card/hedgewitchs-mask/
+

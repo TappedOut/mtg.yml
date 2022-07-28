@@ -1,35 +1,39 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: MMA
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 9.46
+draft_average: 7.88
 effective_cost:
 - W
-flat_cost: 7
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Vintage
-has_activated_abilities: false
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -39,49 +43,84 @@ keywords:
 - Suspend
 - Counters
 mana_cost: 5WW
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Ivory Giant
 power_toughness: 3/4
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 20
-    rarity: common
-    release_date: 2021-03-19
-    wizards_id: 509385
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509385
-- MMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 48891
-    mtgo_id: 48890
-    name: Modern Masters
-    rarity: common
-    release_date: 2013-06-07
-    wizards_id: 370415
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370415
 - TSP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jeff Miracola
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 25538
     mtgo_id: 25537
     name: Time Spiral
+    number: null
     rarity: common
-    release_date: 2006-10-06
+    release_date: '2006-10-06'
+    tla: TSP
+    variations: []
     wizards_id: 109741
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=109741
+- MMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Zack Stella
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 48891
+    mtgo_id: 48890
+    name: Modern Masters
+    number: null
+    rarity: common
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
+    wizards_id: 370415
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370415
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jeff Miracola
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 20
+    rarity: common
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509385
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509385
+rarity: common
 rules: "When Ivory Giant enters the battlefield, tap all nonwhite creatures.\r\n\r\
   \nSuspend 5&mdash;[[symbol:W]] *(Rather than cast this card from your hand, you\
   \ may pay [[symbol:W]] and exile it from the game with five time counters on it.\
@@ -91,7 +130,9 @@ slug: ivory-giant
 subtype: Giant
 subtype_tokens:
 - Giant
-tags: card-color-white card-color-white-cost-7 card-type-creature
+synonyms: []
 tapped_id: 1086
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/ivory-giant/
+url: https://tappedout.net/mtg-card/ivory-giant/
+

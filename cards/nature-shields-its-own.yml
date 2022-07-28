@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ARC
 companions:
@@ -9,59 +11,77 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+effective_cost: []
 formats:
 - 1v1 Commander
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Pauper
+- Casual
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Nature Shields Its Own
 printings:
 - ARC:
     alterations:
-    - Oversized
+    - !!python/tuple
+      - oversized
+      - Oversized
+    artist: John Stanko
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Archenemy
     number: 32
     rarity: common
-    release_date: 2010-06-18
+    release_date: '2010-06-18'
+    tla: ARC
+    variations: []
     wizards_id: 212577
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=212577
+rarity: common
 rules: "*(An ongoing scheme remains face up until it's abandoned.)*\r\n\r\nWhenever\
   \ a creature attacks and isn't blocked, if you're the defending player, create a\
   \ 0/1 green Plant creature token onto the battlefield blocking that creature.\r\n\
   \r\nWhen four or more creatures attack you, abandon this scheme at end of combat."
 slug: nature-shields-its-own
-tags: card-color-colorless card-color-colorless-cost-0 card-type-ongoing card-type-scheme
+synonyms: []
 tapped_id: 12656
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Plant 0/1 G
-  power_toughness: 0/1
-  rules: ''
-  subtype: Plant
-  tla: NCC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 0/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 691
+    - - cannonical_type
+      - Creature
+    - - name
+      - Plant 0/1 G
 type: Ongoing Scheme
-url: http://tappedout.net/mtg-card/nature-shields-its-own/
+url: https://tappedout.net/mtg-card/nature-shields-its-own/
+

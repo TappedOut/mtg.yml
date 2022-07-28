@@ -1,45 +1,45 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: KHM
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - W
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 - Vigilance
@@ -47,31 +47,43 @@ keywords:
 - Tokens
 - Foretell
 mana_cost: 2WW
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Starnheim Unleashed
 printings:
 - KHM:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Johannes Voss
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Kaldheim
     number: 33
     rarity: mythic_rare
-    release_date: 2021-02-05
+    release_date: '2021-02-05'
+    tla: KHM
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '294'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '294'
+    - identifier: PromoPack
     wizards_id: 503639
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503639
 rules: "Create a 4/4 white Angel Warrior creature token with flying and vigilance.\
@@ -80,18 +92,24 @@ rules: "Create a 4/4 white Angel Warrior creature token with flying and vigilanc
   \ and exile this card from your hand face down. Cast it on a later turn for its\
   \ foretell cost.)*"
 slug: starnheim-unleashed
-tags: card-color-white card-color-white-cost-4 card-type-sorcery
+synonyms: []
 tapped_id: 23830
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Angel Warrior 4/4 W w/ Vigilance
-  power_toughness: 4/4
-  rules: Flying, vigilance
-  subtype: Angel Warrior
-  tla: KHM
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 4/4
+    - - rules
+      - Flying, vigilance
+    - - type
+      - Token Creature
+    - - subtype
+      - 804
+    - - cannonical_type
+      - Creature
+    - - name
+      - Angel Warrior 4/4 W w/ Vigilance
 type: Sorcery
-url: http://tappedout.net/mtg-card/starnheim-unleashed/
+url: https://tappedout.net/mtg-card/starnheim-unleashed/
+

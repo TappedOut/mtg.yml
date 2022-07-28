@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: MH1
@@ -7,32 +8,35 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 10.18
+draft_average: 6.0
 effective_cost:
 - W
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -40,22 +44,33 @@ keywords:
 - Sacrifice
 - Evoke
 mana_cost: 2W
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Vesperlark
 power_toughness: 2/1
 printings:
 - MH1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Raoul Vitale
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 72443
     mtgo_id: 72442
     name: Modern Horizons
     number: 35
     rarity: uncommon
-    release_date: 2019-06-14
+    release_date: '2019-06-14'
+    tla: MH1
+    variations: []
     wizards_id: 463984
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=463984
 rules: "Flying\r\n\r\nWhen Vesperlark leaves the battlefield, return target creature\
@@ -66,7 +81,9 @@ slug: vesperlark
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-color-white card-color-white-cost-3 card-type-creature
+synonyms: []
 tapped_id: 21619
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/vesperlark/
+url: https://tappedout.net/mtg-card/vesperlark/
+

@@ -1,6 +1,9 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SHM
 cannonical_type: Instant
+color_identity: ''
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
@@ -11,63 +14,85 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 12.36
+draft_average: 4.67
 effective_cost:
 - W
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Sacrifice
 mana_cost: 2{G/W}
-mana_cost_converted: 3
+mana_produced: ''
+mana_value: 3
+melds_from: []
 name: Mercy Killing
+power_toughness: ''
 printings:
 - SHM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dave Kendall
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"We will give you the peace you seek, though you may not yet know
+      you seek it."'
     frame: modern
     mtgo_foil_id: 29844
     mtgo_id: 29843
     name: Shadowmoor
     number: 231
     rarity: uncommon
-    release_date: 2008-05-02
+    release_date: '2008-05-02'
+    tla: SHM
+    variations: []
     wizards_id: 158771
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=158771
+rarity: uncommon
 rules: Target creature's controller sacrifices it, then puts X 1/1 green and white
   Elf Warrior creature tokens into play, where X is that creature's power.
 slug: mercy-killing
-tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-white card-type-instant
+synonyms: []
 tapped_id: 9624
 tokens:
-- cannonical_type: Creature
-  colors: GW
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elf Warrior 1/1 GW
-  power_toughness: 1/1
-  rules: ''
-  subtype: Elf Warrior
-  tla: SHM
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - GW
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 48
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elf Warrior 1/1 GW
 type: Instant
-url: http://tappedout.net/mtg-card/mercy-killing/
+url: https://tappedout.net/mtg-card/mercy-killing/
+

@@ -1,74 +1,101 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SOI
 cannonical_type: Sorcery
+color_identity: ''
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.12
+draft_average: 2.8
 effective_cost:
 - R
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: 4RR
-mana_cost_converted: 6
+mana_produced: ''
+mana_value: 6
+melds_from: []
 name: Devils' Playground
+power_toughness: ''
 printings:
 - SOI:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Wayne England
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"The city is overrun. I would say burn it to the ground, but\
+      \ that won't be necessary.\"\r\n<br>&mdash;Inquisitor Delmund*"
     frame: m15
     mtgo_foil_id: 59819
     mtgo_id: 59818
     name: Shadows over Innistrad
     number: 151
     rarity: rare
-    release_date: 2016-04-08
+    release_date: '2016-04-08'
+    tla: SOI
+    variations: []
     wizards_id: 409903
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409903
+rarity: rare
 rules: Put four 1/1 red Devil creature tokens onto the battlefield. They have "When
   this creature dies, it deals 1 damage to target creature or player."
 slug: devils-playground
-tags: card-color-red card-color-red-cost-6 card-type-sorcery
+synonyms: []
 tapped_id: 17782
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Devil 1/1 R
-  power_toughness: 1/1
-  rules: When this creature dies *(is put into the graveyard from the battlefield,
-    tokens are put into the graveyard before ceasing to exist)*, this deals 1 damage
-    to any target *(creature, player or planeswalker)*.
-  subtype: Devil
-  tla: SOI
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - When this creature dies *(is put into the graveyard from the battlefield,
+        tokens are put into the graveyard before ceasing to exist)*, this deals 1
+        damage to any target *(creature, player or planeswalker)*.
+    - - type
+      - Token Creature
+    - - subtype
+      - 675
+    - - cannonical_type
+      - Creature
+    - - name
+      - Devil 1/1 R
 type: Sorcery
-url: http://tappedout.net/mtg-card/devils-playground/
+url: https://tappedout.net/mtg-card/devils-playground/
+

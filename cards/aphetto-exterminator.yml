@@ -1,54 +1,71 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: LGN
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 4.0
+draft_average: 5.25
 effective_cost:
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Morph
 mana_cost: 2B
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Aphetto Exterminator
 power_toughness: 3/1
 printings:
 - LGN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Scott M. Fischer
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 18420
     mtgo_id: 18419
     name: Legions
     number: 59
     rarity: uncommon
-    release_date: 2003-02-03
+    release_date: '2003-02-03'
+    tla: LGN
+    variations: []
     wizards_id: 42060
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=42060
+rarity: uncommon
 rules: "Morph (3)(Black) (You may play this face down as a 2/2 creature for (3). Turn\
   \ it face up any time for its morph cost.) \r\n\r\nWhen Aphetto Exterminator is\
   \ turned face up, target creature gets -3/-3 until end of turn."
@@ -57,18 +74,25 @@ subtype: Human Wizard
 subtype_tokens:
 - Human
 - Wizard
-tags: card-color-black card-color-black-cost-3 card-type-creature
+synonyms: []
 tapped_id: 3664
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Morph 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  tla: C19
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+        \ with morph can be turned face up at any time for its morph cost.*"
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Morph 2/2 C
 type: Creature
-url: http://tappedout.net/mtg-card/aphetto-exterminator/
+url: https://tappedout.net/mtg-card/aphetto-exterminator/
+

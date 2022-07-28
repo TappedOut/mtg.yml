@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: KTK
 cannonical_type: Instant
@@ -11,69 +13,87 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 11.4
+draft_average: 3.73
 effective_cost:
 - W
 - B
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - First strike
 mana_cost: RWB
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Mardu Charm
 printings:
 - KTK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mathias Kollros
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 54129
     mtgo_id: 54128
     name: Khans of Tarkir
     number: 186
     rarity: uncommon
-    release_date: 2014-09-26
+    release_date: '2014-09-26'
+    tla: KTK
+    variations: []
     wizards_id: 386593
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386593
+rarity: uncommon
 rules: "Choose one &mdash;\r\n<br>&#8226; Mardu Charm deals 4 damage to target creature.\r\
   \n<br>&#8226; Put two 1/1 white Warrior creature tokens onto the battlefield. They\
   \ gain first strike until end of turn.\r\n<br>&#8226; Target opponent reveals his\
   \ or her hand. You choose a noncreature, nonland card from it. That player discards\
   \ that card."
 slug: mardu-charm
-tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-red card-color-white
-  card-type-instant
+synonyms: []
 tapped_id: 15841
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Warrior 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Warrior
-  tla: KTK
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 864
+    - - cannonical_type
+      - Creature
+    - - name
+      - Warrior 1/1 W
 type: Instant
-url: http://tappedout.net/mtg-card/mardu-charm/
+url: https://tappedout.net/mtg-card/mardu-charm/
+

@@ -1,60 +1,77 @@
 activated_abilities:
 - 'Cycling  *(, Discard this card: Draw a card.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: IKO
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 2.67
+draft_average: 4.29
 effective_cost:
 - W
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Cycling
 mana_cost: 1W
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Valiant Rescuer
 power_toughness: 3/1
 printings:
 - IKO:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Bram Sels
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*The floating city of Skysail has two rules: don''t leave your
+      crewmates behind, and don''t mess with the guardrails.*'
     frame: m15
     mtgo_foil_id: 80082
     mtgo_id: 80081
     name: 'Ikoria: Lair of Behemoths'
     number: 36
     rarity: uncommon
-    release_date: 2020-04-15
+    release_date: '2020-04-15'
+    tla: IKO
+    variations: []
     wizards_id: 479556
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479556
 rules: "Whenever you cycle another card for the first time each turn, create a 1/1\
@@ -65,18 +82,24 @@ subtype: Human Soldier
 subtype_tokens:
 - Human
 - Soldier
-tags: card-color-white card-color-white-cost-2 card-type-creature
+synonyms: []
 tapped_id: 22684
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Human Soldier 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Human Soldier
-  tla: IKO
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 29
+    - - cannonical_type
+      - Creature
+    - - name
+      - Human Soldier 1/1 W
 type: Creature
-url: http://tappedout.net/mtg-card/valiant-rescuer/
+url: https://tappedout.net/mtg-card/valiant-rescuer/
+

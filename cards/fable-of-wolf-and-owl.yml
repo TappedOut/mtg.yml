@@ -1,81 +1,111 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: EVE
 cannonical_type: Enchantment
+color_identity: ''
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 9.48
+draft_average: 1.0
 effective_cost:
 - U
 - G
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
 mana_cost: 3{G/U}{G/U}{G/U}
-mana_cost_converted: 6
+mana_produced: ''
+mana_value: 6
+melds_from: []
 name: Fable of Wolf and Owl
 power_toughness: '0'
 printings:
 - EVE:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Heather Hudson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: The forest grew fangs. The sky spread its wings.
     frame: modern
     mtgo_foil_id: 30051
     mtgo_id: 30050
     name: Eventide
     number: 150
     rarity: rare
-    release_date: 2008-07-25
+    release_date: '2008-07-25'
+    tla: EVE
+    variations: []
     wizards_id: 152087
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=152087
+rarity: rare
 rules: "Whenever you play a green spell, you may put a 2/2 green Wolf creature token\
   \ into play.\r\n\r\nWhenever you play a blue spell, you may put a 1/1 blue Bird\
   \ creature token with flying into play."
 slug: fable-of-wolf-and-owl
-tags: card-color-blue card-color-gold card-color-gold-cost-6 card-color-green card-type-enchantment
+synonyms: []
 tapped_id: 9810
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Bird 1/1 U
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Bird
-  tla: EVE
-  type: Token Creature
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Wolf 2/2 G
-  power_toughness: 2/2
-  rules: ''
-  subtype: Wolf
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 32
+    - - cannonical_type
+      - Creature
+    - - name
+      - Bird 1/1 U
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 93
+    - - cannonical_type
+      - Creature
+    - - name
+      - Wolf 2/2 G
 type: Enchantment
-url: http://tappedout.net/mtg-card/fable-of-wolf-and-owl/
+url: https://tappedout.net/mtg-card/fable-of-wolf-and-owl/
+

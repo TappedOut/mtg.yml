@@ -1,15 +1,15 @@
 activated_abilities:
 - ': This gains first strike until end of turn.'
-activation_costs:
+activated_costs:
 - R
 - W
 canadian_hl_score: 0
 cannonical_set: SLD
 cannonical_type: Creature
-color_identity:
-- W
+color_identity: W
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -17,20 +17,21 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -38,21 +39,35 @@ keywords:
 - First strike
 - Prowess
 mana_cost: 1RR
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Ken, Burning Brawler
 power_toughness: 4/2
 printings:
 - SLD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Yongjae Choi
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Secret Lair
     number: 430
     rarity: rare
-    release_date: 2019-12-09
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Prowess _(Whenever you cast a noncreature spell, this creature gets +1/+1\
   \ until end of turn.)_\r\n\r\n[[symbol:RW]]: This gains first strike until end of\
   \ turn.\r\n\r\n_Shoryuken_ \u2014 Whenever this deals combat damage, you may cast\
@@ -63,7 +78,9 @@ subtype: Human Monk
 subtype_tokens:
 - Human
 - Monk
-tags: card-color-red card-color-red-cost-3 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 26072
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/ken-burning-brawler/
+url: https://tappedout.net/mtg-card/ken-burning-brawler/
+

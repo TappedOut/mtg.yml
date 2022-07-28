@@ -1,12 +1,11 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: SOI
 cannonical_type: Creature
-color_identity:
-- B
-color_indicator:
-- U
+color_identity: B
+color_indicator: U
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -17,24 +16,25 @@ companions:
 - Yorion, Sky Nomad
 effective_cost:
 - U
-flat_cost: 0
+flip: Elusive Tormentor
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -42,37 +42,60 @@ keywords:
 - Indestructible
 - Transform
 - Unblockable
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Insidious Mist
 power_toughness: 0/1
 printings:
 - SOI:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    booster_exclude: true
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Izzy
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 60407
     mtgo_id: 60406
     name: Shadows over Innistrad
     number: 108
     rarity: rare
-    release_date: 2016-04-08
+    release_date: '2016-04-08'
+    tla: SOI
+    variations: []
     wizards_id: 409856
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409856
 - '000':
     alterations:
-    - Foil
-    booster_exclude: true
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Anna Steinbauer
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "Hexproof, indestructible\r\n\r\nThis can't block and can't be blocked.\r\n\
   \r\nWhenever this attacks and isn't blocked, you may pay [[symbol:2]][[symbol:B]].\
   \ If you do, transform this."
@@ -80,7 +103,9 @@ slug: insidious-mist
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-type-creature
+synonyms: []
 tapped_id: 17613
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/insidious-mist/
+url: https://tappedout.net/mtg-card/insidious-mist/
+

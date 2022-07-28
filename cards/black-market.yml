@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: CLB
@@ -6,114 +7,185 @@ cannonical_type: Enchantment
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.93
+draft_average: 10.0
 effective_cost:
 - B
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Premodern
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Premodern
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
 mana_cost: 3BB
-mana_cost_converted: 5
 mana_produced: B, BB, BBB, BBBB, BBBBB,
+mana_value: 5
+melds_from: []
 name: Black Market
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 739
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567556
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567556
-- JMP:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Jumpstart
-    number: 204
-    rarity: rare
-    release_date: 2020-07-17
-    wizards_id: 489210
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489210
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: rare
-    release_date: 2020-03-14
-- C17:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2017
-    number: 98
-    rarity: rare
-    release_date: 2017-08-25
-    wizards_id: 433030
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433030
-- C15:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2015
-    number: 116
-    rarity: rare
-    release_date: 2015-11-13
-    wizards_id: 405144
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405144
 - MMQ:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jeff Easley
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 13200
     mtgo_id: 13199
     name: Mercadian Masques
+    number: null
     rarity: rare
-    release_date: 1999-10-04
+    release_date: '1999-10-04'
+    tla: MMQ
+    variations: []
     wizards_id: 19831
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=19831
+- C15:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jeff Easley
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2015
+    number: 116
+    rarity: rare
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
+    wizards_id: 405144
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405144
+- C17:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: null
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2017
+    number: 98
+    rarity: rare
+    release_date: '2017-08-25'
+    tla: C17
+    variations: []
+    wizards_id: 433030
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433030
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: null
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: rare
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- JMP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jeff Easley
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Jumpstart
+    number: 204
+    rarity: rare
+    release_date: '2020-07-17'
+    tla: JMP
+    variations: []
+    wizards_id: 489210
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489210
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jeff Easley
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 739
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567556
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567556
+rarity: rare
 rules: "Whenever a creature dies, put a charge counter on Black Market. *(Is put into\
   \ the graveyard from the battlefield, tokens are put into the graveyard before they\
   \ cease to exist.)*\r\n\r\nAt the beginning of your precombat main phase, add [[symbol:B]]\
   \ to your mana pool for each charge counter on Black Market."
 slug: black-market
-tags: card-color-black card-color-black-cost-5 card-mana-black card-type-enchantment
+synonyms: []
 tapped_id: 5632
+tokens: []
 type: Enchantment
-url: http://tappedout.net/mtg-card/black-market/
+url: https://tappedout.net/mtg-card/black-market/
+

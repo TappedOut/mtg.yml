@@ -1,81 +1,101 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: RIX
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 9.12
+draft_average: 3.48
 effective_cost:
 - W
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 1W
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Baffling End
 printings:
 - RIX:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mathias Kollros
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 66456
     mtgo_id: 66455
     name: Rivals of Ixalan
     number: 1
     rarity: uncommon
-    release_date: 2018-01-19
+    release_date: '2018-01-19'
+    tla: RIX
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: Animated
+    - identifier: Animated
     wizards_id: 439658
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439658
+rarity: uncommon
 rules: "When Baffling End enters the battlefield, exile target creature an opponent\
   \ controls with converted mana cost 3 or less. \r\n\r\nWhen Baffling End leaves\
   \ the battlefield, target opponent creates a 3/3 green Dinosaur creature token with\
   \ trample."
 slug: baffling-end
-tags: card-color-white card-color-white-cost-2 card-type-enchantment
+synonyms: []
 tapped_id: 19945
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Dinosaur 3/3 G
-  power_toughness: 3/3
-  rules: Trample *(This creature can deal excess combat damage to defending player
-    or planeswalker for as long as lethal combat damage would be dealt to the blocking
-    creatures.)*
-  subtype: Dinosaur
-  tla: XLN
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 3/3
+    - - rules
+      - Trample *(This creature can deal excess combat damage to defending player
+        or planeswalker for as long as lethal combat damage would be dealt to the
+        blocking creatures.)*
+    - - type
+      - Token Creature
+    - - subtype
+      - 592
+    - - cannonical_type
+      - Creature
+    - - name
+      - Dinosaur 3/3 G
 type: Enchantment
-url: http://tappedout.net/mtg-card/baffling-end/
+url: https://tappedout.net/mtg-card/baffling-end/
+

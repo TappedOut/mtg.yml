@@ -2,38 +2,40 @@ activated_abilities:
 - ', : Until your next turn, target creature an opponent controls can''t be blocked.
   Goad that creature. *(Until your next turn, that creature attacks each combat if
   able and attacks a player other than you if able.)*'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,37 +43,54 @@ keywords:
 - Unblockable
 - Goad
 mana_cost: 3U
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Sly Instigator
 power_toughness: 2/4
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 736
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567553
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567553
 - C21:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Justine Cruz
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Me? I''m just an innocent bystander!"*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2021
     number: 32
     rarity: rare
-    release_date: 2021-04-23
+    release_date: '2021-04-23'
+    tla: C21
     variations:
-    - alterations:
-      - Normal
-      identifier: '359'
+    - identifier: '359'
     wizards_id: 518428
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518428
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Justine Cruz
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: '*"Me? I''m just an innocent bystander!"*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 736
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567553
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567553
 rules: '[[symbol:U]], [[symbol:T]]: Until your next turn, target creature an opponent
   controls can''t be blocked. Goad that creature. *(Until your next turn, that creature
   attacks each combat if able and attacks a player other than you if able.)*'
@@ -80,7 +99,9 @@ subtype: Human Wizard
 subtype_tokens:
 - Human
 - Wizard
-tags: card-color-blue card-color-blue-cost-4 card-type-creature
+synonyms: []
 tapped_id: 24322
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/sly-instigator/
+url: https://tappedout.net/mtg-card/sly-instigator/
+

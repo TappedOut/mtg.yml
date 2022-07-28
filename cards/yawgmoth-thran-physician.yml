@@ -3,38 +3,42 @@ activated_abilities:
   and draw a card.'
 - ', Discard a card: Proliferate. *(Choose any number of permanents and/or players,
   then give each another counter of each kind already there.)*'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: MH1
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.24
+draft_average: 1.0
 effective_cost:
 - B
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,37 +48,59 @@ keywords:
 - Proliferate
 - Counters
 mana_cost: 2BB
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Yawgmoth, Thran Physician
 power_toughness: 2/4
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: original
-    name: Time Spiral Remastered
-    number: 336
-    rarity: special
-    release_date: 2021-03-19
-    wizards_id: 512302
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512302
 - MH1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Winters
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 72605
     mtgo_id: 72604
     name: Modern Horizons
     number: 116
     rarity: mythic_rare
-    release_date: 2019-06-14
+    release_date: '2019-06-14'
+    tla: MH1
+    variations: []
     wizards_id: 464065
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464065
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Winters
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 336
+    rarity: special
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 512302
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512302
 rules: "Protection from Humans *((Remember the acronym <b>debt</b>.) This creature\
   \ can't be <b>d</b>amaged, <b>e</b>nchanted, <b>e</b>quipped, <b>b</b>locked or\
   \ <b>t</b>argeted by anything Human.)*\r\n\r\nPay 1 life, Sacrifice another creature:\
@@ -86,7 +112,9 @@ subtype: Human Cleric
 subtype_tokens:
 - Human
 - Cleric
-tags: card-color-black card-color-black-cost-4 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 21590
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/yawgmoth-thran-physician/
+url: https://tappedout.net/mtg-card/yawgmoth-thran-physician/
+

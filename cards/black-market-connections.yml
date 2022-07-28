@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Enchantment
@@ -5,31 +7,32 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -37,24 +40,31 @@ keywords:
 - Changeling
 - Tokens
 mana_cost: 2B
-mana_cost_converted: 3
 mana_produced: W, U, B, R, G
+mana_value: 3
+melds_from: []
 name: Black Market Connections
 printings:
 - CLB:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Evyn Fong
     booster_exclude: true
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 669
     rarity: rare
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
     variations:
-    - alterations:
-      - Normal
-      identifier: '620'
+    - identifier: '620'
     wizards_id: 567234
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567234
 rules: "At the beginning of your precombat main phase, choose or of more &mdash;\r\
@@ -64,29 +74,39 @@ rules: "At the beginning of your precombat main phase, choose or of more &mdash;
   \n- *Hire a Mercenary* &mdash; Create a 3/2 colorless Shapeshifter creature token\
   \ with changeling. You lose 3 life. (It has every creature type.)"
 slug: black-market-connections
-tags: card-color-black card-color-black-cost-3 card-mana-black card-mana-blue card-mana-green
-  card-mana-red card-mana-white card-type-enchantment
+synonyms: []
 tapped_id: 26793
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Shapeshifter 3/2 C
-  power_toughness: 3/2
-  rules: Changeling *(This token is every creature type.)*
-  subtype: Shapeshifter
-  tla: CLB
-  type: Token Creature
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: CLB
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 3/2
+    - - rules
+      - Changeling *(This token is every creature type.)*
+    - - type
+      - Token Creature
+    - - subtype
+      - 56
+    - - cannonical_type
+      - Creature
+    - - name
+      - Shapeshifter 3/2 C
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Enchantment
-url: http://tappedout.net/mtg-card/black-market-connections/
+url: https://tappedout.net/mtg-card/black-market-connections/
+

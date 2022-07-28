@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Sorcery
@@ -12,60 +14,75 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 9
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: 6BBB
-mana_cost_converted: 9
+mana_value: 9
+melds_from: []
 name: Profane Transfusion
 printings:
 - CMR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Vincent Proce
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"Those that fall short of perfection can still contribute to\
+      \ the Great Work.\"\r\n<br>&mdash;Keskit, the Flesh Sculptor*"
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander Legends
     number: 145
     rarity: mythic_rare
-    release_date: 2020-11-20
+    release_date: '2020-11-20'
+    tla: CMR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '653'
+    - identifier: '653'
     wizards_id: 497665
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497665
 rules: Two target players exchange life totals. You create an X/X colorless Horror
   artifact creature token, where X is the difference between those players' life totals.
 slug: profane-transfusion
-tags: card-color-black card-color-black-cost-9 card-type-sorcery
+synonyms: []
 tapped_id: 23513
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Horror X/X C
-  power_toughness: X/X
-  rules: ''
-  subtype: Horror
-  tla: CMR
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - X/X
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 4
+    - - cannonical_type
+      - Creature
+    - - name
+      - Horror X/X C
 type: Sorcery
-url: http://tappedout.net/mtg-card/profane-transfusion/
+url: https://tappedout.net/mtg-card/profane-transfusion/
+

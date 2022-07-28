@@ -1,34 +1,39 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ALL
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 11.67
+draft_average: 3.0
 effective_cost:
 - R
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
 - Pauper EDH
-- Premodern
-- Tiny Leaders
+- Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -36,34 +41,59 @@ keywords:
 - Cumulative upkeep
 - Rampage
 mana_cost: 1R
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Varchild's War-Riders
 power_toughness: 3/4
 printings:
 - MED:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Susan Van Camp
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '"What tries to crush our spirit only strengthens our resolve."Lovisa
+      Coldeyes, Balduvian chieftain'
     frame: modern
     mtgo_foil_id: 28134
     mtgo_id: 28133
     name: Masters Edition
+    number: null
     rarity: common
-    release_date: 2007-09-10
+    release_date: '2007-09-10'
+    tla: MED
+    variations: []
     wizards_id: 159742
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=159742
 - ALL:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Susan Van Camp
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "\"What tries to crush our spirit only strengthens our resolve.\"\
+      \r\n\x97Lovisa Coldeyes, Balduvian Chieftain"
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Alliances
+    number: null
     rarity: rare
-    release_date: 1996-06-10
+    release_date: '1996-06-10'
+    tla: ALL
+    variations: []
     wizards_id: 3187
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3187
+rarity: rare
 rules: "Cumulative upkeep-Put a 1/1 red Survivor creature token into play under an\
   \ opponent's control.\r\n\r\nTrample, rampage 1 (Whenever this creature becomes\
   \ blocked, it gets +1/+1 until end of turn for each creature blocking it beyond\
@@ -73,18 +103,24 @@ subtype: Human Warrior
 subtype_tokens:
 - Human
 - Warrior
-tags: card-color-red card-color-red-cost-2 card-type-creature
+synonyms: []
 tapped_id: 613
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Survivor 1/1 R
-  power_toughness: 1/1
-  rules: ''
-  subtype: Survivor
-  tla: C18
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 918
+    - - cannonical_type
+      - Creature
+    - - name
+      - Survivor 1/1 R
 type: Creature
-url: http://tappedout.net/mtg-card/varchilds-war-riders/
+url: https://tappedout.net/mtg-card/varchilds-war-riders/
+

@@ -4,40 +4,45 @@ activated_abilities:
 - ': Destroy target creature or planeswalker. '
 - ': Each opponent who doesn''t control a legendary creature or planeswalker loses
   the game.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: WAR
 cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.97
+draft_average: 2.44
 effective_cost:
 - U
 - B
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,66 +50,111 @@ keywords:
 - Exile
 - Counters
 mana_cost: UBBBR
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Nicol Bolas, Dragon-God
+planeswalker_loyalty: 4
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: Secret Lair
-    number: 522
-    rarity: mythic_rare
-    release_date: 2019-12-09
 - WAR:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Raymond Swanland
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 72021
     mtgo_id: 72020
     name: War of the Spark
     number: 207
     rarity: mythic_rare
-    release_date: 2019-05-03
+    release_date: '2019-05-03'
+    tla: WAR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 461134
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461134
 - WARMED:
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Matt Stewart
+    booster_exclude: false
     border_color: B
     cannonical: false
-    foil: foil
-    foil_only: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'War of the Spark: Mythic Edition'
     number: 6
     rarity: mythic_rare
-    release_date: 2019-05-02
+    release_date: '2019-05-02'
+    tla: WARMED
+    variations: []
+    wizards_id: null
+    wizards_url: null
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Adam Paquette
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Raymond Swanland
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 522
+    rarity: mythic_rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Nicol Bolas, Dragon-God has all loyalty abilities of all other planeswalkers\
   \ on the battlefield. \r\n\r\n[[symbol:loyalty-plus1]]: You draw a card. Each opponent\
   \ exiles a card from their hand or a permanent they control. \r\n\r\n[[symbol:loyalty-minus3]]:\
@@ -114,8 +164,9 @@ slug: nicol-bolas-dragon-god
 subtype: Bolas
 subtype_tokens:
 - Bolas
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-5 card-color-red
-  card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 21367
+tokens: []
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/nicol-bolas-dragon-god/
+url: https://tappedout.net/mtg-card/nicol-bolas-dragon-god/
+

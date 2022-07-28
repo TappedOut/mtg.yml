@@ -1,68 +1,97 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: KTK
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.67
+draft_average: 4.64
 effective_cost:
 - W
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Raid
 mana_cost: 2W
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Mardu Hordechief
 power_toughness: 2/3
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
 - KTK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Torstein Nordstrand
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*The horde grows with each assault.*'
     frame: m15
     mtgo_foil_id: 53951
     mtgo_id: 53950
     name: Khans of Tarkir
     number: 17
     rarity: common
-    release_date: 2014-09-26
+    release_date: '2014-09-26'
+    tla: KTK
+    variations: []
     wizards_id: 386596
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386596
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Torstein Nordstrand
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*The horde grows with each assault.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: "*Raid* \u2014 When Mardu Hordechief enters the battlefield, if you attacked\
   \ with a creature this turn, put a 1/1 white Warrior creature token onto the battlefield."
 slug: mardu-hordechief
@@ -70,18 +99,24 @@ subtype: Human Warrior
 subtype_tokens:
 - Human
 - Warrior
-tags: card-color-white card-color-white-cost-3 card-type-creature
+synonyms: []
 tapped_id: 15928
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Warrior 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Warrior
-  tla: KTK
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 864
+    - - cannonical_type
+      - Creature
+    - - name
+      - Warrior 1/1 W
 type: Creature
-url: http://tappedout.net/mtg-card/mardu-hordechief/
+url: https://tappedout.net/mtg-card/mardu-hordechief/
+

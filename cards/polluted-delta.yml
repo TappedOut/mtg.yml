@@ -1,6 +1,7 @@
 activated_abilities:
 - ': Pay 1 life, Sacrifice Polluted Delta: Search your library for an Island or Swamp
   card and put it onto the battlefield. Then shuffle your library.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: KTK
 cannonical_type: Land
@@ -15,98 +16,156 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 4.63
+draft_average: 3.34
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
-- Premodern
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Polluted Delta
 printings:
-- ZNE:
+- ONS:
     alterations:
-    - Foil
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Rob Alexander
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: 18248
+    mtgo_id: 18247
+    name: Onslaught
+    number: null
+    rarity: rare
+    release_date: '2002-10-07'
+    tla: ONS
+    variations: []
+    wizards_id: 39504
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=39504
+- '000':
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Rob Alexander
+    booster_exclude: false
     border_color: B
     cannonical: false
-    frame: m15
-    name: 'Zendikar Rising: Expeditions'
-    number: 2
-    rarity: mythic_rare
-    release_date: 2020-09-25
-- EXP:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    mtgo_foil_id: 58878
-    mtgo_id: 58877
-    name: Zendikar Expeditions
-    number: 17
-    rarity: mythic_rare
-    release_date: 2015-10-03
-    wizards_id: 405104
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405104
+    flavour_text: null
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Promo Set
+    number: 8
+    rarity: rare
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
 - KTK:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Vincent Proce
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Where dragons once prevailed, their bones now sink.*'
     frame: m15
     mtgo_foil_id: 54197
     mtgo_id: 54196
     name: Khans of Tarkir
     number: 239
     rarity: rare
-    release_date: 2014-09-26
+    release_date: '2014-09-26'
+    tla: KTK
+    variations: []
     wizards_id: 386627
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386627
-- ONS:
+- EXP:
     alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: original
-    mtgo_foil_id: 18248
-    mtgo_id: 18247
-    name: Onslaught
-    rarity: rare
-    release_date: 2002-10-07
-    wizards_id: 39504
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=39504
-- '000':
-    alterations:
-    - Foil
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: "V\xE9ronique Meignaud"
+    booster_exclude: false
     border_color: B
     cannonical: false
-    frame: original
-    name: Promo Set
-    number: 8
-    rarity: rare
-    release_date: 1990-04-15
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 58878
+    mtgo_id: 58877
+    name: Zendikar Expeditions
+    number: 17
+    rarity: mythic_rare
+    release_date: '2015-10-03'
+    tla: EXP
+    variations: []
+    wizards_id: 405104
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405104
+- ZNE:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Titus Lunter
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Zendikar Rising: Expeditions'
+    number: 2
+    rarity: mythic_rare
+    release_date: '2020-09-25'
+    tla: ZNE
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: '[[symbol:T]]: Pay 1 life, Sacrifice Polluted Delta: Search your library for
   an Island or Swamp card and put it onto the battlefield. Then shuffle your library.'
 slug: polluted-delta
@@ -117,7 +176,8 @@ synonyms:
 - BU Fetchland
 - UB Fetch Land
 - BU Fetch Land
-tags: card-color-colorless card-color-colorless-cost-0 card-type-land
 tapped_id: 4011
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/polluted-delta/
+url: https://tappedout.net/mtg-card/polluted-delta/
+

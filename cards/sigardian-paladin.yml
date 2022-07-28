@@ -1,65 +1,48 @@
 activated_abilities:
 - ': Target creature you control with a +1/+1 counter on it gains trample and lifelink
   until end of turn.'
-activation_costs:
+activated_costs:
 - G
 - W
-arena:
-  Alchemy:
-    cmc: 3
-    date: 2022-07-07
-    mana_cost: 1GW
-    power_toughness: 4/3
-    rules: "As long as you've put one or more +1/+1 counters on a creature this turn,\
-      \ Sigardian Paladin has trample and lifelink.\r\n\r\n[[symbol:G]][[symbol:W]]:\
-      \ Target creature you control with a +1/+1 counter on it gains trample and lifelink\
-      \ until end of turn."
-  Historic:
-    cmc: 3
-    date: 2022-07-07
-    mana_cost: 1GW
-    power_toughness: 4/3
-    rules: "As long as you've put one or more +1/+1 counters on a creature this turn,\
-      \ Sigardian Paladin has trample and lifelink.\r\n\r\n[[symbol:G]][[symbol:W]]:\
-      \ Target creature you control with a +1/+1 counter on it gains trample and lifelink\
-      \ until end of turn."
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - W
 - G
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -67,33 +50,59 @@ keywords:
 - Lifelink
 - Trample
 mana_cost: 2GW
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Sigardian Paladin
 power_toughness: 4/4
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 514
-    rarity: uncommon
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Slawomir Maniak
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 247
     rarity: uncommon
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
+    variations: []
     wizards_id: 541122
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=541122
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Slawomir Maniak
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 514
+    rarity: uncommon
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "As long as you've put one or more +1/+1 counters on a creature this turn,\
   \ this has trample and lifelink.\r\n\r\n[[symbol:1]][[symbol:G]][[symbol:W]]: Target\
   \ creature you control with a +1/+1 counter on it gains trample and lifelink until\
@@ -103,7 +112,9 @@ subtype: Human Knight
 subtype_tokens:
 - Human
 - Knight
-tags: card-color-gold card-color-gold-cost-4 card-color-green card-color-white card-type-creature
+synonyms: []
 tapped_id: 25434
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/sigardian-paladin/
+url: https://tappedout.net/mtg-card/sigardian-paladin/
+

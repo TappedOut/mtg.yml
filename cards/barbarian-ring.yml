@@ -3,7 +3,7 @@ activated_abilities:
 - "*Threshold*\u2014, , Sacrifice Barbarian Ring: Barbarian Ring deals 2 damage to\
   \ any target *(creature, player or planeswalker)*. Activate this ability only if\
   \ seven or more cards are in your graveyard."
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: ODY
@@ -19,21 +19,25 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 11.0
+draft_average: 7.0
+effective_cost: []
 formats:
 - 1v1 Commander
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -41,46 +45,68 @@ is_permanent: true
 keywords:
 - Sacrifice
 - Threshold
-mana_cost_converted: 0
 mana_produced: R
+mana_value: 0
+melds_from: []
 name: Barbarian Ring
 printings:
-- PFL:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: modern
-    mtgo_foil_id: 39269
-    name: 'Premium Deck Series: Fire and Lightning'
-    number: 28
-    rarity: uncommon
-    release_date: 2010-11-19
-    wizards_id: 234737
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=234737
 - ODY:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: John Avon
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 16452
     mtgo_id: 16451
     name: Odyssey
     number: 313
     rarity: uncommon
-    release_date: 2001-09-21
+    release_date: '2001-09-21'
+    tla: ODY
+    variations: []
     wizards_id: 29906
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=29906
+- PFL:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Avon
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 39269
+    mtgo_id: null
+    name: 'Premium Deck Series: Fire and Lightning'
+    number: 28
+    rarity: uncommon
+    release_date: '2010-11-19'
+    tla: PFL
+    variations: []
+    wizards_id: 234737
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=234737
+rarity: uncommon
 rules: "[[symbol:T]]: Add [[symbol:R]]. Barbarian Ring deals 1 damage to you.\r\n\r\
   \n*Threshold*\u2014[[symbol:R]], [[symbol:T]], Sacrifice Barbarian Ring: Barbarian\
   \ Ring deals 2 damage to any target *(creature, player or planeswalker)*. Activate\
   \ this ability only if seven or more cards are in your graveyard."
 slug: barbarian-ring
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-red card-type-land
+synonyms: []
 tapped_id: 4440
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/barbarian-ring/
+url: https://tappedout.net/mtg-card/barbarian-ring/
+

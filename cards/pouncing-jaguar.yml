@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: USG
@@ -6,65 +7,90 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 4.0
+draft_average: 5.89
 effective_cost:
 - G
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
 - Pauper EDH
-- Premodern
-- Tiny Leaders
+- Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
 - Echo
 mana_cost: G
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Pouncing Jaguar
 power_toughness: 2/2
 printings:
 - USG:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Daren Bader
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 11828
     mtgo_id: 11827
     name: Urza's Saga
     number: 269
     rarity: common
-    release_date: 1998-10-12
+    release_date: '1998-10-12'
+    tla: USG
+    variations: []
     wizards_id: 5664
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=5664
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daren Bader
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*One pounce; she''s hungry, you die quickly. Two; she''s teaching
+      her cubs, you''re in for a long day.*'
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: common
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: Echo [[symbol:G]] *(At the beginning of your upkeep, if this came under your
   control since the beginning of your last upkeep, sacrifice it unless you pay its
   echo cost.)*
@@ -72,7 +98,9 @@ slug: pouncing-jaguar
 subtype: Cat
 subtype_tokens:
 - Cat
-tags: card-color-green card-color-green-cost-1 card-type-creature
+synonyms: []
 tapped_id: 6401
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/pouncing-jaguar/
+url: https://tappedout.net/mtg-card/pouncing-jaguar/
+

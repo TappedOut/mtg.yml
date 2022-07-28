@@ -3,6 +3,7 @@ activated_abilities:
 - ': Create a 4/4 red Dragon creature token with flying.'
 - ': Search your library for any number of Dragon creature cards and put them onto
   the battlefield. Then shuffle your library.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DTK
 cannonical_type: Planeswalker
@@ -10,31 +11,35 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.34
+draft_average: 1.33
 effective_cost:
 - U
 - R
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,37 +48,61 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 2GUR
-mana_cost_converted: 5
 mana_produced: W, U, B, R, G
+mana_value: 5
+melds_from: []
 name: Sarkhan Unbroken
+planeswalker_loyalty: 4
 printings:
-- WARMED:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: 'War of the Spark: Mythic Edition'
-    number: 8
-    rarity: mythic_rare
-    release_date: 2019-05-02
 - DTK:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Aleksi Bricolt
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 56193
     mtgo_id: 56192
     name: Dragons of Tarkir
     number: 230
     rarity: mythic_rare
-    release_date: 2015-03-27
+    release_date: '2015-03-27'
+    tla: DTK
+    variations: []
     wizards_id: 394675
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394675
+- WARMED:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Deschamps
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'War of the Spark: Mythic Edition'
+    number: 8
+    rarity: mythic_rare
+    release_date: '2019-05-02'
+    tla: WARMED
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Draw a card, then gain one mana of any colour.\r\
   \n\r\n[[symbol:loyalty-minus2]]: Create a 4/4 red Dragon creature token with flying.\r\
   \n\r\n[[symbol:loyalty-minus8]]: Search your library for any number of Dragon creature\
@@ -82,19 +111,24 @@ slug: sarkhan-unbroken
 subtype: Sarkhan
 subtype_tokens:
 - Sarkhan
-tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-green card-color-red
-  card-mana-black card-mana-blue card-mana-green card-mana-red card-mana-white card-type-planeswalker
+synonyms: []
 tapped_id: 16385
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Dragon 4/4 R
-  power_toughness: 4/4
-  rules: Flying
-  subtype: Dragon
-  tla: DTK
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 4/4
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 42
+    - - cannonical_type
+      - Creature
+    - - name
+      - Dragon 4/4 R
 type: Planeswalker
-url: http://tappedout.net/mtg-card/sarkhan-unbroken/
+url: https://tappedout.net/mtg-card/sarkhan-unbroken/
+

@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NMS
 cannonical_type: Sorcery
@@ -10,61 +12,80 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+draft_average: 5.67
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Sacrifice
 mana_cost: 1RR
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Mogg Alarm
+power_toughness: ''
 printings:
 - NMS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dave Dorman
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 13842
     mtgo_id: 13841
     name: Nemesis
     number: 93
     rarity: uncommon
-    release_date: 2000-02-14
+    release_date: '2000-02-14'
+    tla: NMS
+    variations: []
     wizards_id: 21345
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=21345
+rarity: uncommon
 rules: "You may sacrifice two Mountains rather than pay Mogg Alarm's mana cost.\r\n\
   \r\nPut two 1/1 red Goblin creature tokens into play."
 slug: mogg-alarm
-tags: card-color-red card-color-red-cost-3 card-type-sorcery
+synonyms: []
 tapped_id: 5538
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goblin 1/1 R
-  power_toughness: 1/1
-  rules: ''
-  subtype: Goblin
-  tla: NEC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 153
+    - - cannonical_type
+      - Creature
+    - - name
+      - Goblin 1/1 R
 type: Sorcery
-url: http://tappedout.net/mtg-card/mogg-alarm/
+url: https://tappedout.net/mtg-card/mogg-alarm/
+

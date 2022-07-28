@@ -1,36 +1,41 @@
 activated_abilities:
 - 'Sacrifice a Goblin: Target player loses 1 life and you gain 1 life.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MH1
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.71
+draft_average: 3.27
 effective_cost:
 - B
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -38,22 +43,33 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 3B
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Sling-Gang Lieutenant
 power_toughness: 1/1
 printings:
 - MH1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Craig J Spearing
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Freshly promoted to "first rock," Zaz was eager to make an impact.*'
     frame: m15
     mtgo_foil_id: 72589
     mtgo_id: 72588
     name: Modern Horizons
     number: 108
     rarity: uncommon
-    release_date: 2019-06-14
+    release_date: '2019-06-14'
+    tla: MH1
+    variations: []
     wizards_id: 464057
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464057
 rules: "When Sling-Gang Lieutenant enters the battlefield, create two 1/1 red Goblin\
@@ -63,18 +79,24 @@ slug: sling-gang-lieutenant
 subtype: Goblin
 subtype_tokens:
 - Goblin
-tags: card-color-black card-color-black-cost-4 card-type-creature
+synonyms: []
 tapped_id: 21565
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goblin 1/1 R
-  power_toughness: 1/1
-  rules: ''
-  subtype: Goblin
-  tla: MH1
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 153
+    - - cannonical_type
+      - Creature
+    - - name
+      - Goblin 1/1 R
 type: Creature
-url: http://tappedout.net/mtg-card/sling-gang-lieutenant/
+url: https://tappedout.net/mtg-card/sling-gang-lieutenant/
+

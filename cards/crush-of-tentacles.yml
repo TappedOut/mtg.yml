@@ -1,77 +1,99 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: OGW
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.22
+draft_average: 1.75
 effective_cost:
 - U
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 - Surge
 mana_cost: 4UU
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Crush of Tentacles
 printings:
 - OGW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Jama Jurabaly
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 59514
     mtgo_id: 59513
     name: Oath of the Gatewatch
     number: 53
     rarity: mythic_rare
-    release_date: 2016-01-22
+    release_date: '2016-01-22'
+    tla: OGW
+    variations: []
     wizards_id: 407563
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407563
+rarity: mythic_rare
 rules: "Surge [[symbol:3]][[symbol:U]][[symbol:U]] *(You may cast this spell for its\
   \ surge cost if you or a teammate has cast another spell this turn.)*\r\n\r\nReturn\
   \ all nonland permanents to their owner's hands. If Crush of Tentacle's surge cost\
   \ was paid, put an 8/8 blue Octopus creature token onto the battlefield."
 slug: crush-of-tentacles
-tags: card-color-blue card-color-blue-cost-6 card-type-sorcery
+synonyms: []
 tapped_id: 17491
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Octopus 8/8 U
-  power_toughness: 8/8
-  rules: ''
-  subtype: Octopus
-  tla: BFZ
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 8/8
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 400
+    - - cannonical_type
+      - Creature
+    - - name
+      - Octopus 8/8 U
 type: Sorcery
-url: http://tappedout.net/mtg-card/crush-of-tentacles/
+url: https://tappedout.net/mtg-card/crush-of-tentacles/
+

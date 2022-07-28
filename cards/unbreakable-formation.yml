@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Instant
@@ -11,117 +13,175 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.11
+draft_average: 2.29
 effective_cost:
 - W
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
-is_permanent: false
 keywords:
 - Indestructible
 - Vigilance
 - Counters
 - Addendum
 mana_cost: 2W
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Unbreakable Formation
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 710
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567527
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567527
-- MIC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Midnight Hunt Commander'
-    number: 95
-    rarity: rare
-    release_date: 2021-09-25
-    wizards_id: 539356
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539356
-- CMR:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: Commander Legends
-    number: 388
-    rarity: rare
-    release_date: 2020-11-20
-    wizards_id: 500868
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=500868
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 310
-    rarity: rare
-    release_date: 2019-12-09
 - RNA:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Matt Stewart
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 71059
     mtgo_id: 71058
     name: Ravnica Allegiance
     number: 29
     rarity: rare
-    release_date: 2019-01-25
+    release_date: '2019-01-25'
+    tla: RNA
     variations:
-    - alterations:
-      - Foil
+    - identifier: Animated
+    - identifier: PromoPack
+    wizards_id: null
+    wizards_url: null
+- CMR:
+    alterations:
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: Animated
-    - alterations:
+    - !!python/tuple
+      - f
       - Foil
+    artist: Matt Stewart
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Legends
+    number: 388
+    rarity: rare
+    release_date: '2020-11-20'
+    tla: CMR
+    variations: []
+    wizards_id: 500868
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=500868
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: PromoPack
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Tyler Walpole
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 310
+    rarity: rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- MIC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Matt Stewart
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Midnight Hunt Commander'
+    number: 95
+    rarity: rare
+    release_date: '2021-09-25'
+    tla: MIC
+    variations: []
+    wizards_id: 539356
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539356
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Matt Stewart
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 710
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567527
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567527
 rules: "Creatures you control gain indestructible until end of turn.\r\n\r\n*Addendum*\
   \ &mdash; If you cast this spell during your main phase, put a +1/+1 counter on\
   \ each of those creatures and they gain vigilance until end of turn."
 slug: unbreakable-formation
-tags: card-color-white card-color-white-cost-3 card-type-instant
+synonyms: []
 tapped_id: 21089
+tokens: []
 type: Instant
-url: http://tappedout.net/mtg-card/unbreakable-formation/
+url: https://tappedout.net/mtg-card/unbreakable-formation/
+

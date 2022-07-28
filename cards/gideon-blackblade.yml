@@ -2,39 +2,44 @@ activated_abilities:
 - ': Up to one other target creature you control gains your choice of vigilance, lifelink,
   or indestructible until end of turn.'
 - ': Exile target nonland permanent.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: WAR
 cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.04
+draft_average: 1.71
 effective_cost:
 - W
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,56 +50,90 @@ keywords:
 - Exile
 - Counters
 mana_cost: 1WW
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Gideon Blackblade
+planeswalker_loyalty: 4
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: Secret Lair
-    number: 503
-    rarity: mythic_rare
-    release_date: 2019-12-09
 - WAR:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Viktor Titov
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 71633
     mtgo_id: 71632
     name: War of the Spark
     number: 13
     rarity: mythic_rare
-    release_date: 2019-05-03
+    release_date: '2019-05-03'
+    tla: WAR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 460940
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460940
 - WARMED:
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kieran Yanner
+    booster_exclude: false
     border_color: B
     cannonical: false
-    foil: foil
-    foil_only: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'War of the Spark: Mythic Edition'
     number: 2
     rarity: mythic_rare
-    release_date: 2019-05-02
+    release_date: '2019-05-02'
+    tla: WARMED
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kieran Yanner
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 503
+    rarity: mythic_rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "As long as it's your turn, Gideon Blackblade is a 4/4 Human Soldier creature\
   \ with indestructible that's still a planeswalker.\r\n\r\nPrevent all damage that\
   \ would be dealt to Gideon Blackblade during your turn.\r\n\r\n[[symbol:loyalty-plus1]]:\
@@ -105,7 +144,9 @@ slug: gideon-blackblade
 subtype: Gideon
 subtype_tokens:
 - Gideon
-tags: card-color-white card-color-white-cost-3 card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 21368
+tokens: []
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/gideon-blackblade/
+url: https://tappedout.net/mtg-card/gideon-blackblade/
+

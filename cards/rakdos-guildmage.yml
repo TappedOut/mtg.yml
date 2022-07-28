@@ -2,38 +2,42 @@ activated_abilities:
 - ', Discard a card: Target creature gets -2/-2 until end of turn.'
 - ': Create a 2/1 red Goblin creature token with haste. Exile it at the beginning
   of the next end step.'
-activation_costs:
+activated_costs:
 - B
 - R
 canadian_hl_score: 0
 cannonical_set: GK2
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.31
+draft_average: 4.57
 effective_cost:
 - B
 - R
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,56 +46,102 @@ keywords:
 - Exile
 - Tokens
 mana_cost: '{B/R}{B/R}'
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Rakdos Guildmage
 power_toughness: 2/2
 printings:
-- GK2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Ravnica Allegiance: Guild Kits'
-    number: 69
-    rarity: uncommon
-    release_date: 2019-02-15
-    wizards_id: 460615
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460615
-- ARC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    name: Archenemy
-    number: 92
-    rarity: uncommon
-    release_date: 2010-06-18
-    wizards_id: 220542
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220542
 - DIS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jeremy Jarvis
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 24064
     mtgo_id: 24063
     name: Dissension
+    number: null
     rarity: uncommon
-    release_date: 2006-05-05
+    release_date: '2006-05-05'
+    tla: DIS
+    variations: []
     wizards_id: 97108
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=97108
+- ARC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jeremy Jarvis
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Archenemy
+    number: 92
+    rarity: uncommon
+    release_date: '2010-06-18'
+    tla: ARC
+    variations: []
+    wizards_id: 220542
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220542
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jeremy Jarvis
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 3
     rarity: uncommon
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- GK2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jeremy Jarvis
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Ravnica Allegiance: Guild Kits'
+    number: 69
+    rarity: uncommon
+    release_date: '2019-02-15'
+    tla: GK2
+    variations: []
+    wizards_id: 460615
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460615
+rarity: uncommon
 rules: "*([[symbol:BR]] can be paid with either [[symbol:B]] or R]].) *\r\n\r\n[[symbol:3]][[symbol:B]],\
   \ Discard a card: Target creature gets -2/-2 until end of turn.\r\n\r\n[[symbol:3]][[symbol:R]]:\
   \ Create a 2/1 red Goblin creature token with haste. Exile it at the beginning of\
@@ -101,17 +151,24 @@ subtype: Zombie Shaman
 subtype_tokens:
 - Zombie
 - Shaman
-tags: card-color-black card-color-gold card-color-gold-cost-2 card-color-red card-type-creature
+synonyms: []
 tapped_id: 1639
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 2/1 R Token Creature Goblin
-  power_toughness: 2/1
-  rules: Haste
-  subtype: Goblin
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 2/1
+    - - rules
+      - Haste
+    - - type
+      - Token Creature
+    - - subtype
+      - 153
+    - - cannonical_type
+      - Creature
+    - - name
+      - null
 type: Creature
-url: http://tappedout.net/mtg-card/rakdos-guildmage/
+url: https://tappedout.net/mtg-card/rakdos-guildmage/
+

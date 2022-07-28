@@ -1,32 +1,37 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: FRF
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 11.12
+draft_average: 5.58
 effective_cost:
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -35,42 +40,61 @@ keywords:
 - Attach
 - Manifest
 mana_cost: 2RR
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Rageform
 printings:
 - FRF:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Richard Wright
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 55399
     mtgo_id: 55398
     name: Fate Reforged
     number: 112
     rarity: uncommon
-    release_date: 2015-01-23
+    release_date: '2015-01-23'
+    tla: FRF
+    variations: []
     wizards_id: 391899
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=391899
+rarity: uncommon
 rules: "When Rageform enters the battlefield, it becomes an Aura with enchant creature.\
   \ Manifest the top cad of your library and attach Rageform to it. *(To manifest\
   \ a card, put it onto the battlefield face down as a 2/2 creature. Turn it face\
   \ up at any time for its mana cost if it's a creature card.)*\r\n\r\nEnchanted creature\
   \ has double strike. *(It deals both first-strike and regular combat damage.)*"
 slug: rageform
-tags: card-color-red card-color-red-cost-4 card-type-enchantment
+synonyms: []
 tapped_id: 16113
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Manifest 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down manifested creature with this reminder card.\r\
-    \n\r\nA manifested creature card can be turned face up at any time for its mana\
-    \ cost. A face-down card can also be turned face up for its morph cost."
-  tla: FRF
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down manifested creature with this reminder card.\r\
+        \n\r\nA manifested creature card can be turned face up at any time for its\
+        \ mana cost. A face-down card can also be turned face up for its morph cost."
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Manifest 2/2 C
 type: Enchantment
-url: http://tappedout.net/mtg-card/rageform/
+url: https://tappedout.net/mtg-card/rageform/
+

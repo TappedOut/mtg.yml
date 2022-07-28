@@ -4,12 +4,14 @@ activated_abilities:
 - ': Niko Aris deals 2 damage to target tapped creature for each card you''ve drawn
   this turn.'
 - ': Create a Shard token.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: KHM
 cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -18,30 +20,31 @@ companions:
 effective_cost:
 - W
 - U
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -51,31 +54,44 @@ keywords:
 - Counters
 - Tokens
 mana_cost: XWUU
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Niko Aris
+planeswalker_loyalty: 3
 printings:
 - KHM:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Winona Nelson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Kaldheim
     number: 225
     rarity: mythic_rare
-    release_date: 2021-02-05
+    release_date: '2021-02-05'
+    tla: KHM
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '289'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '289'
+    - identifier: PromoPack
     wizards_id: 503841
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503841
 rules: "When Niko Aris enters the battlefield, create X Shard tokens. *(They're enchantment\
@@ -88,19 +104,24 @@ slug: niko-aris
 subtype: Niko
 subtype_tokens:
 - Niko
-tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-white card-type-legendary
-  card-type-planeswalker
+synonyms: []
 tapped_id: 23712
 tokens:
-- cannonical_type: Enchantment
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Shard
-  power_toughness: null
-  rules: '[[symbol:2]], Sacrifice this: Scry 1, then draw a card.'
-  subtype: Shard
-  tla: KHM
-  type: Token Enchantment
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], Sacrifice this: Scry 1, then draw a card.'
+    - - type
+      - Token Enchantment
+    - - subtype
+      - 1587
+    - - cannonical_type
+      - Enchantment
+    - - name
+      - Shard
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/niko-aris/
+url: https://tappedout.net/mtg-card/niko-aris/
+

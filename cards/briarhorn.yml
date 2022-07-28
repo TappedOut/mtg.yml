@@ -1,37 +1,41 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: DDR
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.39
+draft_average: 2.75
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Vintage
-has_activated_abilities: false
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -39,64 +43,120 @@ keywords:
 - Sacrifice
 - Evoke
 mana_cost: 3G
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Briarhorn
 power_toughness: 3/3
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: uncommon
-    release_date: 2020-03-14
-- DDR:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Duel Decks: Nissa vs. Ob Nixilis'
-    number: 3
-    rarity: uncommon
-    release_date: 2016-09-02
-    wizards_id: 417426
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417426
-- DDH:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 42062
-    name: 'Duel Decks: Ajani vs. Nicol Bolas'
-    rarity: common
-    release_date: 2011-09-02
-    wizards_id: 249383
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=249383
-- HOP:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    name: Planechase
-    rarity: uncommon
-    release_date: 2009-09-04
-    wizards_id: 205393
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=205393
 - LRW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Nils Hamm
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 28548
     mtgo_id: 28547
     name: Lorwyn
+    number: null
     rarity: uncommon
-    release_date: 2007-10-12
+    release_date: '2007-10-12'
+    tla: LRW
+    variations: []
     wizards_id: 142365
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=142365
+- DDH:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Nils Hamm
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 42062
+    name: 'Duel Decks: Ajani vs. Nicol Bolas'
+    number: null
+    rarity: common
+    release_date: '2011-09-02'
+    tla: DDH
+    variations: []
+    wizards_id: 249383
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=249383
+- HOP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Nils Hamm
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Planechase
+    number: null
+    rarity: uncommon
+    release_date: '2009-09-04'
+    tla: HOP
+    variations: []
+    wizards_id: 205393
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=205393
+- DDR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Nils Hamm
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Nissa vs. Ob Nixilis'
+    number: 3
+    rarity: uncommon
+    release_date: '2016-09-02'
+    tla: DDR
+    variations: []
+    wizards_id: 417426
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417426
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Nils Hamm
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: uncommon
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: common
 rules: "Flash\r\n\r\nWhen Briarhorn enters the battlefield, target creature gets +3/+3\
   \ until end of turn.\r\n\r\nEvoke [[symbol:1]][[symbol:G]] *(You may cast this spell\
   \ for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)*"
@@ -104,7 +164,9 @@ slug: briarhorn
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-color-green card-color-green-cost-4 card-type-creature
+synonyms: []
 tapped_id: 179
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/briarhorn/
+url: https://tappedout.net/mtg-card/briarhorn/
+

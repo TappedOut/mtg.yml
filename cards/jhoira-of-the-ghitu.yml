@@ -3,36 +3,41 @@ activated_abilities:
   If it doesn''t have suspend, it gains suspend. *(At the beginning of your upkeep,
   remove a time counter from that card. When the last is removed, cast it without
   paying its mana cost. If it''s a creature, it has haste.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DDS
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.47
+draft_average: 5.07
 effective_cost:
 - U
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,62 +47,105 @@ keywords:
 - Suspend
 - Counters
 mana_cost: 1UR
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Jhoira of the Ghitu
 power_toughness: 2/2
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 256
-    rarity: rare
-    release_date: 2021-03-19
-    wizards_id: 509621
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509621
-- DDS:
-    alterations:
-    - Foil
-    border_color: B
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: 'Duel Decks: Mind vs. Might'
-    number: 1
-    rarity: mythic_rare
-    release_date: 2017-03-31
-    wizards_id: 426573
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426573
-- MMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 48665
-    mtgo_id: 48664
-    name: Modern Masters
-    rarity: rare
-    release_date: 2013-06-07
-    wizards_id: 370548
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370548
 - FUT:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kev Walker
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 26879
     mtgo_id: 26878
     name: Future Sight
+    number: null
     rarity: rare
-    release_date: 2007-05-04
+    release_date: '2007-05-04'
+    tla: FUT
+    variations: []
     wizards_id: 136194
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=136194
+- MMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kev Walker
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 48665
+    mtgo_id: 48664
+    name: Modern Masters
+    number: null
+    rarity: rare
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
+    wizards_id: 370548
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370548
+- DDS:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Magali Villenueve
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Mind vs. Might'
+    number: 1
+    rarity: mythic_rare
+    release_date: '2017-03-31'
+    tla: DDS
+    variations: []
+    wizards_id: 426573
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426573
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kev Walker
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 256
+    rarity: rare
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509621
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509621
+rarity: rare
 rules: '[[symbol:2]], Exile a nonland card from your hand: Put four time counters
   on the exiled card. If it doesn''t have suspend, it gains suspend. *(At the beginning
   of your upkeep, remove a time counter from that card. When the last is removed,
@@ -107,8 +155,9 @@ subtype: Human Wizard
 subtype_tokens:
 - Human
 - Wizard
-tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-red card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 695
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/jhoira-of-the-ghitu/
+url: https://tappedout.net/mtg-card/jhoira-of-the-ghitu/
+

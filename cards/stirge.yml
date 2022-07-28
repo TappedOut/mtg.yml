@@ -1,12 +1,13 @@
 activated_abilities:
 - '*Blood Drain* &mdash; , Pay 1 life, Sacrifice Stirge: Draw a card.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -15,27 +16,28 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 1
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Penny Dreadful
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Pauper
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Historic
+- Gladiator
+- Alchemy
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,20 +45,33 @@ keywords:
 - Flying
 - Sacrifice
 mana_cost: B
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Stirge
 power_toughness: 1/1
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jamroz Gary
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"I will never complain about mosquitoes again.\"\r\n<br>&mdash;Imoen*"
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 150
     rarity: common
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
     wizards_id: 563033
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563033
 rules: "Flying\r\n\r\nStirge can't block.\r\n\r\n*Blood Drain* &mdash; [[symbol:1]][[symbol:B]],\
@@ -66,7 +81,9 @@ subtype: Insect Bat
 subtype_tokens:
 - Insect
 - Bat
-tags: card-color-black card-color-black-cost-1 card-type-creature
+synonyms: []
 tapped_id: 26553
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/stirge/
+url: https://tappedout.net/mtg-card/stirge/
+

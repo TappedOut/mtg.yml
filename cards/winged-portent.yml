@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 - U
 canadian_hl_score: 0
@@ -15,73 +16,100 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
-is_permanent: false
 keywords:
 - Cleave
 mana_cost: 1UU
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Winged Portent
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 356
-    rarity: rare
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Nicholas Gregory
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"No, no it's just a murder of crows, not an omen of murder ...\
+      \ I think.\"\r\n<br>&mdash;York, Kessig tracker*"
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 89
     rarity: rare
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '365'
+    - identifier: '365'
     wizards_id: 540933
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=540933
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Nicholas Gregory
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*\"No, no it's just a murder of crows, not an omen of murder ...\
+      \ I think.\"\r\n<br>&mdash;York, Kessig tracker*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 356
+    rarity: rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Cleave [[symbol:4]][[symbol:G]][[symbol:U]] *(You may cast this for this card's\
   \ cleave cost. If you do, remove the words in the square brackets from this spell's\
   \ rules text.)*\r\n\r\nDraw a card for each creature [with flying] you control."
 slug: winged-portent
-tags: card-color-blue card-color-blue-cost-3 card-type-instant
+synonyms: []
 tapped_id: 25554
+tokens: []
 type: Instant
-url: http://tappedout.net/mtg-card/winged-portent/
+url: https://tappedout.net/mtg-card/winged-portent/
+

@@ -1,66 +1,93 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMD
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 3.67
+draft_average: 4.58
 effective_cost:
 - R
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Trample
 - Sacrifice
 mana_cost: 5R
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Rapacious One
 power_toughness: 5/4
 printings:
-- CMD:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 40598
-    name: 'MTG: Commander'
-    number: 133
-    rarity: uncommon
-    release_date: 2011-06-17
-    wizards_id: 247399
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247399
 - ROE:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason A. Engle
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 36755
     mtgo_id: 36754
     name: Rise of the Eldrazi
+    number: null
     rarity: uncommon
-    release_date: 2010-04-23
+    release_date: '2010-04-23'
+    tla: ROE
+    variations: []
     wizards_id: 198181
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=198181
+- CMD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jason A. Engle
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 40598
+    name: 'MTG: Commander'
+    number: 133
+    rarity: uncommon
+    release_date: '2011-06-17'
+    tla: CMD
+    variations: []
+    wizards_id: 247399
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247399
+rarity: uncommon
 rules: "Trample\r\n\r\nWhenever Rapacious One deals combat damage to a player, put\
   \ that many 0/1 colorless Eldrazi Spawn creature tokens onto the battlefield. They\
   \ have \"Sacrifice this creature: Add {{1}} to your mana pool.\""
@@ -69,18 +96,24 @@ subtype: Eldrazi Drone
 subtype_tokens:
 - Eldrazi
 - Drone
-tags: card-color-red card-color-red-cost-6 card-type-creature
+synonyms: []
 tapped_id: 12264
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Eldrazi Spawn 0/1 C
-  power_toughness: 0/1
-  rules: 'Sacrifice this: Add [[symbol:C]].'
-  subtype: Eldrazi Spawn
-  tla: NCC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 0/1
+    - - rules
+      - 'Sacrifice this: Add [[symbol:C]].'
+    - - type
+      - Token Creature
+    - - subtype
+      - 894
+    - - cannonical_type
+      - Creature
+    - - name
+      - Eldrazi Spawn 0/1 C
 type: Creature
-url: http://tappedout.net/mtg-card/rapacious-one/
+url: https://tappedout.net/mtg-card/rapacious-one/
+

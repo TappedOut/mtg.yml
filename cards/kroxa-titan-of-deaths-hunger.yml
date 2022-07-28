@@ -1,40 +1,44 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 - R
 canadian_hl_score: 0
 cannonical_set: THB
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 8.08
+draft_average: 2.68
 effective_cost:
 - B
 - R
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -42,47 +46,70 @@ keywords:
 - Sacrifice
 - Escape
 mana_cost: BR
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Kroxa, Titan of Death's Hunger
 power_toughness: 6/6
 printings:
 - THB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Vincent Proce
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 79567
     mtgo_id: 79566
     name: Theros Beyond Death
     number: 221
     rarity: mythic_rare
-    release_date: 2020-01-24
+    release_date: '2020-01-24'
+    tla: THB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '340'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '340'
+    - identifier: PromoPack
     wizards_id: 476472
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476472
 - SLD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: DZO
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Secret Lair
     number: 225
     rarity: mythic_rare
-    release_date: 2019-12-09
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "When Kroxa enters the battlefield, sacrifice it unless it escaped.\r\n\r\n\
   Whenever Kroxa enters the battlefield or attacks, each opponent discards a card,\
   \ then each opponent who didn't discard a nonland card this way loses 3 life.\r\n\
@@ -94,8 +121,9 @@ subtype: Elder Giant
 subtype_tokens:
 - Elder
 - Giant
-tags: card-color-black card-color-gold card-color-gold-cost-2 card-color-red card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 22462
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/kroxa-titan-of-deaths-hunger/
+url: https://tappedout.net/mtg-card/kroxa-titan-of-deaths-hunger/
+

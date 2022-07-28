@@ -1,103 +1,163 @@
 activated_abilities:
 - '(4), Tap: Put a 1/1 Snake artifact creature token into play. This creature has  <i>(A
   player with ten or more poison counters loses the game.)'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: 5ED
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 6
+cube_average: 5.0
+draft_average: 8.0
+effective_cost: []
 formats:
 - 1v1 Commander
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Oldschool 93/94
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Oldschool 93/94
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Premodern
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: '6'
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Serpent Generator
+power_toughness: ''
 printings:
 - MED:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Tedin
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 27932
     mtgo_id: 27931
     name: Masters Edition
+    number: null
     rarity: common
-    release_date: 2007-09-10
+    release_date: '2007-09-10'
+    tla: MED
+    variations: []
     wizards_id: 159826
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=159826
 - 5ED:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mark Tedin
+    booster_exclude: false
     border_color: W
+    cannonical: true
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Fifth Edition
+    number: null
     rarity: rare
-    release_date: 1997-03-24
+    release_date: '1997-03-24'
+    tla: 5ED
+    variations: []
     wizards_id: 3809
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3809
-- CHR:
-    alterations:
-    - Normal
-    border_color: W
-    frame: original
-    name: Chronicles
-    rarity: rare
-    release_date: 1995-06-01
-    wizards_id: 2792
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=2792
 - LEG:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mark Tedin
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Legends
+    number: null
     rarity: rare
-    release_date: 1994-06-01
+    release_date: '1994-06-01'
+    tla: LEG
+    variations: []
     wizards_id: 1422
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=1422
+- CHR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mark Tedin
+    booster_exclude: false
+    border_color: W
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Chronicles
+    number: null
+    rarity: rare
+    release_date: '1995-06-01'
+    tla: CHR
+    variations: []
+    wizards_id: 2792
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=2792
+rarity: rare
 rules: '(4), Tap: Put a 1/1 Snake artifact creature token into play. This creature
   has "Whenever this creature deals damage to a player, that player gets a poison
   counter." <i>(A player with ten or more poison counters loses the game.)'
 slug: serpent-generator
-tags: card-color-colorless card-color-colorless-cost-6 card-type-artifact
+synonyms: []
 tapped_id: 586
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 1/1 C Token Artifact Creature Snake
-  power_toughness: 1/1
-  rules: Whenever this creature deals damage to a player, that player gets a poison
-    counter.
-  subtype: Snake
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Whenever this creature deals damage to a player, that player gets a poison
+        counter.
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 63
+    - - cannonical_type
+      - Creature
+    - - name
+      - null
 type: Artifact
-url: http://tappedout.net/mtg-card/serpent-generator/
+url: https://tappedout.net/mtg-card/serpent-generator/
+

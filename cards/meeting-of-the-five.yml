@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 - G
 - R
@@ -8,12 +9,12 @@ canadian_hl_score: 0
 cannonical_set: SNC
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
@@ -23,67 +24,82 @@ effective_cost:
 - B
 - R
 - G
-flat_cost: 8
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Penny Dreadful
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 mana_cost: 3WUBRG
-mana_cost_converted: 8
 mana_produced: WWUUBBRRGG
+mana_value: 8
+melds_from: []
 name: Meeting of the Five
 printings:
 - SNC:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Dominik Mayer
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*For years, the five families ruled New Capenna in uneasy peace,
+      and the city prospered.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Streets of New Capenna
     number: 202
     rarity: mythic_rare
-    release_date: 2022-04-29
+    release_date: '2022-04-29'
+    tla: SNC
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '436'
+    - identifier: '436'
     wizards_id: 555403
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=555403
 rules: Exile the top ten cards of your library. You may cast spells with exactly three
   colours from among them this turn. Add [[symbol:W]][[symbol:W]][[symbol:U]][[symbol:U]][[symbol:B]][[symbol:B]][[symbol:R]][[symbol:R]][[symbol:G]][[symbol:G]].
   Spend this mana only to cast spells with exactly three colours.
 slug: meeting-of-the-five
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-8 card-color-green
-  card-color-red card-color-white card-mana-black card-mana-blue card-mana-green card-mana-red
-  card-mana-white card-type-sorcery
+synonyms: []
 tapped_id: 26318
+tokens: []
 type: Sorcery
-url: http://tappedout.net/mtg-card/meeting-of-the-five/
+url: https://tappedout.net/mtg-card/meeting-of-the-five/
+

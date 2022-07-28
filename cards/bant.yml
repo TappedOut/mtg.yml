@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: HOP
@@ -11,56 +12,77 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+effective_cost: []
 formats:
 - 1v1 Commander
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Pauper
+- Casual
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Indestructible
 - Counterspell
 - Exalted
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Bant
 printings:
-- PCA:
-    alterations:
-    - Oversized
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Planechase Anthology
-    number: 15
-    rarity: common
-    release_date: 2016-11-25
-    wizards_id: 423596
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423596
 - HOP:
     alterations:
-    - Oversized
+    - !!python/tuple
+      - oversized
+      - Oversized
+    artist: Michael Komarck
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Planechase
     number: 4
     rarity: common
-    release_date: 2009-09-04
+    release_date: '2009-09-04'
+    tla: HOP
+    variations: []
     wizards_id: 198099
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=198099
+- PCA:
+    alterations:
+    - !!python/tuple
+      - oversized
+      - Oversized
+    artist: Michael Komarck
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Planechase Anthology
+    number: 15
+    rarity: common
+    release_date: '2016-11-25'
+    tla: PCA
+    variations: []
+    wizards_id: 423596
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423596
+rarity: common
 rules: "All creatures have exalted. *(Whenever a creature attacks alone, it gets +1/+1\
   \ until end of turn for each instance of exalted among permanents its controller\
   \ controls.)*\r\n\r\nWhenever you roll {{C}}, put a divinity counter on target green,\
@@ -70,7 +92,9 @@ slug: bant
 subtype: Alara
 subtype_tokens:
 - Alara
-tags: card-color-colorless card-color-colorless-cost-0 card-type-plane
+synonyms: []
 tapped_id: 12676
+tokens: []
 type: Plane
-url: http://tappedout.net/mtg-card/bant/
+url: https://tappedout.net/mtg-card/bant/
+

@@ -2,40 +2,44 @@ activated_abilities:
 - ': Regenerate enchanted creature. *(The next time this creature would be destroyed
   this turn, this creature isn''t destroyed. Instead tap this, remove all damage from
   this, and remove this creature from combat.)*'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: RAV
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.0
+draft_average: 6.47
 effective_cost:
 - B
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Vintage
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,36 +48,61 @@ keywords:
 - Attach
 - Regenerate
 mana_cost: 3B
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Strands of Undeath
 printings:
-- 2X2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Double Masters 2022
-    number: 92
-    rarity: common
-    release_date: 2022-07-08
-    wizards_id: 571425
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571425
 - RAV:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dave Allsop
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"Why limit yourself to mortal law when you can outlive those who
+      enforce it?"Czaric, Orzhov prelate'
     frame: modern
     mtgo_foil_id: 23091
     mtgo_id: 23090
     name: 'Ravnica: City of Guilds'
     number: 108
     rarity: common
-    release_date: 2005-10-07
+    release_date: '2005-10-07'
+    tla: RAV
+    variations: []
     wizards_id: 83819
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=83819
+- 2X2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dave Allsop
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*\"Why limit yourself to mortal law when you can outlive those\
+      \ who enforce it?\"\r\n<br>&mdash;Czaric, Orzhov prelate*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters 2022
+    number: 92
+    rarity: common
+    release_date: '2022-07-08'
+    tla: 2X2
+    variations: []
+    wizards_id: 571425
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571425
+rarity: common
 rules: "Enchant creature\r\n\r\nWhen Strands of Undeath enters the battlefield, target\
   \ player discards two cards.\r\n\r\n[[symbol:B]]: Regenerate enchanted creature.\
   \ *(The next time this creature would be destroyed this turn, this creature isn't\
@@ -83,7 +112,9 @@ slug: strands-of-undeath
 subtype: Aura
 subtype_tokens:
 - Aura
-tags: card-color-black card-color-black-cost-4 card-type-enchantment
+synonyms: []
 tapped_id: 2106
+tokens: []
 type: Enchantment
-url: http://tappedout.net/mtg-card/strands-of-undeath/
+url: https://tappedout.net/mtg-card/strands-of-undeath/
+

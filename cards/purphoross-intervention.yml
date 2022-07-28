@@ -1,91 +1,111 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: THB
 cannonical_type: Sorcery
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.84
+draft_average: 2.81
 effective_cost:
 - R
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Haste
 - Trample
 - Sacrifice
 - Tokens
 mana_cost: XR
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Purphoros's Intervention
 printings:
 - THB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Aleksi Briclot
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"I bring a fire to recast all the world."*'
     frame: m15
     mtgo_foil_id: 79427
     mtgo_id: 79426
     name: Theros Beyond Death
     number: 151
     rarity: rare
-    release_date: 2020-01-24
+    release_date: '2020-01-24'
+    tla: THB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '320'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '320'
+    - identifier: PromoPack
     wizards_id: 476402
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476402
 rules: "Choose one &mdash;\r\n\r\n- Create an X/1 red Elemental creature token with\
   \ trample and haste. Sacrifice it at the beginning of the next end step.\r\n- Purphoros's\
   \ Intervention deals twice X damage to target creature or planeswalker."
 slug: purphoross-intervention
-tags: card-color-red card-color-red-cost-1 card-type-sorcery
+synonyms: []
 tapped_id: 22431
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elemental X/1 R
-  power_toughness: X/1
-  rules: Trample, haste
-  subtype: Elemental
-  tla: THB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - X/1
+    - - rules
+      - Trample, haste
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elemental X/1 R
 type: Sorcery
-url: http://tappedout.net/mtg-card/purphoross-intervention/
+url: https://tappedout.net/mtg-card/purphoross-intervention/
+

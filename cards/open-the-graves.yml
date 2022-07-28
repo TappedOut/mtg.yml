@@ -1,91 +1,127 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MIC
 cannonical_type: Enchantment
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 5.25
+draft_average: 4.56
 effective_cost:
 - B
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: 3BB
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Open the Graves
 printings:
-- MIC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Midnight Hunt Commander'
-    number: 126
-    rarity: rare
-    release_date: 2021-09-25
-    wizards_id: 539387
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539387
 - M19:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Vincent Proce
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*It was a night like any other. It would soon become a night no
+      one would ever forget.*'
     frame: m15
     mtgo_foil_id: 68386
     mtgo_id: 68385
     name: Core Set 2019
     number: 112
     rarity: rare
-    release_date: 2018-07-13
+    release_date: '2018-07-13'
+    tla: M19
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 447248
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447248
+- MIC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Vincent Proce
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*It was a night like any other. It would soon become a night no
+      one would ever forget.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Midnight Hunt Commander'
+    number: 126
+    rarity: rare
+    release_date: '2021-09-25'
+    tla: MIC
+    variations: []
+    wizards_id: 539387
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539387
 rules: Whenever a nontoken creature you control dies *(is put into the graveyard from
   the battlefield)*, create a 2/2 black Zombie creature token.
 slug: open-the-graves
-tags: card-color-black card-color-black-cost-5 card-type-enchantment
+synonyms: []
 tapped_id: 20534
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: MIC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Enchantment
-url: http://tappedout.net/mtg-card/open-the-graves/
+url: https://tappedout.net/mtg-card/open-the-graves/
+

@@ -1,35 +1,40 @@
 activated_abilities:
 - 'Sacrifice three white creatures: Exile target creature.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: GK2
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.47
+draft_average: 2.44
 effective_cost:
 - W
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -38,36 +43,61 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 1WB
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Teysa, Orzhov Scion
 power_toughness: 2/3
 printings:
-- GK2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Ravnica Allegiance: Guild Kits'
-    number: 26
-    rarity: rare
-    release_date: 2019-02-15
-    wizards_id: 460454
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460454
 - GPT:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Todd Lockwood
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 23936
     mtgo_id: 23935
     name: Guildpact
     number: 134
     rarity: rare
-    release_date: 2006-02-03
+    release_date: '2006-02-03'
+    tla: GPT
+    variations: []
     wizards_id: 83546
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=83546
+- GK2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sara Winters
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*"Spend your life betraying me if you wish. I''ll simply take it
+      up with your ghost."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Ravnica Allegiance: Guild Kits'
+    number: 26
+    rarity: rare
+    release_date: '2019-02-15'
+    tla: GK2
+    variations: []
+    wizards_id: 460454
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460454
+rarity: rare
 rules: "Sacrifice three white creatures: Exile target creature.\r\n\r\nWhenever another\
   \ black creature you control dies, create a 1/1 white Spirit creature token with\
   \ flying."
@@ -76,19 +106,24 @@ subtype: Human Advisor
 subtype_tokens:
 - Human
 - Advisor
-tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-white card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 1853
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spirit 1/1 W
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Spirit
-  tla: 2X2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 17
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spirit 1/1 W
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/teysa-orzhov-scion/
+url: https://tappedout.net/mtg-card/teysa-orzhov-scion/
+

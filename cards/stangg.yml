@@ -1,92 +1,139 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CHR
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 13.0
+draft_average: 3.22
 effective_cost:
 - R
 - G
-flat_cost: 6
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Oldschool 93/94
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Oldschool 93/94
-- Premodern
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
 - Sacrifice
 mana_cost: 4RG
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Stangg
 power_toughness: 3/4
 printings:
-- A25:
+- CHR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mark Poole
+    booster_exclude: false
+    border_color: W
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Chronicles
+    number: null
+    rarity: rare
+    release_date: '1995-06-01'
+    tla: CHR
+    variations: []
+    wizards_id: 2881
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=2881
+- LEG:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mark Poole
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    mtgo_foil_id: 67351
-    mtgo_id: 67350
-    name: Masters 25
-    number: 218
-    rarity: uncommon
-    release_date: 2018-03-16
-    wizards_id: 442207
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442207
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Legends
+    number: null
+    rarity: rare
+    release_date: '1994-06-01'
+    tla: LEG
+    variations: []
+    wizards_id: 1686
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=1686
 - ME3:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Poole
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: modern
     mtgo_foil_id: 33601
     mtgo_id: 33600
     name: Masters Edition III
     number: 177
     rarity: uncommon
-    release_date: 2009-09-07
+    release_date: '2009-09-07'
+    tla: ME3
+    variations: []
     wizards_id: 201231
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=201231
-- CHR:
+- A25:
     alterations:
-    - Normal
-    border_color: W
-    frame: original
-    name: Chronicles
-    rarity: rare
-    release_date: 1995-06-01
-    wizards_id: 2881
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=2881
-- LEG:
-    alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Izzy
+    booster_exclude: false
     border_color: B
-    frame: original
-    name: Legends
-    rarity: rare
-    release_date: 1994-06-01
-    wizards_id: 1686
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=1686
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: 67351
+    mtgo_id: 67350
+    name: Masters 25
+    number: 218
+    rarity: uncommon
+    release_date: '2018-03-16'
+    tla: A25
+    variations: []
+    wizards_id: 442207
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442207
+rarity: rare
 rules: When Stangg enters the battlefield, put a legendary 3/4 red and green Human
   Warrior creature token named Stangg Twin onto the battlefield. When Stangg leaves
   the battlefield, exile that token. When that token leaves the battlefield, sacrifice
@@ -96,19 +143,24 @@ subtype: Human Warrior
 subtype_tokens:
 - Human
 - Warrior
-tags: card-color-gold card-color-gold-cost-6 card-color-green card-color-red card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 8630
 tokens:
-- cannonical_type: Creature
-  colors: RG
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Stangg Twin
-  power_toughness: 3/4
-  rules: ''
-  subtype: Human Warrior
-  tla: A25
-  type: Token Legendary Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - RG
+    - - power_toughness
+      - 3/4
+    - - rules
+      - ''
+    - - type
+      - Token Legendary Creature
+    - - subtype
+      - 149
+    - - cannonical_type
+      - Creature
+    - - name
+      - Stangg Twin
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/stangg/
+url: https://tappedout.net/mtg-card/stangg/
+

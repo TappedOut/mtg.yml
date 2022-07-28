@@ -1,39 +1,43 @@
 activated_abilities:
 - ', Discard two cards: Return this from your graveyard to the battlefield tapped.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: EMN
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.16
+draft_average: 3.51
 effective_cost:
 - B
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,33 +45,57 @@ keywords:
 - Flying
 - Tokens
 mana_cost: 3B
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Haunted Dead
 power_toughness: 2/2
 printings:
-- J21:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Jumpstart: Historic Horizons'
-    rarity: uncommon
-    release_date: 2021-08-12
 - EMN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lake Hurwitz
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 61151
     mtgo_id: 61150
     name: Eldritch Moon
     number: 92
     rarity: uncommon
-    release_date: 2016-07-22
+    release_date: '2016-07-22'
+    tla: EMN
+    variations: []
     wizards_id: 414387
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414387
+- J21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Lake Hurwitz
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Jumpstart: Historic Horizons'
+    number: null
+    rarity: uncommon
+    release_date: '2021-08-12'
+    tla: J21
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: uncommon
 rules: "When this enters the battlefield, create a 1/1 white Spirit creature token\
   \ with flying.\r\n\r\n[[symbol:1]][[symbol:B]], Discard two cards: Return this from\
   \ your graveyard to the battlefield tapped."
@@ -75,18 +103,24 @@ slug: haunted-dead
 subtype: Zombie
 subtype_tokens:
 - Zombie
-tags: card-color-black card-color-black-cost-4 card-type-creature
+synonyms: []
 tapped_id: 18114
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spirit 1/1 W
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Spirit
-  tla: 2X2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 17
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spirit 1/1 W
 type: Creature
-url: http://tappedout.net/mtg-card/haunted-dead/
+url: https://tappedout.net/mtg-card/haunted-dead/
+

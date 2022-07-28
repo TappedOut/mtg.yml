@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Sorcery
@@ -13,45 +15,57 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Sacrifice
 - Tokens
 mana_cost: 4R
-mana_cost_converted: 5
 mana_produced: WWW, UUU, BBB, RRR, GGG
+mana_value: 5
+melds_from: []
 name: Inspired Tinkering
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Craig J Spearing
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"What do you mean ''Does it work?'' What an insulting question."*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 183
     rarity: uncommon
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
     wizards_id: 563066
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563066
 rules: "Exile the top three cards of your library. Until the end of your next turn,\
@@ -59,19 +73,24 @@ rules: "Exile the top three cards of your library. Until the end of your next tu
   \ artifacts with \"[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.\"\
   )*"
 slug: inspired-tinkering
-tags: card-color-red card-color-red-cost-5 card-mana-black card-mana-blue card-mana-green
-  card-mana-red card-mana-white card-type-sorcery
+synonyms: []
 tapped_id: 26687
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: CLB
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Sorcery
-url: http://tappedout.net/mtg-card/inspired-tinkering/
+url: https://tappedout.net/mtg-card/inspired-tinkering/
+

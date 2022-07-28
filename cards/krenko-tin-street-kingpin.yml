@@ -1,99 +1,136 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: WAR
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 5.54
+draft_average: 2.75
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
 - Tokens
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Krenko, Tin Street Kingpin
 power_toughness: 1/2
 printings:
-- NEC:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Kamigawa: Neon Dynasty Commander'
-    number: 107
-    rarity: rare
-    release_date: 2022-02-11
-    wizards_id: 554190
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554190
 - WAR:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    - !!python/tuple
+      - list
+      - The List
+    artist: Mark Behm
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"After the people flee, but before the enemy arrives&mdash;that''s
+      goblin'' time."*'
     frame: m15
     mtgo_foil_id: 71881
     mtgo_id: 71880
     name: War of the Spark
     number: 137
     rarity: rare
-    release_date: 2019-05-03
+    release_date: '2019-05-03'
+    tla: WAR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 461064
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461064
+- NEC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mark Behm
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"After the people flee, but before the enemy arrives&mdash;that''s
+      goblin'' time."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kamigawa: Neon Dynasty Commander'
+    number: 107
+    rarity: rare
+    release_date: '2022-02-11'
+    tla: NEC
+    variations: []
+    wizards_id: 554190
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554190
 rules: Whenever this attacks, put a +1/+1 counter on this creature, then create a
   number of 1/1 red Goblin creature tokens equal to this creature's power.
 slug: krenko-tin-street-kingpin
 subtype: Goblin
 subtype_tokens:
 - Goblin
-tags: card-color-red card-color-red-cost-3 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 21308
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goblin 1/1 R
-  power_toughness: 1/1
-  rules: ''
-  subtype: Goblin
-  tla: WAR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 153
+    - - cannonical_type
+      - Creature
+    - - name
+      - Goblin 1/1 R
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/krenko-tin-street-kingpin/
+url: https://tappedout.net/mtg-card/krenko-tin-street-kingpin/
+

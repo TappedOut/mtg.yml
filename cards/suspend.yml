@@ -1,9 +1,12 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MH2
 cannonical_type: Instant
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -12,59 +15,69 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Haste
 - Exile
 - Suspend
 - Counters
 mana_cost: U
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Suspend
 printings:
 - MH2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lake Hurwitz
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Time moves in mysterious ways.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Modern Horizons 2
     number: 68
     rarity: rare
-    release_date: 2021-06-18
+    release_date: '2021-06-18'
+    tla: MH2
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '448'
+    - identifier: '448'
     wizards_id: 522144
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522144
 rules: Exile target creature and put two time counters on it. If it doesn't have suspend,
   it gains suspend. *(At the beginning of its owner's upkeep, they remove a time counter.
   When the last is removed, they cast it without paying its mana cost. It has haste.)*
 slug: suspend
-tags: card-color-blue card-color-blue-cost-1 card-type-instant
+synonyms: []
 tapped_id: 24476
+tokens: []
 type: Instant
-url: http://tappedout.net/mtg-card/suspend/
+url: https://tappedout.net/mtg-card/suspend/
+

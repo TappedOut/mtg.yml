@@ -3,7 +3,7 @@ activated_abilities:
   gains . Activate this ability only as a sorcery. *(Perpetual effects that are given
   to cards are permanent regardless of what zone those cards are in and what zone
   they move to.)*'
-activation_costs:
+activated_costs:
 - G
 - U
 canadian_hl_score: 0
@@ -12,6 +12,7 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -20,12 +21,13 @@ companions:
 effective_cost:
 - U
 - G
-flat_cost: 3
 formats:
-- Alchemy
 - Arena
-- Gladiator
+- Custom
 - Historic
+- Gladiator
+- Alchemy
+- Casual
 - Penny Dreadful
 has_activated_abilities: true
 is_mtgo: true
@@ -39,19 +41,32 @@ keywords:
 - Ward
 - Perpetually
 mana_cost: 1GU
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Wilson, Subtle Bear
 power_toughness: 3/3
 printings:
 - HBG:
     alterations:
-    - Normal
-    booster_exclude: true
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ilse Gort
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Alchemy Horizons: Baldur''s Gate'
+    number: null
     rarity: rare
-    release_date: 2022-07-07
+    release_date: '2022-07-07'
+    tla: HBG
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Reach, trample\r\n\r\nWard [[symbol:2]] *(Whenever this becomes the target\
   \ of a spell or ability an opponent controls, counter it unless that player pays\
   \ [[symbol:2]].)*\r\n\r\nWilson, Subtle Bear can't be blocked.\r\n\r\n[[symbol:1]][[symbol:G]][[symbol:U]],\
@@ -64,8 +79,9 @@ subtype: Bear Warrior
 subtype_tokens:
 - Bear
 - Warrior
-tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-green card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 27024
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/wilson-subtle-bear/
+url: https://tappedout.net/mtg-card/wilson-subtle-bear/
+

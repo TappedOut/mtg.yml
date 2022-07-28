@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: INV
 cannonical_type: Sorcery
@@ -11,61 +13,81 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.33
+draft_average: 7.88
 effective_cost:
 - W
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 mana_cost: 3UW
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Ordered Migration
+power_toughness: ''
 printings:
 - INV:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Heather Hudson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 14338
     mtgo_id: 14337
     name: Invasion
     number: 258
     rarity: uncommon
-    release_date: 2000-10-02
+    release_date: '2000-10-02'
+    tla: INV
+    variations: []
     wizards_id: 23187
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=23187
+rarity: uncommon
 rules: "Domain \u2014 Put a 1/1 blue Bird creature token with flying into play for\
   \ each basic land type among lands you control."
 slug: ordered-migration
-tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-white card-type-sorcery
+synonyms: []
 tapped_id: 5166
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Bird 1/1 U
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Bird
-  tla: INV
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 32
+    - - cannonical_type
+      - Creature
+    - - name
+      - Bird 1/1 U
 type: Sorcery
-url: http://tappedout.net/mtg-card/ordered-migration/
+url: https://tappedout.net/mtg-card/ordered-migration/
+

@@ -3,6 +3,7 @@ activated_abilities:
 - ': Scry 3.'
 - ': Whenever you cast a spell with converted mana cost 5 or greater this turn, draw
   two cards, then discard a card.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: KHM
 cannonical_type: Enchantment
@@ -10,6 +11,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -18,29 +20,30 @@ companions:
 effective_cost:
 - U
 - R
-flat_cost: 5
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -48,27 +51,42 @@ keywords:
 - Scry
 - Counters
 mana_cost: 3UR
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Battle of Frost and Fire
 printings:
 - KHM:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Daniel Ljunggren
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Kaldheim
     number: 204
     rarity: rare
-    release_date: 2021-02-05
+    release_date: '2021-02-05'
+    tla: KHM
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 503820
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503820
 rules: "[[symbol:saga-1]]: Battle of Frost and Fire deals 4 damage to each non-Giant\
@@ -79,7 +97,9 @@ slug: battle-of-frost-and-fire
 subtype: Saga
 subtype_tokens:
 - Saga
-tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-red card-type-enchantment
+synonyms: []
 tapped_id: 23855
+tokens: []
 type: Enchantment
-url: http://tappedout.net/mtg-card/battle-of-frost-and-fire/
+url: https://tappedout.net/mtg-card/battle-of-frost-and-fire/
+

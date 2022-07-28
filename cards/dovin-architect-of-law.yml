@@ -3,40 +3,44 @@ activated_abilities:
 - ': Tap target creature. It doesn''t untap during its controller''s untap step.'
 - ': Tap all permanents target opponent controls. That player skips their next untap
   step.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: RNA
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.7
 effective_cost:
 - W
 - U
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,27 +48,42 @@ keywords:
 - Tap/Untap
 - Counters
 mana_cost: 4WU
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Dovin, Architect of Law
+planeswalker_loyalty: 5
 printings:
 - RNA:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Kieran Yanner
     booster_exclude: true
     border_color: B
-    foil: foil
-    foil_only: true
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 70985
     mtgo_id: 70984
     name: Ravnica Allegiance
     number: 265
     rarity: mythic_rare
-    release_date: 2019-01-25
+    release_date: '2019-01-25'
+    tla: RNA
+    variations: []
     wizards_id: 459999
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=459999
 rules: "[[symbol:loyalty-plus1]]: You gain 2 life and draw a card.\r\n\r\n[[symbol:loyalty-minus1]]:\
@@ -75,8 +94,9 @@ slug: dovin-architect-of-law
 subtype: Dovin
 subtype_tokens:
 - Dovin
-tags: card-color-blue card-color-gold card-color-gold-cost-6 card-color-white card-type-legendary
-  card-type-planeswalker
+synonyms: []
 tapped_id: 21129
+tokens: []
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/dovin-architect-of-law/
+url: https://tappedout.net/mtg-card/dovin-architect-of-law/
+

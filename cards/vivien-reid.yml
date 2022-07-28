@@ -4,38 +4,43 @@ activated_abilities:
   library in a random order.'
 - ': Destroy target artifact, enchantment, or creature with flying.'
 - ': You get an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M19
 cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.93
+draft_average: 3.41
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,30 +50,46 @@ keywords:
 - Vigilance
 - Counters
 mana_cost: 3GG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Vivien Reid
+planeswalker_loyalty: 5
 printings:
 - M19:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    - !!python/tuple
+      - list
+      - The List
+    artist: Anna Steinbauer
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 68578
     mtgo_id: 68577
     name: Core Set 2019
     number: 208
     rarity: mythic_rare
-    release_date: 2018-07-13
+    release_date: '2018-07-13'
+    tla: M19
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 447344
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447344
 rules: "[[symbol:loyalty-plus1]]: Look at the top four cards of your library. You\
@@ -81,18 +102,24 @@ slug: vivien-reid
 subtype: Vivien
 subtype_tokens:
 - Vivien
-tags: card-color-green card-color-green-cost-5 card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 20425
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Vivien Reid
-  power_toughness: null
-  rules: Creatures you control get +2/+2 and have vigilance, trample and indestructible.
-  subtype: Vivien
-  tla: M19
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Creatures you control get +2/+2 and have vigilance, trample and indestructible.
+    - - type
+      - Emblem
+    - - subtype
+      - 1268
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Vivien Reid
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/vivien-reid/
+url: https://tappedout.net/mtg-card/vivien-reid/
+

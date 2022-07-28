@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: MH1
@@ -13,124 +14,188 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.14
+draft_average: 4.21
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Premodern
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Kicker
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Urza's Rage
 printings:
-- STA:
-    alterations:
-    - Etched
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Strixhaven: Mystical Archive'
-    number: 47
-    rarity: rare
-    release_date: 2021-04-23
-    variations:
-    - alterations:
-      - Etched
-      - Foil
-      - Normal
-      identifier: '110'
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: rare
-    release_date: 2020-03-14
-- MH1:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 72675
-    mtgo_id: 72674
-    name: Modern Horizons
-    number: 151
-    rarity: uncommon
-    release_date: 2019-06-14
-    wizards_id: 464100
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464100
-- C15:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2015
-    number: 169
-    rarity: rare
-    release_date: 2015-11-13
-    wizards_id: 405430
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405430
-- DDE:
-    alterations:
-    - Foil
-    border_color: B
-    foil: foil
-    foil_only: true
-    frame: modern
-    mtgo_foil_id: 35478
-    name: 'Duel Decks: Phyrexia vs. The Coalition'
-    number: 36
-    rarity: mythic_rare
-    release_date: 2010-05-19
-    wizards_id: 207886
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=207886
 - INV:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Matthew D. Wilson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 14366
     mtgo_id: 14365
     name: Invasion
     number: 178
     rarity: rare
-    release_date: 2000-10-02
+    release_date: '2000-10-02'
+    tla: INV
+    variations: []
     wizards_id: 23087
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=23087
+- DDE:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jim Murray
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 35478
+    mtgo_id: null
+    name: 'Duel Decks: Phyrexia vs. The Coalition'
+    number: 36
+    rarity: mythic_rare
+    release_date: '2010-05-19'
+    tla: DDE
+    variations: []
+    wizards_id: 207886
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=207886
+- C15:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jim Murray
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2015
+    number: 169
+    rarity: rare
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
+    wizards_id: 405430
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405430
+- MH1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jim Murray
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 72675
+    mtgo_id: 72674
+    name: Modern Horizons
+    number: 151
+    rarity: uncommon
+    release_date: '2019-06-14'
+    tla: MH1
+    variations: []
+    wizards_id: 464100
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=464100
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jim Murray
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: rare
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- STA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-etch
+      - Etched
+    artist: Dominik Mayer
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Strixhaven: Mystical Archive'
+    number: 47
+    rarity: rare
+    release_date: '2021-04-23'
+    tla: STA
+    variations:
+    - identifier: '110'
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "Kicker [[symbol:8]][[symbol:R]] *(You may pay an additional [[symbol:8]][[symbol:R]]\
   \ as you cast this spell.)*\r\n\r\nUrza's Rage can't be countered by spells or abilities.\r\
   \n\r\nUrza's Rage deals 3 damage to target creature, player or planeswalker. If\
   \ Urza's Rage was kicked, instead it deals 10 damage to that permanent or player\
   \ and the damage can't be prevented."
 slug: urzas-rage
-tags: card-color-red card-color-red-cost-3 card-type-instant
+synonyms: []
 tapped_id: 5311
+tokens: []
 type: Instant
-url: http://tappedout.net/mtg-card/urzas-rage/
+url: https://tappedout.net/mtg-card/urzas-rage/
+

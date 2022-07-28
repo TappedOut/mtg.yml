@@ -1,14 +1,12 @@
 activated_abilities:
 - ': Add  or .'
-activation_costs:
+activated_costs:
 - G
 - W
 canadian_hl_score: 0
 cannonical_set: MIC
 cannonical_type: Land
-color_identity:
-- W
-- G
+color_identity: WG
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -20,87 +18,122 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 10.82
+draft_average: 4.69
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Scry
-mana_cost_converted: 0
 mana_produced: G, W
+mana_value: 0
+melds_from: []
 name: Temple of Plenty
 printings:
-- MIC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Midnight Hunt Commander'
-    number: 185
-    rarity: rare
-    release_date: 2021-09-25
-    wizards_id: 539446
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539446
-- THB:
-    alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 79621
-    mtgo_id: 79620
-    name: Theros Beyond Death
-    number: 248
-    rarity: rare
-    release_date: 2020-01-24
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '351'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
-    wizards_id: 476499
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476499
 - BNG:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Noah Bradley
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 51566
     mtgo_id: 51565
     name: Born of the Gods
     number: 165
     rarity: rare
-    release_date: 2014-02-07
+    release_date: '2014-02-07'
+    tla: BNG
+    variations: []
     wizards_id: 378537
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=378537
+- THB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Chris Ostrowski
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 79621
+    mtgo_id: 79620
+    name: Theros Beyond Death
+    number: 248
+    rarity: rare
+    release_date: '2020-01-24'
+    tla: THB
+    variations:
+    - identifier: '351'
+    - identifier: PromoPack
+    wizards_id: 476499
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476499
+- MIC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Chris Ostrowski
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Midnight Hunt Commander'
+    number: 185
+    rarity: rare
+    release_date: '2021-09-25'
+    tla: MIC
+    variations: []
+    wizards_id: 539446
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539446
+rarity: rare
 rules: "This enters the battlefield tapped.\r\n\r\nWhen this enters the battlefield,\
   \ scry 1. <i>(Look at the top card of your library. You may put that card on the\
   \ bottom of your library.)</i>\r\n\r\n[[symbol:T]]: Add [[symbol:G]] or [[symbol:W]]."
@@ -110,9 +143,9 @@ synonyms:
 - WG Scryland
 - GW Scry Land
 - WG Temple
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-green-slow card-mana-white-slow
-  card-type-land
 tap_land: true
 tapped_id: 15145
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/temple-of-plenty/
+url: https://tappedout.net/mtg-card/temple-of-plenty/
+

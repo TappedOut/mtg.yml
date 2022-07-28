@@ -1,6 +1,7 @@
 activated_abilities:
 - ', Sacrifice a land: Put two 1/1 red and white Goblin Soldier creature tokens onto
   the battlefield.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: EMA
 cannonical_type: Enchantment
@@ -8,29 +9,33 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.7
+draft_average: 4.53
 effective_cost:
 - W
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -38,66 +43,108 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 1RW
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Goblin Trenches
+power_toughness: ''
 printings:
-- EMA:
+- APC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Wayne England
+    booster_exclude: false
     border_color: B
-    frame: m15
-    mtgo_foil_id: 60960
-    mtgo_id: 60959
-    name: Eternal Masters
-    number: 203
+    cannonical: true
+    flavour_text: The ground rose and formed into thousands of tiny warriors. This
+      fight was far from over.
+    frame: original
+    mtgo_foil_id: 16055
+    mtgo_id: 16054
+    name: Apocalypse
+    number: null
     rarity: rare
-    release_date: 2016-06-10
-    wizards_id: 413745
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413745
+    release_date: '2001-06-01'
+    tla: APC
+    variations: []
+    wizards_id: 29417
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=29417
 - VMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Wayne England
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*The ground rose and formed into thousands of tiny warriors. This
+      fight was far from over.*'
     frame: modern
     mtgo_foil_id: 52904
     mtgo_id: 52903
     name: Vintage Masters
     number: 253
     rarity: rare
-    release_date: 2014-06-16
+    release_date: '2014-06-16'
+    tla: VMA
+    variations: []
     wizards_id: 382965
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382965
-- APC:
+- EMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Filip Burburan
+    booster_exclude: false
     border_color: B
-    frame: original
-    mtgo_foil_id: 16055
-    mtgo_id: 16054
-    name: Apocalypse
+    cannonical: true
+    flavour_text: "*\"Even if we dislodge them, I fear these lands will never again\
+      \ yield crops.\"  \r\n<br>&mdash;Kimmick, vanguard knight*"
+    frame: m15
+    mtgo_foil_id: 60960
+    mtgo_id: 60959
+    name: Eternal Masters
+    number: 203
     rarity: rare
-    release_date: 2001-06-01
-    wizards_id: 29417
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=29417
+    release_date: '2016-06-10'
+    tla: EMA
+    variations: []
+    wizards_id: 413745
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413745
+rarity: rare
 rules: '[[symbol:2]], Sacrifice a land: Put two 1/1 red and white Goblin Soldier creature
   tokens onto the battlefield.'
 slug: goblin-trenches
-tags: card-color-gold card-color-gold-cost-3 card-color-red card-color-white card-type-enchantment
+synonyms: []
 tapped_id: 4789
 tokens:
-- cannonical_type: Creature
-  colors: RW
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goblin Soldier 1/1 RW
-  power_toughness: 1/1
-  rules: ''
-  subtype: Goblin Soldier
-  tla: EMA
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - RW
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 196
+    - - cannonical_type
+      - Creature
+    - - name
+      - Goblin Soldier 1/1 RW
 type: Enchantment
-url: http://tappedout.net/mtg-card/goblin-trenches/
+url: https://tappedout.net/mtg-card/goblin-trenches/
+

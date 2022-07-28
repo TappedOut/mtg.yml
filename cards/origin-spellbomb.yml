@@ -1,41 +1,45 @@
 activated_abilities:
 - ', ,  Sacrifice Origin Spellbomb: Put a 1/1 colorless Myr artifact creature token
   onto the battlefield.'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: SOM
 cannonical_type: Artifact
-color_identity:
-- W
+color_identity: W
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 1
+cube_average: 9.5
+draft_average: 7.73
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,40 +47,60 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: '1'
-mana_cost_converted: 1
+mana_produced: ''
+mana_value: 1
+melds_from: []
 name: Origin Spellbomb
+power_toughness: ''
 printings:
 - SOM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: 'Franz Vohwinkel '
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 38330
     mtgo_id: 38329
     name: Scars of Mirrodin
     number: 189
     rarity: common
-    release_date: 2010-10-01
+    release_date: '2010-10-01'
+    tla: SOM
+    variations: []
     wizards_id: 210239
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=210239
+rarity: common
 rules: "[[symbol:1]], [[symbol:T]],  Sacrifice Origin Spellbomb: Put a 1/1 colorless\
   \ Myr artifact creature token onto the battlefield.\r\n\r\nWhen Origin Spellbomb\
   \ is put into a graveyard from the battlefield, you may pay [[symbol:W]]. If you\
   \ do, draw a card."
 slug: origin-spellbomb
-tags: card-color-colorless card-color-colorless-cost-1 card-type-artifact
+synonyms: []
 tapped_id: 12417
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Myr 1/1 C
-  power_toughness: 1/1
-  rules: ''
-  subtype: Myr
-  tla: SOM
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 52
+    - - cannonical_type
+      - Creature
+    - - name
+      - Myr 1/1 C
 type: Artifact
-url: http://tappedout.net/mtg-card/origin-spellbomb/
+url: https://tappedout.net/mtg-card/origin-spellbomb/
+

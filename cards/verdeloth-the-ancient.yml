@@ -1,90 +1,140 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MMA
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 8.61
+draft_average: 1.95
 effective_cost:
 - G
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Premodern
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Kicker
 mana_cost: 4GG
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Verdeloth the Ancient
 power_toughness: 4/7
 printings:
+- TSB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daren Bader
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 26144
+    mtgo_id: 26143
+    name: Time Spiral "Timeshifted"
+    number: null
+    rarity: rare
+    release_date: '2006-10-06'
+    tla: TSB
+    variations: []
+    wizards_id: 109688
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=109688
+- INV:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daren Bader
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: 14478
+    mtgo_id: 14477
+    name: Invasion
+    number: null
+    rarity: rare
+    release_date: '2000-10-02'
+    tla: INV
+    variations: []
+    wizards_id: 23137
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=23137
+- ARC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Daren Bader
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Archenemy
+    number: null
+    rarity: rare
+    release_date: '2010-06-18'
+    tla: ARC
+    variations: []
+    wizards_id: 220565
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220565
 - MMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daren Bader
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 48839
     mtgo_id: 48838
     name: Modern Masters
     number: 172
     rarity: rare
-    release_date: 2013-06-07
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
     wizards_id: 370494
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370494
-- ARC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    name: Archenemy
-    rarity: rare
-    release_date: 2010-06-18
-    wizards_id: 220565
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220565
-- TSB:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 26144
-    mtgo_id: 26143
-    name: Time Spiral "Timeshifted"
-    rarity: rare
-    release_date: 2006-10-06
-    wizards_id: 109688
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=109688
-- INV:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: original
-    mtgo_foil_id: 14478
-    mtgo_id: 14477
-    name: Invasion
-    rarity: rare
-    release_date: 2000-10-02
-    wizards_id: 23137
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=23137
+rarity: rare
 rules: "Kicker [[symbol:X]] *(You may pay an additional [[symbol:X]] as you play this\
   \ spell.)*\r\n\r\nOther Treefolk creatures and Saproling creatures get +1/+1.\r\n\
   \r\nWhen Verdeloth the Ancient enters the battlefield, if the kicker cost was paid,\
@@ -95,18 +145,23 @@ subtype_tokens:
 - Treefolk
 synonyms:
 - Verdeloth the Anceint
-tags: card-color-green card-color-green-cost-6 card-type-creature card-type-legendary
 tapped_id: 1359
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Saproling 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Saproling
-  tla: MMA
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 893
+    - - cannonical_type
+      - Creature
+    - - name
+      - Saproling 1/1 G
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/verdeloth-the-ancient/
+url: https://tappedout.net/mtg-card/verdeloth-the-ancient/
+

@@ -3,47 +3,48 @@ activated_abilities:
 - ', : Exile the top card of your library. You may play that card this turn. When
   you exile a nonland card this way, this creature deals damage equal to the exiled
   card''s converted mana cost/mana value to target creature, player or planeswalker.'
-activation_costs:
+activated_costs:
 - B
 - R
 canadian_hl_score: 0
 cannonical_set: NEO
 cannonical_type: Creature
-color_identity:
-- R
+color_identity: R
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -52,44 +53,48 @@ keywords:
 - Sacrifice
 - Scry
 mana_cost: 3B
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Hidetsugu, Devouring Chaos
 power_toughness: 4/4
 printings:
 - NEO:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Isis
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
     number: 99
     rarity: rare
-    release_date: 2022-02-10
+    release_date: '2022-02-10'
+    tla: NEO
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '378'
-    - alterations:
-      - Foil
-      identifier: '429'
-    - alterations:
-      - Foil
-      identifier: '430'
-    - alterations:
-      - Foil
-      identifier: '431'
-    - alterations:
-      - Foil
-      identifier: '432'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '454'
+    - identifier: '378'
+    - identifier: '429'
+    - identifier: '430'
+    - identifier: '431'
+    - identifier: '432'
+    - identifier: '454'
     wizards_id: 548397
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=548397
 rules: "[[symbol:B]], Sacrifice a creature: Scry 2.\r\n\r\n[[symbol:2]][[symbol:R]],\
@@ -102,7 +107,9 @@ subtype: Ogre Demon
 subtype_tokens:
 - Ogre
 - Demon
-tags: card-color-black card-color-black-cost-4 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 25740
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/hidetsugu-devouring-chaos/
+url: https://tappedout.net/mtg-card/hidetsugu-devouring-chaos/
+

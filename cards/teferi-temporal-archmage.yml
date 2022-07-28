@@ -3,64 +3,93 @@ activated_abilities:
   the other on the bottom of your library.'
 - ': Untap up to four target permanents.'
 - ': You get an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C14
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.47
 effective_cost:
 - U
-flat_cost: 6
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tap/Untap
 mana_cost: 4UU
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Teferi, Temporal Archmage
+planeswalker_loyalty: 5
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: mythic_rare
-    release_date: 2020-03-14
 - C14:
     alterations:
-    - Normal
-    - Oversized
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - oversized
+      - Oversized
+    artist: Tyler Jacobson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 55210
     mtgo_id: 55209
     name: Commander 2014
     number: 19
     rarity: mythic_rare
-    release_date: 2014-11-21
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
     wizards_id: 389712
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389712
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Tyler Jacobson
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: mythic_rare
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Look at the top two cards of your library. Put one\
   \ of them into your hand and the other on the bottom of your library.\r\n\r\n[[symbol:loyalty-minus1]]:\
   \ Untap up to four target permanents.\r\n\r\n[[symbol:loyalty-minus10]]: You get\
@@ -71,19 +100,25 @@ slug: teferi-temporal-archmage
 subtype: Teferi
 subtype_tokens:
 - Teferi
-tags: card-color-blue card-color-blue-cost-6 card-type-planeswalker
+synonyms: []
 tapped_id: 15773
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Teferi, Temporal Archmage
-  power_toughness: null
-  rules: You may activate loyalty abilities of planeswalkers you control on any player's
-    turn at any time you could cast an instant.
-  subtype: Teferi
-  tla: C14
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - You may activate loyalty abilities of planeswalkers you control on any player's
+        turn at any time you could cast an instant.
+    - - type
+      - Emblem
+    - - subtype
+      - 1040
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Teferi, Temporal Archmage
 type: Planeswalker
-url: http://tappedout.net/mtg-card/teferi-temporal-archmage/
+url: https://tappedout.net/mtg-card/teferi-temporal-archmage/
+

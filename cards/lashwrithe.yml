@@ -1,34 +1,39 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 - G
 canadian_hl_score: 0
 cannonical_set: C14
 cannonical_type: Artifact
+color_identity: ''
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-- Zirda, the Dawnwaker
-flat_cost: 4
+cube_average: 7.95
+draft_average: 2.61
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -37,35 +42,58 @@ keywords:
 - Living weapon
 - Tokens
 mana_cost: '4'
-mana_cost_converted: 4
+mana_produced: ''
+mana_value: 4
+melds_from: []
 name: Lashwrithe
+power_toughness: ''
 printings:
+- NPH:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Felix
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 39719
+    mtgo_id: 39718
+    name: New Phyrexia
+    number: null
+    rarity: rare
+    release_date: '2011-05-13'
+    tla: NPH
+    variations: []
+    wizards_id: 214359
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=214359
 - C14:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jason Felix
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 54938
     mtgo_id: 54937
     name: Commander 2014
     number: 245
     rarity: rare
-    release_date: 2014-11-21
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
     wizards_id: 389575
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389575
-- NPH:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 39719
-    mtgo_id: 39718
-    name: New Phyrexia
-    rarity: rare
-    release_date: 2011-05-13
-    wizards_id: 214359
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=214359
+rarity: rare
 rules: "Living weapon *(When this equipment enters the battlefield, create a 0/0 black\
   \ germ creature token, then attach this to it.)*\r\n\r\nEquipped creature gets +1/+1\
   \ for each Swamp you control.\r\n\r\nEquip [[symbol:PB]][[symbol:PB]] *([[symbol:PG]]\
@@ -74,18 +102,24 @@ slug: lashwrithe
 subtype: Equipment
 subtype_tokens:
 - Equipment
-tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
+synonyms: []
 tapped_id: 13011
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Phyrexian Germ 0/0 B
-  power_toughness: 0/0
-  rules: ''
-  subtype: Phyrexian Germ
-  tla: C14
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 0/0
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 1586
+    - - cannonical_type
+      - Creature
+    - - name
+      - Phyrexian Germ 0/0 B
 type: Artifact
-url: http://tappedout.net/mtg-card/lashwrithe/
+url: https://tappedout.net/mtg-card/lashwrithe/
+

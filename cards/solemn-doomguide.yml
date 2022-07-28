@@ -3,13 +3,14 @@ activated_abilities:
   has unearth . *(: Return the card to the battlefield. The creature gains haste.
   Exile it at the beginning of the next end step or if it would leave the battlefield.
   Unearth only as a sorcery.)*'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -17,23 +18,24 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,24 +45,31 @@ keywords:
 - Exile
 - Unearth
 mana_cost: 3BB
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Solemn Doomguide
 power_toughness: 4/5
 printings:
 - CLB:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Micah Epstein
     booster_exclude: true
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 672
     rarity: rare
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
     variations:
-    - alterations:
-      - Normal
-      identifier: '625'
+    - identifier: '625'
     wizards_id: 567237
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567237
 rules: "Flying\r\n\r\nEach creature card in your graveyard that's a Cleric, Rogue,\
@@ -73,7 +82,9 @@ subtype: Tiefling Cleric
 subtype_tokens:
 - Tiefling
 - Cleric
-tags: card-color-black card-color-black-cost-5 card-type-creature
+synonyms: []
 tapped_id: 26800
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/solemn-doomguide/
+url: https://tappedout.net/mtg-card/solemn-doomguide/
+

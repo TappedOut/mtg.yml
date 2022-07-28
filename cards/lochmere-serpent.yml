@@ -4,42 +4,46 @@ activated_abilities:
 - ': Exile five target cards from an opponent''s graveyard. Return Lochmere Serpent
   from your graveyard to your hand. Activate this ability only at any time you could
   cast a sorcery.'
-activation_costs:
+activated_costs:
 - B
 - U
 canadian_hl_score: 0
 cannonical_set: ELD
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.19
+draft_average: 1.85
 effective_cost:
 - U
 - B
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -49,34 +53,44 @@ keywords:
 - Sacrifice
 - Unblockable
 mana_cost: 4UB
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Lochmere Serpent
 power_toughness: 7/7
 printings:
 - ELD:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Sam Burley
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 78535
     mtgo_id: 78534
     name: Throne of Eldraine
     number: 195
     rarity: rare
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '381'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '381'
+    - identifier: PromoPack
     wizards_id: 473157
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=473157
 rules: "Flash\r\n\r\n[[symbol:U]], Sacrifice an Island: Lochmere Serpent can't be\
@@ -88,7 +102,9 @@ slug: lochmere-serpent
 subtype: Serpent
 subtype_tokens:
 - Serpent
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-6 card-type-creature
+synonyms: []
 tapped_id: 22036
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/lochmere-serpent/
+url: https://tappedout.net/mtg-card/lochmere-serpent/
+

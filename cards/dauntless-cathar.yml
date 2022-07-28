@@ -2,7 +2,7 @@ activated_abilities:
 - ', Exile Dauntless Cathar from your graveyard: Put a 1/1 white Spirit creature token
   with flying onto the battlefield. Activate this ability only at any time you could
   cast a sorcery.'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: SOI
@@ -10,33 +10,37 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.11
+draft_average: 4.63
 effective_cost:
 - W
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,48 +49,83 @@ keywords:
 - Exile
 - Tokens
 mana_cost: 2W
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Dauntless Cathar
 power_toughness: 3/2
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
-- A25:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    mtgo_foil_id: 66935
-    mtgo_id: 66934
-    name: Masters 25
-    number: 10
-    rarity: common
-    release_date: 2018-03-16
-    wizards_id: 441999
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=441999
 - SOI:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Zack Stella
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"The harder they try to extinguish my faith, the brighter it burns
+      in the darkness."*'
     frame: m15
     mtgo_foil_id: 59813
     mtgo_id: 59812
     name: Shadows over Innistrad
     number: 11
     rarity: common
-    release_date: 2016-04-08
+    release_date: '2016-04-08'
+    tla: SOI
+    variations: []
     wizards_id: 409749
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409749
+- A25:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Zack Stella
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "\u201CThe harder they try to extinguish my faith, the brighter\
+      \ it burns in the darkness.\u201D"
+    frame: m15
+    mtgo_foil_id: 66935
+    mtgo_id: 66934
+    name: Masters 25
+    number: 10
+    rarity: null
+    release_date: '2018-03-16'
+    tla: A25
+    variations: []
+    wizards_id: 441999
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=441999
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Zack Stella
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"The harder they try to extinguish my faith, the brighter it burns
+      in the darkness."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: '[[symbol:1]][[symbol:W]], Exile Dauntless Cathar from your graveyard: Put
   a 1/1 white Spirit creature token with flying onto the battlefield. Activate this
   ability only at any time you could cast a sorcery.'
@@ -95,18 +134,24 @@ subtype: Human Soldier
 subtype_tokens:
 - Human
 - Soldier
-tags: card-color-white card-color-white-cost-3 card-type-creature
+synonyms: []
 tapped_id: 17785
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spirit 1/1 W
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Spirit
-  tla: SOI
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 17
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spirit 1/1 W
 type: Creature
-url: http://tappedout.net/mtg-card/dauntless-cathar/
+url: https://tappedout.net/mtg-card/dauntless-cathar/
+

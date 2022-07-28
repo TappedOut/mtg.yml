@@ -1,53 +1,65 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Enchantment
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - U
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Mill
 mana_cost: 1UU
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Court of Cunning
 printings:
 - CMR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Yeong-Hao Han
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*A throne built on wisdom cannot be toppled.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander Legends
     number: 63
     rarity: rare
-    release_date: 2020-11-20
+    release_date: '2020-11-20'
+    tla: CMR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '633'
+    - identifier: '633'
     wizards_id: 497583
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497583
 rules: "When Court of Cunning enters the battlefield, you become the monarch.\r\n\r\
@@ -55,18 +67,25 @@ rules: "When Court of Cunning enters the battlefield, you become the monarch.\r\
   \ If you're the monarch, each of those players mills ten cards instead. *(To mill\
   \ a card, a player puts the top card of their library into their graveyard.)*"
 slug: court-of-cunning
-tags: card-color-blue card-color-blue-cost-3 card-type-enchantment
+synonyms: []
 tapped_id: 23529
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Monarch Emblem
-  power_toughness: null
-  rules: "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
-    \ deals combat damage to you, its controller becomes the monarch."
-  tla: CMR
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
+        \ deals combat damage to you, its controller becomes the monarch."
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Monarch Emblem
 type: Enchantment
-url: http://tappedout.net/mtg-card/court-of-cunning/
+url: https://tappedout.net/mtg-card/court-of-cunning/
+

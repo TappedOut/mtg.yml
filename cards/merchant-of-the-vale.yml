@@ -5,7 +5,7 @@ activated_abilities:
   spell if the spell has a cost greater than Merchant of the Vale''s cost. If you
   cast a Haggle that another player owns, only you may cast the Merchant of the Vale
   that got sent on an adventure, not the owner.)*'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: ELD
@@ -13,36 +13,40 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.69
+draft_average: 9.4
 effective_cost:
 - R
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -50,27 +54,36 @@ keywords:
 - Exile
 - Adventure
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Merchant of the Vale
 power_toughness: 2/3
 printings:
 - ELD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: David Gaillet
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Buying old, worn-out junk. Selling marvels of real value."*'
     frame: m15
     mtgo_foil_id: 78389
     mtgo_id: 78388
     name: Throne of Eldraine
     number: 131
     rarity: common
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '293'
+    - identifier: '293'
+    wizards_id: null
+    wizards_url: null
 rules: "[[symbol:2]][[symbol:R]]. Discard a card: Draw a card.\r\n\r\n<br>\r\n\r\n\
   *(You may cast Merchant of the Vale from exile if you sent it on an adventure.)*\r\
   \n\r\n-----\r\n\r\n<h3>Haggle</h3>\r\n<h4>Instant &mdash; Adventure</h4>\r\n\r\n\
@@ -96,7 +109,8 @@ synonyms:
 - Merchant of the Vale/Haggle
 - Haggle/Merchant of the Vale
 - Haggle / Merchant of the Vale
-tags: card-color-red card-color-red-cost-3 card-type-creature
 tapped_id: 22092
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/merchant-of-the-vale/
+url: https://tappedout.net/mtg-card/merchant-of-the-vale/
+

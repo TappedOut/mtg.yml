@@ -1,11 +1,13 @@
 activated_abilities:
 - 'Remove three +1/+1 counters from this: Return this creature to its owner''s hand.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MID
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -14,30 +16,31 @@ companions:
 effective_cost:
 - U
 - G
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,41 +48,69 @@ keywords:
 - Trample
 - Counters
 mana_cost: 1GU
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Slogurk, the Overslime
 power_toughness: 3/3
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 242
-    rarity: rare
-    release_date: 2022-01-21
 - MID:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Nicholas Gregory
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Midnight Hunt'
     number: 242
     rarity: rare
-    release_date: 2021-09-24
+    release_date: '2021-09-24'
+    tla: MID
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '324'
+    - identifier: '324'
     wizards_id: 535038
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=535038
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Nicholas Gregory
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 242
+    rarity: rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Trample\r\n\r\nWhenever a land card is put into your graveyard from anywhere,\
   \ put a +1/+1 counter on this.\r\n\r\nRemove three +1/+1 counters from this: Return\
   \ this creature to its owner's hand.\r\n\r\nWhen this leaves the battlefield, return\
@@ -88,8 +119,9 @@ slug: slogurk-the-overslime
 subtype: Ooze
 subtype_tokens:
 - Ooze
-tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-green card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 25137
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/slogurk-the-overslime/
+url: https://tappedout.net/mtg-card/slogurk-the-overslime/
+

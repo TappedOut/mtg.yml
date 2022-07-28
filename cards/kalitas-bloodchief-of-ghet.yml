@@ -2,57 +2,74 @@ activated_abilities:
 - '{{3B}}, Tap: Destroy target creature. If that creature is put into a graveyard
   this way, put a black Vampire creature token onto the battlefield. Its power is
   equal to that creature''s power and its toughness is equal to that creature''s toughness.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: ZEN
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.0
+draft_average: 1.8
 effective_cost:
 - B
-flat_cost: 7
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 5BB
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Kalitas, Bloodchief of Ghet
 power_toughness: 5/5
 printings:
 - ZEN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Todd Lockwood
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 34529
     mtgo_id: 34528
     name: Zendikar
     number: 99
     rarity: mythic_rare
-    release_date: 2009-10-02
+    release_date: '2009-10-02'
+    tla: ZEN
+    variations: []
     wizards_id: 185704
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=185704
+rarity: mythic_rare
 rules: "{{3B}}, Tap: Destroy target creature. If that creature is put into a graveyard\
   \ this way, put a black Vampire creature token onto the battlefield. Its power is\
   \ equal to that creature's power and its toughness is equal to that creature's toughness.\r\
@@ -62,18 +79,24 @@ subtype: Vampire Warrior
 subtype_tokens:
 - Vampire
 - Warrior
-tags: card-color-black card-color-black-cost-7 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 11775
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Vampire X/X B
-  power_toughness: X/X
-  rules: ''
-  subtype: Vampire
-  tla: ZEN
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - X/X
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 107
+    - - cannonical_type
+      - Creature
+    - - name
+      - Vampire X/X B
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/kalitas-bloodchief-of-ghet/
+url: https://tappedout.net/mtg-card/kalitas-bloodchief-of-ghet/
+

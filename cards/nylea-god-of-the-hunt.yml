@@ -1,36 +1,40 @@
 activated_abilities:
 - ': Target creature gets +2/+2 until end of turn.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: THS
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.37
+draft_average: 1.47
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -39,38 +43,63 @@ keywords:
 - Trample
 - Devotion
 mana_cost: 3G
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Nylea, God of the Hunt
 power_toughness: 6/6
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: Secret Lair
-    number: 80
-    rarity: mythic_rare
-    release_date: 2019-12-09
 - THS:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 50315
     mtgo_id: 50314
     name: Theros
     number: 166
     rarity: mythic_rare
-    release_date: 2013-09-27
+    release_date: '2013-09-27'
+    tla: THS
+    variations: []
     wizards_id: 373559
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373559
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason A. Engle
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 80
+    rarity: mythic_rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "Indestructible \r\n\r\nAs long as your devotion to green is less than five,\
   \ Nylea isn't a creature. <i>([[symbol:G]] in the mana costs of permanents you control\
   \ counts toward your devotion to green.)</i>\r\n\r\nOther creatures you control\
@@ -80,8 +109,9 @@ slug: nylea-god-of-the-hunt
 subtype: God
 subtype_tokens:
 - God
-tags: card-color-green card-color-green-cost-4 card-type-creature card-type-enchantment
-  card-type-legendary
+synonyms: []
 tapped_id: 14861
+tokens: []
 type: Legendary Enchantment Creature
-url: http://tappedout.net/mtg-card/nylea-god-of-the-hunt/
+url: https://tappedout.net/mtg-card/nylea-god-of-the-hunt/
+

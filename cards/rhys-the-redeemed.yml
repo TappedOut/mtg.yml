@@ -2,7 +2,7 @@ activated_abilities:
 - ', : Create a 1/1 green and white Elf Warrior creature token.'
 - ', : For each creature token you control, create a token that''s a copy of that
   creature.'
-activation_costs:
+activated_costs:
 - G
 - W
 canadian_hl_score: 0
@@ -10,88 +10,143 @@ cannonical_set: 2XM
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.27
+draft_average: 1.43
 effective_cost:
 - W
 - G
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: '{G/W}'
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Rhys the Redeemed
 power_toughness: 1/1
 printings:
-- 2XM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 213
-    rarity: rare
-    release_date: 2020-08-07
-    wizards_id: 489886
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489886
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: rare
-    release_date: 2020-03-14
-- ARENA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Arena Cards
-    rarity: rare
-    release_date: 2019-09-26
 - SHM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Steve Prescott
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Whole again in honor and horn.
     frame: modern
     mtgo_foil_id: 29536
     mtgo_id: 29535
     name: Shadowmoor
+    number: null
     rarity: rare
-    release_date: 2008-05-02
+    release_date: '2008-05-02'
+    tla: SHM
+    variations: []
     wizards_id: 147393
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=147393
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Steve Prescott
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: Whole again in honor and horn.
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: rare
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- ARENA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Steve Prescott
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Arena Cards
+    number: null
+    rarity: rare
+    release_date: '2019-09-26'
+    tla: ARENA
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Steve Prescott
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Whole again in honour and horn.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 213
+    rarity: rare
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations: []
+    wizards_id: 489886
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489886
+rarity: rare
 rules: "[[symbol:2]][[symbol:GW]], [[symbol:T]]: Create a 1/1 green and white Elf\
   \ Warrior creature token.\r\n\r\n[[symbol:4]][[symbol:GW]][[symbol:GW]], [[symbol:T]]:\
   \ For each creature token you control, create a token that's a copy of that creature."
@@ -100,19 +155,24 @@ subtype: Elf Warrior
 subtype_tokens:
 - Elf
 - Warrior
-tags: card-color-gold card-color-gold-cost-1 card-color-green card-color-white card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 9675
 tokens:
-- cannonical_type: Creature
-  colors: GW
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elf Warrior 1/1 GW
-  power_toughness: 1/1
-  rules: ''
-  subtype: Elf Warrior
-  tla: 2XM
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - GW
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 48
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elf Warrior 1/1 GW
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/rhys-the-redeemed/
+url: https://tappedout.net/mtg-card/rhys-the-redeemed/
+

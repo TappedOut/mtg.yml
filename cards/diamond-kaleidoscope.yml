@@ -1,68 +1,92 @@
 activated_abilities:
 - '(3), Tap: Put a 0/1 Prism artifact creature token into play.'
 - 'Sacrifice a Prism token: Add one mana of any color to your mana pool.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: VIS
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 4
+cube_average: 11.0
+draft_average: 2.0
+effective_cost: []
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
 mana_cost: '4'
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Diamond Kaleidoscope
+power_toughness: ''
 printings:
 - VIS:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ron Spencer
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 7522
     mtgo_id: 7521
     name: Visions
     number: 143
     rarity: rare
-    release_date: 1997-02-03
+    release_date: '1997-02-03'
+    tla: VIS
+    variations: []
     wizards_id: 3591
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3591
+rarity: rare
 rules: "(3), Tap: Put a 0/1 Prism artifact creature token into play.\r\n\r\nSacrifice\
   \ a Prism token: Add one mana of any color to your mana pool."
 slug: diamond-kaleidoscope
-tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
+synonyms: []
 tapped_id: 7291
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 0/1 C Artifact Creature Prism
-  power_toughness: 0/1
-  rules: ''
-  subtype: Prism
-  type: Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 0/1
+    - - rules
+      - ''
+    - - type
+      - Artifact Creature
+    - - subtype
+      - 901
+    - - cannonical_type
+      - Creature
+    - - name
+      - null
 type: Artifact
-url: http://tappedout.net/mtg-card/diamond-kaleidoscope/
+url: https://tappedout.net/mtg-card/diamond-kaleidoscope/
+

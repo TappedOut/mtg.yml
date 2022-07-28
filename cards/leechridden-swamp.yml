@@ -2,7 +2,7 @@ activated_abilities:
 - '_(: Add  to your mana pool.)_'
 - ', : Each opponent loses 1 life. Activate this ability only if you control two or
   more black permanents.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: DDR
@@ -18,65 +18,104 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+draft_average: 8.31
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
+mana_cost: ''
 mana_produced: B
+mana_value: 0
+melds_from: []
 name: Leechridden Swamp
+power_toughness: ''
 printings:
-- DDR:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Duel Decks: Nissa vs. Ob Nixilis'
-    number: 65
-    rarity: uncommon
-    release_date: 2016-09-02
-    wizards_id: 417488
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417488
-- HOP:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    name: Planechase
-    number: 135
-    rarity: uncommon
-    release_date: 2009-09-04
-    wizards_id: 205401
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=205401
 - SHM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lars Grant-West
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 29366
     mtgo_id: 29365
     name: Shadowmoor
+    number: null
     rarity: uncommon
-    release_date: 2008-05-02
+    release_date: '2008-05-02'
+    tla: SHM
+    variations: []
     wizards_id: 142020
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=142020
+- HOP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Lars Grant-West
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Planechase
+    number: 135
+    rarity: uncommon
+    release_date: '2009-09-04'
+    tla: HOP
+    variations: []
+    wizards_id: 205401
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=205401
+- DDR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Lars Grant-West
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Nissa vs. Ob Nixilis'
+    number: 65
+    rarity: uncommon
+    release_date: '2016-09-02'
+    tla: DDR
+    variations: []
+    wizards_id: 417488
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417488
+rarity: uncommon
 rules: "_([[symbol:T]]: Add [[symbol:B]] to your mana pool.)_\r\n\r\nLeechridden Swamp\
   \ enters the battlefield tapped.\r\n\r\n[[symbol:B]], [[symbol:T]]: Each opponent\
   \ loses 1 life. Activate this ability only if you control two or more black permanents."
@@ -84,8 +123,10 @@ slug: leechridden-swamp
 subtype: Swamp
 subtype_tokens:
 - Swamp
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black-slow card-type-land
+synonyms: []
 tap_land: true
 tapped_id: 9611
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/leechridden-swamp/
+url: https://tappedout.net/mtg-card/leechridden-swamp/
+

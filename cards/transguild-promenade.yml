@@ -1,5 +1,6 @@
 activated_abilities:
 - ': Gain one mana of any colour.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Land
@@ -14,102 +15,163 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 7.86
+draft_average: 5.51
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
-mana_cost_converted: 0
 mana_produced: W, U, B, R, G
+mana_value: 0
+melds_from: []
 name: Transguild Promenade
 printings:
-- CMR:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: Commander Legends
-    number: 499
-    rarity: common
-    release_date: 2020-11-20
-    wizards_id: 500979
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=500979
-- CM1:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology
-    rarity: common
-    release_date: 2017-06-09
-- C16:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2016
-    number: 334
-    rarity: common
-    release_date: 2016-11-11
-    wizards_id: 420951
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420951
-- C13:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 51273
-    mtgo_id: 51272
-    name: Commander 2013
-    rarity: common
-    release_date: 2013-11-01
-    wizards_id: 376561
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376561
 - RTR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Noah Bradley
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 46658
     mtgo_id: 46657
     name: Return to Ravnica
+    number: null
     rarity: common
-    release_date: 2012-10-05
+    release_date: '2012-10-05'
+    tla: RTR
+    variations: []
     wizards_id: 253550
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=253550
+- C13:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Noah Bradley
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 51273
+    mtgo_id: 51272
+    name: Commander 2013
+    number: null
+    rarity: common
+    release_date: '2013-11-01'
+    tla: C13
+    variations: []
+    wizards_id: 376561
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376561
+- C16:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Noah Bradley
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2016
+    number: 334
+    rarity: common
+    release_date: '2016-11-11'
+    tla: C16
+    variations: []
+    wizards_id: 420951
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420951
+- CM1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: null
+    booster_exclude: true
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology
+    number: null
+    rarity: common
+    release_date: '2017-06-09'
+    tla: CM1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- CMR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Noah Bradley
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Legends
+    number: 499
+    rarity: common
+    release_date: '2020-11-20'
+    tla: CMR
+    variations: []
+    wizards_id: 500979
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=500979
+rarity: common
 rules: "Transguild Promenade enters the battlefield tapped.\r\n\r\nWhen Transguild\
   \ Promenade enters the battlefield, sacrifice it unless you pay [[symbol:1]].\r\n\
   \r\n[[symbol:T]]: Gain one mana of any colour."
 slug: transguild-promenade
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-blue
-  card-mana-green card-mana-red card-mana-white card-type-land
+synonyms: []
 tapped_id: 14020
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/transguild-promenade/
+url: https://tappedout.net/mtg-card/transguild-promenade/
+

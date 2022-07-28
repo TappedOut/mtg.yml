@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: JUD
@@ -12,62 +13,82 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.0
+draft_average: 2.0
 effective_cost:
 - G
-flat_cost: 9
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flash
 - Flashback
 mana_cost: 6GGG
-mana_cost_converted: 9
+mana_value: 9
+melds_from: []
 name: Crush of Wurms
+power_toughness: ''
 printings:
 - JUD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Christopher Moeller
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 17613
     mtgo_id: 17612
     name: Judgment
     number: 110
     rarity: rare
-    release_date: 2002-05-27
+    release_date: '2002-05-27'
+    tla: JUD
+    variations: []
     wizards_id: 35170
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=35170
+rarity: rare
 rules: "Put three 6/6 green Wurm creature tokens into play.\r\n\r\nFlashback [[9]][[G]][[G]][[G]]\
   \ <i>(You may play this card from your graveyard for its flashback cost. Then remove\
   \ it from the game.)</i>"
 slug: crush-of-wurms
-tags: card-color-green card-color-green-cost-9 card-type-sorcery
+synonyms: []
 tapped_id: 4158
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Wurm 6/6 G
-  power_toughness: 6/6
-  rules: ''
-  subtype: Wurm
-  tla: C21
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 6/6
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 99
+    - - cannonical_type
+      - Creature
+    - - name
+      - Wurm 6/6 G
 type: Sorcery
-url: http://tappedout.net/mtg-card/crush-of-wurms/
+url: https://tappedout.net/mtg-card/crush-of-wurms/
+

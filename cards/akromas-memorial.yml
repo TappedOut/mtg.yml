@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M13
 cannonical_type: Artifact
@@ -5,29 +7,33 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 7
+cube_average: 5.88
+draft_average: 2.0
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -38,66 +44,120 @@ keywords:
 - Trample
 - Vigilance
 mana_cost: '7'
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Akroma's Memorial
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 262
-    rarity: mythic_rare
-    release_date: 2021-03-19
-    wizards_id: 509627
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509627
-- ARENA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Arena Cards
-    rarity: mythic_rare
-    release_date: 2019-09-26
-- M13:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 45225
-    mtgo_id: 45224
-    name: Magic 2013
-    rarity: mythic_rare
-    release_date: 2012-07-13
-    wizards_id: 279712
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=279712
 - FUT:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Dan Scott
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"No rest. No mercy. No matter what."Memorial inscription'
     frame: modern
     mtgo_foil_id: 26857
     mtgo_id: 26856
     name: Future Sight
+    number: null
     rarity: rare
-    release_date: 2007-05-04
+    release_date: '2007-05-04'
+    tla: FUT
+    variations: []
     wizards_id: 136150
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=136150
+- M13:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dan Scott
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '"No rest. No mercy. No matter what." -Memorial inscription'
+    frame: modern
+    mtgo_foil_id: 45225
+    mtgo_id: 45224
+    name: Magic 2013
+    number: null
+    rarity: mythic_rare
+    release_date: '2012-07-13'
+    tla: M13
+    variations: []
+    wizards_id: 279712
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=279712
+- ARENA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dan Scott
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Arena Cards
+    number: null
+    rarity: mythic_rare
+    release_date: '2019-09-26'
+    tla: ARENA
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dan Scott
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*\"No rest. No mercy. No matter what.\"\r\n<br>&mdash;Memorial\
+      \ inscription*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 262
+    rarity: mythic_rare
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509627
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509627
+rarity: mythic_rare
 rules: Creatures you control have flying, first strike, vigilance, trample, haste,
   protection from black, and protection from red. *((Remember the acronym <b>debt</b>.)
   Creatures you control can't be <b>d</b>amaged, <b>e</b>nchanted, <b>e</b>quipped,
   <b>b</b>locked or <b>t</b>argeted by anything black or red. Anything black or red
   attached to your creatures immediately falls off.)*
 slug: akromas-memorial
-tags: card-color-colorless card-color-colorless-cost-7 card-type-artifact card-type-legendary
+synonyms: []
 tapped_id: 626
+tokens: []
 type: Legendary Artifact
-url: http://tappedout.net/mtg-card/akromas-memorial/
+url: https://tappedout.net/mtg-card/akromas-memorial/
+

@@ -1,7 +1,7 @@
 activated_abilities:
 - 'Remove five +1/+1 counters from Ramos: Gain . Activate this ability only once each
   turn.'
-activation_costs:
+activated_costs:
 - B
 - G
 - R
@@ -11,26 +11,30 @@ canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 6
+cube_average: 5.16
+effective_cost: []
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -38,36 +42,55 @@ keywords:
 - Flying
 - Counters
 mana_cost: '6'
-mana_cost_converted: 6
 mana_produced: WWUUBBRRGG
+mana_value: 6
+melds_from: []
 name: Ramos, Dragon Engine
 power_toughness: 4/4
 printings:
-- CMR:
-    alterations:
-    - Etched
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: Commander Legends
-    number: 545
-    rarity: mythic_rare
-    release_date: 2020-11-20
-    wizards_id: 503348
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503348
 - C17:
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Joseph Meehan
+    booster_exclude: false
     border_color: B
-    foil: foil
-    foil_only: true
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2017
     number: 55
     rarity: rare
-    release_date: 2017-08-25
+    release_date: '2017-08-25'
+    tla: C17
+    variations: []
     wizards_id: 433296
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433296
+- CMR:
+    alterations:
+    - !!python/tuple
+      - f-etch
+      - Etched
+    artist: Joseph Meehan
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Legends
+    number: 545
+    rarity: mythic_rare
+    release_date: '2020-11-20'
+    tla: CMR
+    variations: []
+    wizards_id: 503348
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503348
+rarity: rare
 rules: "Flying\r\n\r\nWhenever you cast a spell, put a +1/+1 counter on Ramos, Dragon\
   \ Engine for each of that spell's colours.\r\n\r\nRemove five +1/+1 counters from\
   \ Ramos: Gain [[symbol:W]][[symbol:W]][[symbol:U]][[symbol:U]][[symbol:B]][[symbol:B]][[symbol:R]][[symbol:R]][[symbol:G]][[symbol:G]].\
@@ -76,9 +99,9 @@ slug: ramos-dragon-engine
 subtype: Dragon
 subtype_tokens:
 - Dragon
-tags: card-color-colorless card-color-colorless-cost-6 card-mana-black card-mana-blue
-  card-mana-green card-mana-red card-mana-white card-type-artifact card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 19284
+tokens: []
 type: Legendary Artifact Creature
-url: http://tappedout.net/mtg-card/ramos-dragon-engine/
+url: https://tappedout.net/mtg-card/ramos-dragon-engine/
+

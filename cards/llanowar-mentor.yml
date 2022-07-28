@@ -1,74 +1,103 @@
 activated_abilities:
 - ', , Discard a card: Create a 1/1 green Elf Druid creature token named Llanowar
   Elves. It has '
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: FUT
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.85
+draft_average: 3.33
 effective_cost:
 - G
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: G
-mana_cost_converted: 1
 mana_produced: G, GG, GGG
+mana_value: 1
+melds_from: []
 name: Llanowar Mentor
 power_toughness: 1/1
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 216
-    rarity: uncommon
-    release_date: 2021-03-19
-    wizards_id: 509581
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509581
 - FUT:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Trevor Hairsine
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 26635
     mtgo_id: 26634
     name: Future Sight
+    number: null
     rarity: uncommon
-    release_date: 2007-05-04
+    release_date: '2007-05-04'
+    tla: FUT
+    variations: []
     wizards_id: 126166
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=126166
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Trevor Hairsine
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"One day the vines of this forest will be as much a part of you
+      as your own fingers."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 216
+    rarity: uncommon
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509581
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509581
+rarity: uncommon
 rules: '[[symbol:G]], [[symbol:T]], Discard a card: Create a 1/1 green Elf Druid creature
   token named Llanowar Elves. It has "[[symbol:T]]: Gain [[symbol:G]]."'
 slug: llanowar-mentor
@@ -76,18 +105,24 @@ subtype: Elf Spellshaper
 subtype_tokens:
 - Elf
 - Spellshaper
-tags: card-color-green card-color-green-cost-1 card-mana-green card-type-creature
+synonyms: []
 tapped_id: 705
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Llanowar Elves 1/1 G
-  power_toughness: 1/1
-  rules: '[[symbol:T]]: Gain [[symbol:G]].'
-  subtype: Elf Druid
-  tla: TSR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - '[[symbol:T]]: Gain [[symbol:G]].'
+    - - type
+      - Token Creature
+    - - subtype
+      - 95
+    - - cannonical_type
+      - Creature
+    - - name
+      - Llanowar Elves 1/1 G
 type: Creature
-url: http://tappedout.net/mtg-card/llanowar-mentor/
+url: https://tappedout.net/mtg-card/llanowar-mentor/
+

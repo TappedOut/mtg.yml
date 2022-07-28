@@ -1,35 +1,39 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: DTK
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.92
+draft_average: 4.58
 effective_cost:
 - U
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -38,24 +42,36 @@ keywords:
 - Counters
 - Megamorph
 mana_cost: U
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Gudul Lurker
 power_toughness: 1/1
 printings:
 - DTK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Christopher Burdett
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*The small are mostly ignored by dragons.*'
     frame: m15
     mtgo_foil_id: 55943
     mtgo_id: 55942
     name: Dragons of Tarkir
     number: 56
     rarity: uncommon
-    release_date: 2015-03-27
+    release_date: '2015-03-27'
+    tla: DTK
+    variations: []
     wizards_id: 394588
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394588
+rarity: uncommon
 rules: "Gudul Lurker can't be blocked.\r\n\r\nMegamorph [[symbol:U]] *(You may cast\
   \ this card face down as a 2/2 creature for [[symbol:3]]. Turn it face up at any\
   \ time for its megamorph cost and put a +1/+1 counter on it.)*"
@@ -63,18 +79,25 @@ slug: gudul-lurker
 subtype: Salamander
 subtype_tokens:
 - Salamander
-tags: card-color-blue card-color-blue-cost-1 card-type-creature
+synonyms: []
 tapped_id: 16325
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Morph 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  tla: DTK
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+        \ with morph can be turned face up at any time for its morph cost.*"
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Morph 2/2 C
 type: Creature
-url: http://tappedout.net/mtg-card/gudul-lurker/
+url: https://tappedout.net/mtg-card/gudul-lurker/
+

@@ -1,35 +1,40 @@
 activated_abilities:
 - ': Target creature with a +1/+1 counter on it gains shroud until end of turn. '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C21
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.31
+draft_average: 6.02
 effective_cost:
 - U
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -38,68 +43,126 @@ keywords:
 - Graft
 - Counters
 mana_cost: 1UG
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Plaxcaster Frogling
 power_toughness: 0/0
 printings:
-- C21:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 226
-    rarity: uncommon
-    release_date: 2021-04-23
-    wizards_id: 519261
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519261
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: uncommon
-    release_date: 2020-03-14
-- GK2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Ravnica Allegiance: Guild Kits'
-    number: 122
-    rarity: uncommon
-    release_date: 2019-02-15
-    wizards_id: 460781
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460781
-- MM2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 57481
-    mtgo_id: 57480
-    name: Modern Masters 2015 Edition
-    rarity: uncommon
-    release_date: 2015-05-22
-    wizards_id: 397822
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397822
 - DIS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Greg Staples
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 24056
     mtgo_id: 24055
     name: Dissension
+    number: null
     rarity: uncommon
-    release_date: 2006-05-05
+    release_date: '2006-05-05'
+    tla: DIS
+    variations: []
     wizards_id: 97104
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=97104
+- MM2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Greg Staples
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 57481
+    mtgo_id: 57480
+    name: Modern Masters 2015 Edition
+    number: null
+    rarity: uncommon
+    release_date: '2015-05-22'
+    tla: MM2
+    variations: []
+    wizards_id: 397822
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397822
+- GK2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Greg Staples
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Ravnica Allegiance: Guild Kits'
+    number: 122
+    rarity: uncommon
+    release_date: '2019-02-15'
+    tla: GK2
+    variations: []
+    wizards_id: 460781
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460781
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Greg Staples
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: uncommon
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Greg Staples
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 226
+    rarity: uncommon
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519261
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519261
+rarity: uncommon
 rules: "Graft 3 <i>(This creature enters the battlefield with three +1/+1 counters\
   \ on it. Whenever another creature enters the battlefield, you may move a +1/+1\
   \ counter from this creature onto it.)</i>\r\n\r\n[[symbol:2]]: Target creature\
@@ -110,7 +173,9 @@ subtype: Frog Mutant
 subtype_tokens:
 - Frog
 - Mutant
-tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-green card-type-creature
+synonyms: []
 tapped_id: 1624
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/plaxcaster-frogling/
+url: https://tappedout.net/mtg-card/plaxcaster-frogling/
+

@@ -1,5 +1,6 @@
 activated_abilities:
 - 'Tap: Add (1) to your mana pool.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: BOK
 cannonical_type: Land
@@ -14,59 +15,84 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 5.5
+draft_average: 6.14
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
+mana_cost: ''
+mana_value: 0
+melds_from: []
 name: Gods' Eye, Gate to the Reikai
+power_toughness: ''
 printings:
 - BOK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Avon
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Listen at its walls and you will hear the whispers of gods.
     frame: modern
     mtgo_foil_id: 21904
     mtgo_id: 21903
     name: Betrayers of Kamigawa
     number: 164
     rarity: uncommon
-    release_date: 2005-02-04
+    release_date: '2005-02-04'
+    tla: BOK
+    variations: []
     wizards_id: 74668
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=74668
+rarity: uncommon
 rules: "Tap: Add (1) to your mana pool.\r\n\r\nWhen Gods' Eye, Gate to the Reikai\
   \ is put into a graveyard from play, put a 1/1 colorless Spirit creature token into\
   \ play."
 slug: gods-eye-gate-to-the-reikai
-tags: card-color-colorless card-color-colorless-cost-0 card-type-land card-type-legendary
+synonyms: []
 tapped_id: 2365
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spirit 1/1 C
-  power_toughness: 1/1
-  rules: ''
-  subtype: Spirit
-  tla: 2X2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 17
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spirit 1/1 C
 type: Legendary Land
-url: http://tappedout.net/mtg-card/gods-eye-gate-to-the-reikai/
+url: https://tappedout.net/mtg-card/gods-eye-gate-to-the-reikai/
+

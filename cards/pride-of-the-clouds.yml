@@ -2,40 +2,44 @@ activated_abilities:
 - '*Forecast* &mdash; , Reveal Pride of the Clouds from your hand: Create a 1/1 white
   and blue Bird creature token with flying. *(Activate this ability only during your
   upkeep and only once each turn.)*'
-activation_costs:
+activated_costs:
 - B
 - W
 canadian_hl_score: 0
 cannonical_set: GK2
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 3.4
+draft_average: 1.5
 effective_cost:
 - W
 - U
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,36 +48,60 @@ keywords:
 - Forecast
 - Tokens
 mana_cost: UW
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Pride of the Clouds
 power_toughness: 1/1
 printings:
-- GK2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Ravnica Allegiance: Guild Kits'
-    number: 17
-    rarity: rare
-    release_date: 2019-02-15
-    wizards_id: 460146
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460146
 - DIS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Rebecca Guay
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 24044
     mtgo_id: 24043
     name: Dissension
     number: 125
     rarity: rare
-    release_date: 2006-05-05
+    release_date: '2006-05-05'
+    tla: DIS
+    variations: []
     wizards_id: 97097
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=97097
+- GK2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Rebecca Guay
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Ravnica Allegiance: Guild Kits'
+    number: 17
+    rarity: rare
+    release_date: '2019-02-15'
+    tla: GK2
+    variations: []
+    wizards_id: 460146
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=460146
+rarity: rare
 rules: "Flying\r\n\r\nPride of the Clouds gets +1/+1 for each other creature in play\
   \ with flying.\r\n\r\n*Forecast* &mdash; [[symbol:2]][[symbol:W]][[symbol:B]], Reveal\
   \ Pride of the Clouds from your hand: Create a 1/1 white and blue Bird creature\
@@ -84,17 +112,24 @@ subtype: Elemental Cat
 subtype_tokens:
 - Elemental
 - Cat
-tags: card-color-blue card-color-gold card-color-gold-cost-2 card-color-white card-type-creature
+synonyms: []
 tapped_id: 1628
 tokens:
-- cannonical_type: Creature
-  colors: WU
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 1/1 WU Token Creature Bird
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Bird
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - WU
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 32
+    - - cannonical_type
+      - Creature
+    - - name
+      - null
 type: Creature
-url: http://tappedout.net/mtg-card/pride-of-the-clouds/
+url: https://tappedout.net/mtg-card/pride-of-the-clouds/
+

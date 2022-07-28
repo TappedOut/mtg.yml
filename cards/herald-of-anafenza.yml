@@ -1,63 +1,81 @@
 activated_abilities:
 - 'Outlast {2}{W} *({2}{W}, {T}: Put a +1/+1 counter on this creature. Outlast only
   as a sorcery.)'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: KTK
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.81
+draft_average: 1.94
 effective_cost:
 - W
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Outlast
 mana_cost: W
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Herald of Anafenza
 power_toughness: 1/2
 printings:
 - KTK:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Alabon Miller
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 54283
     mtgo_id: 54282
     name: Khans of Tarkir
     number: 12
     rarity: rare
-    release_date: 2014-09-26
+    release_date: '2014-09-26'
+    tla: KTK
+    variations: []
     wizards_id: 386553
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386553
+rarity: rare
 rules: "Outlast {2}{W} *({2}{W}, {T}: Put a +1/+1 counter on this creature. Outlast\
   \ only as a sorcery.)\r\n\r\nWhenever you activate Herald of Anafenza's outlast\
   \ ability, put a 1/1 white Warrior creature token onto the battlefield."
@@ -66,18 +84,24 @@ subtype: Human Soldier
 subtype_tokens:
 - Human
 - Soldier
-tags: card-color-white card-color-white-cost-1 card-type-creature
+synonyms: []
 tapped_id: 15793
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Warrior 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Warrior
-  tla: KTK
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 864
+    - - cannonical_type
+      - Creature
+    - - name
+      - Warrior 1/1 W
 type: Creature
-url: http://tappedout.net/mtg-card/herald-of-anafenza/
+url: https://tappedout.net/mtg-card/herald-of-anafenza/
+

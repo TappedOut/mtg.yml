@@ -1,95 +1,151 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: 2XM
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.27
+draft_average: 2.98
 effective_cost:
 - W
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: 3W
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Master Splicer
 power_toughness: 1/1
 printings:
-- 2XM:
+- NPH:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chippy
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: Double Masters
-    number: 22
+    cannonical: true
+    flavour_text: With Phyrexia's victory at hand, each sect began perfecting its
+      vision.
+    frame: modern
+    mtgo_foil_id: 39985
+    mtgo_id: 39984
+    name: New Phyrexia
+    number: null
     rarity: uncommon
-    release_date: 2020-08-07
-    wizards_id: 489695
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489695
-- M20:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 72958
-    mtgo_id: 72957
-    name: Core Set 2020
-    number: 29
-    rarity: uncommon
-    release_date: 2019-07-12
+    release_date: '2011-05-13'
+    tla: NPH
+    variations: []
+    wizards_id: 233062
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=233062
 - MM3:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chippy
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*With Phyrexia''s victory at hand, each sect began perfecting its
+      vision.*'
     frame: m15
     mtgo_foil_id: 63262
     mtgo_id: 63261
     name: Modern Masters 2017 Edition
     number: 15
     rarity: uncommon
-    release_date: 2017-03-17
+    release_date: '2017-03-17'
+    tla: MM3
+    variations: []
     wizards_id: 425840
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425840
-- NPH:
+- M20:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chippy
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 39985
-    mtgo_id: 39984
-    name: New Phyrexia
+    cannonical: true
+    flavour_text: '*Phyrexian artificers remove the flesh they no longer need and
+      use it to bring their unlikely creations to a greater semblance of life.*'
+    frame: m15
+    mtgo_foil_id: 72958
+    mtgo_id: 72957
+    name: Core Set 2020
+    number: 29
     rarity: uncommon
-    release_date: 2011-05-13
-    wizards_id: 233062
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=233062
+    release_date: '2019-07-12'
+    tla: M20
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chippy
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Phyrexian artificers remove the flesh they no longer need and
+      use it to bring their unlikely creations to a greater semblance of life.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 22
+    rarity: uncommon
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations: []
+    wizards_id: 489695
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489695
+rarity: uncommon
 rules: "When Master Splicer enters the battlefield, create a 3/3 colorless Golem artifact\
   \ creature token.\r\n\r\nGolem creatures you control get +1/+1."
 slug: master-splicer
@@ -98,18 +154,24 @@ subtype_tokens:
 - Phyrexian
 - Human
 - Artificer
-tags: card-color-white card-color-white-cost-4 card-type-creature
+synonyms: []
 tapped_id: 12895
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Phyrexian Golem 3/3 C
-  power_toughness: 3/3
-  rules: ''
-  subtype: Phyrexian Golem
-  tla: 2X2
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 3/3
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 1644
+    - - cannonical_type
+      - Creature
+    - - name
+      - Phyrexian Golem 3/3 C
 type: Creature
-url: http://tappedout.net/mtg-card/master-splicer/
+url: https://tappedout.net/mtg-card/master-splicer/
+

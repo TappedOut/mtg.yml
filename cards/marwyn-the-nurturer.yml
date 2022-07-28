@@ -1,6 +1,6 @@
 activated_abilities:
 - ': Gain an amount of  equal to Marwyn''s power.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: KHC
@@ -8,75 +8,105 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.15
+draft_average: 2.38
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
 mana_cost: 2G
-mana_cost_converted: 3
 mana_produced: G, GG, GGG, GGGG, GGGGG
+mana_value: 3
+melds_from: []
 name: Marwyn, the Nurturer
 power_toughness: 1/1
 printings:
-- KHC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Kaldheim: Commander'
-    number: 68
-    rarity: rare
-    release_date: 2021-02-05
-    wizards_id: 508358
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508358
 - DOM:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Midwife to mothers and leader to all.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Dominaria
     number: 172
     rarity: rare
-    release_date: 2018-04-22
+    release_date: '2018-04-22'
+    tla: DOM
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 443060
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443060
+- KHC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Midwife to mothers and leader to all.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kaldheim: Commander'
+    number: 68
+    rarity: rare
+    release_date: '2021-02-05'
+    tla: KHC
+    variations: []
+    wizards_id: 508358
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508358
+rarity: rare
 rules: "Whenever another Elf enters the battlefield under your control, put a +1/+1\
   \ counter on Marwyn, the Nurturer.\r\n\r\n[[symbol:T]]: Gain an amount of [[symbol:G]]\
   \ equal to Marwyn's power."
@@ -85,8 +115,9 @@ subtype: Elf Druid
 subtype_tokens:
 - Elf
 - Druid
-tags: card-color-green card-color-green-cost-3 card-mana-green card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 20087
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/marwyn-the-nurturer/
+url: https://tappedout.net/mtg-card/marwyn-the-nurturer/
+

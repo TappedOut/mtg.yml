@@ -1,33 +1,38 @@
 activated_abilities:
 - 'Sacrifice another creature: Prossh gets +1/+0 until end of turn.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.77
+draft_average: 4.8
 effective_cost:
 - B
 - R
 - G
-flat_cost: 6
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -36,55 +41,82 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 3BRG
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Prossh, Skyraider of Kher
 power_toughness: 5/5
 printings:
-- CMR:
-    alterations:
-    - Etched
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: Commander Legends
-    number: 530
-    rarity: mythic_rare
-    release_date: 2020-11-20
-    variations:
-    - alterations:
-      - Normal
-      identifier: Error
-    wizards_id: 503333
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503333
-- A25:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    mtgo_foil_id: 67343
-    mtgo_id: 67342
-    name: Masters 25
-    number: 214
-    rarity: mythic_rare
-    release_date: 2018-03-16
-    wizards_id: 442203
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442203
 - C13:
     alterations:
-    - Normal
-    - OversizedF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f-oversized
+      - OversizedF
+    artist: Todd Lockwood
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 51371
     mtgo_id: 51370
     name: Commander 2013
     number: 204
     rarity: mythic_rare
-    release_date: 2013-11-01
+    release_date: '2013-11-01'
+    tla: C13
+    variations: []
     wizards_id: 376461
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376461
+- A25:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Todd Lockwood
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: 67343
+    mtgo_id: 67342
+    name: Masters 25
+    number: 214
+    rarity: null
+    release_date: '2018-03-16'
+    tla: A25
+    variations: []
+    wizards_id: 442203
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442203
+- CMR:
+    alterations:
+    - !!python/tuple
+      - f-etch
+      - Etched
+    artist: Todd Lockwood
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Legends
+    number: 530
+    rarity: mythic_rare
+    release_date: '2020-11-20'
+    tla: CMR
+    variations:
+    - identifier: Error
+    wizards_id: 503333
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=503333
+rarity: mythic_rare
 rules: "When you cast this spell, create X 0/1 red Kobold creature tokens named Kobolds\
   \ of Kher Keep, where X is the amount of mana spent to cast Prossh.\r\n\r\nFlying\r\
   \n\r\nSacrifice another creature: Prossh gets +1/+0 until end of turn."
@@ -92,19 +124,24 @@ slug: prossh-skyraider-of-kher
 subtype: Dragon
 subtype_tokens:
 - Dragon
-tags: card-color-black card-color-gold card-color-gold-cost-6 card-color-green card-color-red
-  card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 15051
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Kobold 0/1 R
-  power_toughness: 0/1
-  rules: ''
-  subtype: Kobold
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 0/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 277
+    - - cannonical_type
+      - Creature
+    - - name
+      - Kobold 0/1 R
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/prossh-skyraider-of-kher/
+url: https://tappedout.net/mtg-card/prossh-skyraider-of-kher/
+

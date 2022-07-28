@@ -3,50 +3,66 @@ activated_abilities:
   to the result.'
 - 'Tap three untapped Brainiacs you control: The next time you would roll a six-sided
   die, instead roll two six-sided dice and use the total of those results.'
-activation_costs:
+activated_costs:
 - B
 - R
 canadian_hl_score: 0
 cannonical_set: UN3
 cannonical_type: Creature
-color_identity:
-- B
+color_identity: B
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.2
 effective_cost:
 - R
-flat_cost: 6
 formats:
-- 'Commander: Rule 0'
-- Limited
+- Custom
 - Unformat
+- 'Commander: Rule 0'
+- Casual
+- Limited
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: 4RR
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: The Big Idea
 power_toughness: 4/4
 printings:
 - UN3:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Bram Sels
+    booster_exclude: false
     border_color: S
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Unstable
     number: 76
     rarity: rare
-    release_date: 2017-12-08
+    release_date: '2017-12-08'
+    tla: UN3
+    variations: []
     wizards_id: 439465
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439465
+rarity: rare
 rules: "[[2]][[B/R]][[B/R]], [[{T]]: Roll a six-sided die. Create a number of 1/1\
   \ red Brainiac creature tokens equal to the result.\r\n\r\nTap three untapped Brainiacs\
   \ you control: The next time you would roll a six-sided die, instead roll two six-sided\
@@ -56,18 +72,24 @@ subtype: Brainiac Villain
 subtype_tokens:
 - Brainiac
 - Villain
-tags: card-color-red card-color-red-cost-6 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 19691
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Brainiac 1/1 R
-  power_toughness: 1/1
-  rules: ''
-  subtype: Brainiac
-  tla: UN3
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 1221
+    - - cannonical_type
+      - Creature
+    - - name
+      - Brainiac 1/1 R
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/the-big-idea/
+url: https://tappedout.net/mtg-card/the-big-idea/
+

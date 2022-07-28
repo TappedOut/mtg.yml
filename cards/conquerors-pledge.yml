@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ZEN
 cannonical_type: Sorcery
@@ -10,62 +12,82 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.0
+draft_average: 2.12
 effective_cost:
 - W
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Kicker
 mana_cost: 2WWW
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Conqueror's Pledge
+power_toughness: ''
 printings:
 - ZEN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kev Walker
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 34763
     mtgo_id: 34762
     name: Zendikar
     number: 8
     rarity: rare
-    release_date: 2009-10-02
+    release_date: '2009-10-02'
+    tla: ZEN
+    variations: []
     wizards_id: 195626
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=195626
+rarity: rare
 rules: "Kicker {{6}} (You may pay an additional {{6}} as you cast this spell.)\r\n\
   \r\nPut six 1/1 white Kor Soldier creature tokens onto the battlefield. If Conqueror's\
   \ Pledge was kicked, put twelve of those tokens onto the battlefield instead.\r\n"
 slug: conquerors-pledge
-tags: card-color-white card-color-white-cost-5 card-type-sorcery
+synonyms: []
 tapped_id: 11709
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Kor Soldier 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Kor Soldier
-  tla: ZEN
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 100
+    - - cannonical_type
+      - Creature
+    - - name
+      - Kor Soldier 1/1 W
 type: Sorcery
-url: http://tappedout.net/mtg-card/conquerors-pledge/
+url: https://tappedout.net/mtg-card/conquerors-pledge/
+

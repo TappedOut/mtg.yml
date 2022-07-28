@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Gain .'
 - ', : Gain , , or .'
-activation_costs:
+activated_costs:
 - B
 - C
 - R
@@ -19,99 +19,163 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 10.25
+draft_average: 4.68
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: BB, BR, RR, C
+mana_value: 0
+melds_from: []
 name: Graven Cairns
 printings:
-- 2XM:
+- FUT:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Anthony S. Waters
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: Double Masters
-    number: 320
+    cannonical: true
+    flavour_text: Shamans of Kar-Sengir claim that their sun sets because it can no
+      longer bear the gaze of those pain-carved cliffs.
+    frame: modern
+    mtgo_foil_id: 26703
+    mtgo_id: 26702
+    name: Future Sight
+    number: null
     rarity: rare
-    release_date: 2020-08-07
-    wizards_id: 489993
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489993
-- IMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 66354
-    mtgo_id: 66353
-    name: Iconic Masters
-    rarity: rare
-    release_date: 2017-11-17
-    wizards_id: 438803
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438803
-- EXP:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    mtgo_foil_id: 59722
-    mtgo_id: 59721
-    name: Zendikar Expeditions
-    number: 28
-    rarity: mythic_rare
-    release_date: 2015-10-03
-    wizards_id: 409559
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409559
+    release_date: '2007-05-04'
+    tla: FUT
+    variations: []
+    wizards_id: 130581
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=130581
 - SHM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Rob Alexander
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"Here did the Extinguisher steal the light from the world. Here\
+      \ will we sacrifice her to bring the Great Rekindling to our people.\"*\r\n\
+      <br>\u2014Illulia of Nighthearth"
     frame: modern
     mtgo_foil_id: 29512
     mtgo_id: 29511
     name: Shadowmoor
     number: 272
     rarity: rare
-    release_date: 2008-05-02
+    release_date: '2008-05-02'
+    tla: SHM
+    variations: []
     wizards_id: 146764
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=146764
-- FUT:
+- EXP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Adam Paquette
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 26703
-    mtgo_id: 26702
-    name: Future Sight
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 59722
+    mtgo_id: 59721
+    name: Zendikar Expeditions
+    number: 28
+    rarity: mythic_rare
+    release_date: '2015-10-03'
+    tla: EXP
+    variations: []
+    wizards_id: 409559
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409559
+- IMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Anthony S. Waters
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Shamans of Kar-Sengir claim that their sun sets because it can no
+      longer bear the gaze of those pain-carved cliffs.
+    frame: m15
+    mtgo_foil_id: 66354
+    mtgo_id: 66353
+    name: Iconic Masters
+    number: null
     rarity: rare
-    release_date: 2007-05-04
-    wizards_id: 130581
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=130581
+    release_date: '2017-11-17'
+    tla: IMA
+    variations: []
+    wizards_id: 438803
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438803
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Rob Alexander
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Here did the Extinguisher steal the light from the world. Here\
+      \ will we sacrifice her to bring the Great Rekindling to our people.\"\r\n<br>&mdash;Illulia\
+      \ of Nighthearth*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 320
+    rarity: rare
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations: []
+    wizards_id: 489993
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489993
+rarity: rare
 rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:BR]], [[symbol:T]]: Gain\
   \ [[symbol:B]][[symbol:B]], [[symbol:B]][[symbol:R]], or [[symbol:r]][[symbol:R]]."
 slug: graven-cairns
@@ -122,8 +186,8 @@ synonyms:
 - RB Fliterland
 - BR Filter Land
 - RB Filter Land
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-colorless-sym
-  card-mana-red card-type-land
 tapped_id: 682
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/graven-cairns/
+url: https://tappedout.net/mtg-card/graven-cairns/
+

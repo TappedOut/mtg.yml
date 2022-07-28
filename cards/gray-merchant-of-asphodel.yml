@@ -1,116 +1,169 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: THB
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.84
+draft_average: 4.05
 effective_cost:
 - B
-flat_cost: 5
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 is_mtgo: true
 is_permanent: true
 keywords:
 - Devotion
 mana_cost: 3BB
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Gray Merchant of Asphodel
 power_toughness: 2/4
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: original
-    name: Time Spiral Remastered
-    number: 323
-    rarity: special
-    release_date: 2021-03-19
-    wizards_id: 512289
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512289
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
-- THB:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 79323
-    mtgo_id: 79322
-    name: Theros Beyond Death
-    number: 99
-    rarity: uncommon
-    release_date: 2020-01-24
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '355'
-    wizards_id: 476350
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476350
-- C14:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 55090
-    mtgo_id: 55089
-    name: Commander 2014
-    number: 146
-    rarity: common
-    release_date: 2014-11-21
-    wizards_id: 389541
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389541
 - THS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Robbie Trevino
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 50563
     mtgo_id: 50562
     name: Theros
     number: 89
     rarity: common
-    release_date: 2013-09-27
+    release_date: '2013-09-27'
+    tla: THS
+    variations: []
     wizards_id: 373645
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373645
+- C14:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Robbie Trevino
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 55090
+    mtgo_id: 55089
+    name: Commander 2014
+    number: 146
+    rarity: common
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
+    wizards_id: 389541
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389541
+- THB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Scott Murphy
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: 79323
+    mtgo_id: 79322
+    name: Theros Beyond Death
+    number: 99
+    rarity: uncommon
+    release_date: '2020-01-24'
+    tla: THB
+    variations:
+    - identifier: '355'
+    wizards_id: 476350
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476350
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Robbie Trevino
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Robbie Trevino
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 323
+    rarity: special
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 512289
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512289
+rarity: common
 rules: When this enters the battlefield, each opponent loses X life, where X is your
   devotion to black. You gain life equal to the life lost this way. *(Each [[symbol:B]]
   in the mana costs of permanents you control counts towards your devotion to black.)*
@@ -121,7 +174,8 @@ subtype_tokens:
 synonyms:
 - Gary
 - Grey Merchant of Asphodel
-tags: card-color-black card-color-black-cost-5 card-type-creature
 tapped_id: 14901
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/gray-merchant-of-asphodel/
+url: https://tappedout.net/mtg-card/gray-merchant-of-asphodel/
+

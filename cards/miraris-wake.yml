@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MH2
 cannonical_type: Enchantment
@@ -5,129 +7,215 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.29
+draft_average: 2.75
 effective_cost:
 - W
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Premodern
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Premodern
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 3GW
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Mirari's Wake
 printings:
-- MH2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Modern Horizons 2
-    number: 291
-    rarity: mythic_rare
-    release_date: 2021-06-18
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '320'
-    wizards_id: 526262
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=526262
-- ARENA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Arena Cards
-    rarity: rare
-    release_date: 2019-09-26
-- C17:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2017
-    number: 181
-    rarity: mythic_rare
-    release_date: 2017-08-25
-    wizards_id: 433113
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433113
-- CNS:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    name: Conspiracy
-    number: 189
-    rarity: mythic_rare
-    release_date: 2014-06-06
-    wizards_id: 382308
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382308
-- CMA:
-    alterations:
-    - Foil
-    border_color: B
-    foil: foil
-    foil_only: true
-    frame: modern
-    name: Commander's Arsenal
-    number: 14
-    rarity: rare
-    release_date: 2012-11-02
-    wizards_id: 338455
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=338455
 - JUD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: David Martin
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: The land drank power from the Mirari as though it had thirsted forever.
     frame: original
     mtgo_foil_id: 17619
     mtgo_id: 17618
     name: Judgment
+    number: null
     rarity: rare
-    release_date: 2002-05-27
+    release_date: '2002-05-27'
+    tla: JUD
+    variations: []
     wizards_id: 35057
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=35057
+- CNS:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Volkan Baga
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: The land drank power from the Mirari as though it had thirsted forever.
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Conspiracy
+    number: 189
+    rarity: mythic_rare
+    release_date: '2014-06-06'
+    tla: CNS
+    variations: []
+    wizards_id: 382308
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382308
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Volkan Baga
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*Even after a false god tore magic from Dominaria, power still
+      radiated from the Mirari sword that slew her.*'
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 2
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- CMA:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Volkan Baga
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Even after a false god tore the magic from Dominaria, power still
+      radiated from the Mirari sword that slew her.*'
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander's Arsenal
+    number: 14
+    rarity: rare
+    release_date: '2012-11-02'
+    tla: CMA
+    variations: []
+    wizards_id: 338455
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=338455
+- C17:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: null
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2017
+    number: 181
+    rarity: mythic_rare
+    release_date: '2017-08-25'
+    tla: C17
+    variations: []
+    wizards_id: 433113
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433113
+- ARENA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: David Martin
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Arena Cards
+    number: null
+    rarity: rare
+    release_date: '2019-09-26'
+    tla: ARENA
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- MH2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Volkan Baga
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*Even after a false god tore the magic from Dominaria, power still\
+      \ radiated from the Mirari sword that slew her.*\r\n\r\n*Its passage through\
+      \ history is marked by warped desires and insatiable greed.*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Modern Horizons 2
+    number: 291
+    rarity: mythic_rare
+    release_date: '2021-06-18'
+    tla: MH2
+    variations:
+    - identifier: '320'
+    wizards_id: 526262
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=526262
+rarity: rare
 rules: "Creatures you control get +1/+1.\r\n\r\nWhenever you tap a land for mana,\
   \ gain one mana of any type that land produced."
 slug: miraris-wake
-tags: card-color-gold card-color-gold-cost-5 card-color-green card-color-white card-type-enchantment
+synonyms: []
 tapped_id: 4209
+tokens: []
 type: Enchantment
-url: http://tappedout.net/mtg-card/miraris-wake/
+url: https://tappedout.net/mtg-card/miraris-wake/
+

@@ -4,70 +4,88 @@ activated_abilities:
 - ', : Copy target instant or sorcery spell you control. You may choose new targets
   for the copy.'
 - ', : Copy target permanent spell you control. _(This copy becomes a token.)_'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ZNR
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 4
+cube_average: 2.0
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: '4'
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Lithoform Engine
 printings:
 - ZNR:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Colin Boyer
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Zendikar Rising
     number: 245
     rarity: mythic_rare
-    release_date: 2020-09-25
+    release_date: '2020-09-25'
+    tla: ZNR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '375'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '375'
+    - identifier: PromoPack
     wizards_id: 491896
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=491896
 rules: "[[symbol:2]], [[symbol:T]]: Copy target activated or triggered ability you\
@@ -76,17 +94,24 @@ rules: "[[symbol:2]], [[symbol:T]]: Copy target activated or triggered ability y
   \ the copy.\r\n\r\n[[symbol:4]], [[symbol:T]]: Copy target permanent spell you control.\
   \ _(This copy becomes a token.)_"
 slug: lithoform-engine
-tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact card-type-legendary
+synonyms: []
 tapped_id: 23372
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: ZNR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Legendary Artifact
-url: http://tappedout.net/mtg-card/lithoform-engine/
+url: https://tappedout.net/mtg-card/lithoform-engine/
+

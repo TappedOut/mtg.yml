@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Put a white and black Spirit enchantment creature token onto the battlefield.
   It has '
-activation_costs:
+activated_costs:
 - B
 - W
 canadian_hl_score: 0
@@ -10,28 +10,31 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.47
 effective_cost:
 - W
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -40,23 +43,39 @@ keywords:
 - Tokens
 - Experience
 mana_cost: 1WB
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Daxos the Returned
 power_toughness: 2/2
 printings:
 - C15:
     alterations:
-    - Normal
-    - Oversized
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - oversized
+      - Oversized
+    - !!python/tuple
+      - list
+      - The List
+    artist: Adam Paquette
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2015
     number: 43
     rarity: mythic_rare
-    release_date: 2015-11-13
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
     wizards_id: 405191
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405191
+rarity: mythic_rare
 rules: "Whenever you cast an enchantment spell, you get an experience counter.\r\n\
   \r\n[[symbol:1]][[symbol:W]][[symbol:B]]: Put a white and black Spirit enchantment\
   \ creature token onto the battlefield. It has \"This creature's power and toughness\
@@ -66,29 +85,40 @@ subtype: Zombie Soldier
 subtype_tokens:
 - Zombie
 - Soldier
-tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-white card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 17360
 tokens:
-- cannonical_type: Emblem
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Experience Token
-  power_toughness: null
-  rules: '*(Place your experience counters here.)*'
-  tla: C15
-  type: Emblem
-- cannonical_type: Creature
-  colors: WB
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Enchantment Spirit X/X WB
-  power_toughness: X/X
-  rules: This creature's power and toughness are each equal to the number of experience
-    counters you have.
-  subtype: Spirit
-  tla: C15
-  type: Token Enchantment Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*(Place your experience counters here.)*'
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Experience Token
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - WB
+    - - power_toughness
+      - X/X
+    - - rules
+      - This creature's power and toughness are each equal to the number of experience
+        counters you have.
+    - - type
+      - Token Enchantment Creature
+    - - subtype
+      - 17
+    - - cannonical_type
+      - Creature
+    - - name
+      - Enchantment Spirit X/X WB
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/daxos-the-returned/
+url: https://tappedout.net/mtg-card/daxos-the-returned/
+

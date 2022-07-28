@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SNC
 cannonical_type: Instant
@@ -13,71 +15,89 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - G
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Penny Dreadful
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Warm Welcome
 printings:
 - SNC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Inka Schulz
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Welcome to the family. Chef Rocco sends their congratulations."*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Streets of New Capenna
     number: 164
     rarity: common
-    release_date: 2022-04-29
+    release_date: '2022-04-29'
+    tla: SNC
+    variations: []
     wizards_id: 555365
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=555365
 rules: Look at the top five cards of your library. You may reveal a creature card
   from among them and put it into your hand. Put the rest on the bottom of your library
   in a random order. Create a 1/1 green and white Citizen creature token.
 slug: warm-welcome
-tags: card-color-green card-color-green-cost-3 card-type-instant
+synonyms: []
 tapped_id: 26382
 tokens:
-- cannonical_type: Creature
-  colors: GW
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Citizen 1/1 GW
-  power_toughness: 1/1
-  rules: ''
-  subtype: Citizen
-  tla: SNC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - GW
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 905
+    - - cannonical_type
+      - Creature
+    - - name
+      - Citizen 1/1 GW
 type: Instant
-url: http://tappedout.net/mtg-card/warm-welcome/
+url: https://tappedout.net/mtg-card/warm-welcome/
+

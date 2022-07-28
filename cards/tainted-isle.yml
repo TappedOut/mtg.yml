@@ -1,16 +1,14 @@
 activated_abilities:
 - ': Add .'
 - ': Add  or . Activate this ability only if you control a Swamp.'
-activation_costs:
+activated_costs:
 - B
 - C
 - U
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Land
-color_identity:
-- U
-- B
+color_identity: UB
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -22,97 +20,154 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 9.5
+draft_average: 3.67
+effective_cost: []
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Premodern
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: U, B, C
+mana_value: 0
+melds_from: []
 name: Tainted Isle
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 920
-    rarity: uncommon
-    release_date: 2022-06-10
-    wizards_id: 567737
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567737
-- MIC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Midnight Hunt Commander'
-    number: 183
-    rarity: uncommon
-    release_date: 2021-09-25
-    wizards_id: 539444
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539444
-- PCA:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Planechase Anthology
-    number: 128
-    rarity: uncommon
-    release_date: 2016-11-25
-    wizards_id: 423553
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423553
-- PC2:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 44984
-    name: Planechase 2012 Edition
-    rarity: uncommon
-    release_date: 2012-06-01
-    wizards_id: 271239
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=271239
 - TOR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Alan Pollack
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 17324
     mtgo_id: 17323
     name: Torment
+    number: null
     rarity: uncommon
-    release_date: 2002-02-08
+    release_date: '2002-02-08'
+    tla: TOR
+    variations: []
     wizards_id: 31758
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=31758
+- PC2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Alan Pollack
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 44984
+    name: Planechase 2012 Edition
+    number: null
+    rarity: uncommon
+    release_date: '2012-06-01'
+    tla: PC2
+    variations: []
+    wizards_id: 271239
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=271239
+- PCA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Alan Pollack
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Planechase Anthology
+    number: 128
+    rarity: uncommon
+    release_date: '2016-11-25'
+    tla: PCA
+    variations: []
+    wizards_id: 423553
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423553
+- MIC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Alan Pollack
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Midnight Hunt Commander'
+    number: 183
+    rarity: uncommon
+    release_date: '2021-09-25'
+    tla: MIC
+    variations: []
+    wizards_id: 539444
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539444
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Alan Pollack
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 920
+    rarity: uncommon
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567737
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567737
+rarity: uncommon
 rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:T]]: Add [[symbol:U]] or [[symbol:B]].\
   \ Activate this ability only if you control a Swamp."
 slug: tainted-isle
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-blue
-  card-mana-colorless-sym card-type-land
+synonyms: []
 tapped_id: 4399
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/tainted-isle/
+url: https://tappedout.net/mtg-card/tainted-isle/
+

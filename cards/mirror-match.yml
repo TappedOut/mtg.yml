@@ -1,67 +1,88 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C15
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.81
 effective_cost:
 - U
-flat_cost: 6
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Tokens
 mana_cost: 4UU
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Mirror Match
 printings:
 - C15:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Steve Prescott
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2015
     number: 13
     rarity: uncommon
-    release_date: 2015-11-13
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
     wizards_id: 405301
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405301
+rarity: uncommon
 rules: "Cast Mirror Match only during the declare blockers step.\r\n\r\nFor each creature\
   \ attacking you or a planeswalker you control, put a token that's a copy of that\
   \ creature onto the battlefield blocking that creature. Exiles those tokens at end\
   \ of combat."
 slug: mirror-match
-tags: card-color-blue card-color-blue-cost-6 card-type-instant
+synonyms: []
 tapped_id: 17381
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Instant
-url: http://tappedout.net/mtg-card/mirror-match/
+url: https://tappedout.net/mtg-card/mirror-match/
+

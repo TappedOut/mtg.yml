@@ -2,37 +2,42 @@ activated_abilities:
 - ': Draw a card, then discard a card. If there are five or more cards in your graveyard,
   exile this, then return this to the battlefield transformed under this permanent''s
   owner''s control.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ORI
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 3.17
+draft_average: 2.23
 effective_cost:
 - U
-flat_cost: 2
 flip: Jace, Telepath Unbound
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_front: true
 is_mtgo: true
@@ -41,50 +46,82 @@ keywords:
 - Exile
 - Transform
 mana_cost: 1U
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Jace, Vryn's Prodigy
 power_toughness: 0/2
 printings:
-- V17:
-    alterations:
-    - Foil
-    booster_exclude: true
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: 'From the Vault: Transform'
-    number: 12
-    rarity: mythic_rare
-    release_date: 2017-11-24
-    wizards_id: 439335
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439335
 - ORI:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Jaime Jones
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"People''s thoughts just come to me. Sometimes I don''t know if
+      it''s them or me thinking."*'
     frame: m15
     mtgo_foil_id: 57881
     mtgo_id: 57880
     name: Magic Origins
     number: 60
     rarity: mythic_rare
-    release_date: 2015-06-17
+    release_date: '2015-06-17'
+    tla: ORI
+    variations: []
     wizards_id: 398434
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398434
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Wayne Reynolds
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- V17:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jaime Jones
+    booster_exclude: true
+    border_color: B
+    cannonical: false
+    flavour_text: '*"People''s thoughts just come to me. Sometimes I don''t know if
+      it''s them or me thinking."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'From the Vault: Transform'
+    number: 12
+    rarity: mythic_rare
+    release_date: '2017-11-24'
+    tla: V17
+    variations: []
+    wizards_id: 439335
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439335
 rules: '[[symbol:T]]: Draw a card, then discard a card. If there are five or more
   cards in your graveyard, exile this, then return this to the battlefield transformed
   under this permanent''s owner''s control.'
@@ -96,18 +133,23 @@ subtype_tokens:
 synonyms:
 - Baby Jace
 - Literal Actual Baby Jace
-tags: card-color-blue card-color-blue-cost-2 card-type-creature card-type-legendary
 tapped_id: 16928
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Jace, Vryn's Prodigy
-  power_toughness: null
-  rules: Whenever you cast a spell, target opponent mills 5 cards.
-  subtype: Jace
-  tla: ORI
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Whenever you cast a spell, target opponent mills 5 cards.
+    - - type
+      - Emblem
+    - - subtype
+      - 481
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Jace, Vryn's Prodigy
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/jace-vryns-prodigy/
+url: https://tappedout.net/mtg-card/jace-vryns-prodigy/
+

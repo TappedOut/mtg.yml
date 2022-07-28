@@ -4,36 +4,41 @@ activated_abilities:
 - ': Nicol Bolas, Planeswalker deals 7 damage to target player or planeswalker. That
   player or that planeswalker''s controller discards seven cards, then sacrifices
   seven permanents.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: E01
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.43
+draft_average: 1.25
 effective_cost:
 - U
 - B
 - R
-flat_cost: 8
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,74 +46,123 @@ keywords:
 - Sacrifice
 - Counters
 mana_cost: 4UBBR
-mana_cost_converted: 8
+mana_value: 8
+melds_from: []
 name: Nicol Bolas, Planeswalker
+planeswalker_loyalty: 5
 printings:
-- GRNMED:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Guilds of Ravnica: Mythic Edition'
-    number: 4
-    rarity: mythic_rare
-    release_date: 2018-10-04
-    wizards_id: 456592
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456592
-- E01:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Archenemy: Nicol Bolas'
-    number: 85
-    rarity: mythic_rare
-    release_date: 2017-06-16
-    wizards_id: 430624
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430624
-- M13:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 45281
-    mtgo_id: 45280
-    name: Magic 2013
-    number: 199
-    rarity: mythic_rare
-    release_date: 2012-07-13
-    wizards_id: 260991
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=260991
-- DDH:
-    alterations:
-    - Foil
-    border_color: B
-    foil: foil
-    foil_only: true
-    frame: modern
-    mtgo_foil_id: 42185
-    name: 'Duel Decks: Ajani vs. Nicol Bolas'
-    number: 42
-    rarity: mythic_rare
-    release_date: 2011-09-02
-    wizards_id: 266154
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=266154
 - CON:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: D. Alexander Gregory
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 31910
     mtgo_id: 31909
     name: Conflux
     number: 120
     rarity: mythic_rare
-    release_date: 2009-02-06
+    release_date: '2009-02-06'
+    tla: CON
+    variations: []
     wizards_id: 179441
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=179441
+- DDH:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Izzy
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 42185
+    mtgo_id: null
+    name: 'Duel Decks: Ajani vs. Nicol Bolas'
+    number: 42
+    rarity: mythic_rare
+    release_date: '2011-09-02'
+    tla: DDH
+    variations: []
+    wizards_id: 266154
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=266154
+- M13:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: D. Alexander Gregory
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 45281
+    mtgo_id: 45280
+    name: Magic 2013
+    number: 199
+    rarity: mythic_rare
+    release_date: '2012-07-13'
+    tla: M13
+    variations: []
+    wizards_id: 260991
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=260991
+- E01:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Archenemy: Nicol Bolas'
+    number: 85
+    rarity: mythic_rare
+    release_date: '2017-06-16'
+    tla: E01
+    variations: []
+    wizards_id: 430624
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430624
+- GRNMED:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Slawomir Maniak
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Guilds of Ravnica: Mythic Edition'
+    number: 4
+    rarity: mythic_rare
+    release_date: '2018-10-04'
+    tla: GRNMED
+    variations: []
+    wizards_id: 456592
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456592
+rarity: mythic_rare
 rules: "[[loyalty-plus3]]: Destroy target noncreature permanent.\r\n\r\n[[loyalty-minus2]]:\
   \ Gain control of target creature.\r\n\r\n[[loyalty-minus9]]: Nicol Bolas, Planeswalker\
   \ deals 7 damage to target player or planeswalker. That player or that planeswalker's\
@@ -117,8 +171,9 @@ slug: nicol-bolas-planeswalker
 subtype: Bolas
 subtype_tokens:
 - Bolas
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-8 card-color-red
-  card-type-planeswalker
+synonyms: []
 tapped_id: 10247
+tokens: []
 type: Planeswalker
-url: http://tappedout.net/mtg-card/nicol-bolas-planeswalker/
+url: https://tappedout.net/mtg-card/nicol-bolas-planeswalker/
+

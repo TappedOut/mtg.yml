@@ -1,57 +1,75 @@
 activated_abilities:
 - '(Black), Tap, Discard a card: Put a 1/1 black Zombie Goblin creature token named
   Festering Goblin into play with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: FUT
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.0
+draft_average: 5.5
 effective_cost:
 - B
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 1B
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Skirk Ridge Exhumer
 power_toughness: 1/1
 printings:
 - FUT:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Michael Phillippi
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 26667
     mtgo_id: 26666
     name: Future Sight
     number: 77
     rarity: uncommon
-    release_date: 2007-05-04
+    release_date: '2007-05-04'
+    tla: FUT
+    variations: []
     wizards_id: 130314
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=130314
+rarity: uncommon
 rules: '(Black), Tap, Discard a card: Put a 1/1 black Zombie Goblin creature token
   named Festering Goblin into play with "When Festering Goblin is put into a graveyard
   from play, target creature gets -1/-1 until end of turn."'
@@ -60,18 +78,25 @@ subtype: Zombie Spellshaper
 subtype_tokens:
 - Zombie
 - Spellshaper
-tags: card-color-black card-color-black-cost-2 card-type-creature
+synonyms: []
 tapped_id: 765
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 1/1 B Token Creature Zombie Goblin
-  power_toughness: 1/1
-  rules: When Festering Goblin is put into a graveyard from the battlefield, target
-    creature gets -1/-1 until end of turn.
-  subtype: Zombie Goblin
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 1/1
+    - - rules
+      - When Festering Goblin is put into a graveyard from the battlefield, target
+        creature gets -1/-1 until end of turn.
+    - - type
+      - Token Creature
+    - - subtype
+      - 366
+    - - cannonical_type
+      - Creature
+    - - name
+      - null
 type: Creature
-url: http://tappedout.net/mtg-card/skirk-ridge-exhumer/
+url: https://tappedout.net/mtg-card/skirk-ridge-exhumer/
+

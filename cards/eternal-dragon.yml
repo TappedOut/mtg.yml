@@ -3,40 +3,44 @@ activated_abilities:
   your upkeep.'
 - 'Plainscycling  *(, Discard this card: Search your library for a Plains card, reveal
   it, put it into your hand, then shuffle your library.)*'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: AFC
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.97
+draft_average: 2.25
 effective_cost:
 - W
-flat_cost: 7
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Premodern
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Modern
+- Premodern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,83 +49,144 @@ keywords:
 - Cycling
 - Typecycling
 mana_cost: 5WW
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Eternal Dragon
 power_toughness: 5/5
 printings:
-- AFC:
+- SCG:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Justin Sweet
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 66
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: 18767
+    mtgo_id: 18766
+    name: Scourge
+    number: null
     rarity: rare
-    release_date: 2021-07-24
-    wizards_id: 532453
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532453
-- C20:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 88
-    rarity: rare
-    release_date: 2020-05-15
-    wizards_id: 482716
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482716
-- VMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: modern
-    mtgo_foil_id: 52596
-    mtgo_id: 52595
-    name: Vintage Masters
-    number: 26
-    rarity: rare
-    release_date: 2014-06-16
-    wizards_id: 382926
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382926
+    release_date: '2003-05-17'
+    tla: SCG
+    variations: []
+    wizards_id: 44398
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=44398
 - C13:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Rex
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 50811
     mtgo_id: 50810
     name: Commander 2013
     number: 10
     rarity: rare
-    release_date: 2013-11-01
+    release_date: '2013-11-01'
+    tla: C13
+    variations: []
     wizards_id: 376323
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376323
-- SCG:
+- VMA:
     alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: original
-    mtgo_foil_id: 18767
-    mtgo_id: 18766
-    name: Scourge
-    rarity: rare
-    release_date: 2003-05-17
-    wizards_id: 44398
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=44398
-- '000':
-    alterations:
-    - Foil
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Adam Rex
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 52596
+    mtgo_id: 52595
+    name: Vintage Masters
+    number: 26
+    rarity: rare
+    release_date: '2014-06-16'
+    tla: VMA
+    variations: []
+    wizards_id: 382926
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382926
+- '000':
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Adam Rex
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jesper Ejsing
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 88
+    rarity: rare
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: 482716
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482716
+- AFC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Justin Sweet
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 66
+    rarity: rare
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: 532453
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532453
+rarity: rare
 rules: "Flying\r\n\r\n[[symbol:3]][[symbol:W]][[symbol:W]]: Return this from your\
   \ graveyard to your hand. Activate this ability only during your upkeep.\r\n\r\n\
   Plainscycling [[symbol:2]] *([[symbol:2]], Discard this card: Search your library\
@@ -131,7 +196,9 @@ subtype: Dragon Spirit
 subtype_tokens:
 - Dragon
 - Spirit
-tags: card-color-white card-color-white-cost-7 card-type-creature
+synonyms: []
 tapped_id: 3576
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/eternal-dragon/
+url: https://tappedout.net/mtg-card/eternal-dragon/
+

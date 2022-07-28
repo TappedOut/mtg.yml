@@ -1,102 +1,146 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: UMA
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.68
+draft_average: 3.78
 effective_cost:
 - B
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Vintage
-has_activated_abilities: false
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Flashback
 - Tokens
 mana_cost: 2BB
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Moan of the Unhallowed
 printings:
+- ISD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Nils Hamm
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: 'For a ghoul, every village is a buffet and every disaster is a
+      reunion. '
+    frame: modern
+    mtgo_foil_id: 42491
+    mtgo_id: 42490
+    name: Innistrad
+    number: null
+    rarity: uncommon
+    release_date: '2011-09-30'
+    tla: ISD
+    variations: []
+    wizards_id: 227286
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=227286
+- DDQ:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Nils Hamm
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*For a ghoul, every village is a buffet and every disaster is a
+      reunion.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Blessed vs. Cursed'
+    number: 62
+    rarity: uncommon
+    release_date: '2016-02-26'
+    tla: DDQ
+    variations: []
+    wizards_id: 409638
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409638
 - UMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Nils Hamm
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*For a ghoul, every village is a buffet and every disaster is a
+      reunion.*'
     frame: m15
     mtgo_foil_id: 70288
     mtgo_id: 70287
     name: Ultimate Masters
     number: 107
     rarity: common
-    release_date: 2018-12-07
+    release_date: '2018-12-07'
+    tla: UMA
+    variations: []
     wizards_id: 456703
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456703
-- DDQ:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Duel Decks: Blessed vs. Cursed'
-    number: 62
-    rarity: uncommon
-    release_date: 2016-02-26
-    wizards_id: 409638
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409638
-- ISD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 42491
-    mtgo_id: 42490
-    name: Innistrad
-    rarity: uncommon
-    release_date: 2011-09-30
-    wizards_id: 227286
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=227286
+rarity: uncommon
 rules: "Create two 2/2 Zombie creature tokens.\r\n\r\nFlashback [[symbol:5]][[symbol:B]][[symbol:B]]\
   \ *(You may cast this card from your graveyard for its flashback cost. Then exile\
   \ it.)*"
 slug: moan-of-the-unhallowed
-tags: card-color-black card-color-black-cost-4 card-type-sorcery
+synonyms: []
 tapped_id: 13180
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: UMA
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Sorcery
-url: http://tappedout.net/mtg-card/moan-of-the-unhallowed/
+url: https://tappedout.net/mtg-card/moan-of-the-unhallowed/
+

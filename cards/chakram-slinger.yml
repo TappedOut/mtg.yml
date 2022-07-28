@@ -1,6 +1,6 @@
 activated_abilities:
 - ', : Chakram Slinger deals 2 damage to target player or planeswalker.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: BBD
@@ -8,6 +8,7 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -15,43 +16,56 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Partner
 mana_cost: 4R
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Chakram Slinger
 power_toughness: 2/4
 printings:
 - BBD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dmitry Burmak
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 68761
     mtgo_id: 68760
     name: Battlebond
     number: 16
     rarity: uncommon
-    release_date: 2018-06-08
+    release_date: '2018-06-08'
+    tla: BBD
+    variations: []
     wizards_id: 445984
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=445984
+rarity: uncommon
 rules: "Partner with Chakram Retriever *(When this creature enters the battlefield,\
   \ target player may put Chakram Retriever into their hand from their library, then\
   \ shuffle.)*\r\n\r\n[[symbol:R]], [[symbol:T]]: Chakram Slinger deals 2 damage to\
@@ -61,7 +75,9 @@ subtype: Human Warrior
 subtype_tokens:
 - Human
 - Warrior
-tags: card-color-red card-color-red-cost-5 card-type-creature
+synonyms: []
 tapped_id: 20354
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/chakram-slinger/
+url: https://tappedout.net/mtg-card/chakram-slinger/
+

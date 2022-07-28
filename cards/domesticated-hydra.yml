@@ -1,33 +1,37 @@
 activated_abilities:
 - ': Monstrosity X _(If this creature isn''t monsterous, put X +1/+1 counters on it
   and it becomes monsterous.)_'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: CN2
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.5
+draft_average: 5.91
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -36,31 +40,57 @@ keywords:
 - Monstrosity
 - Counters
 mana_cost: 2GG
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Domesticated Hydra
 power_toughness: 3/3
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: uncommon
-    release_date: 2020-03-14
 - CN2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mathis Kollros
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: _"Sit. Fetch. Devestate."_
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Conspiracy: Take the Crown'
     number: 63
     rarity: uncommon
-    release_date: 2016-08-26
+    release_date: '2016-08-26'
+    tla: CN2
+    variations: []
     wizards_id: 416820
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416820
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mathis Kollros
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: _"Sit. Fetch. Devestate."_
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: uncommon
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: uncommon
 rules: "[[X]][[G]][[G]][[G]]: Monstrosity X _(If this creature isn't monsterous, put\
   \ X +1/+1 counters on it and it becomes monsterous.)_\r\n\r\nAs long as Domesticated\
   \ Hydra is monsterous, it has trample."
@@ -68,7 +98,9 @@ slug: domesticated-hydra
 subtype: Hydra
 subtype_tokens:
 - Hydra
-tags: card-color-green card-color-green-cost-4 card-type-creature
+synonyms: []
 tapped_id: 18120
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/domesticated-hydra/
+url: https://tappedout.net/mtg-card/domesticated-hydra/
+

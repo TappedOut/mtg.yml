@@ -3,14 +3,16 @@ activated_abilities:
   your graveyard onto the battlefield under their control. It gains haste. Goad it.
   At the beginning of the next end step, exile it. *(Until your next turn, that creature
   attacks each combat if able and attacks a player other than you if able.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
@@ -18,20 +20,21 @@ effective_cost:
 - B
 - R
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
 - Penny Dreadful
-- Vintage
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,23 +44,31 @@ keywords:
 - Exile
 - Goad
 mana_cost: 1BRG
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: The Beamtown Bullies
 power_toughness: 4/4
 printings:
 - NCC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Tyler Jacobson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Streets of New Capenna: Commander'
     number: 6
     rarity: mythic_rare
-    release_date: 2022-04-30
+    release_date: '2022-04-30'
+    tla: NCC
     variations:
-    - alterations:
-      - Normal
-      identifier: '101'
+    - identifier: '101'
     wizards_id: 559708
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559708
 rules: "Vigilance, Haste\r\n\r\n[[symbol:T]]: Target opponent whose turn it is puts\
@@ -70,8 +81,9 @@ subtype: Ogre Warrior
 subtype_tokens:
 - Ogre
 - Warrior
-tags: card-color-black card-color-gold card-color-gold-cost-4 card-color-green card-color-red
-  card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 26451
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/the-beamtown-bullies/
+url: https://tappedout.net/mtg-card/the-beamtown-bullies/
+

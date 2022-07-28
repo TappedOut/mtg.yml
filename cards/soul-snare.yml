@@ -1,7 +1,7 @@
 activated_abilities:
 - ', Sacrifice this: Exile target creature that''s attacking you or a planeswalker
   you control.'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: MH2
@@ -9,33 +9,36 @@ cannonical_type: Enchantment
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 2.0
 effective_cost:
 - W
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,74 +46,134 @@ keywords:
 - Exile
 - Sacrifice
 mana_cost: W
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Soul Snare
 printings:
-- MH2:
+- CMD:
     alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Modern Horizons 2
-    number: 266
-    rarity: uncommon
-    release_date: 2021-06-18
-    variations:
-    - alterations:
-      - Etched
-      - Foil
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: '387'
-    wizards_id: 526237
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=526237
-- C21:
-    alterations:
-    - Normal
+    artist: Carl Critchlow
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 104
+    cannonical: true
+    flavour_text: "\"Body and spirit are sworn enemies.  They will take any excuse\
+      \ to be rid of each other.\"\r\n- Tariel, Reckoner of Souls"
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 40469
+    name: 'MTG: Commander'
+    number: null
     rarity: uncommon
-    release_date: 2021-04-23
-- C18:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2018
-    number: 76
-    rarity: uncommon
-    release_date: 2018-08-10
-    wizards_id: 451031
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451031
+    release_date: '2011-06-17'
+    tla: CMD
+    variations: []
+    wizards_id: 238136
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=238136
 - CM1:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: null
     booster_exclude: true
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander Anthology
     number: 24
     rarity: uncommon
-    release_date: 2017-06-09
-- CMD:
+    release_date: '2017-06-09'
+    tla: CM1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C18:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Carl Critchlow
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_id: 40469
-    name: 'MTG: Commander'
+    cannonical: true
+    flavour_text: "*\"Body and spirit are sworn enemies. They will take any excuse\
+      \ to be rid of each other.\"\r\n<br>&mdash;Tariel, Reckoner of Souls*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2018
+    number: 76
     rarity: uncommon
-    release_date: 2011-06-17
-    wizards_id: 238136
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=238136
+    release_date: '2018-08-10'
+    tla: C18
+    variations: []
+    wizards_id: 451031
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451031
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Carl Critchlow
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Body and spirit are sworn enemies. They will take any excuse\
+      \ to be rid of each other.\"\r\n<br>&mdash;Tariel, Reckoner of Souls*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 104
+    rarity: uncommon
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- MH2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Evyn Fong
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Shackle the body, and the anguish lasts only until death. Shackle\
+      \ the soul, and the wicked can be punished for eternity.\"\r\n<br>&mdash;Inquisitor\
+      \ Laerin*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Modern Horizons 2
+    number: 266
+    rarity: uncommon
+    release_date: '2021-06-18'
+    tla: MH2
+    variations:
+    - identifier: '387'
+    wizards_id: 526237
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=526237
+rarity: uncommon
 rules: '[[symbol:W]], Sacrifice this: Exile target creature that''s attacking you
   or a planeswalker you control.'
 slug: soul-snare
-tags: card-color-white card-color-white-cost-1 card-type-enchantment
+synonyms: []
 tapped_id: 13073
+tokens: []
 type: Enchantment
-url: http://tappedout.net/mtg-card/soul-snare/
+url: https://tappedout.net/mtg-card/soul-snare/
+

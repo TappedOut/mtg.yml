@@ -1,43 +1,47 @@
 activated_abilities:
 - ': Create a 1/1 white Cat Bird creature token with flying.'
-activation_costs:
+activated_costs:
 - U
 - W
 canadian_hl_score: 0
 cannonical_set: IKO
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 3.3
+draft_average: 1.94
 effective_cost:
 - W
 - U
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,34 +49,45 @@ keywords:
 - Flying
 - Tokens
 mana_cost: WU
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Skycat Sovereign
 power_toughness: 1/1
 printings:
 - IKO:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Slawomir Maniak
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*The bounty on its head is as old as Skysail, but no one has ever
+      tried to collect.*'
     frame: m15
     mtgo_foil_id: 80424
     mtgo_id: 80423
     name: 'Ikoria: Lair of Behemoths'
     number: 207
     rarity: rare
-    release_date: 2020-04-15
+    release_date: '2020-04-15'
+    tla: IKO
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '344'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '344'
+    - identifier: PromoPack
     wizards_id: 479727
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479727
 rules: "Flying\r\n\r\nSkycat Sovereign gets +1/+1 for each other creature you control\
@@ -83,18 +98,24 @@ subtype: Elemental Cat
 subtype_tokens:
 - Elemental
 - Cat
-tags: card-color-blue card-color-gold card-color-gold-cost-2 card-color-white card-type-creature
+synonyms: []
 tapped_id: 22832
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Cat Bird 1/1 W
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Cat Bird
-  tla: IKO
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 1486
+    - - cannonical_type
+      - Creature
+    - - name
+      - Cat Bird 1/1 W
 type: Creature
-url: http://tappedout.net/mtg-card/skycat-sovereign/
+url: https://tappedout.net/mtg-card/skycat-sovereign/
+

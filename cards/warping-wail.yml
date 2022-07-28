@@ -1,80 +1,102 @@
 activated_abilities:
 - '- Put a 1/1 colourless Eldrazi Scion creature token onto the battlefield. It has
   "Sacrifice this creature: Add  to your mana pool.'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: OGW
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 2
+cube_average: 9.09
+draft_average: 7.53
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
-is_permanent: false
 keywords:
 - Counterspell
 - Exile
 - Sacrifice
 - Tokens
 mana_cost: 1C
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Warping Wail
 printings:
 - OGW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Felix
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 59608
     mtgo_id: 59607
     name: Oath of the Gatewatch
     number: 12
     rarity: uncommon
-    release_date: 2016-01-22
+    release_date: '2016-01-22'
+    tla: OGW
+    variations: []
     wizards_id: 407522
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407522
+rarity: uncommon
 rules: "*([[symbol:C]] represents colourless mana.)\r\n\r\nChoose one &mdash;\r\n\r\
   \n- Exile target creature with power or toughness 1 or less.\r\n- Counter target\
   \ sorcery spell.\r\n- Put a 1/1 colourless Eldrazi Scion creature token onto the\
   \ battlefield. It has \"Sacrifice this creature: Add [[symbol:C]] to your mana pool."
 slug: warping-wail
-tags: card-color-colorless card-color-colorless-cost-2 card-color-colorless-sym card-type-instant
+synonyms: []
 tapped_id: 17428
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Eldrazi Scion 1/1 C
-  power_toughness: 1/1
-  rules: 'Sacrifice this creature: Add [[symbol:C]].'
-  subtype: Eldrazi Scion
-  tla: OGW
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - 'Sacrifice this creature: Add [[symbol:C]].'
+    - - type
+      - Token Creature
+    - - subtype
+      - 1091
+    - - cannonical_type
+      - Creature
+    - - name
+      - Eldrazi Scion 1/1 C
 type: Instant
-url: http://tappedout.net/mtg-card/warping-wail/
+url: https://tappedout.net/mtg-card/warping-wail/
+

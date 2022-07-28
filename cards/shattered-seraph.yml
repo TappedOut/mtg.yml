@@ -2,7 +2,7 @@ activated_abilities:
 - ', Exile Shattered Seraph from your hand: Target land gains  until Shattered Seraph
   is cast from exile. You may cast Shattered Seraph for as long as Shattered Seraph
   remains exiled.'
-activation_costs:
+activated_costs:
 - B
 - U
 - W
@@ -12,6 +12,7 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -21,33 +22,34 @@ effective_cost:
 - W
 - U
 - B
-flat_cost: 7
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Penny Dreadful
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -55,29 +57,36 @@ keywords:
 - Flying
 - Exile
 mana_cost: 4WUB
-mana_cost_converted: 7
 mana_produced: W, U, B
+mana_value: 7
+melds_from: []
 name: Shattered Seraph
 power_toughness: 4/4
 printings:
 - SNC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Bastein L. Deharme
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Streets of New Capenna
     number: 221
     rarity: common
-    release_date: 2022-04-29
+    release_date: '2022-04-29'
+    tla: SNC
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '333'
-    - alterations:
-      - Foil
-      identifier: '398'
+    - identifier: '333'
+    - identifier: '398'
     wizards_id: 555422
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=555422
 rules: "Flying\r\n\r\nWhen Shattered Seraph enters the battlefield, you gain 3 life.\r\
@@ -90,8 +99,9 @@ subtype: Angel Rogue
 subtype_tokens:
 - Angel
 - Rogue
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-7 card-color-white
-  card-mana-black card-mana-blue card-mana-white card-type-creature
+synonyms: []
 tapped_id: 26260
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/shattered-seraph/
+url: https://tappedout.net/mtg-card/shattered-seraph/
+

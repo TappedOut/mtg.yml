@@ -1,30 +1,33 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - B
-flat_cost: 4
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
 - Penny Dreadful
-- Vintage
-has_activated_abilities: false
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -32,24 +35,34 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 3B
-mana_cost_converted: 4
 mana_produced: W, U, B, R, G
+mana_value: 4
+melds_from: []
 name: Misfortune Teller
 power_toughness: 3/1
 printings:
 - NCC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Nils Hamm
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Streets of New Capenna: Commander'
     number: 38
     rarity: rare
-    release_date: 2022-04-30
+    release_date: '2022-04-30'
+    tla: NCC
     variations:
-    - alterations:
-      - Normal
-      identifier: '139'
+    - identifier: '139'
+    wizards_id: null
+    wizards_url: null
 rules: "Deathtouch\r\n\r\nWhenever this enter the battlefield or deals combat damage\
   \ to a player, exile target card from a graveyard. If it was a creature, create\
   \ a 2/2 black Rogue creature token. If it was a land card, create a Treasure token.\
@@ -60,29 +73,39 @@ subtype: Human Warlock
 subtype_tokens:
 - Human
 - Warlock
-tags: card-color-black card-color-black-cost-4 card-mana-black card-mana-blue card-mana-green
-  card-mana-red card-mana-white card-type-creature
+synonyms: []
 tapped_id: 26416
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Rogue 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Rogue
-  tla: SNC
-  type: Token Creature
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: 2X2
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 503
+    - - cannonical_type
+      - Creature
+    - - name
+      - Rogue 2/2 B
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Creature
-url: http://tappedout.net/mtg-card/misfortune-teller/
+url: https://tappedout.net/mtg-card/misfortune-teller/
+

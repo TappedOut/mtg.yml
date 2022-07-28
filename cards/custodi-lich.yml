@@ -1,60 +1,91 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.99
+draft_average: 1.67
 effective_cost:
 - B
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
 mana_cost: 3BB
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Custodi Lich
 power_toughness: 4/2
 printings:
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 244
-    rarity: rare
-    release_date: 2022-04-30
-    wizards_id: 559816
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559816
 - CN2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eastick l. Dellarme
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: _"Keeping order is a task too important to reliquish in death."
+      - Abrado, Custodi priest_
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Conspiracy: Take the Crown'
     number: 41
     rarity: rare
-    release_date: 2016-08-26
+    release_date: '2016-08-26'
+    tla: CN2
+    variations: []
     wizards_id: 416798
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416798
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Bastein L. Deharme
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "_\"Keeping order is a task too important to relinquish in death.\"\
+      \r\n<br>&mdash;Abrado, Custodi priest_"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 244
+    rarity: rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559816
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559816
+rarity: rare
 rules: "When this the battlefield, you become the monarch. \r\n\r\nWhenever you become\
   \ the monarch, target player sacrifices a creature."
 slug: custodi-lich
@@ -62,18 +93,25 @@ subtype: Zombie Cleric
 subtype_tokens:
 - Zombie
 - Cleric
-tags: card-color-black card-color-black-cost-5 card-type-creature
+synonyms: []
 tapped_id: 18136
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Monarch Emblem
-  power_toughness: null
-  rules: "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
-    \ deals combat damage to you, its controller becomes the monarch."
-  tla: AFC
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
+        \ deals combat damage to you, its controller becomes the monarch."
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Monarch Emblem
 type: Creature
-url: http://tappedout.net/mtg-card/custodi-lich/
+url: https://tappedout.net/mtg-card/custodi-lich/
+

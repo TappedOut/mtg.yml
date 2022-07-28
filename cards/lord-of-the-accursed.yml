@@ -1,7 +1,7 @@
 activated_abilities:
 - ', : All Zombies gain menace until end of turn. *(They can''t be blocked except
   by two or more creatures.)*'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: MIC
@@ -9,101 +9,157 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.42
+draft_average: 3.49
 effective_cost:
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Menace
 mana_cost: 2B
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Lord of the Accursed
 power_toughness: 2/3
 printings:
-- MIC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Midnight Hunt Commander'
-    number: 124
-    rarity: uncommon
-    release_date: 2021-09-25
-    wizards_id: 539385
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539385
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: uncommon
-    release_date: 2020-03-14
-- GN2:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Game Night 2019
-    number: 32
-    rarity: uncommon
-    release_date: 2019-11-15
-    wizards_id: 476098
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476098
-- GNT:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Magic Game Night
-    number: 33
-    rarity: uncommon
-    release_date: 2018-11-16
-    wizards_id: 456553
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456553
 - AKH:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Grzegorz Rutkowski
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: _The Curse of Wandering leaves only hatred._
     frame: m15
     mtgo_foil_id: 63801
     mtgo_id: 63800
     name: Amonkhet
     number: 99
     rarity: uncommon
-    release_date: 2017-04-28
+    release_date: '2017-04-28'
+    tla: AKH
+    variations: []
     wizards_id: 426801
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426801
+- GNT:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Grzegorz Rutkowski
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*The Curse of the Wandering leaves only hatred.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Magic Game Night
+    number: 33
+    rarity: uncommon
+    release_date: '2018-11-16'
+    tla: GNT
+    variations: []
+    wizards_id: 456553
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456553
+- GN2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Grzegorz Rutkowski
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*The Curse of Wandering leaves only hatred.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Game Night 2019
+    number: 32
+    rarity: uncommon
+    release_date: '2019-11-15'
+    tla: GN2
+    variations: []
+    wizards_id: 476098
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476098
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Grzegorz Rutkowski
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: _The Curse of Wandering leaves only hatred._
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: uncommon
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- MIC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Grzegorz Rutkowski
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: _The Curse of Wandering leaves only hatred._
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Midnight Hunt Commander'
+    number: 124
+    rarity: uncommon
+    release_date: '2021-09-25'
+    tla: MIC
+    variations: []
+    wizards_id: 539385
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539385
+rarity: uncommon
 rules: "Other Zombies you control get +1/+1. \r\n\r\n[[symbol:1]][[symbol:B]], [[symbol:T]]:\
   \ All Zombies gain menace until end of turn. *(They can't be blocked except by two\
   \ or more creatures.)*"
@@ -111,7 +167,9 @@ slug: lord-of-the-accursed
 subtype: Zombie
 subtype_tokens:
 - Zombie
-tags: card-color-black card-color-black-cost-3 card-type-creature
+synonyms: []
 tapped_id: 18827
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/lord-of-the-accursed/
+url: https://tappedout.net/mtg-card/lord-of-the-accursed/
+

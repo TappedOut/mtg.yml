@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DIS
 cannonical_type: Sorcery
@@ -10,47 +12,61 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 11.38
+draft_average: 10.5
 effective_cost:
 - W
 - U
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: XGW // 1WU
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Supply / Demand
 printings:
 - DIS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daren Bader
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 24370
     mtgo_id: 24369
     name: Dissension
+    number: null
     rarity: uncommon
-    release_date: 2006-05-05
+    release_date: '2006-05-05'
+    tla: DIS
+    variations: []
     wizards_id: 107464
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=107464
+rarity: uncommon
 rules: "<h4>Supply:</h4>\r\n\r\nCreate X 1/1 green Saproling creature tokens.\r\n\r\
   \n-----\r\n\r\n<h4>Demand:</h4>\r\n\r\nSearch your library for a multicolored card,\
   \ reveal it, and put it into your hand. Then shuffle your library."
@@ -64,19 +80,23 @@ synonyms:
 - Demand / Supply
 - Demand and Supply
 - Demand to Supply
-tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-green card-color-white
-  card-type-sorcery
 tapped_id: 1678
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Saproling 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Saproling
-  tla: 2X2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 893
+    - - cannonical_type
+      - Creature
+    - - name
+      - Saproling 1/1 G
 type: Sorcery
-url: http://tappedout.net/mtg-card/supply-demand/
+url: https://tappedout.net/mtg-card/supply-demand/
+

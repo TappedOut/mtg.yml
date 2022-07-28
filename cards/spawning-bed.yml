@@ -2,7 +2,7 @@ activated_abilities:
 - ': Add  to your mana pool.'
 - ', , Sacrifice Spawning Bed: Create three 1/1 colorless Eldrazi Scion creature tokens.
   They have "Sacrifice this creature: Add  to your mana pool.'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: BFZ
@@ -18,23 +18,27 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 12.08
+draft_average: 5.91
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -42,40 +46,59 @@ is_permanent: true
 keywords:
 - Sacrifice
 - Tokens
-mana_cost_converted: 0
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Spawning Bed
 printings:
 - BFZ:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Felix
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Young Eldrazi crawl forth from the dust, compelled by a greater
+      will.*'
     frame: m15
     mtgo_foil_id: 58728
     mtgo_id: 58727
     name: Battle for Zendikar
     number: 248
     rarity: uncommon
-    release_date: 2015-10-02
+    release_date: '2015-10-02'
+    tla: BFZ
+    variations: []
     wizards_id: 402046
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=402046
+rarity: uncommon
 rules: "[[symbol:T]]: Add [[symbol:C]] to your mana pool.\r\n\r\n[[symbol:6]], [[symbol:T]],\
   \ Sacrifice Spawning Bed: Create three 1/1 colorless Eldrazi Scion creature tokens.\
   \ They have \"Sacrifice this creature: Add [[symbol:C]] to your mana pool."
 slug: spawning-bed
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
+synonyms: []
 tapped_id: 17222
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Eldrazi Scion 1/1 C
-  power_toughness: 1/1
-  rules: 'Sacrifice this creature: Add [[symbol:C]].'
-  subtype: Eldrazi Scion
-  tla: BFZ
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - 'Sacrifice this creature: Add [[symbol:C]].'
+    - - type
+      - Token Creature
+    - - subtype
+      - 1091
+    - - cannonical_type
+      - Creature
+    - - name
+      - Eldrazi Scion 1/1 C
 type: Land
-url: http://tappedout.net/mtg-card/spawning-bed/
+url: https://tappedout.net/mtg-card/spawning-bed/
+

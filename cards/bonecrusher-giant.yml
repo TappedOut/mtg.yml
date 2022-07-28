@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: CLB
@@ -6,81 +7,104 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.09
+draft_average: 3.05
 effective_cost:
 - R
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
 - Adventure
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Bonecrusher Giant
 power_toughness: 4/3
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 781
-    rarity: rare
-    release_date: 2022-06-10
 - ELD:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Victor Adame Minguez
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Not every tale ends in glory.*'
     frame: m15
     mtgo_foil_id: 78353
     mtgo_id: 78352
     name: Throne of Eldraine
     number: 115
     rarity: rare
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      - The List
-      identifier: '291'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '291'
+    - identifier: PromoPack
     wizards_id: 473077
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=473077
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Victor Adame Minguez
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: '*Not every tale ends in glory.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 781
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Whenever Bonecrusher Giant becomes the target of a spell, Bonecrusher Giant\
   \ deals 2 damage to that spell's controller.\r\n\r\n<br>\r\n\r\n*(You may cast Bonecrusher\
   \ Giant from exile if you sent it on an adventure.)*\r\n\r\n-----\r\n\r\n<h3>Stomp</h3>\r\
@@ -103,7 +127,8 @@ synonyms:
 - Bonecrusher Giant/Stomp
 - Stomp/Bonecrusher Giant
 - Stomp / Bonecrusher Giant
-tags: card-color-red card-color-red-cost-3 card-type-creature
 tapped_id: 22103
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/bonecrusher-giant/
+url: https://tappedout.net/mtg-card/bonecrusher-giant/
+

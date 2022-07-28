@@ -4,7 +4,7 @@ activated_abilities:
 - '{{G}}: Thornling is indestructible this turn.'
 - '{{1}}: Thornling gets +1/-1 until end of turn.'
 - '{{1}}: Thornling gets -1/+1 until end of turn.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: CON
@@ -12,28 +12,32 @@ cannonical_type: Creature
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.05
+draft_average: 1.0
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,24 +46,36 @@ keywords:
 - Indestructible
 - Trample
 mana_cost: 3GG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Thornling
 power_toughness: 4/4
 printings:
 - CON:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kev Walker
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 31810
     mtgo_id: 31809
     name: Conflux
     number: 95
     rarity: mythic_rare
-    release_date: 2009-02-06
+    release_date: '2009-02-06'
+    tla: CON
+    variations: []
     wizards_id: 180341
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=180341
+rarity: mythic_rare
 rules: "{{G}}: Thornling gains haste until end of turn.\r\n\r\n{{G}}: Thornling gains\
   \ trample until end of turn.\r\n\r\n{{G}}: Thornling is indestructible this turn.\r\
   \n\r\n{{1}}: Thornling gets +1/-1 until end of turn.\r\n\r\n{{1}}: Thornling gets\
@@ -69,7 +85,9 @@ subtype: Elemental Shapeshifter
 subtype_tokens:
 - Elemental
 - Shapeshifter
-tags: card-color-green card-color-green-cost-5 card-type-creature
+synonyms: []
 tapped_id: 10284
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/thornling/
+url: https://tappedout.net/mtg-card/thornling/
+

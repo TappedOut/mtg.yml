@@ -1,14 +1,12 @@
 activated_abilities:
 - '*(: Add  or .)*'
-activation_costs:
+activated_costs:
 - G
 - U
 canadian_hl_score: 0
 cannonical_set: RNA
 cannonical_type: Land
-color_identity:
-- U
-- G
+color_identity: GU
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -20,122 +18,195 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 7.21
+draft_average: 3.48
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: G, U
+mana_value: 0
+melds_from: []
 name: Breeding Pool
 printings:
-- UNF:
+- DIS:
     alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Unfinity
-    number: 286
-    rarity: rare
-    release_date: 2022-10-07
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 132
-    rarity: rare
-    release_date: 2019-12-09
-- RNA:
-    alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 71533
-    mtgo_id: 71532
-    name: Ravnica Allegiance
-    number: 246
-    rarity: rare
-    release_date: 2019-01-25
-    variations:
-    - alterations:
-      - Foil
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: PromoPack
-    wizards_id: 457390
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=457390
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Rob Alexander
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 24030
+    mtgo_id: 24029
+    name: Dissension
+    number: null
+    rarity: rare
+    release_date: '2006-05-05'
+    tla: DIS
+    variations: []
+    wizards_id: 97088
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=97088
+- GTC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mike Bierek
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Uncharted depths. Unbounded hopes. Unfathomable mystery.
+    frame: modern
+    mtgo_foil_id: 47476
+    mtgo_id: 47475
+    name: Gatecrash
+    number: null
+    rarity: rare
+    release_date: '2013-02-01'
+    tla: GTC
+    variations: []
+    wizards_id: 366291
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=366291
 - EXP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Noah Bradley
+    booster_exclude: false
     border_color: B
     cannonical: false
-    foil: foil
-    foil_only: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 58876
     mtgo_id: 58875
     name: Zendikar Expeditions
     number: 15
     rarity: mythic_rare
-    release_date: 2015-10-03
+    release_date: '2015-10-03'
+    tla: EXP
+    variations: []
     wizards_id: 405095
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405095
-- GTC:
+- RNA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Jenn Ravenna
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 47476
-    mtgo_id: 47475
-    name: Gatecrash
+    cannonical: true
+    flavour_text: "*\"One beginning, many paths.\"\r\n<br>&mdash;Vannifar*"
+    frame: m15
+    mtgo_foil_id: 71533
+    mtgo_id: 71532
+    name: Ravnica Allegiance
+    number: 246
     rarity: rare
-    release_date: 2013-02-01
-    wizards_id: 366291
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=366291
-- DIS:
+    release_date: '2019-01-25'
+    tla: RNA
+    variations:
+    - identifier: PromoPack
+    wizards_id: 457390
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=457390
+- SLD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Aleksi Briclot
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 24030
-    mtgo_id: 24029
-    name: Dissension
+    cannonical: false
+    flavour_text: '*"Where Jin-Gitaxia''s ingenuity meets Vorinc;ex''s inhumanity.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 132
     rarity: rare
-    release_date: 2006-05-05
-    wizards_id: 97088
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=97088
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- UNF:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Bruce Brenneise
+    booster_exclude: true
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Unfinity
+    number: 286
+    rarity: rare
+    release_date: '2022-10-07'
+    tla: UNF
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "*([[symbol:T]]: Add [[symbol:G]] or [[symbol:U]].)*\r\n\r\nAs this enters\
   \ the battlefield, you may pay 2 life. If you don't, this enters the battlefield\
   \ tapped."
@@ -151,8 +222,8 @@ synonyms:
 - UG Shockland
 - GU Shock Land
 - UG Shock Land
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-blue card-mana-green
-  card-type-land
 tapped_id: 1548
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/breeding-pool/
+url: https://tappedout.net/mtg-card/breeding-pool/
+

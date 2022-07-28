@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Gain .'
 - ', Sacrifice a creature: You gain 1 life.'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: AFC
@@ -17,125 +17,205 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 11.6
+draft_average: 10.43
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Premodern
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Historic
+- Gladiator
+- Premodern
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
-mana_cost_converted: 0
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: High Market
 printings:
-- AFC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 246
-    rarity: rare
-    release_date: 2021-07-24
-    wizards_id: 532633
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532633
-- C21:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 293
-    rarity: rare
-    release_date: 2021-04-23
-    wizards_id: 519328
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519328
-- 2XM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 321
-    rarity: rare
-    release_date: 2020-08-07
-- CM1:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology
-    number: 257
-    rarity: rare
-    release_date: 2017-06-09
-    wizards_id: 430476
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430476
-- C15:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2015
-    number: 289
-    rarity: rare
-    release_date: 2015-11-13
-    wizards_id: 405257
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405257
-- V12:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: modern
-    mtgo_foil_id: 46241
-    mtgo_id: 46240
-    name: 'From the Vault: Realms'
-    rarity: mythic_rare
-    release_date: 2012-08-31
-    wizards_id: 287336
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=287336
 - MMQ:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Carl Critchlow
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 13152
     mtgo_id: 13151
     name: Mercadian Masques
+    number: null
     rarity: rare
-    release_date: 1999-10-04
+    release_date: '1999-10-04'
+    tla: MMQ
+    variations: []
     wizards_id: 19890
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=19890
+- V12:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Carl Critchlow
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: If it can't be had here, it can't be had on any world.
+    frame: modern
+    mtgo_foil_id: 46241
+    mtgo_id: 46240
+    name: 'From the Vault: Realms'
+    number: null
+    rarity: mythic_rare
+    release_date: '2012-08-31'
+    tla: V12
+    variations: []
+    wizards_id: 287336
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=287336
+- C15:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Carl Critchlow
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*If it can''t be had here, it can''t be had on any world.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2015
+    number: 289
+    rarity: rare
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
+    wizards_id: 405257
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405257
+- CM1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Carl Critchlow
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: If it can't be had here, it can't be had in any world.
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology
+    number: 257
+    rarity: rare
+    release_date: '2017-06-09'
+    tla: CM1
+    variations: []
+    wizards_id: 430476
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430476
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Carl Critchlow
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*If it can''t be had here, it can''t be had on any world.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 321
+    rarity: rare
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Carl Critchlow
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*If it can''t be had here, it can''t be had on any world.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 293
+    rarity: rare
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519328
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519328
+- AFC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Carl Critchlow
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*If it can''t be had here, it can''t be had on any world.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 246
+    rarity: rare
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: 532633
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532633
+rarity: mythic_rare
 rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:T]], Sacrifice a creature:\
   \ You gain 1 life."
 slug: high-market
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
+synonyms: []
 tapped_id: 5743
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/high-market/
+url: https://tappedout.net/mtg-card/high-market/
+

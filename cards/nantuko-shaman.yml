@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: IMA
@@ -6,32 +7,35 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 11.5
+draft_average: 10.06
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -40,62 +44,108 @@ keywords:
 - Suspend
 - Counters
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Nantuko Shaman
 power_toughness: 3/2
 printings:
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 221
-    rarity: common
-    release_date: 2021-03-19
-    wizards_id: 509586
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509586
-- IMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 66232
-    mtgo_id: 66231
-    name: Iconic Masters
-    rarity: common
-    release_date: 2017-11-17
-    wizards_id: 438742
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438742
-- MMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 49037
-    mtgo_id: 49036
-    name: Modern Masters
-    rarity: common
-    release_date: 2013-06-07
-    wizards_id: 370484
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370484
 - TSP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daren Bader
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 25530
     mtgo_id: 25529
     name: Time Spiral
+    number: null
     rarity: common
-    release_date: 2006-10-06
+    release_date: '2006-10-06'
+    tla: TSP
+    variations: []
     wizards_id: 109726
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=109726
+- MMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daren Bader
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 49037
+    mtgo_id: 49036
+    name: Modern Masters
+    number: null
+    rarity: common
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
+    wizards_id: 370484
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370484
+- IMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daren Bader
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 66232
+    mtgo_id: 66231
+    name: Iconic Masters
+    number: null
+    rarity: common
+    release_date: '2017-11-17'
+    tla: IMA
+    variations: []
+    wizards_id: 438742
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438742
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daren Bader
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 221
+    rarity: common
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509586
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509586
+rarity: common
 rules: "When Nantuko Shaman enters the battlefield, if you control no tapped lands,\
   \ draw a card.\r\n\r\nSuspend 1&mdash;[[symbol:2]][[symbol:G]][[symbol:G]] *(Rather\
   \ than cast this card from your hand, you may pay [[symbol:2]][[symbol:G]][[symbol:G]]\
@@ -107,7 +157,9 @@ subtype: Insect Shaman
 subtype_tokens:
 - Insect
 - Shaman
-tags: card-color-green card-color-green-cost-3 card-type-creature
+synonyms: []
 tapped_id: 1122
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/nantuko-shaman/
+url: https://tappedout.net/mtg-card/nantuko-shaman/
+

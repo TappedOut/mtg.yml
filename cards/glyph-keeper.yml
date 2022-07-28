@@ -1,64 +1,82 @@
 activated_abilities:
 - 'Embalm  (, Exile this card from your graveyard: Create a token that''s a copy of
   it, except it''s a white Zombie Sphinx with no mana cost. Embalm only as a sorcery.)'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: AKH
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.95
+draft_average: 1.74
 effective_cost:
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: 3UU
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Glyph Keeper
 power_toughness: 5/3
 printings:
 - AKH:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 63713
     mtgo_id: 63712
     name: Amonkhet
     number: 55
     rarity: rare
-    release_date: 2017-04-28
+    release_date: '2017-04-28'
+    tla: AKH
+    variations: []
     wizards_id: 426757
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426757
+rarity: rare
 rules: "Flying\r\n\r\nWhenever Glyph Keeper becomes the target of a spell or ability\
   \ for the first time each turn, counter that spell or ability.\r\n\r\nEmbalm [[symbol:5]][[symbol:U]][[symbol:U]]\
   \ ([[symbol:5]][[symbol:U]][[symbol:U]], Exile this card from your graveyard: Create\
@@ -68,19 +86,25 @@ slug: glyph-keeper
 subtype: Sphinx
 subtype_tokens:
 - Sphinx
-tags: card-color-blue card-color-blue-cost-5 card-type-creature
+synonyms: []
 tapped_id: 18901
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Glyph Keeper 5/3 W
-  power_toughness: 5/3
-  rules: "Flying\r\n\r\nWhenever this becomes the target of a spell or ability for\
-    \ the first time each turn, counter that spell or ability."
-  subtype: Zombie Sphinx
-  tla: AKH
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 5/3
+    - - rules
+      - "Flying\r\n\r\nWhenever this becomes the target of a spell or ability for\
+        \ the first time each turn, counter that spell or ability."
+    - - type
+      - Token Creature
+    - - subtype
+      - 1280
+    - - cannonical_type
+      - Creature
+    - - name
+      - Glyph Keeper 5/3 W
 type: Creature
-url: http://tappedout.net/mtg-card/glyph-keeper/
+url: https://tappedout.net/mtg-card/glyph-keeper/
+

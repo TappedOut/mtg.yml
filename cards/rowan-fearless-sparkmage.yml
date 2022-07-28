@@ -4,12 +4,14 @@ activated_abilities:
   Those creatures can''t block this turn.'
 - ': Gain control of all creatures until end of turn. Untap them. They gain haste
   until end of turn.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ELD
 cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -17,25 +19,26 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,25 +48,42 @@ keywords:
 - Tap/Untap
 - Counters
 mana_cost: 3RR
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Rowan, Fearless Sparkmage
+planeswalker_loyalty: 5
 printings:
 - ELD:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Zack Stella
     booster_exclude: true
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 78033
     mtgo_id: 78032
     name: Throne of Eldraine
     number: 304
     rarity: mythic_rare
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
+    variations: []
     wizards_id: 475922
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=475922
 rules: "[[symbol:loyalty-plus1]]: Up to one target creature gets +3/+0 and gains first\
@@ -75,7 +95,9 @@ slug: rowan-fearless-sparkmage
 subtype: Rowan
 subtype_tokens:
 - Rowan
-tags: card-color-red card-color-red-cost-5 card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 22014
+tokens: []
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/rowan-fearless-sparkmage/
+url: https://tappedout.net/mtg-card/rowan-fearless-sparkmage/
+

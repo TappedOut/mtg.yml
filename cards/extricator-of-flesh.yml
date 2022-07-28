@@ -1,11 +1,11 @@
 activated_abilities:
 - ', , Sacrifice a non-Eldrazi creature: Create a 3/2 colorless Eldrazi Horror creature
   token.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: EMN
 cannonical_type: Creature
-color_identity:
-- W
+color_identity: W
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -14,23 +14,27 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+draft_average: 5.95
+effective_cost: []
+flip: Extricator of Sin
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -38,25 +42,36 @@ keywords:
 - Vigilance
 - Sacrifice
 - Tokens
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Extricator of Flesh
 power_toughness: 3/5
 printings:
 - EMN:
     alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Craig J. Spearing
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*After the end, a new beginning.*'
     frame: m15
     mtgo_foil_id: 61287
     mtgo_id: 61286
     name: Eldritch Moon
     number: 23
     rarity: uncommon
-    release_date: 2016-07-22
+    release_date: '2016-07-22'
+    tla: EMN
+    variations: []
     wizards_id: 414314
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=414314
+rarity: uncommon
 rules: "Eldrazi you control have vigilance.\r\n\r\n[[symbol:2]], [[symbol:T]], Sacrifice\
   \ a non-Eldrazi creature: Create a 3/2 colorless Eldrazi Horror creature token."
 slug: extricator-of-flesh
@@ -64,18 +79,24 @@ subtype: Eldrazi Horror
 subtype_tokens:
 - Eldrazi
 - Horror
-tags: card-color-colorless card-color-colorless-cost-0 card-type-creature
+synonyms: []
 tapped_id: 18102
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Eldrazi Horror 3/2 C
-  power_toughness: 3/2
-  rules: ''
-  subtype: Eldrazi Horror
-  tla: EMN
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 3/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 1149
+    - - cannonical_type
+      - Creature
+    - - name
+      - Eldrazi Horror 3/2 C
 type: Creature
-url: http://tappedout.net/mtg-card/extricator-of-flesh/
+url: https://tappedout.net/mtg-card/extricator-of-flesh/
+

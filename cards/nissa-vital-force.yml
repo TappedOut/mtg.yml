@@ -3,38 +3,43 @@ activated_abilities:
   creature with haste. It''s still a land. '
 - ': Return target permanent card from your graveyard to your hand. '
 - ': You get an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: KLD
 cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.21
+draft_average: 1.36
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,41 +48,67 @@ keywords:
 - Tap/Untap
 - Counters
 mana_cost: 3GG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Nissa, Vital Force
+planeswalker_loyalty: 5
 printings:
 - KLD:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Clint Cearley
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 61590
     mtgo_id: 61589
     name: Kaladesh
     number: 163
     rarity: mythic_rare
-    release_date: 2016-09-30
+    release_date: '2016-09-30'
+    tla: KLD
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 417736
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417736
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Terese Nielsen
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Untap target land you control. Until your next turn,\
   \ it becomes a 5/5 Elemental creature with haste. It's still a land. \r\n\r\n[[symbol:loyalty-minus3]]:\
   \ Return target permanent card from your graveyard to your hand. \r\n\r\n[[symbol:loyalty-minus6]]:\
@@ -87,19 +118,25 @@ slug: nissa-vital-force
 subtype: Nissa
 subtype_tokens:
 - Nissa
-tags: card-color-green card-color-green-cost-5 card-type-planeswalker
+synonyms: []
 tapped_id: 18228
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Nissa, Vital Force
-  power_toughness: null
-  rules: Whenever a land enters the battlefield under your control, you may draw a
-    card.
-  subtype: Nissa
-  tla: KLD
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Whenever a land enters the battlefield under your control, you may draw a
+        card.
+    - - type
+      - Emblem
+    - - subtype
+      - 581
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Nissa, Vital Force
 type: Planeswalker
-url: http://tappedout.net/mtg-card/nissa-vital-force/
+url: https://tappedout.net/mtg-card/nissa-vital-force/
+

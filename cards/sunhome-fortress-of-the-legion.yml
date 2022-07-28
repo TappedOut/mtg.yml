@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Gain .'
 - ', : Target creature gains double strike until end of turn.'
-activation_costs:
+activated_costs:
 - C
 - R
 - W
@@ -19,89 +19,156 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 11.02
+draft_average: 4.4
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Double strike
-mana_cost_converted: 0
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Sunhome, Fortress of the Legion
 printings:
-- C21:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 319
-    rarity: uncommon
-    release_date: 2021-04-23
-    wizards_id: 519354
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519354
-- CMR:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: Commander Legends
-    number: 496
-    rarity: uncommon
-    release_date: 2020-11-20
-- GK1:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Guilds of Ravnica: Guild Kit'
-    number: 99
-    rarity: uncommon
-    release_date: 2018-11-02
-    wizards_id: 455776
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=455776
-- HOP:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    name: Planechase
-    rarity: uncommon
-    release_date: 2009-09-04
-    wizards_id: 205363
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=205363
 - RAV:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Martina Pilcerova
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Sunhomethe stalwart shield, the towering sentinel, the seat of justice.
     frame: modern
     mtgo_foil_id: 23457
     mtgo_id: 23456
     name: 'Ravnica: City of Guilds'
+    number: null
     rarity: uncommon
-    release_date: 2005-10-07
+    release_date: '2005-10-07'
+    tla: RAV
+    variations: []
     wizards_id: 83794
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=83794
+- HOP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Martina Pilcerova
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "Sunhome\u2014the stalwart shield, the towering sentinel, the seat\
+      \ of justice."
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Planechase
+    number: null
+    rarity: uncommon
+    release_date: '2009-09-04'
+    tla: HOP
+    variations: []
+    wizards_id: 205363
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=205363
+- GK1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Martina Pilcerova
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Sunhome&mdash;the stalwart shield, the towering sentinel, the
+      seat of justice.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Guilds of Ravnica: Guild Kit'
+    number: 99
+    rarity: uncommon
+    release_date: '2018-11-02'
+    tla: GK1
+    variations: []
+    wizards_id: 455776
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=455776
+- CMR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Martina Pilcerova
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: '*Sunhome; the stalwart shield, the towering sentinel, the seat
+      of justice.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Legends
+    number: 496
+    rarity: uncommon
+    release_date: '2020-11-20'
+    tla: CMR
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Martina Pilcerova
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Sunhome; the stalwart shield, the towering sentinel, the seat
+      of justice.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 319
+    rarity: uncommon
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519354
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519354
+rarity: uncommon
 rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:2]][[symbol:R]][[symbol:W]],\
   \ [[symbol:T]]: Target creature gains double strike until end of turn."
 slug: sunhome-fortress-of-the-legion
@@ -114,7 +181,8 @@ synonyms:
 - RW Guild Hall
 - WR Guild Hall
 - Boros Guild Hall
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
 tapped_id: 2110
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/sunhome-fortress-of-the-legion/
+url: https://tappedout.net/mtg-card/sunhome-fortress-of-the-legion/
+

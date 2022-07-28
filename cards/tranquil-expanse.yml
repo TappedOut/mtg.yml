@@ -1,11 +1,12 @@
 activated_abilities:
 - ': Gain  or .'
-activation_costs:
+activated_costs:
 - G
 - W
 canadian_hl_score: 0
 cannonical_set: C18
 cannonical_type: Land
+color_identity: ''
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -17,121 +18,196 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 12.18
+draft_average: 8.75
+effective_cost: []
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
+mana_cost: ''
 mana_produced: G, W
+mana_value: 0
+melds_from: []
 name: Tranquil Expanse
+power_toughness: ''
 printings:
-- C18:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2018
-    number: 289
-    rarity: uncommon
-    release_date: 2018-08-10
-    wizards_id: 451244
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451244
-- M19:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 68682
-    mtgo_id: 68681
-    name: Core Set 2019
-    number: 259
-    rarity: basic_land
-    release_date: 2018-07-13
-    wizards_id: 447396
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447396
-- C17:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2017
-    number: 286
-    rarity: uncommon
-    release_date: 2017-08-25
-    wizards_id: 433218
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433218
-- AKH:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 64235
-    mtgo_id: 64234
-    name: Amonkhet
-    rarity: common
-    release_date: 2017-04-28
-    wizards_id: 429678
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=429678
-- AER:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 63019
-    mtgo_id: 63018
-    name: Aether Revolt
-    number: 189
-    rarity: common
-    release_date: 2017-01-20
-    wizards_id: 425696
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425696
 - OGW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Cliff Childs
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Despite the chaos of the Roil and the devastation of the Eldrazi,
+      Zendikar is a world of breathtaking beauty.*'
     frame: m15
     mtgo_foil_id: 59452
     mtgo_id: 59451
     name: Oath of the Gatewatch
     number: 180
     rarity: uncommon
-    release_date: 2016-01-22
+    release_date: '2016-01-22'
+    tla: OGW
+    variations: []
     wizards_id: 407690
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407690
+- AER:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sam Burley
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: '*Beyond the chaos of Ghirapur lies a vibrant world where aether
+      flows through nature.*'
+    frame: m15
+    mtgo_foil_id: 63019
+    mtgo_id: 63018
+    name: Aether Revolt
+    number: 189
+    rarity: common
+    release_date: '2017-01-20'
+    tla: AER
+    variations: []
+    wizards_id: 425696
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425696
+- AKH:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sam Burley
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: Beyond the chaos of Ghirapur lies a vibrant world where aether flows
+      through nature.
+    frame: m15
+    mtgo_foil_id: 64235
+    mtgo_id: 64234
+    name: Amonkhet
+    number: null
+    rarity: common
+    release_date: '2017-04-28'
+    tla: AKH
+    variations: []
+    wizards_id: 429678
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=429678
+- C17:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Cliff Childs
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Despite the chaos of the Roil and the devastation of the Eldrazi,
+      Zendikar is a world of breathtaking beauty.
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2017
+    number: 286
+    rarity: uncommon
+    release_date: '2017-08-25'
+    tla: C17
+    variations: []
+    wizards_id: 433218
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433218
+- M19:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sam Burley
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Beyond the chaos of Ghirapur lies a vibrant world where aether
+      flows through nature.*'
+    frame: m15
+    mtgo_foil_id: 68682
+    mtgo_id: 68681
+    name: Core Set 2019
+    number: 259
+    rarity: basic_land
+    release_date: '2018-07-13'
+    tla: M19
+    variations: []
+    wizards_id: 447396
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447396
+- C18:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Cliff Childs
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Despite the chaos of the Roil and the devastation of the Eldrazi,
+      Zendikar is a world of breathtaking beauty.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2018
+    number: 289
+    rarity: uncommon
+    release_date: '2018-08-10'
+    tla: C18
+    variations: []
+    wizards_id: 451244
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451244
+rarity: uncommon
 rules: "Tranquil Expanse enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Gain\
   \ [[symbol:G]] or [[symbol:W]]."
 slug: tranquil-expanse
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-green card-mana-white
-  card-type-land
+synonyms: []
 tapped_id: 17433
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/tranquil-expanse/
+url: https://tappedout.net/mtg-card/tranquil-expanse/
+

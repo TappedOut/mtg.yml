@@ -1,40 +1,43 @@
 activated_abilities:
 - ', Exile a creature card from your graveyard: Investigate. You gain 2 life.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: SOI
 cannonical_type: Enchantment
-color_identity:
-- G
+color_identity: G
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.64
+draft_average: 6.17
 effective_cost:
 - U
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,40 +47,58 @@ keywords:
 - Tokens
 - Investigate
 mana_cost: 1U
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Ongoing Investigation
 printings:
 - SOI:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Bud Cook
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 60359
     mtgo_id: 60358
     name: Shadows over Innistrad
     number: 77
     rarity: uncommon
-    release_date: 2016-04-08
+    release_date: '2016-04-08'
+    tla: SOI
+    variations: []
     wizards_id: 409820
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409820
+rarity: uncommon
 rules: "Whenever one or more creatures you control deal combat damage to a player,\
   \ investigate. *(Put a colourless Clue artifact token onto the battlefield with\
   \ \"[[symbol:2]], Sacrifice this artifact: Draw a card.\")*\r\n\r\n[[symbol:1]][[symbol:G]],\
   \ Exile a creature card from your graveyard: Investigate. You gain 2 life."
 slug: ongoing-investigation
-tags: card-color-blue card-color-blue-cost-2 card-type-enchantment
+synonyms: []
 tapped_id: 17687
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Clue
-  power_toughness: null
-  rules: '[[symbol:2]], Sacrifice this: Draw a card.'
-  subtype: Clue
-  tla: SOI
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], Sacrifice this: Draw a card.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1130
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Clue
 type: Enchantment
-url: http://tappedout.net/mtg-card/ongoing-investigation/
+url: https://tappedout.net/mtg-card/ongoing-investigation/
+

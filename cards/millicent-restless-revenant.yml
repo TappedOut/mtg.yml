@@ -1,9 +1,12 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: VOC
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -11,45 +14,57 @@ companions:
 effective_cost:
 - W
 - U
-flat_cost: 7
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
 - Tokens
 mana_cost: 5WU
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Millicent, Restless Revenant
 power_toughness: 4/4
 printings:
 - VOC:
     alterations:
-    - Foil
-    - Normal
-    - Thick
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - thick
+      - Thick
+    artist: Denman Rooke
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow Commander'
     number: 1
     rarity: mythic_rare
-    release_date: 2021-11-18
+    release_date: '2021-11-18'
+    tla: VOC
     variations:
-    - alterations:
-      - Normal
-      identifier: '39'
+    - identifier: '39'
     wizards_id: 547249
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=547249
 rules: "This spell costs [[symbol:1]] less to cast for each Spirit you control.\r\n\
@@ -61,19 +76,24 @@ subtype: Spirit Soldier
 subtype_tokens:
 - Spirit
 - Soldier
-tags: card-color-blue card-color-gold card-color-gold-cost-7 card-color-white card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 25372
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spirit 1/1 W
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Spirit
-  tla: 2X2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 17
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spirit 1/1 W
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/millicent-restless-revenant/
+url: https://tappedout.net/mtg-card/millicent-restless-revenant/
+

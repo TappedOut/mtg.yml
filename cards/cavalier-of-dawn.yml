@@ -1,65 +1,83 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M20
 cannonical_type: Creature
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.23
+draft_average: 3.64
 effective_cost:
 - W
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Vigilance
 - Tokens
 mana_cost: 2WWW
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Cavalier of Dawn
 power_toughness: 4/6
 printings:
 - M20:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Daarken
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 72920
     mtgo_id: 72919
     name: Core Set 2020
     number: 10
     rarity: mythic_rare
-    release_date: 2019-07-12
+    release_date: '2019-07-12'
+    tla: M20
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 466764
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=466764
 rules: "Vigilance\r\n\r\nWhen Cavalier of Dawn enters the battlefield, destroy up\
@@ -72,18 +90,24 @@ subtype: Elemental Knight
 subtype_tokens:
 - Elemental
 - Knight
-tags: card-color-white card-color-white-cost-5 card-type-creature
+synonyms: []
 tapped_id: 21768
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Golem 3/3 C
-  power_toughness: 3/3
-  rules: ''
-  subtype: Golem
-  tla: M20
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 3/3
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 49
+    - - cannonical_type
+      - Creature
+    - - name
+      - Golem 3/3 C
 type: Creature
-url: http://tappedout.net/mtg-card/cavalier-of-dawn/
+url: https://tappedout.net/mtg-card/cavalier-of-dawn/
+

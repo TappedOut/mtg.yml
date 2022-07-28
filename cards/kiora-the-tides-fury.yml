@@ -3,36 +3,39 @@ activated_abilities:
 - ': Untap target creature or land. Prevent all damage that would be dealt to and
   dealt by that permanent until your next turn.'
 - ': You may sacrifice a Kraken. If you do, create an 8/8 blue Kraken creature token.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: J21
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,19 +46,30 @@ keywords:
 - Tokens
 - Conjure
 mana_cost: 3U
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Kiora, the Tide's Fury
+planeswalker_loyalty: 4
 printings:
 - J21:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Magali Villeneuve
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Jumpstart: Historic Horizons'
     number: 10
     rarity: mythic_rare
-    release_date: 2021-08-12
+    release_date: '2021-08-12'
+    tla: J21
+    variations: []
     wizards_id: 534589
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=534589
 rules: "[[symbol:loyalty-plus1]]: Conjure a [[Kraken Hatchling]] card into your hand.\
@@ -67,18 +81,24 @@ slug: kiora-the-tides-fury
 subtype: Kiora
 subtype_tokens:
 - Kiora
-tags: card-color-blue card-color-blue-cost-4 card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 24965
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Kraken 8/8 U
-  power_toughness: 8/8
-  rules: ''
-  subtype: Kraken
-  tla: IKO
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 8/8
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 304
+    - - cannonical_type
+      - Creature
+    - - name
+      - Kraken 8/8 U
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/kiora-the-tides-fury/
+url: https://tappedout.net/mtg-card/kiora-the-tides-fury/
+

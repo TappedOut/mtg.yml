@@ -1,78 +1,101 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: FUT
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.92
+draft_average: 4.81
 effective_cost:
 - G
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Buyback
 - Convoke
 mana_cost: 1G
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Sprout Swarm
+power_toughness: ''
 printings:
 - FUT:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chippy
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 26813
     mtgo_id: 26812
     name: Future Sight
     number: 138
     rarity: common
-    release_date: 2007-05-04
+    release_date: '2007-05-04'
+    tla: FUT
+    variations: []
     wizards_id: 136042
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=136042
+rarity: common
 rules: "Convoke (Each creature you tap while casting this spell reduces its total\
   \ cost by {{1}} or by one mana of that creature's color.)\r\n\r\nBuyback {{3}} (You\
   \ may pay an additional {{3}} as you cast this spell. If you do, put this card into\
   \ your hand as it resolves.)\r\n\r\nPut a 1/1 green Saproling creature token onto\
   \ the battlefield.\r\n"
 slug: sprout-swarm
-tags: card-color-green card-color-green-cost-2 card-type-instant
+synonyms: []
 tapped_id: 778
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Saproling 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Saproling
-  tla: 2X2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 893
+    - - cannonical_type
+      - Creature
+    - - name
+      - Saproling 1/1 G
 type: Instant
-url: http://tappedout.net/mtg-card/sprout-swarm/
+url: https://tappedout.net/mtg-card/sprout-swarm/
+

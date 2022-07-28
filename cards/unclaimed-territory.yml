@@ -2,7 +2,7 @@ activated_abilities:
 - ': Add .'
 - ': Add one mana of any colour. Spend this mana only to cast a creature spell of
   the chosen type.'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: VOC
@@ -18,106 +18,177 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 5.27
+draft_average: 5.98
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: W, U, B, R, G, C
+mana_value: 0
+melds_from: []
 name: Unclaimed Territory
 printings:
-- VOC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Crimson Vow Commander'
-    number: 188
-    rarity: uncommon
-    release_date: 2021-11-18
-    wizards_id: 545808
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545808
-- MIC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Midnight Hunt Commander'
-    number: 187
-    rarity: uncommon
-    release_date: 2021-09-25
-    wizards_id: 539448
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539448
-- C20:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 320
-    rarity: uncommon
-    release_date: 2020-05-15
-    wizards_id: 482948
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482948
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: uncommon
-    release_date: 2020-03-14
 - XLN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Demitar
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 65547
     mtgo_id: 65546
     name: Ixalan
     number: 258
     rarity: uncommon
-    release_date: 2017-09-29
+    release_date: '2017-09-29'
+    tla: XLN
+    variations: []
     wizards_id: 435419
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435419
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: null
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 258
+    rarity: null
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Demitar
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
     rarity: uncommon
-    release_date: 1990-04-15
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Dimitar Marinski
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 320
+    rarity: uncommon
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: 482948
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482948
+- MIC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Dimitar Marinski
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Midnight Hunt Commander'
+    number: 187
+    rarity: uncommon
+    release_date: '2021-09-25'
+    tla: MIC
+    variations: []
+    wizards_id: 539448
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539448
+- VOC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Dimitar Marinski
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Crimson Vow Commander'
+    number: 188
+    rarity: uncommon
+    release_date: '2021-11-18'
+    tla: VOC
+    variations: []
+    wizards_id: 545808
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545808
+rarity: uncommon
 rules: "As this enters the battlefield, choose a creature type.\r\n\r\n[[symbol:T]]:\
   \ Add [[symbol:C]].\r\n\r\n[[symbol:T]]: Add one mana of any colour. Spend this\
   \ mana only to cast a creature spell of the chosen type."
 slug: unclaimed-territory
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-blue
-  card-mana-colorless-sym card-mana-green card-mana-red card-mana-white card-type-land
+synonyms: []
 tapped_id: 19328
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/unclaimed-territory/
+url: https://tappedout.net/mtg-card/unclaimed-territory/
+

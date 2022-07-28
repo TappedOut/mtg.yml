@@ -2,38 +2,42 @@ activated_abilities:
 - ': Remove enchanted creature and all Auras attached to it from the game. At end
   of turn, return that card to play under its owner''s control. If you do, return
   those Auras to play under their owners'' control attached to that creature.'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: C13
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.54
+draft_average: 5.56
 effective_cost:
 - W
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,46 +45,81 @@ keywords:
 - Enchant
 - Attach
 mana_cost: 1W
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Flickerform
+power_toughness: ''
 printings:
-- CM1:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology
-    number: 11
-    rarity: rare
-    release_date: 2017-06-09
-- C13:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 51465
-    mtgo_id: 51464
-    name: Commander 2013
-    rarity: rare
-    release_date: 2013-11-01
-    wizards_id: 376337
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376337
 - RAV:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ron Spears
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 23017
     mtgo_id: 23016
     name: 'Ravnica: City of Guilds'
+    number: null
     rarity: rare
-    release_date: 2005-10-07
+    release_date: '2005-10-07'
+    tla: RAV
+    variations: []
     wizards_id: 83602
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=83602
+- C13:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ron Spears
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 51465
+    mtgo_id: 51464
+    name: Commander 2013
+    number: null
+    rarity: rare
+    release_date: '2013-11-01'
+    tla: C13
+    variations: []
+    wizards_id: 376337
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376337
+- CM1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: null
+    booster_exclude: true
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology
+    number: 11
+    rarity: rare
+    release_date: '2017-06-09'
+    tla: CM1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "Enchant creature\r\n\r\n[[2]][[W]][[W]]: Remove enchanted creature and all\
   \ Auras attached to it from the game. At end of turn, return that card to play under\
   \ its owner's control. If you do, return those Auras to play under their owners'\
@@ -89,7 +128,9 @@ slug: flickerform
 subtype: Aura
 subtype_tokens:
 - Aura
-tags: card-color-white card-color-white-cost-2 card-type-enchantment
+synonyms: []
 tapped_id: 1964
+tokens: []
 type: Enchantment
-url: http://tappedout.net/mtg-card/flickerform/
+url: https://tappedout.net/mtg-card/flickerform/
+

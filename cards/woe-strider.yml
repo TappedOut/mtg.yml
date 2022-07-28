@@ -1,7 +1,7 @@
 activated_abilities:
 - 'Sacrifice another creature: Scry 1. *(Look at the top card of your library, you
   may put that card on the bottom of your library.)*'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: CLB
@@ -9,34 +9,38 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.16
+draft_average: 2.48
 effective_cost:
 - B
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -48,59 +52,88 @@ keywords:
 - Tokens
 - Escape
 mana_cost: 2B
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Woe Strider
 power_toughness: 3/2
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 774
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567591
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567591
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 262
-    rarity: rare
-    release_date: 2022-04-30
-    wizards_id: 559834
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559834
 - THB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: John Thacker
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 79371
     mtgo_id: 79370
     name: Theros Beyond Death
     number: 123
     rarity: rare
-    release_date: 2020-01-24
+    release_date: '2020-01-24'
+    tla: THB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '317'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '317'
+    - identifier: PromoPack
     wizards_id: 476374
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476374
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: John Thacker
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 262
+    rarity: rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559834
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559834
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: John Thacker
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 774
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567591
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567591
 rules: "When Woe Strider enters the battlefield, create a 0/1 white Goat creature\
   \ token.\r\n\r\nSacrifice another creature: Scry 1. *(Look at the top card of your\
   \ library, you may put that card on the bottom of your library.)*\r\n\r\nEscape\u2014\
@@ -111,18 +144,24 @@ slug: woe-strider
 subtype: Horror
 subtype_tokens:
 - Horror
-tags: card-color-black card-color-black-cost-3 card-type-creature
+synonyms: []
 tapped_id: 22422
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goat 0/1 W
-  power_toughness: 0/1
-  rules: ''
-  subtype: Goat
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 0/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 565
+    - - cannonical_type
+      - Creature
+    - - name
+      - Goat 0/1 W
 type: Creature
-url: http://tappedout.net/mtg-card/woe-strider/
+url: https://tappedout.net/mtg-card/woe-strider/
+

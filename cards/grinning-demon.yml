@@ -1,52 +1,69 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ONS
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 4.75
+draft_average: 2.75
 effective_cost:
 - B
-flat_cost: 4
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Morph
 mana_cost: 2BB
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Grinning Demon
 power_toughness: 6/6
 printings:
 - ONS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Zug
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: It's drawn to the scent of screaming.
     frame: original
     mtgo_foil_id: 17968
     mtgo_id: 17967
     name: Onslaught
     number: 153
     rarity: rare
-    release_date: 2002-10-07
+    release_date: '2002-10-07'
+    tla: ONS
+    variations: []
     wizards_id: 39734
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=39734
+rarity: rare
 rules: "At the beginning of your upkeep, you lose 2 life.\r\n\r\nMorph (2)(Black)(Black)\
   \ (You may play this face down as a 2/2 creature for (3). Turn it face up any time\
   \ for its morph cost.)"
@@ -54,18 +71,25 @@ slug: grinning-demon
 subtype: Demon
 subtype_tokens:
 - Demon
-tags: card-color-black card-color-black-cost-4 card-type-creature
+synonyms: []
 tapped_id: 3949
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Morph 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  tla: C19
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+        \ with morph can be turned face up at any time for its morph cost.*"
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Morph 2/2 C
 type: Creature
-url: http://tappedout.net/mtg-card/grinning-demon/
+url: https://tappedout.net/mtg-card/grinning-demon/
+

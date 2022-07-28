@@ -2,6 +2,7 @@ activated_abilities:
 - ', , Sacrifice this: You may cast any number of spells from among cards exiled with
   this with total converted mana cost/mana value X or less without paying their mana
   costs.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: AFC
 cannonical_type: Artifact
@@ -9,6 +10,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -16,26 +18,27 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,20 +46,30 @@ keywords:
 - Exile
 - Sacrifice
 mana_cost: 2U
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Rod of Absorption
 printings:
 - AFC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Svetlin Velinov
+    booster_exclude: false
+    border_color: null
+    cannonical: true
+    flavour_text: null
+    frame: null
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Adventures in the Forgotten Realms: Commander'
     number: 19
     rarity: rare
-    release_date: 2021-07-24
+    release_date: '2021-07-24'
+    tla: AFC
     variations:
-    - alterations:
-      - Normal
-      identifier: '288'
+    - identifier: '288'
     wizards_id: 531924
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=531924
 rules: "Whenever a player casts an instant or sorcery spell, exile it instead of putting\
@@ -64,7 +77,9 @@ rules: "Whenever a player casts an instant or sorcery spell, exile it instead of
   \ this: You may cast any number of spells from among cards exiled with this with\
   \ total converted mana cost/mana value X or less without paying their mana costs."
 slug: rod-of-absorption
-tags: card-color-blue card-color-blue-cost-3 card-type-artifact
+synonyms: []
 tapped_id: 24942
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/rod-of-absorption/
+url: https://tappedout.net/mtg-card/rod-of-absorption/
+

@@ -1,7 +1,7 @@
 activated_abilities:
 - ', Exile Metallurgic Summonings: Return all instant and sorcery cards from your
   graveyard to your hand. Activate this ability only if you control six or more artifacts.'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: C21
@@ -9,32 +9,36 @@ cannonical_type: Enchantment
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.64
+draft_average: 4.26
 effective_cost:
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,53 +46,83 @@ keywords:
 - Exile
 - Tokens
 mana_cost: 3UU
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Metallurgic Summonings
 printings:
-- C21:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 122
-    rarity: mythic_rare
-    release_date: 2021-04-23
-    wizards_id: 519157
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519157
 - KLD:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Kieran Yanner
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 61920
     mtgo_id: 61919
     name: Kaladesh
     number: 56
     rarity: mythic_rare
-    release_date: 2016-09-30
+    release_date: '2016-09-30'
+    tla: KLD
+    variations: []
     wizards_id: 417629
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417629
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kieran Yanner
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 122
+    rarity: mythic_rare
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519157
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519157
+rarity: mythic_rare
 rules: "Whenever you cast an instant or sorcery spell, create an X/X colorless Construct\
   \ artifact creature token, where X is that spell's converted mana cost. \r\n\r\n\
   [[symbol:3]][[symbol:U]][[symbol:U]], Exile Metallurgic Summonings: Return all instant\
   \ and sorcery cards from your graveyard to your hand. Activate this ability only\
   \ if you control six or more artifacts."
 slug: metallurgic-summonings
-tags: card-color-blue card-color-blue-cost-5 card-type-enchantment
+synonyms: []
 tapped_id: 18227
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Construct X/X C
-  power_toughness: X/X
-  rules: ''
-  subtype: Construct
-  tla: C21
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - X/X
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 72
+    - - cannonical_type
+      - Creature
+    - - name
+      - Construct X/X C
 type: Enchantment
-url: http://tappedout.net/mtg-card/metallurgic-summonings/
+url: https://tappedout.net/mtg-card/metallurgic-summonings/
+

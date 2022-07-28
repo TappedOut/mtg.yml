@@ -4,15 +4,17 @@ activated_abilities:
 - ': Gain control of target creature or planeswalker until end of turn. untap it and
   put a corruption counter on it. It gains haste until end of turn.'
 - ': Gain control of each permanent with a corruption counter on it.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MH2
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
@@ -20,24 +22,25 @@ effective_cost:
 - U
 - B
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -47,28 +50,35 @@ keywords:
 - Tap/Untap
 - Counters
 mana_cost: 1UBR
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Geyadrone Dihada
+planeswalker_loyalty: 4
 printings:
 - MH2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ekaterina Burmak
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Modern Horizons 2
     number: 199
     rarity: mythic_rare
-    release_date: 2021-06-18
+    release_date: '2021-06-18'
+    tla: MH2
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '305'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '367'
+    - identifier: '305'
+    - identifier: '367'
     wizards_id: 522275
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522275
 rules: "Protection from permanents with corruption counters on them. *((Remember the\
@@ -85,8 +95,9 @@ slug: geyadrone-dihada
 subtype: Dihada
 subtype_tokens:
 - Dihada
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-4 card-color-red
-  card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 24496
+tokens: []
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/geyadrone-dihada/
+url: https://tappedout.net/mtg-card/geyadrone-dihada/
+

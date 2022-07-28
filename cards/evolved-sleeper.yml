@@ -4,13 +4,14 @@ activated_abilities:
   a Phyrexian Human Cleric with base power and toughness 3/3.'
 - ': If Evolved Sleeper is a Phyrexian, put a +1/+1 counter on it, then you draw a
   card and you lose 1 life.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: DMU
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -19,9 +20,10 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 1
 formats:
+- Casual
 - Penny Dreadful
+- Custom
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -29,25 +31,36 @@ keywords:
 - Deathtouch
 - Counters
 mana_cost: B
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Evolved Sleeper
 power_toughness: 1/1
 printings:
 - DMU:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason A. Engle
+    booster_exclude: false
     border_color: B
+    cannonical: false
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Dominaria United
     number: 93
     rarity: rare
-    release_date: 2022-09-09
+    release_date: '2022-09-09'
+    tla: DMU
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '402'
+    - identifier: '402'
+    wizards_id: null
+    wizards_url: null
 rules: "[[symbol:B]]: Evolved Sleeper becomes a Human Cleric with base power and toughness\
   \ 2/2.\r\n\r\n[[symbol:1]][[symbol:B]]: If Evolved Sleeper is a Cleric, put a deathtouch\
   \ counter on it and it becomes a Phyrexian Human Cleric with base power and toughness\
@@ -57,7 +70,9 @@ slug: evolved-sleeper
 subtype: Human
 subtype_tokens:
 - Human
-tags: card-color-black card-color-black-cost-1 card-type-creature
+synonyms: []
 tapped_id: 27035
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/evolved-sleeper/
+url: https://tappedout.net/mtg-card/evolved-sleeper/
+

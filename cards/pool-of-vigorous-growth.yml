@@ -1,73 +1,93 @@
 activated_abilities:
 - ', , Discard a card: Create a token that''s a copy of a random creature card with
   converted mana cost / mana value X. Activate this ability only as sorcery.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: J21
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - G
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: 1G
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Pool of Vigorous Growth
 printings:
 - J21:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jokubas Uogintas
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Jumpstart: Historic Horizons'
     number: 28
     rarity: rare
-    release_date: 2021-08-12
+    release_date: '2021-08-12'
+    tla: J21
+    variations: []
     wizards_id: 534607
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=534607
 rules: '[[symbol:X]], [[symbol:T]], Discard a card: Create a token that''s a copy
   of a random creature card with converted mana cost / mana value X. Activate this
   ability only as sorcery.'
 slug: pool-of-vigorous-growth
-tags: card-color-green card-color-green-cost-2 card-type-artifact
+synonyms: []
 tapped_id: 24956
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Artifact
-url: http://tappedout.net/mtg-card/pool-of-vigorous-growth/
+url: https://tappedout.net/mtg-card/pool-of-vigorous-growth/
+

@@ -1,14 +1,12 @@
 activated_abilities:
 - ': Add  or .'
-activation_costs:
+activated_costs:
 - U
 - W
 canadian_hl_score: 0
 cannonical_set: VOC
 cannonical_type: Land
-color_identity:
-- W
-- U
+color_identity: WU
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -20,104 +18,144 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 8.58
+draft_average: 4.92
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Scry
-mana_cost_converted: 0
 mana_produced: W, U
+mana_value: 0
+melds_from: []
 name: Temple of Enlightenment
 printings:
-- NEC:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Kamigawa: Neon Dynasty Commander'
-    number: 180
-    rarity: rare
-    release_date: 2022-02-11
-    wizards_id: 554262
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554262
-- VOC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Crimson Vow Commander'
-    number: 185
-    rarity: rare
-    release_date: 2021-11-18
-    wizards_id: 545805
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545805
-- THB:
-    alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 79617
-    mtgo_id: 79616
-    name: Theros Beyond Death
-    number: 246
-    rarity: rare
-    release_date: 2020-01-24
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '349'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
-    wizards_id: 476497
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476497
 - BNG:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Svetlin Velinov
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 51562
     mtgo_id: 51561
     name: Born of the Gods
     number: 163
     rarity: rare
-    release_date: 2014-02-07
+    release_date: '2014-02-07'
+    tla: BNG
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '349'
+    - identifier: '349'
     wizards_id: 378535
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=378535
+- THB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Piotr Dura
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 79617
+    mtgo_id: 79616
+    name: Theros Beyond Death
+    number: 246
+    rarity: rare
+    release_date: '2020-01-24'
+    tla: THB
+    variations:
+    - identifier: '349'
+    - identifier: PromoPack
+    wizards_id: 476497
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476497
+- VOC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Piotr Dura
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Crimson Vow Commander'
+    number: 185
+    rarity: rare
+    release_date: '2021-11-18'
+    tla: VOC
+    variations: []
+    wizards_id: 545805
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545805
+- NEC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Piotr Dura
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kamigawa: Neon Dynasty Commander'
+    number: 180
+    rarity: rare
+    release_date: '2022-02-11'
+    tla: NEC
+    variations: []
+    wizards_id: 554262
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554262
+rarity: rare
 rules: "This enters the battlefield tapped.\r\n\r\nWhen this enters the battlefield,\
   \ scry 1. <i>(Look at the top card of your library. You may put that card on the\
   \ bottom of your library.)</i>\r\n\r\n[[symbol:T]]: Add [[symbol:W]] or [[symbol:U]]."
@@ -127,9 +165,9 @@ synonyms:
 - UW Scryland
 - WU Scry Land
 - UW Temple
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-blue-slow card-mana-white-slow
-  card-type-land
 tap_land: true
 tapped_id: 15143
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/temple-of-enlightenment/
+url: https://tappedout.net/mtg-card/temple-of-enlightenment/
+

@@ -2,7 +2,7 @@ activated_abilities:
 - ': Add .'
 - ', , Pay life equal to the number of colours in your commanders'' colour identity:
   Draw a card.'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: CLB
@@ -18,65 +18,88 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+effective_cost: []
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: War Room
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 929
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567746
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567746
 - CMR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: "Milivoj \u0106eran"
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*A figure is moved on a map, and the tide of war changes.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander Legends
     number: 361
     rarity: rare
-    release_date: 2020-11-20
+    release_date: '2020-11-20'
+    tla: CMR
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '716'
+    - identifier: '716'
     wizards_id: 497881
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497881
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: "Milivoj \u0106eran"
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: '*A figure is moved on a map, and the tide of war changes.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 929
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567746
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567746
 rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:3]], [[symbol:T]], Pay life\
   \ equal to the number of colours in your commanders' colour identity: Draw a card."
 slug: war-room
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
+synonyms: []
 tapped_id: 23575
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/war-room/
+url: https://tappedout.net/mtg-card/war-room/
+

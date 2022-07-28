@@ -1,68 +1,85 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: STX
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
-is_permanent: false
 keywords:
 - Threshold
 - Tokens
 mana_cost: 2RR
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Illuminate History
 printings:
 - STX:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Jokubas Uogintas
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Look at the detail in this stonework! Professor, our assumptions
+      about early Kathorran tool use may not be correct."*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Strixhaven
     number: 108
     rarity: rare
-    release_date: 2021-04-23
+    release_date: '2021-04-23'
+    tla: STX
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '312'
+    - identifier: '312'
     wizards_id: 513585
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=513585
 rules: Discard any number of cards, then draw that many cards. Then if there are seven
@@ -71,18 +88,24 @@ slug: illuminate-history
 subtype: Lesson
 subtype_tokens:
 - Lesson
-tags: card-color-red card-color-red-cost-4 card-type-sorcery
+synonyms: []
 tapped_id: 24060
 tokens:
-- cannonical_type: Creature
-  colors: RW
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spirit 3/2 RW
-  power_toughness: 3/2
-  rules: ''
-  subtype: Spirit
-  tla: STX
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - RW
+    - - power_toughness
+      - 3/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 17
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spirit 3/2 RW
 type: Sorcery
-url: http://tappedout.net/mtg-card/illuminate-history/
+url: https://tappedout.net/mtg-card/illuminate-history/
+

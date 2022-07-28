@@ -1,6 +1,7 @@
 activated_abilities:
 - ', Sacrifice three Clues: Search your library for a card and put that card into
   your hand. Then shuffle your library.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SOI
 cannonical_type: Artifact
@@ -8,27 +9,32 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 5
+cube_average: 5.82
+draft_average: 2.78
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -37,42 +43,64 @@ keywords:
 - Tokens
 - Investigate
 mana_cost: '5'
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Tamiyo's Journal
 printings:
 - SOI:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - list
+      - The List
+    artist: Chase Stone
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Entry 434: There''s more to Avacyn''s madness ...*'
     frame: m15
     mtgo_foil_id: 60083
     mtgo_id: 60082
     name: Shadows over Innistrad
     number: 265
     rarity: rare
-    release_date: 2016-04-08
+    release_date: '2016-04-08'
+    tla: SOI
+    variations: []
     wizards_id: 410032
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=410032
+rarity: rare
 rules: "At the beginning of your upkeep, investigate. *(Put a colourless Clue artifact\
   \ token onto the battlefield with \"[[symbol:2]], Sacrifice this artifact: Draw\
   \ a card.\")*\r\n\r\n[[symbol:T]], Sacrifice three Clues: Search your library for\
   \ a card and put that card into your hand. Then shuffle your library."
 slug: tamiyos-journal
-tags: card-color-colorless card-color-colorless-cost-5 card-type-artifact card-type-legendary
+synonyms: []
 tapped_id: 17603
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Clue
-  power_toughness: null
-  rules: '[[symbol:2]], Sacrifice this: Draw a card.'
-  subtype: Clue
-  tla: SOI
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], Sacrifice this: Draw a card.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1130
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Clue
 type: Legendary Artifact
-url: http://tappedout.net/mtg-card/tamiyos-journal/
+url: https://tappedout.net/mtg-card/tamiyos-journal/
+

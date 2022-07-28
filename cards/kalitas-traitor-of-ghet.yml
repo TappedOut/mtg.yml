@@ -1,36 +1,40 @@
 activated_abilities:
 - ', Sacrifice another Vampire or Zombie: Put two +1/+1 counters on Kalitas, Traiter
   of Ghet.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: OGW
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 3.86
+draft_average: 1.26
 effective_cost:
 - B
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,25 +45,39 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 2BB
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Kalitas, Traitor of Ghet
 power_toughness: 3/4
 printings:
 - OGW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Todd Lockwood
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 59418
     mtgo_id: 59417
     name: Oath of the Gatewatch
     number: 86
     rarity: mythic_rare
-    release_date: 2016-01-22
+    release_date: '2016-01-22'
+    tla: OGW
+    variations: []
     wizards_id: 407596
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407596
+rarity: mythic_rare
 rules: "Lifelink\r\n\r\nIf a nontoken creature an opponent controls would die, instead\
   \ exile that card and put a 2/2 black Zombie creature token onto the battlefield.\r\
   \n\r\n[[symbol:2]][[symbol:B]], Sacrifice another Vampire or Zombie: Put two +1/+1\
@@ -69,18 +87,24 @@ subtype: Vampire Warrior
 subtype_tokens:
 - Vampire
 - Warrior
-tags: card-color-black card-color-black-cost-4 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 17470
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: OGW
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/kalitas-traitor-of-ghet/
+url: https://tappedout.net/mtg-card/kalitas-traitor-of-ghet/
+

@@ -1,106 +1,162 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: 2XM
 cannonical_type: Instant
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.99
+draft_average: 4.23
 effective_cost:
 - U
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: U
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Pongify
 printings:
-- TSR:
+- PLC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Heather Hudson
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 79
+    cannonical: true
+    flavour_text: Some spellcrafting mistakes go on to become spells of their own.
+    frame: modern
+    mtgo_foil_id: 26454
+    mtgo_id: 26453
+    name: Planar Chaos
+    number: null
     rarity: uncommon
-    release_date: 2021-03-19
-    wizards_id: 509444
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509444
-- 2XM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 62
-    rarity: uncommon
-    release_date: 2020-08-07
+    release_date: '2007-02-02'
+    tla: PLC
+    variations: []
+    wizards_id: 129015
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=129015
 - C14:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Heather Hudson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Some spellcrafting mistakes go on to become spells of their own.
     frame: m15
     mtgo_foil_id: 54644
     mtgo_id: 54643
     name: Commander 2014
     number: 120
     rarity: uncommon
-    release_date: 2014-11-21
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
     wizards_id: 389638
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389638
-- PLC:
+- 2XM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Heather Hudson
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 26454
-    mtgo_id: 26453
-    name: Planar Chaos
+    cannonical: true
+    flavour_text: '*Some spellcrafting mistakes go on to become spells of their own.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 62
     rarity: uncommon
-    release_date: 2007-02-02
-    wizards_id: 129015
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=129015
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Heather Hudson
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Some spellcrafting mistakes go on to become spells of their own.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 79
+    rarity: uncommon
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509444
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509444
+rarity: uncommon
 rules: Destroy target creature. It can't be regenerated. That creature's controller
   creates a 3/3 green Ape creature token.
 slug: pongify
-tags: card-color-blue card-color-blue-cost-1 card-type-instant
+synonyms: []
 tapped_id: 904
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Ape 3/3 G
-  power_toughness: 3/3
-  rules: ''
-  subtype: Ape
-  tla: 2XM
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 3/3
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 67
+    - - cannonical_type
+      - Creature
+    - - name
+      - Ape 3/3 G
 type: Instant
-url: http://tappedout.net/mtg-card/pongify/
+url: https://tappedout.net/mtg-card/pongify/
+

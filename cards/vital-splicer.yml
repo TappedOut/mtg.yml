@@ -1,33 +1,38 @@
 activated_abilities:
 - ': Regenerate target Golem you control.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MM3
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.17
+draft_average: 3.35
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -35,37 +40,63 @@ keywords:
 - Regenerate
 - Tokens
 mana_cost: 3G
-mana_cost_converted: 4
+mana_produced: ''
+mana_value: 4
+melds_from: []
 name: Vital Splicer
 power_toughness: 1/1
 printings:
+- NPH:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daarken
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "\"For every one that falls, ten shall rise. The revelation of New\
+      \ Phyrexia is at hand.\"\r\n-Vorinclex, Voice of Hunger"
+    frame: modern
+    mtgo_foil_id: 40011
+    mtgo_id: 40010
+    name: New Phyrexia
+    number: null
+    rarity: uncommon
+    release_date: '2011-05-13'
+    tla: NPH
+    variations: []
+    wizards_id: 233079
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=233079
 - MM3:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daarken
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"For every one that falls, ten shall rise. The revelation of\
+      \ New Phyrexia is at hand.\"\r\n<br>&mdash;Vorinclex, Voice of Hunger*"
     frame: m15
     mtgo_foil_id: 63268
     mtgo_id: 63267
     name: Modern Masters 2017 Edition
     number: 145
     rarity: uncommon
-    release_date: 2017-03-17
+    release_date: '2017-03-17'
+    tla: MM3
+    variations: []
     wizards_id: 425970
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425970
-- NPH:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 40011
-    mtgo_id: 40010
-    name: New Phyrexia
-    rarity: uncommon
-    release_date: 2011-05-13
-    wizards_id: 233079
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=233079
+rarity: uncommon
 rules: "When Vital Splicer enters the battlefield, create a 3/3 colorless Golem artifact\
   \ creature token.\r\n\r\n[[symbol:1]]: Regenerate target Golem you control."
 slug: vital-splicer
@@ -73,18 +104,24 @@ subtype: Human Artificer
 subtype_tokens:
 - Human
 - Artificer
-tags: card-color-green card-color-green-cost-4 card-type-creature
+synonyms: []
 tapped_id: 12994
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Phyrexian Golem 3/3 C
-  power_toughness: 3/3
-  rules: ''
-  subtype: Phyrexian Golem
-  tla: 2X2
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 3/3
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 1644
+    - - cannonical_type
+      - Creature
+    - - name
+      - Phyrexian Golem 3/3 C
 type: Creature
-url: http://tappedout.net/mtg-card/vital-splicer/
+url: https://tappedout.net/mtg-card/vital-splicer/
+

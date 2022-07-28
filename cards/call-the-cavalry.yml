@@ -1,89 +1,123 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DOM
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.32
+draft_average: 5.89
 effective_cost:
 - W
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 is_mtgo: true
-is_permanent: false
 keywords:
 - Vigilance
 - Tokens
 mana_cost: 3W
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Call the Cavalry
 printings:
-- GNT:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Magic Game Night
-    number: 10
-    rarity: common
-    release_date: 2018-11-16
-    wizards_id: 456530
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456530
 - DOM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Scott Murphy
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Benalia citizens born under the same constellations share a star-clan.
+      Their loyalty to one another interlaces the Seven Houses.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Dominaria
     number: 9
     rarity: common
-    release_date: 2018-04-22
+    release_date: '2018-04-22'
+    tla: DOM
+    variations: []
     wizards_id: 442897
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442897
+- GNT:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Scott Murphy
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Benalish citizens born under the same constellations share a star-clan.
+      Their loyalty to one another interlaces the Seven Houses.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Magic Game Night
+    number: 10
+    rarity: common
+    release_date: '2018-11-16'
+    tla: GNT
+    variations: []
+    wizards_id: 456530
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456530
+rarity: common
 rules: Create two 2/2 white Knight creature tokens with vigilance. *(Attacking doesn't
   cause them to tap.)*
 slug: call-the-cavalry
-tags: card-color-white card-color-white-cost-4 card-type-sorcery
+synonyms: []
 tapped_id: 20294
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Knight 2/2 W w/ Vigilance
-  power_toughness: 2/2
-  rules: Vigilance
-  subtype: Knight
-  tla: DOM
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 2/2
+    - - rules
+      - Vigilance
+    - - type
+      - Token Creature
+    - - subtype
+      - 501
+    - - cannonical_type
+      - Creature
+    - - name
+      - Knight 2/2 W w/ Vigilance
 type: Sorcery
-url: http://tappedout.net/mtg-card/call-the-cavalry/
+url: https://tappedout.net/mtg-card/call-the-cavalry/
+

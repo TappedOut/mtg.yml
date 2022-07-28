@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 - R
 canadian_hl_score: 0
@@ -7,30 +8,33 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 5.6
+draft_average: 1.96
 effective_cost:
 - B
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -38,36 +42,60 @@ keywords:
 - Haste
 - Dash
 mana_cost: 3BR
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Kolaghan, the Storm's Fury
 power_toughness: 4/5
 printings:
-- C17:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2017
-    number: 176
-    rarity: rare
-    release_date: 2017-08-25
-    wizards_id: 433108
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433108
 - FRF:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Jaime Jones
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 55355
     mtgo_id: 55354
     name: Fate Reforged
     number: 155
     rarity: rare
-    release_date: 2015-01-23
+    release_date: '2015-01-23'
+    tla: FRF
+    variations: []
     wizards_id: 391866
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=391866
+- C17:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: null
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2017
+    number: 176
+    rarity: rare
+    release_date: '2017-08-25'
+    tla: C17
+    variations: []
+    wizards_id: 433108
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433108
+rarity: rare
 rules: "Flying\r\n\r\nWhenever a Dragon you control attacks, creatures you control\
   \ get +1/+0 until end of turn.\r\n\r\nDash [[symbol:3]][[symbol:B]][[symbol:R]]\
   \ *(You may cast this spell for its dash cost. If you do, it gains haste, and it's\
@@ -77,8 +105,9 @@ slug: kolaghan-the-storms-fury
 subtype: Dragon
 subtype_tokens:
 - Dragon
-tags: card-color-black card-color-gold card-color-gold-cost-5 card-color-red card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 16115
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/kolaghan-the-storms-fury/
+url: https://tappedout.net/mtg-card/kolaghan-the-storms-fury/
+

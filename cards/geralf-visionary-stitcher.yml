@@ -1,7 +1,7 @@
 activated_abilities:
 - ', , Sacrifice another nontoken creature: Create an X/X blue Zombie creature token,
   where X is the sacrificed creature''s toughness.'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: VOW
@@ -9,6 +9,7 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -16,30 +17,31 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -48,39 +50,65 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 2U
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Geralf, Visionary Stitcher
 power_toughness: 1/4
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 328
-    rarity: rare
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Bryan Sola
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Do you like it, Sister? Its dreadful visage was inspired by your
+      own."*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 61
     rarity: rare
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '319'
+    - identifier: '319'
     wizards_id: 540899
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=540899
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Bryan Sola
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"Do you like it, Sister? Its dreadful visage was inspired by your
+      own."*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 328
+    rarity: rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Zombies you control have flying.\r\n\r\n[[symbol:U]], [[symbol:T]], Sacrifice\
   \ another nontoken creature: Create an X/X blue Zombie creature token, where X is\
   \ the sacrificed creature's toughness."
@@ -89,18 +117,24 @@ subtype: Human Wizard
 subtype_tokens:
 - Human
 - Wizard
-tags: card-color-blue card-color-blue-cost-3 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 25416
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie X/X U
-  power_toughness: X/X
-  rules: ''
-  subtype: Zombie
-  tla: VOW
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - X/X
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie X/X U
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/geralf-visionary-stitcher/
+url: https://tappedout.net/mtg-card/geralf-visionary-stitcher/
+

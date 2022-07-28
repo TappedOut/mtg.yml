@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: 2XM
 cannonical_type: Artifact
@@ -5,98 +7,161 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 5
+cube_average: 8.42
+draft_average: 3.93
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
 mana_cost: '5'
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Conjurer's Closet
 printings:
-- 2XM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 243
-    rarity: rare
-    release_date: 2020-08-07
-    wizards_id: 489916
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489916
-- CM1:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology
-    rarity: rare
-    release_date: 2017-06-09
-    wizards_id: 430433
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430433
-- C13:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 51191
-    mtgo_id: 51190
-    name: Commander 2013
-    rarity: rare
-    release_date: 2013-11-01
-    wizards_id: 376281
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376281
 - AVR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Felix
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "\"Tomorrow wears yesterday's face.\"\r\n-Kordel the Cryptic"
     frame: modern
     mtgo_foil_id: 43928
     mtgo_id: 43927
     name: Avacyn Restored
+    number: null
     rarity: rare
-    release_date: 2012-05-04
+    release_date: '2012-05-04'
+    tla: AVR
+    variations: []
     wizards_id: 240030
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=240030
-- '000':
+- C13:
     alterations:
-    - Foil
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jason Felix
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "\"Tomorrow wears yesterday's face.\"\n\u2014Kordel the Cryptic"
+    frame: modern
+    mtgo_foil_id: 51191
+    mtgo_id: 51190
+    name: Commander 2013
+    number: null
+    rarity: rare
+    release_date: '2013-11-01'
+    tla: C13
+    variations: []
+    wizards_id: 376281
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376281
+- CM1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Felix
+    booster_exclude: true
     border_color: B
     cannonical: false
+    flavour_text: "\"Tomorrow wears yesterday's face.\"\r\n\u2014Kordel the Cryptic"
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology
+    number: null
+    rarity: rare
+    release_date: '2017-06-09'
+    tla: CM1
+    variations: []
+    wizards_id: 430433
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430433
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Felix
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Tomorrow wears yesterday's face.\"\r\n<br>\u2014Kordel the Cryptic*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 243
+    rarity: rare
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations: []
+    wizards_id: 489916
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489916
+- '000':
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Johann Bodin
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*\"Skeletons? You should be so lucky.\"\r\n<br>&mdash;Gisa, to\
+      \ Geralf*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: At the beginning of your end step, you may exile target creature you control,
   then return it to the battlefield under your control.
 slug: conjurers-closet
-tags: card-color-colorless card-color-colorless-cost-5 card-type-artifact
+synonyms: []
 tapped_id: 13817
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/conjurers-closet/
+url: https://tappedout.net/mtg-card/conjurers-closet/
+

@@ -1,38 +1,41 @@
 activated_abilities:
 - ', Sacrifice an Elf: Regenerate Rhys the Exiled.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: KHC
 cannonical_type: Creature
-color_identity:
-- B
+color_identity: B
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.0
+draft_average: 1.57
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -40,34 +43,59 @@ keywords:
 - Regenerate
 - Sacrifice
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Rhys the Exiled
 power_toughness: 3/2
 printings:
-- KHC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Kaldheim: Commander'
-    number: 73
-    rarity: rare
-    release_date: 2021-02-05
-    wizards_id: 508363
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508363
 - MOR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Steve Prescott
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Once a famed hunter and packmaster, now a renegade seeking his own
+      path.
     frame: modern
     mtgo_foil_id: 28973
     mtgo_id: 28972
     name: Morningtide
+    number: null
     rarity: rare
-    release_date: 2008-02-01
+    release_date: '2008-02-01'
+    tla: MOR
+    variations: []
     wizards_id: 152643
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=152643
+- KHC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Steve Prescott
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Once a famed hunter and packmaster, now a renegade seeking his
+      own path.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kaldheim: Commander'
+    number: 73
+    rarity: rare
+    release_date: '2021-02-05'
+    tla: KHC
+    variations: []
+    wizards_id: 508363
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508363
+rarity: rare
 rules: "Whenever Rhys the Exiled attacks, you gain 1 life for each Elf you control.\r\
   \n\r\n[[symbol:B]], Sacrifice an Elf: Regenerate Rhys the Exiled."
 slug: rhys-the-exiled
@@ -77,7 +105,8 @@ subtype_tokens:
 - Warrior
 synonyms:
 - Rhys the Exilled
-tags: card-color-green card-color-green-cost-3 card-type-creature card-type-legendary
 tapped_id: 104
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/rhys-the-exiled/
+url: https://tappedout.net/mtg-card/rhys-the-exiled/
+

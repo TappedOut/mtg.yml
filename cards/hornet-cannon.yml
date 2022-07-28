@@ -1,32 +1,37 @@
 activated_abilities:
 - '(3), Tap: Put a 1/1 Insect artifact creature token with flying and haste named
   Hornet into play. Destroy that creature at end of turn.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DDE
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 4
+draft_average: 5.5
+effective_cost: []
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -34,48 +39,75 @@ keywords:
 - Flying
 - Haste
 mana_cost: '4'
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Hornet Cannon
+power_toughness: ''
 printings:
-- DDE:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 35377
-    name: 'Duel Decks: Phyrexia vs. The Coalition'
-    number: 28
-    rarity: uncommon
-    release_date: 2010-05-19
-    wizards_id: 209146
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=209146
 - STH:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ron Spencer
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 10292
     mtgo_id: 10291
     name: Stronghold
+    number: null
     rarity: uncommon
-    release_date: 1998-02-01
+    release_date: '1998-02-01'
+    tla: STH
+    variations: []
     wizards_id: 5173
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=5173
+- DDE:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ron Spencer
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 35377
+    name: 'Duel Decks: Phyrexia vs. The Coalition'
+    number: 28
+    rarity: uncommon
+    release_date: '2010-05-19'
+    tla: DDE
+    variations: []
+    wizards_id: 209146
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=209146
+rarity: uncommon
 rules: '(3), Tap: Put a 1/1 Insect artifact creature token with flying and haste named
   Hornet into play. Destroy that creature at end of turn.'
 slug: hornet-cannon
-tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
+synonyms: []
 tapped_id: 6720
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Insect 1/1 C w/ Flying, Haste
-  power_toughness: 1/1
-  rules: Flying, haste
-  subtype: Insect
-  tla: DDE
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying, haste
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 16
+    - - cannonical_type
+      - Creature
+    - - name
+      - Insect 1/1 C w/ Flying, Haste
 type: Artifact
-url: http://tappedout.net/mtg-card/hornet-cannon/
+url: https://tappedout.net/mtg-card/hornet-cannon/
+

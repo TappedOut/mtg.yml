@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DDT
 cannonical_type: Instant
@@ -11,98 +13,152 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.59
+draft_average: 10.89
 effective_cost:
 - U
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
 - Pauper EDH
-- Premodern
-- Tiny Leaders
+- Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Defender
 - Sacrifice
 - Tokens
 mana_cost: 2U
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Tidal Wave
 printings:
-- MYS1:
+- MIR:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Brian Snoddy
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
-- DDT:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Duel Decks: Merfolk vs. Goblins'
-    number: 21
-    rarity: common
-    release_date: 2017-11-10
-    wizards_id: 438461
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438461
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: 7380
+    mtgo_id: 7379
+    name: Mirage
+    number: null
+    rarity: uncommon
+    release_date: '1996-10-01'
+    tla: MIR
+    variations: []
+    wizards_id: 3371
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3371
 - EMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Brian Snoddy
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "\"The floor of the sea is paved with the shattered remnants of\
+      \ vessels that navigated its surface unwelcomed.\"\r\n-Thassa, god of the sea"
     frame: m15
     mtgo_foil_id: 60542
     mtgo_id: 60541
     name: Eternal Masters
     number: 75
     rarity: common
-    release_date: 2016-06-10
+    release_date: '2016-06-10'
+    tla: EMA
+    variations: []
     wizards_id: 413617
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=413617
-- MIR:
+- DDT:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Brian Snoddy
+    booster_exclude: false
     border_color: B
-    frame: original
-    mtgo_foil_id: 7380
-    mtgo_id: 7379
-    name: Mirage
-    rarity: uncommon
-    release_date: 1996-10-01
-    wizards_id: 3371
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3371
+    cannonical: true
+    flavour_text: "*The floor of the sea is paved with the shattered remnants of vessels\
+      \ that navigated its surface unwelcomed.\"\r\n<br>&mdash;Thassa, god of the\
+      \ sea*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Merfolk vs. Goblins'
+    number: 21
+    rarity: common
+    release_date: '2017-11-10'
+    tla: DDT
+    variations: []
+    wizards_id: 438461
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438461
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Brian Snoddy
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "\"The floor of the sea is paved with the shattered remnants of\
+      \ vessels that navigated its surface unwelcomed.\"\r\n-Thassa, god of the sea"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: uncommon
 rules: Create a 5/5 blue Wall creature token with defender. Sacrifice it at the beginning
   of the next end step.
 slug: tidal-wave
-tags: card-color-blue card-color-blue-cost-3 card-type-instant
+synonyms: []
 tapped_id: 7694
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Wall 5/5 U
-  power_toughness: 5/5
-  rules: Defender
-  subtype: Wall
-  tla: DDT
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 5/5
+    - - rules
+      - Defender
+    - - type
+      - Token Creature
+    - - subtype
+      - 33
+    - - cannonical_type
+      - Creature
+    - - name
+      - Wall 5/5 U
 type: Instant
-url: http://tappedout.net/mtg-card/tidal-wave/
+url: https://tappedout.net/mtg-card/tidal-wave/
+

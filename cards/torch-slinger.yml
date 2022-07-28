@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: DDP
@@ -6,65 +7,91 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.5
+draft_average: 7.18
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Kicker
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Torch Slinger
 power_toughness: 2/2
 printings:
-- DDP:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Duel Decks: Zendikar vs. Eldrazi'
-    number: 63
-    rarity: common
-    release_date: 2015-08-28
-    wizards_id: 401705
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401705
 - ZEN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Andrew Robinson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Once thrown, twice burned.
     frame: modern
     mtgo_foil_id: 34475
     mtgo_id: 34474
     name: Zendikar
+    number: null
     rarity: common
-    release_date: 2009-10-02
+    release_date: '2009-10-02'
+    tla: ZEN
+    variations: []
     wizards_id: 180423
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=180423
+- DDP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Andrew Robinson
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Once thrown, twice burned.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Duel Decks: Zendikar vs. Eldrazi'
+    number: 63
+    rarity: common
+    release_date: '2015-08-28'
+    tla: DDP
+    variations: []
+    wizards_id: 401705
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401705
+rarity: common
 rules: "Kicker [[symbol:1]][[symbol:R]] (You may pay an additional [[symbol:1]][[symbol:R]]\
   \ as you cast this spell.)\r\n\r\nWhen Torch Slinger enters the battlefield, if\
   \ it was kicked, it deals 2 damage to target creature.\r\n"
@@ -73,7 +100,9 @@ subtype: Goblin Shaman
 subtype_tokens:
 - Goblin
 - Shaman
-tags: card-color-red card-color-red-cost-3 card-type-creature
+synonyms: []
 tapped_id: 11836
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/torch-slinger/
+url: https://tappedout.net/mtg-card/torch-slinger/
+

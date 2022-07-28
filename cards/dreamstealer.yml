@@ -2,7 +2,7 @@ activated_abilities:
 - 'Eternalize  *(, Exile this card from your graveyard: Create a token that''s a copy
   of it, except it''s 4/4 black Zombie Human Wizard with no mana cost. Eternalize
   only as a sorcery.)*'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: HOU
@@ -10,33 +10,37 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.24
+draft_average: 1.77
 effective_cost:
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,25 +50,39 @@ keywords:
 - Menace
 - Eternalize
 mana_cost: 2B
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Dreamstealer
 power_toughness: 1/2
 printings:
 - HOU:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Yongjae Choi
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 64611
     mtgo_id: 64610
     name: Hour of Devastation
     number: 63
     rarity: rare
-    release_date: 2017-07-14
+    release_date: '2017-07-14'
+    tla: HOU
+    variations: []
     wizards_id: 430752
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=430752
+rarity: rare
 rules: "Menace\r\n\r\nWhen Dreamstealer deals combat damage to a player, that player\
   \ discards that many cards.\r\n\r\nEternalize [[symbol:4]][[symbol:B]][[symbol:B]]\
   \ *([[symbol:4]][[symbol:B]][[symbol:B]], Exile this card from your graveyard: Create\
@@ -75,19 +93,25 @@ subtype: Human Wizard
 subtype_tokens:
 - Human
 - Wizard
-tags: card-color-black card-color-black-cost-3 card-type-creature
+synonyms: []
 tapped_id: 19035
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Dreamstealer 4/4 B
-  power_toughness: 4/4
-  rules: "Menace\r\n\r\nWhenever this deals combat damage to a player, that player\
-    \ discards that many cards."
-  subtype: Zombie Human Wizard
-  tla: HOU
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 4/4
+    - - rules
+      - "Menace\r\n\r\nWhenever this deals combat damage to a player, that player\
+        \ discards that many cards."
+    - - type
+      - Token Creature
+    - - subtype
+      - 1276
+    - - cannonical_type
+      - Creature
+    - - name
+      - Dreamstealer 4/4 B
 type: Creature
-url: http://tappedout.net/mtg-card/dreamstealer/
+url: https://tappedout.net/mtg-card/dreamstealer/
+

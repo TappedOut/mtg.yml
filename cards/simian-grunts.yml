@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: ULG
@@ -6,31 +7,34 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.59
+draft_average: 5.23
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
 - Pauper EDH
-- Premodern
-- Tiny Leaders
+- Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -38,38 +42,60 @@ keywords:
 - Sacrifice
 - Echo
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Simian Grunts
 power_toughness: 3/4
 printings:
+- ULG:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Pete Venters
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: 12672
+    mtgo_id: 12671
+    name: Urza's Legacy
+    number: null
+    rarity: common
+    release_date: '1999-02-01'
+    tla: ULG
+    variations: []
+    wizards_id: 12428
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=12428
 - VMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Pete Venters
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*These monkeys mean business.*'
     frame: modern
     mtgo_foil_id: 52808
     mtgo_id: 52807
     name: Vintage Masters
     number: 232
     rarity: common
-    release_date: 2014-06-16
+    release_date: '2014-06-16'
+    tla: VMA
+    variations: []
     wizards_id: 383093
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383093
-- ULG:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: original
-    mtgo_foil_id: 12672
-    mtgo_id: 12671
-    name: Urza's Legacy
-    rarity: common
-    release_date: 1999-02-01
-    wizards_id: 12428
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=12428
+rarity: common
 rules: "Flash\r\n\r\nEcho [[symbol:2]][[symbol:G]] *(At the beginning of your upkeep,\
   \ if this came under your control since the beginning of your last upkeep, sacrifice\
   \ it unless you pay its echo cost.)*"
@@ -77,7 +103,9 @@ slug: simian-grunts
 subtype: Ape
 subtype_tokens:
 - Ape
-tags: card-color-green card-color-green-cost-3 card-type-creature
+synonyms: []
 tapped_id: 6181
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/simian-grunts/
+url: https://tappedout.net/mtg-card/simian-grunts/
+

@@ -1,11 +1,13 @@
 activated_abilities:
 - ', , Discard a card: Exile the top card of your library. You may play it this turn.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -14,24 +16,25 @@ companions:
 effective_cost:
 - R
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -39,29 +42,35 @@ keywords:
 - Exile
 - Tokens
 mana_cost: 1RG
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Faldorn, Dread Wolf Herald
 power_toughness: 3/3
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason A. Engle
     booster_exclude: true
     border_color: B
+    cannonical: true
+    flavour_text: '*"Cities are a blight on the beauty of nature."*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 647
     rarity: mythic_rare
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '641'
-    - alterations:
-      - Thick
-      identifier: '932'
+    - identifier: '641'
+    - identifier: '932'
     wizards_id: 567104
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567104
 rules: "Whenever you cast a spell from exile or a land enters the battlefield under\
@@ -73,19 +82,24 @@ subtype: Human Druid
 subtype_tokens:
 - Human
 - Druid
-tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-red card-type-creature
-  card-type-legendary
+synonyms: []
 tapped_id: 26508
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Wolf 2/2 G
-  power_toughness: 2/2
-  rules: ''
-  subtype: Wolf
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 93
+    - - cannonical_type
+      - Creature
+    - - name
+      - Wolf 2/2 G
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/faldorn-dread-wolf-herald/
+url: https://tappedout.net/mtg-card/faldorn-dread-wolf-herald/
+

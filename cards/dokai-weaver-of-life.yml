@@ -3,37 +3,40 @@ activated_abilities:
   you control.'
 - ': You may put a land card from your hand onto the battlefield. If you control ten
   or more lands, flip Budoka Gardener.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: C18
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+draft_average: 2.9
 effective_cost:
 - G
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,31 +44,57 @@ keywords:
 - Flip
 - Tokens
 mana_cost: 1G
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Dokai, Weaver of Life
 power_toughness: 3/3
 printings:
+- CHK:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kev Walker
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Champions of Kamigawa
+    number: null
+    rarity: rare
+    release_date: '2004-10-01'
+    tla: CHK
+    variations: []
+    wizards_id: null
+    wizards_url: null
 - C18:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Kev Walker
     booster_exclude: true
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2018
     number: 134
     rarity: rare
-    release_date: 2018-08-10
+    release_date: '2018-08-10'
+    tla: C18
+    variations: []
     wizards_id: 451089999
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451089999
-- CHK:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    name: Champions of Kamigawa
-    rarity: rare
-    release_date: 2004-10-01
+rarity: rare
 rules: "[[symbol:4]][[symbol:G]][[symbol:G]], [[symbol:T]]: Create an X/X green Elemental\
   \ creature token, where X is the number of lands you control.\r\n\r\n-----\r\n\r\
   \n<h2>Budoka Gardener</h2>\r\n<h3>Creature &mdash; Human Monk</h3>\r\n\r\n[[symbol:T]]:\
@@ -76,18 +105,24 @@ subtype: Human Monk
 subtype_tokens:
 - Human
 - Monk
-tags: card-color-green card-color-green-cost-2 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 10397
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elemental X/X G
-  power_toughness: X/X
-  rules: ''
-  subtype: Elemental
-  tla: C18
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - X/X
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elemental X/X G
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/dokai-weaver-of-life/
+url: https://tappedout.net/mtg-card/dokai-weaver-of-life/
+

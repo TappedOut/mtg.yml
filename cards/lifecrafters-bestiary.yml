@@ -1,102 +1,160 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Artifact
-color_identity:
-- G
+color_identity: G
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 3
+cube_average: 4.72
+draft_average: 1.63
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Scry
 mana_cost: '3'
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Lifecrafter's Bestiary
 printings:
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 370
-    rarity: rare
-    release_date: 2022-04-30
-    wizards_id: 559942
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559942
-- MIC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Midnight Hunt Commander'
-    number: 160
-    rarity: rare
-    release_date: 2021-09-25
-    wizards_id: 539421
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539421
-- C20:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 244
-    rarity: rare
-    release_date: 2020-05-15
-    wizards_id: 482872
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482872
 - AER:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Izzy
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"Inspiration is found by looking outward.\"\r\n<br>&mdash;Oviya\
+      \ Pashri, sage lifecrafter*"
     frame: m15
     mtgo_foil_id: 62898
     mtgo_id: 62897
     name: Aether Revolt
     number: 162
     rarity: rare
-    release_date: 2017-01-20
+    release_date: '2017-01-20'
+    tla: AER
+    variations: []
     wizards_id: 423829
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423829
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Izzy
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Inspiration is found by looking outward.\"\r\n<br>&mdash;Oviya\
+      \ Pashiri, sage lifecrafter*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 244
+    rarity: rare
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: 482872
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482872
+- MIC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Izzy
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Inspiration is found by looking outward.\"\r\n<br>&mdash;Oviya\
+      \ Pashiri, sage lifecrafter*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Midnight Hunt Commander'
+    number: 160
+    rarity: rare
+    release_date: '2021-09-25'
+    tla: MIC
+    variations: []
+    wizards_id: 539421
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539421
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Izzy
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Inspiration is found by looking outward.\"\r\n<br>&mdash;Oviya\
+      \ Pashiri, sage lifecrafter*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 370
+    rarity: rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559942
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559942
+rarity: rare
 rules: "At the beginning of your upkeep, scry 1. *(Look at the top card of your library.\
   \ You may put it on the top or bottom of your library.)*\r\n\r\nWhenever you cast\
   \ a creature spell, you may pay [[symbol:G]]. If you do, draw a card."
 slug: lifecrafters-bestiary
-tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
+synonyms: []
 tapped_id: 18625
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/lifecrafters-bestiary/
+url: https://tappedout.net/mtg-card/lifecrafters-bestiary/
+

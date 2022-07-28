@@ -1,84 +1,117 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: VOC
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 3.0
+draft_average: 1.4
 effective_cost:
 - W
-flat_cost: 7
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
 - Tokens
 mana_cost: 6W
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Oyobi, Who Split the Heavens
 power_toughness: 3/6
 printings:
-- VOC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Crimson Vow Commander'
-    number: 95
-    rarity: rare
-    release_date: 2021-11-18
-    wizards_id: 545715
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545715
 - BOK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Christopher Moeller
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Her angry call split the sky. From that rift descended her champions.
     frame: modern
     mtgo_foil_id: 21636
     mtgo_id: 21635
     name: Betrayers of Kamigawa
     number: 18
     rarity: rare
-    release_date: 2005-02-04
+    release_date: '2005-02-04'
+    tla: BOK
+    variations: []
     wizards_id: 74027
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=74027
+- VOC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Christopher Moeller
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Her angry call split the sky. From that rift descended her champions.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Crimson Vow Commander'
+    number: 95
+    rarity: rare
+    release_date: '2021-11-18'
+    tla: VOC
+    variations: []
+    wizards_id: 545715
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545715
+rarity: rare
 rules: "Flying\r\n\r\nWhenever you cast a Spirit or Arcane spell, create a 3/3 white\
   \ Spirit creature token with flying."
 slug: oyobi-who-split-the-heavens
 subtype: Spirit
 subtype_tokens:
 - Spirit
-tags: card-color-white card-color-white-cost-7 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 2419
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spirit 3/3 W
-  power_toughness: 3/3
-  rules: Flying
-  subtype: Spirit
-  tla: VOC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 3/3
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 17
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spirit 3/3 W
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/oyobi-who-split-the-heavens/
+url: https://tappedout.net/mtg-card/oyobi-who-split-the-heavens/
+

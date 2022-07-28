@@ -1,36 +1,40 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: KTK
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 11.0
+draft_average: 3.74
 effective_cost:
 - U
 - B
 - G
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -39,25 +43,39 @@ keywords:
 - Trample
 - Exile
 mana_cost: 3BGU
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Kheru Lich Lord
 power_toughness: 4/4
 printings:
 - KTK:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Karl Kopenski
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 54445
     mtgo_id: 54444
     name: Khans of Tarkir
     number: 182
     rarity: rare
-    release_date: 2014-09-26
+    release_date: '2014-09-26'
+    tla: KTK
+    variations: []
     wizards_id: 386580
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386580
+rarity: rare
 rules: At the beginning of your upkeep, you may pay {2}{B}. If you do, return a creature
   card at random from your graveyard to the battlefield. It gains flying, trample
   and haste. Exile that card at the beginning of your next end step. If it would leave
@@ -67,8 +85,9 @@ subtype: Zombie Wizard
 subtype_tokens:
 - Zombie
 - Wizard
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-6 card-color-green
-  card-type-creature
+synonyms: []
 tapped_id: 15874
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/kheru-lich-lord/
+url: https://tappedout.net/mtg-card/kheru-lich-lord/
+

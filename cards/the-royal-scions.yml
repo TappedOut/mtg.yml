@@ -3,6 +3,7 @@ activated_abilities:
 - ': Target creature gets +2/+0 and gains first strike and trample until end of turn.'
 - ': Draw four cards. When you do, the Royal Scions deals damage to target creature,
   player or planeswalker equal to the number of cards in your hand.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ELD
 cannonical_type: Planeswalker
@@ -10,34 +11,38 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.78
+draft_average: 2.5
 effective_cost:
 - U
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,33 +51,44 @@ keywords:
 - Trample
 - Counters
 mana_cost: 1UR
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: The Royal Scions
+planeswalker_loyalty: 5
 printings:
 - ELD:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Paul Scott Canavan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 78543
     mtgo_id: 78542
     name: Throne of Eldraine
     number: 199
     rarity: mythic_rare
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '272'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '272'
+    - identifier: PromoPack
     wizards_id: 473161
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=473161
 rules: "[[symbol:loyalty-plus1]]: Draw a card, then discard a card.\r\n\r\n[[symbol:loyalty-plus1]]:\
@@ -85,8 +101,9 @@ subtype: Will Rowan
 subtype_tokens:
 - Will
 - Rowan
-tags: card-color-blue card-color-gold card-color-gold-cost-3 card-color-red card-type-legendary
-  card-type-planeswalker
+synonyms: []
 tapped_id: 22046
+tokens: []
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/the-royal-scions/
+url: https://tappedout.net/mtg-card/the-royal-scions/
+

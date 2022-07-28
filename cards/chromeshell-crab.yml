@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: C19
@@ -7,73 +8,107 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 4.6
+draft_average: 1.25
 effective_cost:
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Morph
 mana_cost: 4U
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Chromeshell Crab
 power_toughness: 3/3
 printings:
+- LGN:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ron Spencer
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: 18454
+    mtgo_id: 18453
+    name: Legions
+    number: null
+    rarity: rare
+    release_date: '2003-02-03'
+    tla: LGN
+    variations: []
+    wizards_id: 44205
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=44205
+- CMD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ron Spencer
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 40688
+    name: 'MTG: Commander'
+    number: null
+    rarity: rare
+    release_date: '2011-06-17'
+    tla: CMD
+    variations: []
+    wizards_id: 247294
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247294
 - C19:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Joseph Meehan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 77277
     mtgo_id: 77276
     name: Commander 2019
     number: 81
     rarity: rare
-    release_date: 2019-08-23
+    release_date: '2019-08-23'
+    tla: C19
+    variations: []
     wizards_id: 470627
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470627
-- CMD:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 40688
-    name: 'MTG: Commander'
-    rarity: rare
-    release_date: 2011-06-17
-    wizards_id: 247294
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247294
-- LGN:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: original
-    mtgo_foil_id: 18454
-    mtgo_id: 18453
-    name: Legions
-    rarity: rare
-    release_date: 2003-02-03
-    wizards_id: 44205
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=44205
+rarity: rare
 rules: "Morph [[symbol:4][[symbol:U]] *(You may cast this card face down as a 2/2\
   \ creature for . Turn it face up any time for its morph cost.) \r\n\r\nWhen Chromeshell\
   \ Crab is turned face up, you may exchange control of target creature you control\
@@ -83,18 +118,25 @@ subtype: Crab Beast
 subtype_tokens:
 - Crab
 - Beast
-tags: card-color-blue card-color-blue-cost-5 card-type-creature
+synonyms: []
 tapped_id: 3681
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Morph 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  tla: C19
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+        \ with morph can be turned face up at any time for its morph cost.*"
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Morph 2/2 C
 type: Creature
-url: http://tappedout.net/mtg-card/chromeshell-crab/
+url: https://tappedout.net/mtg-card/chromeshell-crab/
+

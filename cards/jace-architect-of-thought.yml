@@ -7,35 +7,40 @@ activated_abilities:
 - ': For each player, search that player''s library for a nonland card and exile it,
   then that player shuffles their library. You may cast those cards without paying
   their mana costs.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C20
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.49
+draft_average: 1.29
 effective_cost:
 - U
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,61 +48,99 @@ keywords:
 - Exile
 - Counters
 mana_cost: 2UU
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Jace, Architect of Thought
+planeswalker_loyalty: 4
 printings:
-- NEC:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Kamigawa: Neon Dynasty Commander'
-    number: 93
-    rarity: mythic_rare
-    release_date: 2022-02-11
-    wizards_id: 554176
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554176
-- C20:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 114
-    rarity: mythic_rare
-    release_date: 2020-05-15
-    wizards_id: 482742
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482742
-- DDM:
-    alterations:
-    - Foil
-    border_color: B
-    foil: foil
-    foil_only: true
-    frame: modern
-    mtgo_foil_id: 52502
-    mtgo_id: 52501
-    name: 'Duel Decks: Jace vs. Vraska'
-    number: 1
-    rarity: mythic_rare
-    release_date: 2014-03-14
-    wizards_id: 380190
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=380190
 - RTR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jaime Jones
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 46550
     mtgo_id: 46549
     name: Return to Ravnica
     number: 44
     rarity: mythic_rare
-    release_date: 2012-10-05
+    release_date: '2012-10-05'
+    tla: RTR
+    variations: []
     wizards_id: 253653
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=253653
+- DDM:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Igor Kieryluk
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 52502
+    mtgo_id: 52501
+    name: 'Duel Decks: Jace vs. Vraska'
+    number: 1
+    rarity: mythic_rare
+    release_date: '2014-03-14'
+    tla: DDM
+    variations: []
+    wizards_id: 380190
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=380190
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jaime Jones
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 114
+    rarity: mythic_rare
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: 482742
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482742
+- NEC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jaime Jones
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kamigawa: Neon Dynasty Commander'
+    number: 93
+    rarity: mythic_rare
+    release_date: '2022-02-11'
+    tla: NEC
+    variations: []
+    wizards_id: 554176
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554176
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Until your next turn, whenever a creature an opponent\
   \ controls attacks, it gets -1/-0 until end of turn.\r\n\r\n[[symbol:loyalty-minus2]]:\
   \ Reveal the top three cards of your library. An opponent separates them into two\
@@ -109,7 +152,9 @@ slug: jace-architect-of-thought
 subtype: Jace
 subtype_tokens:
 - Jace
-tags: card-color-blue card-color-blue-cost-4 card-type-planeswalker
+synonyms: []
 tapped_id: 14036
+tokens: []
 type: Planeswalker
-url: http://tappedout.net/mtg-card/jace-architect-of-thought/
+url: https://tappedout.net/mtg-card/jace-architect-of-thought/
+

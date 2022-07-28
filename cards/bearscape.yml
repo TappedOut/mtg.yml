@@ -1,6 +1,6 @@
 activated_abilities:
 - ', Exile two cards from your graveyard: Create a 2/2 green Bear creature token.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: ODY
@@ -8,28 +8,32 @@ cannonical_type: Enchantment
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.73
+draft_average: 6.0
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
 - Oathbreaker
-- Premodern
-- Tiny Leaders
+- Custom
 - Vintage
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -37,49 +41,80 @@ keywords:
 - Exile
 - Tokens
 mana_cost: 1GG
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Bearscape
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 702
-    rarity: rare
-    release_date: 2019-12-09
 - ODY:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Heather Hudson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 16536
     mtgo_id: 16535
     name: Odyssey
     number: 229
     rarity: rare
-    release_date: 2001-09-21
+    release_date: '2001-09-21'
+    tla: ODY
+    variations: []
     wizards_id: 30747
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=30747
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ricardo Bessa
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*They built a refuge with their bear hands.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 702
+    rarity: rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: '[[symbol:1]][[symbol:G]], Exile two cards from your graveyard: Create a 2/2
   green Bear creature token.'
 slug: bearscape
-tags: card-color-green card-color-green-cost-3 card-type-enchantment
+synonyms: []
 tapped_id: 4444
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Bear 2/2 G
-  power_toughness: 2/2
-  rules: ''
-  subtype: Bear
-  tla: ODY
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 109
+    - - cannonical_type
+      - Creature
+    - - name
+      - Bear 2/2 G
 type: Enchantment
-url: http://tappedout.net/mtg-card/bearscape/
+url: https://tappedout.net/mtg-card/bearscape/
+

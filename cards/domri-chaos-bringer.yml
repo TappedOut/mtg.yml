@@ -4,43 +4,47 @@ activated_abilities:
   cards from among them and put them into your hand. Put the rest on the bottom of
   your library in a random order.'
 - ': You get an emblem with '
-activation_costs:
+activated_costs:
 - G
 - R
 canadian_hl_score: 0
 cannonical_set: RNA
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.51
+draft_average: 1.29
 effective_cost:
 - R
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -50,36 +54,65 @@ keywords:
 - Tokens
 - Riot
 mana_cost: 2RG
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Domri, Chaos Bringer
+planeswalker_loyalty: 5
 printings:
-- RNAMED:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Ravnica Allegiance: Mythic Edition'
-    number: 74
-    rarity: mythic_rare
-    release_date: 2019-01-26
 - RNA:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Zack Stella
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 71333
     mtgo_id: 71332
     name: Ravnica Allegiance
     number: 166
     rarity: mythic_rare
-    release_date: 2019-01-25
+    release_date: '2019-01-25'
+    tla: RNA
+    variations: []
     wizards_id: 457310
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=457310
+- RNAMED:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Rainville
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Ravnica Allegiance: Mythic Edition'
+    number: 74
+    rarity: mythic_rare
+    release_date: '2019-01-26'
+    tla: RNAMED
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "[[symbol:loyalty-plus1]]: Gain [[symbol:R]] or [[symbol:G]]. If that mana\
   \ is spent on a creature spell, it gains riot.\r\n\r\n[[symbol:loyalty-minus3]]:\
   \ Look at the top four cards of your library. You may reveal up to two creature\
@@ -91,30 +124,40 @@ slug: domri-chaos-bringer
 subtype: Domri
 subtype_tokens:
 - Domri
-tags: card-color-gold card-color-gold-cost-4 card-color-green card-color-red card-type-legendary
-  card-type-planeswalker
+synonyms: []
 tapped_id: 21068
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Domri, Chaos Bringer
-  power_toughness: null
-  rules: At the beginning of each end step, create a 4/4 red and green Beast creature
-    token with trample.
-  subtype: Domri
-  tla: RNA
-  type: Emblem
-- cannonical_type: Creature
-  colors: RG
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Beast 4/4 RG
-  power_toughness: 4/4
-  rules: Trample
-  subtype: Beast
-  tla: RNA
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - At the beginning of each end step, create a 4/4 red and green Beast creature
+        token with trample.
+    - - type
+      - Emblem
+    - - subtype
+      - 985
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Domri, Chaos Bringer
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - RG
+    - - power_toughness
+      - 4/4
+    - - rules
+      - Trample
+    - - type
+      - Token Creature
+    - - subtype
+      - 83
+    - - cannonical_type
+      - Creature
+    - - name
+      - Beast 4/4 RG
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/domri-chaos-bringer/
+url: https://tappedout.net/mtg-card/domri-chaos-bringer/
+

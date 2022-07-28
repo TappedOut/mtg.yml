@@ -5,7 +5,7 @@ activated_abilities:
   where X is the result. Activate this ability only as a sorcery. *(Remember that
   MTG spindowns are not well weight balanced, so please roll a die that isn''t an
   MTG spindown.)*'
-activation_costs:
+activated_costs:
 - C
 - G
 canadian_hl_score: 0
@@ -22,46 +22,61 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+effective_cost: []
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
-mana_cost_converted: 0
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Underdark Rift
 printings:
 - AFC:
     alterations:
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - list
+      - The List
+    artist: Chris Ostrowski
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Adventures in the Forgotten Realms: Commander'
     number: 62
     rarity: uncommon
-    release_date: 2021-07-24
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
     wizards_id: 531963
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=531963
 rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:5]], [[symbol:T]], Exile Underdark:\
@@ -70,7 +85,9 @@ rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:5]], [[symbol:T]], Exile
   \ Activate this ability only as a sorcery. *(Remember that MTG spindowns are not\
   \ well weight balanced, so please roll a die that isn't an MTG spindown.)*"
 slug: underdark-rift
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
+synonyms: []
 tapped_id: 24899
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/underdark-rift/
+url: https://tappedout.net/mtg-card/underdark-rift/
+

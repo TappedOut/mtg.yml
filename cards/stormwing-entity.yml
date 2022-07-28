@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: M21
@@ -6,32 +7,35 @@ cannonical_type: Creature
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 3.23
+draft_average: 3.09
 effective_cost:
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -39,32 +43,44 @@ keywords:
 - Scry
 - Prowess
 mana_cost: 3UU
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Stormwing Entity
 power_toughness: 3/3
 printings:
 - M21:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Caroline Gariba
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Core Set 2021
     number: 73
     rarity: rare
-    release_date: 2020-07-03
+    release_date: '2020-07-03'
+    tla: M21
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '354'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '354'
+    - identifier: PromoPack
     wizards_id: 485396
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485396
 rules: "This spell costs [[symbol:2]][[symbol:U]] less to cast if you've cast an instant\
@@ -75,7 +91,9 @@ slug: stormwing-entity
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-color-blue card-color-blue-cost-5 card-type-creature
+synonyms: []
 tapped_id: 23034
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/stormwing-entity/
+url: https://tappedout.net/mtg-card/stormwing-entity/
+

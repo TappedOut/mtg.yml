@@ -1,35 +1,39 @@
 activated_abilities:
 - ': Put a 2/2 green Wolf creature token onto the battlefield.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: C14
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.35
+draft_average: 1.86
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -38,57 +42,102 @@ keywords:
 - Sacrifice
 - Champion
 mana_cost: 3G
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Wren's Run Packmaster
 power_toughness: 5/5
 printings:
-- CM1:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology
-    number: 171
-    rarity: rare
-    release_date: 2017-06-09
-- C14:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 54698
-    mtgo_id: 54697
-    name: Commander 2014
-    rarity: rare
-    release_date: 2014-11-21
-    wizards_id: 389755
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389755
 - LRW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Zug
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 28714
     mtgo_id: 28713
     name: Lorwyn
+    number: null
     rarity: rare
-    release_date: 2007-10-12
+    release_date: '2007-10-12'
+    tla: LRW
+    variations: []
     wizards_id: 140194
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=140194
+- C14:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mark Zug
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 54698
+    mtgo_id: 54697
+    name: Commander 2014
+    number: null
+    rarity: rare
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
+    wizards_id: 389755
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389755
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Steve Prescott
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 34
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- CM1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: null
+    booster_exclude: true
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology
+    number: 171
+    rarity: rare
+    release_date: '2017-06-09'
+    tla: CM1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "Champion an Elf *(When this creature enters the battlefield, sacrifice it\
   \ unless you exile another Elf you control. When this creature leaves the battlefield,\
   \ that card returns to the battlefield.)*\r\n\r\n[[2]][[G]]: Put a 2/2 green Wolf\
@@ -98,18 +147,24 @@ subtype: Elf Warrior
 subtype_tokens:
 - Elf
 - Warrior
-tags: card-color-green card-color-green-cost-4 card-type-creature
+synonyms: []
 tapped_id: 433
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Wolf 2/2 G
-  power_toughness: 2/2
-  rules: ''
-  subtype: Wolf
-  tla: C14
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 93
+    - - cannonical_type
+      - Creature
+    - - name
+      - Wolf 2/2 G
 type: Creature
-url: http://tappedout.net/mtg-card/wrens-run-packmaster/
+url: https://tappedout.net/mtg-card/wrens-run-packmaster/
+

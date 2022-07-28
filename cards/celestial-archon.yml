@@ -1,33 +1,37 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: C18
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 5.73
+draft_average: 2.26
 effective_cost:
 - W
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -37,56 +41,99 @@ keywords:
 - Attach
 - Bestow
 mana_cost: 3WW
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Celestial Archon
 power_toughness: 4/4
 printings:
-- C18:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2018
-    number: 64
-    rarity: rare
-    release_date: 2018-08-10
-    wizards_id: 451019
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451019
-- C15:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2015
-    number: 64
-    rarity: rare
-    release_date: 2015-11-13
-    wizards_id: 405168
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405168
 - THS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Matt Stewart
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: modern
     mtgo_foil_id: 50371
     mtgo_id: 50370
     name: Theros
     number: 3
     rarity: rare
-    release_date: 2013-09-27
+    release_date: '2013-09-27'
+    tla: THS
+    variations: []
     wizards_id: 373503
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373503
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Wesley Burt
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 68
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C15:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Matt Stewart
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2015
+    number: 64
+    rarity: rare
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
+    wizards_id: 405168
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405168
+- C18:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Matt Stewart
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2018
+    number: 64
+    rarity: rare
+    release_date: '2018-08-10'
+    tla: C18
+    variations: []
+    wizards_id: 451019
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451019
+rarity: rare
 rules: "Bestow [[symbol:5]][[symbol:W]][[symbol:W]] *(If you cast this card for its\
   \ bestow cost, it's an Aura spell with enchant creature. It becomes a creature again\
   \ if it's not attached to a creature.)*\r\n\r\nFlying, first strike\r\n\r\nEnchanted\
@@ -95,7 +142,9 @@ slug: celestial-archon
 subtype: Archon
 subtype_tokens:
 - Archon
-tags: card-color-white card-color-white-cost-5 card-type-creature card-type-enchantment
+synonyms: []
 tapped_id: 14823
+tokens: []
 type: Enchantment Creature
-url: http://tappedout.net/mtg-card/celestial-archon/
+url: https://tappedout.net/mtg-card/celestial-archon/
+

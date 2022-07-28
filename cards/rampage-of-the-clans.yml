@@ -1,78 +1,104 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: RNA
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.0
+draft_average: 8.08
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: 3G
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Rampage of the Clans
 printings:
 - RNA:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Sidharth Chaturvedi
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Rage! Rage until the whole world burns!"*'
     frame: m15
     mtgo_foil_id: 71269
     mtgo_id: 71268
     name: Ravnica Allegiance
     number: 134
     rarity: rare
-    release_date: 2019-01-25
+    release_date: '2019-01-25'
+    tla: RNA
+    variations: []
     wizards_id: 457278
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=457278
 rules: Destroy all artifacts and enchantments. For each permanent destroyed this way,
   its controller creates a 3/3 green Centaur creature token.
 slug: rampage-of-the-clans
-tags: card-color-green card-color-green-cost-4 card-type-instant
+synonyms: []
 tapped_id: 21060
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Centaur 3/3 G
-  power_toughness: 3/3
-  rules: ''
-  subtype: Centaur
-  tla: RNA
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 3/3
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 154
+    - - cannonical_type
+      - Creature
+    - - name
+      - Centaur 3/3 G
 type: Instant
-url: http://tappedout.net/mtg-card/rampage-of-the-clans/
+url: https://tappedout.net/mtg-card/rampage-of-the-clans/
+

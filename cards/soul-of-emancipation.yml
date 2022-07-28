@@ -1,9 +1,12 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SNC
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -12,62 +15,76 @@ effective_cost:
 - W
 - U
 - G
-flat_cost: 7
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Penny Dreadful
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
 - Tokens
 mana_cost: 4GWU
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Soul of Emancipation
 power_toughness: 5/7
 printings:
 - SNC:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Eric Deschamps
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Light poured from every crack as the sleepers awoke from their
+      long stone slumber.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Streets of New Capenna
     number: 223
     rarity: rare
-    release_date: 2022-04-29
+    release_date: '2022-04-29'
+    tla: SNC
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '334'
-    - alterations:
-      - Foil
-      identifier: '399'
+    - identifier: '334'
+    - identifier: '399'
     wizards_id: 555424
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=555424
 rules: When Soul of Emancipation enters the battlefield, destroy up to three other
@@ -77,19 +94,24 @@ slug: soul-of-emancipation
 subtype: Avatar
 subtype_tokens:
 - Avatar
-tags: card-color-blue card-color-gold card-color-gold-cost-7 card-color-green card-color-white
-  card-type-creature
+synonyms: []
 tapped_id: 26326
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Angel 3/3 W
-  power_toughness: 3/3
-  rules: Flying
-  subtype: Angel
-  tla: SNC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 3/3
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 20
+    - - cannonical_type
+      - Creature
+    - - name
+      - Angel 3/3 W
 type: Creature
-url: http://tappedout.net/mtg-card/soul-of-emancipation/
+url: https://tappedout.net/mtg-card/soul-of-emancipation/
+

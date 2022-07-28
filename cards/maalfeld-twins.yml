@@ -1,86 +1,122 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 10.45
+draft_average: 5.45
 effective_cost:
 - B
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Vintage
-has_activated_abilities: false
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: 5B
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Maalfeld Twins
 power_toughness: 4/4
 printings:
-- CMR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander Legends
-    number: 132
-    rarity: common
-    release_date: 2020-11-20
-    wizards_id: 497652
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497652
 - AVR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mike Sass
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "\"Who am I to break up a family?\" \u2014Gisa the Mad"
     frame: modern
     mtgo_foil_id: 43898
     mtgo_id: 43897
     name: Avacyn Restored
+    number: null
     rarity: uncommon
-    release_date: 2012-05-04
+    release_date: '2012-05-04'
+    tla: AVR
+    variations: []
     wizards_id: 240012
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=240012
+- CMR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mike Sass
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Who am I to break up a family?\"\r\n<br>\u2014Gisa the Mad*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Legends
+    number: 132
+    rarity: common
+    release_date: '2020-11-20'
+    tla: CMR
+    variations: []
+    wizards_id: 497652
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497652
+rarity: uncommon
 rules: When Maalfeld Twins dies *(is put into the graveyard from the battlefield)*,
   create two 2/2 black Zombie creature tokens.
 slug: maalfeld-twins
 subtype: Zombie
 subtype_tokens:
 - Zombie
-tags: card-color-black card-color-black-cost-6 card-type-creature
+synonyms: []
 tapped_id: 13752
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: CMR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Creature
-url: http://tappedout.net/mtg-card/maalfeld-twins/
+url: https://tappedout.net/mtg-card/maalfeld-twins/
+

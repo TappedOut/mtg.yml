@@ -3,37 +3,43 @@ activated_abilities:
 - ': Exile each permanent with converted mana cost X or less that''s one or more colours.'
 - ': You gain 7 life, draw seven cards, then put up to seven permanent cards from
   your hand onto the battlefield.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M21
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 8
+cube_average: 2.51
+draft_average: 1.17
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,74 +47,117 @@ keywords:
 - Exile
 - Counters
 mana_cost: '8'
-mana_cost_converted: 8
+mana_value: 8
+melds_from: []
 name: Ugin, the Spirit Dragon
+planeswalker_loyalty: 7
 printings:
-- M21:
-    alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    border_color: B
-    frame: m15
-    name: Core Set 2021
-    number: 1
-    rarity: mythic_rare
-    release_date: 2020-07-03
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '279'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '285'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
-    wizards_id: 485324
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485324
-- WARMED:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: 'War of the Spark: Mythic Edition'
-    number: 1
-    rarity: mythic_rare
-    release_date: 2019-05-02
 - FRF:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Raymond Swanland
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 55365
     mtgo_id: 55364
     name: Fate Reforged
     number: 1
     rarity: mythic_rare
-    release_date: 2015-01-23
+    release_date: '2015-01-23'
+    tla: FRF
+    variations: []
     wizards_id: 391948
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=391948
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- WARMED:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'War of the Spark: Mythic Edition'
+    number: 1
+    rarity: mythic_rare
+    release_date: '2019-05-02'
+    tla: WARMED
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- M21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Raymond Swanland
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Core Set 2021
+    number: 1
+    rarity: mythic_rare
+    release_date: '2020-07-03'
+    tla: M21
+    variations:
+    - identifier: '279'
+    - identifier: '285'
+    - identifier: PromoPack
+    wizards_id: 485324
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485324
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus2]]: Ugin, the Spirit Dragon deals 3 damage to target\
   \ creature, player or planeswalker.\r\n\r\n[[symbol:loyalty-minusX]]: Exile each\
   \ permanent with converted mana cost X or less that's one or more colours.\r\n\r\
@@ -121,7 +170,8 @@ subtype_tokens:
 synonyms:
 - Eugene
 - Ugin
-tags: card-color-colorless card-color-colorless-cost-8 card-type-planeswalker
 tapped_id: 16097
+tokens: []
 type: Planeswalker
-url: http://tappedout.net/mtg-card/ugin-the-spirit-dragon/
+url: https://tappedout.net/mtg-card/ugin-the-spirit-dragon/
+

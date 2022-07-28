@@ -3,7 +3,7 @@ activated_abilities:
 - ': This becomes a 1/1 Blinkmoth artifact creature with flying until end of turn.
   This is still a land.'
 - ', : Target Blinkmoth creature gets +1/+1 until end of turn.'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: 2XM
@@ -19,103 +19,168 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 8.51
+draft_average: 2.86
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
-mana_cost_converted: 0
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Blinkmoth Nexus
 printings:
-- 2XM:
+- DST:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Brian Snoddy
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: Double Masters
-    number: 311
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 20478
+    mtgo_id: 20477
+    name: Darksteel
+    number: null
     rarity: rare
-    release_date: 2020-08-07
-    wizards_id: 489984
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489984
-- ARENA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Arena Cards
-    rarity: rare
-    release_date: 2019-09-26
-- MM2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 57351
-    mtgo_id: 57350
-    name: Modern Masters 2015 Edition
-    number: 256
-    rarity: rare
-    release_date: 2015-05-22
-    wizards_id: 397660
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397660
+    release_date: '2004-02-06'
+    tla: DST
+    variations: []
+    wizards_id: 39439
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=39439
 - MMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sam Burley
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 48883
     mtgo_id: 48882
     name: Modern Masters
     number: 220
     rarity: rare
-    release_date: 2013-06-07
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
     wizards_id: 370407
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370407
-- DST:
+- MM2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sam Burley
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 20478
-    mtgo_id: 20477
-    name: Darksteel
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 57351
+    mtgo_id: 57350
+    name: Modern Masters 2015 Edition
+    number: 256
     rarity: rare
-    release_date: 2004-02-06
-    wizards_id: 39439
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=39439
+    release_date: '2015-05-22'
+    tla: MM2
+    variations: []
+    wizards_id: 397660
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397660
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sam Burley
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 311
+    rarity: rare
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations: []
+    wizards_id: 489984
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489984
+- ARENA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sam Burley
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Arena Cards
+    number: null
+    rarity: rare
+    release_date: '2019-09-26'
+    tla: ARENA
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:1]]: This becomes a 1/1 Blinkmoth\
   \ artifact creature with flying until end of turn. This is still a land.\r\n\r\n\
   [[symbol:1]], [[symbol:T]]: Target Blinkmoth creature gets +1/+1 until end of turn."
 slug: blinkmoth-nexus
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
+synonyms: []
 tapped_id: 3093
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/blinkmoth-nexus/
+url: https://tappedout.net/mtg-card/blinkmoth-nexus/
+

@@ -1,97 +1,134 @@
 activated_abilities:
 - ', : Create an X/X black Phyrexian Minion creature token, where X is the life paid
   as Phyrexian Processor entered the battlefield.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DDE
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 4
+cube_average: 5.69
+draft_average: 1.67
+effective_cost: []
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: '4'
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Phyrexian Processor
 printings:
+- USG:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ron Spencer
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: 12346
+    mtgo_id: 12345
+    name: Urza's Saga
+    number: null
+    rarity: rare
+    release_date: '1998-10-12'
+    tla: USG
+    variations: []
+    wizards_id: 5610
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=5610
+- DDE:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Dave Kendall
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 35481
+    name: 'Duel Decks: Phyrexia vs. The Coalition'
+    number: 29
+    rarity: rare
+    release_date: '2010-05-19'
+    tla: DDE
+    variations: []
+    wizards_id: 207888
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=207888
 - V16:
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dave Kendall
+    booster_exclude: false
     border_color: B
     cannonical: false
-    foil: foil
-    foil_only: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 62116
     mtgo_id: 62115
     name: 'From the Vault: Lore'
     number: 12
     rarity: mythic_rare
-    release_date: 2016-08-19
+    release_date: '2016-08-19'
+    tla: V16
+    variations: []
     wizards_id: 416754
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416754
-- DDE:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 35481
-    name: 'Duel Decks: Phyrexia vs. The Coalition'
-    number: 29
-    rarity: rare
-    release_date: 2010-05-19
-    wizards_id: 207888
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=207888
-- USG:
-    alterations:
-    - Normal
-    border_color: B
-    frame: original
-    mtgo_foil_id: 12346
-    mtgo_id: 12345
-    name: Urza's Saga
-    rarity: rare
-    release_date: 1998-10-12
-    wizards_id: 5610
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=5610
+rarity: rare
 rules: "As Phyrexian Processor enters the battlefield, pay any amount of life.\r\n\
   \r\n[[symbol:4]], [[symbol:T]]: Create an X/X black Phyrexian Minion creature token,\
   \ where X is the life paid as Phyrexian Processor entered the battlefield."
 slug: phyrexian-processor
-tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact
+synonyms: []
 tapped_id: 6395
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Minion X/X B
-  power_toughness: X/X
-  rules: ''
-  subtype: Minion
-  tla: DDE
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - X/X
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 186
+    - - cannonical_type
+      - Creature
+    - - name
+      - Minion X/X B
 type: Artifact
-url: http://tappedout.net/mtg-card/phyrexian-processor/
+url: https://tappedout.net/mtg-card/phyrexian-processor/
+

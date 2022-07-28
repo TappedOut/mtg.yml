@@ -1,40 +1,46 @@
 activated_abilities:
 - ', : Target creature can''t be blocked this turn.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SNC
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 2
+cube_average: 7.17
+draft_average: 7.4
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,64 +48,117 @@ keywords:
 - Defender
 - Unblockable
 mana_cost: '2'
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Suspicious Bookcase
 power_toughness: 0/4
 printings:
-- SNC:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Streets of New Capenna
-    number: 245
-    rarity: uncommon
-    release_date: 2022-04-29
-    wizards_id: 555446
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=555446
-- JMP:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Jumpstart
-    number: 487
-    rarity: uncommon
-    release_date: 2020-07-17
-    wizards_id: 489470
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489470
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: uncommon
-    release_date: 2020-03-14
 - M19:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Anastasia Ovchinnikova
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*All the books were dusty with disuse, save the one titled* Camouflage
+      and Its Practical Applications.'
     frame: m15
     mtgo_foil_id: 68656
     mtgo_id: 68655
     name: Core Set 2019
     number: 246
     rarity: uncommon
-    release_date: 2018-07-13
+    release_date: '2018-07-13'
+    tla: M19
+    variations: []
     wizards_id: 447383
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=447383
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Anastasia Ovchinnikova
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*All the books were dusty with disuse, save the one titled* Camouflage
+      and Its Practical Applications.'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: uncommon
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- JMP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Anastasia Ovchinnikova
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*All the books were dusty with disuse, save the one titled* Camouflage
+      and Its Practical Applications.'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Jumpstart
+    number: 487
+    rarity: uncommon
+    release_date: '2020-07-17'
+    tla: JMP
+    variations: []
+    wizards_id: 489470
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489470
+- SNC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Josu Hernaiz
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*The great library in the Museum of Old Capenna has a million volumes
+      on display ... and miles of passages of hidden behind them.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Streets of New Capenna
+    number: 245
+    rarity: uncommon
+    release_date: '2022-04-29'
+    tla: SNC
+    variations: []
+    wizards_id: 555446
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=555446
 rules: "Defender *(This creature can't attack.)*\r\n\r\n[[symbol:3]], [[symbol:T]]:\
   \ Target creature can't be blocked this turn."
 slug: suspicious-bookcase
 subtype: Wall
 subtype_tokens:
 - Wall
-tags: card-color-colorless card-color-colorless-cost-2 card-type-artifact card-type-creature
+synonyms: []
 tapped_id: 20606
+tokens: []
 type: Artifact Creature
-url: http://tappedout.net/mtg-card/suspicious-bookcase/
+url: https://tappedout.net/mtg-card/suspicious-bookcase/
+

@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C18
 cannonical_type: Sorcery
@@ -10,98 +12,150 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.08
+draft_average: 6.5
 effective_cost:
 - B
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Retrace
 - Tokens
 mana_cost: 2{B/G}{B/G}{B/G}
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Worm Harvest
+power_toughness: ''
 printings:
-- C18:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2018
-    number: 194
-    rarity: rare
-    release_date: 2018-08-10
-    wizards_id: 451149
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451149
-- C16:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2016
-    number: 238
-    rarity: rare
-    release_date: 2016-11-11
-    wizards_id: 420855
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420855
-- MMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 48779
-    mtgo_id: 48778
-    name: Modern Masters
-    rarity: uncommon
-    release_date: 2013-06-07
-    wizards_id: 370532
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370532
 - EVE:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chuck Lukacs
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 30001
     mtgo_id: 30000
     name: Eventide
+    number: null
     rarity: rare
-    release_date: 2008-07-25
+    release_date: '2008-07-25'
+    tla: EVE
+    variations: []
     wizards_id: 151135
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=151135
+- MMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chuck Lukacs
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 48779
+    mtgo_id: 48778
+    name: Modern Masters
+    number: null
+    rarity: uncommon
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
+    wizards_id: 370532
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370532
+- C16:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Chuck Lukacs
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2016
+    number: 238
+    rarity: rare
+    release_date: '2016-11-11'
+    tla: C16
+    variations: []
+    wizards_id: 420855
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420855
+- C18:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Chuck Lukacs
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2018
+    number: 194
+    rarity: rare
+    release_date: '2018-08-10'
+    tla: C18
+    variations: []
+    wizards_id: 451149
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451149
+rarity: uncommon
 rules: "Create a 1/1 black and green Worm creature token for each land card in your\
   \ graveyard.\r\n\r\nRetrace *(You may cast this card from your graveyard by discarding\
   \ a land card in addition to paying its other costs.)*"
 slug: worm-harvest
-tags: card-color-black card-color-gold card-color-gold-cost-5 card-color-green card-type-sorcery
+synonyms: []
 tapped_id: 9940
 tokens:
-- cannonical_type: Creature
-  colors: BG
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Worm 1/1 BG
-  power_toughness: 1/1
-  rules: ''
-  subtype: Worm
-  tla: C18
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - BG
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 473
+    - - cannonical_type
+      - Creature
+    - - name
+      - Worm 1/1 BG
 type: Sorcery
-url: http://tappedout.net/mtg-card/worm-harvest/
+url: https://tappedout.net/mtg-card/worm-harvest/
+

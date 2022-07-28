@@ -2,7 +2,7 @@ activated_abilities:
 - ': Gain .'
 - ', : Gain six . Spend that mana only to cast creature spells or activate abilities
   of creatures.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: ELD
@@ -18,58 +18,74 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 10.79
+draft_average: 4.39
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: G, GGGGGG
+mana_value: 0
+melds_from: []
 name: Castle Garenbrig
 printings:
 - ELD:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Adam Paquette
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Without Garenbrig''s strength, the realm would succumb to the
+      wilds.*'
     frame: m15
     mtgo_foil_id: 78627
     mtgo_id: 78626
     name: Throne of Eldraine
     number: 240
     rarity: rare
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '388'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '388'
+    - identifier: PromoPack
     wizards_id: 473202
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=473202
 rules: "Castle Garenbrig enters the battlefield tapped unless you control a Forest.\r\
@@ -80,7 +96,8 @@ slug: castle-garenbrig
 synonyms:
 - G Castle
 - Castle G
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-green card-type-land
 tapped_id: 22142
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/castle-garenbrig/
+url: https://tappedout.net/mtg-card/castle-garenbrig/
+

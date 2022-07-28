@@ -1,30 +1,35 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: KHC
 cannonical_type: Enchantment
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 9.26
+draft_average: 5.28
 effective_cost:
 - U
-flat_cost: 7
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -33,75 +38,124 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 4UUU
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Day of the Dragons
 printings:
-- KHC:
+- SCG:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Matthew D. Wilson
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: 'Kaldheim: Commander'
-    number: 38
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: 18721
+    mtgo_id: 18720
+    name: Scourge
+    number: null
     rarity: rare
-    release_date: 2021-02-05
-    wizards_id: 508328
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508328
+    release_date: '2003-05-17'
+    tla: SCG
+    variations: []
+    wizards_id: 43602
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=43602
+- C15:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Matthew D. Wilson
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2015
+    number: 91
+    rarity: rare
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
+    wizards_id: 405193
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405193
 - IMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Matthew D. Wilson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 65978
     mtgo_id: 65977
     name: Iconic Masters
     number: 49
     rarity: rare
-    release_date: 2017-11-17
+    release_date: '2017-11-17'
+    tla: IMA
+    variations: []
     wizards_id: 438615
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438615
-- C15:
+- KHC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Matthew D. Wilson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
-    name: Commander 2015
-    number: 91
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kaldheim: Commander'
+    number: 38
     rarity: rare
-    release_date: 2015-11-13
-    wizards_id: 405193
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405193
-- SCG:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: original
-    mtgo_foil_id: 18721
-    mtgo_id: 18720
-    name: Scourge
-    rarity: rare
-    release_date: 2003-05-17
-    wizards_id: 43602
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=43602
+    release_date: '2021-02-05'
+    tla: KHC
+    variations: []
+    wizards_id: 508328
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508328
+rarity: rare
 rules: "When Day of the Dragons enters the battlefield, exile all creatures you control.\
   \ Then create that many 5/5 red Dragon creature tokens with flying.\r\n\r\nWhen\
   \ Day of the Dragons leaves the battlefield, sacrifice all Dragons you control.\
   \ Then return the exiled cards to the battlefield under your control."
 slug: day-of-the-dragons
-tags: card-color-blue card-color-blue-cost-7 card-type-enchantment
+synonyms: []
 tapped_id: 3554
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Dragon 5/5 R
-  power_toughness: 5/5
-  rules: Flying
-  subtype: Dragon
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 5/5
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 42
+    - - cannonical_type
+      - Creature
+    - - name
+      - Dragon 5/5 R
 type: Enchantment
-url: http://tappedout.net/mtg-card/day-of-the-dragons/
+url: https://tappedout.net/mtg-card/day-of-the-dragons/
+

@@ -1,61 +1,80 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: RIX
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 8.61
+draft_average: 8.5
 effective_cost:
 - B
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Sacrifice
 - Tokens
 mana_cost: 3B
-mana_cost_converted: 4
 mana_produced: W, U. B. R. G
+mana_value: 4
+melds_from: []
 name: Pitiless Plunderer
 power_toughness: 1/4
 printings:
 - RIX:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: David Palumbo
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"Shame to let good gold go to the grave."'
     frame: m15
     mtgo_foil_id: 66616
     mtgo_id: 66615
     name: Rivals of Ixalan
     number: 81
     rarity: uncommon
-    release_date: 2018-01-19
+    release_date: '2018-01-19'
+    tla: RIX
+    variations: []
     wizards_id: 439738
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439738
+rarity: uncommon
 rules: 'Whenever another creature you control dies *(is put into the graveyard from
   the battlefield, tokens are put into the graveyard before they cease to exist)*,
   create a colourless Treasure artifact token with "[[symbol:T]], Sacrifice this artifact:
@@ -65,19 +84,24 @@ subtype: Human Pirate
 subtype_tokens:
 - Human
 - Pirate
-tags: card-color-black card-color-black-cost-4 card-mana-black card-mana-blue card-mana-green
-  card-mana-red card-mana-white card-type-creature
+synonyms: []
 tapped_id: 19891
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: 2X2
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Creature
-url: http://tappedout.net/mtg-card/pitiless-plunderer/
+url: https://tappedout.net/mtg-card/pitiless-plunderer/
+

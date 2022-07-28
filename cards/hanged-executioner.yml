@@ -1,6 +1,6 @@
 activated_abilities:
 - ', Exile this: Exile target creature.'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: VOC
@@ -8,33 +8,37 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.44
+draft_average: 3.04
 effective_cost:
 - W
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,43 +47,66 @@ keywords:
 - Exile
 - Tokens
 mana_cost: 2W
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Hanged Executioner
 power_toughness: 1/1
 printings:
-- VOC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Crimson Vow Commander'
-    number: 89
-    rarity: rare
-    release_date: 2021-11-18
-    wizards_id: 545709
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545709
 - M20:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Johann Bodin
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 72944
     mtgo_id: 72943
     name: Core Set 2020
     number: 22
     rarity: rare
-    release_date: 2019-07-12
+    release_date: '2019-07-12'
+    tla: M20
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 466776
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=466776
+- VOC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Johann Bodin
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Crimson Vow Commander'
+    number: 89
+    rarity: rare
+    release_date: '2021-11-18'
+    tla: VOC
+    variations: []
+    wizards_id: 545709
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=545709
 rules: "Flying\r\n\r\nWhen this enters the battlefield, create a 1/1 white Spirit\
   \ creature token with flying.\r\n\r\n[[symbol:3]][[symbol:W]], Exile this: Exile\
   \ target creature."
@@ -87,18 +114,24 @@ slug: hanged-executioner
 subtype: Spirit
 subtype_tokens:
 - Spirit
-tags: card-color-white card-color-white-cost-3 card-type-creature
+synonyms: []
 tapped_id: 21739
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spirit 1/1 W
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Spirit
-  tla: 2X2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 17
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spirit 1/1 W
 type: Creature
-url: http://tappedout.net/mtg-card/hanged-executioner/
+url: https://tappedout.net/mtg-card/hanged-executioner/
+

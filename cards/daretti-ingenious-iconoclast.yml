@@ -3,6 +3,7 @@ activated_abilities:
 - ': You may sacrifice an artifact. If you do, destroy target artifact or creature. '
 - ': Choose target artifact card in a graveyard or artifact on the battlefield. Create
   three tokens that are copies of it.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CN2
 cannonical_type: Planeswalker
@@ -10,28 +11,32 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.2
+draft_average: 1.0
 effective_cost:
 - B
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -40,31 +45,57 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 1BR
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Daretti, Ingenious Iconoclast
+planeswalker_loyalty: 3
 printings:
-- GRNMED:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Guilds of Ravnica: Mythic Edition'
-    number: 3
-    rarity: mythic_rare
-    release_date: 2018-10-04
 - CN2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Victor Adame Minguez
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Conspiracy: Take the Crown'
     number: 74
     rarity: mythic_rare
-    release_date: 2016-08-26
+    release_date: '2016-08-26'
+    tla: CN2
+    variations: []
     wizards_id: 416831
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416831
+- GRNMED:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Svetlin Velinov
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Guilds of Ravnica: Mythic Edition'
+    number: 3
+    rarity: mythic_rare
+    release_date: '2018-10-04'
+    tla: GRNMED
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Create a 1/1 colorless Construct artifact creature\
   \ token with defender.\r\n\r\n[[symbol:loyalty-minus1]]: You may sacrifice an artifact.\
   \ If you do, destroy target artifact or creature. \r\n\r\n[[symbol:loyalty-minus6]]:\
@@ -74,18 +105,24 @@ slug: daretti-ingenious-iconoclast
 subtype: Daretti
 subtype_tokens:
 - Daretti
-tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-red card-type-planeswalker
+synonyms: []
 tapped_id: 18140
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Construct 1/1 C Token w/ Defender
-  power_toughness: 1/1
-  rules: Defender
-  subtype: Construct
-  tla: CN2
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Defender
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 72
+    - - cannonical_type
+      - Creature
+    - - name
+      - Construct 1/1 C Token w/ Defender
 type: Planeswalker
-url: http://tappedout.net/mtg-card/daretti-ingenious-iconoclast/
+url: https://tappedout.net/mtg-card/daretti-ingenious-iconoclast/
+

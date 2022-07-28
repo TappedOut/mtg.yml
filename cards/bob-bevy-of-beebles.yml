@@ -2,7 +2,7 @@ activated_abilities:
 - ': Up to X target Beebls can''t be blocked this turn, where X is the number of cards
   in your hand.'
 - ': Draw a card.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: UND
@@ -10,18 +10,22 @@ cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.73
+draft_average: 2.0
 effective_cost:
 - U
-flat_cost: 5
 formats:
-- 'Commander: Rule 0'
-- Limited
+- Custom
 - Unformat
+- 'Commander: Rule 0'
+- Casual
+- Limited
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -31,19 +35,33 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 3UU
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: B.O.B. (Bevy of Beebles)
+planeswalker_loyalty: 0
 printings:
 - UND:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jeff Miracola
+    booster_exclude: false
     border_color: S
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Unsanctioned
     number: 18
     rarity: mythic_rare
-    release_date: 2020-02-28
+    release_date: '2020-02-28'
+    tla: UND
+    variations: []
     wizards_id: 479414
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479414
 rules: "As B.O.B. (Bevy of Beebles) enters the battlefield, create four 1/1 blue Beeble\
@@ -56,18 +74,24 @@ slug: bob-bevy-of-beebles
 subtype: B.O.B.
 subtype_tokens:
 - B.O.B.
-tags: card-color-blue card-color-blue-cost-5 card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 22600
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Beeble 1/1 U
-  power_toughness: 1/1
-  rules: ''
-  subtype: Beeble
-  tla: UND
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 199
+    - - cannonical_type
+      - Creature
+    - - name
+      - Beeble 1/1 U
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/bob-bevy-of-beebles/
+url: https://tappedout.net/mtg-card/bob-bevy-of-beebles/
+

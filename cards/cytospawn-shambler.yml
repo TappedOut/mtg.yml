@@ -1,6 +1,6 @@
 activated_abilities:
 - ': Target creature with a +1/+1 counter on it gains trample until end of turn.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: DIS
@@ -9,31 +9,35 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.75
+draft_average: 4.57
 effective_cost:
 - G
-flat_cost: 7
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Vintage
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,24 +46,36 @@ keywords:
 - Graft
 - Counters
 mana_cost: 6G
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Cytospawn Shambler
 power_toughness: 0/0
 printings:
 - DIS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Anthony S. Waters
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 24262
     mtgo_id: 24261
     name: Dissension
     number: 82
     rarity: common
-    release_date: 2006-05-05
+    release_date: '2006-05-05'
+    tla: DIS
+    variations: []
     wizards_id: 107312
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=107312
+rarity: common
 rules: "Graft 6 *(This creature enters the battlefield with six +1/+1 counters on\
   \ it. Whenever another creature enters the battlefield, you may move a +1/+1 counter\
   \ from this creature onto it.)*\r\n\r\n[[symbol:G]]: Target creature with a +1/+1\
@@ -69,7 +85,9 @@ subtype: Elemental Mutant
 subtype_tokens:
 - Elemental
 - Mutant
-tags: card-color-green card-color-green-cost-7 card-type-creature
+synonyms: []
 tapped_id: 1561
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/cytospawn-shambler/
+url: https://tappedout.net/mtg-card/cytospawn-shambler/
+

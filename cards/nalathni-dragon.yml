@@ -2,33 +2,35 @@ activated_abilities:
 - ': Nalathni Dragon gets +1/+0 until end of turn. If this ability has been activated
   four or more times this turn, sacrifice Nalathni Dragon at the beginning of the
   next end step.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: '000'
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -37,35 +39,61 @@ keywords:
 - Sacrifice
 - Banding
 mana_cost: 2RR
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Nalathni Dragon
 power_toughness: 1/1
 printings:
-- '000':
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    frame: original
-    name: Promo Set
-    number: 1
-    rarity: rare
-    release_date: 1990-04-15
-    variations:
-    - identifier: '2'
 - PSG:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Michael Whelan
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*These small but intelligent Dragons and their Olesian allies held
+      back the tide of Pashalik Mons''s hordes of Goblin Raiders.*'
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo set for Gatherer
     number: 1
     rarity: rare
-    release_date: 1990-01-10
-promo_sets:
-- PSG
+    release_date: '1990-01-10'
+    tla: PSG
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- '000':
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Michael Whelan
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*These small but intelligent Dragons and their Olesian allies held\
+      \ back the tide of Pashalik Mons's hordes of Goblin Raiders.*\r\n\r\nDragonCon\
+      \ 1994"
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Promo Set
+    number: 1
+    rarity: rare
+    release_date: '1990-04-15'
+    tla: '000'
+    variations:
+    - identifier: '2'
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "Flying; banding *(Any creatures with banding, and up to one without, can attack\
   \ in a band. Bands are blocked as a group. If any creatures with banding you control\
   \ are blocking or being blocked by a creature, you divide that creature\u2019s combat\
@@ -77,7 +105,9 @@ slug: nalathni-dragon
 subtype: Dragon
 subtype_tokens:
 - Dragon
-tags: card-color-red card-color-red-cost-4 card-type-creature
+synonyms: []
 tapped_id: 11877
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/nalathni-dragon/
+url: https://tappedout.net/mtg-card/nalathni-dragon/
+

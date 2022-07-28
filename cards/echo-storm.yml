@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C18
 cannonical_type: Sorcery
@@ -10,56 +12,74 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.0
 effective_cost:
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: 3UU
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Echo Storm
 printings:
 - C18:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mark Poole
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*An organized and methodical reproduction.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander 2018
     number: 7
     rarity: rare
-    release_date: 2018-08-10
+    release_date: '2018-08-10'
+    tla: C18
+    variations: []
     wizards_id: 450608
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=450608
 rules: "When you cast this spell, copy it for each time you've cast your commander\
   \ from the command zone this game. You may choose new targets for the copies.\r\n\
   \r\nCreate a token that's a copy of target artifact."
 slug: echo-storm
-tags: card-color-blue card-color-blue-cost-5 card-type-sorcery
+synonyms: []
 tapped_id: 20660
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Sorcery
-url: http://tappedout.net/mtg-card/echo-storm/
+url: https://tappedout.net/mtg-card/echo-storm/
+

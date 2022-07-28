@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 - G
 - U
@@ -6,60 +7,75 @@ canadian_hl_score: 0
 cannonical_set: KTK
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 8.94
+draft_average: 8.12
 effective_cost:
 - U
 - B
 - G
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
 - Pauper EDH
+- Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Pauper
+- Pauper Duel Commander
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
 - Morph
 mana_cost: 3BGU
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Abomination of Gudul
 power_toughness: 3/4
 printings:
 - KTK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Erica Yang
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 54417
     mtgo_id: 54416
     name: Khans of Tarkir
     number: 159
     rarity: common
-    release_date: 2014-09-26
+    release_date: '2014-09-26'
+    tla: KTK
+    variations: []
     wizards_id: 386463
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386463
+rarity: common
 rules: "Flying\r\n\r\nWhenever Abomination of Gudul deals combat damage to a player,\
   \ you may draw a card. If you do, discard a card.\r\n\r\nMorph [[symbol:2]][[symbol:B]][[symbol:G]][[symbol:U]]\
   \ *(You may cast this card face down as a 2/2 creature for [[symbo:3]]. Turn it\
@@ -68,19 +84,25 @@ slug: abomination-of-gudul
 subtype: Horror
 subtype_tokens:
 - Horror
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-6 card-color-green
-  card-type-creature
+synonyms: []
 tapped_id: 15975
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Morph 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  tla: KTK
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+        \ with morph can be turned face up at any time for its morph cost.*"
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Morph 2/2 C
 type: Creature
-url: http://tappedout.net/mtg-card/abomination-of-gudul/
+url: https://tappedout.net/mtg-card/abomination-of-gudul/
+

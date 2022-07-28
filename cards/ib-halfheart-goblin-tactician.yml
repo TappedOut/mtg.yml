@@ -1,33 +1,38 @@
 activated_abilities:
 - 'Sacrifice two Mountains: Create two 1/1 red Goblin creature tokens.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: EVG
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.56
+draft_average: 2.8
 effective_cost:
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -35,48 +40,81 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 3R
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Ib Halfheart, Goblin Tactician
 power_toughness: 3/2
 printings:
-- DD3:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Duel Decks Anthology
-    number: 43
-    rarity: rare
-    release_date: 2014-12-05
-    wizards_id: 393968
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393968
-- EVG:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 28937
-    name: 'Duel Decks: Elves vs. Goblins'
-    number: 43
-    rarity: rare
-    release_date: 2007-11-16
-    wizards_id: 393968
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393968
 - TSP:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Wayne Reynolds
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"Everybody but meCHARGE!"'
     frame: modern
     mtgo_foil_id: 25700
     mtgo_id: 25699
     name: Time Spiral
+    number: null
     rarity: rare
-    release_date: 2006-10-06
+    release_date: '2006-10-06'
+    tla: TSP
+    variations: []
     wizards_id: 114912
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=114912
+- EVG:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: ' Wayne Reynolds'
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Everybody but me\u2014CHARGE!\"*"
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 28937
+    name: 'Duel Decks: Elves vs. Goblins'
+    number: 43
+    rarity: rare
+    release_date: '2007-11-16'
+    tla: EVG
+    variations: []
+    wizards_id: 393968
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393968
+- DD3:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Wayne Reynolds
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"Everybody but me&mdash;CHARGE!"*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Duel Decks Anthology
+    number: 43
+    rarity: rare
+    release_date: '2014-12-05'
+    tla: DD3
+    variations: []
+    wizards_id: 393968
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393968
+rarity: rare
 rules: "Whenever another Goblin you control becomes blocked, sacrifice it. If you\
   \ do, it deals 4 damage to each creature blocking it.\r\n\r\nSacrifice two Mountains:\
   \ Create two 1/1 red Goblin creature tokens."
@@ -85,18 +123,24 @@ subtype: Goblin Advisor
 subtype_tokens:
 - Goblin
 - Advisor
-tags: card-color-red card-color-red-cost-4 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 1081
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goblin 1/1 R
-  power_toughness: 1/1
-  rules: ''
-  subtype: Goblin
-  tla: EVG
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 153
+    - - cannonical_type
+      - Creature
+    - - name
+      - Goblin 1/1 R
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/ib-halfheart-goblin-tactician/
+url: https://tappedout.net/mtg-card/ib-halfheart-goblin-tactician/
+

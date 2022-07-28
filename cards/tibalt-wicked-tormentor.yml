@@ -7,7 +7,7 @@ activated_abilities:
   card.'
 - ': Create X 1/1 red Devil creature tokens with '
 - 'This card''s spellbook:'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: Y22
@@ -15,6 +15,7 @@ cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -22,12 +23,13 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 5
 formats:
-- Alchemy
 - Arena
-- Gladiator
+- Custom
 - Historic
+- Gladiator
+- Alchemy
+- Casual
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -37,20 +39,36 @@ keywords:
 - Draft
 - Tokens
 mana_cost: 3RR
-mana_cost_converted: 5
 mana_produced: RR
+mana_value: 5
+melds_from: []
 name: Tibalt, Wicked Tormentor
+planeswalker_loyalty: 3
 printings:
 - Y22:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Hugh Pindur
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Arena Alchemy 2022
+    number: null
     rarity: mythic_rare
-    release_date: 2021-12-09
+    release_date: '2021-12-09'
+    tla: Y22
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "[[symbol:loyalty-plus1]]: Add [[symbol:R]][[symbol:R]]. Draft a card from\
   \ this card's spellbook, then exile it. Until end of turn, you may cast that card.\
   \ *(To draft a card, randomly generate three cards from the given pool of cards,\
@@ -68,20 +86,26 @@ slug: tibalt-wicked-tormentor
 subtype: Tibalt
 subtype_tokens:
 - Tibalt
-tags: card-color-red card-color-red-cost-5 card-mana-red card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 25731
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Devil 1/1 R
-  power_toughness: 1/1
-  rules: When this creature dies *(is put into the graveyard from the battlefield,
-    tokens are put into the graveyard before ceasing to exist)*, this deals 1 damage
-    to any target *(creature, player or planeswalker)*.
-  subtype: Devil
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - When this creature dies *(is put into the graveyard from the battlefield,
+        tokens are put into the graveyard before ceasing to exist)*, this deals 1
+        damage to any target *(creature, player or planeswalker)*.
+    - - type
+      - Token Creature
+    - - subtype
+      - 675
+    - - cannonical_type
+      - Creature
+    - - name
+      - Devil 1/1 R
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/tibalt-wicked-tormentor/
+url: https://tappedout.net/mtg-card/tibalt-wicked-tormentor/
+

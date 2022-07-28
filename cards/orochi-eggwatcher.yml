@@ -2,7 +2,7 @@ activated_abilities:
 - ', : Create a 1/1 green Snake creature. If you control ten or more creatures, flip
   Orochi Eggwatcher.'
 - ', Sacrifice a creature: Target creature gets +3/+3 until end of turn.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: CHK
@@ -10,30 +10,34 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.82
+draft_average: 4.5
 effective_cost:
 - G
-flat_cost: 3
 flip: Shidako, Broodmistress
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_front: true
 is_mtgo: true
@@ -43,24 +47,36 @@ keywords:
 - Flip
 - Tokens
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Orochi Eggwatcher
 power_toughness: 1/1
 printings:
 - CHK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dan Scott
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 21268
     mtgo_id: 21267
     name: Champions of Kamigawa
     number: 233
     rarity: uncommon
-    release_date: 2004-10-01
+    release_date: '2004-10-01'
+    tla: CHK
+    variations: []
     wizards_id: 78975
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=78975
+rarity: uncommon
 rules: "[[symbol:2]][[symbol:G]], [[symbol:T]]: Create a 1/1 green Snake creature.\
   \ If you control ten or more creatures, flip Orochi Eggwatcher.\r\n\r\n-----\r\n\
   \r\n<h2>Shidako, Broodmistress</h2>\r\n<h3>Legendary Creature &mdash; Snake Shaman</h3>\r\
@@ -82,18 +98,23 @@ synonyms:
 - Orochi Eggwatcher/Shidako, Brood Mistress
 - Shidako, Brood Mistress/Orochi Eggwatcher
 - Shidako, Brood Mistress / Orochi Eggwatcher
-tags: card-color-green card-color-green-cost-3 card-type-creature
 tapped_id: 10393
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Snake 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Snake
-  tla: MIC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 63
+    - - cannonical_type
+      - Creature
+    - - name
+      - Snake 1/1 G
 type: Creature
-url: http://tappedout.net/mtg-card/orochi-eggwatcher/
+url: https://tappedout.net/mtg-card/orochi-eggwatcher/
+

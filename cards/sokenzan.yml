@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: HOP
@@ -11,43 +12,55 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+effective_cost: []
 formats:
 - 1v1 Commander
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Pauper
+- Casual
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Haste
 - Tap/Untap
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Sokenzan
 printings:
 - HOP:
     alterations:
-    - Oversized
+    - !!python/tuple
+      - oversized
+      - Oversized
+    artist: Brian Snoddy
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Planechase
     number: 36
     rarity: common
-    release_date: 2009-09-04
+    release_date: '2009-09-04'
+    tla: HOP
+    variations: []
     wizards_id: 198075
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=198075
+rarity: common
 rules: "All creatures get +1/+1 and have haste.\r\n\r\nWhenever you roll {{C}}, untap\
   \ all creatures that attacked this turn. After this main phase, there is an additional\
   \ combat phase followed by an additional main phase."
@@ -55,7 +68,9 @@ slug: sokenzan
 subtype: Kamigawa
 subtype_tokens:
 - Kamigawa
-tags: card-color-colorless card-color-colorless-cost-0 card-type-plane
+synonyms: []
 tapped_id: 12702
+tokens: []
 type: Plane
-url: http://tappedout.net/mtg-card/sokenzan/
+url: https://tappedout.net/mtg-card/sokenzan/
+

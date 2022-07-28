@@ -1,36 +1,41 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: WAR
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 10.84
+draft_average: 4.21
 effective_cost:
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -39,22 +44,33 @@ keywords:
 - Tokens
 - Amass
 mana_cost: 2B
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Vizier of the Scorpion
 power_toughness: 1/1
 printings:
 - WAR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Zack Stella
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*His blessing is a curse.*'
     frame: m15
     mtgo_foil_id: 71829
     mtgo_id: 71828
     name: War of the Spark
     number: 111
     rarity: uncommon
-    release_date: 2019-05-03
+    release_date: '2019-05-03'
+    tla: WAR
+    variations: []
     wizards_id: 461038
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461038
 rules: When Vizier of the Scorpion enters the battlefield, amass 1. *(Put a +1/+1
@@ -65,18 +81,24 @@ subtype: Zombie Wizard
 subtype_tokens:
 - Zombie
 - Wizard
-tags: card-color-black card-color-black-cost-3 card-type-creature
+synonyms: []
 tapped_id: 21369
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie Army 0/0 B
-  power_toughness: 0/0
-  rules: ''
-  subtype: Zombie Army
-  tla: WAR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 0/0
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 1342
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie Army 0/0 B
 type: Creature
-url: http://tappedout.net/mtg-card/vizier-of-the-scorpion/
+url: https://tappedout.net/mtg-card/vizier-of-the-scorpion/
+

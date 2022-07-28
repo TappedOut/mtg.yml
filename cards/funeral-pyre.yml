@@ -1,73 +1,95 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: JUD
 cannonical_type: Instant
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+draft_average: 9.6
 effective_cost:
 - W
-flat_cost: 1
 formats:
 - 1v1 Commander
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
 - Pauper EDH
-- Premodern
-- Tiny Leaders
+- Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Flying
 mana_cost: W
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Funeral Pyre
+power_toughness: ''
 printings:
 - JUD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Carl Critchlow
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"Raze the body. Raise the soul."Mystic elder'
     frame: original
     mtgo_foil_id: 17399
     mtgo_id: 17398
     name: Judgment
     number: 10
     rarity: common
-    release_date: 2002-05-27
+    release_date: '2002-05-27'
+    tla: JUD
+    variations: []
     wizards_id: 34889
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=34889
+rarity: common
 rules: Remove target card in a graveyard from the game. Its owner puts a 1/1 white
   Spirit creature token with flying into play.
 slug: funeral-pyre
-tags: card-color-white card-color-white-cost-1 card-type-instant
+synonyms: []
 tapped_id: 4179
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spirit 1/1 W
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Spirit
-  tla: 2X2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 17
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spirit 1/1 W
 type: Instant
-url: http://tappedout.net/mtg-card/funeral-pyre/
+url: https://tappedout.net/mtg-card/funeral-pyre/
+

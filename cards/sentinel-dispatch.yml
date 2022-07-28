@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CNS
 companions:
@@ -9,59 +11,83 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 4.87
+draft_average: 5.3
+effective_cost: []
 formats:
 - 1v1 Commander
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Pauper
+- Casual
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
-mana_cost_converted: 0
+keywords: []
+mana_value: 0
+melds_from: []
 name: Sentinel Dispatch
+power_toughness: ''
 printings:
 - CNS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Adam Paquette
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "\"Unusual. Security also worth stealing.\"\r\n\n\u2014Dack Fayden"
     frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Conspiracy
     number: 11
     rarity: common
-    release_date: 2014-06-06
+    release_date: '2014-06-06'
+    tla: CNS
+    variations: []
     wizards_id: 382360
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382360
+rarity: common
 rules: '(Start the game with this conspiracy face up in the command zone.)
 
 
   At the beginning of the first upkeep, put a 1/1 colorless Construct artifact creature
   token with defender onto the battlefield.'
 slug: sentinel-dispatch
-tags: card-color-colorless card-color-colorless-cost-0 card-type-conspiracy
+synonyms: []
 tapped_id: 15600
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Construct 1/1 C Token w/ Defender
-  power_toughness: 1/1
-  rules: Defender
-  subtype: Construct
-  tla: CNS
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Defender
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 72
+    - - cannonical_type
+      - Creature
+    - - name
+      - Construct 1/1 C Token w/ Defender
 type: Conspiracy
-url: http://tappedout.net/mtg-card/sentinel-dispatch/
+url: https://tappedout.net/mtg-card/sentinel-dispatch/
+

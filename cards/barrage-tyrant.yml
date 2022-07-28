@@ -1,7 +1,7 @@
 activated_abilities:
 - ', Sacrifice another colorless creature: This deals damage equal to the sacrificed
   creature''s power to target creature, player or planeswalker.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: BFZ
@@ -9,29 +9,33 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.5
+draft_average: 3.56
 effective_cost:
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -39,35 +43,60 @@ keywords:
 - Sacrifice
 - Devoid
 mana_cost: 4R
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Barrage Tyrant
 power_toughness: 5/3
 printings:
 - BFZ:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Chris Rallis
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*Terrible fury. Excellent aim.*'
     frame: m15
     mtgo_foil_id: 58648
     mtgo_id: 58647
     name: Battle for Zendikar
     number: 127
     rarity: rare
-    release_date: 2015-10-02
+    release_date: '2015-10-02'
+    tla: BFZ
+    variations: []
     wizards_id: 401815
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401815
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Slawomir Maniak
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*Terrible fury. Excellent aim.*'
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "Devoid *(This card has no color.)*\r\n\r\n[[symbol:2]][[symbol:R]], Sacrifice\
   \ another colorless creature: This deals damage equal to the sacrificed creature's\
   \ power to target creature, player or planeswalker."
@@ -75,7 +104,9 @@ slug: barrage-tyrant
 subtype: Eldrazi
 subtype_tokens:
 - Eldrazi
-tags: card-color-red card-color-red-cost-5 card-type-creature
+synonyms: []
 tapped_id: 17119
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/barrage-tyrant/
+url: https://tappedout.net/mtg-card/barrage-tyrant/
+

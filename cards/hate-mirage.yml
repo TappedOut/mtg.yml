@@ -1,70 +1,87 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C19
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
 effective_cost:
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Haste
 - Exile
 - Tokens
 mana_cost: 3R
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Hate Mirage
 printings:
 - C19:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Tomasz Jedruszek
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*A trick of the light, though momentary, can still be deadly.*'
     frame: m15
     mtgo_foil_id: 77107
     mtgo_id: 77106
     name: Commander 2019
     number: 26
     rarity: uncommon
-    release_date: 2019-08-23
+    release_date: '2019-08-23'
+    tla: C19
+    variations: []
     wizards_id: 470572
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470572
 rules: Choose up to two target creatures you don't control. For each of those creatures
   create a token that is a copy of those creatures. Those tokens gain haste. Exile
   them at the beginning of the next end step.
 slug: hate-mirage
-tags: card-color-red card-color-red-cost-4 card-type-sorcery
+synonyms: []
 tapped_id: 21935
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Sorcery
-url: http://tappedout.net/mtg-card/hate-mirage/
+url: https://tappedout.net/mtg-card/hate-mirage/
+

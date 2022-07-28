@@ -1,39 +1,43 @@
 activated_abilities:
 - 'Outlast  *(, : Put a +1/+1 counter on this creature. Outlast only as a sorcery.)*'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: IMA
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.96
+draft_average: 2.85
 effective_cost:
 - W
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,47 +46,81 @@ keywords:
 - Counters
 - Outlast
 mana_cost: 3W
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Abzan Battle Priest
 power_toughness: 3/2
 printings:
-- J21:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Jumpstart: Historic Horizons'
-    rarity: uncommon
-    release_date: 2021-08-12
-- IMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 65884
-    mtgo_id: 65883
-    name: Iconic Masters
-    number: 2
-    rarity: uncommon
-    release_date: 2017-11-17
-    wizards_id: 438568
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438568
 - KTK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Wherever I walk, the ancestors walk too."*'
     frame: m15
     mtgo_foil_id: 54277
     mtgo_id: 54276
     name: Khans of Tarkir
     number: 1
     rarity: uncommon
-    release_date: 2014-09-26
+    release_date: '2014-09-26'
+    tla: KTK
+    variations: []
     wizards_id: 386466
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=386466
+- IMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '"Wherever I walk, the ancestors walk too."'
+    frame: m15
+    mtgo_foil_id: 65884
+    mtgo_id: 65883
+    name: Iconic Masters
+    number: 2
+    rarity: uncommon
+    release_date: '2017-11-17'
+    tla: IMA
+    variations: []
+    wizards_id: 438568
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438568
+- J21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Jumpstart: Historic Horizons'
+    number: null
+    rarity: uncommon
+    release_date: '2021-08-12'
+    tla: J21
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: uncommon
 rules: "Outlast [[symbol:W]] *([[symbol:W]], [[symbol:T]]: Put a +1/+1 counter on\
   \ this creature. Outlast only as a sorcery.)*\r\n\r\nEach creature you control with\
   \ a +1/+1 counter on it has lifelink."
@@ -91,7 +129,9 @@ subtype: Human Cleric
 subtype_tokens:
 - Human
 - Cleric
-tags: card-color-white card-color-white-cost-4 card-type-creature
+synonyms: []
 tapped_id: 15882
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/abzan-battle-priest/
+url: https://tappedout.net/mtg-card/abzan-battle-priest/
+

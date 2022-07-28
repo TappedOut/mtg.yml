@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M15
 cannonical_type: Sorcery
@@ -11,63 +13,83 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.17
+draft_average: 6.0
 effective_cost:
 - G
-flat_cost: 9
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Convoke
 mana_cost: 8G
-mana_cost_converted: 9
+mana_value: 9
+melds_from: []
 name: Feral Incarnation
+power_toughness: ''
 printings:
 - M15:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eytan Zana
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*Nature is itself wild\u2014in all its forms.*"
     frame: m15
     mtgo_foil_id: 53489
     mtgo_id: 53488
     name: Magic 2015
     number: 174
     rarity: uncommon
-    release_date: 2014-07-18
+    release_date: '2014-07-18'
+    tla: M15
+    variations: []
     wizards_id: 383237
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383237
+rarity: uncommon
 rules: "Convoke (Your creatures can help cast this spell. Each creature you tap while\
   \ casting this spell pays for {1} or one mana of that creature's color.)\r\n\r\n\
   Put three 3/3 green Beast creature tokens onto the battlefield."
 slug: feral-incarnation
-tags: card-color-green card-color-green-cost-9 card-type-sorcery
+synonyms: []
 tapped_id: 15703
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Beast 3/3 G
-  power_toughness: 3/3
-  rules: ''
-  subtype: Beast
-  tla: M15
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 3/3
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 83
+    - - cannonical_type
+      - Creature
+    - - name
+      - Beast 3/3 G
 type: Sorcery
-url: http://tappedout.net/mtg-card/feral-incarnation/
+url: https://tappedout.net/mtg-card/feral-incarnation/
+

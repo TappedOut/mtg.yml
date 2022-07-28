@@ -1,82 +1,120 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: JMP
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 5.43
+draft_average: 2.2
 effective_cost:
 - B
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Deathtouch
 - Tokens
 mana_cost: 2BB
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Liliana's Reaver
 power_toughness: 4/3
 printings:
-- JMP:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Jumpstart
-    number: 251
-    rarity: rare
-    release_date: 2020-07-17
-    wizards_id: 489257
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489257
-- C14:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 55064
-    mtgo_id: 55063
-    name: Commander 2014
-    rarity: rare
-    release_date: 2014-11-21
-    wizards_id: 389577
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389577
 - M14:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Karl Kopinski
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: modern
     mtgo_foil_id: 49572
     mtgo_id: 49571
     name: Magic 2014
     number: 103
     rarity: rare
-    release_date: 2013-07-19
+    release_date: '2013-07-19'
+    tla: M14
+    variations: []
     wizards_id: 370740
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370740
+- C14:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Karl Kopinski
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 55064
+    mtgo_id: 55063
+    name: Commander 2014
+    number: null
+    rarity: rare
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
+    wizards_id: 389577
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389577
+- JMP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Karl Kopinski
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Jumpstart
+    number: 251
+    rarity: rare
+    release_date: '2020-07-17'
+    tla: JMP
+    variations: []
+    wizards_id: 489257
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489257
+rarity: rare
 rules: "Deathtouch\r\n\r\nWhenever Liliana's Reaver deals combat damage to a player,\
   \ that player discards a card and you create a tapped 2/2 black Zombie creature\
   \ token."
@@ -84,18 +122,24 @@ slug: lilianas-reaver
 subtype: Zombie
 subtype_tokens:
 - Zombie
-tags: card-color-black card-color-black-cost-4 card-type-creature
+synonyms: []
 tapped_id: 14700
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: 2X2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Creature
-url: http://tappedout.net/mtg-card/lilianas-reaver/
+url: https://tappedout.net/mtg-card/lilianas-reaver/
+

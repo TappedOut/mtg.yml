@@ -2,7 +2,7 @@ activated_abilities:
 - ', : Exile target instant or sorcery card from your graveyard.'
 - ', , Sacrifice izzet Chemister: Cast any number of cards exiled with Izzet Chemister
   without paying their mana costs.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: CLB
@@ -10,33 +10,37 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.64
+draft_average: 4.4
 effective_cost:
 - R
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,60 +49,98 @@ keywords:
 - Exile
 - Sacrifice
 mana_cost: 2R
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Izzet Chemister
 power_toughness: 1/3
 printings:
-- CLB:
+- C17:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Syetlin Yelenov
     booster_exclude: true
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 798
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2017
+    number: 26
     rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567615
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567615
-- AFC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 130
-    rarity: rare
-    release_date: 2021-07-24
-    wizards_id: 532517
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532517
+    release_date: '2017-08-25'
+    tla: C17
+    variations: []
+    wizards_id: 433267
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433267
 - A25:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Svetlin Velinov
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 67191
     mtgo_id: 67190
     name: Masters 25
     number: 138
-    rarity: common
-    release_date: 2018-03-16
+    rarity: null
+    release_date: '2018-03-16'
+    tla: A25
+    variations: []
     wizards_id: 442127
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=442127
-- C17:
+- AFC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Svetlin Velinov
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 130
+    rarity: rare
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: 532517
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532517
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Svetlin Velinov
     booster_exclude: true
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
-    name: Commander 2017
-    number: 26
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 798
     rarity: rare
-    release_date: 2017-08-25
-    wizards_id: 433267
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433267
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567615
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567615
 rules: "Haste\r\n\r\n[[symbol:R]], [[symbol:T]]: Exile target instant or sorcery card\
   \ from your graveyard.\r\n\r\n[[symbol:1]][[symbol:R]], [[symbol:T]], Sacrifice\
   \ izzet Chemister: Cast any number of cards exiled with Izzet Chemister without\
@@ -108,7 +150,9 @@ subtype: Goblin Wizard
 subtype_tokens:
 - Goblin
 - Wizard
-tags: card-color-red card-color-red-cost-3 card-type-creature
+synonyms: []
 tapped_id: 19310
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/izzet-chemister/
+url: https://tappedout.net/mtg-card/izzet-chemister/
+

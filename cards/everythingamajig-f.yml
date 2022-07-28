@@ -5,60 +5,89 @@ activated_abilities:
   end step, exchange life totals with that player, exchange control of all permanents
   you and that player control, and exchange cards in your hands, cards in your libraries,
   and cards in your graveyards.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: UN3
 cannonical_type: Artifact
+color_identity: ''
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 8
+cube_average: 11.0
+effective_cost: []
 formats:
-- 'Commander: Rule 0'
-- Limited
+- Custom
 - Unformat
+- 'Commander: Rule 0'
+- Casual
+- Limited
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: '8'
-mana_cost_converted: 8
+mana_produced: ''
+mana_value: 8
+melds_from: []
 name: Everythingamajig F
+power_toughness: ''
 printings:
 - UN3:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Seaman
+    booster_exclude: false
     border_color: S
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Unstable
     number: 147
     rarity: rare
-    release_date: 2017-12-08
+    release_date: '2017-12-08'
+    tla: UN3
+    variations: []
     wizards_id: 439644
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439644
+rarity: rare
 rules: "[[1]], [[symbol:t]]: Scry 2.\r\n\r\n[[1]], [[symbol:t]], Pay 1 life: Create\
   \ a 0/1 white Goat creature token.\r\n\r\n[[7]], [[symbol:t]], Sacrifice Everythingamajig:\
   \ Choose target player. At the beginning of the next end step, exchange life totals\
   \ with that player, exchange control of all permanents you and that player control,\
   \ and exchange cards in your hands, cards in your libraries, and cards in your graveyards."
 slug: everythingamajig-f
-tags: card-color-colorless card-color-colorless-cost-8 card-type-artifact
+synonyms: []
 tapped_id: 19851
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goat 0/1 W
-  power_toughness: 0/1
-  rules: ''
-  subtype: Goat
-  tla: UN3
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 0/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 565
+    - - cannonical_type
+      - Creature
+    - - name
+      - Goat 0/1 W
 type: Artifact
-url: http://tappedout.net/mtg-card/everythingamajig-f/
+url: https://tappedout.net/mtg-card/everythingamajig-f/
+

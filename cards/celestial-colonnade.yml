@@ -2,7 +2,7 @@ activated_abilities:
 - ': Gain  or .'
 - ',: Until end of turn, Celestial Colonnade becomes a 4/4 white and blue Elemental
   creature with flying and vigilance. It''s still a land.'
-activation_costs:
+activated_costs:
 - U
 - W
 canadian_hl_score: 0
@@ -19,22 +19,26 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 6.64
+draft_average: 2.35
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -42,72 +46,123 @@ is_permanent: true
 keywords:
 - Flying
 - Vigilance
-mana_cost_converted: 0
 mana_produced: W, U
+mana_value: 0
+melds_from: []
 name: Celestial Colonnade
 printings:
-- ZNE:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Zendikar Rising: Expeditions'
-    number: 23
-    rarity: mythic_rare
-    release_date: 2020-09-25
-- UMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 70554
-    mtgo_id: 70553
-    name: Ultimate Masters
-    number: 238
-    rarity: rare
-    release_date: 2018-12-07
-    wizards_id: 456834
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456834
-- UMAP:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: Ultimate Masters Promo
-    number: 33
-    rarity: mythic_rare
-    release_date: 2018-12-06
 - WWK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Deschamps
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 35640
     mtgo_id: 35639
     name: Worldwake
     number: 133
     rarity: rare
-    release_date: 2010-02-05
+    release_date: '2010-02-05'
+    tla: WWK
+    variations: []
     wizards_id: 177545
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=177545
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kekai Kotaki
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 134
     rarity: rare
-    release_date: 1990-04-15
-promo_sets:
-- UMAP
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- UMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Deschamps
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 70554
+    mtgo_id: 70553
+    name: Ultimate Masters
+    number: 238
+    rarity: rare
+    release_date: '2018-12-07'
+    tla: UMA
+    variations: []
+    wizards_id: 456834
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=456834
+- UMAP:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Deschamps
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Ultimate Masters Promo
+    number: 33
+    rarity: mythic_rare
+    release_date: '2018-12-06'
+    tla: UMAP
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- ZNE:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Piotr Dura
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Zendikar Rising: Expeditions'
+    number: 23
+    rarity: mythic_rare
+    release_date: '2020-09-25'
+    tla: ZNE
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "Celestial Colonnade enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Gain\
   \ [[symbol:W]] or [[symbol:U]].\r\n\r\n[[symbol:3]],[[symbol:W]][[symbol:U]]: Until\
   \ end of turn, Celestial Colonnade becomes a 4/4 white and blue Elemental creature\
@@ -126,9 +181,9 @@ synonyms:
 - Azorious Manland
 - Azorius Man Land
 - Azorious Man Land
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-blue-slow card-mana-white-slow
-  card-type-land
 tap_land: true
 tapped_id: 11919
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/celestial-colonnade/
+url: https://tappedout.net/mtg-card/celestial-colonnade/
+

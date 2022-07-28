@@ -3,71 +3,88 @@ activated_abilities:
 - '[-3]: Destroy target artifact, creature, or enchantment. Create a colorless treasure
   artifact token with '
 - '[-10]: Target player''s life total becomes 1.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: XLN
 cannonical_type: Planeswalker
+color_identity: ''
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.71
+draft_average: 1.22
 effective_cost:
 - B
 - G
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 4BG
-mana_cost_converted: 6
+mana_produced: ''
+mana_value: 6
+melds_from: []
 name: Vraska, Relic Seeker
+planeswalker_loyalty: 6
+power_toughness: ''
 printings:
 - XLN:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 65485
     mtgo_id: 65484
     name: Ixalan
     number: 232
     rarity: mythic_rare
-    release_date: 2017-09-29
+    release_date: '2017-09-29'
+    tla: XLN
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: Animated
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: Animated
+    - identifier: PromoPack
     wizards_id: 435388
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435388
+rarity: mythic_rare
 rules: "[+2]: Create a 2/2 black Pirate creature token with menace.\r\n\r\n[-3]: Destroy\
   \ target artifact, creature, or enchantment. Create a colorless treasure artifact\
   \ token with \"T, Sacrfice this artifact. Add one mana of any color to your mana\
@@ -76,28 +93,39 @@ slug: vraska-relic-seeker
 subtype: Vraska
 subtype_tokens:
 - Vraska
-tags: card-color-black card-color-gold card-color-gold-cost-6 card-color-green card-type-planeswalker
+synonyms: []
 tapped_id: 19413
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Pirate 2/2 B
-  power_toughness: 2/2
-  rules: Menace *(This creature can't be blocked except by two or more creatures,)*
-  subtype: Pirate
-  tla: XLN
-  type: Token Creature
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: XLN
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - Menace *(This creature can't be blocked except by two or more creatures,)*
+    - - type
+      - Token Creature
+    - - subtype
+      - 1195
+    - - cannonical_type
+      - Creature
+    - - name
+      - Pirate 2/2 B
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Planeswalker
-url: http://tappedout.net/mtg-card/vraska-relic-seeker/
+url: https://tappedout.net/mtg-card/vraska-relic-seeker/
+

@@ -2,7 +2,7 @@ activated_abilities:
 - ', : Choose target creature you don''t control. Reveal the top card of your library.
   Alexander Clamilton gets +X+0 until end of turn, where X is the number of lines
   of rules text of the revealed card. Alexander Clamilton fights that creature.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: UND
@@ -10,18 +10,21 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.0
 effective_cost:
 - U
-flat_cost: 3
 formats:
-- 'Commander: Rule 0'
-- Limited
+- Custom
 - Unformat
+- 'Commander: Rule 0'
+- Casual
+- Limited
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -29,20 +32,33 @@ keywords:
 - Fight
 - Scry
 mana_cost: 2U
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Alexander Clamilton
 power_toughness: 0/4
 printings:
 - UND:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dmitry Burmak
+    booster_exclude: false
     border_color: S
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Unsanctioned
     number: 16
     rarity: rare
-    release_date: 2020-02-28
+    release_date: '2020-02-28'
+    tla: UND
+    variations: []
     wizards_id: 479412
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479412
 rules: "Whenever you cast a wordy spell, scry 2. *(A spell is wordy if it has four\
@@ -56,7 +72,9 @@ subtype_tokens:
 - Clamfolk
 - Advisor
 - Rebel
-tags: card-color-blue card-color-blue-cost-3 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 22599
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/alexander-clamilton/
+url: https://tappedout.net/mtg-card/alexander-clamilton/
+

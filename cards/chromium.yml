@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 - U
 - W
@@ -6,31 +7,34 @@ canadian_hl_score: 0
 cannonical_set: CHR
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 10.25
+draft_average: 1.0
 effective_cost:
 - W
 - U
 - B
-flat_cost: 8
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Oldschool 93/94
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Oldschool 93/94
-- Premodern
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -38,45 +42,78 @@ keywords:
 - Sacrifice
 - Rampage
 mana_cost: 2WWUUBB
-mana_cost_converted: 8
+mana_value: 8
+melds_from: []
 name: Chromium
 power_toughness: 7/7
 printings:
+- CHR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Edward Beard, Jr.
+    booster_exclude: false
+    border_color: W
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Chronicles
+    number: null
+    rarity: rare
+    release_date: '1995-06-01'
+    tla: CHR
+    variations: []
+    wizards_id: 2869
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=2869
+- LEG:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Edward Beard, Jr.
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Legends
+    number: null
+    rarity: rare
+    release_date: '1994-06-01'
+    tla: LEG
+    variations: []
+    wizards_id: 1650
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=1650
 - ME3:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Edward P.Beard, Jr
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: modern
     mtgo_foil_id: 33503
     mtgo_id: 33502
     name: Masters Edition III
     number: 147
     rarity: rare
-    release_date: 2009-09-07
+    release_date: '2009-09-07'
+    tla: ME3
+    variations: []
     wizards_id: 201184
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=201184
-- CHR:
-    alterations:
-    - Normal
-    border_color: W
-    frame: original
-    name: Chronicles
-    rarity: rare
-    release_date: 1995-06-01
-    wizards_id: 2869
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=2869
-- LEG:
-    alterations:
-    - Normal
-    border_color: B
-    frame: original
-    name: Legends
-    rarity: rare
-    release_date: 1994-06-01
-    wizards_id: 1650
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=1650
+rarity: rare
 rules: "Flying\r\n\r\nRampage 2 *(Whenever this creature becomes blocked, it gets\
   \ +2/+2 until end of turn for each creature blocking it beyond the first.)*\r\n\r\
   \nAt the beginning of your upkeep, sacrifice Chromium unless you pay [[W]][[U]][[B]].\r\
@@ -86,8 +123,9 @@ subtype: Elder Dragon
 subtype_tokens:
 - Elder
 - Dragon
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-8 card-color-white
-  card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 8461
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/chromium/
+url: https://tappedout.net/mtg-card/chromium/
+

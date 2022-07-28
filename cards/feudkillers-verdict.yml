@@ -1,86 +1,120 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MMA
 cannonical_type: Sorcery
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.75
+draft_average: 4.08
 effective_cost:
 - W
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: 4WW
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Feudkiller's Verdict
 printings:
+- MOR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dan Scott
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '"There are all kinds of strengths, but if you have strength of
+      soul, the others will follow."Galanda Feudkiller'
+    frame: modern
+    mtgo_foil_id: 29041
+    mtgo_id: 29040
+    name: Morningtide
+    number: null
+    rarity: rare
+    release_date: '2008-02-01'
+    tla: MOR
+    variations: []
+    wizards_id: 152649
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=152649
 - MMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dan Scott
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "\"There are all kinds of strengths, but if you have strength of\
+      \ soul, the others will follow.\"\r\n<br>\u2014Galanda Feudkiller"
     frame: modern
     mtgo_foil_id: 48749
     mtgo_id: 48748
     name: Modern Masters
     number: 15
     rarity: uncommon
-    release_date: 2013-06-07
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
     wizards_id: 370438
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370438
-- MOR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 29041
-    mtgo_id: 29040
-    name: Morningtide
-    rarity: rare
-    release_date: 2008-02-01
-    wizards_id: 152649
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=152649
+rarity: uncommon
 rules: You gain 10 life. Then if you have more life than an opponent, create a 5/5
   white Giant Warrior creature token.
 slug: feudkillers-verdict
 subtype: Giant
 subtype_tokens:
 - Giant
-tags: card-color-white card-color-white-cost-6 card-type-sorcery card-type-tribal
+synonyms: []
 tapped_id: 38
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Giant Warrior 5/5 W
-  power_toughness: 5/5
-  rules: ''
-  subtype: Giant Warrior
-  tla: MMA
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 5/5
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 131
+    - - cannonical_type
+      - Creature
+    - - name
+      - Giant Warrior 5/5 W
 type: Tribal Sorcery
-url: http://tappedout.net/mtg-card/feudkillers-verdict/
+url: https://tappedout.net/mtg-card/feudkillers-verdict/
+

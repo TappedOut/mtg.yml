@@ -1,104 +1,166 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: MM2
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.0
+draft_average: 2.21
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Kicker
 - Multikicker
 mana_cost: 2GG
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Wolfbriar Elemental
 power_toughness: 4/4
 printings:
-- CM1:
+- WWK:
     alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chippy
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 35756
+    mtgo_id: 35755
+    name: Worldwake
+    number: null
     rarity: rare
-    release_date: 2017-06-09
+    release_date: '2010-02-05'
+    tla: WWK
+    variations: []
+    wizards_id: 189162
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=189162
+- CNS:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chippy
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Conspiracy
+    number: null
+    rarity: rare
+    release_date: '2014-06-06'
+    tla: CNS
+    variations: []
+    wizards_id: 382408
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382408
+- C14:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Chippy
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 54830
+    mtgo_id: 54829
+    name: Commander 2014
+    number: null
+    rarity: rare
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
+    wizards_id: 389750
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389750
 - MM2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chippy
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 57171
     mtgo_id: 57170
     name: Modern Masters 2015 Edition
     number: 169
     rarity: rare
-    release_date: 2015-05-22
+    release_date: '2015-05-22'
+    tla: MM2
+    variations: []
     wizards_id: 397878
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397878
-- C14:
+- CM1:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: null
+    booster_exclude: true
     border_color: B
+    cannonical: false
+    flavour_text: null
     frame: m15
-    mtgo_foil_id: 54830
-    mtgo_id: 54829
-    name: Commander 2014
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology
+    number: null
     rarity: rare
-    release_date: 2014-11-21
-    wizards_id: 389750
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389750
-- CNS:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    name: Conspiracy
-    rarity: rare
-    release_date: 2014-06-06
-    wizards_id: 382408
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382408
-- WWK:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 35756
-    mtgo_id: 35755
-    name: Worldwake
-    rarity: rare
-    release_date: 2010-02-05
-    wizards_id: 189162
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=189162
+    release_date: '2017-06-09'
+    tla: CM1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "Multikicker [[G]] *(You may pay an additional {{G}} any number of times as\
   \ you cast this spell.)*\r\n\r\nWhen Wolfbriar Elemental enters the battlefield,\
   \ put a 2/2 green Wolf creature token onto the battlefield for each time it was\
@@ -107,18 +169,24 @@ slug: wolfbriar-elemental
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-color-green card-color-green-cost-4 card-type-creature
+synonyms: []
 tapped_id: 11959
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Wolf 2/2 G
-  power_toughness: 2/2
-  rules: ''
-  subtype: Wolf
-  tla: MM2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 93
+    - - cannonical_type
+      - Creature
+    - - name
+      - Wolf 2/2 G
 type: Creature
-url: http://tappedout.net/mtg-card/wolfbriar-elemental/
+url: https://tappedout.net/mtg-card/wolfbriar-elemental/
+

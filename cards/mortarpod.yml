@@ -1,32 +1,37 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MM2
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-- Zirda, the Dawnwaker
-flat_cost: 2
+cube_average: 8.82
+draft_average: 5.51
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: true
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -35,55 +40,106 @@ keywords:
 - Sacrifice
 - Living weapon
 mana_cost: '2'
-mana_cost_converted: 2
+mana_produced: ''
+mana_value: 2
+melds_from: []
 name: Mortarpod
+power_toughness: ''
 printings:
-- MYS1:
+- MBS:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Living weapon (When this Equipment enters the batt
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 39322
+    mtgo_id: 39321
+    name: Mirrodin Besieged
+    number: null
+    rarity: uncommon
+    release_date: '2011-02-04'
+    tla: MBS
+    variations: []
+    wizards_id: 213725
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=213725
+- MBP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Living weapon (When this Equipment enters the batt
+    booster_exclude: false
     border_color: B
     cannonical: false
-    frame: m15
-    name: Mystery Booster
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Mirrodin Besieged: Phyrexia'
+    number: null
     rarity: uncommon
-    release_date: 2020-03-14
+    release_date: '2011-02-03'
+    tla: MBP
+    variations: []
+    wizards_id: null
+    wizards_url: null
 - MM2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Deschamps
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 57285
     mtgo_id: 57284
     name: Modern Masters 2015 Edition
     number: 222
     rarity: uncommon
-    release_date: 2015-05-22
+    release_date: '2015-05-22'
+    tla: MM2
+    variations: []
     wizards_id: 397797
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397797
-- MBS:
+- MYS1:
     alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 39322
-    mtgo_id: 39321
-    name: Mirrodin Besieged
-    rarity: uncommon
-    release_date: 2011-02-04
-    wizards_id: 213725
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=213725
-- MBP:
-    alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Eric Deschamps
+    booster_exclude: false
     border_color: B
     cannonical: false
-    frame: modern
-    name: 'Mirrodin Besieged: Phyrexia'
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
     rarity: uncommon
-    release_date: 2011-02-03
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: uncommon
 rules: "Living weapon *(When this Equipment enters the battlefield, put a 0/0 black\
   \ Germ creature token onto the battlefield, then attach this to it.)*\r\n\r\nEquipped\
   \ creature gets +0/+1 and has \"Sacrifice this creature: This creature deals 1 damage\
@@ -92,18 +148,24 @@ slug: mortarpod
 subtype: Equipment
 subtype_tokens:
 - Equipment
-tags: card-color-colorless card-color-colorless-cost-2 card-type-artifact
+synonyms: []
 tapped_id: 12837
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Phyrexian Germ 0/0 B
-  power_toughness: 0/0
-  rules: ''
-  subtype: Phyrexian Germ
-  tla: MM2
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 0/0
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 1586
+    - - cannonical_type
+      - Creature
+    - - name
+      - Phyrexian Germ 0/0 B
 type: Artifact
-url: http://tappedout.net/mtg-card/mortarpod/
+url: https://tappedout.net/mtg-card/mortarpod/
+

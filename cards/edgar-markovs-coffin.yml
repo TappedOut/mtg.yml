@@ -1,9 +1,9 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Artifact
-color_indicator:
-- W
-- B
+color_indicator: WB
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -15,93 +15,124 @@ companions:
 effective_cost:
 - W
 - B
-flat_cost: 0
+flip: Edgar, Charmed Groom
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
 is_permanent: true
 keywords:
 - Lifelink
 - Counters
 - Tokens
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Edgar Markov's Coffin
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 503
-    rarity: rare
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    booster_exclude: true
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Volkan Baga
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 236
     rarity: rare
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
     variations:
-    - alterations:
-      - Foil
+    - identifier: '311'
+    - identifier: '341'
+    wizards_id: null
+    wizards_url: null
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: '311'
-    - alterations:
+    - !!python/tuple
+      - f
       - Foil
-      - Normal
-      identifier: '341'
+    artist: Volkan Baga
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 503
+    rarity: rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: At the beginning of your upkeep, create a 1/1 white and black Vampire creature
   token with lifelink and put a bloodline counter on this. Then if there are three
   or more bloodline counters on this, remove those counters and transform this.
 slug: edgar-markovs-coffin
 synonyms:
 - Casket of Native Earth
-tags: card-type-artifact card-type-legendary
 tapped_id: 25529
 tokens:
-- cannonical_type: Creature
-  colors: WB
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Vampire 1/1 WB
-  power_toughness: 1/1
-  rules: Lifelink
-  subtype: Vampire
-  tla: VOW
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - WB
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Lifelink
+    - - type
+      - Token Creature
+    - - subtype
+      - 107
+    - - cannonical_type
+      - Creature
+    - - name
+      - Vampire 1/1 WB
 type: Legendary Artifact
-url: http://tappedout.net/mtg-card/edgar-markovs-coffin/
+url: https://tappedout.net/mtg-card/edgar-markovs-coffin/
+

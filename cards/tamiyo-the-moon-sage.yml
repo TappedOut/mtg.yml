@@ -2,34 +2,39 @@ activated_abilities:
 - ': Tap target permanent. It doesn''t untap during its controller''s next untap step.'
 - ': Draw a card for each tapped creature target player controls.'
 - ': You get an emblem with  and '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: AVR
 cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.38
+draft_average: 1.14
 effective_cost:
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -37,44 +42,81 @@ keywords:
 - Tap/Untap
 - Counters
 mana_cost: 3UU
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Tamiyo, the Moon Sage
+planeswalker_loyalty: 4
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 396
-    rarity: mythic_rare
-    release_date: 2019-12-09
-- RNAMED:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Ravnica Allegiance: Mythic Edition'
-    number: 2
-    rarity: mythic_rare
-    release_date: 2019-01-26
 - AVR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Deschamps
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 43980
     mtgo_id: 43979
     name: Avacyn Restored
     number: 79
     rarity: mythic_rare
-    release_date: 2012-05-04
+    release_date: '2012-05-04'
+    tla: AVR
+    variations: []
     wizards_id: 240070
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=240070
+- RNAMED:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Lius Lasahido
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Ravnica Allegiance: Mythic Edition'
+    number: 2
+    rarity: mythic_rare
+    release_date: '2019-01-26'
+    tla: RNAMED
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Uta Natsume
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 396
+    rarity: mythic_rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Tap target permanent. It doesn't untap during its\
   \ controller's next untap step.\r\n\r\n[[symbol:loyalty-minus2]]: Draw a card for\
   \ each tapped creature target player controls.\r\n\r\n[[symbol:loyalty-minus8]]:\
@@ -84,19 +126,25 @@ slug: tamiyo-the-moon-sage
 subtype: Tamiyo
 subtype_tokens:
 - Tamiyo
-tags: card-color-blue card-color-blue-cost-5 card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 13645
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Tamiyo, the Moon Sage
-  power_toughness: null
-  rules: "You have no maximum hand size.\r\n\r\nWhenever a card is put into your graveyard\
-    \ from anywhere, you many return it to your hand."
-  subtype: Tamiyo
-  tla: AVR
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - "You have no maximum hand size.\r\n\r\nWhenever a card is put into your graveyard\
+        \ from anywhere, you many return it to your hand."
+    - - type
+      - Emblem
+    - - subtype
+      - 958
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Tamiyo, the Moon Sage
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/tamiyo-the-moon-sage/
+url: https://tappedout.net/mtg-card/tamiyo-the-moon-sage/
+

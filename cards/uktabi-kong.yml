@@ -1,44 +1,64 @@
 activated_abilities:
 - 'Tap two untapped Apes you control: Put a 1/1 green Ape creature token into play.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: UNH
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.67
+draft_average: 5.0
 effective_cost:
 - G
-flat_cost: 8
 formats:
-- 'Commander: Rule 0'
-- Limited
+- Custom
 - Unformat
+- 'Commander: Rule 0'
+- Casual
+- Limited
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Trample
 mana_cost: 5GGG
-mana_cost_converted: 8
+mana_value: 8
+melds_from: []
 name: Uktabi Kong
 power_toughness: 8/8
 printings:
 - UNH:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Una Fricker
+    booster_exclude: false
     border_color: S
+    cannonical: true
+    flavour_text: '"I desire the acquisition of a potassium-rich fruit comestible
+      of '
     frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Unhinged
     number: 115
     rarity: rare
-    release_date: 2004-11-19
+    release_date: '2004-11-19'
+    tla: UNH
+    variations: []
     wizards_id: 73976
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=73976
+rarity: rare
 rules: "Trample\r\n\r\nWhen Uktabi Kong enters the battlefield, destroy all artifacts.\r\
   \n\r\nTap two untapped Apes you control: Put a 1/1 green Ape creature token into\
   \ play."
@@ -46,17 +66,24 @@ slug: uktabi-kong
 subtype: Ape
 subtype_tokens:
 - Ape
-tags: card-color-green card-color-green-cost-8 card-type-creature
+synonyms: []
 tapped_id: 2896
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 1/1 G Token Creature Ape
-  power_toughness: 1/1
-  rules: ''
-  subtype: Ape
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 67
+    - - cannonical_type
+      - Creature
+    - - name
+      - null
 type: Creature
-url: http://tappedout.net/mtg-card/uktabi-kong/
+url: https://tappedout.net/mtg-card/uktabi-kong/
+

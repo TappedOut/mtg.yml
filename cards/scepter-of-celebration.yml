@@ -2,6 +2,7 @@ activated_abilities:
 - 'Equip  *(: Attach this to target creature you control. Equip only as a sorcery.
   This enters the battlefield unattached and stays on the battlefield if the creature
   this card is attached to leaves the battlefield.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Artifact
@@ -9,6 +10,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -16,21 +18,22 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
-- Penny Dreadful
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Penny Dreadful
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -39,22 +42,32 @@ keywords:
 - Trample
 - Attach
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Scepter of Celebration
 printings:
 - NCC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Olena Richards
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Streets of New Capenna: Commander'
     number: 84
     rarity: rare
-    release_date: 2022-04-30
+    release_date: '2022-04-30'
+    tla: NCC
     variations:
-    - alterations:
-      - Normal
-      identifier: '164'
+    - identifier: '164'
+    wizards_id: null
+    wizards_url: null
 rules: "Equipped creature gets +2/+0 and has trample.\r\n\r\nWhenever equipped creature\
   \ deals combat damage to a player, create that many 1/1 green and white Citizen\
   \ creature tokens.\r\n\r\nEquip [[symbol:3]] *([[symbol:3]]: Attach this to target\
@@ -65,18 +78,24 @@ slug: scepter-of-celebration
 subtype: Equipment
 subtype_tokens:
 - Equipment
-tags: card-color-green card-color-green-cost-3 card-type-artifact
+synonyms: []
 tapped_id: 26407
 tokens:
-- cannonical_type: Creature
-  colors: GW
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Citizen 1/1 GW
-  power_toughness: 1/1
-  rules: ''
-  subtype: Citizen
-  tla: SNC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - GW
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 905
+    - - cannonical_type
+      - Creature
+    - - name
+      - Citizen 1/1 GW
 type: Artifact
-url: http://tappedout.net/mtg-card/scepter-of-celebration/
+url: https://tappedout.net/mtg-card/scepter-of-celebration/
+

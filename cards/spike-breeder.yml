@@ -2,68 +2,94 @@ activated_abilities:
 - ', Remove a +1/+1 counter from Spike Breeder: Put a +1/+1 counter on target creature.'
 - ', Remove a +1/+1 counter from Spike Breeder: Put a 1/1 green Spike creature token
   onto the battlefield.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: STH
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 11.0
+draft_average: 3.8
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 3G
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Spike Breeder
 power_toughness: 0/0
 printings:
+- STH:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Rex
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: 10388
+    mtgo_id: 10387
+    name: Stronghold
+    number: null
+    rarity: rare
+    release_date: '1998-02-01'
+    tla: STH
+    variations: []
+    wizards_id: 5237
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=5237
 - TPR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Adam Rex
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 56851
     mtgo_id: 56850
     name: Tempest Remastered
     number: 194
     rarity: uncommon
-    release_date: 2015-05-06
+    release_date: '2015-05-06'
+    tla: TPR
+    variations: []
     wizards_id: 397406
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397406
-- STH:
-    alterations:
-    - Normal
-    border_color: B
-    frame: original
-    mtgo_foil_id: 10388
-    mtgo_id: 10387
-    name: Stronghold
-    rarity: rare
-    release_date: 1998-02-01
-    wizards_id: 5237
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=5237
+rarity: rare
 rules: "Spike Breeder enters the battlefield with three +1/+1 counters on it.\r\n\r\
   \n[[2]], Remove a +1/+1 counter from Spike Breeder: Put a +1/+1 counter on target\
   \ creature.\r\n\r\n[[2]], Remove a +1/+1 counter from Spike Breeder: Put a 1/1 green\
@@ -72,17 +98,24 @@ slug: spike-breeder
 subtype: Spike
 subtype_tokens:
 - Spike
-tags: card-color-green card-color-green-cost-4 card-type-creature
+synonyms: []
 tapped_id: 6772
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 1/1 G Creature Spike
-  power_toughness: 1/1
-  rules: ''
-  subtype: Spike
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Creature
+    - - subtype
+      - 721
+    - - cannonical_type
+      - Creature
+    - - name
+      - null
 type: Creature
-url: http://tappedout.net/mtg-card/spike-breeder/
+url: https://tappedout.net/mtg-card/spike-breeder/
+

@@ -2,7 +2,7 @@ activated_abilities:
 - ' *(, Exile this card from your graveyard: For each opponent, create a token copy
   that attacks that opponent this turn if able. They gain haste. Sacrifice them at
   the beginning of the next end step. Activate this only as a sorcery.)*'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: CMR
@@ -10,6 +10,7 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -17,22 +18,23 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 5
 formats:
 - 1v1 Commander
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,20 +46,35 @@ keywords:
 - Tokens
 - Encore
 mana_cost: 4B
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Brairblade Adept
 power_toughness: 3/4
 printings:
 - CMR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Uriah Voth
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander Legends
     number: 111
     rarity: common
-    release_date: 2020-11-20
+    release_date: '2020-11-20'
+    tla: CMR
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Whenever Briarblade Adept attacks, target creature an opponent controls gets\
   \ -1/-1 until end of turn.\r\n\r\n[[symbol:3]][[symbol:B]] *([[symbol:3]][[symbol:B]],\
   \ Exile this card from your graveyard: For each opponent, create a token copy that\
@@ -68,7 +85,9 @@ subtype: Elf Assassin
 subtype_tokens:
 - Elf
 - Assassin
-tags: card-color-black card-color-black-cost-5 card-type-creature
+synonyms: []
 tapped_id: 23507
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/brairblade-adept/
+url: https://tappedout.net/mtg-card/brairblade-adept/
+

@@ -1,38 +1,40 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - W
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
 - Pauper EDH
-- Penny Dreadful
+- Canadian Highlander
+- Legacy
+- Arena
+- Oathbreaker
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -41,20 +43,35 @@ keywords:
 - Tokens
 - Adventure
 mana_cost: 5W
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Pegasus Guardian
 power_toughness: 3/3
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Leanna Crossan
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 36
     rarity: common
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Flying\r\n\r\nAt the beginning of your end step, if a permanent you controlled\
   \ left the battlefield this turn, create a 1/1 white Pegasus creature token with\
   \ flying.\r\n\r\n<br>\r\n\r\n*(You may cast Pegasus Guardian from exile if you sent\
@@ -73,18 +90,24 @@ slug: pegasus-guardian
 subtype: Pegasus
 subtype_tokens:
 - Pegasus
-tags: card-color-white card-color-white-cost-6 card-type-creature
+synonyms: []
 tapped_id: 26640
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Pegasus 1/1 W
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Pegasus
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 105
+    - - cannonical_type
+      - Creature
+    - - name
+      - Pegasus 1/1 W
 type: Creature
-url: http://tappedout.net/mtg-card/pegasus-guardian/
+url: https://tappedout.net/mtg-card/pegasus-guardian/
+

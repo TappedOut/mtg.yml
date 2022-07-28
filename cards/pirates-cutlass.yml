@@ -1,5 +1,6 @@
 activated_abilities:
 - 'Equip  *(: Attach this to target creature you control. Equip only as a sorcery.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Artifact
@@ -7,34 +8,39 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 3
+cube_average: 6.0
+draft_average: 5.66
+effective_cost: []
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,45 +48,83 @@ keywords:
 - Equip
 - Attach
 mana_cost: '3'
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Pirate's Cutlass
 printings:
-- CMR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander Legends
-    number: 333
-    rarity: common
-    release_date: 2020-11-20
-    wizards_id: 497853
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497853
-- JMP:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Jumpstart
-    number: 477
-    rarity: common
-    release_date: 2020-07-17
 - XLN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Stanko
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 65509
     mtgo_id: 65508
     name: Ixalan
     number: 242
     rarity: common
-    release_date: 2017-09-29
+    release_date: '2017-09-29'
+    tla: XLN
+    variations: []
     wizards_id: 435400
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435400
+- JMP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Stanko
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Jumpstart
+    number: 477
+    rarity: common
+    release_date: '2020-07-17'
+    tla: JMP
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- CMR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Stanko
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Legends
+    number: 333
+    rarity: common
+    release_date: '2020-11-20'
+    tla: CMR
+    variations: []
+    wizards_id: 497853
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497853
+rarity: common
 rules: "When Pirate's Cutlass enters the battlefield, attach it to target Pirate you\
   \ control.\r\n\r\nEquipped creature gets +2/+1.\r\n\r\nEquip [[symbol:2]] *([[symbol:2]]:\
   \ Attach this to target creature you control. Equip only as a sorcery.)*"
@@ -88,7 +132,9 @@ slug: pirates-cutlass
 subtype: Equipment
 subtype_tokens:
 - Equipment
-tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
+synonyms: []
 tapped_id: 19418
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/pirates-cutlass/
+url: https://tappedout.net/mtg-card/pirates-cutlass/
+

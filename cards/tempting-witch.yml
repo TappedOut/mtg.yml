@@ -1,41 +1,46 @@
 activated_abilities:
 - ', , Sacrifice a Food: Target player loses 3 life.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: JMP
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.33
+draft_average: 6.59
 effective_cost:
 - B
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,34 +48,61 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: 2B
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Tempting Witch
 power_toughness: 1/3
 printings:
-- JMP:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Jumpstart
-    number: 283
-    rarity: uncommon
-    release_date: 2020-07-17
-    wizards_id: 489289
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489289
 - ELD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mila Pesic
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"Murder clad in crimson beauty,\r\n<br>An end to life and love\
+      \ and duty.\"\r\n<br>&mdash;Barrow witch incantation*"
     frame: m15
     mtgo_foil_id: 78339
     mtgo_id: 78338
     name: Throne of Eldraine
     number: 108
     rarity: common
-    release_date: 2019-10-04
+    release_date: '2019-10-04'
+    tla: ELD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- JMP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mila Pesic
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Murder clad in crimson beauty,\r\n<br>An end to life and love\
+      \ and duty.\"\r\n<br>&mdash;Barrow witch incantation*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Jumpstart
+    number: 283
+    rarity: uncommon
+    release_date: '2020-07-17'
+    tla: JMP
+    variations: []
+    wizards_id: 489289
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489289
 rules: "When Tempting Witch enters the battlefield, create a Food token. *(It's an\
   \ artifact with \"[[symbol:2]], [[symbol:T]], Sacrifice this artifact: You gain\
   \ 3 life.\")*\r\n\r\n[[symbol:2]], [[symbol:T]], Sacrifice a Food: Target player\
@@ -80,18 +112,24 @@ subtype: Human Warlock
 subtype_tokens:
 - Human
 - Warlock
-tags: card-color-black card-color-black-cost-3 card-type-creature
+synonyms: []
 tapped_id: 22173
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Food
-  power_toughness: null
-  rules: '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
-  subtype: Food
-  tla: NCC
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], [[symbol:T]], Sacrifice this: You gain 3 life.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1373
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Food
 type: Creature
-url: http://tappedout.net/mtg-card/tempting-witch/
+url: https://tappedout.net/mtg-card/tempting-witch/
+

@@ -1,57 +1,68 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - W
 - U
 - B
-flat_cost: 6
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Hexproof
 - Tokens
 mana_cost: 3WUB
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Nevinyrral, Urborg Tyrant
 power_toughness: 3/6
 printings:
 - CMR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Yongjae Choi
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Commander Legends
     number: 287
     rarity: rare
-    release_date: 2020-11-20
+    release_date: '2020-11-20'
+    tla: CMR
     variations:
-    - alterations:
-      - Etched
-      - Foil
-      - Normal
-      identifier: '607'
+    - identifier: '607'
     wizards_id: 497807
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497807
 rules: "Hexproof from artifacts, creatures, and enchantments \r\n\r\nWhen Nevinyrral,\
@@ -64,19 +75,24 @@ subtype: Zombie Wizard
 subtype_tokens:
 - Zombie
 - Wizard
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-6 card-color-white
-  card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 23600
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: CMR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/nevinyrral-urborg-tyrant/
+url: https://tappedout.net/mtg-card/nevinyrral-urborg-tyrant/
+

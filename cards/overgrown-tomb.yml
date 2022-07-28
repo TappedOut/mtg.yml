@@ -1,14 +1,12 @@
 activated_abilities:
 - '*(: Add  or .)*'
-activation_costs:
+activated_costs:
 - B
 - G
 canadian_hl_score: 0
 cannonical_set: GRN
 cannonical_type: Land
-color_identity:
-- B
-- G
+color_identity: BG
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -20,126 +18,198 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 8.21
+draft_average: 4.63
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: B, G
+mana_value: 0
+melds_from: []
 name: Overgrown Tomb
 printings:
-- UNF:
+- RAV:
     alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Unfinity
-    number: 284
-    rarity: rare
-    release_date: 2022-10-07
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 130
-    rarity: rare
-    release_date: 2019-12-09
-- GRN:
-    alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 69920
-    mtgo_id: 69919
-    name: Guilds of Ravnica
-    number: 253
-    rarity: rare
-    release_date: 2018-10-05
-    variations:
-    - alterations:
-      - Foil
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: Animated
-    - alterations:
+    - !!python/tuple
+      - f
       - Foil
-      - Normal
-      identifier: PromoPack
-    wizards_id: 453003
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=453003
-- EXP:
-    alterations:
-    - Foil
-    - Normal
+    artist: Rob Alexander
+    booster_exclude: false
     border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    mtgo_foil_id: 58872
-    mtgo_id: 58871
-    name: Zendikar Expeditions
-    number: 13
-    rarity: mythic_rare
-    release_date: 2015-10-03
-    wizards_id: 405103
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405103
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 23593
+    mtgo_id: 23592
+    name: 'Ravnica: City of Guilds'
+    number: null
+    rarity: rare
+    release_date: '2005-10-07'
+    tla: RAV
+    variations: []
+    wizards_id: 89072
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=89072
 - RTR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Steven Belledin
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: The best funeral shroud is the fabric of new life.
     frame: modern
     mtgo_foil_id: 46508
     mtgo_id: 46507
     name: Return to Ravnica
     number: 279
     rarity: rare
-    release_date: 2012-10-05
+    release_date: '2012-10-05'
+    tla: RTR
+    variations: []
     wizards_id: 253680
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=253680
-- RAV:
+- EXP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Noah Bradley
+    booster_exclude: false
     border_color: B
-    frame: modern
-    mtgo_foil_id: 23593
-    mtgo_id: 23592
-    name: 'Ravnica: City of Guilds'
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 58872
+    mtgo_id: 58871
+    name: Zendikar Expeditions
+    number: 13
+    rarity: mythic_rare
+    release_date: '2015-10-03'
+    tla: EXP
+    variations: []
+    wizards_id: 405103
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405103
+- GRN:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Yeong-Hao Han
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Cradle of the Golgari''s new kingdom. Grave of those who wronged
+      its queen.*'
+    frame: m15
+    mtgo_foil_id: 69920
+    mtgo_id: 69919
+    name: Guilds of Ravnica
+    number: 253
     rarity: rare
-    release_date: 2005-10-07
-    wizards_id: 89072
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=89072
+    release_date: '2018-10-05'
+    tla: GRN
+    variations:
+    - identifier: Animated
+    - identifier: PromoPack
+    wizards_id: 453003
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=453003
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*\"Brago's tomb was first erected as a formality. Now it stands\
+      \ as the last memorial to a forgotten fool.\"\r\n<br>&mdash;Queen Marchesa*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 130
+    rarity: rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- UNF:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Cliff Childs
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Unfinity
+    number: 284
+    rarity: rare
+    release_date: '2022-10-07'
+    tla: UNF
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "*([[symbol:T]]: Add [[symbol:B]] or [[symbol:G]].)*\r\n\r\nAs this enters\
   \ the battlefield, you may pay 2 life. If you don't, this enters the battlefield\
   \ tapped."
@@ -155,8 +225,8 @@ synonyms:
 - GB Shockland
 - BG Shock Land
 - GB Shock Land
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-green
-  card-type-land
 tapped_id: 2045
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/overgrown-tomb/
+url: https://tappedout.net/mtg-card/overgrown-tomb/
+

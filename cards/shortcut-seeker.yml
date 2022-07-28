@@ -1,61 +1,78 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: AFR
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - U
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Pre-release
 - Standard
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 is_mtgo: true
 is_permanent: true
 keywords:
 - Venture Into the Dungeon
 mana_cost: 3U
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Shortcut Seeker
 power_toughness: 2/5
 printings:
 - AFR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Artur Treffner
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Ah, the old ''trap door under a rug'' trick. This is almost too
+      easy."*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Dungeons & Dragons: Adventures in the Forgotten Realms'
     number: 73
     rarity: common
-    release_date: 2021-07-23
+    release_date: '2021-07-23'
+    tla: AFR
+    variations: []
     wizards_id: 527360
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=527360
 rules: Whenever this deals combat damage to a player, venture into the dungeon. *(If
@@ -71,74 +88,114 @@ subtype: Human Rogue
 subtype_tokens:
 - Human
 - Rogue
-tags: card-color-blue card-color-blue-cost-4 card-type-creature
+synonyms: []
 tapped_id: 24639
 tokens:
-- cannonical_type: Dungeon
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 'Dungeon: Tomb of Annihilation'
-  power_toughness: null
-  rules: ''
-  tla: AFR
-  type: Dungeon
-- cannonical_type: Dungeon
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 'Dungeon: Dungeon of the Mad Mage'
-  power_toughness: null
-  rules: ''
-  tla: AFR
-  type: Dungeon
-- cannonical_type: Dungeon
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 'Dungeon: Lost Mine of Phandelver'
-  power_toughness: null
-  rules: ''
-  tla: AFR
-  type: Dungeon
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: The Atropal
-  power_toughness: 4/4
-  rules: Deathtouch
-  tla: AFR
-  type: Token Legendary Creature
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goblin 1/1 R
-  power_toughness: 1/1
-  rules: ''
-  subtype: Goblin
-  tla: AFR
-  type: Token Creature
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: AFR
-  type: Token Artifact
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Skeleton 1/1 B
-  power_toughness: 1/1
-  rules: ''
-  subtype: Skeleton
-  tla: AFR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Dungeon
+    - - subtype
+      - null
+    - - cannonical_type
+      - Dungeon
+    - - name
+      - 'Dungeon: Tomb of Annihilation'
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Dungeon
+    - - subtype
+      - null
+    - - cannonical_type
+      - Dungeon
+    - - name
+      - 'Dungeon: Dungeon of the Mad Mage'
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Dungeon
+    - - subtype
+      - null
+    - - cannonical_type
+      - Dungeon
+    - - name
+      - 'Dungeon: Lost Mine of Phandelver'
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 4/4
+    - - rules
+      - Deathtouch
+    - - type
+      - Token Legendary Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - The Atropal
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 153
+    - - cannonical_type
+      - Creature
+    - - name
+      - Goblin 1/1 R
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 232
+    - - cannonical_type
+      - Creature
+    - - name
+      - Skeleton 1/1 B
 type: Creature
-url: http://tappedout.net/mtg-card/shortcut-seeker/
+url: https://tappedout.net/mtg-card/shortcut-seeker/
+

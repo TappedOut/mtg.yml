@@ -3,6 +3,7 @@ activated_abilities:
   of them into your graveyard. Put the rest on top of your library in any order.)*'
 - ': Exile target creature.'
 - ': You may put an artifact card from your hand or graveyard onto the battlefield.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MH2
 cannonical_type: Planeswalker
@@ -10,6 +11,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -19,25 +21,26 @@ effective_cost:
 - W
 - U
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,28 +49,35 @@ keywords:
 - Counters
 - Surveil
 mana_cost: WUB
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Dakkon, Shadow Slayer
+planeswalker_loyalty: 0
 printings:
 - MH2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Richard Kane Ferguson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Modern Horizons 2
     number: 192
     rarity: mythic_rare
-    release_date: 2021-06-18
+    release_date: '2021-06-18'
+    tla: MH2
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '304'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '363'
+    - identifier: '304'
+    - identifier: '363'
     wizards_id: 522268
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522268
 rules: "This enters the battlefield with a number of loyalty counters equal to the\
@@ -80,8 +90,9 @@ slug: dakkon-shadow-slayer
 subtype: Dakkon
 subtype_tokens:
 - Dakkon
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-3 card-color-white
-  card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 24375
+tokens: []
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/dakkon-shadow-slayer/
+url: https://tappedout.net/mtg-card/dakkon-shadow-slayer/
+

@@ -3,62 +3,83 @@ activated_abilities:
 - '[-1]: Target creature gets +X/+X until end of turn, where X is the number of creatures
   you control.'
 - '[-8]: You get an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: RIX
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.2
+draft_average: 2.65
 effective_cost:
 - W
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 2GW
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Huatli, Radiant Champion
+planeswalker_loyalty: 3
 printings:
 - RIX:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 66774
     mtgo_id: 66773
     name: Rivals of Ixalan
     number: 159
     rarity: mythic_rare
-    release_date: 2018-01-19
+    release_date: '2018-01-19'
+    tla: RIX
+    variations: []
     wizards_id: 439817
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439817
+rarity: mythic_rare
 rules: "[+1]: Put a loyalty counter on Huatli, Radiant Champion for each creature\
   \ you control.\r\n\r\n[-1]: Target creature gets +X/+X until end of turn, where\
   \ X is the number of creatures you control.\r\n\r\n[-8]: You get an emblem with\
@@ -68,19 +89,25 @@ slug: huatli-radiant-champion
 subtype: Huatli
 subtype_tokens:
 - Huatli
-tags: card-color-gold card-color-gold-cost-4 card-color-green card-color-white card-type-planeswalker
+synonyms: []
 tapped_id: 19889
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Huatli, Radiant Champion
-  power_toughness: null
-  rules: Whenever a creature enters the battlefield under your control, you may draw
-    a card.
-  subtype: Huatli
-  tla: RIX
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - Whenever a creature enters the battlefield under your control, you may draw
+        a card.
+    - - type
+      - Emblem
+    - - subtype
+      - 1206
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Huatli, Radiant Champion
 type: Planeswalker
-url: http://tappedout.net/mtg-card/huatli-radiant-champion/
+url: https://tappedout.net/mtg-card/huatli-radiant-champion/
+

@@ -1,78 +1,100 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: M21
 cannonical_type: Instant
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.75
+draft_average: 8.98
 effective_cost:
 - R
-flat_cost: 4
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 is_mtgo: true
-is_permanent: false
 keywords:
 - Prowess
 - Tokens
 mana_cost: 3R
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Goblin Wizardry
 printings:
 - M21:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Izzy
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Quiet in the library" soon gave way to larger concerns.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Core Set 2021
     number: 148
     rarity: common
-    release_date: 2020-07-03
+    release_date: '2020-07-03'
+    tla: M21
+    variations: []
     wizards_id: 485471
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485471
 rules: Create two 1/1 red Goblin Wizard creature tokens with prowess. *(Whenever you
   cast a noncreature spell, they get +1/+1 until end of turn.)*
 slug: goblin-wizardry
-tags: card-color-red card-color-red-cost-4 card-type-instant
+synonyms: []
 tapped_id: 23113
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Goblin Wizard 1/1 R
-  power_toughness: 1/1
-  rules: Prowess *(Whenever you cast a noncreature spell, this gets +1/+1 until end
-    of turn.)*
-  subtype: Goblin Wizard
-  tla: M21
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Prowess *(Whenever you cast a noncreature spell, this gets +1/+1 until end
+        of turn.)*
+    - - type
+      - Token Creature
+    - - subtype
+      - 348
+    - - cannonical_type
+      - Creature
+    - - name
+      - Goblin Wizard 1/1 R
 type: Instant
-url: http://tappedout.net/mtg-card/goblin-wizardry/
+url: https://tappedout.net/mtg-card/goblin-wizardry/
+

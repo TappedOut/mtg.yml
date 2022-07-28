@@ -1,40 +1,44 @@
 activated_abilities:
 - 'Put a -0/-1 counter on this: Add . Activate this ability only once each turn.'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.31
+draft_average: 7.5
 effective_cost:
 - G
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
+- Vintage
+- Commander / EDH
+- Premodern
+- 'Commander: Rule 0'
+- Modern
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
-- Premodern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,81 +46,151 @@ keywords:
 - Defender
 - Counters
 mana_cost: 1G
-mana_cost_converted: 2
 mana_produced: G
+mana_value: 2
+melds_from: []
 name: Wall of Roots
 power_toughness: 0/5
 printings:
-- NCC:
+- TSB:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Matson
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 319
+    cannonical: true
+    flavour_text: Sometimes the wise ones wove their magic into living plants; as
+      the plant grew, so grew the magic.
+    frame: modern
+    mtgo_foil_id: 26082
+    mtgo_id: 26081
+    name: Time Spiral "Timeshifted"
+    number: null
+    rarity: rare
+    release_date: '2006-10-06'
+    tla: TSB
+    variations: []
+    wizards_id: 106662
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=106662
+- MIR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: John Matson
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Sometimes the wise ones wove their magic into living plants; as
+      the plant grew, so grew the magic.
+    frame: original
+    mtgo_foil_id: 7428
+    mtgo_id: 7427
+    name: Mirage
+    number: null
     rarity: common
-    release_date: 2022-04-30
-    wizards_id: 559891
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559891
+    release_date: '1996-10-01'
+    tla: MIR
+    variations: []
+    wizards_id: 3422
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3422
+- ARC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: John Matson
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Sometimes the wise ones wove their magic into living plants; as
+      the plant grew, so grew the magic.
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Archenemy
+    number: null
+    rarity: common
+    release_date: '2010-06-18'
+    tla: ARC
+    variations: []
+    wizards_id: 220566
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220566
+- '000':
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Matt Stewart
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Root systems in Mwonvuli twist through currents of mana rather
+      than soil.*'
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Promo Set
+    number: 7
+    rarity: common
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
 - IMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Matt Stewart
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "\"Mana grows and changes like the roots of a plant. Like a plant,\
+      \ it must be nurtured.\"\r\n\u2014Nissa Revane"
     frame: m15
     mtgo_foil_id: 66260
     mtgo_id: 66259
     name: Iconic Masters
     number: 190
     rarity: common
-    release_date: 2017-11-17
+    release_date: '2017-11-17'
+    tla: IMA
+    variations: []
     wizards_id: 438756
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438756
-- ARC:
+- NCC:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Matt Stewart
+    booster_exclude: false
     border_color: B
-    frame: modern
-    name: Archenemy
+    cannonical: true
+    flavour_text: "*\"Mana grows and changes like the roots of a plant. Like a plant,\
+      \ it must be nurtured.\"\r\n<br>\u2014Nissa Revane*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 319
     rarity: common
-    release_date: 2010-06-18
-    wizards_id: 220566
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=220566
-- TSB:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 26082
-    mtgo_id: 26081
-    name: Time Spiral "Timeshifted"
-    rarity: rare
-    release_date: 2006-10-06
-    wizards_id: 106662
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=106662
-- MIR:
-    alterations:
-    - Normal
-    border_color: B
-    frame: original
-    mtgo_foil_id: 7428
-    mtgo_id: 7427
-    name: Mirage
-    rarity: common
-    release_date: 1996-10-01
-    wizards_id: 3422
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3422
-- '000':
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    frame: original
-    name: Promo Set
-    number: 7
-    rarity: common
-    release_date: 1990-04-15
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559891
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559891
+rarity: rare
 rules: "Defender\r\n\r\nPut a -0/-1 counter on this: Add [[symbol:G]]. Activate this\
   \ ability only once each turn."
 slug: wall-of-roots
@@ -124,7 +198,9 @@ subtype: Plant Wall
 subtype_tokens:
 - Plant
 - Wall
-tags: card-color-green card-color-green-cost-2 card-mana-green card-type-creature
+synonyms: []
 tapped_id: 1363
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/wall-of-roots/
+url: https://tappedout.net/mtg-card/wall-of-roots/
+

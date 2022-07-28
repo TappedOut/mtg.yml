@@ -1,35 +1,39 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: BFZ
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 9.07
+draft_average: 6.74
 effective_cost:
 - R
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -38,24 +42,36 @@ keywords:
 - Landfall
 - Tokens
 mana_cost: 1R
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Akoum Stonewaker
 power_toughness: 2/1
 printings:
 - BFZ:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Victor Adame Minguez
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 58410
     mtgo_id: 58409
     name: Battle for Zendikar
     number: 140
     rarity: uncommon
-    release_date: 2015-10-02
+    release_date: '2015-10-02'
+    tla: BFZ
+    variations: []
     wizards_id: 401806
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401806
+rarity: uncommon
 rules: '*Landfall* &mdash; Whenever a land enters the battlefield under your control,
   you may pay [[symbol:2]][[symbol:R]]. If you do, put a 3/1 red Elemental creature
   token with trample and haste onto the battlefield. Exile that token at the beginning
@@ -65,18 +81,24 @@ subtype: Human Shaman
 subtype_tokens:
 - Human
 - Shaman
-tags: card-color-red card-color-red-cost-2 card-type-creature
+synonyms: []
 tapped_id: 17233
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elemental 3/1 R w/ Trample, haste
-  power_toughness: 3/1
-  rules: Trample, haste
-  subtype: Elemental
-  tla: BFZ
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 3/1
+    - - rules
+      - Trample, haste
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elemental 3/1 R w/ Trample, haste
 type: Creature
-url: http://tappedout.net/mtg-card/akoum-stonewaker/
+url: https://tappedout.net/mtg-card/akoum-stonewaker/
+

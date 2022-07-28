@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: AFC
@@ -7,35 +8,38 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 4.5
+draft_average: 3.22
 effective_cost:
 - U
-flat_cost: 5
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -43,251 +47,459 @@ keywords:
 - Sacrifice
 - Evoke
 mana_cost: 4U
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Mulldrifter
 power_toughness: 2/2
 printings:
-- 2X2:
+- LRW:
     alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Double Masters 2022
-    number: 60
-    rarity: uncommon
-    release_date: 2022-07-08
-    variations:
-    - alterations:
-      - Foil
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: '349'
-    wizards_id: 571393
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571393
-- J21:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Jumpstart: Historic Horizons'
-    rarity: uncommon
-    release_date: 2021-08-12
-- AFC:
-    alterations:
-    - Normal
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 87
-    rarity: uncommon
-    release_date: 2021-07-24
-    wizards_id: 532474
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532474
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: original
-    name: Time Spiral Remastered
-    number: 311
-    rarity: special
-    release_date: 2021-03-19
-    wizards_id: 512277
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512277
-- KHC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Kaldheim: Commander'
-    number: 42
-    rarity: uncommon
-    release_date: 2021-02-05
-    wizards_id: 508332
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508332
-- CMR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander Legends
-    number: 400
-    rarity: uncommon
-    release_date: 2020-11-20
-    variations:
-    - alterations:
+    - !!python/tuple
+      - f
       - Foil
+    artist: Eric Fortune
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 28246
+    mtgo_id: 28245
+    name: Lorwyn
+    number: null
+    rarity: common
+    release_date: '2007-10-12'
+    tla: LRW
+    variations: []
+    wizards_id: 145811
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=145811
+- DD2:
+    alterations:
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: '639'
-- C20:
-    alterations:
-    - Normal
+    artist: Eric Fortune
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 117
-    rarity: uncommon
-    release_date: 2020-05-15
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 31540
+    name: 'Duel Decks: Jace vs. Chandra'
+    number: null
     rarity: common
-    release_date: 2020-03-14
-- SLD:
+    release_date: '2008-11-07'
+    tla: DD2
+    variations: []
+    wizards_id: 189217
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=189217
+- CMD:
     alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 373
-    rarity: rare
-    release_date: 2019-12-09
-    variations:
-    - alterations:
-      - Foil
+    - !!python/tuple
+      - ''
       - Normal
-      identifier: '374'
-- C18:
-    alterations:
-    - Normal
+    artist: Eric Fortune
+    booster_exclude: false
     border_color: B
-    frame: m15
-    name: Commander 2018
-    number: 94
-    rarity: uncommon
-    release_date: 2018-08-10
-    wizards_id: 451049
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451049
-- CM2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology 2018
-    number: 47
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 40487
+    name: 'MTG: Commander'
+    number: null
     rarity: common
-    release_date: 2018-06-08
-    wizards_id: 446783
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446783
-- C15:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2015
-    number: 97
-    rarity: uncommon
-    release_date: 2015-11-13
-    wizards_id: 405312
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405312
-- MM2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 57023
-    mtgo_id: 57022
-    name: Modern Masters 2015 Edition
-    number: 51
-    rarity: uncommon
-    release_date: 2015-05-22
-    wizards_id: 397764
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397764
-- DD3:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Duel Decks Anthology
-    number: 12
-    rarity: common
-    release_date: 2014-12-05
-    wizards_id: 393861
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393861
-- C14:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 54684
-    mtgo_id: 54683
-    name: Commander 2014
-    rarity: common
-    release_date: 2014-11-21
-    wizards_id: 389605
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389605
+    release_date: '2011-06-17'
+    tla: CMD
+    variations: []
+    wizards_id: 247302
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247302
 - MMA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Fortune
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 48681
     mtgo_id: 48680
     name: Modern Masters
     number: 54
     rarity: uncommon
-    release_date: 2013-06-07
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
     wizards_id: 370535
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370535
-- CMD:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 40487
-    name: 'MTG: Commander'
-    rarity: common
-    release_date: 2011-06-17
-    wizards_id: 247302
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247302
-- DD2:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 31540
-    name: 'Duel Decks: Jace vs. Chandra'
-    rarity: common
-    release_date: 2008-11-07
-    wizards_id: 189217
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=189217
-- LRW:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 28246
-    mtgo_id: 28245
-    name: Lorwyn
-    rarity: common
-    release_date: 2007-10-12
-    wizards_id: 145811
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=145811
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Wayne England
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 6
     rarity: uncommon
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C14:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Eric Fortune
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 54684
+    mtgo_id: 54683
+    name: Commander 2014
+    number: null
+    rarity: common
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
+    wizards_id: 389605
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389605
+- MM2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Fortune
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 57023
+    mtgo_id: 57022
+    name: Modern Masters 2015 Edition
+    number: 51
+    rarity: uncommon
+    release_date: '2015-05-22'
+    tla: MM2
+    variations: []
+    wizards_id: 397764
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=397764
+- C15:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Eric Fortune
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2015
+    number: 97
+    rarity: uncommon
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
+    wizards_id: 405312
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405312
+- CM2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Fortune
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology 2018
+    number: 47
+    rarity: common
+    release_date: '2018-06-08'
+    tla: CM2
+    variations: []
+    wizards_id: 446783
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446783
+- C18:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Eric Fortune
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2018
+    number: 94
+    rarity: uncommon
+    release_date: '2018-08-10'
+    tla: C18
+    variations: []
+    wizards_id: 451049
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451049
+- DD3:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Eric Fortune
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Duel Decks Anthology
+    number: 12
+    rarity: common
+    release_date: '2014-12-05'
+    tla: DD3
+    variations: []
+    wizards_id: 393861
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393861
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Eric Fortune
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Eric Fortune
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 117
+    rarity: uncommon
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- CMR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Fortune
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Legends
+    number: 400
+    rarity: uncommon
+    release_date: '2020-11-20'
+    tla: CMR
+    variations:
+    - identifier: '639'
+    wizards_id: null
+    wizards_url: null
+- KHC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Eric Fortune
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kaldheim: Commander'
+    number: 42
+    rarity: uncommon
+    release_date: '2021-02-05'
+    tla: KHC
+    variations: []
+    wizards_id: 508332
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508332
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Fortune
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 311
+    rarity: special
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 512277
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512277
+- AFC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Eric Fortune
+    booster_exclude: false
+    border_color: null
+    cannonical: true
+    flavour_text: ''
+    frame: null
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 87
+    rarity: uncommon
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: 532474
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532474
+- J21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Eric Fortune
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Jumpstart: Historic Horizons'
+    number: null
+    rarity: uncommon
+    release_date: '2021-08-12'
+    tla: J21
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Magali Villeneuve
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*"Be you, be free, live happily!"*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 373
+    rarity: rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations:
+    - identifier: '374'
+    wizards_id: null
+    wizards_url: null
+- 2X2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Eric Fortune
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters 2022
+    number: 60
+    rarity: uncommon
+    release_date: '2022-07-08'
+    tla: 2X2
+    variations:
+    - identifier: '349'
+    wizards_id: 571393
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571393
+rarity: uncommon
 rules: "Flying\r\n\r\nWhen Mulldrifter enters the battlefield, draw two cards.\r\n\
   \r\nEvoke [[symbol:2]][[symbol:U]] *(You may cast this spell for the evoke cost.\
   \ If you do, this creature is sacrificed when it enters the battlefield.)*"
@@ -295,7 +507,9 @@ slug: mulldrifter
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-color-blue card-color-blue-cost-5 card-type-creature
+synonyms: []
 tapped_id: 326
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/mulldrifter/
+url: https://tappedout.net/mtg-card/mulldrifter/
+

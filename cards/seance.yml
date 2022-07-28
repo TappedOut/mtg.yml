@@ -1,83 +1,119 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MM3
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.79
+draft_average: 5.92
 effective_cost:
 - W
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
 - Tokens
 mana_cost: 2WW
-mana_cost_converted: 4
+mana_produced: ''
+mana_value: 4
+melds_from: []
 name: Seance
+power_toughness: ''
 printings:
-- MM3:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 63312
-    mtgo_id: 63311
-    name: Modern Masters 2017 Edition
-    number: 22
-    rarity: rare
-    release_date: 2017-03-17
-    wizards_id: 425847
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425847
 - DKA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: David Rapoza
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 43284
     mtgo_id: 43283
     name: Dark Ascension
     number: 20
     rarity: rare
-    release_date: 2012-02-03
+    release_date: '2012-02-03'
+    tla: DKA
+    variations: []
     wizards_id: 249422
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=249422
+- MM3:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: David Rapoza
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: 63312
+    mtgo_id: 63311
+    name: Modern Masters 2017 Edition
+    number: 22
+    rarity: rare
+    release_date: '2017-03-17'
+    tla: MM3
+    variations: []
+    wizards_id: 425847
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425847
+rarity: rare
 rules: At the beginning of each upkeep, you may exile target creature card from your
   graveyard. If you do, create a token that's a copy of that card except it's a Spirit
   in addition to its other types. Exile it at the beginning of the next end step.
 slug: seance
-tags: card-color-white card-color-white-cost-4 card-type-enchantment
+synonyms: []
 tapped_id: 13474
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Enchantment
-url: http://tappedout.net/mtg-card/seance/
+url: https://tappedout.net/mtg-card/seance/
+

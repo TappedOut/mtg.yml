@@ -1,14 +1,12 @@
 activated_abilities:
 - ': Add  or .'
-activation_costs:
+activated_costs:
 - G
 - U
 canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Land
-color_identity:
-- U
-- G
+color_identity: UG
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -20,128 +18,198 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 9.8
+draft_average: 3.64
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Scry
-mana_cost_converted: 0
 mana_produced: G, U
+mana_value: 0
+melds_from: []
 name: Temple of Mystery
 printings:
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 434
-    rarity: rare
-    release_date: 2022-04-30
-    wizards_id: 560006
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=560006
-- C21:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 324
-    rarity: rare
-    release_date: 2021-04-23
-    wizards_id: 519359
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519359
-- M21:
-    alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    border_color: B
-    frame: m15
-    name: Core Set 2021
-    number: 254
-    rarity: rare
-    release_date: 2020-07-03
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '389'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
-    wizards_id: 485577
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485577
-- M20:
-    alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 73410
-    mtgo_id: 73409
-    name: Core Set 2020
-    number: 255
-    rarity: rare
-    release_date: 2019-07-12
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
-    wizards_id: 467009
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=467009
 - THS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Noah Bradley
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 50273
     mtgo_id: 50272
     name: Theros
     number: 226
     rarity: rare
-    release_date: 2013-09-27
+    release_date: '2013-09-27'
+    tla: THS
+    variations: []
     wizards_id: 373571
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=373571
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Adam Paquettte
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 6
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- M20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Piotr Dura
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 73410
+    mtgo_id: 73409
+    name: Core Set 2020
+    number: 255
+    rarity: rare
+    release_date: '2019-07-12'
+    tla: M20
+    variations:
+    - identifier: PromoPack
+    wizards_id: 467009
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=467009
+- M21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Piotr Dura
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Core Set 2021
+    number: 254
+    rarity: rare
+    release_date: '2020-07-03'
+    tla: M21
+    variations:
+    - identifier: '389'
+    - identifier: PromoPack
+    wizards_id: 485577
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485577
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Piotr Dura
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 324
+    rarity: rare
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519359
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519359
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Piotr Dura
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 434
+    rarity: rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 560006
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=560006
+rarity: rare
 rules: "This enters the battlefield tapped. \r\n\r\nWhen this enters the battlefield,\
   \ scry 1. <i>(Look at the top card of your library. You may put that card on the\
   \ bottom of your library.)</i> \r\n\r\n[[symbol:T]]: Add [[symbol:G]] or [[symbol:U]]."
@@ -151,9 +219,9 @@ synonyms:
 - UG Scryland
 - GU Scry Land
 - UG Temple
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-blue-slow card-mana-green-slow
-  card-type-land
 tap_land: true
 tapped_id: 14796
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/temple-of-mystery/
+url: https://tappedout.net/mtg-card/temple-of-mystery/
+

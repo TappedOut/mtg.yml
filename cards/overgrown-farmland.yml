@@ -1,14 +1,12 @@
 activated_abilities:
 - ': Add  or .'
-activation_costs:
+activated_costs:
 - G
 - W
 canadian_hl_score: 0
 cannonical_set: MID
 cannonical_type: Land
-color_identity:
-- W
-- G
+color_identity: GW
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -20,69 +18,102 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: G, W
+mana_value: 0
+melds_from: []
 name: Overgrown Farmland
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 265
-    rarity: rare
-    release_date: 2022-01-21
 - MID:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Jonas De Ro
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*A few weed-choked gourd patches are all that remain of the proud,
+      thriving farms that once blanketed the province.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Midnight Hunt'
     number: 265
     rarity: rare
-    release_date: 2021-09-24
+    release_date: '2021-09-24'
+    tla: MID
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '283'
+    - identifier: '283'
     wizards_id: 535064
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=535064
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jonas De Ro
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*A few weed-choked gourd patches are all that remain of the proud,
+      thriving farms that once blanketed the province.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 265
+    rarity: rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "This enters the battlefield tapped unless you control two or more other lands.\r\
   \n\r\n[[symbol:T]]: Add [[symbol:G]] or [[symbol:W]]."
 slug: overgrown-farmland
@@ -99,9 +130,9 @@ synonyms:
 - WG Countland
 - GW Count Land
 - WG Count Land
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-green-slow card-mana-white-slow
-  card-type-land
 tap_land: true
 tapped_id: 25009
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/overgrown-farmland/
+url: https://tappedout.net/mtg-card/overgrown-farmland/
+

@@ -1,37 +1,43 @@
 activated_abilities:
 - 'Crew 3 *(Tap any number of other creatures you control with total power 3 or more:
   This Vehicle becomes an artifact creature until end of turn.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DOM
 cannonical_type: Artifact
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 4
+cube_average: 7.89
+draft_average: 2.21
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -40,38 +46,69 @@ keywords:
 - Tap/Untap
 - Crew
 mana_cost: '4'
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Weatherlight
 power_toughness: 4/5
 printings:
-- NEC:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Kamigawa: Neon Dynasty Commander'
-    number: 165
-    rarity: mythic_rare
-    release_date: 2022-02-11
-    wizards_id: 554247
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554247
 - DOM:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    - !!python/tuple
+      - list
+      - The List
+    artist: Jaime Jones
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Dominaria
     number: 237
     rarity: mythic_rare
-    release_date: 2018-04-22
+    release_date: '2018-04-22'
+    tla: DOM
+    variations: []
     wizards_id: 443125
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443125
+- NEC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Jaime Jones
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kamigawa: Neon Dynasty Commander'
+    number: 165
+    rarity: mythic_rare
+    release_date: '2022-02-11'
+    tla: NEC
+    variations: []
+    wizards_id: 554247
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554247
+rarity: mythic_rare
 rules: "Flying\r\n\r\nWhenever this deals combat damage to a player, look at the top\
   \ five cards of your library. You may reveal a historic card from among them and\
   \ put it into your hand. Put the rest on the bottom of your library in a random\
@@ -82,7 +119,9 @@ slug: weatherlight
 subtype: Vehicle
 subtype_tokens:
 - Vehicle
-tags: card-color-colorless card-color-colorless-cost-4 card-type-artifact card-type-legendary
+synonyms: []
 tapped_id: 20210
+tokens: []
 type: Legendary Artifact
-url: http://tappedout.net/mtg-card/weatherlight/
+url: https://tappedout.net/mtg-card/weatherlight/
+

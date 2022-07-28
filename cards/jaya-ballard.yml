@@ -2,7 +2,7 @@ activated_abilities:
 - ': Gain . Spend this mana only to cast instant or sorcery spells. '
 - ': Discard up to three cards, then draw that many cards. '
 - ': You get an emblem with '
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: C21
@@ -10,78 +10,124 @@ cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.44
+draft_average: 2.37
 effective_cost:
 - R
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
 mana_cost: 2RRR
-mana_cost_converted: 5
 mana_produced: RRR
+mana_value: 5
+melds_from: []
 name: Jaya Ballard
+planeswalker_loyalty: 5
 printings:
-- C21:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 175
-    rarity: mythic_rare
-    release_date: 2021-04-23
-    wizards_id: 519210
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519210
-- RNAMED:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Ravnica Allegiance: Mythic Edition'
-    number: 4
-    rarity: mythic_rare
-    release_date: 2019-01-26
 - DOM:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Magali Villeneuve
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Dominaria
     number: 132
     rarity: mythic_rare
-    release_date: 2018-04-22
+    release_date: '2018-04-22'
+    tla: DOM
+    variations: []
     wizards_id: 443020
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443020
+- RNAMED:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kieran Yanner
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Ravnica Allegiance: Mythic Edition'
+    number: 4
+    rarity: mythic_rare
+    release_date: '2019-01-26'
+    tla: RNAMED
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Magali Villeneuve
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 175
+    rarity: mythic_rare
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519210
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519210
+rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Gain [[symbol:R]][[symbol:R]][[symbol:R]]. Spend\
   \ this mana only to cast instant or sorcery spells. \r\n\r\n[[symbol:loyalty-plus1]]:\
   \ Discard up to three cards, then draw that many cards. \r\n\r\n[[symbol:loyalty-minus8]]:\
@@ -91,19 +137,25 @@ slug: jaya-ballard
 subtype: Jaya
 subtype_tokens:
 - Jaya
-tags: card-color-red card-color-red-cost-5 card-mana-red card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 20076
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Jaya Ballard
-  power_toughness: null
-  rules: You may cast instant and sorcery cards from your graveyard. If a card cast
-    this way would be put into your graveyard, exile it instead.
-  subtype: Jaya
-  tla: DOM
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - You may cast instant and sorcery cards from your graveyard. If a card cast
+        this way would be put into your graveyard, exile it instead.
+    - - type
+      - Emblem
+    - - subtype
+      - 1246
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Jaya Ballard
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/jaya-ballard/
+url: https://tappedout.net/mtg-card/jaya-ballard/
+

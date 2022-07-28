@@ -1,36 +1,41 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: RNA
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 8.36
+draft_average: 4.56
 effective_cost:
 - W
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -38,22 +43,34 @@ keywords:
 - Tokens
 - Afterlife
 mana_cost: 2W
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Ministrant of Obligation
 power_toughness: 2/1
 printings:
 - RNA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Bastein L. Deharme
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*When the price of your sins comes due, the Church of Deals is
+      there to collect.*'
     frame: m15
     mtgo_foil_id: 71033
     mtgo_id: 71032
     name: Ravnica Allegiance
     number: 16
     rarity: uncommon
-    release_date: 2019-01-25
+    release_date: '2019-01-25'
+    tla: RNA
+    variations: []
     wizards_id: 457160
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=457160
 rules: Afterlife 2 *(When this creature is put into the graveyard from the battlefield,
@@ -63,18 +80,24 @@ subtype: Human Cleric
 subtype_tokens:
 - Human
 - Cleric
-tags: card-color-white card-color-white-cost-3 card-type-creature
+synonyms: []
 tapped_id: 21079
 tokens:
-- cannonical_type: Creature
-  colors: WB
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spirit 1/1 WB
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Spirit
-  tla: RNA
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - WB
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 17
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spirit 1/1 WB
 type: Creature
-url: http://tappedout.net/mtg-card/ministrant-of-obligation/
+url: https://tappedout.net/mtg-card/ministrant-of-obligation/
+

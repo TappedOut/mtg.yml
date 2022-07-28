@@ -1,35 +1,40 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: AFC
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.74
+draft_average: 2.05
 effective_cost:
 - B
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -37,34 +42,60 @@ keywords:
 - Tokens
 - Fabricate
 mana_cost: 4BB
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Marionette Master
 power_toughness: 1/3
 printings:
-- AFC:
-    alterations:
-    - Normal
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 102
-    rarity: rare
-    release_date: 2021-07-24
-    wizards_id: 532489
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532489
 - KLD:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: James Ryman
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 61942
     mtgo_id: 61941
     name: Kaladesh
     number: 90
     rarity: rare
-    release_date: 2016-09-30
+    release_date: '2016-09-30'
+    tla: KLD
+    variations: []
     wizards_id: 417663
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417663
+- AFC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: James Ryman
+    booster_exclude: false
+    border_color: null
+    cannonical: true
+    flavour_text: ''
+    frame: null
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 102
+    rarity: rare
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: 532489
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532489
+rarity: rare
 rules: "Fabricate 3 *(When this creature enters the battlefield, put three +1/+1 counters\
   \ on this or create three 1/1 colorless Servo artifact creature tokens.)*\r\n\r\n\
   Whenever an artifact you control is put into a graveyard from the battlefield, target\
@@ -74,18 +105,24 @@ subtype: Human Artificer
 subtype_tokens:
 - Human
 - Artificer
-tags: card-color-black card-color-black-cost-6 card-type-creature
+synonyms: []
 tapped_id: 18440
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Servo 1/1 C
-  power_toughness: 1/1
-  rules: ''
-  subtype: Servo
-  tla: AFC
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 1175
+    - - cannonical_type
+      - Creature
+    - - name
+      - Servo 1/1 C
 type: Creature
-url: http://tappedout.net/mtg-card/marionette-master/
+url: https://tappedout.net/mtg-card/marionette-master/
+

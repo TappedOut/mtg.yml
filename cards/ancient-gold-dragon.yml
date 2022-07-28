@@ -1,64 +1,74 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - W
-flat_cost: 7
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
 - Tokens
 mana_cost: 5WW
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Ancient Gold Dragon
 power_toughness: 7/10
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Simon Dominic
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 3
     rarity: mythic_rare
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '365'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '376'
+    - identifier: '365'
+    - identifier: '376'
     wizards_id: 562886
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=562886
 rules: "Flying\r\n\r\nWhenever Ancient Gold Dragon deals combat damage to a player,\
@@ -70,18 +80,24 @@ subtype: Elder Dragon
 subtype_tokens:
 - Elder
 - Dragon
-tags: card-color-white card-color-white-cost-7 card-type-creature
+synonyms: []
 tapped_id: 26673
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Faerie Dragon 1/1 U
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Faerie Dragon
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 949
+    - - cannonical_type
+      - Creature
+    - - name
+      - Faerie Dragon 1/1 U
 type: Creature
-url: http://tappedout.net/mtg-card/ancient-gold-dragon/
+url: https://tappedout.net/mtg-card/ancient-gold-dragon/
+

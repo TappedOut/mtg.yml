@@ -1,59 +1,77 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: RIX
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 1.0
+draft_average: 4.11
 effective_cost:
 - R
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Double strike
 mana_cost: 1R
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Storm Fleet Swashbuckler
 power_toughness: 2/2
 printings:
 - RIX:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Kieran Yanner
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"A bolt to the eye, a blade to the neck. That''s the way to clear
+      the deck!"'
     frame: m15
     mtgo_foil_id: 66688
     mtgo_id: 66687
     name: Rivals of Ixalan
     number: 117
     rarity: uncommon
-    release_date: 2018-01-19
+    release_date: '2018-01-19'
+    tla: RIX
+    variations: []
     wizards_id: 439774
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439774
+rarity: uncommon
 rules: "Ascend _(If you control ten or more permanents, you get the city's blessing\
   \ for the rest of the game.)_\r\n\r\nStorm Fleet Swashbuckler has double strike\
   \ as long as you have the city's blessing."
@@ -62,17 +80,24 @@ subtype: Human Pirate
 subtype_tokens:
 - Human
 - Pirate
-tags: card-color-red card-color-red-cost-2 card-type-creature
+synonyms: []
 tapped_id: 20021
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: City's Blessing
-  power_toughness: null
-  rules: ''
-  tla: RIX
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - City's Blessing
 type: Creature
-url: http://tappedout.net/mtg-card/storm-fleet-swashbuckler/
+url: https://tappedout.net/mtg-card/storm-fleet-swashbuckler/
+

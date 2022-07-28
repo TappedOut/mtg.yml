@@ -1,14 +1,12 @@
 activated_abilities:
 - '*(: Add  or .)*'
-activation_costs:
+activated_costs:
 - G
 - R
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Land
-color_identity:
-- R
-- G
+color_identity: RG
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -20,145 +18,248 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 9.96
+draft_average: 4.97
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: R, G
+mana_value: 0
+melds_from: []
 name: Cinder Glade
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 887
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567704
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567704
-- NCC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Streets of New Capenna: Commander'
-    number: 394
-    rarity: rare
-    release_date: 2022-04-30
-    wizards_id: 559966
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559966
-- NEC:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Kamigawa: Neon Dynasty Commander'
-    number: 166
-    rarity: rare
-    release_date: 2022-02-11
-    wizards_id: 554248
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554248
-- AFC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 229
-    rarity: rare
-    release_date: 2021-07-24
-    wizards_id: 532616
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532616
-- C20:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2020
-    number: 263
-    rarity: rare
-    release_date: 2020-05-15
-    wizards_id: 482891
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482891
-- C19:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 77595
-    mtgo_id: 77594
-    name: Commander 2019
-    number: 236
-    rarity: rare
-    release_date: 2019-08-23
-- EXP:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    mtgo_foil_id: 58884
-    mtgo_id: 58883
-    name: Zendikar Expeditions
-    number: 4
-    rarity: mythic_rare
-    release_date: 2015-10-03
-    wizards_id: 405097
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405097
 - BFZ:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Adam Paquette
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*On the volcanic continent of Akoum, bizarre vegetation clusters
+      around gas vents, and jagged mountain peaks rise high into the air.*'
     frame: m15
     mtgo_foil_id: 58692
     mtgo_id: 58691
     name: Battle for Zendikar
     number: 235
     rarity: rare
-    release_date: 2015-10-02
+    release_date: '2015-10-02'
+    tla: BFZ
+    variations: []
     wizards_id: 401841
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401841
-- '000':
+- EXP:
     alterations:
-    - Foil
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Titus Lunter
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 58884
+    mtgo_id: 58883
+    name: Zendikar Expeditions
+    number: 4
+    rarity: mythic_rare
+    release_date: '2015-10-03'
+    tla: EXP
+    variations: []
+    wizards_id: 405097
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405097
+- '000':
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Titus Lunter
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*On the volcanic continent of Akoum, bizarre vegetation clusters
+      around gas vents, and jagged mountain peaks rise high into the air.*'
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C19:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*On the volcanic continent of Akoum, bizarre vegetation clusters
+      around gas vents, and jagged mountain peaks rise high into the air.*'
+    frame: m15
+    mtgo_foil_id: 77595
+    mtgo_id: 77594
+    name: Commander 2019
+    number: 236
+    rarity: rare
+    release_date: '2019-08-23'
+    tla: C19
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C20:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*On the volcanic continent of Akoum, bizarre vegetation clusters
+      around gas vents, and jagged mountain peaks rise high into the air.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2020
+    number: 263
+    rarity: rare
+    release_date: '2020-05-15'
+    tla: C20
+    variations: []
+    wizards_id: 482891
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482891
+- AFC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*On the volcanic continent of Akoum, bizarre vegetation clusters
+      around gas vents, and jagged mountain peaks rise high into the air.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 229
+    rarity: rare
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: 532616
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532616
+- NEC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*On the volcanic continent of Akoum, bizarre vegetation clusters
+      around gas vents, and jagged mountain peaks rise high into the air.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kamigawa: Neon Dynasty Commander'
+    number: 166
+    rarity: rare
+    release_date: '2022-02-11'
+    tla: NEC
+    variations: []
+    wizards_id: 554248
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554248
+- NCC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*On the volcanic continent of Akoum, bizarre vegetation clusters
+      around gas vents, and jagged mountain peaks rise high into the air.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Streets of New Capenna: Commander'
+    number: 394
+    rarity: rare
+    release_date: '2022-04-30'
+    tla: NCC
+    variations: []
+    wizards_id: 559966
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559966
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Paquette
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: '*On the volcanic continent of Akoum, bizarre vegetation clusters
+      around gas vents, and jagged mountain peaks rise high into the air.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 887
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567704
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567704
+rarity: rare
 rules: "*([[symbol:T]]: Add [[symbol:R]] or [[symbol:G]].)*\r\n\r\nThis enters the\
   \ battlefield tapped unless you control two or more basic lands."
 slug: cinder-glade
@@ -173,8 +274,8 @@ synonyms:
 - GR BFZ Land
 - RG BFZland
 - GR BFZland
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-green card-mana-red
-  card-type-land
 tapped_id: 17142
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/cinder-glade/
+url: https://tappedout.net/mtg-card/cinder-glade/
+

@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C18
 cannonical_type: Artifact
@@ -5,82 +7,132 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-flat_cost: 5
+cube_average: 4.83
+draft_average: 2.31
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: '5'
-mana_cost_converted: 5
+mana_produced: ''
+mana_value: 5
+melds_from: []
 name: Mirrorworks
+power_toughness: ''
 printings:
-- C18:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2018
-    number: 211
-    rarity: rare
-    release_date: 2018-08-10
-    wizards_id: 451166
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451166
 - MBS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Avon
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: The faces of Geth's corpse-dredgers are disturbingly similar.
     frame: modern
     mtgo_foil_id: 39546
     mtgo_id: 39545
     name: Mirrodin Besieged
+    number: null
     rarity: rare
-    release_date: 2011-02-04
+    release_date: '2011-02-04'
+    tla: MBS
+    variations: []
     wizards_id: 214068
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=214068
 - MBP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Avon
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: The faces of Geth's corpse-dredgers are disturbingly similar.
     frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Mirrodin Besieged: Phyrexia'
+    number: null
     rarity: rare
-    release_date: 2011-02-03
+    release_date: '2011-02-03'
+    tla: MBP
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C18:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: John Avon
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*The faces of Geth''s corpse-dredgers are disturbingly similar.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2018
+    number: 211
+    rarity: rare
+    release_date: '2018-08-10'
+    tla: C18
+    variations: []
+    wizards_id: 451166
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=451166
+rarity: rare
 rules: Whenever another nontoken artifact enters the battlefield under your control,
   you may pay [[symbol:2]]. If you do, create a token that's a copy of that artifact.
 slug: mirrorworks
-tags: card-color-colorless card-color-colorless-cost-5 card-type-artifact
+synonyms: []
 tapped_id: 12835
 tokens:
-- cannonical_type: Creature
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Copy Clone
-  power_toughness: null
-  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - '*This token can be used to represent a token that''s a copy of a permanent.*'
+    - - type
+      - Token Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Copy Clone
 type: Artifact
-url: http://tappedout.net/mtg-card/mirrorworks/
+url: https://tappedout.net/mtg-card/mirrorworks/
+

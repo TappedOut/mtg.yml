@@ -1,12 +1,14 @@
 activated_abilities:
 - 'Reconfigure  *(: Attach this to target creature you control, or unattach this from
   a creature. Reconfigure only as a sorcery. While attached, this isn''t a creature.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: NEO
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -14,33 +16,34 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -49,21 +52,33 @@ keywords:
 - Attach
 - Reconfigure
 mana_cost: 2B
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Chainflail Centipede
 power_toughness: 2/2
 printings:
 - NEO:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Viko Menezes
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
     number: 90
     rarity: common
-    release_date: 2022-02-10
+    release_date: '2022-02-10'
+    tla: NEO
+    variations: []
     wizards_id: 548388
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=548388
 rules: "Whenever this or equipped creature attacks, it gets +2/+0 until end of turn.\r\
@@ -75,7 +90,9 @@ subtype: Equipment Insect
 subtype_tokens:
 - Equipment
 - Insect
-tags: card-color-black card-color-black-cost-3 card-type-artifact card-type-creature
+synonyms: []
 tapped_id: 25952
+tokens: []
 type: Artifact Creature
-url: http://tappedout.net/mtg-card/chainflail-centipede/
+url: https://tappedout.net/mtg-card/chainflail-centipede/
+

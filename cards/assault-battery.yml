@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: TSB
 cannonical_type: Sorcery
@@ -11,58 +13,85 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.5
+draft_average: 6.0
 effective_cost:
 - R
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Premodern
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
-is_permanent: false
 keywords:
 - Tokens
 mana_cost: R // 3G
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Assault / Battery
 printings:
 - TSB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ben Thompson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 26206
     mtgo_id: 26205
     name: Time Spiral "Timeshifted"
+    number: null
     rarity: rare
-    release_date: 2006-10-06
+    release_date: '2006-10-06'
+    tla: TSB
+    variations: []
     wizards_id: 109704
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=109704
 - INV:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Ben Thompson
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 15030
     mtgo_id: 15029
     name: Invasion
+    number: null
     rarity: uncommon
-    release_date: 2000-10-02
+    release_date: '2000-10-02'
+    tla: INV
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "<h4>Assault:</h4>\r\n\r\nAssault deals 2 damage to target creature or player.\r\
   \n\r\n-----\r\n\r\n<h4>Battery:</h4>\r\n\r\nCreate a 3/3 green Elephant creature\
   \ token."
@@ -76,18 +105,23 @@ synonyms:
 - Assault to Battery
 - Battery and Assault
 - Battery/Assault
-tags: card-color-gold card-color-gold-cost-5 card-color-green card-color-red card-type-sorcery
 tapped_id: 1253
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elephant 3/3 G
-  power_toughness: 3/3
-  rules: ''
-  subtype: Elephant
-  tla: NCC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 3/3
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 214
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elephant 3/3 G
 type: Sorcery
-url: http://tappedout.net/mtg-card/assault-battery/
+url: https://tappedout.net/mtg-card/assault-battery/
+

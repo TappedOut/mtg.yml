@@ -1,5 +1,6 @@
 activated_abilities:
 - 'Equip  *(: Attach to target creature you control. Equip only as a sorcery.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: AFC
 cannonical_type: Artifact
@@ -7,34 +8,38 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.6
+draft_average: 2.7
 effective_cost:
 - W
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,67 +49,123 @@ keywords:
 - Trample
 - Attach
 mana_cost: 1GW
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Behemoth Sledge
 printings:
-- AFC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 180
-    rarity: uncommon
-    release_date: 2021-07-24
-    wizards_id: 532567
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532567
-- C17:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2017
-    number: 162
-    rarity: uncommon
-    release_date: 2017-08-25
-    wizards_id: 433094
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433094
-- C13:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 50999
-    mtgo_id: 50998
-    name: Commander 2013
-    rarity: uncommon
-    release_date: 2013-11-01
-    wizards_id: 376266
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376266
-- DDH:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 42176
-    name: 'Duel Decks: Ajani vs. Nicol Bolas'
-    rarity: uncommon
-    release_date: 2011-09-02
-    wizards_id: 249396
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=249396
 - ARB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Steve Prescott
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Those who worship the great gargantuans could hardly be expected
+      to fight with a subtle weapon.
     frame: modern
     mtgo_foil_id: 32275
     mtgo_id: 32274
     name: Alara Reborn
+    number: null
     rarity: uncommon
-    release_date: 2009-04-30
+    release_date: '2009-04-30'
+    tla: ARB
+    variations: []
     wizards_id: 179545
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=179545
+- DDH:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Dave Allsop
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "\"May this grant you all the strength of the behemoths and none\
+      \ of their serenity.\"\r\n\u2014Ajani"
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 42176
+    name: 'Duel Decks: Ajani vs. Nicol Bolas'
+    number: null
+    rarity: uncommon
+    release_date: '2011-09-02'
+    tla: DDH
+    variations: []
+    wizards_id: 249396
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=249396
+- C13:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Steve Prescott
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: Those who worship the great gargantuans could hardly be expected
+      to fight with a subtle weapon.
+    frame: modern
+    mtgo_foil_id: 50999
+    mtgo_id: 50998
+    name: Commander 2013
+    number: null
+    rarity: uncommon
+    release_date: '2013-11-01'
+    tla: C13
+    variations: []
+    wizards_id: 376266
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=376266
+- C17:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: null
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2017
+    number: 162
+    rarity: uncommon
+    release_date: '2017-08-25'
+    tla: C17
+    variations: []
+    wizards_id: 433094
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=433094
+- AFC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Steve Prescott
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Those who worship the great gargantuans could hardly be expected
+      to fight with a subtle weapon.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 180
+    rarity: uncommon
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: 532567
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532567
+rarity: uncommon
 rules: "Equipped creature gets +2/+2 and has lifelink and trample.\r\n\r\nEquip [[symbol:3]]\
   \ *([[symbol:3]]: Attach to target creature you control. Equip only as a sorcery.)*"
 slug: behemoth-sledge
@@ -113,7 +174,8 @@ subtype_tokens:
 - Equipment
 synonyms:
 - Behaemoth Sledge
-tags: card-color-gold card-color-gold-cost-3 card-color-green card-color-white card-type-artifact
 tapped_id: 11425
+tokens: []
 type: Artifact
-url: http://tappedout.net/mtg-card/behemoth-sledge/
+url: https://tappedout.net/mtg-card/behemoth-sledge/
+

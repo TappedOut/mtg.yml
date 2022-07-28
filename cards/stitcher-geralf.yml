@@ -3,33 +3,36 @@ activated_abilities:
   into their graveyard)*. Exile up to two creature cards milled with this ability.
   Create an X/X blue Zombie creature token, where X is the total power of the cards
   exiled this way.'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: MIC
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.44
 effective_cost:
 - U
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -38,34 +41,54 @@ keywords:
 - Tokens
 - Mill
 mana_cost: 3UU
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Stitcher Geralf
 power_toughness: 3/4
 printings:
-- MIC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Innistrad: Midnight Hunt Commander'
-    number: 104
-    rarity: mythic_rare
-    release_date: 2021-09-25
-    wizards_id: 539365
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539365
 - C14:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Karla Ortiz
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 55112
     mtgo_id: 55111
     name: Commander 2014
     number: 17
     rarity: mythic_rare
-    release_date: 2014-11-21
+    release_date: '2014-11-21'
+    tla: C14
+    variations: []
     wizards_id: 389694
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=389694
+- MIC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Karla Ortiz
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Midnight Hunt Commander'
+    number: 104
+    rarity: mythic_rare
+    release_date: '2021-09-25'
+    tla: MIC
+    variations: []
+    wizards_id: 539365
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=539365
+rarity: mythic_rare
 rules: '[[symbol:2]][[symbol:U]], [[symbol:T]]: Each player mills three cards *(they
   put the top three cards of their library into their graveyard)*. Exile up to two
   creature cards milled with this ability. Create an X/X blue Zombie creature token,
@@ -75,18 +98,24 @@ subtype: Human Wizard
 subtype_tokens:
 - Human
 - Wizard
-tags: card-color-blue card-color-blue-cost-5 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 15774
 tokens:
-- cannonical_type: Creature
-  colors: U
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie X/X U
-  power_toughness: X/X
-  rules: ''
-  subtype: Zombie
-  tla: MIC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - U
+    - - power_toughness
+      - X/X
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie X/X U
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/stitcher-geralf/
+url: https://tappedout.net/mtg-card/stitcher-geralf/
+

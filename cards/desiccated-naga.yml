@@ -1,7 +1,7 @@
 activated_abilities:
 - ': Target opponent loses 2 life and you gain 2 life. Activate this ability only
   if you control a Liliana planeswalker.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: AKH
@@ -9,6 +9,7 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -16,49 +17,63 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - B
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 2B
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Desiccated Naga
 power_toughness: 3/2
 printings:
 - AKH:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Svetlin Velinov
     booster_exclude: true
     border_color: B
+    cannonical: true
+    flavour_text: "\"The nature of this plane makes it almost too easy for me to command\
+      \ the dead.\" \r\n-Liliana Vess"
     frame: m15
     mtgo_foil_id: 64215
     mtgo_id: 64214
     name: Amonkhet
     number: 276
     rarity: uncommon
-    release_date: 2017-04-28
+    release_date: '2017-04-28'
+    tla: AKH
+    variations: []
     wizards_id: 429668
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=429668
+rarity: uncommon
 rules: '[[symbol:3]][[symbol:B]]: Target opponent loses 2 life and you gain 2 life.
   Activate this ability only if you control a Liliana planeswalker.'
 slug: desiccated-naga
@@ -66,7 +81,9 @@ subtype: Zombie Naga
 subtype_tokens:
 - Zombie
 - Naga
-tags: card-color-black card-color-black-cost-3 card-type-creature
+synonyms: []
 tapped_id: 18803
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/desiccated-naga/
+url: https://tappedout.net/mtg-card/desiccated-naga/
+

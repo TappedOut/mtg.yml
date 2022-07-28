@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: CLB
@@ -13,145 +14,238 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.53
+draft_average: 7.25
 effective_cost:
 - G
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Pauper Duel Commander
 is_mtgo: true
-is_permanent: false
 keywords:
 - Exile
 - Suspend
 - Counters
 mana_cost: 2G
-mana_cost_converted: 3
 mana_produced: W, U, B, R, G
+mana_value: 3
+melds_from: []
 name: Search for Tomorrow
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 834
-    rarity: common
-    release_date: 2022-06-10
-    wizards_id: 567651
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567651
-- TSR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Time Spiral Remastered
-    number: 229
-    rarity: common
-    release_date: 2021-03-19
-    wizards_id: 509594
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509594
-- CMR:
-    alterations:
-    - Foil
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: Commander Legends
-    number: 436
-    rarity: common
-    release_date: 2020-11-20
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: common
-    release_date: 2020-03-14
-- IMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    mtgo_foil_id: 66250
-    mtgo_id: 66249
-    name: Iconic Masters
-    rarity: common
-    release_date: 2017-11-17
-    wizards_id: 438751
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438751
-- MMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 49023
-    mtgo_id: 49022
-    name: Modern Masters
-    rarity: common
-    release_date: 2013-06-07
-    wizards_id: 370526
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370526
-- HOP:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    name: Planechase
-    rarity: common
-    release_date: 2009-09-04
-    wizards_id: 205408
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=205408
 - TSP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Randy Gallegos
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 25406
     mtgo_id: 25405
     name: Time Spiral
+    number: null
     rarity: common
-    release_date: 2006-10-06
+    release_date: '2006-10-06'
+    tla: TSP
+    variations: []
     wizards_id: 108802
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=108802
+- MMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Randy Gallegos
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 49023
+    mtgo_id: 49022
+    name: Modern Masters
+    number: null
+    rarity: common
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
+    wizards_id: 370526
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370526
+- HOP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Randy Gallegos
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Planechase
+    number: null
+    rarity: common
+    release_date: '2009-09-04'
+    tla: HOP
+    variations: []
+    wizards_id: 205408
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=205408
+- IMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Randy Gallegos
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: 66250
+    mtgo_id: 66249
+    name: Iconic Masters
+    number: null
+    rarity: common
+    release_date: '2017-11-17'
+    tla: IMA
+    variations: []
+    wizards_id: 438751
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=438751
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Randy Gallegos
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: common
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- CMR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Randy Gallegos
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Legends
+    number: 436
+    rarity: common
+    release_date: '2020-11-20'
+    tla: CMR
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- TSR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Greg Staples
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Time Spiral Remastered
+    number: 229
+    rarity: common
+    release_date: '2021-03-19'
+    tla: TSR
+    variations: []
+    wizards_id: 509594
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=509594
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Greg Staples
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 834
+    rarity: common
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567651
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567651
+rarity: common
 rules: "Search your library for a basic land card and put it onto the battlefield,\
   \ then shuffle your library.\r\n\r\nSuspend 2&mdash;[[symbol:G]] *(Rather than cast\
   \ this card from your hand, you may pay [[symbol:G]] and exile it with two time\
   \ counters on it. At the beginning of your upkeep, remove a time counter. When the\
   \ last is removed, cast it without paying its mana cost.)*"
 slug: search-for-tomorrow
-tags: card-color-green card-color-green-cost-3 card-mana-black card-mana-blue card-mana-green
-  card-mana-red card-mana-white card-type-sorcery
+synonyms: []
 tapped_id: 1168
+tokens: []
 type: Sorcery
-url: http://tappedout.net/mtg-card/search-for-tomorrow/
+url: https://tappedout.net/mtg-card/search-for-tomorrow/
+

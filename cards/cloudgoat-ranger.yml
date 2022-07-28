@@ -1,33 +1,38 @@
 activated_abilities:
 - 'Tap three untapped Kithkin you control: Cloudgoat Ranger gets +2/+0 and gains flying
   until end of turn.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: KHC
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.72
+draft_average: 3.38
 effective_cost:
 - W
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -36,48 +41,84 @@ keywords:
 - Tap/Untap
 - Tokens
 mana_cost: 3WW
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Cloudgoat Ranger
 power_toughness: 3/3
 printings:
-- KHC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Kaldheim: Commander'
-    number: 21
-    rarity: uncommon
-    release_date: 2021-02-05
-    wizards_id: 508311
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508311
-- MMA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 48691
-    mtgo_id: 48690
-    name: Modern Masters
-    rarity: uncommon
-    release_date: 2013-06-07
-    wizards_id: 370553
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370553
 - LRW:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Adam Rex
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 28350
     mtgo_id: 28349
     name: Lorwyn
+    number: null
     rarity: uncommon
-    release_date: 2007-10-12
+    release_date: '2007-10-12'
+    tla: LRW
+    variations: []
     wizards_id: 139664
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=139664
+- MMA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Adam Rex
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 48691
+    mtgo_id: 48690
+    name: Modern Masters
+    number: null
+    rarity: uncommon
+    release_date: '2013-06-07'
+    tla: MMA
+    variations: []
+    wizards_id: 370553
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=370553
+- KHC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Adam Rex
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kaldheim: Commander'
+    number: 21
+    rarity: uncommon
+    release_date: '2021-02-05'
+    tla: KHC
+    variations: []
+    wizards_id: 508311
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=508311
+rarity: uncommon
 rules: "When Cloudgoat Ranger enters the battlefield, create three 1/1 white Kithkin\
   \ Soldier creature tokens.\r\n\r\nTap three untapped Kithkin you control: Cloudgoat\
   \ Ranger gets +2/+0 and gains flying until end of turn."
@@ -86,18 +127,24 @@ subtype: Giant Warrior
 subtype_tokens:
 - Giant
 - Warrior
-tags: card-color-white card-color-white-cost-5 card-type-creature
+synonyms: []
 tapped_id: 194
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Kithkin Soldier 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Kithkin Soldier
-  tla: KHC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 144
+    - - cannonical_type
+      - Creature
+    - - name
+      - Kithkin Soldier 1/1 W
 type: Creature
-url: http://tappedout.net/mtg-card/cloudgoat-ranger/
+url: https://tappedout.net/mtg-card/cloudgoat-ranger/
+

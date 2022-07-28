@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: 2XM
 cannonical_type: Artifact
@@ -5,31 +7,34 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
-- Zirda, the Dawnwaker
-flat_cost: 3
+cube_average: 3.7
+draft_average: 1.0
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: true
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -39,77 +44,126 @@ keywords:
 - Tokens
 - Mill
 mana_cost: '3'
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Sword of Body and Mind
 printings:
-- 2XM:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Double Masters
-    number: 295
-    rarity: mythic_rare
-    release_date: 2020-08-07
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '363'
-    wizards_id: 489968
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489968
-- ARENA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Arena Cards
-    rarity: mythic_rare
-    release_date: 2019-09-26
-- MPS:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: m15
-    name: 'Masterpiece Series: Kaladesh Inventions'
-    number: 50
-    rarity: mythic_rare
-    release_date: 2016-09-30
-    wizards_id: 425821
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425821
 - SOM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 38280
     mtgo_id: 38279
     name: Scars of Mirrodin
+    number: null
     rarity: mythic_rare
-    release_date: 2010-10-01
+    release_date: '2010-10-01'
+    tla: SOM
+    variations: []
     wizards_id: 209280
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=209280
 - V10:
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Christopher Moeller
+    booster_exclude: false
     border_color: B
     cannonical: false
-    foil: foil
-    foil_only: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 37650
+    mtgo_id: null
     name: 'From the Vault: Relics'
+    number: null
     rarity: mythic_rare
-    release_date: 2010-08-27
+    release_date: '2010-08-27'
+    tla: V10
+    variations: []
     wizards_id: 212640
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=212640
+- MPS:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Zug
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Masterpiece Series: Kaladesh Inventions'
+    number: 50
+    rarity: mythic_rare
+    release_date: '2016-09-30'
+    tla: MPS
+    variations: []
+    wizards_id: 425821
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=425821
+- 2XM:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters
+    number: 295
+    rarity: mythic_rare
+    release_date: '2020-08-07'
+    tla: 2XM
+    variations:
+    - identifier: '363'
+    wizards_id: 489968
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489968
+- ARENA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Chris Rahn
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Arena Cards
+    number: null
+    rarity: mythic_rare
+    release_date: '2019-09-26'
+    tla: ARENA
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: mythic_rare
 rules: "Equipped creature gets +2/+2 and has protection from green and from blue.\
   \ *((Remember the acronym <b>debt</b>.) This creature can't be <b>d</b>amaged, <b>e</b>nchanted,\
   \ <b>e</b>quipped, <b>b</b>locked or <b>t</b>argeted by anything green or blue.\
@@ -128,18 +182,23 @@ synonyms:
 - Sword of UG
 - Sword of U and G
 - Sword of G and U
-tags: card-color-colorless card-color-colorless-cost-3 card-type-artifact
 tapped_id: 12427
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Wolf 2/2 G
-  power_toughness: 2/2
-  rules: ''
-  subtype: Wolf
-  tla: 2XM
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 93
+    - - cannonical_type
+      - Creature
+    - - name
+      - Wolf 2/2 G
 type: Artifact
-url: http://tappedout.net/mtg-card/sword-of-body-and-mind/
+url: https://tappedout.net/mtg-card/sword-of-body-and-mind/
+

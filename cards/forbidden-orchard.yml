@@ -1,5 +1,6 @@
 activated_abilities:
 - ': Add one mana of any colour.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C16
 cannonical_type: Land
@@ -14,22 +15,26 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 9.87
+draft_average: 3.0
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -37,103 +42,149 @@ is_permanent: true
 keywords:
 - Tap/Untap
 - Tokens
-mana_cost_converted: 0
 mana_produced: W, U, B, R, G
+mana_value: 0
+melds_from: []
 name: Forbidden Orchard
 printings:
-- 2X2:
+- CHK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dany Orizio
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 21438
+    mtgo_id: 21437
+    name: Champions of Kamigawa
+    number: null
+    rarity: rare
+    release_date: '2004-10-01'
+    tla: CHK
+    variations: []
+    wizards_id: 79252
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=79252
+- V12:
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daniel Ljunggren
+    booster_exclude: false
     border_color: B
     cannonical: false
-    frame: m15
-    name: Double Masters 2022
-    number: 323
-    rarity: rare
-    release_date: 2022-07-08
-    variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '405'
-    - alterations:
-      - Etched
-      identifier: '571'
-    wizards_id: 571656
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571656
-- C16:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2016
-    number: 296
-    rarity: rare
-    release_date: 2016-11-11
-    wizards_id: 420913
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420913
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: 46245
+    mtgo_id: 46244
+    name: 'From the Vault: Realms'
+    number: null
+    rarity: mythic_rare
+    release_date: '2012-08-31'
+    tla: V12
+    variations: []
+    wizards_id: 282541
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=282541
 - EXP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jesper Ejsing
+    booster_exclude: false
     border_color: B
     cannonical: false
-    foil: foil
-    foil_only: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 59702
     mtgo_id: 59701
     name: Zendikar Expeditions
     number: 39
     rarity: mythic_rare
-    release_date: 2015-10-03
+    release_date: '2015-10-03'
+    tla: EXP
+    variations: []
     wizards_id: 409570
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=409570
-- V12:
+- C16:
     alterations:
-    - Foil
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Daniel Ljunggren
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2016
+    number: 296
+    rarity: rare
+    release_date: '2016-11-11'
+    tla: C16
+    variations: []
+    wizards_id: 420913
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=420913
+- 2X2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Daniel Ljunggren
+    booster_exclude: false
     border_color: B
     cannonical: false
-    foil: foil
-    foil_only: true
-    frame: modern
-    mtgo_foil_id: 46245
-    mtgo_id: 46244
-    name: 'From the Vault: Realms'
-    rarity: mythic_rare
-    release_date: 2012-08-31
-    wizards_id: 282541
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=282541
-- CHK:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_foil_id: 21438
-    mtgo_id: 21437
-    name: Champions of Kamigawa
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Double Masters 2022
+    number: 323
     rarity: rare
-    release_date: 2004-10-01
-    wizards_id: 79252
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=79252
+    release_date: '2022-07-08'
+    tla: 2X2
+    variations:
+    - identifier: '405'
+    - identifier: '571'
+    wizards_id: 571656
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=571656
+rarity: mythic_rare
 rules: "[[symbol:T]]: Add one mana of any colour.\r\n\r\nWhenever you tap Forbidden\
   \ Orchard for mana, target opponent creates a 1/1 colourless Spirit creature token."
 slug: forbidden-orchard
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-blue
-  card-mana-green card-mana-red card-mana-white card-type-land
+synonyms: []
 tapped_id: 2546
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Spirit 1/1 C
-  power_toughness: 1/1
-  rules: ''
-  subtype: Spirit
-  tla: C16
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 17
+    - - cannonical_type
+      - Creature
+    - - name
+      - Spirit 1/1 C
 type: Land
-url: http://tappedout.net/mtg-card/forbidden-orchard/
+url: https://tappedout.net/mtg-card/forbidden-orchard/
+

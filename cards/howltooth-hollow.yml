@@ -2,13 +2,12 @@ activated_abilities:
 - ': Add .'
 - ', : You may play the exiled card without paying its mana cost if each player has
   no cards in their hand.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: LRW
 cannonical_type: Land
-color_identity:
-- B
+color_identity: B
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -20,22 +19,26 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 13.0
+draft_average: 3.67
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -43,35 +46,60 @@ is_permanent: true
 keywords:
 - Exile
 - Hideaway
-mana_cost_converted: 0
 mana_produced: B
+mana_value: 0
+melds_from: []
 name: Howltooth Hollow
 printings:
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 438
-    rarity: rare
-    release_date: 2019-12-09
 - LRW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Howe
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 28342
     mtgo_id: 28341
     name: Lorwyn
     number: 269
     rarity: rare
-    release_date: 2007-10-12
+    release_date: '2007-10-12'
+    tla: LRW
+    variations: []
     wizards_id: 139513
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=139513
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Shie Nanahara
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 438
+    rarity: rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: rare
 rules: "Hideaway *(This enters the battlefield tapped. When this does, look at the\
   \ top four cards of your library, exile one face down, then put the rest on the\
   \ bottom of your library.)*\r\n\r\n[[symbol:T]]: Add [[symbol:B]].\r\n\r\n[[symbol:B]],\
@@ -82,7 +110,8 @@ synonyms:
 - B Hideaway
 - B Hideawayland
 - B Hideaway Land
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-type-land
 tapped_id: 274
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/howltooth-hollow/
+url: https://tappedout.net/mtg-card/howltooth-hollow/
+

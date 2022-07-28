@@ -1,71 +1,97 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ONS
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.67
+draft_average: 6.82
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Premodern
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 3G
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Symbiotic Elf
 power_toughness: 2/2
 printings:
 - ONS:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Wayne England
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: The elves arriving in Wirewood had no homes, let alone weapons,
+      but they knew that the forest would always provide.
     frame: original
     mtgo_foil_id: 18130
     mtgo_id: 18129
     name: Onslaught
+    number: null
     rarity: common
-    release_date: 2002-10-07
+    release_date: '2002-10-07'
+    tla: ONS
+    variations: []
     wizards_id: 32216
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=32216
+rarity: common
 rules: When Symbiotic Elf is put into a graveyard from play, put two 1/1 green Insect
   creature tokens into play.
 slug: symbiotic-elf
 subtype: Elf
 subtype_tokens:
 - Elf
-tags: card-color-green card-color-green-cost-4 card-type-creature
+synonyms: []
 tapped_id: 4082
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Insect 1/1 G
-  power_toughness: 1/1
-  rules: ''
-  subtype: Insect
-  tla: ONS
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 16
+    - - cannonical_type
+      - Creature
+    - - name
+      - Insect 1/1 G
 type: Creature
-url: http://tappedout.net/mtg-card/symbiotic-elf/
+url: https://tappedout.net/mtg-card/symbiotic-elf/
+

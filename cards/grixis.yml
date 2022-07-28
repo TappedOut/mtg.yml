@@ -3,6 +3,7 @@ activated_abilities:
   cost is equal to the card''s mana cost. *(Pay the card''s mana cost: Return it to
   the battlefield. The creature gains haste. Exile it at the beginning of the next
   end step or if it would leave the battlefield. Unearth only as a sorcery.)*'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: HOP
 companions:
@@ -14,56 +15,78 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+effective_cost: []
 formats:
 - 1v1 Commander
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Pauper
+- Casual
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
-is_permanent: false
 keywords:
 - Haste
 - Exile
 - Unearth
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Grixis
 printings:
-- PCA:
-    alterations:
-    - Oversized
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Planechase Anthology
-    number: 33
-    rarity: common
-    release_date: 2016-11-25
-    wizards_id: 423614
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423614
 - HOP:
     alterations:
-    - Oversized
+    - !!python/tuple
+      - oversized
+      - Oversized
+    artist: Nils Hamm
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Planechase
     number: 15
     rarity: common
-    release_date: 2009-09-04
+    release_date: '2009-09-04'
+    tla: HOP
+    variations: []
     wizards_id: 198071
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=198071
+- PCA:
+    alterations:
+    - !!python/tuple
+      - oversized
+      - Oversized
+    artist: Neil Mann
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Planechase Anthology
+    number: 33
+    rarity: common
+    release_date: '2016-11-25'
+    tla: PCA
+    variations: []
+    wizards_id: 423614
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423614
+rarity: common
 rules: "Blue, black, and/or red creature cards in your graveyard have unearth. The\
   \ unearth cost is equal to the card's mana cost. *(Pay the card's mana cost: Return\
   \ it to the battlefield. The creature gains haste. Exile it at the beginning of\
@@ -74,7 +97,9 @@ slug: grixis
 subtype: Alara
 subtype_tokens:
 - Alara
-tags: card-color-colorless card-color-colorless-cost-0 card-type-plane
+synonyms: []
 tapped_id: 12683
+tokens: []
 type: Plane
-url: http://tappedout.net/mtg-card/grixis/
+url: https://tappedout.net/mtg-card/grixis/
+

@@ -2,7 +2,7 @@ activated_abilities:
 - ', , Remove X +1/+1 counters from Chamber Sentry: It deals X damage to target creature,
   player or planeswalker.'
 - ': Return Chamber Sentry from your graveyard to your hand.'
-activation_costs:
+activated_costs:
 - B
 - G
 - R
@@ -11,12 +11,7 @@ activation_costs:
 canadian_hl_score: 0
 cannonical_set: JMP
 cannonical_type: Creature
-color_identity:
-- W
-- U
-- B
-- R
-- G
+color_identity: WUBRG
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -25,65 +20,98 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 7.34
+draft_average: 7.5
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Counters
 mana_cost: X
-mana_cost_converted: 0
+mana_value: 0
+melds_from: []
 name: Chamber Sentry
 power_toughness: 0/0
 printings:
-- JMP:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Jumpstart
-    number: 461
-    rarity: rare
-    release_date: 2020-07-17
-    wizards_id: 489444
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489444
 - GRN:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Adam Paquette
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 69878
     mtgo_id: 69877
     name: Guilds of Ravnica
     number: 232
     rarity: rare
-    release_date: 2018-10-05
+    release_date: '2018-10-05'
+    tla: GRN
+    variations: []
     wizards_id: 452982
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=452982
+- JMP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Adam Paquette
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Jumpstart
+    number: 461
+    rarity: rare
+    release_date: '2020-07-17'
+    tla: JMP
+    variations: []
+    wizards_id: 489444
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489444
 rules: "Chamber Sentry enters the battlefield with a +1/+1 counter on it for each\
   \ colour of mana spent to cast it.  \r\n  \r\n[[symbol:X]], [[symbol:T]], Remove\
   \ X +1/+1 counters from Chamber Sentry: It deals X damage to target creature, player\
@@ -93,7 +121,9 @@ slug: chamber-sentry
 subtype: Construct
 subtype_tokens:
 - Construct
-tags: card-color-colorless card-color-colorless-cost-0 card-type-artifact card-type-creature
+synonyms: []
 tapped_id: 20880
+tokens: []
 type: Artifact Creature
-url: http://tappedout.net/mtg-card/chamber-sentry/
+url: https://tappedout.net/mtg-card/chamber-sentry/
+

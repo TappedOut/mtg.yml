@@ -1,16 +1,14 @@
 activated_abilities:
 - ': Add .'
 - ', : Creatures you control gain deathtouch and lifelink until end of turn.'
-activation_costs:
+activated_costs:
 - B
 - C
 - W
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Land
-color_identity:
-- W
-- B
+color_identity: WB
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -22,26 +20,30 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 11.67
+draft_average: 5.33
+effective_cost: []
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
@@ -49,64 +51,112 @@ is_permanent: true
 keywords:
 - Deathtouch
 - Lifelink
-mana_cost_converted: 0
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Vault of the Archangel
 printings:
-- CLB:
-    alterations:
-    - Normal
-    booster_exclude: true
-    border_color: B
-    frame: m15
-    name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 927
-    rarity: rare
-    release_date: 2022-06-10
-    wizards_id: 567744
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567744
-- SLD:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Secret Lair
-    number: 350
-    rarity: rare
-    release_date: 2019-12-09
-- MD1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: modern
-    name: Modern Event Deck
-    number: 172
-    rarity: rare
-    release_date: 2014-05-30
-    wizards_id: 382202
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382202
 - DKA:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Avon
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "\"For centuries my creation kept this world in balance. Now only\
+      \ her shadow remains.\"\r\n\u2014Sorin Markov"
     frame: modern
     mtgo_foil_id: 43486
     mtgo_id: 43485
     name: Dark Ascension
     number: 158
     rarity: rare
-    release_date: 2012-02-03
+    release_date: '2012-02-03'
+    tla: DKA
+    variations: []
     wizards_id: 270938
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=270938
+- MD1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: John Avon
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*\"For centuries my creation kept this world in balance. Now only\
+      \ her shadow remains.\"\r\n<br>\u2014Sorin Markov*"
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Modern Event Deck
+    number: 172
+    rarity: rare
+    release_date: '2014-05-30'
+    tla: MD1
+    variations: []
+    wizards_id: 382202
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=382202
+- SLD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jessica Seamans
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: 350
+    rarity: rare
+    release_date: '2019-12-09'
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- CLB:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: John Avon
+    booster_exclude: true
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"For centuries my creation kept this world in balance. Now only\
+      \ her shadow remains.\"\r\n<br>&mdash;Sorin Markov*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Commander Legends: Battle for Baldur''s Gate'
+    number: 927
+    rarity: rare
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
+    wizards_id: 567744
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=567744
+rarity: rare
 rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:2]][[symbol:W]][[symbol:B]],\
   \ [[symbol:T]]: Creatures you control gain deathtouch and lifelink until end of\
   \ turn."
 slug: vault-of-the-archangel
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
+synonyms: []
 tapped_id: 13496
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/vault-of-the-archangel/
+url: https://tappedout.net/mtg-card/vault-of-the-archangel/
+

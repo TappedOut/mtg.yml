@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: VOW
@@ -6,6 +7,7 @@ cannonical_type: Instant
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -14,68 +16,97 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - U
-flat_cost: 1
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 is_mtgo: true
-is_permanent: false
 keywords:
 - Counterspell
 - Cleave
 mana_cost: U
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Wash Away
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 354
-    rarity: uncommon
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Brian Valeza
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"May the ocean take it.\"\r\n<br>&mdash;Nephalia expression meaning\r\
+      \n\"good riddance\"*"
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 87
     rarity: uncommon
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
+    variations: []
     wizards_id: 540931
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=540931
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Brian Valeza
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*\"May the ocean take it.\"\r\n<br>&mdash;Nephalia expression meaning\r\
+      \n\"good riddance\"*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 354
+    rarity: uncommon
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Cleave [[symbol:1]][[symbol:U]][[symbol:U]] *(You may cast this for this card's\
   \ cleave cost. If you do, remove the words in the square brackets from this spell's\
   \ rules text.)*\r\n\r\nCounter target spell [that wasn't cast from its owner's hand]."
 slug: wash-away
-tags: card-color-blue card-color-blue-cost-1 card-type-instant
+synonyms: []
 tapped_id: 25507
+tokens: []
 type: Instant
-url: http://tappedout.net/mtg-card/wash-away/
+url: https://tappedout.net/mtg-card/wash-away/
+

@@ -1,74 +1,97 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: OGW
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.88
+draft_average: 3.57
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Reach
 - Tokens
 mana_cost: 2GG
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Seed Guardian
 power_toughness: 3/4
 printings:
 - OGW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Vincent Proce
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*It is a reminder that spring will always follow winter.*'
     frame: m15
     mtgo_foil_id: 59582
     mtgo_id: 59581
     name: Oath of the Gatewatch
     number: 143
     rarity: uncommon
-    release_date: 2016-01-22
+    release_date: '2016-01-22'
+    tla: OGW
+    variations: []
     wizards_id: 407653
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=407653
+rarity: uncommon
 rules: "Reach\r\n\r\nWhen Seed Guardian dies, put an X/X green Elemental creature\
   \ token onto the battlefield, where X is the number of creature cards in your graveyard."
 slug: seed-guardian
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-color-green card-color-green-cost-4 card-type-creature
+synonyms: []
 tapped_id: 17528
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elemental X/X G
-  power_toughness: X/X
-  rules: ''
-  subtype: Elemental
-  tla: OGW
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - X/X
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elemental X/X G
 type: Creature
-url: http://tappedout.net/mtg-card/seed-guardian/
+url: https://tappedout.net/mtg-card/seed-guardian/
+

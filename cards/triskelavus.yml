@@ -1,32 +1,38 @@
 activated_abilities:
 - ', Remove a +1/+1 counter from Triskelavus: Create a 1/1 Triskelavite artifact creature
   token with flying. It has '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMD
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 7
+cube_average: 7.91
+draft_average: 3.62
+effective_cost: []
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -36,47 +42,81 @@ keywords:
 - Counters
 - Tokens
 mana_cost: '7'
-mana_cost_converted: 7
+mana_value: 7
+melds_from: []
 name: Triskelavus
 power_toughness: 1/1
 printings:
-- CM2:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Commander Anthology 2018
-    number: 226
-    rarity: rare
-    release_date: 2018-06-08
-    wizards_id: 446962
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446962
-- CMD:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 40776
-    name: 'MTG: Commander'
-    rarity: rare
-    release_date: 2011-06-17
-    wizards_id: 247519
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247519
 - TSP:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Zug
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 25714
     mtgo_id: 25713
     name: Time Spiral
+    number: null
     rarity: rare
-    release_date: 2006-10-06
+    release_date: '2006-10-06'
+    tla: TSP
+    variations: []
     wizards_id: 114919
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=114919
+- CMD:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Mark Zug
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 40776
+    name: 'MTG: Commander'
+    number: null
+    rarity: rare
+    release_date: '2011-06-17'
+    tla: CMD
+    variations: []
+    wizards_id: 247519
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=247519
+- CM2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Mark Zug
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Anthology 2018
+    number: 226
+    rarity: rare
+    release_date: '2018-06-08'
+    tla: CM2
+    variations: []
+    wizards_id: 446962
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446962
+rarity: rare
 rules: "Flying\r\n\r\nTriskelavus enters the battlefield with three +1/+1 counters\
   \ on it. \r\n\r\n[[symbol:1]], Remove a +1/+1 counter from Triskelavus: Create a\
   \ 1/1 Triskelavite artifact creature token with flying. It has \"Sacrifice this\
@@ -85,19 +125,25 @@ slug: triskelavus
 subtype: Construct
 subtype_tokens:
 - Construct
-tags: card-color-colorless card-color-colorless-cost-7 card-type-artifact card-type-creature
+synonyms: []
 tapped_id: 1222
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Triskelavite 1/1 C
-  power_toughness: 1/1
-  rules: "Flying\r\n\r\nSacrifice this creature: This creature deals 1 damage to target\
-    \ creature or player."
-  subtype: Triskelavite
-  tla: CM2
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - "Flying\r\n\r\nSacrifice this creature: This creature deals 1 damage to target\
+        \ creature or player."
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 917
+    - - cannonical_type
+      - Creature
+    - - name
+      - Triskelavite 1/1 C
 type: Artifact Creature
-url: http://tappedout.net/mtg-card/triskelavus/
+url: https://tappedout.net/mtg-card/triskelavus/
+

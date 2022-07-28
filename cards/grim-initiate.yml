@@ -1,39 +1,44 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: WAR
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 10.84
+draft_average: 7.94
 effective_cost:
 - R
-flat_cost: 1
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -42,22 +47,34 @@ keywords:
 - Tokens
 - Amass
 mana_cost: R
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Grim Initiate
 power_toughness: 1/1
 printings:
 - WAR:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jason Felix
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*"Beneath each gleaming mineral shell rots a once-proud warrior
+      of Amonket."*'
     frame: m15
     mtgo_foil_id: 71867
     mtgo_id: 71866
     name: War of the Spark
     number: 130
     rarity: common
-    release_date: 2019-05-03
+    release_date: '2019-05-03'
+    tla: WAR
+    variations: []
     wizards_id: 461057
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=461057
 rules: "First strike\r\n\r\nWhen Grim Initiate dies, amass 1. *(Put a +1/+1 counter\
@@ -68,18 +85,24 @@ subtype: Zombie Warrior
 subtype_tokens:
 - Zombie
 - Warrior
-tags: card-color-red card-color-red-cost-1 card-type-creature
+synonyms: []
 tapped_id: 21298
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie Army 0/0 B
-  power_toughness: 0/0
-  rules: ''
-  subtype: Zombie Army
-  tla: WAR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 0/0
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 1342
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie Army 0/0 B
 type: Creature
-url: http://tappedout.net/mtg-card/grim-initiate/
+url: https://tappedout.net/mtg-card/grim-initiate/
+

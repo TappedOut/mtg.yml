@@ -1,66 +1,83 @@
 activated_abilities:
 - 'NOTE TO ADMINISTRATORS: THIS IS NOT AN ALLY'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: XLN
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.27
+draft_average: 1.0
 effective_cost:
 - W
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 2W
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Mavren Fein, Dusk Apostle
 power_toughness: 2/2
 printings:
 - XLN:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Daarkin
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*In the rapture of his Blood Fast, he destroyed the navigator''s
+      tools and steered the ship to shore by faith alone.*'
     frame: m15
     mtgo_foil_id: 65061
     mtgo_id: 65060
     name: Ixalan
     number: 24
     rarity: rare
-    release_date: 2017-09-29
+    release_date: '2017-09-29'
+    tla: XLN
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: PromoPack
     wizards_id: 435176
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435176
+rarity: rare
 rules: "Whenever one or more nontoken Vampires you control attack, create a 1/1 white\
   \ Vampire creature token with lifelink. \r\n\r\nNOTE TO ADMINISTRATORS: THIS IS\
   \ NOT AN ALLY"
@@ -70,19 +87,25 @@ subtype_tokens:
 - Vampire
 - Cleric
 - Ally
-tags: card-color-white card-color-white-cost-3 card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 19324
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Vampire 1/1 W
-  power_toughness: 1/1
-  rules: Lifelink *(Damage dealt by this creature also causes you to gain that much
-    life.)*
-  subtype: Vampire
-  tla: XLN
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Lifelink *(Damage dealt by this creature also causes you to gain that much
+        life.)*
+    - - type
+      - Token Creature
+    - - subtype
+      - 107
+    - - cannonical_type
+      - Creature
+    - - name
+      - Vampire 1/1 W
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/mavren-fein-dusk-apostle/
+url: https://tappedout.net/mtg-card/mavren-fein-dusk-apostle/
+

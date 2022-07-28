@@ -1,77 +1,99 @@
 activated_abilities:
 - '1B, Discard a creature card: Draw a card. If the discarded card was a Zombie card,
   put a 2/2 black Zombie creature token onto the battlefield tapped.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: M15
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.13
+draft_average: 7.29
 effective_cost:
 - B
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: 1B
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Necromancer's Stockpile
 printings:
 - M15:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Seb McKennon
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: The experiments decided to perform some research of their own.
     frame: m15
     mtgo_foil_id: 53609
     mtgo_id: 53608
     name: Magic 2015
     number: 108
     rarity: rare
-    release_date: 2014-07-18
+    release_date: '2014-07-18'
+    tla: M15
+    variations: []
     wizards_id: 383323
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383323
+rarity: rare
 rules: '1B, Discard a creature card: Draw a card. If the discarded card was a Zombie
   card, put a 2/2 black Zombie creature token onto the battlefield tapped.'
 slug: necromancers-stockpile
-tags: card-color-black card-color-black-cost-2 card-type-enchantment
+synonyms: []
 tapped_id: 15636
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: M15
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Enchantment
-url: http://tappedout.net/mtg-card/necromancers-stockpile/
+url: https://tappedout.net/mtg-card/necromancers-stockpile/
+

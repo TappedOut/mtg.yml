@@ -4,7 +4,7 @@ activated_abilities:
 - ': Regenerate Cromat.'
 - ': Cromat gets +1/+1 until end of turn.'
 - ': Put Cromat on top of its owner''s library.'
-activation_costs:
+activated_costs:
 - B
 - G
 - R
@@ -16,31 +16,35 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 10.02
+draft_average: 4.71
 effective_cost:
 - W
 - U
 - B
 - R
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -48,24 +52,36 @@ keywords:
 - Flying
 - Regenerate
 mana_cost: UGWBR
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Cromat
 power_toughness: 5/5
 printings:
 - APC:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Donato Giancola
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 16279
     mtgo_id: 16278
     name: Apocalypse
     number: 94
     rarity: rare
-    release_date: 2001-06-01
+    release_date: '2001-06-01'
+    tla: APC
+    variations: []
     wizards_id: 28670
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=28670
+rarity: rare
 rules: "[[W]][[B]]: Destroy target creature blocking or blocked by Cromat.\r\n\r\n\
   [[U]][[R]]: Cromat gains flying until end of turn.\r\n\r\n[[B]][[G]]: Regenerate\
   \ Cromat.\r\n\r\n[[R]][[W]]: Cromat gets +1/+1 until end of turn.\r\n\r\n[[G]][[U]]:\
@@ -74,8 +90,9 @@ slug: cromat
 subtype: Illusion
 subtype_tokens:
 - Illusion
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-5 card-color-green
-  card-color-red card-color-white card-type-creature card-type-legendary
+synonyms: []
 tapped_id: 4759
+tokens: []
 type: Legendary Creature
-url: http://tappedout.net/mtg-card/cromat/
+url: https://tappedout.net/mtg-card/cromat/
+

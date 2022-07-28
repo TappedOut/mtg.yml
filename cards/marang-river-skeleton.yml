@@ -1,37 +1,41 @@
 activated_abilities:
 - ': Regenerate Marang River Skeleton.'
-activation_costs:
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: DTK
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.0
+draft_average: 5.33
 effective_cost:
 - B
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -41,24 +45,36 @@ keywords:
 - Counters
 - Megamorph
 mana_cost: 1B
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Marang River Skeleton
 power_toughness: 1/1
 printings:
 - DTK:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jack Wang
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*The gurgling of the Marang coneals both footsteps and screams.*'
     frame: m15
     mtgo_foil_id: 56133
     mtgo_id: 56132
     name: Dragons of Tarkir
     number: 108
     rarity: uncommon
-    release_date: 2015-03-27
+    release_date: '2015-03-27'
+    tla: DTK
+    variations: []
     wizards_id: 394621
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=394621
+rarity: uncommon
 rules: "[[symbol:B]]: Regenerate Marang River Skeleton.\r\n\r\nMegamorph [[symbol:3]][[symbol:B]]\
   \ *(You may cast this card face down as a 2/2 creature for [[symbol:3]]. Turn it\
   \ face up at any time for its megamorph cost and put a +1/+1 counter on it.)*"
@@ -66,18 +82,25 @@ slug: marang-river-skeleton
 subtype: Skeleton
 subtype_tokens:
 - Skeleton
-tags: card-color-black card-color-black-cost-2 card-type-creature
+synonyms: []
 tapped_id: 16324
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Morph 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  tla: DTK
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+        \ with morph can be turned face up at any time for its morph cost.*"
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Morph 2/2 C
 type: Creature
-url: http://tappedout.net/mtg-card/marang-river-skeleton/
+url: https://tappedout.net/mtg-card/marang-river-skeleton/
+

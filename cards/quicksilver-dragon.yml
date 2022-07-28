@@ -1,32 +1,37 @@
 activated_abilities:
 - '(Blue): If target spell has only one target and that target is Quicksilver Dragon,
   change that spell''s target to another creature.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DD2
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 4.7
+draft_average: 3.0
 effective_cost:
 - U
-flat_cost: 6
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Premodern
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -34,48 +39,82 @@ keywords:
 - Flying
 - Morph
 mana_cost: 4UU
-mana_cost_converted: 6
+mana_produced: ''
+mana_value: 6
+melds_from: []
 name: Quicksilver Dragon
 power_toughness: 5/5
 printings:
-- DD3:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Duel Decks Anthology
-    number: 19
-    rarity: rare
-    release_date: 2014-12-05
-    wizards_id: 393865
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393865
-- DD2:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 31592
-    name: 'Duel Decks: Jace vs. Chandra'
-    rarity: rare
-    release_date: 2008-11-07
-    wizards_id: 189254
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=189254
 - ONS:
     alterations:
-    - Foil
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - list
+      - The List
+    artist: Ron Spencer
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 17856
     mtgo_id: 17855
     name: Onslaught
     number: 103
     rarity: rare
-    release_date: 2002-10-07
+    release_date: '2002-10-07'
+    tla: ONS
+    variations: []
     wizards_id: 39539
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=39539
+- DD2:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ron Spencer
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 31592
+    name: 'Duel Decks: Jace vs. Chandra'
+    number: null
+    rarity: rare
+    release_date: '2008-11-07'
+    tla: DD2
+    variations: []
+    wizards_id: 189254
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=189254
+- DD3:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Ron Spencer
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Duel Decks Anthology
+    number: 19
+    rarity: rare
+    release_date: '2014-12-05'
+    tla: DD3
+    variations: []
+    wizards_id: 393865
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=393865
+rarity: rare
 rules: "Flying\r\n\r\n(Blue): If target spell has only one target and that target\
   \ is Quicksilver Dragon, change that spell's target to another creature.\r\n\r\n\
   Morph (4)(Blue) (You may play this face down as a 2/2 creature for (3). Turn it\
@@ -84,18 +123,25 @@ slug: quicksilver-dragon
 subtype: Dragon
 subtype_tokens:
 - Dragon
-tags: card-color-blue card-color-blue-cost-6 card-type-creature
+synonyms: []
 tapped_id: 4016
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Morph 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  tla: C19
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+        \ with morph can be turned face up at any time for its morph cost.*"
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Morph 2/2 C
 type: Creature
-url: http://tappedout.net/mtg-card/quicksilver-dragon/
+url: https://tappedout.net/mtg-card/quicksilver-dragon/
+

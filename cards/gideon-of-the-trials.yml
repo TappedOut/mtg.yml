@@ -4,39 +4,44 @@ activated_abilities:
   that''s indestructible and is still a planeswalker. Prevent all damage that would
   be dealt to him this turn. '
 - ': You get an emblem with '
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: AKH
 cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.09
+draft_average: 1.37
 effective_cost:
 - W
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -44,51 +49,81 @@ keywords:
 - Indestructible
 - Counters
 mana_cost: 1WW
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Gideon of the Trials
+planeswalker_loyalty: 3
 printings:
 - AKH:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Izzy
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 63631
     mtgo_id: 63630
     name: Amonkhet
     number: 14
     rarity: mythic_rare
-    release_date: 2017-04-28
+    release_date: '2017-04-28'
+    tla: AKH
+    variations: []
     wizards_id: 426716
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=426716
 - S17:
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Vincent Price
     booster_exclude: true
     border_color: B
     cannonical: false
-    foil: foil
-    foil_only: true
+    flavour_text: null
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: SDCC Promo 2017
     number: 14
-    rarity: common
-    release_date: 1990-07-20
+    rarity: null
+    release_date: '1990-07-20'
+    tla: S17
+    variations: []
+    wizards_id: null
+    wizards_url: null
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Vincent Proce
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
     variations:
     - identifier: '2'
-promo_sets:
-- S17
+    wizards_id: null
+    wizards_url: null
 rules: "[[symbol:loyalty-plus1]]: Until your next turn, prevent all damage target\
   \ permanent would deal. \r\n\r\n[[symbol:loyalty-zero]]: Until end of turn, Gideon\
   \ of the Trials becomes a 4/4 Human Soldier creature that's indestructible and is\
@@ -100,19 +135,25 @@ slug: gideon-of-the-trials
 subtype: Gideon
 subtype_tokens:
 - Gideon
-tags: card-color-white card-color-white-cost-3 card-type-planeswalker
+synonyms: []
 tapped_id: 18768
 tokens:
-- cannonical_type: Emblem
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Emblem Gideon of the Trials
-  power_toughness: null
-  rules: As long as you control a Gideon planeswalker, you can't lose the game and
-    your opponents can't win the game.
-  subtype: Gideon
-  tla: AKH
-  type: Emblem
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - As long as you control a Gideon planeswalker, you can't lose the game and
+        your opponents can't win the game.
+    - - type
+      - Emblem
+    - - subtype
+      - 840
+    - - cannonical_type
+      - Emblem
+    - - name
+      - Emblem Gideon of the Trials
 type: Planeswalker
-url: http://tappedout.net/mtg-card/gideon-of-the-trials/
+url: https://tappedout.net/mtg-card/gideon-of-the-trials/
+

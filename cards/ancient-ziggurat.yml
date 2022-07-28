@@ -1,6 +1,7 @@
 activated_abilities:
 - ': Add one mana of any color to your mana pool. Spend this mana only to cast creature
   spells.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CON
 cannonical_type: Land
@@ -15,90 +16,156 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+cube_average: 8.07
+draft_average: 1.86
+effective_cost: []
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
-- Tiny Leaders
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: u/b/g/r/w
+mana_value: 0
+melds_from: []
 name: Ancient Ziggurat
 printings:
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: uncommon
-    release_date: 2020-03-14
-- ARENA:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Arena Cards
-    rarity: uncommon
-    release_date: 2019-09-26
-- PDS:
-    alterations:
-    - Foil
-    border_color: B
-    cannonical: false
-    foil: foil
-    foil_only: true
-    frame: modern
-    name: 'Premium Deck Series: Slivers'
-    number: 31
-    rarity: uncommon
-    release_date: 2009-11-20
-    wizards_id: 207930
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=207930
 - CON:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Avon
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: Built in honor of Alara's creatures, the ziggurat vanished long
+      ago. When Progenitus awakened, the temple emerged again.
     frame: modern
     mtgo_foil_id: 31916
     mtgo_id: 31915
     name: Conflux
     number: 141
     rarity: uncommon
-    release_date: 2009-02-06
+    release_date: '2009-02-06'
+    tla: CON
+    variations: []
     wizards_id: 189271
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=189271
-- '000':
+- PDS:
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Avon
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: '*Built in honor of Alara''s creatures, the ziggurat vanished long
+      ago. When Progenitus awakened, the temple emerged again.*'
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Premium Deck Series: Slivers'
+    number: 31
+    rarity: uncommon
+    release_date: '2009-11-20'
+    tla: PDS
+    variations: []
+    wizards_id: 207930
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=207930
+- '000':
+    alterations:
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Randy Gallegos
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '*Leylines branch out from its foundation like roots from a tree.
+      These draw mana from every region and welcome all living things into its verdant
+      chambers.*'
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 3
     rarity: uncommon
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: John Avon
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: Built in honor of Alara's creatures, the ziggurat vanished long
+      ago. When Progenitus awakened, the temple emerged again.
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: uncommon
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- ARENA:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: John Avon
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Arena Cards
+    number: null
+    rarity: uncommon
+    release_date: '2019-09-26'
+    tla: ARENA
+    variations: []
+    wizards_id: null
+    wizards_url: null
+rarity: uncommon
 rules: '[[T]]: Add one mana of any color to your mana pool. Spend this mana only to
   cast creature spells.'
 slug: ancient-ziggurat
@@ -106,8 +173,8 @@ synonyms:
 - Ancient Zigurat
 - Anceint Ziggurat
 - Anceint Zigurat
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-black card-mana-blue
-  card-mana-green card-mana-red card-mana-white card-type-land
 tapped_id: 10167
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/ancient-ziggurat/
+url: https://tappedout.net/mtg-card/ancient-ziggurat/
+

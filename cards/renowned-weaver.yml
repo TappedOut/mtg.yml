@@ -1,41 +1,46 @@
 activated_abilities:
 - '{1}{G}, Sacrifice Renowned Weaver: Put a 1/3 green Spider enchantment creature
   token with reach onto the battlefield. (It can block creatures with flying.)'
-activation_costs:
+activated_costs:
 - G
 canadian_hl_score: 0
 cannonical_set: JOU
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.82
+draft_average: 8.35
 effective_cost:
 - G
-flat_cost: 1
 formats:
-- 1v1 Commander
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Quest Magic
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Oathbreaker
+- Custom
+- Pioneer
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,24 +48,37 @@ keywords:
 - Sacrifice
 - Tokens
 mana_cost: g
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Renowned Weaver
 power_toughness: 1/1
 printings:
 - JOU:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Yohann Schepacz
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"You think your weaving as beautiful as mine? Let me show you the
+      true meaning of the craft."'
     frame: modern
     mtgo_foil_id: 52077
     mtgo_id: 52076
     name: Journey into Nyx
     number: 137
     rarity: common
-    release_date: 2014-05-02
+    release_date: '2014-05-02'
+    tla: JOU
+    variations: []
     wizards_id: 380479
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=380479
+rarity: common
 rules: '{1}{G}, Sacrifice Renowned Weaver: Put a 1/3 green Spider enchantment creature
   token with reach onto the battlefield. (It can block creatures with flying.)'
 slug: renowned-weaver
@@ -68,18 +86,24 @@ subtype: Human Shaman
 subtype_tokens:
 - Human
 - Shaman
-tags: card-color-green card-color-green-cost-1 card-type-creature
+synonyms: []
 tapped_id: 15520
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Enchantment Spider 1/3 G Token
-  power_toughness: 1/3
-  rules: Reach
-  subtype: Spider
-  tla: JOU
-  type: Token Enchantment Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/3
+    - - rules
+      - Reach
+    - - type
+      - Token Enchantment Creature
+    - - subtype
+      - 68
+    - - cannonical_type
+      - Creature
+    - - name
+      - Enchantment Spider 1/3 G Token
 type: Creature
-url: http://tappedout.net/mtg-card/renowned-weaver/
+url: https://tappedout.net/mtg-card/renowned-weaver/
+

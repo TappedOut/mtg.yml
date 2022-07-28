@@ -1,32 +1,37 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C15
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 11.2
+draft_average: 4.25
 effective_cost:
 - W
 - B
-flat_cost: 6
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -34,50 +39,80 @@ keywords:
 - Exile
 - Tokens
 mana_cost: 3WBB
-mana_cost_converted: 6
+mana_value: 6
+melds_from: []
 name: Necromancer's Covenant
+power_toughness: ''
 printings:
-- C15:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2015
-    number: 229
-    rarity: rare
-    release_date: 2015-11-13
-    wizards_id: 405317
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405317
 - ARB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Thomas M. Baxa
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 32417
     mtgo_id: 32416
     name: Alara Reborn
+    number: null
     rarity: rare
-    release_date: 2009-04-30
+    release_date: '2009-04-30'
+    tla: ARB
+    variations: []
     wizards_id: 183011
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=183011
+- C15:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Thomas M. Baxa
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2015
+    number: 229
+    rarity: rare
+    release_date: '2015-11-13'
+    tla: C15
+    variations: []
+    wizards_id: 405317
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=405317
+rarity: rare
 rules: "When Necromancer's Covenant enters the battlefield, exile all creature cards\
   \ from target player's graveyard, then put a 2/2 black Zombie creature token onto\
   \ the battlefield for each card exiled this way.\r\n\r\nZombies you control have\
   \ lifelink.\r\n"
 slug: necromancers-covenant
-tags: card-color-black card-color-gold card-color-gold-cost-6 card-color-white card-type-enchantment
+synonyms: []
 tapped_id: 11442
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Zombie 2/2 B
-  power_toughness: 2/2
-  rules: ''
-  subtype: Zombie
-  tla: C15
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 110
+    - - cannonical_type
+      - Creature
+    - - name
+      - Zombie 2/2 B
 type: Enchantment
-url: http://tappedout.net/mtg-card/necromancers-covenant/
+url: https://tappedout.net/mtg-card/necromancers-covenant/
+

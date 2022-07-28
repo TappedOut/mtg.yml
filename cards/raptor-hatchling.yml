@@ -1,78 +1,103 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: XLN
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 14.0
+draft_average: 4.17
 effective_cost:
 - R
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
-- Tiny Leaders
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 1R
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Raptor Hatchling
 power_toughness: 1/1
 printings:
 - XLN:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Even Amundsen
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"Every little hatchling has a parent''s claws to guard it." - Sun
+      Empire saying'
     frame: m15
     mtgo_foil_id: 65327
     mtgo_id: 65326
     name: Ixalan
     number: 155
     rarity: uncommon
-    release_date: 2017-09-29
+    release_date: '2017-09-29'
+    tla: XLN
+    variations: []
     wizards_id: 435309
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=435309
+rarity: uncommon
 rules: Enrage - Whenever Raptor Hatchling is dealt damage, create a 3/3 green Dinosaur
   creature token with trample.
 slug: raptor-hatchling
 subtype: Dinosaur
 subtype_tokens:
 - Dinosaur
-tags: card-color-red card-color-red-cost-2 card-type-creature
+synonyms: []
 tapped_id: 19401
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Dinosaur 3/3 G
-  power_toughness: 3/3
-  rules: Trample *(This creature can deal excess combat damage to defending player
-    or planeswalker for as long as lethal combat damage would be dealt to the blocking
-    creatures.)*
-  subtype: Dinosaur
-  tla: XLN
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 3/3
+    - - rules
+      - Trample *(This creature can deal excess combat damage to defending player
+        or planeswalker for as long as lethal combat damage would be dealt to the
+        blocking creatures.)*
+    - - type
+      - Token Creature
+    - - subtype
+      - 592
+    - - cannonical_type
+      - Creature
+    - - name
+      - Dinosaur 3/3 G
 type: Creature
-url: http://tappedout.net/mtg-card/raptor-hatchling/
+url: https://tappedout.net/mtg-card/raptor-hatchling/
+

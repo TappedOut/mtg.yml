@@ -1,73 +1,97 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: LRW
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 5.82
+draft_average: 2.39
 effective_cost:
 - W
-flat_cost: 2
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
+keywords: []
 mana_cost: 1W
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Militia's Pride
+power_toughness: ''
 printings:
 - LRW:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Larry MacDougall
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: If you pick a fight with one kithkin, be ready to fight them all.
     frame: modern
     mtgo_foil_id: 28450
     mtgo_id: 28449
     name: Lorwyn
     number: 30
     rarity: rare
-    release_date: 2007-10-12
+    release_date: '2007-10-12'
+    tla: LRW
+    variations: []
     wizards_id: 140193
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=140193
+rarity: rare
 rules: Whenever a nontoken creature you control attacks, you may pay [[W]]. If you
   do, put a 1/1 white Kithkin Soldier creature token into play tapped and attacking.
 slug: militias-pride
 subtype: Kithkin
 subtype_tokens:
 - Kithkin
-tags: card-color-white card-color-white-cost-2 card-type-enchantment card-type-tribal
+synonyms: []
 tapped_id: 317
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Kithkin Soldier 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Kithkin Soldier
-  tla: LRW
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 144
+    - - cannonical_type
+      - Creature
+    - - name
+      - Kithkin Soldier 1/1 W
 type: Tribal Enchantment
-url: http://tappedout.net/mtg-card/militias-pride/
+url: https://tappedout.net/mtg-card/militias-pride/
+

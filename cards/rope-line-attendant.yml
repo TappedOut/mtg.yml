@@ -1,44 +1,60 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: Y22
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 effective_cost:
 - W
 - G
-flat_cost: 2
 formats:
-- Alchemy
 - Arena
-- Gladiator
+- Custom
 - Historic
+- Gladiator
+- Alchemy
+- Casual
 - Penny Dreadful
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 - Perpetually
 mana_cost: GW
-mana_cost_converted: 2
+mana_value: 2
+melds_from: []
 name: Rope Line Attendant
 power_toughness: 2/2
 printings:
 - Y22:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Fariba Khamseh
+    booster_exclude: false
     border_color: G
     cannonical: false
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Arena Alchemy 2022
+    number: null
     rarity: rare
-    release_date: 2021-12-09
+    release_date: '2021-12-09'
+    tla: Y22
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "When Rope Line Attendant enters the battlefield, creature cards in your hand\
   \ perpetually gain \u201CWhen this creature enters the battlefield, create a 1/1\
   \ green and white Citizen creature token.\u201D *(Perpetual effects that are given\
@@ -49,18 +65,24 @@ subtype: Cat Citizen
 subtype_tokens:
 - Cat
 - Citizen
-tags: card-color-gold card-color-gold-cost-2 card-color-green card-color-white card-type-creature
+synonyms: []
 tapped_id: 26813
 tokens:
-- cannonical_type: Creature
-  colors: GW
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Citizen 1/1 GW
-  power_toughness: 1/1
-  rules: ''
-  subtype: Citizen
-  tla: SNC
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - GW
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 905
+    - - cannonical_type
+      - Creature
+    - - name
+      - Citizen 1/1 GW
 type: Creature
-url: http://tappedout.net/mtg-card/rope-line-attendant/
+url: https://tappedout.net/mtg-card/rope-line-attendant/
+

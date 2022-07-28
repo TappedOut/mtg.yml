@@ -1,36 +1,41 @@
 activated_abilities:
 - '(Green), Sacrifice Giant Caterpillar: Put a 1/1 green Insect creature token with
   flying named Butterfly into play at end of turn.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: MMQ
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 7.5
+draft_average: 7.9
 effective_cost:
 - G
-flat_cost: 4
 formats:
 - 1v1 Commander
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
+- Premodern
 - 'Commander: Rule 0'
+- Pauper Duel Commander
+- Pauper
+- Casual
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Premodern
-- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -38,53 +43,83 @@ keywords:
 - Flying
 - Sacrifice
 mana_cost: 3G
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Giant Caterpillar
 power_toughness: 3/3
 printings:
 - MMQ:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Arnie Swekel
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: original
     mtgo_foil_id: 13608
     mtgo_id: 13607
     name: Mercadian Masques
     number: 249
     rarity: common
-    release_date: 1999-10-04
+    release_date: '1999-10-04'
+    tla: MMQ
+    variations: []
     wizards_id: 20847
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=20847
 - VIS:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Zina Saunders
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "\"\x91I've seen hornworms big as a man's fist,' the traveler said,\
+      \ and nodded soberly when our jaws went slack at his ignorance.\"\r\n\x97Afari,\
+      \ Tales"
     frame: original
     mtgo_foil_id: 7566
     mtgo_id: 7565
     name: Visions
+    number: null
     rarity: common
-    release_date: 1997-02-03
+    release_date: '1997-02-03'
+    tla: VIS
+    variations: []
     wizards_id: 3665
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=3665
+rarity: common
 rules: '(Green), Sacrifice Giant Caterpillar: Put a 1/1 green Insect creature token
   with flying named Butterfly into play at end of turn.'
 slug: giant-caterpillar
 subtype: Insect
 subtype_tokens:
 - Insect
-tags: card-color-green card-color-green-cost-4 card-type-creature
+synonyms: []
 tapped_id: 5733
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Insect 1/1 G w/ Flying
-  power_toughness: 1/1
-  rules: Flying
-  subtype: Insect
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Flying
+    - - type
+      - Token Creature
+    - - subtype
+      - 16
+    - - cannonical_type
+      - Creature
+    - - name
+      - Insect 1/1 G w/ Flying
 type: Creature
-url: http://tappedout.net/mtg-card/giant-caterpillar/
+url: https://tappedout.net/mtg-card/giant-caterpillar/
+

@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - G
 - U
 canadian_hl_score: 0
@@ -8,6 +9,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -15,28 +17,28 @@ companions:
 effective_cost:
 - U
 - G
-flat_cost: 5
 formats:
-- 1v1 Commander
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Modern
+- Pauper
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Pauper Duel Commander
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -46,20 +48,33 @@ keywords:
 - Tokens
 - Investigate
 mana_cost: 3UG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Wavesifter
 power_toughness: 3/2
 printings:
 - MH2:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Nils Hamm
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Modern Horizons 2
     number: 217
     rarity: common
-    release_date: 2021-06-18
+    release_date: '2021-06-18'
+    tla: MH2
+    variations: []
     wizards_id: 522293
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=522293
 rules: "Flying\r\n\r\nWhen this enters the battlefield, investigate twice. *(To investigate,\
@@ -70,18 +85,24 @@ slug: wavesifter
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-color-blue card-color-gold card-color-gold-cost-5 card-color-green card-type-creature
+synonyms: []
 tapped_id: 24629
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Clue
-  power_toughness: null
-  rules: '[[symbol:2]], Sacrifice this: Draw a card.'
-  subtype: Clue
-  tla: MH2
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], Sacrifice this: Draw a card.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1130
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Clue
 type: Creature
-url: http://tappedout.net/mtg-card/wavesifter/
+url: https://tappedout.net/mtg-card/wavesifter/
+

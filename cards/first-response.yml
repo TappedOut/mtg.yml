@@ -1,82 +1,118 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+draft_average: 5.06
 effective_cost:
 - W
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Highlander
 - Legacy
-- Leviathan
-- Limited
-- Modern
 - Oathbreaker
+- Custom
 - Pioneer
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Tokens
 mana_cost: 3W
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: First Response
 printings:
-- CMR:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander Legends
-    number: 22
-    rarity: uncommon
-    release_date: 2020-11-20
-    wizards_id: 497542
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497542
 - M15:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Slawomir Maniak
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"There's never a good time for a disaster or an attack. That's\
+      \ why we're here.\"\r\n<br>\u2014Oren, militia captain*"
     frame: m15
     mtgo_foil_id: 53727
     mtgo_id: 53726
     name: Magic 2015
     number: 12
     rarity: uncommon
-    release_date: 2014-07-18
+    release_date: '2014-07-18'
+    tla: M15
+    variations: []
     wizards_id: 383239
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383239
+- CMR:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Slawomir Maniak
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"There's never a good time for a disaster or an attack. That's\
+      \ why we're here.\"\r\n<br>\u2014Oren, militia captain*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander Legends
+    number: 22
+    rarity: uncommon
+    release_date: '2020-11-20'
+    tla: CMR
+    variations: []
+    wizards_id: 497542
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=497542
+rarity: uncommon
 rules: At the beginning of each upkeep, if you lost life last turn, create a 1/1 white
   Soldier creature token.
 slug: first-response
-tags: card-color-white card-color-white-cost-4 card-type-enchantment
+synonyms: []
 tapped_id: 15705
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Soldier 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Soldier
-  tla: CMR
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 18
+    - - cannonical_type
+      - Creature
+    - - name
+      - Soldier 1/1 W
 type: Enchantment
-url: http://tappedout.net/mtg-card/first-response/
+url: https://tappedout.net/mtg-card/first-response/
+

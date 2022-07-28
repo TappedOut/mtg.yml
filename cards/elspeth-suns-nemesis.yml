@@ -2,40 +2,44 @@ activated_abilities:
 - ': Up to two target creatures you control each get +2/+1 until end of turn.'
 - ': Create two 1/1 white Human Soldier creature tokens.'
 - ': You gain 5 life.'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: THB
 cannonical_type: Planeswalker
 companions:
-- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 5.5
+draft_average: 1.76
 effective_cost:
 - W
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,45 +49,67 @@ keywords:
 - Tokens
 - Escape
 mana_cost: 2WW
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Elspeth, Sun's Nemesis
+planeswalker_loyalty: 5
 printings:
 - THB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Livla Prima
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 79153
     mtgo_id: 79152
     name: Theros Beyond Death
     number: 14
     rarity: mythic_rare
-    release_date: 2020-01-24
+    release_date: '2020-01-24'
+    tla: THB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '255'
-    - alterations:
-      - Foil
-      - Normal
-      identifier: PromoPack
+    - identifier: '255'
+    - identifier: PromoPack
     wizards_id: 476265
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476265
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Livla Prima
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: mythic_rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "[[symbol:loyalty-minus1]]: Up to two target creatures you control each get\
   \ +2/+1 until end of turn.\r\n\r\n[[symbol:loyalty-minus2]]: Create two 1/1 white\
   \ Human Soldier creature tokens.\r\n\r\n[[symbol:loyalty-minus3]]: You gain 5 life.\r\
@@ -94,18 +120,24 @@ slug: elspeth-suns-nemesis
 subtype: Elspeth
 subtype_tokens:
 - Elspeth
-tags: card-color-white card-color-white-cost-4 card-type-legendary card-type-planeswalker
+synonyms: []
 tapped_id: 22347
 tokens:
-- cannonical_type: Creature
-  colors: W
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Human Soldier 1/1 W
-  power_toughness: 1/1
-  rules: ''
-  subtype: Human Soldier
-  tla: THB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - W
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 29
+    - - cannonical_type
+      - Creature
+    - - name
+      - Human Soldier 1/1 W
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/elspeth-suns-nemesis/
+url: https://tappedout.net/mtg-card/elspeth-suns-nemesis/
+

@@ -3,6 +3,7 @@ activated_abilities:
   \ from that player\u2019s graveyard and put a page counter on it."
 - ': You may cast a spell from among cards in exile with page counters on them without
   paying its mana cost.'
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Planeswalker
@@ -10,6 +11,7 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -18,23 +20,24 @@ companions:
 effective_cost:
 - U
 - B
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
+- Custom
+- Historic
 - Vintage
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -43,25 +46,37 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 3UB
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Tasha, the Witch Queen
+planeswalker_loyalty: 4
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: "Martina Fa\u010Dkov\xE1"
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 294
     rarity: mythic_rare
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '364'
+    - identifier: '364'
     wizards_id: 563177
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563177
 rules: "Whenever you cast a spell you don\u2019t own, create a 3/3 black Demon creature\
@@ -74,19 +89,24 @@ slug: tasha-the-witch-queen
 subtype: Tasha
 subtype_tokens:
 - Tasha
-tags: card-color-black card-color-blue card-color-gold card-color-gold-cost-5 card-type-legendary
-  card-type-planeswalker
+synonyms: []
 tapped_id: 26537
 tokens:
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Demon 3/3 B
-  power_toughness: 3/3
-  rules: ''
-  subtype: Demon
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 3/3
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 88
+    - - cannonical_type
+      - Creature
+    - - name
+      - Demon 3/3 B
 type: Legendary Planeswalker
-url: http://tappedout.net/mtg-card/tasha-the-witch-queen/
+url: https://tappedout.net/mtg-card/tasha-the-witch-queen/
+

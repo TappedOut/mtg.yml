@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 canadian_hl_score: 0
 cannonical_set: MYSCON
@@ -6,49 +7,63 @@ cannonical_type: Instant
 companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.0
+draft_average: 3.5
 effective_cost:
 - B
-flat_cost: 1
 formats:
 - 1v1 Commander
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
+- Casual
 - Limited
-- Oathbreaker
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Morph
 - Spellmorph
 mana_cost: B
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Spellmorph Raise Dead
 printings:
 - MYSCON:
     alterations:
-    - Normal
-    - The List
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - list
+      - The List
+    artist: Seth Conley
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: ''
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Mystery Booster: Convention Edition'
     number: 46
     rarity: rare
-    release_date: 2019-11-07
+    release_date: '2019-11-07'
+    tla: MYSCON
+    variations: []
     wizards_id: 476176
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476176
 rules: "Return target creature card from your graveyard to your hand.\r\n\r\nSpellmorph\
@@ -59,18 +74,25 @@ rules: "Return target creature card from your graveyard to your hand.\r\n\r\nSpe
   https://magic.wizards.com/en/articles/archive/feature/mystery-booster-release-notes-2019-11-11\"\
   >the release notes for that card, here.</a>)*"
 slug: spellmorph-raise-dead
-tags: card-color-black card-color-black-cost-1 card-type-instant
+synonyms: []
 tapped_id: 22304
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Morph 2/2 C
-  power_toughness: 2/2
-  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-    \ with morph can be turned face up at any time for its morph cost.*"
-  tla: C19
-  type: Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 2/2
+    - - rules
+      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+        \ with morph can be turned face up at any time for its morph cost.*"
+    - - type
+      - Creature
+    - - subtype
+      - null
+    - - cannonical_type
+      - Creature
+    - - name
+      - Morph 2/2 C
 type: Instant
-url: http://tappedout.net/mtg-card/spellmorph-raise-dead/
+url: https://tappedout.net/mtg-card/spellmorph-raise-dead/
+

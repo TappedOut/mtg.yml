@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Sorcery
@@ -13,83 +15,114 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Alchemy
-- Arena
 - Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
+- Arena
 - Oathbreaker
-- Penny Dreadful
+- Custom
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- Alchemy
+- Casual
+- Limited
+- Duel Commander
+- Highlander
+- Penny Dreadful
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Venture Into the Dungeon
 - Initiative
 mana_cost: 4G
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Explore the Underdark
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Piotr Dura
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"Careful near those pretty glowing plants. What do you think\
+      \ they feed on?\"\r\n<br>&mdash;Talin, Underdark guide*"
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 232
     rarity: uncommon
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
     wizards_id: 563115
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563115
 rules: "Search your library for up to two basic land cards and/or Gate cards, put\
   \ them onto the battlefield tapped, then shuffle your library.\r\n\r\nYou take the\
   \ initiative."
 slug: explore-the-underdark
-tags: card-color-green card-color-green-cost-5 card-type-sorcery
+synonyms: []
 tapped_id: 26685
 tokens:
-- cannonical_type: Emblem
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: The Initiative
-  power_toughness: null
-  rules: "Whenever one or more creatures a player controls deal combat damage to you,\
-    \ that player takes the initiative.\r\n\r\nWhenever you take the initiative and\
-    \ at the beginning of your upkeep, venture into Undercity. *(If you're in a dungeon,\
-    \ advance to the next room. If you're not, enter Undercity. You can take the initiative\
-    \ even if you already have it.)*"
-  tla: CLB
-  type: Emblem
-- cannonical_type: Dungeon
-  colors: null
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: 'Dungeon: Undercity'
-  power_toughness: null
-  rules: ''
-  tla: CLB
-  type: Dungeon
-- cannonical_type: Creature
-  colors: B
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Skeleton 4/1 B
-  power_toughness: 4/1
-  rules: Menace *(This creature can't be blocked except by two or more creatures.)*
-  subtype: Skeleton
-  tla: CLB
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - "Whenever one or more creatures a player controls deal combat damage to you,\
+        \ that player takes the initiative.\r\n\r\nWhenever you take the initiative\
+        \ and at the beginning of your upkeep, venture into Undercity. *(If you're\
+        \ in a dungeon, advance to the next room. If you're not, enter Undercity.\
+        \ You can take the initiative even if you already have it.)*"
+    - - type
+      - Emblem
+    - - subtype
+      - null
+    - - cannonical_type
+      - Emblem
+    - - name
+      - The Initiative
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - null
+    - - power_toughness
+      - null
+    - - rules
+      - ''
+    - - type
+      - Dungeon
+    - - subtype
+      - null
+    - - cannonical_type
+      - Dungeon
+    - - name
+      - 'Dungeon: Undercity'
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - B
+    - - power_toughness
+      - 4/1
+    - - rules
+      - Menace *(This creature can't be blocked except by two or more creatures.)*
+    - - type
+      - Token Creature
+    - - subtype
+      - 232
+    - - cannonical_type
+      - Creature
+    - - name
+      - Skeleton 4/1 B
 type: Sorcery
-url: http://tappedout.net/mtg-card/explore-the-underdark/
+url: https://tappedout.net/mtg-card/explore-the-underdark/
+

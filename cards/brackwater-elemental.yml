@@ -2,7 +2,7 @@ activated_abilities:
 - 'Unearth {{2,U}} ({{2,U}}: Return this card from your graveyard to the battlefield.
   It gains haste. Exile it at the beginning of the next end step or if it would leave
   the battlefield. Unearth only as a sorcery.)'
-activation_costs:
+activated_costs:
 - U
 canadian_hl_score: 0
 cannonical_set: DDH
@@ -11,32 +11,36 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 9.67
+draft_average: 9.92
 effective_cost:
 - U
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
+- Pauper EDH
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
 - Pauper
 - Pauper Duel Commander
-- Pauper EDH
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
+- Highlander
+- Leviathan
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -46,35 +50,57 @@ keywords:
 - Sacrifice
 - Unearth
 mana_cost: 2U
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Brackwater Elemental
 power_toughness: 4/4
 printings:
-- DDH:
-    alterations:
-    - Normal
-    border_color: B
-    frame: modern
-    mtgo_id: 42112
-    name: 'Duel Decks: Ajani vs. Nicol Bolas'
-    number: 46
-    rarity: common
-    release_date: 2011-09-02
-    wizards_id: 249390
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=249390
 - CON:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Thomas M. Baxa
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 31790
     mtgo_id: 31789
     name: Conflux
+    number: null
     rarity: common
-    release_date: 2009-02-06
+    release_date: '2009-02-06'
+    tla: CON
+    variations: []
     wizards_id: 180147
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=180147
+- DDH:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Thomas M. Baxa
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: 42112
+    name: 'Duel Decks: Ajani vs. Nicol Bolas'
+    number: 46
+    rarity: common
+    release_date: '2011-09-02'
+    tla: DDH
+    variations: []
+    wizards_id: 249390
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=249390
+rarity: common
 rules: "When Brackwater Elemental attacks or blocks, sacrifice it at the beginning\
   \ of the next end step.\r\n\r\nUnearth {{2,U}} ({{2,U}}: Return this card from your\
   \ graveyard to the battlefield. It gains haste. Exile it at the beginning of the\
@@ -84,7 +110,9 @@ slug: brackwater-elemental
 subtype: Elemental
 subtype_tokens:
 - Elemental
-tags: card-color-blue card-color-blue-cost-3 card-type-creature
+synonyms: []
 tapped_id: 10178
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/brackwater-elemental/
+url: https://tappedout.net/mtg-card/brackwater-elemental/
+

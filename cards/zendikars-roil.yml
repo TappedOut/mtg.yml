@@ -1,103 +1,170 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: ZNC
 cannonical_type: Enchantment
 companions:
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 8.88
+draft_average: 4.78
 effective_cost:
 - G
-flat_cost: 5
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Landfall
 - Tokens
 mana_cost: 3GG
-mana_cost_converted: 5
+mana_value: 5
+melds_from: []
 name: Zendikar's Roil
 printings:
-- ZNC:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: 'Zendikar Rising: Commander'
-    number: 88
-    rarity: uncommon
-    release_date: 2020-09-25
-    wizards_id: 496026
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=496026
-- JMP:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    frame: m15
-    name: Jumpstart
-    number: 448
-    rarity: uncommon
-    release_date: 2020-07-17
-- MYS1:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: Mystery Booster
-    rarity: uncommon
-    release_date: 2020-03-14
 - ORI:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sam Burley
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"I was wrong. Zendikar isn't after me. It isn't after any of\
+      \ us. It's not evil or vengeful. It's magnificent ... but it's in pain.\"\r\n\
+      <br>&mdash;Nissa Revane*"
     frame: m15
     mtgo_foil_id: 57821
     mtgo_id: 57820
     name: Magic Origins
     number: 209
     rarity: uncommon
-    release_date: 2015-06-17
+    release_date: '2015-06-17'
+    tla: ORI
+    variations: []
     wizards_id: 398518
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=398518
+- MYS1:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Sam Burley
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*\"I was wrong. Zendikar isn't after me. It isn't after any of\
+      \ us. It's not evil or vengeful. It's magnificent ... but it's in pain.\"\r\n\
+      <br>&mdash;Nissa Revane*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Mystery Booster
+    number: null
+    rarity: uncommon
+    release_date: '2020-03-14'
+    tla: MYS1
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- JMP:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Sam Burley
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"I was wrong. Zendikar isn't after me. It isn't after any of\
+      \ us. It's not evil or vengeful. It's magnificent ... but it's in pain.\"\r\n\
+      <br>&mdash;Nissa Revane*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Jumpstart
+    number: 448
+    rarity: uncommon
+    release_date: '2020-07-17'
+    tla: JMP
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- ZNC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Sam Burley
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"I was wrong. Zendikar isn't after me. It isn't after any of\
+      \ us. It's not evil or vengeful. It's magnificent ... but it's in pain.\"\r\n\
+      <br>&mdash;Nissa Revane*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Zendikar Rising: Commander'
+    number: 88
+    rarity: uncommon
+    release_date: '2020-09-25'
+    tla: ZNC
+    variations: []
+    wizards_id: 496026
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=496026
+rarity: uncommon
 rules: '*Landfall* &mdash; Whenever a land enters the battlefield under your control,
   create a 2/2 green Elemental creature token.'
 slug: zendikars-roil
-tags: card-color-green card-color-green-cost-5 card-type-enchantment
+synonyms: []
 tapped_id: 16993
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elemental 2/2 G
-  power_toughness: 2/2
-  rules: ''
-  subtype: Elemental
-  tla: ORI
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - 2/2
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elemental 2/2 G
 type: Enchantment
-url: http://tappedout.net/mtg-card/zendikars-roil/
+url: https://tappedout.net/mtg-card/zendikars-roil/
+

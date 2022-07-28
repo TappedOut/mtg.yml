@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SOI
 cannonical_type: Enchantment
@@ -5,30 +7,33 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.07
+draft_average: 8.09
 effective_cost:
 - G
-flat_cost: 3
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Pioneer
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
-- Duel Commander
-- Highlander
-- Legacy
-- Leviathan
-- Limited
 - Modern
-- Oathbreaker
-- Pioneer
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
 - Tiny Leaders
-- Vintage
-has_activated_abilities: false
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -38,23 +43,35 @@ keywords:
 - Tokens
 - Investigate
 mana_cost: 2G
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Weirding Wood
 printings:
 - SOI:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Jung Park
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
     mtgo_foil_id: 60097
     mtgo_id: 60096
     name: Shadows over Innistrad
     number: 240
     rarity: uncommon
-    release_date: 2016-04-08
+    release_date: '2016-04-08'
+    tla: SOI
+    variations: []
     wizards_id: 410004
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=410004
+rarity: uncommon
 rules: "Enchant land\r\n\r\nWhen Weirding Wood enters the battlefield, investigate.\
   \ *(Put a colourless Clue artifact token onto the battlefield with \"[[symbol:2]],\
   \ Sacrifice this artifact: Draw a card.\")*\r\n\r\nEnchanted land has \"[[symbol:T]]:\
@@ -63,18 +80,24 @@ slug: weirding-wood
 subtype: Aura
 subtype_tokens:
 - Aura
-tags: card-color-green card-color-green-cost-3 card-type-enchantment
+synonyms: []
 tapped_id: 17832
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Clue
-  power_toughness: null
-  rules: '[[symbol:2]], Sacrifice this: Draw a card.'
-  subtype: Clue
-  tla: SOI
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:2]], Sacrifice this: Draw a card.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1130
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Clue
 type: Enchantment
-url: http://tappedout.net/mtg-card/weirding-wood/
+url: https://tappedout.net/mtg-card/weirding-wood/
+

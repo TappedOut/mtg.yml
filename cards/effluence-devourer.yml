@@ -1,4 +1,5 @@
-activation_costs:
+activated_abilities: []
+activated_costs:
 - B
 - G
 - R
@@ -8,6 +9,7 @@ cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
@@ -16,14 +18,14 @@ effective_cost:
 - B
 - R
 - G
-flat_cost: 3
 formats:
-- Alchemy
 - Arena
-- Gladiator
+- Custom
 - Historic
+- Gladiator
+- Alchemy
+- Casual
 - Penny Dreadful
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -34,19 +36,32 @@ keywords:
 - Perpetually
 - Blitz
 mana_cost: BRG
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Effluence Devourer
 power_toughness: 4/3
 printings:
 - Y22:
     alterations:
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Gaboleps
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Arena Alchemy 2022
+    number: null
     rarity: mythic_rare
-    release_date: 2021-12-09
+    release_date: '2021-12-09'
+    tla: Y22
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Blitz [[symbol:B]][[symbol:R]][[symbol:G]] *(If you cast this spell for its\
   \ blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice\
   \ it at the beginning of the next end step.)*\r\n\r\nWhenever you sacrifice Effluence\
@@ -59,19 +74,24 @@ slug: effluence-devourer
 subtype: Crocodile
 subtype_tokens:
 - Crocodile
-tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-green card-color-red
-  card-type-creature
+synonyms: []
 tapped_id: 26835
 tokens:
-- cannonical_type: Creature
-  colors: G
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Ooze X/X G
-  power_toughness: X/X
-  rules: ''
-  subtype: Ooze
-  tla: 2XM
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - G
+    - - power_toughness
+      - X/X
+    - - rules
+      - ''
+    - - type
+      - Token Creature
+    - - subtype
+      - 14
+    - - cannonical_type
+      - Creature
+    - - name
+      - Ooze X/X G
 type: Creature
-url: http://tappedout.net/mtg-card/effluence-devourer/
+url: https://tappedout.net/mtg-card/effluence-devourer/
+

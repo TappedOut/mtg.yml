@@ -1,32 +1,37 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: SHM
 cannonical_type: Enchantment
 companions:
-- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 7.7
+draft_average: 1.0
 effective_cost:
 - R
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Block Constructed
 - Canadian Highlander
+- Legacy
+- Oathbreaker
+- Custom
+- Vintage
 - Commander / EDH
 - 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
 - Duel Commander
 - Highlander
-- Legacy
 - Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Vintage
-has_activated_abilities: false
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -36,35 +41,56 @@ keywords:
 - Exile
 - Tokens
 mana_cost: 3R
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Elemental Mastery
 printings:
-- NEC:
-    alterations:
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Kamigawa: Neon Dynasty Commander'
-    number: 105
-    rarity: rare
-    release_date: 2022-02-11
-    wizards_id: 554188
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554188
 - SHM:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Cyril Van Der Haegen
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: modern
     mtgo_foil_id: 29464
     mtgo_id: 29463
     name: Shadowmoor
     number: 90
     rarity: rare
-    release_date: 2008-05-02
+    release_date: '2008-05-02'
+    tla: SHM
+    variations: []
     wizards_id: 146087
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=146087
+- NEC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Cyril Van Der Haegen
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Kamigawa: Neon Dynasty Commander'
+    number: 105
+    rarity: rare
+    release_date: '2022-02-11'
+    tla: NEC
+    variations: []
+    wizards_id: 554188
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=554188
+rarity: rare
 rules: "Enchant creature\r\n\r\nEnchanted creature has \"[[symbol:T]]: Create X 1/1\
   \ red Elemental creature tokens with haste, where X is this creature's power. Exile\
   \ them at the beginning of the next end step.\""
@@ -72,18 +98,24 @@ slug: elemental-mastery
 subtype: Aura
 subtype_tokens:
 - Aura
-tags: card-color-red card-color-red-cost-4 card-type-enchantment
+synonyms: []
 tapped_id: 9544
 tokens:
-- cannonical_type: Creature
-  colors: R
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Elemental 1/1 R w/ Haste
-  power_toughness: 1/1
-  rules: Haste
-  subtype: Elemental
-  tla: SHM
-  type: Token Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - R
+    - - power_toughness
+      - 1/1
+    - - rules
+      - Haste
+    - - type
+      - Token Creature
+    - - subtype
+      - 5
+    - - cannonical_type
+      - Creature
+    - - name
+      - Elemental 1/1 R w/ Haste
 type: Enchantment
-url: http://tappedout.net/mtg-card/elemental-mastery/
+url: https://tappedout.net/mtg-card/elemental-mastery/
+

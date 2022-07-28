@@ -1,57 +1,75 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: KLD
 cannonical_type: Creature
 companions:
-- Gyruda, Doom of Depths
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
+- Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+cube_average: 6.61
+draft_average: 3.46
 effective_cost:
 - W
-flat_cost: 4
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
 is_permanent: true
 keywords:
 - Fabricate
 mana_cost: 2WW
-mana_cost_converted: 4
+mana_value: 4
+melds_from: []
 name: Visionary Augmenter
 power_toughness: 2/1
 printings:
 - KLD:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: James Puck
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '"It''s a multifunctional redial extension system with superlateral,
+      force-amplifying rigging. Of course it will win."'
     frame: m15
     mtgo_foil_id: 61618
     mtgo_id: 61617
     name: Kaladesh
     number: 34
     rarity: uncommon
-    release_date: 2016-09-30
+    release_date: '2016-09-30'
+    tla: KLD
+    variations: []
     wizards_id: 417607
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=417607
+rarity: uncommon
 rules: Fabricate 2 _(When this creature enters the battlefield, put two +1/+1 counters
   on it or create two 1/1 colorless Servo artifact creature tokens)_
 slug: visionary-augmenter
@@ -59,18 +77,24 @@ subtype: Dwarf Artificer
 subtype_tokens:
 - Dwarf
 - Artificer
-tags: card-color-white card-color-white-cost-4 card-type-creature
+synonyms: []
 tapped_id: 18345
 tokens:
-- cannonical_type: Creature
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Servo 1/1 C
-  power_toughness: 1/1
-  rules: ''
-  subtype: Servo
-  tla: KLD
-  type: Token Artifact Creature
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - 1/1
+    - - rules
+      - ''
+    - - type
+      - Token Artifact Creature
+    - - subtype
+      - 1175
+    - - cannonical_type
+      - Creature
+    - - name
+      - Servo 1/1 C
 type: Creature
-url: http://tappedout.net/mtg-card/visionary-augmenter/
+url: https://tappedout.net/mtg-card/visionary-augmenter/
+

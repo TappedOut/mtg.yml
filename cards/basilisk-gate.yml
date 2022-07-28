@@ -2,7 +2,7 @@ activated_abilities:
 - ': Add .'
 - ', : Target creature gets +X/+X until end of turn, where X is the number of Gates
   you control. Activate only as a sorcery.'
-activation_costs:
+activated_costs:
 - C
 canadian_hl_score: 0
 cannonical_set: CLB
@@ -18,45 +18,62 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
-flat_cost: 0
+effective_cost: []
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Canadian Highlander
-- Commander / EDH
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Oathbreaker
-- Pauper
-- Pauper Duel Commander
-- Pauper EDH
-- Penny Dreadful
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Pauper
+- Casual
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Penny Dreadful
+- Leviathan
+- 1v1 Commander
+- Pauper EDH
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Historic
+- Gladiator
+- Alchemy
+- Pauper Duel Commander
 has_activated_abilities: true
 is_land: true
 is_mtgo: true
 is_permanent: true
-mana_cost_converted: 0
+keywords: []
 mana_produced: C
+mana_value: 0
+melds_from: []
 name: Basilisk Gate
 printings:
 - CLB:
     alterations:
-    - Foil
-    - Normal
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Julian Kok Joon Wen
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: '*The eastern passage into the city is filled with reminders that
+      the patriars are literally looking down on you.*'
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
     number: 346
     rarity: common
-    release_date: 2022-06-10
+    release_date: '2022-06-10'
+    tla: CLB
+    variations: []
     wizards_id: 563229
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=563229
 rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:2]], [[symbol:T]]: Target\
@@ -66,7 +83,9 @@ slug: basilisk-gate
 subtype: Gate
 subtype_tokens:
 - Gate
-tags: card-color-colorless card-color-colorless-cost-0 card-mana-colorless-sym card-type-land
+synonyms: []
 tapped_id: 26679
+tokens: []
 type: Land
-url: http://tappedout.net/mtg-card/basilisk-gate/
+url: https://tappedout.net/mtg-card/basilisk-gate/
+

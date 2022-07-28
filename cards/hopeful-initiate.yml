@@ -1,13 +1,14 @@
 activated_abilities:
 - ', Remove two +1/+1 counters from among creatures you control: Destroy target artifact
   or enchantment.'
-activation_costs:
+activated_costs:
 - W
 canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
+- Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
@@ -16,30 +17,31 @@ companions:
 - Zirda, the Dawnwaker
 effective_cost:
 - W
-flat_cost: 1
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Brawl
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
-- Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Pre-release
 - Standard
-- Tiny Leaders
+- Legacy
+- Pre-release
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Brawl
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -47,39 +49,63 @@ keywords:
 - Counters
 - Training
 mana_cost: W
-mana_cost_converted: 1
+mana_value: 1
+melds_from: []
 name: Hopeful Initiate
 power_toughness: 1/2
 printings:
-- DBL:
-    alterations:
-    - Foil
-    - Normal
-    border_color: B
-    cannonical: false
-    frame: m15
-    name: 'Innistrad: Double Feature'
-    number: 287
-    rarity: rare
-    release_date: 2022-01-21
 - VOW:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Dan Scott
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: null
     frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
     name: 'Innistrad: Crimson Vow'
     number: 20
     rarity: rare
-    release_date: 2021-11-11
+    release_date: '2021-11-11'
+    tla: VOW
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: '350'
+    - identifier: '350'
     wizards_id: 540850
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=540850
+- DBL:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dan Scott
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: 287
+    rarity: rare
+    release_date: '2022-01-21'
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Training *(Whenever this creature attacks with another creature with greater\
   \ power, put a +1/+1 counter on this creature.)*\r\n\r\n[[symbol:2]][[symbol:W]],\
   \ Remove two +1/+1 counters from among creatures you control: Destroy target artifact\
@@ -89,7 +115,9 @@ subtype: Human Warlock
 subtype_tokens:
 - Human
 - Warlock
-tags: card-color-white card-color-white-cost-1 card-type-creature
+synonyms: []
 tapped_id: 25536
+tokens: []
 type: Creature
-url: http://tappedout.net/mtg-card/hopeful-initiate/
+url: https://tappedout.net/mtg-card/hopeful-initiate/
+

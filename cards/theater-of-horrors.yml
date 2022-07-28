@@ -1,6 +1,6 @@
 activated_abilities:
 - ': This deals 1 damage to target opponent or planeswalker.'
-activation_costs:
+activated_costs:
 - R
 canadian_hl_score: 0
 cannonical_set: AFC
@@ -9,35 +9,39 @@ companions:
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
+- Lurrus of the Dream-Den
 - Lutri, the Spellchaser
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 8.57
+draft_average: 4.21
 effective_cost:
 - B
 - R
-flat_cost: 3
 formats:
-- 1v1 Commander
-- Alchemy
-- Arena
-- Block Constructed
-- Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
-- Oathbreaker
-- Pioneer
-- Tiny Leaders
 - Vintage
+- Commander / EDH
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Tiny Leaders
+- Highlander
+- Leviathan
+- 1v1 Commander
+- Canadian Highlander
+- Arena
+- Oathbreaker
+- Custom
+- Pioneer
+- Historic
+- Gladiator
+- 'Commander: Rule 0'
+- Alchemy
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -45,40 +49,65 @@ keywords:
 - Exile
 - Spectacle
 mana_cost: 1BR
-mana_cost_converted: 3
+mana_value: 3
+melds_from: []
 name: Theater of Horrors
 printings:
-- AFC:
-    alterations:
-    - Normal
-    name: 'Adventures in the Forgotten Realms: Commander'
-    number: 194
-    rarity: rare
-    release_date: 2021-07-24
-    wizards_id: 532581
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532581
 - RNA:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
-    - Promo pack
-    - PromoPackF
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    - !!python/tuple
+      - pp
+      - Promo pack
+    - !!python/tuple
+      - f-pp
+      - PromoPackF
+    artist: Daarken
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: 71427
     mtgo_id: 71426
     name: Ravnica Allegiance
     number: 213
     rarity: rare
-    release_date: 2019-01-25
+    release_date: '2019-01-25'
+    tla: RNA
     variations:
-    - alterations:
-      - Foil
-      - Normal
-      identifier: Animated
+    - identifier: Animated
     wizards_id: 457357
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=457357
+- AFC:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Daarken
+    booster_exclude: false
+    border_color: null
+    cannonical: true
+    flavour_text: ''
+    frame: null
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Adventures in the Forgotten Realms: Commander'
+    number: 194
+    rarity: rare
+    release_date: '2021-07-24'
+    tla: AFC
+    variations: []
+    wizards_id: 532581
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=532581
 rules: "At the beginning of your upkeep, exile the top card of your library.\r\n\r\
   \nDuring your turn, if an opponent lost life this turn, you may play cards exiled\
   \ with this.\r\n\r\n[[symbol:3]][[symbol:R]]: This deals 1 damage to target opponent\
@@ -86,7 +115,8 @@ rules: "At the beginning of your upkeep, exile the top card of your library.\r\n
 slug: theater-of-horrors
 synonyms:
 - Theatre of Horrors
-tags: card-color-black card-color-gold card-color-gold-cost-3 card-color-red card-type-enchantment
 tapped_id: 21065
+tokens: []
 type: Enchantment
-url: http://tappedout.net/mtg-card/theater-of-horrors/
+url: https://tappedout.net/mtg-card/theater-of-horrors/
+

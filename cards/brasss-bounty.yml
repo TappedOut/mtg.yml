@@ -1,3 +1,5 @@
+activated_abilities: []
+activated_costs: []
 canadian_hl_score: 0
 cannonical_set: C21
 cannonical_type: Sorcery
@@ -11,90 +13,133 @@ companions:
 - Umori, the Collector
 - Yorion, Sky Nomad
 - Zirda, the Dawnwaker
+cube_average: 6.71
+draft_average: 11.5
 effective_cost:
 - R
-flat_cost: 7
 formats:
 - 1v1 Commander
-- Arena
-- Block Constructed
 - Canadian Highlander
-- Commander / EDH
-- 'Commander: Rule 0'
-- Duel Commander
-- Gladiator
-- Highlander
-- Historic
 - Legacy
-- Leviathan
-- Limited
-- Modern
+- Arena
 - Oathbreaker
+- Custom
 - Pioneer
+- Historic
 - Vintage
-has_activated_abilities: false
+- Commander / EDH
+- Gladiator
+- 'Commander: Rule 0'
+- Modern
+- Casual
+- Block Constructed
+- Limited
+- Duel Commander
+- Highlander
+- Leviathan
 is_mtgo: true
-is_permanent: false
 keywords:
 - Sacrifice
 - Tokens
 mana_cost: 6R
-mana_cost_converted: 7
 mana_produced: WWW, UUU, BBB, RRR, GGG
+mana_value: 7
+melds_from: []
 name: Brass's Bounty
 printings:
-- C21:
-    alterations:
-    - Normal
-    border_color: B
-    frame: m15
-    name: Commander 2021
-    number: 160
-    rarity: rare
-    release_date: 2021-04-23
-    wizards_id: 519195
-    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519195
 - RIX:
     alterations:
-    - Foil
-    - Normal
-    - Prerelease
+    - !!python/tuple
+      - ''
+      - Normal
+    - !!python/tuple
+      - f
+      - Foil
+    - !!python/tuple
+      - f-pre
+      - Prerelease
+    artist: Grzegorz Rutkowski
+    booster_exclude: false
     border_color: B
+    cannonical: true
+    flavour_text: "*\"Why squabble for trinkets when we could be living large off\
+      \ all this gold?\" \r\n<br>&mdash;Admiral Beckett Brass*"
     frame: m15
     mtgo_foil_id: 66642
     mtgo_id: 66641
     name: Rivals of Ixalan
     number: 94
     rarity: rare
-    release_date: 2018-01-19
+    release_date: '2018-01-19'
+    tla: RIX
+    variations: []
     wizards_id: 439751
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=439751
 - '000':
     alterations:
-    - Foil
+    - !!python/tuple
+      - f
+      - Foil
+    artist: Dimitar
+    booster_exclude: false
     border_color: B
     cannonical: false
+    flavour_text: "*\"Why squabble for trinkets when we could be living large off\
+      \ all this gold?\"\r\n<br>&mdash;Admiral Beckett Brass*"
     frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
     name: Promo Set
     number: 1
     rarity: rare
-    release_date: 1990-04-15
+    release_date: '1990-04-15'
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- C21:
+    alterations:
+    - !!python/tuple
+      - ''
+      - Normal
+    artist: Grzegorz Rutkowski
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"Why squabble for trinkets when we could be living large off\
+      \ all this gold?\" \r\n<br>&mdash;Admiral Beckett Brass*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Commander 2021
+    number: 160
+    rarity: rare
+    release_date: '2021-04-23'
+    tla: C21
+    variations: []
+    wizards_id: 519195
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519195
 rules: 'For each land you control, create a colourless Treasure artifact token with
   "[[symbol:T]], Sacrifice this artifact: Gain one mana of any colour."'
 slug: brasss-bounty
-tags: card-color-red card-color-red-cost-7 card-mana-black card-mana-blue card-mana-green
-  card-mana-red card-mana-white card-type-sorcery
+synonyms: []
 tapped_id: 19924
 tokens:
-- cannonical_type: Artifact
-  colors: C
-  mana_cost: '0'
-  mana_cost_converted: 0
-  name: Treasure
-  power_toughness: null
-  rules: '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
-  subtype: Treasure
-  tla: 2X2
-  type: Token Artifact
+- !!python/object/apply:collections.OrderedDict
+  - - - colors
+      - C
+    - - power_toughness
+      - null
+    - - rules
+      - '[[symbol:T]], Sacrifice this artifact: Add one mana of any colour.'
+    - - type
+      - Token Artifact
+    - - subtype
+      - 1194
+    - - cannonical_type
+      - Artifact
+    - - name
+      - Treasure
 type: Sorcery
-url: http://tappedout.net/mtg-card/brasss-bounty/
+url: https://tappedout.net/mtg-card/brasss-bounty/
+
