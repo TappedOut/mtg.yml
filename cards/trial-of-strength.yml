@@ -53,9 +53,9 @@ printings:
     mtgo_foil_id: 63985
     mtgo_id: 63984
     name: Amonkhet
-    number: 191
+    number: '191'
     rarity: uncommon
-    release_date: '2017-04-28'
+    release_date: 2017-04-28
     tla: AKH
     variations: []
     wizards_id: 426893
@@ -68,21 +68,23 @@ slug: trial-of-strength
 synonyms: []
 tapped_id: 18813
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 4/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 83
-    - - cannonical_type
-      - Creature
-    - - name
-      - Beast 4/2 G
+- cannonical_type: Creature
+  colors: G
+  name: Beast 4/2 G
+  power_toughness: 4/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AKH
+      - - name
+        - Amonkhet
+      - - number
+        - '21'
+      - - release_date
+        - '2017-04-28'
+  rules: ''
+  subtype: Beast
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/trial-of-strength/
 

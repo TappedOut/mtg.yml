@@ -58,9 +58,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Crimson Vow Commander'
-    number: 23
+    number: '23'
     rarity: rare
-    release_date: '2021-11-18'
+    release_date: 2021-11-18
     tla: VOC
     variations:
     - identifier: '61'
@@ -77,22 +77,24 @@ slug: arterial-alchemy
 synonyms: []
 tapped_id: 25654
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
-        a card.'
-    - - type
-      - Token Artifact
-    - - subtype
-      - 1692
-    - - cannonical_type
-      - Artifact
-    - - name
-      - Blood
+- cannonical_type: Artifact
+  colors: C
+  name: Blood
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '17'
+      - - release_date
+        - '2021-11-11'
+  rules: '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
+    a card.'
+  subtype: Blood
+  type: Token Artifact
 type: Enchantment
 url: https://tappedout.net/mtg-card/arterial-alchemy/
 

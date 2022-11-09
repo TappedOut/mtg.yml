@@ -52,7 +52,7 @@ printings:
     name: Planar Chaos
     number: null
     rarity: uncommon
-    release_date: '2007-02-02'
+    release_date: 2007-02-02
     tla: PLC
     variations: []
     wizards_id: 129015
@@ -69,9 +69,9 @@ printings:
     mtgo_foil_id: 54644
     mtgo_id: 54643
     name: Commander 2014
-    number: 120
+    number: '120'
     rarity: uncommon
-    release_date: '2014-11-21'
+    release_date: 2014-11-21
     tla: C14
     variations: []
     wizards_id: 389638
@@ -89,13 +89,13 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Double Masters
-    number: 62
+    number: '62'
     rarity: uncommon
-    release_date: '2020-08-07'
+    release_date: 2020-08-07
     tla: 2XM
     variations: []
-    wizards_id: null
-    wizards_url: null
+    wizards_id: 489735
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489735
 - TSR:
     alterations:
     - Normal
@@ -109,9 +109,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Time Spiral Remastered
-    number: 79
+    number: '79'
     rarity: uncommon
-    release_date: '2021-03-19'
+    release_date: 2021-03-19
     tla: TSR
     variations: []
     wizards_id: 509444
@@ -123,21 +123,41 @@ slug: pongify
 synonyms: []
 tapped_id: 904
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 3/3
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 67
-    - - cannonical_type
-      - Creature
-    - - name
-      - Ape 3/3 G
+- cannonical_type: Creature
+  colors: G
+  name: Ape 3/3 G
+  power_toughness: 3/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C14
+      - - name
+        - Commander 2014
+      - - number
+        - null
+      - - release_date
+        - '2014-11-21'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - null
+      - - release_date
+        - '2020-08-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - TSR
+      - - name
+        - Time Spiral Remastered
+      - - number
+        - null
+      - - release_date
+        - '2021-03-19'
+  rules: ''
+  subtype: Ape
+  type: Token Creature
 type: Instant
 url: https://tappedout.net/mtg-card/pongify/
 

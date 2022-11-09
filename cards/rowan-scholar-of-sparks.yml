@@ -71,9 +71,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Strixhaven
-    number: 156
+    number: '156'
     rarity: mythic_rare
-    release_date: '2021-04-23'
+    release_date: 2021-04-23
     tla: STX
     variations:
     - identifier: '278'
@@ -93,37 +93,41 @@ synonyms:
 - Will, Scholar of Frost
 tapped_id: 24026
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - UR
-    - - power_toughness
-      - 4/4
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 5
-    - - cannonical_type
-      - Creature
-    - - name
-      - Elemental 4/4 UR
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Whenever you cast an instant or sorcery spell, you may pay [[symbol:2]]. If
-        you do, copy that spell. You may choose new targets for the copy.
-    - - type
-      - Emblem
-    - - subtype
-      - 1259
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Rowan, Scholar of Sparks
+- cannonical_type: Creature
+  colors: UR
+  name: Elemental 4/4 UR
+  power_toughness: 4/4
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - STX
+      - - name
+        - Strixhaven
+      - - number
+        - null
+      - - release_date
+        - '2021-04-23'
+  rules: ''
+  subtype: Elemental
+  type: Token Creature
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Rowan, Scholar of Sparks
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - STX
+      - - name
+        - Strixhaven
+      - - number
+        - null
+      - - release_date
+        - '2021-04-23'
+  rules: Whenever you cast an instant or sorcery spell, you may pay [[symbol:2]].
+    If you do, copy that spell. You may choose new targets for the copy.
+  subtype: Rowan
+  type: Emblem
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/rowan-scholar-of-sparks/
 

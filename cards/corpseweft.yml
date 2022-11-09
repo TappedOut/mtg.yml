@@ -59,9 +59,9 @@ printings:
     mtgo_foil_id: 56369
     mtgo_id: 56368
     name: Dragons of Tarkir
-    number: 92
+    number: '92'
     rarity: rare
-    release_date: '2015-03-27'
+    release_date: 2015-03-27
     tla: DTK
     variations: []
     wizards_id: 394524
@@ -74,21 +74,23 @@ slug: corpseweft
 synonyms: []
 tapped_id: 16595
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - X/X
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 467
-    - - cannonical_type
-      - Creature
-    - - name
-      - Zombie Horror X/X B
+- cannonical_type: Creature
+  colors: B
+  name: Zombie Horror X/X B
+  power_toughness: X/X
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DTK
+      - - name
+        - Dragons of Tarkir
+      - - number
+        - '4'
+      - - release_date
+        - '2015-03-27'
+  rules: ''
+  subtype: Zombie Horror
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/corpseweft/
 

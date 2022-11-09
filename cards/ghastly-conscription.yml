@@ -52,9 +52,9 @@ printings:
     mtgo_foil_id: 55371
     mtgo_id: 55370
     name: Fate Reforged
-    number: 70
+    number: '70'
     rarity: mythic_rare
-    release_date: '2015-01-23'
+    release_date: 2015-01-23
     tla: FRF
     variations: []
     wizards_id: 391843
@@ -71,9 +71,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2016
-    number: 111
+    number: '111'
     rarity: mythic_rare
-    release_date: '2016-11-11'
+    release_date: 2016-11-11
     tla: C16
     variations: []
     wizards_id: 420728
@@ -90,9 +90,9 @@ printings:
     mtgo_foil_id: 77345
     mtgo_id: 77344
     name: Commander 2019
-    number: 115
+    number: '115'
     rarity: mythic_rare
-    release_date: '2019-08-23'
+    release_date: 2019-08-23
     tla: C19
     variations: []
     wizards_id: 470661
@@ -106,23 +106,51 @@ slug: ghastly-conscription
 synonyms: []
 tapped_id: 16199
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 2/2
-    - - rules
-      - "*You can cover a face-down manifested creature with this reminder card.\r\
-        \n\r\nA manifested creature card can be turned face up at any time for its\
-        \ mana cost. A face-down card can also be turned face up for its morph cost."
-    - - type
-      - Creature
-    - - subtype
-      - null
-    - - cannonical_type
-      - Creature
-    - - name
-      - Manifest 2/2 C
+- cannonical_type: Creature
+  colors: C
+  name: Manifest 2/2 C
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - FRF
+      - - name
+        - Fate Reforged
+      - - number
+        - '4'
+      - - release_date
+        - '2015-01-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C18
+      - - name
+        - Commander 2018
+      - - number
+        - '1'
+      - - release_date
+        - '2018-08-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C19
+      - - name
+        - Commander 2019
+      - - number
+        - '28'
+      - - release_date
+        - '2019-08-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NCC
+      - - name
+        - 'Streets of New Capenna: Commander'
+      - - number
+        - '3'
+      - - release_date
+        - '2022-04-30'
+  rules: "*You can cover a face-down manifested creature with this reminder card.\r\
+    \n\r\nA manifested creature card can be turned face up at any time for its mana\
+    \ cost. A face-down card can also be turned face up for its morph cost."
+  type: Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/ghastly-conscription/
 

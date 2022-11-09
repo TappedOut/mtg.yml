@@ -59,7 +59,7 @@ printings:
     name: Time Spiral
     number: null
     rarity: uncommon
-    release_date: '2006-10-06'
+    release_date: 2006-10-06
     tla: TSP
     variations: []
     wizards_id: 116384
@@ -76,9 +76,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Promo Set
-    number: 5
+    number: '5'
     rarity: uncommon
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations: []
     wizards_id: null
@@ -98,7 +98,7 @@ printings:
     name: Commander 2013
     number: null
     rarity: uncommon
-    release_date: '2013-11-01'
+    release_date: 2013-11-01
     tla: C13
     variations: []
     wizards_id: 376564
@@ -118,9 +118,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Time Spiral Remastered
-    number: 288
+    number: '288'
     rarity: uncommon
-    release_date: '2021-03-19'
+    release_date: 2021-03-19
     tla: TSR
     variations: []
     wizards_id: 509653
@@ -135,21 +135,41 @@ subtype_tokens:
 synonyms: []
 tapped_id: 1229
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 2/2
-    - - rules
-      - ''
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 115
-    - - cannonical_type
-      - Creature
-    - - name
-      - Assembly-Worker 2/2 C
+- cannonical_type: Creature
+  colors: C
+  name: Assembly-Worker 2/2 C
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - TSP
+      - - name
+        - Time Spiral
+      - - number
+        - null
+      - - release_date
+        - '2006-10-06'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - '000'
+      - - name
+        - Promo Set
+      - - number
+        - null
+      - - release_date
+        - '1990-04-15'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - TSR
+      - - name
+        - Time Spiral Remastered
+      - - number
+        - null
+      - - release_date
+        - '2021-03-19'
+  rules: ''
+  subtype: Assembly-Worker
+  type: Token Artifact Creature
 type: Land
 url: https://tappedout.net/mtg-card/urzas-factory/
 

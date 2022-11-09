@@ -37,9 +37,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Unstable
-    number: 181
+    number: '181'
     rarity: mythic_rare
-    release_date: '2017-12-08'
+    release_date: 2017-12-08
     tla: UN3
     variations: []
     wizards_id: 439570
@@ -55,22 +55,24 @@ subtype_tokens:
 synonyms: []
 tapped_id: 19786
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 1/1
-    - - rules
-      - "Flying, haste\r\n\r\nWhenever this creature deals combat damage to a player,\
-        \ draw a card."
-    - - type
-      - Token Creature
-    - - subtype
-      - 1279
-    - - cannonical_type
-      - Creature
-    - - name
-      - Faerie Spy 1/1 U
+- cannonical_type: Creature
+  colors: U
+  name: Faerie Spy 1/1 U
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UN3
+      - - name
+        - Unstable
+      - - number
+        - '4'
+      - - release_date
+        - '2017-12-08'
+  rules: "Flying, haste\r\n\r\nWhenever this creature deals combat damage to a player,\
+    \ draw a card."
+  subtype: Faerie Spy
+  type: Token Creature
 type: Artifact
 url: https://tappedout.net/mtg-card/faerie-aerie/
 

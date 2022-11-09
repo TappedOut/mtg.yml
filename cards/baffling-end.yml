@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: RIX
 cannonical_type: Enchantment
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -53,9 +54,9 @@ printings:
     mtgo_foil_id: 66456
     mtgo_id: 66455
     name: Rivals of Ixalan
-    number: 1
+    number: '1'
     rarity: uncommon
-    release_date: '2018-01-19'
+    release_date: 2018-01-19
     tla: RIX
     variations:
     - identifier: Animated
@@ -70,23 +71,25 @@ slug: baffling-end
 synonyms: []
 tapped_id: 19945
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 3/3
-    - - rules
-      - Trample *(This creature can deal excess combat damage to defending player
-        or planeswalker for as long as lethal combat damage would be dealt to the
-        blocking creatures.)*
-    - - type
-      - Token Creature
-    - - subtype
-      - 592
-    - - cannonical_type
-      - Creature
-    - - name
-      - Dinosaur 3/3 G
+- cannonical_type: Creature
+  colors: G
+  name: Dinosaur 3/3 G
+  power_toughness: 3/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - XLN
+      - - name
+        - Ixalan
+      - - number
+        - '5'
+      - - release_date
+        - '2017-09-29'
+  rules: Trample *(This creature can deal excess combat damage to defending player
+    or planeswalker for as long as lethal combat damage would be dealt to the blocking
+    creatures.)*
+  subtype: Dinosaur
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/baffling-end/
 

@@ -58,9 +58,9 @@ printings:
     mtgo_foil_id: 56169
     mtgo_id: 56168
     name: Dragons of Tarkir
-    number: 68
+    number: '68'
     rarity: common
-    release_date: '2015-03-27'
+    release_date: 2015-03-27
     tla: DTK
     variations: []
     wizards_id: 394643
@@ -77,13 +77,13 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Jumpstart: Historic Horizons'
-    number: null
+    number: '224'
     rarity: common
-    release_date: '2021-08-12'
+    release_date: 2021-08-12
     tla: J21
     variations: []
-    wizards_id: null
-    wizards_url: null
+    wizards_id: 534651
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=534651
 rarity: common
 rules: "Create a 2/2 blue Djinn Monk creature token with flying.\r\n\r\nRebound *(If\
   \ you cast this spell from your hand, exile this as this resolves. At the beginning\
@@ -93,21 +93,32 @@ slug: ojutais-summons
 synonyms: []
 tapped_id: 16407
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 2/2
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 1053
-    - - cannonical_type
-      - Creature
-    - - name
-      - Djinn Monk 2/2 U
+- cannonical_type: Creature
+  colors: U
+  name: Djinn Monk 2/2 U
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DTK
+      - - name
+        - Dragons of Tarkir
+      - - number
+        - '2'
+      - - release_date
+        - '2015-03-27'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - IMA
+      - - name
+        - Iconic Masters
+      - - number
+        - '4'
+      - - release_date
+        - '2017-11-17'
+  rules: Flying
+  subtype: Djinn Monk
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/ojutais-summons/
 

@@ -50,9 +50,9 @@ printings:
     mtgo_foil_id: 32371
     mtgo_id: 32370
     name: Alara Reborn
-    number: 58
+    number: '58'
     rarity: rare
-    release_date: '2009-04-30'
+    release_date: 2009-04-30
     tla: ARB
     variations: []
     wizards_id: 180602
@@ -65,21 +65,23 @@ slug: predatory-advantage
 synonyms: []
 tapped_id: 11418
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 2/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 151
-    - - cannonical_type
-      - Creature
-    - - name
-      - Lizard 2/2 G
+- cannonical_type: Creature
+  colors: G
+  name: Lizard 2/2 G
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ARB
+      - - name
+        - Alara Reborn
+      - - number
+        - '2'
+      - - release_date
+        - '2009-04-30'
+  rules: ''
+  subtype: Lizard
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/predatory-advantage/
 

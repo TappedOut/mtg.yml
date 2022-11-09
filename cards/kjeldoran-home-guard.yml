@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: ALL
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -48,7 +49,7 @@ printings:
     name: Alliances
     number: null
     rarity: uncommon
-    release_date: '1996-06-10'
+    release_date: 1996-06-10
     tla: ALL
     variations: []
     wizards_id: 3200
@@ -66,9 +67,9 @@ printings:
     mtgo_foil_id: 30683
     mtgo_id: 30682
     name: Masters Edition II
-    number: 22
+    number: '22'
     rarity: uncommon
-    release_date: '2008-09-22'
+    release_date: 2008-09-22
     tla: ME2
     variations: []
     wizards_id: 184554
@@ -87,7 +88,7 @@ printings:
     name: Coldsnap Theme Deck
     number: null
     rarity: uncommon
-    release_date: '2013-01-21'
+    release_date: 2013-01-21
     tla: CTD
     variations: []
     wizards_id: null
@@ -104,21 +105,14 @@ subtype_tokens:
 synonyms: []
 tapped_id: 7776
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 0/1
-    - - rules
-      - ''
-    - - type
-      - Creature
-    - - subtype
-      - 906
-    - - cannonical_type
-      - Creature
-    - - name
-      - 0/1 W Creature Deserter
+- cannonical_type: Creature
+  colors: W
+  name: 0/1 W Creature Deserter
+  power_toughness: 0/1
+  printings: []
+  rules: ''
+  subtype: Deserter
+  type: Creature
 type: Creature
 url: https://tappedout.net/mtg-card/kjeldoran-home-guard/
 

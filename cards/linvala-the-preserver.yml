@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: OGW
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
@@ -51,9 +52,9 @@ printings:
     mtgo_foil_id: 59476
     mtgo_id: 59475
     name: Oath of the Gatewatch
-    number: 25
+    number: '25'
     rarity: mythic_rare
-    release_date: '2016-01-22'
+    release_date: 2016-01-22
     tla: OGW
     variations: []
     wizards_id: 407535
@@ -70,21 +71,41 @@ subtype_tokens:
 synonyms: []
 tapped_id: 17468
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 3/3
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 20
-    - - cannonical_type
-      - Creature
-    - - name
-      - Angel 3/3 W
+- cannonical_type: Creature
+  colors: W
+  name: Angel 3/3 W
+  power_toughness: 3/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - OGW
+      - - name
+        - Oath of the Gatewatch
+      - - number
+        - '7'
+      - - release_date
+        - '2016-01-22'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AFR
+      - - name
+        - 'Dungeons & Dragons: Adventures in the Forgotten Realms'
+      - - number
+        - '1'
+      - - release_date
+        - '2021-07-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SNC
+      - - name
+        - Streets of New Capenna
+      - - number
+        - '2'
+      - - release_date
+        - '2022-04-29'
+  rules: Flying
+  subtype: Angel
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/linvala-the-preserver/
 

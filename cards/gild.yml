@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: C15
 cannonical_type: Sorcery
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -53,9 +54,9 @@ printings:
     mtgo_foil_id: 51682
     mtgo_id: 51681
     name: Born of the Gods
-    number: 73
+    number: '73'
     rarity: rare
-    release_date: '2014-02-07'
+    release_date: 2014-02-07
     tla: BNG
     variations: []
     wizards_id: 378445
@@ -73,9 +74,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2015
-    number: 127
+    number: '127'
     rarity: rare
-    release_date: '2015-11-13'
+    release_date: 2015-11-13
     tla: C15
     variations: []
     wizards_id: 405242
@@ -88,21 +89,59 @@ slug: gild
 synonyms: []
 tapped_id: 15264
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - 'Sacrifice this artifact: Add one mana of any colour.'
-    - - type
-      - Token Artifact
-    - - subtype
-      - 1865
-    - - cannonical_type
-      - Artifact
-    - - name
-      - Gold
+- cannonical_type: Artifact
+  colors: C
+  name: Gold
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - BNG
+      - - name
+        - Born of the Gods
+      - - number
+        - '10'
+      - - release_date
+        - '2014-02-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C15
+      - - name
+        - Commander 2015
+      - - number
+        - '24'
+      - - release_date
+        - '2015-11-13'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C17
+      - - name
+        - Commander 2017
+      - - number
+        - '10'
+      - - release_date
+        - '2017-08-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - THB
+      - - name
+        - Theros Beyond Death
+      - - number
+        - '13'
+      - - release_date
+        - '2020-01-24'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '48'
+      - - release_date
+        - '2022-06-10'
+  rules: 'Sacrifice this artifact: Add one mana of any colour.'
+  subtype: Gold
+  type: Token Artifact
 type: Sorcery
 url: https://tappedout.net/mtg-card/gild/
 

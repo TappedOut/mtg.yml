@@ -55,9 +55,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 70
+    number: '70'
     rarity: uncommon
-    release_date: '2022-06-10'
+    release_date: 2022-06-10
     tla: CLB
     variations:
     - identifier: '484'
@@ -73,21 +73,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 26580
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 949
-    - - cannonical_type
-      - Creature
-    - - name
-      - Faerie Dragon 1/1 U
+- cannonical_type: Creature
+  colors: U
+  name: Faerie Dragon 1/1 U
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AFR
+      - - name
+        - 'Dungeons & Dragons: Adventures in the Forgotten Realms'
+      - - number
+        - '4'
+      - - release_date
+        - '2021-07-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '6'
+      - - release_date
+        - '2022-06-10'
+  rules: Flying
+  subtype: Faerie Dragon
+  type: Token Creature
 type: Legendary Enchantment
 url: https://tappedout.net/mtg-card/feywild-visitor/
 

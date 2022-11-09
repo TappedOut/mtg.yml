@@ -71,9 +71,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Kaldheim
-    number: 205
+    number: '205'
     rarity: rare
-    release_date: '2021-02-05'
+    release_date: 2021-02-05
     tla: KHM
     variations:
     - identifier: PromoPack
@@ -93,21 +93,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 23877
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 2/2
-    - - rules
-      - Changeling *(This token is every creature type.)*
-    - - type
-      - Token Creature
-    - - subtype
-      - 56
-    - - cannonical_type
-      - Creature
-    - - name
-      - Shapeshifter 2/2 U
+- cannonical_type: Creature
+  colors: U
+  name: Shapeshifter 2/2 U
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KHM
+      - - name
+        - Kaldheim
+      - - number
+        - '8'
+      - - release_date
+        - '2021-02-05'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '28'
+      - - release_date
+        - '2022-06-10'
+  rules: Changeling *(This token is every creature type.)*
+  subtype: Shapeshifter
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/the-bears-of-littjara/
 

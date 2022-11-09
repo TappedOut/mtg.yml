@@ -64,9 +64,9 @@ printings:
     mtgo_foil_id: 47852
     mtgo_id: 47851
     name: Gatecrash
-    number: 156
+    number: '156'
     rarity: mythic_rare
-    release_date: '2013-02-01'
+    release_date: 2013-02-01
     tla: GTC
     variations: []
     wizards_id: 366367
@@ -84,9 +84,9 @@ printings:
     mtgo_foil_id: 63430
     mtgo_id: 63429
     name: Modern Masters 2017 Edition
-    number: 161
+    number: '161'
     rarity: mythic_rare
-    release_date: '2017-03-17'
+    release_date: 2017-03-17
     tla: MM3
     variations: []
     wizards_id: 425986
@@ -104,9 +104,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Secret Lair
-    number: 88
+    number: '88'
     rarity: mythic_rare
-    release_date: '2019-12-09'
+    release_date: 2019-12-09
     tla: SLD
     variations: []
     wizards_id: 485312
@@ -124,21 +124,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 14252
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Creatures you control have double strike, trample, hexproof and haste.
-    - - type
-      - Emblem
-    - - subtype
-      - 985
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Domri Rade
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Domri Rade
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GTC
+      - - name
+        - Gatecrash
+      - - number
+        - '8'
+      - - release_date
+        - '2013-02-01'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MM3
+      - - name
+        - Modern Masters 2017 Edition
+      - - number
+        - '21'
+      - - release_date
+        - '2017-03-17'
+  rules: Creatures you control have double strike, trample, hexproof and haste.
+  subtype: Domri
+  type: Emblem
 type: Planeswalker
 url: https://tappedout.net/mtg-card/domri-rade/
 

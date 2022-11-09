@@ -70,9 +70,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Kaldheim
-    number: 227
+    number: '227'
     rarity: rare
-    release_date: '2021-02-05'
+    release_date: 2021-02-05
     tla: KHM
     variations:
     - identifier: PromoPack
@@ -93,21 +93,41 @@ subtype_tokens:
 synonyms: []
 tapped_id: 23918
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 32
-    - - cannonical_type
-      - Creature
-    - - name
-      - Bird 1/1 U
+- cannonical_type: Creature
+  colors: U
+  name: Bird 1/1 U
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - INV
+      - - name
+        - Invasion
+      - - number
+        - null
+      - - release_date
+        - '2000-10-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - EVE
+      - - name
+        - Eventide
+      - - number
+        - null
+      - - release_date
+        - '2008-07-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KHM
+      - - name
+        - Kaldheim
+      - - number
+        - null
+      - - release_date
+        - '2021-02-05'
+  rules: Flying
+  subtype: Bird
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/the-ravens-warning/
 

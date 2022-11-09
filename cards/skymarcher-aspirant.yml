@@ -55,9 +55,9 @@ printings:
     mtgo_foil_id: 66496
     mtgo_id: 66495
     name: Rivals of Ixalan
-    number: 21
+    number: '21'
     rarity: uncommon
-    release_date: '2018-01-19'
+    release_date: 2018-01-19
     tla: RIX
     variations:
     - identifier: Animated
@@ -77,7 +77,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: uncommon
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -94,21 +94,22 @@ subtype_tokens:
 synonyms: []
 tapped_id: 19939
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - ''
-    - - type
-      - Emblem
-    - - subtype
-      - null
-    - - cannonical_type
-      - Emblem
-    - - name
-      - City's Blessing
+- cannonical_type: Emblem
+  colors: C
+  name: City's Blessing
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - RIX
+      - - name
+        - Rivals of Ixalan
+      - - number
+        - null
+      - - release_date
+        - '2018-01-19'
+  rules: ''
+  type: Emblem
 type: Creature
 url: https://tappedout.net/mtg-card/skymarcher-aspirant/
 

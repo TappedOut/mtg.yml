@@ -46,9 +46,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Archenemy: Nicol Bolas'
-    number: 7
+    number: '7'
     rarity: common
-    release_date: '2017-06-16'
+    release_date: 2017-06-16
     tla: E01
     variations: []
     wizards_id: 430652
@@ -59,21 +59,23 @@ slug: for-each-of-you-a-gift
 synonyms: []
 tapped_id: 19141
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - 3/3
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 4
-    - - cannonical_type
-      - Creature
-    - - name
-      - Horror 3/3 B
+- cannonical_type: Creature
+  colors: B
+  name: Horror 3/3 B
+  power_toughness: 3/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - E01
+      - - name
+        - 'Archenemy: Nicol Bolas'
+      - - number
+        - '3'
+      - - release_date
+        - '2017-06-16'
+  rules: ''
+  subtype: Horror
+  type: Token Creature
 type: Scheme
 url: https://tappedout.net/mtg-card/for-each-of-you-a-gift/
 

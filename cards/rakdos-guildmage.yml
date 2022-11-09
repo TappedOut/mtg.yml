@@ -9,6 +9,7 @@ canadian_hl_score: 0
 cannonical_set: GK2
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
@@ -61,7 +62,7 @@ printings:
     name: Dissension
     number: null
     rarity: uncommon
-    release_date: '2006-05-05'
+    release_date: 2006-05-05
     tla: DIS
     variations: []
     wizards_id: 97108
@@ -78,9 +79,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Archenemy
-    number: 92
+    number: '92'
     rarity: uncommon
-    release_date: '2010-06-18'
+    release_date: 2010-06-18
     tla: ARC
     variations: []
     wizards_id: 220542
@@ -97,9 +98,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Promo Set
-    number: 3
+    number: '3'
     rarity: uncommon
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations: []
     wizards_id: null
@@ -117,9 +118,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Ravnica Allegiance: Guild Kits'
-    number: 69
+    number: '69'
     rarity: uncommon
-    release_date: '2019-02-15'
+    release_date: 2019-02-15
     tla: GK2
     variations: []
     wizards_id: 460615
@@ -137,21 +138,14 @@ subtype_tokens:
 synonyms: []
 tapped_id: 1639
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 2/1
-    - - rules
-      - Haste
-    - - type
-      - Token Creature
-    - - subtype
-      - 153
-    - - cannonical_type
-      - Creature
-    - - name
-      - 2/1 R Token Creature Goblin
+- cannonical_type: Creature
+  colors: R
+  name: 2/1 R Token Creature Goblin
+  power_toughness: 2/1
+  printings: []
+  rules: Haste
+  subtype: Goblin
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/rakdos-guildmage/
 

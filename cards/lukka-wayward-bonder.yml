@@ -9,6 +9,7 @@ canadian_hl_score: 0
 cannonical_set: STX
 cannonical_type: Planeswalker
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -68,9 +69,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Strixhaven
-    number: 153
+    number: '153'
     rarity: mythic_rare
-    release_date: '2021-04-23'
+    release_date: 2021-04-23
     tla: STX
     variations:
     - identifier: '277'
@@ -89,22 +90,24 @@ subtype_tokens:
 synonyms: []
 tapped_id: 24160
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Whenever a creature enters the battlefield under your control, it deals damage
-        equal to its power to target creature, player or planeswalker.
-    - - type
-      - Emblem
-    - - subtype
-      - 1075
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Lukka, Wayward Bonder
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Lukka, Wayward Bonder
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - STX
+      - - name
+        - Strixhaven
+      - - number
+        - null
+      - - release_date
+        - '2021-04-23'
+  rules: Whenever a creature enters the battlefield under your control, it deals damage
+    equal to its power to target creature, player or planeswalker.
+  subtype: Lukka
+  type: Emblem
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/lukka-wayward-bonder/
 

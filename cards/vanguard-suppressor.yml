@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: 40K
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -14,7 +15,17 @@ companions:
 effective_cost:
 - U
 formats:
+- 1v1 Commander
+- Canadian Highlander
+- Commander / EDH
+- Duel Commander
+- Highlander
+- Legacy
+- Leviathan
+- Limited
+- Oathbreaker
 - Penny Dreadful
+- Vintage
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -30,26 +41,27 @@ printings:
 - 40K:
     alterations:
     - Normal
+    - Foil
     artist: Fajareka Setiawan
     booster_exclude: false
     border_color: B
-    cannonical: false
-    flavour_text: null
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Universes Beyond: Warhammer 40K'
-    number: 27
+    number: '27'
     rarity: rare
-    release_date: '2022-10-08'
+    release_date: 2022-10-08
     tla: 40K
     variations: []
-    wizards_id: null
-    wizards_url: null
+    wizards_id: 580849
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=580849
 rules: "Squad [[symbol:2]] *(As an additional cost to cast this spell, you may pay\
   \ [[symbol:2]] any number of times. When this enters the battlefield, create that\
   \ many tokens that are copies of this.)*\r\n\r\nFlying\r\n\r\n*Suppressing Fire*\
-  \ &mdash; Whenever this deals combat damage to a player, draw a card."
+  \ \u2014 Whenever Vanguard Suppressor deals combat damage to a player, draw a card."
 slug: vanguard-suppressor
 subtype: Astartes Warrior
 subtype_tokens:
@@ -58,36 +70,102 @@ subtype_tokens:
 synonyms: []
 tapped_id: 26481
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 3/2
-    - - rules
-      - "Flying\r\n\r\nWhenever this deals combat damage to a player, draw a card."
-    - - type
-      - Token Creature
-    - - subtype
-      - 1813
-    - - cannonical_type
-      - Creature
-    - - name
-      - Vanguard Suppressor
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - null
-    - - power_toughness
-      - null
-    - - rules
-      - '*This token can be used to represent a token that''s a copy of a permanent.*'
-    - - type
-      - Token Creature
-    - - subtype
-      - null
-    - - cannonical_type
-      - Creature
-    - - name
-      - Copy Clone
+- cannonical_type: Creature
+  colors: null
+  name: Copy Clone
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GK1
+      - - name
+        - 'Guilds of Ravnica: Guild Kit'
+      - - number
+        - '1'
+      - - release_date
+        - '2018-11-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - '31'
+      - - release_date
+        - '2020-08-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ZNR
+      - - name
+        - Zendikar Rising
+      - - number
+        - '12'
+      - - release_date
+        - '2020-09-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '13'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '23'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C21
+      - - name
+        - Commander 2021
+      - - number
+        - '30'
+      - - release_date
+        - '2021-04-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '19'
+      - - release_date
+        - '2021-11-11'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '19'
+      - - release_date
+        - '2022-06-10'
+  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
+  type: Token Creature
+- cannonical_type: Creature
+  colors: U
+  name: Vanguard Suppressor 3/2 U
+  power_toughness: 3/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 40K
+      - - name
+        - 'Universes Beyond: Warhammer 40K'
+      - - number
+        - '10'
+      - - release_date
+        - '2022-10-08'
+  rules: "Flying\r\n\r\nWhenever this deals combat damage to a player, draw a card."
+  subtype: Astartes Warrior
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/vanguard-suppressor/
 

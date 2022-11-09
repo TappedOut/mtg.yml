@@ -58,9 +58,9 @@ printings:
     mtgo_foil_id: 32503
     mtgo_id: 32502
     name: Alara Reborn
-    number: 24
+    number: '24'
     rarity: rare
-    release_date: '2009-04-30'
+    release_date: 2009-04-30
     tla: ARB
     variations: []
     wizards_id: 179555
@@ -78,21 +78,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 11384
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - UB
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 64
-    - - cannonical_type
-      - Creature
-    - - name
-      - Zombie Wizard 1/1 UB
+- cannonical_type: Creature
+  colors: UB
+  name: Zombie Wizard 1/1 UB
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ARB
+      - - name
+        - Alara Reborn
+      - - number
+        - '4'
+      - - release_date
+        - '2009-04-30'
+  rules: ''
+  subtype: Zombie Wizard
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/lich-lord-of-unx/
 

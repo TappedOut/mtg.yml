@@ -15,11 +15,14 @@ effective_cost:
 - G
 formats:
 - 1v1 Commander
+- Arena
 - Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -57,9 +60,9 @@ printings:
     mtgo_foil_id: 60321
     mtgo_id: 60320
     name: Shadows over Innistrad
-    number: 233
+    number: '233'
     rarity: rare
-    release_date: '2016-04-08'
+    release_date: 2016-04-08
     tla: SOI
     variations: []
     wizards_id: 409997
@@ -78,16 +81,56 @@ printings:
     name: Mystery Booster
     number: null
     rarity: rare
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
     wizards_url: null
+- ARENA:
+    alterations:
+    - Normal
+    artist: Eric Deschamps
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Arena Cards
+    number: null
+    rarity: rare
+    release_date: 2019-09-26
+    tla: ARENA
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- SLD:
+    alterations:
+    - Normal
+    - Foil
+    artist: Nils Hamm
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*\"Tell me, Muse, of that man, so ready at need, who wandered far\
+      \ and wide.\"\r\n<br>\u2014Homer,* The Odysset"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: '1094'
+    rarity: rare
+    release_date: 2019-12-09
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rarity: rare
-rules: "Whenever a Land enters the battlefield under your control, investigate. *(Put\
-  \ a colourles Clue artifact token onto the battleifled with \"[[symbol:2]], Sacrifice\
-  \ this artifact: Draw a card.\")*\r\n\r\nWhenever you sacrifice a Clue, put a +1/+1\
-  \ counter on Tireless Tracker."
+rules: "*Landfall* \u2014 Whenever a land enters the battlefield under your control,\
+  \ investigate. *(Create a colourless Clue artifact token onto the battlefield with\
+  \ \"[[symbol:2]], Sacrifice this artifact: Draw a card.\")*\r\n\r\nWhenever you\
+  \ sacrifice a Clue, put a +1/+1 counter on Tireless Tracker."
 slug: tireless-tracker
 subtype: Human Scout
 subtype_tokens:
@@ -96,21 +139,176 @@ subtype_tokens:
 synonyms: []
 tapped_id: 17709
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - '[[symbol:2]], Sacrifice this: Draw a card.'
-    - - type
-      - Token Artifact
-    - - subtype
-      - 1130
-    - - cannonical_type
-      - Artifact
-    - - name
-      - Clue
+- cannonical_type: Artifact
+  colors: C
+  name: Clue
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SOI
+      - - name
+        - Shadows over Innistrad
+      - - number
+        - '11'
+      - - release_date
+        - '2016-04-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SOI
+      - - name
+        - Shadows over Innistrad
+      - - number
+        - '12'
+      - - release_date
+        - '2016-04-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SOI
+      - - name
+        - Shadows over Innistrad
+      - - number
+        - '13'
+      - - release_date
+        - '2016-04-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SOI
+      - - name
+        - Shadows over Innistrad
+      - - number
+        - '14'
+      - - release_date
+        - '2016-04-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SOI
+      - - name
+        - Shadows over Innistrad
+      - - number
+        - '15'
+      - - release_date
+        - '2016-04-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SOI
+      - - name
+        - Shadows over Innistrad
+      - - number
+        - '16'
+      - - release_date
+        - '2016-04-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UN3
+      - - name
+        - Unstable
+      - - number
+        - '18'
+      - - release_date
+        - '2017-12-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UN3
+      - - name
+        - Unstable
+      - - number
+        - '30'
+      - - release_date
+        - '2017-12-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C18
+      - - name
+        - Commander 2018
+      - - number
+        - '19'
+      - - release_date
+        - '2018-08-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - '22'
+      - - release_date
+        - '2020-08-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MH2
+      - - name
+        - Modern Horizons 2
+      - - number
+        - '14'
+      - - release_date
+        - '2021-06-18'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MH2
+      - - name
+        - Modern Horizons 2
+      - - number
+        - '15'
+      - - release_date
+        - '2021-06-18'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AFC
+      - - name
+        - 'Adventures in the Forgotten Realms: Commander'
+      - - number
+        - '10'
+      - - release_date
+        - '2021-07-24'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MID
+      - - name
+        - 'Innistrad: Midnight Hunt'
+      - - number
+        - '16'
+      - - release_date
+        - '2021-09-24'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOC
+      - - name
+        - 'Innistrad: Crimson Vow Commander'
+      - - number
+        - '5'
+      - - release_date
+        - '2021-11-18'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SNC
+      - - name
+        - Streets of New Capenna
+      - - number
+        - '1'
+      - - release_date
+        - '2022-04-29'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '47'
+      - - release_date
+        - '2022-06-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 40K
+      - - name
+        - 'Universes Beyond: Warhammer 40K'
+      - - number
+        - '21'
+      - - release_date
+        - '2022-10-08'
+  rules: '[[symbol:2]], Sacrifice this: Draw a card.'
+  subtype: Clue
+  type: Token Artifact
 type: Creature
 url: https://tappedout.net/mtg-card/tireless-tracker/
 

@@ -8,6 +8,7 @@ canadian_hl_score: 0
 cannonical_set: HOU
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -64,9 +65,9 @@ printings:
     mtgo_foil_id: 64489
     mtgo_id: 64488
     name: Hour of Devastation
-    number: 2
+    number: '2'
     rarity: rare
-    release_date: '2017-07-14'
+    release_date: 2017-07-14
     tla: HOU
     variations: []
     wizards_id: 430691
@@ -83,9 +84,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Promo Set
-    number: 2
+    number: '2'
     rarity: rare
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations: []
     wizards_id: null
@@ -104,7 +105,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: rare
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -120,21 +121,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 19013
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - 4/4
-    - - rules
-      - Double strike
-    - - type
-      - Token Creature
-    - - subtype
-      - 352
-    - - cannonical_type
-      - Creature
-    - - name
-      - Adorned Pouncer 4/4 B
+- cannonical_type: Creature
+  colors: B
+  name: Adorned Pouncer 4/4 B
+  power_toughness: 4/4
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - HOU
+      - - name
+        - Hour of Devastation
+      - - number
+        - null
+      - - release_date
+        - '2017-07-14'
+  rules: Double strike
+  subtype: Zombie Cat
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/adorned-pouncer/
 

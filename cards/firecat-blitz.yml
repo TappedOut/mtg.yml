@@ -5,6 +5,7 @@ cannonical_set: JUD
 cannonical_type: Sorcery
 color_identity: ''
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -54,9 +55,9 @@ printings:
     mtgo_foil_id: 17535
     mtgo_id: 17534
     name: Judgment
-    number: 88
+    number: '88'
     rarity: uncommon
-    release_date: '2002-05-27'
+    release_date: 2002-05-27
     tla: JUD
     variations: []
     wizards_id: 34929
@@ -70,21 +71,14 @@ slug: firecat-blitz
 synonyms: []
 tapped_id: 4173
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Haste
-    - - type
-      - Token Creature
-    - - subtype
-      - 171
-    - - cannonical_type
-      - Creature
-    - - name
-      - 1/1 R Token Creature Elemental Cat
+- cannonical_type: Creature
+  colors: R
+  name: 1/1 R Token Creature Elemental Cat
+  power_toughness: 1/1
+  printings: []
+  rules: Haste
+  subtype: Elemental Cat
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/firecat-blitz/
 

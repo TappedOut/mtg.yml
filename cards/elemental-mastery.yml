@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: SHM
 cannonical_type: Enchantment
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -53,9 +54,9 @@ printings:
     mtgo_foil_id: 29464
     mtgo_id: 29463
     name: Shadowmoor
-    number: 90
+    number: '90'
     rarity: rare
-    release_date: '2008-05-02'
+    release_date: 2008-05-02
     tla: SHM
     variations: []
     wizards_id: 146087
@@ -72,9 +73,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Kamigawa: Neon Dynasty Commander'
-    number: 105
+    number: '105'
     rarity: rare
-    release_date: '2022-02-11'
+    release_date: 2022-02-11
     tla: NEC
     variations: []
     wizards_id: 554188
@@ -90,21 +91,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 9544
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Haste
-    - - type
-      - Token Creature
-    - - subtype
-      - 5
-    - - cannonical_type
-      - Creature
-    - - name
-      - Elemental 1/1 R w/ Haste
+- cannonical_type: Creature
+  colors: R
+  name: Elemental 1/1 R w/ Haste
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SHM
+      - - name
+        - Shadowmoor
+      - - number
+        - '4'
+      - - release_date
+        - '2008-05-02'
+  rules: Haste
+  subtype: Elemental
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/elemental-mastery/
 

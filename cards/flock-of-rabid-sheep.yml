@@ -5,6 +5,7 @@ cannonical_set: UGL
 cannonical_type: Sorcery
 color_identity: ''
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -40,9 +41,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Unglued
-    number: 57
+    number: '57'
     rarity: uncommon
-    release_date: '1998-08-01'
+    release_date: 1998-08-01
     tla: UGL
     variations: []
     wizards_id: 9759
@@ -55,21 +56,23 @@ slug: flock-of-rabid-sheep
 synonyms: []
 tapped_id: 9248
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 2/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 665
-    - - cannonical_type
-      - Creature
-    - - name
-      - Sheep 2/2 G
+- cannonical_type: Creature
+  colors: G
+  name: Sheep 2/2 G
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UGL
+      - - name
+        - Unglued
+      - - number
+        - '93'
+      - - release_date
+        - '1998-08-01'
+  rules: ''
+  subtype: Sheep
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/flock-of-rabid-sheep/
 

@@ -59,9 +59,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2018
-    number: 43
+    number: '43'
     rarity: mythic_rare
-    release_date: '2018-08-10'
+    release_date: 2018-08-10
     tla: C18
     variations: []
     wizards_id: 450644
@@ -79,21 +79,41 @@ subtype_tokens:
 synonyms: []
 tapped_id: 20646
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 2/2
-    - - rules
-      - Forestwalk
-    - - type
-      - Token Creature
-    - - subtype
-      - 92
-    - - cannonical_type
-      - Creature
-    - - name
-      - Cat Warrior 2/2 G
+- cannonical_type: Creature
+  colors: G
+  name: Cat Warrior 2/2 G
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C17
+      - - name
+        - Commander 2017
+      - - number
+        - '8'
+      - - release_date
+        - '2017-08-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C18
+      - - name
+        - Commander 2018
+      - - number
+        - '9'
+      - - release_date
+        - '2018-08-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DMC
+      - - name
+        - 'Dominaria United: Commander'
+      - - number
+        - '17'
+      - - release_date
+        - '2022-09-10'
+  rules: Forestwalk
+  subtype: Cat Warrior
+  type: Token Creature
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/lord-windgrace/
 

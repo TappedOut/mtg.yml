@@ -8,6 +8,7 @@ canadian_hl_score: 0
 cannonical_set: CNS
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -54,9 +55,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Conspiracy
-    number: 46
+    number: '46'
     rarity: uncommon
-    release_date: '2014-06-06'
+    release_date: 2014-06-06
     tla: CNS
     variations: []
     wizards_id: 382269
@@ -73,21 +74,41 @@ subtype_tokens:
 synonyms: []
 tapped_id: 15561
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Defender
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 72
-    - - cannonical_type
-      - Creature
-    - - name
-      - Construct 1/1 C Token w/ Defender
+- cannonical_type: Creature
+  colors: C
+  name: Construct 1/1 C Token w/ Defender
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CNS
+      - - name
+        - Conspiracy
+      - - number
+        - '8'
+      - - release_date
+        - '2014-06-06'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CN2
+      - - name
+        - 'Conspiracy: Take the Crown'
+      - - number
+        - '12'
+      - - release_date
+        - '2016-08-26'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GRNMED
+      - - name
+        - 'Guilds of Ravnica: Mythic Edition'
+      - - number
+        - '3'
+      - - release_date
+        - '2018-10-04'
+  rules: Defender
+  subtype: Construct
+  type: Token Artifact Creature
 type: Creature
 url: https://tappedout.net/mtg-card/flamewright/
 

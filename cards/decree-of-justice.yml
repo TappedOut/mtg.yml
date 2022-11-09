@@ -6,6 +6,7 @@ canadian_hl_score: 0
 cannonical_set: C20
 cannonical_type: Sorcery
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -54,7 +55,7 @@ printings:
     name: Scourge
     number: null
     rarity: rare
-    release_date: '2003-05-17'
+    release_date: 2003-05-17
     tla: SCG
     variations: []
     wizards_id: 45141
@@ -71,9 +72,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Promo Set
-    number: 5
+    number: '5'
     rarity: rare
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations: []
     wizards_id: null
@@ -91,9 +92,9 @@ printings:
     mtgo_foil_id: 53148
     mtgo_id: 53147
     name: Vintage Masters
-    number: 22
+    number: '22'
     rarity: rare
-    release_date: '2014-06-16'
+    release_date: 2014-06-16
     tla: VMA
     variations: []
     wizards_id: 382911
@@ -110,9 +111,9 @@ printings:
     mtgo_foil_id: 55072
     mtgo_id: 55071
     name: Commander 2014
-    number: 70
+    number: '70'
     rarity: rare
-    release_date: '2014-11-21'
+    release_date: 2014-11-21
     tla: C14
     variations: []
     wizards_id: 389480
@@ -129,9 +130,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Duel Decks: Elspeth vs. Kiora'
-    number: 7
+    number: '7'
     rarity: rare
-    release_date: '2015-02-27'
+    release_date: 2015-02-27
     tla: DDO
     variations: []
     wizards_id: 394359
@@ -149,9 +150,9 @@ printings:
     mtgo_foil_id: 66937
     mtgo_id: 66936
     name: Masters 25
-    number: 11
+    number: '11'
     rarity: null
-    release_date: '2018-03-16'
+    release_date: 2018-03-16
     tla: A25
     variations: []
     wizards_id: 442000
@@ -170,7 +171,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: rare
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -187,13 +188,52 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2020
-    number: 85
+    number: '85'
     rarity: rare
-    release_date: '2020-05-15'
+    release_date: 2020-05-15
     tla: C20
     variations: []
     wizards_id: 482713
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482713
+- WC03:
+    alterations:
+    - Normal
+    artist: Adam Rex
+    booster_exclude: false
+    border_color: G
+    cannonical: false
+    flavour_text: null
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 2003 World Championship Decks
+    number: dz8
+    rarity: rare
+    release_date: 2003-08-06
+    tla: WC03
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- WC04:
+    alterations:
+    - Normal
+    artist: Adam Rex
+    booster_exclude: false
+    border_color: G
+    cannonical: false
+    flavour_text: null
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 2004 World Championship Decks
+    number: gn8
+    rarity: rare
+    release_date: 2004-09-01
+    tla: WC04
+    variations:
+    - identifier: jn8
+    wizards_id: null
+    wizards_url: null
 rarity: rare
 rules: "Create X 4/4 white Angel creature tokens with flying.\r\n\r\nCycling [[symbol:2]][[symbol:W]]\
   \ *([[symbol:2]][[symbol:W]], Discard this card: Draw a card.)*\r\n\r\nWhen you\
@@ -203,36 +243,643 @@ slug: decree-of-justice
 synonyms: []
 tapped_id: 3557
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 4/4
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 20
-    - - cannonical_type
-      - Creature
-    - - name
-      - Angel 4/4 W
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 18
-    - - cannonical_type
-      - Creature
-    - - name
-      - Soldier 1/1 W
+- cannonical_type: Creature
+  colors: W
+  name: Angel 4/4 W
+  power_toughness: 4/4
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SCG
+      - - name
+        - Scourge
+      - - number
+        - null
+      - - release_date
+        - '2003-05-17'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CON
+      - - name
+        - Conflux
+      - - number
+        - '1'
+      - - release_date
+        - '2009-02-06'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ZEN
+      - - name
+        - Zendikar
+      - - number
+        - '1'
+      - - release_date
+        - '2009-10-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ISD
+      - - name
+        - Innistrad
+      - - number
+        - '1'
+      - - release_date
+        - '2011-09-30'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AVR
+      - - name
+        - Avacyn Restored
+      - - number
+        - '1'
+      - - release_date
+        - '2012-05-04'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GTC
+      - - name
+        - Gatecrash
+      - - number
+        - '1'
+      - - release_date
+        - '2013-02-01'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M14
+      - - name
+        - Magic 2014
+      - - number
+        - '2'
+      - - release_date
+        - '2013-07-19'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C14
+      - - name
+        - Commander 2014
+      - - number
+        - '1'
+      - - release_date
+        - '2014-11-21'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ORI
+      - - name
+        - Magic Origins
+      - - number
+        - '1'
+      - - release_date
+        - '2015-06-17'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C15
+      - - name
+        - Commander 2015
+      - - number
+        - '2'
+      - - release_date
+        - '2015-11-13'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DDQ
+      - - name
+        - 'Duel Decks: Blessed vs. Cursed'
+      - - number
+        - '77'
+      - - release_date
+        - '2016-02-26'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SOI
+      - - name
+        - Shadows over Innistrad
+      - - number
+        - '1'
+      - - release_date
+        - '2016-04-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - PCA
+      - - name
+        - Planechase Anthology
+      - - number
+        - '5'
+      - - release_date
+        - '2016-11-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MM3
+      - - name
+        - Modern Masters 2017 Edition
+      - - number
+        - '1'
+      - - release_date
+        - '2017-03-17'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - IMA
+      - - name
+        - Iconic Masters
+      - - number
+        - '1'
+      - - release_date
+        - '2017-11-17'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UN3
+      - - name
+        - Unstable
+      - - number
+        - '1'
+      - - release_date
+        - '2017-12-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UN3
+      - - name
+        - Unstable
+      - - number
+        - '21'
+      - - release_date
+        - '2017-12-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - A25
+      - - name
+        - Masters 25
+      - - number
+        - '2'
+      - - release_date
+        - '2018-03-16'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C18
+      - - name
+        - Commander 2018
+      - - number
+        - '3'
+      - - release_date
+        - '2018-08-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C20
+      - - name
+        - Commander 2020
+      - - number
+        - '1'
+      - - release_date
+        - '2020-05-15'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M21
+      - - name
+        - Core Set 2021
+      - - number
+        - '1'
+      - - release_date
+        - '2020-07-03'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - '3'
+      - - release_date
+        - '2020-08-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '1'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AFC
+      - - name
+        - 'Adventures in the Forgotten Realms: Commander'
+      - - number
+        - '1'
+      - - release_date
+        - '2021-07-24'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOC
+      - - name
+        - 'Innistrad: Crimson Vow Commander'
+      - - number
+        - '2'
+      - - release_date
+        - '2021-11-18'
+  rules: Flying
+  subtype: Angel
+  type: Token Creature
+- cannonical_type: Creature
+  colors: W
+  name: Soldier 1/1 W
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UGL
+      - - name
+        - Unglued
+      - - number
+        - '90'
+      - - release_date
+        - '1998-08-01'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ONS
+      - - name
+        - Onslaught
+      - - number
+        - '8'
+      - - release_date
+        - '2002-10-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 10E
+      - - name
+        - Tenth Edition
+      - - number
+        - '1'
+      - - release_date
+        - '2007-07-13'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ALA
+      - - name
+        - Shards of Alara
+      - - number
+        - '1'
+      - - release_date
+        - '2008-10-03'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M10
+      - - name
+        - 2010 Core Set
+      - - number
+        - '2'
+      - - release_date
+        - '2009-07-17'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SOM
+      - - name
+        - Scars of Mirrodin
+      - - number
+        - '2'
+      - - release_date
+        - '2010-10-01'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DDF
+      - - name
+        - 'Duel Decks: Elspeth vs. Tezzeret'
+      - - number
+        - '1'
+      - - release_date
+        - '2010-09-03'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M13
+      - - name
+        - Magic 2013
+      - - number
+        - '3'
+      - - release_date
+        - '2012-07-13'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - RTR
+      - - name
+        - Return to Ravnica
+      - - number
+        - '3'
+      - - release_date
+        - '2012-10-05'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MMA
+      - - name
+        - Modern Masters
+      - - number
+        - '3'
+      - - release_date
+        - '2013-06-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - THS
+      - - name
+        - Theros
+      - - number
+        - '2'
+      - - release_date
+        - '2013-09-27'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - THS
+      - - name
+        - Theros
+      - - number
+        - '3'
+      - - release_date
+        - '2013-09-27'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MD1
+      - - name
+        - Modern Event Deck
+      - - number
+        - '1'
+      - - release_date
+        - '2014-05-30'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M15
+      - - name
+        - Magic 2015
+      - - number
+        - '2'
+      - - release_date
+        - '2014-07-18'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C14
+      - - name
+        - Commander 2014
+      - - number
+        - '6'
+      - - release_date
+        - '2014-11-21'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MM2
+      - - name
+        - Modern Masters 2015 Edition
+      - - number
+        - '4'
+      - - release_date
+        - '2015-05-22'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ORI
+      - - name
+        - Magic Origins
+      - - number
+        - '3'
+      - - release_date
+        - '2015-06-17'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - EMA
+      - - name
+        - Eternal Masters
+      - - number
+        - '2'
+      - - release_date
+        - '2016-06-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CN2
+      - - name
+        - 'Conspiracy: Take the Crown'
+      - - number
+        - '2'
+      - - release_date
+        - '2016-08-26'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C16
+      - - name
+        - Commander 2016
+      - - number
+        - '5'
+      - - release_date
+        - '2016-11-11'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MM3
+      - - name
+        - Modern Masters 2017 Edition
+      - - number
+        - '3'
+      - - release_date
+        - '2017-03-17'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - E01
+      - - name
+        - 'Archenemy: Nicol Bolas'
+      - - number
+        - '1'
+      - - release_date
+        - '2017-06-16'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - A25
+      - - name
+        - Masters 25
+      - - number
+        - '3'
+      - - release_date
+        - '2018-03-16'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M19
+      - - name
+        - Core Set 2019
+      - - number
+        - '6'
+      - - release_date
+        - '2018-07-13'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C18
+      - - name
+        - Commander 2018
+      - - number
+        - '6'
+      - - release_date
+        - '2018-08-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GRNMED
+      - - name
+        - 'Guilds of Ravnica: Mythic Edition'
+      - - number
+        - '1'
+      - - release_date
+        - '2018-10-04'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - '000'
+      - - name
+        - Promo Set
+      - - number
+        - '1'
+      - - release_date
+        - '1990-04-15'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MH1
+      - - name
+        - Modern Horizons
+      - - number
+        - '4'
+      - - release_date
+        - '2019-06-14'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M20
+      - - name
+        - Core Set 2020
+      - - number
+        - '2'
+      - - release_date
+        - '2019-07-12'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C20
+      - - name
+        - Commander 2020
+      - - number
+        - '5'
+      - - release_date
+        - '2020-05-15'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M21
+      - - name
+        - Core Set 2021
+      - - number
+        - '5'
+      - - release_date
+        - '2020-07-03'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - '6'
+      - - release_date
+        - '2020-08-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '2'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '16'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KHC
+      - - name
+        - 'Kaldheim: Commander'
+      - - number
+        - '4'
+      - - release_date
+        - '2021-02-05'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - TSR
+      - - name
+        - Time Spiral Remastered
+      - - number
+        - '2'
+      - - release_date
+        - '2021-03-19'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NCC
+      - - name
+        - 'Streets of New Capenna: Commander'
+      - - number
+        - '9'
+      - - release_date
+        - '2022-04-30'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '5'
+      - - release_date
+        - '2022-06-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2X2
+      - - name
+        - Double Masters 2022
+      - - number
+        - '7'
+      - - release_date
+        - '2022-07-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DMU
+      - - name
+        - Dominaria United
+      - - number
+        - '4'
+      - - release_date
+        - '2022-09-09'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 40K
+      - - name
+        - 'Universes Beyond: Warhammer 40K'
+      - - number
+        - '2'
+      - - release_date
+        - '2022-10-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 40K
+      - - name
+        - 'Universes Beyond: Warhammer 40K'
+      - - number
+        - '3'
+      - - release_date
+        - '2022-10-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 40K
+      - - name
+        - 'Universes Beyond: Warhammer 40K'
+      - - number
+        - '4'
+      - - release_date
+        - '2022-10-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GN3
+      - - name
+        - Game Nights Free-for-All
+      - - number
+        - '3'
+      - - release_date
+        - '2022-10-14'
+  rules: ''
+  subtype: Soldier
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/decree-of-justice/
 

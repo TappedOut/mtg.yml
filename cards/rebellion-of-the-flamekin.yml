@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: LRW
 cannonical_type: Enchantment
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -51,9 +52,9 @@ printings:
     mtgo_foil_id: 28750
     mtgo_id: 28749
     name: Lorwyn
-    number: 188
+    number: '188'
     rarity: uncommon
-    release_date: '2007-10-12'
+    release_date: 2007-10-12
     tla: LRW
     variations: []
     wizards_id: 139679
@@ -69,21 +70,50 @@ subtype_tokens:
 synonyms: []
 tapped_id: 354
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 3/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 114
-    - - cannonical_type
-      - Creature
-    - - name
-      - Elemental Shaman 3/1 R
+- cannonical_type: Creature
+  colors: R
+  name: Elemental Shaman 3/1 R
+  power_toughness: 3/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DD2
+      - - name
+        - 'Duel Decks: Jace vs. Chandra'
+      - - number
+        - '1'
+      - - release_date
+        - '2008-11-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - LRW
+      - - name
+        - Lorwyn
+      - - number
+        - '6'
+      - - release_date
+        - '2007-10-12'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C15
+      - - name
+        - Commander 2015
+      - - number
+        - '10'
+      - - release_date
+        - '2015-11-13'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CM2
+      - - name
+        - Commander Anthology 2018
+      - - number
+        - '8'
+      - - release_date
+        - '2018-06-08'
+  rules: ''
+  subtype: Elemental Shaman
+  type: Token Creature
 type: Tribal Enchantment
 url: https://tappedout.net/mtg-card/rebellion-of-the-flamekin/
 

@@ -57,9 +57,9 @@ printings:
     mtgo_foil_id: 26092
     mtgo_id: 26091
     name: Time Spiral "Timeshifted"
-    number: 27
+    number: '27'
     rarity: rare
-    release_date: '2006-10-06'
+    release_date: 2006-10-06
     tla: TSB
     variations: []
     wizards_id: 108863
@@ -78,7 +78,7 @@ printings:
     name: Visions
     number: null
     rarity: uncommon
-    release_date: '1997-02-03'
+    release_date: 1997-02-03
     tla: VIS
     variations: []
     wizards_id: 3646
@@ -96,21 +96,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 1319
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 0/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 665
-    - - cannonical_type
-      - Creature
-    - - name
-      - Sheep 0/1 G
+- cannonical_type: Creature
+  colors: G
+  name: Sheep 0/1 G
+  power_toughness: 0/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UGL
+      - - name
+        - Unglued
+      - - number
+        - '93'
+      - - release_date
+        - '1998-08-01'
+  rules: ''
+  subtype: Sheep
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/ovinomancer/
 

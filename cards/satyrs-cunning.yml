@@ -60,9 +60,9 @@ printings:
     mtgo_foil_id: 79429
     mtgo_id: 79428
     name: Theros Beyond Death
-    number: 152
+    number: '152'
     rarity: common
-    release_date: '2020-01-24'
+    release_date: 2020-01-24
     tla: THB
     variations: []
     wizards_id: 476403
@@ -74,21 +74,23 @@ slug: satyrs-cunning
 synonyms: []
 tapped_id: 22583
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 1/1
-    - - rules
-      - This creature can't block.
-    - - type
-      - Token Creature
-    - - subtype
-      - 812
-    - - cannonical_type
-      - Creature
-    - - name
-      - Satyr 1/1 R
+- cannonical_type: Creature
+  colors: R
+  name: Satyr 1/1 R
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - THB
+      - - name
+        - Theros Beyond Death
+      - - number
+        - '9'
+      - - release_date
+        - '2020-01-24'
+  rules: This creature can't block.
+  subtype: Satyr
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/satyrs-cunning/
 

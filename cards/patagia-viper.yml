@@ -6,6 +6,7 @@ cannonical_set: C15
 cannonical_type: Creature
 color_identity: U
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -55,7 +56,7 @@ printings:
     name: Dissension
     number: null
     rarity: uncommon
-    release_date: '2006-05-05'
+    release_date: 2006-05-05
     tla: DIS
     variations: []
     wizards_id: 107549
@@ -72,9 +73,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2015
-    number: 197
+    number: '197'
     rarity: uncommon
-    release_date: '2015-11-13'
+    release_date: 2015-11-13
     tla: C15
     variations: []
     wizards_id: 405335
@@ -90,21 +91,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 1622
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - GU
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 63
-    - - cannonical_type
-      - Creature
-    - - name
-      - Snake 1/1 GU
+- cannonical_type: Creature
+  colors: GU
+  name: Snake 1/1 GU
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C15
+      - - name
+        - Commander 2015
+      - - number
+        - '21'
+      - - release_date
+        - '2015-11-13'
+  rules: ''
+  subtype: Snake
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/patagia-viper/
 

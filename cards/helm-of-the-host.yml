@@ -1,9 +1,13 @@
-activated_abilities: []
+activated_abilities:
+- 'Equip   *(: Attach this to target creature you control. Equip only as a sorcery.
+  This enters the battlefield unattached and stays on the battlefield if the creature
+  this card is attached to leaves the battlefield.)*'
 activated_costs: []
 canadian_hl_score: 0
 cannonical_set: DOM
 cannonical_type: Artifact
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -12,6 +16,7 @@ companions:
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+- Zirda, the Dawnwaker
 effective_cost: []
 formats:
 - 1v1 Commander
@@ -30,12 +35,14 @@ formats:
 - Oathbreaker
 - Pioneer
 - Vintage
+has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
 - Equip
 - Haste
 - Attach
+- Tokens
 mana_cost: '4'
 mana_value: 4
 melds_from: []
@@ -48,6 +55,7 @@ printings:
     - Prerelease
     - Promo pack
     - PromoPackF
+    - The List
     artist: Igor Kieryluk
     booster_exclude: false
     border_color: B
@@ -57,18 +65,42 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Dominaria
-    number: 217
+    number: '217'
     rarity: rare
-    release_date: '2018-04-22'
+    release_date: 2018-04-22
     tla: DOM
     variations:
     - identifier: PromoPack
     wizards_id: 443105
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=443105
+- BRR:
+    alterations:
+    - Normal
+    - Foil
+    artist: Igor Kieryluk
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'The Brothers'' War: Retro Artifacts'
+    number: '19'
+    rarity: mythic_rare
+    release_date: 2022-11-18
+    tla: BRR
+    variations:
+    - identifier: '82'
+    wizards_id: null
+    wizards_url: null
 rarity: rare
 rules: "At the beginning of combat on your turn, create a token that's a copy of equipped\
   \ creature, except the token isn't legendary if equipped creature is legendary.\
-  \ That token gains haste. \r\n\r\nEquip [[5]]"
+  \ That token gains haste. \r\n\r\nEquip [[symbol:5]]  *([[symbol:5]]: Attach this\
+  \ to target creature you control. Equip only as a sorcery. This enters the battlefield\
+  \ unattached and stays on the battlefield if the creature this card is attached\
+  \ to leaves the battlefield.)*"
 slug: helm-of-the-host
 subtype: Equipment
 subtype_tokens:
@@ -76,21 +108,85 @@ subtype_tokens:
 synonyms: []
 tapped_id: 20081
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - null
-    - - power_toughness
-      - null
-    - - rules
-      - '*This token can be used to represent a token that''s a copy of a permanent.*'
-    - - type
-      - Token Creature
-    - - subtype
-      - null
-    - - cannonical_type
-      - Creature
-    - - name
-      - Copy Clone
+- cannonical_type: Creature
+  colors: null
+  name: Copy Clone
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GK1
+      - - name
+        - 'Guilds of Ravnica: Guild Kit'
+      - - number
+        - '1'
+      - - release_date
+        - '2018-11-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - '31'
+      - - release_date
+        - '2020-08-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ZNR
+      - - name
+        - Zendikar Rising
+      - - number
+        - '12'
+      - - release_date
+        - '2020-09-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '13'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '23'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C21
+      - - name
+        - Commander 2021
+      - - number
+        - '30'
+      - - release_date
+        - '2021-04-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '19'
+      - - release_date
+        - '2021-11-11'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '19'
+      - - release_date
+        - '2022-06-10'
+  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
+  type: Token Creature
 type: Legendary Artifact
 url: https://tappedout.net/mtg-card/helm-of-the-host/
 

@@ -64,15 +64,15 @@ printings:
     artist: A. M. Sartor
     booster_exclude: false
     border_color: B
-    cannonical: false
-    flavour_text: null
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
-    number: 178
+    number: '178'
     rarity: common
-    release_date: '2022-02-10'
+    release_date: 2022-02-10
     tla: NEO
     variations: []
     wizards_id: 548485
@@ -88,21 +88,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 25950
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 1/1
-    - - rules
-      - '[[symbol:T]]: Add [[symbol:G]].'
-    - - type
-      - Token Creature
-    - - subtype
-      - 135
-    - - cannonical_type
-      - Creature
-    - - name
-      - Human Monk
+- cannonical_type: Creature
+  colors: G
+  name: Human Monk 1/1 G
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NEO
+      - - name
+        - 'Kamigawa: Neon Dynasty'
+      - - number
+        - '10'
+      - - release_date
+        - '2022-02-10'
+  rules: '[[symbol:T]]: Add [[symbol:G]].'
+  subtype: Human Monk
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/careful-cultivation/
 

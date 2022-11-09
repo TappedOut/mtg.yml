@@ -6,6 +6,7 @@ canadian_hl_score: 0
 cannonical_set: FUT
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -56,7 +57,7 @@ printings:
     name: Future Sight
     number: null
     rarity: uncommon
-    release_date: '2007-05-04'
+    release_date: 2007-05-04
     tla: FUT
     variations: []
     wizards_id: 130329
@@ -75,9 +76,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Time Spiral Remastered
-    number: 273
+    number: '273'
     rarity: uncommon
-    release_date: '2021-03-19'
+    release_date: 2021-03-19
     tla: TSR
     variations: []
     wizards_id: 509638
@@ -92,21 +93,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 769
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 15
-    - - cannonical_type
-      - Creature
-    - - name
-      - Metallic Sliver 1/1 C
+- cannonical_type: Creature
+  colors: C
+  name: Metallic Sliver 1/1 C
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - TSR
+      - - name
+        - Time Spiral Remastered
+      - - number
+        - null
+      - - release_date
+        - '2021-03-19'
+  rules: ''
+  subtype: Sliver
+  type: Token Artifact Creature
 type: Artifact Creature
 url: https://tappedout.net/mtg-card/sliversmith/
 

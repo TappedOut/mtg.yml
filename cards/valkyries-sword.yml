@@ -5,6 +5,7 @@ canadian_hl_score: 0
 cannonical_set: KHM
 cannonical_type: Artifact
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -63,9 +64,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Kaldheim
-    number: 36
+    number: '36'
     rarity: uncommon
-    release_date: '2021-02-05'
+    release_date: 2021-02-05
     tla: KHM
     variations: []
     wizards_id: 503642
@@ -81,21 +82,41 @@ subtype_tokens:
 synonyms: []
 tapped_id: 23881
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 4/4
-    - - rules
-      - Flying, vigilance
-    - - type
-      - Token Creature
-    - - subtype
-      - 804
-    - - cannonical_type
-      - Creature
-    - - name
-      - Angel Warrior 4/4 W w/ Vigilance
+- cannonical_type: Creature
+  colors: W
+  name: Angel Warrior 4/4 W w/ Vigilance
+  power_toughness: 4/4
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KHM
+      - - name
+        - Kaldheim
+      - - number
+        - '2'
+      - - release_date
+        - '2021-02-05'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '25'
+      - - release_date
+        - '2022-06-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2X2
+      - - name
+        - Double Masters 2022
+      - - number
+        - '3'
+      - - release_date
+        - '2022-07-08'
+  rules: Flying, vigilance
+  subtype: Angel Warrior
+  type: Token Creature
 type: Artifact
 url: https://tappedout.net/mtg-card/valkyries-sword/
 

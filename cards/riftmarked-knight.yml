@@ -57,7 +57,7 @@ printings:
     name: Planar Chaos
     number: null
     rarity: uncommon
-    release_date: '2007-02-02'
+    release_date: 2007-02-02
     tla: PLC
     variations: []
     wizards_id: 126816
@@ -75,9 +75,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Time Spiral Remastered
-    number: 38
+    number: '38'
     rarity: uncommon
-    release_date: '2021-03-19'
+    release_date: 2021-03-19
     tla: TSR
     variations: []
     wizards_id: 509403
@@ -103,25 +103,27 @@ subtype_tokens:
 synonyms: []
 tapped_id: 921
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - 2/2
-    - - rules
-      - "Protection from white, haste *((Remember the acronym <b>debt</b>.) This can't\
-        \ be <b>d</b>amaged, <b>e</b>nchanted, <b>e</b>quipped, <b>b</b>locked or\
-        \ <b>t</b>argeted by anything white. Anything white attached to this immediately\
-        \ falls off.)*\r\n\r\nFlanking *(Whenever a creature without flanking blocks\
-        \ this creature, the blocking creature gets -1/-1 until end of turn.)*"
-    - - type
-      - Token Creature
-    - - subtype
-      - 501
-    - - cannonical_type
-      - Creature
-    - - name
-      - Knight 2/2 B
+- cannonical_type: Creature
+  colors: B
+  name: Knight 2/2 B
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - TSR
+      - - name
+        - Time Spiral Remastered
+      - - number
+        - null
+      - - release_date
+        - '2021-03-19'
+  rules: "Protection from white, haste *((Remember the acronym <b>debt</b>.) This\
+    \ can't be <b>d</b>amaged, <b>e</b>nchanted, <b>e</b>quipped, <b>b</b>locked or\
+    \ <b>t</b>argeted by anything white. Anything white attached to this immediately\
+    \ falls off.)*\r\n\r\nFlanking *(Whenever a creature without flanking blocks this\
+    \ creature, the blocking creature gets -1/-1 until end of turn.)*"
+  subtype: Knight
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/riftmarked-knight/
 

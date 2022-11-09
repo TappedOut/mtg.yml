@@ -8,6 +8,7 @@ canadian_hl_score: 0
 cannonical_set: RIX
 cannonical_type: Planeswalker
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -61,9 +62,9 @@ printings:
     mtgo_foil_id: 66774
     mtgo_id: 66773
     name: Rivals of Ixalan
-    number: 159
+    number: '159'
     rarity: mythic_rare
-    release_date: '2018-01-19'
+    release_date: 2018-01-19
     tla: RIX
     variations: []
     wizards_id: 439817
@@ -81,22 +82,24 @@ subtype_tokens:
 synonyms: []
 tapped_id: 19889
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Whenever a creature enters the battlefield under your control, you may draw
-        a card.
-    - - type
-      - Emblem
-    - - subtype
-      - 1206
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Huatli, Radiant Champion
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Huatli, Radiant Champion
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - RIX
+      - - name
+        - Rivals of Ixalan
+      - - number
+        - '5'
+      - - release_date
+        - '2018-01-19'
+  rules: Whenever a creature enters the battlefield under your control, you may draw
+    a card.
+  subtype: Huatli
+  type: Emblem
 type: Planeswalker
 url: https://tappedout.net/mtg-card/huatli-radiant-champion/
 

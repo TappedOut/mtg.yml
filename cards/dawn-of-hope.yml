@@ -6,6 +6,7 @@ canadian_hl_score: 0
 cannonical_set: GRN
 cannonical_type: Enchantment
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -63,9 +64,9 @@ printings:
     mtgo_foil_id: 69390
     mtgo_id: 69389
     name: Guilds of Ravnica
-    number: 8
+    number: '8'
     rarity: rare
-    release_date: '2018-10-05'
+    release_date: 2018-10-05
     tla: GRN
     variations:
     - identifier: Animated
@@ -78,21 +79,32 @@ slug: dawn-of-hope
 synonyms: []
 tapped_id: 20893
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Lifelink
-    - - type
-      - Token Creature
-    - - subtype
-      - 18
-    - - cannonical_type
-      - Creature
-    - - name
-      - Soldier 1/1 W w/ Lifelink
+- cannonical_type: Creature
+  colors: W
+  name: Soldier 1/1 W w/ Lifelink
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GRN
+      - - name
+        - Guilds of Ravnica
+      - - number
+        - '2'
+      - - release_date
+        - '2018-10-05'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SCD
+      - - name
+        - Starter Commander Decks
+      - - number
+        - '2'
+      - - release_date
+        - '2022-12-02'
+  rules: Lifelink
+  subtype: Soldier
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/dawn-of-hope/
 

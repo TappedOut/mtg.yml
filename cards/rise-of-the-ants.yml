@@ -5,6 +5,7 @@ canadian_hl_score: 0
 cannonical_set: MID
 cannonical_type: Sorcery
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -59,9 +60,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Midnight Hunt'
-    number: 196
+    number: '196'
     rarity: uncommon
-    release_date: '2021-09-24'
+    release_date: 2021-09-24
     tla: MID
     variations: []
     wizards_id: 534985
@@ -79,9 +80,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Double Feature'
-    number: 196
+    number: '196'
     rarity: uncommon
-    release_date: '2022-01-21'
+    release_date: 2022-01-21
     tla: DBL
     variations: []
     wizards_id: null
@@ -93,21 +94,23 @@ slug: rise-of-the-ants
 synonyms: []
 tapped_id: 25152
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 3/3
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 16
-    - - cannonical_type
-      - Creature
-    - - name
-      - Insect 3/3 G
+- cannonical_type: Creature
+  colors: G
+  name: Insect 3/3 G
+  power_toughness: 3/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MID
+      - - name
+        - 'Innistrad: Midnight Hunt'
+      - - number
+        - '9'
+      - - release_date
+        - '2021-09-24'
+  rules: ''
+  subtype: Insect
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/rise-of-the-ants/
 

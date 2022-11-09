@@ -62,38 +62,40 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Streets of New Capenna
-    number: 173
+    number: '173'
     rarity: uncommon
-    release_date: '2022-04-29'
+    release_date: 2022-04-29
     tla: SNC
     variations:
     - identifier: '300'
     - identifier: '365'
     wizards_id: 555374
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=555374
-rules: "Choose one &mdash;\r\n\r\n- CARDNAME deals damage equal to the number of creatures\
-  \ you control to target creature or planeswalker.\r\n- Creatures you control get\
-  \ +1/+1 and gain trample until end of turn.\r\n- Create two 1/1 green and white\
-  \ Citizen creature tokens."
+rules: "Choose one \u2014\r\n\r\n- Cabaretti Charm deals damage equal to the number\
+  \ of creatures you control to target creature or planeswalker.\r\n- Creatures you\
+  \ control get +1/+1 and gain trample until end of turn.\r\n- Create two 1/1 green\
+  \ and white Citizen creature tokens."
 slug: cabaretti-charm
 synonyms: []
 tapped_id: 26129
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - GW
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 905
-    - - cannonical_type
-      - Creature
-    - - name
-      - Citizen 1/1 GW
+- cannonical_type: Creature
+  colors: GW
+  name: Citizen 1/1 GW
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SNC
+      - - name
+        - Streets of New Capenna
+      - - number
+        - '12'
+      - - release_date
+        - '2022-04-29'
+  rules: ''
+  subtype: Citizen
+  type: Token Creature
 type: Instant
 url: https://tappedout.net/mtg-card/cabaretti-charm/
 

@@ -5,6 +5,7 @@ canadian_hl_score: 0
 cannonical_set: KHM
 cannonical_type: Artifact
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -62,9 +63,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Kaldheim
-    number: 88
+    number: '88'
     rarity: uncommon
-    release_date: '2021-02-05'
+    release_date: 2021-02-05
     tla: KHM
     variations: []
     wizards_id: 503696
@@ -80,21 +81,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 23919
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - 2/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 848
-    - - cannonical_type
-      - Creature
-    - - name
-      - Zombie Berserker 2/2 B
+- cannonical_type: Creature
+  colors: B
+  name: Zombie Berserker 2/2 B
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KHM
+      - - name
+        - Kaldheim
+      - - number
+        - null
+      - - release_date
+        - '2021-02-05'
+  rules: ''
+  subtype: Zombie Berserker
+  type: Token Creature
 type: Artifact
 url: https://tappedout.net/mtg-card/draugrs-helm/
 

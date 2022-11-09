@@ -18,7 +18,6 @@ formats:
 - 1v1 Commander
 - Alchemy
 - Arena
-- Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
@@ -28,7 +27,6 @@ formats:
 - Legacy
 - Leviathan
 - Limited
-- Modern
 - Oathbreaker
 - Vintage
 is_mtgo: true
@@ -56,9 +54,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Adventures in the Forgotten Realms: Commander'
-    number: 4
+    number: '4'
     rarity: mythic_rare
-    release_date: '2021-07-24'
+    release_date: 2021-07-24
     tla: AFC
     variations:
     - identifier: '328'
@@ -76,21 +74,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 24823
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - RG
-    - - power_toughness
-      - 5/4
-    - - rules
-      - When this creature deals damage, sacrifice this.
-    - - type
-      - Token Creature
-    - - subtype
-      - 355
-    - - cannonical_type
-      - Creature
-    - - name
-      - Dragon Spirit 5/4 RG
+- cannonical_type: Creature
+  colors: RG
+  name: Dragon Spirit 5/4 RG
+  power_toughness: 5/4
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AFR
+      - - name
+        - 'Dungeons & Dragons: Adventures in the Forgotten Realms'
+      - - number
+        - null
+      - - release_date
+        - '2021-07-23'
+  rules: When this creature deals damage, sacrifice this.
+  subtype: Dragon Spirit
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/vrondiss-rage-of-ancients/
 

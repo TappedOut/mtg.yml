@@ -56,7 +56,7 @@ printings:
     name: Shards of Alara
     number: null
     rarity: uncommon
-    release_date: '2008-10-03'
+    release_date: 2008-10-03
     tla: ALA
     variations: []
     wizards_id: 175070
@@ -74,9 +74,9 @@ printings:
     mtgo_foil_id: 67213
     mtgo_id: 67212
     name: Masters 25
-    number: 149
+    number: '149'
     rarity: common
-    release_date: '2018-03-16'
+    release_date: 2018-03-16
     tla: A25
     variations: []
     wizards_id: 442138
@@ -90,21 +90,32 @@ synonyms:
 - Skeletonise
 tapped_id: 10122
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - 1/1
-    - - rules
-      - '[[symbol:B]]: Regenerate this creature.'
-    - - type
-      - Token Creature
-    - - subtype
-      - 232
-    - - cannonical_type
-      - Creature
-    - - name
-      - Skeleton 1/1 B w/ Regenerate
+- cannonical_type: Creature
+  colors: B
+  name: Skeleton 1/1 B w/ Regenerate
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ALA
+      - - name
+        - Shards of Alara
+      - - number
+        - null
+      - - release_date
+        - '2008-10-03'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - A25
+      - - name
+        - Masters 25
+      - - number
+        - null
+      - - release_date
+        - '2018-03-16'
+  rules: '[[symbol:B]]: Regenerate this creature.'
+  subtype: Skeleton
+  type: Token Creature
 type: Instant
 url: https://tappedout.net/mtg-card/skeletonize/
 

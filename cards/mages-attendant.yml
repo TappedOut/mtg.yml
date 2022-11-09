@@ -62,9 +62,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Streets of New Capenna
-    number: 21
+    number: '21'
     rarity: uncommon
-    release_date: '2022-04-29'
+    release_date: 2022-04-29
     tla: SNC
     variations: []
     wizards_id: 555222
@@ -81,9 +81,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 698
+    number: '698'
     rarity: uncommon
-    release_date: '2022-06-10'
+    release_date: 2022-06-10
     tla: CLB
     variations: []
     wizards_id: 567515
@@ -99,22 +99,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 26184
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 1/1
-    - - rules
-      - '[[symbol:1]], Sacrifice this creature: Counter target noncreature spell unless
-        its controller pays [[symbol:1]].'
-    - - type
-      - Token Creature
-    - - subtype
-      - null
-    - - cannonical_type
-      - Creature
-    - - name
-      - Wizard 1/1 U
+- cannonical_type: Creature
+  colors: U
+  name: Wizard 1/1 U
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SNC
+      - - name
+        - Streets of New Capenna
+      - - number
+        - '5'
+      - - release_date
+        - '2022-04-29'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '30'
+      - - release_date
+        - '2022-06-10'
+  rules: '[[symbol:1]], Sacrifice this creature: Counter target noncreature spell
+    unless its controller pays [[symbol:1]].'
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/mages-attendant/
 

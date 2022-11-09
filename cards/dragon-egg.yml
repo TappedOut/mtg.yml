@@ -61,9 +61,9 @@ printings:
     mtgo_foil_id: 49412
     mtgo_id: 49411
     name: Magic 2014
-    number: 137
+    number: '137'
     rarity: uncommon
-    release_date: '2013-07-19'
+    release_date: 2013-07-19
     tla: M14
     variations: []
     wizards_id: 370660
@@ -82,9 +82,9 @@ printings:
     mtgo_foil_id: 60798
     mtgo_id: 60797
     name: Eternal Masters
-    number: 126
+    number: '126'
     rarity: common
-    release_date: '2016-06-10'
+    release_date: 2016-06-10
     tla: EMA
     variations: []
     wizards_id: 413668
@@ -103,9 +103,9 @@ printings:
     mtgo_foil_id: 66128
     mtgo_id: 66127
     name: Iconic Masters
-    number: 124
+    number: '124'
     rarity: common
-    release_date: '2017-11-17'
+    release_date: 2017-11-17
     tla: IMA
     variations: []
     wizards_id: 438690
@@ -124,9 +124,9 @@ printings:
     mtgo_foil_id: 68438
     mtgo_id: 68437
     name: Core Set 2019
-    number: 138
+    number: '138'
     rarity: uncommon
-    release_date: '2018-07-13'
+    release_date: 2018-07-13
     tla: M19
     variations: []
     wizards_id: 447274
@@ -144,9 +144,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Game Night 2019
-    number: 39
+    number: '39'
     rarity: uncommon
-    release_date: '2019-11-15'
+    release_date: 2019-11-15
     tla: GN2
     variations: []
     wizards_id: 476105
@@ -166,7 +166,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: common
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -185,9 +185,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander Legends
-    number: 173
+    number: '173'
     rarity: common
-    release_date: '2020-11-20'
+    release_date: 2020-11-20
     tla: CMR
     variations: []
     wizards_id: 497693
@@ -207,7 +207,7 @@ printings:
     name: 'Jumpstart: Historic Horizons'
     number: null
     rarity: common
-    release_date: '2021-08-12'
+    release_date: 2021-08-12
     tla: J21
     variations: []
     wizards_id: null
@@ -224,21 +224,95 @@ subtype_tokens:
 synonyms: []
 tapped_id: 14749
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 2/2
-    - - rules
-      - "Flying\r\n\r\n[[symbol:R]]: This creature gets +1/+0 until end of turn."
-    - - type
-      - Token Creature
-    - - subtype
-      - 42
-    - - cannonical_type
-      - Creature
-    - - name
-      - Dragon 2/2 R
+- cannonical_type: Creature
+  colors: R
+  name: Dragon 2/2 R
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M14
+      - - name
+        - Magic 2014
+      - - number
+        - '6'
+      - - release_date
+        - '2013-07-19'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M15
+      - - name
+        - Magic 2015
+      - - number
+        - '7'
+      - - release_date
+        - '2014-07-18'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - EMA
+      - - name
+        - Eternal Masters
+      - - number
+        - '8'
+      - - release_date
+        - '2016-06-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - IMA
+      - - name
+        - Iconic Masters
+      - - number
+        - '5'
+      - - release_date
+        - '2017-11-17'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C18
+      - - name
+        - Commander 2018
+      - - number
+        - '11'
+      - - release_date
+        - '2018-08-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M19
+      - - name
+        - Core Set 2019
+      - - number
+        - '9'
+      - - release_date
+        - '2018-07-13'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C19
+      - - name
+        - Commander 2019
+      - - number
+        - '12'
+      - - release_date
+        - '2019-08-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '7'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GN3
+      - - name
+        - Game Nights Free-for-All
+      - - number
+        - '8'
+      - - release_date
+        - '2022-10-14'
+  rules: "Flying\r\n\r\n[[symbol:R]]: This creature gets +1/+0 until end of turn."
+  subtype: Dragon
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/dragon-egg/
 

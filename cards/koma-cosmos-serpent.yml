@@ -66,9 +66,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Kaldheim
-    number: 221
+    number: '221'
     rarity: mythic_rare
-    release_date: '2021-02-05'
+    release_date: 2021-02-05
     tla: KHM
     variations:
     - identifier: '326'
@@ -87,21 +87,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 23728
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 3/3
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 159
-    - - cannonical_type
-      - Creature
-    - - name
-      - Koma's Coil 3/3 U
+- cannonical_type: Creature
+  colors: U
+  name: Koma's Coil 3/3 U
+  power_toughness: 3/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KHM
+      - - name
+        - Kaldheim
+      - - number
+        - null
+      - - release_date
+        - '2021-02-05'
+  rules: ''
+  subtype: Serpent
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/koma-cosmos-serpent/
 

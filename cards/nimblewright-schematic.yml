@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Artifact
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -56,9 +57,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 330
+    number: '330'
     rarity: common
-    release_date: '2022-06-10'
+    release_date: 2022-06-10
     tla: CLB
     variations: []
     wizards_id: 563213
@@ -69,21 +70,41 @@ slug: nimblewright-schematic
 synonyms: []
 tapped_id: 26712
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 72
-    - - cannonical_type
-      - Creature
-    - - name
-      - Construct 1/1 C
+- cannonical_type: Creature
+  colors: C
+  name: Construct 1/1 C
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ZNR
+      - - name
+        - Zendikar Rising
+      - - number
+        - '10'
+      - - release_date
+        - '2020-09-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NEO
+      - - name
+        - 'Kamigawa: Neon Dynasty'
+      - - number
+        - '15'
+      - - release_date
+        - '2022-02-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '16'
+      - - release_date
+        - '2022-06-10'
+  rules: ''
+  subtype: Construct
+  type: Token Artifact Creature
 type: Artifact
 url: https://tappedout.net/mtg-card/nimblewright-schematic/
 

@@ -7,6 +7,7 @@ canadian_hl_score: 0
 cannonical_set: ORI
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -61,9 +62,9 @@ printings:
     mtgo_foil_id: 57881
     mtgo_id: 57880
     name: Magic Origins
-    number: 60
+    number: '60'
     rarity: mythic_rare
-    release_date: '2015-06-17'
+    release_date: 2015-06-17
     tla: ORI
     variations: []
     wizards_id: 398434
@@ -80,9 +81,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Promo Set
-    number: 1
+    number: '1'
     rarity: mythic_rare
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations: []
     wizards_id: null
@@ -100,9 +101,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'From the Vault: Transform'
-    number: 12
+    number: '12'
     rarity: mythic_rare
-    release_date: '2017-11-24'
+    release_date: 2017-11-24
     tla: V17
     variations: []
     wizards_id: 439335
@@ -120,21 +121,23 @@ synonyms:
 - Literal Actual Baby Jace
 tapped_id: 16928
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Whenever you cast a spell, target opponent mills 5 cards.
-    - - type
-      - Emblem
-    - - subtype
-      - 481
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Jace, Vryn's Prodigy
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Jace, Vryn's Prodigy
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ORI
+      - - name
+        - Magic Origins
+      - - number
+        - '12'
+      - - release_date
+        - '2015-06-17'
+  rules: Whenever you cast a spell, target opponent mills 5 cards.
+  subtype: Jace
+  type: Emblem
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/jace-vryns-prodigy/
 

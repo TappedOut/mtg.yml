@@ -1,10 +1,17 @@
 activated_abilities:
-- 'Tap: Add (1) to your mana pool.'
-- '(5), Tap: Add (White)(Blue)(Black)(Red)(Green) to your mana pool.'
-activated_costs: []
+- ': Add .'
+- ', : Add .'
+activated_costs:
+- B
+- C
+- G
+- R
+- U
+- W
 canadian_hl_score: 0
-cannonical_set: ODY
+cannonical_set: DMC
 cannonical_type: Land
+color_identity: WUBRG
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -35,12 +42,10 @@ is_land: true
 is_mtgo: true
 is_permanent: true
 keywords: []
-mana_cost: ''
-mana_produced: b/u/w/r/g
+mana_produced: WURBG, C
 mana_value: 0
 melds_from: []
 name: Crystal Quarry
-power_toughness: ''
 printings:
 - ODY:
     alterations:
@@ -55,16 +60,35 @@ printings:
     mtgo_foil_id: 16440
     mtgo_id: 16439
     name: Odyssey
-    number: 318
+    number: '318'
     rarity: rare
-    release_date: '2001-09-21'
+    release_date: 2001-09-21
     tla: ODY
     variations: []
     wizards_id: 30012
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=30012
+- DMC:
+    alterations:
+    - Normal
+    artist: Alan Pollack
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: "*\"How tragic that greed eclipses beauty.\"\r\n<br>\u2014Seton,\
+      \ centaur druid*"
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Dominaria United: Commander'
+    number: '206'
+    rarity: rare
+    release_date: 2022-09-10
+    tla: DMC
+    variations: []
+    wizards_id: 578822
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=578822
 rarity: rare
-rules: "Tap: Add (1) to your mana pool.\r\n\r\n \r\n\r\n(5), Tap: Add (White)(Blue)(Black)(Red)(Green)\
-  \ to your mana pool."
+rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:5]], [[symbol:T]]: Add [[symbol:W]][[symbol:U]][[symbol:B]][[symbol:R]][[symbol:G]]."
 slug: crystal-quarry
 synonyms: []
 tapped_id: 4485

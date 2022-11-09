@@ -59,6 +59,8 @@ printings:
     - Normal
     - Foil
     - Prerelease
+    - Promo pack
+    - PromoPackF
     artist: Viktor Titov
     booster_exclude: false
     border_color: B
@@ -68,9 +70,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Crimson Vow'
-    number: 149
+    number: '149'
     rarity: mythic_rare
-    release_date: '2021-11-11'
+    release_date: 2021-11-11
     tla: VOW
     variations:
     - identifier: '279'
@@ -89,9 +91,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Double Feature'
-    number: 416
+    number: '416'
     rarity: mythic_rare
-    release_date: '2022-01-21'
+    release_date: 2022-01-21
     tla: DBL
     variations: []
     wizards_id: null
@@ -110,22 +112,24 @@ subtype_tokens:
 synonyms: []
 tapped_id: 25366
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Whenever you cast a red spell, this emblem deals X damage to target creature,
-        player or planeswalker, where X is the amount of mana spent to cast that spell.
-    - - type
-      - Emblem
-    - - subtype
-      - 243
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Chandra, Dressed to Kill
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Chandra, Dressed to Kill
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '20'
+      - - release_date
+        - '2021-11-11'
+  rules: Whenever you cast a red spell, this emblem deals X damage to target creature,
+    player or planeswalker, where X is the amount of mana spent to cast that spell.
+  subtype: Chandra
+  type: Emblem
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/chandra-dressed-to-kill/
 

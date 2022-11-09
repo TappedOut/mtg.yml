@@ -63,9 +63,9 @@ printings:
     mtgo_foil_id: 64575
     mtgo_id: 64574
     name: Hour of Devastation
-    number: 45
+    number: '45'
     rarity: uncommon
-    release_date: '2017-07-14'
+    release_date: 2017-07-14
     tla: HOU
     variations: []
     wizards_id: 430734
@@ -84,21 +84,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 19216
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - 4/4
-    - - rules
-      - '[[symbol:U]]: Sinuous Striker gets +1/-1 until end of turn.'
-    - - type
-      - Token Creature
-    - - subtype
-      - 1289
-    - - cannonical_type
-      - Creature
-    - - name
-      - Sinuous Striker 4/4 B
+- cannonical_type: Creature
+  colors: B
+  name: Sinuous Striker 4/4 B
+  power_toughness: 4/4
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - HOU
+      - - name
+        - Hour of Devastation
+      - - number
+        - null
+      - - release_date
+        - '2017-07-14'
+  rules: '[[symbol:U]]: Sinuous Striker gets +1/-1 until end of turn.'
+  subtype: Zombie Naga Warrior
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/sinuous-striker/
 

@@ -8,6 +8,7 @@ canadian_hl_score: 0
 cannonical_set: KLD
 cannonical_type: Planeswalker
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -62,9 +63,9 @@ printings:
     mtgo_foil_id: 61576
     mtgo_id: 61575
     name: Kaladesh
-    number: 179
+    number: '179'
     rarity: mythic_rare
-    release_date: '2016-09-30'
+    release_date: 2016-09-30
     tla: KLD
     variations: []
     wizards_id: 417752
@@ -81,21 +82,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 18306
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Your opponents can't untap more than two permanents during their untap steps.
-    - - type
-      - Emblem
-    - - subtype
-      - 1163
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Dovin Baan
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Dovin Baan
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KLD
+      - - name
+        - Kaladesh
+      - - number
+        - '12'
+      - - release_date
+        - '2016-09-30'
+  rules: Your opponents can't untap more than two permanents during their untap steps.
+  subtype: Dovin
+  type: Emblem
 type: Planeswalker
 url: https://tappedout.net/mtg-card/dovin-baan/
 

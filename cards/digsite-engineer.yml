@@ -47,14 +47,34 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2021
-    number: 15
+    number: '15'
     rarity: rare
-    release_date: '2021-04-23'
+    release_date: 2021-04-23
     tla: C21
     variations:
     - identifier: '342'
     wizards_id: 518411
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518411
+- BRC:
+    alterations:
+    - Normal
+    - Foil
+    artist: Zoltan Boros
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: '"Dig over there, you bolthead!"'
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'The Brothers'' War: Commander'
+    number: '71'
+    rarity: rare
+    release_date: 2022-11-18
+    tla: BRC
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: Whenever you cast an artifact spell, you may pay [[symbol:2]]. If you do, create
   a 0/0 colourless Construct artifact creature token with "This creature gets +1/+1
   for each artifact you control."
@@ -66,21 +86,50 @@ subtype_tokens:
 synonyms: []
 tapped_id: 24304
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 0/0
-    - - rules
-      - This creature gets +1/+1 for each artifact you control.
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 72
-    - - cannonical_type
-      - Creature
-    - - name
-      - Construct 0/0 C
+- cannonical_type: Creature
+  colors: C
+  name: Construct 0/0 C
+  power_toughness: 0/0
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DOM
+      - - name
+        - Dominaria
+      - - number
+        - null
+      - - release_date
+        - '2018-04-22'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - WAR
+      - - name
+        - War of the Spark
+      - - number
+        - null
+      - - release_date
+        - '2019-05-03'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C21
+      - - name
+        - Commander 2021
+      - - number
+        - null
+      - - release_date
+        - '2021-04-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MH2
+      - - name
+        - Modern Horizons 2
+      - - number
+        - null
+      - - release_date
+        - '2021-06-18'
+  rules: This creature gets +1/+1 for each artifact you control.
+  subtype: Construct
+  type: Token Artifact Creature
 type: Creature
 url: https://tappedout.net/mtg-card/digsite-engineer/
 

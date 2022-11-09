@@ -7,6 +7,7 @@ canadian_hl_score: 0
 cannonical_set: IKO
 cannonical_type: Enchantment
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -62,9 +63,9 @@ printings:
     mtgo_foil_id: 80132
     mtgo_id: 80131
     name: 'Ikoria: Lair of Behemoths'
-    number: 61
+    number: '61'
     rarity: uncommon
-    release_date: '2020-04-15'
+    release_date: 2020-04-15
     tla: IKO
     variations: []
     wizards_id: 479581
@@ -77,21 +78,23 @@ slug: ominous-seas
 synonyms: []
 tapped_id: 22779
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 8/8
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 304
-    - - cannonical_type
-      - Creature
-    - - name
-      - Kraken 8/8 U
+- cannonical_type: Creature
+  colors: U
+  name: Kraken 8/8 U
+  power_toughness: 8/8
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - IKO
+      - - name
+        - 'Ikoria: Lair of Behemoths'
+      - - number
+        - null
+      - - release_date
+        - '2020-04-15'
+  rules: ''
+  subtype: Kraken
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/ominous-seas/
 

@@ -37,9 +37,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Unstable
-    number: 200
+    number: '200'
     rarity: mythic_rare
-    release_date: '2017-12-08'
+    release_date: 2017-12-08
     tla: UN3
     variations: []
     wizards_id: 439589
@@ -54,21 +54,50 @@ subtype_tokens:
 synonyms: []
 tapped_id: 19805
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - X/X
-    - - rules
-      - ''
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 72
-    - - cannonical_type
-      - Creature
-    - - name
-      - Construct X/X C
+- cannonical_type: Creature
+  colors: C
+  name: Construct X/X C
+  power_toughness: X/X
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KLD
+      - - name
+        - Kaladesh
+      - - number
+        - '2'
+      - - release_date
+        - '2016-09-30'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KLD
+      - - name
+        - Kaladesh
+      - - number
+        - '3'
+      - - release_date
+        - '2016-09-30'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UN3
+      - - name
+        - Unstable
+      - - number
+        - '19'
+      - - release_date
+        - '2017-12-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C21
+      - - name
+        - Commander 2021
+      - - number
+        - '22'
+      - - release_date
+        - '2021-04-23'
+  rules: ''
+  subtype: Construct
+  type: Token Artifact Creature
 type: Artifact
 url: https://tappedout.net/mtg-card/rapid-prototyper/
 

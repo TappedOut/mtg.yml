@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: CN2
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
@@ -46,9 +47,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Conspiracy: Take the Crown'
-    number: 18
+    number: '18'
     rarity: uncommon
-    release_date: '2016-08-26'
+    release_date: 2016-08-26
     tla: CN2
     variations: []
     wizards_id: 416775
@@ -67,7 +68,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: uncommon
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -85,9 +86,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Time Spiral Remastered
-    number: 298
+    number: '298'
     rarity: special
-    release_date: '2021-03-19'
+    release_date: 2021-03-19
     tla: TSR
     variations: []
     wizards_id: 512264
@@ -104,22 +105,41 @@ subtype_tokens:
 synonyms: []
 tapped_id: 18172
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
-        \ deals combat damage to you, its controller becomes the monarch."
-    - - type
-      - Emblem
-    - - subtype
-      - null
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Monarch Emblem
+- cannonical_type: Emblem
+  colors: C
+  name: Monarch Emblem
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CN2
+      - - name
+        - 'Conspiracy: Take the Crown'
+      - - number
+        - null
+      - - release_date
+        - '2016-08-26'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - null
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AFC
+      - - name
+        - 'Adventures in the Forgotten Realms: Commander'
+      - - number
+        - null
+      - - release_date
+        - '2021-07-24'
+  rules: "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
+    \ deals combat damage to you, its controller becomes the monarch."
+  type: Emblem
 type: Creature
 url: https://tappedout.net/mtg-card/palace-jailer/
 

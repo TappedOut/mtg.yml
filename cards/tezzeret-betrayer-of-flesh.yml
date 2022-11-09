@@ -10,6 +10,7 @@ cannonical_set: NEO
 cannonical_type: Planeswalker
 color_identity: U
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -67,9 +68,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
-    number: 84
+    number: '84'
     rarity: mythic_rare
-    release_date: '2022-02-10'
+    release_date: 2022-02-10
     tla: NEO
     variations:
     - identifier: '304'
@@ -90,21 +91,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 25758
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Whenever an artifact you control becomes tapped, draw a card.
-    - - type
-      - Emblem
-    - - subtype
-      - 754
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Tezzeret, Betrayer of Flesh
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Tezzeret, Betrayer of Flesh
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NEO
+      - - name
+        - 'Kamigawa: Neon Dynasty'
+      - - number
+        - '19'
+      - - release_date
+        - '2022-02-10'
+  rules: Whenever an artifact you control becomes tapped, draw a card.
+  subtype: Tezzeret
+  type: Emblem
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/tezzeret-betrayer-of-flesh/
 

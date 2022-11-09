@@ -56,9 +56,9 @@ printings:
     mtgo_foil_id: 55212
     mtgo_id: 55211
     name: Commander 2014
-    number: 27
+    number: '27'
     rarity: mythic_rare
-    release_date: '2014-11-21'
+    release_date: 2014-11-21
     tla: C14
     variations: []
     wizards_id: 389618
@@ -77,37 +77,113 @@ subtype_tokens:
 synonyms: []
 tapped_id: 16026
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - 5/5
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 88
-    - - cannonical_type
-      - Creature
-    - - name
-      - Demon 5/5 B
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - '[[symbol:1]][[symbol:B]], Sacrifice a creature: You gain X life and draw
-        X cards, where X is the sacrificed creature''s power.'
-    - - type
-      - Emblem
-    - - subtype
-      - 1066
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Ob Nixilis of the Black Oath
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Ob Nixilis of the Black Oath
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C14
+      - - name
+        - Commander 2014
+      - - number
+        - '35'
+      - - release_date
+        - '2014-11-21'
+  rules: '[[symbol:1]][[symbol:B]], Sacrifice a creature: You gain X life and draw
+    X cards, where X is the sacrificed creature''s power.'
+  subtype: Nixilis
+  type: Emblem
+- cannonical_type: Creature
+  colors: B
+  name: Demon 5/5 B
+  power_toughness: 5/5
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ISD
+      - - name
+        - Innistrad
+      - - number
+        - '4'
+      - - release_date
+        - '2011-09-30'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AVR
+      - - name
+        - Avacyn Restored
+      - - number
+        - '5'
+      - - release_date
+        - '2012-05-04'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C14
+      - - name
+        - Commander 2014
+      - - number
+        - '13'
+      - - release_date
+        - '2014-11-21'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ORI
+      - - name
+        - Magic Origins
+      - - number
+        - '4'
+      - - release_date
+        - '2015-06-17'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DDR
+      - - name
+        - 'Duel Decks: Nissa vs. Ob Nixilis'
+      - - number
+        - '72'
+      - - release_date
+        - '2016-09-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M20
+      - - name
+        - Core Set 2020
+      - - number
+        - '5'
+      - - release_date
+        - '2019-07-12'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M21
+      - - name
+        - Core Set 2021
+      - - number
+        - '6'
+      - - release_date
+        - '2020-07-03'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - '9'
+      - - release_date
+        - '2020-08-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GN3
+      - - name
+        - Game Nights Free-for-All
+      - - number
+        - '6'
+      - - release_date
+        - '2022-10-14'
+  rules: Flying
+  subtype: Demon
+  type: Token Creature
 type: Planeswalker
 url: https://tappedout.net/mtg-card/ob-nixilis-of-the-black-oath/
 

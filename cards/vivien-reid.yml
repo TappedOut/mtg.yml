@@ -67,9 +67,9 @@ printings:
     mtgo_foil_id: 68578
     mtgo_id: 68577
     name: Core Set 2019
-    number: 208
+    number: '208'
     rarity: mythic_rare
-    release_date: '2018-07-13'
+    release_date: 2018-07-13
     tla: M19
     variations:
     - identifier: PromoPack
@@ -88,21 +88,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 20425
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Creatures you control get +2/+2 and have vigilance, trample and indestructible.
-    - - type
-      - Emblem
-    - - subtype
-      - 1268
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Vivien Reid
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Vivien Reid
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M19
+      - - name
+        - Core Set 2019
+      - - number
+        - '17'
+      - - release_date
+        - '2018-07-13'
+  rules: Creatures you control get +2/+2 and have vigilance, trample and indestructible.
+  subtype: Vivien
+  type: Emblem
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/vivien-reid/
 

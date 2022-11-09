@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: Y22
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -18,6 +19,7 @@ formats:
 - Arena
 - Gladiator
 - Historic
+- Limited
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -44,7 +46,7 @@ printings:
     name: Arena Alchemy 2022
     number: null
     rarity: rare
-    release_date: '2021-12-09'
+    release_date: 2021-12-09
     tla: Y22
     variations: []
     wizards_id: null
@@ -61,22 +63,24 @@ subtype_tokens:
 synonyms: []
 tapped_id: 25689
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
-        a card.'
-    - - type
-      - Token Artifact
-    - - subtype
-      - 1692
-    - - cannonical_type
-      - Artifact
-    - - name
-      - Blood
+- cannonical_type: Artifact
+  colors: C
+  name: Blood
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '17'
+      - - release_date
+        - '2021-11-11'
+  rules: '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
+    a card.'
+  subtype: Blood
+  type: Token Artifact
 type: Creature
 url: https://tappedout.net/mtg-card/citystalker-connoisseur/
 

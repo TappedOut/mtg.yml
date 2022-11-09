@@ -50,9 +50,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2021
-    number: 61
+    number: '61'
     rarity: rare
-    release_date: '2021-04-23'
+    release_date: 2021-04-23
     tla: C21
     variations:
     - identifier: '388'
@@ -68,21 +68,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 24336
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - GU
-    - - power_toughness
-      - 0/0
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 1560
-    - - cannonical_type
-      - Creature
-    - - name
-      - Fractal 0/0 GU
+- cannonical_type: Creature
+  colors: GU
+  name: Fractal 0/0 GU
+  power_toughness: 0/0
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - STX
+      - - name
+        - Strixhaven
+      - - number
+        - null
+      - - release_date
+        - '2021-04-23'
+  rules: ''
+  subtype: Fractal
+  type: Token Creature
 type: Artifact
 url: https://tappedout.net/mtg-card/fractal-harness/
 

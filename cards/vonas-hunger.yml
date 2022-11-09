@@ -45,6 +45,8 @@ printings:
     - Normal
     - Foil
     - Prerelease
+    - Promo pack
+    - PromoPackF
     artist: Zack Stella
     booster_exclude: false
     border_color: B
@@ -54,9 +56,9 @@ printings:
     mtgo_foil_id: 66634
     mtgo_id: 66633
     name: Rivals of Ixalan
-    number: 90
+    number: '90'
     rarity: rare
-    release_date: '2018-01-19'
+    release_date: 2018-01-19
     tla: RIX
     variations:
     - identifier: PromoPack
@@ -71,21 +73,22 @@ slug: vonas-hunger
 synonyms: []
 tapped_id: 19966
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - ''
-    - - type
-      - Emblem
-    - - subtype
-      - null
-    - - cannonical_type
-      - Emblem
-    - - name
-      - City's Blessing
+- cannonical_type: Emblem
+  colors: C
+  name: City's Blessing
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - RIX
+      - - name
+        - Rivals of Ixalan
+      - - number
+        - null
+      - - release_date
+        - '2018-01-19'
+  rules: ''
+  type: Emblem
 type: Instant
 url: https://tappedout.net/mtg-card/vonas-hunger/
 

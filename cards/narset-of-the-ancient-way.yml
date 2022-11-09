@@ -12,6 +12,7 @@ canadian_hl_score: 0
 cannonical_set: IKO
 cannonical_type: Planeswalker
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -70,9 +71,9 @@ printings:
     mtgo_foil_id: 80400
     mtgo_id: 80399
     name: 'Ikoria: Lair of Behemoths'
-    number: 195
+    number: '195'
     rarity: mythic_rare
-    release_date: '2020-04-15'
+    release_date: 2020-04-15
     tla: IKO
     variations:
     - identifier: '278'
@@ -94,22 +95,24 @@ synonyms:
 - Narset of the Anceint Way
 tapped_id: 22825
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Whenever you cast a noncreature spell, this emblem deals 2 damage to target
-        creature, player or planeswalker.
-    - - type
-      - Emblem
-    - - subtype
-      - 1079
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Narset of the Ancient Way
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Narset of the Ancient Way
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - IKO
+      - - name
+        - 'Ikoria: Lair of Behemoths'
+      - - number
+        - '12'
+      - - release_date
+        - '2020-04-15'
+  rules: Whenever you cast a noncreature spell, this emblem deals 2 damage to target
+    creature, player or planeswalker.
+  subtype: Narset
+  type: Emblem
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/narset-of-the-ancient-way/
 

@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: C14
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -55,7 +56,7 @@ printings:
     name: Time Spiral
     number: null
     rarity: common
-    release_date: '2006-10-06'
+    release_date: 2006-10-06
     tla: TSP
     variations: []
     wizards_id: 118912
@@ -74,7 +75,7 @@ printings:
     name: 'Duel Decks: Jace vs. Chandra'
     number: null
     rarity: common
-    release_date: '2008-11-07'
+    release_date: 2008-11-07
     tla: DD2
     variations: []
     wizards_id: 189247
@@ -91,9 +92,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Duel Decks: Speed vs. Cunning'
-    number: 45
+    number: '45'
     rarity: common
-    release_date: '2014-09-05'
+    release_date: 2014-09-05
     tla: DDN
     variations: []
     wizards_id: 386314
@@ -110,9 +111,9 @@ printings:
     mtgo_foil_id: 55297
     mtgo_id: 55296
     name: Commander 2014
-    number: 109
+    number: '109'
     rarity: common
-    release_date: '2014-11-21'
+    release_date: 2014-11-21
     tla: C14
     variations: []
     wizards_id: 389514
@@ -130,9 +131,9 @@ printings:
     mtgo_foil_id: 67027
     mtgo_id: 67026
     name: Masters 25
-    number: 56
+    number: '56'
     rarity: null
-    release_date: '2018-03-16'
+    release_date: 2018-03-16
     tla: A25
     variations: []
     wizards_id: 442045
@@ -149,9 +150,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Duel Decks Anthology
-    number: 3
+    number: '3'
     rarity: common
-    release_date: '2014-12-05'
+    release_date: 2014-12-05
     tla: DD3
     variations: []
     wizards_id: 393830
@@ -170,7 +171,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: common
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -188,9 +189,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Time Spiral Remastered
-    number: 68
+    number: '68'
     rarity: common
-    release_date: '2021-03-19'
+    release_date: 2021-03-19
     tla: TSR
     variations: []
     wizards_id: 509433
@@ -207,22 +208,41 @@ subtype_tokens:
 synonyms: []
 tapped_id: 1043
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 2/2
-    - - rules
-      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-        \ with morph can be turned face up at any time for its morph cost.*"
-    - - type
-      - Creature
-    - - subtype
-      - null
-    - - cannonical_type
-      - Creature
-    - - name
-      - Morph 2/2 C
+- cannonical_type: Creature
+  colors: C
+  name: Morph 2/2 C
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KTK
+      - - name
+        - Khans of Tarkir
+      - - number
+        - '11'
+      - - release_date
+        - '2014-09-26'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DTK
+      - - name
+        - Dragons of Tarkir
+      - - number
+        - '7'
+      - - release_date
+        - '2015-03-27'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C19
+      - - name
+        - Commander 2019
+      - - number
+        - '27'
+      - - release_date
+        - '2019-08-23'
+  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+    \ with morph can be turned face up at any time for its morph cost.*"
+  type: Creature
 type: Creature
 url: https://tappedout.net/mtg-card/fathom-seer/
 

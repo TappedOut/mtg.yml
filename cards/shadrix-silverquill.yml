@@ -64,9 +64,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Strixhaven
-    number: 230
+    number: '230'
     rarity: mythic_rare
-    release_date: '2021-04-23'
+    release_date: 2021-04-23
     tla: STX
     variations:
     - identifier: '280'
@@ -85,21 +85,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 24003
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - WB
-    - - power_toughness
-      - 2/1
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 1585
-    - - cannonical_type
-      - Creature
-    - - name
-      - Inkling 2/1 WB
+- cannonical_type: Creature
+  colors: WB
+  name: Inkling 2/1 WB
+  power_toughness: 2/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - STX
+      - - name
+        - Strixhaven
+      - - number
+        - '4'
+      - - release_date
+        - '2021-04-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '45'
+      - - release_date
+        - '2022-06-10'
+  rules: Flying
+  subtype: Inkling
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/shadrix-silverquill/
 

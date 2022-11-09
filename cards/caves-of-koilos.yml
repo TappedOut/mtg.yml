@@ -1,13 +1,14 @@
 activated_abilities:
-- ': Gain .'
-- ': Gain  or . This deals 1 damage to you.'
+- ': Add .'
+- ': Add  or . This deals 1 damage to you.'
 activated_costs:
 - B
 - C
 - W
 canadian_hl_score: 0
-cannonical_set: C21
+cannonical_set: DMU
 cannonical_type: Land
+color_identity: WB
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -22,18 +23,25 @@ companions:
 effective_cost: []
 formats:
 - 1v1 Commander
+- Alchemy
+- Arena
 - Block Constructed
+- Brawl
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
 - Modern
 - Oathbreaker
 - Pioneer
+- Pre-release
 - Premodern
+- Standard
 - Tiny Leaders
 - Vintage
 has_activated_abilities: true
@@ -61,7 +69,7 @@ printings:
     name: Tenth Edition
     number: null
     rarity: rare
-    release_date: '2007-07-13'
+    release_date: 2007-07-13
     tla: 10E
     variations: []
     wizards_id: 129497
@@ -81,7 +89,7 @@ printings:
     name: Ninth Edition
     number: null
     rarity: rare
-    release_date: '2005-07-29'
+    release_date: 2005-07-29
     tla: 9ED
     variations: []
     wizards_id: 84467
@@ -101,7 +109,7 @@ printings:
     name: Apocalypse
     number: null
     rarity: rare
-    release_date: '2001-06-01'
+    release_date: 2001-06-01
     tla: APC
     variations: []
     wizards_id: 23246
@@ -119,9 +127,9 @@ printings:
     mtgo_foil_id: 53345
     mtgo_id: 53344
     name: Magic 2015
-    number: 241
+    number: '241'
     rarity: rare
-    release_date: '2014-07-18'
+    release_date: 2014-07-18
     tla: M15
     variations: []
     wizards_id: 383203
@@ -138,9 +146,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Modern Event Deck
-    number: 14
+    number: '14'
     rarity: rare
-    release_date: '2014-05-30'
+    release_date: 2014-05-30
     tla: MD1
     variations: []
     wizards_id: 382180
@@ -159,9 +167,9 @@ printings:
     mtgo_foil_id: 57669
     mtgo_id: 57668
     name: Magic Origins
-    number: 245
+    number: '245'
     rarity: rare
-    release_date: '2015-06-17'
+    release_date: 2015-06-17
     tla: ORI
     variations: []
     wizards_id: 398504
@@ -178,9 +186,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2016
-    number: 285
+    number: '285'
     rarity: rare
-    release_date: '2016-11-11'
+    release_date: 2016-11-11
     tla: C16
     variations: []
     wizards_id: 420902
@@ -199,7 +207,7 @@ printings:
     name: Ninth Edition Foreign Black Border
     number: null
     rarity: rare
-    release_date: '2005-07-29'
+    release_date: 2005-07-29
     tla: 9EDFBB
     variations: []
     wizards_id: null
@@ -216,13 +224,13 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2020
-    number: 262
+    number: '262'
     rarity: rare
-    release_date: '2020-05-15'
+    release_date: 2020-05-15
     tla: C20
     variations: []
-    wizards_id: null
-    wizards_url: null
+    wizards_id: 482890
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482890
 - C21:
     alterations:
     - Normal
@@ -235,16 +243,41 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2021
-    number: 283
+    number: '283'
     rarity: rare
-    release_date: '2021-04-23'
+    release_date: 2021-04-23
     tla: C21
     variations: []
     wizards_id: 519318
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519318
+- DMU:
+    alterations:
+    - Normal
+    - Foil
+    - Prerelease
+    - Promo pack
+    - PromoPackF
+    artist: Julian Kok Joon Wen
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*After years of silence, the caves once again echo with the grisly
+      sounds of Phyrexians preparing for war.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Dominaria United
+    number: '244'
+    rarity: rare
+    release_date: 2022-09-09
+    tla: DMU
+    variations:
+    - identifier: '378'
+    wizards_id: 574724
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=574724
 rarity: rare
-rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:T]]: Gain [[symbol:W]] or\
-  \ [[symbol:B]]. This deals 1 damage to you."
+rules: "[[symbol:T]]: Add [[symbol:C]].\r\n\r\n[[symbol:T]]: Add [[symbol:W]] or [[symbol:B]].\
+  \ This deals 1 damage to you."
 slug: caves-of-koilos
 synonyms:
 - WB Pain
@@ -253,7 +286,6 @@ synonyms:
 - BW Painland
 - WB Pain Land
 - BW Pain Land
-tap_land: true
 tapped_id: 4751
 tokens: []
 type: Land

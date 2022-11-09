@@ -6,6 +6,7 @@ canadian_hl_score: 0
 cannonical_set: HML
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
@@ -56,7 +57,7 @@ printings:
     name: Homelands
     number: null
     rarity: rare
-    release_date: '1995-10-01'
+    release_date: 1995-10-01
     tla: HML
     variations: []
     wizards_id: 2959
@@ -75,9 +76,9 @@ printings:
     mtgo_foil_id: 30643
     mtgo_id: 30642
     name: Masters Edition II
-    number: 74
+    number: '74'
     rarity: common
-    release_date: '2008-09-22'
+    release_date: 2008-09-22
     tla: ME2
     variations: []
     wizards_id: 184598
@@ -93,21 +94,14 @@ subtype_tokens:
 synonyms: []
 tapped_id: 7947
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 0/1
-    - - rules
-      - Defender
-    - - type
-      - Creature
-    - - subtype
-      - 229
-    - - cannonical_type
-      - Creature
-    - - name
-      - 0/1 U Creature Plant Wall
+- cannonical_type: Creature
+  colors: U
+  name: 0/1 U Creature Plant Wall
+  power_toughness: 0/1
+  printings: []
+  rules: Defender
+  subtype: Plant Wall
+  type: Creature
 type: Creature
 url: https://tappedout.net/mtg-card/wall-of-kelp/
 

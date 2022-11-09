@@ -65,9 +65,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Streets of New Capenna
-    number: 223
+    number: '223'
     rarity: rare
-    release_date: '2022-04-29'
+    release_date: 2022-04-29
     tla: SNC
     variations:
     - identifier: '334'
@@ -84,21 +84,41 @@ subtype_tokens:
 synonyms: []
 tapped_id: 26326
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 3/3
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 20
-    - - cannonical_type
-      - Creature
-    - - name
-      - Angel 3/3 W
+- cannonical_type: Creature
+  colors: W
+  name: Angel 3/3 W
+  power_toughness: 3/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - OGW
+      - - name
+        - Oath of the Gatewatch
+      - - number
+        - '7'
+      - - release_date
+        - '2016-01-22'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AFR
+      - - name
+        - 'Dungeons & Dragons: Adventures in the Forgotten Realms'
+      - - number
+        - '1'
+      - - release_date
+        - '2021-07-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SNC
+      - - name
+        - Streets of New Capenna
+      - - number
+        - '2'
+      - - release_date
+        - '2022-04-29'
+  rules: Flying
+  subtype: Angel
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/soul-of-emancipation/
 

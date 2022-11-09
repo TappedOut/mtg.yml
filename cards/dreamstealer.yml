@@ -64,9 +64,9 @@ printings:
     mtgo_foil_id: 64611
     mtgo_id: 64610
     name: Hour of Devastation
-    number: 63
+    number: '63'
     rarity: rare
-    release_date: '2017-07-14'
+    release_date: 2017-07-14
     tla: HOU
     variations: []
     wizards_id: 430752
@@ -85,22 +85,24 @@ subtype_tokens:
 synonyms: []
 tapped_id: 19035
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - 4/4
-    - - rules
-      - "Menace\r\n\r\nWhenever this deals combat damage to a player, that player\
-        \ discards that many cards."
-    - - type
-      - Token Creature
-    - - subtype
-      - 1276
-    - - cannonical_type
-      - Creature
-    - - name
-      - Dreamstealer 4/4 B
+- cannonical_type: Creature
+  colors: B
+  name: Dreamstealer 4/4 B
+  power_toughness: 4/4
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - HOU
+      - - name
+        - Hour of Devastation
+      - - number
+        - null
+      - - release_date
+        - '2017-07-14'
+  rules: "Menace\r\n\r\nWhenever this deals combat damage to a player, that player\
+    \ discards that many cards."
+  subtype: Zombie Human Wizard
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/dreamstealer/
 

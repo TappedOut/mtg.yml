@@ -54,9 +54,9 @@ printings:
     mtgo_foil_id: 55108
     mtgo_id: 55107
     name: Commander 2014
-    number: 35
+    number: '35'
     rarity: mythic_rare
-    release_date: '2014-11-21'
+    release_date: 2014-11-21
     tla: C14
     variations: []
     wizards_id: 389515
@@ -73,9 +73,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Promo Set
-    number: 7
+    number: '7'
     rarity: rare
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations: []
     wizards_id: null
@@ -93,9 +93,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander Anthology 2018
-    number: 6
+    number: '6'
     rarity: mythic_rare
-    release_date: '2018-06-08'
+    release_date: 2018-06-08
     tla: CM2
     variations: []
     wizards_id: 446742
@@ -112,13 +112,13 @@ printings:
     mtgo_foil_id: 77397
     mtgo_id: 77396
     name: Commander 2019
-    number: 141
+    number: '141'
     rarity: mythic_rare
-    release_date: '2019-08-23'
+    release_date: 2019-08-23
     tla: C19
     variations: []
-    wizards_id: null
-    wizards_url: null
+    wizards_id: 470687
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470687
 - TSR:
     alterations:
     - Normal
@@ -132,9 +132,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Time Spiral Remastered
-    number: 344
+    number: '344'
     rarity: special
-    release_date: '2021-03-19'
+    release_date: 2021-03-19
     tla: TSR
     variations: []
     wizards_id: 512310
@@ -151,9 +151,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2021
-    number: 169
+    number: '169'
     rarity: mythic_rare
-    release_date: '2021-04-23'
+    release_date: 2021-04-23
     tla: C21
     variations: []
     wizards_id: 519204
@@ -170,21 +170,85 @@ subtype_tokens:
 synonyms: []
 tapped_id: 16019
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - null
-    - - power_toughness
-      - null
-    - - rules
-      - '*This token can be used to represent a token that''s a copy of a permanent.*'
-    - - type
-      - Token Creature
-    - - subtype
-      - null
-    - - cannonical_type
-      - Creature
-    - - name
-      - Copy Clone
+- cannonical_type: Creature
+  colors: null
+  name: Copy Clone
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GK1
+      - - name
+        - 'Guilds of Ravnica: Guild Kit'
+      - - number
+        - '1'
+      - - release_date
+        - '2018-11-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - '31'
+      - - release_date
+        - '2020-08-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ZNR
+      - - name
+        - Zendikar Rising
+      - - number
+        - '12'
+      - - release_date
+        - '2020-09-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '13'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '23'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C21
+      - - name
+        - Commander 2021
+      - - number
+        - '30'
+      - - release_date
+        - '2021-04-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '19'
+      - - release_date
+        - '2021-11-11'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '19'
+      - - release_date
+        - '2022-06-10'
+  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/feldon-of-the-third-path/
 

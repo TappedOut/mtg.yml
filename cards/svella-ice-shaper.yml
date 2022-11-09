@@ -68,9 +68,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Kaldheim
-    number: 230
+    number: '230'
     rarity: uncommon
-    release_date: '2021-02-05'
+    release_date: 2021-02-05
     tla: KHM
     variations:
     - identifier: '331'
@@ -89,21 +89,22 @@ subtype_tokens:
 synonyms: []
 tapped_id: 23909
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - '[[symbol:T]]: Gain one mana of any colour.'
-    - - type
-      - Token Snow Artifact
-    - - subtype
-      - null
-    - - cannonical_type
-      - Artifact
-    - - name
-      - Icy Manalith
+- cannonical_type: Artifact
+  colors: C
+  name: Icy Manalith
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KHM
+      - - name
+        - Kaldheim
+      - - number
+        - null
+      - - release_date
+        - '2021-02-05'
+  rules: '[[symbol:T]]: Gain one mana of any colour.'
+  type: Token Snow Artifact
 type: Legendary Snow Creature
 url: https://tappedout.net/mtg-card/svella-ice-shaper/
 

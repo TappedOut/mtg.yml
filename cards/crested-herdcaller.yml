@@ -55,9 +55,9 @@ printings:
     mtgo_foil_id: 66706
     mtgo_id: 66705
     name: Rivals of Ixalan
-    number: 126
+    number: '126'
     rarity: uncommon
-    release_date: '2018-01-19'
+    release_date: 2018-01-19
     tla: RIX
     variations: []
     wizards_id: 439783
@@ -75,9 +75,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Game Night 2019
-    number: 46
+    number: '46'
     rarity: uncommon
-    release_date: '2019-11-15'
+    release_date: 2019-11-15
     tla: GN2
     variations: []
     wizards_id: 476112
@@ -92,23 +92,25 @@ subtype_tokens:
 synonyms: []
 tapped_id: 20023
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 3/3
-    - - rules
-      - Trample *(This creature can deal excess combat damage to defending player
-        or planeswalker for as long as lethal combat damage would be dealt to the
-        blocking creatures.)*
-    - - type
-      - Token Creature
-    - - subtype
-      - 592
-    - - cannonical_type
-      - Creature
-    - - name
-      - Dinosaur 3/3 G
+- cannonical_type: Creature
+  colors: G
+  name: Dinosaur 3/3 G
+  power_toughness: 3/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - XLN
+      - - name
+        - Ixalan
+      - - number
+        - '5'
+      - - release_date
+        - '2017-09-29'
+  rules: Trample *(This creature can deal excess combat damage to defending player
+    or planeswalker for as long as lethal combat damage would be dealt to the blocking
+    creatures.)*
+  subtype: Dinosaur
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/crested-herdcaller/
 

@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: ARB
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
@@ -51,9 +52,9 @@ printings:
     mtgo_foil_id: 32487
     mtgo_id: 32486
     name: Alara Reborn
-    number: 53
+    number: '53'
     rarity: mythic_rare
-    release_date: '2009-04-30'
+    release_date: 2009-04-30
     tla: ARB
     variations: []
     wizards_id: 189648
@@ -72,7 +73,7 @@ printings:
     name: Promo Set
     number: null
     rarity: mythic_rare
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations: []
     wizards_id: null
@@ -91,7 +92,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: mythic_rare
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -108,23 +109,25 @@ subtype_tokens:
 synonyms: []
 tapped_id: 11413
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - RG
-    - - power_toughness
-      - 1/1
-    - - rules
-      - "Flying\r\n\r\nDevour 2 *(As this creature enters the battlefield, you may\
-        \ sacrifice any number of creatures. This enters the battlefield with twice\
-        \ that many +1/+1 counters on this creature.)*"
-    - - type
-      - Token Creature
-    - - subtype
-      - 42
-    - - cannonical_type
-      - Creature
-    - - name
-      - Dragon 1/1 RG
+- cannonical_type: Creature
+  colors: RG
+  name: Dragon 1/1 RG
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ARB
+      - - name
+        - Alara Reborn
+      - - number
+        - '3'
+      - - release_date
+        - '2009-04-30'
+  rules: "Flying\r\n\r\nDevour 2 *(As this creature enters the battlefield, you may\
+    \ sacrifice any number of creatures. This enters the battlefield with twice that\
+    \ many +1/+1 counters on this creature.)*"
+  subtype: Dragon
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/dragon-broodmother/
 

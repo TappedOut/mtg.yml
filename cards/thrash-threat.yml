@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: RNA
 cannonical_type: Instant
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -56,9 +57,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Ravnica Allegiance
-    number: 229
+    number: '229'
     rarity: rare
-    release_date: '2019-01-25'
+    release_date: 2019-01-25
     tla: RNA
     variations: []
     wizards_id: 457373
@@ -79,21 +80,23 @@ synonyms:
 - Threat and Thrash
 tapped_id: 21088
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - RG
-    - - power_toughness
-      - 4/4
-    - - rules
-      - Trample
-    - - type
-      - Token Creature
-    - - subtype
-      - 83
-    - - cannonical_type
-      - Creature
-    - - name
-      - Beast 4/4 RG
+- cannonical_type: Creature
+  colors: RG
+  name: Beast 4/4 RG
+  power_toughness: 4/4
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - RNA
+      - - name
+        - Ravnica Allegiance
+      - - number
+        - '8'
+      - - release_date
+        - '2019-01-25'
+  rules: Trample
+  subtype: Beast
+  type: Token Creature
 type: Instant
 url: https://tappedout.net/mtg-card/thrash-threat/
 

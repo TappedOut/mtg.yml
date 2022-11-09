@@ -10,6 +10,7 @@ canadian_hl_score: 0
 cannonical_set: C21
 cannonical_type: Planeswalker
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -56,9 +57,9 @@ printings:
     mtgo_foil_id: 55116
     mtgo_id: 55115
     name: Commander 2014
-    number: 33
+    number: '33'
     rarity: mythic_rare
-    release_date: '2014-11-21'
+    release_date: 2014-11-21
     tla: C14
     variations: []
     wizards_id: 389478
@@ -75,9 +76,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2016
-    number: 123
+    number: '123'
     rarity: mythic_rare
-    release_date: '2016-11-11'
+    release_date: 2016-11-11
     tla: C16
     variations: []
     wizards_id: 420740
@@ -95,9 +96,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander Anthology 2018
-    number: 4
+    number: '4'
     rarity: mythic_rare
-    release_date: '2018-06-08'
+    release_date: 2018-06-08
     tla: CM2
     variations: []
     wizards_id: 446740
@@ -116,7 +117,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: mythic_rare
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -133,9 +134,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2021
-    number: 164
+    number: '164'
     rarity: mythic_rare
-    release_date: '2021-04-23'
+    release_date: 2021-04-23
     tla: C21
     variations: []
     wizards_id: 519199
@@ -154,22 +155,42 @@ subtype_tokens:
 synonyms: []
 tapped_id: 16032
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Whenever an artifact is put into your graveyard from the battlefield, return
-        that card to the battlefield at the beginning of the next end step.
-    - - type
-      - Emblem
-    - - subtype
-      - 1063
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Daretti, Scrap Savant
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Daretti, Scrap Savant
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C14
+      - - name
+        - Commander 2014
+      - - number
+        - '36'
+      - - release_date
+        - '2014-11-21'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C16
+      - - name
+        - Commander 2016
+      - - number
+        - '21'
+      - - release_date
+        - '2016-11-11'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CM2
+      - - name
+        - Commander Anthology 2018
+      - - number
+        - '18'
+      - - release_date
+        - '2018-06-08'
+  rules: Whenever an artifact is put into your graveyard from the battlefield, return
+    that card to the battlefield at the beginning of the next end step.
+  subtype: Daretti
+  type: Emblem
 type: Planeswalker
 url: https://tappedout.net/mtg-card/daretti-scrap-savant/
 

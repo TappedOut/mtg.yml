@@ -1,10 +1,11 @@
 activated_abilities:
-- ': Gain two mana of any one colour.'
+- ': Add two mana of any one colour.'
 activated_costs: []
 canadian_hl_score: 0
-cannonical_set: C20
+cannonical_set: DMC
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -38,7 +39,7 @@ keywords:
 - Counters
 - Tokens
 mana_cost: 1BGU
-mana_produced: UU, BB, RR, GG, WW
+mana_produced: WW, UU, BB, RR, GG
 mana_value: 4
 melds_from: []
 name: Zaxara, the Exemplary
@@ -57,14 +58,33 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2020
-    number: 20
+    number: '20'
     rarity: mythic_rare
-    release_date: '2020-05-15'
+    release_date: 2020-05-15
     tla: C20
     variations: []
     wizards_id: 484727
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=484727
-rules: "Deathtouch\r\n\r\n[[symbol:T]]: Gain two mana of any one colour.\r\n\r\nWhenever\
+- DMC:
+    alterations:
+    - Normal
+    artist: Simon Dominic
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Dominaria United: Commander'
+    number: '176'
+    rarity: mythic_rare
+    release_date: 2022-09-10
+    tla: DMC
+    variations: []
+    wizards_id: 578792
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=578792
+rules: "Deathtouch\r\n\r\n[[symbol:T]]: Add two mana of any one colour.\r\n\r\nWhenever\
   \ you cast a spell with [[symbol:X]] in its mana cost, create a 0/0 green Hydra\
   \ creature token, then put X +1/+1 counters on it."
 slug: zaxara-the-exemplary
@@ -75,21 +95,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 22698
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 0/0
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 66
-    - - cannonical_type
-      - Creature
-    - - name
-      - Hydra 0/0 G
+- cannonical_type: Creature
+  colors: G
+  name: Hydra 0/0 G
+  power_toughness: 0/0
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C20
+      - - name
+        - Commander 2020
+      - - number
+        - '12'
+      - - release_date
+        - '2020-05-15'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DMC
+      - - name
+        - 'Dominaria United: Commander'
+      - - number
+        - '10'
+      - - release_date
+        - '2022-09-10'
+  rules: ''
+  subtype: Hydra
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/zaxara-the-exemplary/
 

@@ -6,6 +6,7 @@ canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Artifact
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -64,9 +65,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Crimson Vow'
-    number: 177
+    number: '177'
     rarity: uncommon
-    release_date: '2021-11-11'
+    release_date: 2021-11-11
     tla: VOW
     variations: []
     wizards_id: 541035
@@ -84,9 +85,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Double Feature'
-    number: 444
+    number: '444'
     rarity: uncommon
-    release_date: '2022-01-21'
+    release_date: 2022-01-21
     tla: DBL
     variations: []
     wizards_id: null
@@ -99,22 +100,24 @@ slug: sanguine-statuette
 synonyms: []
 tapped_id: 25614
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
-        a card.'
-    - - type
-      - Token Artifact
-    - - subtype
-      - 1692
-    - - cannonical_type
-      - Artifact
-    - - name
-      - Blood
+- cannonical_type: Artifact
+  colors: C
+  name: Blood
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '17'
+      - - release_date
+        - '2021-11-11'
+  rules: '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
+    a card.'
+  subtype: Blood
+  type: Token Artifact
 type: Artifact
 url: https://tappedout.net/mtg-card/sanguine-statuette/
 

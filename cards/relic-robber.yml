@@ -62,9 +62,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Zendikar Rising
-    number: 153
+    number: '153'
     rarity: rare
-    release_date: '2020-09-25'
+    release_date: 2020-09-25
     tla: ZNR
     variations:
     - identifier: '351'
@@ -83,22 +83,24 @@ subtype_tokens:
 synonyms: []
 tapped_id: 23290
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 0/1
-    - - rules
-      - "This creature can't block.\r\n\r\nAt the beginning of your upkeep, this creature\
-        \ deals 1 damage to you."
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 1517
-    - - cannonical_type
-      - Creature
-    - - name
-      - Goblin Construct 0/1 C
+- cannonical_type: Creature
+  colors: C
+  name: Goblin Construct 0/1 C
+  power_toughness: 0/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ZNR
+      - - name
+        - Zendikar Rising
+      - - number
+        - '11'
+      - - release_date
+        - '2020-09-25'
+  rules: "This creature can't block.\r\n\r\nAt the beginning of your upkeep, this\
+    \ creature deals 1 damage to you."
+  subtype: Goblin Construct
+  type: Token Artifact Creature
 type: Creature
 url: https://tappedout.net/mtg-card/relic-robber/
 

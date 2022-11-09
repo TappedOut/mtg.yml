@@ -11,6 +11,7 @@ canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Planeswalker
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -70,9 +71,9 @@ printings:
     mtgo_foil_id: 50317
     mtgo_id: 50316
     name: Theros
-    number: 209
+    number: '209'
     rarity: mythic_rare
-    release_date: '2013-09-27'
+    release_date: 2013-09-27
     tla: THS
     variations: []
     wizards_id: 373502
@@ -89,9 +90,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 853
+    number: '853'
     rarity: mythic_rare
-    release_date: '2022-06-10'
+    release_date: 2022-06-10
     tla: CLB
     variations: []
     wizards_id: 567670
@@ -106,21 +107,32 @@ slug: xenagos-the-reveler
 synonyms: []
 tapped_id: 14818
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - GR
-    - - power_toughness
-      - 2/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 812
-    - - cannonical_type
-      - Creature
-    - - name
-      - Satyr 2/2 GR
+- cannonical_type: Creature
+  colors: GR
+  name: Satyr 2/2 GR
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - THS
+      - - name
+        - Theros
+      - - number
+        - '9'
+      - - release_date
+        - '2013-09-27'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '46'
+      - - release_date
+        - '2022-06-10'
+  rules: ''
+  subtype: Satyr
+  type: Token Creature
 type: Planeswalker
 url: https://tappedout.net/mtg-card/xenagos-the-reveler/
 

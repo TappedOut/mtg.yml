@@ -7,6 +7,7 @@ canadian_hl_score: 0
 cannonical_set: MH1
 cannonical_type: Planeswalker
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -62,9 +63,9 @@ printings:
     mtgo_foil_id: 72807
     mtgo_id: 72806
     name: Modern Horizons
-    number: 217
+    number: '217'
     rarity: mythic_rare
-    release_date: '2019-06-14'
+    release_date: 2019-06-14
     tla: MH1
     variations: []
     wizards_id: 464166
@@ -82,9 +83,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Double Masters 2022
-    number: 296
+    number: '296'
     rarity: mythic_rare
-    release_date: '2022-07-08'
+    release_date: 2022-07-08
     tla: 2X2
     variations:
     - identifier: '334'
@@ -108,23 +109,34 @@ synonyms:
 - Wn6
 tapped_id: 21575
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Instants and sorcery cards in your graveyard have retrace. *(You may cast
-        instant and sorcery cards from your graveyard by discarding a land card in
-        addition to paying their other costs.)*
-    - - type
-      - Emblem
-    - - subtype
-      - 1346
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Wrenn and Six
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Wrenn and Six
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MH1
+      - - name
+        - Modern Horizons
+      - - number
+        - '21'
+      - - release_date
+        - '2019-06-14'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2X2
+      - - name
+        - Double Masters 2022
+      - - number
+        - '24'
+      - - release_date
+        - '2022-07-08'
+  rules: Instants and sorcery cards in your graveyard have retrace. *(You may cast
+    instant and sorcery cards from your graveyard by discarding a land card in addition
+    to paying their other costs.)*
+  subtype: Wrenn
+  type: Emblem
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/wrenn-and-six/
 

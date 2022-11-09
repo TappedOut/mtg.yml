@@ -5,6 +5,7 @@ cannonical_set: DOM
 cannonical_type: Enchantment
 color_identity: ''
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -62,9 +63,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Dominaria
-    number: 102
+    number: '102'
     rarity: rare
-    release_date: '2018-04-22'
+    release_date: 2018-04-22
     tla: DOM
     variations: []
     wizards_id: 442990
@@ -82,37 +83,41 @@ subtype_tokens:
 synonyms: []
 tapped_id: 20274
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - 0/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 471
-    - - cannonical_type
-      - Creature
-    - - name
-      - Cleric 0/1 B
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - 6/6
-    - - rules
-      - "Flying, trample\r\n\r\nAt the beginning of your upkeep, sacrifice another\
-        \ creature. If you can't, this creature deals 6 damage to you."
-    - - type
-      - Token Creature
-    - - subtype
-      - 88
-    - - cannonical_type
-      - Creature
-    - - name
-      - Demon 6/6 B
+- cannonical_type: Creature
+  colors: B
+  name: Cleric 0/1 B
+  power_toughness: 0/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DOM
+      - - name
+        - Dominaria
+      - - number
+        - '4'
+      - - release_date
+        - '2018-04-22'
+  rules: ''
+  subtype: Cleric
+  type: Token Creature
+- cannonical_type: Creature
+  colors: B
+  name: Demon 6/6 B
+  power_toughness: 6/6
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DOM
+      - - name
+        - Dominaria
+      - - number
+        - '7'
+      - - release_date
+        - '2018-04-22'
+  rules: "Flying, trample\r\n\r\nAt the beginning of your upkeep, sacrifice another\
+    \ creature. If you can't, this creature deals 6 damage to you."
+  subtype: Demon
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/rite-of-belzenlok/
 

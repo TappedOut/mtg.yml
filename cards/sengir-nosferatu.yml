@@ -56,7 +56,7 @@ printings:
     name: Time Spiral
     number: null
     rarity: rare
-    release_date: '2006-10-06'
+    release_date: 2006-10-06
     tla: TSP
     variations: []
     wizards_id: 116383
@@ -74,9 +74,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Time Spiral Remastered
-    number: 136
+    number: '136'
     rarity: rare
-    release_date: '2021-03-19'
+    release_date: 2021-03-19
     tla: TSR
     variations: []
     wizards_id: 509501
@@ -93,22 +93,24 @@ subtype_tokens:
 synonyms: []
 tapped_id: 1170
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - 1/2
-    - - rules
-      - "Flying\r\n\r\n[[symbol:1]][[symbol:B]], Sacrifice this: Return an exiled\
-        \ card named Sengir Nosferatu to the battlefield under its owner's control."
-    - - type
-      - Token Creature
-    - - subtype
-      - 169
-    - - cannonical_type
-      - Creature
-    - - name
-      - Bat 1/2 B
+- cannonical_type: Creature
+  colors: B
+  name: Bat 1/2 B
+  power_toughness: 1/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - TSR
+      - - name
+        - Time Spiral Remastered
+      - - number
+        - null
+      - - release_date
+        - '2021-03-19'
+  rules: "Flying\r\n\r\n[[symbol:1]][[symbol:B]], Sacrifice this: Return an exiled\
+    \ card named Sengir Nosferatu to the battlefield under its owner's control."
+  subtype: Bat
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/sengir-nosferatu/
 

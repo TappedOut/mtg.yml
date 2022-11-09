@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
@@ -51,6 +52,8 @@ printings:
     - Normal
     - Foil
     - Prerelease
+    - Promo pack
+    - PromoPackF
     artist: Andrew Mar
     booster_exclude: false
     border_color: B
@@ -60,9 +63,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Crimson Vow'
-    number: 170
+    number: '170'
     rarity: mythic_rare
-    release_date: '2021-11-11'
+    release_date: 2021-11-11
     tla: VOW
     variations:
     - identifier: '380'
@@ -81,9 +84,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Double Feature'
-    number: 437
+    number: '437'
     rarity: mythic_rare
-    release_date: '2022-01-21'
+    release_date: 2022-01-21
     tla: DBL
     variations: []
     wizards_id: null
@@ -98,21 +101,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 25370
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - X/X
-    - - rules
-      - Flying, haste
-    - - type
-      - Token Creature
-    - - subtype
-      - 934
-    - - cannonical_type
-      - Creature
-    - - name
-      - Dragon Illusion X/X R
+- cannonical_type: Creature
+  colors: R
+  name: Dragon Illusion X/X R
+  power_toughness: X/X
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '9'
+      - - release_date
+        - '2021-11-11'
+  rules: Flying, haste
+  subtype: Dragon Illusion
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/manaform-hellkite/
 

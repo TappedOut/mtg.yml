@@ -60,9 +60,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Midnight Hunt'
-    number: 65
+    number: '65'
     rarity: uncommon
-    release_date: '2021-09-24'
+    release_date: 2021-09-24
     tla: MID
     variations: []
     wizards_id: 534829
@@ -81,9 +81,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Double Feature'
-    number: 65
+    number: '65'
     rarity: uncommon
-    release_date: '2022-01-21'
+    release_date: 2022-01-21
     tla: DBL
     variations: []
     wizards_id: null
@@ -95,21 +95,23 @@ slug: ominous-roost
 synonyms: []
 tapped_id: 25047
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 1/1
-    - - rules
-      - "Flying\r\n\r\nThis creature can only block creatures with flying."
-    - - type
-      - Token Creature
-    - - subtype
-      - 32
-    - - cannonical_type
-      - Creature
-    - - name
-      - Bird 1/1 U w/ High Flying
+- cannonical_type: Creature
+  colors: U
+  name: Bird 1/1 U w/ High Flying
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MID
+      - - name
+        - 'Innistrad: Midnight Hunt'
+      - - number
+        - '3'
+      - - release_date
+        - '2021-09-24'
+  rules: "Flying\r\n\r\nThis creature can only block creatures with flying."
+  subtype: Bird
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/ominous-roost/
 

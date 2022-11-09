@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: BFZ
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -53,9 +54,9 @@ printings:
     mtgo_foil_id: 58634
     mtgo_id: 58633
     name: Battle for Zendikar
-    number: 212
+    number: '212'
     rarity: uncommon
-    release_date: '2015-10-02'
+    release_date: 2015-10-02
     tla: BFZ
     variations: []
     wizards_id: 401904
@@ -73,21 +74,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 17175
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 691
-    - - cannonical_type
-      - Creature
-    - - name
-      - Plant 1/1 G
+- cannonical_type: Creature
+  colors: G
+  name: Plant 1/1 G
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - BFZ
+      - - name
+        - Battle for Zendikar
+      - - number
+        - '10'
+      - - release_date
+        - '2015-10-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C19
+      - - name
+        - Commander 2019
+      - - number
+        - '17'
+      - - release_date
+        - '2019-08-23'
+  rules: ''
+  subtype: Plant
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/grovetender-druids/
 

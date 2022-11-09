@@ -53,9 +53,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2017
-    number: 49
+    number: '49'
     rarity: rare
-    release_date: '2017-08-25'
+    release_date: 2017-08-25
     tla: C17
     variations: []
     wizards_id: 433290
@@ -74,9 +74,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Double Masters 2022
-    number: 293
+    number: '293'
     rarity: rare
-    release_date: '2022-07-08'
+    release_date: 2022-07-08
     tla: 2X2
     variations:
     - identifier: '551'
@@ -94,21 +94,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 19267
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - BRG
-    - - power_toughness
-      - 3/3
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 1192
-    - - cannonical_type
-      - Creature
-    - - name
-      - Cat Dragon 3/3 BRG
+- cannonical_type: Creature
+  colors: BRG
+  name: Cat Dragon 3/3 BRG
+  power_toughness: 3/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C17
+      - - name
+        - Commander 2017
+      - - number
+        - '9'
+      - - release_date
+        - '2017-08-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2X2
+      - - name
+        - Double Masters 2022
+      - - number
+        - '19'
+      - - release_date
+        - '2022-07-08'
+  rules: Flying
+  subtype: Cat Dragon
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/wasitora-nekoru-queen/
 

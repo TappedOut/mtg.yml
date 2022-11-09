@@ -8,6 +8,7 @@ canadian_hl_score: 0
 cannonical_set: AER
 cannonical_type: Planeswalker
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -64,9 +65,9 @@ printings:
     mtgo_foil_id: 62558
     mtgo_id: 62557
     name: Aether Revolt
-    number: 137
+    number: '137'
     rarity: mythic_rare
-    release_date: '2017-01-20'
+    release_date: 2017-01-20
     tla: AER
     variations: []
     wizards_id: 423804
@@ -85,37 +86,40 @@ subtype_tokens:
 synonyms: []
 tapped_id: 18535
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - '[[symbol:T]], Sacrifice this artifact: Gain one mana of any colour.'
-    - - type
-      - Token Artifact
-    - - subtype
-      - null
-    - - cannonical_type
-      - Artifact
-    - - name
-      - Etherium Cell
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - At the beginning of combat on your turn, target artifact you control becomes
-        an artifact creature with base power and toughness 5/5.
-    - - type
-      - Emblem
-    - - subtype
-      - 754
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Tezzeret the Schemer
+- cannonical_type: Artifact
+  colors: C
+  name: Etherium Cell
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AER
+      - - name
+        - Aether Revolt
+      - - number
+        - null
+      - - release_date
+        - '2017-01-20'
+  rules: '[[symbol:T]], Sacrifice this artifact: Gain one mana of any colour.'
+  type: Token Artifact
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Tezzeret the Schemer
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AER
+      - - name
+        - Aether Revolt
+      - - number
+        - '4'
+      - - release_date
+        - '2017-01-20'
+  rules: At the beginning of combat on your turn, target artifact you control becomes
+    an artifact creature with base power and toughness 5/5.
+  subtype: Tezzeret
+  type: Emblem
 type: Planeswalker
 url: https://tappedout.net/mtg-card/tezzeret-the-schemer/
 

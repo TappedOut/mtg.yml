@@ -7,6 +7,7 @@ canadian_hl_score: 0
 cannonical_set: GK2
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
@@ -58,7 +59,7 @@ printings:
     name: Guildpact
     number: null
     rarity: rare
-    release_date: '2006-02-03'
+    release_date: 2006-02-03
     tla: GPT
     variations: []
     wizards_id: 96899
@@ -77,7 +78,7 @@ printings:
     name: 'Duel Decks: Garruk vs. Liliana'
     number: null
     rarity: rare
-    release_date: '2009-10-20'
+    release_date: 2009-10-20
     tla: DDD
     variations: []
     wizards_id: 201809
@@ -89,7 +90,7 @@ printings:
     artist: Wayne Reynolds
     booster_exclude: false
     border_color: B
-    cannonical: true
+    cannonical: false
     flavour_text: ''
     frame: modern
     mtgo_foil_id: 49013
@@ -97,7 +98,7 @@ printings:
     name: Modern Masters
     number: null
     rarity: rare
-    release_date: '2013-06-07'
+    release_date: 2013-06-07
     tla: MMA
     variations: []
     wizards_id: 370363
@@ -114,9 +115,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2017
-    number: 126
+    number: '126'
     rarity: rare
-    release_date: '2017-08-25'
+    release_date: 2017-08-25
     tla: C17
     variations: []
     wizards_id: 433058
@@ -134,9 +135,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Ravnica Allegiance: Guild Kits'
-    number: 34
+    number: '34'
     rarity: rare
-    release_date: '2019-02-15'
+    release_date: 2019-02-15
     tla: GK2
     variations: []
     wizards_id: 460460
@@ -153,9 +154,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Duel Decks Anthology
-    number: 46
+    number: '46'
     rarity: rare
-    release_date: '2014-12-05'
+    release_date: 2014-12-05
     tla: DD3
     variations: []
     wizards_id: 393922
@@ -173,21 +174,59 @@ subtype_tokens:
 synonyms: []
 tapped_id: 1838
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 169
-    - - cannonical_type
-      - Creature
-    - - name
-      - Bat 1/1 B
+- cannonical_type: Creature
+  colors: B
+  name: Bat 1/1 B
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MMA
+      - - name
+        - Modern Masters
+      - - number
+        - '5'
+      - - release_date
+        - '2013-06-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C17
+      - - name
+        - Commander 2017
+      - - number
+        - '2'
+      - - release_date
+        - '2017-08-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M19
+      - - name
+        - Core Set 2019
+      - - number
+        - '7'
+      - - release_date
+        - '2018-07-13'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MID
+      - - name
+        - 'Innistrad: Midnight Hunt'
+      - - number
+        - '4'
+      - - release_date
+        - '2021-09-24'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOC
+      - - name
+        - 'Innistrad: Crimson Vow Commander'
+      - - number
+        - '4'
+      - - release_date
+        - '2021-11-18'
+  rules: Flying
+  subtype: Bat
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/skeletal-vampire/
 

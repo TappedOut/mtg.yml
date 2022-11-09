@@ -58,7 +58,7 @@ printings:
     name: Nemesis
     number: null
     rarity: rare
-    release_date: '2000-02-14'
+    release_date: 2000-02-14
     tla: NMS
     variations: []
     wizards_id: 21381
@@ -76,13 +76,51 @@ printings:
     mtgo_foil_id: 52842
     mtgo_id: 52841
     name: Vintage Masters
-    number: 230
+    number: '230'
     rarity: rare
-    release_date: '2014-06-16'
+    release_date: 2014-06-16
     tla: VMA
     variations: []
     wizards_id: 383077
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=383077
+- WC00:
+    alterations:
+    - Normal
+    artist: Carl Critchlow
+    booster_exclude: false
+    border_color: G
+    cannonical: false
+    flavour_text: null
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 2000 World Championship Decks
+    number: jk113
+    rarity: rare
+    release_date: 2000-08-02
+    tla: WC00
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- WC01:
+    alterations:
+    - Normal
+    artist: Carl Critchlow
+    booster_exclude: false
+    border_color: G
+    cannonical: false
+    flavour_text: null
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 2001 World Championship Decks
+    number: jt113
+    rarity: rare
+    release_date: 2001-08-08
+    tla: WC01
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rarity: rare
 rules: "Fading 7 *(This enchantment enters the battlefield with seven fade counters\
   \ on it. At the beginning of your upkeep, remove a fade counter from it. If you\
@@ -95,22 +133,15 @@ slug: saproling-burst
 synonyms: []
 tapped_id: 5576
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - X/X
-    - - rules
-      - This creature's power and toughness are each equal to the number of fade counters
-        on Saproling Burst.
-    - - type
-      - Token Creature
-    - - subtype
-      - 893
-    - - cannonical_type
-      - Creature
-    - - name
-      - Saproling X/X G
+- cannonical_type: Creature
+  colors: G
+  name: Saproling X/X G
+  power_toughness: X/X
+  printings: []
+  rules: This creature's power and toughness are each equal to the number of fade
+    counters on Saproling Burst.
+  subtype: Saproling
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/saproling-burst/
 

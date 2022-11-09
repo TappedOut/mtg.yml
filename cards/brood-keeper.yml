@@ -5,6 +5,7 @@ canadian_hl_score: 0
 cannonical_set: M15
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -53,9 +54,9 @@ printings:
     mtgo_foil_id: 53551
     mtgo_id: 53550
     name: Magic 2015
-    number: 132
+    number: '132'
     rarity: uncommon
-    release_date: '2014-07-18'
+    release_date: 2014-07-18
     tla: M15
     variations:
     - identifier: 383198
@@ -73,21 +74,95 @@ subtype_tokens:
 synonyms: []
 tapped_id: 15689
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 2/2
-    - - rules
-      - "Flying\r\n\r\n[[symbol:R]]: This creature gets +1/+0 until end of turn."
-    - - type
-      - Token Creature
-    - - subtype
-      - 42
-    - - cannonical_type
-      - Creature
-    - - name
-      - Dragon 2/2 R
+- cannonical_type: Creature
+  colors: R
+  name: Dragon 2/2 R
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M14
+      - - name
+        - Magic 2014
+      - - number
+        - '6'
+      - - release_date
+        - '2013-07-19'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M15
+      - - name
+        - Magic 2015
+      - - number
+        - '7'
+      - - release_date
+        - '2014-07-18'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - EMA
+      - - name
+        - Eternal Masters
+      - - number
+        - '8'
+      - - release_date
+        - '2016-06-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - IMA
+      - - name
+        - Iconic Masters
+      - - number
+        - '5'
+      - - release_date
+        - '2017-11-17'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C18
+      - - name
+        - Commander 2018
+      - - number
+        - '11'
+      - - release_date
+        - '2018-08-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M19
+      - - name
+        - Core Set 2019
+      - - number
+        - '9'
+      - - release_date
+        - '2018-07-13'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C19
+      - - name
+        - Commander 2019
+      - - number
+        - '12'
+      - - release_date
+        - '2019-08-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '7'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GN3
+      - - name
+        - Game Nights Free-for-All
+      - - number
+        - '8'
+      - - release_date
+        - '2022-10-14'
+  rules: "Flying\r\n\r\n[[symbol:R]]: This creature gets +1/+0 until end of turn."
+  subtype: Dragon
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/brood-keeper/
 

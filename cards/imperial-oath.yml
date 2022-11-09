@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: NEO
 cannonical_type: Sorcery
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -56,16 +57,16 @@ printings:
     artist: Nicholas Elias
     booster_exclude: false
     border_color: B
-    cannonical: false
+    cannonical: true
     flavour_text: '*Those chosen to guard the Imperial Palace are not only unrivaled
       warriors but also lionhearted champions of the Imperial cause.*'
     frame: m15
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
-    number: 17
+    number: '17'
     rarity: common
-    release_date: '2022-02-10'
+    release_date: 2022-02-10
     tla: NEO
     variations: []
     wizards_id: 548310
@@ -77,21 +78,23 @@ slug: imperial-oath
 synonyms: []
 tapped_id: 25976
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 2/2
-    - - rules
-      - Vigilance
-    - - type
-      - Token Creature
-    - - subtype
-      - 1774
-    - - cannonical_type
-      - Creature
-    - - name
-      - Samurai 2/2 W
+- cannonical_type: Creature
+  colors: W
+  name: Samurai 2/2 W
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NEO
+      - - name
+        - 'Kamigawa: Neon Dynasty'
+      - - number
+        - '3'
+      - - release_date
+        - '2022-02-10'
+  rules: Vigilance
+  subtype: Samurai
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/imperial-oath/
 

@@ -62,9 +62,9 @@ printings:
     mtgo_foil_id: 78633
     mtgo_id: 78632
     name: Throne of Eldraine
-    number: 243
+    number: '243'
     rarity: common
-    release_date: '2019-10-04'
+    release_date: 2019-10-04
     tla: ELD
     variations: []
     wizards_id: 473205
@@ -79,21 +79,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 22174
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 177
-    - - cannonical_type
-      - Creature
-    - - name
-      - Dwarf 1/1 R
+- cannonical_type: Creature
+  colors: R
+  name: Dwarf 1/1 R
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ELD
+      - - name
+        - Throne of Eldraine
+      - - number
+        - '7'
+      - - release_date
+        - '2019-10-04'
+  rules: ''
+  subtype: Dwarf
+  type: Token Creature
 type: Land
 url: https://tappedout.net/mtg-card/dwarven-mine/
 

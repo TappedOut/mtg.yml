@@ -57,7 +57,7 @@ printings:
     name: Time Spiral
     number: null
     rarity: rare
-    release_date: '2006-10-06'
+    release_date: 2006-10-06
     tla: TSP
     variations: []
     wizards_id: 114919
@@ -76,7 +76,7 @@ printings:
     name: 'MTG: Commander'
     number: null
     rarity: rare
-    release_date: '2011-06-17'
+    release_date: 2011-06-17
     tla: CMD
     variations: []
     wizards_id: 247519
@@ -94,9 +94,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander Anthology 2018
-    number: 226
+    number: '226'
     rarity: rare
-    release_date: '2018-06-08'
+    release_date: 2018-06-08
     tla: CM2
     variations: []
     wizards_id: 446962
@@ -113,22 +113,33 @@ subtype_tokens:
 synonyms: []
 tapped_id: 1222
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 1/1
-    - - rules
-      - "Flying\r\n\r\nSacrifice this creature: This creature deals 1 damage to target\
-        \ creature or player."
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 917
-    - - cannonical_type
-      - Creature
-    - - name
-      - Triskelavite 1/1 C
+- cannonical_type: Creature
+  colors: C
+  name: Triskelavite 1/1 C
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CM2
+      - - name
+        - Commander Anthology 2018
+      - - number
+        - '14'
+      - - release_date
+        - '2018-06-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - '000'
+      - - name
+        - Promo Set
+      - - number
+        - null
+      - - release_date
+        - '1990-04-15'
+  rules: "Flying\r\n\r\nSacrifice this creature: This creature deals 1 damage to target\
+    \ creature or player."
+  subtype: Triskelavite
+  type: Token Artifact Creature
 type: Artifact Creature
 url: https://tappedout.net/mtg-card/triskelavus/
 

@@ -5,6 +5,7 @@ cannonical_set: GK1
 cannonical_type: Instant
 color_identity: ''
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -56,7 +57,7 @@ printings:
     name: Dragon's Maze
     number: null
     rarity: rare
-    release_date: '2013-05-03'
+    release_date: 2013-05-03
     tla: DGM
     variations: []
     wizards_id: 369036
@@ -75,9 +76,9 @@ printings:
     mtgo_foil_id: 63450
     mtgo_id: 63449
     name: Modern Masters 2017 Edition
-    number: 147
+    number: '147'
     rarity: rare
-    release_date: '2017-03-17'
+    release_date: 2017-03-17
     tla: MM3
     variations: []
     wizards_id: 425972
@@ -96,9 +97,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Guilds of Ravnica: Guild Kit'
-    number: 107
+    number: '107'
     rarity: rare
-    release_date: '2018-11-02'
+    release_date: 2018-11-02
     tla: GK1
     variations: []
     wizards_id: 456365
@@ -109,21 +110,41 @@ slug: advent-of-the-wurm
 synonyms: []
 tapped_id: 14481
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 5/5
-    - - rules
-      - Trample
-    - - type
-      - Token Creature
-    - - subtype
-      - 99
-    - - cannonical_type
-      - Creature
-    - - name
-      - Wurm 5/5 G w/ Trample
+- cannonical_type: Creature
+  colors: G
+  name: Wurm 5/5 G w/ Trample
+  power_toughness: 5/5
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - RTR
+      - - name
+        - Return to Ravnica
+      - - number
+        - '11'
+      - - release_date
+        - '2012-10-05'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MM3
+      - - name
+        - Modern Masters 2017 Edition
+      - - number
+        - '15'
+      - - release_date
+        - '2017-03-17'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GK1
+      - - name
+        - 'Guilds of Ravnica: Guild Kit'
+      - - number
+        - '9'
+      - - release_date
+        - '2018-11-02'
+  rules: Trample
+  subtype: Wurm
+  type: Token Creature
 type: Instant
 url: https://tappedout.net/mtg-card/advent-of-the-wurm/
 

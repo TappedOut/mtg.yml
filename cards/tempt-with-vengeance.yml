@@ -47,9 +47,9 @@ printings:
     mtgo_foil_id: 51369
     mtgo_id: 51368
     name: Commander 2013
-    number: 125
+    number: '125'
     rarity: rare
-    release_date: '2013-11-01'
+    release_date: 2013-11-01
     tla: C13
     variations: []
     wizards_id: 376546
@@ -65,21 +65,23 @@ synonyms:
 - Tempt with Vengence
 tapped_id: 15112
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Haste
-    - - type
-      - Token Creature
-    - - subtype
-      - 5
-    - - cannonical_type
-      - Creature
-    - - name
-      - Elemental 1/1 R w/ Haste
+- cannonical_type: Creature
+  colors: R
+  name: Elemental 1/1 R w/ Haste
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SHM
+      - - name
+        - Shadowmoor
+      - - number
+        - '4'
+      - - release_date
+        - '2008-05-02'
+  rules: Haste
+  subtype: Elemental
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/tempt-with-vengeance/
 

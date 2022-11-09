@@ -53,7 +53,7 @@ printings:
     name: Gatecrash
     number: null
     rarity: mythic_rare
-    release_date: '2013-02-01'
+    release_date: 2013-02-01
     tla: GTC
     variations: []
     wizards_id: 366394
@@ -71,9 +71,9 @@ printings:
     mtgo_foil_id: 77453
     mtgo_id: 77452
     name: Commander 2019
-    number: 169
+    number: '169'
     rarity: mythic_rare
-    release_date: '2019-08-23'
+    release_date: 2019-08-23
     tla: C19
     variations: []
     wizards_id: 470715
@@ -91,9 +91,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Streets of New Capenna: Commander'
-    number: 293
+    number: '293'
     rarity: mythic_rare
-    release_date: '2022-04-30'
+    release_date: 2022-04-30
     tla: NCC
     variations: []
     wizards_id: 559865
@@ -108,21 +108,85 @@ subtype_tokens:
 synonyms: []
 tapped_id: 14306
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - null
-    - - power_toughness
-      - null
-    - - rules
-      - '*This token can be used to represent a token that''s a copy of a permanent.*'
-    - - type
-      - Token Creature
-    - - subtype
-      - null
-    - - cannonical_type
-      - Creature
-    - - name
-      - Copy Clone
+- cannonical_type: Creature
+  colors: null
+  name: Copy Clone
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GK1
+      - - name
+        - 'Guilds of Ravnica: Guild Kit'
+      - - number
+        - '1'
+      - - release_date
+        - '2018-11-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - '31'
+      - - release_date
+        - '2020-08-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ZNR
+      - - name
+        - Zendikar Rising
+      - - number
+        - '12'
+      - - release_date
+        - '2020-09-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '13'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '23'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C21
+      - - name
+        - Commander 2021
+      - - number
+        - '30'
+      - - release_date
+        - '2021-04-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '19'
+      - - release_date
+        - '2021-11-11'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '19'
+      - - release_date
+        - '2022-06-10'
+  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/giant-adephage/
 

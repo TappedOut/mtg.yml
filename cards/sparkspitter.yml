@@ -64,7 +64,7 @@ printings:
     name: Future Sight
     number: null
     rarity: uncommon
-    release_date: '2007-05-04'
+    release_date: 2007-05-04
     tla: FUT
     variations: []
     wizards_id: 130341
@@ -82,9 +82,9 @@ printings:
     mtgo_foil_id: 70372
     mtgo_id: 70371
     name: Ultimate Masters
-    number: 149
+    number: '149'
     rarity: common
-    release_date: '2018-12-07'
+    release_date: 2018-12-07
     tla: UMA
     variations: []
     wizards_id: 456745
@@ -103,7 +103,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: common
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -120,21 +120,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 772
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 3/1
-    - - rules
-      - "Trample, haste\r\n\r\nAt the beginning of the end step, sacrifice this creature."
-    - - type
-      - Token Creature
-    - - subtype
-      - 5
-    - - cannonical_type
-      - Creature
-    - - name
-      - Spark Elemental
+- cannonical_type: Creature
+  colors: R
+  name: Spark Elemental
+  power_toughness: 3/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - FUT
+      - - name
+        - Future Sight
+      - - number
+        - null
+      - - release_date
+        - '2007-05-04'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UMA
+      - - name
+        - Ultimate Masters
+      - - number
+        - '12'
+      - - release_date
+        - '2018-12-07'
+  rules: "Trample, haste\r\n\r\nAt the beginning of the end step, sacrifice this creature."
+  subtype: Elemental
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/sparkspitter/
 

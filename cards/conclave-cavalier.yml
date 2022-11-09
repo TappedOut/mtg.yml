@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: GRN
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
@@ -55,9 +56,9 @@ printings:
     mtgo_foil_id: 69696
     mtgo_id: 69695
     name: Guilds of Ravnica
-    number: 161
+    number: '161'
     rarity: uncommon
-    release_date: '2018-10-05'
+    release_date: 2018-10-05
     tla: GRN
     variations: []
     wizards_id: 452911
@@ -72,21 +73,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 20835
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - GW
-    - - power_toughness
-      - 2/2
-    - - rules
-      - Vigilance
-    - - type
-      - Token Creature
-    - - subtype
-      - 524
-    - - cannonical_type
-      - Creature
-    - - name
-      - Elf Knight 2/2 GW
+- cannonical_type: Creature
+  colors: GW
+  name: Elf Knight 2/2 GW
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GRN
+      - - name
+        - Guilds of Ravnica
+      - - number
+        - '6'
+      - - release_date
+        - '2018-10-05'
+  rules: Vigilance
+  subtype: Elf Knight
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/conclave-cavalier/
 

@@ -63,9 +63,9 @@ printings:
     mtgo_foil_id: 63675
     mtgo_id: 63674
     name: Amonkhet
-    number: 36
+    number: '36'
     rarity: common
-    release_date: '2017-04-28'
+    release_date: 2017-04-28
     tla: AKH
     variations: []
     wizards_id: 426738
@@ -84,7 +84,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: common
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -101,21 +101,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 18733
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 3/2
-    - - rules
-      - Vigilance
-    - - type
-      - Token Creature
-    - - subtype
-      - 1286
-    - - cannonical_type
-      - Creature
-    - - name
-      - Unwavering Initiate 3/2 W
+- cannonical_type: Creature
+  colors: W
+  name: Unwavering Initiate 3/2 W
+  power_toughness: 3/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AKH
+      - - name
+        - Amonkhet
+      - - number
+        - null
+      - - release_date
+        - '2017-04-28'
+  rules: Vigilance
+  subtype: Zombie Human Warrior
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/unwavering-initiate/
 

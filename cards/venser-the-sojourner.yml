@@ -44,7 +44,6 @@ mana_cost: 3WU
 mana_value: 5
 melds_from: []
 name: Venser, the Sojourner
-power_toughness: '3'
 printings:
 - SOM:
     alterations:
@@ -59,9 +58,9 @@ printings:
     mtgo_foil_id: 38336
     mtgo_id: 38335
     name: Scars of Mirrodin
-    number: 135
+    number: '135'
     rarity: mythic_rare
-    release_date: '2010-10-01'
+    release_date: 2010-10-01
     tla: SOM
     variations: []
     wizards_id: 212240
@@ -78,9 +77,9 @@ printings:
     mtgo_foil_id: 43755
     mtgo_id: 43754
     name: 'Duel Decks: Venser vs. Koth'
-    number: 1
+    number: '1'
     rarity: mythic_rare
-    release_date: '2012-03-30'
+    release_date: 2012-03-30
     tla: DDI
     variations: []
     wizards_id: 266078
@@ -97,21 +96,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 12406
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Whenever you cast a spell, exile target permanent.
-    - - type
-      - Emblem
-    - - subtype
-      - 858
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Venser, the Sojourner
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Venser, the Sojourner
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DDI
+      - - name
+        - 'Duel Decks: Venser vs. Koth'
+      - - number
+        - '1'
+      - - release_date
+        - '2012-03-30'
+  rules: Whenever you cast a spell, exile target permanent.
+  subtype: Venser
+  type: Emblem
 type: Planeswalker
 url: https://tappedout.net/mtg-card/venser-the-sojourner/
 

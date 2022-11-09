@@ -54,9 +54,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Conspiracy
-    number: 42
+    number: '42'
     rarity: mythic_rare
-    release_date: '2014-06-06'
+    release_date: 2014-06-06
     tla: CNS
     variations: []
     wizards_id: 382244
@@ -74,9 +74,9 @@ printings:
     mtgo_foil_id: 52986
     mtgo_id: 52985
     name: Vintage Masters
-    number: 247
+    number: '247'
     rarity: mythic_rare
-    release_date: '2014-06-16'
+    release_date: 2014-06-16
     tla: VMA
     variations: []
     wizards_id: 382903
@@ -94,9 +94,9 @@ printings:
     mtgo_foil_id: 60732
     mtgo_id: 60731
     name: Eternal Masters
-    number: 199
+    number: '199'
     rarity: mythic_rare
-    release_date: '2016-06-10'
+    release_date: 2016-06-10
     tla: EMA
     variations: []
     wizards_id: 413741
@@ -113,9 +113,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Ravnica Allegiance: Mythic Edition'
-    number: 69
+    number: '69'
     rarity: mythic_rare
-    release_date: '2019-01-26'
+    release_date: 2019-01-26
     tla: RNAMED
     variations: []
     wizards_id: null
@@ -133,9 +133,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Secret Lair
-    number: 251
+    number: '251'
     rarity: mythic_rare
-    release_date: '2019-12-09'
+    release_date: 2019-12-09
     tla: SLD
     variations: []
     wizards_id: null
@@ -152,22 +152,33 @@ subtype_tokens:
 synonyms: []
 tapped_id: 15553
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Whenever you cast a spell that targets one or more permanents, gain control
-        of those permanents.
-    - - type
-      - Emblem
-    - - subtype
-      - 1026
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Dack Fayden
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Dack Fayden
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CNS
+      - - name
+        - Conspiracy
+      - - number
+        - '9'
+      - - release_date
+        - '2014-06-06'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - EMA
+      - - name
+        - Eternal Masters
+      - - number
+        - '16'
+      - - release_date
+        - '2016-06-10'
+  rules: Whenever you cast a spell that targets one or more permanents, gain control
+    of those permanents.
+  subtype: Dack
+  type: Emblem
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/dack-fayden/
 

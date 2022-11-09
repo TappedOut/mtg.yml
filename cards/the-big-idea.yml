@@ -11,6 +11,7 @@ cannonical_set: UN3
 cannonical_type: Creature
 color_identity: B
 companions:
+- Gyruda, Doom of Depths
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
@@ -47,9 +48,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Unstable
-    number: 76
+    number: '76'
     rarity: rare
-    release_date: '2017-12-08'
+    release_date: 2017-12-08
     tla: UN3
     variations: []
     wizards_id: 439465
@@ -67,21 +68,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 19691
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 1221
-    - - cannonical_type
-      - Creature
-    - - name
-      - Brainiac 1/1 R
+- cannonical_type: Creature
+  colors: R
+  name: Brainiac 1/1 R
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UN3
+      - - name
+        - Unstable
+      - - number
+        - '10'
+      - - release_date
+        - '2017-12-08'
+  rules: ''
+  subtype: Brainiac
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/the-big-idea/
 

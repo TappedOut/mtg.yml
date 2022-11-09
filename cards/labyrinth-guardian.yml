@@ -8,6 +8,7 @@ canadian_hl_score: 0
 cannonical_set: AKH
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -61,9 +62,9 @@ printings:
     mtgo_foil_id: 63723
     mtgo_id: 63722
     name: Amonkhet
-    number: 60
+    number: '60'
     rarity: uncommon
-    release_date: '2017-04-28'
+    release_date: 2017-04-28
     tla: AKH
     variations: []
     wizards_id: 426762
@@ -82,7 +83,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: uncommon
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -100,21 +101,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 18862
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 2/3
-    - - rules
-      - When this becomes the target of a spell, sacrifice this.
-    - - type
-      - Token Creature
-    - - subtype
-      - 1284
-    - - cannonical_type
-      - Creature
-    - - name
-      - Labyrinth Guardian 2/3 W
+- cannonical_type: Creature
+  colors: W
+  name: Labyrinth Guardian 2/3 W
+  power_toughness: 2/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AKH
+      - - name
+        - Amonkhet
+      - - number
+        - '8'
+      - - release_date
+        - '2017-04-28'
+  rules: When this becomes the target of a spell, sacrifice this.
+  subtype: Zombie Illusion Warrior
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/labyrinth-guardian/
 

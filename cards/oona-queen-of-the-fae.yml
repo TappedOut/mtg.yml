@@ -9,6 +9,7 @@ canadian_hl_score: 0
 cannonical_set: ZNC
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
@@ -60,7 +61,7 @@ printings:
     name: Shadowmoor
     number: null
     rarity: rare
-    release_date: '2008-05-02'
+    release_date: 2008-05-02
     tla: SHM
     variations: []
     wizards_id: 152063
@@ -77,9 +78,9 @@ printings:
     mtgo_foil_id: 42234
     mtgo_id: 42233
     name: 'From the Vault: Legends'
-    number: 8
+    number: '8'
     rarity: mythic_rare
-    release_date: '2011-08-26'
+    release_date: 2011-08-26
     tla: V11
     variations: []
     wizards_id: 244668
@@ -91,7 +92,7 @@ printings:
     artist: Adam Rex
     booster_exclude: false
     border_color: B
-    cannonical: true
+    cannonical: false
     flavour_text: ''
     frame: modern
     mtgo_foil_id: 48765
@@ -99,7 +100,7 @@ printings:
     name: Modern Masters
     number: null
     rarity: rare
-    release_date: '2013-06-07'
+    release_date: 2013-06-07
     tla: MMA
     variations: []
     wizards_id: 370429
@@ -117,13 +118,13 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Secret Lair
-    number: 54
+    number: '54'
     rarity: mythic_rare
-    release_date: '2019-12-09'
+    release_date: 2019-12-09
     tla: SLD
     variations: []
-    wizards_id: null
-    wizards_url: null
+    wizards_id: 479515
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479515
 - ZNC:
     alterations:
     - Normal
@@ -136,9 +137,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Zendikar Rising: Commander'
-    number: 98
+    number: '98'
     rarity: rare
-    release_date: '2020-09-25'
+    release_date: 2020-09-25
     tla: ZNC
     variations: []
     wizards_id: 496036
@@ -155,21 +156,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 9642
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - UB
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 313
-    - - cannonical_type
-      - Creature
-    - - name
-      - Faerie Rogue 1/1 UB
+- cannonical_type: Creature
+  colors: UB
+  name: Faerie Rogue 1/1 UB
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SHM
+      - - name
+        - Shadowmoor
+      - - number
+        - null
+      - - release_date
+        - '2008-05-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MMA
+      - - name
+        - Modern Masters
+      - - number
+        - null
+      - - release_date
+        - '2013-06-07'
+  rules: Flying
+  subtype: Faerie Rogue
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/oona-queen-of-the-fae/
 

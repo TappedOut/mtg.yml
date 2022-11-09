@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: THB
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
@@ -58,9 +59,9 @@ printings:
     mtgo_foil_id: 79131
     mtgo_id: 79130
     name: Theros Beyond Death
-    number: 3
+    number: '3'
     rarity: rare
-    release_date: '2020-01-24'
+    release_date: 2020-01-24
     tla: THB
     variations:
     - identifier: '298'
@@ -77,21 +78,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 22447
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 2/2
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 105
-    - - cannonical_type
-      - Creature
-    - - name
-      - Pegasus 2/2 W
+- cannonical_type: Creature
+  colors: W
+  name: Pegasus 2/2 W
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - THB
+      - - name
+        - Theros Beyond Death
+      - - number
+        - '3'
+      - - release_date
+        - '2020-01-24'
+  rules: Flying
+  subtype: Pegasus
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/archon-of-suns-grace/
 

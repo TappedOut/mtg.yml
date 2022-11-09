@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: WWK
 cannonical_type: Instant
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -51,9 +52,9 @@ printings:
     mtgo_foil_id: 35708
     mtgo_id: 35707
     name: Worldwake
-    number: 93
+    number: '93'
     rarity: rare
-    release_date: '2010-02-05'
+    release_date: 2010-02-05
     tla: WWK
     variations: []
     wizards_id: 191552
@@ -69,21 +70,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 11942
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 6/12
-    - - rules
-      - Trample
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 72
-    - - cannonical_type
-      - Creature
-    - - name
-      - Construct 6/12 C
+- cannonical_type: Creature
+  colors: C
+  name: Construct 6/12 C
+  power_toughness: 6/12
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - WWK
+      - - name
+        - Worldwake
+      - - number
+        - '6'
+      - - release_date
+        - '2010-02-05'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C18
+      - - name
+        - Commander 2018
+      - - number
+        - '21'
+      - - release_date
+        - '2018-08-10'
+  rules: Trample
+  subtype: Construct
+  type: Token Artifact Creature
 type: Instant
 url: https://tappedout.net/mtg-card/stone-idol-trap/
 

@@ -60,9 +60,9 @@ printings:
     mtgo_foil_id: 54247
     mtgo_id: 54246
     name: Khans of Tarkir
-    number: 119
+    number: '119'
     rarity: mythic_rare
-    release_date: '2014-09-26'
+    release_date: 2014-09-26
     tla: KTK
     variations: []
     wizards_id: 386650
@@ -81,22 +81,33 @@ subtype_tokens:
 synonyms: []
 tapped_id: 15789
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - "At the beginning of your draw step, draw two additional cards.\r\n\r\nAt\
-        \ the beginning of your end step, discard your hand."
-    - - type
-      - Emblem
-    - - subtype
-      - 670
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Sarkhan, the Dragonspeaker
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Sarkhan, the Dragonspeaker
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KTK
+      - - name
+        - Khans of Tarkir
+      - - number
+        - '12'
+      - - release_date
+        - '2014-09-26'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SCD
+      - - name
+        - Starter Commander Decks
+      - - number
+        - '27'
+      - - release_date
+        - '2022-12-02'
+  rules: "At the beginning of your draw step, draw two additional cards.\r\n\r\nAt\
+    \ the beginning of your end step, discard your hand."
+  subtype: Sarkhan
+  type: Emblem
 type: Planeswalker
 url: https://tappedout.net/mtg-card/sarkhan-the-dragonspeaker/
 

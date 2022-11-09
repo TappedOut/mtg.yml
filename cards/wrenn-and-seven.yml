@@ -69,9 +69,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Midnight Hunt'
-    number: 208
+    number: '208'
     rarity: mythic_rare
-    release_date: '2021-09-24'
+    release_date: 2021-09-24
     tla: MID
     variations:
     - identifier: '278'
@@ -90,9 +90,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Double Feature'
-    number: 208
+    number: '208'
     rarity: mythic_rare
-    release_date: '2022-01-21'
+    release_date: 2022-01-21
     tla: DBL
     variations: []
     wizards_id: null
@@ -112,37 +112,41 @@ subtype_tokens:
 synonyms: []
 tapped_id: 24982
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - c
-    - - power_toughness
-      - null
-    - - rules
-      - You have no maximum hand size.
-    - - type
-      - Emblem
-    - - subtype
-      - 1346
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Wrenn and Seven
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - X/X
-    - - rules
-      - "Reach\r\n\r\nThis creature's power and toughness are each equal to the number\
-        \ of lands you control."
-    - - type
-      - Token Creature
-    - - subtype
-      - 98
-    - - cannonical_type
-      - Creature
-    - - name
-      - Treefolk X/X G w/ Reach
+- cannonical_type: Emblem
+  colors: c
+  name: Emblem Wrenn and Seven
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MID
+      - - name
+        - 'Innistrad: Midnight Hunt'
+      - - number
+        - '18'
+      - - release_date
+        - '2021-09-24'
+  rules: You have no maximum hand size.
+  subtype: Wrenn
+  type: Emblem
+- cannonical_type: Creature
+  colors: G
+  name: Treefolk X/X G w/ Reach
+  power_toughness: X/X
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MID
+      - - name
+        - 'Innistrad: Midnight Hunt'
+      - - number
+        - '12'
+      - - release_date
+        - '2021-09-24'
+  rules: "Reach\r\n\r\nThis creature's power and toughness are each equal to the number\
+    \ of lands you control."
+  subtype: Treefolk
+  type: Token Creature
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/wrenn-and-seven/
 

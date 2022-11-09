@@ -5,6 +5,7 @@ canadian_hl_score: 0
 cannonical_set: 5ED
 cannonical_type: Enchantment
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -52,7 +53,7 @@ printings:
     name: Fifth Edition
     number: null
     rarity: rare
-    release_date: '1997-03-24'
+    release_date: 1997-03-24
     tla: 5ED
     variations: []
     wizards_id: 3899
@@ -71,7 +72,7 @@ printings:
     name: The Dark
     number: null
     rarity: rare
-    release_date: '1994-08-01'
+    release_date: 1994-08-01
     tla: DRK
     variations: []
     wizards_id: 1748
@@ -90,7 +91,7 @@ printings:
     name: Chronicles
     number: null
     rarity: rare
-    release_date: '1995-06-01'
+    release_date: 1995-06-01
     tla: CHR
     variations: []
     wizards_id: 2801
@@ -108,9 +109,9 @@ printings:
     mtgo_foil_id: 33639
     mtgo_id: 33638
     name: Masters Edition III
-    number: 34
+    number: '34'
     rarity: uncommon
-    release_date: '2009-09-07'
+    release_date: 2009-09-07
     tla: ME3
     variations: []
     wizards_id: 201253
@@ -128,9 +129,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Secret Lair
-    number: 442
+    number: '442'
     rarity: rare
-    release_date: '2019-12-09'
+    release_date: 2019-12-09
     tla: SLD
     variations: []
     wizards_id: null
@@ -144,21 +145,85 @@ slug: dance-of-many
 synonyms: []
 tapped_id: 8348
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - null
-    - - power_toughness
-      - null
-    - - rules
-      - '*This token can be used to represent a token that''s a copy of a permanent.*'
-    - - type
-      - Token Creature
-    - - subtype
-      - null
-    - - cannonical_type
-      - Creature
-    - - name
-      - Copy Clone
+- cannonical_type: Creature
+  colors: null
+  name: Copy Clone
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GK1
+      - - name
+        - 'Guilds of Ravnica: Guild Kit'
+      - - number
+        - '1'
+      - - release_date
+        - '2018-11-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - '31'
+      - - release_date
+        - '2020-08-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ZNR
+      - - name
+        - Zendikar Rising
+      - - number
+        - '12'
+      - - release_date
+        - '2020-09-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '13'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '23'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C21
+      - - name
+        - Commander 2021
+      - - number
+        - '30'
+      - - release_date
+        - '2021-04-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '19'
+      - - release_date
+        - '2021-11-11'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '19'
+      - - release_date
+        - '2022-06-10'
+  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/dance-of-many/
 

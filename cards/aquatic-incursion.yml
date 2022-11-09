@@ -6,6 +6,7 @@ canadian_hl_score: 0
 cannonical_set: RIX
 cannonical_type: Enchantment
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -56,9 +57,9 @@ printings:
     mtgo_foil_id: 66518
     mtgo_id: 66517
     name: Rivals of Ixalan
-    number: 32
+    number: '32'
     rarity: uncommon
-    release_date: '2018-01-19'
+    release_date: 2018-01-19
     tla: RIX
     variations: []
     wizards_id: 439689
@@ -72,22 +73,24 @@ slug: aquatic-incursion
 synonyms: []
 tapped_id: 19954
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Hexproof *(This creature can't be the target of spells or abilities your opponents
-        control.)*
-    - - type
-      - Token Creature
-    - - subtype
-      - 80
-    - - cannonical_type
-      - Creature
-    - - name
-      - Merfolk 1/1 U w/ Hexproof
+- cannonical_type: Creature
+  colors: U
+  name: Merfolk 1/1 U w/ Hexproof
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - XLN
+      - - name
+        - Ixalan
+      - - number
+        - '3'
+      - - release_date
+        - '2017-09-29'
+  rules: Hexproof *(This creature can't be the target of spells or abilities your
+    opponents control.)*
+  subtype: Merfolk
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/aquatic-incursion/
 

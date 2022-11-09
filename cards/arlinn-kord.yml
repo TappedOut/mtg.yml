@@ -8,6 +8,7 @@ cannonical_set: SOI
 cannonical_type: Planeswalker
 color_identity: ''
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -66,9 +67,9 @@ printings:
     mtgo_foil_id: 59763
     mtgo_id: 59762
     name: Shadows over Innistrad
-    number: 243
+    number: '243'
     rarity: mythic_rare
-    release_date: '2016-04-08'
+    release_date: 2016-04-08
     tla: SOI
     variations: []
     wizards_id: 410007
@@ -85,9 +86,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'From the Vault: Transform'
-    number: 3
+    number: '3'
     rarity: mythic_rare
-    release_date: '2017-11-24'
+    release_date: 2017-11-24
     tla: V17
     variations: []
     wizards_id: 439318
@@ -103,37 +104,248 @@ subtype_tokens:
 synonyms: []
 tapped_id: 17657
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - 'Creatures you control have haste and "[[symbol:T]]: This deals damage to
-        equal to this creature''s power to target creature or player."'
-    - - type
-      - Emblem
-    - - subtype
-      - 1127
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Arlinn Kord
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 2/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 93
-    - - cannonical_type
-      - Creature
-    - - name
-      - Wolf 2/2 G
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Arlinn Kord
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SOI
+      - - name
+        - Shadows over Innistrad
+      - - number
+        - '18'
+      - - release_date
+        - '2016-04-08'
+  rules: 'Creatures you control have haste and "[[symbol:T]]: This deals damage to
+    equal to this creature''s power to target creature or player."'
+  subtype: Arlinn
+  type: Emblem
+- cannonical_type: Creature
+  colors: G
+  name: Wolf 2/2 G
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ZEN
+      - - name
+        - Zendikar
+      - - number
+        - '11'
+      - - release_date
+        - '2009-10-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - LRW
+      - - name
+        - Lorwyn
+      - - number
+        - '10'
+      - - release_date
+        - '2007-10-12'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SHM
+      - - name
+        - Shadowmoor
+      - - number
+        - '7'
+      - - release_date
+        - '2008-05-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M10
+      - - name
+        - 2010 Core Set
+      - - number
+        - '7'
+      - - release_date
+        - '2009-07-17'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SOM
+      - - name
+        - Scars of Mirrodin
+      - - number
+        - '5'
+      - - release_date
+        - '2010-10-01'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ISD
+      - - name
+        - Innistrad
+      - - number
+        - '12'
+      - - release_date
+        - '2011-09-30'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M14
+      - - name
+        - Magic 2014
+      - - number
+        - '11'
+      - - release_date
+        - '2013-07-19'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - BNG
+      - - name
+        - Born of the Gods
+      - - number
+        - '9'
+      - - release_date
+        - '2014-02-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CNS
+      - - name
+        - Conspiracy
+      - - number
+        - '7'
+      - - release_date
+        - '2014-06-06'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C14
+      - - name
+        - Commander 2014
+      - - number
+        - '26'
+      - - release_date
+        - '2014-11-21'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MM2
+      - - name
+        - Modern Masters 2015 Edition
+      - - number
+        - '13'
+      - - release_date
+        - '2015-05-22'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C15
+      - - name
+        - Commander 2015
+      - - number
+        - '19'
+      - - release_date
+        - '2015-11-13'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SOI
+      - - name
+        - Shadows over Innistrad
+      - - number
+        - '9'
+      - - release_date
+        - '2016-04-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CM1
+      - - name
+        - Commander Anthology
+      - - number
+        - '16'
+      - - release_date
+        - '2017-06-09'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CM1
+      - - name
+        - Commander Anthology
+      - - number
+        - '17'
+      - - release_date
+        - '2017-06-09'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - A25
+      - - name
+        - Masters 25
+      - - number
+        - '13'
+      - - release_date
+        - '2018-03-16'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - WAR
+      - - name
+        - War of the Spark
+      - - number
+        - '15'
+      - - release_date
+        - '2019-05-03'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M20
+      - - name
+        - Core Set 2020
+      - - number
+        - '8'
+      - - release_date
+        - '2019-07-12'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - THB
+      - - name
+        - Theros Beyond Death
+      - - number
+        - '11'
+      - - release_date
+        - '2020-01-24'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - '19'
+      - - release_date
+        - '2020-08-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AFR
+      - - name
+        - 'Dungeons & Dragons: Adventures in the Forgotten Realms'
+      - - number
+        - '14'
+      - - release_date
+        - '2021-07-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MID
+      - - name
+        - 'Innistrad: Midnight Hunt'
+      - - number
+        - '13'
+      - - release_date
+        - '2021-09-24'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '14'
+      - - release_date
+        - '2021-11-11'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '43'
+      - - release_date
+        - '2022-06-10'
+  rules: ''
+  subtype: Wolf
+  type: Token Creature
 type: Planeswalker
 url: https://tappedout.net/mtg-card/arlinn-kord/
 

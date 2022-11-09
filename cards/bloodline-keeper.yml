@@ -9,6 +9,7 @@ cannonical_set: ISD
 cannonical_type: Creature
 color_identity: ''
 companions:
+- Gyruda, Doom of Depths
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
@@ -61,7 +62,7 @@ printings:
     name: Innistrad
     number: null
     rarity: rare
-    release_date: '2011-09-30'
+    release_date: 2011-09-30
     tla: ISD
     variations: []
     wizards_id: 227061
@@ -78,9 +79,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'From the Vault: Transform'
-    number: 4
+    number: '4'
     rarity: mythic_rare
-    release_date: '2017-11-24'
+    release_date: 2017-11-24
     tla: V17
     variations: []
     wizards_id: 439320
@@ -96,21 +97,50 @@ subtype_tokens:
 synonyms: []
 tapped_id: 13288
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - 2/2
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 107
-    - - cannonical_type
-      - Creature
-    - - name
-      - Vampire 2/2 B
+- cannonical_type: Creature
+  colors: B
+  name: Vampire 2/2 B
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ISD
+      - - name
+        - Innistrad
+      - - number
+        - '5'
+      - - release_date
+        - '2011-09-30'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KTK
+      - - name
+        - Khans of Tarkir
+      - - number
+        - '3'
+      - - release_date
+        - '2014-09-26'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UN3
+      - - name
+        - Unstable
+      - - number
+        - '8'
+      - - release_date
+        - '2017-12-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UN3
+      - - name
+        - Unstable
+      - - number
+        - '24'
+      - - release_date
+        - '2017-12-08'
+  rules: Flying
+  subtype: Vampire
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/bloodline-keeper/
 

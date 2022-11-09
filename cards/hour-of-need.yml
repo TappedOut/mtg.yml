@@ -55,9 +55,9 @@ printings:
     mtgo_foil_id: 52123
     mtgo_id: 52122
     name: Journey into Nyx
-    number: 40
+    number: '40'
     rarity: uncommon
-    release_date: '2014-05-02'
+    release_date: 2014-05-02
     tla: JOU
     variations: []
     wizards_id: 380435
@@ -71,21 +71,23 @@ slug: hour-of-need
 synonyms: []
 tapped_id: 15487
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 4/4
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 158
-    - - cannonical_type
-      - Creature
-    - - name
-      - Sphinx 4/4 U
+- cannonical_type: Creature
+  colors: U
+  name: Sphinx 4/4 U
+  power_toughness: 4/4
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - JOU
+      - - name
+        - Journey into Nyx
+      - - number
+        - '1'
+      - - release_date
+        - '2014-05-02'
+  rules: Flying
+  subtype: Sphinx
+  type: Token Creature
 type: Instant
 url: https://tappedout.net/mtg-card/hour-of-need/
 

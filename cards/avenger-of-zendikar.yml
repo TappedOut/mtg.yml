@@ -53,7 +53,7 @@ printings:
     name: Worldwake
     number: null
     rarity: mythic_rare
-    release_date: '2010-02-05'
+    release_date: 2010-02-05
     tla: WWK
     variations: []
     wizards_id: 201570
@@ -70,9 +70,9 @@ printings:
     mtgo_foil_id: 51055
     mtgo_id: 51054
     name: Commander 2013
-    number: 135
+    number: '135'
     rarity: mythic_rare
-    release_date: '2013-11-01'
+    release_date: 2013-11-01
     tla: C13
     variations: []
     wizards_id: 376253
@@ -89,9 +89,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Duel Decks: Zendikar vs. Eldrazi'
-    number: 1
+    number: '1'
     rarity: mythic_rare
-    release_date: '2015-08-28'
+    release_date: 2015-08-28
     tla: DDP
     variations: []
     wizards_id: 401643
@@ -108,9 +108,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2018
-    number: 129
+    number: '129'
     rarity: mythic_rare
-    release_date: '2018-08-10'
+    release_date: 2018-08-10
     tla: C18
     variations: []
     wizards_id: 451084
@@ -128,13 +128,13 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Double Masters
-    number: 152
+    number: '152'
     rarity: mythic_rare
-    release_date: '2020-08-07'
+    release_date: 2020-08-07
     tla: 2XM
     variations: []
-    wizards_id: null
-    wizards_url: null
+    wizards_id: 489825
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489825
 - SLD:
     alterations:
     - Normal
@@ -148,9 +148,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Secret Lair
-    number: 158
+    number: '158'
     rarity: mythic_rare
-    release_date: '2019-12-09'
+    release_date: 2019-12-09
     tla: SLD
     variations: []
     wizards_id: null
@@ -168,9 +168,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander Legends
-    number: 422
+    number: '422'
     rarity: mythic_rare
-    release_date: '2020-11-20'
+    release_date: 2020-11-20
     tla: CMR
     variations: []
     wizards_id: 500902
@@ -187,9 +187,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Streets of New Capenna: Commander'
-    number: 280
+    number: '280'
     rarity: mythic_rare
-    release_date: '2022-04-30'
+    release_date: 2022-04-30
     tla: NCC
     variations: []
     wizards_id: 559852
@@ -206,21 +206,104 @@ subtype_tokens:
 synonyms: []
 tapped_id: 11957
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 0/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 691
-    - - cannonical_type
-      - Creature
-    - - name
-      - Plant 0/1 G
+- cannonical_type: Creature
+  colors: G
+  name: Plant 0/1 G
+  power_toughness: 0/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - WWK
+      - - name
+        - Worldwake
+      - - number
+        - '5'
+      - - release_date
+        - '2010-02-05'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DDP
+      - - name
+        - 'Duel Decks: Zendikar vs. Eldrazi'
+      - - number
+        - '80'
+      - - release_date
+        - '2015-08-28'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - OGW
+      - - name
+        - Oath of the Gatewatch
+      - - number
+        - '11'
+      - - release_date
+        - '2016-01-22'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DDR
+      - - name
+        - 'Duel Decks: Nissa vs. Ob Nixilis'
+      - - number
+        - '75'
+      - - release_date
+        - '2016-09-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - PCA
+      - - name
+        - Planechase Anthology
+      - - number
+        - '18'
+      - - release_date
+        - '2016-11-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C18
+      - - name
+        - Commander 2018
+      - - number
+        - '17'
+      - - release_date
+        - '2018-08-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - '16'
+      - - release_date
+        - '2020-08-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ZNR
+      - - name
+        - Zendikar Rising
+      - - number
+        - '8'
+      - - release_date
+        - '2020-09-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '21'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NCC
+      - - name
+        - 'Streets of New Capenna: Commander'
+      - - number
+        - '27'
+      - - release_date
+        - '2022-04-30'
+  rules: ''
+  subtype: Plant
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/avenger-of-zendikar/
 

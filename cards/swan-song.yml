@@ -60,9 +60,9 @@ printings:
     mtgo_foil_id: 50441
     mtgo_id: 50440
     name: Theros
-    number: 65
+    number: '65'
     rarity: rare
-    release_date: '2013-09-27'
+    release_date: 2013-09-27
     tla: THS
     variations: []
     wizards_id: 373701
@@ -80,9 +80,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2016
-    number: 98
+    number: '98'
     rarity: rare
-    release_date: '2016-11-11'
+    release_date: 2016-11-11
     tla: C16
     variations: []
     wizards_id: 420715
@@ -102,7 +102,7 @@ printings:
     name: Arena Cards
     number: null
     rarity: rare
-    release_date: '2019-09-26'
+    release_date: 2019-09-26
     tla: ARENA
     variations: []
     wizards_id: null
@@ -121,13 +121,13 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Secret Lair
-    number: 91
+    number: '91'
     rarity: rare
-    release_date: '2019-12-09'
+    release_date: 2019-12-09
     tla: SLD
     variations: []
-    wizards_id: null
-    wizards_url: null
+    wizards_id: 485306
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485306
 rarity: rare
 rules: Counter target enchantment, instant or sorcery spell. Its controller creates
   a 2/2 blue Bird creature token with flying.
@@ -135,21 +135,32 @@ slug: swan-song
 synonyms: []
 tapped_id: 14877
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 2/2
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 32
-    - - cannonical_type
-      - Creature
-    - - name
-      - Bird 2/2 U
+- cannonical_type: Creature
+  colors: U
+  name: Bird 2/2 U
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - THS
+      - - name
+        - Theros
+      - - number
+        - '4'
+      - - release_date
+        - '2013-09-27'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C16
+      - - name
+        - Commander 2016
+      - - number
+        - '7'
+      - - release_date
+        - '2016-11-11'
+  rules: Flying
+  subtype: Bird
+  type: Token Creature
 type: Instant
 url: https://tappedout.net/mtg-card/swan-song/
 

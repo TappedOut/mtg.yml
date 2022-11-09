@@ -5,6 +5,7 @@ canadian_hl_score: 0
 cannonical_set: USG
 cannonical_type: Artifact
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -49,9 +50,9 @@ printings:
     mtgo_foil_id: 12144
     mtgo_id: 12143
     name: Urza's Saga
-    number: 301
+    number: '301'
     rarity: rare
-    release_date: '1998-10-12'
+    release_date: 1998-10-12
     tla: USG
     variations: []
     wizards_id: 8862
@@ -64,21 +65,23 @@ slug: metrognome
 synonyms: []
 tapped_id: 6367
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 198
-    - - cannonical_type
-      - Creature
-    - - name
-      - Gnome 1/1 C
+- cannonical_type: Creature
+  colors: C
+  name: Gnome 1/1 C
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UN3
+      - - name
+        - Unstable
+      - - number
+        - '20'
+      - - release_date
+        - '2017-12-08'
+  rules: ''
+  subtype: Gnome
+  type: Token Artifact Creature
 type: Artifact
 url: https://tappedout.net/mtg-card/metrognome/
 

@@ -1,14 +1,14 @@
 activated_abilities:
-- '_(: Gain )_'
-- ': Gain  or . Murmuring Bosk deals 1 damage to you.'
+- '_(: Add )_'
+- ': Add  or . Murmuring Bosk deals 1 damage to you.'
 activated_costs:
 - B
 - G
 - W
 canadian_hl_score: 0
-cannonical_set: C16
+cannonical_set: DMC
 cannonical_type: Land
-color_identity: ''
+color_identity: WBG
 companions:
 - Gyruda, Doom of Depths
 - Jegantha, the Wellspring
@@ -40,12 +40,10 @@ is_land: true
 is_mtgo: true
 is_permanent: true
 keywords: []
-mana_cost: ''
 mana_produced: W, B, G
 mana_value: 0
 melds_from: []
 name: Murmuring Bosk
-power_toughness: ''
 printings:
 - MOR:
     alterations:
@@ -62,7 +60,7 @@ printings:
     name: Morningtide
     number: null
     rarity: rare
-    release_date: '2008-02-01'
+    release_date: 2008-02-01
     tla: MOR
     variations: []
     wizards_id: 153467
@@ -81,7 +79,7 @@ printings:
     name: 'From the Vault: Realms'
     number: null
     rarity: mythic_rare
-    release_date: '2012-08-31'
+    release_date: 2012-08-31
     tla: V12
     variations: []
     wizards_id: 287334
@@ -98,9 +96,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2016
-    number: 308
+    number: '308'
     rarity: rare
-    release_date: '2016-11-11'
+    release_date: 2016-11-11
     tla: C16
     variations: []
     wizards_id: 420925
@@ -118,23 +116,43 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander Anthology 2018
-    number: 258
+    number: '258'
     rarity: rare
-    release_date: '2018-06-08'
+    release_date: 2018-06-08
     tla: CM2
     variations: []
     wizards_id: 446994
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=446994
+- DMC:
+    alterations:
+    - Normal
+    artist: John Avon
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Dominaria United: Commander'
+    number: '220'
+    rarity: rare
+    release_date: 2022-09-10
+    tla: DMC
+    variations: []
+    wizards_id: 578836
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=578836
 rarity: mythic_rare
-rules: "_([[symbol:T]]: Gain [[symbol:G]])_\r\n\r\nAs Murmuring Bosk enters the battlefield,\
+rules: "_([[symbol:T]]: Add [[symbol:G]])_\r\n\r\nAs Murmuring Bosk enters the battlefield,\
   \ you may reveal a Treefolk card from your hand. If you don't, Murmuring Bosk enters\
-  \ the battlefield tapped.\r\n\r\n[[symbol:T]]: Gain [[symbol:W]] or [[symbol:B]].\
+  \ the battlefield tapped.\r\n\r\n[[symbol:T]]: Add [[symbol:W]] or [[symbol:B]].\
   \ Murmuring Bosk deals 1 damage to you."
 slug: murmuring-bosk
 subtype: Forest
 subtype_tokens:
 - Forest
 synonyms: []
+tap_land: true
 tapped_id: 77
 tokens: []
 type: Land

@@ -58,7 +58,7 @@ printings:
     name: Future Sight
     number: null
     rarity: uncommon
-    release_date: '2007-05-04'
+    release_date: 2007-05-04
     tla: FUT
     variations: []
     wizards_id: 126166
@@ -77,9 +77,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Time Spiral Remastered
-    number: 216
+    number: '216'
     rarity: uncommon
-    release_date: '2021-03-19'
+    release_date: 2021-03-19
     tla: TSR
     variations: []
     wizards_id: 509581
@@ -95,21 +95,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 705
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 1/1
-    - - rules
-      - '[[symbol:T]]: Gain [[symbol:G]].'
-    - - type
-      - Token Creature
-    - - subtype
-      - 95
-    - - cannonical_type
-      - Creature
-    - - name
-      - Llanowar Elves 1/1 G
+- cannonical_type: Creature
+  colors: G
+  name: Llanowar Elves 1/1 G
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - TSR
+      - - name
+        - Time Spiral Remastered
+      - - number
+        - null
+      - - release_date
+        - '2021-03-19'
+  rules: '[[symbol:T]]: Gain [[symbol:G]].'
+  subtype: Elf Druid
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/llanowar-mentor/
 

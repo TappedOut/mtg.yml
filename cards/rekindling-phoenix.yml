@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: NCC
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
@@ -47,6 +48,8 @@ printings:
     - Normal
     - Foil
     - Prerelease
+    - Promo pack
+    - PromoPackF
     artist: Jason Rainville
     booster_exclude: false
     border_color: B
@@ -56,9 +59,9 @@ printings:
     mtgo_foil_id: 66676
     mtgo_id: 66675
     name: Rivals of Ixalan
-    number: 111
+    number: '111'
     rarity: mythic_rare
-    release_date: '2018-01-19'
+    release_date: 2018-01-19
     tla: RIX
     variations:
     - identifier: PromoPack
@@ -76,9 +79,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Streets of New Capenna: Commander'
-    number: 273
+    number: '273'
     rarity: mythic_rare
-    release_date: '2022-04-30'
+    release_date: 2022-04-30
     tla: NCC
     variations: []
     wizards_id: 559845
@@ -96,23 +99,34 @@ synonyms:
 - Rekindling Pheonix
 tapped_id: 20007
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 0/1
-    - - rules
-      - At the beginning of your upkeep, sacrifice this creature and return target
-        card named Rekindling Phoenix from your graveyard to the battlefield. It gains
-        haste until end of turn.
-    - - type
-      - Token Creature
-    - - subtype
-      - 5
-    - - cannonical_type
-      - Creature
-    - - name
-      - Elemental 0/1 R
+- cannonical_type: Creature
+  colors: R
+  name: Elemental 0/1 R
+  power_toughness: 0/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - RIX
+      - - name
+        - Rivals of Ixalan
+      - - number
+        - '1'
+      - - release_date
+        - '2018-01-19'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NCC
+      - - name
+        - 'Streets of New Capenna: Commander'
+      - - number
+        - '18'
+      - - release_date
+        - '2022-04-30'
+  rules: At the beginning of your upkeep, sacrifice this creature and return target
+    card named Rekindling Phoenix from your graveyard to the battlefield. It gains
+    haste until end of turn.
+  subtype: Elemental
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/rekindling-phoenix/
 

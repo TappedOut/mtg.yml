@@ -58,9 +58,9 @@ printings:
     mtgo_foil_id: 63663
     mtgo_id: 63662
     name: Amonkhet
-    number: 30
+    number: '30'
     rarity: common
-    release_date: '2017-04-28'
+    release_date: 2017-04-28
     tla: AKH
     variations: []
     wizards_id: 426732
@@ -75,21 +75,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 18856
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Vigilance
-    - - type
-      - Token Creature
-    - - subtype
-      - 864
-    - - cannonical_type
-      - Creature
-    - - name
-      - Warrior 1/1 W w/ Vigilance
+- cannonical_type: Creature
+  colors: W
+  name: Warrior 1/1 W w/ Vigilance
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AKH
+      - - name
+        - Amonkhet
+      - - number
+        - '17'
+      - - release_date
+        - '2017-04-28'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DMC
+      - - name
+        - 'Dominaria United: Commander'
+      - - number
+        - '4'
+      - - release_date
+        - '2022-09-10'
+  rules: Vigilance
+  subtype: Warrior
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/supply-caravan/
 

@@ -61,9 +61,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Strixhaven
-    number: 154
+    number: '154'
     rarity: rare
-    release_date: '2021-04-23'
+    release_date: 2021-04-23
     tla: STX
     variations:
     - identifier: '327'
@@ -75,22 +75,24 @@ slug: restorative-burst
 synonyms: []
 tapped_id: 24273
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - BG
-    - - power_toughness
-      - 1/1
-    - - rules
-      - When this dies *(is put into the graveyard from the battlefield, tokens are
-        put into the graveyard before they cease to exist.)*, you gain 1 life.
-    - - type
-      - Token Creature
-    - - subtype
-      - 907
-    - - cannonical_type
-      - Creature
-    - - name
-      - Pest 1/1 BG
+- cannonical_type: Creature
+  colors: BG
+  name: Pest 1/1 BG
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - STX
+      - - name
+        - Strixhaven
+      - - number
+        - null
+      - - release_date
+        - '2021-04-23'
+  rules: When this dies *(is put into the graveyard from the battlefield, tokens are
+    put into the graveyard before they cease to exist.)*, you gain 1 life.
+  subtype: Pest
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/restorative-burst/
 

@@ -63,15 +63,15 @@ printings:
     artist: Yeong-Hao Han
     booster_exclude: false
     border_color: B
-    cannonical: false
-    flavour_text: null
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
-    number: 138
+    number: '138'
     rarity: common
-    release_date: '2022-02-10'
+    release_date: 2022-02-10
     tla: NEO
     variations: []
     wizards_id: 548440
@@ -84,21 +84,23 @@ slug: experimental-synthesizer
 synonyms: []
 tapped_id: 25964
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 2/2
-    - - rules
-      - Vigilance
-    - - type
-      - Token Creature
-    - - subtype
-      - 1774
-    - - cannonical_type
-      - Creature
-    - - name
-      - Samurai 2/2 W
+- cannonical_type: Creature
+  colors: W
+  name: Samurai 2/2 W
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NEO
+      - - name
+        - 'Kamigawa: Neon Dynasty'
+      - - number
+        - '3'
+      - - release_date
+        - '2022-02-10'
+  rules: Vigilance
+  subtype: Samurai
+  type: Token Creature
 type: Artifact
 url: https://tappedout.net/mtg-card/experimental-synthesizer/
 

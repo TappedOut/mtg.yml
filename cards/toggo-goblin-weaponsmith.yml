@@ -53,9 +53,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander Legends
-    number: 204
+    number: '204'
     rarity: uncommon
-    release_date: '2020-11-20'
+    release_date: 2020-11-20
     tla: CMR
     variations:
     - identifier: '576'
@@ -74,23 +74,25 @@ subtype_tokens:
 synonyms: []
 tapped_id: 23605
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - "Equipped creature has \"[[symbol:1]], [[symbol:T]], Sacrifice Rock: This\
-        \ creature deals 2 damage to target creature, player or planeswalker.\"\r\n\
-        \r\nEquip [[symbol:1]]"
-    - - type
-      - Token Artifact
-    - - subtype
-      - 26
-    - - cannonical_type
-      - Artifact
-    - - name
-      - Rock
+- cannonical_type: Artifact
+  colors: C
+  name: Rock
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - null
+      - - release_date
+        - '2020-11-20'
+  rules: "Equipped creature has \"[[symbol:1]], [[symbol:T]], Sacrifice Rock: This\
+    \ creature deals 2 damage to target creature, player or planeswalker.\"\r\n\r\n\
+    Equip [[symbol:1]]"
+  subtype: Equipment
+  type: Token Artifact
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/toggo-goblin-weaponsmith/
 

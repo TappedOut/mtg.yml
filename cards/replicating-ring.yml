@@ -62,9 +62,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Kaldheim
-    number: 244
+    number: '244'
     rarity: uncommon
-    release_date: '2021-02-05'
+    release_date: 2021-02-05
     tla: KHM
     variations: []
     wizards_id: 503860
@@ -77,21 +77,22 @@ slug: replicating-ring
 synonyms: []
 tapped_id: 23770
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - '[[symbol:T]]: Gain one mana of any colour.'
-    - - type
-      - Token Snow Artifact
-    - - subtype
-      - null
-    - - cannonical_type
-      - Artifact
-    - - name
-      - Replicated Ring
+- cannonical_type: Artifact
+  colors: C
+  name: Replicated Ring
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KHM
+      - - name
+        - Kaldheim
+      - - number
+        - null
+      - - release_date
+        - '2021-02-05'
+  rules: '[[symbol:T]]: Gain one mana of any colour.'
+  type: Token Snow Artifact
 type: Snow Artifact
 url: https://tappedout.net/mtg-card/replicating-ring/
 

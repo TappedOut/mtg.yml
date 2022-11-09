@@ -55,7 +55,7 @@ printings:
     name: Mirage
     number: null
     rarity: uncommon
-    release_date: '1996-10-01'
+    release_date: 1996-10-01
     tla: MIR
     variations: []
     wizards_id: 3371
@@ -74,9 +74,9 @@ printings:
     mtgo_foil_id: 60542
     mtgo_id: 60541
     name: Eternal Masters
-    number: 75
+    number: '75'
     rarity: common
-    release_date: '2016-06-10'
+    release_date: 2016-06-10
     tla: EMA
     variations: []
     wizards_id: 413617
@@ -95,9 +95,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Duel Decks: Merfolk vs. Goblins'
-    number: 21
+    number: '21'
     rarity: common
-    release_date: '2017-11-10'
+    release_date: 2017-11-10
     tla: DDT
     variations: []
     wizards_id: 438461
@@ -117,7 +117,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: common
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -129,21 +129,32 @@ slug: tidal-wave
 synonyms: []
 tapped_id: 7694
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 5/5
-    - - rules
-      - Defender
-    - - type
-      - Token Creature
-    - - subtype
-      - 33
-    - - cannonical_type
-      - Creature
-    - - name
-      - Wall 5/5 U
+- cannonical_type: Creature
+  colors: U
+  name: Wall 5/5 U
+  power_toughness: 5/5
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - EMA
+      - - name
+        - Eternal Masters
+      - - number
+        - '4'
+      - - release_date
+        - '2016-06-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DDT
+      - - name
+        - 'Duel Decks: Merfolk vs. Goblins'
+      - - number
+        - '2'
+      - - release_date
+        - '2017-11-10'
+  rules: Defender
+  subtype: Wall
+  type: Token Creature
 type: Instant
 url: https://tappedout.net/mtg-card/tidal-wave/
 

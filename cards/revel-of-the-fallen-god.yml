@@ -50,9 +50,9 @@ printings:
     mtgo_foil_id: 52143
     mtgo_id: 52142
     name: Journey into Nyx
-    number: 155
+    number: '155'
     rarity: rare
-    release_date: '2014-05-02'
+    release_date: 2014-05-02
     tla: JOU
     variations: []
     wizards_id: 380482
@@ -63,21 +63,32 @@ slug: revel-of-the-fallen-god
 synonyms: []
 tapped_id: 15472
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - GR
-    - - power_toughness
-      - 2/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 812
-    - - cannonical_type
-      - Creature
-    - - name
-      - Satyr 2/2 GR
+- cannonical_type: Creature
+  colors: GR
+  name: Satyr 2/2 GR
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - THS
+      - - name
+        - Theros
+      - - number
+        - '9'
+      - - release_date
+        - '2013-09-27'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '46'
+      - - release_date
+        - '2022-06-10'
+  rules: ''
+  subtype: Satyr
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/revel-of-the-fallen-god/
 

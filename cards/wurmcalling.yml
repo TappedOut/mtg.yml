@@ -53,9 +53,9 @@ printings:
     mtgo_foil_id: 25710
     mtgo_id: 25709
     name: Time Spiral
-    number: 234
+    number: '234'
     rarity: rare
-    release_date: '2006-10-06'
+    release_date: 2006-10-06
     tla: TSP
     variations: []
     wizards_id: 114917
@@ -68,21 +68,23 @@ slug: wurmcalling
 synonyms: []
 tapped_id: 1248
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - X/X
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 99
-    - - cannonical_type
-      - Creature
-    - - name
-      - Wurm X/X G
+- cannonical_type: Creature
+  colors: G
+  name: Wurm X/X G
+  power_toughness: X/X
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - '000'
+      - - name
+        - Promo Set
+      - - number
+        - '9'
+      - - release_date
+        - '1990-04-15'
+  rules: ''
+  subtype: Wurm
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/wurmcalling/
 

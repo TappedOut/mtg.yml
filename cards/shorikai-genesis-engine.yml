@@ -10,6 +10,7 @@ cannonical_set: NEC
 cannonical_type: Artifact
 color_identity: WU
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -59,9 +60,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Kamigawa: Neon Dynasty Commander'
-    number: 4
+    number: '4'
     rarity: mythic_rare
-    release_date: '2022-02-11'
+    release_date: 2022-02-11
     tla: NEC
     variations:
     - identifier: '76'
@@ -79,21 +80,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 26043
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 1/1
-    - - rules
-      - This crews Vehicles as though this creature's power is 2 greater.
-    - - type
-      - Token Creature
-    - - subtype
-      - 1773
-    - - cannonical_type
-      - Creature
-    - - name
-      - Pilot 1/1 C
+- cannonical_type: Creature
+  colors: C
+  name: Pilot 1/1 C
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NEO
+      - - name
+        - 'Kamigawa: Neon Dynasty'
+      - - number
+        - '1'
+      - - release_date
+        - '2022-02-10'
+  rules: This crews Vehicles as though this creature's power is 2 greater.
+  subtype: Pilot
+  type: Token Creature
 type: Legendary Artifact
 url: https://tappedout.net/mtg-card/shorikai-genesis-engine/
 

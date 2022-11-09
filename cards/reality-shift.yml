@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: C19
 cannonical_type: Instant
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -52,9 +53,9 @@ printings:
     mtgo_foil_id: 55321
     mtgo_id: 55320
     name: Fate Reforged
-    number: 46
+    number: '46'
     rarity: uncommon
-    release_date: '2015-01-23'
+    release_date: 2015-01-23
     tla: FRF
     variations: []
     wizards_id: 391903
@@ -73,7 +74,7 @@ printings:
     name: Promo Set
     number: null
     rarity: uncommon
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations: []
     wizards_id: null
@@ -90,9 +91,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2017
-    number: 91
+    number: '91'
     rarity: uncommon
-    release_date: '2017-08-25'
+    release_date: 2017-08-25
     tla: C17
     variations: []
     wizards_id: 433023
@@ -111,9 +112,9 @@ printings:
     mtgo_foil_id: 77299
     mtgo_id: 77298
     name: Commander 2019
-    number: 92
+    number: '92'
     rarity: uncommon
-    release_date: '2019-08-23'
+    release_date: 2019-08-23
     tla: C19
     variations: []
     wizards_id: 470638
@@ -130,9 +131,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Kamigawa: Neon Dynasty Commander'
-    number: 95
+    number: '95'
     rarity: uncommon
-    release_date: '2022-02-11'
+    release_date: 2022-02-11
     tla: NEC
     variations: []
     wizards_id: 554178
@@ -146,23 +147,51 @@ slug: reality-shift
 synonyms: []
 tapped_id: 16196
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 2/2
-    - - rules
-      - "*You can cover a face-down manifested creature with this reminder card.\r\
-        \n\r\nA manifested creature card can be turned face up at any time for its\
-        \ mana cost. A face-down card can also be turned face up for its morph cost."
-    - - type
-      - Creature
-    - - subtype
-      - null
-    - - cannonical_type
-      - Creature
-    - - name
-      - Manifest 2/2 C
+- cannonical_type: Creature
+  colors: C
+  name: Manifest 2/2 C
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - FRF
+      - - name
+        - Fate Reforged
+      - - number
+        - '4'
+      - - release_date
+        - '2015-01-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C18
+      - - name
+        - Commander 2018
+      - - number
+        - '1'
+      - - release_date
+        - '2018-08-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C19
+      - - name
+        - Commander 2019
+      - - number
+        - '28'
+      - - release_date
+        - '2019-08-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NCC
+      - - name
+        - 'Streets of New Capenna: Commander'
+      - - number
+        - '3'
+      - - release_date
+        - '2022-04-30'
+  rules: "*You can cover a face-down manifested creature with this reminder card.\r\
+    \n\r\nA manifested creature card can be turned face up at any time for its mana\
+    \ cost. A face-down card can also be turned face up for its morph cost."
+  type: Creature
 type: Instant
 url: https://tappedout.net/mtg-card/reality-shift/
 

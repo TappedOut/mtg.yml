@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: C17
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -39,6 +40,7 @@ printings:
     alterations:
     - Normal
     - Foil
+    - The List
     artist: Carl Critchlow
     booster_exclude: false
     border_color: B
@@ -51,7 +53,7 @@ printings:
     name: Planar Chaos
     number: null
     rarity: rare
-    release_date: '2007-02-02'
+    release_date: 2007-02-02
     tla: PLC
     variations: []
     wizards_id: 124344
@@ -68,9 +70,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2017
-    number: 153
+    number: '153'
     rarity: rare
-    release_date: '2017-08-25'
+    release_date: 2017-08-25
     tla: C17
     variations: []
     wizards_id: 433085
@@ -86,21 +88,41 @@ subtype_tokens:
 synonyms: []
 tapped_id: 870
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 2/2
-    - - rules
-      - Forestwalk
-    - - type
-      - Token Creature
-    - - subtype
-      - 92
-    - - cannonical_type
-      - Creature
-    - - name
-      - Cat Warrior 2/2 G
+- cannonical_type: Creature
+  colors: G
+  name: Cat Warrior 2/2 G
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C17
+      - - name
+        - Commander 2017
+      - - number
+        - '8'
+      - - release_date
+        - '2017-08-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C18
+      - - name
+        - Commander 2018
+      - - number
+        - '9'
+      - - release_date
+        - '2018-08-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DMC
+      - - name
+        - 'Dominaria United: Commander'
+      - - number
+        - '17'
+      - - release_date
+        - '2022-09-10'
+  rules: Forestwalk
+  subtype: Cat Warrior
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/jedit-ojanen-of-efrava/
 

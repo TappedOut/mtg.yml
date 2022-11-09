@@ -61,9 +61,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Crimson Vow'
-    number: 181
+    number: '181'
     rarity: mythic_rare
-    release_date: '2021-11-11'
+    release_date: 2021-11-11
     tla: VOW
     variations:
     - identifier: '382'
@@ -82,9 +82,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Double Feature'
-    number: 448
+    number: '448'
     rarity: mythic_rare
-    release_date: '2022-01-21'
+    release_date: 2022-01-21
     tla: DBL
     variations: []
     wizards_id: null
@@ -106,36 +106,56 @@ subtype_tokens:
 synonyms: []
 tapped_id: 25361
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - null
-    - - power_toughness
-      - null
-    - - rules
-      - ''
-    - - type
-      - Emblem
-    - - subtype
-      - null
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Day
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - null
-    - - power_toughness
-      - null
-    - - rules
-      - ''
-    - - type
-      - Emblem
-    - - subtype
-      - null
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Night
+- cannonical_type: Emblem
+  colors: null
+  name: Day
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MID
+      - - name
+        - 'Innistrad: Midnight Hunt'
+      - - number
+        - '19'
+      - - release_date
+        - '2021-09-24'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '21'
+      - - release_date
+        - '2021-11-11'
+  rules: ''
+  type: Emblem
+- cannonical_type: Emblem
+  colors: null
+  name: Night
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MID
+      - - name
+        - 'Innistrad: Midnight Hunt'
+      - - number
+        - '19'
+      - - release_date
+        - '2021-09-24'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '21'
+      - - release_date
+        - '2021-11-11'
+  rules: ''
+  type: Emblem
 type: Creature
 url: https://tappedout.net/mtg-card/volatile-arsonist/
 

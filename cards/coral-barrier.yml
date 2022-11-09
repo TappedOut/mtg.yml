@@ -55,9 +55,9 @@ printings:
     mtgo_foil_id: 53521
     mtgo_id: 53520
     name: Magic 2015
-    number: 49
+    number: '49'
     rarity: common
-    release_date: '2014-07-18'
+    release_date: 2014-07-18
     tla: M15
     variations: []
     wizards_id: 383216
@@ -73,21 +73,59 @@ subtype_tokens:
 synonyms: []
 tapped_id: 15698
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Islandwalk
-    - - type
-      - Token Creature
-    - - subtype
-      - 1085
-    - - cannonical_type
-      - Creature
-    - - name
-      - Squid 1/1 U
+- cannonical_type: Creature
+  colors: U
+  name: Squid 1/1 U
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M15
+      - - name
+        - Magic 2015
+      - - number
+        - '4'
+      - - release_date
+        - '2014-07-18'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C16
+      - - name
+        - Commander 2016
+      - - number
+        - '8'
+      - - release_date
+        - '2016-11-11'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - '000'
+      - - name
+        - Promo Set
+      - - number
+        - '1'
+      - - release_date
+        - '1990-04-15'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NCC
+      - - name
+        - 'Streets of New Capenna: Commander'
+      - - number
+        - '12'
+      - - release_date
+        - '2022-04-30'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '29'
+      - - release_date
+        - '2022-06-10'
+  rules: Islandwalk
+  subtype: Squid
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/coral-barrier/
 

@@ -7,6 +7,7 @@ canadian_hl_score: 0
 cannonical_set: ALA
 cannonical_type: Enchantment
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -57,9 +58,9 @@ printings:
     mtgo_foil_id: 30952
     mtgo_id: 30951
     name: Shards of Alara
-    number: 143
+    number: '143'
     rarity: rare
-    release_date: '2008-10-03'
+    release_date: 2008-10-03
     tla: ALA
     variations: []
     wizards_id: 174886
@@ -72,21 +73,77 @@ slug: ooze-garden
 synonyms: []
 tapped_id: 10075
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - X/X
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 14
-    - - cannonical_type
-      - Creature
-    - - name
-      - Ooze X/X G
+- cannonical_type: Creature
+  colors: G
+  name: Ooze X/X G
+  power_toughness: X/X
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ALA
+      - - name
+        - Shards of Alara
+      - - number
+        - '8'
+      - - release_date
+        - '2008-10-03'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ROE
+      - - name
+        - Rise of the Eldrazi
+      - - number
+        - '4'
+      - - release_date
+        - '2010-04-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ISD
+      - - name
+        - Innistrad
+      - - number
+        - '10'
+      - - release_date
+        - '2011-09-30'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - RTR
+      - - name
+        - Return to Ravnica
+      - - number
+        - '8'
+      - - release_date
+        - '2012-10-05'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MM3
+      - - name
+        - Modern Masters 2017 Edition
+      - - number
+        - '13'
+      - - release_date
+        - '2017-03-17'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UMA
+      - - name
+        - Ultimate Masters
+      - - number
+        - '14'
+      - - release_date
+        - '2018-12-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - '15'
+      - - release_date
+        - '2020-08-07'
+  rules: ''
+  subtype: Ooze
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/ooze-garden/
 

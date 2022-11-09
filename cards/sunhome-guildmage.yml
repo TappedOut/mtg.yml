@@ -8,6 +8,7 @@ cannonical_set: GK1
 cannonical_type: Creature
 color_identity: ''
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -62,7 +63,7 @@ printings:
     name: Gatecrash
     number: null
     rarity: uncommon
-    release_date: '2013-02-01'
+    release_date: 2013-02-01
     tla: GTC
     variations: []
     wizards_id: 366429
@@ -80,9 +81,9 @@ printings:
     mtgo_foil_id: 63372
     mtgo_id: 63371
     name: Modern Masters 2017 Edition
-    number: 191
+    number: '191'
     rarity: uncommon
-    release_date: '2017-03-17'
+    release_date: 2017-03-17
     tla: MM3
     variations: []
     wizards_id: 426016
@@ -100,9 +101,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Guilds of Ravnica: Guild Kit'
-    number: 95
+    number: '95'
     rarity: uncommon
-    release_date: '2018-11-02'
+    release_date: 2018-11-02
     tla: GK1
     variations: []
     wizards_id: 455772
@@ -119,21 +120,50 @@ subtype_tokens:
 synonyms: []
 tapped_id: 14293
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - RW
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 18
-    - - cannonical_type
-      - Creature
-    - - name
-      - Soldier 1/1 RW
+- cannonical_type: Creature
+  colors: RW
+  name: Soldier 1/1 RW
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GTC
+      - - name
+        - Gatecrash
+      - - number
+        - '6'
+      - - release_date
+        - '2013-02-01'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MM3
+      - - name
+        - Modern Masters 2017 Edition
+      - - number
+        - '19'
+      - - release_date
+        - '2017-03-17'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GK1
+      - - name
+        - 'Guilds of Ravnica: Guild Kit'
+      - - number
+        - '6'
+      - - release_date
+        - '2018-11-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - '000'
+      - - name
+        - Promo Set
+      - - number
+        - null
+      - - release_date
+        - '1990-04-15'
+  rules: ''
+  subtype: Soldier
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/sunhome-guildmage/
 

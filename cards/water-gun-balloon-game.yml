@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: UND
 cannonical_type: Artifact
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -14,6 +15,8 @@ companions:
 - Yorion, Sky Nomad
 effective_cost: []
 formats:
+- Commander / EDH
+- Legacy
 - Limited
 - Unformat
 is_mtgo: true
@@ -41,7 +44,7 @@ printings:
     name: Unhinged
     number: null
     rarity: rare
-    release_date: '2004-11-19'
+    release_date: 2004-11-19
     tla: UNH
     variations: []
     wizards_id: 73953
@@ -59,9 +62,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Unsanctioned
-    number: 85
+    number: '85'
     rarity: rare
-    release_date: '2020-02-28'
+    release_date: 2020-02-28
     tla: UND
     variations: []
     wizards_id: 479473
@@ -71,7 +74,7 @@ printings:
     - Normal
     - Foil
     artist: Ralph Horsley
-    booster_exclude: false
+    booster_exclude: true
     border_color: B
     cannonical: false
     flavour_text: ''
@@ -79,9 +82,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Unfinity
-    number: 538
+    number: '538'
     rarity: rare
-    release_date: '2022-10-07'
+    release_date: 2022-10-07
     tla: UNF
     variations: []
     wizards_id: null
@@ -95,21 +98,23 @@ slug: water-gun-balloon-game
 synonyms: []
 tapped_id: 2899
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 5/5
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 897
-    - - cannonical_type
-      - Creature
-    - - name
-      - Giant Teddy Bear 5/5 C
+- cannonical_type: Creature
+  colors: C
+  name: Giant Teddy Bear 5/5 C
+  power_toughness: 5/5
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UND
+      - - name
+        - Unsanctioned
+      - - number
+        - '5'
+      - - release_date
+        - '2020-02-28'
+  rules: ''
+  subtype: Giant Teddy Bear
+  type: Token Creature
 type: Artifact
 url: https://tappedout.net/mtg-card/water-gun-balloon-game/
 

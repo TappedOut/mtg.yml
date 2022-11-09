@@ -1,9 +1,10 @@
 activated_abilities: []
 activated_costs: []
 canadian_hl_score: 0
-cannonical_set: AER
+cannonical_set: DMC
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -60,13 +61,33 @@ printings:
     mtgo_foil_id: 62746
     mtgo_id: 62745
     name: Aether Revolt
-    number: 87
+    number: '87'
     rarity: rare
-    release_date: '2017-01-20'
+    release_date: 2017-01-20
     tla: AER
     variations: []
     wizards_id: 423754
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=423754
+- DMC:
+    alterations:
+    - Normal
+    artist: Brad Rigney
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: '*Aboard her ship, the *Dragon''s Smile*, Kari follows no one''s
+      rules but her own.*'
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Dominaria United: Commander'
+    number: '123'
+    rarity: rare
+    release_date: 2022-09-10
+    tla: DMC
+    variations: []
+    wizards_id: 578739
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=578739
 rarity: rare
 rules: "First strike, menace \r\n\r\nWhenever Kari Zev, Skyship Raider attacks, create\
   \ a legendary 2/1 red Monkey creature token named Ragavan that's tapped and attacking.\
@@ -79,21 +100,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 18623
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 2/1
-    - - rules
-      - ''
-    - - type
-      - Token Legendary Creature
-    - - subtype
-      - 1182
-    - - cannonical_type
-      - Creature
-    - - name
-      - Ragavan
+- cannonical_type: Creature
+  colors: R
+  name: Ragavan
+  power_toughness: 2/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AER
+      - - name
+        - Aether Revolt
+      - - number
+        - '2'
+      - - release_date
+        - '2017-01-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DMC
+      - - name
+        - 'Dominaria United: Commander'
+      - - number
+        - '6'
+      - - release_date
+        - '2022-09-10'
+  rules: ''
+  subtype: Monkey
+  type: Token Legendary Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/kari-zev-skyship-raider/
 

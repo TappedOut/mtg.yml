@@ -60,9 +60,9 @@ printings:
     mtgo_foil_id: 71245
     mtgo_id: 71244
     name: Ravnica Allegiance
-    number: 122
+    number: '122'
     rarity: mythic_rare
-    release_date: '2019-01-25'
+    release_date: 2019-01-25
     tla: RNA
     variations:
     - identifier: PromoPack
@@ -79,21 +79,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 21099
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 2/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 14
-    - - cannonical_type
-      - Creature
-    - - name
-      - Ooze 2/2 G
+- cannonical_type: Creature
+  colors: G
+  name: Ooze 2/2 G
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - RNA
+      - - name
+        - Ravnica Allegiance
+      - - number
+        - '7'
+      - - release_date
+        - '2019-01-25'
+  rules: ''
+  subtype: Ooze
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/biogenic-ooze/
 

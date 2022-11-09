@@ -8,6 +8,7 @@ canadian_hl_score: 0
 cannonical_set: AFR
 cannonical_type: Planeswalker
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -70,9 +71,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Dungeons & Dragons: Adventures in the Forgotten Realms'
-    number: 172
+    number: '172'
     rarity: mythic_rare
-    release_date: '2021-07-23'
+    release_date: 2021-07-23
     tla: AFR
     variations:
     - identifier: '285'
@@ -92,39 +93,97 @@ subtype_tokens:
 synonyms: []
 tapped_id: 24678
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - At the end of the first combat phase on your turn, untap target creature you
-        control. After this phase, there is an additional combat phase.
-    - - type
-      - Emblem
-    - - subtype
-      - 1174
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Zariel, Archduke of Avernus
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 1/1
-    - - rules
-      - When this creature dies *(is put into the graveyard from the battlefield,
-        tokens are put into the graveyard before ceasing to exist)*, this deals 1
-        damage to any target *(creature, player or planeswalker)*.
-    - - type
-      - Token Creature
-    - - subtype
-      - 675
-    - - cannonical_type
-      - Creature
-    - - name
-      - Devil 1/1 R
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Zariel, Archduke of Avernus
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AFR
+      - - name
+        - 'Dungeons & Dragons: Adventures in the Forgotten Realms'
+      - - number
+        - null
+      - - release_date
+        - '2021-07-23'
+  rules: At the end of the first combat phase on your turn, untap target creature
+    you control. After this phase, there is an additional combat phase.
+  subtype: Zariel
+  type: Emblem
+- cannonical_type: Creature
+  colors: R
+  name: Devil 1/1 R
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SOI
+      - - name
+        - Shadows over Innistrad
+      - - number
+        - '6'
+      - - release_date
+        - '2016-04-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - WAR
+      - - name
+        - War of the Spark
+      - - number
+        - '12'
+      - - release_date
+        - '2019-05-03'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AFR
+      - - name
+        - 'Dungeons & Dragons: Adventures in the Forgotten Realms'
+      - - number
+        - '11'
+      - - release_date
+        - '2021-07-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MID
+      - - name
+        - 'Innistrad: Midnight Hunt'
+      - - number
+        - '6'
+      - - release_date
+        - '2021-09-24'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NCC
+      - - name
+        - 'Streets of New Capenna: Commander'
+      - - number
+        - '17'
+      - - release_date
+        - '2022-04-30'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SNC
+      - - name
+        - Streets of New Capenna
+      - - number
+        - '8'
+      - - release_date
+        - '2022-04-29'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '10'
+      - - release_date
+        - '2022-06-10'
+  rules: When this creature dies *(is put into the graveyard from the battlefield,
+    tokens are put into the graveyard before ceasing to exist)*, this deals 1 damage
+    to any target *(creature, player or planeswalker)*.
+  subtype: Devil
+  type: Token Creature
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/zariel-archduke-of-avernus/
 

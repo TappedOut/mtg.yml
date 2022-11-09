@@ -9,6 +9,7 @@ canadian_hl_score: 0
 cannonical_set: AKH
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -62,9 +63,9 @@ printings:
     mtgo_foil_id: 63993
     mtgo_id: 63992
     name: Amonkhet
-    number: 195
+    number: '195'
     rarity: uncommon
-    release_date: '2017-04-28'
+    release_date: 2017-04-28
     tla: AKH
     variations: []
     wizards_id: 426897
@@ -82,21 +83,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 18934
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 2/3
-    - - rules
-      - "Flying, vigilance\r\n\r\nCreature tokens you control have flying and vigilance."
-    - - type
-      - Token Creature
-    - - subtype
-      - 1274
-    - - cannonical_type
-      - Creature
-    - - name
-      - Aven Wind Guide 2/3 W
+- cannonical_type: Creature
+  colors: W
+  name: Aven Wind Guide 2/3 W
+  power_toughness: 2/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AKH
+      - - name
+        - Amonkhet
+      - - number
+        - null
+      - - release_date
+        - '2017-04-28'
+  rules: "Flying, vigilance\r\n\r\nCreature tokens you control have flying and vigilance."
+  subtype: Zombie Bird Warrior
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/aven-wind-guide/
 

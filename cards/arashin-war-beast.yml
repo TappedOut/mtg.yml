@@ -50,9 +50,9 @@ printings:
     mtgo_foil_id: 55401
     mtgo_id: 55400
     name: Fate Reforged
-    number: 123
+    number: '123'
     rarity: uncommon
-    release_date: '2015-01-23'
+    release_date: 2015-01-23
     tla: FRF
     variations: []
     wizards_id: 391792
@@ -71,7 +71,7 @@ printings:
     name: Promo Set
     number: null
     rarity: uncommon
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations: []
     wizards_id: null
@@ -88,23 +88,51 @@ subtype_tokens:
 synonyms: []
 tapped_id: 16227
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 2/2
-    - - rules
-      - "*You can cover a face-down manifested creature with this reminder card.\r\
-        \n\r\nA manifested creature card can be turned face up at any time for its\
-        \ mana cost. A face-down card can also be turned face up for its morph cost."
-    - - type
-      - Creature
-    - - subtype
-      - null
-    - - cannonical_type
-      - Creature
-    - - name
-      - Manifest 2/2 C
+- cannonical_type: Creature
+  colors: C
+  name: Manifest 2/2 C
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - FRF
+      - - name
+        - Fate Reforged
+      - - number
+        - '4'
+      - - release_date
+        - '2015-01-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C18
+      - - name
+        - Commander 2018
+      - - number
+        - '1'
+      - - release_date
+        - '2018-08-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C19
+      - - name
+        - Commander 2019
+      - - number
+        - '28'
+      - - release_date
+        - '2019-08-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NCC
+      - - name
+        - 'Streets of New Capenna: Commander'
+      - - number
+        - '3'
+      - - release_date
+        - '2022-04-30'
+  rules: "*You can cover a face-down manifested creature with this reminder card.\r\
+    \n\r\nA manifested creature card can be turned face up at any time for its mana\
+    \ cost. A face-down card can also be turned face up for its morph cost."
+  type: Creature
 type: Creature
 url: https://tappedout.net/mtg-card/arashin-war-beast/
 

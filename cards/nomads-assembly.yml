@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: C14
 cannonical_type: Sorcery
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -52,7 +53,7 @@ printings:
     name: Rise of the Eldrazi
     number: null
     rarity: rare
-    release_date: '2010-04-23'
+    release_date: 2010-04-23
     tla: ROE
     variations: []
     wizards_id: 198180
@@ -69,9 +70,9 @@ printings:
     mtgo_foil_id: 54854
     mtgo_id: 54853
     name: Commander 2014
-    number: 82
+    number: '82'
     rarity: rare
-    release_date: '2014-11-21'
+    release_date: 2014-11-21
     tla: C14
     variations: []
     wizards_id: 389617
@@ -85,21 +86,32 @@ slug: nomads-assembly
 synonyms: []
 tapped_id: 12143
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 100
-    - - cannonical_type
-      - Creature
-    - - name
-      - Kor Soldier 1/1 W
+- cannonical_type: Creature
+  colors: W
+  name: Kor Soldier 1/1 W
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ZEN
+      - - name
+        - Zendikar
+      - - number
+        - '3'
+      - - release_date
+        - '2009-10-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C14
+      - - name
+        - Commander 2014
+      - - number
+        - '14'
+      - - release_date
+        - '2014-11-21'
+  rules: ''
+  subtype: Kor Soldier
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/nomads-assembly/
 

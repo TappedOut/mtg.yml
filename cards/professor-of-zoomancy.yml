@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: STX
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -60,9 +61,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Strixhaven
-    number: 140
+    number: '140'
     rarity: common
-    release_date: '2021-04-23'
+    release_date: 2021-04-23
     tla: STX
     variations: []
     wizards_id: 513617
@@ -78,22 +79,24 @@ subtype_tokens:
 synonyms: []
 tapped_id: 24235
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - BG
-    - - power_toughness
-      - 1/1
-    - - rules
-      - When this dies *(is put into the graveyard from the battlefield, tokens are
-        put into the graveyard before they cease to exist.)*, you gain 1 life.
-    - - type
-      - Token Creature
-    - - subtype
-      - 907
-    - - cannonical_type
-      - Creature
-    - - name
-      - Pest 1/1 BG
+- cannonical_type: Creature
+  colors: BG
+  name: Pest 1/1 BG
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - STX
+      - - name
+        - Strixhaven
+      - - number
+        - null
+      - - release_date
+        - '2021-04-23'
+  rules: When this dies *(is put into the graveyard from the battlefield, tokens are
+    put into the graveyard before they cease to exist.)*, you gain 1 life.
+  subtype: Pest
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/professor-of-zoomancy/
 

@@ -53,7 +53,7 @@ printings:
     name: Eventide
     number: null
     rarity: rare
-    release_date: '2008-07-25'
+    release_date: 2008-07-25
     tla: EVE
     variations: []
     wizards_id: 157400
@@ -72,7 +72,7 @@ printings:
     name: 'MTG: Commander'
     number: null
     rarity: rare
-    release_date: '2011-06-17'
+    release_date: 2011-06-17
     tla: CMD
     variations: []
     wizards_id: 247202
@@ -89,9 +89,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2015
-    number: 240
+    number: '240'
     rarity: rare
-    release_date: '2015-11-13'
+    release_date: 2015-11-13
     tla: C15
     variations: []
     wizards_id: 405164
@@ -109,9 +109,9 @@ printings:
     mtgo_foil_id: 60602
     mtgo_id: 60601
     name: Eternal Masters
-    number: 214
+    number: '214'
     rarity: rare
-    release_date: '2016-06-10'
+    release_date: 2016-06-10
     tla: EMA
     variations: []
     wizards_id: 413756
@@ -128,9 +128,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2021
-    number: 211
+    number: '211'
     rarity: rare
-    release_date: '2021-04-23'
+    release_date: 2021-04-23
     tla: C21
     variations: []
     wizards_id: 519246
@@ -147,13 +147,13 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Streets of New Capenna: Commander'
-    number: 335
+    number: '333'
     rarity: rare
-    release_date: '2022-04-30'
+    release_date: 2022-04-30
     tla: NCC
     variations: []
-    wizards_id: null
-    wizards_url: null
+    wizards_id: 559905
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=559905
 rarity: rare
 rules: "Create a 5/5 blue and red Elemental creature token with flying.\r\n\r\nRetrace\
   \ *(You may cast this card from your graveyard by discarding a land card in addition\
@@ -162,21 +162,59 @@ slug: call-the-skybreaker
 synonyms: []
 tapped_id: 9776
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - UR
-    - - power_toughness
-      - 5/5
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 5
-    - - cannonical_type
-      - Creature
-    - - name
-      - Elemental 5/5 UR
+- cannonical_type: Creature
+  colors: UR
+  name: Elemental 5/5 UR
+  power_toughness: 5/5
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - EVE
+      - - name
+        - Eventide
+      - - number
+        - '5'
+      - - release_date
+        - '2008-07-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C15
+      - - name
+        - Commander 2015
+      - - number
+        - '20'
+      - - release_date
+        - '2015-11-13'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - EMA
+      - - name
+        - Eternal Masters
+      - - number
+        - '14'
+      - - release_date
+        - '2016-06-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C21
+      - - name
+        - Commander 2021
+      - - number
+        - '20'
+      - - release_date
+        - '2021-04-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NCC
+      - - name
+        - 'Streets of New Capenna: Commander'
+      - - number
+        - '32'
+      - - release_date
+        - '2022-04-30'
+  rules: Flying
+  subtype: Elemental
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/call-the-skybreaker/
 

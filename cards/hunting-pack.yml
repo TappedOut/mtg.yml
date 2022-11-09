@@ -55,7 +55,7 @@ printings:
     name: Scourge
     number: null
     rarity: uncommon
-    release_date: '2003-05-17'
+    release_date: 2003-05-17
     tla: SCG
     variations: []
     wizards_id: 45848
@@ -74,7 +74,7 @@ printings:
     name: 'MTG: Commander'
     number: null
     rarity: uncommon
-    release_date: '2011-06-17'
+    release_date: 2011-06-17
     tla: CMD
     variations: []
     wizards_id: 247405
@@ -92,9 +92,9 @@ printings:
     mtgo_foil_id: 66216
     mtgo_id: 66215
     name: Iconic Masters
-    number: null
+    number: '168'
     rarity: uncommon
-    release_date: '2017-11-17'
+    release_date: 2017-11-17
     tla: IMA
     variations: []
     wizards_id: 438734
@@ -111,13 +111,13 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2020
-    number: 179
+    number: '179'
     rarity: uncommon
-    release_date: '2020-05-15'
+    release_date: 2020-05-15
     tla: C20
     variations: []
-    wizards_id: null
-    wizards_url: null
+    wizards_id: 482807
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=482807
 - MH2:
     alterations:
     - Normal
@@ -131,13 +131,32 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Modern Horizons 2
-    number: 284
+    number: '284'
     rarity: uncommon
-    release_date: '2021-06-18'
+    release_date: 2021-06-18
     tla: MH2
     variations: []
     wizards_id: 526255
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=526255
+- WC03:
+    alterations:
+    - Normal
+    artist: Jim Nelson
+    booster_exclude: false
+    border_color: G
+    cannonical: false
+    flavour_text: null
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 2003 World Championship Decks
+    number: dz121sb
+    rarity: uncommon
+    release_date: 2003-08-06
+    tla: WC03
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rarity: uncommon
 rules: "Create a 4/4 green Beast creature token.\r\n\r\nStorm *(When you cast this\
   \ spell, copy it for each spell cast before it this turn.)*"
@@ -145,21 +164,167 @@ slug: hunting-pack
 synonyms: []
 tapped_id: 3595
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 4/4
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 83
-    - - cannonical_type
-      - Creature
-    - - name
-      - Beast 4/4 G
+- cannonical_type: Creature
+  colors: G
+  name: Beast 4/4 G
+  power_toughness: 4/4
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ODY
+      - - name
+        - Odyssey
+      - - number
+        - '8'
+      - - release_date
+        - '2001-09-21'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DDD
+      - - name
+        - 'Duel Decks: Garruk vs. Liliana'
+      - - number
+        - '2'
+      - - release_date
+        - '2009-10-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ZEN
+      - - name
+        - Zendikar
+      - - number
+        - '9'
+      - - release_date
+        - '2009-10-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C14
+      - - name
+        - Commander 2014
+      - - number
+        - '20'
+      - - release_date
+        - '2014-11-21'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C15
+      - - name
+        - Commander 2015
+      - - number
+        - '13'
+      - - release_date
+        - '2015-11-13'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MM3
+      - - name
+        - Modern Masters 2017 Edition
+      - - number
+        - '10'
+      - - release_date
+        - '2017-03-17'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DDS
+      - - name
+        - 'Duel Decks: Mind vs. Might'
+      - - number
+        - '4'
+      - - release_date
+        - '2017-03-31'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CM1
+      - - name
+        - Commander Anthology
+      - - number
+        - '8'
+      - - release_date
+        - '2017-06-09'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - E01
+      - - name
+        - 'Archenemy: Nicol Bolas'
+      - - number
+        - '5'
+      - - release_date
+        - '2017-06-16'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - IMA
+      - - name
+        - Iconic Masters
+      - - number
+        - '7'
+      - - release_date
+        - '2017-11-17'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C18
+      - - name
+        - Commander 2018
+      - - number
+        - '13'
+      - - release_date
+        - '2018-08-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C19
+      - - name
+        - Commander 2019
+      - - number
+        - '14'
+      - - release_date
+        - '2019-08-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C20
+      - - name
+        - Commander 2020
+      - - number
+        - '11'
+      - - release_date
+        - '2020-05-15'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '19'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C21
+      - - name
+        - Commander 2021
+      - - number
+        - '11'
+      - - release_date
+        - '2021-04-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MH2
+      - - name
+        - Modern Horizons 2
+      - - number
+        - '9'
+      - - release_date
+        - '2021-06-18'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MID
+      - - name
+        - 'Innistrad: Midnight Hunt'
+      - - number
+        - '8'
+      - - release_date
+        - '2021-09-24'
+  rules: ''
+  subtype: Beast
+  type: Token Creature
 type: Instant
 url: https://tappedout.net/mtg-card/hunting-pack/
 

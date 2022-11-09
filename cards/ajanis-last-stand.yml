@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: M19
 cannonical_type: Enchantment
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -47,6 +48,7 @@ printings:
     - Prerelease
     - Promo pack
     - PromoPackF
+    - The List
     artist: Slawomir Maniak
     booster_exclude: false
     border_color: B
@@ -56,9 +58,9 @@ printings:
     mtgo_foil_id: 68170
     mtgo_id: 68169
     name: Core Set 2019
-    number: 4
+    number: '4'
     rarity: rare
-    release_date: '2018-07-13'
+    release_date: 2018-07-13
     tla: M19
     variations: []
     wizards_id: 447140
@@ -71,21 +73,23 @@ slug: ajanis-last-stand
 synonyms: []
 tapped_id: 20621
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 4/4
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 27
-    - - cannonical_type
-      - Creature
-    - - name
-      - Avatar 4/4 W
+- cannonical_type: Creature
+  colors: W
+  name: Avatar 4/4 W
+  power_toughness: 4/4
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M19
+      - - name
+        - Core Set 2019
+      - - number
+        - '2'
+      - - release_date
+        - '2018-07-13'
+  rules: Flying
+  subtype: Avatar
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/ajanis-last-stand/
 

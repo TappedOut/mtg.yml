@@ -1,9 +1,10 @@
 activated_abilities: []
 activated_costs: []
 canadian_hl_score: 0
-cannonical_set: MMA
+cannonical_set: EVE
 cannonical_type: Sorcery
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -55,7 +56,7 @@ printings:
     name: Eventide
     number: null
     rarity: common
-    release_date: '2008-07-25'
+    release_date: 2008-07-25
     tla: EVE
     variations: []
     wizards_id: 153469
@@ -67,15 +68,15 @@ printings:
     artist: Matt Cavotta
     booster_exclude: false
     border_color: B
-    cannonical: true
+    cannonical: false
     flavour_text: The more the scarier.
     frame: modern
     mtgo_foil_id: 48781
     mtgo_id: 48780
     name: Modern Masters
-    number: 9
+    number: '9'
     rarity: common
-    release_date: '2013-06-07'
+    release_date: 2013-06-07
     tla: MMA
     variations: []
     wizards_id: 370373
@@ -88,21 +89,59 @@ slug: cenns-enlistment
 synonyms: []
 tapped_id: 9781
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 144
-    - - cannonical_type
-      - Creature
-    - - name
-      - Kithkin Soldier 1/1 W
+- cannonical_type: Creature
+  colors: W
+  name: Kithkin Soldier 1/1 W
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - LRW
+      - - name
+        - Lorwyn
+      - - number
+        - null
+      - - release_date
+        - '2007-10-12'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SHM
+      - - name
+        - Shadowmoor
+      - - number
+        - null
+      - - release_date
+        - '2008-05-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MMA
+      - - name
+        - Modern Masters
+      - - number
+        - null
+      - - release_date
+        - '2013-06-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CM1
+      - - name
+        - Commander Anthology
+      - - number
+        - null
+      - - release_date
+        - '2017-06-09'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KHC
+      - - name
+        - 'Kaldheim: Commander'
+      - - number
+        - null
+      - - release_date
+        - '2021-02-05'
+  rules: ''
+  subtype: Kithkin Soldier
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/cenns-enlistment/
 

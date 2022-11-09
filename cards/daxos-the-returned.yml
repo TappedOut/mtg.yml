@@ -58,9 +58,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2015
-    number: 43
+    number: '43'
     rarity: mythic_rare
-    release_date: '2015-11-13'
+    release_date: 2015-11-13
     tla: C15
     variations: []
     wizards_id: 405191
@@ -78,37 +78,58 @@ subtype_tokens:
 synonyms: []
 tapped_id: 17360
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - null
-    - - power_toughness
-      - null
-    - - rules
-      - '*(Place your experience counters here.)*'
-    - - type
-      - Emblem
-    - - subtype
-      - null
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Experience Token
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - WB
-    - - power_toughness
-      - X/X
-    - - rules
-      - This creature's power and toughness are each equal to the number of experience
-        counters you have.
-    - - type
-      - Token Enchantment Creature
-    - - subtype
-      - 17
-    - - cannonical_type
-      - Creature
-    - - name
-      - Enchantment Spirit X/X WB
+- cannonical_type: Emblem
+  colors: null
+  name: Experience Token
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C15
+      - - name
+        - Commander 2015
+      - - number
+        - null
+      - - release_date
+        - '2015-11-13'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CM1
+      - - name
+        - Commander Anthology
+      - - number
+        - null
+      - - release_date
+        - '2017-06-09'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CM2
+      - - name
+        - Commander Anthology 2018
+      - - number
+        - null
+      - - release_date
+        - '2018-06-08'
+  rules: '*(Place your experience counters here.)*'
+  type: Emblem
+- cannonical_type: Creature
+  colors: WB
+  name: Enchantment Spirit X/X WB
+  power_toughness: X/X
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C15
+      - - name
+        - Commander 2015
+      - - number
+        - '23'
+      - - release_date
+        - '2015-11-13'
+  rules: This creature's power and toughness are each equal to the number of experience
+    counters you have.
+  subtype: Spirit
+  type: Token Enchantment Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/daxos-the-returned/
 

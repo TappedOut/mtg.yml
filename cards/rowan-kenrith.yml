@@ -8,6 +8,7 @@ canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Planeswalker
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -49,6 +50,7 @@ printings:
     alterations:
     - Normal
     - Foil
+    - Prerelease
     - The List
     artist: Anna Steinbauer
     booster_exclude: false
@@ -59,9 +61,9 @@ printings:
     mtgo_foil_id: 69241
     mtgo_id: 69240
     name: Battlebond
-    number: 2
+    number: '2'
     rarity: mythic_rare
-    release_date: '2018-06-08'
+    release_date: 2018-06-08
     tla: BBD
     variations:
     - identifier: '256'
@@ -79,9 +81,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Promo Set
-    number: 256
+    number: '256'
     rarity: mythic_rare
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations: []
     wizards_id: null
@@ -98,9 +100,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 805
+    number: '805'
     rarity: mythic_rare
-    release_date: '2022-06-10'
+    release_date: 2022-06-10
     tla: CLB
     variations: []
     wizards_id: 567622
@@ -120,22 +122,33 @@ subtype_tokens:
 synonyms: []
 tapped_id: 20373
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Whenever you activate an ability that isn't a mana ability, copy it. You may
-        choose new targets for the copy.
-    - - type
-      - Emblem
-    - - subtype
-      - 1259
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Rowan Kenrith
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Rowan Kenrith
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - BBD
+      - - name
+        - Battlebond
+      - - number
+        - '8'
+      - - release_date
+        - '2018-06-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '49'
+      - - release_date
+        - '2022-06-10'
+  rules: Whenever you activate an ability that isn't a mana ability, copy it. You
+    may choose new targets for the copy.
+  subtype: Rowan
+  type: Emblem
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/rowan-kenrith/
 

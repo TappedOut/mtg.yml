@@ -60,9 +60,9 @@ printings:
     mtgo_foil_id: 66826
     mtgo_id: 66825
     name: Rivals of Ixalan
-    number: 179
+    number: '179'
     rarity: rare
-    release_date: '2018-01-19'
+    release_date: 2018-01-19
     tla: RIX
     variations: []
     wizards_id: 439843
@@ -75,21 +75,23 @@ slug: gold-forge-garrison
 synonyms: []
 tapped_id: 20034
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 4/4
-    - - rules
-      - ''
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 49
-    - - cannonical_type
-      - Creature
-    - - name
-      - Golem 4/4 C
+- cannonical_type: Creature
+  colors: C
+  name: Golem 4/4 C
+  power_toughness: 4/4
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - RIX
+      - - name
+        - Rivals of Ixalan
+      - - number
+        - '4'
+      - - release_date
+        - '2018-01-19'
+  rules: ''
+  subtype: Golem
+  type: Token Artifact Creature
 type: Land
 url: https://tappedout.net/mtg-card/gold-forge-garrison/
 

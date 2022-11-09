@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: NEO
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -54,16 +55,16 @@ printings:
     artist: Svetlin Velinov
     booster_exclude: false
     border_color: B
-    cannonical: false
+    cannonical: true
     flavour_text: '*Among the artisans of Sokenzan City, reusing every scrap of metal
       is a point of pride.*'
     frame: m15
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
-    number: 164
+    number: '164'
     rarity: uncommon
-    release_date: '2022-02-10'
+    release_date: 2022-02-10
     tla: NEO
     variations: []
     wizards_id: 548469
@@ -78,21 +79,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 25786
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 3/1
-    - - rules
-      - Haste
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 72
-    - - cannonical_type
-      - Creature
-    - - name
-      - Construct 3/1 R
+- cannonical_type: Creature
+  colors: R
+  name: Construct 3/1 R
+  power_toughness: 3/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NEO
+      - - name
+        - 'Kamigawa: Neon Dynasty'
+      - - number
+        - '6'
+      - - release_date
+        - '2022-02-10'
+  rules: Haste
+  subtype: Construct
+  type: Token Artifact Creature
 type: Creature
 url: https://tappedout.net/mtg-card/sokenzan-smelter/
 

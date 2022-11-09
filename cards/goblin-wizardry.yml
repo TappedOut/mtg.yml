@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: M21
 cannonical_type: Instant
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -57,9 +58,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Core Set 2021
-    number: 148
+    number: '148'
     rarity: common
-    release_date: '2020-07-03'
+    release_date: 2020-07-03
     tla: M21
     variations: []
     wizards_id: 485471
@@ -70,22 +71,24 @@ slug: goblin-wizardry
 synonyms: []
 tapped_id: 23113
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Prowess *(Whenever you cast a noncreature spell, this gets +1/+1 until end
-        of turn.)*
-    - - type
-      - Token Creature
-    - - subtype
-      - 348
-    - - cannonical_type
-      - Creature
-    - - name
-      - Goblin Wizard 1/1 R
+- cannonical_type: Creature
+  colors: R
+  name: Goblin Wizard 1/1 R
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M21
+      - - name
+        - Core Set 2021
+      - - number
+        - '8'
+      - - release_date
+        - '2020-07-03'
+  rules: Prowess *(Whenever you cast a noncreature spell, this gets +1/+1 until end
+    of turn.)*
+  subtype: Goblin Wizard
+  type: Token Creature
 type: Instant
 url: https://tappedout.net/mtg-card/goblin-wizardry/
 

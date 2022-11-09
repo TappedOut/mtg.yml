@@ -62,9 +62,9 @@ printings:
     mtgo_foil_id: 53623
     mtgo_id: 53622
     name: Magic 2015
-    number: 247
+    number: '247'
     rarity: rare
-    release_date: '2014-07-18'
+    release_date: 2014-07-18
     tla: M15
     variations: []
     wizards_id: 383384
@@ -81,13 +81,13 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Jumpstart: Historic Horizons'
-    number: null
+    number: '776'
     rarity: rare
-    release_date: '2021-08-12'
+    release_date: 2021-08-12
     tla: J21
     variations: []
-    wizards_id: null
-    wizards_url: null
+    wizards_id: 534732
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=534732
 rarity: rare
 rules: "[[symbol:T]]: Gain [[symbol:C]].\r\n\r\n[[symbol:T]]: Gain one mana of any\
   \ colour. Spend this mana only to cast a Sliver spell.\r\n\r\n[[symbol:5]], [[symbol:T]]:\
@@ -97,21 +97,50 @@ slug: sliver-hive
 synonyms: []
 tapped_id: 15604
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 15
-    - - cannonical_type
-      - Creature
-    - - name
-      - Sliver 1/1 C
+- cannonical_type: Creature
+  colors: C
+  name: Sliver 1/1 C
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - LGN
+      - - name
+        - Legions
+      - - number
+        - null
+      - - release_date
+        - '2003-02-03'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M14
+      - - name
+        - Magic 2014
+      - - number
+        - null
+      - - release_date
+        - '2013-07-19'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M15
+      - - name
+        - Magic 2015
+      - - number
+        - null
+      - - release_date
+        - '2014-07-18'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - '000'
+      - - name
+        - Promo Set
+      - - number
+        - null
+      - - release_date
+        - '1990-04-15'
+  rules: ''
+  subtype: Sliver
+  type: Token Creature
 type: Land
 url: https://tappedout.net/mtg-card/sliver-hive/
 

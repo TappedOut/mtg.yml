@@ -6,6 +6,7 @@ canadian_hl_score: 0
 cannonical_set: UMA
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -61,7 +62,7 @@ printings:
     name: Innistrad
     number: null
     rarity: common
-    release_date: '2011-09-30'
+    release_date: 2011-09-30
     tla: ISD
     variations: []
     wizards_id: 220631
@@ -80,9 +81,9 @@ printings:
     mtgo_foil_id: 70220
     mtgo_id: 70219
     name: Ultimate Masters
-    number: 73
+    number: '73'
     rarity: common
-    release_date: '2018-12-07'
+    release_date: 2018-12-07
     tla: UMA
     variations: []
     wizards_id: 456669
@@ -97,21 +98,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 13211
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 2/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 192
-    - - cannonical_type
-      - Creature
-    - - name
-      - Homunculus 2/2 U
+- cannonical_type: Creature
+  colors: U
+  name: Homunculus 2/2 U
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ISD
+      - - name
+        - Innistrad
+      - - number
+        - '3'
+      - - release_date
+        - '2011-09-30'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UMA
+      - - name
+        - Ultimate Masters
+      - - number
+        - '4'
+      - - release_date
+        - '2018-12-07'
+  rules: ''
+  subtype: Homunculus
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/stitchers-apprentice/
 

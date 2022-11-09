@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -57,9 +58,9 @@ printings:
     mtgo_foil_id: 61333
     mtgo_id: 61332
     name: Eldritch Moon
-    number: 80
+    number: '80'
     rarity: rare
-    release_date: '2016-07-22'
+    release_date: 2016-07-22
     tla: EMN
     variations: []
     wizards_id: 414375
@@ -76,9 +77,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 737
+    number: '737'
     rarity: rare
-    release_date: '2022-06-10'
+    release_date: 2022-06-10
     tla: CLB
     variations: []
     wizards_id: 567554
@@ -97,21 +98,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 17921
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 3/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 1149
-    - - cannonical_type
-      - Creature
-    - - name
-      - Eldrazi Horror 3/2 C
+- cannonical_type: Creature
+  colors: C
+  name: Eldrazi Horror 3/2 C
+  power_toughness: 3/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - EMN
+      - - name
+        - Eldritch Moon
+      - - number
+        - '1'
+      - - release_date
+        - '2016-07-22'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '21'
+      - - release_date
+        - '2022-06-10'
+  rules: ''
+  subtype: Eldrazi Horror
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/wharf-infiltrator/
 

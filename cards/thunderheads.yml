@@ -58,7 +58,7 @@ printings:
     name: Guildpact
     number: null
     rarity: uncommon
-    release_date: '2006-02-03'
+    release_date: 2006-02-03
     tla: GPT
     variations: []
     wizards_id: 96946
@@ -75,9 +75,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: 46218
     name: 'Duel Decks: Izzet vs. Golgari'
-    number: 23
+    number: '23'
     rarity: uncommon
-    release_date: '2012-09-07'
+    release_date: 2012-09-07
     tla: DDJ
     variations: []
     wizards_id: 338397
@@ -95,9 +95,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Guilds of Ravnica: Guild Kit'
-    number: 27
+    number: '27'
     rarity: uncommon
-    release_date: '2018-11-02'
+    release_date: 2018-11-02
     tla: GK1
     variations: []
     wizards_id: 456217
@@ -110,21 +110,23 @@ slug: thunderheads
 synonyms: []
 tapped_id: 1854
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 3/3
-    - - rules
-      - Defender, flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 395
-    - - cannonical_type
-      - Creature
-    - - name
-      - Weird 3/3 U
+- cannonical_type: Creature
+  colors: U
+  name: Weird 3/3 U
+  power_toughness: 3/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GK1
+      - - name
+        - 'Guilds of Ravnica: Guild Kit'
+      - - number
+        - '3'
+      - - release_date
+        - '2018-11-02'
+  rules: Defender, flying
+  subtype: Weird
+  type: Token Creature
 type: Instant
 url: https://tappedout.net/mtg-card/thunderheads/
 

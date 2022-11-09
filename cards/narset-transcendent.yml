@@ -9,6 +9,7 @@ canadian_hl_score: 0
 cannonical_set: DTK
 cannonical_type: Planeswalker
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -60,9 +61,9 @@ printings:
     mtgo_foil_id: 56077
     mtgo_id: 56076
     name: Dragons of Tarkir
-    number: 225
+    number: '225'
     rarity: mythic_rare
-    release_date: '2015-03-27'
+    release_date: 2015-03-27
     tla: DTK
     variations: []
     wizards_id: 394633
@@ -80,21 +81,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 16327
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Your opponents can't cast noncreature spells.
-    - - type
-      - Emblem
-    - - subtype
-      - 1079
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Narset Transcendent
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Narset Transcendent
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DTK
+      - - name
+        - Dragons of Tarkir
+      - - number
+        - '8'
+      - - release_date
+        - '2015-03-27'
+  rules: Your opponents can't cast noncreature spells.
+  subtype: Narset
+  type: Emblem
 type: Planeswalker
 url: https://tappedout.net/mtg-card/narset-transcendent/
 

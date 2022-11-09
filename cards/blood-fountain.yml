@@ -67,13 +67,33 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Crimson Vow'
-    number: 95
+    number: '95'
     rarity: common
-    release_date: '2021-11-11'
+    release_date: 2021-11-11
     tla: VOW
     variations: []
     wizards_id: 540939
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=540939
+- DBL:
+    alterations:
+    - Normal
+    - Foil
+    artist: Even Fong
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'Innistrad: Double Feature'
+    number: '362'
+    rarity: common
+    release_date: 2022-01-21
+    tla: DBL
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "When this enters the battlefield, create a Blood token. *(It's an artifact\
   \ with \"[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this: Draw a card.\"\
   )*\r\n\r\n[[symbol:3]][[symbol:B]], [[symbol:T]], Sacrifice this: Return up to two\
@@ -82,22 +102,24 @@ slug: blood-fountain
 synonyms: []
 tapped_id: 25576
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
-        a card.'
-    - - type
-      - Token Artifact
-    - - subtype
-      - 1692
-    - - cannonical_type
-      - Artifact
-    - - name
-      - Blood
+- cannonical_type: Artifact
+  colors: C
+  name: Blood
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '17'
+      - - release_date
+        - '2021-11-11'
+  rules: '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
+    a card.'
+  subtype: Blood
+  type: Token Artifact
 type: Artifact
 url: https://tappedout.net/mtg-card/blood-fountain/
 

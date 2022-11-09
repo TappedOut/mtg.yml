@@ -57,9 +57,9 @@ printings:
     mtgo_foil_id: 62016
     mtgo_id: 62015
     name: Kaladesh
-    number: 143
+    number: '143'
     rarity: rare
-    release_date: '2016-09-30'
+    release_date: 2016-09-30
     tla: KLD
     variations: []
     wizards_id: 417716
@@ -76,21 +76,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 18257
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 6/6
-    - - rules
-      - ''
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 83
-    - - cannonical_type
-      - Creature
-    - - name
-      - 6/6 C Token Artifact Creatures Beast
+- cannonical_type: Creature
+  colors: C
+  name: 6/6 C Token Artifact Creatures Beast
+  power_toughness: 6/6
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KLD
+      - - name
+        - Kaladesh
+      - - number
+        - null
+      - - release_date
+        - '2016-09-30'
+  rules: ''
+  subtype: Beast
+  type: Token Artifact Creature
 type: Creature
 url: https://tappedout.net/mtg-card/architect-of-the-untamed/
 

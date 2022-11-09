@@ -48,9 +48,9 @@ printings:
     mtgo_foil_id: 12376
     mtgo_id: 12375
     name: Urza's Saga
-    number: 56
+    number: '56'
     rarity: uncommon
-    release_date: '1998-10-12'
+    release_date: 1998-10-12
     tla: USG
     variations: []
     wizards_id: 5833
@@ -62,21 +62,23 @@ slug: waylay
 synonyms: []
 tapped_id: 6515
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 2/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 501
-    - - cannonical_type
-      - Creature
-    - - name
-      - Knight 2/2 W
+- cannonical_type: Creature
+  colors: W
+  name: Knight 2/2 W
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '2'
+      - - release_date
+        - '2022-06-10'
+  rules: ''
+  subtype: Knight
+  type: Token Creature
 type: Instant
 url: https://tappedout.net/mtg-card/waylay/
 

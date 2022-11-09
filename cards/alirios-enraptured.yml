@@ -54,9 +54,9 @@ printings:
     mtgo_foil_id: 79209
     mtgo_id: 79208
     name: Theros Beyond Death
-    number: 42
+    number: '42'
     rarity: uncommon
-    release_date: '2020-01-24'
+    release_date: 2020-01-24
     tla: THB
     variations: []
     wizards_id: 476293
@@ -71,21 +71,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 22515
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 3/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 910
-    - - cannonical_type
-      - Creature
-    - - name
-      - Reflection 3/2 U
+- cannonical_type: Creature
+  colors: U
+  name: Reflection 3/2 U
+  power_toughness: 3/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - THB
+      - - name
+        - Theros Beyond Death
+      - - number
+        - '5'
+      - - release_date
+        - '2020-01-24'
+  rules: ''
+  subtype: Reflection
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/alirios-enraptured/
 

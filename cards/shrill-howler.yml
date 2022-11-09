@@ -59,9 +59,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Eldritch Moon
-    number: 168
+    number: '168'
     rarity: uncommon
-    release_date: '2016-07-22'
+    release_date: 2016-07-22
     tla: EMN
     variations: []
     wizards_id: 414470
@@ -76,21 +76,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 18042
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 3/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 1149
-    - - cannonical_type
-      - Creature
-    - - name
-      - Eldrazi Horror 3/2 C
+- cannonical_type: Creature
+  colors: C
+  name: Eldrazi Horror 3/2 C
+  power_toughness: 3/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - EMN
+      - - name
+        - Eldritch Moon
+      - - number
+        - '1'
+      - - release_date
+        - '2016-07-22'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '21'
+      - - release_date
+        - '2022-06-10'
+  rules: ''
+  subtype: Eldrazi Horror
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/shrill-howler/
 

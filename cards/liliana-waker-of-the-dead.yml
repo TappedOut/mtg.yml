@@ -8,6 +8,7 @@ canadian_hl_score: 0
 cannonical_set: M21
 cannonical_type: Planeswalker
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -63,9 +64,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Core Set 2021
-    number: 108
+    number: '108'
     rarity: mythic_rare
-    release_date: '2020-07-03'
+    release_date: 2020-07-03
     tla: M21
     variations:
     - identifier: '282'
@@ -85,22 +86,24 @@ subtype_tokens:
 synonyms: []
 tapped_id: 22950
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - At the beginning of combat on your turn, put target creature card from a graveyard
-        onto the battlefield under your control. It gains haste.
-    - - type
-      - Emblem
-    - - subtype
-      - 518
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Liliana, Waker of the Dead
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Liliana, Waker of the Dead
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M21
+      - - name
+        - Core Set 2021
+      - - number
+        - '18'
+      - - release_date
+        - '2020-07-03'
+  rules: At the beginning of combat on your turn, put target creature card from a
+    graveyard onto the battlefield under your control. It gains haste.
+  subtype: Liliana
+  type: Emblem
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/liliana-waker-of-the-dead/
 

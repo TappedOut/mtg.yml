@@ -6,6 +6,7 @@ canadian_hl_score: 0
 cannonical_set: MID
 cannonical_type: Instant
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -65,9 +66,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Midnight Hunt'
-    number: 214
+    number: '214'
     rarity: uncommon
-    release_date: '2021-09-24'
+    release_date: 2021-09-24
     tla: MID
     variations: []
     wizards_id: 535006
@@ -85,9 +86,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Double Feature'
-    number: 214
+    number: '214'
     rarity: uncommon
-    release_date: '2022-01-21'
+    release_date: 2022-01-21
     tla: DBL
     variations: []
     wizards_id: null
@@ -101,21 +102,23 @@ slug: corpse-cobble
 synonyms: []
 tapped_id: 25090
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - UB
-    - - power_toughness
-      - X/X
-    - - rules
-      - Menace *(This craeture can't be blocked except by two or more creatures.)*
-    - - type
-      - Token Creature
-    - - subtype
-      - 110
-    - - cannonical_type
-      - Creature
-    - - name
-      - Zombie X/X UB
+- cannonical_type: Creature
+  colors: UB
+  name: Zombie X/X UB
+  power_toughness: X/X
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MID
+      - - name
+        - 'Innistrad: Midnight Hunt'
+      - - number
+        - '15'
+      - - release_date
+        - '2021-09-24'
+  rules: Menace *(This craeture can't be blocked except by two or more creatures.)*
+  subtype: Zombie
+  type: Token Creature
 type: Instant
 url: https://tappedout.net/mtg-card/corpse-cobble/
 

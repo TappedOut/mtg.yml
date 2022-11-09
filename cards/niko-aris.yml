@@ -72,9 +72,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Kaldheim
-    number: 225
+    number: '225'
     rarity: mythic_rare
-    release_date: '2021-02-05'
+    release_date: 2021-02-05
     tla: KHM
     variations:
     - identifier: '289'
@@ -94,21 +94,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 23712
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - '[[symbol:2]], Sacrifice this: Scry 1, then draw a card.'
-    - - type
-      - Token Enchantment
-    - - subtype
-      - 1587
-    - - cannonical_type
-      - Enchantment
-    - - name
-      - Shard
+- cannonical_type: Enchantment
+  colors: C
+  name: Shard
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KHM
+      - - name
+        - Kaldheim
+      - - number
+        - null
+      - - release_date
+        - '2021-02-05'
+  rules: '[[symbol:2]], Sacrifice this: Scry 1, then draw a card.'
+  subtype: Shard
+  type: Token Enchantment
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/niko-aris/
 

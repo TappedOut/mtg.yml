@@ -9,6 +9,7 @@ canadian_hl_score: 0
 cannonical_set: EMN
 cannonical_type: Planeswalker
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -62,9 +63,9 @@ printings:
     mtgo_foil_id: 61263
     mtgo_id: 61262
     name: Eldritch Moon
-    number: 190
+    number: '190'
     rarity: mythic_rare
-    release_date: '2016-07-22'
+    release_date: 2016-07-22
     tla: EMN
     variations: []
     wizards_id: 414495
@@ -82,13 +83,13 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Secret Lair
-    number: 89
+    number: '89'
     rarity: mythic_rare
-    release_date: '2019-12-09'
+    release_date: 2019-12-09
     tla: SLD
     variations: []
-    wizards_id: null
-    wizards_url: null
+    wizards_id: 485313
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485313
 rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Choose up to two target creatures. Until your next\
   \ turn, whenever either of those creatures deals combat damage, you draw a card.\r\
@@ -103,21 +104,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 17894
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - You may cast nonland cards from your hand without paying their mana costs.
-    - - type
-      - Emblem
-    - - subtype
-      - 958
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Tamiyo, Field Researcher
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Tamiyo, Field Researcher
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - EMN
+      - - name
+        - Eldritch Moon
+      - - number
+        - '10'
+      - - release_date
+        - '2016-07-22'
+  rules: You may cast nonland cards from your hand without paying their mana costs.
+  subtype: Tamiyo
+  type: Emblem
 type: Planeswalker
 url: https://tappedout.net/mtg-card/tamiyo-field-researcher/
 

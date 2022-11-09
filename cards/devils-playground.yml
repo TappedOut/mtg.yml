@@ -5,6 +5,7 @@ cannonical_set: SOI
 cannonical_type: Sorcery
 color_identity: ''
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -54,9 +55,9 @@ printings:
     mtgo_foil_id: 59819
     mtgo_id: 59818
     name: Shadows over Innistrad
-    number: 151
+    number: '151'
     rarity: rare
-    release_date: '2016-04-08'
+    release_date: 2016-04-08
     tla: SOI
     variations: []
     wizards_id: 409903
@@ -68,23 +69,79 @@ slug: devils-playground
 synonyms: []
 tapped_id: 17782
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 1/1
-    - - rules
-      - When this creature dies *(is put into the graveyard from the battlefield,
-        tokens are put into the graveyard before ceasing to exist)*, this deals 1
-        damage to any target *(creature, player or planeswalker)*.
-    - - type
-      - Token Creature
-    - - subtype
-      - 675
-    - - cannonical_type
-      - Creature
-    - - name
-      - Devil 1/1 R
+- cannonical_type: Creature
+  colors: R
+  name: Devil 1/1 R
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SOI
+      - - name
+        - Shadows over Innistrad
+      - - number
+        - '6'
+      - - release_date
+        - '2016-04-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - WAR
+      - - name
+        - War of the Spark
+      - - number
+        - '12'
+      - - release_date
+        - '2019-05-03'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AFR
+      - - name
+        - 'Dungeons & Dragons: Adventures in the Forgotten Realms'
+      - - number
+        - '11'
+      - - release_date
+        - '2021-07-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MID
+      - - name
+        - 'Innistrad: Midnight Hunt'
+      - - number
+        - '6'
+      - - release_date
+        - '2021-09-24'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NCC
+      - - name
+        - 'Streets of New Capenna: Commander'
+      - - number
+        - '17'
+      - - release_date
+        - '2022-04-30'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SNC
+      - - name
+        - Streets of New Capenna
+      - - number
+        - '8'
+      - - release_date
+        - '2022-04-29'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '10'
+      - - release_date
+        - '2022-06-10'
+  rules: When this creature dies *(is put into the graveyard from the battlefield,
+    tokens are put into the graveyard before ceasing to exist)*, this deals 1 damage
+    to any target *(creature, player or planeswalker)*.
+  subtype: Devil
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/devils-playground/
 

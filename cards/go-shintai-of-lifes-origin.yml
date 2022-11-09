@@ -10,6 +10,7 @@ canadian_hl_score: 0
 cannonical_set: NEC
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -22,10 +23,13 @@ effective_cost:
 - G
 formats:
 - 1v1 Commander
+- Arena
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
+- Gladiator
 - Highlander
+- Historic
 - Legacy
 - Leviathan
 - Limited
@@ -54,18 +58,37 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Kamigawa: Neon Dynasty Commander'
-    number: 37
+    number: '37'
     rarity: mythic_rare
-    release_date: '2022-02-11'
+    release_date: 2022-02-11
     tla: NEC
     variations:
     - identifier: '66'
     wizards_id: 553586
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=553586
+- ARENA:
+    alterations:
+    - Normal
+    artist: Alexander Mokhov
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Arena Cards
+    number: null
+    rarity: mythic_rare
+    release_date: 2019-09-26
+    tla: ARENA
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "[[symbol:W]][[symbol:U]][[symbol:B]][[symbol:R]][[symbol:G]], [[symbol:T]]:\
   \ Return target enchantment card from your graveyard to the battlefield.\r\n\r\n\
-  Whenever this or another nontoken Shrine enters the battlefield under your control,\
-  \ create a 1/1 colorless Shrine enchantment creature token."
+  Whenever Go-Shintai of Life's Origin or another nontoken Shrine enters the battlefield\
+  \ under your control, create a 1/1 colorless Shrine enchantment creature token."
 slug: go-shintai-of-lifes-origin
 subtype: Shrine
 subtype_tokens:
@@ -73,21 +96,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 25936
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Enchantment Creature
-    - - subtype
-      - 457
-    - - cannonical_type
-      - Creature
-    - - name
-      - Shrine
+- cannonical_type: Creature
+  colors: C
+  name: Shrine
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NEC
+      - - name
+        - 'Kamigawa: Neon Dynasty Commander'
+      - - number
+        - '1'
+      - - release_date
+        - '2022-02-11'
+  rules: ''
+  subtype: Shrine
+  type: Token Enchantment Creature
 type: Legendary Enchantment Creature
 url: https://tappedout.net/mtg-card/go-shintai-of-lifes-origin/
 

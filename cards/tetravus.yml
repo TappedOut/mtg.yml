@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: 4ED
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -50,7 +51,7 @@ printings:
     name: Fourth Edition
     number: null
     rarity: rare
-    release_date: '1995-04-01'
+    release_date: 1995-04-01
     tla: 4ED
     variations: []
     wizards_id: 2073
@@ -69,7 +70,7 @@ printings:
     name: Antiquities
     number: null
     rarity: rare
-    release_date: '1994-03-01'
+    release_date: 1994-03-01
     tla: ATQ
     variations: []
     wizards_id: 1027
@@ -87,9 +88,9 @@ printings:
     mtgo_foil_id: 38763
     mtgo_id: 38762
     name: Masters Edition IV
-    number: 233
+    number: '233'
     rarity: rare
-    release_date: '2011-01-10'
+    release_date: 2011-01-10
     tla: ME4
     variations: []
     wizards_id: 202590
@@ -108,9 +109,29 @@ printings:
     name: 4th Edition Foreign Black Border
     number: null
     rarity: rare
-    release_date: '1995-04-01'
+    release_date: 1995-04-01
     tla: 4EDFBB
     variations: []
+    wizards_id: null
+    wizards_url: null
+- REN:
+    alterations:
+    - Normal
+    artist: Mark Tedin
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Renaissance and Rinascimento
+    number: '141'
+    rarity: uncommon
+    release_date: 1995-08-01
+    tla: REN
+    variations:
+    - identifier: '161'
     wizards_id: null
     wizards_url: null
 rarity: rare
@@ -127,21 +148,14 @@ subtype_tokens:
 synonyms: []
 tapped_id: 8736
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 1/1
-    - - rules
-      - "Flying\r\n\r\nThis creature can't be enchanted."
-    - - type
-      - Artifact Creature
-    - - subtype
-      - 916
-    - - cannonical_type
-      - Creature
-    - - name
-      - 1/1 C Artifact Creature Tetravite
+- cannonical_type: Creature
+  colors: C
+  name: 1/1 C Artifact Creature Tetravite
+  power_toughness: 1/1
+  printings: []
+  rules: "Flying\r\n\r\nThis creature can't be enchanted."
+  subtype: Tetravite
+  type: Artifact Creature
 type: Artifact Creature
 url: https://tappedout.net/mtg-card/tetravus/
 

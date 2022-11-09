@@ -46,6 +46,8 @@ printings:
     - Normal
     - Foil
     - Prerelease
+    - Promo pack
+    - PromoPackF
     artist: Jonathan Kuo
     booster_exclude: false
     border_color: B
@@ -56,9 +58,9 @@ printings:
     mtgo_foil_id: 65475
     mtgo_id: 65474
     name: Ixalan
-    number: 227
+    number: '227'
     rarity: rare
-    release_date: '2017-09-29'
+    release_date: 2017-09-29
     tla: XLN
     variations:
     - identifier: PromoPack
@@ -74,23 +76,25 @@ subtype_tokens:
 synonyms: []
 tapped_id: 19391
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 3/3
-    - - rules
-      - Trample *(This creature can deal excess combat damage to defending player
-        or planeswalker for as long as lethal combat damage would be dealt to the
-        blocking creatures.)*
-    - - type
-      - Token Creature
-    - - subtype
-      - 592
-    - - cannonical_type
-      - Creature
-    - - name
-      - Dinosaur 3/3 G
+- cannonical_type: Creature
+  colors: G
+  name: Dinosaur 3/3 G
+  power_toughness: 3/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - XLN
+      - - name
+        - Ixalan
+      - - number
+        - '5'
+      - - release_date
+        - '2017-09-29'
+  rules: Trample *(This creature can deal excess combat damage to defending player
+    or planeswalker for as long as lethal combat damage would be dealt to the blocking
+    creatures.)*
+  subtype: Dinosaur
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/regisaur-alpha/
 

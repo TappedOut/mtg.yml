@@ -60,9 +60,9 @@ printings:
     mtgo_foil_id: 79427
     mtgo_id: 79426
     name: Theros Beyond Death
-    number: 151
+    number: '151'
     rarity: rare
-    release_date: '2020-01-24'
+    release_date: 2020-01-24
     tla: THB
     variations:
     - identifier: '320'
@@ -76,21 +76,23 @@ slug: purphoross-intervention
 synonyms: []
 tapped_id: 22431
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - X/1
-    - - rules
-      - Trample, haste
-    - - type
-      - Token Creature
-    - - subtype
-      - 5
-    - - cannonical_type
-      - Creature
-    - - name
-      - Elemental X/1 R
+- cannonical_type: Creature
+  colors: R
+  name: Elemental X/1 R
+  power_toughness: X/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - THB
+      - - name
+        - Theros Beyond Death
+      - - number
+        - '8'
+      - - release_date
+        - '2020-01-24'
+  rules: Trample, haste
+  subtype: Elemental
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/purphoross-intervention/
 

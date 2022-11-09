@@ -49,9 +49,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander Legends
-    number: 233
+    number: '233'
     rarity: uncommon
-    release_date: '2020-11-20'
+    release_date: 2020-11-20
     tla: CMR
     variations:
     - identifier: '580'
@@ -71,21 +71,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 23616
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 3/3
-    - - rules
-      - ''
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 1644
-    - - cannonical_type
-      - Creature
-    - - name
-      - Phyrexian Golem 3/3 C
+- cannonical_type: Creature
+  colors: C
+  name: Phyrexian Golem 3/3 C
+  power_toughness: 3/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2X2
+      - - name
+        - Double Masters 2022
+      - - number
+        - '21'
+      - - release_date
+        - '2022-07-08'
+  rules: ''
+  subtype: Phyrexian Golem
+  type: Token Artifact Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/ich-tekik-salvage-splicer/
 

@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Sorcery
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -55,9 +56,9 @@ printings:
     mtgo_foil_id: 50379
     mtgo_id: 50378
     name: Theros
-    number: 46
+    number: '46'
     rarity: rare
-    release_date: '2013-09-27'
+    release_date: 2013-09-27
     tla: THS
     variations: []
     wizards_id: 373542
@@ -75,9 +76,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Kaldheim: Commander'
-    number: 37
+    number: '37'
     rarity: rare
-    release_date: '2021-02-05'
+    release_date: 2021-02-05
     tla: KHC
     variations: []
     wizards_id: 508327
@@ -95,9 +96,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2021
-    number: 118
+    number: '118'
     rarity: rare
-    release_date: '2021-04-23'
+    release_date: 2021-04-23
     tla: C21
     variations: []
     wizards_id: 519153
@@ -115,9 +116,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 716
+    number: '716'
     rarity: rare
-    release_date: '2022-06-10'
+    release_date: 2022-06-10
     tla: CLB
     variations: []
     wizards_id: 567533
@@ -129,21 +130,50 @@ slug: curse-of-the-swine
 synonyms: []
 tapped_id: 14838
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 2/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 97
-    - - cannonical_type
-      - Creature
-    - - name
-      - Boar 2/2 G
+- cannonical_type: Creature
+  colors: G
+  name: Boar 2/2 G
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - THS
+      - - name
+        - Theros
+      - - number
+        - '8'
+      - - release_date
+        - '2013-09-27'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KHC
+      - - name
+        - 'Kaldheim: Commander'
+      - - number
+        - '5'
+      - - release_date
+        - '2021-02-05'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C21
+      - - name
+        - Commander 2021
+      - - number
+        - '12'
+      - - release_date
+        - '2021-04-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '12'
+      - - release_date
+        - '2022-06-10'
+  rules: ''
+  subtype: Boar
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/curse-of-the-swine/
 

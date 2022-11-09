@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: CNS
 cannonical_type: Sorcery
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -45,9 +46,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Conspiracy
-    number: 33
+    number: '33'
     rarity: rare
-    release_date: '2014-06-06'
+    release_date: 2014-06-06
     tla: CNS
     variations: []
     wizards_id: 382278
@@ -61,21 +62,23 @@ slug: grenzos-rebuttal
 synonyms: []
 tapped_id: 15582
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 4/4
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 325
-    - - cannonical_type
-      - Creature
-    - - name
-      - Ogre 4/4 R
+- cannonical_type: Creature
+  colors: R
+  name: Ogre 4/4 R
+  power_toughness: 4/4
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CNS
+      - - name
+        - Conspiracy
+      - - number
+        - '4'
+      - - release_date
+        - '2014-06-06'
+  rules: ''
+  subtype: Ogre
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/grenzos-rebuttal/
 

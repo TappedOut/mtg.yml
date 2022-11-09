@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: WWK
 cannonical_type: Instant
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -54,9 +55,9 @@ printings:
     mtgo_foil_id: 35568
     mtgo_id: 35567
     name: Worldwake
-    number: 9
+    number: '9'
     rarity: common
-    release_date: '2010-02-05'
+    release_date: 2010-02-05
     tla: WWK
     variations: []
     wizards_id: 194706
@@ -67,21 +68,23 @@ slug: join-the-ranks
 synonyms: []
 tapped_id: 11930
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 896
-    - - cannonical_type
-      - Creature
-    - - name
-      - Soldier Ally 1/1 W
+- cannonical_type: Creature
+  colors: W
+  name: Soldier Ally 1/1 W
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - WWK
+      - - name
+        - Worldwake
+      - - number
+        - '1'
+      - - release_date
+        - '2010-02-05'
+  rules: ''
+  subtype: Soldier Ally
+  type: Token Creature
 type: Instant
 url: https://tappedout.net/mtg-card/join-the-ranks/
 

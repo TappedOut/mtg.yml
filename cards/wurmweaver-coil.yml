@@ -6,6 +6,7 @@ canadian_hl_score: 0
 cannonical_set: GK2
 cannonical_type: Enchantment
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -55,9 +56,9 @@ printings:
     mtgo_foil_id: 23862
     mtgo_id: 23861
     name: Guildpact
-    number: 99
+    number: '99'
     rarity: rare
-    release_date: '2006-02-03'
+    release_date: 2006-02-03
     tla: GPT
     variations: []
     wizards_id: 97230
@@ -75,9 +76,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Ravnica Allegiance: Guild Kits'
-    number: 86
+    number: '86'
     rarity: rare
-    release_date: '2019-02-15'
+    release_date: 2019-02-15
     tla: GK2
     variations: []
     wizards_id: 460298
@@ -92,21 +93,68 @@ subtype_tokens:
 synonyms: []
 tapped_id: 1870
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 6/6
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 99
-    - - cannonical_type
-      - Creature
-    - - name
-      - Wurm 6/6 G
+- cannonical_type: Creature
+  colors: G
+  name: Wurm 6/6 G
+  power_toughness: 6/6
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ODY
+      - - name
+        - Odyssey
+      - - number
+        - null
+      - - release_date
+        - '2001-09-21'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M13
+      - - name
+        - Magic 2013
+      - - number
+        - '10'
+      - - release_date
+        - '2012-07-13'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - EMA
+      - - name
+        - Eternal Masters
+      - - number
+        - '13'
+      - - release_date
+        - '2016-06-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DDS
+      - - name
+        - 'Duel Decks: Mind vs. Might'
+      - - number
+        - '7'
+      - - release_date
+        - '2017-03-31'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C21
+      - - name
+        - Commander 2021
+      - - number
+        - '19'
+      - - release_date
+        - '2021-04-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C19
+      - - name
+        - Commander 2019
+      - - number
+        - '21'
+      - - release_date
+        - '2019-08-23'
+  rules: ''
+  subtype: Wurm
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/wurmweaver-coil/
 

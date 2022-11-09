@@ -1,7 +1,7 @@
 activated_abilities: []
 activated_costs: []
 canadian_hl_score: 0
-cannonical_set: MM2
+cannonical_set: SOM
 cannonical_type: Creature
 companions:
 - Jegantha, the Wellspring
@@ -50,7 +50,7 @@ printings:
     name: Scars of Mirrodin
     number: null
     rarity: rare
-    release_date: '2010-10-01'
+    release_date: 2010-10-01
     tla: SOM
     variations: []
     wizards_id: 206348
@@ -62,15 +62,15 @@ printings:
     artist: Chippy
     booster_exclude: false
     border_color: B
-    cannonical: true
+    cannonical: false
     flavour_text: ''
     frame: m15
     mtgo_foil_id: 57257
     mtgo_id: 57256
     name: Modern Masters 2015 Edition
-    number: 225
+    number: '225'
     rarity: rare
-    release_date: '2015-05-22'
+    release_date: 2015-05-22
     tla: MM2
     variations: []
     wizards_id: 397708
@@ -89,9 +89,30 @@ printings:
     name: Mystery Booster
     number: null
     rarity: rare
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
+    wizards_id: null
+    wizards_url: null
+- BRR:
+    alterations:
+    - Normal
+    - Foil
+    artist: Chippy
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'The Brothers'' War: Retro Artifacts'
+    number: '42'
+    rarity: rare
+    release_date: 2022-11-18
+    tla: BRR
+    variations:
+    - identifier: '105'
     wizards_id: null
     wizards_url: null
 rarity: rare
@@ -107,36 +128,165 @@ subtype_tokens:
 synonyms: []
 tapped_id: 12462
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - null
-    - - power_toughness
-      - null
-    - - rules
-      - '*This token can be used to represent a token that''s a copy of a permanent.*'
-    - - type
-      - Token Creature
-    - - subtype
-      - null
-    - - cannonical_type
-      - Creature
-    - - name
-      - Copy Clone
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 3/3
-    - - rules
-      - ''
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 49
-    - - cannonical_type
-      - Creature
-    - - name
-      - Golem 3/3 C
+- cannonical_type: Creature
+  colors: null
+  name: Copy Clone
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GK1
+      - - name
+        - 'Guilds of Ravnica: Guild Kit'
+      - - number
+        - '1'
+      - - release_date
+        - '2018-11-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - '31'
+      - - release_date
+        - '2020-08-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ZNR
+      - - name
+        - Zendikar Rising
+      - - number
+        - '12'
+      - - release_date
+        - '2020-09-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '13'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '23'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C21
+      - - name
+        - Commander 2021
+      - - number
+        - '30'
+      - - release_date
+        - '2021-04-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '19'
+      - - release_date
+        - '2021-11-11'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '19'
+      - - release_date
+        - '2022-06-10'
+  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
+  type: Token Creature
+- cannonical_type: Creature
+  colors: C
+  name: Golem 3/3 C
+  power_toughness: 3/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SOM
+      - - name
+        - Scars of Mirrodin
+      - - number
+        - '6'
+      - - release_date
+        - '2010-10-01'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NPH
+      - - name
+        - New Phyrexia
+      - - number
+        - '3'
+      - - release_date
+        - '2011-05-13'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MM2
+      - - name
+        - Modern Masters 2015 Edition
+      - - number
+        - '15'
+      - - release_date
+        - '2015-05-22'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MM3
+      - - name
+        - Modern Masters 2017 Edition
+      - - number
+        - '20'
+      - - release_date
+        - '2017-03-17'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MH1
+      - - name
+        - Modern Horizons
+      - - number
+        - '18'
+      - - release_date
+        - '2019-06-14'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M20
+      - - name
+        - Core Set 2020
+      - - number
+        - '9'
+      - - release_date
+        - '2019-07-12'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - '23'
+      - - release_date
+        - '2020-08-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '9'
+      - - release_date
+        - '2020-11-20'
+  rules: ''
+  subtype: Golem
+  type: Token Artifact Creature
 type: Artifact Creature
 url: https://tappedout.net/mtg-card/precursor-golem/
 

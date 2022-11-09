@@ -12,6 +12,7 @@ canadian_hl_score: 0
 cannonical_set: DMU
 cannonical_type: Planeswalker
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -23,7 +24,27 @@ companions:
 effective_cost:
 - R
 formats:
+- 1v1 Commander
+- Alchemy
+- Arena
+- Block Constructed
+- Brawl
+- Canadian Highlander
+- Commander / EDH
+- Duel Commander
+- Gladiator
+- Highlander
+- Historic
+- Legacy
+- Leviathan
+- Limited
+- Modern
+- Oathbreaker
 - Penny Dreadful
+- Pioneer
+- Pre-release
+- Standard
+- Vintage
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
@@ -42,23 +63,26 @@ printings:
     alterations:
     - Normal
     - Foil
+    - Prerelease
+    - Promo pack
+    - PromoPackF
     artist: Marta Nael
     booster_exclude: false
     border_color: B
-    cannonical: false
+    cannonical: true
     flavour_text: null
     frame: m15
     mtgo_foil_id: null
     mtgo_id: null
     name: Dominaria United
-    number: 133
+    number: '133'
     rarity: mythic_rare
-    release_date: '2022-09-09'
+    release_date: 2022-09-09
     tla: DMU
     variations:
     - identifier: '374'
-    wizards_id: null
-    wizards_url: null
+    wizards_id: 574613
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=574613
 rules: "[[symbol:loyalty-plus1]]: Create a 1/1 red Monk creature token with prowess.\
   \ *(Whenever you cast a noncreature spell, this creature gets +1/+1.)*\r\n\r\n[[symbol:loyalty-minus1]]:\
   \ Exile the top two cards of your library. Choose one of them. You may play that\
@@ -73,7 +97,43 @@ subtype_tokens:
 - Jaya
 synonyms: []
 tapped_id: 27034
-tokens: []
+tokens:
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Jaya Negotiator
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DMU
+      - - name
+        - Dominaria United
+      - - number
+        - '26'
+      - - release_date
+        - '2022-09-09'
+  rules: Whenever you cast a red instant or sorcery spell, copy it twice. You may
+    choose new targets for the copies.
+  subtype: Jaya
+  type: Emblem
+- cannonical_type: Creature
+  colors: R
+  name: Monk 1/1 R
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DMU
+      - - name
+        - Dominaria United
+      - - number
+        - '14'
+      - - release_date
+        - '2022-09-09'
+  rules: Prowess *(Whenever you cast a noncreature spell, this creature gets +1/+1
+    until end of turn.)*
+  subtype: Monk
+  type: Token Creature
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/jaya-fiery-negotiator/
 

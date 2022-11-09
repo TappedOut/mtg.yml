@@ -63,9 +63,9 @@ printings:
     mtgo_foil_id: 52117
     mtgo_id: 52116
     name: Journey into Nyx
-    number: 134
+    number: '134'
     rarity: mythic_rare
-    release_date: '2014-05-02'
+    release_date: 2014-05-02
     tla: JOU
     variations: []
     wizards_id: 380469
@@ -83,13 +83,13 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Secret Lair
-    number: 82
+    number: '82'
     rarity: mythic_rare
-    release_date: '2019-12-09'
+    release_date: 2019-12-09
     tla: SLD
     variations: []
-    wizards_id: null
-    wizards_url: null
+    wizards_id: 479511
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=479511
 rarity: mythic_rare
 rules: "Indestructible\_\r\n\r\nAs long as your devotion to black and green is less\
   \ than seven, Pharika isn't a creature.\_\r\n\r\n[[symbol:B]][[symbol:G]]: Exile\
@@ -102,21 +102,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 15400
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - BG
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Deathtouch
-    - - type
-      - Token Enchantment Creature
-    - - subtype
-      - 63
-    - - cannonical_type
-      - Creature
-    - - name
-      - Enchantment Snake 1/1 BG
+- cannonical_type: Creature
+  colors: BG
+  name: Enchantment Snake 1/1 BG
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - JOU
+      - - name
+        - Journey into Nyx
+      - - number
+        - '6'
+      - - release_date
+        - '2014-05-02'
+  rules: Deathtouch
+  subtype: Snake
+  type: Token Enchantment Creature
 type: Legendary Enchantment Creature
 url: https://tappedout.net/mtg-card/pharika-god-of-affliction/
 

@@ -64,7 +64,7 @@ printings:
     name: Lorwyn
     number: null
     rarity: uncommon
-    release_date: '2007-10-12'
+    release_date: 2007-10-12
     tla: LRW
     variations: []
     wizards_id: 143380
@@ -81,9 +81,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2015
-    number: 65
+    number: '65'
     rarity: uncommon
-    release_date: '2015-11-13'
+    release_date: 2015-11-13
     tla: C15
     variations: []
     wizards_id: 405184
@@ -101,9 +101,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander Anthology 2018
-    number: 22
+    number: '22'
     rarity: uncommon
-    release_date: '2018-06-08'
+    release_date: 2018-06-08
     tla: CM2
     variations: []
     wizards_id: 446758
@@ -120,9 +120,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2018
-    number: 65
+    number: '65'
     rarity: uncommon
-    release_date: '2018-08-10'
+    release_date: 2018-08-10
     tla: C18
     variations: []
     wizards_id: 451020
@@ -141,7 +141,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: uncommon
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -159,9 +159,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Double Masters
-    number: 12
+    number: '12'
     rarity: common
-    release_date: '2020-08-07'
+    release_date: 2020-08-07
     tla: 2XM
     variations: []
     wizards_id: 489685
@@ -178,9 +178,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 690
+    number: '690'
     rarity: common
-    release_date: '2022-06-10'
+    release_date: 2022-06-10
     tla: CLB
     variations: []
     wizards_id: 567507
@@ -196,21 +196,68 @@ subtype_tokens:
 synonyms: []
 tapped_id: 199
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Changeling *(This creature is every creature type at all times.)*
-    - - type
-      - Token Creature
-    - - subtype
-      - 56
-    - - cannonical_type
-      - Creature
-    - - name
-      - Shapeshifter 1/1 C
+- cannonical_type: Creature
+  colors: C
+  name: Shapeshifter 1/1 C
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - LRW
+      - - name
+        - Lorwyn
+      - - number
+        - '11'
+      - - release_date
+        - '2007-10-12'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C15
+      - - name
+        - Commander 2015
+      - - number
+        - '1'
+      - - release_date
+        - '2015-11-13'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CM2
+      - - name
+        - Commander Anthology 2018
+      - - number
+        - '1'
+      - - release_date
+        - '2018-06-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C18
+      - - name
+        - Commander 2018
+      - - number
+        - '2'
+      - - release_date
+        - '2018-08-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - '2'
+      - - release_date
+        - '2020-08-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '22'
+      - - release_date
+        - '2022-06-10'
+  rules: Changeling *(This creature is every creature type at all times.)*
+  subtype: Shapeshifter
+  type: Token Creature
 type: Tribal Instant
 url: https://tappedout.net/mtg-card/crib-swap/
 

@@ -52,9 +52,9 @@ printings:
     mtgo_foil_id: 54289
     mtgo_id: 54288
     name: Khans of Tarkir
-    number: 31
+    number: '31'
     rarity: mythic_rare
-    release_date: '2014-09-26'
+    release_date: 2014-09-26
     tla: KTK
     variations: []
     wizards_id: 386726
@@ -71,9 +71,9 @@ printings:
     mtgo_foil_id: 77271
     mtgo_id: 77270
     name: Commander 2019
-    number: 78
+    number: '78'
     rarity: mythic_rare
-    release_date: '2019-08-23'
+    release_date: 2019-08-23
     tla: C19
     variations: []
     wizards_id: 470624
@@ -90,21 +90,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 15821
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 3/4
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 32
-    - - cannonical_type
-      - Creature
-    - - name
-      - Bird 3/4 W
+- cannonical_type: Creature
+  colors: W
+  name: Bird 3/4 W
+  power_toughness: 3/4
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KTK
+      - - name
+        - Khans of Tarkir
+      - - number
+        - '1'
+      - - release_date
+        - '2014-09-26'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C19
+      - - name
+        - Commander 2019
+      - - number
+        - '1'
+      - - release_date
+        - '2019-08-23'
+  rules: Flying
+  subtype: Bird
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/wingmate-roc/
 

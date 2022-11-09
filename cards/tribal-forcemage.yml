@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: LGN
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -50,9 +51,9 @@ printings:
     mtgo_foil_id: 18556
     mtgo_id: 18555
     name: Legions
-    number: 142
+    number: '142'
     rarity: rare
-    release_date: '2003-02-03'
+    release_date: 2003-02-03
     tla: LGN
     variations: []
     wizards_id: 42170
@@ -70,22 +71,41 @@ subtype_tokens:
 synonyms: []
 tapped_id: 3784
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 2/2
-    - - rules
-      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-        \ with morph can be turned face up at any time for its morph cost.*"
-    - - type
-      - Creature
-    - - subtype
-      - null
-    - - cannonical_type
-      - Creature
-    - - name
-      - Morph 2/2 C
+- cannonical_type: Creature
+  colors: C
+  name: Morph 2/2 C
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KTK
+      - - name
+        - Khans of Tarkir
+      - - number
+        - '11'
+      - - release_date
+        - '2014-09-26'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DTK
+      - - name
+        - Dragons of Tarkir
+      - - number
+        - '7'
+      - - release_date
+        - '2015-03-27'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C19
+      - - name
+        - Commander 2019
+      - - number
+        - '27'
+      - - release_date
+        - '2019-08-23'
+  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+    \ with morph can be turned face up at any time for its morph cost.*"
+  type: Creature
 type: Creature
 url: https://tappedout.net/mtg-card/tribal-forcemage/
 

@@ -1,4 +1,7 @@
-activated_abilities: []
+activated_abilities:
+- 'Equip  *(: Attach this to target creature you control. Equip only as a sorcery.
+  This enters the battlefield unattached and stays on the battlefield if the creature
+  this card is attached to leaves the battlefield.)*'
 activated_costs: []
 canadian_hl_score: 0
 cannonical_set: 2XM
@@ -12,6 +15,7 @@ companions:
 - Obosh, the Preypiercer
 - Umori, the Collector
 - Yorion, Sky Nomad
+- Zirda, the Dawnwaker
 effective_cost: []
 formats:
 - 1v1 Commander
@@ -30,6 +34,7 @@ formats:
 - Pauper EDH
 - Tiny Leaders
 - Vintage
+has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -57,7 +62,7 @@ printings:
     name: Mirrodin Besieged
     number: null
     rarity: common
-    release_date: '2011-02-04'
+    release_date: 2011-02-04
     tla: MBS
     variations: []
     wizards_id: 221560
@@ -77,7 +82,7 @@ printings:
     name: 'Mirrodin Besieged: Phyrexia'
     number: null
     rarity: common
-    release_date: '2011-02-03'
+    release_date: 2011-02-03
     tla: MBP
     variations: []
     wizards_id: null
@@ -96,7 +101,7 @@ printings:
     name: Planechase 2012 Edition
     number: null
     rarity: common
-    release_date: '2012-06-01'
+    release_date: 2012-06-01
     tla: PC2
     variations: []
     wizards_id: 271145
@@ -108,15 +113,15 @@ printings:
     artist: Igor Kieryluk
     booster_exclude: false
     border_color: B
-    cannonical: true
+    cannonical: false
     flavour_text: ''
     frame: m15
     mtgo_foil_id: 57297
     mtgo_id: 57296
     name: Modern Masters 2015 Edition
-    number: null
+    number: '214'
     rarity: common
-    release_date: '2015-05-22'
+    release_date: 2015-05-22
     tla: MM2
     variations: []
     wizards_id: 397826
@@ -133,9 +138,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Planechase Anthology
-    number: 110
+    number: '110'
     rarity: common
-    release_date: '2016-11-25'
+    release_date: 2016-11-25
     tla: PCA
     variations: []
     wizards_id: 423535
@@ -154,7 +159,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: common
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -172,9 +177,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Double Masters
-    number: 256
+    number: '256'
     rarity: common
-    release_date: '2020-08-07'
+    release_date: 2020-08-07
     tla: 2XM
     variations: []
     wizards_id: 489929
@@ -182,7 +187,9 @@ printings:
 rarity: common
 rules: "Living weapon *(When this Equipment enters the battlefield, create a 0/0 black\
   \ Germ creature token, then attach this to it.)*\r\n\r\nEquipped creature gets +1/+1.\r\
-  \n\r\nEquip [[symbol:2]]"
+  \n\r\nEquip [[symbol:2]] *([[symbol:2]]: Attach this to target creature you control.\
+  \ Equip only as a sorcery. This enters the battlefield unattached and stays on the\
+  \ battlefield if the creature this card is attached to leaves the battlefield.)*"
 slug: flayer-husk
 subtype: Equipment
 subtype_tokens:
@@ -190,21 +197,113 @@ subtype_tokens:
 synonyms: []
 tapped_id: 12730
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - 0/0
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 1586
-    - - cannonical_type
-      - Creature
-    - - name
-      - Phyrexian Germ 0/0 B
+- cannonical_type: Creature
+  colors: B
+  name: Phyrexian Germ 0/0 B
+  power_toughness: 0/0
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MBS
+      - - name
+        - Mirrodin Besieged
+      - - number
+        - '1'
+      - - release_date
+        - '2011-02-04'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C14
+      - - name
+        - Commander 2014
+      - - number
+        - '14'
+      - - release_date
+        - '2014-11-21'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MM2
+      - - name
+        - Modern Masters 2015 Edition
+      - - number
+        - '27'
+      - - release_date
+        - '2015-05-22'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C15
+      - - name
+        - Commander 2015
+      - - number
+        - '7'
+      - - release_date
+        - '2015-11-13'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C16
+      - - name
+        - Commander 2016
+      - - number
+        - '10'
+      - - release_date
+        - '2016-11-11'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - PCA
+      - - name
+        - Planechase Anthology
+      - - number
+        - '7'
+      - - release_date
+        - '2016-11-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CM1
+      - - name
+        - Commander Anthology
+      - - number
+        - '4'
+      - - release_date
+        - '2017-06-09'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CM2
+      - - name
+        - Commander Anthology 2018
+      - - number
+        - '6'
+      - - release_date
+        - '2018-06-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - '10'
+      - - release_date
+        - '2020-08-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MH2
+      - - name
+        - Modern Horizons 2
+      - - number
+        - '3'
+      - - release_date
+        - '2021-06-18'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NEC
+      - - name
+        - 'Kamigawa: Neon Dynasty Commander'
+      - - number
+        - '3'
+      - - release_date
+        - '2022-02-11'
+  rules: ''
+  subtype: Phyrexian Germ
+  type: Token Creature
 type: Artifact
 url: https://tappedout.net/mtg-card/flayer-husk/
 

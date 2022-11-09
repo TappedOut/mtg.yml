@@ -58,9 +58,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 219
+    number: '219'
     rarity: common
-    release_date: '2022-06-10'
+    release_date: 2022-06-10
     tla: CLB
     variations: []
     wizards_id: 563102
@@ -75,21 +75,50 @@ subtype_tokens:
 synonyms: []
 tapped_id: 26727
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 2/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 97
-    - - cannonical_type
-      - Creature
-    - - name
-      - Boar 2/2 G
+- cannonical_type: Creature
+  colors: G
+  name: Boar 2/2 G
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - THS
+      - - name
+        - Theros
+      - - number
+        - '8'
+      - - release_date
+        - '2013-09-27'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KHC
+      - - name
+        - 'Kaldheim: Commander'
+      - - number
+        - '5'
+      - - release_date
+        - '2021-02-05'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C21
+      - - name
+        - Commander 2021
+      - - number
+        - '12'
+      - - release_date
+        - '2021-04-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '12'
+      - - release_date
+        - '2022-06-10'
+  rules: ''
+  subtype: Boar
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/carefree-swinemaster/
 

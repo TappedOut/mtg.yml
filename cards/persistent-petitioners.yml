@@ -1,12 +1,13 @@
 activated_abilities:
-- ', : Target player puts the top card of their library into their graveyard.'
-- 'Tap four untapped Advisors you control: Target player puts the top twelve cards
-  of their library into their graveyard.'
+- ', : Target player mills a card. *(To mill a card, put the top card of your library
+  into your graveyard.)*'
+- 'Tap four untapped Advisors you control: Target player mills twelve cards.'
 activated_costs: []
 canadian_hl_score: 0
 cannonical_set: RNA
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -44,6 +45,7 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Tap/Untap
+- Mill
 mana_cost: 1U
 mana_value: 2
 melds_from: []
@@ -63,17 +65,41 @@ printings:
     mtgo_foil_id: 71089
     mtgo_id: 71088
     name: Ravnica Allegiance
-    number: 44
+    number: '44'
     rarity: common
-    release_date: '2019-01-25'
+    release_date: 2019-01-25
     tla: RNA
     variations: []
     wizards_id: 457188
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=457188
-rules: "[[symbol:1]], [[symbol:T]]: Target player puts the top card of their library\
-  \ into their graveyard.\r\n\r\nTap four untapped Advisors you control: Target player\
-  \ puts the top twelve cards of their library into their graveyard.\r\n\r\nA deck\
-  \ can have any number of cards named Persistent Petitioners."
+- SLD:
+    alterations:
+    - Foil
+    artist: CROM
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: "*\"... the king's burning heart must be laid to rest at last. And\
+      \ furthermore ...\"*\r\n\r\n*\"... cake. The Overmind demands cake. The Overmind\
+      \ also requires that ...\"*\r\n\r\n*\"... we need seeds, yo.\"\r\n<br>\"Lots\
+      \ of seeds, and ...\"*"
+    frame: borderless
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: '596'
+    rarity: rare
+    release_date: 2019-12-09
+    tla: SLD
+    variations:
+    - identifier: '597'
+    - identifier: '598'
+    wizards_id: null
+    wizards_url: null
+rules: "[[symbol:1]], [[symbol:T]]: Target player mills a card. *(To mill a card,\
+  \ put the top card of your library into your graveyard.)*\r\n\r\nTap four untapped\
+  \ Advisors you control: Target player mills twelve cards.\r\n\r\nA deck can have\
+  \ any number of cards named Persistent Petitioners."
 slug: persistent-petitioners
 subtype: Human Advisor
 subtype_tokens:

@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: C20
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
@@ -53,7 +54,7 @@ printings:
     name: Shadowmoor
     number: null
     rarity: rare
-    release_date: '2008-05-02'
+    release_date: 2008-05-02
     tla: SHM
     variations: []
     wizards_id: 147379
@@ -71,9 +72,9 @@ printings:
     mtgo_foil_id: 63114
     mtgo_id: 63113
     name: Modern Masters 2017 Edition
-    number: 214
+    number: '214'
     rarity: rare
-    release_date: '2017-03-17'
+    release_date: 2017-03-17
     tla: MM3
     variations: []
     wizards_id: 426039
@@ -90,9 +91,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2020
-    number: 234
+    number: '234'
     rarity: rare
-    release_date: '2020-05-15'
+    release_date: 2020-05-15
     tla: C20
     variations: []
     wizards_id: 482862
@@ -111,21 +112,41 @@ subtype_tokens:
 synonyms: []
 tapped_id: 9758
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - RG
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 22
-    - - cannonical_type
-      - Creature
-    - - name
-      - Goblin Warrior 1/1 RG
+- cannonical_type: Creature
+  colors: RG
+  name: Goblin Warrior 1/1 RG
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SHM
+      - - name
+        - Shadowmoor
+      - - number
+        - '11'
+      - - release_date
+        - '2008-05-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MM3
+      - - name
+        - Modern Masters 2017 Edition
+      - - number
+        - '18'
+      - - release_date
+        - '2017-03-17'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C20
+      - - name
+        - Commander 2020
+      - - number
+        - '17'
+      - - release_date
+        - '2020-05-15'
+  rules: ''
+  subtype: Goblin Warrior
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/wort-the-raidmother/
 

@@ -52,9 +52,9 @@ printings:
     mtgo_foil_id: 34609
     mtgo_id: 34608
     name: Zendikar
-    number: 54
+    number: '54'
     rarity: rare
-    release_date: '2009-10-02'
+    release_date: 2009-10-02
     tla: ZEN
     variations: []
     wizards_id: 190404
@@ -71,21 +71,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 11803
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 80
-    - - cannonical_type
-      - Creature
-    - - name
-      - Merfolk 1/1 U
+- cannonical_type: Creature
+  colors: U
+  name: Merfolk 1/1 U
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ZEN
+      - - name
+        - Zendikar
+      - - number
+        - '5'
+      - - release_date
+        - '2009-10-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DMC
+      - - name
+        - 'Dominaria United: Commander'
+      - - number
+        - '5'
+      - - release_date
+        - '2022-09-10'
+  rules: ''
+  subtype: Merfolk
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/lullmage-mentor/
 

@@ -56,9 +56,9 @@ printings:
     mtgo_foil_id: 71087
     mtgo_id: 71086
     name: Ravnica Allegiance
-    number: 43
+    number: '43'
     rarity: mythic_rare
-    release_date: '2019-01-25'
+    release_date: 2019-01-25
     tla: RNA
     variations:
     - identifier: Animated
@@ -75,22 +75,24 @@ subtype_tokens:
 synonyms: []
 tapped_id: 21078
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 0/2
-    - - rules
-      - Whenever this creature blocks a creature, that creature doesn't untap during
-        its controller's next untap step.
-    - - type
-      - Token Creature
-    - - subtype
-      - 21
-    - - cannonical_type
-      - Creature
-    - - name
-      - Illusion 0/2 U
+- cannonical_type: Creature
+  colors: U
+  name: Illusion 0/2 U
+  power_toughness: 0/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - RNA
+      - - name
+        - Ravnica Allegiance
+      - - number
+        - '2'
+      - - release_date
+        - '2019-01-25'
+  rules: Whenever this creature blocks a creature, that creature doesn't untap during
+    its controller's next untap step.
+  subtype: Illusion
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/mesmerizing-benthid/
 

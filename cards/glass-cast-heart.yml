@@ -53,9 +53,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Crimson Vow Commander'
-    number: 18
+    number: '18'
     rarity: rare
-    release_date: '2021-11-18'
+    release_date: 2021-11-18
     tla: VOC
     variations:
     - identifier: '56'
@@ -71,37 +71,41 @@ slug: glass-cast-heart
 synonyms: []
 tapped_id: 25658
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
-        a card.'
-    - - type
-      - Token Artifact
-    - - subtype
-      - 1692
-    - - cannonical_type
-      - Artifact
-    - - name
-      - Blood
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - WB
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Lifelink
-    - - type
-      - Token Creature
-    - - subtype
-      - 107
-    - - cannonical_type
-      - Creature
-    - - name
-      - Vampire 1/1 WB
+- cannonical_type: Artifact
+  colors: C
+  name: Blood
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '17'
+      - - release_date
+        - '2021-11-11'
+  rules: '[[symbol:1]], [[symbol:T]], Discard a card, Sacrifice this artifact: Draw
+    a card.'
+  subtype: Blood
+  type: Token Artifact
+- cannonical_type: Creature
+  colors: WB
+  name: Vampire 1/1 WB
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '16'
+      - - release_date
+        - '2021-11-11'
+  rules: Lifelink
+  subtype: Vampire
+  type: Token Creature
 type: Artifact
 url: https://tappedout.net/mtg-card/glass-cast-heart/
 

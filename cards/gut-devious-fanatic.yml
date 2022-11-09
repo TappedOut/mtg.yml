@@ -1,7 +1,7 @@
 activated_abilities: []
 activated_costs: []
 canadian_hl_score: 0
-cannonical_set: 2X2
+cannonical_set: HBG
 cannonical_type: Creature
 companions:
 - Keruga, the Macrosage
@@ -14,6 +14,11 @@ effective_cost:
 - U
 - R
 formats:
+- Alchemy
+- Arena
+- Gladiator
+- Historic
+- Limited
 - Penny Dreadful
 is_mtgo: true
 is_permanent: true
@@ -28,22 +33,22 @@ melds_from: []
 name: Gut, Devious Fanatic
 power_toughness: 5/4
 printings:
-- 2X2:
+- HBG:
     alterations:
     - Normal
     artist: Wayne Reynolds
     booster_exclude: false
     border_color: B
-    cannonical: false
-    flavour_text: null
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: null
     mtgo_id: null
-    name: Double Masters 2022
+    name: 'Alchemy Horizons: Baldur''s Gate'
     number: null
     rarity: uncommon
-    release_date: '2022-07-08'
-    tla: 2X2
+    release_date: 2022-07-07
+    tla: HBG
     variations: []
     wizards_id: null
     wizards_url: null
@@ -61,21 +66,85 @@ subtype_tokens:
 synonyms: []
 tapped_id: 26895
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - null
-    - - power_toughness
-      - null
-    - - rules
-      - '*This token can be used to represent a token that''s a copy of a permanent.*'
-    - - type
-      - Token Creature
-    - - subtype
-      - null
-    - - cannonical_type
-      - Creature
-    - - name
-      - Copy Clone
+- cannonical_type: Creature
+  colors: null
+  name: Copy Clone
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GK1
+      - - name
+        - 'Guilds of Ravnica: Guild Kit'
+      - - number
+        - '1'
+      - - release_date
+        - '2018-11-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - '31'
+      - - release_date
+        - '2020-08-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ZNR
+      - - name
+        - Zendikar Rising
+      - - number
+        - '12'
+      - - release_date
+        - '2020-09-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '13'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '23'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C21
+      - - name
+        - Commander 2021
+      - - number
+        - '30'
+      - - release_date
+        - '2021-04-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '19'
+      - - release_date
+        - '2021-11-11'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '19'
+      - - release_date
+        - '2022-06-10'
+  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/gut-devious-fanatic/
 

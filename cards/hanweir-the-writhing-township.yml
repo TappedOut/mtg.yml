@@ -36,8 +36,8 @@ keywords:
 - Tokens
 mana_value: 0
 melds_from:
-- 18035
-- 18034
+- Hanweir Battlements
+- Hanweir Garrison
 name: Hanweir, the Writhing Township
 power_toughness: 7/4
 printings:
@@ -55,9 +55,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Eldritch Moon
-    number: 130
+    number: '130'
     rarity: rare
-    release_date: '2016-07-22'
+    release_date: 2016-07-22
     tla: EMN
     variations: []
     wizards_id: 414429
@@ -73,21 +73,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 18033
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 3/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 1149
-    - - cannonical_type
-      - Creature
-    - - name
-      - Eldrazi Horror 3/2 C
+- cannonical_type: Creature
+  colors: C
+  name: Eldrazi Horror 3/2 C
+  power_toughness: 3/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - EMN
+      - - name
+        - Eldritch Moon
+      - - number
+        - '1'
+      - - release_date
+        - '2016-07-22'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '21'
+      - - release_date
+        - '2022-06-10'
+  rules: ''
+  subtype: Eldrazi Horror
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/hanweir-the-writhing-township/
 

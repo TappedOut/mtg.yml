@@ -6,6 +6,7 @@ canadian_hl_score: 0
 cannonical_set: KHM
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -67,9 +68,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Kaldheim
-    number: 114
+    number: '114'
     rarity: mythic_rare
-    release_date: '2021-02-05'
+    release_date: 2021-02-05
     tla: KHM
     variations:
     - identifier: '286'
@@ -88,22 +89,24 @@ subtype_tokens:
 synonyms: []
 tapped_id: 23714
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - You may play cards exiled with Tibalt, Cosmic Impostor, and you may spend
-        mana as though it were mana of any colour to cast those spells.
-    - - type
-      - Emblem
-    - - subtype
-      - 959
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Tibalt, Cosmic Impostor
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Tibalt, Cosmic Impostor
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KHM
+      - - name
+        - Kaldheim
+      - - number
+        - null
+      - - release_date
+        - '2021-02-05'
+  rules: You may play cards exiled with Tibalt, Cosmic Impostor, and you may spend
+    mana as though it were mana of any colour to cast those spells.
+  subtype: Tibalt
+  type: Emblem
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/valki-god-of-lies/
 

@@ -63,9 +63,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Streets of New Capenna
-    number: 185
+    number: '185'
     rarity: uncommon
-    release_date: '2022-04-29'
+    release_date: 2022-04-29
     tla: SNC
     variations: []
     wizards_id: 555386
@@ -77,21 +77,23 @@ slug: exotic-pets
 synonyms: []
 tapped_id: 26188
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 1/1
-    - - rules
-      - This can't be blocked.
-    - - type
-      - Token Creature
-    - - subtype
-      - 270
-    - - cannonical_type
-      - Creature
-    - - name
-      - Fish 1/1 U
+- cannonical_type: Creature
+  colors: U
+  name: Fish 1/1 U
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SNC
+      - - name
+        - Streets of New Capenna
+      - - number
+        - '4'
+      - - release_date
+        - '2022-04-29'
+  rules: This can't be blocked.
+  subtype: Fish
+  type: Token Creature
 type: Instant
 url: https://tappedout.net/mtg-card/exotic-pets/
 

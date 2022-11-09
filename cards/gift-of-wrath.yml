@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: NEO
 cannonical_type: Enchantment
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -57,15 +58,15 @@ printings:
     artist: Isis
     booster_exclude: false
     border_color: B
-    cannonical: false
-    flavour_text: null
+    cannonical: true
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
-    number: 143
+    number: '143'
     rarity: common
-    release_date: '2022-02-10'
+    release_date: 2022-02-10
     tla: NEO
     variations: []
     wizards_id: 548446
@@ -81,21 +82,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 25971
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 2/2
-    - - rules
-      - Menace *(This creature can't be blocked except by two or more creatures.)*
-    - - type
-      - Token Creature
-    - - subtype
-      - 17
-    - - cannonical_type
-      - Creature
-    - - name
-      - Spirit 2/2 R
+- cannonical_type: Creature
+  colors: R
+  name: Spirit 2/2 R
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NEO
+      - - name
+        - 'Kamigawa: Neon Dynasty'
+      - - number
+        - '9'
+      - - release_date
+        - '2022-02-10'
+  rules: Menace *(This creature can't be blocked except by two or more creatures.)*
+  subtype: Spirit
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/gift-of-wrath/
 

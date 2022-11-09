@@ -57,9 +57,9 @@ printings:
     mtgo_foil_id: 72055
     mtgo_id: 72054
     name: War of the Spark
-    number: 224
+    number: '224'
     rarity: rare
-    release_date: '2019-05-03'
+    release_date: 2019-05-03
     tla: WAR
     variations:
     - identifier: PromoPack
@@ -77,21 +77,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 21313
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - GW
-    - - power_toughness
-      - 3/3
-    - - rules
-      - ''
-    - - type
-      - Token Legendary Creature
-    - - subtype
-      - 93
-    - - cannonical_type
-      - Creature
-    - - name
-      - Voja, Friend to Elves
+- cannonical_type: Creature
+  colors: GW
+  name: Voja, Friend to Elves
+  power_toughness: 3/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - WAR
+      - - name
+        - War of the Spark
+      - - number
+        - null
+      - - release_date
+        - '2019-05-03'
+  rules: ''
+  subtype: Wolf
+  type: Token Legendary Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/tolsimir-friend-to-wolves/
 

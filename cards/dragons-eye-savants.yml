@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: KTK
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -54,9 +55,9 @@ printings:
     mtgo_foil_id: 54303
     mtgo_id: 54302
     name: Khans of Tarkir
-    number: 38
+    number: '38'
     rarity: uncommon
-    release_date: '2014-09-26'
+    release_date: 2014-09-26
     tla: KTK
     variations: []
     wizards_id: 386524
@@ -74,9 +75,9 @@ printings:
     mtgo_foil_id: 67023
     mtgo_id: 67022
     name: Masters 25
-    number: 54
+    number: '54'
     rarity: common
-    release_date: '2018-03-16'
+    release_date: 2018-03-16
     tla: A25
     variations: []
     wizards_id: 442043
@@ -95,7 +96,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: uncommon
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -113,22 +114,41 @@ subtype_tokens:
 synonyms: []
 tapped_id: 15955
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 2/2
-    - - rules
-      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-        \ with morph can be turned face up at any time for its morph cost.*"
-    - - type
-      - Creature
-    - - subtype
-      - null
-    - - cannonical_type
-      - Creature
-    - - name
-      - Morph 2/2 C
+- cannonical_type: Creature
+  colors: C
+  name: Morph 2/2 C
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KTK
+      - - name
+        - Khans of Tarkir
+      - - number
+        - '11'
+      - - release_date
+        - '2014-09-26'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DTK
+      - - name
+        - Dragons of Tarkir
+      - - number
+        - '7'
+      - - release_date
+        - '2015-03-27'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C19
+      - - name
+        - Commander 2019
+      - - number
+        - '27'
+      - - release_date
+        - '2019-08-23'
+  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+    \ with morph can be turned face up at any time for its morph cost.*"
+  type: Creature
 type: Creature
 url: https://tappedout.net/mtg-card/dragons-eye-savants/
 

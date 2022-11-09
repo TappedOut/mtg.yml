@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: XLN
 cannonical_type: Artifact
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -60,9 +61,9 @@ printings:
     mtgo_foil_id: 65493
     mtgo_id: 65492
     name: Ixalan
-    number: 235
+    number: '235'
     rarity: rare
-    release_date: '2017-09-29'
+    release_date: 2017-09-29
     tla: XLN
     variations: []
     wizards_id: 435392
@@ -79,9 +80,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Promo Set
-    number: 1
+    number: '1'
     rarity: rare
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations: []
     wizards_id: null
@@ -98,21 +99,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 19443
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 0/2
-    - - rules
-      - Defender *(This creature can't attack.)*
-    - - type
-      - Token Creature
-    - - subtype
-      - 691
-    - - cannonical_type
-      - Creature
-    - - name
-      - Plant 0/2 G
+- cannonical_type: Creature
+  colors: G
+  name: Plant 0/2 G
+  power_toughness: 0/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - XLN
+      - - name
+        - Ixalan
+      - - number
+        - '6'
+      - - release_date
+        - '2017-09-29'
+  rules: Defender *(This creature can't attack.)*
+  subtype: Plant
+  type: Token Creature
 type: Artifact
 url: https://tappedout.net/mtg-card/dowsing-dagger/
 

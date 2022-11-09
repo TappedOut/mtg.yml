@@ -55,9 +55,9 @@ printings:
     mtgo_foil_id: 57821
     mtgo_id: 57820
     name: Magic Origins
-    number: 209
+    number: '209'
     rarity: uncommon
-    release_date: '2015-06-17'
+    release_date: 2015-06-17
     tla: ORI
     variations: []
     wizards_id: 398518
@@ -78,7 +78,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: uncommon
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -98,13 +98,13 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Jumpstart
-    number: 448
+    number: '448'
     rarity: uncommon
-    release_date: '2020-07-17'
+    release_date: 2020-07-17
     tla: JMP
     variations: []
-    wizards_id: null
-    wizards_url: null
+    wizards_id: 489431
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=489431
 - ZNC:
     alterations:
     - Normal
@@ -119,9 +119,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Zendikar Rising: Commander'
-    number: 88
+    number: '88'
     rarity: uncommon
-    release_date: '2020-09-25'
+    release_date: 2020-09-25
     tla: ZNC
     variations: []
     wizards_id: 496026
@@ -133,21 +133,23 @@ slug: zendikars-roil
 synonyms: []
 tapped_id: 16993
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 2/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 5
-    - - cannonical_type
-      - Creature
-    - - name
-      - Elemental 2/2 G
+- cannonical_type: Creature
+  colors: G
+  name: Elemental 2/2 G
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ORI
+      - - name
+        - Magic Origins
+      - - number
+        - '8'
+      - - release_date
+        - '2015-06-17'
+  rules: ''
+  subtype: Elemental
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/zendikars-roil/
 

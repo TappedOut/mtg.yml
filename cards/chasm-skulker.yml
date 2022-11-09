@@ -59,9 +59,9 @@ printings:
     mtgo_foil_id: 53629
     mtgo_id: 53628
     name: Magic 2015
-    number: 46
+    number: '46'
     rarity: rare
-    release_date: '2014-07-18'
+    release_date: 2014-07-18
     tla: M15
     variations:
     - identifier: PromoPack
@@ -79,9 +79,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2016
-    number: 85
+    number: '85'
     rarity: rare
-    release_date: '2016-11-11'
+    release_date: 2016-11-11
     tla: C16
     variations: []
     wizards_id: 420702
@@ -100,7 +100,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: rare
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -117,9 +117,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Streets of New Capenna: Commander'
-    number: 214
+    number: '214'
     rarity: rare
-    release_date: '2022-04-30'
+    release_date: 2022-04-30
     tla: NCC
     variations: []
     wizards_id: 559786
@@ -136,9 +136,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 714
+    number: '714'
     rarity: rare
-    release_date: '2022-06-10'
+    release_date: 2022-06-10
     tla: CLB
     variations: []
     wizards_id: 567531
@@ -157,21 +157,59 @@ subtype_tokens:
 synonyms: []
 tapped_id: 15628
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Islandwalk
-    - - type
-      - Token Creature
-    - - subtype
-      - 1085
-    - - cannonical_type
-      - Creature
-    - - name
-      - Squid 1/1 U
+- cannonical_type: Creature
+  colors: U
+  name: Squid 1/1 U
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M15
+      - - name
+        - Magic 2015
+      - - number
+        - '4'
+      - - release_date
+        - '2014-07-18'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C16
+      - - name
+        - Commander 2016
+      - - number
+        - '8'
+      - - release_date
+        - '2016-11-11'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - '000'
+      - - name
+        - Promo Set
+      - - number
+        - '1'
+      - - release_date
+        - '1990-04-15'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NCC
+      - - name
+        - 'Streets of New Capenna: Commander'
+      - - number
+        - '12'
+      - - release_date
+        - '2022-04-30'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '29'
+      - - release_date
+        - '2022-06-10'
+  rules: Islandwalk
+  subtype: Squid
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/chasm-skulker/
 

@@ -7,6 +7,7 @@ canadian_hl_score: 0
 cannonical_set: GK1
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
@@ -63,9 +64,9 @@ printings:
     mtgo_foil_id: 69734
     mtgo_id: 69733
     name: Guilds of Ravnica
-    number: 180
+    number: '180'
     rarity: rare
-    release_date: '2018-10-05'
+    release_date: 2018-10-05
     tla: GRN
     variations:
     - identifier: Animated
@@ -84,9 +85,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Guilds of Ravnica: Guild Kit'
-    number: 50
+    number: '50'
     rarity: rare
-    release_date: '2018-11-02'
+    release_date: 2018-11-02
     tla: GK1
     variations: []
     wizards_id: 456054
@@ -103,21 +104,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 20758
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - BG
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 16
-    - - cannonical_type
-      - Creature
-    - - name
-      - Insect 1/1 BG
+- cannonical_type: Creature
+  colors: BG
+  name: Insect 1/1 BG
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GRN
+      - - name
+        - Guilds of Ravnica
+      - - number
+        - null
+      - - release_date
+        - '2018-10-05'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MH2
+      - - name
+        - Modern Horizons 2
+      - - number
+        - null
+      - - release_date
+        - '2021-06-18'
+  rules: ''
+  subtype: Insect
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/izoni-thousand-eyed/
 

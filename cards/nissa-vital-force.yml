@@ -64,9 +64,9 @@ printings:
     mtgo_foil_id: 61590
     mtgo_id: 61589
     name: Kaladesh
-    number: 163
+    number: '163'
     rarity: mythic_rare
-    release_date: '2016-09-30'
+    release_date: 2016-09-30
     tla: KLD
     variations:
     - identifier: PromoPack
@@ -84,9 +84,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Promo Set
-    number: 1
+    number: '1'
     rarity: mythic_rare
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations: []
     wizards_id: null
@@ -104,22 +104,24 @@ subtype_tokens:
 synonyms: []
 tapped_id: 18228
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Whenever a land enters the battlefield under your control, you may draw a
-        card.
-    - - type
-      - Emblem
-    - - subtype
-      - 581
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Nissa, Vital Force
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Nissa, Vital Force
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KLD
+      - - name
+        - Kaladesh
+      - - number
+        - '11'
+      - - release_date
+        - '2016-09-30'
+  rules: Whenever a land enters the battlefield under your control, you may draw a
+    card.
+  subtype: Nissa
+  type: Emblem
 type: Planeswalker
 url: https://tappedout.net/mtg-card/nissa-vital-force/
 

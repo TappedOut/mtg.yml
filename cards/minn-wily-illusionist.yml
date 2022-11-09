@@ -16,7 +16,6 @@ formats:
 - 1v1 Commander
 - Alchemy
 - Arena
-- Block Constructed
 - Canadian Highlander
 - Commander / EDH
 - Duel Commander
@@ -26,7 +25,6 @@ formats:
 - Legacy
 - Leviathan
 - Limited
-- Modern
 - Oathbreaker
 - Tiny Leaders
 - Vintage
@@ -45,19 +43,19 @@ printings:
     - Normal
     artist: Dmitry Burmak
     booster_exclude: false
-    border_color: null
+    border_color: B
     cannonical: true
     flavour_text: ''
-    frame: null
+    frame: m15
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Adventures in the Forgotten Realms: Commander'
-    number: 16
+    number: '16'
     rarity: rare
-    release_date: '2021-07-24'
+    release_date: 2021-07-24
     tla: AFC
     variations:
-    - identifier: '16'
+    - identifier: '285'
     wizards_id: 531921
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=531921
 rules: "Whenever you draw your second card each turn, create a 1/1 blue Illusion creature\
@@ -74,36 +72,58 @@ subtype_tokens:
 synonyms: []
 tapped_id: 24902
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 21
-    - - cannonical_type
-      - Creature
-    - - name
-      - Illusion 1/1 U w/ Flying
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 1/1
-    - - rules
-      - This creature gets +1/+0 for each other Illusion you control.
-    - - type
-      - Token Creature
-    - - subtype
-      - 21
-    - - cannonical_type
-      - Creature
-    - - name
-      - Illusion 1/1 U w/ Illusion Tribal
+- cannonical_type: Creature
+  colors: U
+  name: Illusion 1/1 U w/ Flying
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MMA
+      - - name
+        - Modern Masters
+      - - number
+        - null
+      - - release_date
+        - '2013-06-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MH1
+      - - name
+        - Modern Horizons
+      - - number
+        - null
+      - - release_date
+        - '2019-06-14'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - null
+      - - release_date
+        - '2020-11-20'
+  rules: Flying
+  subtype: Illusion
+  type: Token Creature
+- cannonical_type: Creature
+  colors: U
+  name: Illusion 1/1 U w/ Illusion Tribal
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AFC
+      - - name
+        - 'Adventures in the Forgotten Realms: Commander'
+      - - number
+        - null
+      - - release_date
+        - '2021-07-24'
+  rules: This creature gets +1/+0 for each other Illusion you control.
+  subtype: Illusion
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/minn-wily-illusionist/
 

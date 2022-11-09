@@ -6,6 +6,7 @@ canadian_hl_score: 0
 cannonical_set: MMQ
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -56,9 +57,9 @@ printings:
     mtgo_foil_id: 13608
     mtgo_id: 13607
     name: Mercadian Masques
-    number: 249
+    number: '249'
     rarity: common
-    release_date: '1999-10-04'
+    release_date: 1999-10-04
     tla: MMQ
     variations: []
     wizards_id: 20847
@@ -79,7 +80,7 @@ printings:
     name: Visions
     number: null
     rarity: common
-    release_date: '1997-02-03'
+    release_date: 1997-02-03
     tla: VIS
     variations: []
     wizards_id: 3665
@@ -94,21 +95,14 @@ subtype_tokens:
 synonyms: []
 tapped_id: 5733
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 16
-    - - cannonical_type
-      - Creature
-    - - name
-      - Insect 1/1 G w/ Flying
+- cannonical_type: Creature
+  colors: G
+  name: Insect 1/1 G w/ Flying
+  power_toughness: 1/1
+  printings: []
+  rules: Flying
+  subtype: Insect
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/giant-caterpillar/
 

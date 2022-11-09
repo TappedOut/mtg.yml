@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: UN3
 cannonical_type: Instant
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -37,9 +38,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Unstable
-    number: 49
+    number: '49'
     rarity: rare
-    release_date: '2017-12-08'
+    release_date: 2017-12-08
     tla: UN3
     variations: []
     wizards_id: 439646
@@ -54,21 +55,23 @@ slug: very-cryptic-command-c
 synonyms: []
 tapped_id: 19860
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 198
-    - - cannonical_type
-      - Creature
-    - - name
-      - Gnome 1/1 C
+- cannonical_type: Creature
+  colors: C
+  name: Gnome 1/1 C
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UN3
+      - - name
+        - Unstable
+      - - number
+        - '20'
+      - - release_date
+        - '2017-12-08'
+  rules: ''
+  subtype: Gnome
+  type: Token Artifact Creature
 type: Instant
 url: https://tappedout.net/mtg-card/very-cryptic-command-c/
 

@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: M21
 cannonical_type: Enchantment
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -57,9 +58,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Core Set 2021
-    number: 22
+    number: '22'
     rarity: uncommon
-    release_date: '2020-07-03'
+    release_date: 2020-07-03
     tla: M21
     variations: []
     wizards_id: 485345
@@ -70,21 +71,59 @@ slug: griffin-aerie
 synonyms: []
 tapped_id: 23072
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 2/2
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 103
-    - - cannonical_type
-      - Creature
-    - - name
-      - 2/2 W Token Creature Griffin
+- cannonical_type: Creature
+  colors: W
+  name: Griffin 2/2 W
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - '000'
+      - - name
+        - Promo Set
+      - - number
+        - '4'
+      - - release_date
+        - '1990-04-15'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DDL
+      - - name
+        - 'Duel Decks: Heroes vs. Monsters'
+      - - number
+        - '1'
+      - - release_date
+        - '2013-09-06'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M21
+      - - name
+        - Core Set 2021
+      - - number
+        - '3'
+      - - release_date
+        - '2020-07-03'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - TSR
+      - - name
+        - Time Spiral Remastered
+      - - number
+        - '1'
+      - - release_date
+        - '2021-03-19'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DMC
+      - - name
+        - 'Dominaria United: Commander'
+      - - number
+        - '1'
+      - - release_date
+        - '2022-09-10'
+  rules: Flying
+  subtype: Griffin
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/griffin-aerie/
 

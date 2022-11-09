@@ -10,6 +10,7 @@ canadian_hl_score: 0
 cannonical_set: MID
 cannonical_type: Planeswalker
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -71,9 +72,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Midnight Hunt'
-    number: 245
+    number: '245'
     rarity: mythic_rare
-    release_date: '2021-09-24'
+    release_date: 2021-09-24
     tla: MID
     variations:
     - identifier: '280'
@@ -92,9 +93,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Double Feature'
-    number: 245
+    number: '245'
     rarity: mythic_rare
-    release_date: '2022-01-21'
+    release_date: 2022-01-21
     tla: DBL
     variations: []
     wizards_id: null
@@ -113,22 +114,24 @@ subtype_tokens:
 synonyms: []
 tapped_id: 25158
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - "Untap all permanents you control during each opponent's untap step.\r\n\r\
-        \nYou draw a card during each opponent's draw step."
-    - - type
-      - Emblem
-    - - subtype
-      - 1040
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Teferi, Who Slows the Sunset
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Teferi, Who Slows the Sunset
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MID
+      - - name
+        - 'Innistrad: Midnight Hunt'
+      - - number
+        - '17'
+      - - release_date
+        - '2021-09-24'
+  rules: "Untap all permanents you control during each opponent's untap step.\r\n\r\
+    \nYou draw a card during each opponent's draw step."
+  subtype: Teferi
+  type: Emblem
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/teferi-who-slows-the-sunset/
 

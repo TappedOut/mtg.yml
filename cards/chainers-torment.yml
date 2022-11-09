@@ -5,6 +5,7 @@ cannonical_set: DOM
 cannonical_type: Enchantment
 color_identity: ''
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -58,9 +59,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Dominaria
-    number: 82
+    number: '82'
     rarity: uncommon
-    release_date: '2018-04-22'
+    release_date: 2018-04-22
     tla: DOM
     variations: []
     wizards_id: 442970
@@ -78,21 +79,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 20179
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - X/X
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 360
-    - - cannonical_type
-      - Creature
-    - - name
-      - Nightmare Horror X/X B
+- cannonical_type: Creature
+  colors: B
+  name: Nightmare Horror X/X B
+  power_toughness: X/X
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DOM
+      - - name
+        - Dominaria
+      - - number
+        - '6'
+      - - release_date
+        - '2018-04-22'
+  rules: ''
+  subtype: Nightmare Horror
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/chainers-torment/
 

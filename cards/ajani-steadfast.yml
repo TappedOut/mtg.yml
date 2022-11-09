@@ -9,6 +9,7 @@ canadian_hl_score: 0
 cannonical_set: M15
 cannonical_type: Planeswalker
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -61,9 +62,9 @@ printings:
     mtgo_foil_id: 53505
     mtgo_id: 53504
     name: Magic 2015
-    number: 1
+    number: '1'
     rarity: mythic_rare
-    release_date: '2014-07-18'
+    release_date: 2014-07-18
     tla: M15
     variations: []
     wizards_id: 383180
@@ -80,9 +81,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Promo Set
-    number: 1
+    number: '1'
     rarity: mythic_rare
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations: []
     wizards_id: null
@@ -100,13 +101,13 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Secret Lair
-    number: 87
+    number: '87'
     rarity: mythic_rare
-    release_date: '2019-12-09'
+    release_date: 2019-12-09
     tla: SLD
     variations: []
-    wizards_id: null
-    wizards_url: null
+    wizards_id: 485311
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485311
 rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Until end of turn, up to one target creature gets\
   \ +1/+1 and gains first strike, vigilance, and lifelink.\r\n\r\n[[symbol:loyalty-minus2]]:\
@@ -121,22 +122,24 @@ subtype_tokens:
 synonyms: []
 tapped_id: 15633
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - If a source would deal damage to you or a planeswalker you control, prevent
-        all but one of that damage.
-    - - type
-      - Emblem
-    - - subtype
-      - 37
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Ajani Steadfast
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Ajani Steadfast
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M15
+      - - name
+        - Magic 2015
+      - - number
+        - '13'
+      - - release_date
+        - '2014-07-18'
+  rules: If a source would deal damage to you or a planeswalker you control, prevent
+    all but one of that damage.
+  subtype: Ajani
+  type: Emblem
 type: Planeswalker
 url: https://tappedout.net/mtg-card/ajani-steadfast/
 

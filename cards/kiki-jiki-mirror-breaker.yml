@@ -55,9 +55,9 @@ printings:
     mtgo_foil_id: 21022
     mtgo_id: 21021
     name: Champions of Kamigawa
-    number: 175
+    number: '175'
     rarity: rare
-    release_date: '2004-10-01'
+    release_date: 2004-10-01
     tla: CHK
     variations: []
     wizards_id: 50321
@@ -74,9 +74,9 @@ printings:
     mtgo_foil_id: 42244
     mtgo_id: 42243
     name: 'From the Vault: Legends'
-    number: 4
+    number: '4'
     rarity: mythic_rare
-    release_date: '2011-08-26'
+    release_date: 2011-08-26
     tla: V11
     variations: []
     wizards_id: 244666
@@ -88,15 +88,15 @@ printings:
     artist: Steven Belledin
     booster_exclude: false
     border_color: B
-    cannonical: true
+    cannonical: false
     flavour_text: ''
     frame: modern
     mtgo_foil_id: 48853
     mtgo_id: 48852
     name: Modern Masters
-    number: 120
+    number: '120'
     rarity: mythic_rare
-    release_date: '2013-06-07'
+    release_date: 2013-06-07
     tla: MMA
     variations: []
     wizards_id: 370534
@@ -108,15 +108,15 @@ printings:
     artist: Steven Belledin
     booster_exclude: false
     border_color: B
-    cannonical: true
+    cannonical: false
     flavour_text: ''
     frame: m15
     mtgo_foil_id: 57341
     mtgo_id: 57340
     name: Modern Masters 2015 Edition
-    number: 124
+    number: '124'
     rarity: mythic_rare
-    release_date: '2015-05-22'
+    release_date: 2015-05-22
     tla: MM2
     variations: []
     wizards_id: 397698
@@ -134,9 +134,9 @@ printings:
     mtgo_foil_id: 66152
     mtgo_id: 66151
     name: Iconic Masters
-    number: 136
+    number: '136'
     rarity: mythic_rare
-    release_date: '2017-11-17'
+    release_date: 2017-11-17
     tla: IMA
     variations: []
     wizards_id: 438702
@@ -155,7 +155,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: mythic_rare
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -173,13 +173,33 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Time Spiral Remastered
-    number: 346
+    number: '346'
     rarity: special
-    release_date: '2021-03-19'
+    release_date: 2021-03-19
     tla: TSR
     variations: []
     wizards_id: 512312
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=512312
+- J22:
+    alterations:
+    - Normal
+    artist: Pete Venters
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Jumpstart 2022
+    number: null
+    rarity: special
+    release_date: 2022-12-02
+    tla: J22
+    variations:
+    - identifier: '79'
+    wizards_id: null
+    wizards_url: null
 rules: "Haste\r\n\r\n[[symbol:T]]: Create a token that's a copy of target nonlegendary\
   \ creature you control, except it has haste. Sacrifice it at the beginning of the\
   \ next end step."
@@ -194,21 +214,85 @@ synonyms:
 - Mirror Breaker
 tapped_id: 2612
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - null
-    - - power_toughness
-      - null
-    - - rules
-      - '*This token can be used to represent a token that''s a copy of a permanent.*'
-    - - type
-      - Token Creature
-    - - subtype
-      - null
-    - - cannonical_type
-      - Creature
-    - - name
-      - Copy Clone
+- cannonical_type: Creature
+  colors: null
+  name: Copy Clone
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GK1
+      - - name
+        - 'Guilds of Ravnica: Guild Kit'
+      - - number
+        - '1'
+      - - release_date
+        - '2018-11-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - '31'
+      - - release_date
+        - '2020-08-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ZNR
+      - - name
+        - Zendikar Rising
+      - - number
+        - '12'
+      - - release_date
+        - '2020-09-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '13'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '23'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C21
+      - - name
+        - Commander 2021
+      - - number
+        - '30'
+      - - release_date
+        - '2021-04-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '19'
+      - - release_date
+        - '2021-11-11'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '19'
+      - - release_date
+        - '2022-06-10'
+  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/kiki-jiki-mirror-breaker/
 

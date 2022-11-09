@@ -54,9 +54,9 @@ printings:
     mtgo_foil_id: 79401
     mtgo_id: 79400
     name: Theros Beyond Death
-    number: 138
+    number: '138'
     rarity: uncommon
-    release_date: '2020-01-24'
+    release_date: 2020-01-24
     tla: THB
     variations: []
     wizards_id: 476389
@@ -72,21 +72,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 22497
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 1/1
-    - - rules
-      - This creature can't block.
-    - - type
-      - Token Creature
-    - - subtype
-      - 812
-    - - cannonical_type
-      - Creature
-    - - name
-      - Satyr 1/1 R
+- cannonical_type: Creature
+  colors: R
+  name: Satyr 1/1 R
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - THB
+      - - name
+        - Theros Beyond Death
+      - - number
+        - '9'
+      - - release_date
+        - '2020-01-24'
+  rules: This creature can't block.
+  subtype: Satyr
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/heroes-of-the-revel/
 

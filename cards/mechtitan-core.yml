@@ -11,6 +11,7 @@ canadian_hl_score: 0
 cannonical_set: NEO
 cannonical_type: Artifact
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -78,9 +79,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
-    number: 249
+    number: '249'
     rarity: rare
-    release_date: '2022-02-10'
+    release_date: 2022-02-10
     tla: NEO
     variations:
     - identifier: '402'
@@ -101,21 +102,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 25843
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - WUBRG
-    - - power_toughness
-      - 10/10
-    - - rules
-      - "This is all colours.\r\n\r\nFlying, vigilance, trample, lifelink, haste"
-    - - type
-      - Token Legendary Artifact Creature
-    - - subtype
-      - 72
-    - - cannonical_type
-      - Creature
-    - - name
-      - Mechtitan
+- cannonical_type: Creature
+  colors: WUBRG
+  name: Mechtitan
+  power_toughness: 10/10
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NEO
+      - - name
+        - 'Kamigawa: Neon Dynasty'
+      - - number
+        - '14'
+      - - release_date
+        - '2022-02-10'
+  rules: "This is all colours.\r\n\r\nFlying, vigilance, trample, lifelink, haste"
+  subtype: Construct
+  type: Token Legendary Artifact Creature
 type: Artifact
 url: https://tappedout.net/mtg-card/mechtitan-core/
 

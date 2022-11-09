@@ -7,6 +7,7 @@ canadian_hl_score: 0
 cannonical_set: GRN
 cannonical_type: Planeswalker
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -64,9 +65,9 @@ printings:
     mtgo_foil_id: 69800
     mtgo_id: 69799
     name: Guilds of Ravnica
-    number: 213
+    number: '213'
     rarity: mythic_rare
-    release_date: '2018-10-05'
+    release_date: 2018-10-05
     tla: GRN
     variations:
     - identifier: Animated
@@ -85,9 +86,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Guilds of Ravnica: Mythic Edition'
-    number: 8
+    number: '8'
     rarity: mythic_rare
-    release_date: '2018-10-04'
+    release_date: 2018-10-04
     tla: GRNMED
     variations: []
     wizards_id: null
@@ -105,13 +106,13 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Secret Lair
-    number: 90
+    number: '90'
     rarity: mythic_rare
-    release_date: '2019-12-09'
+    release_date: 2019-12-09
     tla: SLD
     variations: []
-    wizards_id: null
-    wizards_url: null
+    wizards_id: 485314
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=485314
 - '000':
     alterations:
     - Foil
@@ -124,9 +125,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Promo Set
-    number: 1
+    number: '1'
     rarity: mythic_rare
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations: []
     wizards_id: null
@@ -143,22 +144,33 @@ subtype_tokens:
 synonyms: []
 tapped_id: 20767
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Whenever a creature you control deals combat damage to a player, that player
-        loses the game.
-    - - type
-      - Emblem
-    - - subtype
-      - 1205
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Vraska, Golgari Queen
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Vraska, Golgari Queen
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GRN
+      - - name
+        - Guilds of Ravnica
+      - - number
+        - '8'
+      - - release_date
+        - '2018-10-05'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GRNMED
+      - - name
+        - 'Guilds of Ravnica: Mythic Edition'
+      - - number
+        - '8'
+      - - release_date
+        - '2018-10-04'
+  rules: Whenever a creature you control deals combat damage to a player, that player
+    loses the game.
+  subtype: Vraska
+  type: Emblem
 type: Planeswalker
 url: https://tappedout.net/mtg-card/vraska-golgari-queen/
 

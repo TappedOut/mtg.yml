@@ -7,6 +7,7 @@ canadian_hl_score: 0
 cannonical_set: M21
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -63,9 +64,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Core Set 2021
-    number: 191
+    number: '191'
     rarity: rare
-    release_date: '2020-07-03'
+    release_date: 2020-07-03
     tla: M21
     variations:
     - identifier: '376'
@@ -84,21 +85,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 23010
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 2/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 227
-    - - cannonical_type
-      - Creature
-    - - name
-      - Cat 2/2 G
+- cannonical_type: Creature
+  colors: G
+  name: Cat 2/2 G
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M21
+      - - name
+        - Core Set 2021
+      - - number
+        - '11'
+      - - release_date
+        - '2020-07-03'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KHM
+      - - name
+        - Kaldheim
+      - - number
+        - '14'
+      - - release_date
+        - '2021-02-05'
+  rules: ''
+  subtype: Cat
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/jolrael-mwonvuli-recluse/
 

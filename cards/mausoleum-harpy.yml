@@ -52,9 +52,9 @@ printings:
     mtgo_foil_id: 66610
     mtgo_id: 66609
     name: Rivals of Ixalan
-    number: 78
+    number: '78'
     rarity: uncommon
-    release_date: '2018-01-19'
+    release_date: 2018-01-19
     tla: RIX
     variations: []
     wizards_id: 439735
@@ -70,21 +70,22 @@ subtype_tokens:
 synonyms: []
 tapped_id: 20059
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - ''
-    - - type
-      - Emblem
-    - - subtype
-      - null
-    - - cannonical_type
-      - Emblem
-    - - name
-      - City's Blessing
+- cannonical_type: Emblem
+  colors: C
+  name: City's Blessing
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - RIX
+      - - name
+        - Rivals of Ixalan
+      - - number
+        - null
+      - - release_date
+        - '2018-01-19'
+  rules: ''
+  type: Emblem
 type: Creature
 url: https://tappedout.net/mtg-card/mausoleum-harpy/
 

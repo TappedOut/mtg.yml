@@ -64,9 +64,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Strixhaven
-    number: 199
+    number: '199'
     rarity: rare
-    release_date: '2021-04-23'
+    release_date: 2021-04-23
     tla: STX
     variations:
     - identifier: '345'
@@ -81,21 +81,23 @@ slug: lorehold-command
 synonyms: []
 tapped_id: 23990
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - RW
-    - - power_toughness
-      - 3/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 17
-    - - cannonical_type
-      - Creature
-    - - name
-      - Spirit 3/2 RW
+- cannonical_type: Creature
+  colors: RW
+  name: Spirit 3/2 RW
+  power_toughness: 3/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - STX
+      - - name
+        - Strixhaven
+      - - number
+        - null
+      - - release_date
+        - '2021-04-23'
+  rules: ''
+  subtype: Spirit
+  type: Token Creature
 type: Instant
 url: https://tappedout.net/mtg-card/lorehold-command/
 

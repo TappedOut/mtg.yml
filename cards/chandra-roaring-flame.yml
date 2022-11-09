@@ -58,9 +58,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Magic Origins
-    number: 135
+    number: '135'
     rarity: mythic_rare
-    release_date: '2015-06-17'
+    release_date: 2015-06-17
     tla: ORI
     variations: []
     wizards_id: 398423
@@ -77,9 +77,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Promo Set
-    number: 1
+    number: '1'
     rarity: mythic_rare
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations: []
     wizards_id: null
@@ -96,9 +96,9 @@ printings:
     mtgo_foil_id: 66416
     mtgo_id: 66415
     name: 'From the Vault: Transform'
-    number: 6
+    number: '6'
     rarity: mythic_rare
-    release_date: '2017-11-24'
+    release_date: 2017-11-24
     tla: V17
     variations: []
     wizards_id: 439325
@@ -114,21 +114,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 16940
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - At the beginning of your upkeep, this emblem deals 3 damage to you.
-    - - type
-      - Emblem
-    - - subtype
-      - 243
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Chandra, Fire of Kaladesh
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Chandra, Fire of Kaladesh
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ORI
+      - - name
+        - Magic Origins
+      - - number
+        - '14'
+      - - release_date
+        - '2015-06-17'
+  rules: At the beginning of your upkeep, this emblem deals 3 damage to you.
+  subtype: Chandra
+  type: Emblem
 type: Planeswalker
 url: https://tappedout.net/mtg-card/chandra-roaring-flame/
 

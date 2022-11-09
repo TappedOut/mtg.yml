@@ -5,6 +5,7 @@ canadian_hl_score: 0
 cannonical_set: M15
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -52,9 +53,9 @@ printings:
     mtgo_foil_id: 53527
     mtgo_id: 53526
     name: Magic 2015
-    number: 144
+    number: '144'
     rarity: rare
-    release_date: '2014-07-18'
+    release_date: 2014-07-18
     tla: M15
     variations: []
     wizards_id: 383257
@@ -72,22 +73,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 15661
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - '[[symbol:R]], Sacrifice this: This deals 2 damage to target attacking creature
-        without flying.'
-    - - type
-      - Token Artifact
-    - - subtype
-      - null
-    - - cannonical_type
-      - Artifact
-    - - name
-      - Land Mine
+- cannonical_type: Artifact
+  colors: C
+  name: Land Mine
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M15
+      - - name
+        - Magic 2015
+      - - number
+        - null
+      - - release_date
+        - '2014-07-18'
+  rules: '[[symbol:R]], Sacrifice this: This deals 2 damage to target attacking creature
+    without flying.'
+  type: Token Artifact
 type: Creature
 url: https://tappedout.net/mtg-card/goblin-kaboomist/
 

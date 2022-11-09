@@ -55,9 +55,9 @@ printings:
     mtgo_foil_id: 62750
     mtgo_id: 62749
     name: Aether Revolt
-    number: 96
+    number: '96'
     rarity: rare
-    release_date: '2017-01-20'
+    release_date: 2017-01-20
     tla: AER
     variations: []
     wizards_id: 423763
@@ -77,7 +77,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: rare
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -88,21 +88,23 @@ slug: release-the-gremlins
 synonyms: []
 tapped_id: 18613
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 2/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 919
-    - - cannonical_type
-      - Creature
-    - - name
-      - Gremlin 2/2 R
+- cannonical_type: Creature
+  colors: R
+  name: Gremlin 2/2 R
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AER
+      - - name
+        - Aether Revolt
+      - - number
+        - '1'
+      - - release_date
+        - '2017-01-20'
+  rules: ''
+  subtype: Gremlin
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/release-the-gremlins/
 

@@ -48,9 +48,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Unsanctioned
-    number: 18
+    number: '18'
     rarity: mythic_rare
-    release_date: '2020-02-28'
+    release_date: 2020-02-28
     tla: UND
     variations: []
     wizards_id: 479414
@@ -68,21 +68,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 22600
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 199
-    - - cannonical_type
-      - Creature
-    - - name
-      - Beeble 1/1 U
+- cannonical_type: Creature
+  colors: U
+  name: Beeble 1/1 U
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UND
+      - - name
+        - Unsanctioned
+      - - number
+        - '1'
+      - - release_date
+        - '2020-02-28'
+  rules: ''
+  subtype: Beeble
+  type: Token Creature
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/bob-bevy-of-beebles/
 

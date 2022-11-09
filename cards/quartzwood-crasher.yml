@@ -58,9 +58,9 @@ printings:
     mtgo_foil_id: 80412
     mtgo_id: 80411
     name: 'Ikoria: Lair of Behemoths'
-    number: 201
+    number: '201'
     rarity: rare
-    release_date: '2020-04-15'
+    release_date: 2020-04-15
     tla: IKO
     variations:
     - identifier: '341'
@@ -81,21 +81,23 @@ synonyms:
 - Quartz Wood Crasher
 tapped_id: 22806
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - X/X
-    - - rules
-      - Trample
-    - - type
-      - Token Creature
-    - - subtype
-      - 1287
-    - - cannonical_type
-      - Creature
-    - - name
-      - Dinosaur Beast X/X G
+- cannonical_type: Creature
+  colors: G
+  name: Dinosaur Beast X/X G
+  power_toughness: X/X
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - IKO
+      - - name
+        - 'Ikoria: Lair of Behemoths'
+      - - number
+        - '11'
+      - - release_date
+        - '2020-04-15'
+  rules: Trample
+  subtype: Dinosaur Beast
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/quartzwood-crasher/
 

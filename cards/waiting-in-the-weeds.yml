@@ -48,9 +48,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Classic Sixth Edition
-    number: 266
+    number: '266'
     rarity: rare
-    release_date: '1999-04-28'
+    release_date: 1999-04-28
     tla: 6ED
     variations: []
     wizards_id: 15434
@@ -69,7 +69,7 @@ printings:
     name: Mirage
     number: null
     rarity: rare
-    release_date: '1996-10-01'
+    release_date: 1996-10-01
     tla: MIR
     variations: []
     wizards_id: 3421
@@ -81,21 +81,23 @@ slug: waiting-in-the-weeds
 synonyms: []
 tapped_id: 7715
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 227
-    - - cannonical_type
-      - Creature
-    - - name
-      - Cat 1/1 G
+- cannonical_type: Creature
+  colors: G
+  name: Cat 1/1 G
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M21
+      - - name
+        - Core Set 2021
+      - - number
+        - '20'
+      - - release_date
+        - '2020-07-03'
+  rules: ''
+  subtype: Cat
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/waiting-in-the-weeds/
 

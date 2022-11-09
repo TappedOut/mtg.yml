@@ -1,5 +1,5 @@
 activated_abilities:
-- ': Search your library for a Swamp card, reveal it, and put it into your hand. Then
+- ': Search your library for a Swamp card, reveal it, put it into your hand, then
   shuffle your library.'
 - ': Target creature gets +X/+X or -X/-X until end of turn, where X is the number
   of Swamps you control.'
@@ -9,8 +9,8 @@ activated_costs:
 canadian_hl_score: 0
 cannonical_set: M14
 cannonical_type: Planeswalker
-color_identity: ''
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -40,12 +40,11 @@ is_mtgo: true
 is_permanent: true
 keywords: []
 mana_cost: 2BB
-mana_produced: ''
+mana_produced: BBBB
 mana_value: 4
 melds_from: []
 name: Liliana of the Dark Realms
 planeswalker_loyalty: 3
-power_toughness: ''
 printings:
 - M13:
     alterations:
@@ -62,7 +61,7 @@ printings:
     name: Magic 2013
     number: null
     rarity: mythic_rare
-    release_date: '2012-07-13'
+    release_date: 2012-07-13
     tla: M13
     variations: []
     wizards_id: 259695
@@ -80,9 +79,9 @@ printings:
     mtgo_foil_id: 49250
     mtgo_id: 49249
     name: Magic 2014
-    number: 102
+    number: '102'
     rarity: mythic_rare
-    release_date: '2013-07-19'
+    release_date: 2013-07-19
     tla: M14
     variations: []
     wizards_id: 370658
@@ -101,18 +100,37 @@ printings:
     name: Promo Set
     number: null
     rarity: null
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- SLD:
+    alterations:
+    - Normal
+    - Foil
+    artist: Jack Hughes
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: fullart
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: '1107'
+    rarity: mythic_rare
+    release_date: 2019-12-09
+    tla: SLD
     variations: []
     wizards_id: null
     wizards_url: null
 rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Search your library for a Swamp card, reveal it,\
-  \ and put it into your hand. Then shuffle your library.\r\n\r\n[[symbol:loyalty-minus3]]:\
+  \ put it into your hand, then shuffle your library.\r\n\r\n[[symbol:loyalty-minus3]]:\
   \ Target creature gets +X/+X or -X/-X until end of turn, where X is the number of\
   \ Swamps you control.\r\n\r\n[[symbol:loyalty-minus6]]: You get an emblem with \"\
-  Swamps you control have '[[symbol:T]]: Add [[symbol:B]][[symbol:B]][[symbol:B]][[symbol:B]]\
-  \ to your mana pool.'\""
+  Swamps you control have '[[symbol:T]]: Add [[symbol:B]][[symbol:B]][[symbol:B]][[symbol:B]].'\""
 slug: liliana-of-the-dark-realms
 subtype: Liliana
 subtype_tokens:
@@ -120,21 +138,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 13929
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - 'Swamps you control have "[[symbol:T]]: Gain [[symbol:B]][[symbol:B]][[symbol:B]][[symbol:B]]."'
-    - - type
-      - Emblem
-    - - subtype
-      - 518
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Liliana of the Dark Realms
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Liliana of the Dark Realms
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M13
+      - - name
+        - Magic 2013
+      - - number
+        - '11'
+      - - release_date
+        - '2012-07-13'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M14
+      - - name
+        - Magic 2014
+      - - number
+        - '13'
+      - - release_date
+        - '2013-07-19'
+  rules: 'Swamps you control have "[[symbol:T]]: Gain [[symbol:B]][[symbol:B]][[symbol:B]][[symbol:B]]."'
+  subtype: Liliana
+  type: Emblem
 type: Planeswalker
 url: https://tappedout.net/mtg-card/liliana-of-the-dark-realms/
 

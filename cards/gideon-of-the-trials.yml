@@ -63,9 +63,9 @@ printings:
     mtgo_foil_id: 63631
     mtgo_id: 63630
     name: Amonkhet
-    number: 14
+    number: '14'
     rarity: mythic_rare
-    release_date: '2017-04-28'
+    release_date: 2017-04-28
     tla: AKH
     variations: []
     wizards_id: 426716
@@ -82,9 +82,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: SDCC Promo 2017
-    number: 14
+    number: '14'
     rarity: null
-    release_date: '1990-07-20'
+    release_date: 1990-07-20
     tla: S17
     variations: []
     wizards_id: null
@@ -101,9 +101,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Promo Set
-    number: 1
+    number: '1'
     rarity: mythic_rare
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations:
     - identifier: '2'
@@ -123,22 +123,24 @@ subtype_tokens:
 synonyms: []
 tapped_id: 18768
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - As long as you control a Gideon planeswalker, you can't lose the game and
-        your opponents can't win the game.
-    - - type
-      - Emblem
-    - - subtype
-      - 840
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Gideon of the Trials
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Gideon of the Trials
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AKH
+      - - name
+        - Amonkhet
+      - - number
+        - '25'
+      - - release_date
+        - '2017-04-28'
+  rules: As long as you control a Gideon planeswalker, you can't lose the game and
+    your opponents can't win the game.
+  subtype: Gideon
+  type: Emblem
 type: Planeswalker
 url: https://tappedout.net/mtg-card/gideon-of-the-trials/
 

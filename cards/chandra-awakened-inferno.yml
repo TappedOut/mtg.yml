@@ -9,6 +9,7 @@ canadian_hl_score: 0
 cannonical_set: M20
 cannonical_type: Planeswalker
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -64,9 +65,9 @@ printings:
     mtgo_foil_id: 73154
     mtgo_id: 73153
     name: Core Set 2020
-    number: 127
+    number: '127'
     rarity: mythic_rare
-    release_date: '2019-07-12'
+    release_date: 2019-07-12
     tla: M20
     variations:
     - identifier: PromoPack
@@ -86,21 +87,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 21704
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - At the beginning of your upkeep, this Emblem deals 1 damage to you.
-    - - type
-      - Emblem
-    - - subtype
-      - 243
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Chandra, Awakened Inferno
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Chandra, Awakened Inferno
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M20
+      - - name
+        - Core Set 2020
+      - - number
+        - '11'
+      - - release_date
+        - '2019-07-12'
+  rules: At the beginning of your upkeep, this Emblem deals 1 damage to you.
+  subtype: Chandra
+  type: Emblem
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/chandra-awakened-inferno/
 

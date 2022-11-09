@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: AER
 cannonical_type: Enchantment
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -55,9 +56,9 @@ printings:
     mtgo_foil_id: 62744
     mtgo_id: 62743
     name: Aether Revolt
-    number: 83
+    number: '83'
     rarity: uncommon
-    release_date: '2017-01-20'
+    release_date: 2017-01-20
     tla: AER
     variations: []
     wizards_id: 423750
@@ -73,21 +74,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 18666
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 2/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 919
-    - - cannonical_type
-      - Creature
-    - - name
-      - Gremlin 2/2 R
+- cannonical_type: Creature
+  colors: R
+  name: Gremlin 2/2 R
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AER
+      - - name
+        - Aether Revolt
+      - - number
+        - '1'
+      - - release_date
+        - '2017-01-20'
+  rules: ''
+  subtype: Gremlin
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/gremlin-infestation/
 

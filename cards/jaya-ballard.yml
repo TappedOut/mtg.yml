@@ -40,6 +40,7 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Exile
+- Counters
 mana_cost: 2RRR
 mana_produced: RRR
 mana_value: 5
@@ -63,9 +64,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Dominaria
-    number: 132
+    number: '132'
     rarity: mythic_rare
-    release_date: '2018-04-22'
+    release_date: 2018-04-22
     tla: DOM
     variations: []
     wizards_id: 443020
@@ -82,9 +83,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Ravnica Allegiance: Mythic Edition'
-    number: 4
+    number: '4'
     rarity: mythic_rare
-    release_date: '2019-01-26'
+    release_date: 2019-01-26
     tla: RNAMED
     variations: []
     wizards_id: null
@@ -101,13 +102,33 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2021
-    number: 175
+    number: '175'
     rarity: mythic_rare
-    release_date: '2021-04-23'
+    release_date: 2021-04-23
     tla: C21
     variations: []
     wizards_id: 519210
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=519210
+- SLD:
+    alterations:
+    - Normal
+    - Foil
+    artist: Fajareka Setiawan
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: '1062'
+    rarity: mythic_rare
+    release_date: 2019-12-09
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rarity: mythic_rare
 rules: "[[symbol:loyalty-plus1]]: Gain [[symbol:R]][[symbol:R]][[symbol:R]]. Spend\
   \ this mana only to cast instant or sorcery spells. \r\n\r\n[[symbol:loyalty-plus1]]:\
@@ -121,22 +142,24 @@ subtype_tokens:
 synonyms: []
 tapped_id: 20076
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - You may cast instant and sorcery cards from your graveyard. If a card cast
-        this way would be put into your graveyard, exile it instead.
-    - - type
-      - Emblem
-    - - subtype
-      - 1246
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Jaya Ballard
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Jaya Ballard
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DOM
+      - - name
+        - Dominaria
+      - - number
+        - '15'
+      - - release_date
+        - '2018-04-22'
+  rules: You may cast instant and sorcery cards from your graveyard. If a card cast
+    this way would be put into your graveyard, exile it instead.
+  subtype: Jaya
+  type: Emblem
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/jaya-ballard/
 

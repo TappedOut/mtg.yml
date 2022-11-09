@@ -5,6 +5,7 @@ canadian_hl_score: 0
 cannonical_set: ONS
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
@@ -29,6 +30,7 @@ is_mtgo: true
 is_permanent: true
 keywords:
 - Flying
+- Lifelink
 - Flip
 - Morph
 mana_cost: 4WW
@@ -50,9 +52,9 @@ printings:
     mtgo_foil_id: 17644
     mtgo_id: 17643
     name: Onslaught
-    number: 28
+    number: '28'
     rarity: rare
-    release_date: '2002-10-07'
+    release_date: 2002-10-07
     tla: ONS
     variations: []
     wizards_id: 39718
@@ -64,16 +66,17 @@ printings:
     booster_exclude: false
     border_color: B
     cannonical: false
-    flavour_text: null
-    frame: original
+    flavour_text: ''
+    frame: modern
     mtgo_foil_id: null
     mtgo_id: null
     name: Promo Set
-    number: 1
+    number: '1'
     rarity: rare
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
-    variations: []
+    variations:
+    - identifier: '2'
     wizards_id: null
     wizards_url: null
 - V15:
@@ -88,17 +91,55 @@ printings:
     mtgo_foil_id: 58926
     mtgo_id: null
     name: 'From the Vault: Angels'
-    number: 8
+    number: '8'
     rarity: mythic_rare
-    release_date: '2015-08-21'
+    release_date: 2015-08-21
     tla: V15
     variations: []
     wizards_id: 401635
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=401635
+- WC03:
+    alterations:
+    - Normal
+    artist: Michael Sutfin
+    booster_exclude: false
+    border_color: G
+    cannonical: false
+    flavour_text: null
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 2003 World Championship Decks
+    number: dz28sb
+    rarity: rare
+    release_date: 2003-08-06
+    tla: WC03
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- WC04:
+    alterations:
+    - Normal
+    artist: Michael Sutfin
+    booster_exclude: false
+    border_color: G
+    cannonical: false
+    flavour_text: null
+    frame: modern
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 2004 World Championship Decks
+    number: gn28
+    rarity: rare
+    release_date: 2004-09-01
+    tla: WC04
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rarity: rare
 rules: "Flying\r\n\r\nWhenever Exalted Angel deals damage, you gain that much life.\r\
-  \n\r\nMorph [[symbol:2]][[symbol:W]][[symbol:W]] *(You may play this face down as\
-  \ a 2/2 creature for [[symbol:3]]. Turn it face up any time for its morph cost.)*"
+  \n\r\nMorph [[symbol:2]][[symbol:W]][[symbol:W]] *(You may cast this face down as\
+  \ a 2/2 creature for [[symbol:3]]. Turn it face up at any time for its morph cost.)*"
 slug: exalted-angel
 subtype: Angel
 subtype_tokens:
@@ -106,22 +147,41 @@ subtype_tokens:
 synonyms: []
 tapped_id: 3913
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 2/2
-    - - rules
-      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-        \ with morph can be turned face up at any time for its morph cost.*"
-    - - type
-      - Creature
-    - - subtype
-      - null
-    - - cannonical_type
-      - Creature
-    - - name
-      - Morph 2/2 C
+- cannonical_type: Creature
+  colors: C
+  name: Morph 2/2 C
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KTK
+      - - name
+        - Khans of Tarkir
+      - - number
+        - '11'
+      - - release_date
+        - '2014-09-26'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DTK
+      - - name
+        - Dragons of Tarkir
+      - - number
+        - '7'
+      - - release_date
+        - '2015-03-27'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C19
+      - - name
+        - Commander 2019
+      - - number
+        - '27'
+      - - release_date
+        - '2019-08-23'
+  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+    \ with morph can be turned face up at any time for its morph cost.*"
+  type: Creature
 type: Creature
 url: https://tappedout.net/mtg-card/exalted-angel/
 

@@ -44,6 +44,8 @@ printings:
     - Normal
     - Foil
     - Prerelease
+    - Promo pack
+    - PromoPackF
     - The List
     artist: Brad Rigney
     booster_exclude: false
@@ -54,9 +56,9 @@ printings:
     mtgo_foil_id: 58780
     mtgo_id: 58779
     name: Battle for Zendikar
-    number: 217
+    number: '217'
     rarity: mythic_rare
-    release_date: '2015-10-02'
+    release_date: 2015-10-02
     tla: BFZ
     variations: []
     wizards_id: 401973
@@ -73,9 +75,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Zendikar Rising: Commander'
-    number: 97
+    number: '97'
     rarity: mythic_rare
-    release_date: '2020-09-25'
+    release_date: 2020-09-25
     tla: ZNC
     variations: []
     wizards_id: 496035
@@ -92,21 +94,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 17148
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - RG
-    - - power_toughness
-      - 5/5
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 5
-    - - cannonical_type
-      - Creature
-    - - name
-      - Elemental 5/5 RG
+- cannonical_type: Creature
+  colors: RG
+  name: Elemental 5/5 RG
+  power_toughness: 5/5
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - BFZ
+      - - name
+        - Battle for Zendikar
+      - - number
+        - '11'
+      - - release_date
+        - '2015-10-02'
+  rules: ''
+  subtype: Elemental
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/omnath-locus-of-rage/
 

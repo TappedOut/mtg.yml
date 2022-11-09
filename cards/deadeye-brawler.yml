@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: RIX
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -54,9 +55,9 @@ printings:
     mtgo_foil_id: 66764
     mtgo_id: 66763
     name: Rivals of Ixalan
-    number: 155
+    number: '155'
     rarity: uncommon
-    release_date: '2018-01-19'
+    release_date: 2018-01-19
     tla: RIX
     variations: []
     wizards_id: 439812
@@ -73,21 +74,22 @@ subtype_tokens:
 synonyms: []
 tapped_id: 19893
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - ''
-    - - type
-      - Emblem
-    - - subtype
-      - null
-    - - cannonical_type
-      - Emblem
-    - - name
-      - City's Blessing
+- cannonical_type: Emblem
+  colors: C
+  name: City's Blessing
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - RIX
+      - - name
+        - Rivals of Ixalan
+      - - number
+        - null
+      - - release_date
+        - '2018-01-19'
+  rules: ''
+  type: Emblem
 type: Creature
 url: https://tappedout.net/mtg-card/deadeye-brawler/
 

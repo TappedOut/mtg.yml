@@ -70,9 +70,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
-    number: 226
+    number: '226'
     rarity: mythic_rare
-    release_date: '2022-02-10'
+    release_date: 2022-02-10
     tla: NEO
     variations:
     - identifier: '305'
@@ -94,38 +94,42 @@ subtype_tokens:
 synonyms: []
 tapped_id: 25739
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 1/
-    - - rules
-      - Whenever a creature you control deals combat damage to a player, search your
-        library for a blue or black creature card, put it onto the battlefield, then
-        shuffle your library.
-    - - type
-      - Emblem
-    - - subtype
-      - 1737
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Kaito Shizuki
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 1/1
-    - - rules
-      - This creature can't be blocked.
-    - - type
-      - Token Creature
-    - - subtype
-      - 1223
-    - - cannonical_type
-      - Creature
-    - - name
-      - Ninja 1/1 U
+- cannonical_type: Creature
+  colors: U
+  name: Ninja 1/1 U
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NEO
+      - - name
+        - 'Kamigawa: Neon Dynasty'
+      - - number
+        - '4'
+      - - release_date
+        - '2022-02-10'
+  rules: This creature can't be blocked.
+  subtype: Ninja
+  type: Token Creature
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Kaito Shizuki
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NEO
+      - - name
+        - 'Kamigawa: Neon Dynasty'
+      - - number
+        - '18'
+      - - release_date
+        - '2022-02-10'
+  rules: Whenever a creature you control deals combat damage to a player, search your
+    library for a blue or black creature card, put it onto the battlefield, then shuffle
+    your library.
+  subtype: Kaito
+  type: Emblem
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/kaito-shizuki/
 

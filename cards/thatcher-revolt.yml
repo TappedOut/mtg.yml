@@ -58,9 +58,9 @@ printings:
     mtgo_foil_id: 43820
     mtgo_id: 43819
     name: Avacyn Restored
-    number: 158
+    number: '158'
     rarity: common
-    release_date: '2012-05-04'
+    release_date: 2012-05-04
     tla: AVR
     variations: []
     wizards_id: 239959
@@ -72,21 +72,41 @@ slug: thatcher-revolt
 synonyms: []
 tapped_id: 13787
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 8
-    - - cannonical_type
-      - Creature
-    - - name
-      - Human 1/1 R
+- cannonical_type: Creature
+  colors: R
+  name: Human 1/1 R
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AVR
+      - - name
+        - Avacyn Restored
+      - - number
+        - '7'
+      - - release_date
+        - '2012-05-04'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - EMN
+      - - name
+        - Eldritch Moon
+      - - number
+        - '7'
+      - - release_date
+        - '2016-07-22'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '10'
+      - - release_date
+        - '2021-11-11'
+  rules: ''
+  subtype: Human
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/thatcher-revolt/
 

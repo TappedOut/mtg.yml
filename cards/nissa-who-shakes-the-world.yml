@@ -68,9 +68,9 @@ printings:
     mtgo_foil_id: 71945
     mtgo_id: 71944
     name: War of the Spark
-    number: 169
+    number: '169'
     rarity: rare
-    release_date: '2019-05-03'
+    release_date: 2019-05-03
     tla: WAR
     variations:
     - identifier: PromoPack
@@ -89,9 +89,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Secret Lair
-    number: 518
+    number: '518'
     rarity: rare
-    release_date: '2019-12-09'
+    release_date: 2019-12-09
     tla: SLD
     variations: []
     wizards_id: null
@@ -108,9 +108,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Promo Set
-    number: 1
+    number: '1'
     rarity: rare
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations: []
     wizards_id: null
@@ -128,21 +128,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 21393
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Lands you control have indestructible
-    - - type
-      - Emblem
-    - - subtype
-      - 581
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Nissa, Who Shakes the World
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Nissa, Who Shakes the World
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - WAR
+      - - name
+        - War of the Spark
+      - - number
+        - '19'
+      - - release_date
+        - '2019-05-03'
+  rules: Lands you control have indestructible
+  subtype: Nissa
+  type: Emblem
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/nissa-who-shakes-the-world/
 

@@ -7,6 +7,7 @@ canadian_hl_score: 0
 cannonical_set: AFR
 cannonical_type: Planeswalker
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -67,9 +68,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Dungeons & Dragons: Adventures in the Forgotten Realms'
-    number: 64
+    number: '64'
     rarity: mythic_rare
-    release_date: '2021-07-23'
+    release_date: 2021-07-23
     tla: AFR
     variations:
     - identifier: '283'
@@ -88,37 +89,41 @@ subtype_tokens:
 synonyms: []
 tapped_id: 24835
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - You have no maximum hand size.
-    - - type
-      - Emblem
-    - - subtype
-      - 1619
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Mordenkainen
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - X/X
-    - - rules
-      - This creature's power and toughness are each equal to twice the  number of
-        cards in your hand.
-    - - type
-      - Token Creature
-    - - subtype
-      - 618
-    - - cannonical_type
-      - Creature
-    - - name
-      - Dog Illusion X/X U
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Mordenkainen
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AFR
+      - - name
+        - 'Dungeons & Dragons: Adventures in the Forgotten Realms'
+      - - number
+        - null
+      - - release_date
+        - '2021-07-23'
+  rules: You have no maximum hand size.
+  subtype: Mordenkainen
+  type: Emblem
+- cannonical_type: Creature
+  colors: U
+  name: Dog Illusion X/X U
+  power_toughness: X/X
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AFR
+      - - name
+        - 'Dungeons & Dragons: Adventures in the Forgotten Realms'
+      - - number
+        - '3'
+      - - release_date
+        - '2021-07-23'
+  rules: This creature's power and toughness are each equal to twice the  number of
+    cards in your hand.
+  subtype: Dog Illusion
+  type: Token Creature
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/mordenkainen/
 

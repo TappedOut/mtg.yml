@@ -51,9 +51,9 @@ printings:
     mtgo_foil_id: 50401
     mtgo_id: 50400
     name: Theros
-    number: 75
+    number: '75'
     rarity: rare
-    release_date: '2013-09-27'
+    release_date: 2013-09-27
     tla: THS
     variations: []
     wizards_id: 373661
@@ -70,9 +70,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Promo Set
-    number: 70
+    number: '70'
     rarity: rare
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations: []
     wizards_id: null
@@ -90,21 +90,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 14833
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 1005
-    - - cannonical_type
-      - Creature
-    - - name
-      - Harpy 1/1 B
+- cannonical_type: Creature
+  colors: B
+  name: Harpy 1/1 B
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - THS
+      - - name
+        - Theros
+      - - number
+        - '6'
+      - - release_date
+        - '2013-09-27'
+  rules: Flying
+  subtype: Harpy
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/abhorrent-overlord/
 

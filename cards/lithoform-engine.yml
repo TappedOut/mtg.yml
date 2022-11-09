@@ -9,6 +9,7 @@ canadian_hl_score: 0
 cannonical_set: ZNR
 cannonical_type: Artifact
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -65,15 +66,35 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Zendikar Rising
-    number: 245
+    number: '245'
     rarity: mythic_rare
-    release_date: '2020-09-25'
+    release_date: 2020-09-25
     tla: ZNR
     variations:
     - identifier: '375'
     - identifier: PromoPack
     wizards_id: 491896
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=491896
+- BRC:
+    alterations:
+    - Normal
+    - Foil
+    artist: Colin Boyer
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'The Brothers'' War: Commander'
+    number: '146'
+    rarity: mythic_rare
+    release_date: 2022-11-18
+    tla: BRC
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "[[symbol:2]], [[symbol:T]]: Copy target activated or triggered ability you\
   \ control. You may choose new targets for the copy.\r\n\r\n[[symbol:3]], [[symbol:T]]:\
   \ Copy target instant or sorcery spell you control. You may choose new targets for\
@@ -83,21 +104,85 @@ slug: lithoform-engine
 synonyms: []
 tapped_id: 23372
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - null
-    - - power_toughness
-      - null
-    - - rules
-      - '*This token can be used to represent a token that''s a copy of a permanent.*'
-    - - type
-      - Token Creature
-    - - subtype
-      - null
-    - - cannonical_type
-      - Creature
-    - - name
-      - Copy Clone
+- cannonical_type: Creature
+  colors: null
+  name: Copy Clone
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GK1
+      - - name
+        - 'Guilds of Ravnica: Guild Kit'
+      - - number
+        - '1'
+      - - release_date
+        - '2018-11-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - '31'
+      - - release_date
+        - '2020-08-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ZNR
+      - - name
+        - Zendikar Rising
+      - - number
+        - '12'
+      - - release_date
+        - '2020-09-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '13'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '23'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C21
+      - - name
+        - Commander 2021
+      - - number
+        - '30'
+      - - release_date
+        - '2021-04-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '19'
+      - - release_date
+        - '2021-11-11'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '19'
+      - - release_date
+        - '2022-06-10'
+  rules: '*This token can be used to represent a token that''s a copy of a permanent.*'
+  type: Token Creature
 type: Legendary Artifact
 url: https://tappedout.net/mtg-card/lithoform-engine/
 

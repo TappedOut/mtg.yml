@@ -13,7 +13,11 @@ companions:
 - Yorion, Sky Nomad
 effective_cost:
 - W
-formats: []
+formats:
+- Commander / EDH
+- Duel Commander
+- Legacy
+- Limited
 is_mtgo: true
 is_permanent: true
 keywords:
@@ -39,16 +43,17 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Unfinity
-    number: 3
+    number: '3'
     rarity: uncommon
-    release_date: '2022-10-07'
+    release_date: 2022-10-07
     tla: UNF
-    variations: []
+    variations:
+    - identifier: '289'
     wizards_id: null
     wizards_url: null
-rules: "Vigilance\r\n\r\nThis creature's power is equal to the number of Robots you\
-  \ control.\r\n\r\nWhenever you cast a spell with an artifact creature in its art,\
-  \ create a 1/1 white Clown Robot artifact creature token."
+rules: "Vigilance\r\n\r\nAssembled Ensemble's power is equal to the number of Robots\
+  \ you control.\r\n\r\nWhenever you cast a spell with an artifact creature in its\
+  \ art, create a 1/1 white Clown Robot artifact creature token."
 slug: assembled-ensemble
 subtype: Clown Robot Bard
 subtype_tokens:
@@ -57,7 +62,33 @@ subtype_tokens:
 - Bard
 synonyms: []
 tapped_id: 25675
-tokens: []
+tokens:
+- cannonical_type: Creature
+  colors: W
+  name: Clown Robot 1/1 W
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UNF
+      - - name
+        - Unfinity
+      - - number
+        - '2'
+      - - release_date
+        - '2022-10-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UNF
+      - - name
+        - Unfinity
+      - - number
+        - '3'
+      - - release_date
+        - '2022-10-07'
+  rules: ''
+  subtype: Clown Robot
+  type: Token Creature
 type: Artifact Creature
 url: https://tappedout.net/mtg-card/assembled-ensemble/
 

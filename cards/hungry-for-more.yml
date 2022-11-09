@@ -6,6 +6,7 @@ canadian_hl_score: 0
 cannonical_set: MID
 cannonical_type: Sorcery
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -58,18 +59,18 @@ printings:
     alterations:
     - Normal
     - Foil
-    artist: Bastein L. Deharme
+    artist: Bastien L. Deharme
     booster_exclude: false
     border_color: B
     cannonical: true
-    flavour_text: null
+    flavour_text: ''
     frame: m15
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Midnight Hunt'
-    number: 228
+    number: '228'
     rarity: uncommon
-    release_date: '2021-09-24'
+    release_date: 2021-09-24
     tla: MID
     variations: []
     wizards_id: 535022
@@ -87,9 +88,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Double Feature'
-    number: 228
+    number: '228'
     rarity: uncommon
-    release_date: '2022-01-21'
+    release_date: 2022-01-21
     tla: DBL
     variations: []
     wizards_id: null
@@ -102,21 +103,23 @@ slug: hungry-for-more
 synonyms: []
 tapped_id: 25076
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - BR
-    - - power_toughness
-      - 3/1
-    - - rules
-      - Trample, lifelink, haste
-    - - type
-      - Token Creature
-    - - subtype
-      - 107
-    - - cannonical_type
-      - Creature
-    - - name
-      - Vampire 3/1 BR
+- cannonical_type: Creature
+  colors: BR
+  name: Vampire 3/1 BR
+  power_toughness: 3/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MID
+      - - name
+        - 'Innistrad: Midnight Hunt'
+      - - number
+        - '14'
+      - - release_date
+        - '2021-09-24'
+  rules: Trample, lifelink, haste
+  subtype: Vampire
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/hungry-for-more/
 

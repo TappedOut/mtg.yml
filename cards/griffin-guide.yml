@@ -54,7 +54,7 @@ printings:
     name: Time Spiral
     number: null
     rarity: uncommon
-    release_date: '2006-10-06'
+    release_date: 2006-10-06
     tla: TSP
     variations: []
     wizards_id: 110514
@@ -73,7 +73,7 @@ printings:
     name: 'Duel Decks: Ajani vs. Nicol Bolas'
     number: null
     rarity: uncommon
-    release_date: '2011-09-02'
+    release_date: 2011-09-02
     tla: DDH
     variations: []
     wizards_id: 249372
@@ -92,7 +92,7 @@ printings:
     name: 'Duel Decks: Knights vs. Dragons'
     number: null
     rarity: uncommon
-    release_date: '2011-04-01'
+    release_date: 2011-04-01
     tla: DDG
     variations: []
     wizards_id: 243450
@@ -109,9 +109,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: 49987
     name: 'Duel Decks: Heroes vs. Monsters'
-    number: 28
+    number: '28'
     rarity: uncommon
-    release_date: '2013-09-06'
+    release_date: 2013-09-06
     tla: DDL
     variations: []
     wizards_id: 373337
@@ -129,9 +129,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Time Spiral Remastered
-    number: 18
+    number: '18'
     rarity: uncommon
-    release_date: '2021-03-19'
+    release_date: 2021-03-19
     tla: TSR
     variations: []
     wizards_id: null
@@ -147,21 +147,59 @@ subtype_tokens:
 synonyms: []
 tapped_id: 1072
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 2/2
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 103
-    - - cannonical_type
-      - Creature
-    - - name
-      - 2/2 W Token Creature Griffin
+- cannonical_type: Creature
+  colors: W
+  name: Griffin 2/2 W
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - '000'
+      - - name
+        - Promo Set
+      - - number
+        - '4'
+      - - release_date
+        - '1990-04-15'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DDL
+      - - name
+        - 'Duel Decks: Heroes vs. Monsters'
+      - - number
+        - '1'
+      - - release_date
+        - '2013-09-06'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M21
+      - - name
+        - Core Set 2021
+      - - number
+        - '3'
+      - - release_date
+        - '2020-07-03'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - TSR
+      - - name
+        - Time Spiral Remastered
+      - - number
+        - '1'
+      - - release_date
+        - '2021-03-19'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DMC
+      - - name
+        - 'Dominaria United: Commander'
+      - - number
+        - '1'
+      - - release_date
+        - '2022-09-10'
+  rules: Flying
+  subtype: Griffin
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/griffin-guide/
 

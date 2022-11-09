@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Enchantment
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -59,9 +60,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Crimson Vow'
-    number: 178
+    number: '178'
     rarity: rare
-    release_date: '2021-11-11'
+    release_date: 2021-11-11
     tla: VOW
     variations:
     - identifier: '381'
@@ -81,9 +82,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Double Feature'
-    number: 445
+    number: '445'
     rarity: rare
-    release_date: '2022-01-21'
+    release_date: 2022-01-21
     tla: DBL
     variations: []
     wizards_id: null
@@ -95,21 +96,41 @@ slug: stensia-uprising
 synonyms: []
 tapped_id: 25478
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 8
-    - - cannonical_type
-      - Creature
-    - - name
-      - Human 1/1 R
+- cannonical_type: Creature
+  colors: R
+  name: Human 1/1 R
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AVR
+      - - name
+        - Avacyn Restored
+      - - number
+        - '7'
+      - - release_date
+        - '2012-05-04'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - EMN
+      - - name
+        - Eldritch Moon
+      - - number
+        - '7'
+      - - release_date
+        - '2016-07-22'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '10'
+      - - release_date
+        - '2021-11-11'
+  rules: ''
+  subtype: Human
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/stensia-uprising/
 

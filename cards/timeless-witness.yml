@@ -8,6 +8,7 @@ canadian_hl_score: 0
 cannonical_set: MH2
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
@@ -60,9 +61,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Modern Horizons 2
-    number: 179
+    number: '179'
     rarity: uncommon
-    release_date: '2021-06-18'
+    release_date: 2021-06-18
     tla: MH2
     variations:
     - identifier: '358'
@@ -80,22 +81,24 @@ subtype_tokens:
 synonyms: []
 tapped_id: 24509
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - 4/4
-    - - rules
-      - When this enters the battlefield, return target card from your graveyard to
-        your hand.
-    - - type
-      - Token Creature
-    - - subtype
-      - 1588
-    - - cannonical_type
-      - Creature
-    - - name
-      - Timeless Witness 4/4 B
+- cannonical_type: Creature
+  colors: B
+  name: Timeless Witness 4/4 B
+  power_toughness: 4/4
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MH2
+      - - name
+        - Modern Horizons 2
+      - - number
+        - null
+      - - release_date
+        - '2021-06-18'
+  rules: When this enters the battlefield, return target card from your graveyard
+    to your hand.
+  subtype: Zombie Human Shaman
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/timeless-witness/
 

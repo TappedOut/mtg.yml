@@ -8,6 +8,7 @@ canadian_hl_score: 0
 cannonical_set: DDK
 cannonical_type: Planeswalker
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -59,9 +60,9 @@ printings:
     mtgo_foil_id: 43170
     mtgo_id: 43169
     name: Dark Ascension
-    number: 1
+    number: '1'
     rarity: mythic_rare
-    release_date: '2012-02-03'
+    release_date: 2012-02-03
     tla: DKA
     variations: []
     wizards_id: 249985
@@ -78,9 +79,9 @@ printings:
     mtgo_foil_id: 48156
     mtgo_id: null
     name: 'Duel Decks: Sorin vs. Tibalt'
-    number: 1
+    number: '1'
     rarity: mythic_rare
-    release_date: '2013-05-15'
+    release_date: 2013-05-15
     tla: DDK
     variations: []
     wizards_id: 368535
@@ -98,36 +99,40 @@ subtype_tokens:
 synonyms: []
 tapped_id: 13466
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Creatures you control get +1/+0 until end of turn.
-    - - type
-      - Emblem
-    - - subtype
-      - 713
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Sorin, Lord of Innistrad
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Lifelink
-    - - type
-      - Token Creature
-    - - subtype
-      - 107
-    - - cannonical_type
-      - Creature
-    - - name
-      - Vampire 1/1 B w/ Lifelink
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Sorin, Lord of Innistrad
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DKA
+      - - name
+        - Dark Ascension
+      - - number
+        - '3'
+      - - release_date
+        - '2012-02-03'
+  rules: Creatures you control get +1/+0 until end of turn.
+  subtype: Sorin
+  type: Emblem
+- cannonical_type: Creature
+  colors: B
+  name: Vampire 1/1 B w/ Lifelink
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DKA
+      - - name
+        - Dark Ascension
+      - - number
+        - '2'
+      - - release_date
+        - '2012-02-03'
+  rules: Lifelink
+  subtype: Vampire
+  type: Token Creature
 type: Planeswalker
 url: https://tappedout.net/mtg-card/sorin-lord-of-innistrad/
 

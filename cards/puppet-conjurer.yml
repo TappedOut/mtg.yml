@@ -5,6 +5,7 @@ canadian_hl_score: 0
 cannonical_set: ALA
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -54,9 +55,9 @@ printings:
     mtgo_foil_id: 31078
     mtgo_id: 31077
     name: Shards of Alara
-    number: 82
+    number: '82'
     rarity: uncommon
-    release_date: '2008-10-03'
+    release_date: 2008-10-03
     tla: ALA
     variations: []
     wizards_id: 175012
@@ -72,21 +73,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 10081
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - U
-    - - power_toughness
-      - 0/1
-    - - rules
-      - ''
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 192
-    - - cannonical_type
-      - Creature
-    - - name
-      - Homunculus 0/1 U
+- cannonical_type: Creature
+  colors: U
+  name: Homunculus 0/1 U
+  power_toughness: 0/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ALA
+      - - name
+        - Shards of Alara
+      - - number
+        - '2'
+      - - release_date
+        - '2008-10-03'
+  rules: ''
+  subtype: Homunculus
+  type: Token Artifact Creature
 type: Artifact Creature
 url: https://tappedout.net/mtg-card/puppet-conjurer/
 

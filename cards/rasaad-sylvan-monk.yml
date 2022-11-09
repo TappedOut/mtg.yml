@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: HBG
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -19,6 +20,7 @@ formats:
 - Arena
 - Gladiator
 - Historic
+- Limited
 - Penny Dreadful
 is_mtgo: true
 is_permanent: true
@@ -44,7 +46,7 @@ printings:
     name: 'Alchemy Horizons: Baldur''s Gate'
     number: null
     rarity: uncommon
-    release_date: '2022-07-07'
+    release_date: 2022-07-07
     tla: HBG
     variations: []
     wizards_id: null
@@ -58,21 +60,50 @@ subtype_tokens:
 synonyms: []
 tapped_id: 26965
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 2/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 97
-    - - cannonical_type
-      - Creature
-    - - name
-      - Boar 2/2 G
+- cannonical_type: Creature
+  colors: G
+  name: Boar 2/2 G
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - THS
+      - - name
+        - Theros
+      - - number
+        - '8'
+      - - release_date
+        - '2013-09-27'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KHC
+      - - name
+        - 'Kaldheim: Commander'
+      - - number
+        - '5'
+      - - release_date
+        - '2021-02-05'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C21
+      - - name
+        - Commander 2021
+      - - number
+        - '12'
+      - - release_date
+        - '2021-04-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '12'
+      - - release_date
+        - '2022-06-10'
+  rules: ''
+  subtype: Boar
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/rasaad-sylvan-monk/
 

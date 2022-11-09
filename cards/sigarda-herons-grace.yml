@@ -58,9 +58,9 @@ printings:
     mtgo_foil_id: 59981
     mtgo_id: 59980
     name: Shadows over Innistrad
-    number: 250
+    number: '250'
     rarity: mythic_rare
-    release_date: '2016-04-08'
+    release_date: 2016-04-08
     tla: SOI
     variations: []
     wizards_id: 410015
@@ -77,9 +77,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Midnight Hunt Commander'
-    number: 155
+    number: '155'
     rarity: mythic_rare
-    release_date: '2021-09-25'
+    release_date: 2021-09-25
     tla: MIC
     variations: []
     wizards_id: 539416
@@ -94,21 +94,86 @@ subtype_tokens:
 synonyms: []
 tapped_id: 17672
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 29
-    - - cannonical_type
-      - Creature
-    - - name
-      - Human Soldier 1/1 W
+- cannonical_type: Creature
+  colors: W
+  name: Human Soldier 1/1 W
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SOI
+      - - name
+        - Shadows over Innistrad
+      - - number
+        - '2'
+      - - release_date
+        - '2016-04-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - THB
+      - - name
+        - Theros Beyond Death
+      - - number
+        - '2'
+      - - release_date
+        - '2020-01-24'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - IKO
+      - - name
+        - 'Ikoria: Lair of Behemoths'
+      - - number
+        - '3'
+      - - release_date
+        - '2020-04-15'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - IKO
+      - - name
+        - 'Ikoria: Lair of Behemoths'
+      - - number
+        - '4'
+      - - release_date
+        - '2020-04-15'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - IKO
+      - - name
+        - 'Ikoria: Lair of Behemoths'
+      - - number
+        - '5'
+      - - release_date
+        - '2020-04-15'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - '5'
+      - - release_date
+        - '2020-08-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MIC
+      - - name
+        - 'Innistrad: Midnight Hunt Commander'
+      - - number
+        - '2'
+      - - release_date
+        - '2021-09-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NCC
+      - - name
+        - 'Streets of New Capenna: Commander'
+      - - number
+        - '8'
+      - - release_date
+        - '2022-04-30'
+  rules: ''
+  subtype: Human Soldier
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/sigarda-herons-grace/
 

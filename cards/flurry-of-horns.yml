@@ -58,9 +58,9 @@ printings:
     mtgo_foil_id: 52003
     mtgo_id: 52002
     name: Journey into Nyx
-    number: 96
+    number: '96'
     rarity: common
-    release_date: '2014-05-02'
+    release_date: 2014-05-02
     tla: JOU
     variations: []
     wizards_id: 380416
@@ -79,9 +79,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Jumpstart
-    number: 321
+    number: '321'
     rarity: common
-    release_date: '2020-07-17'
+    release_date: 2020-07-17
     tla: JMP
     variations: []
     wizards_id: 489511
@@ -92,21 +92,32 @@ slug: flurry-of-horns
 synonyms: []
 tapped_id: 15496
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 2/3
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 61
-    - - cannonical_type
-      - Creature
-    - - name
-      - Minotaur 2/3 R
+- cannonical_type: Creature
+  colors: R
+  name: Minotaur 2/3 R
+  power_toughness: 2/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - JOU
+      - - name
+        - Journey into Nyx
+      - - number
+        - '3'
+      - - release_date
+        - '2014-05-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - '000'
+      - - name
+        - Promo Set
+      - - number
+        - '1'
+      - - release_date
+        - '1990-04-15'
+  rules: ''
+  subtype: Minotaur
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/flurry-of-horns/
 

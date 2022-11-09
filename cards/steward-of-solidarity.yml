@@ -6,6 +6,7 @@ canadian_hl_score: 0
 cannonical_set: HOU
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -59,9 +60,9 @@ printings:
     mtgo_foil_id: 64535
     mtgo_id: 64534
     name: Hour of Devastation
-    number: 25
+    number: '25'
     rarity: uncommon
-    release_date: '2017-07-14'
+    release_date: 2017-07-14
     tla: HOU
     variations: []
     wizards_id: 430714
@@ -77,21 +78,32 @@ subtype_tokens:
 synonyms: []
 tapped_id: 19050
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Vigilance
-    - - type
-      - Token Creature
-    - - subtype
-      - 864
-    - - cannonical_type
-      - Creature
-    - - name
-      - Warrior 1/1 W w/ Vigilance
+- cannonical_type: Creature
+  colors: W
+  name: Warrior 1/1 W w/ Vigilance
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AKH
+      - - name
+        - Amonkhet
+      - - number
+        - '17'
+      - - release_date
+        - '2017-04-28'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DMC
+      - - name
+        - 'Dominaria United: Commander'
+      - - number
+        - '4'
+      - - release_date
+        - '2022-09-10'
+  rules: Vigilance
+  subtype: Warrior
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/steward-of-solidarity/
 

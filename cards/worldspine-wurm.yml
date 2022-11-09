@@ -51,9 +51,9 @@ printings:
     mtgo_foil_id: 46796
     mtgo_id: 46795
     name: Return to Ravnica
-    number: 140
+    number: '140'
     rarity: mythic_rare
-    release_date: '2012-10-05'
+    release_date: 2012-10-05
     tla: RTR
     variations: []
     wizards_id: 253575
@@ -69,21 +69,41 @@ subtype_tokens:
 synonyms: []
 tapped_id: 14055
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - G
-    - - power_toughness
-      - 5/5
-    - - rules
-      - Trample
-    - - type
-      - Token Creature
-    - - subtype
-      - 99
-    - - cannonical_type
-      - Creature
-    - - name
-      - Wurm 5/5 G w/ Trample
+- cannonical_type: Creature
+  colors: G
+  name: Wurm 5/5 G w/ Trample
+  power_toughness: 5/5
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - RTR
+      - - name
+        - Return to Ravnica
+      - - number
+        - '11'
+      - - release_date
+        - '2012-10-05'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MM3
+      - - name
+        - Modern Masters 2017 Edition
+      - - number
+        - '15'
+      - - release_date
+        - '2017-03-17'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GK1
+      - - name
+        - 'Guilds of Ravnica: Guild Kit'
+      - - number
+        - '9'
+      - - release_date
+        - '2018-11-02'
+  rules: Trample
+  subtype: Wurm
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/worldspine-wurm/
 

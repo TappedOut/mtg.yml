@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: MH1
 cannonical_type: Enchantment
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -59,9 +60,9 @@ printings:
     mtgo_foil_id: 72433
     mtgo_id: 72432
     name: Modern Horizons
-    number: 30
+    number: '30'
     rarity: common
-    release_date: '2019-06-14'
+    release_date: 2019-06-14
     tla: MH1
     variations: []
     wizards_id: 463979
@@ -80,7 +81,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: common
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -96,23 +97,51 @@ subtype_tokens:
 synonyms: []
 tapped_id: 21682
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 2/2
-    - - rules
-      - "*You can cover a face-down manifested creature with this reminder card.\r\
-        \n\r\nA manifested creature card can be turned face up at any time for its\
-        \ mana cost. A face-down card can also be turned face up for its morph cost."
-    - - type
-      - Creature
-    - - subtype
-      - null
-    - - cannonical_type
-      - Creature
-    - - name
-      - Manifest 2/2 C
+- cannonical_type: Creature
+  colors: C
+  name: Manifest 2/2 C
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - FRF
+      - - name
+        - Fate Reforged
+      - - number
+        - '4'
+      - - release_date
+        - '2015-01-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C18
+      - - name
+        - Commander 2018
+      - - number
+        - '1'
+      - - release_date
+        - '2018-08-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C19
+      - - name
+        - Commander 2019
+      - - number
+        - '28'
+      - - release_date
+        - '2019-08-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NCC
+      - - name
+        - 'Streets of New Capenna: Commander'
+      - - number
+        - '3'
+      - - release_date
+        - '2022-04-30'
+  rules: "*You can cover a face-down manifested creature with this reminder card.\r\
+    \n\r\nA manifested creature card can be turned face up at any time for its mana\
+    \ cost. A face-down card can also be turned face up for its morph cost."
+  type: Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/soul-strike-technique/
 

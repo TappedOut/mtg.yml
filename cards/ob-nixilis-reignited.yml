@@ -57,9 +57,9 @@ printings:
     mtgo_foil_id: 58400
     mtgo_id: 58399
     name: Battle for Zendikar
-    number: 119
+    number: '119'
     rarity: mythic_rare
-    release_date: '2015-10-02'
+    release_date: 2015-10-02
     tla: BFZ
     variations:
     - identifier: PromoPack
@@ -77,9 +77,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Duel Decks: Nissa vs. Ob Nixilis'
-    number: 36
+    number: '36'
     rarity: mythic_rare
-    release_date: '2016-09-02'
+    release_date: 2016-09-02
     tla: DDR
     variations: []
     wizards_id: 417459
@@ -96,13 +96,13 @@ printings:
     mtgo_foil_id: 77363
     mtgo_id: 77362
     name: Commander 2019
-    number: 124
+    number: '124'
     rarity: mythic_rare
-    release_date: '2019-08-23'
+    release_date: 2019-08-23
     tla: C19
     variations: []
-    wizards_id: null
-    wizards_url: null
+    wizards_id: 470670
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=470670
 - C21:
     alterations:
     - Normal
@@ -115,9 +115,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2021
-    number: 149
+    number: '149'
     rarity: mythic_rare
-    release_date: '2021-04-23'
+    release_date: 2021-04-23
     tla: C21
     variations: []
     wizards_id: 519184
@@ -135,9 +135,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Secret Lair
-    number: 274
+    number: '274'
     rarity: mythic_rare
-    release_date: '2019-12-09'
+    release_date: 2019-12-09
     tla: SLD
     variations: []
     wizards_id: null
@@ -153,21 +153,41 @@ subtype_tokens:
 synonyms: []
 tapped_id: 17160
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Whenever a player draws a card, you lose 2 life.
-    - - type
-      - Emblem
-    - - subtype
-      - 1066
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Ob Nixilis Reignited
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Ob Nixilis Reignited
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - BFZ
+      - - name
+        - Battle for Zendikar
+      - - number
+        - '13'
+      - - release_date
+        - '2015-10-02'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C19
+      - - name
+        - Commander 2019
+      - - number
+        - '29'
+      - - release_date
+        - '2019-08-23'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SCD
+      - - name
+        - Starter Commander Decks
+      - - number
+        - '26'
+      - - release_date
+        - '2022-12-02'
+  rules: Whenever a player draws a card, you lose 2 life.
+  subtype: Nixilis
+  type: Emblem
 type: Planeswalker
 url: https://tappedout.net/mtg-card/ob-nixilis-reignited/
 

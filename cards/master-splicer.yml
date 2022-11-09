@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: 2XM
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -56,7 +57,7 @@ printings:
     name: New Phyrexia
     number: null
     rarity: uncommon
-    release_date: '2011-05-13'
+    release_date: 2011-05-13
     tla: NPH
     variations: []
     wizards_id: 233062
@@ -75,9 +76,9 @@ printings:
     mtgo_foil_id: 63262
     mtgo_id: 63261
     name: Modern Masters 2017 Edition
-    number: 15
+    number: '15'
     rarity: uncommon
-    release_date: '2017-03-17'
+    release_date: 2017-03-17
     tla: MM3
     variations: []
     wizards_id: 425840
@@ -96,13 +97,13 @@ printings:
     mtgo_foil_id: 72958
     mtgo_id: 72957
     name: Core Set 2020
-    number: 29
+    number: '29'
     rarity: uncommon
-    release_date: '2019-07-12'
+    release_date: 2019-07-12
     tla: M20
     variations: []
-    wizards_id: null
-    wizards_url: null
+    wizards_id: 466783
+    wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=466783
 - 2XM:
     alterations:
     - Normal
@@ -117,9 +118,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Double Masters
-    number: 22
+    number: '22'
     rarity: uncommon
-    release_date: '2020-08-07'
+    release_date: 2020-08-07
     tla: 2XM
     variations: []
     wizards_id: 489695
@@ -136,21 +137,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 12895
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 3/3
-    - - rules
-      - ''
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 1644
-    - - cannonical_type
-      - Creature
-    - - name
-      - Phyrexian Golem 3/3 C
+- cannonical_type: Creature
+  colors: C
+  name: Phyrexian Golem 3/3 C
+  power_toughness: 3/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2X2
+      - - name
+        - Double Masters 2022
+      - - number
+        - '21'
+      - - release_date
+        - '2022-07-08'
+  rules: ''
+  subtype: Phyrexian Golem
+  type: Token Artifact Creature
 type: Creature
 url: https://tappedout.net/mtg-card/master-splicer/
 

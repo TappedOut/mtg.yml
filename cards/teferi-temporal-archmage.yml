@@ -8,6 +8,7 @@ canadian_hl_score: 0
 cannonical_set: C14
 cannonical_type: Planeswalker
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -53,9 +54,9 @@ printings:
     mtgo_foil_id: 55210
     mtgo_id: 55209
     name: Commander 2014
-    number: 19
+    number: '19'
     rarity: mythic_rare
-    release_date: '2014-11-21'
+    release_date: 2014-11-21
     tla: C14
     variations: []
     wizards_id: 389712
@@ -74,7 +75,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: mythic_rare
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -93,22 +94,24 @@ subtype_tokens:
 synonyms: []
 tapped_id: 15773
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - You may activate loyalty abilities of planeswalkers you control on any player's
-        turn at any time you could cast an instant.
-    - - type
-      - Emblem
-    - - subtype
-      - 1040
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Teferi, Temporal Archmage
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Teferi, Temporal Archmage
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C14
+      - - name
+        - Commander 2014
+      - - number
+        - '34'
+      - - release_date
+        - '2014-11-21'
+  rules: You may activate loyalty abilities of planeswalkers you control on any player's
+    turn at any time you could cast an instant.
+  subtype: Teferi
+  type: Emblem
 type: Planeswalker
 url: https://tappedout.net/mtg-card/teferi-temporal-archmage/
 

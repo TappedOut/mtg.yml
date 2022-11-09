@@ -6,6 +6,7 @@ canadian_hl_score: 0
 cannonical_set: DDE
 cannonical_type: Artifact
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -52,7 +53,7 @@ printings:
     name: Urza's Saga
     number: null
     rarity: rare
-    release_date: '1998-10-12'
+    release_date: 1998-10-12
     tla: USG
     variations: []
     wizards_id: 5610
@@ -69,9 +70,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: 35481
     name: 'Duel Decks: Phyrexia vs. The Coalition'
-    number: 29
+    number: '29'
     rarity: rare
-    release_date: '2010-05-19'
+    release_date: 2010-05-19
     tla: DDE
     variations: []
     wizards_id: 207888
@@ -88,13 +89,75 @@ printings:
     mtgo_foil_id: 62116
     mtgo_id: 62115
     name: 'From the Vault: Lore'
-    number: 12
+    number: '12'
     rarity: mythic_rare
-    release_date: '2016-08-19'
+    release_date: 2016-08-19
     tla: V16
     variations: []
     wizards_id: 416754
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=416754
+- WC99:
+    alterations:
+    - Normal
+    artist: Ron Spencer
+    booster_exclude: false
+    border_color: G
+    cannonical: false
+    flavour_text: null
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 1999 World Championship Decks
+    number: kb306sb
+    rarity: rare
+    release_date: 1999-08-04
+    tla: WC99
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- WC00:
+    alterations:
+    - Normal
+    artist: Ron Spencer
+    booster_exclude: false
+    border_color: G
+    cannonical: false
+    flavour_text: null
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 2000 World Championship Decks
+    number: jf306b
+    rarity: rare
+    release_date: 2000-08-02
+    tla: WC00
+    variations:
+    - identifier: jk306
+    - identifier: jk306sb
+    - identifier: nl306sb
+    wizards_id: null
+    wizards_url: null
+- BRR:
+    alterations:
+    - Normal
+    - Foil
+    artist: Dave Kendall
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: null
+    frame: original
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: 'The Brothers'' War: Retro Artifacts'
+    number: '39'
+    rarity: rare
+    release_date: 2022-11-18
+    tla: BRR
+    variations:
+    - identifier: '102'
+    wizards_id: null
+    wizards_url: null
 rarity: rare
 rules: "As Phyrexian Processor enters the battlefield, pay any amount of life.\r\n\
   \r\n[[symbol:4]], [[symbol:T]]: Create an X/X black Phyrexian Minion creature token,\
@@ -103,21 +166,23 @@ slug: phyrexian-processor
 synonyms: []
 tapped_id: 6395
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - X/X
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 186
-    - - cannonical_type
-      - Creature
-    - - name
-      - Minion X/X B
+- cannonical_type: Creature
+  colors: B
+  name: Minion X/X B
+  power_toughness: X/X
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DDE
+      - - name
+        - 'Duel Decks: Phyrexia vs. The Coalition'
+      - - number
+        - '2'
+      - - release_date
+        - '2010-05-19'
+  rules: ''
+  subtype: Minion
+  type: Token Creature
 type: Artifact
 url: https://tappedout.net/mtg-card/phyrexian-processor/
 

@@ -5,6 +5,7 @@ canadian_hl_score: 0
 cannonical_set: IKO
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
 - Lutri, the Spellchaser
@@ -59,9 +60,9 @@ printings:
     mtgo_foil_id: 80238
     mtgo_id: 80237
     name: 'Ikoria: Lair of Behemoths'
-    number: 114
+    number: '114'
     rarity: rare
-    release_date: '2020-04-15'
+    release_date: 2020-04-15
     tla: IKO
     variations:
     - identifier: '292'
@@ -93,22 +94,24 @@ synonyms:
 - Everquill Pheonix
 tapped_id: 22687
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - null
-    - - rules
-      - '[[symbol:1]], Sacrifice Feather: Return target Phoenix card from your graveyard
-        to the battlefield tapped.'
-    - - type
-      - Token Artifact
-    - - subtype
-      - 1487
-    - - cannonical_type
-      - Artifact
-    - - name
-      - Feather
+- cannonical_type: Artifact
+  colors: R
+  name: Feather
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - IKO
+      - - name
+        - 'Ikoria: Lair of Behemoths'
+      - - number
+        - null
+      - - release_date
+        - '2020-04-15'
+  rules: '[[symbol:1]], Sacrifice Feather: Return target Phoenix card from your graveyard
+    to the battlefield tapped.'
+  subtype: Feather
+  type: Token Artifact
 type: Creature
 url: https://tappedout.net/mtg-card/everquill-phoenix/
 

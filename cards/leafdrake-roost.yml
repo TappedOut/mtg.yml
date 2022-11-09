@@ -55,7 +55,7 @@ printings:
     name: Dissension
     number: null
     rarity: uncommon
-    release_date: '2006-05-05'
+    release_date: 2006-05-05
     tla: DIS
     variations: []
     wizards_id: 107557
@@ -75,7 +75,7 @@ printings:
     name: Commander 2013
     number: null
     rarity: uncommon
-    release_date: '2013-11-01'
+    release_date: 2013-11-01
     tla: C13
     variations: []
     wizards_id: 376397
@@ -96,7 +96,7 @@ printings:
     name: Commander Anthology
     number: null
     rarity: uncommon
-    release_date: '2017-06-09'
+    release_date: 2017-06-09
     tla: CM1
     variations: []
     wizards_id: null
@@ -111,21 +111,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 1599
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - GU
-    - - power_toughness
-      - 2/2
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 133
-    - - cannonical_type
-      - Creature
-    - - name
-      - Drake 2/2 GU
+- cannonical_type: Creature
+  colors: GU
+  name: Drake 2/2 GU
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CM1
+      - - name
+        - Commander Anthology
+      - - number
+        - '18'
+      - - release_date
+        - '2017-06-09'
+  rules: Flying
+  subtype: Drake
+  type: Token Creature
 type: Enchantment
 url: https://tappedout.net/mtg-card/leafdrake-roost/
 

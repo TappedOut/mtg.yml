@@ -46,6 +46,7 @@ printings:
     alterations:
     - Normal
     - Foil
+    - Prerelease
     artist: Matt Stewart
     booster_exclude: false
     border_color: B
@@ -56,9 +57,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Modern Horizons 2
-    number: 198
+    number: '198'
     rarity: rare
-    release_date: '2021-06-18'
+    release_date: 2021-06-18
     tla: MH2
     variations:
     - identifier: '366'
@@ -74,21 +75,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 24483
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - RW
-    - - power_toughness
-      - 4/4
-    - - rules
-      - ''
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 49
-    - - cannonical_type
-      - Creature
-    - - name
-      - Golem 4/4 RW
+- cannonical_type: Creature
+  colors: RW
+  name: Golem 4/4 RW
+  power_toughness: 4/4
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MH2
+      - - name
+        - Modern Horizons 2
+      - - number
+        - null
+      - - release_date
+        - '2021-06-18'
+  rules: ''
+  subtype: Golem
+  type: Token Artifact Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/general-ferrous-rokiric/
 

@@ -1,12 +1,12 @@
 activated_abilities:
 - ': Untap up to two target artifacts.'
-- ': Search your library for an artifact card with converted mana cost X or less and
-  put it into play. Then shuffle your library.'
+- ': Search your library for an artifact card with converted mana cost/mana value
+  X or less, put it onto the battlefield, then shuffle your library.'
 - ': Artifacts you control become artifact creatures with base power and toughness
   5/5 until end of turn.'
 activated_costs: []
 canadian_hl_score: 0
-cannonical_set: MM2
+cannonical_set: DDF
 cannonical_type: Planeswalker
 companions:
 - Kaheera, the Orphanguard
@@ -57,9 +57,9 @@ printings:
     mtgo_foil_id: 30980
     mtgo_id: 30979
     name: Shards of Alara
-    number: 60
+    number: '60'
     rarity: mythic_rare
-    release_date: '2008-10-03'
+    release_date: 2008-10-03
     tla: ALA
     variations: []
     wizards_id: 174912
@@ -76,9 +76,9 @@ printings:
     mtgo_foil_id: 37783
     mtgo_id: null
     name: 'Duel Decks: Elspeth vs. Tezzeret'
-    number: 39
+    number: '39'
     rarity: mythic_rare
-    release_date: '2010-09-03'
+    release_date: 2010-09-03
     tla: DDF
     variations: []
     wizards_id: 217826
@@ -90,15 +90,15 @@ printings:
     artist: Anthony Francisco
     booster_exclude: false
     border_color: B
-    cannonical: true
+    cannonical: false
     flavour_text: ''
     frame: m15
     mtgo_foil_id: 57089
     mtgo_id: 57088
     name: Modern Masters 2015 Edition
-    number: 62
+    number: '62'
     rarity: mythic_rare
-    release_date: '2015-05-22'
+    release_date: 2015-05-22
     tla: MM2
     variations: []
     wizards_id: 397700
@@ -115,19 +115,39 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'War of the Spark: Mythic Edition'
-    number: 4
+    number: '4'
     rarity: mythic_rare
-    release_date: '2019-05-02'
+    release_date: 2019-05-02
     tla: WARMED
     variations: []
     wizards_id: 463945
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=463945
+- SLD:
+    alterations:
+    - Normal
+    - Foil
+    artist: Yoji Shinkawa
+    booster_exclude: false
+    border_color: B
+    cannonical: false
+    flavour_text: ''
+    frame: fullart
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Secret Lair
+    number: '1111'
+    rarity: mythic_rare
+    release_date: 2019-12-09
+    tla: SLD
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rarity: mythic_rare
 rules: "[[loyalty-plus1]]: Untap up to two target artifacts.\r\n\r\n[[loyalty-minusX]]:\
-  \ Search your library for an artifact card with converted mana cost X or less and\
-  \ put it into play. Then shuffle your library.\r\n\r\n[[loyalty-minus5]]: Artifacts\
-  \ you control become artifact creatures with base power and toughness 5/5 until\
-  \ end of turn."
+  \ Search your library for an artifact card with converted mana cost/mana value X\
+  \ or less, put it onto the battlefield, then shuffle your library.\r\n\r\n[[loyalty-minus5]]:\
+  \ Artifacts you control become artifact creatures with base power and toughness\
+  \ 5/5 until end of turn."
 slug: tezzeret-the-seeker
 subtype: Tezzeret
 subtype_tokens:

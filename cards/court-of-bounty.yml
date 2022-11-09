@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: CMR
 cannonical_type: Enchantment
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -45,9 +46,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander Legends
-    number: 220
+    number: '220'
     rarity: rare
-    release_date: '2020-11-20'
+    release_date: 2020-11-20
     tla: CMR
     variations:
     - identifier: '676'
@@ -61,22 +62,41 @@ slug: court-of-bounty
 synonyms: []
 tapped_id: 23582
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
-        \ deals combat damage to you, its controller becomes the monarch."
-    - - type
-      - Emblem
-    - - subtype
-      - null
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Monarch Emblem
+- cannonical_type: Emblem
+  colors: C
+  name: Monarch Emblem
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CN2
+      - - name
+        - 'Conspiracy: Take the Crown'
+      - - number
+        - null
+      - - release_date
+        - '2016-08-26'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - null
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AFC
+      - - name
+        - 'Adventures in the Forgotten Realms: Commander'
+      - - number
+        - null
+      - - release_date
+        - '2021-07-24'
+  rules: "At the beginning of your end step, draw a card.\r\n\r\nWhenever a creature\
+    \ deals combat damage to you, its controller becomes the monarch."
+  type: Emblem
 type: Enchantment
 url: https://tappedout.net/mtg-card/court-of-bounty/
 

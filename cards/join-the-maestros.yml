@@ -63,9 +63,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Streets of New Capenna
-    number: 85
+    number: '85'
     rarity: common
-    release_date: '2022-04-29'
+    release_date: 2022-04-29
     tla: SNC
     variations: []
     wizards_id: 555286
@@ -77,21 +77,23 @@ slug: join-the-maestros
 synonyms: []
 tapped_id: 26174
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - 4/3
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 300
-    - - cannonical_type
-      - Creature
-    - - name
-      - Ogre Warrior 4/3 B
+- cannonical_type: Creature
+  colors: B
+  name: Ogre Warrior 4/3 B
+  power_toughness: 4/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SNC
+      - - name
+        - Streets of New Capenna
+      - - number
+        - '6'
+      - - release_date
+        - '2022-04-29'
+  rules: ''
+  subtype: Ogre Warrior
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/join-the-maestros/
 

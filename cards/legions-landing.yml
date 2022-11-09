@@ -60,9 +60,9 @@ printings:
     mtgo_foil_id: 65055
     mtgo_id: 65054
     name: Ixalan
-    number: 22
+    number: '22'
     rarity: rare
-    release_date: '2017-09-29'
+    release_date: 2017-09-29
     tla: XLN
     variations:
     - identifier: Animated
@@ -81,9 +81,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Promo Set
-    number: 1
+    number: '1'
     rarity: rare
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations: []
     wizards_id: null
@@ -96,22 +96,33 @@ slug: legions-landing
 synonyms: []
 tapped_id: 19491
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 1/1
-    - - rules
-      - Lifelink *(Damage dealt by this creature also causes you to gain that much
-        life.)*
-    - - type
-      - Token Creature
-    - - subtype
-      - 107
-    - - cannonical_type
-      - Creature
-    - - name
-      - Vampire 1/1 W
+- cannonical_type: Creature
+  colors: W
+  name: Vampire 1/1 W
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - XLN
+      - - name
+        - Ixalan
+      - - number
+        - '1'
+      - - release_date
+        - '2017-09-29'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2X2
+      - - name
+        - Double Masters 2022
+      - - number
+        - '9'
+      - - release_date
+        - '2022-07-08'
+  rules: Lifelink *(Damage dealt by this creature also causes you to gain that much
+    life.)*
+  subtype: Vampire
+  type: Token Creature
 type: Legendary Enchantment
 url: https://tappedout.net/mtg-card/legions-landing/
 

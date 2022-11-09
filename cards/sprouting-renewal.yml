@@ -57,9 +57,9 @@ printings:
     mtgo_foil_id: 69664
     mtgo_id: 69663
     name: Guilds of Ravnica
-    number: 145
+    number: '145'
     rarity: uncommon
-    release_date: '2018-10-05'
+    release_date: 2018-10-05
     tla: GRN
     variations: []
     wizards_id: 452895
@@ -72,21 +72,23 @@ slug: sprouting-renewal
 synonyms: []
 tapped_id: 20854
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - GW
-    - - power_toughness
-      - 2/2
-    - - rules
-      - Vigilance
-    - - type
-      - Token Creature
-    - - subtype
-      - 524
-    - - cannonical_type
-      - Creature
-    - - name
-      - Elf Knight 2/2 GW
+- cannonical_type: Creature
+  colors: GW
+  name: Elf Knight 2/2 GW
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GRN
+      - - name
+        - Guilds of Ravnica
+      - - number
+        - '6'
+      - - release_date
+        - '2018-10-05'
+  rules: Vigilance
+  subtype: Elf Knight
+  type: Token Creature
 type: Sorcery
 url: https://tappedout.net/mtg-card/sprouting-renewal/
 

@@ -6,6 +6,7 @@ canadian_hl_score: 0
 cannonical_set: VOW
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -67,9 +68,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Crimson Vow'
-    number: 235
+    number: '235'
     rarity: rare
-    release_date: '2021-11-11'
+    release_date: 2021-11-11
     tla: VOW
     variations:
     - identifier: '322'
@@ -88,9 +89,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Innistrad: Double Feature'
-    number: 502
+    number: '502'
     rarity: rare
-    release_date: '2022-01-21'
+    release_date: 2022-01-21
     tla: DBL
     variations: []
     wizards_id: null
@@ -105,21 +106,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 25345
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 4/4
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 17
-    - - cannonical_type
-      - Creature
-    - - name
-      - Spirit 4/4 W
+- cannonical_type: Creature
+  colors: W
+  name: Spirit 4/4 W
+  power_toughness: 4/4
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - VOW
+      - - name
+        - 'Innistrad: Crimson Vow'
+      - - number
+        - '3'
+      - - release_date
+        - '2021-11-11'
+  rules: Flying
+  subtype: Spirit
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/dorothea-vengeful-victim/
 

@@ -53,7 +53,7 @@ printings:
     name: Onslaught
     number: null
     rarity: common
-    release_date: '2002-10-07'
+    release_date: 2002-10-07
     tla: ONS
     variations: []
     wizards_id: 12417
@@ -72,7 +72,7 @@ printings:
     name: Archenemy
     number: null
     rarity: common
-    release_date: '2010-06-18'
+    release_date: 2010-06-18
     tla: ARC
     variations: []
     wizards_id: 220493
@@ -90,9 +90,9 @@ printings:
     mtgo_foil_id: 67215
     mtgo_id: 67214
     name: Masters 25
-    number: 150
+    number: '150'
     rarity: null
-    release_date: '2018-03-16'
+    release_date: 2018-03-16
     tla: A25
     variations: []
     wizards_id: 442139
@@ -111,7 +111,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: null
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -128,22 +128,41 @@ subtype_tokens:
 synonyms: []
 tapped_id: 4054
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 2/2
-    - - rules
-      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-        \ with morph can be turned face up at any time for its morph cost.*"
-    - - type
-      - Creature
-    - - subtype
-      - null
-    - - cannonical_type
-      - Creature
-    - - name
-      - Morph 2/2 C
+- cannonical_type: Creature
+  colors: C
+  name: Morph 2/2 C
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KTK
+      - - name
+        - Khans of Tarkir
+      - - number
+        - '11'
+      - - release_date
+        - '2014-09-26'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DTK
+      - - name
+        - Dragons of Tarkir
+      - - number
+        - '7'
+      - - release_date
+        - '2015-03-27'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C19
+      - - name
+        - Commander 2019
+      - - number
+        - '27'
+      - - release_date
+        - '2019-08-23'
+  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+    \ with morph can be turned face up at any time for its morph cost.*"
+  type: Creature
 type: Creature
 url: https://tappedout.net/mtg-card/skirk-commando/
 

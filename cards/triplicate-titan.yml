@@ -47,11 +47,12 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2021
-    number: 79
+    number: '79'
     rarity: rare
-    release_date: '2021-04-23'
+    release_date: 2021-04-23
     tla: C21
-    variations: []
+    variations:
+    - identifier: '406'
     wizards_id: 518475
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=518475
 rules: "Flying, vigilance, trample\r\n\r\nWhen this dies *(is put into the graveyard\
@@ -65,51 +66,57 @@ subtype_tokens:
 synonyms: []
 tapped_id: 24297
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 3/3
-    - - rules
-      - Flying
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 49
-    - - cannonical_type
-      - Creature
-    - - name
-      - Golem 3/3 C w/ Flying
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 3/3
-    - - rules
-      - Trample
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 49
-    - - cannonical_type
-      - Creature
-    - - name
-      - Golem 3/3 C w/ Trample
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 3/3
-    - - rules
-      - Vigilance
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 49
-    - - cannonical_type
-      - Creature
-    - - name
-      - Golem 3/3 C w/ Vigilance
+- cannonical_type: Creature
+  colors: C
+  name: Golem 3/3 C w/ Flying
+  power_toughness: 3/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C21
+      - - name
+        - Commander 2021
+      - - number
+        - null
+      - - release_date
+        - '2021-04-23'
+  rules: Flying
+  subtype: Golem
+  type: Token Artifact Creature
+- cannonical_type: Creature
+  colors: C
+  name: Golem 3/3 C w/ Trample
+  power_toughness: 3/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C21
+      - - name
+        - Commander 2021
+      - - number
+        - null
+      - - release_date
+        - '2021-04-23'
+  rules: Trample
+  subtype: Golem
+  type: Token Artifact Creature
+- cannonical_type: Creature
+  colors: C
+  name: Golem 3/3 C w/ Vigilance
+  power_toughness: 3/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C21
+      - - name
+        - Commander 2021
+      - - number
+        - null
+      - - release_date
+        - '2021-04-23'
+  rules: Vigilance
+  subtype: Golem
+  type: Token Artifact Creature
 type: Artifact Creature
 url: https://tappedout.net/mtg-card/triplicate-titan/
 

@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: C17
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -55,7 +56,7 @@ printings:
     name: Shards of Alara
     number: null
     rarity: rare
-    release_date: '2008-10-03'
+    release_date: 2008-10-03
     tla: ALA
     variations: []
     wizards_id: 178101
@@ -74,9 +75,9 @@ printings:
     mtgo_foil_id: 63162
     mtgo_id: 63161
     name: Modern Masters 2017 Edition
-    number: 153
+    number: '153'
     rarity: rare
-    release_date: '2017-03-17'
+    release_date: 2017-03-17
     tla: MM3
     variations: []
     wizards_id: 425978
@@ -93,9 +94,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2017
-    number: 165
+    number: '165'
     rarity: rare
-    release_date: '2017-08-25'
+    release_date: 2017-08-25
     tla: C17
     variations: []
     wizards_id: 433097
@@ -113,9 +114,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Promo Set
-    number: 1
+    number: '1'
     rarity: rare
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations: []
     wizards_id: null
@@ -130,21 +131,86 @@ subtype_tokens:
 synonyms: []
 tapped_id: 9965
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 4/4
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 42
-    - - cannonical_type
-      - Creature
-    - - name
-      - Dragon 4/4 R
+- cannonical_type: Creature
+  colors: R
+  name: Dragon 4/4 R
+  power_toughness: 4/4
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ALA
+      - - name
+        - Shards of Alara
+      - - number
+        - '6'
+      - - release_date
+        - '2008-10-03'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MMA
+      - - name
+        - Modern Masters
+      - - number
+        - '9'
+      - - release_date
+        - '2013-06-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DTK
+      - - name
+        - Dragons of Tarkir
+      - - number
+        - '5'
+      - - release_date
+        - '2015-03-27'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MM3
+      - - name
+        - Modern Masters 2017 Edition
+      - - number
+        - '7'
+      - - release_date
+        - '2017-03-17'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C17
+      - - name
+        - Commander 2017
+      - - number
+        - '7'
+      - - release_date
+        - '2017-08-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - WAR
+      - - name
+        - War of the Spark
+      - - number
+        - '13'
+      - - release_date
+        - '2019-05-03'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '11'
+      - - release_date
+        - '2022-06-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DMU
+      - - name
+        - Dominaria United
+      - - number
+        - '10'
+      - - release_date
+        - '2022-09-09'
+  rules: Flying
+  subtype: Dragon
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/broodmate-dragon/
 

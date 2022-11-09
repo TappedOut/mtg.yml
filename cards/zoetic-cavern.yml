@@ -57,7 +57,7 @@ printings:
     name: Future Sight
     number: null
     rarity: uncommon
-    release_date: '2007-05-04'
+    release_date: 2007-05-04
     tla: FUT
     variations: []
     wizards_id: 132215
@@ -76,7 +76,7 @@ printings:
     name: 'MTG: Commander'
     number: null
     rarity: uncommon
-    release_date: '2011-06-17'
+    release_date: 2011-06-17
     tla: CMD
     variations: []
     wizards_id: 247274
@@ -93,9 +93,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Promo Set
-    number: 8
+    number: '8'
     rarity: uncommon
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations: []
     wizards_id: null
@@ -112,9 +112,9 @@ printings:
     mtgo_foil_id: 54666
     mtgo_id: 54665
     name: Commander 2014
-    number: null
+    number: '317'
     rarity: uncommon
-    release_date: '2014-11-21'
+    release_date: 2014-11-21
     tla: C14
     variations: []
     wizards_id: 389758
@@ -131,9 +131,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2015
-    number: 322
+    number: '322'
     rarity: uncommon
-    release_date: '2015-11-13'
+    release_date: 2015-11-13
     tla: C15
     variations: []
     wizards_id: 405458
@@ -153,7 +153,7 @@ printings:
     name: Commander Anthology
     number: null
     rarity: uncommon
-    release_date: '2017-06-09'
+    release_date: 2017-06-09
     tla: CM1
     variations: []
     wizards_id: null
@@ -171,9 +171,9 @@ printings:
     mtgo_foil_id: 67413
     mtgo_id: 67412
     name: Masters 25
-    number: 249
+    number: '249'
     rarity: uncommon
-    release_date: '2018-03-16'
+    release_date: 2018-03-16
     tla: A25
     variations: []
     wizards_id: 442238
@@ -186,22 +186,41 @@ slug: zoetic-cavern
 synonyms: []
 tapped_id: 804
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 2/2
-    - - rules
-      - "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
-        \ with morph can be turned face up at any time for its morph cost.*"
-    - - type
-      - Creature
-    - - subtype
-      - null
-    - - cannonical_type
-      - Creature
-    - - name
-      - Morph 2/2 C
+- cannonical_type: Creature
+  colors: C
+  name: Morph 2/2 C
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KTK
+      - - name
+        - Khans of Tarkir
+      - - number
+        - '11'
+      - - release_date
+        - '2014-09-26'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - DTK
+      - - name
+        - Dragons of Tarkir
+      - - number
+        - '7'
+      - - release_date
+        - '2015-03-27'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C19
+      - - name
+        - Commander 2019
+      - - number
+        - '27'
+      - - release_date
+        - '2019-08-23'
+  rules: "*You can cover a face-down creature with this reminder card.\r\n\r\nA card\
+    \ with morph can be turned face up at any time for its morph cost.*"
+  type: Creature
 type: Land
 url: https://tappedout.net/mtg-card/zoetic-cavern/
 

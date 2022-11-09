@@ -12,6 +12,7 @@ cannonical_set: SNC
 cannonical_type: Artifact
 color_identity: WUBR
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -70,9 +71,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Streets of New Capenna
-    number: 142
+    number: '142'
     rarity: uncommon
-    release_date: '2022-04-29'
+    release_date: 2022-04-29
     tla: SNC
     variations:
     - identifier: '467'
@@ -89,21 +90,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 26153
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - GW
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 905
-    - - cannonical_type
-      - Creature
-    - - name
-      - Citizen 1/1 GW
+- cannonical_type: Creature
+  colors: GW
+  name: Citizen 1/1 GW
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SNC
+      - - name
+        - Streets of New Capenna
+      - - number
+        - '12'
+      - - release_date
+        - '2022-04-29'
+  rules: ''
+  subtype: Citizen
+  type: Token Creature
 type: Artifact
 url: https://tappedout.net/mtg-card/couriers-briefcase/
 

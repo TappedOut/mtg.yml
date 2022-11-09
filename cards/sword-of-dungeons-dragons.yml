@@ -44,7 +44,7 @@ printings:
     name: Unstable
     number: null
     rarity: mythic_rare
-    release_date: '2017-12-08'
+    release_date: 2017-12-08
     tla: UN3
     variations: []
     wizards_id: 439552
@@ -62,9 +62,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Unsanctioned
-    number: 84
+    number: '84'
     rarity: mythic_rare
-    release_date: '2020-02-28'
+    release_date: 2020-02-28
     tla: UND
     variations: []
     wizards_id: 479472
@@ -86,21 +86,32 @@ synonyms:
 - Sword of Dungeons and Dragons
 tapped_id: 19768
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - O
-    - - power_toughness
-      - 4/4
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 42
-    - - cannonical_type
-      - Creature
-    - - name
-      - 4/4 O Token Creature Dragon
+- cannonical_type: Creature
+  colors: O
+  name: 4/4 O Token Creature Dragon
+  power_toughness: 4/4
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UN3
+      - - name
+        - Unstable
+      - - number
+        - '16'
+      - - release_date
+        - '2017-12-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - UND
+      - - name
+        - Unsanctioned
+      - - number
+        - '4'
+      - - release_date
+        - '2020-02-28'
+  rules: Flying
+  subtype: Dragon
+  type: Token Creature
 type: Artifact
 url: https://tappedout.net/mtg-card/sword-of-dungeons-dragons/
 

@@ -10,6 +10,7 @@ cannonical_set: NEO
 cannonical_type: Creature
 color_identity: R
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -71,9 +72,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Kamigawa: Neon Dynasty'
-    number: 145
+    number: '145'
     rarity: rare
-    release_date: '2022-02-10'
+    release_date: 2022-02-10
     tla: NEO
     variations:
     - identifier: '320'
@@ -93,21 +94,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 25773
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - R
-    - - power_toughness
-      - 5/5
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 355
-    - - cannonical_type
-      - Creature
-    - - name
-      - Dragon Spirit 5/5 R
+- cannonical_type: Creature
+  colors: R
+  name: Dragon Spirit 5/5 R
+  power_toughness: 5/5
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NEO
+      - - name
+        - 'Kamigawa: Neon Dynasty'
+      - - number
+        - '7'
+      - - release_date
+        - '2022-02-10'
+  rules: Flying
+  subtype: Dragon Spirit
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/goro-goro-disciple-of-ryusei/
 

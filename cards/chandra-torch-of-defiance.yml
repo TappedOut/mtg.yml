@@ -7,9 +7,10 @@ activated_abilities:
 activated_costs:
 - R
 canadian_hl_score: 0
-cannonical_set: KLD
+cannonical_set: Q06
 cannonical_type: Planeswalker
 companions:
+- Gyruda, Doom of Depths
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -64,9 +65,9 @@ printings:
     mtgo_foil_id: 61574
     mtgo_id: 61573
     name: Kaladesh
-    number: 110
+    number: '110'
     rarity: mythic_rare
-    release_date: '2016-09-30'
+    release_date: 2016-09-30
     tla: KLD
     variations: []
     wizards_id: 417683
@@ -83,9 +84,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: SDCC Promo 2017
-    number: 110
+    number: '110'
     rarity: null
-    release_date: '1990-07-20'
+    release_date: 1990-07-20
     tla: S17
     variations: []
     wizards_id: null
@@ -102,9 +103,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Promo Set
-    number: 1
+    number: '1'
     rarity: mythic_rare
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations:
     - identifier: '2'
@@ -122,9 +123,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: SDCC Promo 2018
-    number: 110
+    number: '110'
     rarity: mythic_rare
-    release_date: null
+    release_date: 2018-01-01
     tla: S18
     variations: []
     wizards_id: null
@@ -142,10 +143,29 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Signature Spellbook: Chandra'
-    number: 1
+    number: '1'
     rarity: mythic_rare
-    release_date: '2020-06-26'
+    release_date: 2020-06-26
     tla: SS3
+    variations: []
+    wizards_id: null
+    wizards_url: null
+- Q06:
+    alterations:
+    - Normal
+    artist: Magali Villeneuve
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: null
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Pioneer Challenger Decks 2021
+    number: '6'
+    rarity: mythic_rare
+    release_date: 2021-10-15
+    tla: Q06
     variations: []
     wizards_id: null
     wizards_url: null
@@ -163,22 +183,24 @@ synonyms:
 - Chandra, Torch of Defience
 tapped_id: 18220
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Whenever you cast a spell, this emblem deals 5 damage to target creature or
-        player.
-    - - type
-      - Emblem
-    - - subtype
-      - 243
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Chandra, Torch of Defiance
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Chandra, Torch of Defiance
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - KLD
+      - - name
+        - Kaladesh
+      - - number
+        - '10'
+      - - release_date
+        - '2016-09-30'
+  rules: Whenever you cast a spell, this emblem deals 5 damage to target creature
+    or player.
+  subtype: Chandra
+  type: Emblem
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/chandra-torch-of-defiance/
 

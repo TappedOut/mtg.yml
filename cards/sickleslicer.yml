@@ -57,7 +57,7 @@ printings:
     name: New Phyrexia
     number: null
     rarity: uncommon
-    release_date: '2011-05-13'
+    release_date: 2011-05-13
     tla: NPH
     variations: []
     wizards_id: 214357
@@ -69,15 +69,15 @@ printings:
     artist: Jason Felix
     booster_exclude: false
     border_color: B
-    cannonical: true
+    cannonical: false
     flavour_text: ''
     frame: m15
     mtgo_foil_id: 57315
     mtgo_id: 57314
     name: Modern Masters 2015 Edition
-    number: null
+    number: '228'
     rarity: common
-    release_date: '2015-05-22'
+    release_date: 2015-05-22
     tla: MM2
     variations: []
     wizards_id: 397771
@@ -95,9 +95,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Double Masters
-    number: 287
+    number: '287'
     rarity: common
-    release_date: '2020-08-07'
+    release_date: 2020-08-07
     tla: 2XM
     variations: []
     wizards_id: 489960
@@ -113,21 +113,113 @@ subtype_tokens:
 synonyms: []
 tapped_id: 12877
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - 0/0
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 1586
-    - - cannonical_type
-      - Creature
-    - - name
-      - Phyrexian Germ 0/0 B
+- cannonical_type: Creature
+  colors: B
+  name: Phyrexian Germ 0/0 B
+  power_toughness: 0/0
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MBS
+      - - name
+        - Mirrodin Besieged
+      - - number
+        - '1'
+      - - release_date
+        - '2011-02-04'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C14
+      - - name
+        - Commander 2014
+      - - number
+        - '14'
+      - - release_date
+        - '2014-11-21'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MM2
+      - - name
+        - Modern Masters 2015 Edition
+      - - number
+        - '27'
+      - - release_date
+        - '2015-05-22'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C15
+      - - name
+        - Commander 2015
+      - - number
+        - '7'
+      - - release_date
+        - '2015-11-13'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C16
+      - - name
+        - Commander 2016
+      - - number
+        - '10'
+      - - release_date
+        - '2016-11-11'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - PCA
+      - - name
+        - Planechase Anthology
+      - - number
+        - '7'
+      - - release_date
+        - '2016-11-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CM1
+      - - name
+        - Commander Anthology
+      - - number
+        - '4'
+      - - release_date
+        - '2017-06-09'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CM2
+      - - name
+        - Commander Anthology 2018
+      - - number
+        - '6'
+      - - release_date
+        - '2018-06-08'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - '10'
+      - - release_date
+        - '2020-08-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MH2
+      - - name
+        - Modern Horizons 2
+      - - number
+        - '3'
+      - - release_date
+        - '2021-06-18'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - NEC
+      - - name
+        - 'Kamigawa: Neon Dynasty Commander'
+      - - number
+        - '3'
+      - - release_date
+        - '2022-02-11'
+  rules: ''
+  subtype: Phyrexian Germ
+  type: Token Creature
 type: Artifact
 url: https://tappedout.net/mtg-card/sickleslicer/
 

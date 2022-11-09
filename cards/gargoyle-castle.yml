@@ -62,7 +62,7 @@ printings:
     name: 2010 Core Set
     number: null
     rarity: rare
-    release_date: '2009-07-17'
+    release_date: 2009-07-17
     tla: M10
     variations: []
     wizards_id: 193754
@@ -80,9 +80,9 @@ printings:
     mtgo_foil_id: 54768
     mtgo_id: 54767
     name: Commander 2014
-    number: 297
+    number: '297'
     rarity: rare
-    release_date: '2014-11-21'
+    release_date: 2014-11-21
     tla: C14
     variations: []
     wizards_id: 389532
@@ -102,7 +102,7 @@ printings:
     name: Commander Anthology
     number: null
     rarity: rare
-    release_date: '2017-06-09'
+    release_date: 2017-06-09
     tla: CM1
     variations: []
     wizards_id: null
@@ -120,9 +120,9 @@ printings:
     mtgo_foil_id: 77613
     mtgo_id: 77612
     name: Commander 2019
-    number: 245
+    number: '245'
     rarity: rare
-    release_date: '2019-08-23'
+    release_date: 2019-08-23
     tla: C19
     variations: []
     wizards_id: 470791
@@ -135,21 +135,50 @@ slug: gargoyle-castle
 synonyms: []
 tapped_id: 11592
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - 3/4
-    - - rules
-      - Flying
-    - - type
-      - Token Artifact Creature
-    - - subtype
-      - 1
-    - - cannonical_type
-      - Creature
-    - - name
-      - Gargoyle 3/4 C
+- cannonical_type: Creature
+  colors: C
+  name: Gargoyle 3/4 C
+  power_toughness: 3/4
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M10
+      - - name
+        - 2010 Core Set
+      - - number
+        - '8'
+      - - release_date
+        - '2009-07-17'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C14
+      - - name
+        - Commander 2014
+      - - number
+        - '27'
+      - - release_date
+        - '2014-11-21'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CM1
+      - - name
+        - Commander Anthology
+      - - number
+        - '19'
+      - - release_date
+        - '2017-06-09'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C19
+      - - name
+        - Commander 2019
+      - - number
+        - '22'
+      - - release_date
+        - '2019-08-23'
+  rules: Flying
+  subtype: Gargoyle
+  type: Token Artifact Creature
 type: Land
 url: https://tappedout.net/mtg-card/gargoyle-castle/
 

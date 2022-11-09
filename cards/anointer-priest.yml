@@ -8,6 +8,7 @@ canadian_hl_score: 0
 cannonical_set: AKH
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -64,9 +65,9 @@ printings:
     mtgo_foil_id: 63609
     mtgo_id: 63608
     name: Amonkhet
-    number: 3
+    number: '3'
     rarity: common
-    release_date: '2017-04-28'
+    release_date: 2017-04-28
     tla: AKH
     variations: []
     wizards_id: 426705
@@ -84,22 +85,24 @@ subtype_tokens:
 synonyms: []
 tapped_id: 18744
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 1/3
-    - - rules
-      - Whenever a creature token enters the battlefield under your control, you gain
-        1 life.
-    - - type
-      - Token Creature
-    - - subtype
-      - 1273
-    - - cannonical_type
-      - Creature
-    - - name
-      - Anointer Priest 1/3 W
+- cannonical_type: Creature
+  colors: W
+  name: Anointer Priest 1/3 W
+  power_toughness: 1/3
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AKH
+      - - name
+        - Amonkhet
+      - - number
+        - null
+      - - release_date
+        - '2017-04-28'
+  rules: Whenever a creature token enters the battlefield under your control, you
+    gain 1 life.
+  subtype: Zombie Human Cleric
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/anointer-priest/
 

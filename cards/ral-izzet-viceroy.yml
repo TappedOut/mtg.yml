@@ -65,9 +65,9 @@ printings:
     mtgo_foil_id: 69764
     mtgo_id: 69763
     name: Guilds of Ravnica
-    number: 195
+    number: '195'
     rarity: mythic_rare
-    release_date: '2018-10-05'
+    release_date: 2018-10-05
     tla: GRN
     variations:
     - identifier: Animated
@@ -85,9 +85,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Guilds of Ravnica: Mythic Edition'
-    number: 5
+    number: '5'
     rarity: null
-    release_date: '2018-10-04'
+    release_date: 2018-10-04
     tla: GRNMED
     variations: []
     wizards_id: null
@@ -105,22 +105,33 @@ subtype_tokens:
 synonyms: []
 tapped_id: 20723
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - Whenever you cast an instant or sorcery spell, this emblem deals 4 damage
-        to target creature, player or planeswalker and you draw two cards.
-    - - type
-      - Emblem
-    - - subtype
-      - 1041
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Ral, Izzet Viceroy
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Ral, Izzet Viceroy
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GRN
+      - - name
+        - Guilds of Ravnica
+      - - number
+        - '7'
+      - - release_date
+        - '2018-10-05'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - GRNMED
+      - - name
+        - 'Guilds of Ravnica: Mythic Edition'
+      - - number
+        - '6'
+      - - release_date
+        - '2018-10-04'
+  rules: Whenever you cast an instant or sorcery spell, this emblem deals 4 damage
+    to target creature, player or planeswalker and you draw two cards.
+  subtype: Ral
+  type: Emblem
 type: Planeswalker
 url: https://tappedout.net/mtg-card/ral-izzet-viceroy/
 

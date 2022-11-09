@@ -54,9 +54,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Commander 2017
-    number: 24
+    number: '24'
     rarity: uncommon
-    release_date: '2017-08-25'
+    release_date: 2017-08-25
     tla: C17
     variations: []
     wizards_id: 433265
@@ -75,7 +75,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: uncommon
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -92,9 +92,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 786
+    number: '786'
     rarity: uncommon
-    release_date: '2022-06-10'
+    release_date: 2022-06-10
     tla: CLB
     variations: []
     wizards_id: 567603
@@ -111,21 +111,59 @@ subtype_tokens:
 synonyms: []
 tapped_id: 19304
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - 'Sacrifice this artifact: Add one mana of any colour.'
-    - - type
-      - Token Artifact
-    - - subtype
-      - 1865
-    - - cannonical_type
-      - Artifact
-    - - name
-      - Gold
+- cannonical_type: Artifact
+  colors: C
+  name: Gold
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - BNG
+      - - name
+        - Born of the Gods
+      - - number
+        - '10'
+      - - release_date
+        - '2014-02-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C15
+      - - name
+        - Commander 2015
+      - - number
+        - '24'
+      - - release_date
+        - '2015-11-13'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C17
+      - - name
+        - Commander 2017
+      - - number
+        - '10'
+      - - release_date
+        - '2017-08-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - THB
+      - - name
+        - Theros Beyond Death
+      - - number
+        - '13'
+      - - release_date
+        - '2020-01-24'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '48'
+      - - release_date
+        - '2022-06-10'
+  rules: 'Sacrifice this artifact: Add one mana of any colour.'
+  subtype: Gold
+  type: Token Artifact
 type: Enchantment
 url: https://tappedout.net/mtg-card/curse-of-opulence/
 

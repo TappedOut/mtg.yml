@@ -62,7 +62,7 @@ printings:
     name: Magic 2013
     number: null
     rarity: mythic_rare
-    release_date: '2012-07-13'
+    release_date: 2012-07-13
     tla: M13
     variations: []
     wizards_id: 249695
@@ -80,9 +80,9 @@ printings:
     mtgo_foil_id: 49246
     mtgo_id: 49245
     name: Magic 2014
-    number: 1
+    number: '1'
     rarity: mythic_rare
-    release_date: '2013-07-19'
+    release_date: 2013-07-19
     tla: M14
     variations: []
     wizards_id: 370680
@@ -101,7 +101,7 @@ printings:
     name: Promo Set
     number: null
     rarity: null
-    release_date: '1990-04-15'
+    release_date: 1990-04-15
     tla: '000'
     variations: []
     wizards_id: null
@@ -118,21 +118,104 @@ subtype_tokens:
 synonyms: []
 tapped_id: 13926
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - W
-    - - power_toughness
-      - 2/2
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 227
-    - - cannonical_type
-      - Creature
-    - - name
-      - Cat 2/2 W
+- cannonical_type: Creature
+  colors: W
+  name: Cat 2/2 W
+  power_toughness: 2/2
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SOM
+      - - name
+        - Scars of Mirrodin
+      - - number
+        - '1'
+      - - release_date
+        - '2010-10-01'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M13
+      - - name
+        - Magic 2013
+      - - number
+        - '1'
+      - - release_date
+        - '2012-07-13'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - M14
+      - - name
+        - Magic 2014
+      - - number
+        - '3'
+      - - release_date
+        - '2013-07-19'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C14
+      - - name
+        - Commander 2014
+      - - number
+        - '2'
+      - - release_date
+        - '2014-11-21'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C15
+      - - name
+        - Commander 2015
+      - - number
+        - '3'
+      - - release_date
+        - '2015-11-13'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C17
+      - - name
+        - Commander 2017
+      - - number
+        - '1'
+      - - release_date
+        - '2017-08-25'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - C18
+      - - name
+        - Commander 2018
+      - - number
+        - '5'
+      - - release_date
+        - '2018-08-10'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - 2XM
+      - - name
+        - Double Masters
+      - - number
+        - '4'
+      - - release_date
+        - '2020-08-07'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CMR
+      - - name
+        - Commander Legends
+      - - number
+        - '15'
+      - - release_date
+        - '2020-11-20'
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SCD
+      - - name
+        - Starter Commander Decks
+      - - number
+        - '3'
+      - - release_date
+        - '2022-12-02'
+  rules: ''
+  subtype: Cat
+  type: Token Creature
 type: Planeswalker
 url: https://tappedout.net/mtg-card/ajani-caller-of-the-pride/
 

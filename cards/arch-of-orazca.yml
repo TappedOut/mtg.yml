@@ -54,6 +54,9 @@ printings:
     alterations:
     - Normal
     - Foil
+    - Prerelease
+    - Promo pack
+    - PromoPackF
     artist: Titus Lunter
     booster_exclude: false
     border_color: B
@@ -63,9 +66,9 @@ printings:
     mtgo_foil_id: 66838
     mtgo_id: 66837
     name: Rivals of Ixalan
-    number: 185
+    number: '185'
     rarity: rare
-    release_date: '2018-01-19'
+    release_date: 2018-01-19
     tla: RIX
     variations:
     - identifier: PromoPack
@@ -85,7 +88,7 @@ printings:
     name: Mystery Booster
     number: null
     rarity: basic_land
-    release_date: '2020-03-14'
+    release_date: 2020-03-14
     tla: MYS1
     variations: []
     wizards_id: null
@@ -103,9 +106,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Time Spiral Remastered
-    number: 404
+    number: '404'
     rarity: special
-    release_date: '2021-03-19'
+    release_date: 2021-03-19
     tla: TSR
     variations: []
     wizards_id: 512370
@@ -117,21 +120,22 @@ slug: arch-of-orazca
 synonyms: []
 tapped_id: 19975
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - ''
-    - - type
-      - Emblem
-    - - subtype
-      - null
-    - - cannonical_type
-      - Emblem
-    - - name
-      - City's Blessing
+- cannonical_type: Emblem
+  colors: C
+  name: City's Blessing
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - RIX
+      - - name
+        - Rivals of Ixalan
+      - - number
+        - null
+      - - release_date
+        - '2018-01-19'
+  rules: ''
+  type: Emblem
 type: Land
 url: https://tappedout.net/mtg-card/arch-of-orazca/
 

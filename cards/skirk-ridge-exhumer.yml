@@ -6,6 +6,7 @@ canadian_hl_score: 0
 cannonical_set: FUT
 cannonical_type: Creature
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Keruga, the Macrosage
 - Lurrus of the Dream-Den
@@ -53,9 +54,9 @@ printings:
     mtgo_foil_id: 26667
     mtgo_id: 26666
     name: Future Sight
-    number: 77
+    number: '77'
     rarity: uncommon
-    release_date: '2007-05-04'
+    release_date: 2007-05-04
     tla: FUT
     variations: []
     wizards_id: 130314
@@ -72,22 +73,15 @@ subtype_tokens:
 synonyms: []
 tapped_id: 765
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - 1/1
-    - - rules
-      - When Festering Goblin is put into a graveyard from the battlefield, target
-        creature gets -1/-1 until end of turn.
-    - - type
-      - Token Creature
-    - - subtype
-      - 366
-    - - cannonical_type
-      - Creature
-    - - name
-      - 1/1 B Token Creature Zombie Goblin
+- cannonical_type: Creature
+  colors: B
+  name: 1/1 B Token Creature Zombie Goblin
+  power_toughness: 1/1
+  printings: []
+  rules: When Festering Goblin is put into a graveyard from the battlefield, target
+    creature gets -1/-1 until end of turn.
+  subtype: Zombie Goblin
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/skirk-ridge-exhumer/
 

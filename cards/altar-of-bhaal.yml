@@ -7,6 +7,7 @@ canadian_hl_score: 0
 cannonical_set: CLB
 cannonical_type: Artifact
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -62,9 +63,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Commander Legends: Battle for Baldur''s Gate'
-    number: 109
+    number: '109'
     rarity: rare
-    release_date: '2022-06-10'
+    release_date: 2022-06-10
     tla: CLB
     variations:
     - identifier: '589'
@@ -88,21 +89,23 @@ slug: altar-of-bhaal
 synonyms: []
 tapped_id: 26674
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - 4/1
-    - - rules
-      - Menace *(This creature can't be blocked except by two or more creatures.)*
-    - - type
-      - Token Creature
-    - - subtype
-      - 232
-    - - cannonical_type
-      - Creature
-    - - name
-      - Skeleton 4/1 B
+- cannonical_type: Creature
+  colors: B
+  name: Skeleton 4/1 B
+  power_toughness: 4/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - CLB
+      - - name
+        - 'Commander Legends: Battle for Baldur''s Gate'
+      - - number
+        - '8'
+      - - release_date
+        - '2022-06-10'
+  rules: Menace *(This creature can't be blocked except by two or more creatures.)*
+  subtype: Skeleton
+  type: Token Creature
 type: Artifact
 url: https://tappedout.net/mtg-card/altar-of-bhaal/
 

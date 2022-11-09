@@ -1,5 +1,5 @@
 activated_abilities:
-- ': Choose a colour. Gain an amount of mana of that colour equal to your devotion
+- ': Choose a colour. Add an amount of mana of that colour equal to your devotion
   to that colour. *(Your devotion to a colour is the number of mana symbols of that
   colour in the mana costs of permanents you control.)*'
 activated_costs: []
@@ -7,6 +7,7 @@ canadian_hl_score: 0
 cannonical_set: THB
 cannonical_type: Artifact
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -37,7 +38,8 @@ formats:
 has_activated_abilities: true
 is_mtgo: true
 is_permanent: true
-keywords: []
+keywords:
+- Devotion
 mana_cost: '4'
 mana_produced: WW, UU, BB, RR, GG
 mana_value: 4
@@ -60,17 +62,36 @@ printings:
     mtgo_foil_id: 79595
     mtgo_id: 79594
     name: Theros Beyond Death
-    number: 235
+    number: '235'
     rarity: rare
-    release_date: '2020-01-24'
+    release_date: 2020-01-24
     tla: THB
     variations:
     - identifier: '344'
     - identifier: PromoPack
     wizards_id: 476486
     wizards_url: http://gatherer.wizards.com/Pages/Card/Details.aspx?&multiverseid=476486
+- '000':
+    alterations:
+    - Foil
+    artist: Raoul Vitale
+    booster_exclude: false
+    border_color: B
+    cannonical: true
+    flavour_text: ''
+    frame: m15
+    mtgo_foil_id: null
+    mtgo_id: null
+    name: Promo Set
+    number: '1'
+    rarity: rare
+    release_date: 1990-04-15
+    tla: '000'
+    variations: []
+    wizards_id: null
+    wizards_url: null
 rules: "Nyx Lotus enters the battlefield tapped.\r\n\r\n[[symbol:T]]: Choose a colour.\
-  \ Gain an amount of mana of that colour equal to your devotion to that colour. *(Your\
+  \ Add an amount of mana of that colour equal to your devotion to that colour. *(Your\
   \ devotion to a colour is the number of mana symbols of that colour in the mana\
   \ costs of permanents you control.)*"
 slug: nyx-lotus

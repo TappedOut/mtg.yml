@@ -53,9 +53,9 @@ printings:
     mtgo_foil_id: 34529
     mtgo_id: 34528
     name: Zendikar
-    number: 99
+    number: '99'
     rarity: mythic_rare
-    release_date: '2009-10-02'
+    release_date: 2009-10-02
     tla: ZEN
     variations: []
     wizards_id: 185704
@@ -73,21 +73,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 11775
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - X/X
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 107
-    - - cannonical_type
-      - Creature
-    - - name
-      - Vampire X/X B
+- cannonical_type: Creature
+  colors: B
+  name: Vampire X/X B
+  power_toughness: X/X
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - ZEN
+      - - name
+        - Zendikar
+      - - number
+        - '6'
+      - - release_date
+        - '2009-10-02'
+  rules: ''
+  subtype: Vampire
+  type: Token Creature
 type: Legendary Creature
 url: https://tappedout.net/mtg-card/kalitas-bloodchief-of-ghet/
 

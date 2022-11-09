@@ -62,9 +62,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Streets of New Capenna
-    number: 164
+    number: '164'
     rarity: common
-    release_date: '2022-04-29'
+    release_date: 2022-04-29
     tla: SNC
     variations: []
     wizards_id: 555365
@@ -76,21 +76,23 @@ slug: warm-welcome
 synonyms: []
 tapped_id: 26382
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - GW
-    - - power_toughness
-      - 1/1
-    - - rules
-      - ''
-    - - type
-      - Token Creature
-    - - subtype
-      - 905
-    - - cannonical_type
-      - Creature
-    - - name
-      - Citizen 1/1 GW
+- cannonical_type: Creature
+  colors: GW
+  name: Citizen 1/1 GW
+  power_toughness: 1/1
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - SNC
+      - - name
+        - Streets of New Capenna
+      - - number
+        - '12'
+      - - release_date
+        - '2022-04-29'
+  rules: ''
+  subtype: Citizen
+  type: Token Creature
 type: Instant
 url: https://tappedout.net/mtg-card/warm-welcome/
 

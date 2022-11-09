@@ -55,9 +55,9 @@ printings:
     mtgo_foil_id: 43980
     mtgo_id: 43979
     name: Avacyn Restored
-    number: 79
+    number: '79'
     rarity: mythic_rare
-    release_date: '2012-05-04'
+    release_date: 2012-05-04
     tla: AVR
     variations: []
     wizards_id: 240070
@@ -74,9 +74,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: 'Ravnica Allegiance: Mythic Edition'
-    number: 2
+    number: '2'
     rarity: mythic_rare
-    release_date: '2019-01-26'
+    release_date: 2019-01-26
     tla: RNAMED
     variations: []
     wizards_id: null
@@ -94,9 +94,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Secret Lair
-    number: 396
+    number: '396'
     rarity: mythic_rare
-    release_date: '2019-12-09'
+    release_date: 2019-12-09
     tla: SLD
     variations: []
     wizards_id: null
@@ -114,22 +114,24 @@ subtype_tokens:
 synonyms: []
 tapped_id: 13645
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - "You have no maximum hand size.\r\n\r\nWhenever a card is put into your graveyard\
-        \ from anywhere, you many return it to your hand."
-    - - type
-      - Emblem
-    - - subtype
-      - 958
-    - - cannonical_type
-      - Emblem
-    - - name
-      - Emblem Tamiyo, the Moon Sage
+- cannonical_type: Emblem
+  colors: C
+  name: Emblem Tamiyo, the Moon Sage
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - AVR
+      - - name
+        - Avacyn Restored
+      - - number
+        - '8'
+      - - release_date
+        - '2012-05-04'
+  rules: "You have no maximum hand size.\r\n\r\nWhenever a card is put into your graveyard\
+    \ from anywhere, you many return it to your hand."
+  subtype: Tamiyo
+  type: Emblem
 type: Legendary Planeswalker
 url: https://tappedout.net/mtg-card/tamiyo-the-moon-sage/
 

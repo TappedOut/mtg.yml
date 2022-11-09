@@ -54,6 +54,7 @@ printings:
     alterations:
     - Normal
     - Foil
+    - Prerelease
     artist: Anastasia Ovchinnikova
     booster_exclude: false
     border_color: B
@@ -63,9 +64,9 @@ printings:
     mtgo_foil_id: null
     mtgo_id: null
     name: Modern Horizons 2
-    number: 35
+    number: '35'
     rarity: rare
-    release_date: '2021-06-18'
+    release_date: 2021-06-18
     tla: MH2
     variations:
     - identifier: '388'
@@ -85,21 +86,23 @@ subtype_tokens:
 synonyms: []
 tapped_id: 24381
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - B
-    - - power_toughness
-      - 4/4
-    - - rules
-      - Flying
-    - - type
-      - Token Creature
-    - - subtype
-      - 166
-    - - cannonical_type
-      - Creature
-    - - name
-      - Timeless Dragon 4/4 B
+- cannonical_type: Creature
+  colors: B
+  name: Timeless Dragon 4/4 B
+  power_toughness: 4/4
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - MH2
+      - - name
+        - Modern Horizons 2
+      - - number
+        - null
+      - - release_date
+        - '2021-06-18'
+  rules: Flying
+  subtype: Zombie Dragon
+  type: Token Creature
 type: Creature
 url: https://tappedout.net/mtg-card/timeless-dragon/
 

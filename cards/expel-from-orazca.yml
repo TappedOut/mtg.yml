@@ -4,6 +4,7 @@ canadian_hl_score: 0
 cannonical_set: RIX
 cannonical_type: Instant
 companions:
+- Gyruda, Doom of Depths
 - Jegantha, the Wellspring
 - Kaheera, the Orphanguard
 - Keruga, the Macrosage
@@ -53,9 +54,9 @@ printings:
     mtgo_foil_id: 66528
     mtgo_id: 66527
     name: Rivals of Ixalan
-    number: 37
+    number: '37'
     rarity: uncommon
-    release_date: '2018-01-19'
+    release_date: 2018-01-19
     tla: RIX
     variations: []
     wizards_id: 439694
@@ -69,21 +70,22 @@ slug: expel-from-orazca
 synonyms: []
 tapped_id: 20047
 tokens:
-- !!python/object/apply:collections.OrderedDict
-  - - - colors
-      - C
-    - - power_toughness
-      - null
-    - - rules
-      - ''
-    - - type
-      - Emblem
-    - - subtype
-      - null
-    - - cannonical_type
-      - Emblem
-    - - name
-      - City's Blessing
+- cannonical_type: Emblem
+  colors: C
+  name: City's Blessing
+  power_toughness: null
+  printings:
+  - !!python/object/apply:collections.OrderedDict
+    - - - tla
+        - RIX
+      - - name
+        - Rivals of Ixalan
+      - - number
+        - null
+      - - release_date
+        - '2018-01-19'
+  rules: ''
+  type: Emblem
 type: Instant
 url: https://tappedout.net/mtg-card/expel-from-orazca/
 
